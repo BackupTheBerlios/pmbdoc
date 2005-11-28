@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Recherche multicriteres</title>
+
+  <section>
+    <title>Ajout d'un critère de recherche</title>
+
+    <para>Pour lancer une recherche multicritères, cliquez sur le bouton
+    "recherche multicritères" sur la page d'accueil de l'OPAC.</para>
+
+    <para>Lors d'une recherche multicritères, vous affinez votre recherche par
+    l'utilisation de critères successifs.</para>
+
+    <figure>
+      <title>Bandeau de recherche multi-critères</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/multicrit.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Choisissez un champ de recherche dans la liste déroulante :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Champs principaux</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Titre</para>
+          </listitem>
+
+          <listitem>
+            <para>Auteur</para>
+          </listitem>
+
+          <listitem>
+            <para>Editeur</para>
+          </listitem>
+
+          <listitem>
+            <para>Collection</para>
+          </listitem>
+
+          <listitem>
+            <para>Sous-collection</para>
+          </listitem>
+
+          <listitem>
+            <para>Série</para>
+          </listitem>
+
+          <listitem>
+            <para>ISBN</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Notes</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Note générale</para>
+          </listitem>
+
+          <listitem>
+            <para>Note de contenu</para>
+          </listitem>
+
+          <listitem>
+            <para>Notes de résumé</para>
+          </listitem>
+
+          <listitem>
+            <para>Toutes les notes</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Indexations</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Sujet</para>
+          </listitem>
+
+          <listitem>
+            <para>Indexation décimale</para>
+          </listitem>
+
+          <listitem>
+            <para>Indexation libre</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Langues</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Langue de publication</para>
+          </listitem>
+
+          <listitem>
+            <para>Langue originale</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Types</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Type de notice</para>
+          </listitem>
+
+          <listitem>
+            <para>Type de document</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Exemplaires</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Localisation d'exemplaire</para>
+          </listitem>
+
+          <listitem>
+            <para>Section d'exemplaire</para>
+          </listitem>
+
+          <listitem>
+            <para>Propriétaire d'exemplaire</para>
+          </listitem>
+
+          <listitem>
+            <para>Type de support de l'exemplaire</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <para>Cliquez ensuite sur Ajouter.</para>
+
+    <para>Le critère que vous avez choisi est alors ajouté à la liste des
+    critères.</para>
+
+    <para>Les champs liés aux exemplaires</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Localisation</para>
+      </listitem>
+
+      <listitem>
+        <para>Section</para>
+      </listitem>
+
+      <listitem>
+        <para>Propriétaire</para>
+      </listitem>
+
+      <listitem>
+        <para>Type de support</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>fonctionnent différemment et vous affichent une liste de choix. Pour
+    sélectionner deux valeurs ou plus simultanément, maintenez la touche Ctrl
+    du clavier appuyée en cliquant sur les valeurs choisies.</para>
+
+    <para>Pour chaque critère, spécifiez le ou les mots ou expressions à
+    rechercher. Vous pouvez ensuite choisir où se trouvent le ou les mots
+    recherchés dans le champ, à l'aide du menu déroulant :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>contient au moins un des mots</para>
+      </listitem>
+
+      <listitem>
+        <para>contient tous les mots</para>
+      </listitem>
+
+      <listitem>
+        <para>commence par</para>
+      </listitem>
+
+      <listitem>
+        <para>fini par</para>
+      </listitem>
+
+      <listitem>
+        <para>exactement comme</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Le champ ISBN accepte uniquement le choix "commence par" ; les
+    champs liés aux exemplaires nécessitent uniquement un choix dans la
+    liste.</para>
+  </section>
+
+  <section>
+    <title>Combinaison des critères de recherche</title>
+
+    <para>Pour chaque nouveau critère ajouté, vous devez spécifier les liens
+    entre les différents critères : et/ou/sauf.</para>
+
+    <para>Les critères se cumulent dans un ordre inversé : le premier critère
+    choisi sera le dernier appliqué. </para>
+    
+    <para>Vous pouvez spécifier deux conditions pour un même critère, par exemple Titre commence par... et Titre contient les mots...</para>
+    
+  </section>
+</chapter>

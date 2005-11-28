@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter lang="fr">
+  <title>Introduction</title>
+
+  <para></para>
+
+  <sect1>
+    <title>Au sujet de PMB</title>
+
+    <para>PMB est un SIGB (Système Intégré de Gestion de Bibliothèque)
+    entièrement libre. Le terrain des logiciels de bibliothèque est presque
+    exclusivement occupé par des produits propriétaires. Nous sommes quelques
+    bibliothécaires, utilisateurs et développeurs à déplorer cet état de
+    fait.</para>
+
+    <para>PMB est basé sur des technologies issues du Web. C'est ce que l'on
+    appelle parfois une `web-app`. Il se fonde sur un serveur HTTP
+    (basiquement Apache mais ce n'est pas une obligation), la base de donnée
+    MySQL et le langage PHP.</para>
+
+    <para>Les principales fonctionnalités de PMB sont :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Le support du format UNIMARC</para>
+      </listitem>
+
+      <listitem>
+        <para>La gestion des autorités (responsables, éditeurs, collections,
+        matières...)</para>
+      </listitem>
+
+      <listitem>
+        <para>La gestion du prêt, des réservations, des emprunteurs...</para>
+      </listitem>
+
+      <listitem>
+        <para>Un paramétrage simple</para>
+      </listitem>
+
+      <listitem>
+        <para>La possibilité d'importer des notices</para>
+      </listitem>
+
+      <listitem>
+        <para>Un OPAC simplifié intégrant un "butineur"</para>
+      </listitem>
+
+      <listitem>
+        <para>Un module de gestion des documents BDP pouvant convenir aux plus
+        petits établissements</para>
+      </listitem>
+
+      <listitem>
+        <para>La gestion des périodiques</para>
+      </listitem>
+
+      <listitem>
+        <para>Une administration simplifiée pouvant être assurée par le
+        personnel de la bibliothèque...</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Vous pouvez trouver des informations supplémentaires sur
+    www.sigb.net</para>
+
+    <para>Vous y trouverez aussi une version de démonstration en ligne, le
+    site des utilisateurs de PMB, les dernières versions du Guide
+    d'Installation, du Guide de l'utilisateur et du Guide de l'Administrateur
+    PMB.</para>
+  </sect1>
+
+  <sect1>
+    <title>Où trouver des informations sur PMB</title>
+
+    <para>Sur le site de PMB : www.sigb.net</para>
+
+    <para>Sur le site de la communauté des utilisateurs :
+    www.sigb.net/communaute</para>
+
+    <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
+    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
+    pmb.user_request@sigb.net)</para>
+
+    <para>Sur la mailing liste des traducteurs, des développeurs, du support
+    de l'unicode (alphabets non européens). Pour plus de renseignements sur
+    ces listes, consulter www.sigb.net</para>
+
+    <para>Cette documentation est consultable en ligne sur www.sigb.net/doc,
+    elle est disponible aux formats XML (format de rédaction), HTML, RTF et
+    PDF.</para>
+  </sect1>
+
+  <sect1>
+    <title>Références</title>
+
+    <para><emphasis role="bold">Auteurs</emphasis></para>
+
+    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+
+    <para><emphasis role="bold">Installation sur les différentes plateforme</emphasis></para>
+
+    <para>Les crédits des différents auteurs se trouvent en entête de leurs contributions.</para>
+
+    <para>PMB est libre de droit, le code du logiciel est du à la
+    collaboration de nombreux développeurs, dont les auteurs de ce manuel.
+    Merci à tous.</para>
+
+    <para><emphasis role="bold">Version de ce fichier d'aide</emphasis></para>
+
+    <para>Tiré de user_guide.xml. Vous pouvez trouver une version PDF de ce
+    document sur www.sigb.net en cherchant install_guide.pdf'.</para>
+
+	<para>Ce Guide d'Installation correspond à la version 1.3 de PMB</para>
+	
+    <para><emphasis role="bold">Version enregistrée sur le
+    CVS</emphasis></para>
+
+    <para>$Id: install_guide.lyx,v 1.5 2004/04/04 12:19:46 gautiermichelin Exp
+    $</para>
+  </sect1>
+
+  <sect1>
+    <title>CVS</title>
+
+    <para>CVS signifie Concurrent Version System. Il s'agit d'un système de
+    gestion de mise à jour de code source pour programmeurs.</para>
+
+    <para>PMB dispose d'un CVS. Le CVS est accessible aux
+    développeurs. N'hésitez pas à nous contacter si vous souhaitez aider au
+    développement de PMB ou participer à la rédaction de la
+    documentation.</para>
+
+    <para>Pour plus d'informations, cherchez CVS sur www.sigb.net</para>
+  </sect1>
+</chapter>

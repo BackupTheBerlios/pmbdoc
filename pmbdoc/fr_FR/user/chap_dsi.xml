@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Diffusion sélective de l'information (DSI)</title>
+
+  <para>La diffusion sélective de l'information (DSI) est un outil de veille
+  documentaire.</para>
+
+  <sect1>
+    <title>Introduction</title>
+
+    <sect2>
+      <title>Définition</title>
+
+      <para>La <emphasis role="bold">diffusion sélective de
+      l’information</emphasis> est un service qui consiste à diffuser aux
+      usagères et aux usagers, de façon régulière, les résultats d’un profil
+      de recherche personnalisé. Il s'agit d'un outil de veille documentaire.
+      La DSI permet de communiquer les nouveautés du fonds documentaire sur un
+      sujet ou dans un domaine précis.</para>
+
+      <para>On peut également parler de "profil documentaire" ou "profil
+      personnalisé" ou "profil de recherche".</para>
+    </sect2>
+
+    <sect2>
+      <title>DSI privée et publique</title>
+
+      <para>La diffusion sélective de l'information permet d'alerter les
+      utilisateurs de la parution récente de documents, d'informations
+      rentrant dans leurs domaines d'intérêts et d'être ainsi au courant de
+      l'actualité. La DSI est une mise à jour perpétuelle des connaissances
+      d'un utilisateur ou d'un groupe d'utilisateurs. Cette mise à jour est
+      réalisée grâce à l'envoi régulier des références les plus récentes. On
+      distingue donc deux types de diffusion sélective d'information :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>l'une correspond à la fourniture de références
+          bibliographiques répondant au profil d'un seul utilisateur : la
+          diffusion est alors strictement " individuelle ", on parle de "
+          profil personnalisé ". Ce seront les <emphasis role="bold">bannettes
+          privées de PMB</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para>l'autre correspond à la fourniture de listes bibliographiques
+          plus larges répondant au profil d'intérêt d'un groupe homogène
+          d'utilisateurs. C'est un " profil de groupe " qui se traduit
+          généralement par une proposition de différents " profils standards "
+          Ce seront les <emphasis role="bold">bannettes publiques de
+          PMB</emphasis>.</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Activer la DSI</title>
+
+    <sect2>
+      <title>Afficher l'onglet DSI</title>
+
+      <para><inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="images/warning.gif" />
+          </imageobject>
+        </inlinemediaobject> Si la DSI n'est pas activée, vous ne verrez pas
+      l'onglet DSI de PMB. Pour activer la DSI, dans Administration, Outils,
+      Paramètres, Diffusion Sélective de l'Information, activer la DSI.</para>
+
+      <para><emphasis role="bold">Attention</emphasis> l'utilisateur de PMB
+      doit avoir le droit d'accéder à l'onglet DSI. Dans Administration,
+      Utilisateurs, modifier et cocher DSI pour un ou plusieurs
+      utilisateurs.</para>
+
+      <para>Pour plus d'information sur le paramétrage de PMB, consulter le
+      <emphasis role="bold">Guide de l'Administrateur PMB</emphasis>. Afin de
+      faciliter le paramétrage de la DSI, voici ici la liste des paramètres
+      concernés :</para>
+
+      <table>
+        <title>Administration &gt; Outils &gt; Paramètres, type Diffusion
+        Sélective de l'information (dsi)</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>sous-type</entry>
+
+              <entry>valeur par défaut</entry>
+
+              <entry>commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>active</entry>
+
+              <entry>0</entry>
+
+              <entry>D.S.I activée ? 0: Non 1: Oui</entry>
+            </row>
+
+            <row>
+              <entry>auto</entry>
+
+              <entry>0</entry>
+
+              <entry>D.S.I automatique activée ? 0: Non 1: Oui</entry>
+            </row>
+
+            <row>
+              <entry>insc_categ</entry>
+
+              <entry>0</entry>
+
+              <entry>Inscription automatique dans les bannettes de la
+              catégorie du lecteur en création ? 0: Non 1: Ouixs</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2>
+      <title>DSI et OPAC</title>
+
+      <para>La DSI sera également visible dans l'OPAC pour le lecteur qui se
+      sera identifié. Pour activer la DSI dans l'OPAC, modifier les paramètres
+      dans Administration &gt; Outils &gt; Paramètres, type OPAC, section
+      Options concernant la DSI.</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>DSI publique</title>
+
+    <sect2 id="dsi_diffusion">
+      <title>Diffusion</title>
+
+      <para>La diffusion est la dernière étape de la DSI. Une fois une ou des
+      bannettes créées, et que des équations y aient été attribuées, vous
+      pouvez diffuser l'information.</para>
+
+      <para>La diffusion automatique présente à la fois les banettes de
+      diffusion publique et celles de diffusion privée.</para>
+    </sect2>
+
+    <sect2 id="diffusion">
+      <title>Bannettes</title>
+
+      <para>Permet de créer des utilisateurs en leur donnant noms et mots de
+      passes, ainsi que le droit d'accéder ou non aux différents
+      onglets.</para>
+    </sect2>
+
+    <sect2 id="dsi_equations">
+      <title>Equations</title>
+
+      <para>Cette partie de l'onglet administration contient des outils de
+      maintenance pour la base de données MySQL, le système de mise à jour de
+      la base de données lorsque vous téléchargez une nouvelle version de PMB,
+      ainsi que les paramètres de l'application.</para>
+
+      <para>C'est en éditant ces paramètres que vous pourrez indiquer le nom
+      de votre bibliothèque, ses heures d'ouverture, le fonctionnnement de
+      votre OPAC...</para>
+    </sect2>
+
+    <sect2 id="dsi_options">
+      <title>Options</title>
+
+      <para>Cette partie de l'onglet administration contient des outils de
+      maintenance pour la base de données MySQL, le système de mise à jour de
+      la base de données lorsque vous téléchargez une nouvelle version de PMB,
+      ainsi que les paramètres de l'application.</para>
+
+      <para>C'est en éditant ces paramètres que vous pourrez indiquer le nom
+      de votre bibliothèque, ses heures d'ouverture, le fonctionnnement de
+      votre OPAC...</para>
+    </sect2>
+
+    <sect2>
+      <title>Exemple d'utilisation pas à pas de la DSI</title>
+
+      <para>Onglet DSI : - Equations, gestion, cliquez sur ajouter pour créer
+      une équation de recherche.</para>
+
+      <figure>
+        <title>Rechercher ou ajouter une bannette</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_rechercher_bannette.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>et lancer la recherche, par exemple :</para>
+
+      <figure>
+        <title>Recherche multi-critères</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_recherche_multicritere_.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Résultat de la recherche multi-critères</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_recherche_multicritere.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>A l'affichage des résultats, il est possible de cliquer sur
+      "Transformer en équation DSI"</para>
+
+      <para>Donner un nom à l'équation puis Enregistrer</para>
+
+      <figure>
+        <title>Création d'une équation</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_creation_equation_2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">Note </emphasis>: vous pourrez à tout moment
+      modifier une équation de recherche, ce qui permettra de modifier,
+      ajouter ou retirer des critères à l'équation de recherche. Afficher les
+      différentes équations de recherche et cliquez sur une Equation pour la
+      modifier.</para>
+
+      <figure>
+        <title>Affichage de la liste des équations disponibles</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_rechercher_bannette_res.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Modification d'une équation</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_modification_equation.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Bannettes, publiques, ajouter : donner un nom à la bannette,
+      cocher bannette automatique, périodicité (1 par ex.), nombre de notices
+      (50 par ex.), choisir une catégorie de lecteurs et cocher diffusion par
+      email. Enregistrer</para>
+
+      <figure>
+        <title>Création d'une bannette</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_creation_bannette.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Lorsque vous changez la catégorie de lecteurs concernée, une
+      alerte javascript s'ouvre à l'écran. Cette alerte vous permet de mettre
+      à jour immédiatement les abonnements de lecteurs.</para>
+
+      <figure>
+        <title>Alerte javascript</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_alerte_javascript.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Liste des bannettes</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_liste_bannette_2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Cliquer sur la bannette, dans la colonne Equations associées pour
+      affecter une ou plusieurs Equations à la bannette.</para>
+
+      <figure>
+        <title>Association des équations à la bannette</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_associer_equations_bann.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Association des équations à la bannette : cocher l'équation,
+      enregistrer.</para>
+
+      <figure>
+        <title>Affection aux abonnés d'une bannette</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_affectation_bannette_ab.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>En cliquant sur Abonnés vous pouvez choisir les lecteurs,
+      sélectionnez les et cliquez sur Enregistrer.</para>
+
+      <figure>
+        <title>Liste des bannettes après association d'équation et
+        d'abonnés</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_liste_bannette.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Aller ensuite modifier une notice correspondant à votre équation
+      de recherche -</para>
+
+      <para>DSI, Diffusion, Automatique, Suivant : cocher votre bannette,
+      cliquer sur remplir. Normalement, le nbre de notices change.</para>
+
+      <para></para>
+
+      <figure>
+        <title>Liste des bannettes pour réaliser une action</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_liste_bannette_pour_act.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Vous pouvez alors diffuser.</para>
+
+      <figure>
+        <title>Résultat d'une action réalisée</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_vidage_remplissage_envo.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Il faut bien sur que vos lecteurs aient une adresse email pour
+      qu'il reçoive le contenu de la bannette par mail. Le mail qui sera
+      envoyé est ouvert à l'écran dans un popup.</para>
+
+      <para><emphasis role="bold">Attention</emphasis> l'adresse de votre
+      serveur SMTP dans votre configuration php doit être défini.</para>
+
+      <figure>
+        <title>Envoi du contenu d'une bannette aux lecteurs abonnés</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_bannette_envoyee.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Si le lecteur se connecte dans l'OPAC, il peut voir le contenu de
+      la bannette après s'être connecté.</para>
+
+      <para><figure>
+          <title>Affichage du compte lecteur dans l'OPAC</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/dsi_perso_opac.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>En cliquant sur Accéder à votre information personnalisée,
+      vous pouvez voir les bannettes auxquelles vous êtes abonnés.</para>
+
+      <figure>
+        <title>Ecran des informations du lecteur dans l'OPAC, après avoir
+        cliqué sur Accéder à votre information personnalisée</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_banettes_opac.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Comme pour toute notice dans l'OPAC, vous pouvez soit la déplier
+      en cliquant sur le bouton + soit l'afficher en cliquant sur son titre.
+      Vos possibilités dépendent du paramètre de l'OPAC
+      bannette_notices_depliables. Pour plus d'information, consulter le Guide
+      de l'Administrateur PMB.</para>
+
+      <figure>
+        <title>Affichage d'une notice dans l'OPAC</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_notice_opac.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>DSI privée</title>
+
+    <para>La DSI privée est disponible depuis la version stable de PMB
+    2.1.</para>
+
+    <para>Elle permet à chaque lecteur identifié de concevoir un "profil
+    documentaire" lui permettant de connaître les nouveautés de la
+    bibliothèque ou du centre de documentation correspondant à ses centres
+    d'intérêts.</para>
+
+    <para><emphasis role="bold">attention</emphasis> les DSI personnalisées
+    configurées dans l'OPAC ne sont visibles qu'à un endroit dans l'interface
+    de gestion de PMB : DSI &gt; bannettes &gt; privées</para>
+
+    <para>Les bannettes de DSI privée sont <emphasis role="bold">non
+    classées</emphasis>.</para>
+
+    <para>La <emphasis role="bold">diffusion </emphasis>de la DSI privée est
+    <emphasis role="bold">obligatoirement automatique</emphasis>.</para>
+
+    <para>Les équations privées ne sont pas gérables dans l'onglet DSI de
+    PMB.</para>
+
+    <para>La DSI privée est organisée de la manière suivante :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>un lecteur se constitue une banette privée (pas de
+        catégorisation possible)</para>
+      </listitem>
+
+      <listitem>
+        <para>il affecte à cette banette une et une seule équation de
+        recherche (pas de possibilité d'affecter plusieurs équations de
+        recherche à une seule banette privée, il faut réaliser différentes
+        banettes)</para>
+      </listitem>
+
+      <listitem>
+        <para>la banette sera réservée pour ce seul lecteur et n'est pas
+        diffusable</para>
+      </listitem>
+    </itemizedlist>
+
+    <sect2>
+      <title>Diffusion</title>
+
+      <para>La diffusion est la dernière étape de la DSI. Une fois une ou des
+      bannettes créées, et que des équations y aient été attribuées, vous
+      pouvez diffuser l'information.</para>
+
+      <para>La diffusion automatique présente à la fois les banettes de
+      diffusion publique et celles de diffusion privée.</para>
+    </sect2>
+  </sect1>
+</chapter>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter lang="fr" id="install_informations_importantes">
+  <title>Informations importantes</title>
+
+  <sect1>
+    <title>Où trouver des informations sur PMB</title>
+
+    <para>Sur le site de PMB : www.sigb.net</para>
+
+    <para>Sur le site de la communauté des utilisateurs :
+    www.sigb.net/communaute</para>
+
+    <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
+    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
+    pmb.user_request@sigb.net)</para>
+
+    <para>Sur la mailing liste des traducteurs, des développeurs, du support
+    de l'unicode (alphabets non européens). Pour plus de renseignements sur
+    ces listes, consulter www.sigb.net</para>
+
+    <para>Cette documentation est consultable en ligne sur www.sigb.net/doc,
+    elle est disponible aux formats HTML et PDF.</para>
+
+    <para><emphasis role="bold">Important</emphasis> : PMB possède également
+    des fichiers de documentations dans "VOTRE_REP_PMB/doc". Les fichiers
+    pre_requisite.txt et install.txt sont à consulter.</para>
+  </sect1>
+
+  <sect1>
+    <title>Mise à jour d'une installation existante</title>
+
+    <para><emphasis>ATTENTION</emphasis></para>
+
+    <para>Si vous faites une mise-à-jour à partir d'une version existante en
+    décompressant l'archive :</para>
+
+    <para>Allez en <emphasis role="bold">Administration</emphasis>; Rubrique
+    <emphasis role="bold">Outils</emphasis> ; Choisissez l'option <emphasis
+    role="bold">M.à.J. base</emphasis> afin de mettre à jour le noyau de votre
+    base de données. Vous n'avez pas besoin de réinstaller la base de données,
+    vos données actuelles seront conservées sans aucune perte.</para>
+  </sect1>
+
+  <sect1>
+    <title>Pré-requis d'installation</title>
+
+    <para>PMB est une application 3 tiers basé sur un environnement Web
+    classique. Pour fonctionner elle nécessite :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Côté serveur :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Un serveur Web quelconque capable d'intégrer le langage
+            PHP</para>
+          </listitem>
+
+          <listitem>
+            <para>Le langage PHP pour exécuter les scripts. Spécificités du
+            langage PHP requises :</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>Version supérieure ou égale à 4.2, version 5 non
+                testée</para>
+              </listitem>
+
+              <listitem>
+                <para>Modules impératifs : MySQL, GD, XSLT</para>
+              </listitem>
+
+              <listitem>
+                <para>Modules optionnels pour activer certaines
+                fonctionnalités : YAZ pour la recherche Z3950, bz2 pour la
+                compression directe des sauvegardes.</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>Un serveur de base de données MySQL de version supérieure ou
+            égale à 3.23</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <itemizedlist>
+      <listitem>
+        <para>Coté client :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Un navigateur Web de génération récente (MS I.E. 6, Netscape
+            7, ...) quelque soit la plate-forme : Windows, Linux, MacOS, UNIX,
+            Solaris, BeOS...</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <para>Il est possible de faire fonctionner PMB en monoposte. Dans ce cas,
+    le serveur et le client sont la même machine. Dans ce cas, l'adresse
+    réseau du serveur sera http://localhost/ ou avec l'adresse IP
+    http://127.0.0.1/ ces deux adresses renvoient à l'hôte local, soit pour
+    l'ordinateur client "soi-même".</para>
+
+    <para>De même client et serveur peuvent être distincts, soit sur le réseau
+    local de la bibliothèque, soit via internet. Il est possible également de
+    séparer le serveur MySQL hébergeant les données.</para>
+  </sect1>
+
+  <sect1>
+    <title>Configurer son serveur avant d'installer PMB</title>
+
+    <para>Ces informations sont disponibles dans le fichier
+    <emphasis>votre_rep_pmb/doc/pre_requisite.txt</emphasis></para>
+
+    <para>Version de pre_requisite.txt reprise ici
+    <emphasis>pre_requisite.txt,v 1.4 2004/08/08 17:38:52
+    touraine37</emphasis></para>
+
+    <para><emphasis role="bold">Configuration de PHP :
+    php.ini</emphasis></para>
+
+    <para>Position de ce fichier avec une installation sur Windows :</para>
+
+    <para>\windows\</para>
+
+    <para>ou :</para>
+
+    <para>\rep_install_apache\apache\</para>
+
+    <para><emphasis>Que faut-il vérifier :</emphasis></para>
+
+    <para>Librairie GD : vérifier qu'elle est disponible et activée
+    (génération de code-barre)</para>
+
+    <para>Librairie PHP_YAZ : vérifier qu'elle est disponible et activée
+    (recherche z3950)</para>
+
+    <para>Librairie PHP_BZ2 : vérifier qu'elle est disponible et activée
+    (sauvegardes de la base)</para>
+
+    <para>Librairie PHP_XSLT : vérifier qu'elle est disponible et activée
+    (sauvegardes de la base)</para>
+
+    <para><emphasis>Ce qu'il faut modifier dans le fichier php.ini
+    :</emphasis></para>
+
+    <para><literal>;;;;;;;;;;;;;;;;;;;</literal></para>
+
+    <para><literal>Resource Limits ;</literal></para>
+
+    <para><literal>;;;;;;;;;;;;;;;;;;;</literal></para>
+
+    <para><literal>max_execution_time = 120 ; </literal>Maximum execution time
+    of each script, in seconds</para>
+
+    <para>à pousser à 120 secondes</para>
+
+    <para>Extensions :</para>
+
+    <para><literal>extension=php_bz2.dll</literal></para>
+
+    <para><literal>extension=php_gd.dll</literal> ou
+    extension=php_gd2.dll</para>
+
+    <para><literal>extension=php_yaz.dll</literal></para>
+
+    <para><literal>extension=php_xslt.dll</literal></para>
+
+    <para>Les DLL correspondantes doivent être copiées dans \windows\system32,
+    attention, bien prendre les dll fournies avec votre distribution de php,
+    question de compatibilité de compilation.</para>
+
+    <para>Ces DLL doivent être disponibles dans le répertoire de PHP ou
+    php\dlls pour une installation de php indépendante ou EasyPHP\php pour une
+    installation avec EasyPHP Les DLL sont les suivantes : expat.dll,
+    iconv.dll, sablot.dll, yaz.dll</para>
+
+    <para>Afin de pouvoir charger des fichiers de taille importante dans les
+    documents numériques attachés, il faut agmenter la taille du max upload
+    :</para>
+
+    <para><literal>Maximum allowed size for uploaded files.</literal></para>
+
+    <para><literal>upload_max_filesize = 16M</literal></para>
+
+    <para>Cas particulier :</para>
+
+    <para><literal>extension=php_mime_magic.dll</literal></para>
+
+    <para><literal>mime_magic.magicfile =
+    "c:\easyphp\php\magic.mime"</literal></para>
+
+    <para>Cette extension, facultative, permet de récupérer les types de
+    fichier des documents numériques de façon propre. A défaut, PMB utilisera
+    l'extension de fichier pour retrouver ses petits. Pensez à renseigner
+    (voire à créer) la ligne</para>
+
+    <para><literal>mime_magic.magicfile =
+    "c:\easyphp\php\magic.mime"</literal></para>
+
+    <para>en donnant le bon chemin d'accès au fichier magic.mime.</para>
+
+    <para>Pour une installation sous Linux, les paramètres de php.ini sont les
+    mêmes mis à part les extensions qui sont des ".so" et qui vous obligeront
+    vraisemblablement à recompiler si vous n'avez pas toutes les bonnes
+    dernières versions à jour. Par chance, certaines distributions incluent
+    ces packages compilés, ou téléchargeables sur le web sans nécessiter de
+    compilation.</para>
+
+    <para>Consulter à ce sujet la partie dédiée à votre système d'exploitation
+    dans ce <emphasis>Guide d'Installation PMB</emphasis>.</para>
+
+    <para><emphasis role="bold">Installation de la librairie
+    php_xslt.dll</emphasis></para>
+
+    <para>Sous Windows et EasyPHP, il faut activer la librairie php_xslt.dll
+    dans le fichier php.ini et copier les dlls expat.dll, iconv.dll,
+    sablot.dll du répertoire EasyPHP\php dans Windows\System.</para>
+
+    <para><emphasis role="bold">Configuration particulière de
+    MySQL</emphasis></para>
+
+    <para>Afin de pouvoir charger des documents numériques de taille
+    importante, il faut augmenter la taille des paquets de MySQL. Recherchez
+    le fichier my.ini ou équivalent, recherchez la ligne :</para>
+
+    <para><literal>set-variable = max_allowed_packet=1M</literal></para>
+
+    <para>et fixez-la à</para>
+
+    <para><literal>set-variable= max_allowed_packet=16M</literal></para>
+
+    <para>Notez le 16M qui vous donne droit à stocker des fichiers jusqu'à 16
+    Mo</para>
+  </sect1>
+</chapter>

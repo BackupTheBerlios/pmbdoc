@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="autorites">
+  <title>Autorités</title>
+
+  <sect1 id="autorites_auteurs">
+    <title>Auteurs</title>
+
+    <para>Les auteurs gérés par PMB correspondent à des mentions de
+    responsabilités : ainsi un film sur cassette vidéo aura un réalisateur
+    mais pas d'auteur au sens propre du terme. Lorsque vous saisissez une
+    nouvelle notice vous saisissez un auteur et sa fonction par rapport à
+    l'ouvrage.</para>
+
+    <sect2>
+      <title>Rechercher et éditer un auteur</title>
+
+      <para>Dans l'écran <emphasis>Autorités/Auteurs</emphasis>, vous pouvez
+      rechercher un auteur existant, ou créer un nouvel auteur. Vous pouvez
+      ainsi ajouter de nouvelles informations à un auteur, comme sa date de
+      naissance et sa date de décès.</para>
+
+      <para>L'écran Autorités/Auteurs présente par défaut les résultats d'une
+      recherche portant sur tous les auteurs.</para>
+
+      <para>Vous pouvez également cliquer sur le lien <emphasis
+      role="bold">Voir les derniers auteurs créés </emphasis> pour afficher
+      les dix derniers auteurs ajoutés dans la base.</para>
+
+      <para>Si un auteur a écrit sous un pseudonyme vous pouvez saisir un
+      renvoi vers un autre auteur, qui sera le vrai nom de cette personne. De
+      même pour une femme mariée, vous pouvez souhaiter faire un renvoi de son
+      nom de jeune fille vers son nom d'usage.</para>
+
+      <figure>
+        <title>Autorités &gt; Auteurs</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/autorites_auteurs.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+     <sect3 id="autorites_recherche_auteur">
+	  <para>Pour afficher les informations d'un auteur, saisir une partie de
+      son nom et cliquer sur Rechercher. Sélectionnez le ensuite parmi les
+      résultats possibles.</para>
+
+      <para>Vous pouvez également directement sélectionner un auteur parmi la
+      liste des derniers auteurs, ou parmi la liste alphabétique proposée par
+      défaut.</para>
+	</sect3>
+	
+      <sect3 id="autorites_modification_auteur">
+        <title id="autorites_modification_auteur.title">Modification d'un
+        auteur</title>
+
+        <figure>
+          <title>Autorités &gt; Auteurs, édition d'un auteur</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/autorites_auteurs_edit.jpg" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Différentes données peuvent être saisies pour un auteur :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">type</emphasis> :
+            <emphasis>personne</emphasis> <emphasis>physique</emphasis> ou
+            <emphasis>collectivité</emphasis>. Une collectivité peut être une
+            association, une entreprise...</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">élément d'entrée</emphasis> : le nom
+            pour une personne physique ou pour une collectivité</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">élément rejeté </emphasis>: le prénom
+            pour une personne physique</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">dates</emphasis> : date de naissance
+            et de mort pour une personne physique, date de création et de fin
+            d'existence pour une collectivité</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">forme retenue</emphasis> : système de
+            renvoi entre deux auteurs. Cliquez sur le bouton "..." pour ouvrir
+            un popup et cliquer sur le nom d'un auteur pour créer le renvoi.
+            Pour effacer un renvoi saisi, cliquez sur le bouton "X"</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">site web </emphasis>: site web
+            personnel de la personne physique ou en rapport avec elle
+            (biographie par exemple), site web de la collectivité le cas
+            échéant.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer
+        un auteur. <emphasis role="bold">Attention</emphasis> un auteur ne
+        peut être supprimé que s'il n'est utilisé dans aucune notice.</para>
+
+        <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+        savoir dans quels ouvrages est mentionné l'auteur. Il lance une
+        recherche dans l'onglet catalogue pour l'auteur correspondant. Ceci
+        permet notamment de savoir pourquoi la suppression de cet auteur est
+        impossible.</para>
+
+        <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet
+        de remplacer un auteur par un autre, pour éliminer des doublons mals
+        orthographiés par exemple.</para>
+      </sect3>
+
+      <sect3 id="autorites_ajout_auteur">
+        <title>Ajouter un auteur</title>
+
+        <figure>
+          <title>Autorités &gt; Auteurs, ajout d'un auteur</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/autorites_auteurs_ajout.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>L'ajout d'un auteur est identique à l'édition. Pour plus
+        d'informations, consulter plus haut la section <xref
+        linkend="autorites_modification_auteur" /></para>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>Faciliter le catalogage : normaliser la saisie des
+      auteurs</title>
+
+      <para>Saisir le nom comme le prénom avec une majuscule initiale, le
+      reste en minuscules.</para>
+
+      <para>Le nom est l'élément d'entrée, le prénom est l'élément
+      rejeté.</para>
+
+      <para>Dans les cas particuliers, en cas de doute, ne rien saisir en
+      élément rejeté.</para>
+
+      <para>Pour les particules françaises (noblesse), les "de", "des", "du"
+      sont rejeté. Les éléments de noms ne sont pas rejeté (La Fontaine par
+      exemple).</para>
+
+      <para>Les tirets sont conservés.</para>
+
+      <para>Pour les noms composés de femmes, saisir trois auteurs : un avec
+      le nom composé, un au nom patronymique, un au nom d'usage ; en prévoyant
+      les renvois (zone forme retenue sous PMB) vers la forme retenue par
+      l'auteur dans l'ouvrage.</para>
+
+      <para>Voici quelques exemples :</para>
+
+      <table>
+        <title>Exemples de saisies d'auteur : éléments d'entrée, éléments
+        rejetés</title>
+
+        <tgroup cols="4">
+          <thead>
+            <row>
+              <entry>Nom de l'auteur</entry>
+
+              <entry>Element d'entrée</entry>
+
+              <entry>Elément rejeté</entry>
+
+              <entry>Affichage obtenu</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>The Beatles</entry>
+
+              <entry>Beatles</entry>
+
+              <entry>The</entry>
+
+              <entry>Beatles, The</entry>
+            </row>
+
+            <row>
+              <entry>Michael Hoeye</entry>
+
+              <entry>Hoeye</entry>
+
+              <entry>Michael</entry>
+
+              <entry>Hoeye, Michael</entry>
+            </row>
+
+            <row>
+              <entry>Jean-Paul II</entry>
+
+              <entry>Jean-Paul II</entry>
+
+              <entry></entry>
+
+              <entry>Jean-Paul II</entry>
+            </row>
+
+            <row>
+              <entry>Louis XIV</entry>
+
+              <entry>Louis XIV</entry>
+
+              <entry></entry>
+
+              <entry>Louis XIV</entry>
+            </row>
+
+            <row>
+              <entry>Bernard de La Barre de Nanteuil</entry>
+
+              <entry>La Barre de Nanteuil</entry>
+
+              <entry>Bernard de</entry>
+
+              <entry>La Barre de Nanteuil, Bernard de</entry>
+            </row>
+
+            <row>
+              <entry>Jean de La Fontaine</entry>
+
+              <entry>La Fontaine</entry>
+
+              <entry>Jean de</entry>
+
+              <entry>La Fontaine, Jean de</entry>
+            </row>
+
+            <row>
+              <entry>Didier Van Cauwelaert</entry>
+
+              <entry>Van Cauwelaert</entry>
+
+              <entry>Didier</entry>
+
+              <entry>Van Cauwelaert, Didier</entry>
+            </row>
+
+            <row>
+              <entry>Françoise Barret-Ducrocq</entry>
+
+              <entry>Barret-Ducrocq</entry>
+
+              <entry>Françoise</entry>
+
+              <entry>Barret-Ducrocq, Françoise</entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Ducrocq</entry>
+
+              <entry>Françoise</entry>
+
+              <entry>Ducrocq, Françoise <emphasis>renvoi vers</emphasis>
+              Barret-Ducrocq, Françoise</entry>
+            </row>
+
+            <row>
+              <entry></entry>
+
+              <entry>Barret</entry>
+
+              <entry>Françoise</entry>
+
+              <entry>Barret, Françoise <emphasis>renvoi vers</emphasis>
+              Barret-Ducrocq, Françoise</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <para>En cas de rejet, le préfixe est rejeté après la virgule (ex : La
+      Fontaine, Jean de).</para>
+
+      <para>Le rejet des préfixe des noms dépend de la nationalité des
+      auteurs. Ainsi le rejet de la particule "de" dépend de la nationalité de
+      l'auteur.</para>
+
+      <table>
+        <title>Exemples de rejets de préfixe selon les nationalités des
+        auteurs</title>
+
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Préfixe</entry>
+
+              <entry>Rejet</entry>
+
+              <entry>Maintien</entry>
+            </row>
+
+            <row>
+              <entry>D', DE</entry>
+
+              <entry>auteurs français, espagnols, portugais</entry>
+
+              <entry>auteurs anglo-américains, belges et italiens</entry>
+            </row>
+
+            <row>
+              <entry>DA</entry>
+
+              <entry>auteurs portugais et brésiliens</entry>
+
+              <entry>auteurs italiens</entry>
+            </row>
+
+            <row>
+              <entry>DEL</entry>
+
+              <entry>auteurs espagnols</entry>
+
+              <entry>auteurs italiens</entry>
+            </row>
+
+            <row>
+              <entry>LE, LA, LAS, LOS</entry>
+
+              <entry></entry>
+
+              <entry>maintien général sauf auteurs espagnols et
+              sud-américains</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+
+  <sect1 id="autorites_categ">
+    <title>Catégories</title>
+
+    <sect2>
+      <title>Préambule</title>
+
+      <para>Les catégories ne sont pas des vedettes Rameau : leur choix doit
+      permettre une exploration par une arborescence concentrée et structurée.
+      Ce choix des développeurs de PMB est davantage à rapprocher d'une sorte
+      de classification thématique à la logique arborescente proches de la CDU
+      ou DEWEY.</para>
+    </sect2>
+
+    <sect2>
+      <title>Parcours et édition des catégories</title>
+
+      <para>Les catégories sont un moyen de ranger dans la base les ouvrages
+      et d'organiser les informations pour faciliter la recherche notamment
+      pour les utilisateurs via l'OPAC.</para>
+
+      <para>Le but est de regrouper les ouvrages dans une arborescence de
+      catégories et de sous-catégories. PMB vous est fourni avec une liste de
+      catégories qui s'avérera efficace dans le cas d'un centre documentaire
+      généraliste.</para>
+
+      <para>Si vous gérez des ressources spécialisées, il vous faudra adapter
+      ces catégories à votre usage, par exemple à votre thésaurus
+      utilisé.</para>
+
+      <para><figure>
+          <title>Autorités &gt; Catégories</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/autorites_categ.jpg" />
+            </imageobject>
+          </mediaobject>
+        </figure>Pour parcourir cette arborescence, cliquez sur les icônes des
+      dossiers pour les ouvrir. Un clic sur le nom de la catégorie entraîne sa
+      sélection et donc l'ouverture d'un écran permettant la modification des
+      informations.</para>
+
+      <figure>
+        <title>Autorités &gt; Catégories, exemple d'une catégorie</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/autorites_categ_ex_educ.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Autorités &gt; Catégories, parcours d'une catégorie</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/autorites_categ_ex_educ_view.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Autorités &gt; Catégories, édition d'une catégorie</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/autorites_categ_ex_educ_edit.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Vous pouvez spécifier différentes informations pour une catégorie
+      :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>le <emphasis role="bold">libellé</emphasis> est
+          obligatoire</para>
+        </listitem>
+
+        <listitem>
+          <para>un <emphasis role="bold">commentaire</emphasis> peut être
+          ajouté</para>
+        </listitem>
+
+        <listitem>
+          <para>si la catégorie est une sous-catégorie, le champs <emphasis
+          role="bold">catégorie parente </emphasis>permet de sélectionner à
+          l'aide du bouton "..." la catégorie parente de cette sous-catégorie.
+          Pour effacer une catégorie parente sélectionnée, cliquez sur le
+          bouton "X"</para>
+        </listitem>
+
+        <listitem>
+          <para>le <emphasis role="bold">renvoi voir </emphasis>permet
+          d'établir une logique de renvoi par exemple entre deux
+          sous-catégories portant le même libellé mais situées à différents
+          endroits de l'arborescence, par exemple dans
+          <emphasis>Europe</emphasis>, la sous-catégorie
+          <emphasis>France</emphasis>, et dans <emphasis>OTAN</emphasis>, la
+          sous-catégorie <emphasis>France</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para>le <emphasis role="bold">renvoi voir aussi </emphasis>(nouveau
+          dans la version 1.3) permet d'enrichir les catégories par une notion
+          d'enchaînement d'idées. Par exemple, <emphasis>Rome</emphasis> peut
+          renvoyer sur <emphasis>voix</emphasis> <emphasis>romaine.</emphasis>
+          Contrairement au renvoi voir, il ne s'agit pas d'un renvoi entre
+          termes identiques.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer une
+      catégorie. <emphasis role="bold">Attention</emphasis> une catégorie ne
+      peut être supprimée que si elle n'est utilisée dans aucune
+      notice.</para>
+
+      <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+      savoir dans quels ouvrages est mentionnée la catégorie. Il lance une
+      recherche dans l'onglet catalogue pour la catégorie correspondante. Ceci
+      permet notamment de savoir pourquoi la suppression de cette catégorie
+      est impossible.</para>
+
+      <para><emphasis role="bold">Note</emphasis> : les boutons
+      <emphasis>Supprimer</emphasis> et <emphasis>Utilisation</emphasis> ne
+      sont pas visibles lors de la création d'une catégorie, mais uniquement
+      lors de sa modification.</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="autorites_editeurs">
+    <title>Éditeurs</title>
+
+    <sect2>
+      <title>Rechercher et éditeur un éditeur</title>
+
+      <para>L'écran Éditeurs fonctionne avec la même logique que celui des
+      Auteurs. </para>
+
+      <para>Pour rechercher un éditeur, saisissez une expression à rechercher
+      puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
+      affiche par défaut l'ensemble des éditeurs de la base.</para>
+
+      <para>Vous pouvez également cliquer sur le lien <emphasis
+      role="bold">Voir les derniers éditeurs créés</emphasis> pour afficher
+      les dix derniers éditeurs ajoutés dans la base.</para>
+
+      <figure>
+        <title>Autorités &gt; Éditeurs</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/autorites_editeurs.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Autorités &gt; Éditeurs, édition d'un éditeur</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/autorites_editeurs_edit.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Différentes données peuvent être saisies pour un éditeur :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>le nom de l'éditeur</para>
+        </listitem>
+
+        <listitem>
+          <para>son adresse sur deux lignes, son code postal, sa ville et son
+          pays. La ville d'édition est un élément souvent présent dans les
+          bibliographies des publications. Précisez le pour chaque éditeur, si
+          possible.</para>
+        </listitem>
+
+        <listitem>
+          <para>le site web de l'éditeur</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
+      éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
+      être supprimé que s'il n'est utilisé dans aucune notice.</para>
+
+      <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+      savoir dans quels ouvrages est mentionné l'éditeur. Il lance une
+      recherche dans l'onglet catalogue pour l'éditeur correspondant. Ceci
+      permet notamment de savoir pourquoi la suppression de cet éditeur est
+      impossible.</para>
+
+      <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+      remplacer un éditeur par un autre, pour éliminer des doublons mals
+      orthographiés par exemple.</para>
+
+      <para><emphasis role="bold">Note</emphasis> : les boutons
+      <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
+      <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
+      création d'un éditeur, mais uniquement lors de sa modification.</para>
+    </sect2>
+
+    <sect2>
+      <title>Faciliter le catalogage : normaliser la saisie des
+      éditeurs</title>
+
+      <para>S'il s'agit d'un nom tiré d'un nom de famille, lien de parenté
+      etc. éliminer les mentions relatives à cette parenté.</para>
+
+      <para>Si un sigle est utilisé, il faut le développer.</para>
+
+      <para><emphasis role="bold">Exemple</emphasis> PUL sera saisi Presses
+      Universitaires Lyonnaises.</para>
+
+      <para>Pour faciliter la recherche vous pouvez accoler le sigle entre
+      parenthèses au sigle développé, cependant ceci ne correspond pas aux
+      normes AFNOR. Pour notre exemple, on obtient alors : Presses
+      Universitaires Lyonnaises (PUL).</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="autorites_coll">
+    <title>Collections</title>
+
+    <para>Une collection est un ensemble d'ouvrages édités par un même
+    éditeur, dont l'auteur peut être différent ou identique, et rassemblés
+    sous un même nom de collection.</para>
+
+    <para>Vous pouvez cliquer sur le lien <emphasis role="bold">Voir les
+    dernières collections créées</emphasis> pour afficher les dix dernières
+    collections ajoutées dans la base.</para>
+
+    <para>Dans PMB, vous aurez toujours besoin d'un éditeur saisi en tant
+    qu'autorité pour définir une collection.</para>
+
+    <figure>
+      <title>Autorités &gt; Collections</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/autorites_collections.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title>Autorités &gt; Collections, édition d'une collection</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/autorites_collections_edit.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Différentes données peuvent être saisies pour une collection
+    :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>le <emphasis role="bold">nom</emphasis> de la collection</para>
+      </listitem>
+
+      <listitem>
+        <para>un <emphasis role="bold">ISSN</emphasis>, si la collection a un
+        ISSN attribué</para>
+      </listitem>
+
+      <listitem>
+        <para>pour toute collection, un <emphasis
+        role="bold">éditeur</emphasis> doit être spécifié. Pour sélectionner
+        un éditeur, cliquez sur le bouton "..." et choisissez un éditeur dans
+        le popup. Pour effacer un éditeur déjà attribué, cliquez sur le bouton
+        "X".</para>
+      </listitem>
+    </itemizedlist>
+
+    <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
+    éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
+    être supprimé que s'il n'est utilisé dans aucune notice.</para>
+
+    <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+    savoir dans quels ouvrages est mentionné l'éditeur. Il lance une recherche
+    dans l'onglet catalogue pour l'éditeur correspondant. Ceci permet
+    notamment de savoir pourquoi la suppression de cet éditeur est
+    impossible.</para>
+
+    <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    remplacer un éditeur par un autre, pour éliminer des doublons mals
+    orthographiés par exemple.</para>
+
+    <para><emphasis role="bold">Note</emphasis> : les boutons
+    <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
+    <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
+    création d'une collection, mais uniquement lors de sa modification.</para>
+  </sect1>
+
+  <sect1 id="autorites_subcoll">
+    <title>Sous-collections</title>
+
+    <para>Une sous-collection est une sous-division d'une collection.</para>
+
+    <para>Depuis cet écran vous pouvez rechercher une collection en saisissant
+    un expression puis en cliquant sur <emphasis>Rechercher</emphasis>.</para>
+
+    <para>Vous pouvez également parcourir les collections. L'ensemble des
+    collections est affiché par défaut sur cet écran.</para>
+
+    <para>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
+    les dernières sous-collections créés</emphasis> pour afficher les dix
+    dernières sous-collections ajoutées dans la base.</para>
+
+    <figure>
+      <title>Autorités &gt; Sous-collections</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/aut_subcoll.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Le résultat affiché présente d'abord le nom de la sous-collection,
+    puis entre parenthèses le nom de la collection "mère" et l'éditeur.</para>
+
+    <figure>
+      <title>Autorités &gt; Sous-collections, édition d'une
+      sous-collection</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/aut_subcoll_edit.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Différentes données peuvent être saisies pour une sous-collection
+    :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>le <emphasis role="bold">nom</emphasis> de la
+        sous-collection</para>
+      </listitem>
+
+      <listitem>
+        <para>un <emphasis role="bold">ISSN</emphasis>, si la sous-collection
+        a un ISSN attribué</para>
+      </listitem>
+
+      <listitem>
+        <para>pour toute sous-collection, une collection "mère" (<emphasis
+        role="bold">sous-collection de...</emphasis>)doit être spécifiée. Pour
+        sélectionner une collection, cliquez sur le bouton "..." et choisissez
+        une collection dans le popup. Pour effacer une collection déjà
+        attribuée, cliquez sur le bouton "X".</para>
+      </listitem>
+
+      <listitem>
+        <para>vous pouvez consulter <emphasis role="bold">l'éditeur</emphasis>
+        de la collection "mère". Ce champs n'est pas modifiable. Pour changer
+        l'éditeur d'une collection, passez par Autorités &gt;
+        Collections.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
+    éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
+    être supprimé que s'il n'est utilisé dans aucune notice.</para>
+
+    <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+    savoir dans quels ouvrages est mentionné l'éditeur. Il lance une recherche
+    dans l'onglet catalogue pour l'éditeur correspondant. Ceci permet
+    notamment de savoir pourquoi la suppression de cet éditeur est
+    impossible.</para>
+
+    <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    remplacer un éditeur par un autre, pour éliminer des doublons mals
+    orthographiés par exemple.</para>
+
+    <para><emphasis role="bold">Note</emphasis> : les boutons
+    <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
+    <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
+    création d'une sous-collection, mais uniquement lors de sa
+    modification.</para>
+  </sect1>
+
+  <sect1 id="autorites_series">
+    <title>Titres de série</title>
+
+    <para>Un <emphasis role="bold">titre de série</emphasis> désigne un
+    ensemble d'ouvrages distincts d'un même auteur, par exemple <emphasis
+    role="bold">Les aventures de Tintin</emphasis> d'Hergé. Pour plus
+    d'informations, consulter la Section 6 : Catalogage, rubrique : normaliser
+    le catalogage.</para>
+
+    <para>Pour rechercher un éditeur, saisissez une expression à rechercher
+    puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
+    affiche par défaut l'ensemble des éditeurs de la base.</para>
+
+    <para>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
+    les derniers titres de série créés</emphasis> pour afficher les dix
+    derniers titres de séries ajoutés dans la base.</para>
+
+    <figure>
+      <title>Autorités &gt; Titres de Séries</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/aut_series.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title>Autorités &gt; Titres de Séries, édition d'un titre de
+      série</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/aut_series_edit.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Les titres de séries ne possèdent qu'un champs éditable : le
+    titre.</para>
+
+    <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
+    titre de série. <emphasis role="bold">Attention</emphasis> un titre de
+    série ne peut être supprimé que s'il n'est utilisé dans aucune
+    notice.</para>
+
+    <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    remplacer un titre de série par un autre, pour éliminer des doublons mals
+    orthographiés par exemple.</para>
+
+    <para><emphasis role="bold">Note</emphasis> : les boutons
+    <emphasis>Supprimer</emphasis> et <emphasis>Remplacer par</emphasis> ne
+    sont pas visibles lors de la création d'un titre de série, mais uniquement
+    lors de sa modification.</para>
+  </sect1>
+
+  <sect1 id="autorites_indexint">
+    <title>Indexations</title>
+
+    <para>PMB gère des indexations décimales qui vous permettent de
+    personnaliser l'indexation de vos ouvrages. Pour plus d'informations sur
+    les indexations décimales fournies avec PMB, consulter le Chapitre
+    <emphasis>Catégories et classifications préinstallées avec
+    PMB</emphasis>.</para>
+
+    <para>Pour rechercher une indexation, saisissez une expression à
+    rechercher puis cliquez sur <emphasis role="bold">Rechercher</emphasis>.
+    L'écran affiche par défaut l'ensemble des indexations de la base. Cette
+    recherche porte à la fois sur l'indexation (110) et son intitulé
+    (Métaphysique)</para>
+
+    <para>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
+    les dernières indexations créées</emphasis> pour afficher les dix
+    dernières indexations ajoutées dans la base.</para>
+
+    <figure>
+      <title>Autorités &gt; Indexations</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/aut_index.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title>Autorités &gt; Indexations, édition d'une indexation</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/aut_index_edit.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Pour une indexation vous pouvez définir :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>un nom (obligatoire)</para>
+      </listitem>
+
+      <listitem>
+        <para>un commentaire</para>
+      </listitem>
+    </itemizedlist>
+
+    <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer une
+    indexation. <emphasis role="bold">Attention</emphasis> une indexation ne
+    peut être supprimée que si elle n'est utilisée dans aucune notice.</para>
+
+    <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+    savoir dans quels ouvrages est mentionné l'indexation. Il lance une
+    recherche dans l'onglet catalogue pour l'indexation correspondante. Ceci
+    permet notamment de savoir pourquoi sa suppression impossible.</para>
+
+    <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    remplacer une indexation par une autre.</para>
+
+    <para><emphasis role="bold">Note</emphasis> : les boutons
+    <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
+    <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
+    création d'une indexation, mais uniquement lors de sa modification.</para>
+  </sect1>
+</chapter>

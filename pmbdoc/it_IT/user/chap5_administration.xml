@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Administration</title>
+
+  <para>Cet écran est à réservé aux administrateurs informatiques ou aux
+  personnes de la bibliothèques qui en assumeront le role : les options
+  présentes ici ne sont pas sans danger pour votre base. Cependant voici
+  quelques fonctionnalités facilement accessibles.</para>
+
+  <para><emphasis role="bold">[Pour plus d'information] </emphasis>consulter
+  le Guide de l'Administrateur PMB.</para>
+
+  <sect1>
+    <title>Exemplaires, notices</title>
+
+    <para>Permet de personnaliser certaines options de catalogage : types ou
+    statuts de documents, etc.</para>
+  </sect1>
+
+  <sect1>
+    <title>Lecteurs</title>
+
+    <para>Permet de personnaliser la gestion des lecteurs et leur
+    import.</para>
+  </sect1>
+
+  <sect1>
+    <title>Utilisateurs</title>
+
+    <para>Permet de créer des utilisateurs en leur donnant noms et mots de
+    passes, ainsi que le droit d'accéder ou non aux différents onglets.</para>
+  </sect1>
+
+  <sect1>
+    <title>Outils</title>
+
+    <para>Cette partie de l'onglet administration contient des outils de
+    maintenance pour la base de données MySQL, le système de mise à jour de la
+    base de données lorsque vous téléchargez une nouvelle version de PMB,
+    ainsi que les paramètres de l'application.</para>
+
+    <para>C'est en éditant ces paramètres que vous pourrez indiquer le nom de
+    votre bibliothèque, ses heures d'ouverture, le fonctionnnement de votre
+    OPAC...</para>
+  </sect1>
+
+  <sect1>
+    <title>z39.50</title>
+
+    <para>Permet d'administrer les serveurs interrogeables via Catalogue &gt;
+    z39.50 &gt; Recherche</para>
+  </sect1>
+
+  <sect1>
+    <title>sauvegardes</title>
+
+    <para>Permet de gérer la façon dont seront réalisées les
+    sauvegardes</para>
+  </sect1>
+</chapter>

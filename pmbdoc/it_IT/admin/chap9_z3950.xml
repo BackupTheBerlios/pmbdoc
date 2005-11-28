@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Z39.50</title>
+
+  <para>Si la recherche z39.50 est activée, elle est visible depuis l'onglet
+  catalogage. Pour activer la recherche Z39.50 le paramètre
+  <emphasis>z3950.accessible </emphasis>doit être fixé à 1. Pour plus
+  d'informations sur le paramètrage de PMB, 
+  voir <xref linkend="admin_outils_parametres" />.</para>
+
+  <para><emphasis role="bold">Attention</emphasis> la recherche z39.50
+  nécessite l'installation et l'activation du module <emphasis
+  role="bold">YAZ</emphasis> pour <emphasis role="bold">PHP</emphasis> sur
+  votre serveur. Pous plus d'informations, consulter le Guide d'Installation
+  de PMB.</para>
+
+  <para>La recherche z39.50 permet d'importer des données bibliographiques
+  depuis un serveur de notices, comme par exemple la BnF. Sous réserve que le
+  serveur de la BnF soit accessible depuis votre ordinateur connecté à
+  internet, vous pourrez bénéficier d'un catalogage automatisé de l'ensemble
+  des ouvrages bénéficiant d'un dépot légal en France.</para>
+
+  <para>Il ne vous reste plus alors qu'à affecter une ou plusieurs catégories
+  (thésaurus), éventuellement des mots-clés et vos propres notes, puis à créer
+  un ou des exemplaires correspondant à votre situation matérielle.</para>
+
+  <para>Le Z39.50 permet de gagner un temps plus qu'important lors du
+  catalogage. La recherche Z39.50 est accessible depuis l'onglet Catalogue,
+  pour plus d'informations consulter le Guide de l'Utilisateur de PMB,
+  chapitre Catalogue.</para>
+
+  <figure>
+    <title>z39.50</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/admin_z39_home.gif" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect1>
+    <title>Serveurs</title>
+
+    <para>Z39.50 &gt; Serveurs liste les serveurs Z39.50 accessibles en
+    recherche.Vous pouvez ici ajouter un serveur Z39.50 ou modifier un des
+    serveurs enregistrés.</para>
+
+    <para>Pour chaque serveur vous aurez besoin de différents paramètres tels
+    que le type de données retransmises, un login et un mot de passe, etc.
+    Contactez directement l'administrateur du serveur Z39.50 pour obtenir ce
+    profil. Vous pouvez également faire une recherche portant sur les termes
+    "profil Z39.50" sur Google.</para>
+
+    <para>Si vous faites partie du réseau d'une BDP, vous pouvez contacter
+    votre BDP et lui demander le cas échéant le profil de son serveur
+    Z39.50.</para>
+
+    <para>PMB est livré avec les paramètres de différents serveurs
+    correspondant à des besoins francophones et à la bibliothèque du Congrès
+    américain.</para>
+
+    <figure>
+      <title>Z39.50 &gt; Serveurs &gt; Modifier le serveur</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_z39.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Le paramétrage d'un serveur Z39.50 est composé de différents
+    éléments :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Nom du serveur : c'est le nom qui sera affiché à l'écran. Vous
+        pouvez définir ce nom.</para>
+      </listitem>
+
+      <listitem>
+        <para>Base : information contenue dans le profil Z39.50 du
+        serveur</para>
+      </listitem>
+
+      <listitem>
+        <para>Utilisation : CATALOG (catalogage). PMB permet uniquement
+        l'utilisation du Z39.50 pour le catalogage.</para>
+      </listitem>
+
+      <listitem>
+        <para>URL : adresse du serveur. Information contenue dans le profil
+        Z39.50 du serveur.</para>
+      </listitem>
+
+      <listitem>
+        <para>Numéro de port : Information contenue dans le profil Z39.50 du
+        serveur.</para>
+      </listitem>
+
+      <listitem>
+        <para>Format : Information contenue dans le profil Z39.50 du
+        serveur.</para>
+      </listitem>
+
+      <listitem>
+        <para>User et password : identifiants de connexion au serveur.
+        Informations contenues dans le profil.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Enfin le profil Z39.50 du serveur définit différents attributs
+    accessibles en cliquant sur le bouton Attributs. Ce sont les différentes
+    possibilité de recherche du serveur Z39.50.</para>
+
+    <figure>
+      <title>Z39.50 &gt; Gestion des attributs de recherche 239.50</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/Z39_attributs.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Chaque attribut se compose d'un libellé et d'un attribut serveur
+    numérique.</para>
+  </sect1>
+</chapter>

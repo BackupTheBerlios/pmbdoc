@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_import">
+  <title>Imports</title>
+
+  <para>L'import permet d'éviter de cataloguer des ouvrages déjà catalogués :
+  soit par une BDP qui dépose des ouvrages dans une bibliothèque de son
+  réseau, soit grâce à des réservoirs bibliographiques (cédéroms, sites
+  internet...)..</para>
+
+  <sect1 id="admin_import_import">
+    <title>Notices UNIMARC</title>
+
+    <para>L'import de notices UNIMARC vous permet de charger en base des
+    notices au format UNIMARC sans exemplaires associés. Ceci vous permettra
+    de vous faciliter le catalogage en important des fichiers de notices
+    depuis ELECTRE par exemple, ou des données issues d'autres produits
+    bibliographiques.</para>
+
+    <figure>
+      <title>Imports &gt; Notices UNIMARC</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_imp_notices.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para><emphasis role="bold">Remarque</emphasis> si un fichier UNIMARC ne
+    peut être importé, vous pouvez vérifier sa validité en réalisant un
+    export. Pour plus d'informations, voir <xref
+    linkend="admin_convert" />.</para>
+  </sect1>
+
+  <sect1 id="admin_import_import_expl">
+    <title>Exemplaires UNIMARC</title>
+
+    <para>L'import d'exemplaires UNIMARC va importer, outre les notices, les
+    exemplaires associés. Cette fonction correspond typiquement à un transfert
+    d'ouvrages, d'une bibliothèque à une autre (BDP vers médiathèque
+    communale) ou d'un SIGB à un autre.</para>
+
+    <figure>
+      <title>Imports &gt; Exemplaires UNIMARC</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_imp_expl.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para><emphasis role="bold">Remarque</emphasis> si un fichier UNIMARC ne
+    peut être importé, vous pouvez vérifier sa validité en réalisant un
+    export. Pour plus d'informations, voir <xref
+    linkend="admin_convert" />.</para>
+
+    <para>Le fichier a importé peut etre transmis à PMB de deux manières
+    :</para>
+
+    <para>- soit vous vous servez de la fonction "télécharger" pour transférer
+    votre fichier</para>
+
+    <para>- soit vous transmettez par FTP votre fichier. Ceci vous permet de
+    transférer des fichiers de plus de 2 Mo (taille indicative, cette limite
+    est fixée par la configuration de votre serveur, dans le fichier php.ini,
+    pour plus d'informations consulter le Guide d'installation PMB)</para>
+
+    <sect2>
+      <title>Transfert du fichier par la fonction "télécharger"</title>
+
+      <para>Cliquez sur Commencer : télécharger votre fichier.</para>
+
+      <figure>
+        <title>Imports &gt; Exemplaires UNIMARC, deuxième écran</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>L'écran suivant vous permet de paramétrer la réalisation de
+      l'import de vos exemplaires :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Choisissez tout d'abord un <emphasis
+          role="bold">propriétaire</emphasis> et un <emphasis
+          role="bold">statut</emphasis> pour les exemplaires que vous allez
+          importer. Par exemple, le propriétaire peut etre la BDP de votre
+          département, ou vous meme si vous importez vos exemplaires depuis
+          votre ancien SIGB.</para>
+
+          <para>Pour le statut, nous vous recommandons de choisir "document en
+          cours d'import". Vous changerez ensuite le statut des ouvrages lors
+          du pointage. Voir plus loin la section<emphasis>Pointage des
+          importés</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para>Choisissez ensuite si <emphasis role="bold">l'ISBN</emphasis>
+          doit etre <emphasis role="bold">obligatoirement</emphasis> renseigné
+          pour les notices (par défaut <emphasis>non</emphasis>), et si un
+          dédoublonnage doit etre fait sur cet ISBN.</para>
+
+          <para>Le fait de <emphasis role="bold">dédoublonner</emphasis> les
+          notices sur l'ISBN permet de rassembler l'ensemble des exemplaires
+          d'un seul ouvrage sous une meme notice, par exemple si chaque
+          exemplaire avait été créé indépendamment ou si une meme notice est
+          présente plus d'une fois dans votre fichier à importer.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Cote obligatoire</emphasis> : oui ou non
+          (non par défaut). Dans PMB (conformément à la norme), chaque
+          exemplaire doit avoir au moins un code-barre et une cote. Toutefois
+          l'import permet d'insérer des exemplaires dont la cote n'avait pas
+          été renseignée.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Types de document / Codes statistiques /
+          Sections / Localisation</emphasis> : pour chacune de ces
+          informations, vous pouvez spécifier si les informations du fichier
+          doivent etre importées, ou si ce sont vos classements personnalisés
+          qui doivent etre préférées pour faire la correspondance avec le
+          fichier.</para>
+
+          <para>Vous pouvez éditer les codages pour les types de documents,
+          codes statistiques, sections, localisations en passant par <emphasis
+          role="bold">Administration &gt; Exemplaires</emphasis>.</para>
+
+          <para>Pour chacune de ces données, PMB va examiner les notices
+          importées. Selon le propriétaire choisi pour les documents importés,
+          une correspondance va être fait avec la valeur contenue dans la zone
+          995 du fichier Unimarc et les codages définis dans PMB (voir plus
+          bas "références pour l'import Unimarc" à propos de la zone
+          995).</para>
+
+          <para>Ainsi, pour importer un exemplaire de la BDP dont le code
+          statistique est "a", la correspondance va être faite selon la table
+          des codes statistiques des exemplaires (Administration &gt;
+          Exemplaires &gt; Codes statistiques). Si dans votre table, il existe
+          un codage "a" dont le propriétaire est BDP et dont le libellé est
+          "Adultes BDP" ; alors votre exemplaire importé aura pour code
+          statistique "Adultes BDP".</para>
+
+          <para>Il en sera de même pour les types de documents, sections,
+          localisations.</para>
+        </listitem>
+
+        <listitem>
+          <para>Cliquez ensuite sur <emphasis role="bold">Parcourir</emphasis>
+          pour chercher sur votre ordinateur le fichier que PMB va importer.
+          <emphasis>Rappel</emphasis> : il peut y avoir sur votre serveur des
+          limites de taille pour le transfert de fichier. Pour plus
+          d'informations sur le paramétrage du<emphasis> php.ini </emphasis>de
+          votre serveur, consultez votre administrateur réseau ou consultez le
+          <emphasis>Guide d'installation PMB.</emphasis></para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Une fois vos paramétrages terminés, cliquez sur Suivant pour
+      lancer le téléchargement du fichier</para>
+
+      <para>L'import des exemplaires commence par le transfert de votre
+      fichier sur le serveur. Vous pouvez suivre le déroulement du transfert
+      grace à l'affichage du nombre de caractères du fichier restant à
+      traiter.</para>
+
+      <figure>
+        <title>Imports &gt; Exemplaires UNIMARC , écran de déroulement du
+        transfert</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl3.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Le fichier est transféré par paquets. La taille de ces paquets est
+      paramétrable dans Administration &gt; Outils &gt; Paramétrage, via les
+      paramètres "import_limit_read_file" et "import_limit_record_load". Pour
+      plus d'informations sur les paramètres, consulter la section 
+      <xref linkend="admin_outils_parametres" />.</para>
+
+      <para>Une fois le transfert du fichier réalisé, l'import
+      commence.</para>
+    </sect2>
+
+    <sect2>
+      <title>Transfert du fichier par FTP</title>
+
+      <para>Si vous avez transféré votre fichier d'exemplaires directement sur
+      le serveur par FTP, votre fichier est déjà existant sur le serveur sous
+      le nom unimarc.fic. Le deuxième écran de paramétrage de l'import ne
+      possède donc pas la possibilité de choisir un fichier à
+      télécharger.</para>
+
+      <figure>
+        <title>Imports &gt; Exemplaires UNIMARC, fichier unimarc.fic sur le
+        serveur, deuxième écran</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl_fic.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour plus d'informations sur les paramétrages de l'import, voir
+      plus haut la section <emphasis>Transfert de fichier pour la fonction
+      "télécharger"</emphasis>. Cette section détaille les différents
+      paramétrages possibles.</para>
+    </sect2>
+
+    <sect2>
+      <title>Chargement des notices et des exemplaires</title>
+
+      <para>Vous pouvez suivre le déroulement de l'import grace à l'affichage
+      du nombre de notices restant à traiter.</para>
+
+      <figure>
+        <title>Imports &gt; Exemplaires UNIMARC, écran de déroulement de
+        l'import</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl4.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>A l'issue de l'import des exemplaires un écran vous affiche les
+      résultats de votre import.</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="admin_import_pointage_expl">
+    <title>Pointage des importés</title>
+
+    <para>Le pointage des exemplaires importés permet de vérifier manuellement
+    la correspondance de la réalité physique du transfert de ressources
+    (exemplaires matériels des livres) à la réalité informatique du fichier
+    (base de données). Les codes barres des exemplaires sont douchettés et
+    comparés à la base.</para>
+
+    <para>Ceci vous offre la possibilité de détecter :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>des ouvrages non saisis en base mais matériellement
+        présents</para>
+      </listitem>
+
+      <listitem>
+        <para>des ouvrages saisis en bases mais non présents (perdus ou
+        manquants)</para>
+      </listitem>
+
+      <listitem>
+        <para>vous pourrez enfin changer de statut, de section et de
+        localisation les ouvrages à la volée et les rendre disponible au
+        prêt.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Le pointage permet en plus de ces vérifications :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>de pointer une sélection d'ouvrage que vous souhaitez déplacer
+        dans vos rayons</para>
+      </listitem>
+
+      <listitem>
+        <para>de changer la section d'un ou plusieurs ouvrages</para>
+      </listitem>
+    </itemizedlist>
+
+    <figure>
+      <title>Imports &gt; Pointage des importés</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_imp_pointage.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <procedure>
+      <step>
+        <para>Sélectionner un statut, par exemple <emphasis>document en bon
+        état</emphasis> ; une section, par exemple <emphasis>romans et romans
+        étrangers </emphasis>; une localisation, par exemple
+        <emphasis>bibliothèque principale</emphasis>.</para>
+
+        <graphic fileref="images/pointage1.gif" />
+      </step>
+
+      <step>
+        <para>Cliquer sur suivant.</para>
+      </step>
+
+      <step>
+        <para>Puis douchetter les exemplaires un par un</para>
+      </step>
+    </procedure>
+
+    <graphic fileref="images/pointage2.gif" />
+  </sect1>
+
+  <sect1>
+    <title>Références pour l'import UNIMARC</title>
+
+    <para>Les références ci-dessous sont tirées du fichier
+    PMB/doc/import_unimarc.txt</para>
+
+    <para><programlisting>
+010 $a isbn &gt;&gt; notices.code
+010 $d prix &gt;&gt; exemplaires.expl_prix 
+
+071 $a music number &gt;&gt; pas repris pour l'instant
+
+101 $a langue &gt;&gt; notices.lang_code
+101 $c langue originale &gt;&gt; notices.org_lang_code
+
+200 $a titre &gt;&gt; notices.tit1
+200 $c titre &gt;&gt; notices.tit2
+200 $d titre &gt;&gt; notices.tit3
+200 $e titre &gt;&gt; notices.tit4
+
+210 $a éditeur ville &gt;&gt; publishers.ed_ville
+210 $c éditeur nom &gt;&gt; publishers.ed_name
+210 $d éditeur année &gt;&gt; notices.year
+
+215 $a nombre de pages &gt;&gt; notices.npages
+215 $c illustration &gt;&gt; notices.ill
+215 $d taille &gt;&gt; notices.size
+215 $a matériel d'accompagnement &gt;&gt; notices.accomp
+
+225 $a nom de la collection &gt;&gt; collections.collection_name
+225 $x ISSN de la collection &gt;&gt; collections.collection_issn
+225 $i nom de la sous-collection &gt;&gt; sub_collections.sub_coll_name
+225 $x numéro dans la collection &gt;&gt; notices.nocoll
+ 
+300 $a notes générales &gt;&gt; notices.n_gen
+327 $a notes de contenu &gt;&gt; notices.n_contenu
+330 $a notes de résumé &gt;&gt; notices.n_resume
+
+345 $b EAN &gt;&gt; notices.code (ISBN) si ISBN absent
+
+410 $t collection, utilisé à la place de 225 si 225 vide
+411 $t sous-collection, utilisé à la place de 225 si 225 vide
+
+461 $t nom de la série &gt;&gt; serie.serie_name
+461 $v numéro dans la série &gt;&gt; notices.tnvol
+
+610 $a mots clés &gt;&gt; notices.index_l
+
+676 $a dewey &gt;&gt; créée dans indexint.indexint_name puis indexint.indexint_id &gt;&gt; notices.indexint
+
+700 701 702 710 711 712 responsabilités 
+    $a nom de l'autorité &gt;&gt; authors.author_name
+    $b rejeté de l'autorité &gt;&gt; authors.author_rejete
+    $4 fonction &gt;&gt; responsability.responsability_fonction
+
+801 $a Pays origine de la notice &gt;&gt; origine_notice.orinot_pays 
+801 $b Organisme origine de la notice &gt;&gt; origine_notice.orinot_nom 
+
+856 $u ressource électronique &gt;&gt; notices.lien 
+
+995 $f code-barre &gt;&gt; exemplaires.expl_cb
+995 $k cote &gt;&gt; exemplaires.expl_cote
+995 $q public visé &gt;&gt; docs_section.sdoc_codage_import 
+                      puis docs_section.idsection &gt;&gt; exemplaires.expl_section
+                   &gt;&gt; docs_codestat.sdoc_codage_import 
+                      puis docs_codestat.idcode &gt;&gt; exemplaires.expl_codestat
+995 $r type de document &gt;&gt; docs_type.tdoc_codage_import 
+                           puis docs_type.idtyp_doc &gt;&gt; exemplaires.expl_typdoc
+995 $u notes &gt;&gt; exemplaires.expl_note
+    </programlisting></para>
+  </sect1>
+</chapter>

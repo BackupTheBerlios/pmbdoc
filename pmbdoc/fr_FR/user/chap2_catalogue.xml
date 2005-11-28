@@ -1,0 +1,2816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="cat">
+  <title>Catalogue</title>
+
+  <para>Le catalogage désigne l'ensemble des techniques de constitution d'un
+  catalogue de documents de la bibliothèque qui va permettre de faire des
+  recherches, de gérer les prêts, d'éditer des statistiques, ...</para>
+
+  <para><emphasis role="bold">Note </emphasis>A tout moment dans l'onglet
+  Catalogue, lorsque vous voyez l'icône d'un panier affichée, vous pouvez
+  ajouter un élément (notice, exemplaire, bulletin) à un panier en cliquant
+  sur l'icône <graphic fileref="images/basket_small.gif" /> Pour plus
+  d'informations, voir <xref linkend="cat_caddies" />.</para>
+
+  <sect1 id="cat_ouvrages">
+    <title>Ouvrages</title>
+
+    <sect2 id="cat_search">
+      <title>Recherche</title>
+
+      <para>La recherche porte sur l'ensemble des notices de PMB :
+      monographies, notices mère de périodique, notices des articles.</para>
+
+      <para>PMB permet d'utiliser des expressions booléennes comme critère de
+      recherche. Pour plus d'informations, voir <xref
+      linkend="exp_bool" />.</para>
+
+      <sect3 id="cat_search_tit">
+        <title>Auteur/titre</title>
+
+        <sect4>
+          <title>Recherche par titre</title>
+
+          <para>Voici l'écran qui vous apparaît lorsque vous cliquez sur
+          l'onglet catalogage. Il permet d'effectuer une recherche et est
+          constamment accessible dans ce module par un clic dans le menu
+          latéral sur "rechercher".</para>
+
+          <figure>
+            <title>catalogage &gt; ouvrages &gt; recherche par titre</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_search_title.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Tentons une recherche sur le titre "cat''.</para>
+
+          <para>Si vous avez installé la base de test, c'est l'ouvrage
+          <emphasis>Catfish Blues</emphasis>, de <emphasis>Gérard
+          Herzhaft</emphasis>, qui est renvoyé.</para>
+
+          <figure>
+            <title>Résultat d'une recherche</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/search_examp_1.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Pour afficher plus d'informations sur un des résultats de la
+          recherche, cliquer sur le + pour déplier la notice et lister les
+          exemplaires et exemplaires numériques de l'ouvrage.</para>
+
+          <para>Un clic sur le titre affiche les informations sur l'ouvrage,
+          et permet éventuellement d'apporter les modifications désirées.
+          L'écran affiché ensuite est la liste des exemplaires de
+          l'ouvrage.</para>
+
+          <figure>
+            <title>Liste des exemplaires d'un ouvrage</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/liste-expl.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Pour modifier la notice de l'ouvrage, cliquez sur
+          <emphasis>Modifier</emphasis>. Pour modifier un des exemplaires de
+          l'ouvrage, cliquez sur son code barre. Pour ajouter un exemplaire,
+          saisissez le <emphasis>N° de l'exemplaire </emphasis>puis cliquez
+          sur <emphasis>Ajouter un exemplaire</emphasis>. Pour ajouter un
+          document numérique, cliquez sur <emphasis>Ajouter un document
+          numérique</emphasis>. Pour plus d'informations, voir <xref
+          linkend="cat_isbd" />.</para>
+
+          <para>Les références situées en dessous de la notice concernent le
+          ou les exemplaires de l'ouvrage, leur disponibilité, etc. Un clic
+          sur le code barre de l'exemplaire permet de modifier
+          l'exemplaire.</para>
+        </sect4>
+
+        <sect4>
+          <title>Recherche par auteur, par ISBN, EAN ou numéro
+          d'exemplaire</title>
+
+          <para>La <emphasis role="bold">Recherche par auteur</emphasis>
+          fonctionne de la même manière que la recherche par titre.</para>
+
+          <para>Vous pouvez également chercher un ouvrage par son ISBN, son
+          code barre commercial (EAN) ou le numéro d'un de ses
+          exemplaires.</para>
+
+          <para>Enfin, vous pouvez affiner la recherche en la faisant porter
+          sur un type précis de document.</para>
+        </sect4>
+      </sect3>
+
+      <sect3 id="cat_search_categ">
+        <title>Catégorie/Sujet</title>
+
+        <para>Les catégories disponibles sont affichées (elles sont
+        modifiables dans l'onglet autorités).</para>
+
+        <para>Cliquez sur l'icône du dossier pour ouvrir le dossier de la
+        catégorie et afficher éventuellement les sous-catégories.</para>
+
+        <para>Lorsque vous avez atteint la catégorie ou sous-catégorie désirée
+        cliquez sur son nom pour afficher les résultats.</para>
+
+        <figure>
+          <title>catalogage &gt; ouvrages &gt; recherche par
+          catégorie/sujet</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_search_categs.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
+
+      <sect3 id="cat_search_terms">
+        <title>Termes du thésaurus</title>
+
+        <para>La recherche par termes du thésaurus permet de naviguer entre
+        les renvois du thésaurus.</para>
+
+        <para><figure>
+            <title>catalogage &gt; ouvrages &gt; recherche par termes du
+            thésaurus</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_search_terms.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>Dans cette recherche, commencez par saisir un ou plusieurs
+        termes à chercher, par exemple <emphasis
+        role="bold">histoire</emphasis>. Les résultats de la recherche sont
+        affichés sous le forme de deux parties. La partie supérieure vous
+        renvoie les catégories correspondantes à votre recherche. Un clic sur
+        une des catégories de la partie supérieure (par exemple <emphasis
+        role="bold">histoire politique</emphasis>) vous affiche dans la partie
+        inférieure plus d'informations sur la catégorie choisie.</para>
+
+        <para>En cliquant sur un des liens, vous vous déplacez de catégorie en
+        catégorie.</para>
+
+        <para>Pour sélectionner une catégorie et afficher les ouvrages
+        correspondants, cliquez sur l'étoile située en début de ligne <graphic
+        fileref="images/search_terms_select.gif" /> si aucun ouvrage ne
+        correspond à cette catégorie, l'étoile n'est pas affichée.</para>
+      </sect3>
+
+      <sect3 id="cat_search_publisher">
+        <title>Editeur/Collection</title>
+
+        <para>La recherche Editeur/Collection affiche une liste des éditeurs
+        et collections de la même manière que les recherches sur les
+        catégories.</para>
+
+        <figure>
+          <title>catalogage &gt; ouvrages &gt; recherche par
+          éditeur/collection</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_search_publishers.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
+
+      <sect3 id="cat_search_caddie">
+        <title>Paniers de notices</title>
+
+        <para><emphasis>Recherche</emphasis> &gt; <emphasis>Paniers de
+        notices</emphasis> permet d'afficher le contenu d'un panier de notices
+        (également appelé caddie). Les paniers correspondent à des sélections
+        de notices, de bulletins ou d'exemplaires.</para>
+
+        <figure>
+          <title>catalogage &gt; ouvrages &gt; recherche par paniers de
+          notices</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_search_paniers.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
+
+      <sect3 id="cat_search_multi">
+        <title>Multi-critères</title>
+
+        <para>La recherche multi-critères est une recherche combinatoire. Vous
+        pouvez sélectionner des champs de recherches&nbsp;: titre, auteur,
+        champs personnalisés...</para>
+
+        <figure>
+          <title>Ouvrages &gt; Recherche &gt; Multi-critères</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/multicrit1.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Pour lancer une recherche multicritère :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>cliquez sur <emphasis>Ajouter</emphasis> pour définir un
+            premier champs de la recherche</para>
+
+            <para>La recherche multicritère s'applique aux champs des notices,
+            des exemplaires, des périodiques et aux champs
+            personnalisés.</para>
+
+            <para><figure>
+                <title>Champs de recherche possible</title>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/multicrit2.gif" />
+                  </imageobject>
+                </mediaobject>
+              </figure></para>
+          </listitem>
+
+          <listitem>
+            <para>choisissez ensuite un type de recherche pour le champs
+            retenu, pour un champs titre vous pouvez choisir entre "contient
+            au moins des mots", "contient tous les mots", "commence par",
+            "fini par" ou "exactement comme". Ce type de recherche varie selon
+            le champs concerné<figure>
+                <title>Types de recherche pour le champs Titre</title>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/multicrit_4.gif" />
+                  </imageobject>
+                </mediaobject>
+              </figure></para>
+          </listitem>
+
+          <listitem>
+            <para>si le champs nécessite une valeur, saisissez celle-ci dans
+            la case de saisie ; si le champs nécessite un choix (par exemple
+            le type de support), choisissez une ou plusieurs propositions en
+            cliquant et en maintenant la touche <emphasis>Ctrl</emphasis> de
+            votre clavier appuyée.</para>
+          </listitem>
+
+          <listitem>
+            <para>enfin validez en cliquant sur
+            <emphasis>Rechercher</emphasis></para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+
+      <sect3>
+        <title id="exp_bool">Expressions booléennes</title>
+
+        <para>Dans l'ensemble des écrans de recherche vous pouvez utiliser des
+        expressions booléennes. Ces expressions booléennes ont été introduites
+        dans PMB avec la version 2.0.</para>
+
+        <sect4>
+          <title>Recherche simple</title>
+
+          <para>Par défaut, le moteur cherche les éléments qui contiennent
+          <emphasis role="bold">au moins</emphasis> (OU implicite) un des mots
+          saisis. Le tri se fait selon le nombre décroissant de mots trouvés,
+          puis par ordre alphabétique.</para>
+
+          <para><emphasis>Ex. </emphasis><programlisting>jambon bayonne</programlisting>signifie
+          les éléments qui contiennent les mots jambon ou bayonne (jambon de
+          bayonne, jambon de parme, l'histoire de Bayonne, ...).</para>
+
+          <para>Les accents ne sont pas pris en compte ainsi que les
+          majuscules/minuscules. Si deux mots sont séparés par un autre signe
+          que espace, +, ou -, les deux mots sont considérés comme devant
+          apparaître dans le résultat .</para>
+
+          <para>Ex. <programlisting>Saint Jean/mer</programlisting>sera
+          analysé comme : chercher les <emphasis>éléments qui contiennent
+          saint</emphasis> ou les <emphasis>éléments qui contiennent jean et
+          mer</emphasis> ou les <emphasis>deux</emphasis>.</para>
+
+          <para>Certains mots sont ignorés car trop courants ou sans
+          signification pertinente en français (ex : de, du, da, t, l, d, s,
+          son, sa, ...).</para>
+        </sect4>
+
+        <sect4>
+          <title>Cas du tiret</title>
+
+          <para>Le tiret est considéré comme un opérateur entre deux mots
+          (voir plus bas le chapitre : Opérateurs logiques entre deux mots).
+          Ainsi, tout mot composé avec un tiret doit être entouré de
+          guillemets pour faire une recherche en terme exact (voir plus bas
+          ).</para>
+        </sect4>
+
+        <sect4>
+          <title>Troncature</title>
+
+          <para>Les mots peuvent être tronqués à gauche, droite ou
+          partiellement par le caractère *</para>
+
+          <para><emphasis>Ex. </emphasis><programlisting>chev* </programlisting>cherchera
+          les mots commençant par chev (cheval, chevaux, cheveux, ...),</para>
+
+          <para><programlisting>*logie</programlisting>cherchera les mots
+          finissant par 'logie' (psychologie, théologie, trilogie,
+          ...),</para>
+
+          <para><programlisting>p*logie </programlisting>cherchera les mots
+          commençant par p et finissant par logie (psychologie,
+          paléonthologie, pathologie, ...).</para>
+
+          <para>Plusieurs troncatures peuvent-être utilisées dans un même
+          mot.</para>
+        </sect4>
+
+        <sect4 id="cat_recherche_termesexacts">
+          <title>Recherche avec des termes exacts</title>
+
+          <para>Un terme exact est défini par un texte entouré de guillemets.
+          Si le moteur de recherche rencontre un terme exact, il cherche les
+          éléments contenant exactement ce texte.</para>
+
+          <para>La troncature peut-être utilisée dans les termes
+          exacts.</para>
+
+          <para><emphasis>Ex. </emphasis><programlisting>"dent"</programlisting>signifie
+          tous les éléments contenant le texte dent (dentition, accident,
+          indentation, ...).</para>
+
+          <para>La recherche exacte est pratique pour la recherche
+          d'expressions contenant des espaces ou des signes de ponctuation.
+          (un sigle par exemple).</para>
+
+          <para><emphasis>Ex. </emphasis><programlisting>"A.N.P.E."</programlisting>cherche
+          les éléments qui contiennent le texte A.N.P.E.,</para>
+
+          <para><programlisting>A.N.P.E.</programlisting> cherche les éléments
+          qui continnent les mots A ou N ou P ou E .</para>
+
+          <para>Les accents et les majuscules/miniscules ne sont pas pris en
+          compte dans un terme exact.</para>
+
+          <para>Enfin, les termes exacts peuvent êtres utilisés dans toutes
+          les expressions complexes décrites ci-dessous.</para>
+        </sect4>
+
+        <sect4>
+          <title>Négation</title>
+
+          <para>Le symbole ~ devant un terme représente un négation de ce
+          terme. Cela signifie la recherche de tous les éléments ne contenant
+          pas ce terme.</para>
+
+          <para><emphasis>Ex.</emphasis><programlisting>~travail</programlisting>
+          signifie tous les éléments sauf ceux qui contiennent le mot
+          travail</para>
+        </sect4>
+
+        <sect4>
+          <title>Opérateurs logiques entre deux mots</title>
+
+          <para>Des opérateurs logiques peuvent être utilisés entre les mots
+          :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>+ : opérateur ET</para>
+
+              <para><emphasis>Ex. </emphasis><programlisting>disque + dur</programlisting>
+              signifie les éléments qui contiennent les mots disque et
+              dur.</para>
+            </listitem>
+
+            <listitem>
+              <para>- : opérateur SAUF (ET NON)</para>
+
+              <para><emphasis>Ex. </emphasis><programlisting>disque - dur</programlisting>
+              signifie les éléments qui contiennent le mot disque, sauf ceux
+              qui contiennent aussi le mot dur.</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>Plusieurs opérateurs peuvent-être enchainés dans une même
+          expression. Ils sont appliqués dans l'ordre, de gauche à
+          droite.</para>
+
+          <para><emphasis>Ex.</emphasis> <programlisting>poésie + français* - romantique*</programlisting>signifie
+          les éléments contenant poésie et français(e)(s) sans
+          romantique(s).</para>
+
+          <para><emphasis role="bold">Attention</emphasis>, deux opérateurs ne
+          peuvent se suivre, une négation ne peut-être combinée à un opérateur
+          (+~ revient au même que l'opérateur -).</para>
+        </sect4>
+
+        <sect4>
+          <title>Regroupements</title>
+
+          <para>Une expression peut-être regroupée pour devenir un terme. Ce
+          regroupement se fait avec les parenthèses. Cela permet de changer
+          l'ordre d'application des opérateurs ou de combiner les résultats
+          d'expressions complexes.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><programlisting>poésie + (française romantique)</programlisting></para>
+
+              <para>signifie dans tous les éléments qui contiennent francaise
+              ou romantique, uniquement ceux qui contiennent poésie.</para>
+            </listitem>
+
+            <listitem>
+              <para><programlisting>(poésie + française) romantique</programlisting>signifie
+              tous les éléments qui contiennent poésie et française ou tous
+              les éléments qui contiennent romantique</para>
+            </listitem>
+
+            <listitem>
+              <para><programlisting>~(poésie + française) + (littérature améri*)</programlisting>
+              signifie tous les éléments qui ne contiennent pas poésie et
+              française et les éléments qui contiennent littérature ou améri*
+              Les parenthèses peuvent-être imbriquées sans limite.</para>
+            </listitem>
+
+            <listitem>
+              <para><programlisting>(poésie + (française romantique)) (littérature + XIX)</programlisting>signifie
+              dans tous les éléments qui contiennent francaise ou romantique,
+              uniquement ceux qui contiennent poésie ou les éléments qui
+              contiennent littérature et XIX</para>
+            </listitem>
+          </itemizedlist>
+        </sect4>
+
+        <sect4>
+          <title>Pertinence</title>
+
+          <para>Les résultats sont trié par ordre de pertinence puis par ordre
+          alphabétique. La pertinence est calculée simplement par le nombre
+          total de mots ou de termes exacts trouvés.</para>
+
+          <para>Par exemple :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>jambon bayonne trouvera tous les éléments contenant jambon
+              ou bayonne, ceux qui contiennent les deux mots seront au début
+              de la liste de résultat</para>
+            </listitem>
+
+            <listitem>
+              <para>~(poésie + française) (littérature améri*) trouvera tous
+              les éléments qui ne contiennent pas poésie et française, dans
+              ces éléments, ceux qui contiennent littérature ou améri*
+              apparaitront en premier dans la liste de résultats (d'abord
+              littérature et améri*, puis améri*, puis littérature)</para>
+            </listitem>
+          </itemizedlist>
+        </sect4>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>Nouvelle notice</title>
+
+      <sect3>
+        <title>Saisie d'une nouvelle notice</title>
+
+        <para>La saisie d'une nouvelle notice se fait en deux écrans : un
+        numéro d'identification (ISBN) est d'abord demandé mais il n'est pas
+        obligatoire de le saisir. Si un EAN est saisi, il est alors converti
+        en ISBN.</para>
+
+        <sect4 id="cat_create">
+          <title>Saisie de l'ISBN, de l'EAN ou d'un numéro commercial</title>
+
+          <para>Si le numéro d'identification saisi correspond à un ouvrage
+          déjà saisi en base, la notice est alors directement ouverte en
+          modification. Ceci permet un dédoublonnage de la base dès le
+          catalogage.</para>
+
+          <figure>
+            <title>Ouvrages &gt; Nouvelle notice</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_new1.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Cliquez ensuite sur <emphasis>suivant</emphasis> pour
+          poursuivre la création de la notice.</para>
+        </sect4>
+
+        <sect4 id="cat_create_form">
+          <title>Saisies des données de la notice</title>
+
+          <figure>
+            <title>Ouvrages &gt; Nouvelle notice (écran 2)</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_new2.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <sect5>
+            <title>Choix d'un support de document</title>
+
+            <para>Dans la liste déroulante située en haut du formulaire, vous
+            pouvez choisir entre différents types de support :</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>texte imprimé</para>
+              </listitem>
+
+              <listitem>
+                <para>texte manuscrit</para>
+              </listitem>
+
+              <listitem>
+                <para>partition musicale imprimée</para>
+              </listitem>
+
+              <listitem>
+                <para>partition musicale manuscrite</para>
+              </listitem>
+
+              <listitem>
+                <para>document cartographique imprimé</para>
+              </listitem>
+
+              <listitem>
+                <para>document cartographique manuscrit</para>
+              </listitem>
+
+              <listitem>
+                <para>document projeté ou vidéo</para>
+              </listitem>
+
+              <listitem>
+                <para>enregistrement sonore non musical</para>
+              </listitem>
+
+              <listitem>
+                <para>enregistrement sonore musical</para>
+              </listitem>
+
+              <listitem>
+                <para>document graphique à deux dimensions</para>
+              </listitem>
+
+              <listitem>
+                <para>document électronique</para>
+              </listitem>
+
+              <listitem>
+                <para>document multimédia</para>
+              </listitem>
+
+              <listitem>
+                <para>objet à 3 dimensions, artéfacts, ...</para>
+              </listitem>
+            </itemizedlist>
+
+            <para>Ces supports correspondent aux supports de documents définis
+            par la norme UNIMARC.</para>
+
+            <para><emphasis role="bold">Attention</emphasis> : ne pas
+            confondre avec type de document, qui correspond à
+            l'exemplaire.</para>
+          </sect5>
+
+          <sect5>
+            <title>Titre</title>
+
+            <para>Le titre propre est le titre principal d'un ouvrage.</para>
+
+            <para>Même si le titre est généralement présent sur la couverture
+            ou la tranche de l'ouvrage, il faut le lire sur la page de titre
+            car il est parfois différent du titre de couverture. Dans ce cas,
+            le titre de couverture sera spécifié ailleurs (zone de
+            note).</para>
+
+            <para>Vous pouvez également définir le titre propre d'un auteur
+            différent, un titre parallèle, ainsi qu'un complément du
+            titre.</para>
+
+            <para>Le titre parallèle correspond par exemple au titre de
+            l'ouvrage dans la langue d'origine.</para>
+
+            <para>Enfin, vous pouvez définir un titre de série. Un titre de
+            série est un titre commun à différents ouvrages d'un même auteur.
+            Par exemple <emphasis>Les aventures de Tintin</emphasis> de
+            <emphasis>Hergé</emphasis>. Le champs "Partie de" est différent
+            des champs de titre. Pour spécifier un titre de série, cliquez sur
+            le bouton "..."</para>
+
+            <figure>
+              <title>Définir un titre de série</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/titres_serie.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Choisissez ensuite un titre de série dans le popup.</para>
+
+            <figure>
+              <title>Popup de sélection de titre de série</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/popup-serie.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Si votre titre de série ne figure pas dans la liste du
+            popup, cliquez sur<emphasis> créer un titre de série</emphasis>.
+            Saisissez ensuite le titre de série, cliquez sur
+            <emphasis>Enregistrer</emphasis> puis sélectionnez votre titre de
+            série dans la liste. Vous ne pouvez ni modifier ni supprimer un
+            titre de série dans le popup. Pour modifier ou supprimer un titre
+            de série, dans l'onglet <emphasis>Autorités</emphasis>, choisissez
+            dans le menu<emphasis> Titres de série</emphasis>. Pour plus
+            d'informations, voir <xref linkend="autorites" />.</para>
+
+            <para>Le titre de série sélectionné est ensuite affiché dans le
+            formulaire de la notice.</para>
+
+            <figure>
+              <title>La saisie d'un auteur se fait soit lors du catalogage,
+              soit avec l'onglet "autorités" Le titre de série sélectionné est
+              affiché</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/titres_serie2.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Pour effacer un titre de série sélectionné, cliquer sur le
+            bouton "X"</para>
+
+            <para>Vous pouvez également spécifier un <emphasis>n° de
+            partie</emphasis>. Par exemple, <emphasis>Les aventures de
+            Tintin</emphasis>, n° <emphasis>11</emphasis>.</para>
+          </sect5>
+
+          <sect5>
+            <title>Saisie d'un auteur (mention de responsabilité)</title>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, sélection des
+              auteurs</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_resp.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Pour sélectionner un auteur, cliquez sur le bouton "..."
+            puis sélectionnez l'auteur dans le popup de recherche d'auteur.
+            Pour rechercher un auteur, tapez quelques lettres de son nom puis
+            cliquez sur <emphasis>Rechercher</emphasis>. Les résultats de la
+            recherche sont alors affichés.</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, popup de sélection d'un
+              auteur</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/popup_authors.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Si l'auteur de l'ouvrage que vous souhaitez cataloguer n'est
+            pas déjà enregistré, ajoutez le en cliquant sur le bouton
+            <emphasis>Ajouter un auteur</emphasis>.</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, ajout d'un auteur depuis
+              le popup</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/popup-new-author.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>La saisie d'un auteur se fait soit lors du catalogage, soit
+            avec l'onglet "autorités". Pour plus d'informations sur la
+            création d'un auteur, voir <xref
+            linkend="autorites_ajout_auteur" />.</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, auteur
+              sélectionné</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat-new-resp-filled.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Si le terme "auteur" est le nom qui convient à l'auteur d'un
+            livre, il n'en est pas de même pour l'auteur d'un film, pour
+            lequel on parlera davantage d'un metteur en scène. Il s'agit alors
+            de la fonction de l'auteur par rapport à l'ouvrage dont il le
+            responsable. Puis sélectionner une fonction (non obligatoire),
+            cliquer sur le bouton "...".</para>
+
+            <figure>
+              <title>Popup de sélection d'une fonction pour l'auteur</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/popup-fonction.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Quelques remarques :</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>il ne peut y avoir qu'un auteur principal pour un
+                ouvrage, mais il peut y avoir plus autres auteurs, et/ou
+                plusieurs auteurs secondaires. Pour sélectionner un
+                <emphasis>autre auteur</emphasis> ou un <emphasis>auteur
+                secondaire</emphasis> cliquez sur le bouton "..."
+                correspondant. Pour ajouter un auteur supplémentaire, cliquez
+                sur le bouton "+".</para>
+              </listitem>
+
+              <listitem>
+                <para>pour effacer un auteur ou une fonction sélectionné,
+                cliquez sur le bouton "X"</para>
+              </listitem>
+            </itemizedlist>
+          </sect5>
+
+          <sect5>
+            <title>Saisie d'un éditeur, des collections, sous-collection et
+            titres de série</title>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé Éditeurs,
+              collection</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_publisher.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>La saisie des collections, sous-collections, sous-titres de
+            séries se fait soit lors de la création d'une notice (possibilité
+            uniquement d'ajouter des données), soit avec l'onglet "autorités".
+            Commencez par remplir <emphasis>sous-collection</emphasis> le cas
+            échéant, sinon <emphasis>collection</emphasis> ou enfin
+            <emphasis>éditeur</emphasis>.</para>
+
+            <para>Dans le popup de sélection de la sous-collection,
+            sélectionner une sous-collection <emphasis>ou</emphasis> choisir
+            <emphasis>créer une sous-collection</emphasis>, remplir les champs
+            connus puis cliquer sur le bouton de sélection de la collection
+            mère de cette sous-collection.</para>
+
+            <para>Dans le popup de sélection de la collection dont fait partie
+            notre sous-collection, sélectionner une collection
+            <emphasis>ou</emphasis> choisir <emphasis>créer une
+            collection</emphasis>, remplir les champs connus sauf l'éditeur
+            puis cliquer sur le bouton de sélection de l'éditeur.</para>
+
+            <para>Dans le popup de sélection de l'éditeur, sélectionner un
+            éditeur <emphasis>ou </emphasis>choisir <emphasis>créer un
+            éditeur</emphasis> et compléter les champs.</para>
+
+            <para>Une fois notre saisie finie, sélectionnez l'éditeur de la
+            collection, puis la collection de notre sous-collection enfin
+            enregistrez la sous-collection et sélectionnez la.</para>
+
+            <para>De manière générale, choisissez l'élément le plus spécifique
+            en premier. Choisissez la sous-collection, puis la collection
+            enfin l'éditeur.</para>
+
+            <para>Une collection correspond au choix d'un éditeur :
+            <emphasis>PUF</emphasis>, collection <emphasis>Que Sais-je
+            ?</emphasis></para>
+
+            <para>Une sous-collection répond au même souci à un niveau
+            supérieur : Nathan Université, collection 128, sous-collection
+            Histoire.</para>
+
+            <para>Un titre de série correspond à un ouvrage en plusieurs
+            volume, chaque volume a un titre propre et l'ensemble des volumes
+            en a un autre.</para>
+
+            <para><emphasis role="bold">Exemple</emphasis> Pullman, Philip
+            <emphasis role="bold">Titre de série</emphasis> A la croisée des
+            mondes <emphasis role="bold">Numéro de partie</emphasis> Volume 1
+            <emphasis role="bold">Titre propre</emphasis> Les royaumes du
+            Nord</para>
+
+            <para>Pour réaliser cette saisie, il faut créer sous PMB les
+            collections et titres de série avant de les sélectionner. Le
+            numéro de partie comme le titre de propre sont à saisir lors de la
+            rédaction de la notice d'ouvrage.</para>
+          </sect5>
+
+          <sect5>
+            <title>ISBN, EAN ou no. commercial</title>
+
+            <para>L'ISBN, qui a été demandé dans le premier écran lors d'une
+            création de notice, est affiché ici. Cliquez sur le bouton "..."
+            pour ouvrir un popup et pouvoir douchetter l'EAN de l'ouvrage, ou
+            saisir son ISBN. Cette saisie se fait dans un popup pour éviter
+            que la validation qui suit une lecture de code-barres ne ferme la
+            notice en cours d'édition.</para>
+
+            <para>PMB convertit les EAN saisis (code-barres commercial)
+            automatiquement en ISBN.</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé ISBN</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_isbn.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </sect5>
+
+          <sect5>
+            <title>Collation</title>
+
+            <para>La collation précise différentes informations liées à
+            l'aspect physique du document : importance matérielle,
+            illustrations, format, prix, matériel d'accompagnement.</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé Collation</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_collation.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </sect5>
+
+          <sect5>
+            <title>Notes</title>
+
+            <para>Les notes sont de trois types :
+            <emphasis>générale</emphasis>, liée au
+            <emphasis>contenu</emphasis> (appréciation, critique), ou
+            <emphasis>un résumé, un extrait </emphasis>du document (par
+            exemple le résumé d'un roman en quatrième de couverture).</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé Notes</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_notes.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </sect5>
+
+          <sect5>
+            <title>Indexation</title>
+
+            <para>Le pavé d'indexation est composé de trois indexations
+            différentes :</para>
+
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">Catégories</emphasis> : ajout
+                d'une catégorie du thésaurus interne de PMB. Pour plus
+                d'informations sur les catégories, voir <xref
+                linkend="autorites_categ" /> .</para>
+
+                <para>Pour sélectionner une catégorie, cliquez sur le bouton
+                "...". Pour ajouter une catégorie supplémentaire, cliquez sur
+                le bouton "+". Pour supprimer la sélection d'une catégorie,
+                cliquez sur le bouton "X".</para>
+
+                <figure>
+                  <title>Catalogage &gt; Nouvelle notice, popup de sélection
+                  de catégorie</title>
+
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/cat_new_categ.gif" />
+                    </imageobject>
+                  </mediaobject>
+                </figure>
+
+                <para>Vous pouvez créer une catégorie en cliquant sur le
+                bouton Ajouter.</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">Indexation</emphasis> : ajout
+                d'une indexation décimale. Pour plus d'informations, consulter
+                le chapitre <emphasis>Autorités</emphasis>, section
+                <emphasis>Indexation</emphasis>.</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">Indexation libre</emphasis> : vous
+                pouvez ici ajouter des mots clés librement, séparés par des
+                espaces. Vous pouvez par exemple spécifier des mots clés, ou
+                une indexation libre d'un thésaurus non intégré à PMB
+                (vedettes Blanc-Montmayeur par exemple).</para>
+              </listitem>
+            </itemizedlist>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé Indexation</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_indexation.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </sect5>
+
+          <sect5>
+            <title>Langue de la publication</title>
+
+            <para>Vous pouvez ici spécifier une langue d'origine de la
+            publication, celle-ci est définie par défaut dans les préférences
+            de l'utilisateur. Pour plus d'informations, consulter le chapitre
+            <emphasis>Préférences utilisateurs</emphasis>.</para>
+
+            <para>Les codes langues sont définis par la norme UNIMARC.</para>
+
+            <para>Vous pouvez également définir une langue originale, si
+            l'ouvrage décrit est une traduction.</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé Langues</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_langue.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </sect5>
+
+          <sect5>
+            <title>Liens (ressources électroniques)</title>
+
+            <para>L'URL associée doit être saisie dans son intégralité de
+            préférence (y compris le http://) pour être sur du fonctionnement
+            des liens, quel que soit le navigateur internet de
+            l'utilisateur.</para>
+
+            <para>Le format électronique de la ressource est laissé à la
+            discrétion du catalogueur. Préférer un début de champ tel que
+            "fichier", par exemple "fichier PDF" ou "fichier Acrobat", et des
+            mentions génériques : "site internet".</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé Liens</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_liens.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para><emphasis role="bold">Aller plus loin : les fils
+            RSS</emphasis> Vous pouvez également associer un fil RSS à une
+            notice. Un fil RSS est un flux d'information émis en continu par
+            un site internet. Le flux RSS du site lemonde.fr vous renseigne
+            sur les principales informations de l'actualité développées sur ce
+            site. En associant le fil RSS de ce site à une notice décrivant
+            lemonde.fr, les lecteurs de votre bibliothèque ou de votre centre
+            de documentation peuvent consulter les dernières informations de
+            ce site depuis votre opac.</para>
+
+            <para>Pour associer un fil RSS saisissez l'URL correspondante (il
+            est facile de trouver ces informations sur le Web) dans le champ
+            URL associée. Saisissez pour format électronique RSS NN où NN est
+            un nombre en minutes définissant le délai de rafraichissement de
+            l'information depuis le fil RSS. Par exemple, si vous saisissez
+            "RSS 30", le fil RSS correspondant sera rechargé toutes les 30
+            minutes depuis le site web d'origine. Ces informations seront
+            mises en cache pour accélérer les réponses de l'OPAC de PMB
+            pendant les trentes prochaines minutes.</para>
+          </sect5>
+
+          <sect5>
+            <title>Champs personnalisés</title>
+
+            <para>Enfin, le cas échéant, en bas de la notice, vous pouvez
+            définir les valeurs de vos champs personnalisés.</para>
+
+            <para>Les champs personnalisables des notices sont des
+            informations supplémentaires, vous pouvez les créer dans
+            <emphasis>Administration</emphasis> &gt;
+            <emphasis>Notices</emphasis> &gt;
+            <emphasis>Personnalisables</emphasis>. Pour plus d'informations,
+            consulter le <emphasis>Guide de l'Administrateur</emphasis>,
+            chapitre <emphasis>Notices</emphasis>.</para>
+
+            <para>Si aucun champs personnalisé n'est défini, ce pavé n'est pas
+            affiché.</para>
+
+            <figure>
+              <title>Catalogue &gt; Nouvelle notice, pavé Champs
+              personnalisables</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_new_perso.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </sect5>
+
+          <para>Une fois les différents champs de la notice complétés, cliquez
+          sur <emphasis>Enregistrer</emphasis>.La notice est enregistrée, vous
+          arrivez sur la liste des exemplaires de l'ouvrage.</para>
+        </sect4>
+      </sect3>
+
+      <sect3 id="cat_isdbd">
+        <title>Liste des exemplaires d'un ouvrage</title>
+
+        <para>l'écran suivant présente la notice au format ISBD et les
+        éventuels exemplaires qui lui correspondent.</para>
+
+        <figure>
+          <title>catalogue &gt; ouvrages, liste des exemplaires d'un
+          ouvrage</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/liste-expls.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Pour modifier la notice de l'ouvrage, cliquez sur
+        <emphasis>Modifier</emphasis>. La modification d'une notice affiche le
+        même écran que la création d'une notice.</para>
+
+        <para>Vous pouvez <emphasis>Ajouter un exemplaire.</emphasis></para>
+
+        <para>Vous pouvez également <emphasis>Ajouter un document
+        numérique</emphasis>.</para>
+
+        <para>Si la notice possède déjà des exemplaires, vous pouvez modifier
+        un des exemplaires de l'ouvrage le cas échéant, en cliquant sur son n°
+        d'exemplaire.</para>
+
+        <para>Si la notice possède déjà des exemplaires numériques, vous
+        pouvez afficher ou modifier un des exemplaires numériques de l'ouvrage
+        le cas échéant. Pour afficher le document numérique associé, cliquez
+        sur son icône. Pour modifier le document numérique associé, cliquez
+        sur son titre.</para>
+
+        <sect4>
+          <title>Modification d'une notice</title>
+
+          <para>Pour modifier une notice, cliquez sur le bouton Modifier qui
+          se trouve sous la notice, au dessus de la liste des exemplaires
+          correspondant.</para>
+
+          <para>En modification de la notice, vous obtenez un affichage des
+          champs de la notice identique à sa création (voir plus haut la
+          section 1.2.1.2 Saisie des données de la notice). Cependant, vous
+          pouvez voir des boutons supplémentaires en bas de l'écran.</para>
+
+          <figure>
+            <title>Boutons disponibles en bas de l'écran de modification d'une
+            notice</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_modif_notice.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <sect5>
+            <title>Remplacer par</title>
+
+            <para>Permet de remplacer une notice par une autre, ceci vous
+            permet de dédoublonner et de rassembler différents exemplaires
+            liés avec différentes notices en doublon.</para>
+          </sect5>
+
+          <sect5>
+            <title>Dupliquer</title>
+
+            <para>Permet de dupliquer une notice. Une nouvelle notice est
+            affichée, appliquez à celle-ci les différences que présente
+            l'ouvrage à cataloguer avec la notice d'origine et enregistrez la
+            nouvelle notice.</para>
+
+            <para>Cette fonctionnement est très utile lors du catalogage de
+            toute une collection ou d'une série.</para>
+          </sect5>
+
+          <sect5>
+            <title>Hist.</title>
+
+            <para>Ce bouton n'est affiché que si l'audit des notices et des
+            exemplaires est affiché. Il va permettre de voir qui a réalisé le
+            catalogage d'une notice, et qui a fait des modifications. Les
+            informations sont affichées dans un popup et dépendent du type
+            d'audit choisi. Pour plus d'informations, consulter le Guide de
+            l'Administrateur PMB, chapitre Outils, section Paramètres : il
+            s'agit du paramètre de type Paramètres généraux intitulé
+            type_audit.</para>
+
+            <figure>
+              <title>Historique</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_hist_notices.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </sect5>
+
+          <sect5>
+            <title>Z39.50</title>
+
+            <para>Permet de rechercher une notice en Z39.50. Ce bouton relance
+            une recherche correspondant à l'ISBN de la notice affichée.</para>
+          </sect5>
+
+          <sect5>
+            <title>Supprimer</title>
+
+            <para>Permet de supprimer une notice. Attention, vous ne pourrez
+            supprimer une notice que si elle n'a aucun exemplaire ou document
+            numérique associé.</para>
+          </sect5>
+        </sect4>
+
+        <sect4 id="cat_expl_create">
+          <title>Ajout d'un exemplaire</title>
+
+          <para>Pour modifier un des exemplaires de l'ouvrage, cliquez sur son
+          code barre. Pour ajouter un exemplaire, saisissez le <emphasis>N° de
+          l'exemplaire</emphasis> puis cliquez sur <emphasis>Ajouter un
+          exemplaire</emphasis>.</para>
+
+          <figure>
+            <title>Ajout d'un exemplaire : saisie du no d'exemplaire</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/ajout-expl.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Ce <emphasis>n° d'exemplaire </emphasis>est le code barre que
+          vous avez posé en couverture, si vous utilisez une douchette. Dans
+          le cas contraire, il s'agit d'un numéro distinct pour chacun des
+          exemplaires de votre bibliothèque (numéro d'inventaire).</para>
+
+          <figure>
+            <title>Ajouter un exemplaire</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/ajout-expl-2.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>L'écran d'ajout d'exemplaire vous permet de saisir différentes
+          informations :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>le <emphasis role="bold">n° d'exemplaire</emphasis> est
+              affiché. Cette information est <emphasis
+              role="bold">obligatoire</emphasis>. Pour le modifier cliquer sur
+              le bouton "..." et douchettez le code barre de l'exemplaire dans
+              le popup (ou saisir un nouveau n° d'exemplaire puis
+              valider).</para>
+            </listitem>
+
+            <listitem>
+              <para>saisissez une <emphasis role="bold">cote</emphasis>. Cette
+              information est <emphasis role="bold">obligatoire</emphasis>. La
+              cote est souvent composée de l'indexation décimale suivie des
+              trois premières lettres de l'auteur.</para>
+            </listitem>
+
+            <listitem>
+              <para>sélectionnez le <emphasis role="bold">type de document
+              </emphasis>parmi les choix du menu déroulant. La liste des types
+              de documents est configurable dans <emphasis>Administration &gt;
+              Exemplaires &gt; Types de document</emphasis>.</para>
+            </listitem>
+
+            <listitem>
+              <para>sélectionnez la <emphasis role="bold">localisation
+              </emphasis>parmi le menu déroulant. La liste des localisations
+              est configurable dans <emphasis>Administration &gt; Exemplaires
+              &gt; Localisations</emphasis>.</para>
+            </listitem>
+
+            <listitem>
+              <para>sélectionnez la <emphasis role="bold">section</emphasis>
+              parmi les choix du menu déroulant. La liste des sections est
+              configurable dans <emphasis>Administration &gt; Exemplaires &gt;
+              Sections</emphasis>.</para>
+            </listitem>
+
+            <listitem>
+              <para>sélectionnez le <emphasis
+              role="bold">propriétaire</emphasis> de l'exemplaire parmi les
+              choix du menu déroulant. La liste des propriétaires est
+              configurable dans <emphasis>Administration &gt; Exemplaires &gt;
+              Propriétaires</emphasis>. Généralement il s'agit du Fonds
+              propre. Cependant, vous pouvez avoir un dépôt de votre BDP, ou
+              d'une autre bibliothèque.</para>
+            </listitem>
+
+            <listitem>
+              <para>sélectionnez le <emphasis role="bold">statut</emphasis> de
+              l'exemplaire parmi les choix du menu déroulant. La liste des
+              statuts est configurable dans <emphasis>Administration &gt;
+              Exemplaires &gt; Statuts </emphasis>.</para>
+            </listitem>
+
+            <listitem>
+              <para>sélectionnez le <emphasis role="bold">code statistique
+              </emphasis>de l'exemplaire parmi les choix du menu déroulant. La
+              liste des propriétaires est configurable dans
+              <emphasis>Administration &gt; Exemplaires &gt;
+              Propriétaires</emphasis>. Généralement il s'agit du Fonds
+              propre, c'est à dire l'ensemble des livres que possède votre
+              bibliothèque. Cependant, vous pouvez avoir un dépôt de votre
+              BDP, ou d'une autre bibliothèque.</para>
+            </listitem>
+
+            <listitem>
+              <para>vous pouvez également définir pour <emphasis
+              role="bold">notes</emphasis> un message lié à l'exemplaire. Ce
+              message sera affiché avant tout prêt. Par exemple : "méthode
+              ASSIMIL, vérifier la présence des trois cassettes dans le
+              boîtier".</para>
+            </listitem>
+
+            <listitem>
+              <para>vous pouvez enfin définir un prêt.</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>Certaines de ces informations peuvent avoir une valeur par
+          défaut définie dans vos <emphasis>préférences
+          utilisateur</emphasis>. Pour plus d'informations, consulter le
+          chapitre <emphasis>Préférences utilisateur</emphasis>.</para>
+
+          <para>En <emphasis>dessous du prix </emphasis>figurent les <emphasis
+          role="bold">champs personnalisés </emphasis>de l'exemplaire. Il
+          s'agit d'informations supplémentaires que vous pouvez définir
+          librement dans <emphasis>Administration &gt; Exemplaires &gt;
+          Personnalisables.</emphasis> Pour plus d'informations, consulter le
+          <emphasis>Guide de l'Administrateur de PMB</emphasis>, chapitre
+          <emphasis>Exemplaires</emphasis>.</para>
+
+          <para>Vous pouvez enregistrer vos modifications en cliquant sur
+          <emphasis>Enregistrer</emphasis> ou les
+          <emphasis>Annuler</emphasis>. Si vous avez ouvert un exemplaire en
+          modification, vous pouvez également <emphasis>Supprimer
+          </emphasis>cet exemplaire.</para>
+        </sect4>
+
+        <sect4 id="cat_explnum_create">
+          <title>Ajout d'un exemplaire numérique</title>
+
+          <para>Les exemplaires numériques ne sont pas des liens, mais des
+          documents numériques directement intégrés dans votre catalogue sous
+          PMB. Vous pouvez ainsi ajouter à votre catalogue des ouvrages
+          numérisés par exemple au format PDF, des fichiers sons par exemple
+          au format MP3, des documents de votre traitement de texte ou de
+          votre tableur, des images...</para>
+
+          <figure>
+            <title>Saisie d'un exemplaire numérique</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/doc_num_new.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Vous pouvez définir différentes informations :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>un <emphasis role="bold">nom</emphasis> du document</para>
+            </listitem>
+
+            <listitem>
+              <para>le <emphasis role="bold">fichier</emphasis> du document
+              numérique. Cliquez sur le bouton <emphasis>Parcourir</emphasis>
+              (ou <emphasis>Browse</emphasis> selon votre navigateur) et
+              sélectionnez le fichier à télécharger sur le serveur.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">une vignette</emphasis> (image pour
+              l'icône du document numérique). Cliquez sur le bouton
+              <emphasis>Parcourir</emphasis> (ou <emphasis>Browse</emphasis>
+              selon votre navigateur) et sélectionnez le fichier à télécharger
+              sur le serveur.</para>
+            </listitem>
+
+            <listitem>
+              <para>vous pouvez également télécharger vers le serveur un
+              fichier qui n'est pas sur votre disque mais sur votre réseau
+              intranet ou sur internet. Dans ce cas spécifiez <emphasis
+              role="bold">l'URL </emphasis>du fichier.</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>PMB génère automatiquement les vignettes des images au format
+          GIF, JPG et PNG à partir du fichier, et place des icônes appropriées
+          pour la plupart des formats de fichier.</para>
+
+          <para>Vous pouvez enregistrer vos modifications en cliquant sur
+          <emphasis>Enregistrer</emphasis> ou les
+          <emphasis>Annuler</emphasis>. Si vous avez ouvert un exemplaire
+          numérique en modification, vous pouvez également <emphasis>Supprimer
+          </emphasis>cet exemplaire numérique.</para>
+        </sect4>
+
+        <sect4 id="cat_edit_expl">
+          <title>Modifier un exemplaire</title>
+
+          <para>L'écran de modification est identique à celui d'ajout d'un
+          exemplaire auquel viennent s'ajouter deux boutons : Hist. et
+          Supprimer.</para>
+
+          <sect5>
+            <title>Hist.</title>
+
+            <para>Ce bouton n'est affiché que si l'audit des notices et des
+            exemplaires est affiché. Il va permettre de voir qui a réalisé le
+            catalogage d'une notice, et qui a fait des modifications. Les
+            informations sont affichées dans un popup et dépendent du type
+            d'audit choisi. Pour plus d'informations, consulter le Guide de
+            l'Administrateur PMB, chapitre Outils, section Paramètres : il
+            s'agit du paramètre de type Paramètres généraux intitulé
+            type_audit.</para>
+          </sect5>
+
+          <sect5>
+            <title>Supprimer</title>
+
+            <para>Permet de supprimer l'exemplaire affiché. Attention, un
+            exemplaire ne peut être supprimé s'il est en cours de prêt.</para>
+          </sect5>
+        </sect4>
+
+        <sect4>
+          <title>Modifier un exemplaire numérique</title>
+
+          <para>L'écran de modification d'un exemplaire numérique est
+          identique à celui d'ajout d'un exemplaire numérique.</para>
+        </sect4>
+      </sect3>
+    </sect2>
+
+    <sect2 id="cat_last_records">
+      <title>Dernières notices</title>
+
+      <para>Cet élément du menu permet d'accéder aux dernières notices
+      saisies.</para>
+
+      <figure>
+        <title>Catalogage &gt; Ouvrages &gt; Dernières notices</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_last.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>L'accès aux dernières notices permet au bibliothécaire de
+      retrouver rapidement une notice qu'il aurait créé pour une correction,
+      rectifier un oubli...</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="cat_serial">
+    <title>Périodiques</title>
+
+    <para>PMB permet de saisir des informations générales liées au périodique
+    ; des informations liées au numéro tel que sorti en kiosque par exemple ;
+    ou encore des informations liées aux articles présents dans ce
+    numéro.</para>
+
+    <sect2 id="cat_serial_vocabulary">
+      <title>Un peu de vocabulaire</title>
+
+      <para>On désigne sous le terme de périodique toute publication en série
+      (y compris non-imprimée) dont la parution se fait à intervalles plus ou
+      moins réguliers et sous un titre uniforme.</para>
+
+      <para>Vous devez connaître le sens de quatre termes pour comprendre la
+      façon dont PMB gère les périodiques :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">le périodique</emphasis> est défini dans
+          PMB par une notice (appelée <emphasis role="bold">notice
+          mère</emphasis> ou <emphasis role="bold">notice chapeau</emphasis>)
+          qui définit notamment le nom de la revue, du magazine, etc. Cette
+          notice correspond à une notice d'ouvrage et définit le périodique au
+          sens large : <emphasis>Le Monde </emphasis>est un quotidien, fondé
+          par <emphasis>Beuve-Méry</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">le numéro ou élément</emphasis> (encore
+          appelé <emphasis role="bold">bulletin</emphasis>) désigne par
+          exemple pour <emphasis>le Monde</emphasis> le n°
+          <emphasis>32478</emphasis> publié le <emphasis>15 août
+          2002</emphasis>, tel qu'il était disponible en kiosque. Décrire un
+          numéro dans le catalogue c'est décrire chacune des unités
+          constituant un périodique en vue du prêt d'un de ses exemplaires, ou
+          du catalogage de ses articles.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">l'exemplaire</emphasis> correspond à
+          l'état physique d'un numéro ou élément. Si vous avez deux
+          abonnements au Monde, vous aurez dans vos collections <emphasis>deux
+          exemplaires</emphasis> du n° <emphasis>32478</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">l'article</emphasis> (encore appelé
+          <emphasis role="bold">dépouillement</emphasis>) constitue
+          l'information de base dont sont constitués les différents numéros
+          d'une revue. Ceux ci sont les informations à décrire (dépouillement)
+          et à cataloguer et disposent donc d'une notice. Exemple : cataloguer
+          un article paru à la page 10 du Monde du 18 Juin 2003</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">Récapitulons</emphasis> : Nous sommes
+      abonnés au Monde (une <emphasis role="">notice de
+      périodique</emphasis>), qui possède un n° 32478 (un
+      <emphasis>bulletin</emphasis>), dont nous avons deux exemplaires dans
+      notre bibliothèque (<emphasis>deux fiches d'exemplaires</emphasis> avec
+      deux codes-barres différents pour le prêt). Dans ce numéro, il y avait
+      cinquante grands articles (<emphasis>50 dépouillements</emphasis>) que
+      les lecteurs ou bibliothécaires peuvent chercher indépendamment,
+      renvoyant au numéro correspondant et à la disponibilité des exemplaires
+      correspondant.</para>
+
+      <para>Si aucune information n'a encore été saisie dans PMB, la saisie
+      d'un article de périodique se fait donc en différentes étapes,
+      correspondant à la création d'une notice du périodique, le listage des
+      éléments (bulletinage), la création des exemplaires éventuels
+      (exemplarisation), le catalogage de l'article (dépouillement).</para>
+
+      <figure>
+        <title>Navigation dans les écrans d'affichage des périodiques</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/navig-bulletinage.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Lorsque vous affichez des informations d'un périodique (ici
+      <emphasis>Géo</emphasis>), d'un de ses bulletins (ici le
+      n°<emphasis>278</emphasis>) ou d'un des articles de ce bulletin, une
+      barre de navigation est affichée en haut de l'écran. Elle permet de
+      remonter rapidement d'un niveau dans l'exploration d'un
+      périodique.</para>
+    </sect2>
+
+    <sect2 id="cat_serial_search">
+      <title>Recherche de périodiques</title>
+
+      <para>La recherche d'ouvrages permet de rechercher dans l'ensemble du
+      catalogue, y compris articles et périodiques.</para>
+
+      <para>La recherche de périodiques permet, elle, d'accéder rapidement à
+      un périodique précis, dans le but par exemple de saisir un nouveau
+      numéro du périodique arrivé à la bibliothèque, ou de continuer de
+      dépouiller les articles d'un numéro.</para>
+
+      <figure>
+        <title>Catalogue &gt; Périodiques &gt; Recherche</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_search_serials.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>PMB permet d'utiliser des expressions booléennes comme critère de
+      recherche. Pour plus d'informations, voir <xref
+      linkend="exp_bool" />.</para>
+
+      <figure>
+        <title>Catalogue &gt; Périodiques &gt; Recherche, résultats d'une
+        recherche</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/resultats-recherche-perio.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour avoir plus d'informations sur un résultat de recherche
+      cliquez sur le "+" devant son titre.</para>
+
+      <para>Pour visualiser un périodique, cliquez sur son titre parmi les
+      résultats.Vous obtenez alors l'écran de visualisation d'un périodique.
+      Pour plus d'informations, consulter plus la section 2.3.2
+      <emphasis>Visualiser un périodique.</emphasis></para>
+
+      <para><emphasis role="bold">Note </emphasis>Les résultats de la
+      recherche de périodiques sont uniquement des notices mères ou notices
+      chapeau de périodiques : par exemple géo, SVM, Le Monde ; les articles
+      comme les différents numéros du périodiques ne sont pas renvoyés par la
+      recherche de périodiques mais à l'écran <emphasis>Bulletinage</emphasis>
+      voir plus la section 2.3.3 <emphasis>Bulletinage</emphasis>.</para>
+    </sect2>
+
+    <sect2 id="cat_serial_form">
+      <title>Nouveau périodique</title>
+
+      <figure>
+        <title>Catalogage &gt; Périodiques &gt; Nouveau périodique</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_new_serial.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <sect3 id="cat_serial_add">
+        <title>Création d'un périodique</title>
+
+        <para>Commençons par détailler la création d'un périodique. Pour créer
+        un périodique, dans l'onglet <emphasis>Catalogue</emphasis>, cliquez
+        sur <emphasis>Nouveau périodique</emphasis> dans le menu.</para>
+
+        <sect4>
+          <title>Support</title>
+
+          <para>PMB peut gérer des périodiques de différentes formes. Si les
+          périodiques imprimées (journaux, magazines, revues) sont les plus
+          fréquents, PMB peut aussi gérer les journaux vocaux pour les sourds
+          malentendants, les périodiques électroniques, etc.</para>
+
+          <para>Les 15 supports présents dans le menu déroulant en haut de la
+          fiche correspondent aux dénominations UNIMARC:</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>texte imprimé</para>
+            </listitem>
+
+            <listitem>
+              <para>texte manuscrit</para>
+            </listitem>
+
+            <listitem>
+              <para>partition musicale imprimée</para>
+            </listitem>
+
+            <listitem>
+              <para>partition musicale manuscrite</para>
+            </listitem>
+
+            <listitem>
+              <para>document cartographique imprimé</para>
+            </listitem>
+
+            <listitem>
+              <para>document cartographique manuscrit</para>
+            </listitem>
+
+            <listitem>
+              <para>document projeté ou vidéo</para>
+            </listitem>
+
+            <listitem>
+              <para>enregistrement sonore non musical</para>
+            </listitem>
+
+            <listitem>
+              <para>enregistrement sonore musical</para>
+            </listitem>
+
+            <listitem>
+              <para>document graphique à deux dimensions</para>
+            </listitem>
+
+            <listitem>
+              <para>document électronique</para>
+            </listitem>
+
+            <listitem>
+              <para>document multimédia</para>
+            </listitem>
+
+            <listitem>
+              <para>objet à 3 dimensions, artefacts, ...</para>
+            </listitem>
+          </itemizedlist>
+        </sect4>
+
+        <sect4>
+          <title>Autres champs de saisie</title>
+
+          <para>Les autres champs de saisie d'un périodique correspondent à
+          ceux d'un ouvrage. Voir plus haut la section 1.2.1 <emphasis>Saisie
+          d'une nouvelle notice</emphasis>.</para>
+
+          <para><emphasis role="bold">A noter</emphasis> On ne peut pas
+          définir d'informations de collation (nb de pages, matériel
+          d'accompagnement, ...) pour un périodique. De même la notion de
+          collection ne s'applique pas à un périodique.</para>
+
+          <para>Après avoir enregistré votre notice de périodique, vous
+          obtenez l'affichage de l'écran <emphasis>Visualiser un
+          périodique</emphasis>.</para>
+        </sect4>
+      </sect3>
+
+      <sect3 id="cat_serial_view">
+        <title>Visualiser un périodique</title>
+
+        <figure>
+          <title>Visualiser un périodique</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/visu-periodique.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Depuis cet écran, vous pouvez modifier le périodique en cliquant
+        sur le bouton <emphasis role="bold">Modifier</emphasis>. La
+        modification d'un périodique est identique à sa création. Voir plus
+        bas la section <emphasis>Nouveau périodique</emphasis>.</para>
+
+        <para>Vous pouvez <emphasis role="bold">Supprimer</emphasis> le
+        périodique.</para>
+
+        <para>Vous pouvez également <emphasis role="bold">ajouter un numéro ou
+        un élément </emphasis>(bulletin).</para>
+
+        <para>Dans l'<emphasis>état des collections</emphasis> qui apparaît en
+        bas de l'écran, chaque ligne présente pour un bulletin sa mention de
+        date (<emphasis role="bold">Date ou période</emphasis>), le nombre
+        d'articles (<emphasis role="bold">Art</emphasis>.) dépouillés pour ce
+        bulletin, le nombre de documents numériques (<emphasis
+        role="bold">Doc</emphasis>.), le nombre d'exemplaires du bulletin
+        (<emphasis role="bold">Expl</emphasis>.).</para>
+
+        <para>Vous pouvez afficher un des bulletins déjà saisis en cliquant
+        sur une des lignes de <emphasis>l'état des collections</emphasis>. Le
+        bulletin est alors affiché dans l'écran
+        <emphasis>Bulletinage</emphasis>.</para>
+
+        <sect4 id="cat_serial_bul">
+          <title>Ajouter un numéro ou un élément (bulletin)</title>
+
+          <para>Différentes informations seulement sont nécessaires : la
+          mention de numérotation (n° 32478), le code barre du numéro, le
+          libellé de période et/ou la date de parution et enfin le titre du
+          bulletin.</para>
+
+          <para><emphasis role="bold">Numérotation</emphasis> : sert à stocker
+          le numéro du bulletin. Par exemple le numéro
+          <emphasis>153</emphasis> du périodique.</para>
+
+          <para><emphasis role="bold">Code barre</emphasis> : ceci vous permet
+          d'enregistrer le code barre du numéro du périodique, par exemple
+          <emphasis>3792578022009</emphasis>.</para>
+
+          <para><emphasis role="bold">Date de parution</emphasis> sert à dater
+          au jour près le bulletin (01/06/04). C'est cette date qui sert à
+          classer l'affichage des bulletins. Si cette case n'est pas remplie,
+          soit à la main, soit par le popup calendrier en cliquant sur
+          <emphasis>calendrier,</emphasis> elle sera automatiquement remplie
+          par PMB à la date du jour.</para>
+
+          <para><emphasis role="bold">Libellé de période</emphasis> : ce
+          champs sert pour la saisie de la date de publication telle qu'elle
+          est mentionnée pour le numéro : par exemple<emphasis> juin-juillet
+          2004</emphasis>.</para>
+
+          <para><emphasis role="bold">Titre du bulletin</emphasis> : pour
+          stocker le titre d'un bulletin le cas échéant, par exemple
+          <emphasis> hors-série : bouleversements
+          climatiques</emphasis>.</para>
+
+          <figure>
+            <title>Création d'un bulletin</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/numero.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </sect4>
+
+        <sect4 id="cat_serial_bul_view">
+          <title>Bulletinage</title>
+
+          <figure>
+            <title>Bulletinage</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/bulletinage.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Depuis cet écran vous pouvez :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Modifier</emphasis> ou <emphasis
+              role="bold">Supprimer </emphasis>le bulletin</para>
+            </listitem>
+
+            <listitem>
+              <para>Modifier un exemplaire dans la liste des exemplaires du
+              bulletin en cliquant sur son code-barres</para>
+            </listitem>
+
+            <listitem>
+              <para>Afficher un document numérique en cliquant sur son icône,
+              ou modifier le document numérique en cliquant sur son
+              titre</para>
+            </listitem>
+
+            <listitem>
+              <para>Ajouter un exemplaire en saisissant son n° d'exemplaire
+              puis cliquer sur <emphasis role="bold">Ajouter un
+              exemplaire</emphasis></para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Ajouter un document
+              numérique</emphasis></para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Ajouter un dépouillemen</emphasis>t
+              à ce bulletin (article)</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>La liste des dépouillements du bulletin est affichée en bas de
+          l'écran.</para>
+
+          <para>Pour plus de détails cliquer sur l'icône "<emphasis
+          role="bold">+</emphasis>" en début de ligne.</para>
+
+          <para>Pour modifier un dépouillement cliquer sur son titre.</para>
+
+          <para>Pour ajouter un document numérique à un dépouillement cliquer
+          sur <emphasis role="bold">Ajouter un document numérique
+          </emphasis>qui figure dans le détail de l'article.</para>
+
+          <sect5 id="cat_serial_expl">
+            <title>Ajouter un exemplaire à un élément</title>
+
+            <para>Voir précédemment la procédure de création d'exemplaire d'un
+            ouvrage section 1.2.2.1 <emphasis>Ajout d'un
+            exemplaire</emphasis>. L'ajout d'exemplaires à un élément a le
+            même fonctionnement.</para>
+          </sect5>
+
+          <sect5 id="cat_serial_explnum">
+            <title>Ajouter un exemplaire numérique à un élement</title>
+
+            <para>Voir précédemment la procédure de création d'exemplaire
+            numérique d'un ouvrage section 1.2.2.2 <emphasis>Ajout d'un
+            exemplaire numérique</emphasis>. L'ajout d'exemplaires numériques
+            à un élément a le même fonctionnement.</para>
+          </sect5>
+
+          <sect5 id="cat_serial_analysis">
+            <title>Ajouter un dépouillement (article)</title>
+
+            <para>La notice d'un article correspond à une notice standard avec
+            pour particularité la possibilité de spécifier une
+            pagination.</para>
+
+            <para><emphasis role="bold">Remarque</emphasis> : on ne peut pas
+            ajouter de titre propre d'un auteur différent à un article.</para>
+
+            <para>Nous conseillons aux catalogueurs de respecter les
+            conventions suivantes :</para>
+
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">p. X</emphasis> article en page
+                X</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">pp. X-Y</emphasis> article en
+                pages X à Y</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">pp. X-Y, Z, AA-AC</emphasis>
+                article séparé en trois groupes de pages : des pages X à Y,
+                sur la page Z, des pages AA à AC</para>
+              </listitem>
+            </itemizedlist>
+
+            <para>A ceci, il est possible de rajouter des informations de
+            colonne, généralement précisé en spécifiant col. puis a, b ou c
+            pour le numéro de la colonne.</para>
+          </sect5>
+        </sect4>
+      </sect3>
+    </sect2>
+  </sect1>
+
+  <sect1 id="cat_caddies">
+    <title>Paniers</title>
+
+    <para>Les paniers sont des espaces de stockages : au sein de PMB, on va
+    pouvoir y placer des notices, des bulletins (numéros d'un périodique), des
+    exemplaires.</para>
+
+    <para>Les paniers dans PMB vont notamment permettre le récolement du fonds
+    : il s'agit de faire un inventaire des collections. On peut également s'en
+    servir pour faire un désherbage : il s'agit alors de supprimer du fonds
+    les ouvrages périmés ou trop détériorés.</para>
+
+    <para>Les paniers sont le moyen de stocker une bibliographie : les
+    résultats de différentes recherches pour préparer une publication, un
+    catalogue thématique,...</para>
+
+    <para>Il y a deux moyens de remplir un panier : soit en y plaçant des
+    éléments manuellement (repérer l'icône en forme de panier lors des
+    différents affichages), soit en pointant à la douchette ou en saisissant
+    des codes barres à la main.</para>
+
+    <sect2 id="cat_caddie_gestion">
+      <title>gestion</title>
+
+      <para>Par défaut, en partie Paniers/Gestion, c'est la gestion des
+      paniers qui est affichée. Vous pouvez afficher la gestion des procédures
+      à l'aide du lien Gestion des procédures.</para>
+
+      <sect3 id="cat_caddie_gestion_caddie">
+        <title>Gestion des paniers</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
+          paniers</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_gestion.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>En cliquant sur le nom d'un panier, vous pouvez consulter le
+        contenu d'un panier. En cliquant sur Editer, vous pouvez éditer ce
+        panier : nom, type, commentaire, droits d'accès. Enfin, en cliquant
+        sur Ajouter un panier vous pouvez définir un nouveau panier.</para>
+
+        <sect4>
+          <title>Contenu d'un panier</title>
+
+          <para>En cliquant sur le nom d'un panier, vous pouvez consulter le
+          contenu d'un panier.</para>
+
+          <figure>
+            <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
+            paniers, contenu d'un panier</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_paniers_gestion2.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Vous pouvez éventuellement en supprimer des éléments à l'aide
+          de l'icône supprimer du panier :<graphic
+          fileref="images/basket_del.gif" /></para>
+
+          <para>Un panier peut contenir des éléments du fonds (notices,
+          exemplaires ou bulletins catalogués dans PMB) :</para>
+
+          <figure>
+            <title>Elément du fond</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_paniers_gestion_known.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Si vous développez la notice en cliquant sur le + situé devant
+          l'élément, vous pourrez consulter sa notice au format ISBD ainsi la
+          liste des exemplaires et des exemplaires numériques. L'affichage de
+          la notice est identique à celui que vous pouvez avoir en résultat
+          d'une recherche (Catalogage &gt; Recherche).</para>
+
+          <para>Cependant, lors de la collecte du panier, vous pouvez avoir
+          douchetté un élément inconnu du fonds (par exemple, un livre de la
+          BDP qui n'a pas été importé dans PMB). Pour vous permettre de
+          conserver la trace de ces éléments, un panier peut également
+          contenir des éléments inconnus :</para>
+
+          <figure>
+            <title>Elément inconnu</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_paniers_gestion_unknown.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Dans le contenu d'un panier, si des éléments ont été pointés,
+          ceux- ci sont signalés par une icône précédant leur titre. Pour plus
+          d'informations sur le pointage des éléments d'un panier, consulter
+          la section <xref linkend="cat_caddie_pointage" />.</para>
+
+          <figure>
+            <title>Elément pointé</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_paniers_gestion_pointe.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </sect4>
+
+        <sect4 id="catalogue_panier_editer_un_panier">
+          <title id="catalogue_panier_editer_un_panier.title">Editer un
+          panier</title>
+
+          <para>Vous pouvez également éditer un panier en cliquant sur le lien
+          Éditer à droite de l'écran.</para>
+
+          <figure>
+            <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
+            paniers</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_paniers_editer_un_panier.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>L'écran Éditer un panier vous permet de modifier le nom, le
+          commentaire d'un panier, et les droits des utilisateurs sur ce
+          panier.</para>
+
+          <para>Vous pouvez voir le type de panier : Panier de notices,
+          Paniers de bulletins, Paniers d'exemplaires. Vous ne pouvez pas
+          changer le type d'un panier existant. Si vous vous êtes trompés dans
+          la création d'un panier, supprimez le et créez en un nouveau.</para>
+
+          <para>Sous la mention "Autorisations accordées à", vous pouvez voir
+          des cases à cocher correspondant aux autorisations d'accès. Les noms
+          affichés sont les différents utilisateurs définis dans PMB. Vous ne
+          pouvez pas retirer l'accès à l'administrateur.</para>
+
+          <para>Vous pouvez donc créer un panier qui ne sera accessible qu'à
+          vous (et à l'administrateur).</para>
+        </sect4>
+
+        <sect4>
+          <title>Ajouter un panier</title>
+
+          <para>L'écran d'ajout d'un panier est identique à celui d'Editer un
+          panier. Seul le bouton Supprimer n'y figure pas. Pour plus
+          d'informations, consulter plus haut la section <xref
+          linkend="catalogue_panier_editer_un_panier" />.</para>
+        </sect4>
+
+        <sect4>
+          <title>Paniers installés par défaut lors de l'installation de
+          PMB</title>
+
+          <para>Si votre administrateur informatique a installé PMB avec les
+          "données essentielles pour démarrer rapidement" (feed_essential.sql,
+          pour plus d'informations, consulter le Guide d'Installation PMB), un
+          certain nombre de paniers ont été créés, soit à titre d'exemple,
+          soit pour faciliter la gestion de la bibliothèque.</para>
+
+          <para><emphasis>Notices pour exposition</emphasis> panier de notices
+          exemple. Destiné à recevoir les notices d'une petite exposition, qui
+          peut ensuite être mis en avant grâce aux étagères virtuelles de
+          l'OPAC, pour plus d'informations consulter <xref
+          linkend="cat_etg" /></para>
+
+          <para><emphasis>Notices pour retour BDP</emphasis> panier de notices
+          pour faciliter la gestion. Destiné à recevoir les notices des
+          exemplaires retournés à une Bibliothèque Départementale de Prêt,
+          pour nettoyer la base après retour.</para>
+
+          <para><emphasis>Exemplaires pour retour BDP</emphasis> panier
+          d'exemplaires pour faciliter la gestion. Destiné à recevoir les
+          exemplaires retournés à une Bibliothèque Départementale de Prêt,
+          pour les sortir du prêt puis nettoyer la base après retour.</para>
+
+          <para><emphasis>Notices en doublon sur titre</emphasis> panier de
+          notices pour faciliter la gestion. Destiné à recevoir les notices en
+          doublon, afin de nettoyer la base.</para>
+
+          <para><emphasis>Jamais prêtés</emphasis> panier d'exemplaires pour
+          faciliter la gestion. Destiné à recevoir les exemplaires qui n'ont
+          jamais été prêtés.</para>
+        </sect4>
+      </sect3>
+
+      <sect3 id="cat_caddie_gestion_procs">
+        <title>Gestion des procédures</title>
+
+        <para>Cet écran affiche les différentes procédures associées aux
+        paniers. Vous pouvez définir des procédures qui vous serviront à
+        remplir des paniers, à faire des pointages sur des paniers constitués,
+        ou à appliquer des changements aux notices, bulletins ou exemplaires
+        stockés dans le panier.</para>
+
+        <para>Pour plus d'informations sur les procédures et étudier quelques
+        exemples, consulter plus loin la section <emphasis>3.5 exemples
+        d'utilisation des paniers</emphasis>.</para>
+
+        <sect4>
+          <title>Procédures installés par défaut lors de l'installation de
+          PMB</title>
+
+          <para>Si votre administrateur informatique a installé PMB avec les
+          "données essentielles pour démarrer rapidement" (feed_essential.sql,
+          pour plus d'informations, consulter le Guide d'Installation PMB), un
+          certain nombre de procédures ont été créées, soit à titre d'exemple,
+          soit pour faciliter la gestion de la bibliothèque.</para>
+
+          <para><emphasis>EXPL par section / propriétaire</emphasis> procédure
+          de sélection suivant une ou plusieurs sections pour un ou plusieurs
+          propriétaires.</para>
+
+          <para><emphasis>EXPL où cote commence par</emphasis> procédure de
+          sélection suivant les caractères de début d'une cote. Utile pour le
+          récolement notamment (vérification périodique de l'inventaire
+          réalisée par une bibliothèque).</para>
+
+          <para><emphasis>Retour BDP des exemplaires</emphasis> procédure
+          d'action permettant un changement de statut à l'ensemble des
+          exemplaires d'un panier.</para>
+
+          <para><emphasis>Notices par auteur</emphasis> procédure de sélection
+          de notices suivant un ou des auteurs.</para>
+
+          <para><emphasis>Notices en doublons</emphasis> procédure de
+          sélection des notices doublons ayant un titre identique.</para>
+
+          <para><emphasis>Notices sans exemplaires</emphasis> procédure de
+          sélection des notices n'ayant aucun exemplaire attaché.</para>
+
+          <para><emphasis>Jamais prêtés</emphasis> procédure de sélection des
+          exemplaires qui n'ont jamais été prêtés.</para>
+        </sect4>
+      </sect3>
+    </sect2>
+
+    <sect2 id="cat_caddie_collecte">
+      <title>collecte</title>
+
+      <figure>
+        <title>Catalogage &gt; Paniers &gt; Collecte</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_paniers_collecte.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>La collecte désigne le remplissage d'un panier. Vous pouvez
+      remplir les paniers à la douchette (en scannant les codes barres des
+      exemplaires). Vous pouvez également placer des éléments dans un panier
+      en lançant une procédure de sélection.</para>
+
+      <para>Ces procédures ont été définies en passant par
+      Paniers/Gestion/Gestion des procédures.</para>
+
+      <para>A tout moment dans l'onglet Catalogue, lorsque vous voyez l'icône
+      d'un panier affichée, vous pouvez ajouter un élément (notice,
+      exemplaire, bulletin) à un panier en cliquant sur l'icône <graphic
+      fileref="images/basket_small.gif" /></para>
+
+      <sect3>
+        <title>subtilités des ajouts dans un panier</title>
+
+        <para>La gestion de l'ajout d'un élément dans un panier correspond aux
+        divers fonctionnements possibles :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>ajout d'une <emphasis role="bold">notice</emphasis> à un
+            <emphasis>panier d'exemplaires</emphasis> = ajout de
+            <emphasis>tous les exemplaires de la notice</emphasis> au
+            panier</para>
+          </listitem>
+
+          <listitem>
+            <para>ajout d'un <emphasis role="bold">exemplaire</emphasis> à un
+            <emphasis>panier de notices</emphasis> = ajout de la
+            <emphasis>notice de l'exemplaire</emphasis> au panier</para>
+          </listitem>
+
+          <listitem>
+            <para>ajout d'une <emphasis role="bold">notice de dépouillement
+            </emphasis>à un <emphasis>panier de bulletins </emphasis>= ajout
+            du <emphasis>bulletin correspondant</emphasis> à ce dépouillement
+            au panier</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Attention : l'ajout d'un <emphasis
+        role="bold">bulletin</emphasis> à un <emphasis>panier de notices
+        </emphasis>n'aura <emphasis>aucun effet</emphasis>. En effet, au
+        bulletin correspondent deux types de notices : la notice mère du
+        périodique et les notices de dépouillement du bulletin.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="cat_caddie_pointage">
+      <title>Pointage</title>
+
+      <para>Le pointage des paniers permet de comparer le contenu d'un panier
+      avec d'autres éléments, soit en pointant manuellement (en douchettant)
+      ou en effectuant une procédure de sélection dans PMB.</para>
+
+      <sect3 id="cat_caddie_pointage_douchette">
+        <title>Pointage par douchette</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Par douchette</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_collecte_douchett.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Cliquez sur le nom du panier dont vous voulez pointer les
+        éléments.<figure>
+            <title>Catalogage &gt; Paniers &gt; Pointage &gt; Par
+            douchette</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_paniers_collecte_douchett2.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure></para>
+      </sect3>
+
+      <sect3 id="cat_caddie_pointage_sélection">
+        <title>Pointage par sélection</title>
+
+        <para>Pour pointer un panier par sélection, cliquez sur le panier à
+        pointer.</para>
+
+        <figure>
+          <title>Catalogue &gt; Paniers &gt; Pointage &gt; Par
+          sélection</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/panier_pointage_select.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Cliquez ensuite sur la procédure à utiliser.</para>
+
+        <figure>
+          <title>Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
+          choix de la procédure de pointage</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/panier_pointage_select2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Veillez à compléter les éventuels paramètres demandés.</para>
+
+        <figure>
+          <title>Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
+          pointage terminé</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/panier_pointage_select3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Les éléments du panier qui ont été pointés sont déclarés comme
+        étant<emphasis> Pointé(s)</emphasis>. Le nombre total d'éléments du
+        paniers est rappelé. Les éléments appartenant au fonds enregistré dans
+        PMB figurent sur la deuxième ligne du tableau récapitulatif en bas de
+        page.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="cat_caddie_actions">
+      <title>actions</title>
+
+      <figure>
+        <title>Catalogage &gt; Paniers &gt; Actions</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_paniers_actions.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Depuis cet écran, vous pouvez réaliser différentes actions
+      :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>éditer le contenu (aux formats HTML, Excel HTML, Excel
+          XLS).</para>
+        </listitem>
+
+        <listitem>
+          <para>vider le panier choisi</para>
+        </listitem>
+
+        <listitem>
+          <para>supprimer de la base les éléments du panier</para>
+        </listitem>
+
+        <listitem>
+          <para>exporter le contenu du panier</para>
+        </listitem>
+
+        <listitem>
+          <para>transférer le contenu d'un panier dans un autre</para>
+        </listitem>
+
+        <listitem>
+          <para>appliquer une requête SQL au contenu d'un panier</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Ces actions sont réalisables en cliquant sur le lien qui leur
+      correspondent dans l'interface centrale, puis en cliquant sur le nom du
+      panier sur lequel l'action doit être réalisée.</para>
+
+      <sect3>
+        <title>Éditions</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Actions &gt; Éditions</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_edition.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Pour plus d'informations sur les formats d'export de PMB,
+        consulter le<emphasis> Guide de l'Administrateur</emphasis>, Chapitre
+        10 <emphasis>Export</emphasis>, section 1 <emphasis>Formats de
+        fichier.</emphasis></para>
+
+        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        pointés ou éléments non pointés.</para>
+      </sect3>
+
+      <sect3>
+        <title>Vider du panier</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Actions &gt; Vider du
+          panier</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_vider_panier.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis>Vider du panier </emphasis>permet de vider le contenu
+        d'un panier.</para>
+
+        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        pointés ou éléments non pointés.</para>
+      </sect3>
+
+      <sect3>
+        <title>Supprimer de la base</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Actions &gt; Supprimer de la
+          base</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_suppr_base.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Supprimer de la base supprime les éléments contenus dans un
+        panier les éléments (notices, bulletins ou exemplaires) de la base de
+        données de la bibliothèque.</para>
+
+        <para>A utiliser avec grande prudence, donc, par exemple pour effacer
+        un panier d'exemplaires perdus.</para>
+
+        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        pointés ou éléments non pointés.</para>
+      </sect3>
+
+      <sect3>
+        <title>Export</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Actions &gt; Export</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_export.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>L'export va permettre d'exporter le contenu d'un panier.</para>
+
+        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        pointés ou éléments non pointés.</para>
+      </sect3>
+
+      <sect3>
+        <title>Transfert</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Actions &gt; Transfert</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_transfert.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Le transfert permet de transférer les éléments du paniers
+        (éléments pointés et/ou non pointés) dans un autre panier.</para>
+      </sect3>
+
+      <sect3>
+        <title>Par requête</title>
+
+        <figure>
+          <title>Catalogage &gt; Paniers &gt; Actions &gt; Par requête</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_requete.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Vous pouvez également appliquer une requete SQL au contenu d'un
+        panier, par exemple une requete d'UPDATE (pour plus d'informations sur
+        les requetes, consulter le <emphasis>Guide de l'Administrateur
+        PMB</emphasis>) pour changer les cotes d'un ensemble d'ouvrage
+        déplacés ailleurs dans votre bibliothèque.</para>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>exemples d'utilisation des paniers</title>
+
+      <para>Voici quelques exemples d'utilisation des paniers. Ceux-ci vous
+      permettront de mieux appréhender l'utilisation des paniers de PMB ainsi
+      que la puissance de leurs fonctionnalités, grâce aux requêtes.</para>
+
+      <sect3>
+        <title>Placer dans un panier les ouvrages sans exemplaires</title>
+
+        <itemizedlist>
+          <listitem>
+            <para>Créer un panier de notices,</para>
+          </listitem>
+
+          <listitem>
+            <para>Créer une procédure de sélection, y mettre le code
+            ci-dessous (ATTENTION sans saut de ligne) :</para>
+
+            <programlisting>SELECT notice_id as object_id, 'NOTI' as object_type FROM notices left join exemplaires on notice_id=expl_notice WHERE expl_notice is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
+          </listitem>
+
+          <listitem>
+            <para>Aller en Panier &gt; Collecte &gt; Par sélection et remplir
+            votre panier avec cette procédure</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+
+      <sect3>
+        <title>Gérer les inventaires</title>
+
+        <para>&gt; Je voudrais me simplifier la vie lors de mes inventaires,
+        j'ai donc &gt; pensé à créer un paniers avec tous les exemplaires
+        d'une section. Je &gt; pourrais ainsi pointer les exemplaires
+        physiquement en rayon et avec &gt; l'action supprimer du panier les
+        éléments pointés retrouver les livres &gt; qui sont dans la base mais
+        physiquement perdus, volés... &gt; &gt; J'ai voulu utilisé une
+        procédure mais je suis vraiment nulle! Dans les &gt; PS j'ai un
+        inventaire de tout mes documentaires par ex. mais je ne sais &gt; pas
+        comment la transformer pour qu'elle fonctionne dans les paniers? &gt;
+        Voici donc la PS corrigée ! select expl_id as object_id, 'EXPL' as
+        object_type from exemplaires, notices, docs_section where idsection in
+        (!!section!!) and expl_notice=notice_id and expl_section=idsection
+        order by section_libelle, expl_cote, expl_cb Il ne reste plus qu'à
+        paramétrer le paramètre !!section!! : liste de choix à partir d'une
+        requête, liste multiple si on veut avec : select idsection,
+        section_libelle from docs_section order by section_libelle &gt;
+        Stéphanie FORT &gt; Bibliothécaire &gt; &gt; CDI - Collège Saint
+        Pierre &gt; Jette (Belgique)</para>
+      </sect3>
+    </sect2>
+  </sect1>
+
+  <sect1 id="cat_etg">
+    <title>Étagères</title>
+
+    <para>Les étagères virtuelles sont un regroupement de paniers de notices
+    qui peuvent contenir ou non des notices. Les étagères virtuelles
+    permettent d'afficher ces notices dans l'OPAC ou dans votre site internet.
+    PMB permet par ce moyen de présenter dans votre site internet une
+    exposition virtuelle, la liste des derniers ouvrages acquis par la
+    bibliothèque, la sélection d'un club de lecteurs, etc...</para>
+
+    <sect2 id="cat_etg_gestion">
+      <title>Gestion</title>
+
+      <para>La gestion des étagères affiche une liste des étagères
+      existantes.</para>
+
+      <figure>
+        <title>Catalogue &gt; Étagères &gt; Gestion</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_etg_gest.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Vous pouvez ajouter une étagère en cliquant sur le bouton
+      <emphasis>Ajouter une étagère</emphasis>.</para>
+
+      <para>Pour éditer une étagère existante, cliquer sur la ligne lui
+      correspondant.</para>
+
+      <para>Une étagère est définie par un nom, une période de validité, sa
+      visibilité ou non en page d'accueil de l'OPAC. Un commentaire peut
+      également être ajouté. Enfin chaque étagère possède des droits : ces
+      autorisations permettent aux utilisateurs correspondants d'éditer
+      l'étagère sélectionnée et son contenu.</para>
+    </sect2>
+
+    <sect2 id="cat_etg_constit">
+      <title>Constitution</title>
+
+      <para>L'écran de constitution d'une étagère permet d'ajouter ou de
+      retirer le contenu d'un ou plusieurs paniers à une de vos étagères
+      virtuelles.</para>
+
+      <para>Cliquez sur l'étagère à constituer.</para>
+
+      <figure>
+        <title>Catalogue &gt; Étagères &gt; Constitution</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_etg_constitution.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Cochez ensuite les paniers de notices à ajouter à votre étagère
+      virtuelle.</para>
+
+      <figure>
+        <title>Catalogue &gt; Étagères &gt; Constitution, ajout de paniers à
+        une étagère</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_etg_constitution2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Puis cliquez sur <emphasis>Enregistrer</emphasis> pour valider la
+      constitution de votre étagère virtuelle.</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Z39.50</title>
+
+    <sect2 id="cat_z3950">
+      <title>recherche Z39.50</title>
+
+      <para>La recherche Z39.50 permet de rechercher un ouvrage dans le
+      catalogue d'une autre bibliothèque, ce qui permettra de l'insérer
+      directement dans le catalogue géré par PMB, sans refaire le travail de
+      catalogage déjà réalisé dans l'autre bibliothèque.</para>
+
+      <para><emphasis role="bold">Remarque</emphasis> les notices cataloguées
+      correspondent à un travail intellectuel et sont soumises à droits
+      d'auteurs. Les notices de la <emphasis>BnF</emphasis> comme celles de la
+      <emphasis>Bibliothèque du Congrès Américain</emphasis> (Library of
+      Congress) sont du domaine public : vous pouvez donc les importer en
+      toute tranquillité, les autres bibliothèques peuvent avoir d'autres
+      politiques de communication de leurs notices. Renseignez vous auprès de
+      la bibliothèque concernée.</para>
+
+      <figure>
+        <title>Catalogage &gt; Z39.50 &gt; Recherche</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_z39_search.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Prenons un exemple, importons <emphasis>Germinal</emphasis> de
+      <emphasis>Zola</emphasis>. Comme critère de recherche, nous choisissons
+      "titre" dans le champs situé à côté nous spécifions "Germinal".</para>
+
+      <para>Nous cochons alors une ou plusieurs bibliothèques susceptibles
+      d'avoir l'édition de <emphasis>Germinal</emphasis> que nous voulons
+      cataloguer.</para>
+
+      <figure>
+        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran intermédiaire
+        montrant l'avancement</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_z39_progress.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Au bout d'une dizaine de secondes d'une requête non aboutie, on
+      peut imaginer que notre connexion à internet est saturée, que le serveur
+      à l'autre bout ne répond pas, ou que notre configuration de PMB n'est
+      pas bonne (si aucune recherche z39.50 n'a fonctionné
+      jusqu'alors).</para>
+
+      <para>Les lignes qui commencent par "Échec..." correspondent à une
+      erreur. Un message d'erreur est alors renvoyé. En voici quelques
+      exemples :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Timeout : le serveur n'a pas répondu dans le délai
+          imparti</para>
+        </listitem>
+
+        <listitem>
+          <para>Connect failed : le serveur a répondu, mais la connexion n'a
+          pu être réalisée</para>
+        </listitem>
+
+        <listitem>
+          <para>Malformed query : le profil z3950 du serveur n'est pas bon.
+          Vérifier le profil Z39.50 de ce serveur auprès de son
+          administrateur</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Les lignes commençant par TERMINE signale que la recherche a
+      abouti. Le nombre de résultats retourné est fourni dans la
+      phrase<emphasis> le serveur a retourné X notices sur X
+      trouvée</emphasis>s (limitation aux cent premières notices d'une
+      recherche, si vous obtenez plus de cent résultats, affinez votre
+      recherche).</para>
+
+      <para>Une fois la recherche achevée, cliquer sur "Résultats" pour
+      afficher les résultats obtenus.</para>
+
+      <figure>
+        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran des résultats de
+        recherche</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_z39_results.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Un écran affiche alors les résultats de la recherche. La liste des
+      résultats présente des notices résumées au format ISBD. Ne figurent pas
+      dans cette liste les notes éventuellement saisies, ainsi que d'autres
+      renseignements mineurs. Pour choisir une notice, cliquer sur son
+      titre.</para>
+
+      <figure>
+        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran de modification de
+        la notice avant intégration</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_z39_integrer.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>La notice obtenue est alors affichée en modification pour pouvoir
+      la consulter en détail, la modifier le cas échéant et enfin l'intégrer
+      au catalogue. Il existe quelques différences par rapport à l'écran
+      d'édition habituel d'une notice : les auteurs et éditeurs ont deux
+      champs de saisies correspondant à élément principal (nom) et élément
+      rejeté (prénom). Une fois les éventuelles corrections faites valider par
+      le bouton "intégrer la notice".</para>
+
+      <para>Un écran suivant permet de définir alors des exemplaires.</para>
+
+      <figure>
+        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran de saisie des
+        exemplaires</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_z39_expl.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Cataloguez ensuite votre ou vos exemplaires. Une fois l'exemplaire
+      défini, cliquer sur intégrer, on peut également revenir à la liste des
+      résultats pour intégrer un des autres résultats de la liste.</para>
+
+      <para>Dans cet écran, en haut de l'écran figure la mention notice
+      intégrée, avec un lien<emphasis> La voir en catalogage.</emphasis> Ce
+      lien permet d'afficher la notice en modification. L'écran de
+      modification affiché ensuite est le même que celui de la création de
+      notice (voir plus haut la section<emphasis> Nouvelle
+      notice</emphasis>).</para>
+
+      <sect3>
+        <title>Utilisation de la recherche Z39.50 au quotidien</title>
+
+        <para>Pour les bibliothèques française, le principal intérêt de la
+        recherche Z39.50 est la recherche par ISBN depuis la BnF. Pour les
+        ouvrages de votre fond propre, vous pouvez facilement cataloguer les
+        livres à l'aide de votre douchette et du code barre commercial (EAN)
+        de l'ouvrage.</para>
+
+        <para>Pour cela,</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>passez par Catalogage &gt; Z39.50 &gt; Recherche</para>
+          </listitem>
+
+          <listitem>
+            <para>cochez BnF parmi les serveurs,</para>
+          </listitem>
+
+          <listitem>
+            <para>vérifiez que la recherche porte bien sur l'Isbn</para>
+
+            <figure>
+              <title>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
+              sur l'ISBD</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_z39_search_isbn.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+
+          <listitem>
+            <para>douchettez le code barre commercial de votre livre dans le
+            champ de saisie. L'EAN (code commercial) douchetté sera converti
+            par PMB en ISBN.</para>
+
+            <figure>
+              <title>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
+              sur l'ISBN</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_z39_results_isbn.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+
+          <listitem>
+            <para>Le résultat d'une recherche par ISBN est normalement unique.
+            En théorie, deux ouvrages ne peuvent avoir le même ISBN.
+            Cependant, les notices peuvent être plus ou moins détaillées selon
+            le serveur choisi.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Vous pouvez ensuite exemplariser l'ouvrage recherché.</para>
+
+        <para><emphasis role="bold">Note </emphasis>: la BnF a un certain
+        délai de catalogage. Les dernières nouveautés (publiées depuis moins
+        d'un an) peuvent ne pas être encore cataloguées.</para>
+      </sect3>
+    </sect2>
+  </sect1>
+</chapter>

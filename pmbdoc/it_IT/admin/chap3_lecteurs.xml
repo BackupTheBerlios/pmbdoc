@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_empr">
+  <title>Lecteurs</title>
+
+  <para>Dans cette partie de l'onglet administration, vous pouvez définir vos
+  options personnelles utiles dans la gestion des lecteurs.</para>
+
+  <sect1 id="admin_empr_categ">
+    <title>Catégories</title>
+
+    <para>Définir différentes catégories de lecteurs permet d'établir des
+    statistiques pour évaluer l'utilisation de votre bibliothèque. Pour plus
+    d'informations sur la réalisation de statistiques avec PMB, consulter le
+    <emphasis>Guide de l'Utilisateur de PMB</emphasis>, Chapitre
+    <emphasis>Editions</emphasis>.</para>
+
+    <para>Si vous avez activé la gestion des quotas avancés, les catégories
+    vous permettront de spécifier des quotas : par exemple un enfant peut
+    emprunter 2 ouvrages, un adulte 5 ouvrages simultanément.</para>
+
+    <para>En France, la durée de tenue d'un fichier de lecteur est limitée à
+    un an, lorsque le fichier est déclaré (procédure obligatoire auprès de la
+    CNIL) selon la procédure simplifiée.</para>
+
+    <para>Pour plus d'informations, consulter
+    http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf</para>
+
+    <figure>
+      <title>Lecteurs - catégories</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_cat.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Si vous souhaitez vous affranchir de cette limite, il vous suffit
+    par exemple de passer la durée d'adhésion à 9999 jours.</para>
+  </sect1>
+
+  <sect1 id="admin_empr_codstat">
+    <title>Codes statistiques</title>
+
+    <para>Les codes statistiques servent à produire des informations sur vos
+    lecteurs en croisant les données. De nombreuses possibilités vous sont
+    laissées : s'en servir comme discriminant pour les âges lorsque la date de
+    naissance n'est pas demandée (moins de 18 ans, 18-35 ans, 36-65 ans, plus
+    de 65 ans par exemple) ; s'en servir pour évaluer le rayon d'action de
+    votre bibliothèque (exemple ci dessous).</para>
+
+    <figure>
+      <title>Lecteurs - code statistique</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_stat.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_empr_implec">
+    <title>Import lecteurs</title>
+
+    <para>L'import d'un fichier lecteurs permet de récupérer des informations
+    depuis un autre programme ou un fichier que vous auriez constitué par
+    ailleurs : membres d'un laboratoire possédant un centre documentaire
+    spécialisé, liste des élèves dans un établissement d'enseignement, export
+    depuis un annuaire LDAP, etc...</para>
+
+    <figure>
+      <title>Lecteurs - import lecteurs</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_imp.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Les lecteurs importés vont être classés dans une catégorie
+    préexistante. Si vous souhaitez paramétrer plus finement l'import, vous
+    pouvez utiliser <emphasis>phpmyadmin</emphasis> ou lier vos données dans
+    un logiciel en utilisant MyODBC. Pour plus d'informations sur phpmyadmin,
+    consulter le site web de <ulink
+    url="http://www.phpmyadmin.net">phpmyadmin</ulink> ou, pour plus
+    d'informations sur l'installation [en français] consulter <ulink
+    url="http://www.allhtml.com/mysql/mysql582.php">http://www.allhtml.com/mysql/mysql582.php</ulink>.</para>
+
+    <para>MyODBC est une solution ODBC, permettant d'éditer des données MySQL
+    dans votre gestionnaire de base de données habituel, permettant par
+    exemple de copier coller des données depuis un tableur. Pour plus
+    d'informations, consulter www.mysql.com ou faire une recherche portant sur
+    MyODBC sur google.</para>
+  </sect1>
+
+  <sect1 id="admin_empr_parperso">
+    <title>Paramètres personnalisés</title>
+
+    <para>Les paramètres personnalisés permettent d'ajouter des informations
+    supplémentaires à des fiches-lecteur. Vous pourrez ainsi spécifier des
+    informations telles que l'entreprise d'origine, la catégorie
+    socio-professionnelle....</para>
+
+    <para>Vous devrez donner un nom à votre paramètre (les caractères
+    accentués et la ponctuation dans le nom du champ sont interdits, mais vous
+    pouvez les utiliser dans le titre à l'affichage).</para>
+
+    <para>Vous avez la possibilité de rendre la saisie de ce paramètre
+    obligatoire.</para>
+
+    <figure>
+      <title>Lecteurs - paramètres personnalisés</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_param.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Le fonctionnement des paramètres personnalisables est identique à
+    celui des champs personnalisés pour les exemplaires ou les notices. Pour
+    plus d'informations, voir <xref linkend="admin_expl_perso" />.</para>
+  </sect1>
+</chapter>
