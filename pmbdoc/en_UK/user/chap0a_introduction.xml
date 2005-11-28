@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="introduction">
+  <title>Introduction</title>
+
+  <sect1 id="introduction_sujetpmb">
+    <title>About PMB</title>
+
+    <para>"PMB is a completely free ILS (Integrated Library management System)
+    . The library software domain is almost exclusively occupied by
+    proprietary products. We are some librarians, users and developers who
+    disapprove of this fact.</para>
+
+    <para>PMB is based on web technology. This is what is sometimes called a
+    `web-app`. It requires an HTTP server (such as Apache although this is not
+    obligatory), the MySQL database and the PHP language.</para>
+
+    <para>The principle functions of PMB are :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Support for UNIMARC format</para>
+      </listitem>
+
+      <listitem>
+        <para>Authorities management (authors, editors, collections,
+        materials...)</para>
+      </listitem>
+
+      <listitem>
+        <para>Management of loans, holds, borrowers...</para>
+      </listitem>
+
+      <listitem>
+        <para>Simple parameter settings</para>
+      </listitem>
+
+      <listitem>
+        <para>Possibility to import volumes</para>
+      </listitem>
+
+      <listitem>
+        <para>A simplified OPAC integrating a library navigation
+        framework</para>
+      </listitem>
+
+      <listitem>
+        <para>A module for the management of BDP (French regional lending
+        libraries) documents appropriate to the smallest establishments</para>
+      </listitem>
+
+      <listitem>
+        <para>Serials management</para>
+      </listitem>
+
+      <listitem>
+        <para>A simplified administration process usable by library
+        personnel...</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>François Lemarchand, PMB project initiator</para>
+
+    <para>Supplementary information can be found at www.sigb.net</para>
+
+    <para>Also at this site are an online demonstration version, the PMB users
+    website, the latest versions of the Installation Guide, the User Guide and
+    the PMB Administrator Guide.</para>
+  </sect1>
+
+  <sect1 id="introduction_infos">
+    <title>Where to find information about PMB</title>
+
+    <para>At the PMB website: www.sigb.net</para>
+
+    <para>At the user community website: www.sigb.net/communaute</para>
+
+    <para>Via the users mailing list : pmb.user@sigb.net (free subscription by
+    sending an email with a subject of SUBSCRIBE to
+    pmb.user_request@sigb.net)</para>
+
+    <para>Via the mailing lists for translators, developers, for unicode
+    support (non European alphabets). For more information on these lists, go
+    to <ulink url="http://www.sibg.net">www.sigb.net</ulink></para>
+
+    <para>This documentation is viewable online at www.sigb.net/doc, it is
+    available in HTML and PDF formats.</para>
+  </sect1>
+
+  <sect1 id="introduction_references">
+    <title>References</title>
+
+    <para><emphasis role="bold">Authors</emphasis></para>
+
+    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+
+    <para>Contributions by : François LEMARCHAND (former project
+    administrator), Betty FAIS</para>
+
+    <para>Thank you to the PMB development team, former developers, and
+    users.</para>
+
+    <para>This User Guide corresponds to PMB version 1.3</para>
+
+    <para>Taken from <emphasis>user_guide.xml</emphasis>. You can find a PDF
+    version of this document at www.sigb.net and search for
+    user_guide.pdf'.</para>
+  </sect1>
+
+  <sect1 id="introduction_cvs">
+    <title>CVS</title>
+
+    <para>CVS stands for Concurrent Version System. It acts as a system for
+    the management of source code updates for programmers.</para>
+
+    <para>PMB uses a CVS. The CVS is accessible for developers. Do not
+    hesitate to contact us if you wish to help with the development of PMB or
+    to participate in the drafting of documentation.</para>
+
+    <para>For more information, look for CVS a<emphasis>t
+    www.sigb.net</emphasis></para>
+  </sect1>
+</chapter>

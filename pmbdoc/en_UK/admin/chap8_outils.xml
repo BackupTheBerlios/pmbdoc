@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
++==========================================================================+
+| PMB                                                                      |
++==========================================================================+
+| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
+| (voir www.sigb.net)                                                      |
+| creator : Gautier MICHELIN                                               |
+| modified : ...                                                           |
++==========================================================================+
+-->
+<chapter id="admin_misc">
+  <title>Tools</title>
+
+  <para>The <emphasis>tools</emphasis> part of the
+  <emphasis>Administration</emphasis> tab is a collection of tools needed for
+  a day-to-day PMB administration.</para>
+
+  <figure>
+    <title>Tools</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/admin_outils_home.gif" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect1 id="admin_netbase">
+    <title>Database cleanup</title>
+
+    <para>The database cleaning allows you to remove unused or redundant data,
+    to purge your database from unused authorities.</para>
+
+    <para>You can also optimize your database by re indexing it. With the
+    removal of data in the database, some free space is left inside the
+    datafile on the server. This operation is the only way to keep at a high
+    level your data server performance.</para>
+
+    <figure>
+      <title>Tools &gt; Database cleanup</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_outils_nettoyage.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para><emphasis role="bold">Caution</emphasis> : after the database
+    cleaning, perform always a database optimization by clicking on
+    Administration &gt; Tools &gt; MySQL maintenance &gt; Optimise the tables
+    (this will reconstruct the MySQL indexes)</para>
+  </sect1>
+
+  <sect1 id="admin_misc_proc">
+    <title>Stored procedures</title>
+
+    <para>Stored procedures are SQL commands lines written in the
+    database.</para>
+
+    <para>Those stored procedures are created or updated in the administration
+    tab. They are also enabled for users with the Management right. For more
+    details on the <emphasis>Management</emphasis> tab, please read the
+    <emphasis>Management</emphasis> Chapter in the PMB user's guide.</para>
+
+    <para>Each stored procedure is shown in a array line. You can edit them by
+    clicking on their title, or execute them by clicking on the button run on
+    the left margin.</para>
+
+    <para>You can add parameters : this will allow you to personalize your
+    stored procedures at execution time.</para>
+
+    <para>Let take an example:</para>
+
+    <para>Suppose that I'm a library supervisor without any SQL knowledge and
+    that I want a query that displays me the total amount of lended items by
+    more than 65 years old lenders.</para>
+
+    <para>I ask a stored procedure to my administrator. He will create a query
+    called "Current lends by people &gt; 65 years" (title example). The SQL
+    code for the query will be a simple ""SELECT COUNT (*) FROM empr, prets
+    WHERE pret.empr_id=empr_id AND (2004-empr_year&gt;=65)"</para>
+
+    <para>I can access the query created by the administrator from the
+    management tab. However for my statistics, I need the same informations
+    but for people between 30 and 65 years old and for people below 30 years
+    old. Furthermore, I must execute my query each year. In the year 2005, the
+    previous query will not give the correct results.</para>
+
+    <para>The administrator will then create a query with some parameters
+    between four exclamation marks like ||current_year||. The parameter title
+    may be something like "Please, enter the current year :"</para>
+
+    <figure>
+      <title>Tools &gt; Stored procedures</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_outils_proc.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Stored procedures are one of the advanced features of PMB. If MySQL
+    knowledge is need to create them, their use is simple through the
+    Management tab &gt; Statistics &gt; SQL Queries. This high degree of
+    statistics customization is not directly available to the user in
+    proprietary softwares.</para>
+
+    <sect2>
+      <title>Examples of stored procedure usage</title>
+
+      <sect3>
+        <title>Stored procedures : creating a query according to the status of
+        the items</title>
+
+        <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat, 
+docs_statut where idcode=expl_codestat and expl_section in (!!section!!) and 
+expl_statut='!!status!!' group by idcode, codestat_libelle order by idcode</programlisting>
+
+        <para>You have just then to customize the query parameters by clicking
+        on "Configure parameters".</para>
+      </sect3>
+
+      <sect3>
+        <title>Using parameters in queries</title>
+
+        <para><emphasis>I have created a Purchase_year text field in the
+        personalised fields of the Exemplaires (items) table. I would like to
+        use it for my own statistics, but I can't find this field in the
+        tables. ?</emphasis></para>
+
+        <para><emphasis>Here is the query I have created to get the number of
+        items by statistic code :</emphasis></para>
+
+        <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat 
+where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</programlisting>
+
+        <para><emphasis>What must I do to only see at the end of the query the
+        items bought per year Y</emphasis></para>
+
+        <para>Personalised fields don't appear like field in the database but
+        are written in various tables.</para>
+
+        <para>About a items field, you have to add in the FROM clause of your
+        query : expl_custom_values, expl_custom and add the filter and join
+        condition in the WHERE clause :</para>
+
+        <para><programlisting>expl_custom_small_text='!!purchase_year_param!!'</programlisting></para>
+
+        <para><emphasis role="bold">EXPLANATION</emphasis>: filter : creation
+        of a query parameter, you need to click afterwards on "Configure
+        parameters" to validate it.</para>
+
+        <programlisting>texte and name='Purchase_year'</programlisting>
+
+        <para><emphasis role="bold">EXPLANATION</emphasis>: The name of your
+        customized field</para>
+
+        <programlisting>and expl_id=expl_custom_origine</programlisting>
+
+        <para><emphasis role="bold">EXPLANATION</emphasis>: join condition
+        between exemplaires (items) table and the items customized fields
+        table.</para>
+
+        <programlisting>and expl_custom_champ=idchamp</programlisting>
+
+        <para><emphasis role="bold">EXPLANATION</emphasis>: the join condition
+        between the field name table and the field value table.</para>
+
+        <para>The final query is :</para>
+
+        <programlisting>select idcode, codestat_libelle, count(*) as Nombre 
+from exemplaires, expl_custom_values, expl_custom, docs_codestat 
+where idcode=expl_codestat and expl_custom_small_text='!!purchase_year_param!!' 
+and name='Purchase_year' and expl_id=expl_custom_origine 
+and expl_custom_champ=idchamp group by idcode, codestat_libelle 
+order by idcode</programlisting>
+
+        <para><emphasis role="bold">CAUTION </emphasis>: Carriage return is
+        not supported in queries.</para>
+      </sect3>
+    </sect2>
+  </sect1>
+
+  <sect1 id="admin_alter">
+    <title>Database update</title>
+
+    <para>If you update PMB version, you will replace all the PMB files by a
+    new version downloaded from www.sigb.net. But this update affect only PMB
+    and not your database. To update the database structure, use Tools &gt;
+    Update database. This update is not destructive. You won't loose any
+    information. You are sure to preserve the integrity of your data and to
+    benefit from the latest new features of PMB.</para>
+
+    <remark>This tool is mandatory after a PMB update.</remark>
+
+    <figure>
+      <title>Tools &gt; Database update</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/maj-debut.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Click on the message "Click here to start the update" to see if your
+    database need updating.</para>
+
+    <figure>
+      <title>No database update needed</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/maj-ok.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title>Database updates have to be done</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/maj-2.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>In all the next screens (the more your PMB version was old, the more
+    the updates will be numerous), Click on the link <emphasis>click here to
+    proceed</emphasis>.</para>
+
+    <figure>
+      <title>An array displaying the various update actions and their
+      results</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/maj-3.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Continue to click on the message <emphasis>click here to
+    proceed</emphasis> until you get the message "Your database is up to date
+    in version X.X (this version number is not the same as the PMB version
+    number). You have then ended the database update process.</para>
+  </sect1>
+
+  <sect1 id="admin_misc_tables">
+    <title>Table descriptions</title>
+
+    <para>This table descriptions correspond to the basic informations on
+    MySQL tables. A deeper documentation is available at the URL
+    http://localhost/pmb/doc/noyau</para>
+
+    <remark>"localhost" and "pmb" need to be adapted according to your
+    configuration. "localhost" is the address of your computer or the server
+    where PMB is installed ; "pmb" refers to the installation directory of
+    PMB.</remark>
+  </sect1>
+
+  <sect1 id="admin_misc_mysql">
+    <title>MySQL maintenance</title>
+
+    <para>You will find here an interface to the MySQL main maintenance tools
+    : checking, analysing, repairing and optimising tables.</para>
+
+    <para><emphasis role="bold">Note</emphasis> MySQL optimisation doesn't
+    correspond to the re indexation accessible from the Database cleanup, PMB
+    manages his own data index.</para>
+
+    <para>There are four MySQL maintenance tools :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>check tables</para>
+      </listitem>
+
+      <listitem>
+        <para>analyse tables.</para>
+      </listitem>
+
+      <listitem>
+        <para>repair tables. Allows you to repair the database, if the
+        checking or analysing tools have reported errors.</para>
+      </listitem>
+
+      <listitem>
+        <para>optimise tables. Optimisation allows you to increase the MySQL
+        performance. You should do it regularly.</para>
+      </listitem>
+    </itemizedlist>
+
+    <figure>
+      <title>Tools &gt; MySQL maintenance</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_outils_maintenance.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_outils_parametres">
+    <title>Parameters</title>
+
+    <para>With this tool, you can change/view a lot of parameters from you
+    library name, which will be used on all the documents created by PMB, to
+    the weather displayed in the OPAC, without forgetting various parameters
+    customising ergonomy or even the application structure.</para>
+
+    <para>Don't change a parameter value unless you know exactly the effect it
+    will generate, and make a backup before.</para>
+
+    <para>The parameters types are listed on the screen. To display the
+    various parameters corresponding to one given type, just click on the +
+    icon to expand a type. Equally, you can use the - icon to collapse the
+    expanded type shown on the screen.</para>
+
+    <para>To change a parameter value, click on the line corresponding to this
+    parameter.</para>
+
+    <para>When you have saved the changes to your parameter value, the
+    parameter list is displayed again at the same place where you left it. The
+    last changed parameter is highlighted with another color.</para>
+
+    <para>There are various parameters types : <link
+    linkend="admin_outils_parametres_biblio">biblio</link> ; <link
+    linkend="???">categories</link> ; <link
+    linkend="admin_outils_parametres_empr">empr</link> ; <link
+    linkend="admin_outils_parametres_mailrelanceadhesion">mailrelanceadhesion</link>
+    ; <link linkend="admin_outils_parametres_mailretard">mailretard</link> ;
+    <link linkend="admin_outils_parametres_opac">opac</link> ; <link
+    linkend="admin_outils_parametres_pdfcartelecteur">pdfcartelecteur</link> ;
+    <link
+    linkend="admin_outils_parametres_pdflettreadhesion">pdflettreadhesion</link>
+    ; <link
+    linkend="admin_outils_parametres_pdflettreadhesion">pdflettreresa</link> ;
+    <link
+    linkend="admin_outils_parametres_pdflettreretard">pdflettreretard</link> ;
+    <link linkend="admin_outils_parametres_pmb">pmb</link> ; <link
+    linkend="admin_outils_parametres_sauvegarde">sauvegarde</link> et <link
+    linkend="admin_outils_parametres_z3950">z3950</link></para>
+
+    <sect2 id="admin_outils_parametres_biblio">
+      <title>biblio</title>
+
+      <para><emphasis>Obsolete</emphasis>.</para>
+
+      <para>The <emphasis>biblio</emphasis> type has been replaced in version
+      2.0 by informations linked to the items localisation. For more details,
+      see the items, Locations section,</para>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_categories">
+      <title>categories</title>
+
+      <para>The <emphasis>categories</emphasis> type correspond to the PMB
+      categories (integrated thesaurus).</para>
+
+      <table>
+        <title>Categories type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>show_empty_categ</entry>
+
+              <entry>1</entry>
+
+              <entry>Display categories with no notices : 0= No, 1 Yes</entry>
+            </row>
+
+            <row>
+              <entry>term_search_n_per_page</entry>
+
+              <entry>500</entry>
+
+              <entry>Number of result items displayed per page when searching
+              by term in the categories</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_empr">
+      <title>empr</title>
+
+      <para>The empr type point out informations related to borrowers.</para>
+
+      <table>
+        <title>Empr type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>birthdate_optional</entry>
+
+              <entry>1</entry>
+
+              <entry>Optional birth year : 0 &gt; No it is mandatory, 1
+              Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_mailrelanceadhesion">
+      <title>mailrelanceadhesion</title>
+
+      <para>The <emphasis>mailrelanceadhesion</emphasis> type correspond to
+      the e-mails customisation related to proposal for renewal of soon
+      expired adhesion.</para>
+
+      <table>
+        <title>Mailrelanceadhesion type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>fdp</entry>
+
+              <entry>The city library manager.</entry>
+
+              <entry>Formulate courtesy in the trailer of the page</entry>
+            </row>
+
+            <row>
+              <entry>madame_monsieur</entry>
+
+              <entry>Dear Sir, Dear Madam,</entry>
+
+              <entry>Mail header of the adhesion renewal proposal</entry>
+            </row>
+
+            <row>
+              <entry>objet</entry>
+
+              <entry>Bibliothèque : votre abonnement</entry>
+
+              <entry>Subject of the adhesion renewal proposal</entry>
+            </row>
+
+            <row>
+              <entry>texte</entry>
+
+              <entry>Votre abonnement à la bibliothèque municipale arrive à
+              échéance le !!date_fin_adhesion!!. Nous vous remercions de
+              penser à le renouveler lors de votre prochaine visite.
+              Cordialement,</entry>
+
+              <entry>Text of the adhesion renewal proposal,
+              !!date_fin_adhesion!! will be replaced at printing time by the
+              borrower adhesion end date</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_mailretard">
+      <title>mailretard</title>
+
+      <para>The <emphasis>mailretard</emphasis> type point out to e-mail
+      parameters for a overdue return.</para>
+
+      <table>
+        <title>Mailretard type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>1after_list</entry>
+
+              <entry>Nous vous remercions de prendre rapidement contact par
+              téléphone au 00 00 00 00 00 ou de nous répondre par mail à
+              mail@mail.mail pour étudier la possibilité de prolonger ces
+              prêts ou de ramener les ouvrages concernés.</entry>
+
+              <entry>Text displayed after the overdue return list in the
+              mail.</entry>
+            </row>
+
+            <row>
+              <entry>1before_list</entry>
+
+              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
+              est aujourd'hui dépassée :</entry>
+
+              <entry>Text displayed before the overdue return list in the
+              mail.</entry>
+            </row>
+
+            <row>
+              <entry>1fdp</entry>
+
+              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+
+              <entry>Signature of the overdue return mail</entry>
+            </row>
+
+            <row>
+              <entry>1madame_monsieur</entry>
+
+              <entry>Madame, Monsieur</entry>
+
+              <entry>Header of the mail</entry>
+            </row>
+
+            <row>
+              <entry>1objet</entry>
+
+              <entry>Documents en retard</entry>
+
+              <entry>Subject of the overdue return mail.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_opac">
+      <title>opac</title>
+
+      <para>The <emphasis>opac</emphasis> type correspond to the OPAC
+      custmosation. The OPAC is highly customisable and thus has a lot of
+      parameters.</para>
+
+      <table>
+        <title>Opac type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>authors_aut_rec_per_page</entry>
+
+              <entry>1</entry>
+
+              <entry>Number of authors displayed per page</entry>
+            </row>
+
+            <row>
+              <entry>authors_aut_sort_records</entry>
+
+              <entry>index_serie, tnvol, index_sew</entry>
+
+              <entry>Authors display : notices sort order</entry>
+            </row>
+
+            <row>
+              <entry>allow_extended_search</entry>
+
+              <entry>1</entry>
+
+              <entry>Allow extended search in the OPAC 0: No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry>allow_term_search</entry>
+
+              <entry>1</entry>
+
+              <entry>Allow search by terms in the OPAC 0: No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry>authors_aut_rec_per_page</entry>
+
+              <entry>1</entry>
+
+              <entry>Number of authors displayed per page</entry>
+            </row>
+
+            <row>
+              <entry>authors_aut_sort_records</entry>
+
+              <entry>index_serie, index_tit1</entry>
+
+              <entry>Authors display : notices sort order</entry>
+            </row>
+
+            <row>
+              <entry>biblio_adr1</entry>
+
+              <entry>Le Gué Luneau</entry>
+
+              <entry>First part of the Library address in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>biblio_country</entry>
+
+              <entry>France</entry>
+
+              <entry>Library country in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>biblio_cp</entry>
+
+              <entry>37370</entry>
+
+              <entry>Library zip code in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>biblio_dep</entry>
+
+              <entry>37</entry>
+
+              <entry>Library State in the OPAC for weather forecast</entry>
+            </row>
+
+            <row>
+              <entry>biblio_email</entry>
+
+              <entry>pmb@sigb.net</entry>
+
+              <entry>Library e-mail in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>biblio_important_p1</entry>
+
+              <entry></entry>
+
+              <entry>First part of library important information, is hidden by
+              default in the CSS, see id important.p1</entry>
+            </row>
+
+            <row>
+              <entry>biblio_important_p2</entry>
+
+              <entry></entry>
+
+              <entry>Second part of library important information, is hidden
+              by default in the CSS, see id important.p2</entry>
+            </row>
+
+            <row>
+              <entry>biblio_name</entry>
+
+              <entry>Bibliothèque PMB Services</entry>
+
+              <entry>Library name in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>biblio_phone</entry>
+
+              <entry>02 47 24 89 29</entry>
+
+              <entry>Library phone number in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>biblio_preamble_p1</entry>
+
+              <entry>La bibliothèque de test de PMB vous propose près de 60
+              ouvrages pour tester l'application. Cet écran vous présente de
+              nombreuses possibilités de recherche et de navigation, celles-ci
+              sont grandement paramétrables.</entry>
+
+              <entry>First part of library preamble information (for example,
+              description of catalographic funds)</entry>
+            </row>
+
+            <row>
+              <entry>biblio_preamble_p2</entry>
+
+              <entry>PMB Services est à votre disposition pour vous aider à
+              paramétrer ou adapter votre PMB.</entry>
+
+              <entry>Second part of library preamble information : public
+              welcome message.</entry>
+            </row>
+
+            <row>
+              <entry>biblio_quicksummary_p1</entry>
+
+              <entry></entry>
+
+              <entry>First part of library summary, is hidden by default in
+              the CSS, see id quickSummary.p1</entry>
+            </row>
+
+            <row>
+              <entry>biblio_quicksummary_p2</entry>
+
+              <entry></entry>
+
+              <entry>Second part of library summary, is hidden by default in
+              the CSS, see id quickSummary.p1</entry>
+            </row>
+
+            <row>
+              <entry>biblio_town</entry>
+
+              <entry>BUEIL EN TOURAINE</entry>
+
+              <entry>Library city in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>biblio_website</entry>
+
+              <entry>www.sigb.net</entry>
+
+              <entry>Library web site in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>cart_allow</entry>
+
+              <entry>1</entry>
+
+              <entry>Basket available in the PMB OPAC 1: Yes 0 : No</entry>
+            </row>
+
+            <row>
+              <entry>cart_only_for_subscriber</entry>
+
+              <entry>1</entry>
+
+              <entry>Basket only available for library borrowers 1: Yes 0 :
+              No, authorized for all web surfer</entry>
+            </row>
+
+            <row>
+              <entry>categories_categ_path_sep</entry>
+
+              <entry>&gt;</entry>
+
+              <entry>Category divider</entry>
+            </row>
+
+            <row>
+              <entry>categories_categ_rec_per_page</entry>
+
+              <entry>6</entry>
+
+              <entry>Number of notices to display per page in the category
+              exploration.</entry>
+            </row>
+
+            <row>
+              <entry>categories_categ_sort_records</entry>
+
+              <entry>index_serie, tnvol, index_sew</entry>
+
+              <entry>Categories explorer : notice sort order : index_serie,
+              tnvol, index_sew &gt; sorted by serials title, per number in the
+              serial and by title index; rand() random.</entry>
+            </row>
+
+            <row>
+              <entry>categories_columns</entry>
+
+              <entry>3</entry>
+
+              <entry>Number of columns in the general categories
+              summary</entry>
+            </row>
+
+            <row>
+              <entry>categories_max_display</entry>
+
+              <entry>200</entry>
+
+              <entry>For the home page, maximum number of main categories
+              displayed</entry>
+            </row>
+
+            <row>
+              <entry>categories_nb_col_subcat</entry>
+
+              <entry>3</entry>
+
+              <entry>Number of subcategories columns when browsing the
+              categories</entry>
+            </row>
+
+            <row>
+              <entry>categories_sub_display</entry>
+
+              <entry>3</entry>
+
+              <entry>Number of subcategories on the first page</entry>
+            </row>
+
+            <row>
+              <entry>categories_sub_mode</entry>
+
+              <entry>categ_libelle</entry>
+
+              <entry>Subcategories display mode : rand() &gt; random;
+              cated_libelle &gt; alphabetic order</entry>
+            </row>
+
+            <row>
+              <entry>default_lang</entry>
+
+              <entry>fr_FR</entry>
+
+              <entry>OPAC language: fr_FR, en_US, es_ES, ar</entry>
+            </row>
+
+            <row>
+              <entry>default_style</entry>
+
+              <entry>1</entry>
+
+              <entry>OPAC graphic style, 1 default style, nomargin : without
+              displaying the left frame</entry>
+            </row>
+
+            <row>
+              <entry>duration_session_auth</entry>
+
+              <entry>1200</entry>
+
+              <entry>OPAC reader session timeout in seconds</entry>
+            </row>
+
+            <row>
+              <entry>etagere_nbnotices_accueil</entry>
+
+              <entry>5</entry>
+
+              <entry>Number of notices displayed in the shelves on the home
+              page 0 : All ; -1 : None ; x : maximum x notices
+              displayed.</entry>
+            </row>
+
+            <row>
+              <entry>etagere_notices_depliables</entry>
+
+              <entry>0</entry>
+
+              <entry>Expandable notices display in the home page shelves 0 :
+              No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>etagere_notices_format</entry>
+
+              <entry>8</entry>
+
+              <entry>Notices display format in the home page shelves 1 : ISBD
+              only 2 : Public only 4 : ISBD et Public 8 : Subset
+              (title+authors) only</entry>
+            </row>
+
+            <row>
+              <entry>etagere_notices_order</entry>
+
+              <entry>index_serie, tnvol, index_sew</entry>
+
+              <entry>Notices display order in the OPAC shelves</entry>
+            </row>
+
+            <row>
+              <entry>logosmall</entry>
+
+              <entry>logo_default_small.jpg</entry>
+
+              <entry>Small logo file name</entry>
+            </row>
+
+            <row>
+              <entry>max_cart_items</entry>
+
+              <entry>200</entry>
+
+              <entry>Maximum number of notices in a user basket</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_abstract</entry>
+
+              <entry>1</entry>
+
+              <entry>Search in the abstract search</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_author</entry>
+
+              <entry>2</entry>
+
+              <entry>Simple search on authors : 0 : forbidden 1 : authorized 2
+              : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_category</entry>
+
+              <entry>1</entry>
+
+              <entry>Simple search on categories : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_collection</entry>
+
+              <entry>1</entry>
+
+              <entry>Simple search on collections : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_content</entry>
+
+              <entry>0</entry>
+
+              <entry>Simple search on abstract field : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default. Not used
+              now</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_indexint</entry>
+
+              <entry>1</entry>
+
+              <entry>Simple search on internal indexations : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_keywords</entry>
+
+              <entry>1</entry>
+
+              <entry>Simple search on free indexations : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_publisher</entry>
+
+              <entry>1</entry>
+
+              <entry>Simple search on publishers : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry>modules_search_subcollection</entry>
+
+              <entry>1</entry>
+
+              <entry>Simple search on sub collections : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default </entry>
+            </row>
+
+            <row>
+              <entry>modules_search_title</entry>
+
+              <entry>2</entry>
+
+              <entry>Simple search on titles : 0 : forbidden 1 : authorized 2
+              : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry>nb_localisations_per_line</entry>
+
+              <entry>6</entry>
+
+              <entry>Number of locations displayed per line on the home page
+              (if show_section_browser=1)</entry>
+            </row>
+
+            <row>
+              <entry>nb_sections_per_line</entry>
+
+              <entry>6</entry>
+
+              <entry>Number of sections displayed per line on the home page
+              (if show_section_browser=1)</entry>
+            </row>
+
+            <row>
+              <entry>notices_depliable</entry>
+
+              <entry>1</entry>
+
+              <entry>Expandable display of notices in search results 0: No 1:
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry>notices_format</entry>
+
+              <entry>4</entry>
+
+              <entry>Notices display format in search results 1 : ISBD only 2
+              : Public only 4 : ISBD and Public 8 : only a subset
+              (title+authors) </entry>
+            </row>
+
+            <row>
+              <entry>onlynotice_reduit_format</entry>
+
+              <entry>0</entry>
+
+              <entry>???Format d'affichage des réduits des notices : 0 normal
+              = titre+auteurs principaux P 1,2,3: Perso. : tit+aut+champs
+              persos id 1 2 3 E 1,2,3: Perso. : tit+aut+édit+champs persos id
+              1 2 3</entry>
+            </row>
+
+            <row>
+              <entry>nb_aut_rec_per_page</entry>
+
+              <entry>1</entry>
+
+              <entry>???Réservations possibles par l'OPAC 1: oui ou 0:
+              No</entry>
+            </row>
+
+            <row>
+              <entry>resa</entry>
+
+              <entry>1</entry>
+
+              <entry>Enable holds in the OPAC 1: Yes or 0: No</entry>
+            </row>
+
+            <row>
+              <entry>resa_dispo</entry>
+
+              <entry>&nbsp;</entry>
+
+              <entry>Enable holds for available documents in the OPAC 1: Yes
+              or 0: No</entry>
+            </row>
+
+            <row>
+              <entry>search_other_function</entry>
+
+              <entry></entry>
+
+              <entry>Auxiliary function for searching on home pages</entry>
+            </row>
+
+            <row>
+              <entry>search_results_per_page</entry>
+
+              <entry>10</entry>
+
+              <entry>Number of search results displayed on the following
+              pages</entry>
+            </row>
+
+            <row>
+              <entry>show_100cases_browser</entry>
+
+              <entry>&nbsp;</entry>
+
+              <entry>100 Categories display : 0 : No 1 : Yes
+              categories</entry>
+            </row>
+
+            <row>
+              <entry>show_bandeaugauche</entry>
+
+              <entry>1</entry>
+
+              <entry>Show left frame ? 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_book_pics</entry>
+
+              <entry>1</entry>
+
+              <entry>Show book cover thumbnail in the notices : 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_categ_browser</entry>
+
+              <entry>1</entry>
+
+              <entry>Show categories on the OPAC home page 1: Yes or 0:
+              No</entry>
+            </row>
+
+            <row>
+              <entry>show_dernieresnotices</entry>
+
+              <entry>0</entry>
+
+              <entry>Show last created notices in the page trailer ? 0 : No 1
+              : Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_etageres_accueil</entry>
+
+              <entry>1</entry>
+
+              <entry>Show shelves in the home page trailer ? 0: No 1:
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_exemplaires</entry>
+
+              <entry>1</entry>
+
+              <entry>Show items in the OPAC 1 Yes, 0 : No</entry>
+            </row>
+
+            <row>
+              <entry>show_help</entry>
+
+              <entry>1</entry>
+
+              <entry>Show online help in the PMB OPAC 1: Yes 0: No</entry>
+            </row>
+
+            <row>
+              <entry>show_homeontop</entry>
+
+              <entry>0</entry>
+
+              <entry>Show home link under the library name (needed if the left
+              frame is hidden) ? 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_liensbas</entry>
+
+              <entry>1</entry>
+
+              <entry>Show links (pmb, google, library) on the page trailer ? 0
+              : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_loginform</entry>
+
+              <entry>1</entry>
+
+              <entry>Display borrower user id in the OPAC ? 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_marguerite_browser</entry>
+
+              <entry>0</entry>
+
+              <entry>Show categories daisy ? 0 : No or 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_meteo</entry>
+
+              <entry>0</entry>
+
+              <entry>Show weather forecast in the OPAC 1: Yes or 0: No</entry>
+            </row>
+
+            <row>
+              <entry>show_section_browser</entry>
+
+              <entry>1</entry>
+
+              <entry>Show section and location browser ? 0: No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry>term_search_height</entry>
+
+              <entry>350</entry>
+
+              <entry>Pixel height of the search terms frame (if not specified
+              or zero : 200 pixels by default)</entry>
+            </row>
+
+            <row>
+              <entry>term_search_n_per_page</entry>
+
+              <entry>50</entry>
+
+              <entry>Number of terms displayed per age in the term
+              search</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_pdfcartelecteur">
+      <title>pdfcartelecteur</title>
+
+      <para>The <emphasis>pdfcartelecteur</emphasis> parameters correspond to
+      the printing parameters of a borrower card.</para>
+
+      <table>
+        <title>Pdfcartelecteur type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>biblio_name</entry>
+
+              <entry>$biblio_name</entry>
+
+              <entry>Library name printed on the borrower card. You can set it
+              to any value or to $biblio_name to have the same value as for
+              the biblio_name parameter.</entry>
+            </row>
+
+            <row>
+              <entry>carteno</entry>
+
+              <entry>Carte N° :</entry>
+
+              <entry>Card number label</entry>
+            </row>
+
+            <row>
+              <entry>largeur_nom</entry>
+
+              <entry>80</entry>
+
+              <entry>Borrower name length printed on the card in mm </entry>
+            </row>
+
+            <row>
+              <entry>pos_h</entry>
+
+              <entry>20</entry>
+
+              <entry>Left margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>pos_v</entry>
+
+              <entry>20</entry>
+
+              <entry>Top margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>valableau</entry>
+
+              <entry>au</entry>
+
+              <entry>'to' in "valid from ##/##/#### TO ##/##/####"</entry>
+            </row>
+
+            <row>
+              <entry>valabledu</entry>
+
+              <entry>Valable du</entry>
+
+              <entry>'Valid from' in "VALID FROM ##/##/#### to
+              ##/##/####"</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_pdflettreadhesion">
+      <title>pdflettreadhesion</title>
+
+      <para>The <emphasis>pdflettreadhesion</emphasis> parameters correspond
+      to the parameters printing of almost expired adhesion letters.</para>
+
+      <table>
+        <title>Pdflettreadhesion type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>fdp</entry>
+
+              <entry>Le responsable de la Bibliothèque.</entry>
+
+              <entry>Trailer formulate courtesy.</entry>
+            </row>
+
+            <row>
+              <entry>format_page</entry>
+
+              <entry>P</entry>
+
+              <entry>P for Portrait, L for Landscape.</entry>
+            </row>
+
+            <row>
+              <entry>hauteur_page</entry>
+
+              <entry>297</entry>
+
+              <entry>Page height in mm</entry>
+            </row>
+
+            <row>
+              <entry>largeur_page</entry>
+
+              <entry>210</entry>
+
+              <entry>Page width in mm</entry>
+            </row>
+
+            <row>
+              <entry>madame_monsieur</entry>
+
+              <entry>Madame, Monsieur,</entry>
+
+              <entry>Recipient salutation</entry>
+            </row>
+
+            <row>
+              <entry>marge_page_droite</entry>
+
+              <entry>10</entry>
+
+              <entry>Right margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>marge_page_gauche</entry>
+
+              <entry>10</entry>
+
+              <entry>Left margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>texte</entry>
+
+              <entry>Votre abonnement à la bibliothèque municipale arrive à
+              échéance le !!date_fin_adhesion!!. Nous vous remercions de
+              penser à le renouveler lors de votre prochaine visite. Nous vous
+              prions de recevoir, Madame, Monsieur, l'expression de nos
+              meilleures salutations.</entry>
+
+              <entry>Introduction phrase for adhesion expiration</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_pdflettreadhesion">
+      <title>pdflettreresa</title>
+
+      <para>The <emphasis>pdflettreresa<emphasis> parameters correspond to
+      printing parameters of holds confirmation
+      letters</emphasis></emphasis>.</para>
+
+      <table>
+        <title>Pdflettreresa Type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>after_list</entry>
+
+              <entry>Passé le délai de réservation, ces ouvrages seront remis
+              en circulation, nous vous prions de les retirer dans les
+              meilleurs délais.</entry>
+
+              <entry>Text shown after the hold items list</entry>
+            </row>
+
+            <row>
+              <entry>before_list</entry>
+
+              <entry>Suite à votre demande de réservation, nous vous informons
+              que le ou les ouvrages ci-dessous sont à votre disposition à la
+              bibliothèque.</entry>
+
+              <entry>Text shown before the hold items list</entry>
+            </row>
+
+            <row>
+              <entry>debut_expl_1er_page</entry>
+
+              <entry>160</entry>
+
+              <entry>Item list starting position in mm from the top of the
+              first page. Must be set according to the length of the text
+              before the item list.</entry>
+            </row>
+
+            <row>
+              <entry>debut_expl_page</entry>
+
+              <entry>15</entry>
+
+              <entry>Item list starting position in mm from the top of the
+              next page. </entry>
+            </row>
+
+            <row>
+              <entry>fdp</entry>
+
+              <entry>Le responsable de la $biblio_name.</entry>
+
+              <entry>Letter signature. You may use $biblio_name to use the
+              value of the "biblio name" parameter.</entry>
+            </row>
+
+            <row>
+              <entry>format_page</entry>
+
+              <entry>P</entry>
+
+              <entry>Page format : P : Portrait L : Landscape</entry>
+            </row>
+
+            <row>
+              <entry>hauteur_page</entry>
+
+              <entry>297</entry>
+
+              <entry>Page height in mm</entry>
+            </row>
+
+            <row>
+              <entry>largeur_page</entry>
+
+              <entry>210</entry>
+
+              <entry>Page width in mm</entry>
+            </row>
+
+            <row>
+              <entry>limite_after_list</entry>
+
+              <entry>270</entry>
+
+              <entry>Item list ending position in mm. If during printing this
+              limit is reached, the item will be printed on the next
+              page.</entry>
+            </row>
+
+            <row>
+              <entry>madame_monsieur</entry>
+
+              <entry>Madame, Monsieur,</entry>
+
+              <entry>Recipient salutation.</entry>
+            </row>
+
+            <row>
+              <entry>marge_page_droite</entry>
+
+              <entry>10</entry>
+
+              <entry>Right margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>marge_page_gauche</entry>
+
+              <entry>10</entry>
+
+              <entry>Left margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>nb_1ere_page</entry>
+
+              <entry>5</entry>
+
+              <entry>Number of hold items printed on the first page</entry>
+            </row>
+
+            <row>
+              <entry>nb_par_page</entry>
+
+              <entry>7</entry>
+
+              <entry>Number of hold items printed on the following
+              pages.</entry>
+            </row>
+
+            <row>
+              <entry>taille_bloc_expl</entry>
+
+              <entry>20</entry>
+
+              <entry>Hold items bloc size (2 lines). The start of each hold
+              item will be spaced according to this value</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_pdflettreretard">
+      <title>pdflettreretard</title>
+
+      <para>The <emphasis>pdflettreretard</emphasis> type point out printing
+      parameters for overdue items claim letter.</para>
+
+      <table>
+        <title>Type pdflettreretard</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>1after_list</entry>
+
+              <entry>Nous vous remercions de prendre rapidement contact par
+              téléphone au $biblio_phone ou par mail à $biblio_email pour
+              étudier la possibilité de prolonger ces prêts ou de ramener les
+              ouvrages concernés.</entry>
+
+              <entry>Text shown after the overdue items list </entry>
+            </row>
+
+            <row>
+              <entry>1before_list</entry>
+
+              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
+              est aujourd'hui dépassée :</entry>
+
+              <entry>Text shown before the overdue items list</entry>
+            </row>
+
+            <row>
+              <entry>1debut_expl_1er_page</entry>
+
+              <entry>160</entry>
+
+              <entry>Item list starting position in mm from the top of the
+              first page. Must be set according to the length of the text
+              before the item list..</entry>
+            </row>
+
+            <row>
+              <entry>1debut_expl_page</entry>
+
+              <entry>15</entry>
+
+              <entry>Item list starting position in mm from the top of the
+              next page. </entry>
+            </row>
+
+            <row>
+              <entry>1fdp</entry>
+
+              <entry>Le responsable de la $biblio_name.</entry>
+
+              <entry>Letter signature. You may use $biblio_name to use the
+              value of the "biblio name" parameter.</entry>
+            </row>
+
+            <row>
+              <entry>1format_page</entry>
+
+              <entry>P</entry>
+
+              <entry>Page format : P : Portrait L : Landscape</entry>
+            </row>
+
+            <row>
+              <entry>1hauteur_page</entry>
+
+              <entry>297</entry>
+
+              <entry>Page height in mm</entry>
+            </row>
+
+            <row>
+              <entry>1largeur_page</entry>
+
+              <entry>210</entry>
+
+              <entry>Page width in mm</entry>
+            </row>
+
+            <row>
+              <entry>1limite_after_list</entry>
+
+              <entry>70</entry>
+
+              <entry>Item list ending position in mm from bottom of page. If
+              during printing this limit is reached, the item will be printed
+              on the next page </entry>
+            </row>
+
+            <row>
+              <entry>1madame_monsieur</entry>
+
+              <entry>Madame, Monsieur,</entry>
+
+              <entry>Recipient salutation</entry>
+            </row>
+
+            <row>
+              <entry>1marge_page_droite</entry>
+
+              <entry>10</entry>
+
+              <entry>Right margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>1marge_page_gauche</entry>
+
+              <entry>10</entry>
+
+              <entry>Left margin in mm</entry>
+            </row>
+
+            <row>
+              <entry>1nb_1ere_page</entry>
+
+              <entry>5</entry>
+
+              <entry>Number of overdue items printed on the first page</entry>
+            </row>
+
+            <row>
+              <entry>1nb_par_page</entry>
+
+              <entry>7</entry>
+
+              <entry>Number of overdue items printed on the following
+              pages.</entry>
+            </row>
+
+            <row>
+              <entry>1taille_bloc_expl</entry>
+
+              <entry>20</entry>
+
+              <entry>Hold items bloc size (2 lines). The start of each hold
+              item will be spaced according to this value</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_pmb">
+      <title>pmb</title>
+
+      <para>The <emphasis>pmb</emphasis> parameters are general application
+      parameters</para>
+
+      <table>
+        <title>Pmb Type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>bdd_version</entry>
+
+              <entry>v2.08</entry>
+
+              <entry>Database kernel version. Change it only with a lower
+              version number if somethng goes wrong during the database
+              update. Restart the database update after. If needed, contact
+              the mailing list pmb.user@sigb.net</entry>
+            </row>
+
+            <row>
+              <entry>import_limit_read_file</entry>
+
+              <entry>100</entry>
+
+              <entry>Read size limit of the imported file. In general, 100 or
+              200 should be OK. If you encounter timeoit problems, set it for
+              exemple to 50</entry>
+            </row>
+
+            <row>
+              <entry>import_limit_record_load</entry>
+
+              <entry>100</entry>
+
+              <entry>Process size limit of the imported file. In general, 100
+              or 200 should be OK. If you encounter timeoit problems, set it
+              for exemple to 50</entry>
+            </row>
+
+            <row>
+              <entry>import_modele</entry>
+
+              <entry>func_bdp.inc.php</entry>
+
+              <entry>Name of the script file used to customise import.</entry>
+            </row>
+
+            <row>
+              <entry>indexint_decimal</entry>
+
+              <entry>1</entry>
+
+              <entry>0 ou 1 : internal indexation is a Dewey like
+              classification </entry>
+            </row>
+
+            <row>
+              <entry>nb_lastautorities</entry>
+
+              <entry>10</entry>
+
+              <entry>Number of last authorities displayed in the authorities
+              managment</entry>
+            </row>
+
+            <row>
+              <entry>num_carte_auto</entry>
+
+              <entry>1</entry>
+
+              <entry>Automatic borrower card number ? 1 : Yes 0 : No (if using
+              pre-printed cards)</entry>
+            </row>
+
+            <row>
+              <entry>pret_adhesion_depassee</entry>
+
+              <entry>1</entry>
+
+              <entry>Lend if adhesion ending date is reached : 0 Strictly
+              forbidden, 1 POSSIBLE</entry>
+            </row>
+
+            <row>
+              <entry>quotas_avances</entry>
+
+              <entry>0</entry>
+
+              <entry>Advanced lending quotas ? 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>relance_adhesion</entry>
+
+              <entry>31</entry>
+
+              <entry>Number of days before expired adhesion for renewal
+              letters</entry>
+            </row>
+
+            <row>
+              <entry>resa_dispo</entry>
+
+              <entry>1</entry>
+
+              <entry>Avialable documents holding enabled ? 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry>resa_quota_pret_depasse</entry>
+
+              <entry>1</entry>
+
+              <entry>Holding avialable even if the lending quota is reached ?
+              0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>serial_link_article</entry>
+
+              <entry>&nbsp;0</entry>
+
+              <entry>???Préremplissage du lien des dépouillements avec le lien
+              de la notice mère en catalogage des périodiques ? 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry>show_help</entry>
+
+              <entry>1</entry>
+
+              <entry>Display contextual help in managment part of PMB 1: Yes 0
+              : No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_sauvegarde">
+      <title>sauvegarde</title>
+
+      <para>The <emphasis>sauvegarde</emphasis> parameters correspond to the
+      PMB backup procedures.</para>
+
+      <table>
+        <title>Sauvegarde type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>cle_crypt1</entry>
+
+              <entry></entry>
+
+              <entry>&nbsp;</entry>
+            </row>
+
+            <row>
+              <entry>cle_crypt2</entry>
+
+              <entry></entry>
+
+              <entry>&nbsp;</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_z3950">
+      <title>z3950</title>
+
+      <para>The <emphasis>z3950</emphasis> are for z3950 search in the
+      cataloging tab.</para>
+
+      <table>
+        <title>Z39.50 type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry>subtype</entry>
+
+              <entry>value</entry>
+
+              <entry>comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>accessible</entry>
+
+              <entry>1</entry>
+
+              <entry>Z39.50 accessible ? 0 : No 1 : Yes, PHP_YAZ module is
+              activated, z3950 search is possible</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+</chapter>

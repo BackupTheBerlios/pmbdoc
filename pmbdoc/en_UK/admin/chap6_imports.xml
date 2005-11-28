@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
++==========================================================================+
+| PMB                                                                      |
++==========================================================================+
+| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
+| (voir www.sigb.net)                                                      |
+| creator : Gautier MICHELIN                                               |
+| modified : ...                                                           |
++==========================================================================+
+-->
+<chapter id="admin_import">
+  <title>Importing</title>
+
+  <para>Inporting allows you to avoid cataloguing books already catalogued :
+  either by a library that make available all hits books to library network,
+  or by bibliographic repositories (CD-ROMs, websites, ...)</para>
+
+  <sect1 id="admin_import_import">
+    <title>UNIMARC records</title>
+
+    <para>UNIMARC notices import allows you to load in the database notices
+    without the associated items. This make the cataloguing porcess easier by
+    importing notices files from ELECTRE for example, or data from other
+    bibliograpics products.</para>
+
+    <figure>
+      <title>Import &gt; UNIMARC records</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_imp_notices.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para><emphasis role="bold">Remark</emphasis> : if a UNIMARC file can't be
+    imported, you can check his validity by performing an export. For more
+    details, see <xref linkend="admin_convert" />.</para>
+  </sect1>
+
+  <sect1 id="admin_import_import_expl">
+    <title>UNIMARC items</title>
+
+    <para>UNIMARC items import allows you to load in the database notices with
+    the associated items. This feature correspond tipically to a book
+    transfer, from a library to another or from an ILS to another.</para>
+
+    <figure>
+      <title>Import &gt; UNIMARC items</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_imp_expl.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para><emphasis role="bold"><emphasis role="bold">Remark</emphasis> : if a
+    UNIMARC file can't be imported, you can check his validity by performing
+    an export. For more details, see </emphasis><xref
+    linkend="admin_convert" />.</para>
+
+    <para>The file to be imported can be sent to PMB in two ways :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>either you select the "Upload" feature to transfer your
+        file.</para>
+      </listitem>
+
+      <listitem>
+        <para>or you send your file by FTP. This allows you to upload files of
+        more than 2 Mb (indicative size, this limit is set by your server
+        configuration, in php.ini file, for more details see the PMB
+        installation guide)</para>
+      </listitem>
+    </itemizedlist>
+
+    <sect2>
+      <title>File Transfer with the "upload" feature</title>
+
+      <para>Click on "Step 1 : Upload".</para>
+
+      <figure>
+        <title>Import &gt; UNIMARC items, second screen</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>The screen allows you to customize the import process of your
+      items :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>First, select an owner and a status for the items you are
+          about to import. For example, the owner may be a regional library,
+          or your self if you migrate your items from your old ILS.</para>
+
+          <para>For the status, we recommend to select "document en cours
+          d'import". You will change it afterwards during the checking
+          imported items. See below the "Check imported items" section.</para>
+        </listitem>
+
+        <listitem>
+          <para>Choose the if the ISBN is mandatory in the imported notices
+          (by default no) and if spliting on this ISBN must be done.</para>
+
+          <para>Spliting notices on the ISBN basis allows you to reassemble
+          items of a unique book under the same notice, for example if each
+          item was created independantly or if a same notice appears more than
+          one time in the imported file.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Mandatory code</emphasis> : Yes or No
+          (No by default). In PMB (in accordance with the rule), each item
+          must have at least a barcode and a code. However, the import process
+          allows to insert items with no code.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Materials / Statistical codes / Sections
+          / Location</emphasis> : for each of those informations, you may
+          specify if the file information must be imported, or if it's your
+          own classification that must used to make the correspondance with
+          the file.</para>
+
+          <para>You can edit your preferences for materials, statisical codes,
+          sections and locations by clicking on the <emphasis
+          role="bold">Administration &gt; Items<emphasis>
+          links.</emphasis></emphasis></para>
+
+          <para>For each of those data, PMB will check the imported notices.
+          According to the selected owner for the imported documents, a
+          correspondance will be established with the value of the 995 UNIMARC
+          label and the coding defined in PMB ( see below "References for the
+          UNIMARC import about the 995 label)</para>
+
+          <para>So, to import an item of a Regional library which statistical
+          code value is "a", the correspondance will be done according to item
+          statistical code table (Administration &gt; items &gt; Statistical
+          code). If in your table, there is a code with a "a" value owned by
+          the Regional Library and with the label "Adult Regional Library",
+          then your imported item will have the statistic code "Adult Regional
+          Library"</para>
+
+          <para>The same thing is true for materials, sections and
+          locations.</para>
+        </listitem>
+
+        <listitem>
+          <para>Click then on <emphasis role="bold">Browse</emphasis> to
+          select the file that PMB will import. <emphasis>Reminder</emphasis>
+          : there can be a size limit for the file upload. For more details on
+          the php.ini customization of your server, ask your network
+          administrator or read the PMB installation guide.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Once the parameters are set, click on Next to launch the file
+      upload.</para>
+
+      <para>The item importation begin with the upload of your file on the
+      server. You may follow the transfer progress thanks to the display of
+      the remaining characters number to be processed.</para>
+
+      <figure>
+        <title>Import &gt; UNIMARC items , upload progress screen</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl3.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>The file is uploaded by packets. The size of thoses packet is
+      customizable in Administrations &gt; Tools &gt; Parameters, with the
+      paramters "import_limit_read_file" and "import_limit_record_load". For
+      more details on the parameters customization, see section <xref
+      linkend="admin_outils_parametres" />.</para>
+
+      <para>Once, the file upload is done, the import process starts.</para>
+    </sect2>
+
+    <sect2>
+      <title>File transfer with FTP</title>
+
+      <para>If you have uploaded your items file directly on the server with
+      FTP, your file is already on the server with the name unimarc.fic. The
+      second import customization screen doesn't include the browse button to
+      select the file to be uploaded.</para>
+
+      <figure>
+        <title>Import &gt; UNIMARC items, unimarc.fic file on the server,
+        second screen</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl_fic.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>For more details on the import customization, see above the
+      <emphasis>File Transfer with the "upload" feature</emphasis> section.
+      This sections explain all the customization avialable.</para>
+    </sect2>
+
+    <sect2>
+      <title>Upload of notices and items</title>
+
+      <para>You can follow the import progress thanks to the display of
+      remaining notices number to be processed.</para>
+
+      <figure>
+        <title>Import &gt; UNIMARC items , import progress screen</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_imp_expl4.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>A the end of the items import, a screen shows you the import
+      results.</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="admin_import_pointage_expl">
+    <title>Checking imported items</title>
+
+    <para>Checking imported items allows you to verify the correspondance
+    between physical reality of resources transfer (items, book materials) to
+    the computer reality (data base). The items barcodes are read and compare
+    to the database.</para>
+
+    <para>This allows you to detect : </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>existing books not encoded the database.</para>
+      </listitem>
+
+      <listitem>
+        <para>books encoded in the database but not existing (lost or
+        missing)</para>
+      </listitem>
+
+      <listitem>
+        <para>you can finally change the status, section an location of books
+        and made then avialable for lending.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>This items checking allows you moreover of those verifications :
+    </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>to check a book selection that you want to move into your
+        shelves</para>
+      </listitem>
+
+      <listitem>
+        <para>to change the section of one or more books.</para>
+      </listitem>
+    </itemizedlist>
+
+    <figure>
+      <title>Import &gt; Checking imported items</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_imp_pointage.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <procedure>
+      <step>
+        <para>Select a status, for exemple <emphasis>???document en bon état
+        </emphasis>; a section, for exemple ???<emphasis>romans et romans
+        étrangers, <emphasis>a location, for exemple</emphasis> main
+        library.</emphasis></para>
+
+        <graphic fileref="images/pointage1.gif" />
+      </step>
+
+      <step>
+        <para>Click on next.</para>
+      </step>
+
+      <step>
+        <para>Then read the items barcodes one by one</para>
+      </step>
+    </procedure>
+
+    <graphic fileref="images/pointage2.gif" />
+  </sect1>
+
+  <sect1>
+    <title>References for the UNIMARC import</title>
+
+    <para>The references abose are extracted from the
+    PMB/doc/import_unimarc.txt file.</para>
+
+    <para><programlisting>
+010 $a isbn &gt;&gt; notices.code
+010 $d price &gt;&gt; exemplaires.expl_prix 
+
+071 $a music number &gt;&gt; pas repris pour l'instant
+
+101 $a language &gt;&gt; notices.lang_code
+101 $c native language &gt;&gt; notices.org_lang_code
+
+200 $a title &gt;&gt; notices.tit1
+200 $c title &gt;&gt; notices.tit2
+200 $d title &gt;&gt; notices.tit3
+200 $e title &gt;&gt; notices.tit4
+
+210 $a publisher city &gt;&gt; publishers.ed_ville
+210 $c publisher name &gt;&gt; publishers.ed_name
+210 $d publishing year  &gt;&gt; notices.year
+
+215 $a number of pages &gt;&gt; notices.npages
+215 $c illustration &gt;&gt; notices.ill
+215 $d size &gt;&gt; notices.size
+215 $a accompagning material &gt;&gt; notices.accomp
+
+225 $a collection name &gt;&gt; collections.collection_name
+225 $x collection ISSN &gt;&gt; collections.collection_issn
+225 $i subcollection name &gt;&gt; sub_collections.sub_coll_name
+225 $x subcollection number &gt;&gt; notices.nocoll
+ 
+300 $a general notes &gt;&gt; notices.n_gen
+327 $a content notes &gt;&gt; notices.n_contenu
+330 $a abstract notes &gt;&gt; notices.n_resume
+
+345 $b EAN &gt;&gt; notices.code (ISBN) si ISBN absent
+
+410 $t collection, used instead of 225 if 225 is empty
+411 $t subcollection, used instead of 225 if 225 is empty
+
+461 $t serie name &gt;&gt; serie.serie_name
+461 $v serie number &gt;&gt; notices.tnvol
+
+610 $a keywords &gt;&gt; notices.index_l
+
+676 $a dewey &gt;&gt; created in indexint.indexint_name then indexint.indexint_id &gt;&gt; notices.indexint
+
+700 701 702 710 711 712 responsabilities 
+    $a authority name &gt;&gt; authors.author_name
+    $b rejected authority &gt;&gt; authors.author_rejete
+    $4 function &gt;&gt; responsability.responsability_fonction
+
+801 $a country origin of the notice &gt;&gt; origine_notice.orinot_pays 
+801 $b Organization origin of the notice &gt;&gt; origine_notice.orinot_nom 
+
+856 $u electronic resource &gt;&gt; notices.lien 
+
+995 $f barcode &gt;&gt; exemplaires.expl_cb
+995 $k code &gt;&gt; exemplaires.expl_cote
+995 $q Targeted public &gt;&gt; docs_section.sdoc_codage_import 
+                      then docs_section.idsection &gt;&gt; exemplaires.expl_section
+                   &gt;&gt; docs_codestat.sdoc_codage_import 
+                      then docs_codestat.idcode &gt;&gt; exemplaires.expl_codestat
+995 $r document type &gt;&gt; docs_type.tdoc_codage_import 
+                           then docs_type.idtyp_doc &gt;&gt; exemplaires.expl_typdoc
+995 $u notes &gt;&gt; exemplaires.expl_note
+    </programlisting></para>
+  </sect1>
+</chapter>

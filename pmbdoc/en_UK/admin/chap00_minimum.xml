@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
++==========================================================================+
+| PMB                                                                      |
++==========================================================================+
+| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
+| (voir www.sigb.net)                                                      |
+| creator : Gautier MICHELIN                                               |
+| modified : ...                                                           |
++==========================================================================+
+-->
+<chapter id="donnees_minimum">
+  <title>Données minimum</title>
+
+  <para>PMB repose sur un ensemble de fichier (scripts PHP, XML,...) et une
+  base de données. Pour pouvoir fonctionner, PMB nécessite qu'un jeu de
+  données minimum soit chargé dans la base.</para>
+
+  <para>PMB est distribué avec différents fichiers SQL dans le répertoire
+  /tables</para>
+
+  <para>L'utilisation du script d'installation <emphasis
+  role="bold">tables/install.php </emphasis>simplifie le chargement des
+  fichiers SQL, en proposant une interface pour démarrer rapidement.
+  Cependant, pour paramétrer PMB à vos besoins, l'utilisation directe des
+  fichiers SQL est recommandée.</para>
+
+  <para>Pour plus d'informations sur l'interface d'installation <emphasis
+  role="bold">tables/install.php</emphasis> consulter le Guide d'Installation
+  PMB.</para>
+
+  <sect1>
+    <title>Structure de la base</title>
+
+    <para>Le fichier <emphasis role="bold">bibli.sql</emphasis> contient les
+    informations sur la structure de la base de PMB et doit être
+    systématiquement chargé en premier.</para>
+  </sect1>
+
+  <sect1>
+    <title>Données minimum pour lancer PMB</title>
+
+    <para>Pour lancer PMB vous devez avoir chargé en base au moins le fichier
+    <emphasis role="bold">minimum.sql</emphasis>, ce fichier définit :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>un utilisateur : le super-utilisateur, il s'agit de
+        l'administrateur de PMB. Ce compte n'est pas supprimable dans
+        l'interface. Il a toujours les droits d'accès sur l'ensemble des
+        fonctions de PMB.</para>
+      </listitem>
+
+      <listitem>
+        <para>un jeu de paramètres : il s'agit des paramètres de
+        fonctionnement de l'application.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para><emphasis role="bold">Attention</emphasis> ces données minimales
+    permettent de lancer PMB, pas de cataloguer une notice. Pour pouvoir
+    cataloguer (saisir des ouvrages dans la base), PMB a besoin d'avoir des
+    statuts de documents, des sections, des propriétaires... définis.</para>
+  </sect1>
+
+  <sect1>
+    <title>Données pour lancer PMB en mode quick-start</title>
+
+    <para>Pour lancer PMB en mode quick-start (pouvoir cataloguer
+    immédiatement), il faut charger en plus des fichiers bibli.sql et
+    minimum.sql <emphasis role="bold">feed_essential.sql</emphasis> ; ce
+    fichier définit :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Des données de l'application préremplies, modifiables.</para>
+      </listitem>
+
+      <listitem>
+        <para>Un jeu de sauvegarde prêt à l'emploi</para>
+      </listitem>
+
+      <listitem>
+        <para>Un jeu de paramétrage de Z3950.</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+  <sect1>
+    <title>Une sélection de données de notices, lecteurs, afin de pouvoir
+    tester de suite PMB</title>
+
+    <para>Pour pouvoir tester PMB, chargez le en plus de bibli.sql,
+    minimum.sql, feed_essential.sql, le fichier <emphasis
+    role="bold">data_test.sql</emphasis>. Celui-ci définit des exemples de
+    :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>notices</para>
+      </listitem>
+
+      <listitem>
+        <para>lecteurs</para>
+      </listitem>
+
+      <listitem>
+        <para>prêteurs</para>
+      </listitem>
+
+      <listitem>
+        <para>exemplaires</para>
+      </listitem>
+
+      <listitem>
+        <para>périodiques</para>
+      </listitem>
+
+      <listitem>
+        <para>...</para>
+      </listitem>
+    </itemizedlist>
+
+    <para><emphasis role="bold">Note</emphasis> Ce fichier se base sur les
+    données de l'application fournies dans feed_essential.sql</para>
+
+    <para><emphasis role="bold">Important</emphasis> Ces données de test sont
+    basées sur le thésaurus UNESCO_FR que vous devrez charger alors par le
+    fichier <emphasis role="bold">unesco_fr.sql</emphasis></para>
+  </sect1>
+
+  <sect1>
+    <title>Thésaurus et indexations internes</title>
+
+    <para>PMB vous offre aussi la possibilité de charger un thésaurus
+    (remplissage des catégories de PMB) et une indexation interne.</para>
+
+    <para>Vous pouvez charger parmi les thésaurus :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>unesco_fr.sql : thésaurus hiérarchisé de l'UNESCO, assez
+        important et bien fait.</para>
+      </listitem>
+
+      <listitem>
+        <para>grumeau.sql : plus petit, plus simple mais bien fait
+        aussi.</para>
+      </listitem>
+
+      <listitem>
+        <para>environnemen.sql : un thésaurus possible pour un fonds
+        documetaire axé Environnement.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Vous pouvez charger parmi les indexations internes :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>indexint_100.sql : 100 cases du savoir ou marguerite des
+        couleurs, indexation décimale , style Dewey simplifiée pour
+        l'éducation</para>
+      </listitem>
+
+      <listitem>
+        <para>indexint_chambery.sql : indexation style Dewey de la BM de
+        Chambéry, très bien conçue mais peu adaptée à des petites
+        bibliothèques</para>
+      </listitem>
+
+      <listitem>
+        <para>indexint_dewey.sql : indexation style Dewey</para>
+      </listitem>
+
+      <listitem>
+        <para>indexint_small_en.sql : indexation style Dewey réduite et en
+        anglais</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+  <sect1>
+    <title>Effacer le jeu de données de test</title>
+
+    <para>Le jeu de données de test que vous pouvez avoir chargé pour tester
+    PMB n'est pas utile pour l'utilisation quotidienne de PMB et peut
+    parasiter votre base de données.</para>
+
+    <sect2>
+      <title>Sous Windows</title>
+
+      <para>Pour effacer le jeu de test de la base, vous disposez sous Windows
+      du fichier empty_example_set.ba t</para>
+
+      <para>Ce programme se lance depuis la ligne de commande de Windows,
+      accessible depuis Menu Démarrer &gt; Exécuter puis saisissez "cmd" sous
+      Windows 2000 ou XP. Saisissez le chemin du programme, par exemple</para>
+
+      <para><programlisting>c:/pmb/tables/empty_example_set.bat %1 %2 %3 %4 </programlisting></para>
+
+      <para>Avec pour valeurs :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>%1 : le nom de la base de données</para>
+        </listitem>
+
+        <listitem>
+          <para>%2 : le nom de la machine hôte du serveur mysql</para>
+        </listitem>
+
+        <listitem>
+          <para>%3 : le nom de l'utilisateur ("user") de la base de données de
+          PMB</para>
+        </listitem>
+
+        <listitem>
+          <para>%4 : le mot de passe du "user" (qui peut être vide)</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">Attention</emphasis> le program
+      <emphasis>mysql.exe</emphasis> doit figurer dans le "path" pour pouvoir
+      être lancé par empty_example_set.bat, si ce fichier batch ne fonctionne
+      pas, éditer et spécifier en ligne 74 le chemin de MySQL</para>
+
+      <para><emphasis role="bold">Ecran de fonctionnement de
+      empty_example_set.bat</emphasis></para>
+
+      <para><programlisting>Si vous avez charge les donnees de test de PMB (data_test.sql),
+vous disposez d'un jeu de notices et d'exemplaires pour tester PMB.
+Ce script vous propose de vider ces tables d'exemple de votre application
+afin de repartir d'une base PMB vierge :
+------------------------------------------
+    table des emprunteurs              
+    table des groupes d'emprunteurs
+    table des prets          
+    table des notices        
+    table des exemplaires     
+    table des bulletins de periodiques
+    table de  depouillement des periodiques
+    table des series          
+    table des collections       
+    table des sous-collections  
+    table des auteurs           
+    table des editeurs
+------------------------------------------
+e) VIDER LES TABLES D'EXEMPLES
+q) Quitter
+</programlisting></para>
+
+      <para>Appuyez ensuite sur la lettre <emphasis role="bold">e</emphasis>
+      pour vider les exemples ou <emphasis role="bold">q</emphasis> pour
+      quitter</para>
+    </sect2>
+
+    <sect2>
+      <title>Sous Linux</title>
+
+      <para>Pour effacer le jeu de test de la base, vous disposez sous Linux
+      du fichier empty_example_set.cmd ; son fonctionnement est identique à
+      empty_example_set.bat sous Windows</para>
+
+      <para><emphasis role="bold">Attention</emphasis> l'exécutable
+      <emphasis>mysql</emphasis> doit figurer dans le "path" pour pouvoir être
+      lancé par empty_example_set.cmd</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Plus d'informations</title>
+
+    <para>Si vous désirez plus d'informations sur les thésaurus et les
+    indexations internes fournies avec PMB consulter le <emphasis>Guide de
+    l'utilisateur de PMB</emphasis>.</para>
+
+    <para>Pour plus d'informations sur les tables chargées par les différents
+    fichiers SQL, consulter le fichier tables/readme.txt</para>
+
+    <para>Pour afficher la structure de la base de données de PMB, consulter
+    le fichier /doc/noyau/index.php dans votre navigateur.</para>
+  </sect1>
+</chapter>

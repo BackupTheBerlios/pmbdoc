@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter lang="fr">
+  <title>Messages d'erreurs résultant d'un problème d'installation ou de configuration</title>
+
+  <para>Différents messages d'erreur signalent un problème d'installation de PMB. 
+  Il s'agit par exemple des messages d'erreur "Call to undefined function".</para>
+  
+  <para>PMB nécessite un certain nombre de pré-requis : pour plus d'informations sur ces 
+  pré-requis, voir <xref linkend="install_informations_importantes" /> et/ou le fichier 
+  VOTRE_REP_PMB/doc/pre_requisite.txt</para>
+
+  <sect1>
+    <title>Call to undefined function : xslt_create() in ...</title>
+
+    <para>Ce message d'erreur montre que la librairie <emphasis>PHP_XSLT</emphasis> n'est pas correctement installée.</para>
+    
+    <para>Utilisé dans : sauvegardes, conversion</para>
+
+    <para>Solution : activez la librairie PHP_XSLT dans votre configuration de PHP. Reportez vous à l'installation correspondant à votre système ainsi qu'au chapitre installation générique.</para>
+  </sect1>
+	<sect1><title>Call to undefined function: imagecreate() in ...</title>
+
+    <para>Ce message d'erreur montre que la librairie <emphasis>PHP_GD</emphasis> n'est pas correctement installée.</para>
+    
+    <para>Utilisé dans : génération de codes-barres</para>
+
+    <para>Solution : activez la librairie PHP_GD dans votre configuration de PHP. Reportez vous à l'installation correspondant à votre système ainsi qu'au chapitre installation générique.</para>
+  </sect1>
+</chapter>

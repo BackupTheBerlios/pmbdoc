@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!ENTITY __chap0a_introduction SYSTEM "chap0a_introduction.xml">
+<!ENTITY __chap0b_principes_g SYSTEM "chap0b_principes_generaux.xml">
+<!ENTITY __chap0c_ergonomie SYSTEM "chap0c_ergonomie.xml">
+<!ENTITY __chap0d_pref_user SYSTEM "chap0d_pref_user.xml">
+<!ENTITY __chap0e_opac SYSTEM "chap0e_opac.xml">
+<!ENTITY __chap0f_login SYSTEM "chap0f_login.xml">
+<!ENTITY __chap1_circ SYSTEM "chap1_circ.xml">
+<!ENTITY __chap2_catalogue SYSTEM "chap2_catalogue.xml">
+<!ENTITY __chap3_autorites SYSTEM "chap3_autorites.xml">
+<!ENTITY __chap4_editions SYSTEM "chap4_editions.xml">
+<!ENTITY __chap6_aidecontextuelle SYSTEM "chap6_aidecontextuelle.xml">
+<!ENTITY __chap7_historique_des_recherches SYSTEM "chap7_historique_des_recherches.xml">
+<!ENTITY __chap9_erreurs SYSTEM "chap9_erreurs.xml">
+<!ENTITY __chap99_categs SYSTEM "chap99_categs.xml">
+<!ENTITY __chap999_postface SYSTEM "chap999_postface.xml">
+]>
+<book lang="fr_FR">
+  <title>PMB : User Guide</title>
+
+  <bookinfo>
+    <date>13 septembre 2004</date>
+
+    <abstract>
+      <para>This guide constitues the user documentation for PMB, a free and
+      opensource computerised library management system, based on PHP/MySQL .
+      The users for which this guide is intended are the members of the
+      library staff, and not the users of the library, the borrowers.</para>
+
+      <para>For more information, see www.sigb.net</para>
+    </abstract>
+
+    <releaseinfo>Version of PMB corresponding to this guide :
+    v2.0</releaseinfo>
+
+    <copyright>
+      <year>2004</year>
+
+      <holder>Groupe de développeurs PMB (PMB group of developers)</holder>
+    </copyright>
+
+    <legalnotice>
+      <para>This manual is the intellectual property of PMB Services SARL. It
+      can be freely copied, distributed and/or modified according to the terms
+      of the Licence GNU Free Documentation License, Version 1.1 or later
+      published by the Free Software Foundation; with the unaltered section
+      entitled “About PMB” ; cover texts, citations below, and without more
+      than a quarter of the text. A full copy of the licence can be found at
+      the <ulink url="http://www.gnu.org/licenses/fdl.html">GNU
+      website</ulink>.</para>
+
+      <para>Cover texts:</para>
+
+      <para><literal>PMB Services SARL, August 2004</literal></para>
+
+      <para><literal>PMB is an opensource solution (licenced CECILL compatible
+      with GNU/GPL) for the media library.</literal></para>
+
+      <para><literal>http://www.sigb.net</literal></para>
+
+      <para><literal>Copyright © 2004, 2005 PMB Services SARL</literal></para>
+    </legalnotice>
+
+    <othercredit>
+      <surname>This manual was written in XML DocBook format. The source XML
+      were edited either in a text editor, or in XML Mind XML Editor (standard
+      version) then formatted with the aid of style sheets personalised by
+      Norman Walsh under XFC standard version. The screen captures were taken
+      under Linux with GIMP, under Windows with PrtScr then GIMP or under
+      MacOS X.3, then edited and converted with GIMP.</surname>
+    </othercredit>
+  </bookinfo>
+
+  &__chap0a_introduction;
+
+  &__chap0b_principes_g;
+
+  &__chap0c_ergonomie;
+
+  &__chap0d_pref_user;
+
+  &__chap0e_opac;
+
+  &__chap0f_login;
+
+  &__chap1_circ;
+
+  &__chap2_catalogue;
+
+  &__chap3_autorites;
+
+  &__chap4_editions;
+
+  &__chap6_aidecontextuelle;
+
+  &__chap7_historique_des_recherches;
+
+  &__chap9_erreurs;
+
+  &__chap99_categs;
+
+  &__chap999_postface;
+</book>

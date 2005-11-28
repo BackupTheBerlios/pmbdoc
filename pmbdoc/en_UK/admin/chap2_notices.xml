@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
++==========================================================================+
+| PMB                                                                      |
++==========================================================================+
+| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
+| (voir www.sigb.net)                                                      |
+| creator : Gautier MICHELIN                                               |
+| modified : ...                                                           |
++==========================================================================+
+-->
+<chapter id="admin_notices">
+  <title>Notices</title>
+
+  <para>La plupart des données qui définissent une notice sont normées. PMB
+  permet cependant d'éditer une table d'origine des notices. Vous pouvez
+  également ajouter des champs personnalisables.</para>
+
+  <sect1 id="admin_notices_orinot">
+    <title>Origines</title>
+
+    <para>Il s'agit de l'origine des notices. PMB importe les notices via
+    z39.50 ou par l'import UNIMARC notamment. Mais sur ces notices
+    s'appliquent des droits d'auteur. Si la BnF met à disposition de tous ses
+    notices, il n'en est pas forcément de même pour certains professionnels du
+    secteur. Ainsi la société Electre diffuse un cédérom de notices
+    bibliographiques, à jour des dernières nouveautés sorties sur le marché.
+    Ce cédérom est payant, et chacune des notices qu'il contient sont
+    protégées par des droits d'auteur.</para>
+
+    <para>PMB gère depuis sa version 1.3 un suivi des origines des
+    notices.</para>
+
+    <para>La fonction d'administration des origines des notices permet de
+    prédéfinir des origines de notices. Elle permet aussi d'éditer les
+    origines de notices importées.</para>
+
+    <figure>
+      <title>Notices &gt; Origines des notices</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_cat_notices.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_notices_perso">
+    <title>Personnalisables</title>
+
+    <para>Il s'agit ici des champs personnalisables des notices. Ces champs
+    personnalisables permettent de spécifier des informations propres à votre
+    bibliothèque ou à votre centre de documentation sur les notices : origine
+    de l'idée d'acquisition, commentaire d'un comité de lecture, public cible
+    de l'ouvrage...</para>
+
+    <figure>
+      <title>Notices &gt; Personnalisables</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_cat_perso.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Le fonctionnement des champs personnalisables pour les notices est
+    identique à celui des exemplaires. Pour plus d'information, 
+    voir <xref linkend="admin_expl_perso" />.</para>
+  </sect1>
+</chapter>

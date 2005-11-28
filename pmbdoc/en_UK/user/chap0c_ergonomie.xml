@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="ergo" lang="fr">
+  <title>Management interface layout</title>
+
+  <para>Here is a screenshot of the PMB management interface. The screen is
+  divided into three sections.</para>
+
+  <figure>
+    <title>management interface</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface.jpg" scale="50" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para><emphasis role="bold">The main navigation bar</emphasis></para>
+
+  <para>This allows for the switching between the different management
+  interface modules at any time.</para>
+
+  <para>Only the modules for which the user has access are displayed.</para>
+
+  <figure>
+    <title>Main navigation bar</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface_navbar.jpg" scalefit="1" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>To the right of the navigation bar, at the same level as the tabs, can
+  be found different links :
+  <emphasis>history</emphasis>,<emphasis>?</emphasis>, <emphasis>edit your
+  account, opac</emphasis>, and <emphasis>Logout</emphasis>.</para>
+
+  <para><emphasis>history</emphasis> opens in an iframe (block on the screen)
+  a history of the searches carried out in the PMB management interface. This
+  link is only displayed if you have the access rights to the catalogue tab.
+  For more information about searches, see <xref linkend="cat_search" /> ; for
+  more information about search history, see <xref
+  linkend="search_history" />.</para>
+
+  <para><emphasis>?</emphasis> allows access to PMB's context sensitive help.
+  For more information, read the chapter <xref linkend="aide_contextuelle"
+  xreflabel="" />. The displaying or not of contextual help is parametrised.
+  For more information, consult the <emphasis>PMB Administrator
+  Guide</emphasis>, chapter <emphasis>Utils</emphasis>, section
+  <emphasis>Parameters</emphasis>.</para>
+
+  <para><emphasis>edit your account</emphasis> allows access to the
+  preferences of the user connected to PMB.</para>
+
+  <para><emphasis>opac</emphasis> opens a new browser window and displays the
+  OPAC</para>
+
+  <para><emphasis>logout</emphasis> disconnects the current user, and returns
+  to the login screen</para>
+
+  <para><emphasis role="bold">The vertical menu </emphasis></para>
+
+  <para>This provides access to the different functions within each
+  module.</para>
+
+  <figure>
+    <title>Vertical list of functions</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface_laterale.jpg" scale="" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para><emphasis role="bold">The central interface</emphasis></para>
+
+  <para>The central interface is the part of PMB in which you can input or
+  edit information, execute functions, validate updates, etc.</para>
+
+  <figure>
+    <title>central interface</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface_centrale.jpg" scale="50" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para><emphasis role="bold">The alerts</emphasis></para>
+
+  <para>The alerts are displayed to the left, under the menu :</para>
+
+  <itemizedlist>
+    <listitem>
+      <para>If holds are added</para>
+    </listitem>
+
+    <listitem>
+      <para>if items are to be processed following the cancellation of
+      holds</para>
+    </listitem>
+
+    <listitem>
+      <para>if there are borrowers who are close to the end of their
+      membership</para>
+    </listitem>
+
+    <listitem>
+      <para>if there are borrwers with expired memberships</para>
+    </listitem>
+  </itemizedlist>
+
+  <figure>
+    <title>alerts</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/alerte.gif" scale="50" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+</chapter>

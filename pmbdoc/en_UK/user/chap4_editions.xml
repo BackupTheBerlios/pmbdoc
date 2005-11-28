@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="edit">
+  <title>Éditions</title>
+
+  <para>Six types d'éditions (ou de rapports) sont à votre disposition avec
+  cet onglet. Les résultats sont affichés sous la forme de tableaux dans
+  l'interface centrale de l'application.</para>
+
+  <figure>
+    <title>Éditions, menu latéral</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/editions_menu.jpg" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect1>
+    <title>Exemplaires</title>
+
+    <para>Cette partie du menu vous permet d'accéder à des informations sur
+    les exemplaires présents dans votre bibliothèques. Vous pouvez afficher
+    :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>la liste des prêts en cours</para>
+      </listitem>
+
+      <listitem>
+        <para>la liste des exemplaires dont la date de retour prévu est
+        dépassée (retards)</para>
+      </listitem>
+
+      <listitem>
+        <para>les prêts par groupe</para>
+      </listitem>
+    </itemizedlist>
+
+    <sect2 id="edit_expl_encours">
+
+      <title>Prêts en cours</title>
+
+      <para><emphasis>Prêts en cours </emphasis>liste tous les prêts en cours
+      et offre la possibilité d'imprimer des lettres de relance ou d'expédier
+      des mails de relance.</para>
+
+      <figure>
+        <title>Éditions &gt; Exemplaires &gt; Prêts en cours</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_expl_prets_en_cours.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>En dessous des résultats, vous pouvez modifier le nombre de
+      résultats de la recherche qui seront affichés sur une seule page. Pour
+      modifier ce chiffre, effacer le et remplacez le par la valeur désirée
+      puis cliquez sur <emphasis role="bold">Actualiser</emphasis>.</para>
+
+      <para>Le mail ou la lettre de relance sont paramétrables en partie
+      Administration (voir le Guide de l'Administration PMB).</para>
+
+      <para>Pour expédier un mail de relance à un lecteur pour un exemplaire
+      en retard, cliquez sur l'icône (l'icône n'est pas visible si l'adresse
+      mail du lecteur n'est pas renseignée). <graphic fileref="images/mail.jpg" />
+      Pour afficher une lettre de relance prête à imprimer cliquez sur
+      l'icône<graphic fileref="images/new.gif" /></para>
+    </sect2>
+
+    <sect2 id="edit_expl_retard">
+      <title>Exemplaires en retard</title>
+
+      <para>Liste les prêts en retard et permet d'imprimer une lettre de
+      relance personnalisée.</para>
+
+      <para>La lettre est affichée dans une fenêtre popup Acrobat qui permet
+      un contrôle visuel ainsi que l'impression.</para>
+
+      <figure>
+        <title>Éditions &gt; Exemplaires &gt; Exemplaires en retard</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_expl_retard.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Vous pouvez également imprimer d'un clic toutes les lettres, pour
+      cela cliquez sur <emphasis>Imprimer toutes les lettres de
+      relance</emphasis>.</para>
+    </sect2>
+
+    <sect2 id="edit_expl_pargroupe">
+      <title>Prêts par groupes</title>
+
+      <para>Même logique que pour les éditions sur les exemplaires mais regroupement selon les
+      groupes. Pour plus d'information, voir <xref linkend="edit_expl_encours" /></para>
+
+      <figure>
+        <title>Éditions &gt; Exemplaires &gt; Prêts par groupes</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_expl_groupes.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Réservations</title>
+
+    <para>Les réservations sont gérées depuis l'onglet
+    <emphasis>Circulation</emphasis>. Dans la partie de l'écran consacrée à
+    l'affichage des alertes, en bas à gauche de l'écran, apparaissent des
+    messages qui vous avertissent des nouvelles réservations placées par des
+    lecteurs, par l'OPAC, ou par des bibliothécaires.</para>
+
+    <para>Les états, que vous pouvez consulter dans l'onglet
+    <emphasis>Éditions</emphasis>, permettent d'aller chercher dans les rayons
+    les ouvrages qui sont réservés. Une fois mis de coté, vous pouvez alors
+    pointer dans l'onglet <emphasis>Circulation</emphasis> les ouvrages qui
+    correspondent à des réservations qui viennent d'être prises en
+    compte.</para>
+
+    <sect2 id="edit_resa">
+      <title>Réservations</title>
+
+      <para>Affiche la liste des réservations en cours.</para>
+
+      <figure>
+        <title>Editions &gt; Réservations &gt; Réservations</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_resas.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Vous pouvez lire les informations suivantes :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Titre</emphasis> : titre principal de
+          l'ouvrage réservé. Le titre est un lien qui affiche la notice
+          correspondante avec la liste de ses exemplaires dans l'onglet
+          Catalogue. Pour plus d'informations sur l'affichage des notices,
+          consulter le Chapitre <emphasis>Catalogue</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Emprunteur</emphasis> : le lecteur qui a
+          réservé l'ouvrage. L'emprunteur est un lien qui affiche la fiche
+          lecteur dans l'onglet Circulation. Pour plus d'information sur
+          l'affichage d'une fiche lecteur, consulter le chapitre
+          <emphasis>Circulation</emphasis>, section <emphasis>Prêt de
+          documents</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Rang</emphasis> : position dans la file
+          d'attente.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Date de la réservation</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Retour</emphasis> : date de retour prévu
+          ou <emphasis role="bold">disponible</emphasis> si au moins un des
+          exemplaires de l'ouvrage réservé est disponible dans la
+          bibliothèque. Dans ce cas, consulter plus loin Editions &gt;
+          Réservations &gt; à traiter pour éditer une liste des exemplaires à
+          sortir des rayons pour satisfaire les réservations.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Validité</emphasis> : date de fin de
+          validité de la réservation, définie dans Administration &gt; Quotas
+          si les quotas avancés ont été activés ; sinon dans Administration
+          &gt; Exemplaires &gt; Types de document. Pour plus d'informations
+          sur les quotas avancés, consulter le <emphasis>Guide de
+          l'Administrateur PMB</emphasis>, chapitre
+          <emphasis>Quotas</emphasis>, sinon consulter le <emphasis>Guide de
+          l'Administrateur PMB</emphasis>, chapitre
+          <emphasis>Exemplaires</emphasis>.</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <sect2 id="edit_resa_a_traiter">
+      <title>réservations à traiter</title>
+
+      <para>Affiche la liste des réservations qui n'ont pas été encore prises
+      en compte par le personnel en charge.</para>
+
+      <figure>
+        <title>Editions &gt; Réservations &gt; à traiter</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_resas_a_traiter.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour une réservation non pointée, les références d'un exemplaire
+      disponible correspondant à la réservation sont affichées. Si plusieurs
+      réservations portent sur un même ouvrage et que plusieurs exemplaires
+      sont disponibles, la liste présente chacune des réservations qui peuvent
+      être satisfaites.</para>
+
+      <para>Si aucun exemplaire n'est disponible, la réservation est listée,
+      mais sans référence d'un exemplaire correspondant.</para>
+
+      <para>A l'aide des références des réservations à traiter, déplacez vous
+      dans les rayons et sortez les exemplaires, puis pointer les en
+      Circulation &gt; Réservations &gt; En cours. Pour plus d'informations
+      sur le pointage, consultez le chapitre <emphasis>Circulation</emphasis>,
+      section <emphasis>Réservations</emphasis>.</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="edit_empr">
+    <title>Lecteurs</title>
+
+    <sect2 id="edit_empr_encours">
+      <title>Lecteurs en cours</title>
+
+      <para>Cet écran vous permet de faire une recherche de lecteurs. Par
+      défaut le résultat d'une recherche portant sur tous les lecteurs est
+      affichée.</para>
+
+      <figure>
+        <title>Éditions &gt; Lecteurs &gt; Lecteurs en cours</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_lecteurs_encours.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour chercher un lecteur, saisissez son nom ou le début de son nom
+      puis cliquez sur OK.</para>
+
+      <para>Cliquer sur un des lecteurs dans les résultats de la recherche
+      vous affiche sa fiche dans l'onglet
+      <emphasis>Circulation</emphasis>.</para>
+
+      <para>En bas de la page, vous pouvez modifier le nombre de résultats
+      affichés par page. Après avoir modifié ce nombre, cliquez sur Recharger
+      pour appliquer les changements. Vous pouvez également exporter vers
+      Excel (icône de gauche) ou vers un tableur au format HTML pour
+      OpenOffice (icône de droite).</para>
+    </sect2>
+
+    <sect2 id="edit_empr_limite">
+      <title>Lecteurs : abonnement bientôt expiré</title>
+
+      <para>Vous pouvez également afficher les lecteurs avec une fin
+      d'abonnement proche, où dont l'abonnement est déjà expiré.</para>
+
+      <para>PMB considère les lecteurs comme ayant un abonnement bientôt
+      expiré par rapport à la lettre de relance pour l'abonnement. Ce délai
+      est configuré dans les paramètres de PMB. Pour plus d'informations,
+      consulter le <emphasis>Guide de l'Administrateur de PMB</emphasis>,
+      chapitre <emphasis>Outils</emphasis>, section
+      <emphasis>Paramètres</emphasis>.</para>
+
+      <figure>
+        <title>Éditions &gt; Lecteurs, fin d'abonnement proche</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_lecteurs_finabo.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour chercher un lecteur ayant un abonnement bientôt expiré,
+      saisissez son nom ou le début de son nom puis cliquez sur OK.</para>
+
+      <para>Cliquer sur un des lecteurs dans les résultats de la recherche
+      vous affiche sa fiche dans l'onglet
+      <emphasis>Circulation</emphasis>.</para>
+
+      <para>En bas de la page, vous pouvez modifier le nombre de résultats
+      affichés par page. Après avoir modifié ce nombre, cliquez sur <emphasis
+      role="bold">Recharger</emphasis> pour appliquer les changements. Vous
+      pouvez également exporter vers Excel (icône de gauche) ou vers un
+      tableur au format HTML pour OpenOffice (icône de droite).</para>
+    </sect2>
+
+    <sect2 id="edit_empr_depasse">
+      <title>Lecteurs : abonnement expiré</title>
+
+      <para>Les lecteurs ayant un abonnement expiré ne sont pas affichés parmi
+      les lecteurs en cours.</para>
+
+      <para>Vous pouvez ici afficher les lecteurs ayant un abonnement
+      expiré.</para>
+
+      <figure>
+        <title>Éditions &gt; Lecteurs, abonnement expiré</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_lecteurs_aboexpi.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour chercher un lecteur ayant un abonnement expiré, saisissez son
+      nom ou le début de son nom puis cliquez sur OK.</para>
+
+      <para>Cliquer sur un des lecteurs dans les résultats de la recherche
+      vous affiche sa fiche dans l'onglet
+      <emphasis>Circulation</emphasis>.</para>
+
+      <para>En bas de la page, vous pouvez modifier le nombre de résultats
+      affichés par page. Après avoir modifié ce nombre, cliquez sur
+      <emphasis>Recharger</emphasis> pour appliquer les changements. Vous
+      pouvez également exporter vers Excel (icône de gauche) ou vers un
+      tableur au format HTML pour OpenOffice (icône de droite).</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="edit_serials">
+    <title>Périodiques</title>
+
+    <sect2>
+      <title>État des collections</title>
+
+     <figure>
+        <title>Éditions &gt; Périodiques &gt; Etat des collections</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_serial.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Cet écran affiche pour chaque notice mère de périodique le nombre
+      d'exemplaires par numéro.</para>
+
+      <para>Ceci permet notamment de vérifier s'il y a un numéro manquant dans
+      la collection.</para>
+	  
+	  <para>La première colonne indique le numéro du périodique (bulletin), la
+		deuxième la date de publication renseignée, enfin le nombre d'exemplaires
+		catalogués.</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>États</title>
+
+    <sect2 id="edit_procs">
+      <title>États personnalisables</title>
+
+      <para>Cette fonction de l'onglet <emphasis>Editions</emphasis> permet
+      d'afficher à l'écran l'édition de résultats de procédures stockées,
+      personnalisables dans l'onglet administration. Ces procédures sont
+      rédigées en langage SQL et seront interprétées par le SGBD fonctionnant
+      avec PHP sur lequel tourne votre serveur.</para>
+
+      <para>Si vous avez chargé le jeu de test opérationnel (data_test.sql,
+      pour plus d'informations consulter le <emphasis>Guide de
+      l'Administrateur PMB</emphasis>, chapitre <emphasis>Données
+      minimum</emphasis>), vous disposez de différents états
+      personnalisables.</para>
+
+      <para>Un certain nombre de procédures sont d'emblée accessibles. Leurs
+      noms sont normalement suffisamment évocateurs. En cas de doute, lancez
+      la procédure et examinez son résultat pour en comprendre le
+      fonctionnement.</para>
+
+      <figure>
+        <title>Éditions &gt; États &gt; Personnalisables</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_etats_perso.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour lancer un état personnalisable, cliquez sur le libellé de
+      l'état. Si des paramètres sont à spécifier, un écran intermédiaire est
+      affiché.</para>
+
+      <figure>
+        <title>Éditions &gt; États &gt; Personnalisables, choix des
+        paramètres</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/etatperso-params.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Éditions &gt; États &gt; Personnalisables, affichage des
+        résultats d'un état personnalisable</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/etats-perso-result.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>En bas de la page, vous pouvez modifier le nombre de résultats
+      affichés par page. Après avoir modifié ce nombre, cliquez sur <emphasis
+      role="">Recharger</emphasis> pour appliquer les changements. Vous pouvez
+      également exporter vers Excel (icône de gauche) ou vers un tableur au
+      format HTML pour OpenOffice (icône de droite).</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Codes barres</title>
+
+    <sect2 id="edit_cbgen">
+      <title>Génération libre</title>
+
+      <para>Cet outil permet d'éditer des pages de code barre, imprimables sur
+      des feuillets d'étiquettes.</para>
+
+      <figure>
+        <title>Éditions &gt; Codes barres &gt; Génération libre</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_barcodes.jpg" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour modifier la <emphasis>mise en page </emphasis>des étiquettes
+      cliquez sur <emphasis role="bold">Afficher</emphasis> puis adaptez les
+      paramètres à vos besoins.</para>
+
+      <para>Choisissez des étiquettes de bonne qualité et imprimez les avec
+      une imprimante laser pour en améliorer la longévité. Les imprimantes jet
+      d'encre de basse qualité ont une encre qui s'efface plus rapidement, et
+      dont la définition est trop faible pour une lecture rapide du
+      code-barres.</para>
+
+      <para>Vous pouvez vous servir d'un fichier texte contenant les numéros à
+      imprimer, personnaliser le nom de votre centre documentaire, etc</para>
+
+      <para>Le résultat est ensuite affiché dans un fenêtre Acrobat (fichier
+      PDF généré par PMB).</para>
+
+      <para>Vous pouvez contrôler visuellement le résultat, éventuellement le
+      sauvegarder et imprimer.</para>
+    </sect2>
+  </sect1>
+</chapter>
