@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_empr">
+  <title>Lecteurs</title>
+
+  <para>Dans cette partie de l'onglet administration, vous pouvez définir vos
+  options personnelles utiles dans la gestion des lecteurs.</para>
+
+  <sect1 id="admin_empr_categ">
+    <title>Catégories</title>
+
+    <para>Définir différentes catégories de lecteurs permet d'établir des
+    statistiques pour évaluer l'utilisation de votre bibliothèque. Pour plus
+    d'informations sur la réalisation de statistiques avec PMB, consulter le
+    <emphasis>Guide de l'Utilisateur de PMB</emphasis>, Chapitre
+    <emphasis>Editions</emphasis>.</para>
+
+    <para>Si vous avez activé la gestion des quotas avancés, les catégories
+    vous serviront ensuite à spécifier des quotas : par exemple un enfant peut
+    emprunter 2 ouvrages, un adulte 5 ouvrages simultanément. Pour plus
+    d'informations sur la gestion avancée des quotas, consultez le chapitre
+    <xref linkend="admin_quotas" />.</para>
+
+    <figure>
+      <title>Lecteurs - catégories</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_cat.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>En France, la durée de tenue d'un fichier de lecteur en bibliothèque
+    publique est limitée à un an, lorsque le fichier est déclaré (procédure
+    obligatoire auprès de la CNIL) selon la procédure simplifiée.</para>
+
+    <para>Pour plus d'informations, consulter <ulink
+    url="http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf">http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf</ulink>.</para>
+
+    <para>Si vous souhaitez vous affranchir de cette limite, il vous suffit
+    par exemple de passer la durée d'adhésion à 9999 jours.</para>
+
+    <para><emphasis role="bold">Note</emphasis> si vous avez activé la gestion
+    financière des lecteurs, vous pouvez définir un tarif de l'abonnement par
+    catégorie de lecteur, visible ici en troisième colonne. Pour plus
+    d'informations, consulter le chapitre <xref
+    linkend="admin_gestion_financiere" />.</para>
+  </sect1>
+
+  <sect1 id="admin_empr_codstat">
+    <title>Codes statistiques</title>
+
+    <para>Les codes statistiques servent à produire des informations sur vos
+    lecteurs en croisant les données. </para>
+
+    <para>De nombreuses possibilités vous sont laissées : </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>s'en servir comme discriminant pour les âges lorsque la date de
+        naissance n'est pas demandée (moins de 18 ans, 18-35 ans, 36-65 ans,
+        plus de 65 ans par exemple) ; </para>
+      </listitem>
+
+      <listitem>
+        <para>s'en servir pour évaluer le rayon d'action de votre bibliothèque
+        (exemple ci dessous)...</para>
+      </listitem>
+    </itemizedlist>
+
+    <figure>
+      <title>Lecteurs - code statistique</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_stat.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_empr_implec">
+    <title>Import lecteurs</title>
+
+    <para>L'import d'un fichier lecteurs permet de récupérer des informations
+    depuis un autre programme ou un fichier que vous auriez constitué par
+    ailleurs : membres d'un laboratoire possédant un centre documentaire
+    spécialisé, liste des élèves dans un établissement d'enseignement, export
+    depuis un annuaire LDAP, etc...</para>
+
+    <figure>
+      <title>Lecteurs - import lecteurs</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_imp.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Depuis l'écran d'import des lecteurs, vous pouvez soit importer des
+    lecteurs depuis un fichier, soit supprimer des lecteurs.</para>
+
+    <sect2>
+      <title>Importer des lecteurs</title>
+
+      <para>L'import est réalisé depuis un fichier texte (le plus souvent
+      fichier TXT ou CSV). Les tableurs (OpenOffice, Excel, ...) peuvent
+      exporter au format CSV.</para>
+
+      <para>Cliquez sur Parcourir pour choisir le fichier à importer. Selon le
+      format de votre fichier à importer, choisissez un séparateur de champs.
+      Choisissez également une catégorie de lecteurs et un code statistique :
+      ces informations ne peuvent être directement importées.</para>
+
+      <para>Cliquez sur Suivant pour continuer.</para>
+
+      <figure>
+        <title>Lecteurs - import lecteurs</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_lect_imp2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>L'écran suivant vous affiche la liste des champs de la table des
+      lecteurs.</para>
+
+      <para>Dans la colonne de gauche, il y a le nom des champs de la base de
+      donnée. C'est dans ces champs que l'on va entrer les l'information sur
+      les lecteurs.</para>
+
+      <para>Dans la colonne du centre figure la position du champ dans le
+      fichier.</para>
+
+      <para>La colonne de droite est un exemple de la première ligne du
+      fichier, elle peut être très utile s'i l'on veut changé la position dans
+      le fichier. Saisissez les positions dans la colonne centrale, et
+      n'oubliez de cliquer sur Actualiser pour que les changements soient pris
+      en compte.</para>
+
+      <para>Voici un exemple de fichier à importer :</para>
+
+      <programlisting>"12527","Archambault","rue de...
+"12528","Baudin","rue de...</programlisting>
+
+      <para>12527 est la 1ère position, c'est le code barre du lecteur, la 2e
+      position est le nom de famille du lecteur, la 3e son adresse,
+      etc..</para>
+
+      <para><emphasis role="bold">Important</emphasis> Les champs en rouge,
+      sont des champ non modifiables par l'utilisateur, ils vont se remplir
+      tout seul.</para>
+
+      <para>Après avoir rempli votre table de correspondant cliquez sur
+      Suite.</para>
+
+      <para>L'écran affiche enfin le nombre de personnes traitées par l'import
+      de lecteurs.</para>
+    </sect2>
+
+    <sect2>
+      <title>Supprimer des lecteurs</title>
+
+      <para>Vous pouvez supprimer des lecteurs en cliquant sur le bouton
+      Effacer des lecteurs. Cochez ensuite la ou les date(s) d'expiration des
+      lecteurs à supprimer, par exemple ceux dont l'expiration date de plus
+      d'un an.</para>
+
+      <para>Cliquez sur Supprimer.</para>
+
+      <para>La liste des lecteurs correspondant est affiché à l'écran.</para>
+
+      <para>Vous pouvez alors cliquer sur Supprimer tout pour supprimer les
+      lecteurs correspondants.</para>
+
+      <para>Le nombre de personnes supprimées est affiché à l'écran. Ceux qui
+      n'ont pas pu être supprimé, par exemple parce qu'ils ont des prêts en
+      cours, sont affichés.</para>
+    </sect2>
+
+    <sect2>
+      <title>Solutions avancées d'import des lecteurs</title>
+
+      <para>Il existe des solutions avancées d'import des lecteurs.</para>
+
+      <para>Les lecteurs importés vont être classés dans une catégorie
+      préexistante. Si vous souhaitez paramétrer plus finement l'import, vous
+      pouvez utiliser <emphasis>phpmyadmin</emphasis> ou lier vos données dans
+      un logiciel en utilisant MyODBC. Pour plus d'informations sur
+      phpmyadmin, consulter le site web de <ulink
+      url="http://www.phpmyadmin.net">phpmyadmin</ulink> ou, pour plus
+      d'informations sur l'installation [en français] consulter <ulink
+      url="http://www.allhtml.com/mysql/mysql582.php">http://www.allhtml.com/mysql/mysql582.php</ulink>.</para>
+
+      <para>MyODBC est une solution ODBC, permettant d'éditer des données
+      MySQL dans votre gestionnaire de base de données habituel, permettant
+      par exemple de copier coller des données depuis un tableur. Pour plus
+      d'informations, consulter www.mysql.com ou faire une recherche portant
+      sur MyODBC sur google.</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="admin_empr_parperso">
+    <title>Paramètres personnalisés</title>
+
+    <para>Les paramètres personnalisés permettent d'ajouter des informations
+    supplémentaires à des fiches-lecteur. Vous pourrez ainsi spécifier des
+    informations telles que l'entreprise d'origine, la catégorie
+    socio-professionnelle....</para>
+
+    <para>Vous devrez donner un nom à votre paramètre (les caractères
+    accentués et la ponctuation dans le nom du champ sont interdits, mais vous
+    pouvez les utiliser dans le titre à l'affichage).</para>
+
+    <para>Vous avez la possibilité de rendre la saisie de ce paramètre
+    obligatoire.</para>
+
+    <figure>
+      <title>Lecteurs - paramètres personnalisés</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_param.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Le fonctionnement des paramètres personnalisables est identique à
+    celui des champs personnalisés pour les exemplaires ou les notices. Pour
+    plus d'informations, voir <xref linkend="admin_expl_perso" />.</para>
+  </sect1>
+</chapter>

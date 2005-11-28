@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Introduction</title>
+
+  <para>PMB est une application hautement configurable. Ainsi des paramètres
+  liés aux lecteurs, aux traitements statistiques, au fonctionnement du client
+  Z39.50 peuvent être personnalisés.</para>
+
+  <para>En outre, l'onglet d'administration permet différentes fonctions liées
+  à la base, comme son optimisation par exemple, ou encore au fonctionnement
+  quotidien de PMB, comme la gestion des utilisateurs
+  (bibliothécaires).</para>
+
+  <para>L'onglet d'administration, outre son importance, possède plus d'écrans
+  que chacun des autres onglets de PMB. Pour cette raison, et pour faciliter
+  la mise à jour des informations présentées ici, nous avons décidé de
+  présenter ce guide à part.</para>
+
+  <sect1>
+    <title>Références</title>
+
+    <para><emphasis role="bold">Auteurs</emphasis></para>
+
+    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+
+    <para><emphasis role="bold">Contributions</emphasis></para>
+
+    <para>Equipe de développeurs PMB.</para>
+
+    <para>Anciens développeurs de PMB : François Lemarchand, Jesir Vargas,
+    Christophe Bliard, ...</para>
+
+    <para>Ce Guide de l'Administrateur correspond à la version 2.1 de
+    PMB</para>
+
+    <para>Numéro de version en couverture.</para>
+  </sect1>
+
+  <sect1>
+    <title>A propos de PMB</title>
+
+    <para>PMB est un logiciel libre de gestion de bibliothèques. Pour plus
+    d'informations consulter <ulink
+    url="http://www.sigb.net">http://www.sigb.net</ulink> .</para>
+  </sect1>
+
+  <sect1>
+    <title>Organisation de l'onglet administration</title>
+
+    <figure>
+      <title>Onglet administration</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>L'onglet administration possède un menu situé à gauche de l'écran,
+    et à l'intérieur de ces différentes sections de menu, une bande de liens
+    est située en haut de l'écran.</para>
+
+    <figure>
+      <title>Bande de liens en haut de l'écran</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/lien_haut.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Voici ci-dessous une capture du menu latéral. Dans ce document, nous
+    suivrons une organisation en chapitres correspondant en partie à chacune
+    des options de ce menu.</para>
+
+    <figure>
+      <title>Menu latéral</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_menu.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+</chapter>
