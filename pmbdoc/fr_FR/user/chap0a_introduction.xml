@@ -5,7 +5,7 @@
   <sect1 id="introduction_sujetpmb">
     <title>Au sujet de PMB</title>
 
-    <para>"PMB est un SIGB (Système Intégré de Gestion de Bibliothèque)
+    <para>PMB est un SIGB (Système Intégré de Gestion de Bibliothèque)
     entièrement libre. Le terrain des logiciels de bibliothèque est presque
     exclusivement occupé par des produits propriétaires. Nous sommes quelques
     bibliothécaires, utilisateurs et développeurs à déplorer cet état de
@@ -75,8 +75,11 @@
 
     <para>Sur le site de PMB : www.sigb.net</para>
 
-    <para>Sur le site de la communauté des utilisateurs :
-    www.sigb.net/communaute</para>
+    <para>Sur les forums de la communauté des utilisateurs : <ulink
+    url="???">www.sigb.net/communaute</ulink></para>
+
+    <para>Sur le wiki de la communauté des utilisateurs : <ulink
+    url="???">www.sigb.net/wiki</ulink></para>
 
     <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
     (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
@@ -84,7 +87,8 @@
 
     <para>Sur la mailing liste des traducteurs, des développeurs, du support
     de l'unicode (alphabets non européens). Pour plus de renseignements sur
-    ces listes, consulter <ulink url="http://www.sibg.net">www.sigb.net</ulink></para>
+    ces listes, consulter <ulink
+    url="http://www.sibg.net">www.sigb.net</ulink></para>
 
     <para>Cette documentation est consultable en ligne sur www.sigb.net/doc,
     elle est disponible aux formats HTML et PDF.</para>
@@ -98,16 +102,10 @@
     <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
 
     <para>Contributions de : François LEMARCHAND (ancien administrateur du
-    projet), Betty FAIS</para>
+    projet), Betty FAIS, Stéphanie FORT</para>
 
     <para>Merci à l'Equipe des Développeurs PMB, aux anciens développeurs, aux
     utilisateurs.</para>
-
-    <para>Ce Guide de l'Utilisateur correspond à la version 1.3 de PMB</para>
-
-    <para>Tiré de <emphasis>user_guide.xml</emphasis>. Vous pouvez trouver une
-    version PDF de ce document sur www.sigb.net en cherchant
-    user_guide.pdf'.</para>
   </sect1>
 
   <sect1 id="introduction_cvs">
@@ -119,8 +117,5 @@
     <para>PMB dispose d'un CVS. Le CVS est accessible aux développeurs.
     N'hésitez pas à nous contacter si vous souhaitez aider au développement de
     PMB ou participer à la rédaction de la documentation.</para>
-
-    <para>Pour plus d'informations, cherchez CVS sur
-    <emphasis>www.sigb.net</emphasis></para>
   </sect1>
 </chapter>

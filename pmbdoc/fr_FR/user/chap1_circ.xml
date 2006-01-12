@@ -195,7 +195,7 @@
             </figure>
 
             <para>Saisissez un titre et un ISBN. Définissez un type de
-            document (pour pouvoir gérer les durée de prêt et les éventuels
+            document (pour pouvoir gérer les durées de prêt et les éventuels
             quotas).</para>
 
             <para>Ensuite douchettez votre code barre d'exemplaire, ou
@@ -214,7 +214,7 @@
           </listitem>
 
           <listitem>
-            <para>Prolonger un pret existant</para>
+            <para>Prolonger un prêt existant</para>
 
             <para>Pour prolonger un prêt, cliquez sur le bouton de la date de
             retour. Dans le popup calendrier qui est ensuite ouvert, choisir
@@ -253,13 +253,13 @@
 
           <listitem>
             <para>Supprimer le lecteur : n'est possible que si le lecteur n'a
-            plus de prêt en cours. Si des prêts sont en cours, leur retour
+            plus de prêt en cours. Si des prêts sont en cours, leurs retours
             doivent être effectués avant.</para>
           </listitem>
 
           <listitem>
             <para>Imprimer la fiche de prêt : imprime la liste des exemplaires
-            emprunté et les réservations en cours. Pour imprimer la fiche de
+            empruntés et les réservations en cours. Pour imprimer la fiche de
             prêt,</para>
           </listitem>
 
@@ -377,9 +377,9 @@
 
         <itemizedlist>
           <listitem>
-            <para>Encaissement rapide : permet de régler le solde de toutes
-            les opérations d'une seule fois. Lors de l'encaissement rapide,
-            les transactions sont automatiquement validées. Cliquez sur
+            <para>Encaissement rapide : permet de saisir rapidement le
+            règlement d'un lecteur. Lors de l'encaissement rapide, toutes les
+            transactions sont automatiquement validées. Cliquez sur
             Encaissement rapide et saisissez le montant payé par le
             lecteur.</para>
           </listitem>
@@ -579,7 +579,7 @@
       section Fiche de lecteur plus haut.</para>
 
       <para>Des amendes financières ainsi que des suspensions de prêts peuvent
-      être octroyés à des lecteurs. Pour plus d'informations, consulter le
+      être octroyées à des lecteurs. Pour plus d'informations, consulter le
       Guide de l'Administration de PMB, chapitre Gestion financière des
       lecteurs.</para>
     </sect2>
@@ -608,11 +608,10 @@
       <sect3 id="circ_emprcreate_1">
         <title>Code barre pour le nouveau lecteur</title>
 
-        <para>Un code barre de lecteur est demandé lorsque vous demandez la
-        création d'un nouveau lecteur. Si le paramètre
-        <emphasis>pmb.num_carte_auto</emphasis> est activé (valeur 1), PMB
-        vous propose d'affecter au nouveau lecteur un code équivalant au plus
-        grand code barre dans la base +1.</para>
+        <para>Vous devez saisir un code barre lorsque vous créez un nouveau
+        lecteur. Si le paramètre <emphasis>pmb.num_carte_auto</emphasis> est
+        activé (valeur 1), PMB vous propose d'affecter au nouveau lecteur un
+        code équivalent au plus grand code barre dans la base +1.</para>
 
         <para>Pour plus d'informations sur le paramétrage de PMB, consulter le
         <emphasis>Guide de l'Administrateur de PMB</emphasis>, section
@@ -667,7 +666,7 @@
           <listitem>
             <para>La date de naissance fait partie des statistiques
             obligatoires demandées par les BDP aux bibliothèques de leur
-            réseau. Elles doit être saisie si le paramètre
+            réseau. Elle doit être saisie si le paramètre
             empr.birthdate_optional est activé (valeur 1). Pour plus
             d'informations, consulter le <emphasis>Guide de l'Administrateur
             PMB</emphasis>, chapitre <emphasis>Outils</emphasis>, section
@@ -781,7 +780,7 @@
     1.3 de PMB.</para>
 
     <sect2 id="circ_resa_encours">
-      <title>en cours</title>
+      <title>En cours</title>
 
       <para>Dans cet écran, les réservations en cours sont affichées. La place
       dans la file d'attente est spécifiée si plusieurs lecteurs ont réservé
@@ -818,7 +817,7 @@
     </sect2>
 
     <sect2 id="circ_resa_depassee">
-      <title>dépassées</title>
+      <title>Dépassées</title>
 
       <para>L'écran des réservations dépassées liste les réservations qui
       n'ont pas été annulées et ont une date de validité dépassée. Vous devrez
@@ -842,7 +841,7 @@
     </sect2>
 
     <sect2 id="circ_resa_docranger">
-      <title>doc. à ranger</title>
+      <title>Doc. à ranger</title>
 
       <para>La liste des documents à ranger présente les documents réservés,
       qui ont normalement été sortis des rayons et réservés avec le nom du

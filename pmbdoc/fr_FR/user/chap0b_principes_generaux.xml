@@ -13,8 +13,16 @@
   <para><emphasis role="bold">Ne pas utiliser le bouton "page précédente" du
   navigateur.</emphasis></para>
 
-  <para>"Page précédente" et "page suivante" permettent de se déplacer d'une
-  page à l'autre sur internet, il en est de même dans PMB.</para>
+  <para><inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/firefox-back.gif" />
+      </imageobject>
+    </inlinemediaobject> "Page précédente" et <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/firefox-next.gif" />
+      </imageobject>
+    </inlinemediaobject> "page suivante" permettent de se déplacer d'une page
+  à l'autre sur internet, il en est de même dans PMB.</para>
 
   <para><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
   role="bold">Attention</emphasis></emphasis> lorsque vous voyez à l'écran un
@@ -24,50 +32,29 @@
   page précédente si vous pouvez obtenir le même résultat en cliquant sur un
   des liens présent à l'écran.</para>
 
+  <para>Le bouton Actualiser la page <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/firefox-reload.gif" />
+      </imageobject>
+    </inlinemediaobject> de votre navigateur permettent de recharger une page
+  à l'écran.</para>
+
   <para>Lorsque vous rechargez une page qui est le résultat d'un formulaire
   (par exemple ajout d'une nouvelle notice), les données sont à nouveau
   soumises au serveur.</para>
 
-  <para>Suivant le même principe que "Page précédente", le bouton "Stop" de
-  votre navigateur permettra d'interrompre le chargement d'une page.</para>
-
-  <figure>
-    <title>boutons du navigateur Mozilla - Page précédente, Page suivante,
-    Recharger, Stop</title>
-
-    <mediaobject>
+  <para>Suivant le même principe que "Page précédente", le bouton "Stop"
+  <inlinemediaobject>
       <imageobject>
-        <imagedata fileref="images/back_mozilla1.jpg" />
+        <imagedata fileref="images/firefox-stop.gif" />
       </imageobject>
-    </mediaobject>
-  </figure>
-
-  <figure>
-    <title>boutons du navigateur Mozilla - Page précédente, Page suivante,
-    Recharger, Stop</title>
-
-    <mediaobject>
-      <imageobject>
-        <imagedata fileref="images/back_mozilla2.jpg" />
-      </imageobject>
-    </mediaobject>
-  </figure>
-
-  <figure>
-    <title>boutons du navigateur Internet Explorer - Page précédente, Page
-    suivante, Stop, Recharger</title>
-
-    <mediaobject>
-      <imageobject>
-        <imagedata fileref="images/back_ie.jpg" />
-      </imageobject>
-    </mediaobject>
-  </figure>
+    </inlinemediaobject> de votre navigateur permettra d'interrompre le
+  chargement d'une page.</para>
 
   <para><emphasis role="bold">Attention</emphasis> Lors d'opérations
   importantes sur la base de données (ajouts, suppressions), il ne faut pas
   arrêter le chargement de la page sous peine d'interrompre le traitement en
-  cours, ce sous risque de détérioration de la base de données.</para>
+  cours, vous auriez un risque de détérioration de la base de données.</para>
 
   <para>Ne surtout pas cliquer sur ce bouton "arrêter le chargement" lors
   d'une restauration de la base de données, d'une sauvegarde ou d'une

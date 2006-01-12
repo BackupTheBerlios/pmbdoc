@@ -15,7 +15,7 @@
       l’information</emphasis> est un service qui consiste à diffuser aux
       usagères et aux usagers, de façon régulière, les résultats d’un profil
       de recherche personnalisé. Il s'agit d'un outil de veille documentaire.
-      La DSI permet de communiquer les nouveautés du fonds documentaire sur un
+      La DSI permet de communiquer les nouveautés du fond documentaire sur un
       sujet ou dans un domaine précis.</para>
 
       <para>On peut également parler de "profil documentaire" ou "profil
@@ -65,13 +65,14 @@
             <imagedata fileref="images/warning.gif" />
           </imageobject>
         </inlinemediaobject> Si la DSI n'est pas activée, vous ne verrez pas
-      l'onglet DSI de PMB. Pour activer la DSI, dans Administration, Outils,
-      Paramètres, Diffusion Sélective de l'Information, activer la DSI.</para>
+      l'onglet DSI de PMB. Pour activer la DSI, allez dans Administration,
+      Outils, Paramètres, Diffusion Sélective de l'Information, et activez la
+      DSI.</para>
 
       <para><emphasis role="bold">Attention</emphasis> l'utilisateur de PMB
       doit avoir le droit d'accéder à l'onglet DSI. Dans Administration,
-      Utilisateurs, modifier et cocher DSI pour un ou plusieurs
-      utilisateurs.</para>
+      Utilisateurs, cliquez pour un utilisateur sur le bouton Modifier et
+      cochez DSI pour un ou plusieurs utilisateurs.</para>
 
       <para>Pour plus d'information sur le paramétrage de PMB, consulter le
       <emphasis role="bold">Guide de l'Administrateur PMB</emphasis>. Afin de
@@ -150,35 +151,26 @@
     <sect2 id="diffusion">
       <title>Bannettes</title>
 
-      <para>Permet de créer des utilisateurs en leur donnant noms et mots de
-      passes, ainsi que le droit d'accéder ou non aux différents
-      onglets.</para>
+      <para>Vous pouvez ici gérer vos bannettes de diffusion. Les bannettes
+      sont des réservoirs de nouveautés. C'est le contenu de ces bannettes qui
+      va être envoyé aux abonnés lors de la diffusion. Vous pouvez ici créer,
+      modifier ou supprimer une bannette. Vous pouvez également affecter des
+      équations pour remplir la bannette et des lecteurs destinataires de ces
+      listes de nouveautés.</para>
     </sect2>
 
     <sect2 id="dsi_equations">
       <title>Equations</title>
 
-      <para>Cette partie de l'onglet administration contient des outils de
-      maintenance pour la base de données MySQL, le système de mise à jour de
-      la base de données lorsque vous téléchargez une nouvelle version de PMB,
-      ainsi que les paramètres de l'application.</para>
-
-      <para>C'est en éditant ces paramètres que vous pourrez indiquer le nom
-      de votre bibliothèque, ses heures d'ouverture, le fonctionnnement de
-      votre OPAC...</para>
+      <para>Les équations sont des recherches multicritères sélectionnées qui
+      vont permettre le remplissage des bannettes.</para>
     </sect2>
 
     <sect2 id="dsi_options">
       <title>Options</title>
 
-      <para>Cette partie de l'onglet administration contient des outils de
-      maintenance pour la base de données MySQL, le système de mise à jour de
-      la base de données lorsque vous téléchargez une nouvelle version de PMB,
-      ainsi que les paramètres de l'application.</para>
-
-      <para>C'est en éditant ces paramètres que vous pourrez indiquer le nom
-      de votre bibliothèque, ses heures d'ouverture, le fonctionnnement de
-      votre OPAC...</para>
+      <para>Vous pouvez ici définir des classements pour vous permettre
+      d'organiser vos bannettes et vos équations.</para>
     </sect2>
 
     <sect2>
@@ -236,7 +228,7 @@
 
       <para><emphasis role="bold">Note </emphasis>: vous pourrez à tout moment
       modifier une équation de recherche, ce qui permettra de modifier,
-      ajouter ou retirer des critères à l'équation de recherche. Afficher les
+      ajouter ou retirer des critères à l'équation de recherche. Affichez les
       différentes équations de recherche et cliquez sur une Equation pour la
       modifier.</para>
 
@@ -260,10 +252,10 @@
         </mediaobject>
       </figure>
 
-      <para>Bannettes, publiques, ajouter : donner un nom à la bannette,
-      cocher bannette automatique, périodicité (1 par ex.), nombre de notices
-      (50 par ex.), choisir une catégorie de lecteurs et cocher diffusion par
-      email. Enregistrer</para>
+      <para>Bannettes, publiques, ajouter : donnez un nom à la bannette,
+      cochez bannette automatique, périodicité (1 par ex.), nombre de notices
+      (50 par ex.), choisissez une catégorie de lecteurs et cochez diffusion
+      par email. Enregistrez ensuite.</para>
 
       <figure>
         <title>Création d'une bannette</title>
@@ -299,7 +291,7 @@
         </mediaobject>
       </figure>
 
-      <para>Cliquer sur la bannette, dans la colonne Equations associées pour
+      <para>Cliquez sur la bannette, dans la colonne Equations associées pour
       affecter une ou plusieurs Equations à la bannette.</para>
 
       <figure>
@@ -312,8 +304,8 @@
         </mediaobject>
       </figure>
 
-      <para>Association des équations à la bannette : cocher l'équation,
-      enregistrer.</para>
+      <para>Association des équations à la bannette : cochez l'équation et
+      enregistrez.</para>
 
       <figure>
         <title>Affection aux abonnés d'une bannette</title>
@@ -339,11 +331,9 @@
         </mediaobject>
       </figure>
 
-      <para>Aller ensuite modifier une notice correspondant à votre équation
-      de recherche -</para>
-
-      <para>DSI, Diffusion, Automatique, Suivant : cocher votre bannette,
-      cliquer sur remplir. Normalement, le nbre de notices change.</para>
+      <para>Allez ensuite modifier une notice correspondant à votre équation
+      de recherche : DSI, Diffusion, Automatique, Suivant : cochez votre
+      bannette, cliquez sur remplir. Le nombre de notices change.</para>
 
       <para></para>
 
@@ -369,8 +359,8 @@
         </mediaobject>
       </figure>
 
-      <para>Il faut bien sur que vos lecteurs aient une adresse email pour
-      qu'il reçoive le contenu de la bannette par mail. Le mail qui sera
+      <para>Il faut bien sûr que vos lecteurs aient une adresse email pour
+      qu'ils reçoivent le contenu de la bannette par mail. Le mail qui sera
       envoyé est ouvert à l'écran dans un popup.</para>
 
       <para><emphasis role="bold">Attention</emphasis> l'adresse de votre
@@ -414,7 +404,7 @@
       <para>Comme pour toute notice dans l'OPAC, vous pouvez soit la déplier
       en cliquant sur le bouton + soit l'afficher en cliquant sur son titre.
       Vos possibilités dépendent du paramètre de l'OPAC
-      bannette_notices_depliables. Pour plus d'information, consulter le Guide
+      bannette_notices_depliables. Pour plus d'information, consultez le Guide
       de l'Administrateur PMB.</para>
 
       <figure>
@@ -444,7 +434,7 @@
     configurées dans l'OPAC ne sont visibles qu'à un endroit dans l'interface
     de gestion de PMB : DSI &gt; bannettes &gt; privées</para>
 
-    <para>Les bannettes de DSI privée sont <emphasis role="bold">non
+    <para>Les bannettes de DSI privées sont <emphasis role="bold">non
     classées</emphasis>.</para>
 
     <para>La <emphasis role="bold">diffusion </emphasis>de la DSI privée est
@@ -477,11 +467,11 @@
     <sect2>
       <title>Diffusion</title>
 
-      <para>La diffusion est la dernière étape de la DSI. Une fois une ou des
-      bannettes créées, et que des équations y aient été attribuées, vous
+      <para>La diffusion est la dernière étape de la DSI. Dès qu'une bannette
+      est créée et qu'une ou plusieurs équations y sont attribuées, vous
       pouvez diffuser l'information.</para>
 
-      <para>La diffusion automatique présente à la fois les banettes de
+      <para>La diffusion automatique présente à la fois les bannettes de
       diffusion publique et celles de diffusion privée.</para>
     </sect2>
   </sect1>

@@ -33,11 +33,11 @@
 
           <para>Voici l'écran qui vous apparaît lorsque vous cliquez sur
           l'onglet catalogage. Il permet d'effectuer une recherche et est
-          constamment accessible dans ce module par un clic dans le menu
-          latéral sur "rechercher".</para>
+          constamment accessible dans ce module par un clic sur "rechercher"
+          dans le menu latéral.</para>
 
           <figure>
-            <title>catalogage &gt; ouvrages &gt; recherche par titre</title>
+            <title>Catalogage &gt; Ouvrages &gt; Recherche par titre</title>
 
             <mediaobject>
               <imageobject>
@@ -125,7 +125,7 @@
         cliquez sur son nom pour afficher les résultats.</para>
 
         <figure>
-          <title>catalogage &gt; ouvrages &gt; recherche par
+          <title>Catalogage &gt; Ouvrages &gt; Recherche par
           catégorie/sujet</title>
 
           <mediaobject>
@@ -143,7 +143,7 @@
         les renvois du thésaurus.</para>
 
         <para><figure>
-            <title>catalogage &gt; ouvrages &gt; recherche par termes du
+            <title>Catalogage &gt; Ouvrages &gt; Recherche par termes du
             thésaurus</title>
 
             <mediaobject>
@@ -177,7 +177,7 @@
         catégories.</para>
 
         <figure>
-          <title>catalogage &gt; ouvrages &gt; recherche par
+          <title>Catalogage &gt; Ouvrages &gt; Recherche par
           éditeur/collection</title>
 
           <mediaobject>
@@ -197,7 +197,7 @@
         de notices, de bulletins ou d'exemplaires.</para>
 
         <figure>
-          <title>catalogage &gt; ouvrages &gt; recherche par paniers de
+          <title>Catalogage &gt; Ouvrages &gt; Recherche par paniers de
           notices</title>
 
           <mediaobject>
@@ -225,19 +225,19 @@
           </mediaobject>
         </figure>
 
-        <para>Pour lancer une recherche multicritère :</para>
+        <para>Pour lancer une recherche multicritères :</para>
 
         <itemizedlist>
           <listitem>
             <para>cliquez sur <emphasis>Ajouter</emphasis> pour définir un
-            premier champs de la recherche</para>
+            premier champ de la recherche</para>
 
-            <para>La recherche multicritère s'applique aux champs des notices,
-            des exemplaires, des périodiques et aux champs
+            <para>La recherche multicritères s'applique aux champs des
+            notices, des exemplaires, des périodiques et aux champs
             personnalisés.</para>
 
             <para><figure>
-                <title>Champs de recherche possible</title>
+                <title>Champs de recherche possibles</title>
 
                 <mediaobject>
                   <imageobject>
@@ -248,11 +248,11 @@
           </listitem>
 
           <listitem>
-            <para>choisissez ensuite un type de recherche pour le champs
-            retenu, pour un champs titre vous pouvez choisir entre "contient
-            au moins des mots", "contient tous les mots", "commence par",
-            "fini par" ou "exactement comme". Ce type de recherche varie selon
-            le champs concerné<figure>
+            <para>choisissez ensuite un type de recherche pour le champ
+            retenu, pour un champ titre vous pouvez choisir entre "contient au
+            moins des mots", "contient tous les mots", "commence par", "finit
+            par" ou "exactement comme". Ce type de recherche varie selon le
+            champs concerné<figure>
                 <title>Types de recherche pour le champs Titre</title>
 
                 <mediaobject>
@@ -264,9 +264,9 @@
           </listitem>
 
           <listitem>
-            <para>si le champs nécessite une valeur, saisissez celle-ci dans
-            la case de saisie ; si le champs nécessite un choix (par exemple
-            le type de support), choisissez une ou plusieurs propositions en
+            <para>si le champ nécessite une valeur, saisissez celle-ci dans la
+            case de saisie ; si le champ nécessite un choix (par exemple le
+            type de support), choisissez une ou plusieurs propositions en
             cliquant et en maintenant la touche <emphasis>Ctrl</emphasis> de
             votre clavier appuyée.</para>
           </listitem>
@@ -293,8 +293,8 @@
           saisis. Le tri se fait selon le nombre décroissant de mots trouvés,
           puis par ordre alphabétique.</para>
 
-          <para><emphasis>Ex. </emphasis><programlisting>jambon bayonne</programlisting>signifie
-          les éléments qui contiennent les mots jambon ou bayonne (jambon de
+          <para><programlisting>jambon bayonne</programlisting>signifie les
+          éléments qui contiennent les mots jambon ou bayonne (jambon de
           bayonne, jambon de parme, l'histoire de Bayonne, ...).</para>
 
           <para>Les accents ne sont pas pris en compte ainsi que les
@@ -302,8 +302,8 @@
           que espace, +, ou -, les deux mots sont considérés comme devant
           apparaître dans le résultat .</para>
 
-          <para>Ex. <programlisting>Saint Jean/mer</programlisting>sera
-          analysé comme : chercher les <emphasis>éléments qui contiennent
+          <para><programlisting>Saint Jean/mer</programlisting>sera analysé
+          comme : chercher les <emphasis>éléments qui contiennent
           saint</emphasis> ou les <emphasis>éléments qui contiennent jean et
           mer</emphasis> ou les <emphasis>deux</emphasis>.</para>
 
@@ -328,8 +328,8 @@
           <para>Les mots peuvent être tronqués à gauche, droite ou
           partiellement par le caractère *</para>
 
-          <para><emphasis>Ex. </emphasis><programlisting>chev* </programlisting>cherchera
-          les mots commençant par chev (cheval, chevaux, cheveux, ...),</para>
+          <para><programlisting>chev* </programlisting>cherchera les mots
+          commençant par chev (cheval, chevaux, cheveux, ...),</para>
 
           <para><programlisting>*logie</programlisting>cherchera les mots
           finissant par 'logie' (psychologie, théologie, trilogie,
@@ -339,7 +339,7 @@
           commençant par p et finissant par logie (psychologie,
           paléonthologie, pathologie, ...).</para>
 
-          <para>Plusieurs troncatures peuvent-être utilisées dans un même
+          <para>Plusieurs troncatures peuvent être utilisées dans un même
           mot.</para>
         </sect4>
 
@@ -353,25 +353,25 @@
           <para>La troncature peut-être utilisée dans les termes
           exacts.</para>
 
-          <para><emphasis>Ex. </emphasis><programlisting>"dent"</programlisting>signifie
-          tous les éléments contenant le texte dent (dentition, accident,
-          indentation, ...).</para>
+          <para><programlisting>"dent"</programlisting>signifie tous les
+          éléments contenant le texte dent (dentition, accident, indentation,
+          ...).</para>
 
           <para>La recherche exacte est pratique pour la recherche
           d'expressions contenant des espaces ou des signes de ponctuation.
           (un sigle par exemple).</para>
 
-          <para><emphasis>Ex. </emphasis><programlisting>"A.N.P.E."</programlisting>cherche
-          les éléments qui contiennent le texte A.N.P.E.,</para>
+          <para><programlisting>"A.N.P.E."</programlisting>cherche les
+          éléments qui contiennent le texte A.N.P.E.,</para>
 
           <para><programlisting>A.N.P.E.</programlisting> cherche les éléments
           qui continnent les mots A ou N ou P ou E .</para>
 
-          <para>Les accents et les majuscules/miniscules ne sont pas pris en
+          <para>Les accents et les majuscules/minuscules ne sont pas pris en
           compte dans un terme exact.</para>
 
-          <para>Enfin, les termes exacts peuvent êtres utilisés dans toutes
-          les expressions complexes décrites ci-dessous.</para>
+          <para>Enfin, les termes exacts peuvent être utilisés dans toutes les
+          expressions complexes décrites ci-dessous.</para>
         </sect4>
 
         <sect4>
@@ -464,9 +464,9 @@
         <sect4>
           <title>Pertinence</title>
 
-          <para>Les résultats sont trié par ordre de pertinence puis par ordre
-          alphabétique. La pertinence est calculée simplement par le nombre
-          total de mots ou de termes exacts trouvés.</para>
+          <para>Les résultats sont triés par ordre de pertinence puis par
+          ordre alphabétique. La pertinence est calculée simplement par le
+          nombre total de mots ou de termes exacts trouvés.</para>
 
           <para>Par exemple :</para>
 
@@ -474,7 +474,7 @@
             <listitem>
               <para>jambon bayonne trouvera tous les éléments contenant jambon
               ou bayonne, ceux qui contiennent les deux mots seront au début
-              de la liste de résultat</para>
+              de la liste de résultats</para>
             </listitem>
 
             <listitem>
@@ -504,7 +504,7 @@
           <title>Saisie de l'ISBN, de l'EAN ou d'un numéro commercial</title>
 
           <para>Si le numéro d'identification saisi correspond à un ouvrage
-          déjà saisi en base, la notice est alors directement ouverte en
+          déjà présent en base, la notice est alors directement ouverte en
           modification. Ceci permet un dédoublonnage de la base dès le
           catalogage.</para>
 
@@ -539,7 +539,7 @@
             <title>Choix d'un support de document</title>
 
             <para>Dans la liste déroulante située en haut du formulaire, vous
-            pouvez choisir entre différents types de support :</para>
+            pouvez choisir entre différents types de supports :</para>
 
             <itemizedlist>
               <listitem>
@@ -748,7 +748,7 @@
             <para>Si le terme "auteur" est le nom qui convient à l'auteur d'un
             livre, il n'en est pas de même pour l'auteur d'un film, pour
             lequel on parlera davantage d'un metteur en scène. Il s'agit alors
-            de la fonction de l'auteur par rapport à l'ouvrage dont il le
+            de la fonction de l'auteur par rapport à l'ouvrage dont il est le
             responsable. Puis sélectionner une fonction (non obligatoire),
             cliquer sur le bouton "...".</para>
 
@@ -767,7 +767,7 @@
             <itemizedlist>
               <listitem>
                 <para>il ne peut y avoir qu'un auteur principal pour un
-                ouvrage, mais il peut y avoir plus autres auteurs, et/ou
+                ouvrage, mais il peut y avoir plusieurs autres auteurs, et/ou
                 plusieurs auteurs secondaires. Pour sélectionner un
                 <emphasis>autre auteur</emphasis> ou un <emphasis>auteur
                 secondaire</emphasis> cliquez sur le bouton "..."
@@ -783,8 +783,8 @@
           </sect5>
 
           <sect5>
-            <title>Saisie d'un éditeur, des collections, sous-collection et
-            titres de série</title>
+            <title>Saisie d'un éditeur, des collections, sous-collections et
+            titres de séries</title>
 
             <figure>
               <title>Catalogue &gt; Nouvelle notice, pavé Éditeurs,
@@ -797,7 +797,7 @@
               </mediaobject>
             </figure>
 
-            <para>La saisie des collections, sous-collections, sous-titres de
+            <para>La saisie des collections, sous-collections, titres de
             séries se fait soit lors de la création d'une notice (possibilité
             uniquement d'ajouter des données), soit avec l'onglet "autorités".
             Commencez par remplir <emphasis>sous-collection</emphasis> le cas
@@ -805,16 +805,16 @@
             <emphasis>éditeur</emphasis>.</para>
 
             <para>Dans le popup de sélection de la sous-collection,
-            sélectionner une sous-collection <emphasis>ou</emphasis> choisir
-            <emphasis>créer une sous-collection</emphasis>, remplir les champs
-            connus puis cliquer sur le bouton de sélection de la collection
-            mère de cette sous-collection.</para>
+            sélectionnez une sous-collection <emphasis>ou</emphasis>
+            choisissez <emphasis>créer une sous-collection</emphasis>,
+            remplissez les champs connus puis cliquez sur le bouton de
+            sélection de la collection mère de cette sous-collection.</para>
 
             <para>Dans le popup de sélection de la collection dont fait partie
-            notre sous-collection, sélectionner une collection
-            <emphasis>ou</emphasis> choisir <emphasis>créer une
-            collection</emphasis>, remplir les champs connus sauf l'éditeur
-            puis cliquer sur le bouton de sélection de l'éditeur.</para>
+            notre sous-collection, sélectionnez une collection
+            <emphasis>ou</emphasis> choisissez <emphasis>créer une
+            collection</emphasis>, remplissez les champs connus sauf l'éditeur
+            puis cliquez sur le bouton de sélection de l'éditeur.</para>
 
             <para>Dans le popup de sélection de l'éditeur, sélectionner un
             éditeur <emphasis>ou </emphasis>choisir <emphasis>créer un
@@ -837,7 +837,7 @@
             Histoire.</para>
 
             <para>Un titre de série correspond à un ouvrage en plusieurs
-            volume, chaque volume a un titre propre et l'ensemble des volumes
+            volumes, chaque volume a un titre propre et l'ensemble des volumes
             en a un autre.</para>
 
             <para><emphasis role="bold">Exemple</emphasis> Pullman, Philip
@@ -848,8 +848,8 @@
 
             <para>Pour réaliser cette saisie, il faut créer sous PMB les
             collections et titres de série avant de les sélectionner. Le
-            numéro de partie comme le titre de propre sont à saisir lors de la
-            rédaction de la notice d'ouvrage.</para>
+            numéro de partie comme le titre de chaque volume sont à saisir
+            lors de la rédaction de la notice d'ouvrage.</para>
           </sect5>
 
           <sect5>
@@ -949,7 +949,7 @@
 
               <listitem>
                 <para><emphasis role="bold">Indexation</emphasis> : ajout
-                d'une indexation décimale. Pour plus d'informations, consulter
+                d'une indexation décimale. Pour plus d'informations, consultez
                 le chapitre <emphasis>Autorités</emphasis>, section
                 <emphasis>Indexation</emphasis>.</para>
               </listitem>
@@ -979,7 +979,7 @@
 
             <para>Vous pouvez ici spécifier une langue d'origine de la
             publication, celle-ci est définie par défaut dans les préférences
-            de l'utilisateur. Pour plus d'informations, consulter le chapitre
+            de l'utilisateur. Pour plus d'informations, consultez le chapitre
             <emphasis>Préférences utilisateurs</emphasis>.</para>
 
             <para>Les codes langues sont définis par la norme UNIMARC.</para>
@@ -1002,12 +1002,12 @@
             <title>Liens (ressources électroniques)</title>
 
             <para>L'URL associée doit être saisie dans son intégralité de
-            préférence (y compris le http://) pour être sur du fonctionnement
+            préférence (y compris le http://) pour être sûr du fonctionnement
             des liens, quel que soit le navigateur internet de
             l'utilisateur.</para>
 
             <para>Le format électronique de la ressource est laissé à la
-            discrétion du catalogueur. Préférer un début de champ tel que
+            discrétion du catalogueur. Préférez un début de champ tel que
             "fichier", par exemple "fichier PDF" ou "fichier Acrobat", et des
             mentions génériques : "site internet".</para>
 
@@ -1056,7 +1056,7 @@
             consulter le <emphasis>Guide de l'Administrateur</emphasis>,
             chapitre <emphasis>Notices</emphasis>.</para>
 
-            <para>Si aucun champs personnalisé n'est défini, ce pavé n'est pas
+            <para>Si aucun champ personnalisé n'est défini, ce pavé n'est pas
             affiché.</para>
 
             <figure>
@@ -1077,7 +1077,7 @@
         </sect4>
       </sect3>
 
-      <sect3 id="cat_isdbd">
+      <sect3 id="cat_isbd">
         <title>Liste des exemplaires d'un ouvrage</title>
 
         <para>l'écran suivant présente la notice au format ISBD et les
@@ -1152,7 +1152,7 @@
             l'ouvrage à cataloguer avec la notice d'origine et enregistrez la
             nouvelle notice.</para>
 
-            <para>Cette fonctionnement est très utile lors du catalogage de
+            <para>Cette fonctionnalité est très utile lors du catalogage de
             toute une collection ou d'une série.</para>
           </sect5>
 
@@ -1204,7 +1204,7 @@
           exemplaire</emphasis>.</para>
 
           <figure>
-            <title>Ajout d'un exemplaire : saisie du no d'exemplaire</title>
+            <title>Ajout d'un exemplaire : saisie du num�ro d'exemplaire</title>
 
             <mediaobject>
               <imageobject>
@@ -1235,9 +1235,9 @@
             <listitem>
               <para>le <emphasis role="bold">n° d'exemplaire</emphasis> est
               affiché. Cette information est <emphasis
-              role="bold">obligatoire</emphasis>. Pour le modifier cliquer sur
+              role="bold">obligatoire</emphasis>. Pour le modifier cliquez sur
               le bouton "..." et douchettez le code barre de l'exemplaire dans
-              le popup (ou saisir un nouveau n° d'exemplaire puis
+              le popup (ou saisissez un nouveau n° d'exemplaire puis
               valider).</para>
             </listitem>
 
@@ -1288,13 +1288,8 @@
 
             <listitem>
               <para>sélectionnez le <emphasis role="bold">code statistique
-              </emphasis>de l'exemplaire parmi les choix du menu déroulant. La
-              liste des propriétaires est configurable dans
-              <emphasis>Administration &gt; Exemplaires &gt;
-              Propriétaires</emphasis>. Généralement il s'agit du Fonds
-              propre, c'est à dire l'ensemble des livres que possède votre
-              bibliothèque. Cependant, vous pouvez avoir un dépôt de votre
-              BDP, ou d'une autre bibliothèque.</para>
+              </emphasis>de l'exemplaire parmi les choix du menu
+              déroulant.</para>
             </listitem>
 
             <listitem>
@@ -1516,7 +1511,7 @@
       cinquante grands articles (<emphasis>50 dépouillements</emphasis>) que
       les lecteurs ou bibliothécaires peuvent chercher indépendamment,
       renvoyant au numéro correspondant et à la disponibilité des exemplaires
-      correspondant.</para>
+      correspondants.</para>
 
       <para>Si aucune information n'a encore été saisie dans PMB, la saisie
       d'un article de périodique se fait donc en différentes étapes,
@@ -1563,7 +1558,7 @@
         </mediaobject>
       </figure>
 
-      <para>PMB permet d'utiliser des expressions booléennes comme critère de
+      <para>PMB permet d'utiliser des expressions booléennes comme critères de
       recherche. Pour plus d'informations, voir <xref
       linkend="exp_bool" />.</para>
 
@@ -1618,9 +1613,9 @@
           <title>Support</title>
 
           <para>PMB peut gérer des périodiques de différentes formes. Si les
-          périodiques imprimées (journaux, magazines, revues) sont les plus
-          fréquents, PMB peut aussi gérer les journaux vocaux pour les sourds
-          malentendants, les périodiques électroniques, etc.</para>
+          périodiques imprimés (journaux, magazines, revues) sont les plus
+          fréquents, PMB peut aussi gérer les journaux vocaux pour les
+          aveugles ou malvoyants, les périodiques électroniques, etc.</para>
 
           <para>Les 15 supports présents dans le menu déroulant en haut de la
           fiche correspondent aux dénominations UNIMARC:</para>
@@ -1758,9 +1753,9 @@
           <emphasis>calendrier,</emphasis> elle sera automatiquement remplie
           par PMB à la date du jour.</para>
 
-          <para><emphasis role="bold">Libellé de période</emphasis> : ce
-          champs sert pour la saisie de la date de publication telle qu'elle
-          est mentionnée pour le numéro : par exemple<emphasis> juin-juillet
+          <para><emphasis role="bold">Libellé de période</emphasis> : ce champ
+          sert pour la saisie de la date de publication telle qu'elle est
+          mentionnée pour le numéro : par exemple<emphasis> juin-juillet
           2004</emphasis>.</para>
 
           <para><emphasis role="bold">Titre du bulletin</emphasis> : pour
@@ -1813,7 +1808,7 @@
 
             <listitem>
               <para>Ajouter un exemplaire en saisissant son n° d'exemplaire
-              puis cliquer sur <emphasis role="bold">Ajouter un
+              puis en cliquant sur <emphasis role="bold">Ajouter un
               exemplaire</emphasis></para>
             </listitem>
 
@@ -1834,9 +1829,9 @@
           <para>Pour plus de détails cliquer sur l'icône "<emphasis
           role="bold">+</emphasis>" en début de ligne.</para>
 
-          <para>Pour modifier un dépouillement cliquer sur son titre.</para>
+          <para>Pour modifier un dépouillement cliquez sur son titre.</para>
 
-          <para>Pour ajouter un document numérique à un dépouillement cliquer
+          <para>Pour ajouter un document numérique à un dépouillement cliquez
           sur <emphasis role="bold">Ajouter un document numérique
           </emphasis>qui figure dans le détail de l'article.</para>
 
@@ -1850,7 +1845,7 @@
           </sect5>
 
           <sect5 id="cat_serial_explnum">
-            <title>Ajouter un exemplaire numérique à un élement</title>
+            <title>Ajouter un exemplaire numérique à un élément</title>
 
             <para>Voir précédemment la procédure de création d'exemplaire
             numérique d'un ouvrage section 1.2.2.2 <emphasis>Ajout d'un
@@ -1890,7 +1885,7 @@
             </itemizedlist>
 
             <para>A ceci, il est possible de rajouter des informations de
-            colonne, généralement précisé en spécifiant col. puis a, b ou c
+            colonne, généralement précisées en spécifiant col. puis a, b ou c
             pour le numéro de la colonne.</para>
           </sect5>
         </sect4>
@@ -1906,9 +1901,10 @@
     exemplaires.</para>
 
     <para>Les paniers dans PMB vont notamment permettre le récolement du fonds
-    : il s'agit de faire un inventaire des collections. On peut également s'en
-    servir pour faire un désherbage : il s'agit alors de supprimer du fonds
-    les ouvrages périmés ou trop détériorés.</para>
+    : il s'agit d'un terme technique en bibliothéconomie pour désigner
+    l'inventaire des collections. On peut également s'en servir pour faire un
+    désherbage : il s'agit alors de supprimer du fonds les ouvrages périmés ou
+    trop détériorés.</para>
 
     <para>Les paniers sont le moyen de stocker une bibliographie : les
     résultats de différentes recherches pour préparer une publication, un
@@ -1920,7 +1916,7 @@
     des codes barres à la main.</para>
 
     <sect2 id="cat_caddie_gestion">
-      <title>gestion</title>
+      <title>Gestion</title>
 
       <para>Par défaut, en partie Paniers/Gestion, c'est la gestion des
       paniers qui est affichée. Vous pouvez afficher la gestion des procédures
@@ -2039,10 +2035,10 @@
           commentaire d'un panier, et les droits des utilisateurs sur ce
           panier.</para>
 
-          <para>Vous pouvez voir le type de panier : Panier de notices,
-          Paniers de bulletins, Paniers d'exemplaires. Vous ne pouvez pas
-          changer le type d'un panier existant. Si vous vous êtes trompés dans
-          la création d'un panier, supprimez le et créez en un nouveau.</para>
+          <para>Vous pouvez voir le type de panier : Panier de notices, Panier
+          de bulletins, Panier d'exemplaires. Vous ne pouvez pas changer le
+          type d'un panier existant. Si vous vous êtes trompés dans la
+          création d'un panier, supprimez le et créez en un nouveau.</para>
 
           <para>Sous la mention "Autorisations accordées à", vous pouvez voir
           des cases à cocher correspondant aux autorisations d'accès. Les noms
@@ -2080,12 +2076,12 @@
 
           <para><emphasis>Notices pour retour BDP</emphasis> panier de notices
           pour faciliter la gestion. Destiné à recevoir les notices des
-          exemplaires retournés à une Bibliothèque Départementale de Prêt,
+          exemplaires à retourner à une Bibliothèque Départementale de Prêt,
           pour nettoyer la base après retour.</para>
 
           <para><emphasis>Exemplaires pour retour BDP</emphasis> panier
           d'exemplaires pour faciliter la gestion. Destiné à recevoir les
-          exemplaires retournés à une Bibliothèque Départementale de Prêt,
+          exemplaires à retourner à une Bibliothèque Départementale de Prêt,
           pour les sortir du prêt puis nettoyer la base après retour.</para>
 
           <para><emphasis>Notices en doublon sur titre</emphasis> panier de
@@ -2113,7 +2109,7 @@
 
         <sect4>
           <title>Procédures installés par défaut lors de l'installation de
-          PMB</title>
+          PM</title>
 
           <para>Si votre administrateur informatique a installé PMB avec les
           "données essentielles pour démarrer rapidement" (feed_essential.sql,
@@ -2150,7 +2146,7 @@
     </sect2>
 
     <sect2 id="cat_caddie_collecte">
-      <title>collecte</title>
+      <title>Collecte</title>
 
       <figure>
         <title>Catalogage &gt; Paniers &gt; Collecte</title>
@@ -2289,14 +2285,14 @@
 
         <para>Les éléments du panier qui ont été pointés sont déclarés comme
         étant<emphasis> Pointé(s)</emphasis>. Le nombre total d'éléments du
-        paniers est rappelé. Les éléments appartenant au fonds enregistré dans
+        paniers est rappelé. Les éléments appartenant au fond enregistré dans
         PMB figurent sur la deuxième ligne du tableau récapitulatif en bas de
         page.</para>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_actions">
-      <title>actions</title>
+      <title>Actions</title>
 
       <figure>
         <title>Catalogage &gt; Paniers &gt; Actions</title>
@@ -2338,9 +2334,9 @@
         </listitem>
       </itemizedlist>
 
-      <para>Ces actions sont réalisables en cliquant sur le lien qui leur
-      correspondent dans l'interface centrale, puis en cliquant sur le nom du
-      panier sur lequel l'action doit être réalisée.</para>
+      <para>Ces actions sont réalisables en cliquant sur le lien correspondant
+      dans l'interface centrale, puis en cliquant sur le nom du panier sur
+      lequel l'action doit être réalisée.</para>
 
       <sect3>
         <title>Éditions</title>
@@ -2360,7 +2356,7 @@
         10 <emphasis>Export</emphasis>, section 1 <emphasis>Formats de
         fichier.</emphasis></para>
 
-        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        <para>Choisissez ensuite les éléments du panier concernés : éléments
         pointés ou éléments non pointés.</para>
       </sect3>
 
@@ -2381,7 +2377,7 @@
         <para><emphasis>Vider du panier </emphasis>permet de vider le contenu
         d'un panier.</para>
 
-        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        <para>Choisissez ensuite les éléments du panier concernés : éléments
         pointés ou éléments non pointés.</para>
       </sect3>
 
@@ -2400,13 +2396,13 @@
         </figure>
 
         <para>Supprimer de la base supprime les éléments contenus dans un
-        panier les éléments (notices, bulletins ou exemplaires) de la base de
-        données de la bibliothèque.</para>
+        panier (notices, bulletins ou exemplaires) de la base de données de la
+        bibliothèque.</para>
 
         <para>A utiliser avec grande prudence, donc, par exemple pour effacer
         un panier d'exemplaires perdus.</para>
 
-        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        <para>Choisissez ensuite les éléments du paniers concerné : éléments
         pointés ou éléments non pointés.</para>
       </sect3>
 
@@ -2425,7 +2421,7 @@
 
         <para>L'export va permettre d'exporter le contenu d'un panier.</para>
 
-        <para>Choisissez ensuite les éléments du paniers concernés : éléments
+        <para>Choisissez ensuite les éléments du panier concernés : éléments
         pointés ou éléments non pointés.</para>
       </sect3>
 
@@ -2442,7 +2438,7 @@
           </mediaobject>
         </figure>
 
-        <para>Le transfert permet de transférer les éléments du paniers
+        <para>Le transfert permet de transférer les éléments du panier
         (éléments pointés et/ou non pointés) dans un autre panier.</para>
       </sect3>
 
@@ -2459,16 +2455,16 @@
           </mediaobject>
         </figure>
 
-        <para>Vous pouvez également appliquer une requete SQL au contenu d'un
-        panier, par exemple une requete d'UPDATE (pour plus d'informations sur
-        les requetes, consulter le <emphasis>Guide de l'Administrateur
-        PMB</emphasis>) pour changer les cotes d'un ensemble d'ouvrage
-        déplacés ailleurs dans votre bibliothèque.</para>
+        <para>Vous pouvez également appliquer une requête SQL au contenu d'un
+        panier, par exemple une requête UPDATE pour changer les cotes d'un
+        ensemble d'ouvrages déplacés ailleurs dans votre bibliothèque. Pour
+        plus d'informations sur les requêtes, consultez le <emphasis>Guide de
+        l'Administrateur PMB.</emphasis></para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title>exemples d'utilisation des paniers</title>
+      <title>Exemples d'utilisation des paniers</title>
 
       <para>Voici quelques exemples d'utilisation des paniers. Ceux-ci vous
       permettront de mieux appréhender l'utilisation des paniers de PMB ainsi
@@ -2499,24 +2495,29 @@
       <sect3>
         <title>Gérer les inventaires</title>
 
-        <para>&gt; Je voudrais me simplifier la vie lors de mes inventaires,
-        j'ai donc &gt; pensé à créer un paniers avec tous les exemplaires
-        d'une section. Je &gt; pourrais ainsi pointer les exemplaires
-        physiquement en rayon et avec &gt; l'action supprimer du panier les
-        éléments pointés retrouver les livres &gt; qui sont dans la base mais
-        physiquement perdus, volés... &gt; &gt; J'ai voulu utilisé une
-        procédure mais je suis vraiment nulle! Dans les &gt; PS j'ai un
-        inventaire de tout mes documentaires par ex. mais je ne sais &gt; pas
-        comment la transformer pour qu'elle fonctionne dans les paniers? &gt;
-        Voici donc la PS corrigée ! select expl_id as object_id, 'EXPL' as
-        object_type from exemplaires, notices, docs_section where idsection in
-        (!!section!!) and expl_notice=notice_id and expl_section=idsection
-        order by section_libelle, expl_cote, expl_cb Il ne reste plus qu'à
-        paramétrer le paramètre !!section!! : liste de choix à partir d'une
-        requête, liste multiple si on veut avec : select idsection,
-        section_libelle from docs_section order by section_libelle &gt;
-        Stéphanie FORT &gt; Bibliothécaire &gt; &gt; CDI - Collège Saint
-        Pierre &gt; Jette (Belgique)</para>
+        <programlisting>&gt; Je voudrais me simplifier la vie lors de mes inventaires, j'ai donc 
+&gt; pensé à créer un paniers avec tous les exemplaires d'une section. Je 
+&gt; pourrais ainsi pointer les exemplaires physiquement en rayon et avec 
+&gt; l'action supprimer du panier les éléments pointés retrouver les livres 
+&gt; qui sont dans la base mais physiquement perdus, volés... 
+&gt; 
+&gt; J'ai voulu utilisé une procédure mais je suis vraiment nulle! Dans les 
+&gt; PS j'ai un inventaire de tout mes documentaires par ex. mais je ne sais 
+&gt; pas comment la transformer pour qu'elle fonctionne dans les paniers? 
+&gt; Voici donc la PS corrigée ! 
+
+select expl_id as object_id, 'EXPL' as object_type from exemplaires, notices, docs_section where idsection in (!!section!!) and expl_notice=notice_id and expl_section=idsection order by section_libelle, expl_cote, expl_cb 
+
+&gt;Il ne reste plus qu'à paramétrer le paramètre !!section!! : liste de choix 
+&gt;à partir d'une requête, liste multiple si on veut avec : 
+
+select idsection, section_libelle from docs_section order by section_libelle 
+
+&gt; Stéphanie FORT 
+&gt; Bibliothécaire 
+&gt; 
+&gt; CDI - Collège Saint Pierre 
+&gt; Jette (Belgique)</programlisting>
       </sect3>
     </sect2>
   </sect1>
@@ -2550,8 +2551,8 @@
       <para>Vous pouvez ajouter une étagère en cliquant sur le bouton
       <emphasis>Ajouter une étagère</emphasis>.</para>
 
-      <para>Pour éditer une étagère existante, cliquer sur la ligne lui
-      correspondant.</para>
+      <para>Pour éditer une étagère existante, cliquez sur la ligne
+      correspondante.</para>
 
       <para>Une étagère est définie par un nom, une période de validité, sa
       visibilité ou non en page d'accueil de l'OPAC. Un commentaire peut
@@ -2630,7 +2631,8 @@
 
       <para>Prenons un exemple, importons <emphasis>Germinal</emphasis> de
       <emphasis>Zola</emphasis>. Comme critère de recherche, nous choisissons
-      "titre" dans le champs situé à côté nous spécifions "Germinal".</para>
+      "titre", et dans le champ situé à côté nous spécifions
+      "Germinal".</para>
 
       <para>Nous cochons alors une ou plusieurs bibliothèques susceptibles
       d'avoir l'édition de <emphasis>Germinal</emphasis> que nous voulons
@@ -2675,8 +2677,8 @@
         </listitem>
       </itemizedlist>
 
-      <para>Les lignes commençant par TERMINE signale que la recherche a
-      abouti. Le nombre de résultats retourné est fourni dans la
+      <para>Les lignes commençant par TERMINE signalent que la recherche a
+      abouti. Le nombre de résultats retournés est fourni dans la
       phrase<emphasis> le serveur a retourné X notices sur X
       trouvée</emphasis>s (limitation aux cent premières notices d'une
       recherche, si vous obtenez plus de cent résultats, affinez votre
@@ -2691,7 +2693,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/cat_z39_results.jpg" />
+            <imagedata fileref="images/cat_z39_results_isbn.gif" />
           </imageobject>
         </mediaobject>
       </figure>
@@ -2723,17 +2725,6 @@
 
       <para>Un écran suivant permet de définir alors des exemplaires.</para>
 
-      <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran de saisie des
-        exemplaires</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/cat_z39_expl.jpg" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
       <para>Cataloguez ensuite votre ou vos exemplaires. Une fois l'exemplaire
       défini, cliquer sur intégrer, on peut également revenir à la liste des
       résultats pour intégrer un des autres résultats de la liste.</para>
@@ -2744,6 +2735,17 @@
       modification affiché ensuite est le même que celui de la création de
       notice (voir plus haut la section<emphasis> Nouvelle
       notice</emphasis>).</para>
+
+      <figure>
+        <title>Catalogue &gt; Z39.50 &gt; Recherche, Notice intégrée, la voir
+        en catalogage</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_z39_expl_voir.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
 
       <sect3>
         <title>Utilisation de la recherche Z39.50 au quotidien</title>

@@ -20,8 +20,8 @@
     <title>Exemplaires</title>
 
     <para>Cette partie du menu vous permet d'accéder à des informations sur
-    les exemplaires présents dans votre bibliothèques. Vous pouvez afficher
-    :</para>
+    les exemplaires présents dans votre bibliothèque ou centre de
+    documentation. Vous pouvez afficher :</para>
 
     <itemizedlist>
       <listitem>
@@ -45,28 +45,18 @@
       et offre la possibilité d'imprimer des lettres de relance ou d'expédier
       des mails de relance.</para>
 
-      <figure>
-        <title>Éditions &gt; Exemplaires &gt; Prêts en cours</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/editions_expl_prets_en_cours.jpg" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>En dessous des résultats, vous pouvez modifier le nombre de
+      <para>En dessous des résultats, vous pouvez modifier le nombre des
       résultats de la recherche qui seront affichés sur une seule page. Pour
       modifier ce chiffre, effacer le et remplacez le par la valeur désirée
       puis cliquez sur <emphasis role="bold">Actualiser</emphasis>.</para>
 
-      <para>Le mail ou la lettre de relance sont paramétrables en partie
+      <para>Les emails ou lettres de relance sont paramétrables en partie
       Administration (voir le Guide de l'Administration PMB).</para>
 
       <para>Pour expédier un mail de relance à un lecteur pour un exemplaire
       en retard, cliquez sur l'icône (l'icône n'est pas visible si l'adresse
       mail du lecteur n'est pas renseignée). <graphic
-      fileref="images/mail.jpg" /> Pour afficher une lettre de relance prête à
+      fileref="images/mail.gif" /> Pour afficher une lettre de relance prête à
       imprimer cliquez sur l'icône<graphic fileref="images/new.gif" /></para>
     </sect2>
 
@@ -179,7 +169,7 @@
           <para><emphasis role="bold">Emprunteur</emphasis> : le lecteur qui a
           réservé l'ouvrage. L'emprunteur est un lien qui affiche la fiche
           lecteur dans l'onglet Circulation. Pour plus d'information sur
-          l'affichage d'une fiche lecteur, consulter le chapitre
+          l'affichage d'une fiche lecteur, consultez le chapitre
           <emphasis>Circulation</emphasis>, section <emphasis>Prêt de
           documents</emphasis>.</para>
         </listitem>
@@ -197,7 +187,7 @@
           <para><emphasis role="bold">Retour</emphasis> : date de retour prévu
           ou <emphasis role="bold">disponible</emphasis> si au moins un des
           exemplaires de l'ouvrage réservé est disponible dans la
-          bibliothèque. Dans ce cas, consulter plus loin Editions &gt;
+          bibliothèque. Dans ce cas, consultez plus loin Editions &gt;
           Réservations &gt; à traiter pour éditer une liste des exemplaires à
           sortir des rayons pour satisfaire les réservations.</para>
         </listitem>
@@ -207,9 +197,9 @@
           validité de la réservation, définie dans Administration &gt; Quotas
           si les quotas avancés ont été activés ; sinon dans Administration
           &gt; Exemplaires &gt; Types de document. Pour plus d'informations
-          sur les quotas avancés, consulter le <emphasis>Guide de
+          sur les quotas avancés, consultez le <emphasis>Guide de
           l'Administrateur PMB</emphasis>, chapitre
-          <emphasis>Quotas</emphasis>, sinon consulter le <emphasis>Guide de
+          <emphasis>Quotas</emphasis>, sinon consultez le <emphasis>Guide de
           l'Administrateur PMB</emphasis>, chapitre
           <emphasis>Exemplaires</emphasis>.</para>
         </listitem>
@@ -242,7 +232,7 @@
       mais sans référence d'un exemplaire correspondant.</para>
 
       <para>A l'aide des références des réservations à traiter, déplacez vous
-      dans les rayons et sortez les exemplaires, puis pointer les en
+      dans les rayons et sortez les exemplaires, puis pointez les en
       Circulation &gt; Réservations &gt; En cours. Pour plus d'informations
       sur le pointage, consultez le chapitre <emphasis>Circulation</emphasis>,
       section <emphasis>Réservations</emphasis>.</para>
@@ -292,7 +282,7 @@
       <para>PMB considère les lecteurs comme ayant un abonnement bientôt
       expiré par rapport à la lettre de relance pour l'abonnement. Ce délai
       est configuré dans les paramètres de PMB. Pour plus d'informations,
-      consulter le <emphasis>Guide de l'Administrateur de PMB</emphasis>,
+      consultez le <emphasis>Guide de l'Administrateur de PMB</emphasis>,
       chapitre <emphasis>Outils</emphasis>, section
       <emphasis>Paramètres</emphasis>.</para>
 
@@ -395,7 +385,7 @@
       avec PHP sur lequel tourne votre serveur.</para>
 
       <para>Si vous avez chargé le jeu de test opérationnel (data_test.sql,
-      pour plus d'informations consulter le <emphasis>Guide de
+      pour plus d'informations consultez le <emphasis>Guide de
       l'Administrateur PMB</emphasis>, chapitre <emphasis>Données
       minimum</emphasis>), vous disposez de différents états
       personnalisables.</para>
@@ -481,7 +471,7 @@
       <para>Vous pouvez vous servir d'un fichier texte contenant les numéros à
       imprimer, personnaliser le nom de votre centre documentaire, etc</para>
 
-      <para>Le résultat est ensuite affiché dans un fenêtre Acrobat (fichier
+      <para>Le résultat est ensuite affiché dans une fenêtre Acrobat (fichier
       PDF généré par PMB).</para>
 
       <para>Vous pouvez contrôler visuellement le résultat, éventuellement le

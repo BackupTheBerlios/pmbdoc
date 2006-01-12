@@ -42,9 +42,9 @@
       </figure>
 
       <sect3 id="autorites_recherche_auteur">
-        <para>Pour afficher les informations d'un auteur, saisir une partie de
-        son nom et cliquer sur Rechercher. Sélectionnez le ensuite parmi les
-        résultats possibles.</para>
+        <para>Pour afficher les informations d'un auteur, saisissez une partie
+        de son nom et cliquez sur Rechercher. Sélectionnez le ensuite parmi
+        les résultats possibles.</para>
 
         <para>Vous pouvez également directement sélectionner un auteur parmi
         la liste des derniers auteurs, ou parmi la liste alphabétique proposée
@@ -154,7 +154,7 @@
       élément rejeté.</para>
 
       <para>Pour les particules françaises (noblesse), les "de", "des", "du"
-      sont rejeté. Les éléments de noms ne sont pas rejeté (La Fontaine par
+      sont rejetés. Les éléments de noms ne sont pas rejetés (La Fontaine par
       exemple).</para>
 
       <para>Les tirets sont conservés.</para>
@@ -292,7 +292,7 @@
       <para>En cas de rejet, le préfixe est rejeté après la virgule (ex : La
       Fontaine, Jean de).</para>
 
-      <para>Le rejet des préfixe des noms dépend de la nationalité des
+      <para>Le rejet des préfixes des noms dépend de la nationalité des
       auteurs. Ainsi le rejet de la particule "de" dépend de la nationalité de
       l'auteur.</para>
 
@@ -390,36 +390,6 @@
       sélection et donc l'ouverture d'un écran permettant la modification des
       informations.</para>
 
-      <figure>
-        <title>Autorités &gt; Catégories, exemple d'une catégorie</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/autorites_categ_ex_educ.jpg" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <figure>
-        <title>Autorités &gt; Catégories, parcours d'une catégorie</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/autorites_categ_ex_educ_view.jpg" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <figure>
-        <title>Autorités &gt; Catégories, édition d'une catégorie</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/autorites_categ_ex_educ_edit.jpg" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
       <para>Vous pouvez spécifier différentes informations pour une catégorie
       :</para>
 
@@ -435,7 +405,7 @@
         </listitem>
 
         <listitem>
-          <para>si la catégorie est une sous-catégorie, le champs <emphasis
+          <para>si la catégorie est une sous-catégorie, le champ <emphasis
           role="bold">catégorie parente </emphasis>permet de sélectionner à
           l'aide du bouton "..." la catégorie parente de cette sous-catégorie.
           Pour effacer une catégorie parente sélectionnée, cliquez sur le
@@ -484,7 +454,7 @@
     <title>Éditeurs</title>
 
     <sect2>
-      <title>Rechercher et éditeur un éditeur</title>
+      <title>Rechercher et modifier un éditeur</title>
 
       <para>L'écran Éditeurs fonctionne avec la même logique que celui des
       Auteurs.</para>
@@ -657,13 +627,14 @@
     <para>Une sous-collection est une sous-division d'une collection.</para>
 
     <para>Depuis cet écran vous pouvez rechercher une collection en saisissant
-    un expression puis en cliquant sur <emphasis>Rechercher</emphasis>.</para>
+    une expression puis en cliquant sur
+    <emphasis>Rechercher</emphasis>.</para>
 
     <para>Vous pouvez également parcourir les collections. L'ensemble des
     collections est affiché par défaut sur cet écran.</para>
 
     <para>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
-    les dernières sous-collections créés</emphasis> pour afficher les dix
+    les dernières sous-collections créées</emphasis> pour afficher les dix
     dernières sous-collections ajoutées dans la base.</para>
 
     <figure>
@@ -714,7 +685,7 @@
 
       <listitem>
         <para>vous pouvez consulter <emphasis role="bold">l'éditeur</emphasis>
-        de la collection "mère". Ce champs n'est pas modifiable. Pour changer
+        de la collection "mère". Ce champ n'est pas modifiable. Pour changer
         l'éditeur d'une collection, passez par Autorités &gt;
         Collections.</para>
       </listitem>
@@ -779,7 +750,7 @@
       </mediaobject>
     </figure>
 
-    <para>Les titres de séries ne possèdent qu'un champs éditable : le
+    <para>Les titres de séries ne possèdent qu'un champ éditable : le
     titre.</para>
 
     <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
@@ -855,7 +826,7 @@
     <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
     savoir dans quels ouvrages est mentionné l'indexation. Il lance une
     recherche dans l'onglet catalogue pour l'indexation correspondante. Ceci
-    permet notamment de savoir pourquoi sa suppression impossible.</para>
+    permet notamment de savoir pourquoi sa suppression est impossible.</para>
 
     <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer une indexation par une autre.</para>
