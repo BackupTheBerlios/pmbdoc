@@ -132,13 +132,13 @@ expl_statut='!!statut!!' group by idcode, codestat_libelle order by idcode</prog
       <sect3>
         <title>Utilisation des champs personnalisés dans les requêtes</title>
 
-        <para><emphasis>J'ai créer un champ Annee_achat de type texte dans les
+        <para><emphasis>J'ai créé un champ Annee_achat de type texte dans les
         champs personnalisables de Exemplaires. Je voudrais m'en servir pour
         les statistiques, mais je ne retrouve pas ce champ dans les tables
         ?</emphasis></para>
 
         <para><emphasis>Voici la requête que j'ai réalisé pour avoir le nombre
-        d'exemplaire par code statistique :</emphasis></para>
+        d'exemplaires par code statistique :</emphasis></para>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat 
 where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</programlisting>
@@ -159,8 +159,9 @@ where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</pr
         <para><programlisting>expl_custom_small_text='!!param_annee_achat!!'</programlisting></para>
 
         <para><emphasis role="bold">EXPLICATION</emphasis>: filtre : création
-        d'un paramètre à la requete, il faut ensuite passer en "Configurer les
-        paramètres" pour dire que c'est un param</para>
+        d'un paramètre à la requête, il faut ensuite passer en "Configurer les
+        paramètres" pour dire que c'est un paramètre et définir des options de
+        saisie</para>
 
         <programlisting>texte and name='Annee_achat'</programlisting>
 
@@ -218,7 +219,7 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para>Cliquer sur le message <emphasis>Cliquer ici pour commencer la mise
+    <para>Cliquez sur le message <emphasis>Cliquer ici pour commencer la mise
     à jour</emphasis> pour voir si votre base a besoin d'être mise à
     jour.</para>
 
@@ -331,8 +332,8 @@ order by idcode</programlisting>
     passant par différents paramètres conditionnant l'ergonomie ou la
     structure même de l'application.</para>
 
-    <para>Ne modifiez un paramètre que si vous avez une idée préalable de
-    l'effet souhaité, et procédez à une sauvegarde préalable.</para>
+    <para>Ne modifiez un paramètre que si vous avez une idée de l'effet
+    souhaité, et procédez à une sauvegarde préalable.</para>
 
     <para>Les types de paramètres sont listés à l'écran. Pour afficher les
     différents paramètres correspondant à un type, cliquez sur l'icône + pour
@@ -1938,7 +1939,7 @@ order by idcode</programlisting>
             <row>
               <entry>bannette_notices_order</entry>
 
-              <entry> index_serie, tnvol, index_sew</entry>
+              <entry>index_serie, tnvol, index_sew</entry>
 
               <entry>Ordre d'affichage des notices dans les bannettes dans
               l'opac index_serie, tnvol, index_sew : tri par titre de série et
@@ -3209,7 +3210,7 @@ order by idcode</programlisting>
             </row>
 
             <row>
-              <entry> vignette_imagemagick</entry>
+              <entry>vignette_imagemagick</entry>
 
               <entry></entry>
 

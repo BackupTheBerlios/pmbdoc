@@ -58,8 +58,8 @@
 
     <para>Pour lancer PMB en mode quick-start (pouvoir cataloguer
     immédiatement), il faut charger en plus des fichiers bibli.sql et
-    minimum.sql <emphasis role="bold">feed_essential.sql</emphasis> ; ce
-    fichier définit :</para>
+    minimum.sql le fichier <emphasis role="bold">feed_essential.sql</emphasis>
+    ; ce fichier définit :</para>
 
     <itemizedlist>
       <listitem>
@@ -80,8 +80,8 @@
     <title>Une sélection de données de notices, lecteurs, afin de pouvoir
     tester de suite PMB</title>
 
-    <para>Pour pouvoir tester PMB, chargez le en plus de bibli.sql,
-    minimum.sql, feed_essential.sql, le fichier <emphasis
+    <para>Pour pouvoir tester PMB, chargez en plus de bibli.sql, minimum.sql,
+    feed_essential.sql, le fichier <emphasis
     role="bold">data_test.sql</emphasis>. Celui-ci définit des exemples de
     :</para>
 
@@ -262,13 +262,13 @@ q) Quitter
     <title>Plus d'informations</title>
 
     <para>Si vous désirez plus d'informations sur les thésaurus et les
-    indexations internes fournies avec PMB consulter le <emphasis>Guide de
+    indexations internes fournies avec PMB consultez le <emphasis>Guide de
     l'utilisateur de PMB</emphasis>.</para>
 
     <para>Pour plus d'informations sur les tables chargées par les différents
     fichiers SQL, consulter le fichier tables/readme.txt</para>
 
-    <para>Pour afficher la structure de la base de données de PMB, consulter
+    <para>Pour afficher la structure de la base de données de PMB, consultez
     le fichier /doc/noyau/index.php dans votre navigateur.</para>
   </sect1>
 </chapter>

@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title>Sauvegarde</title>
 
   <para>PMB fonctionnant sur un modèle de client/serveur, vous n'avez pas
   forcément accès au serveur depuis votre console de catalogage et
-  d'administration qu'est PMB.</para>
+  d'administration PMB.</para>
 
   <para>PMB permet de sauvegarder à distance la base dans un fichier sur le
   serveur puis de le rapatrier sur votre ordinateur pour le copier sur un CD
@@ -20,7 +20,7 @@
     <title>Lieux de sauvegarde</title>
 
     <para>Un lieu de sauvegarde est un emplacement informatique sur votre
-    ordinateur ou à distance ou le fichier doit être sauvegardé. Le serveur
+    ordinateur ou à distance où le fichier doit être sauvegardé. Le serveur
     doit avoir la possibilité d'écriture directe à cet endroit.</para>
 
     <figure>
@@ -56,7 +56,8 @@
 
     <para>Si vous avez chargé les données correspondant au fichier
     <emphasis>feed_essential.sql</emphasis>, vous disposez d'un jeu de
-    sauvegarde opérationnel (pour plus d'informations voir <xref linkend="donnees_minimum" />.</para>
+    sauvegarde opérationnel (pour plus d'informations voir <xref
+    linkend="donnees_minimum" />.</para>
 
     <para>Voici la liste des tables dans les différents groupes chargés avec
     le jeu de test opérationnel.</para>
@@ -163,7 +164,7 @@
       </tgroup>
     </table>
 
-    <para>Pour créer un nouveau jeu de tables, cliquer sur <emphasis>Ajouter
+    <para>Pour créer un nouveau jeu de tables, cliquez sur <emphasis>Ajouter
     un jeu de tables</emphasis>. Puis cochez les différentes tables qui
     correspondent à votre jeu.</para>
 

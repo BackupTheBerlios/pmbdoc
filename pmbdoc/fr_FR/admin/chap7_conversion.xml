@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_convert">
   <title>Conversions/export</title>
 
@@ -43,7 +43,7 @@
     </figure>
 
     <para><emphasis role="bold">pmb xml marc</emphasis> : notices dans un des
-    formats MARC codées en XML selon la DTD PMB, ceci comprend les fichiers
+    formats MARC codé en XML selon la DTD PMB, ceci comprend les fichiers
     UNIMARC en pmb xml mais aussi les fichiers en MARC21, USMARC...</para>
 
     <figure>
@@ -159,7 +159,8 @@
       </listitem>
     </itemizedlist>
 
-    <para>Pour plus d'informations voir <xref linkend="formats_fichiers" />.</para>
+    <para>Pour plus d'informations voir <xref
+    linkend="formats_fichiers" />.</para>
 
     <para>Une fois lancée la conversion, une barre indique l'avancement du
     processus de conversion.</para>
@@ -198,8 +199,8 @@
 
     <procedure>
       <step>
-        <para>Choisissez un format de fichier. Pour plus d'informations
-        voir <xref linkend="formats_fichiers" />.</para>
+        <para>Choisissez un format de fichier. Pour plus d'informations voir
+        <xref linkend="formats_fichiers" />.</para>
       </step>
 
       <step>
@@ -210,11 +211,11 @@
       </step>
 
       <step>
-        <para>Choisissez ensuite un ou des types de documents correspondant
+        <para>Choisissez ensuite un ou des types de documents correspondants
         aux exemplaires exportés. Par défaut, aucun type de document n'est
-        sélectionné, pour en sélectionner un cliquer sur un type de document.
+        sélectionné, pour en sélectionner un cliquez sur un type de document.
         Pour en sélectionner plusieurs, maintenez la toucher Ctrl du clavier
-        appuyé en cliquant sur différents types de documents.</para>
+        appuyée en cliquant sur différents types de documents.</para>
       </step>
 
       <step>
@@ -224,10 +225,10 @@
       </step>
 
       <step>
-        <para>Si vous souhaitez conserver les informations correspondant à vos
-        exemplaires, par exemple si vous faites un dépôt de votre fond dans un
-        autre site, si vous faites un don suite à un désherbage, vous pouvez
-        conserver les informations des exemplaires.</para>
+        <para>Si vous souhaitez conserver les informations correspondantes à
+        vos exemplaires, par exemple si vous faites un dépôt de votre fond
+        dans un autre site, si vous faites un don suite à un désherbage, vous
+        pouvez conserver les informations des exemplaires.</para>
       </step>
     </procedure>
   </sect1>

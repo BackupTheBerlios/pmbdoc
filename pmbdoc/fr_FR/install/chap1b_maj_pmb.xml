@@ -1,80 +1,78 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-  <chapter>
-    <title>Mise à jour de PMB</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Mise à jour de PMB</title>
 
-    <para>Mise à jour d'une base existante :</para>
+  <para>Mise à jour d'une base existante :</para>
 
-    <para>La mise à jour d'une version de PMB se fait en remplaçant les
-    fichiers de votre installation par ceux contenus dans l'archive ZIP de la
-    nouvelle version.</para>
+  <para>La mise à jour d'une version de PMB se fait en remplaçant les fichiers
+  de votre installation par ceux contenus dans l'archive ZIP de la nouvelle
+  version.</para>
 
-    <para><emphasis role="bold">Attention</emphasis> Suite à chaque
-    installation ou mise à jour de l'application, quand vous installez une
-    nouvelle version sur une version précédente, vous devez impérativement,
-    après la copie des fichiers contenus dans cette archive sur le serveur Web
-    :</para>
+  <para><emphasis role="bold">Attention</emphasis> Suite à chaque installation
+  ou mise à jour de l'application, quand vous installez une nouvelle version
+  sur une version précédente, vous devez impérativement, après la copie des
+  fichiers contenus dans cette archive sur le serveur Web :</para>
 
-    <para><emphasis role="bold">vérifiez que les paramètres contenus
-    dans</emphasis></para>
+  <para><emphasis role="bold">vérifiez que les paramètres contenus
+  dans</emphasis></para>
 
-    <itemizedlist>
-      <listitem>
-        <para>./includes/db_param.inc.php</para>
-      </listitem>
-    </itemizedlist>
+  <itemizedlist>
+    <listitem>
+      <para>./includes/db_param.inc.php</para>
+    </listitem>
+  </itemizedlist>
 
-    <itemizedlist>
-      <listitem>
-        <para>./opac_css/includes/opac_db_param.inc.php</para>
-      </listitem>
-    </itemizedlist>
+  <itemizedlist>
+    <listitem>
+      <para>./opac_css/includes/opac_db_param.inc.php</para>
+    </listitem>
+  </itemizedlist>
 
-    <para><emphasis role="bold">correspondent à votre
-    configuratio</emphasis><emphasis role="bold">n</emphasis> (faites une
-    sauvegarde avant !)</para>
+  <para><emphasis role="bold">correspondent à votre
+  configuratio</emphasis><emphasis role="bold">n</emphasis> (faites une
+  sauvegarde avant !)</para>
 
-    <para>En outre :</para>
+  <para>En outre :</para>
 
-    <para><emphasis role="bold">Vous devez faire la mise à jour du noyau de la
-    base de données.</emphasis></para>
+  <para><emphasis role="bold">Vous devez faire la mise à jour du noyau de la
+  base de données.</emphasis></para>
 
-    <para><emphasis>Rien ne sera perdu</emphasis>.</para>
+  <para><emphasis>Rien ne sera perdu</emphasis>.</para>
 
-    <para>Pour réaliser cette mise à jour :</para>
+  <para>Pour réaliser cette mise à jour :</para>
 
-    <orderedlist>
-      <listitem>
-        <para>Connectez-vous de manière habituelle à PMB, le style graphique
-        peut être différent, voire absent (affichage assez décousu sans
-        couleur ni images)</para>
-      </listitem>
+  <orderedlist>
+    <listitem>
+      <para>Connectez-vous de manière habituelle à PMB, le style graphique
+      peut être différent, voire absent (affichage assez décousu sans couleur
+      ni images)</para>
+    </listitem>
 
-      <listitem>
-        <para>Passez en Administration &gt; Outils &gt; M.à J. base pour
-        mettre à jour le noyau de votre base de données. Une série de messages
-        vous indiqueront les mises à jour successives, poursuivez la mise à
-        jour de la base par le lien en bas de page jusqu'à voir s'afficher
-        'Votre base est à jour en version...'</para>
+    <listitem>
+      <para>Passez en Administration &gt; Outils &gt; M.à J. base pour mettre
+      à jour le noyau de votre base de données. Une série de messages vous
+      indiquera les mises à jour successives, poursuivez la mise à jour de la
+      base par le lien en bas de page jusqu'à voir s'afficher 'Votre base est
+      à jour en version...'</para>
 
-        <figure>
-          <title>Administration &gt; Outils &gt; Mise à jour de la
-          base</title>
+      <figure>
+        <title>Administration &gt; Outils &gt; Mise à jour de la base</title>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/pmb_admin_outils_maj.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </listitem>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/pmb_admin_outils_maj.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </listitem>
 
-      <listitem>
-        <para><emphasis role="bold">si besoin</emphasis>, vous pouvez alors
-        éditer votre compte pour modifier éventuellement vos préférences,
-        notamment le style d'affichage.</para>
-      </listitem>
-    </orderedlist>
+    <listitem>
+      <para><emphasis role="bold">si besoin</emphasis>, vous pouvez alors
+      éditer votre compte pour modifier éventuellement vos préférences,
+      notamment le style d'affichage.</para>
+    </listitem>
+  </orderedlist>
 
-    <para>N'hésitez pas à nous faire part de vos problèmes ou idées par mail :
-    pmb@sigb.net</para>
-  </chapter>
+  <para>N'hésitez pas à nous faire part de vos problèmes ou idées par mail :
+  pmb@sigb.net</para>
+</chapter>

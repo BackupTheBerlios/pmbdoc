@@ -10,7 +10,7 @@
   <para>Les informations présentées ici reprennent des informations données
   par les utilisateurs sur la procédure qu'ils ont utilisée pour installer PMB
   sur leur distribution. Les distributions présentées ici sont les plus
-  fréquentes distribution. En cas de doute, n'hésitez pas à vous renseigner
+  fréquentes distributions. En cas de doute, n'hésitez pas à vous renseigner
   sur les listes de discussion de PMB ou sur le site internet.</para>
 
   <sect1>
@@ -26,7 +26,7 @@
       moi-même PMB. Je reconnais, maintenant, que tous les éléments étaient
       présents dès le départ, mais leur emplacement, leur présentation m'ont
       obligé à pas mal galérer. Ensuite, étant moi-même un utilisateur de base
-      de Linux, j'ai pensée que mon expérience pourrait servir à d'autres
+      de Linux, j'ai pensé que mon expérience pourrait servir à d'autres
       !</para>
     </sect2>
 
@@ -47,7 +47,7 @@
       <para>Tous les fichiers et répertoires vont se décompresser dans le
       répertoire /home/toto/PMB.</para>
 
-      <para>Déplacer alors tous ces fichiers vers /var/www/html/pmb avec la
+      <para>Déplacez alors tous ces fichiers vers /var/www/html/pmb avec la
       commande suivante :</para>
 
       <programlisting>mv PMB/* /var/www/html/pmb/</programlisting>
@@ -157,7 +157,7 @@ chown -R apache.apache pmb</programlisting>
     <sect2>
       <title>Installation</title>
 
-      <para>Sur une Debian par exemple, l'installe se déroule comme ça
+      <para>Sur une Debian par exemple, l'installation se déroule comme ça
       :</para>
 
       <para><literal>tar xvzf &lt;archive.tar.gz&gt;</literal></para>
@@ -180,7 +180,7 @@ chown -R apache.apache pmb</programlisting>
 
       <para><literal>create database &lt;labase&gt; ;</literal></para>
 
-      <para>Vous déclarez un user dédié (fortement recommandé et a adapter a
+      <para>Vous déclarez un user dédié (fortement recommandé et à adapter à
       votre cas)</para>
 
       <para><literal>GRANT ALL ON PMB.* TO 'admin'@'localhost' IDENTIFIED BY

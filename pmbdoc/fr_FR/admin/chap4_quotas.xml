@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_quotas">
   <title>Quotas</title>
 
@@ -10,19 +10,20 @@
 
   <para>Lorsqu'un quota en circulation est atteint, une alerte prévient le
   personnel chargé de la circulation des ouvrages et lui offre la possibilité,
-  le cas échéant, de forcer le prêt. Pour plus d'informations consulter le
+  le cas échéant, de forcer le prêt. Pour plus d'informations consultez le
   <emphasis>Guide de l'Utilisateur de PMB</emphasis>, chapitre
   <emphasis>Circulation</emphasis>.</para>
 
   <sect1>
     <title>Si la gestion des quotas avancés n'est pas activée</title>
 
-    <para><graphic fileref="images/warning.gif" />Si la gestion des quotas avancés
-    n'est pas activée, vous ne verrez pas "quotas" dans le menu.</para>
+    <para><graphic fileref="images/warning.gif" />Si la gestion des quotas
+    avancés n'est pas activée, vous ne verrez pas "quotas" dans le
+    menu.</para>
 
     <para>Dans ce cas, seule une durée de prêt et une durée de réservation
-    sont définissables, par type d'ouvrage. Pour plus d'information, 
-    voir <xref linkend="admin_expl_typdoc" />.</para>
+    sont définissables, par type d'ouvrage. Pour plus d'information, voir
+    <xref linkend="admin_expl_typdoc" />.</para>
   </sect1>
 
   <sect1>
@@ -71,7 +72,7 @@
       périodiques ou de réservation correspondant à un SEUL type de document.
       Les quotas liés à un nombre possèdent également un champs de seuil
       maximal. Ce maximum est un quota absolu de simultanéité de documents, de
-      périodiques ou de réservation. Si la valeur par défaut est définie à 5
+      périodiques ou de réservations. Si la valeur par défaut est définie à 5
       et qu'aucune autre valeur n'est définie, le lecteur a le droit de
       réserver, d'emprunter en même temps 5 cédéroms et 5 livres. Si le
       maximum est fixé à 7, il peut prendre au plus 7 ouvrages, parmi lesquels
@@ -92,7 +93,7 @@
     <sect2>
       <title>Types de quotas</title>
 
-      <para>Il existe cinq types de quotas par nombres ou par durée :</para>
+      <para>Il existe cinq types de quotas par nombre ou par durée :</para>
 
       <itemizedlist>
         <listitem>
@@ -100,7 +101,7 @@
 
           <para>Pour chaque catégorie de lecteur un quota peut être spécifié
           dans la colonne nombre de documents. Pour supprimer un des quotas,
-          effacer la valeur contenue dans la case. Attention, 0 ne signifie
+          effacez la valeur contenue dans la case. Attention, 0 ne signifie
           pas une absence de quota, mais un quota égal à 0, donc un prêt
           interdit.</para>
 
@@ -290,7 +291,7 @@
     documents de la BDP, un CD audio, une cassette vidéo. Dans le cadre d'une
     recherche scolaire, on peut sur demande leur prêter plus de deux documents
     de la BDP (forcer ce type de prêt et le nombre total de prêts simultanés
-    possible).</para>
+    possibles).</para>
 
     <procedure>
       <step>
@@ -309,9 +310,9 @@
 
       <step>
         <para>Pour la catégorie <emphasis><emphasis
-        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
+        role="bold">Enfants</emphasis></emphasis>, spécifiez <emphasis
         role="bold">2</emphasis> pour nombre de documents, et <emphasis
-        role="bold">décocher</emphasis> <emphasis>Interdire le
+        role="bold">décochez</emphasis> <emphasis>Interdire le
         forçage</emphasis></para>
       </step>
 
@@ -326,18 +327,18 @@
 
       <step>
         <para>Pour la catégorie <emphasis><emphasis
-        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
+        role="bold">Enfants</emphasis></emphasis>, spécifiez <emphasis
         role="bold">2</emphasis> pour le nombre de documents
         <emphasis>Livre</emphasis>, et <emphasis
-        role="bold">décocher</emphasis> <emphasis>Interdire le
+        role="bold">décochez</emphasis> <emphasis>Interdire le
         forçage</emphasis></para>
       </step>
 
       <step>
         <para>Toujours pour la catégorie <emphasis><emphasis
-        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
+        role="bold">Enfants</emphasis></emphasis>, spécifiez <emphasis
         role="bold">2</emphasis> pour le nombre de documents <emphasis>Doc de
-        la BDP</emphasis>, et <emphasis role="bold">cocher</emphasis>
+        la BDP</emphasis>, et <emphasis role="bold">cochez</emphasis>
         <emphasis>Interdire le forçage</emphasis></para>
       </step>
 
@@ -347,12 +348,12 @@
         role="bold">1</emphasis> pour le nombre de documents <emphasis>CD
         Audio</emphasis> et <emphasis role="bold">1</emphasis> pour le nombre
         de documents <emphasis>Cassette vidéo</emphasis>, et <emphasis
-        role="bold">cocher</emphasis> <emphasis>Interdire le
+        role="bold">cochez</emphasis> <emphasis>Interdire le
         forçage</emphasis></para>
       </step>
 
       <step>
-        <para>Cliquer sur Enregistrer</para>
+        <para>Cliquez sur Enregistrer</para>
 
         <para>Vos quotas sont définis. Vous pouvez ensuite personnaliser les
         paramètres généraux selon vos besoins.</para>

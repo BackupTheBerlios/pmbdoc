@@ -63,7 +63,7 @@
             </listitem>
 
             <listitem>
-              <para>Correspondance entre le codage 995 et votre fonds pour les
+              <para>Correspondance entre le codage 995 et votre fond pour les
               types de support, codes statistiques et sections</para>
             </listitem>
           </itemizedlist>
@@ -80,7 +80,7 @@
         <listitem>
           <para>Pour les exemplaires, pointage des imports pour vérifier la
           correspondance entre le listing de prêt et les ouvrages réellement
-          transmis. </para>
+          transmis.</para>
 
           <para>Cette dernière vérification est rapide et peut être
           intégralement réalisée avec une douchette codes-barres.</para>
@@ -128,16 +128,16 @@
 
     <para>Choisissez si l'ISBN doit être toujours présent dans les notices
     importées (ce n'est pas toujours le cas, attention aux CD audio, cédéroms
-    et DVD ainsi que la littérature grise ou non publiée).</para>
+    et DVD ainsi qu'à la littérature grise ou non publiée).</para>
 
     <para>Si l'ISBN est présent, PMB peut dédoublonner : il n'importera pas
     deux notices ayant le même ISBN. Dans ce cas, seule la notice ayant la
-    première occurence d'un ISBN dans votre fichier sera importé.</para>
+    première occurence d'un ISBN dans votre fichier sera importée.</para>
 
     <para>Vous pouvez également choisir un statut de notices, qui vous
     permettra de gérer par exemple la diffusion de ces notices dans votre
-    OPAC. Pour plus d'informations, consulter le chapitre Notices, section
-    Statuts de ce Guide de l'Administateur.</para>
+    OPAC. Pour plus d'informations, consultez le chapitre Notices, section
+    Statuts de ce <emphasis>Guide de l'Administateur</emphasis>.</para>
 
     <para>Enfin, sélectionnez le fichier à importer en cliquant sur Parcourir.
     Attention ce bouton peut porter un autre nom selon le navigateur internet
@@ -175,7 +175,7 @@
     export. Pour plus d'informations, voir <xref
     linkend="admin_convert" />.</para>
 
-    <para>Le fichier a importé peut etre transmis à PMB de deux manières
+    <para>Le fichier a importer peut etre transmis à PMB de deux manières
     :</para>
 
     <para>- soit vous vous servez de la fonction "télécharger" pour transférer
@@ -184,7 +184,7 @@
     <para>- soit vous transmettez par FTP votre fichier. Ceci vous permet de
     transférer des fichiers de plus de 2 Mo (taille indicative, cette limite
     est fixée par la configuration de votre serveur, dans le fichier php.ini,
-    pour plus d'informations consulter le Guide d'installation PMB)</para>
+    pour plus d'informations consultez le Guide d'installation PMB)</para>
 
     <sect2>
       <title>Transfert du fichier par la fonction "télécharger"</title>
@@ -207,9 +207,9 @@
       <itemizedlist>
         <listitem>
           <para>Choisissez d'abord si <emphasis role="bold">l'ISBN</emphasis>
-          doit etre <emphasis role="bold">obligatoirement</emphasis> renseigné
+          doit être <emphasis role="bold">obligatoirement</emphasis> renseigné
           pour les notices (par défaut <emphasis>non</emphasis>), et si un
-          dédoublonnage doit etre fait sur cet ISBN.</para>
+          dédoublonnage doit être fait sur cet ISBN.</para>
 
           <para>Le fait de <emphasis role="bold">dédoublonner</emphasis> les
           notices sur l'ISBN permet de rassembler l'ensemble des exemplaires
@@ -250,15 +250,15 @@
           <para><emphasis role="bold">Cote obligatoire</emphasis> : oui ou non
           (non par défaut). Dans PMB (conformément à la norme), chaque
           exemplaire doit avoir au moins un code-barre et une cote. Toutefois
-          l'import permet d'insérer des exemplaires dont la cote n'avait pas
-          été renseignée.</para>
+          l'import permet d'insérer des exemplaires dont la cote n'est pas été
+          renseignée.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Types de document / Codes statistiques /
           Sections</emphasis> : pour chacune de ces informations, vous pouvez
           spécifier si les informations du fichier doivent etre importées, ou
-          si ce sont vos classements personnalisés qui doivent etre préférées
+          si ce sont vos classements personnalisés qui doivent être préférés
           pour faire la correspondance avec le fichier.</para>
 
           <para>Vous pouvez éditer les codages pour les types de documents,
@@ -267,9 +267,9 @@
 
           <para>Pour chacune de ces données, PMB va examiner les notices
           importées. Selon le propriétaire choisi pour les documents importés,
-          une correspondance va être fait avec la valeur contenue dans la zone
-          995 du fichier Unimarc et les codages définis dans PMB (voir plus
-          bas "références pour l'import Unimarc" à propos de la zone
+          une correspondance va être faite avec la valeur contenue dans la
+          zone 995 du fichier Unimarc et les codages définis dans PMB (voir
+          plus bas "références pour l'import Unimarc" à propos de la zone
           995).</para>
 
           <para>Ainsi, pour importer un exemplaire de la BDP dont le code
@@ -300,7 +300,7 @@
 
       <para>L'import des exemplaires commence par le transfert de votre
       fichier sur le serveur. Vous pouvez suivre le déroulement du transfert
-      grace à l'affichage du nombre de caractères du fichier restant à
+      grâce à l'affichage du nombre de caractères du fichier restant à
       traiter.</para>
 
       <figure>
@@ -317,7 +317,7 @@
       <para>Le fichier est transféré par paquets. La taille de ces paquets est
       paramétrable dans Administration &gt; Outils &gt; Paramétrage, via les
       paramètres "import_limit_read_file" et "import_limit_record_load". Pour
-      plus d'informations sur les paramètres, consulter la section <xref
+      plus d'informations sur les paramètres, consultez la section <xref
       linkend="admin_outils_parametres" />.</para>
 
       <para>Une fois le transfert du fichier réalisé, l'import commence.
@@ -331,9 +331,8 @@
 
       <para>Si vous avez transféré votre fichier d'exemplaires directement sur
       le serveur par FTP, votre fichier est déjà existant sur le serveur sous
-      le nom unimarc.fic. Le deuxième écran de paramétrage de l'import ne
-      possède donc pas la possibilité de choisir un fichier à
-      télécharger.</para>
+      le nom unimarc.fic. Le deuxième écran de paramétrage de l'import n'offre
+      donc pas la possibilité de choisir un fichier à télécharger.</para>
 
       <figure>
         <title>Imports &gt; Exemplaires UNIMARC, fichier unimarc.fic sur le
@@ -396,13 +395,13 @@
       </listitem>
 
       <listitem>
-        <para>des ouvrages saisis en bases mais non présents (perdus ou
+        <para>des ouvrages saisis en base mais non présents (perdus ou
         manquants)</para>
       </listitem>
 
       <listitem>
         <para>vous pourrez enfin changer de statut, de section et de
-        localisation les ouvrages à la volée et les rendre disponible au
+        localisatio dès ouvrages à la volée et les rendre disponible au
         prêt.</para>
       </listitem>
     </itemizedlist>
@@ -416,7 +415,7 @@
       </listitem>
 
       <listitem>
-        <para>de changer la section d'un ou plusieurs ouvrages</para>
+        <para>de changer la section d'un ou plusieurs ouvrage</para>
       </listitem>
     </itemizedlist>
 
