@@ -1204,7 +1204,7 @@
           exemplaire</emphasis>.</para>
 
           <figure>
-            <title>Ajout d'un exemplaire : saisie du num�ro d'exemplaire</title>
+            <title>Ajout d'un exemplaire : saisie du num鲯 d'exemplaire</title>
 
             <mediaobject>
               <imageobject>
@@ -2506,7 +2506,9 @@
 &gt; pas comment la transformer pour qu'elle fonctionne dans les paniers? 
 &gt; Voici donc la PS corrigée ! 
 
-select expl_id as object_id, 'EXPL' as object_type from exemplaires, notices, docs_section where idsection in (!!section!!) and expl_notice=notice_id and expl_section=idsection order by section_libelle, expl_cote, expl_cb 
+select expl_id as object_id, 'EXPL' as object_type from exemplaires, notices, 
+docs_section where idsection in (!!section!!) and expl_notice=notice_id and 
+expl_section=idsection order by section_libelle, expl_cote, expl_cb 
 
 &gt;Il ne reste plus qu'à paramétrer le paramètre !!section!! : liste de choix 
 &gt;à partir d'une requête, liste multiple si on veut avec : 
