@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="principes">
+  <title>Principes généraux</title>
+
+  <para><emphasis role="bold">Ergonomie liée à l'utilisation d'une application
+  internet</emphasis></para>
+
+  <para>PMB est une application Web, une "WebApp". Fonctionnant sur un serveur
+  Web (voir le <emphasis>Guide d'Installation PMB</emphasis>, Section 1,
+  <emphasis>Installation sous Windows,</emphasis> pour plus d'informations sur
+  Apache), PMB bénéficie de la souplesse des applications Internet.</para>
+
+  <para><emphasis role="bold">Ne pas utiliser le bouton "page précédente" du
+  navigateur.</emphasis></para>
+
+  <para><inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/firefox-back.gif" />
+      </imageobject>
+    </inlinemediaobject> "Page précédente" et <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/firefox-next.gif" />
+      </imageobject>
+    </inlinemediaobject> "page suivante" permettent de se déplacer d'une page
+  à l'autre sur internet, il en est de même dans PMB.</para>
+
+  <para><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
+  role="bold">Attention</emphasis></emphasis> lorsque vous voyez à l'écran un
+  message commençant par <emphasis>Mise à jour </emphasis>ne cliquez pas sur
+  page précédente. Lorsque vous voyez ce message, il est impératif de laisser
+  la mise à jour s'accomplir entièrement. De façon générale, évitez d'utiliser
+  page précédente si vous pouvez obtenir le même résultat en cliquant sur un
+  des liens présent à l'écran.</para>
+
+  <para>Le bouton Actualiser la page <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/firefox-reload.gif" />
+      </imageobject>
+    </inlinemediaobject> de votre navigateur permettent de recharger une page
+  à l'écran.</para>
+
+  <para>Lorsque vous rechargez une page qui est le résultat d'un formulaire
+  (par exemple ajout d'une nouvelle notice), les données sont à nouveau
+  soumises au serveur.</para>
+
+  <para>Suivant le même principe que "Page précédente", le bouton "Stop"
+  <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/firefox-stop.gif" />
+      </imageobject>
+    </inlinemediaobject> de votre navigateur permettra d'interrompre le
+  chargement d'une page.</para>
+
+  <para><emphasis role="bold">Attention</emphasis> Lors d'opérations
+  importantes sur la base de données (ajouts, suppressions), il ne faut pas
+  arrêter le chargement de la page sous peine d'interrompre le traitement en
+  cours, vous auriez un risque de détérioration de la base de données.</para>
+
+  <para>Ne surtout pas cliquer sur ce bouton "arrêter le chargement" lors
+  d'une restauration de la base de données, d'une sauvegarde ou d'une
+  optimisation de la base.</para>
+</chapter>

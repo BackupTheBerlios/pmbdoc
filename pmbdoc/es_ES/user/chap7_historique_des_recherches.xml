@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="search_history" lang="fr">
+  <title>Historique des recherches</title>
+
+  <para>Le lien "historique" en haut à droite de l'écran affiche l'historique
+  des recherches faites dans l'interface de gestion dans un iframe (bloc de
+  l'écran).</para>
+
+  <figure>
+    <title>Lien historique</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/historique.gif" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect1>
+    <title>Affichage de l'historique des recherches</title>
+
+    <para>L'historique affiche les recherches réalisées par l'utilisateur en
+    ordre chronologique inverse. Les dernières recherches réalisées sont
+    affichées en haut de l'écran.</para>
+
+    <figure>
+      <title>Affichage de l'historique des recherches à gauche de
+      l'écran</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/history.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Vous avez la possibilité d'imprimer les résultats d'une recherche à
+    l'aide de l'icône imprimer.</para>
+
+    <figure>
+      <title>Icône imprimer</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/history_icon_print.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>L'ensemble des résultats d'une recherche peut être placé directement
+    dans un panier.</para>
+
+    <para>L'ensemble des résultats d'une recherche peut également être envoyé
+    par e-mail.</para>
+  </sect1>
+
+  <sect1>
+    <title>Mémorisation de l'historique des recherches</title>
+
+    <para>L'historique des recherches est sauvegardé dans la session
+    utilisateur. Ceci vous permet de retrouver l'historique de vos recherches
+    après une déconnexion, ou une fois déconnecté de votre ordinateur de
+    travail et reconnecté sur un autre.</para>
+  </sect1>
+
+  <sect1>
+    <title>Vidage de l'historique des recherches</title>
+
+    <figure>
+      <title>Icône vider l'historique</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/history_icon_suppr_all.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title>Icône supprimer les recherches cochées</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/history_icon_suppr_coche.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>L'icône <emphasis role="bold">vider l'historique </emphasis>supprime
+    l'ensemble des recherches de l'historique.</para>
+
+    <para>L'icône <emphasis role="bold">supprimer les recherches cochées
+    </emphasis>permet de "faire le ménage" parmi les recherches. Pour
+    supprimer une ou plusieurs recherches, cochez la case située en début de
+    ligne. Répétez cette étape pour l'ensemble des recherches à supprimer.
+    Cliquez enfin sur l'icône <emphasis role="bold">supprimer les recherches
+    cochées</emphasis>.</para>
+  </sect1>
+
+  <sect1>
+    <title>Sauvegarde de l'historique des recherches</title>
+
+    <figure>
+      <title>Icône sauvegarder</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/history_icon_save.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Le bouton "<emphasis role="bold">Sauvegarder
+    l'historique</emphasis>" sauvegarde l'historique des recherches en cours.
+    Attention, ceci ne correspond pas à l'export d'un fichier historique. Pour
+    plus d'informations sur les imports et exports d'historiques de
+    recherches, consultez la section <xref linkend="history_import" /></para>
+  </sect1>
+
+  <sect1 id="history_import">
+    <title>Import/Export des recherches</title>
+
+    <para>L'historique des recherches peut être exporté dans un fichier. De
+    même un tel fichier peut ensuite être réimporté dans PMB.</para>
+
+    <para>Cette opération est réalisée à l'aide des icônes <emphasis
+    role="bold">exporter</emphasis> et <emphasis
+    role="bold">importer</emphasis> situées en haut de la fenêtre
+    <emphasis>historique des recherches</emphasis>.</para>
+
+    <figure>
+      <title>Icône exporter (les données vont de la liste vers la
+      disquette)</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/history_icon_upload.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title>Icône importer (les données vont de la disquette vers la
+      liste)</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/history_icon_download.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>L'historique des recherches est exporté dans un fichier
+    <emphasis>search.rsh. </emphasis>Vous pouvez stocker ce fichier s'il
+    correspond à une suite de recherches que vous souhaitez mémoriser.</para>
+
+    <para>Lorsque vous aurez besoin de relancer ces recherches, vous
+    disposerez alors d'un fichier préétabli.</para>
+  </sect1>
+</chapter>

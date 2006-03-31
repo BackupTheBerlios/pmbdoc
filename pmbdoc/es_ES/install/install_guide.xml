@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!ENTITY __chap00_introduction SYSTEM "chap00_introduction.xml">
+<!ENTITY __chap0_important SYSTEM "chap0_important.xml">
+<!ENTITY __chap1_installation_generique SYSTEM "chap1_installation_generique.xml">
+<!ENTITY __chap1b_maj_pmb SYSTEM "chap1b_maj_pmb.xml">
+<!ENTITY __chap2_windows SYSTEM "chap2_windows.xml">
+<!ENTITY __chap3_linux SYSTEM "chap3_linux.xml">
+<!ENTITY __chap4_mac_bsd_unix SYSTEM "chap4_mac_bsd_unix.xml">
+<!ENTITY __chap5_yaz SYSTEM "chap5_yaz.xml">
+<!ENTITY __chap98_erreurs SYSTEM "chap98_erreurs.xml">
+<!ENTITY __chap99_postface SYSTEM "chap99_postface.xml">
+<!ENTITY __cecill SYSTEM "cecill.xml">
+]>
+<book lang="fr_FR">
+  <title>PMB : Guide d'installation</title>
+
+  <bookinfo>
+    <abstract>
+      <para>Ce guide détaille les procédures d'installation sur différents
+      systèmes de PMB, système informatisé de gestion de bibliothèques,
+      interface PHP/MySQL libre et opensource.</para>
+
+      <para>Pour plus d'informations, consulter <ulink
+      url="http://www.sigb.net">www.sigb.net</ulink></para>
+    </abstract>
+
+    <releaseinfo>Version de PMB correspondante à ce guide : v2.1</releaseinfo>
+
+    <editor>
+      <lineage>Gautier MICHELIN, Eric ROBERT, Florent TETART (coordination
+      et/ou compilation)</lineage>
+
+      <lineage>Mandrake : Bruno DESROCHES</lineage>
+
+      <lineage>Debian : Stef</lineage>
+
+      <lineage>Installation manuelle Windows avec EasyPHP: François
+      LEMARCHAND, ajouts de Gautier MICHELIN et Eric ROBERT</lineage>
+
+      <lineage>slackware, apache avec yaz : Francois NIGON</lineage>
+    </editor>
+
+    <copyright>
+      <year>2004</year>
+
+      <holder>PMB Services SARL et leurs auteurs respectifs pour les
+      installations sur les plateformes spécifiques</holder>
+    </copyright>
+
+    <legalnotice>
+      <para>Ce manuel est la propriété intellectuelle de PMB Services SARL et
+      des contributeurs (leurs noms sont mentionnés dans leurs
+      contributions).</para>
+
+      <para>Version HTML : diffusion libre autorisée, licence Creative Commons
+      2.0, (Paternité, Pas d'utilisation commerciale). Pour plus
+      d'informations, consulter :
+      http://creativecommons.org/licenses/by-nc/2.0/fr/</para>
+
+      <para>Version imprimée, XML et autres formats : diffusion interdite,
+      modifications autorisées par les développeurs de PMB et les
+      contributeurs enregistrés de la documentation (accès au CVS). Pour toute
+      question sur les autres versions de la documentation de PMB, vous pouvez
+      envoyer un mail à pmb@sigb.net</para>
+
+      <para>Textes de couverture :</para>
+
+      <para><literal>PMB Services SARL, janvier 2006</literal></para>
+
+      <para><literal>PMB est une solution opensource (licence CECILL
+      compatible GNU/GPL) pour la médiathèque.</literal></para>
+
+      <para><literal>http://www.sigb.net</literal></para>
+
+      <para><literal>Copyright © 2006 PMB Services SARL</literal></para>
+    </legalnotice>
+
+    <othercredit>
+      <surname>Ce manuel a été rédigé avec la grammaire XML DocBook. Les
+      fichiers source XML ont été édités soit dans un éditeur de texte, soit
+      dans XML Mind XML editor (version standard) puis formatés avec l'aide
+      des feuilles de style personnalisées de Norman Walsh sous XFC version
+      standard. Les captures d'écran ont été prises sous Linux avec GIMP, sous
+      Windows avec PrtScr puis GIMP ou sous MacOS X.3, puis éditées et
+      converties avec GIMP.</surname>
+    </othercredit>
+  </bookinfo>
+
+  &__chap00_introduction;
+
+  &__chap0_important;
+
+  &__chap1_installation_generique;
+
+  &__chap1b_maj_pmb;
+
+  &__chap2_windows;
+
+  &__chap3_linux;
+
+  &__chap4_mac_bsd_unix;
+
+  &__chap5_yaz;
+
+  &__chap98_erreurs;
+
+  &__chap99_postface;
+
+  &__cecill;
+</book>

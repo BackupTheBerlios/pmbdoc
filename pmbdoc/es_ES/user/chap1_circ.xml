@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="circ">
+  <title>Circulation des ouvrages</title>
+
+  <para>La circulation des ouvrages dans une bibliothèques désigne la gestion
+  des exemplaires que possède la bibliothèque et leur communication aux
+  lecteurs. On parle souvent également d'opérations de prêt.</para>
+
+  <para>Le menu latéral de l'onglet circulation présente 4 rubriques :
+  Circulation, Visualisation, Réservation et Relances (cette dernière
+  uniquement si la Gestion Financière des lecteurs est activée, pour plus
+  d'infos consulter le Guide de l'Administrateur, rubrique Gestion
+  Financière).</para>
+
+  <para>Dans la partie Circulation vous pouvez gérer les lecteurs et les
+  prêts.</para>
+
+  <para>La partie Visualisation affiche des informations sur les documents de
+  la bibliothèque.</para>
+
+  <para>La partie Réservation sert à gérer les réservations que font les
+  lecteurs.</para>
+
+  <para>La partie Relances vous permet de gérer le niveau de relances de vos
+  lecteurs pour leurs retards.</para>
+
+  <sect1 id="circ_circ">
+    <title>Circulation</title>
+
+    <sect2 id="circ_pret">
+      <title>Prêt de document</title>
+
+      <para>Le prêt de document est très simple et peut être intégralement
+      réalisé à l'aide d'une douchette. Il suffit de saisir d'abord le code
+      barre de la carte du lecteur, puis celui des ouvrages empruntés. La
+      douchette remplace la saisie du code barre et la frappe sur la touche
+      "entrée" du clavier.</para>
+
+      <para>Il faut naturellement avoir déjà des ouvrages et des lecteurs
+      saisis dans la base pour permettre le prêt.</para>
+
+      <sect3 id="circ_pret_1">
+        <title>Recherche d'emprunteur</title>
+
+        <para>La création de lecteur et de leur carte est expliquée plus
+        loin.</para>
+
+        <figure>
+          <title>Circulation &gt; Prêt de documents</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_pret.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
+
+      <sect3 id="circ_pret_2">
+        <title>Résultat de recherche</title>
+
+        <para><emphasis role="bold">Exemple</emphasis> prêtons
+        <emphasis>Rwanda : un peuple avec une histoire</emphasis>, par
+        <emphasis>C. M. Overdulve</emphasis>, à notre lecteur <emphasis>Luke
+        Skywalker </emphasis>(code barre de la carte de lecteur
+        100003).</para>
+
+        <para>Son code barre est saisi ou lu par la douchette pour identifier
+        l'emprunteur.</para>
+
+        <para>On peut également saisir tout ou partie du nom du lecteur pour
+        le sélectionner dans une liste. Ici contentons nous de saisir la
+        lettre "s" pour Skywalker.</para>
+
+        <figure>
+          <title>Circulation &gt; Prêt (résultats d'une recherche de
+          lecteurs)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_pret_2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Cliquez dans la liste des résultats de la recherche sur le
+        lecteur Skywalker.</para>
+      </sect3>
+
+      <sect3 id="circ_lecteur">
+        <title>Fiche lecteur</title>
+
+        <figure>
+          <title>Circulation &gt; Prêt (fiche lecteur)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_pret_3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Le code barre d'un exemplaire de Rwanda est
+        33700003286792.</para>
+
+        <para>Il suffit de saisir ce code barre dans le champ "nouveau prêt"
+        pour effectuer le prêt. Saisissez le code barre et validez. Le prêt
+        est alors ajouté dans la liste des prêts en cours.</para>
+
+        <figure>
+          <title>Circulation &gt; Prêt, prêt ajouté</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_pret_4.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Vous pouvez alors annuler le prêt à la volée (dans ce cas, le
+        prêt n'est pas comptabilisé en statistiques, contrairement à un prêt
+        suivi d'un retour même immédiat).</para>
+
+        <para>Vous pouvez également imprimer un ticket de prêt. Il s'agit d'un
+        fichier PDF généré par PMB. Sous Windows, le bouton imprimer le ticket
+        de prêt lance le plugin d'affichage Acrobat et affiche un ticket de
+        prêt imprimable mentionnant le lecteur, l'exemplaire emprunté et la
+        date de retour prévue. Il suffit alors de cliquer sur l'icône
+        "imprimer" d'Acrobat pour imprimer ce ticket de prêt.</para>
+
+        <para>Le lancement d'Acrobat pour visionner le ticket de prêt peut
+        être parfois lent selon votre machine. Dans ce cas, prenez votre mal
+        en patience ou lancez Acrobat à l'avance.</para>
+
+        <figure>
+          <title>Exemple d'un ticket de prêt.</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_pret_ticket.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis role="bold">Note</emphasis> Si votre ouvrage possède
+        un statut particulier interdisant le prêt, mais que cette interdiction
+        peut être levée, PMB vous demande alors si vous voulez forcer le prêt
+        ou non.</para>
+
+        <figure>
+          <title>Exemplaire exclu du pret : possibilité de forcer le
+          prêt</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/pret_exclu.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Dans notre exemple, les paramètres de la bibliothèque (nom,
+        adresse, logo) sont configurés pour la Bibliothèque de Bueil. Ces
+        paramètres sont configurables dans l'onglet administration. Pour plus
+        d'informations, consulter le <emphasis>Guide de l'Administrateur de
+        PMB</emphasis>, section <emphasis>Outils</emphasis>.</para>
+
+        <para>Autres opérations réalisables depuis la fiche lecteur :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Réaliser un prêt express</para>
+
+            <figure>
+              <title>Bouton Prêt express</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/circ_bouton_pret_express.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Le prêt express permet de prêter des ouvrages non
+            catalogués. Cliquez sur Prêt express pour saisir les informations
+            nécessaires au prêt d'un ouvrage non catalogué.</para>
+
+            <figure>
+              <title>Prêt express</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/circ_pret_express.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Saisissez un titre et un ISBN. Définissez un type de
+            document (pour pouvoir gérer les durées de prêt et les éventuels
+            quotas).</para>
+
+            <para>Ensuite douchettez votre code barre d'exemplaire, ou
+            saisissez le et validez.</para>
+
+            <para>Vous pourrez ensuite rechercher cet ouvrage et en compléter
+            le catalogage.</para>
+          </listitem>
+
+          <listitem>
+            <para>Modifier les données du lecteur (permet également de
+            renouveler l'inscription), voir créer un lecteur plus loin.</para>
+
+            <para>Pour modifier les données du lecteur, cliquez sur le bouton
+            <emphasis>modifier</emphasis>.</para>
+          </listitem>
+
+          <listitem>
+            <para>Prolonger un prêt existant</para>
+
+            <para>Pour prolonger un prêt, cliquez sur le bouton de la date de
+            retour. Dans le popup calendrier qui est ensuite ouvert, choisir
+            la nouvelle date de retour. Dans ce popup, utilisez les flèches
+            pour vous déplacer d'un mois, et les doubles flèches pour vous
+            déplacer d'un an.</para>
+
+            <figure>
+              <title>Popup de sélection de date pour prolongation d'un
+              prêt</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/prolonger_pret_popup.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+
+          <listitem>
+            <para>Prolonger à la volée l'ensemble des prêts. Pour prolonger
+            les prêts, cliquez sur le bouton + pour tout sélectionner, puis
+            cliquez sur le bouton de date "Prolonger le prêt des ouvrages
+            cochés jusqu'au".</para>
+
+            <figure>
+              <title>Prolongation des prêts à la volée</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/circ_pret_prolonger.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+          </listitem>
+
+          <listitem>
+            <para>Supprimer le lecteur : n'est possible que si le lecteur n'a
+            plus de prêt en cours. Si des prêts sont en cours, leurs retours
+            doivent être effectués avant.</para>
+          </listitem>
+
+          <listitem>
+            <para>Imprimer la fiche de prêt : imprime la liste des exemplaires
+            empruntés et les réservations en cours. Pour imprimer la fiche de
+            prêt,</para>
+          </listitem>
+
+          <listitem>
+            <para>Imprimer la carte de lecteur.</para>
+          </listitem>
+
+          <listitem>
+            <para>Créer un nouveau lecteur.</para>
+          </listitem>
+
+          <listitem>
+            <para>Le bouton Ajouter une réservation permet de réserver un
+            ouvrage.</para>
+
+            <para>Après avoir cliqué sur Ajouter une réservation, vous pouvez
+            effectuer une recherche. Une fois l'ouvrage à réserver trouvé,
+            cliquer sur son titre l'insère dans la liste des
+            réservations.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+
+      <sect3>
+        <title>Fiche lecteur avec la gestion financière</title>
+
+        <para>L'activation de la gestion financière affiche l'état des comptes
+        du lecteur sous ses informations personnelles.</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/warning.gif" />
+            </imageobject>
+          </inlinemediaobject> Si vous ne voyez pas la liste des trois
+        comptes, la gestion financière des lecteurs n'a pas été activée. Pour
+        plus d'informations, consulter le Guide de l'Administrateur PMB,
+        chapitre Gestion financière des lecteurs.</para>
+
+        <figure>
+          <title>Fiche lecteur avec la liste des comptes</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_lecteur_fin_1.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Pour plus d'informations sur la gestion financière des lecteurs,
+        consultez plus loin la section Prêt de documents et gestion
+        financière.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="pret_gesfin">
+      <title>Prêt de documents et gestion financière</title>
+
+      <para>Pour plus d'informations sur le paramétrage de la gestion
+      financière des lecteurs dans PMB, consulter le Guide de l'administrateur
+      PMB, chapitre <emphasis>Gestion financière</emphasis>.</para>
+
+      <sect3>
+        <title>Création d'un lecteur et débit du compte du lecteur du montant
+        de l'abonnement</title>
+
+        <para>Si vous créez un nouveau lecteur adulte, par exemple Jar-Jar
+        Bings, et que vous avez fixé un tarif d'adhésion pour le type de
+        lecteur "adulte", à la création de ce lecteur, son compte adhésion
+        sera débité du montant correspondant.</para>
+
+        <figure>
+          <title>Création d'un nouveau lecteur</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_nouveau_fin.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis role="bold">En bref</emphasis> Pour plus
+        d'informations sur la création des lecteurs, consulter dans ce
+        chapitre la section <emphasis>Nouveau lecteur</emphasis>.</para>
+
+        <figure>
+          <title>Fiche lecteur</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_lecteur_fin2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Le compte abonnement du lecteur créé est débité du montant de
+        l'adhésion. Pour saisir le paiement de l'adhésion, cliquez sur
+        <emphasis role="bold">Solde abonnement</emphasis>.</para>
+      </sect3>
+
+      <sect3 id="solde_abonnement">
+        <title>Solde abonnement : saisir le paiement de l'abonnement</title>
+
+        <figure>
+          <title>Compte abonnement du lecteur</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_lecteur_fin_3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Si le compte du lecteur est négatif, différentes opérations sont
+        réalisables :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Encaissement rapide : permet de saisir rapidement le
+            règlement d'un lecteur. Lors de l'encaissement rapide, toutes les
+            transactions sont automatiquement validées. Cliquez sur
+            Encaissement rapide et saisissez le montant payé par le
+            lecteur.</para>
+          </listitem>
+
+          <listitem>
+            <para>Encaisser : permet de saisir un paiement. La transaction
+            n'est pas validée automatiquement.</para>
+          </listitem>
+
+          <listitem>
+            <para>Valider les transactions cochées : valide une
+            transaction.</para>
+          </listitem>
+
+          <listitem>
+            <para>Supprimer les transactions cochées</para>
+          </listitem>
+
+          <listitem>
+            <para>Opération spéciale</para>
+
+            <figure>
+              <title>Opération spéciale en gestion financière.</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/circ_lecteur_fin_specops.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+
+            <para>Les opérations spéciales permettent notamment de :</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>créditer le compte ("cadeau" fait au lecteur) et
+                éventuellement de passer le montant en perte. Dans ce dernier
+                cas, le montant est décaissé du compte de la
+                bibliothèque.</para>
+              </listitem>
+
+              <listitem>
+                <para>débiter le compte ("sanction" faite au lecteur).</para>
+              </listitem>
+
+              <listitem>
+                <para>créditer le compte et encaisser : saisir un paiement du
+                lecteur</para>
+              </listitem>
+
+              <listitem>
+                <para>débiter le compte et décaisser : saisir une amende pour
+                le lecteur et éventuellement la passer en perte. Dans ce
+                dernier cas, le montant est décaissé du compte de la
+                bibliothèque. Ceci permet notamment de rendre compte d'une
+                amende pour détérioration d'un ouvrage.</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+
+        <para>Dans notre exemple, pour saisir le paiement de la cotisation de
+        5 € du lecteur Jar-Jar Bings, cliquez sur Encaissement rapide et
+        saisissez le montant du paiement.</para>
+
+        <para><emphasis role="bold">Note</emphasis> : vous pouvez à tout
+        moment revenir sur la fiche du lecteur en cliquant sur le lien
+        <emphasis role="bold">Retourner à la fiche du
+        lecteur</emphasis>.</para>
+      </sect3>
+
+      <sect3>
+        <title>Prêt de document et débit du compte du lecteur du montant d'un
+        prêt</title>
+
+        <para>Si coût du prêt d'un DVD est fixé à 3 €, lors du prêt d'un DVD à
+        notre lecteur, son compte prêts sera débité du montant
+        correspondant.</para>
+
+        <figure>
+          <title>Prêt d'un document au lecteur</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_lecteur_fin_4_pret.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para><emphasis role="bold">Note</emphasis> pour plus d'information
+        sur le prêt de documents, consulter dans ce chapitre la section
+        <emphasis>Prêt de documents</emphasis>.</para>
+      </sect3>
+
+      <sect3>
+        <title>Solde prêt : saisir le paiement du prêt de document</title>
+
+        <para>Les prix des prêts sont toujours fixés sans être validés. Pour
+        valider la transaction, cliquez sur <emphasis role="bold">Solde prêt
+        de documents</emphasis>. Vous pouvez la valider ou la supprimer en
+        cochant la case de sélection et en choisissant l'action
+        appropriée.</para>
+
+        <para>Pour plus d'informations sur les différentes possibilités
+        d'actions (encaissement, décaissement, ...) consulter plus haut la
+        section <link linkend="solde_abonnement"><emphasis>Solde
+        abonnement</emphasis></link>.</para>
+      </sect3>
+
+      <sect3>
+        <title>Retour de document en retard : blocage de prêt et
+        amendes</title>
+
+        <para>Lors du retour d'un document en retard, selon le paramétrage
+        réalisé dans l'onglet Administration, un blocage du prêt pour le
+        lecteur peut être réalisé. De même selon vos paramètres, des amendes
+        peuvent être octroyées.</para>
+
+        <para>Le paiement se gère comme pour toutes les autres transactions
+        depuis la fiche du lecteur.</para>
+      </sect3>
+
+      <sect3>
+        <title>Solde amendes : gérer le paiement des amendes</title>
+
+        <para>Pour plus d'informations sur les différentes possibilités
+        d'actions (encaissement, décaissement, ...) consulter plus haut la
+        section <link linkend="solde_abonnement"><emphasis>Solde
+        abonnement</emphasis></link>.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="circ_retour">
+      <title>Retour de document</title>
+
+      <para>Douchetter le code barre du document retourné. La carte de lecteur
+      n'est pas nécessaire.</para>
+
+      <figure>
+        <title>Circulation &gt; Retour de documents</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_retour.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Un message de confirmation est affiché pour permettre de vérifier
+      éventuellement que le code barre correspond bien à l'ouvrage
+      rendu.</para>
+
+      <figure>
+        <title>Circulation &gt; Retour de documents, confirmation d'un retour
+        effectué</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_retour2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Cet affichage donne le nom du lecteur qui a rendu l'ouvrage.
+      Celui-ci est un lien qui permet d'accéder à sa fiche lecteur. Par
+      exemple pour ensuite saisir ses prêts.</para>
+
+      <para>Sont également affichés :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>le type d'exemplaire, la localisation, la section et la cote
+          de l'exemplaire</para>
+        </listitem>
+
+        <listitem>
+          <para>si le retour est en retard, le nombre de jours de
+          retard</para>
+        </listitem>
+
+        <listitem>
+          <para>le nom de l'emprunteur précédent de l'ouvrage</para>
+        </listitem>
+
+        <listitem>
+          <para>le message de l'exemplaire, le cas échéant</para>
+        </listitem>
+
+        <listitem>
+          <para>les réservations éventuelles</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>La fiche de lecteur est également affichée et permet de réaliser à
+      la volée un certain nombre d'opérations : prolonger un prêt ou placer
+      une réservation par exemple. Pour plus d'informations, consulter la
+      section Fiche de lecteur plus haut.</para>
+
+      <para>Des amendes financières ainsi que des suspensions de prêts peuvent
+      être octroyées à des lecteurs. Pour plus d'informations, consulter le
+      Guide de l'Administration de PMB, chapitre Gestion financière des
+      lecteurs.</para>
+    </sect2>
+
+    <sect2 id="circ_groups">
+      <title>Groupes de lecteurs</title>
+
+      <para>La fonctionnalité <emphasis>Groupes de lecteurs</emphasis> permet
+      à PMB de satisfaire aux gestionnaires documentaires qui veulent gérer
+      leurs lecteurs par groupes : classes, familles, etc.</para>
+
+      <figure>
+        <title>Circulation &gt; Groupe de lecteurs</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_groupes.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+
+    <sect2 id="circ_emprcreate">
+      <title>Nouveau lecteur</title>
+
+      <sect3 id="circ_emprcreate_1">
+        <title>Code barre pour le nouveau lecteur</title>
+
+        <para>Vous devez saisir un code barre lorsque vous créez un nouveau
+        lecteur. Si le paramètre <emphasis>pmb.num_carte_auto</emphasis> est
+        activé (valeur 1), PMB vous propose d'affecter au nouveau lecteur un
+        code équivalent au plus grand code barre dans la base +1.</para>
+
+        <para>Pour plus d'informations sur le paramétrage de PMB, consulter le
+        <emphasis>Guide de l'Administrateur de PMB</emphasis>, section
+        Outils.</para>
+
+        <para>Une fois le numéro de carte du lecteur définit, cliquer sur
+        suivant vous amène à l'écran de saisie des informations du nouveau
+        lecteur.</para>
+
+        <para>Remarque : la validation (clic sur le bouton suivant) est
+        automatique avec une douchette.</para>
+      </sect3>
+
+      <sect3 id="circ_emprcreate_2">
+        <title>Saisie des données du lecteur</title>
+
+        <para>Vous pouvez saisir les données personnelles du lecteur depuis
+        cet écran.</para>
+
+        <figure>
+          <title>Circulation &gt; Nouveau lecteur</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_nouveau.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Si des champs personnalisables ont été définis dans
+        <emphasis>Administration &gt; Lecteurs &gt; Paramètres
+        Personnalisés</emphasis>, ils sont visibles en bas de la fiche
+        lecteur. Sur l'écran ci-dessus, vous pouvez remarquer le paramètre
+        personnalisé entreprise. Pour saisir un autre code barre, remplacez
+        cette proposition par le code de votre choix ou douchettez le code
+        barre à affecter.</para>
+
+        <para>Si vous saisissez un code barre déjà affecté, PMB vous renverra
+        un message d'erreur.</para>
+
+        <para>A noter :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Un nom doit toujours être saisi</para>
+          </listitem>
+
+          <listitem>
+            <para>Un prénom doit toujours être saisi</para>
+          </listitem>
+
+          <listitem>
+            <para>La date de naissance fait partie des statistiques
+            obligatoires demandées par les BDP aux bibliothèques de leur
+            réseau. Elle doit être saisie si le paramètre
+            empr.birthdate_optional est activé (valeur 1). Pour plus
+            d'informations, consulter le <emphasis>Guide de l'Administrateur
+            PMB</emphasis>, chapitre <emphasis>Outils</emphasis>, section
+            <emphasis>Paramètres</emphasis>.</para>
+          </listitem>
+
+          <listitem>
+            <para>les champs <emphasis>identifiant OPAC</emphasis> et
+            <emphasis>Mot de passe OPAC</emphasis> définissent les
+            identifiants du lecteur dans l'OPAC (par le formulaire de
+            connexion situé généralement à gauche de l'écran). Si ces champs
+            ne sont pas renseignés lors de la création du lecteur, ils auront
+            par défaut les valeurs suivantes :</para>
+
+            <itemizedlist>
+              <listitem>
+                <para>pour l'identifiant : première lettre du prénom +
+                nom.</para>
+              </listitem>
+
+              <listitem>
+                <para>pour le mot de passe : année de naissance (aaaa) si elle
+                est renseignée, sinon 0.</para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+
+          <listitem>
+            <para>les éventuels champs personnalisés sont affichés en bas de
+            la fiche lecteur. Ils vous permettent d'ajouter des informations
+            de tout type à une fiche lecteur. Pour plus d'informations,
+            consulter le <emphasis>Guide de l'Administrateur de
+            PMB</emphasis>, chapitre <emphasis>Lecteurs</emphasis>.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+    </sect2>
+  </sect1>
+
+  <sect1 id="circ_visu">
+    <title>Visualiser</title>
+
+    <sect2 id="circ_visu_ex">
+      <title>Exemplaire par code barre</title>
+
+      <para>Saisissez un code barre pour afficher des informations sur
+      l'exemplaire correspondant.</para>
+
+      <figure>
+        <title>Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
+        premier écran</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_visu_ex1.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
+        écran de résultat</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_visu_ex2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+
+    <sect2 id="circ_visu_rech">
+      <title>Document par auteur/titre</title>
+
+      <para>Vous accédez ici à un écran fonctionnant comme la partie recherche
+      en catalogage. (Voir plus loin le chapitre
+      <emphasis>Catalogue</emphasis>). Vous pouvez saisir un titre ou un
+      auteur comme point de départ de votre recherche.</para>
+
+      <para>Des troncatures sont utilisables ici en utilisant les expressions
+      régulières. Pour obtenir plus d'informations à ce sujet, cliquez sur le
+      lien <emphasis>"expression régulière"</emphasis>.</para>
+
+      <para>Vous pouvez également rechercher un ouvrage par son ISBN, son
+      numéro commercial (EAN), ou comme précédemment par son numéro
+      d'exemplaire.</para>
+
+      <figure>
+        <title>Circulation &gt; Visualiser &gt; Document par
+        auteur/titre</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_visu_doc.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+  </sect1>
+
+  <sect1 id="circ_resa">
+    <title>Réservations</title>
+
+    <para>PMB permet de réserver des documents pour un lecteur. Les
+    réservations sont accessibles dans l'onglet circulation en fiche lecteur
+    (prêt de documents) et, suivant le paramétrage, dans l'OPAC, depuis la
+    fiche lecteur. (Pour plus d'informations sur le paramétrage de l'OPAC,
+    consulter le <emphasis>Guide de l'Administrateur PMB</emphasis>.)</para>
+
+    <para>La gestion avancée des réservations est disponible depuis la version
+    1.3 de PMB.</para>
+
+    <sect2 id="circ_resa_encours">
+      <title>En cours</title>
+
+      <para>Dans cet écran, les réservations en cours sont affichées. La place
+      dans la file d'attente est spécifiée si plusieurs lecteurs ont réservé
+      le même ouvrage .</para>
+
+      <para>Les réservations sont insérées comme étant non validées. Une fois
+      une réservation ajoutée, la personne responsable des réservations sort
+      les ouvrages correspondant des rayons et réserve (c'est à dire met de
+      côté) ces ouvrages. Pour éditer une liste des exemplaires à sortir des
+      rayons, dans l'onglet <emphasis>Editions</emphasis>, cliquez dans le
+      menu sur réservations<emphasis> à traiter</emphasis>. (Pour plus
+      d'informations, voir <xref linkend="edit" />).</para>
+
+      <para>Un pointage est ensuite fait à la douchette des nouveaux
+      exemplaires mis de côté. Les réservations sont alors "validées".</para>
+
+      <para>Si vous voulez supprimer une réservation, cochez la case
+      <emphasis>Supprimer</emphasis> puis cliquez sur le bouton
+      <emphasis>Valider les suppressions</emphasis>.</para>
+
+      <figure>
+        <title>Circulation &gt; Réservations &gt; En cours</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_resa_encours.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Vous pouvez imprimer des lettres de confirmation des réservations
+      prises en compte. Pour cela, cliquez sur le bouton <emphasis>Lettres de
+      confirmation</emphasis></para>
+    </sect2>
+
+    <sect2 id="circ_resa_depassee">
+      <title>Dépassées</title>
+
+      <para>L'écran des réservations dépassées liste les réservations qui
+      n'ont pas été annulées et ont une date de validité dépassée. Vous devrez
+      alors les supprimer. Pour supprimer une réservation, cochez la case
+      <emphasis>Supprimer</emphasis> puis cliquez sur le bouton
+      <emphasis>Valider les suppressions</emphasis>.</para>
+
+      <para>Vous pouvez souhaiter laisser un délai supplémentaire aux
+      réservations même dépassées. Dans ce cas, ne supprimez pas les
+      réservations dépassées avant la fin de ce délai.</para>
+
+      <figure>
+        <title>Circulation &gt; réservations &gt; dépassées</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_resa_depassees.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+
+    <sect2 id="circ_resa_docranger">
+      <title>Doc. à ranger</title>
+
+      <para>La liste des documents à ranger présente les documents réservés,
+      qui ont normalement été sortis des rayons et réservés avec le nom du
+      lecteur, et dont la réservation a été supprimée. Les réservations sont
+      placées dans la majorité des cas au guichet d'accueil de la bibliothèque
+      ; "doc. à ranger" permet de faire le point sur les documents qui doivent
+      rejoindre les rayons.</para>
+
+      <figure>
+        <title>Circulation &gt; réservations &gt; à ranger</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_resa_aranger.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+  </sect1>
+
+  <sect1 id="relances">
+    <title>Relances</title>
+
+    <para>La gestion avancées des relances est liée à l'utilisation de la
+    gestion financière des lecteurs. Pour plus d'informations sur l'activation
+    de la gestion financière des lecteurs, consulter le <emphasis>Guide de
+    l'Administrateur PMB</emphasis>, chapitre Gestion financière des
+    lecteurs.</para>
+
+    <sect2 id="relances_todo">
+      <title>Relances à faire</title>
+
+      <para>Dans cet écran, vous pourrez consulter la liste des relances
+      lecteurs qui peuvent être faites.</para>
+
+      <figure>
+        <title>Relances à faire</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_relances_1.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Vous pouvez imprimer les lettres de relances pour chacun des
+      lecteurs. Ces lettres ont un contenu variable suivant le niveau de
+      relance. Le niveau 2 est le plus faible niveau de relance (retard
+      léger).</para>
+
+      <para>Lorsque l'envoi de la lettre de relance a été réalisé pour le
+      lecteur, vous pouvez changer le niveau de retard du lecteur.</para>
+
+      <para>Pour chaque lecteur, vous pouvez :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>voir le code barre du lecteur, son nom, le nombre de livres en
+          retard</para>
+        </listitem>
+
+        <listitem>
+          <para>voir le dernier niveau de retard validé (correspond à la
+          lettre de relance du plus haut niveau, soit le plus petit
+          chiffre)</para>
+        </listitem>
+
+        <listitem>
+          <para>voir la date de dernière validation (correspond au dernier
+          envoi d'une relance)</para>
+        </listitem>
+
+        <listitem>
+          <para>voir le niveau supposé : il s'agit du niveau de relance que
+          PMB propose en fonction du retard des différents ouvrages</para>
+        </listitem>
+
+        <listitem>
+          <para>réaliser un changement de niveau et, le cas échéant, passer en
+          recouvrement</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <sect2 id="relances_recouvr">
+      <title>Recouvrement</title>
+
+      <para>Le passage en recouvrement signifie transmettre le dossier des
+      comptes à une institution qui sera chargée de la récupération, du
+      recouvrement des amendes notamment.</para>
+
+      <para>Cet écran est avant tout un moyen de consultation. En effet,
+      lorsque les comptes sont transmis pour recouvrement celles ci ne
+      relèvent plus du fonctionnement de la bibliothèque ou du centre de
+      documentation (transmission à la mairie pour une bibliothèque publique,
+      au service comptable pour un centre de documentation, ...).</para>
+    </sect2>
+  </sect1>
+</chapter>

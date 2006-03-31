@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="ergo" lang="fr">
+  <title>Ergonomie de l'interface de gestion</title>
+
+  <para>Voici un écran de l'interface de gestion de PMB. L'écran est divisé en
+  trois parties.</para>
+
+  <figure>
+    <title>interface de gestion</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface.gif" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para><emphasis role="bold">La barre de navigation
+  supérieure</emphasis></para>
+
+  <para>Elle permet de basculer entre les différents modules de l'interface de
+  gestion à tout moment.</para>
+
+  <para>Seuls les modules auquel l'utilisateur aura accès seront
+  affichés.</para>
+
+  <figure>
+    <title>Barre de navigation supérieure</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface_navbar.gif" scalefit="1" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>A droite de la barre de navigation, au même niveau que les onglets,
+  vous trouvez différents liens :
+  <emphasis>historique</emphasis>,<emphasis>?</emphasis>,
+  <emphasis>préf</emphasis>. , <emphasis>opac</emphasis> et
+  <emphasis>quitter</emphasis>.</para>
+
+  <para><emphasis>historique</emphasis> ouvre dans un iframe (bloc à l'écran)
+  un historique des recherches lancées dans l'interface de gestion de PMB. Ce
+  lien n'est affiché que si vous avez les droits d'accès à l'onglet
+  catalogage. Pour plus d'informations sur les recherches, voir <xref
+  linkend="cat_search" /> ; pour plus d'informations sur l'historique des
+  recherches, voir <xref linkend="search_history" />.</para>
+
+  <para><emphasis>?</emphasis> permet d'accéder à l'aide contextuelle de PMB.
+  Pour plus d'informations, consulter le chapitre <xref
+  linkend="aide_contextuelle" />. L'affichage ou non de l'aide contextuelle
+  peut être paramétré. Pour plus d'informations, consulter le <emphasis>Guide
+  de l'Administrateur PMB</emphasis>, chapitre <emphasis>Outils</emphasis>,
+  section <emphasis>Paramètres</emphasis>.</para>
+
+  <para><emphasis>préf</emphasis>. permet d'accéder aux préférences de
+  l'utilisateur connecté à PMB</para>
+
+  <para><emphasis>opac</emphasis> ouvre une nouvelle fenêtre de votre
+  navigateur et affiche l'OPAC</para>
+
+  <para><emphasis>quitter</emphasis> déconnecte l'utilisateur en cours et
+  renvoie à l'écran de login</para>
+
+  <para><emphasis role="bold">Le menu latéral</emphasis></para>
+
+  <para>Il permet d'accéder aux différentes fonctions de chacun des
+  modules.</para>
+
+  <figure>
+    <title>Menu latéral</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface_laterale.gif" scale="" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para><emphasis role="bold">L'interface centrale</emphasis></para>
+
+  <para>L'interface centrale constitue la partie de PMB dans laquelle vous
+  pouvez saisir ou éditer des informations, exécuter des fonctions, valider
+  des changements, etc.</para>
+
+  <figure>
+    <title>interface centrale</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/interface_centrale.gif" scale="" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para><emphasis role="bold">Les alertes</emphasis></para>
+
+  <para>Des alertes sont affichées à gauche sous le menu :</para>
+
+  <itemizedlist>
+    <listitem>
+      <para>si des réservations sont ajoutées</para>
+    </listitem>
+
+    <listitem>
+      <para>si des ouvrages sont à ranger suite à des réservations
+      annulées</para>
+    </listitem>
+
+    <listitem>
+      <para>si des lecteurs ont une fin d'abonnement proche</para>
+    </listitem>
+
+    <listitem>
+      <para>si des lecteurs ont un abonnement expiré</para>
+    </listitem>
+  </itemizedlist>
+
+  <figure>
+    <title>alertes</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/alerte.gif" scale="" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para><emphasis role="bold">Les résultats de recherche</emphasis></para>
+
+  <para>Les résultats de recherche dans l'interface de PMB sont présentés avec
+  des numéros de pages cliquables en bas de l'écran : ceci vous permet de
+  passer rapidement à la page de résultat souhaité.</para>
+
+  <para>Si vous avez lancé une recherche et que vous voulez passer directement
+  aux résultats 11 à 20 de cette recherche, cliquez sur la page 2 pour les
+  atteindre directement. Vous pouvez également utiliser les icônes page
+  suivante et page précédente à l'écran (triangles bleus).</para>
+</chapter>

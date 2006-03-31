@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Personnaliser PMB</title>
+
+  <para>Il existe différentes façons de personnaliser PMB.</para>
+
+  <sect1>
+    <title>Adapter les fichiers de langue</title>
+
+    <para>PMB utilise des fichiers de langue pour l'affichage. Ces fichiers de
+    langue sont situés dans le répertoire <emphasis
+    role="bold">includes/messages </emphasis>de votre installation de
+    PMB.</para>
+
+    <para>Afin de préserver la compatibilité avec les futures versions de PMB,
+    vous pouvez faire des modification sur les fichiers de langue, sans pour
+    autant modifier les fichiers fournis avec PMB.</para>
+
+    <para>Depuis PMB 2.1, vous avez la possibilité de substituer les messages
+    ou libellés officiels par ses propres textes en fichier XML.</para>
+
+    <para>Exemple pour avoir une version française personnalisée : créer au
+    même endroit que <emphasis role="bold">fr_FR.xml</emphasis> un fichier
+    <emphasis role="bold">fr_FR_subst.xml</emphasis> qui contient ce qui doit
+    être substitué, en voici un exemple :</para>
+
+    <programlisting>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd"&gt;
+
+&lt;!-- messages localisés en français pour PMB
+$Id: chap6_personnaliser.xml,v 1.1 2006/03/31 13:07:29 gautier Exp $ --&gt;
+
+&lt;XMLlist&gt;
+&lt;entry code="1000"&gt;Identifiez vous&lt;/entry&gt;
+&lt;/XMLlist&gt;</programlisting>
+
+    <para>Attention la syntaxe du fichier doit reprendre les éléments
+    nécessaires pour le fichier XML. Prenez pour exemple le fichier ci-dessus
+    et insérez entre les balises XMLList les messages à modifier.</para>
+  </sect1>
+
+  <sect1>
+    <title>Feuilles de style et CSS</title>
+
+    <para>Vous pouvez créer votre propre feuille de style pour l'OPAC et/ou
+    l'interface de gestion. Prenez pour modèle un des différents répertoires
+    de <emphasis role="bold">pmb/styles</emphasis> ou <emphasis
+    role="bold">pmb/opac_css/styles</emphasis>.</para>
+  </sect1>
+</chapter>
