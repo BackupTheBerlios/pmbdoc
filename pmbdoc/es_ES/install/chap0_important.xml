@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="install_informations_importantes" lang="fr">
-  <title>Informations importantes</title>
+  <title>Informaciones importantes</title>
 
   <sect1>
-    <title>Mise à jour d'une installation existante</title>
+    <title>Actualización de una instalación existente</title>
 
-    <para><emphasis>ATTENTION</emphasis></para>
+    <para><emphasis>ATENCIÓN</emphasis></para>
 
-    <para>Si vous faites une mise-à-jour à partir d'une version existante en
-    décompressant l'archive :</para>
+    <para>Si realizas una actualización a partir de una versión anterior al
+    descomprimir los archivos :</para>
 
-    <para>Allez en <emphasis role="bold">Administration</emphasis>; Rubrique
-    <emphasis role="bold">Outils</emphasis> ; Choisissez l'option <emphasis
-    role="bold">M.à.J. base</emphasis> afin de mettre à jour le noyau de votre
-    base de données. Vous n'avez pas besoin de réinstaller la base de données,
-    vos données actuelles seront conservées sans aucune perte.</para>
+    <para>Ir a<emphasis role="bold"> Administración</emphasis>; Menú <emphasis
+    role="bold">Herramientas</emphasis> ; Escoge la opción <emphasis
+    role="bold">Act. base</emphasis> para poder actualizar las novedades de tu
+    base de datos. No necesitas volver a reinstalar la base de datos, tus
+    datos actuales serán conservados sin ningún tipo de pérdida.</para>
   </sect1>
 
   <sect1>
-    <title>Configuration minimum et pré-requis d'installation</title>
+    <title>Configuración mínima y prerequisitos de instalación</title>
 
     <para>Voici nos recommandations de configuration minimum pour une
     utilisation de PMB.</para>
 
     <sect2>
-      <title>Monoposte sous Windows</title>
+      <title>En local bajo Windows</title>
 
       <para>PMB est une application web fonctionnant en client-serveur.
       Pourtant de nombreux sites utilisant PMB le font en environnement
