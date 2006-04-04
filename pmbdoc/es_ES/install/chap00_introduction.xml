@@ -1,129 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter lang="fr">
-  <title>Introduction</title>
+  <title>Introducción</title>
 
   <para></para>
 
   <sect1>
-    <title>Au sujet de PMB</title>
+    <title>Sobre PMB</title>
 
-    <para>PMB est un SIGB (Système Intégré de Gestion de Bibliothèque)
-    entièrement libre. Le terrain des logiciels de bibliothèque est presque
-    exclusivement occupé par des produits propriétaires. Nous sommes quelques
-    bibliothécaires, utilisateurs et développeurs à déplorer cet état de
-    fait.</para>
+    <para>PMB es un SIGB (Sistema Integrado de Gestión de Bibliotecas)
+    completamente libre. El panorama de los programas de bibliotecas está
+    prácticamente lleno de productos propietarios. Nosotros somos
+    bibliotecarios, usuarios y desarrolladores que no estamos de acuerdo con
+    este panorama.</para>
 
-    <para>PMB est basé sur des technologies issues du Web. C'est ce que l'on
-    appelle parfois une `web-app`. Il se fonde sur un serveur HTTP
-    (basiquement Apache mais ce n'est pas une obligation), la base de donnée
-    MySQL et le langage PHP.</para>
+    <para>PMB se basa en las tecnologías del Web. Es lo que a veces se llama
+    una `web-app`. Se basa en un servidor Il se fonde sur un serveur HTTP
+    (básicamente Apache aunque no es obligatorio), una base de datos MySQL y
+    el lenguaje PHP.</para>
 
-    <para>Les principales fonctionnalités de PMB sont :</para>
+    <para>Las principales funcionalidades de PMB son :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Le support du format UNIMARC</para>
+        <para>El soporte del formato UNIMARC</para>
       </listitem>
 
       <listitem>
-        <para>La gestion des autorités (responsables, éditeurs, collections,
-        matières...)</para>
+        <para>La gestión de las autoridades (responsabilidades, editoriales,
+        colecciones, materias...)</para>
       </listitem>
 
       <listitem>
-        <para>La gestion du prêt, des réservations, des emprunteurs...</para>
+        <para>La gestión del préstamo, de las reservas, de los
+        usuarios...</para>
       </listitem>
 
       <listitem>
-        <para>Un paramétrage simple</para>
+        <para>Una parametrización simple</para>
       </listitem>
 
       <listitem>
-        <para>La possibilité d'importer des notices</para>
+        <para>La posibilidad de importar registros</para>
       </listitem>
 
       <listitem>
-        <para>Un OPAC simplifié intégrant un "butineur"</para>
+        <para>Un OPAC simplificado que integra un "butineur"</para>
       </listitem>
 
       <listitem>
-        <para>Un module de gestion des documents BDP pouvant convenir aux plus
-        petits établissements</para>
+        <para>Un módulo de gestión de los documentos BDP conveniente para los
+        establecimientos pequeños</para>
       </listitem>
 
       <listitem>
-        <para>La gestion des périodiques</para>
+        <para>La gestion de las publicaciones periódicas</para>
       </listitem>
 
       <listitem>
-        <para>Une administration simplifiée pouvant être assurée par le
-        personnel de la bibliothèque...</para>
+        <para>Una administración simplificada para el personal de la
+        biblioteca...</para>
       </listitem>
     </itemizedlist>
 
-    <para>Vous pouvez trouver des informations supplémentaires sur <ulink
+    <para>Puedes encontrar más información en: <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>Vous y trouverez aussi une version de démonstration en ligne, le
-    site des utilisateurs de PMB, les dernières versions du Guide
-    d'Installation, du Guide de l'utilisateur et du Guide de l'Administrateur
-    PMB.</para>
+    <para>Encontrarás también una versión de demostración en línea, el
+    apartado de usuarios de PMB, y las últimas versiones de la Guía de
+    instalación, la Guía del usuario y la Guía del administrador PMB.</para>
   </sect1>
 
   <sect1>
-    <title>Où trouver des informations sur PMB</title>
+    <title>Donde encontrar información sobre PMB</title>
 
-    <para>Sur le site de PMB : <ulink
+    <para>En la página web de PMB : <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>Sur le site de la communauté des utilisateurs : <ulink
+    <para>En la página web de la comunidad de usuarios : <ulink
     url="http://www.sigb.net">www.sigb.net/communaute</ulink></para>
 
-    <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
-    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à <ulink
+    <para>En la lista de distribución de usuarios: pmb.user@sigb.net
+    (inscripción libre enviando un correo electrónico con el asunto SUBSCRIBE
+    a <ulink
     url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>)</para>
 
-    <para>Sur la mailing liste des traducteurs, des développeurs, du support
-    de l'unicode (alphabets non européens). Pour plus de renseignements sur
-    ces listes, consulter <ulink
+    <para>En la lista de distribución de los traductores, desarrolladores, de
+    soporte a unicode (alfabetos no europeos). Para más información sobre
+    estas listas, consultar <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>Cette documentation est consultable en ligne sur <ulink
-    url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>, elle est librement
-    téléchargeable au format HTML et est intégrable à PMB. Elle devient alors
-    une aide contextuelle.</para>
+    <para>Esta documentación está también disponible en línea en <ulink
+    url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>, es de libre
+    descarga en formato HTML y integrable en PMB. Se convierte entonces en una
+    ayuda contextual.</para>
   </sect1>
 
   <sect1>
-    <title>Références</title>
+    <title>Referencias</title>
 
-    <para><emphasis role="bold">Auteurs</emphasis></para>
+    <para><emphasis role="bold">Autores</emphasis></para>
 
-    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART et le cas échéant les
-    contributeurs de certaines parties de cette documentation.</para>
+    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART y cuando proceda los
+    contribuidores de ciertas partes de esta documentación.</para>
 
-    <para><emphasis role="bold">Installation sur les différentes
-    plateformes</emphasis></para>
+    <para><emphasis role="bold">Instalación en las diferentes
+    plataformas</emphasis></para>
 
-    <para>Les crédits des différents auteurs se trouvent en entête de leurs
-    contributions.</para>
+    <para>Los créditos de los diferentes autores se encuentran al empezar la
+    contribución.</para>
 
-    <para>PMB est libre de droit, le code du logiciel est dû à la
-    collaboration de nombreux développeurs, dont les auteurs de ce manuel.
-    Merci à tous.</para>
+    <para>PMB es libre de derecho, el código del programa es el fruto de la
+    colaboración de numerosos desarroladores, y de los autores de este manual.
+    Gracias a todos.</para>
   </sect1>
 
   <sect1>
     <title>CVS</title>
 
-    <para>CVS signifie Concurrent Version System. Il s'agit d'un système de
-    gestion de mise à jour de code source pour programmeurs.</para>
+    <para>CVS significa Concurrent Version System. Se trata de un sistema de
+    gestión de actualización de código fuente para programadores.</para>
 
-    <para>PMB dispose d'un CVS. Le CVS est accessible aux développeurs.
-    N'hésitez pas à nous contacter si vous souhaitez aider au développement de
-    PMB ou participer à la rédaction de la documentation.</para>
+    <para>PMB dispone de CVS. El CVS está accesible para los desarrolladores.
+    Contacta con nosotros si si quieres ayudar al desarrollo de PMB o
+    participar en la redacción de la documentación.</para>
 
-    <para>Pour plus d'informations, prenez contact avec les développeurs de
-    PMB.</para>
+    <para>Para más información, contacta con los desarroladores de PMB.</para>
   </sect1>
 </chapter>
