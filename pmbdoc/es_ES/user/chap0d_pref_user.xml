@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="prefs" lang="fr">
-  <title>Préférences utilisateurs</title>
+  <title>Preferencias usuarios</title>
 
-  <para>A chaque démarrage de PMB, vous devez saisir un mot de passe et un nom
-  d'utilisateur. Ceci permet à PMB de vous identifier, et donc de connaître
-  les droits que vous avez dans l'application (circulation, catalogage,
-  administration...). Ce couple nom d'utilisateur/mot de passe permet à PMB de
-  retenir un certain nombre de paramètres qui vous permettront soit d'avoir
-  une ergonomie personnalisée soit d'être affiché à vos couleurs.</para>
+  <para>En cada inicio de PMB se debe introducir un nombre de usuario y una
+  contraseña. Esto permite a PMB identificaros y establecer cuales son los
+  derechos y privilegios que cada usuario tiene en la aplicación (circulación,
+  catalogación, administración,...). La dualidad nombre de usurio/contraseña
+  permite a PMB retener cierto número de parámetros que permitirán tener una
+  ergonomía personalizada como por ejemplo visualizar unos colores
+  personalizados.</para>
 
-  <para>En somme, les préférences utilisateurs sont un ensemble de paramètres
-  mémorisés pour un utilisateur. Ces préférences sont donc liées au nom
-  d'utilisateur saisi à l'écran de login. Pour consulter vos préférences,
-  cliquez sur le lien <emphasis>préf</emphasis>. en haut à droite de l'écran,
-  à côté de <emphasis>quitter</emphasis>.</para>
+  <para>Resumiendo, las preferencias de los usuarios son una serie de
+  parámetros memorizados para cada usuario. Estas preferencias están asociadas
+  a un nombre de usuario introducido en la pantalla de inicio de conexión.
+  Para consultar sus preferencias, haga clic en el enlace
+  <emphasis>pref</emphasis>. en la parte superior derecha de la pantalla, al
+  aldo de <emphasis>salir</emphasis>.</para>
 
   <figure>
-    <title>préférences utilisateurs</title>
+    <title>preferencias usuarios</title>
 
     <mediaobject>
       <imageobject>
@@ -26,74 +28,74 @@
   </figure>
 
   <sect1 id="prefs_pass">
-    <title>Mot de passe, langue, style</title>
+    <title>Contraseña, idioma, estilo</title>
 
-    <para>Vous pouvez ici changer votre mot de passe. Si vous saisissez un
-    <emphasis>Nouveau mot de passe</emphasis>, veuillez le ressaisir dans le
-    champ <emphasis>Confirmation</emphasis>.</para>
+    <para>Aquí puede cambiar su contraseña. Si introduce una 
+	<emphasis>Nueva contraseña</emphasis>, debe volver a introducirla en el campo
+	<emphasis>Confirmar</emphasis>.</para>
 
-    <para>Vous pouvez aussi sélectionner une autre
-    <emphasis>Langue</emphasis>. Attention, certaines langues nécessitent un
-    style particulier pour permettre un affichage optimal.</para>
+    <para>Pude seleccionar también otro 
+	<emphasis>Idioma</emphasis>. Atención, algunos idiomas necesitan un 
+	estilo particular para ser visualizados de forma óptima.</para>
 
     <table>
-      <title>Langues et styles d'affichage adaptés</title>
+      <title>Idomas y estilos de visualización adaptados</title>
 
       <tgroup cols="2">
         <thead>
           <row>
-            <entry>Langue</entry>
+            <entry>Idioma</entry>
 
-            <entry>Styles adaptés</entry>
+            <entry>Estilos adaptados</entry>
           </row>
         </thead>
 
         <tbody>
           <row>
-            <entry>english (en_us)</entry>
+            <entry>inglés (en_us)</entry>
 
-            <entry>tous sauf affichage_arabe</entry>
+            <entry>toudos excepto affichage_arabe</entry>
           </row>
 
           <row>
-            <entry>espanol (es_es</entry>
+            <entry>español (es_es</entry>
 
-            <entry>tous sauf affichage_arabe</entry>
+            <entry>toudos excepto affichage_arabe</entry>
           </row>
 
           <row>
-            <entry>français (fr_fr)</entry>
+            <entry>francés (fr_fr)</entry>
 
-            <entry>tous sauf affichage_arabe</entry>
+            <entry>toudos excepto affichage_arabe</entry>
           </row>
 
           <row>
             <entry>italiano (it_it)</entry>
 
-            <entry>tous sauf affichage_arabe</entry>
+            <entry>todos excepto affichage_arabe</entry>
           </row>
 
           <row>
-            <entry>portuguais (pt_pt)</entry>
+            <entry>portugués (pt_pt)</entry>
 
-            <entry>tous sauf affichage_arabe</entry>
+            <entry>todos excepto affichage_arabe</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
 
-    <para>Vous pouvez aussi changer le style de votre affichage :
-    <emphasis>Style/thèm</emphasis>e.</para>
+    <para>También puede cambiar el estilo de visualización :
+    <emphasis>Estilo/tema</emphasis>.</para>
 
     <table>
-      <title>Styles disponibles dans l'interface de gestion de PMB</title>
+      <title>Estilos disponibles para la interficie de gestión de PMB</title>
 
       <tgroup cols="2">
         <thead>
           <row>
-            <entry>Style/thème</entry>
+            <entry>Estilo/tema</entry>
 
-            <entry>Descriptif</entry>
+            <entry>Descripción</entry>
           </row>
         </thead>
 
@@ -101,64 +103,60 @@
           <row>
             <entry>affichage_arabe</entry>
 
-            <entry>Affichage simple qui inverse le sens d'affichage
-            (gauche-droite)</entry>
+            <entry>Visualización simple que invierto el sentido de la visualización
+            (izquierda-derecha)</entry>
           </row>
 
           <row>
             <entry>aqua-green</entry>
 
-            <entry>Ancien affichage par défaut de la version 1.1 Esthétique
-            acidulée, boutons stylisés inspirés de MacOS. Couleur dominante
-            verte.</entry>
+            <entry>Visualización por defecto de la versión 1.1 Estética acidulada, 
+			botones estilizados inspirados en MacOS. El verde es el color dominante.</entry>
           </row>
 
           <row>
             <entry>couleurs_onglets</entry>
 
-            <entry>Couleurs différentes selon les onglets : vert pour
-            circulation, sable pour catalogue, violet pour autorités, jaune
-            pour éditions, rose pour administration.</entry>
+            <entry>Colores diferentes para cada pestaña : verde para la circulación, 
+			beige para la catalogación, lila para las autoridades, amarillo para los préstamos, 
+			rosa para la administración.</entry>
           </row>
 
           <row>
-            <entry>default</entry>
+            <entry>por defecto</entry>
 
-            <entry>Affichage par défaut. Esthétique acidulée, boutons stylisés
-            inspirés de MacOS. Couleurs dominantes : orange et bleu.</entry>
+            <entry>Visualización por defecto. Estética acidulada, botones estilizados
+			inspirados en MacOS. Colores dominantes : naranja y azul.</entry>
           </row>
 
           <row>
             <entry>metal</entry>
 
-            <entry>Couleurs dorées et argentées. Boutons avec petits
-            boulons.</entry>
+            <entry>Colores dorados y plateados. Botones con pequeños.</entry>
           </row>
 
           <row>
             <entry>no_style</entry>
 
-            <entry>Pas de style, texte renvoyé par PMB sans mise en
-            forme.</entry>
+            <entry>Sin estilo, texto reenviado por PMB sin formato.</entry>
           </row>
 
           <row>
             <entry>orange_et_vert</entry>
 
-            <entry>Style contrasté sur fond blanc.</entry>
+            <entry>Estilo contrastado sobre fondo blanco.</entry>
           </row>
 
           <row>
             <entry>seabreeze</entry>
 
-            <entry>Style simplifié qui n'utilise pas d'images. Affichage
-            rapide.</entry>
+            <entry>Estilo simplificado que no utiliza imagenes. Visualización rápida.</entry>
           </row>
 
           <row>
             <entry>vert_et_parme</entry>
 
-            <entry>Style de deux couleurs comme son nom l'indique.</entry>
+            <entry>Estilo de dos colores: verde y gris azulado.</entry>
           </row>
         </tbody>
       </tgroup>
