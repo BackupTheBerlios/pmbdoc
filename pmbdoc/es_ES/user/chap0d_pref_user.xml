@@ -164,119 +164,111 @@
   </sect1>
 
   <sect1 id="prefs_page">
-    <title>Nombre d'enregistrements par page</title>
+    <title>Número de registros por página</title>
 
-    <para>Le <emphasis>Nombre d'enregistrement affichés par page</emphasis>
-    est personnalisable pour les écrans suivants :</para>
+    <para>El <emphasis>Número de registros que se muestran por página </emphasis>
+    se puede personalizar en las pantallas siguientes :</para>
 
     <itemizedlist>
       <listitem>
-        <para>En recherche (20 par défaut)</para>
+        <para>Resultados de búsquedas (20 por defecto)</para>
       </listitem>
 
       <listitem>
-        <para>En sélection d'autorités (20 par défaut)</para>
+        <para>Selección de autoridades (20 por defecto)</para>
       </listitem>
 
       <listitem>
-        <para>En gestion d'autorités (40 par défaut).</para>
+        <para>Gestión de autoridades (40 por defecto).</para>
       </listitem>
     </itemizedlist>
 
-    <para>Plus ce nombre est élevé, plus le nombre de résultat sera grand par
-    page, plus la page sera longue. Si vous préférez les pages courtes, vous
-    pouvez réduire ces valeurs ; si vous préférez afficher un maximum de
-    renseignements sur une même page, vous pouvez les augmenter.</para>
+    <para>Cuanto más alto sea el número, más grande serán los resultados por pagína, 
+	y más larga será la página. Si usted prefiere páginas cortas, debe reducir estos valores ; 
+	si usted prefiere que se muestren nel máximo de resultados, puede aumentar los valores.</para>
 
-    <para>Les choix par défaut correspondent au choix des développeurs et à un
-    affichage en 1024x768 de votre système.</para>
+    <para>Las opciones por defecto son las opciones de los desarrolladores y permiten una visualización óptima en 
+    sistemas de 1024x768.</para>
   </sect1>
 
   <sect1 id="prefs_appli">
-    <title>Paramètres de fonctionnement de l'application</title>
+    <title>Parámetros de funcionamiento de la aplicación</title>
 
-    <para><emphasis>Popup automatique du ticket de prêt </emphasis>: affiche
-    systématiquement le ticket de prêt lors de la validation d'un nouveau
-    prêt.</para>
+    <para><emphasis>Popup automático del tíquet de préstamo </emphasis>: muestra sistemáticamente el tíquet 
+	de préstamo luego de validar un préstamo.</para>
 
-    <para><emphasis>Jouer les alertes sonores</emphasis> : signal sonore lors
-    d'un message d'erreur notamment.</para>
+    <para><emphasis>Activar las alertas sonoras</emphasis> : señal sonoro que se reproduce cuando se genera algun error.</para>
   </sect1>
 
   <sect1 id="prefs_licence">
-    <title>J'ai lu et accepté les termes de la licence d'utilisation de
+    <title>He leído y aceptado las condiciones de la licencia de uso de
     PMB</title>
 
-    <para>Avec la version 1.3 PMB s'est doté d'une nouvelle licence : la
-    licence CECILL. Cette licence est compatible avec la GNU/GPL. Pour plus
-    d'informations, consulter <ulink
+    <para>Con la versión 1.3 PMB se aplica una nueva licencia : la
+    licencia CECILL. Esta licencia es compatible con la GNU/GPL. Para más información, 
+	consulte <ulink
     url="http://www.cecill.info">http://www.cecill.info</ulink></para>
 
-    <para>Cette nouvelle licence est affichée lors du démarrage de PMB, après
-    que vous vous soyez connecté en ayant saisi votre nom d'utilisateur et
-    votre mot de passe.</para>
+    <para>Esta nueva licencia se muestra al iniciarse PMB, después de introducir
+    el nombre de usuario y la contraseña para conectarse.</para>
 
-    <para>Pour ne pas afficher la licence au démarrage, cocher <emphasis>Ne
-    plus afficher la licence au démarrage</emphasis>.</para>
+    <para>Para no visualizar más la licencia al iniciar cada sesión, marca <emphasis>No ver mostrar más 
+    la licencia al iniciar sesión</emphasis>.</para>
   </sect1>
 
   <sect1 id="prefs_valeurs">
-    <title>Valeurs par défaut de l'application</title>
+    <title>Valores por defecto de la aplicación</title>
 
-    <para>Cette partie de l'écran permet de spécifier un certain nombre de
-    valeurs par défaut pour la création d'exemplaire&nbsp;:</para>
+    <para>Esta parte de la pantalla permite especificar algunos valores por defecto que se aplican 
+	al crear un ejemplar&nbsp;:</para>
 
     <itemizedlist>
       <listitem>
-        <para>Type de document</para>
+        <para>Tipo de documento</para>
       </listitem>
 
       <listitem>
-        <para>Propriétaire</para>
+        <para>Propietario</para>
       </listitem>
 
       <listitem>
-        <para>Statut de document</para>
+        <para>Estado del documento</para>
       </listitem>
 
       <listitem>
-        <para>Code statistique de document</para>
+        <para>Código estadístico del documento</para>
       </listitem>
 
       <listitem>
-        <para>Localisation du document</para>
+        <para>Localización del documento</para>
       </listitem>
 
       <listitem>
-        <para>Section du document</para>
+        <para>Sección del documento</para>
       </listitem>
     </itemizedlist>
 
-    <para>Ceci permet de gagner du temps lors du catalogage.</para>
+    <para>Estos valores permiten ganar tiempo a la hora de catalogar.</para>
 
-    <para>Vous pouvez également spécifier des valeurs par défaut dans la
-    création de notices :</para>
+    <para>También se pueden especificar algunos valores por defecto que se aplican al crear un registro nuevo :</para>
 
     <itemizedlist>
       <listitem>
-        <para>langue. Par défaut fixé à <emphasis role="bold">fre</emphasis>,
-        pour <emphasis role="bold">Français</emphasis>. Les codes langues sont
-        définis par la norme UNIMARC. Vous pouvez consulter la liste des
-        langues et de leurs codes en ouvrant, dans un éditeur de texte, le
-        fichier<emphasis>
-        pmb/includes/marc_tables/fr_FR/lang.xml</emphasis></para>
+        <para>idioma. Por defecto está especificado el valor <emphasis role="bold">fre</emphasis>,
+        para <emphasis role="bold">Francés</emphasis>. Los códigos de idiomas están fijados
+		según la norma UNIMARC. Puede consultar la lista de idiomas y sus códigos abriendo, 
+		a través de un editor de texto, el archivo<emphasis>
+        pmb/includes/marc_tables/es_ES/lang.xml</emphasis></para>
       </listitem>
 
       <listitem>
-        <para>fonction auteur. Par défaut fixé à <emphasis
-        role="bold">70</emphasis> pour <emphasis
-        role="bold">auteur</emphasis>. La fonction d'un auteur peut varier
-        selon l'ouvrage concerné : metteur en scène pour une cassette vidéo
-        d'une pièce de théâtre, photographe pour un recueil, auteur pour un
-        livre, ... Les fonctions des auteurs sont définies par la norme
-        UNIMARC. Vous pouvez consulter la liste des fonctions des auteurs et
-        de leurs codes en ouvrant, dans un éditeur de texte, le fichier
-        <emphasis>pmb/includes/marc_tables/fr_FR/function.xml</emphasis></para>
+        <para>función autor. Por defecto está especificado el valor <emphasis
+        role="bold">70</emphasis> para <emphasis
+        role="bold">autor</emphasis>. La función de un autor puede variar según la obra : 
+		director de escena para un video o dvd de una obra de teatro, fotógrafo para una selección, autor para una 
+		monografía, ... Las funciones de los autores son definidas según la norma UNIMARC. 
+		Puede consultar la lista de funciones de autores y sus códigos correspondientes abriendo, a través de un editor
+		de texto, el archivo <emphasis>pmb/includes/marc_tables/es_ES/function.xml</emphasis></para>
       </listitem>
     </itemizedlist>
   </sect1>
