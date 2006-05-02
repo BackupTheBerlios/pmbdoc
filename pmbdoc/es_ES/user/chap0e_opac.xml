@@ -1,46 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="useropac">
-  <title>Le module OPAC</title>
+  <title>El módulo OPAC</title>
 
-  <para>OPAC signifie <emphasis role="bold">O</emphasis>nline <emphasis
+  <para>OPAC significa <emphasis role="bold">O</emphasis>nline <emphasis
   role="bold">P</emphasis>ublic <emphasis role="bold">A</emphasis>ccess
-  <emphasis role="bold">C</emphasis>atalog. Le module OPAC permet aux lecteurs
-  d'effectuer une recherche dans le catalogue de la bibliothèque.</para>
+  <emphasis role="bold">C</emphasis>atalog. El módulo OPAC permite a los usuarios 
+  efectura una búsqueda en el catálogo de la biblioteca.</para>
 
-  <para>En fait, le module OPAC de PMB correspond à un WebPAC : OPAC
-  accessible via le Web.</para>
+  <para>De hecho, el módulo OPAC de PMB corresponde a un WebPAC : OPAC
+  accessble vía Web.</para>
 
-  <para>Le <emphasis>paramétrage</emphasis> de l'OPAC est décrit dans le
-  <emphasis>Guide de l'Administrateur PMB</emphasis>.</para>
+  <para>La <emphasis>parametrización</emphasis> del OPAC está descrita en la
+  <emphasis>Guía del Administrador PMB</emphasis>.</para>
 
-  <para>L'OPAC peut être séparé de l'interface de gestion de PMB, et placé sur
-  un serveur séparé. Pour plus d'informations sur l'installation de l'OPAC
-  consulter le <emphasis>Guide d'Installation PMB</emphasis>.</para>
+  <para>El OPAC puede separarse de la interficie de gestión de PMB, y situarse en un servidor separado. 
+  Para más información sobre la instalación del OPAC
+  consulte la <emphasis>Guía de Instalación PMB</emphasis>.</para>
 
-  <para><emphasis role="bold">Note</emphasis> ce chapitre ne constitue pas
-  l'aide de l'OPAC, mais uniquement un rapide aide-mémoire. Un <emphasis>Guide
-  de l'OPAC de PMB </emphasis>est en préparation.</para>
+  <para><emphasis role="bold">Nota</emphasis> este capítulo no es una ayuda sobre cómo utilizar el OPAC, 
+  sino sólo un rápido resumen. Actualmente se está preparando una <emphasis>Guía del OPAC de PMB </emphasis>.</para>
 
   <sect1 id="useropac_access">
-    <title>Accès à l'OPAC</title>
+    <title>Acceso al PAC</title>
 
-    <para>Le catalogue OPAC du centre documentaire géré par PMB sera
-    accessible par défaut à l'adresse internet suivante :</para>
+    <para>El OPAC del centro de documentación generado por PMB estará accesible
+	por defecto en la dirección de internet siguiente :</para>
 
-    <para><emphasis role="bold">[v1.3 à 2.1]</emphasis> <emphasis
+    <para><emphasis role="bold">[v1.3 a 2.1]</emphasis> <emphasis
     role="bold">http://localhost/pmb/opac_css</emphasis></para>
 
-    <para><emphasis role="bold">[v1.0 à 1.2]</emphasis>
+    <para><emphasis role="bold">[v1.0 a 1.2]</emphasis>
     http://localhost/phpmybibli/opac_css</para>
 
     <para><emphasis role="bold">[pre-v1]</emphasis>
     http://localhost/phpmybibli/opac</para>
 
-    <para>Cependant, pour les autres postes connectés en réseau local, il
-    faudra remplacer <emphasis>localhost</emphasis> par le nom réseau du
-    serveur PMB.</para>
+    <para>Es necesario reemplazar el valor <emphasis>localhost</emphasis> por el nombre 
+	del servidor dónde está instalado PMB.</para>
 
-    <para>Pour obtenir ce nom sous Windows, cliquez droit sur <emphasis>Poste
+    <para>Para obtener el nombre del servidor local en Windows, haga clic sobre <emphasis>Poste
     de travail </emphasis>puis choisissez <emphasis>Identification
     réseau</emphasis>. Vous obtiendrez ainsi le nom de la machine sur le
     réseau local.</para>
