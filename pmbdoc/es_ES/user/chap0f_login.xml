@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="gestion">
-  <title id="login">Accueil et interface de gestion</title>
+  <title id="login">Inicio e interficie de gestión</title>
 
   <sect1 id="gestion_login">
-    <title>Identification, utilisateur et mot de passe</title>
+    <title>Identificación, usuario y contraseña</title>
 
-    <para>Lorsque vous lancez PMB vous arrivez sur un écran qui vous demande
-    un nom d'utilisateur et un mot de passe.</para>
+    <para>Una vez instalado PMB, se muestra una pantalla en la que se pide que
+    te identifiques con un nombre de usuario y una contraseña.</para>
 
-    <para>Ce mot de passe et ce nom d'utilisateur ont été définis par votre
-    administrateur. Si vous êtes l'administrateur informatique de la
-    médiathèque ou du centre de documentation où est installé PMB, consultez
-    le <emphasis>Guide de l'Administrateur </emphasis>de PMB à la section
-    <emphasis>Utilisateurs et droits</emphasis>.</para>
+    <para>Este nombre de usuario y contraseña deben son definidos por el
+    administrador del programa. Si eres el administrador informático de la
+    mediateca o centro de documentación donde está instalado PMB, consulta la
+    <emphasis>Guía del Administrador </emphasis>de PMB en la sección
+    <emphasis>Usuaris y privilegios</emphasis>.</para>
 
     <figure>
-      <title>écran de connexion</title>
+      <title>pantalla de conexión</title>
 
       <mediaobject>
         <imageobject>
@@ -24,15 +24,16 @@
       </mediaobject>
     </figure>
 
-    <para>Par défaut, si aucun compte utilisateur n'a été créé, connectez vous
-    avec nom d'utilisateur <emphasis>admin</emphasis> ; mot de passe
-    <emphasis>admin</emphasis>.</para>
+    <para>Por defecto, ni no se ha creado ninguna cuenta de usuario, puedes
+    conectarte con el nombre de usuario <emphasis>admin</emphasis> ; y la
+    contraseña <emphasis>admin</emphasis>.</para>
 
-    <para>Vous pouvez voir en haut à gauche deux onglets : Gestion et OPAC. Si
-    vous cliquez sur OPAC, l'OPAC sera affiché.</para>
+    <para>En esta pantalla se muestran en la parte superior derecha dos
+    pestañas : Gestión y OPAC. Si haces clic sobre OPAC, se mostrará el
+    OPAC.</para>
 
     <figure>
-      <title>écran de licence</title>
+      <title>pantalla de licencia</title>
 
       <mediaobject>
         <imageobject>
@@ -41,24 +42,23 @@
       </mediaobject>
     </figure>
 
-    <para>Une fois connecté, la licence d'utilisation de PMB (licence cecill)
-    est affichée.</para>
+    <para>Una vez conectado como usuario, lo primero que se muestra es la
+    licencia de uso de PMB (licencia cecill).</para>
   </sect1>
 
   <sect1 id="gestion_changepass">
-    <title>Modifier son mot de passe</title>
+    <title>Modificar la contraseña</title>
 
-    <para>Les <emphasis role="bold">préférences de l'utilisateur</emphasis>
-    sont accessibles à tout moment par le lien <emphasis
-    role="bold">préf</emphasis>. disponible en haut à droite de l'écran
-    (rappel : utilisateur désigne ici le "bibliothécaire" qui a accès à
-    l'interface de gestion de PMB). Pour plus d'informations voir <xref
+    <para>Las <emphasis role="bold">preferencias del usuario</emphasis> están
+    accesibles en todo momento a través del enlace <emphasis
+    role="bold">pref</emphasis>. disponible en la parte superior derecha de la
+    pantalla (nota : se define como usuario al "bibliotecario" que tiene
+    acceso a la interficie de gestión de PMB). Para más información ver <xref
     linkend="prefs" />.</para>
 
-    <para>Vous pouvez modifer votre mot de passe depuis les préférences
-    utilisateurs, ou demander à votre administrateur PMB de le changer pour
-    vous. Pour plus d'informations sur l'édition des utilisateurs en
-    administration, consulter le <emphasis>Guide de l'Administrateur
-    PMB</emphasis>.</para>
+    <para>Puedes modificar tu contraseña a partir de las preferencias de
+    usuario, o pidiéndole a tu administrador de PMB que te la cambie él por
+    ti. Para más información sobre la edición de los usuarios, consulta la
+    <emphasis>Guía del Administrador PMB</emphasis>.</para>
   </sect1>
 </chapter>
