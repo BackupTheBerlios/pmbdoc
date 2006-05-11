@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="circ">
-  <title>Circulation des ouvrages</title>
+  <title>Circulación de los documentos</title>
 
-  <para>La circulation des ouvrages dans une bibliothèques désigne la gestion
-  des exemplaires que possède la bibliothèque et leur communication aux
-  lecteurs. On parle souvent également d'opérations de prêt.</para>
+  <para>La circulación de los documentos de una biblioteca hace referencia al
+  control de los ejemplares y a la comunicación que se establece entre la
+  biblioteca y sus usuarios. Cuando hablamos de circulación también hablamos
+  de préstamo.</para>
 
-  <para>Le menu latéral de l'onglet circulation présente 4 rubriques :
-  Circulation, Visualisation, Réservation et Relances (cette dernière
-  uniquement si la Gestion Financière des lecteurs est activée, pour plus
-  d'infos consulter le Guide de l'Administrateur, rubrique Gestion
-  Financière).</para>
+  <para>El menú laterial de la pestaña de circulación presenta 4 categorías :
+  Circulación, Visualización, Reserva y Renovaciones (éste último sólo se
+  muestra si la Gestión Financiera de los usuarios está activada, para más
+  información consulta la Guía del Administrador, apartado Gestión
+  Financiera).</para>
 
-  <para>Dans la partie Circulation vous pouvez gérer les lecteurs et les
-  prêts.</para>
+  <para>En la parte de Circulación puedes crear nuevos usuarios y hacer
+  préstamos.</para>
 
-  <para>La partie Visualisation affiche des informations sur les documents de
-  la bibliothèque.</para>
+  <para>La parte Visualización muestra información sobre los documentos de la
+  biblioteca.</para>
 
-  <para>La partie Réservation sert à gérer les réservations que font les
-  lecteurs.</para>
+  <para>La parte Reserva sirve para crear i administrar las reservas de
+  documentos.</para>
 
-  <para>La partie Relances vous permet de gérer le niveau de relances de vos
-  lecteurs pour leurs retards.</para>
+  <para>La parte Renovaciones permite administrar las renovaciones de los
+  usuarios según sus retrasos.</para>
 
   <sect1 id="circ_circ">
-    <title>Circulation</title>
+    <title>Circulación</title>
 
     <sect2 id="circ_pret">
-      <title>Prêt de document</title>
+      <title>Préstar un documento</title>
 
-      <para>Le prêt de document est très simple et peut être intégralement
-      réalisé à l'aide d'une douchette. Il suffit de saisir d'abord le code
-      barre de la carte du lecteur, puis celui des ouvrages empruntés. La
-      douchette remplace la saisie du code barre et la frappe sur la touche
-      "entrée" du clavier.</para>
+      <para>Prestar un documento es muy fácil y se puede realizar con la ayuda
+      de un lector de códigos de baras. Primero hay que introducir el número
+      de carnet del usuario (código de barras), y luego introducir los números
+      de los ejemplares que se quieren prestar. El lector de códigos de barras
+      lee automáticamente los códigos de barras y los introduce
+      directamente.</para>
 
-      <para>Il faut naturellement avoir déjà des ouvrages et des lecteurs
-      saisis dans la base pour permettre le prêt.</para>
+      <para>Lo único necesario es haber introducido previamente al usuario y
+      los ejemplares para poder realizar el préstamo.</para>
 
       <sect3 id="circ_pret_1">
-        <title>Recherche d'emprunteur</title>
+        <title>Buscar usuario</title>
 
-        <para>La création de lecteur et de leur carte est expliquée plus
-        loin.</para>
+        <para>La explicación sobre cómo crear un usuario y su carnet se
+        explica un poco más abajo.</para>
 
         <figure>
-          <title>Circulation &gt; Prêt de documents</title>
+          <title>Circulación &gt; Préstamo de documentos</title>
 
           <mediaobject>
             <imageobject>
@@ -57,24 +59,23 @@
       </sect3>
 
       <sect3 id="circ_pret_2">
-        <title>Résultat de recherche</title>
+        <title>Resultados de la búsqueda</title>
 
-        <para><emphasis role="bold">Exemple</emphasis> prêtons
-        <emphasis>Rwanda : un peuple avec une histoire</emphasis>, par
-        <emphasis>C. M. Overdulve</emphasis>, à notre lecteur <emphasis>Luke
-        Skywalker </emphasis>(code barre de la carte de lecteur
-        100003).</para>
+        <para><emphasis role="bold">Ejemplo</emphasis> prestamos
+        <emphasis>Rwanda : un peuple avec une histoire</emphasis>, de
+        <emphasis>C. M. Overdulve</emphasis>, a nuestro usuario <emphasis>Luke
+        Skywalker </emphasis>(código de barras 100003).</para>
 
-        <para>Son code barre est saisi ou lu par la douchette pour identifier
-        l'emprunteur.</para>
+        <para>El código de barras del usuario puede introducirse manualmente o
+        a través del lector de códigos de barras.</para>
 
-        <para>On peut également saisir tout ou partie du nom du lecteur pour
-        le sélectionner dans une liste. Ici contentons nous de saisir la
-        lettre "s" pour Skywalker.</para>
+        <para>También se puede introducir parte o todo el apellido del usuario
+        para seleccionarlo de una lista. En este ejemplo hemos introducido
+        solamente la letra "s" para Skywalker.</para>
 
         <figure>
-          <title>Circulation &gt; Prêt (résultats d'une recherche de
-          lecteurs)</title>
+          <title>Circulación &gt; Préstamo (resultados de una búsqueda de
+          usuarios)</title>
 
           <mediaobject>
             <imageobject>
@@ -83,15 +84,15 @@
           </mediaobject>
         </figure>
 
-        <para>Cliquez dans la liste des résultats de la recherche sur le
-        lecteur Skywalker.</para>
+        <para>Haz clic en la lista de resultados para seleccionar al usaurio
+        Skywalker.</para>
       </sect3>
 
       <sect3 id="circ_lecteur">
-        <title>Fiche lecteur</title>
+        <title>Ficha del usuario</title>
 
         <figure>
-          <title>Circulation &gt; Prêt (fiche lecteur)</title>
+          <title>Circulación &gt; Préstamo (ficha usuario)</title>
 
           <mediaobject>
             <imageobject>
@@ -100,15 +101,15 @@
           </mediaobject>
         </figure>
 
-        <para>Le code barre d'un exemplaire de Rwanda est
+        <para>El código de barras del ejemplar de Rwanda es
         33700003286792.</para>
 
-        <para>Il suffit de saisir ce code barre dans le champ "nouveau prêt"
-        pour effectuer le prêt. Saisissez le code barre et validez. Le prêt
-        est alors ajouté dans la liste des prêts en cours.</para>
+        <para>Para crear el préstamo, introduce el código de barras en el
+        campo "Hacer un préstamo". El préstamo se añadirá a la lista de
+        préstamos actuales.</para>
 
         <figure>
-          <title>Circulation &gt; Prêt, prêt ajouté</title>
+          <title>Circulación &gt; Préstamo, préstamo realizado</title>
 
           <mediaobject>
             <imageobject>
@@ -117,16 +118,17 @@
           </mediaobject>
         </figure>
 
-        <para>Vous pouvez alors annuler le prêt à la volée (dans ce cas, le
-        prêt n'est pas comptabilisé en statistiques, contrairement à un prêt
-        suivi d'un retour même immédiat).</para>
+        <para>El programa ofrece también la posibilidad de cancelar el
+        préstamo (hay que tener en cuenta que en este caso el préstamo no se
+        contabiliza en las estadísticas, contrariamente a un préstamo que a
+        continuación de prestarse es devuelto).</para>
 
-        <para>Vous pouvez également imprimer un ticket de prêt. Il s'agit d'un
-        fichier PDF généré par PMB. Sous Windows, le bouton imprimer le ticket
-        de prêt lance le plugin d'affichage Acrobat et affiche un ticket de
-        prêt imprimable mentionnant le lecteur, l'exemplaire emprunté et la
-        date de retour prévue. Il suffit alors de cliquer sur l'icône
-        "imprimer" d'Acrobat pour imprimer ce ticket de prêt.</para>
+        <para>El programa permite también imprimir un comprobante de
+        pre´stamo. En este caso se genera un archivo PDF generado por PMB.
+        Bajo Windows, el botón de imprimir el comprobante inicia el pluginde
+        mostrar al usuario el comprobante para poderlo visualizar y imprimir.
+        Para imprimirlo hay que hacer clic sobre el icono "imprimir" de
+        Acrobat.</para>
 
         <para>Le lancement d'Acrobat pour visionner le ticket de prêt peut
         être parfois lent selon votre machine. Dans ce cas, prenez votre mal
