@@ -123,19 +123,20 @@
         contabiliza en las estadísticas, contrariamente a un préstamo que a
         continuación de prestarse es devuelto).</para>
 
-        <para>El programa permite también imprimir un comprobante de
-        pre´stamo. En este caso se genera un archivo PDF generado por PMB.
-        Bajo Windows, el botón de imprimir el comprobante inicia el pluginde
-        mostrar al usuario el comprobante para poderlo visualizar y imprimir.
-        Para imprimirlo hay que hacer clic sobre el icono "imprimir" de
+        <para>El programa permite también imprimir un comprobante de préstamo.
+        En este caso se genera un archivo PDF generado por PMB. Bajo Windows,
+        el botón de imprimir el comprobante inicia el pluginde mostrar al
+        usuario el comprobante para poderlo visualizar y imprimir. Para
+        imprimirlo hay que hacer clic sobre el icono "imprimir" de
         Acrobat.</para>
 
-        <para>Le lancement d'Acrobat pour visionner le ticket de prêt peut
-        être parfois lent selon votre machine. Dans ce cas, prenez votre mal
-        en patience ou lancez Acrobat à l'avance.</para>
+        <para>El inicio de Acrobat para visualizar el comprobante de préstamo
+        puede ser más o menos lento, dependiendo del funcionamiento de tu
+        ordenador. En los casos que este proceso sea lento, ten paciencia o
+        inicia Acrobat con antelación.</para>
 
         <figure>
-          <title>Exemple d'un ticket de prêt.</title>
+          <title>Ejemplo de un comprobante de préstamo.</title>
 
           <mediaobject>
             <imageobject>
@@ -144,14 +145,14 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">Note</emphasis> Si votre ouvrage possède
-        un statut particulier interdisant le prêt, mais que cette interdiction
-        peut être levée, PMB vous demande alors si vous voulez forcer le prêt
-        ou non.</para>
+        <para><emphasis role="bold">Nota</emphasis> Si el documento que vas a
+        prestar tiene algún estado especial que no permite el préstamo, pero
+        que sí permite forzar el préstamo, PMB te preguntará si quieres
+        realizar el préstamo o no.</para>
 
         <figure>
-          <title>Exemplaire exclu du pret : possibilité de forcer le
-          prêt</title>
+          <title>Ejemplar excluído de préstamo : posibilidad de forzar el
+          préstamo</title>
 
           <mediaobject>
             <imageobject>
@@ -160,20 +161,21 @@
           </mediaobject>
         </figure>
 
-        <para>Dans notre exemple, les paramètres de la bibliothèque (nom,
-        adresse, logo) sont configurés pour la Bibliothèque de Bueil. Ces
-        paramètres sont configurables dans l'onglet administration. Pour plus
-        d'informations, consulter le <emphasis>Guide de l'Administrateur de
-        PMB</emphasis>, section <emphasis>Outils</emphasis>.</para>
+        <para>En nuestro ejemplo, los datos de la biblioteca (nombre,
+        dirección, logo) están configurados para la Bibliothèque de Bueil.
+        Estos datos se configuran desde el apartado de administración. Para
+        más información, consulta la <emphasis>Guía del Administrador de
+        PMB</emphasis>, sección <emphasis>Herramientas</emphasis>.</para>
 
-        <para>Autres opérations réalisables depuis la fiche lecteur :</para>
+        <para>En la ficha de usuario se pueden realizar otras
+        operaciones:</para>
 
         <itemizedlist>
           <listitem>
-            <para>Réaliser un prêt express</para>
+            <para>Realizar un préstamo rápido</para>
 
             <figure>
-              <title>Bouton Prêt express</title>
+              <title>Botón Préstamo rápido</title>
 
               <mediaobject>
                 <imageobject>
@@ -182,12 +184,13 @@
               </mediaobject>
             </figure>
 
-            <para>Le prêt express permet de prêter des ouvrages non
-            catalogués. Cliquez sur Prêt express pour saisir les informations
-            nécessaires au prêt d'un ouvrage non catalogué.</para>
+            <para>El préstamo rápido permite prestar de forma rápida
+            documentos que no están catalogados. Haz clic sobre Préstamo
+            rápido para introducir los datos necesarios para poder prestar un
+            documento no catalogado.</para>
 
             <figure>
-              <title>Prêt express</title>
+              <title>Préstamo rápido</title>
 
               <mediaobject>
                 <imageobject>
@@ -196,27 +199,28 @@
               </mediaobject>
             </figure>
 
-            <para>Saisissez un titre et un ISBN. Définissez un type de
-            document (pour pouvoir gérer les durées de prêt et les éventuels
-            quotas).</para>
+            <para>Introduce un título y un ISBN. Define un tipo de documento
+            (para poder aplicar de forma correcta la duración del préstamo y
+            otras cuotas eventuales).</para>
 
-            <para>Ensuite douchettez votre code barre d'exemplaire, ou
-            saisissez le et validez.</para>
+            <para>Después lee con el lector de códigos el código de barras, o
+            introducelo manualmente y haz clic sobre Crear registro y
+            prestar.</para>
 
-            <para>Vous pourrez ensuite rechercher cet ouvrage et en compléter
-            le catalogage.</para>
+            <para>Posteriormente podrás buscar el documento y completar la
+            catalogación.</para>
           </listitem>
 
           <listitem>
-            <para>Modifier les données du lecteur (permet également de
-            renouveler l'inscription), voir créer un lecteur plus loin.</para>
+            <para>Modificar los datos del usuario (permite también renovar el
+            abono del usuario), ver crear un usuario un poco más abajo.</para>
 
-            <para>Pour modifier les données du lecteur, cliquez sur le bouton
-            <emphasis>modifier</emphasis>.</para>
+            <para>Para modificar los datos del usuario, haz clic sobre
+            <emphasis>modificar</emphasis>.</para>
           </listitem>
 
           <listitem>
-            <para>Prolonger un prêt existant</para>
+            <para>Prolongar un préstamo</para>
 
             <para>Pour prolonger un prêt, cliquez sur le bouton de la date de
             retour. Dans le popup calendrier qui est ensuite ouvert, choisir
