@@ -289,22 +289,22 @@
       </sect3>
 
       <sect3>
-        <title>Fiche lecteur avec la gestion financière</title>
+        <title>Ficha de usuario con gestión financiera</title>
 
-        <para>L'activation de la gestion financière affiche l'état des comptes
-        du lecteur sous ses informations personnelles.</para>
+        <para>La activación de la gestión financiera muestra el estado de las
+        cuentas del usuario y su información personal.</para>
 
         <para><inlinemediaobject>
             <imageobject>
               <imagedata fileref="images/warning.gif" />
             </imageobject>
-          </inlinemediaobject> Si vous ne voyez pas la liste des trois
-        comptes, la gestion financière des lecteurs n'a pas été activée. Pour
-        plus d'informations, consulter le Guide de l'Administrateur PMB,
-        chapitre Gestion financière des lecteurs.</para>
+          </inlinemediaobject> Si no ves la lista de las tres cuentas, es que
+        la gestión financiera de los usuarios no está activada. Para más
+        información, consulta la Guía del administrador PMB, capítulo Gestión
+        financiera de los usuarios.</para>
 
         <figure>
-          <title>Fiche lecteur avec la liste des comptes</title>
+          <title>Ficha de usuario con la lista de cuentas</title>
 
           <mediaobject>
             <imageobject>
@@ -313,30 +313,30 @@
           </mediaobject>
         </figure>
 
-        <para>Pour plus d'informations sur la gestion financière des lecteurs,
-        consultez plus loin la section Prêt de documents et gestion
-        financière.</para>
+        <para>Para más información sobre la gestión financiera de los
+        usuarios, consulta un poc más abajo la sección Préstamo de documentos
+        y gestión financiera.</para>
       </sect3>
     </sect2>
 
     <sect2 id="pret_gesfin">
-      <title>Prêt de documents et gestion financière</title>
+      <title>Préstamo de documentos y gestión financiera</title>
 
-      <para>Pour plus d'informations sur le paramétrage de la gestion
-      financière des lecteurs dans PMB, consulter le Guide de l'administrateur
-      PMB, chapitre <emphasis>Gestion financière</emphasis>.</para>
+      <para>Para más información sobre la parametrización de la gestión
+      financiera de los usuarios en PMB, consulta la Guía del administrador
+      PMB, capítulo <emphasis>Gestión financiera</emphasis>.</para>
 
       <sect3>
-        <title>Création d'un lecteur et débit du compte du lecteur du montant
-        de l'abonnement</title>
+        <title>Creación de un usuario y gestión financiera de la cuenta de
+        usuario </title>
 
-        <para>Si vous créez un nouveau lecteur adulte, par exemple Jar-Jar
-        Bings, et que vous avez fixé un tarif d'adhésion pour le type de
-        lecteur "adulte", à la création de ce lecteur, son compte adhésion
-        sera débité du montant correspondant.</para>
+        <para>Si creas un nuevo usuario adulto, por ejemplo Jar-Jar Bings, y
+        has fijado una tarifa de inicio para el tipo de usuario"adulto",
+        cuando crees a este usuario, su cuenta se iniciará debiendo ese
+        importe.</para>
 
         <figure>
-          <title>Création d'un nouveau lecteur</title>
+          <title>Creación de un nuevo usuario</title>
 
           <mediaobject>
             <imageobject>
@@ -345,12 +345,12 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">En bref</emphasis> Pour plus
-        d'informations sur la création des lecteurs, consulter dans ce
-        chapitre la section <emphasis>Nouveau lecteur</emphasis>.</para>
+        <para><emphasis role="bold">Próximamente</emphasis> Para más
+        información sobre la creación de usuarios, consulta en este capítulo
+        la sección<emphasis>Nuevo usuario</emphasis>.</para>
 
         <figure>
-          <title>Fiche lecteur</title>
+          <title>Ficha usuario</title>
 
           <mediaobject>
             <imageobject>
@@ -359,9 +359,9 @@
           </mediaobject>
         </figure>
 
-        <para>Le compte abonnement du lecteur créé est débité du montant de
-        l'adhésion. Pour saisir le paiement de l'adhésion, cliquez sur
-        <emphasis role="bold">Solde abonnement</emphasis>.</para>
+        <para>La cuenta de usuario se crea debiendo la cantidad del importe
+        inicial. Para realizar el pago, haz clic sobre <emphasis
+        role="bold">Solde abonnement</emphasis>.</para>
       </sect3>
 
       <sect3 id="solde_abonnement">
@@ -377,8 +377,8 @@
           </mediaobject>
         </figure>
 
-        <para>Si le compte du lecteur est négatif, différentes opérations sont
-        réalisables :</para>
+        <para>Si la cuenta de usuario es negativa, se pueden realizar
+        diferentes operaciones :</para>
 
         <itemizedlist>
           <listitem>
@@ -495,16 +495,16 @@
       </sect3>
 
       <sect3>
-        <title>Retour de document en retard : blocage de prêt et
-        amendes</title>
+        <title>Devolución de un documento con retraso: bloqueo del préstamo y
+        multas</title>
 
-        <para>Lors du retour d'un document en retard, selon le paramétrage
-        réalisé dans l'onglet Administration, un blocage du prêt pour le
-        lecteur peut être réalisé. De même selon vos paramètres, des amendes
-        peuvent être octroyées.</para>
+        <para>Al devolver un documento con retraso, según los parámetros
+        introducidos en la pestaña Administración, el usuario puede quedar
+        automáticamente bloqueado. Dependiendo también de los parámetros
+        introducidos, pueden activarse las multas.</para>
 
-        <para>Le paiement se gère comme pour toutes les autres transactions
-        depuis la fiche du lecteur.</para>
+        <para>El pago se realiza como el resto de transacciones, a través de
+        la ficha de usuario.</para>
       </sect3>
 
       <sect3>
@@ -518,13 +518,13 @@
     </sect2>
 
     <sect2 id="circ_retour">
-      <title>Retour de document</title>
+      <title>Devolución de un documento</title>
 
-      <para>Douchetter le code barre du document retourné. La carte de lecteur
-      n'est pas nécessaire.</para>
+      <para>Para hacer el retorno de un libro sólo es necesario introducir el
+      código de barras. No se necesita el carné de usuario. .</para>
 
       <figure>
-        <title>Circulation &gt; Retour de documents</title>
+        <title>Circulación &gt; Retorno de documentos</title>
 
         <mediaobject>
           <imageobject>
@@ -533,13 +533,14 @@
         </mediaobject>
       </figure>
 
-      <para>Un message de confirmation est affiché pour permettre de vérifier
-      éventuellement que le code barre correspond bien à l'ouvrage
-      rendu.</para>
+      <para>Cuando se realiza un retorno, se muestra un mensaje de
+      confirmación para verificar que la devolución se ha hecho de forma
+      correcta y que el código de barras introducido corresponde a la obra en
+      cuestión.</para>
 
       <figure>
-        <title>Circulation &gt; Retour de documents, confirmation d'un retour
-        effectué</title>
+        <title>Circulación &gt; Retorno de documentos, confirmación
+        realizada</title>
 
         <mediaobject>
           <imageobject>
@@ -548,56 +549,56 @@
         </mediaobject>
       </figure>
 
-      <para>Cet affichage donne le nom du lecteur qui a rendu l'ouvrage.
-      Celui-ci est un lien qui permet d'accéder à sa fiche lecteur. Par
-      exemple pour ensuite saisir ses prêts.</para>
+      <para>Esta pantalla muestra el nombre del usuario que ha devuelto el
+      documento. Desde aquí se puede acceder directamente a la la ficha del
+      usuario. Ésto es útil cuando después de devolver libros se quiere volver
+      a coger libros en préstamo.</para>
 
-      <para>Sont également affichés :</para>
+      <para>También se muestran :</para>
 
       <itemizedlist>
         <listitem>
-          <para>le type d'exemplaire, la localisation, la section et la cote
-          de l'exemplaire</para>
+          <para>el tipo de ejemplar, la localización, la sección y la
+          signatura del ejemplar</para>
         </listitem>
 
         <listitem>
-          <para>si le retour est en retard, le nombre de jours de
-          retard</para>
+          <para>si el retorno va con retraso, el número de días de
+          retraso</para>
         </listitem>
 
         <listitem>
-          <para>le nom de l'emprunteur précédent de l'ouvrage</para>
+          <para>el nombre del usuario anterior que cogió el documento en
+          préstamo</para>
         </listitem>
 
         <listitem>
-          <para>le message de l'exemplaire, le cas échéant</para>
+          <para>el mensaje de ejemplar, en caso que tenga</para>
         </listitem>
 
         <listitem>
-          <para>les réservations éventuelles</para>
+          <para>si tiene reservas </para>
         </listitem>
       </itemizedlist>
 
-      <para>La fiche de lecteur est également affichée et permet de réaliser à
-      la volée un certain nombre d'opérations : prolonger un prêt ou placer
-      une réservation par exemple. Pour plus d'informations, consulter la
-      section Fiche de lecteur plus haut.</para>
+      <para>La ficha de usuario también se muestra y permite realizar algunas
+      operaciones: renovar un préstamo o realizar una reserva por ejemplo.
+      Para más información, consulta la sección Ficha de usuario un poco más
+      arriba.</para>
 
-      <para>Des amendes financières ainsi que des suspensions de prêts peuvent
-      être octroyées à des lecteurs. Pour plus d'informations, consulter le
-      Guide de l'Administration de PMB, chapitre Gestion financière des
-      lecteurs.</para>
+      <para>Pueden también gestionarse las multas económicas y la suspensión
+      del préstamo. Para más información, consulta la Guía de administración
+      de PMB, capítulo Gestión económica de los usuarios.</para>
     </sect2>
 
     <sect2 id="circ_groups">
-      <title>Groupes de lecteurs</title>
+      <title>Grupos de usuario</title>
 
-      <para>La fonctionnalité <emphasis>Groupes de lecteurs</emphasis> permet
-      à PMB de satisfaire aux gestionnaires documentaires qui veulent gérer
-      leurs lecteurs par groupes : classes, familles, etc.</para>
+      <para>La función <emphasis>Grupos de usuario</emphasis> permite la
+      gestión de los usuarios por grupos : clases, familias, etc.</para>
 
       <figure>
-        <title>Circulation &gt; Groupe de lecteurs</title>
+        <title>Circulación &gt; Grupos de usuario</title>
 
         <mediaobject>
           <imageobject>
@@ -608,10 +609,10 @@
     </sect2>
 
     <sect2 id="circ_emprcreate">
-      <title>Nouveau lecteur</title>
+      <title>Nuevo usuario</title>
 
       <sect3 id="circ_emprcreate_1">
-        <title>Code barre pour le nouveau lecteur</title>
+        <title>Código de barras para el nuevo usuario</title>
 
         <para>Vous devez saisir un code barre lorsque vous créez un nouveau
         lecteur. Si le paramètre <emphasis>pmb.num_carte_auto</emphasis> est
