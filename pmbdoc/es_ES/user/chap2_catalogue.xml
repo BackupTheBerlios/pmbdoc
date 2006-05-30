@@ -2,13 +2,15 @@
 <chapter id="cat">
   <title>Catálago</title>
 
-  <para>La catalogación hace referencia a las diferentes acciones que se realizan con a los documentos 
-  para crear un catálogo que permitirá buscar, generar préstamos, editar estadísticas, ...</para>
+  <para>La catalogación hace referencia a las diferentes acciones que se
+  realizan con a los documentos para crear un catálogo que permitirá buscar,
+  generar préstamos, editar estadísticas, ...</para>
 
-  <para><emphasis role="bold">Nota </emphasis>En todo momento, dentro del apartado Catálogo, 
-  cuando se visualiza el icono de cesta, usted puede añadir un elemento (registro, ejemplar o número de revista) a 
-  una cesta haciendo clic sobre el icono <graphic fileref="images/basket_small.gif" /> Para más información, 
-  ver <xref linkend="cat_caddies" />.</para>
+  <para><emphasis role="bold">Nota </emphasis>En todo momento, dentro del
+  apartado Catálogo, cuando se visualiza el icono de cesta, usted puede añadir
+  un elemento (registro, ejemplar o número de revista) a una cesta haciendo
+  clic sobre el icono <graphic fileref="images/basket_small.gif" /> Para más
+  información, ver <xref linkend="cat_caddies" />.</para>
 
   <sect1 id="cat_ouvrages">
     <title>Documentos</title>
@@ -16,11 +18,11 @@
     <sect2 id="cat_search">
       <title>Búsqueda</title>
 
-      <para>La búsqueda afecta a todos los registros de PMB :
-      monografías, registros de publicaciones periódicas, registros de artículos.</para>
+      <para>La búsqueda afecta a todos los registros de PMB : monografías,
+      registros de publicaciones periódicas, registros de artículos.</para>
 
-      <para>PMB permite usar operadores booleanos en la búsqueda. Para más información, ver <xref
-      linkend="exp_bool" />.</para>
+      <para>PMB permite usar operadores booleanos en la búsqueda. Para más
+      información, ver <xref linkend="exp_bool" />.</para>
 
       <sect3 id="cat_search_tit">
         <title>Autor/título</title>
@@ -28,13 +30,13 @@
         <sect4>
           <title>Búsqueda por título</title>
 
-          <para>Voici l'écran qui vous apparaît lorsque vous cliquez sur
-          l'onglet catalogage. Il permet d'effectuer une recherche et est
-          constamment accessible dans ce module par un clic sur "rechercher"
-          dans le menu latéral.</para>
+          <para>Esta es la pantalla que aparece al hacer clic sobre la pestaña
+          catalogación. Permite realizar una búsqueda y está constantemente
+          accesible en este apartado al hacer clic sobre "buscar" en el menú
+          lateral.</para>
 
           <figure>
-            <title>Catalogage &gt; Ouvrages &gt; Recherche par titre</title>
+            <title>Catalogación &gt; Documentos &gt; Buscar por título</title>
 
             <mediaobject>
               <imageobject>
@@ -43,14 +45,14 @@
             </mediaobject>
           </figure>
 
-          <para>Tentons une recherche sur le titre "cat''.</para>
+          <para>Intentemos una búsqueda del título "cat''.</para>
 
-          <para>Si vous avez installé la base de test, c'est l'ouvrage
-          <emphasis>Catfish Blues</emphasis>, de <emphasis>Gérard
-          Herzhaft</emphasis>, qui est renvoyé.</para>
+          <para>Si usted tiene instalada la base de datos de prueba, será el
+          documento <emphasis>Catfish Blues</emphasis>, de <emphasis>Gérard
+          Herzhaft</emphasis>, lo que el buscador encontrará.</para>
 
           <figure>
-            <title>Résultat d'une recherche</title>
+            <title>Resultado de una búsqueda</title>
 
             <mediaobject>
               <imageobject>
@@ -59,17 +61,16 @@
             </mediaobject>
           </figure>
 
-          <para>Pour afficher plus d'informations sur un des résultats de la
-          recherche, cliquer sur le + pour déplier la notice et lister les
-          exemplaires et exemplaires numériques de l'ouvrage.</para>
+          <para>Para ver más información sobre los documentos encontrados,
+          haga clic sobre el +, se mostrará información ampliada y la lista de
+          ejemplares del documento.</para>
 
-          <para>Un clic sur le titre affiche les informations sur l'ouvrage,
-          et permet éventuellement d'apporter les modifications désirées.
-          L'écran affiché ensuite est la liste des exemplaires de
-          l'ouvrage.</para>
+          <para>Un clic sobre el título mostrará el registro y su información,
+          y permite modificarlo y añadir o editar información. La pantalla
+          siguiente mustra la lista de ejemplares del documento.</para>
 
           <figure>
-            <title>Liste des exemplaires d'un ouvrage</title>
+            <title>Lista de los ejemplares de un documento</title>
 
             <mediaobject>
               <imageobject>
@@ -78,52 +79,52 @@
             </mediaobject>
           </figure>
 
-          <para>Pour modifier la notice de l'ouvrage, cliquez sur
-          <emphasis>Modifier</emphasis>. Pour modifier un des exemplaires de
-          l'ouvrage, cliquez sur son code barre. Pour ajouter un exemplaire,
-          saisissez le <emphasis>N° de l'exemplaire </emphasis>puis cliquez
-          sur <emphasis>Ajouter un exemplaire</emphasis>. Pour ajouter un
-          document numérique, cliquez sur <emphasis>Ajouter un document
-          numérique</emphasis>. Pour plus d'informations, voir <xref
-          linkend="cat_isbd" />.</para>
+          <para>Para modificar el registro, haga clic en
+          <emphasis>Modificar</emphasis>. Para modificar algunos de los
+          ejemplares del documento, haga clic sobre su código de barras. Para
+          añadir un ejemplar, introduzca el <emphasis>N° del
+          ejemplar</emphasis> y haga clic en <emphasis>Añadir un
+          ejemplar</emphasis>. Para añadir un documento electrónico, haga clic
+          en <emphasis>Añadir un documento electrónico</emphasis>. Para más
+          información, ver <xref linkend="cat_isbd" />.</para>
 
-          <para>Les références situées en dessous de la notice concernent le
-          ou les exemplaires de l'ouvrage, leur disponibilité, etc. Un clic
-          sur le code barre de l'exemplaire permet de modifier
-          l'exemplaire.</para>
+          <para>Las referencias situadas debajo del registro hacen referencia
+          a los ejemplares del documento, su disponibilidad, ubicación, etc.
+          Un clic sobre el código de barras del ejemplar, permite modificar el
+          ejemplar.</para>
         </sect4>
 
         <sect4>
-          <title>Recherche par auteur, par ISBN, EAN ou numéro
-          d'exemplaire</title>
+          <title>Búsqueda por autor, ISBN, DL o número de ejemplar</title>
 
-          <para>La <emphasis role="bold">Recherche par auteur</emphasis>
-          fonctionne de la même manière que la recherche par titre.</para>
+          <para>La <emphasis role="bold">Búsqueda por autor</emphasis>
+          funciona de la misma manera que la búsqueda por título.</para>
 
-          <para>Vous pouvez également chercher un ouvrage par son ISBN, son
-          code barre commercial (EAN) ou le numéro d'un de ses
-          exemplaires.</para>
+          <para>También se puede realizar una búsqueda por su ISBN, el
+          Depósito Legal (DL) o el número de los ejemplares.</para>
 
-          <para>Enfin, vous pouvez affiner la recherche en la faisant porter
-          sur un type précis de document.</para>
+          <para>Finalmente puedes afinar la búsqueda escogiendo un tipo
+          concreto de documento.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_search_categ">
-        <title>Catégorie/Sujet</title>
+        <title>Categoría/Materia</title>
 
-        <para>Les catégories disponibles sont affichées (elles sont
-        modifiables dans l'onglet autorités).</para>
+        <para>Al hacer clic sobre este apartado se muestran las materias
+        disponibles (las materias se pueden modificar en la pestaña
+        autoridades).</para>
 
-        <para>Cliquez sur l'icône du dossier pour ouvrir le dossier de la
-        catégorie et afficher éventuellement les sous-catégories.</para>
+        <para>Haz clic sobre el icono de la carpeta para abrir la categoría y
+        ver posibles subcategorías.</para>
 
-        <para>Lorsque vous avez atteint la catégorie ou sous-catégorie désirée
-        cliquez sur son nom pour afficher les résultats.</para>
+        <para>Una vez ya sabes qué categoría o subcategoría te interesa, haz
+        clic sobre su nombre para ver los registros catalogados con esa
+        categoría.</para>
 
         <figure>
-          <title>Catalogage &gt; Ouvrages &gt; Recherche par
-          catégorie/sujet</title>
+          <title>Catalogación &gt; Documentos &gt; Búsqueda por
+          categoría/materia</title>
 
           <mediaobject>
             <imageobject>
@@ -134,31 +135,31 @@
       </sect3>
 
       <sect3 id="cat_search_terms">
-        <title>Termes du thésaurus</title>
+        <title>Términos del tesauro</title>
 
-        <para>La recherche par termes du thésaurus permet de naviguer entre
-        les renvois du thésaurus.</para>
+        <para>La búsqueda por términos del tesauro permite navegar entre los
+        diferentes términos .</para>
 
         <para><figure>
-            <title>Catalogage &gt; Ouvrages &gt; Recherche par termes du
-            thésaurus</title>
+            <title>Catalogación &gt; Documentos &gt; Búsqueda por términos del
+            tesauro</title>
 
             <mediaobject>
               <imageobject>
                 <imagedata fileref="images/cat_search_terms.gif" />
               </imageobject>
             </mediaobject>
-          </figure>Dans cette recherche, commencez par saisir un ou plusieurs
-        termes à chercher, par exemple <emphasis
-        role="bold">histoire</emphasis>. Les résultats de la recherche sont
-        affichés sous le forme de deux parties. La partie supérieure vous
-        renvoie les catégories correspondantes à votre recherche. Un clic sur
-        une des catégories de la partie supérieure (par exemple <emphasis
-        role="bold">histoire politique</emphasis>) vous affiche dans la partie
-        inférieure plus d'informations sur la catégorie choisie.</para>
+          </figure>En este tipo de búsqueda, empieza por escoger uno o varios
+        términos a buscar, por ejemplo <emphasis
+        role="bold">historia</emphasis>. Los resultados de la búsqueda se
+        mostrarán en dos partes. La parte superior muestra las materias
+        correspondientes a la búsqueda. Un clic sobre una de las materias de
+        la parte superior (por ejemplo <emphasis role="bold">historia
+        política</emphasis>) mostrará en la parte inferior más información
+        sobre la materia escogida.</para>
 
-        <para>En cliquant sur un des liens, vous vous déplacez de catégorie en
-        catégorie.</para>
+        <para>Haciendo clic sobre uno de los enalaces, se desplazará de una
+        materia a otra.</para>
 
         <para>Pour sélectionner une catégorie et afficher les ouvrages
         correspondants, cliquez sur l'étoile située en début de ligne <graphic
