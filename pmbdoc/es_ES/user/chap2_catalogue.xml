@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="cat">
-  <title>Catalogue</title>
+  <title>Catálago</title>
 
-  <para>Le catalogage désigne l'ensemble des techniques de constitution d'un
-  catalogue de documents de la bibliothèque qui va permettre de faire des
-  recherches, de gérer les prêts, d'éditer des statistiques, ...</para>
+  <para>La catalogación hace referencia a las diferentes acciones que se realizan con a los documentos 
+  para crear un catálogo que permitirá buscar, generar préstamos, editar estadísticas, ...</para>
 
-  <para><emphasis role="bold">Note </emphasis>A tout moment dans l'onglet
-  Catalogue, lorsque vous voyez l'icône d'un panier affichée, vous pouvez
-  ajouter un élément (notice, exemplaire, bulletin) à un panier en cliquant
-  sur l'icône <graphic fileref="images/basket_small.gif" /> Pour plus
-  d'informations, voir <xref linkend="cat_caddies" />.</para>
+  <para><emphasis role="bold">Nota </emphasis>En todo momento, dentro del apartado Catálogo, 
+  cuando se visualiza el icono de cesta, usted puede añadir un elemento (registro, ejemplar o número de revista) a 
+  una cesta haciendo clic sobre el icono <graphic fileref="images/basket_small.gif" /> Para más información, 
+  ver <xref linkend="cat_caddies" />.</para>
 
   <sect1 id="cat_ouvrages">
-    <title>Ouvrages</title>
+    <title>Documentos</title>
 
     <sect2 id="cat_search">
-      <title>Recherche</title>
+      <title>Búsqueda</title>
 
-      <para>La recherche porte sur l'ensemble des notices de PMB :
-      monographies, notices mère de périodique, notices des articles.</para>
+      <para>La búsqueda afecta a todos los registros de PMB :
+      monografías, registros de publicaciones periódicas, registros de artículos.</para>
 
-      <para>PMB permet d'utiliser des expressions booléennes comme critère de
-      recherche. Pour plus d'informations, voir <xref
+      <para>PMB permite usar operadores booleanos en la búsqueda. Para más información, ver <xref
       linkend="exp_bool" />.</para>
 
       <sect3 id="cat_search_tit">
-        <title>Auteur/titre</title>
+        <title>Autor/título</title>
 
         <sect4>
-          <title>Recherche par titre</title>
+          <title>Búsqueda por título</title>
 
           <para>Voici l'écran qui vous apparaît lorsque vous cliquez sur
           l'onglet catalogage. Il permet d'effectuer une recherche et est
