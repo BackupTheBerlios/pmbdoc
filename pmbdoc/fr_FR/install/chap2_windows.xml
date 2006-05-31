@@ -464,7 +464,8 @@
         </figure>
 
         <para>Notez bien l'adresse qui figure dans la barre d'adresse du
-        navigateur : <emphasis role="bold">http://127.0.0.1/pmb/</emphasis>.
+        navigateur : <emphasis role="bold">http://127.0.0.1/pmb/</emphasis> ou 
+		<emphasis role="bold">http://localhost/pmb/</emphasis> .
         Cette adresse permet d'accéder directement à l'application sans passer
         par le menu d'EasyPhp. Vous pouvez d'ailleurs la rajouter à vos
         favoris ou lui affecter un raccourci sur le bureau. <emphasis
@@ -523,7 +524,13 @@
         <para>Ces DLL sont disponibles dans le répertoire Program
         Files\EasyPHP\php pour une installation avec EasyPHP.</para>
 
-        <para>Il existe d'autres recommandations pour la configuration de PHP
+        <para>Pour activer ces extensions après avoir copiés les fichiers dans 
+		c:\windows\system32, cliquez avec le bouton droit de la souris sur
+		le "e" d'EasyPHP à côté de l'horloge. Cliquez sur Configuration puis Extensions PHP.
+		Cochez php_bz2, php_gd2, php_yaz et php_xml ; cliquez sur Appliquer puis OK.
+		</para>
+			
+		<para>Il existe d'autres recommandations pour la configuration de PHP
         et MySQL avec PMB (max_execution_time, ...). Pour plus d'informations,
         consulter le chapitre <emphasis role="bold">Informations importantes
         </emphasis>plus haut.</para>
