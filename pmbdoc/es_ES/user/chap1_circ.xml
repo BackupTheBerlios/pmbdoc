@@ -508,12 +508,12 @@
       </sect3>
 
       <sect3>
-        <title>Solde amendes : gérer le paiement des amendes</title>
+        <title>Cobro de multas : generar los pagos de las multas</title>
 
-        <para>Pour plus d'informations sur les différentes possibilités
-        d'actions (encaissement, décaissement, ...) consulter plus haut la
-        section <link linkend="solde_abonnement"><emphasis>Solde
-        abonnement</emphasis></link>.</para>
+        <para>Para más información sobre las diferentes posibilidades de
+        acciones (cobro, pago, ...) consulta un poco más arriba la sección
+        <link linkend="solde_abonnement"><emphasis>Saldo
+        abono</emphasis></link>.</para>
       </sect3>
     </sect2>
 
@@ -847,17 +847,16 @@
     </sect2>
 
     <sect2 id="circ_resa_docranger">
-      <title>Doc. à ranger</title>
+      <title>Doc. a colocar</title>
 
-      <para>La liste des documents à ranger présente les documents réservés,
-      qui ont normalement été sortis des rayons et réservés avec le nom du
-      lecteur, et dont la réservation a été supprimée. Les réservations sont
-      placées dans la majorité des cas au guichet d'accueil de la bibliothèque
-      ; "doc. à ranger" permet de faire le point sur les documents qui doivent
-      rejoindre les rayons.</para>
+      <para>La lista de documentos a colocar muestra los documentos
+      reservados, que están apartados, pero que la reserva ha sido suprimida.
+      Esta lista permite volver a poner en las estanterías los documentos que
+      no han venido a buscar los usuarios, o aquellos en que directamente la
+      reserva se ha suprimido.</para>
 
       <figure>
-        <title>Circulation &gt; réservations &gt; à ranger</title>
+        <title>Circulación &gt; reservas &gt; a colocar</title>
 
         <mediaobject>
           <imageobject>
@@ -869,22 +868,22 @@
   </sect1>
 
   <sect1 id="relances">
-    <title>Relances</title>
+    <title>Reclamaciones</title>
 
-    <para>La gestion avancées des relances est liée à l'utilisation de la
-    gestion financière des lecteurs. Pour plus d'informations sur l'activation
-    de la gestion financière des lecteurs, consulter le <emphasis>Guide de
-    l'Administrateur PMB</emphasis>, chapitre Gestion financière des
-    lecteurs.</para>
+    <para>La gestión avancazada de las reclamaciones está asociada al uso de
+    la gestión financera de los usuarios. Para más información sobre cómo
+    activar la gestión financiera de los usuarios, consulta la <emphasis>Guía
+    del Administrador PMB</emphasis>, capítulo Gestión financiera de los
+    usuarios.</para>
 
     <sect2 id="relances_todo">
-      <title>Relances à faire</title>
+      <title>Reclamaciones a realizar</title>
 
-      <para>Dans cet écran, vous pourrez consulter la liste des relances
-      lecteurs qui peuvent être faites.</para>
+      <para>En esta pantalla, tú puedes consultar la lista de las
+      reclamaciones a usuarios que puedes realizar.</para>
 
       <figure>
-        <title>Relances à faire</title>
+        <title>Reclamaciones a realizar</title>
 
         <mediaobject>
           <imageobject>
@@ -893,57 +892,57 @@
         </mediaobject>
       </figure>
 
-      <para>Vous pouvez imprimer les lettres de relances pour chacun des
-      lecteurs. Ces lettres ont un contenu variable suivant le niveau de
-      relance. Le niveau 2 est le plus faible niveau de relance (retard
-      léger).</para>
+      <para>Puedes imprimir las cartas de reclamaciones para cada uno de los
+      usuarios. El contenido de estas cartas varía dependiendo del nivel de
+      reclamación. En el nivel 2, el contenido de la carta es más suave que en
+      niveles más altos, cuando el retraso de los documentos es más
+      largo.</para>
 
-      <para>Lorsque l'envoi de la lettre de relance a été réalisé pour le
-      lecteur, vous pouvez changer le niveau de retard du lecteur.</para>
+      <para>Una vez has enviado la carta al usuario, puedes cambiar el nivel
+      de retraso del usuario.</para>
 
-      <para>Pour chaque lecteur, vous pouvez :</para>
+      <para>Para cada usuario, puedes :</para>
 
       <itemizedlist>
         <listitem>
-          <para>voir le code barre du lecteur, son nom, le nombre de livres en
-          retard</para>
+          <para>ver el código de barras del usuario, su nombre, el número de
+          libros que tiene en retraso</para>
         </listitem>
 
         <listitem>
-          <para>voir le dernier niveau de retard validé (correspond à la
-          lettre de relance du plus haut niveau, soit le plus petit
-          chiffre)</para>
+          <para>ver el último nivel de retraso validado (corresponde a la
+          carta de reclamación de más nivel)</para>
         </listitem>
 
         <listitem>
-          <para>voir la date de dernière validation (correspond au dernier
-          envoi d'une relance)</para>
+          <para>ver la fecha de la última validación (corresponde al último
+          envío de una reclamación)</para>
         </listitem>
 
         <listitem>
-          <para>voir le niveau supposé : il s'agit du niveau de relance que
-          PMB propose en fonction du retard des différents ouvrages</para>
+          <para>ver el nivel supuesto : es el nivel que PMB propone en función
+          del retraso de los diferentes documentos</para>
         </listitem>
 
         <listitem>
-          <para>réaliser un changement de niveau et, le cas échéant, passer en
-          recouvrement</para>
+          <para>realizar un cambio de nivel y, cuando proceda, pasar a
+          cobrar.</para>
         </listitem>
       </itemizedlist>
     </sect2>
 
     <sect2 id="relances_recouvr">
-      <title>Recouvrement</title>
+      <title>Cobros</title>
 
-      <para>Le passage en recouvrement signifie transmettre le dossier des
-      comptes à une institution qui sera chargée de la récupération, du
-      recouvrement des amendes notamment.</para>
+      <para>El apartado de cobros sirve para transmitir el estado de cuentas
+      de un usuario a una institución que será la que se encargue de realizar
+      la recuperación y el cobro de las multas.</para>
 
-      <para>Cet écran est avant tout un moyen de consultation. En effet,
-      lorsque les comptes sont transmis pour recouvrement celles ci ne
-      relèvent plus du fonctionnement de la bibliothèque ou du centre de
-      documentation (transmission à la mairie pour une bibliothèque publique,
-      au service comptable pour un centre de documentation, ...).</para>
+      <para>Esta pantalla es ante todo una forma de consulta. Una vez los
+      datos del estado de cuentas de un usuario son transmitidos para el
+      cobro, ya no constán más en la base de datos de la biblioteca, ni en el
+      funcionamiento de la misma (pasan a formar parte del ayuntamiento o del
+      departamento contable, ...).</para>
     </sect2>
   </sect1>
 </chapter>
