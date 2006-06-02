@@ -371,114 +371,113 @@
         </sect4>
 
         <sect4>
-          <title>Négation</title>
+          <title>Negación</title>
 
-          <para>Le symbole ~ devant un terme représente un négation de ce
-          terme. Cela signifie la recherche de tous les éléments ne contenant
-          pas ce terme.</para>
+          <para>El símbolo ~ delante de un término representa una negación de
+          ese término, o se buscará todos los registros que no contengan ese
+          término.</para>
 
-          <para><emphasis>Ex.</emphasis><programlisting>~travail</programlisting>
-          signifie tous les éléments sauf ceux qui contiennent le mot
-          travail</para>
+          <para><emphasis>Ej.</emphasis><programlisting>~trabajo</programlisting>
+          se buscarán todos los registros excepto aquellos que incluyan la
+          palabra trabajo.</para>
         </sect4>
 
         <sect4>
-          <title>Opérateurs logiques entre deux mots</title>
+          <title>Operadores lógicos entre dos palabras</title>
 
-          <para>Des opérateurs logiques peuvent être utilisés entre les mots
+          <para>Los operadores lógicos pueden utilizarse entre palabras
           :</para>
 
           <itemizedlist>
             <listitem>
-              <para>+ : opérateur ET</para>
+              <para>+ : operador Y</para>
 
-              <para><emphasis>Ex. </emphasis><programlisting>disque + dur</programlisting>
-              signifie les éléments qui contiennent les mots disque et
-              dur.</para>
+              <para><emphasis>Ej. </emphasis><programlisting>disco + duro</programlisting>
+              buscará los elementos que contengan las palabras disco y
+              duro.</para>
             </listitem>
 
             <listitem>
-              <para>- : opérateur SAUF (ET NON)</para>
+              <para>- : operador EXCEPTO (Y NO)</para>
 
-              <para><emphasis>Ex. </emphasis><programlisting>disque - dur</programlisting>
-              signifie les éléments qui contiennent le mot disque, sauf ceux
-              qui contiennent aussi le mot dur.</para>
+              <para><emphasis>Ej. </emphasis><programlisting>disco - duro</programlisting>
+              buscará los registros que contengan la palabra disco excepto
+              aquellos que contenga la palabra duro.</para>
             </listitem>
           </itemizedlist>
 
-          <para>Plusieurs opérateurs peuvent-être enchainés dans une même
-          expression. Ils sont appliqués dans l'ordre, de gauche à
-          droite.</para>
+          <para>Los operadores pueden encadenarse dentro de una misma
+          búsqueda. Se aplican según su orden, de izquierda a derecha.</para>
 
-          <para><emphasis>Ex.</emphasis> <programlisting>poésie + français* - romantique*</programlisting>signifie
-          les éléments contenant poésie et français(e)(s) sans
-          romantique(s).</para>
+          <para><emphasis>Ej.</emphasis> <programlisting>poesía + frances* - romántica*</programlisting>buscará
+          los elementos que contengan poesia y francés(a)(s) sin
+          romántica(s).</para>
 
-          <para><emphasis role="bold">Attention</emphasis>, deux opérateurs ne
-          peuvent se suivre, une négation ne peut-être combinée à un opérateur
-          (+~ revient au même que l'opérateur -).</para>
+          <para><emphasis role="bold">Atención</emphasis>, no se pueden poner
+          seguidos dos operadores, una negación no puede ir combinada con un
+          operador (+~ significa lo mismo que el operadore -).</para>
         </sect4>
 
         <sect4>
-          <title>Regroupements</title>
+          <title>Reagrupaciones</title>
 
-          <para>Une expression peut-être regroupée pour devenir un terme. Ce
-          regroupement se fait avec les parenthèses. Cela permet de changer
-          l'ordre d'application des opérateurs ou de combiner les résultats
-          d'expressions complexes.</para>
+          <para>Una expresión puede ser reagrupada para convertirse en un
+          conjunto a buscar. Estos agrupamientos se hacen usando los
+          paréntesis. Esto permite cambiar el orden de aplicación de los
+          operadores para combinar resultados en búsquedas complejas.</para>
 
           <itemizedlist>
             <listitem>
-              <para><programlisting>poésie + (française romantique)</programlisting></para>
+              <para><programlisting>poesía + (francesa romántica)</programlisting></para>
 
-              <para>signifie dans tous les éléments qui contiennent francaise
-              ou romantique, uniquement ceux qui contiennent poésie.</para>
+              <para>buscará de todos los registros que contengan francesa o
+              romántica, únicamente aquellos que contengan poesia.</para>
             </listitem>
 
             <listitem>
-              <para><programlisting>(poésie + française) romantique</programlisting>signifie
-              tous les éléments qui contiennent poésie et française ou tous
-              les éléments qui contiennent romantique</para>
+              <para><programlisting>(poesía + francesa) romántica</programlisting>buscará
+              todos los elementos que contengan poesía y francesa o todos los
+              elementos que contengan romántica</para>
             </listitem>
 
             <listitem>
-              <para><programlisting>~(poésie + française) + (littérature améri*)</programlisting>
-              signifie tous les éléments qui ne contiennent pas poésie et
-              française et les éléments qui contiennent littérature ou améri*
-              Les parenthèses peuvent-être imbriquées sans limite.</para>
+              <para><programlisting>~(poesía + francesa) + (literatura ameri*)</programlisting>
+              buscará todos los elementos que no contengan poesía y francesa y
+              los elementos que contengan literatura o ameri* Los paréntesis
+              pueden colocarse sin límites.</para>
             </listitem>
 
             <listitem>
-              <para><programlisting>(poésie + (française romantique)) (littérature + XIX)</programlisting>signifie
-              dans tous les éléments qui contiennent francaise ou romantique,
-              uniquement ceux qui contiennent poésie ou les éléments qui
-              contiennent littérature et XIX</para>
+              <para><programlisting>(poesía + (francesa romántica)) (literatura + XIX)</programlisting>buscará
+              de todos los elementos que contengan francesa o romántica,
+              aquellos que contengan poesía o los elementos que contengan
+              literatura y XIX</para>
             </listitem>
           </itemizedlist>
         </sect4>
 
         <sect4>
-          <title>Pertinence</title>
+          <title>Pertinencia</title>
 
-          <para>Les résultats sont triés par ordre de pertinence puis par
-          ordre alphabétique. La pertinence est calculée simplement par le
-          nombre total de mots ou de termes exacts trouvés.</para>
+          <para>Los resultados se muestran por orden de pertinencia y por
+          orden alfabético. La pertinencia se calcula simplemente por el
+          número total de palabras o términos exactos encontrados. </para>
 
-          <para>Par exemple :</para>
+          <para>Por ejemplo :</para>
 
           <itemizedlist>
             <listitem>
-              <para>jambon bayonne trouvera tous les éléments contenant jambon
-              ou bayonne, ceux qui contiennent les deux mots seront au début
-              de la liste de résultats</para>
+              <para>jamón bellota encontrará todos los elementos que contengan
+              jamón o bellota, aquellos que contengan las dos palabras se
+              mostrarán al inicio de la lista</para>
             </listitem>
 
             <listitem>
-              <para>~(poésie + française) (littérature améri*) trouvera tous
-              les éléments qui ne contiennent pas poésie et française, dans
-              ces éléments, ceux qui contiennent littérature ou améri*
-              apparaitront en premier dans la liste de résultats (d'abord
-              littérature et améri*, puis améri*, puis littérature)</para>
+              <para>~(poesía + francesa) (literatura ameri*) encontrará todos
+              los elementos que no contienen poesía y francesa, de estos
+              elementos, aquellos que contienen literatura o améri* aparecerán
+              en primer lugar en la lista de resultados (en primer luguar
+              literatura y ameri*, luego ameri*, y luego literatura)</para>
             </listitem>
           </itemizedlist>
         </sect4>
@@ -486,26 +485,27 @@
     </sect2>
 
     <sect2>
-      <title>Nouvelle notice</title>
+      <title>Nuevo registro</title>
 
       <sect3>
-        <title>Saisie d'une nouvelle notice</title>
+        <title>Introducir un nuevo registro</title>
 
-        <para>La saisie d'une nouvelle notice se fait en deux écrans : un
-        numéro d'identification (ISBN) est d'abord demandé mais il n'est pas
-        obligatoire de le saisir. Si un EAN est saisi, il est alors converti
-        en ISBN.</para>
+        <para>La introducción de un nuevo registro se realiza en dos pantallas
+        : en la primera se pide un numero de identificación (el ISBN es lo
+        usual) aunque no es obligatorio introducirlo. Si lo que se introduce
+        es un EAN, pmb lo convierte automáticamente en ISBN.</para>
 
         <sect4 id="cat_create">
-          <title>Saisie de l'ISBN, de l'EAN ou d'un numéro commercial</title>
+          <title>Introducción del 'ISBN, del EAN o de un numero
+          comercial</title>
 
-          <para>Si le numéro d'identification saisi correspond à un ouvrage
-          déjà présent en base, la notice est alors directement ouverte en
-          modification. Ceci permet un dédoublonnage de la base dès le
-          catalogage.</para>
+          <para>Si el número identificador corresponde a un documento que ya
+          está introducido en la base de datos, el registro que ya está en la
+          base de datos se muestra directamente. De esta forma se evitan los
+          duplicados en la base de datos.</para>
 
           <figure>
-            <title>Ouvrages &gt; Nouvelle notice</title>
+            <title>Documentos &gt; Nuevo registro</title>
 
             <mediaobject>
               <imageobject>
@@ -514,15 +514,15 @@
             </mediaobject>
           </figure>
 
-          <para>Cliquez ensuite sur <emphasis>suivant</emphasis> pour
-          poursuivre la création de la notice.</para>
+          <para>Haz clic en siguiente para seguir con la creación del
+          registro.</para>
         </sect4>
 
         <sect4 id="cat_create_form">
-          <title>Saisies des données de la notice</title>
+          <title>Introducir datos en el registro</title>
 
           <figure>
-            <title>Ouvrages &gt; Nouvelle notice (écran 2)</title>
+            <title>Documentos &gt; Nuevo registro (pantalla 2)</title>
 
             <mediaobject>
               <imageobject>
@@ -532,100 +532,99 @@
           </figure>
 
           <sect5>
-            <title>Choix d'un support de document</title>
+            <title>Escoger un tipo de documento</title>
 
-            <para>Dans la liste déroulante située en haut du formulaire, vous
-            pouvez choisir entre différents types de supports :</para>
+            <para>En la parte superior del formulario hay una lsita
+            desplegable dónde se puede escoger entre los diferentes tipos de
+            soportes :</para>
 
             <itemizedlist>
               <listitem>
-                <para>texte imprimé</para>
+                <para>texto impreso</para>
               </listitem>
 
               <listitem>
-                <para>texte manuscrit</para>
+                <para>texto manuscrito</para>
               </listitem>
 
               <listitem>
-                <para>partition musicale imprimée</para>
+                <para>partitura musical impresa</para>
               </listitem>
 
               <listitem>
-                <para>partition musicale manuscrite</para>
+                <para>partitura musical manuscrita</para>
               </listitem>
 
               <listitem>
-                <para>document cartographique imprimé</para>
+                <para>documento cartográfico impreso</para>
               </listitem>
 
               <listitem>
-                <para>document cartographique manuscrit</para>
+                <para>documento carográfico manuscrito</para>
               </listitem>
 
               <listitem>
-                <para>document projeté ou vidéo</para>
+                <para>documento proyectable o video</para>
               </listitem>
 
               <listitem>
-                <para>enregistrement sonore non musical</para>
+                <para>grabación sonora no musical</para>
               </listitem>
 
               <listitem>
-                <para>enregistrement sonore musical</para>
+                <para>grabació sonora musical</para>
               </listitem>
 
               <listitem>
-                <para>document graphique à deux dimensions</para>
+                <para>documento gráfico de dos dimensiones</para>
               </listitem>
 
               <listitem>
-                <para>document électronique</para>
+                <para>documento electrónico</para>
               </listitem>
 
               <listitem>
-                <para>document multimédia</para>
+                <para>documento multimedia</para>
               </listitem>
 
               <listitem>
-                <para>objet à 3 dimensions, artéfacts, ...</para>
+                <para>objeto tridimensional, artefactos, ...</para>
               </listitem>
             </itemizedlist>
 
-            <para>Ces supports correspondent aux supports de documents définis
-            par la norme UNIMARC.</para>
+            <para>Estos soportes corresponden a los soportes de documentos
+            definidos por la norma UNIMARC.</para>
 
-            <para><emphasis role="bold">Attention</emphasis> : ne pas
-            confondre avec type de document, qui correspond à
-            l'exemplaire.</para>
+            <para><emphasis role="bold">Atención</emphasis> : no confundir con
+            tipo de documento, que hace referencia al ejemplar.</para>
           </sect5>
 
           <sect5>
-            <title>Titre</title>
+            <title>Título</title>
 
-            <para>Le titre propre est le titre principal d'un ouvrage.</para>
+            <para>El título propio es el título principal de una obra.</para>
 
-            <para>Même si le titre est généralement présent sur la couverture
-            ou la tranche de l'ouvrage, il faut le lire sur la page de titre
-            car il est parfois différent du titre de couverture. Dans ce cas,
-            le titre de couverture sera spécifié ailleurs (zone de
-            note).</para>
+            <para>Aunque a veces el título de la cubierta conincide con el de
+            la portada, hay que tener en cuenta que el título propio es el de
+            la portada. En caso de diferencias, el título de la cubierta se
+            especificará en la zona de notas.</para>
 
-            <para>Vous pouvez également définir le titre propre d'un auteur
-            différent, un titre parallèle, ainsi qu'un complément du
-            titre.</para>
+            <para>También puedes introducir un título propio para un autor
+            diferente, un título paralelo, así como complementos del
+            título.</para>
 
-            <para>Le titre parallèle correspond par exemple au titre de
-            l'ouvrage dans la langue d'origine.</para>
+            <para>El título paralelo corresponde por ejemplo al título de la
+            obra en la lengua original.</para>
 
-            <para>Enfin, vous pouvez définir un titre de série. Un titre de
-            série est un titre commun à différents ouvrages d'un même auteur.
-            Par exemple <emphasis>Les aventures de Tintin</emphasis> de
-            <emphasis>Hergé</emphasis>. Le champs "Partie de" est différent
-            des champs de titre. Pour spécifier un titre de série, cliquez sur
-            le bouton "..."</para>
+            <para>Finalmente, puedes introducir un título de serie. Un título
+            de serie es un título común a diferentes obras de un mismo autor.
+            Por ejemplo <emphasis>Las aventuras de Tintín</emphasis> de
+            <emphasis>Hergé</emphasis>. Los campos "Parte de" son diferentes a
+            los campos de título. Para especificar un título de serie, haz
+            clic en botón "..."</para>
 
             <figure>
-              <title>Définir un titre de série</title>
+              <title>Definir un título de serie</title>
 
               <mediaobject>
                 <imageobject>
@@ -634,10 +633,10 @@
               </mediaobject>
             </figure>
 
-            <para>Choisissez ensuite un titre de série dans le popup.</para>
+            <para>Escoge un título del popup.</para>
 
             <figure>
-              <title>Popup de sélection de titre de série</title>
+              <title>Popup para seleccionar el título de serie</title>
 
               <mediaobject>
                 <imageobject>
@@ -646,23 +645,22 @@
               </mediaobject>
             </figure>
 
-            <para>Si votre titre de série ne figure pas dans la liste du
-            popup, cliquez sur<emphasis> créer un titre de série</emphasis>.
-            Saisissez ensuite le titre de série, cliquez sur
-            <emphasis>Enregistrer</emphasis> puis sélectionnez votre titre de
-            série dans la liste. Vous ne pouvez ni modifier ni supprimer un
-            titre de série dans le popup. Pour modifier ou supprimer un titre
-            de série, dans l'onglet <emphasis>Autorités</emphasis>, choisissez
-            dans le menu<emphasis> Titres de série</emphasis>. Pour plus
-            d'informations, voir <xref linkend="autorites" />.</para>
+            <para>Si tu título no está incluido en la lista del popup, haz
+            clic en<emphasis> crear un título de serie</emphasis>. Introduce
+            el nuevo título de serie, haz clic en <emphasis>Guardar</emphasis>
+            y selecciona el título de la lista. No se puede suprimir ni
+            modificar un título en el popup. Para modificar o suprimir un
+            título de serie, ve a la pestaña <emphasis>Autoridades</emphasis>,
+            escoge del menú <emphasis> Título de serie</emphasis>. Para más
+            información, ver <xref linkend="autorites" />.</para>
 
-            <para>Le titre de série sélectionné est ensuite affiché dans le
-            formulaire de la notice.</para>
+            <para>El título de serie seleccionado será automáticamente
+            mostrado en el formulario del registro.</para>
 
             <figure>
-              <title>La saisie d'un auteur se fait soit lors du catalogage,
-              soit avec l'onglet "autorités" Le titre de série sélectionné est
-              affiché</title>
+              <title>Para introducir un autor se puede hacer o a través de la
+              catalogación, o a través de la pestaña "autoridades" El título
+              de serie seleccionado se muestra</title>
 
               <mediaobject>
                 <imageobject>
@@ -671,20 +669,20 @@
               </mediaobject>
             </figure>
 
-            <para>Pour effacer un titre de série sélectionné, cliquer sur le
-            bouton "X"</para>
+            <para>Para eliminar un título de serie, haz clic sobre el botón
+            "X"</para>
 
-            <para>Vous pouvez également spécifier un <emphasis>n° de
-            partie</emphasis>. Par exemple, <emphasis>Les aventures de
+            <para>También puedes espeficiar un <emphasis>n° de
+            parte</emphasis>. Por ejemplo, <emphasis>Las aventuras de
             Tintin</emphasis>, n° <emphasis>11</emphasis>.</para>
           </sect5>
 
           <sect5>
-            <title>Saisie d'un auteur (mention de responsabilité)</title>
+            <title>Introducir un autor (mención de responsabilidad)</title>
 
             <figure>
-              <title>Catalogue &gt; Nouvelle notice, sélection des
-              auteurs</title>
+              <title>Catalogación &gt; Nuevo registro, selección de
+              autores</title>
 
               <mediaobject>
                 <imageobject>
@@ -693,15 +691,15 @@
               </mediaobject>
             </figure>
 
-            <para>Pour sélectionner un auteur, cliquez sur le bouton "..."
-            puis sélectionnez l'auteur dans le popup de recherche d'auteur.
-            Pour rechercher un auteur, tapez quelques lettres de son nom puis
-            cliquez sur <emphasis>Rechercher</emphasis>. Les résultats de la
-            recherche sont alors affichés.</para>
+            <para>Para seleccionar un autor, haz clic sobre el botón "..."
+            después selecciona al autor dentro del popup que sirve para poder
+            buscar al autor. Para buscar un autor, introduce algunas letras de
+            su apellido y haz clic sobre <emphasis>Buscar</emphasis>. Se
+            mostrarán los resultados.</para>
 
             <figure>
-              <title>Catalogue &gt; Nouvelle notice, popup de sélection d'un
-              auteur</title>
+              <title>Catalogación &gt; Nuevo registro, popup de selección de
+              un autor</title>
 
               <mediaobject>
                 <imageobject>
@@ -710,13 +708,13 @@
               </mediaobject>
             </figure>
 
-            <para>Si l'auteur de l'ouvrage que vous souhaitez cataloguer n'est
-            pas déjà enregistré, ajoutez le en cliquant sur le bouton
-            <emphasis>Ajouter un auteur</emphasis>.</para>
+            <para>Si el autor de la obra que quieres catalogar no está todavía
+            entrado, añádelo a la base de datos haciendo clic sobre el botón
+            <emphasis>Añadir un autor</emphasis>.</para>
 
             <figure>
-              <title>Catalogue &gt; Nouvelle notice, ajout d'un auteur depuis
-              le popup</title>
+              <title>Catálogo &gt; Nuevo registro, añadir un autor en el
+              popup</title>
 
               <mediaobject>
                 <imageobject>
