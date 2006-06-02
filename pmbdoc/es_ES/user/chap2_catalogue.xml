@@ -171,13 +171,13 @@
       <sect3 id="cat_search_publisher">
         <title>Editorial/Colección</title>
 
-        <para>La búsqueda Editorial/Colección affiche une liste des éditeurs
-        et collections de la même manière que les recherches sur les
-        catégories.</para>
+        <para>La búsqueda Editorial/Colección muestra una lista de las
+        editoriales y colecciones con el mismo formato que las
+        categorías.</para>
 
         <figure>
-          <title>Catalogage &gt; Ouvrages &gt; Recherche par
-          éditeur/collection</title>
+          <title>Catalogación &gt; Obras &gt; Búsqueda por
+          editorial/colección</title>
 
           <mediaobject>
             <imageobject>
@@ -188,16 +188,16 @@
       </sect3>
 
       <sect3 id="cat_search_caddie">
-        <title>Paniers de notices</title>
+        <title>Cestas de registros</title>
 
-        <para><emphasis>Recherche</emphasis> &gt; <emphasis>Paniers de
-        notices</emphasis> permet d'afficher le contenu d'un panier de notices
-        (également appelé caddie). Les paniers correspondent à des sélections
-        de notices, de bulletins ou d'exemplaires.</para>
+        <para><emphasis>Buscar</emphasis> &gt; <emphasis>Cestas de
+        registros</emphasis> permite ver el contenido de una cesta de
+        registros (también llamadas paneles). Las cestas son selecciones de
+        registros, números de revistas o ejemplares.</para>
 
         <figure>
-          <title>Catalogage &gt; Ouvrages &gt; Recherche par paniers de
-          notices</title>
+          <title>Catalogación &gt; Documentos &gt; Buscar por cestas de
+          registros</title>
 
           <mediaobject>
             <imageobject>
@@ -208,14 +208,14 @@
       </sect3>
 
       <sect3 id="cat_search_multi">
-        <title>Multi-critères</title>
+        <title>Búsqueda avanzada</title>
 
-        <para>La recherche multi-critères est une recherche combinatoire. Vous
-        pouvez sélectionner des champs de recherches&nbsp;: titre, auteur,
-        champs personnalisés...</para>
+        <para>La búsqueda avanzada es una búsqueda combinada. Puedes
+        seleccionar entre los diferentes campos: título, autor, campos
+        personalizados, ejemplar, ...</para>
 
         <figure>
-          <title>Ouvrages &gt; Recherche &gt; Multi-critères</title>
+          <title>Documentos &gt; Buscar &gt; Avanzada</title>
 
           <mediaobject>
             <imageobject>
@@ -224,19 +224,19 @@
           </mediaobject>
         </figure>
 
-        <para>Pour lancer une recherche multicritères :</para>
+        <para>Para realizar una búsqueda avanzada :</para>
 
         <itemizedlist>
           <listitem>
-            <para>cliquez sur <emphasis>Ajouter</emphasis> pour définir un
-            premier champ de la recherche</para>
+            <para>haz clic sobre <emphasis>Añadir</emphasis> para definir un
+            primer campo de búsqueda</para>
 
-            <para>La recherche multicritères s'applique aux champs des
-            notices, des exemplaires, des périodiques et aux champs
-            personnalisés.</para>
+            <para>La búsqueda avanzada se aplica a los campos de registros,
+            ejemplares, publicaciones periódicas y campos
+            personalizados.</para>
 
             <para><figure>
-                <title>Champs de recherche possibles</title>
+                <title>Campos de búsqueda posibles</title>
 
                 <mediaobject>
                   <imageobject>
@@ -247,12 +247,12 @@
           </listitem>
 
           <listitem>
-            <para>choisissez ensuite un type de recherche pour le champ
-            retenu, pour un champ titre vous pouvez choisir entre "contient au
-            moins des mots", "contient tous les mots", "commence par", "finit
-            par" ou "exactement comme". Ce type de recherche varie selon le
-            champs concerné<figure>
-                <title>Types de recherche pour le champs Titre</title>
+            <para>escoge después un tipo de búsqueda para el campo
+            seleccionado, por ejemplo, para un campo de título puedes escoger
+            entre "contiene alguna de las palabras", "contiene todas las
+            palabras", "empieza por", "acaba por" o "exactamente como". Este
+            tipo de búsqueda varía según el campo escogido<figure>
+                <title>Tipos de búsqueda para el campo título</title>
 
                 <mediaobject>
                   <imageobject>
@@ -263,114 +263,111 @@
           </listitem>
 
           <listitem>
-            <para>si le champ nécessite une valeur, saisissez celle-ci dans la
-            case de saisie ; si le champ nécessite un choix (par exemple le
-            type de support), choisissez une ou plusieurs propositions en
-            cliquant et en maintenant la touche <emphasis>Ctrl</emphasis> de
-            votre clavier appuyée.</para>
+            <para>si el campo necesita un valor, introducelo en la casilla
+            correspondiente ; si el campo necesita más de un valor (por
+            ejemplo tipo de soporte), escógelos manteniendo la tecla
+            <emphasis>Ctrl</emphasis> del teclado apretada.</para>
           </listitem>
 
           <listitem>
-            <para>enfin validez en cliquant sur
-            <emphasis>Rechercher</emphasis></para>
+            <para>finalmente valida haciendo clic en
+            <emphasis>Buscar</emphasis></para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title id="exp_bool">Expressions booléennes</title>
+        <title id="exp_bool">Operadores booleanos</title>
 
-        <para>Dans l'ensemble des écrans de recherche vous pouvez utiliser des
-        expressions booléennes. Ces expressions booléennes ont été introduites
-        dans PMB avec la version 2.0.</para>
+        <para>A la hora de buscar puedes utilizar operadores booleanos para
+        mejorar los resultados de las búsquedas. Los operadores booleanos se
+        han incluido en PMB con la versión 2.0.</para>
 
         <sect4>
-          <title>Recherche simple</title>
+          <title>Búsqueda simple</title>
 
-          <para>Par défaut, le moteur cherche les éléments qui contiennent
-          <emphasis role="bold">au moins</emphasis> (OU implicite) un des mots
-          saisis. Le tri se fait selon le nombre décroissant de mots trouvés,
-          puis par ordre alphabétique.</para>
+          <para>Por defecto, el motor de búsqueda busca los elementos que
+          contienen <emphasis role="bold">alguna</emphasis> (O implícito) de
+          las palabras introducidas. Los resultados se muestran según el
+          número decreciente de palabras encontradas, y por orden
+          alfabético.</para>
 
-          <para><programlisting>jambon bayonne</programlisting>signifie les
-          éléments qui contiennent les mots jambon ou bayonne (jambon de
-          bayonne, jambon de parme, l'histoire de Bayonne, ...).</para>
+          <para><programlisting>jamón bellota</programlisting>al realizar una
+          búsqueda con estas dos palabras, el motor buscará registros que
+          contengan tanto jamón como bellota (jamón de bellota, jamón york,
+          árbol de bellota, ...).</para>
 
-          <para>Les accents ne sont pas pris en compte ainsi que les
-          majuscules/minuscules. Si deux mots sont séparés par un autre signe
-          que espace, +, ou -, les deux mots sont considérés comme devant
-          apparaître dans le résultat .</para>
+          <para>Los acentos no se tienen en cuenta así cómo las
+          mayúsculas/minúsculas. Si dos palabras están separadas por un signo
+          que no sea espacio, , +, o -, las dos palabras se buscarán tal cual
+          en los resultados.</para>
 
-          <para><programlisting>Saint Jean/mer</programlisting>sera analysé
-          comme : chercher les <emphasis>éléments qui contiennent
-          saint</emphasis> ou les <emphasis>éléments qui contiennent jean et
-          mer</emphasis> ou les <emphasis>deux</emphasis>.</para>
+          <para><programlisting>Santa Juana/mar</programlisting>será analizado
+          como: busca los elementos quecontengan santa <emphasis>o los
+          elementos que contengan juana y mar o los dos</emphasis>.</para>
 
-          <para>Certains mots sont ignorés car trop courants ou sans
-          signification pertinente en français (ex : de, du, da, t, l, d, s,
-          son, sa, ...).</para>
+          <para>Algunas palabras son ignoradas porque se consideran vacías de
+          contenido, por ejemplo: la, de, el, su, suyo, ...</para>
         </sect4>
 
         <sect4>
-          <title>Cas du tiret</title>
+          <title>El guión</title>
 
-          <para>Le tiret est considéré comme un opérateur entre deux mots
-          (voir plus bas le chapitre : Opérateurs logiques entre deux mots).
-          Ainsi, tout mot composé avec un tiret doit être entouré de
-          guillemets pour faire une recherche en terme exact (voir plus bas
-          ).</para>
+          <para>El guión se considera como un operador entre dos palabras (ver
+          un poco más abajo el capítulo : Operadores lógicos entre dos
+          palabras). Así que toda palabra compuesta por un guión debe estar
+          rodeada de de comillas para hacer la búsqueda por el término exacto
+          (ver más abajo).</para>
         </sect4>
 
         <sect4>
-          <title>Troncature</title>
+          <title>Truncamiento</title>
 
-          <para>Les mots peuvent être tronqués à gauche, droite ou
-          partiellement par le caractère *</para>
+          <para>Las palabras pueden truncarse por la derecha, la izquierda o
+          parcialmente introduciendo el carácter *</para>
 
-          <para><programlisting>chev* </programlisting>cherchera les mots
-          commençant par chev (cheval, chevaux, cheveux, ...),</para>
+          <para><programlisting>cam* </programlisting>buscará las palabras que
+          empiecen por cam (cama, camino, caminar, ...),</para>
 
-          <para><programlisting>*logie</programlisting>cherchera les mots
-          finissant par 'logie' (psychologie, théologie, trilogie,
-          ...),</para>
+          <para><programlisting>*ogia</programlisting>buscará las palabras que
+          acaben con "ogia" (psicología, teología, trilogía, ...),</para>
 
-          <para><programlisting>p*logie </programlisting>cherchera les mots
-          commençant par p et finissant par logie (psychologie,
-          paléonthologie, pathologie, ...).</para>
+          <para><programlisting>p*logía </programlisting>buscará las palabras
+          que empiezan por p y acaban con logía (psicología, paleontología,
+          patología, ...).</para>
 
-          <para>Plusieurs troncatures peuvent être utilisées dans un même
-          mot.</para>
+          <para>Se puede utilizar más de un truncamiento para una misma
+          palabra.</para>
         </sect4>
 
         <sect4 id="cat_recherche_termesexacts">
-          <title>Recherche avec des termes exacts</title>
+          <title>Búsqueda por términos exactos</title>
 
-          <para>Un terme exact est défini par un texte entouré de guillemets.
-          Si le moteur de recherche rencontre un terme exact, il cherche les
-          éléments contenant exactement ce texte.</para>
+          <para>Un término exacto debe estar rodeado de comillas. El motor de
+          búsqueda buscará exactamente los elementos contenidos entre las
+          comillas.</para>
 
-          <para>La troncature peut-être utilisée dans les termes
-          exacts.</para>
+          <para>Con la búsqueda exacta también se puede trucar.</para>
 
-          <para><programlisting>"dent"</programlisting>signifie tous les
-          éléments contenant le texte dent (dentition, accident, indentation,
-          ...).</para>
+          <para><programlisting>"dent"</programlisting>significa todos los
+          elementos que contengan el texto dent (dentista, accedente,
+          intendente, ...).</para>
 
-          <para>La recherche exacte est pratique pour la recherche
-          d'expressions contenant des espaces ou des signes de ponctuation.
-          (un sigle par exemple).</para>
+          <para>La búsqueda exacta es práctica para buscar expresiones que
+          contengan espacios o signos de puntuación. (una sigla por
+          ejemplo).</para>
 
-          <para><programlisting>"A.N.P.E."</programlisting>cherche les
-          éléments qui contiennent le texte A.N.P.E.,</para>
+          <para><programlisting>"A.N.P.E."</programlisting>buscará los
+          elementos que contentag el texto A.N.P.E.,</para>
 
-          <para><programlisting>A.N.P.E.</programlisting> cherche les éléments
-          qui continnent les mots A ou N ou P ou E .</para>
+          <para><programlisting>A.N.P.E.</programlisting> buscará los
+          elementos que contengan las letras A o N o P o E .</para>
 
-          <para>Les accents et les majuscules/minuscules ne sont pas pris en
-          compte dans un terme exact.</para>
+          <para>Los acentos y las mayúsculas/minúsculas non se tienen en
+          cuenta en una búsqueda exacta.</para>
 
-          <para>Enfin, les termes exacts peuvent être utilisés dans toutes les
-          expressions complexes décrites ci-dessous.</para>
+          <para>Finalmente, los términos exactos pueden ser utilizados junto
+          con todos operadores complejos descritos más abajo.</para>
         </sect4>
 
         <sect4>
