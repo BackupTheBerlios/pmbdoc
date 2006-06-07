@@ -1026,37 +1026,39 @@
             puedan consultar las últimas noticias de lemonde a través de tu
             opac.</para>
 
-            <para>Pour associer un fil RSS saisissez l'URL correspondante (il
-            est facile de trouver ces informations sur le Web) dans le champ
-            URL associée. Saisissez pour format électronique RSS NN où NN est
-            un nombre en minutes définissant le délai de rafraichissement de
-            l'information depuis le fil RSS. Par exemple, si vous saisissez
-            "RSS 30", le fil RSS correspondant sera rechargé toutes les 30
-            minutes depuis le site web d'origine. Ces informations seront
-            mises en cache pour accélérer les réponses de l'OPAC de PMB
-            pendant les trentes prochaines minutes.</para>
+            <para>Para asociar una fuente RSS introduce la URL correspondiente
+            (la dirección es fácil de encontrar en el web) en el campo URL
+            asociado. Introduce como formato electrónico RSS NN donde NN es el
+            número en minutos para actualizar la información de la fuente RSS.
+            Por ejemplo, si introduces "RSS 30", la fuente RSS correspondiente
+            se actualizará cada 30 minutos con la información del sitio web
+            original. Estas informaciones se irán almacenando en cache para
+            acelerar las respuestas del OPAC de PMB durante los treinta
+            minutos siguientes.</para>
           </sect5>
 
           <sect5>
-            <title>Champs personnalisés</title>
+            <title>Campos personalizados</title>
 
-            <para>Enfin, le cas échéant, en bas de la notice, vous pouvez
-            définir les valeurs de vos champs personnalisés.</para>
+            <para>Finalmente, cuando proceda, el la parte inferior del
+            registro, puedes definir valores correspondientes a los campos
+            personalizados que hayas creado.</para>
 
-            <para>Les champs personnalisables des notices sont des
-            informations supplémentaires, vous pouvez les créer dans
-            <emphasis>Administration</emphasis> &gt;
-            <emphasis>Notices</emphasis> &gt;
-            <emphasis>Personnalisables</emphasis>. Pour plus d'informations,
-            consulter le <emphasis>Guide de l'Administrateur</emphasis>,
-            chapitre <emphasis>Notices</emphasis>.</para>
+            <para>Los campos personalizados de los registros son informaciones
+            suplementarias que puedes utilizar para personalizar la
+            información de los registros con datos que tus usuarios puedan
+            necesitar. Para crearlos ve a <emphasis>Administración</emphasis>
+            &gt; <emphasis>Registros</emphasis> &gt;
+            <emphasis>Personalizables</emphasis>. Para más información,
+            consulta la <emphasis>Guía del Administrador</emphasis>, capítulo
+            <emphasis>Registros</emphasis>.</para>
 
-            <para>Si aucun champ personnalisé n'est défini, ce pavé n'est pas
-            affiché.</para>
+            <para>Si no hay ningún campo personalizado definido, esta zona no
+            se muestra.</para>
 
             <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Champs
-              personnalisables</title>
+              <title>Catalogación &gt; Nuevo registro, zona campos
+              personalizados</title>
 
               <mediaobject>
                 <imageobject>
@@ -1066,21 +1068,21 @@
             </figure>
           </sect5>
 
-          <para>Une fois les différents champs de la notice complétés, cliquez
-          sur <emphasis>Enregistrer</emphasis>.La notice est enregistrée, vous
-          arrivez sur la liste des exemplaires de l'ouvrage.</para>
+          <para>Una vez los diferentes campos del registro está completados,
+          haz clic en <emphasis>Guardar</emphasis>. El registro se guardará, y
+          se mostrará la lista de ejemplares del documento.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_isbd">
-        <title>Liste des exemplaires d'un ouvrage</title>
+        <title>Lista de ejemplares de un documento</title>
 
-        <para>l'écran suivant présente la notice au format ISBD et les
-        éventuels exemplaires qui lui correspondent.</para>
+        <para>la pantalla siguiente muestra el registro en formato ISBD y los
+        ejemplares que le corresponden.</para>
 
         <figure>
-          <title>catalogue &gt; ouvrages, liste des exemplaires d'un
-          ouvrage</title>
+          <title>catalogación &gt; documentos, lista de ejemplares de un
+          documento</title>
 
           <mediaobject>
             <imageobject>
@@ -1089,40 +1091,38 @@
           </mediaobject>
         </figure>
 
-        <para>Pour modifier la notice de l'ouvrage, cliquez sur
-        <emphasis>Modifier</emphasis>. La modification d'une notice affiche le
-        même écran que la création d'une notice.</para>
+        <para>Para modificar el registro de un documento, haz clic en
+        <emphasis>Modificar</emphasis>. La modificación de un registro es la
+        misma pantalla que la de crear un registro.</para>
 
-        <para>Vous pouvez <emphasis>Ajouter un exemplaire.</emphasis></para>
+        <para>Puedes <emphasis>Añadir un ejemplar.</emphasis></para>
 
-        <para>Vous pouvez également <emphasis>Ajouter un document
-        numérique</emphasis>.</para>
+        <para>También puedes <emphasis>Añadir un documento
+        electrónico</emphasis>.</para>
 
-        <para>Si la notice possède déjà des exemplaires, vous pouvez modifier
-        un des exemplaires de l'ouvrage le cas échéant, en cliquant sur son n°
-        d'exemplaire.</para>
+        <para>Si el registro ya tiene ejemplares, puedes modificar los
+        ejemplares cuando proceda haciendo clic sobre el número de
+        ejemplar.</para>
 
-        <para>Si la notice possède déjà des exemplaires numériques, vous
-        pouvez afficher ou modifier un des exemplaires numériques de l'ouvrage
-        le cas échéant. Pour afficher le document numérique associé, cliquez
-        sur son icône. Pour modifier le document numérique associé, cliquez
-        sur son titre.</para>
+        <para>Si el registro tiene documentos electrónicos, puedes verlos o
+        modificarlos. Para verlos haz clic en el icono que lo identifica. Para
+        modificarlo, haz clic sobre su título.</para>
 
         <sect4>
-          <title>Modification d'une notice</title>
+          <title>Modificar un registro</title>
 
-          <para>Pour modifier une notice, cliquez sur le bouton Modifier qui
-          se trouve sous la notice, au dessus de la liste des exemplaires
-          correspondant.</para>
+          <para>Para modificar un registro, haz clic sobre el botón Modificar
+          que está en la parte inferior del registro, justo antes de la lista
+          de ejemplares.</para>
 
-          <para>En modification de la notice, vous obtenez un affichage des
-          champs de la notice identique à sa création (voir plus haut la
-          section 1.2.1.2 Saisie des données de la notice). Cependant, vous
-          pouvez voir des boutons supplémentaires en bas de l'écran.</para>
+          <para>Cuando modificas un registro lo haces sobre la misma pantalla
+          de cuando creas un registro (ver más arriba la sección 1.2.1.2
+          Introducir datos de un registro). Además tienes otros botones
+          suplementarios que permiten otras accciones: </para>
 
           <figure>
-            <title>Boutons disponibles en bas de l'écran de modification d'une
-            notice</title>
+            <title>Botones disponibles en la parte inferior de la pantalla de
+            modificación de un registro</title>
 
             <mediaobject>
               <imageobject>
@@ -1132,39 +1132,36 @@
           </figure>
 
           <sect5>
-            <title>Remplacer par</title>
+            <title>Reemplazar por</title>
 
-            <para>Permet de remplacer une notice par une autre, ceci vous
-            permet de dédoublonner et de rassembler différents exemplaires
-            liés avec différentes notices en doublon.</para>
+            <para>Permite reemplazar un registro por otro, esto permite juntar
+            diversos ejemplares duplicados o separados.</para>
           </sect5>
 
           <sect5>
-            <title>Dupliquer</title>
+            <title>Duplicar</title>
 
-            <para>Permet de dupliquer une notice. Une nouvelle notice est
-            affichée, appliquez à celle-ci les différences que présente
-            l'ouvrage à cataloguer avec la notice d'origine et enregistrez la
-            nouvelle notice.</para>
+            <para>Permite duplicar un registro. Al duplicar se muestra un
+            nuevo registro que se puede modificar para aplicar las diferencias
+            con el registro original.</para>
 
-            <para>Cette fonctionnalité est très utile lors du catalogage de
-            toute une collection ou d'une série.</para>
+            <para>Esta acción es muy útil a la hora de catalogar toda una
+            coleccción o una serie.</para>
           </sect5>
 
           <sect5>
             <title>Hist.</title>
 
-            <para>Ce bouton n'est affiché que si l'audit des notices et des
-            exemplaires est affiché. Il va permettre de voir qui a réalisé le
-            catalogage d'une notice, et qui a fait des modifications. Les
-            informations sont affichées dans un popup et dépendent du type
-            d'audit choisi. Pour plus d'informations, consulter le Guide de
-            l'Administrateur PMB, chapitre Outils, section Paramètres : il
-            s'agit du paramètre de type Paramètres généraux intitulé
-            type_audit.</para>
+            <para>Esta acción sólo se muestra si la autoría de los registros y
+            ejemplares está activa. Permite ver quién ha creado el registro,
+            quién lo ha modificado, etc. Toda esta información se muestra en
+            un popup y depende del tipo de auditoría escogida. Para más
+            información, consulta la Guía del Administrador PMB, capítulo
+            Herramientas, sección Parámetros : hace referencia al párametro
+            general llamado type_audit.</para>
 
             <figure>
-              <title>Historique</title>
+              <title>Historial</title>
 
               <mediaobject>
                 <imageobject>
@@ -1177,29 +1174,31 @@
           <sect5>
             <title>Z39.50</title>
 
-            <para>Permet de rechercher une notice en Z39.50. Ce bouton relance
-            une recherche correspondant à l'ISBN de la notice affichée.</para>
+            <para>Permite buscar un registro a través de la pasarela Z39.50.
+            Este botón inicia una búsqueda a partir del ISBN del
+            registro.</para>
           </sect5>
 
           <sect5>
-            <title>Supprimer</title>
+            <title>Eliminar</title>
 
-            <para>Permet de supprimer une notice. Attention, vous ne pourrez
-            supprimer une notice que si elle n'a aucun exemplaire ou document
-            numérique associé.</para>
+            <para>Permite eliminar un registro. Atención, no puedrás eliminar
+            un registro que tenga ejemplares o documentos electrónicos
+            asociados.</para>
           </sect5>
         </sect4>
 
         <sect4 id="cat_expl_create">
-          <title>Ajout d'un exemplaire</title>
+          <title>Añadir un ejemplar</title>
 
-          <para>Pour modifier un des exemplaires de l'ouvrage, cliquez sur son
-          code barre. Pour ajouter un exemplaire, saisissez le <emphasis>N° de
-          l'exemplaire</emphasis> puis cliquez sur <emphasis>Ajouter un
-          exemplaire</emphasis>.</para>
+          <para>Para modificar un ejemplar de un documento, haz clic en su
+          código de barras. Para añadir un ejemplar, introduce el número de
+          ejemplar y haz clic en <emphasis>Añadir un
+          ejemplar</emphasis>.</para>
 
           <figure>
-            <title>Ajout d'un exemplaire : saisie du num鲯 d'exemplaire</title>
+            <title>Añadir un ejemplar : introducir el número de
+            ejemplar</title>
 
             <mediaobject>
               <imageobject>
@@ -1208,13 +1207,14 @@
             </mediaobject>
           </figure>
 
-          <para>Ce <emphasis>n° d'exemplaire </emphasis>est le code barre que
-          vous avez posé en couverture, si vous utilisez une douchette. Dans
-          le cas contraire, il s'agit d'un numéro distinct pour chacun des
-          exemplaires de votre bibliothèque (numéro d'inventaire).</para>
+          <para>El número de ejemplar es el código de barras que tú has
+          colocado en la cubierta o en la portada del documento, en el caso
+          que utilices un lector de códigos de barra. En caso contrario, se
+          necesita un número distinto para cada uno de los ejemplares de la
+          biblioteca (un número de inventario).</para>
 
           <figure>
-            <title>Ajouter un exemplaire</title>
+            <title>Añadir un ejemplar</title>
 
             <mediaobject>
               <imageobject>
@@ -1223,80 +1223,79 @@
             </mediaobject>
           </figure>
 
-          <para>L'écran d'ajout d'exemplaire vous permet de saisir différentes
-          informations :</para>
+          <para>La pantalla de añadir un ejemplar permite introducir alguna
+          información más :</para>
 
           <itemizedlist>
             <listitem>
-              <para>le <emphasis role="bold">n° d'exemplaire</emphasis> est
-              affiché. Cette information est <emphasis
-              role="bold">obligatoire</emphasis>. Pour le modifier cliquez sur
-              le bouton "..." et douchettez le code barre de l'exemplaire dans
-              le popup (ou saisissez un nouveau n° d'exemplaire puis
-              valider).</para>
+              <para>se muestra el <emphasis role="bold">n° de
+              ejemplar</emphasis>. Esta información es <emphasis
+              role="bold">obligatoria</emphasis>. Para modificarlo haz clic en
+              botón "..." y introduce el nuevo código de barras en el
+              popup.</para>
             </listitem>
 
             <listitem>
-              <para>saisissez une <emphasis role="bold">cote</emphasis>. Cette
-              information est <emphasis role="bold">obligatoire</emphasis>. La
-              cote est souvent composée de l'indexation décimale suivie des
-              trois premières lettres de l'auteur.</para>
+              <para>introduce una <emphasis role="bold">signatura</emphasis>.
+              Esta información es <emphasis
+              role="bold">obligatoria</emphasis>. La signatura se compone a
+              menudo de la indexación decimal y de las tres primeras letras
+              del apellido del autor.</para>
             </listitem>
 
             <listitem>
-              <para>sélectionnez le <emphasis role="bold">type de document
-              </emphasis>parmi les choix du menu déroulant. La liste des types
-              de documents est configurable dans <emphasis>Administration &gt;
-              Exemplaires &gt; Types de document</emphasis>.</para>
+              <para>selecciona el <emphasis role="bold">tipo de documento
+              </emphasis>de entre las diferentes opciones que se muestran. La
+              lista de los diferentes tipos de documentos se configura en
+              <emphasis>Administración &gt; Ejemplares &gt; Tipos de
+              documentos</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para>sélectionnez la <emphasis role="bold">localisation
-              </emphasis>parmi le menu déroulant. La liste des localisations
-              est configurable dans <emphasis>Administration &gt; Exemplaires
-              &gt; Localisations</emphasis>.</para>
+              <para>selecciona la <emphasis role="bold">localización
+              </emphasis>del menú desplegable. La lista de las localizaciones
+              se configura en <emphasis>Administración &gt; Ejemplares &gt;
+              Localizaciones</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para>sélectionnez la <emphasis role="bold">section</emphasis>
-              parmi les choix du menu déroulant. La liste des sections est
-              configurable dans <emphasis>Administration &gt; Exemplaires &gt;
-              Sections</emphasis>.</para>
+              <para>selecciona la <emphasis role="bold">sección</emphasis>. La
+              lista de secciones se configura en <emphasis>Administración &gt;
+              Ejemplares &gt; Secciones</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para>sélectionnez le <emphasis
-              role="bold">propriétaire</emphasis> de l'exemplaire parmi les
-              choix du menu déroulant. La liste des propriétaires est
-              configurable dans <emphasis>Administration &gt; Exemplaires &gt;
-              Propriétaires</emphasis>. Généralement il s'agit du Fonds
-              propre. Cependant, vous pouvez avoir un dépôt de votre BDP, ou
-              d'une autre bibliothèque.</para>
+              <para>selecciona un <emphasis
+              role="bold">proprietario</emphasis> del ejemplar de entre la
+              lista del menú desplegable. La lista de propietarios se
+              configura <emphasis>en Administración &gt; Ejemplares &gt;
+              Proprietarios</emphasis>. Generalmente se muestra un Fondo
+              propio. A veces puede haber un depósito en otra biblioteca o en
+              otro centro.</para>
             </listitem>
 
             <listitem>
-              <para>sélectionnez le <emphasis role="bold">statut</emphasis> de
-              l'exemplaire parmi les choix du menu déroulant. La liste des
-              statuts est configurable dans <emphasis>Administration &gt;
-              Exemplaires &gt; Statuts </emphasis>.</para>
+              <para>selecciona el <emphasis role="bold">estado</emphasis> del
+              ejemplar de entre las opciones del menú desplegable. La lista de
+              estados se configura en <emphasis>Administración &gt; Ejemplares
+              &gt; Estados</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para>sélectionnez le <emphasis role="bold">code statistique
-              </emphasis>de l'exemplaire parmi les choix du menu
-              déroulant.</para>
+              <para>selecciona el <emphasis role="bold">código estadístico
+              </emphasis>del ejemplar de entre las opciones del menú
+              desplegable.</para>
             </listitem>
 
             <listitem>
-              <para>vous pouvez également définir pour <emphasis
-              role="bold">notes</emphasis> un message lié à l'exemplaire. Ce
-              message sera affiché avant tout prêt. Par exemple : "méthode
-              ASSIMIL, vérifier la présence des trois cassettes dans le
-              boîtier".</para>
+              <para>también puedes introducir algunas <emphasis
+              role="bold">notas</emphasis> asociadas al ejemplar. Estas notas
+              o mensaje se mostrará antes de realizar un préstamo. Por ejemplo
+              : "incluye cd, verifica que esté incluído".</para>
             </listitem>
 
             <listitem>
-              <para>vous pouvez enfin définir un prêt.</para>
+              <para>también puedes definir un tipo de préstamo.</para>
             </listitem>
           </itemizedlist>
 
