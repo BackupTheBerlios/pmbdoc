@@ -534,7 +534,7 @@
           <sect5>
             <title>Escoger un tipo de documento</title>
 
-            <para>En la parte superior del formulario hay una lsita
+            <para>En la parte superior del formulario hay una lista
             desplegable dónde se puede escoger entre los diferentes tipos de
             soportes :</para>
 
@@ -604,7 +604,7 @@
 
             <para>El título propio es el título principal de una obra.</para>
 
-            <para>Aunque a veces el título de la cubierta conincide con el de
+            <para>Aunque a veces el título de la cubierta coincide con el de
             la portada, hay que tener en cuenta que el título propio es el de
             la portada. En caso de diferencias, el título de la cubierta se
             especificará en la zona de notas.</para>
@@ -910,7 +910,7 @@
           <sect5>
             <title>Indexación</title>
 
-            <para>Le zona de indexación se compone de tres indexaciones
+            <para>La zona de indexación se compone de tres indexaciones
             diferentes :</para>
 
             <itemizedlist>
@@ -1308,25 +1308,22 @@
           Personalizables.</emphasis> Para más información, consulta la <emphasis>Guía del Administrador 
 		  de PMB</emphasis>, capítulo <emphasis>Ejemplares</emphasis>.</para>
 
-          <para>Vous pouvez enregistrer vos modifications en cliquant sur
-          <emphasis>Enregistrer</emphasis> ou les
-          <emphasis>Annuler</emphasis>. Si vous avez ouvert un exemplaire en
-          modification, vous pouvez également <emphasis>Supprimer
-          </emphasis>cet exemplaire.</para>
+          <para>Para guardar los cambios haz clic sobre <emphasis>Guardar</emphasis> o sobre 
+		  <emphasis>Cancelar</emphasis> si no quieres guardar los cambios. 
+		  Cuando tienes abierto un ejemplar para modificarlo, también puedes 
+          <emphasis>Eliminar
+          </emphasis>ese ejemplar.</para>
         </sect4>
 
         <sect4 id="cat_explnum_create">
-          <title>Ajout d'un exemplaire numérique</title>
+          <title>Añadir un documento electrónico</title>
 
-          <para>Les exemplaires numériques ne sont pas des liens, mais des
-          documents numériques directement intégrés dans votre catalogue sous
-          PMB. Vous pouvez ainsi ajouter à votre catalogue des ouvrages
-          numérisés par exemple au format PDF, des fichiers sons par exemple
-          au format MP3, des documents de votre traitement de texte ou de
-          votre tableur, des images...</para>
+          <para>Los ejemplares electrónicos no son enlaces, sino que son documentos directamente
+		  integrados en el catálogo de PMB. Puedes añadir al catálogo documentos en formato PDF, 
+		  archivos de sonido en formato MP3, documentos de texto, imágenes, ...</para>
 
           <figure>
-            <title>Saisie d'un exemplaire numérique</title>
+            <title>Introducir un documento electrónico</title>
 
             <mediaobject>
               <imageobject>
@@ -1335,92 +1332,85 @@
             </mediaobject>
           </figure>
 
-          <para>Vous pouvez définir différentes informations :</para>
+          <para>Puedes introducir algunos datos :</para>
 
           <itemizedlist>
             <listitem>
-              <para>un <emphasis role="bold">nom</emphasis> du document</para>
+              <para>un <emphasis role="bold">nombre</emphasis> del documento</para>
             </listitem>
 
             <listitem>
-              <para>le <emphasis role="bold">fichier</emphasis> du document
-              numérique. Cliquez sur le bouton <emphasis>Parcourir</emphasis>
-              (ou <emphasis>Browse</emphasis> selon votre navigateur) et
-              sélectionnez le fichier à télécharger sur le serveur.</para>
+              <para>el <emphasis role="bold">archivo</emphasis> del documento electrónico. 
+			  Haz clic sobre el botón <emphasis>Navega</emphasis>
+              (o <emphasis>Navegar</emphasis> según el navegador que uses) y selecciona el archivo 
+			  para cargarlo en el servidor.</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">une vignette</emphasis> (image pour
-              l'icône du document numérique). Cliquez sur le bouton
-              <emphasis>Parcourir</emphasis> (ou <emphasis>Browse</emphasis>
-              selon votre navigateur) et sélectionnez le fichier à télécharger
-              sur le serveur.</para>
+              <para><emphasis role="bold">una imagen</emphasis> (imagen que se mostrará
+			  como el icono del documento electrónico). Haz clic sobre el botón
+			  <emphasis>Navega</emphasis> (o <emphasis>Navegar</emphasis>
+              según el navegador que uses) y selecciona el archivo a para cargarlo en el servidor.</para>
             </listitem>
 
             <listitem>
-              <para>vous pouvez également télécharger vers le serveur un
-              fichier qui n'est pas sur votre disque mais sur votre réseau
-              intranet ou sur internet. Dans ce cas spécifiez <emphasis
-              role="bold">l'URL </emphasis>du fichier.</para>
+              <para>puedes igualmente cargar también archivos en el servidor que no estén en tu disco
+			  duro sino en tu intranet o en internet. En este caso especifica el <emphasis
+              role="bold">URL </emphasis>del archivo.</para>
             </listitem>
           </itemizedlist>
 
-          <para>PMB génère automatiquement les vignettes des images au format
-          GIF, JPG et PNG à partir du fichier, et place des icônes appropriées
-          pour la plupart des formats de fichier.</para>
+          <para>PMB genera automáticamente las imágenes que se usarán como icono de imágenes en formato
+          GIF, JPG y PNG a partir del archivo, y utiliza los iconos apropiados para la mayoría de formatos
+		  de arvhivos.</para>
 
-          <para>Vous pouvez enregistrer vos modifications en cliquant sur
-          <emphasis>Enregistrer</emphasis> ou les
-          <emphasis>Annuler</emphasis>. Si vous avez ouvert un exemplaire
-          numérique en modification, vous pouvez également <emphasis>Supprimer
-          </emphasis>cet exemplaire numérique.</para>
+          <para>Puedes guardar los cambios o modificaciones haciendo clic sobre
+          <emphasis>Guardar</emphasis> o bien <emphasis>Cancelar</emphasis>. 
+		  Si tienes abierto un documento electrónico para modificarlo, también lo puedes
+		  <emphasis>Eliminar</emphasis>.</para>
         </sect4>
 
         <sect4 id="cat_edit_expl">
-          <title>Modifier un exemplaire</title>
+          <title>Modificar un ejemplar</title>
 
-          <para>L'écran de modification est identique à celui d'ajout d'un
-          exemplaire auquel viennent s'ajouter deux boutons : Hist. et
-          Supprimer.</para>
+          <para>La pantalla de modificación es idéntica a la de crear un ejemplar, aunque 
+		  incluye dos botones más : Hist. y Eliminar.</para>
 
           <sect5>
             <title>Hist.</title>
 
-            <para>Ce bouton n'est affiché que si l'audit des notices et des
-            exemplaires est affiché. Il va permettre de voir qui a réalisé le
-            catalogage d'une notice, et qui a fait des modifications. Les
-            informations sont affichées dans un popup et dépendent du type
-            d'audit choisi. Pour plus d'informations, consulter le Guide de
-            l'Administrateur PMB, chapitre Outils, section Paramètres : il
-            s'agit du paramètre de type Paramètres généraux intitulé
-            type_audit.</para>
+            <para>Este botón no se muestra si la auditoría de los registros y los 
+			ejemplares no está activada. Esta función permite ver quién ha realizado 
+			la catalogación de un registro, quién lo ha modificado, etc. La información
+			se muestra en un popup y puede variar según el tipo de auditoría seleccionada. 
+			Para más información, consulta la Guía del Administrador PMB, capítulo Herramientas, 
+			sección Parámetros : hay un parámetro dentro de Parámentros generales que se llama type_audit.</para>
           </sect5>
 
           <sect5>
-            <title>Supprimer</title>
+            <title>Eliminar</title>
 
-            <para>Permet de supprimer l'exemplaire affiché. Attention, un
-            exemplaire ne peut être supprimé s'il est en cours de prêt.</para>
+            <para>Permite eliminar el ejemplar que se visualiza. Atención, un ejemplar no se 
+			puede elimnar si está prestado.</para>
           </sect5>
         </sect4>
 
         <sect4>
-          <title>Modifier un exemplaire numérique</title>
+          <title>Modificar un documento electrónico</title>
 
-          <para>L'écran de modification d'un exemplaire numérique est
-          identique à celui d'ajout d'un exemplaire numérique.</para>
+          <para>La pantalla de modificación de un documento electrónico es
+		  idéntica a la de crear un documento electrónico.</para>
         </sect4>
       </sect3>
     </sect2>
 
     <sect2 id="cat_last_records">
-      <title>Dernières notices</title>
+      <title>Últimos registros</title>
 
-      <para>Cet élément du menu permet d'accéder aux dernières notices
-      saisies.</para>
+      <para>Éste apartado permite acceder a los últimos registros creados.</para>
 
       <figure>
-        <title>Catalogage &gt; Ouvrages &gt; Dernières notices</title>
+        <title>Catálogo &gt; Documentos &gt; Últimos registros</title>
 
         <mediaobject>
           <imageobject>
@@ -1429,88 +1419,79 @@
         </mediaobject>
       </figure>
 
-      <para>L'accès aux dernières notices permet au bibliothécaire de
-      retrouver rapidement une notice qu'il aurait créé pour une correction,
-      rectifier un oubli...</para>
+      <para>El acceso a los últimos registros permite al bibliotecario encontrar rápidamente
+	  un registro que se acaba de crear para corregirlo, recticar alguna cosa que se ha olvidado 
+	  incluir, ...</para>
     </sect2>
   </sect1>
 
   <sect1 id="cat_serial">
-    <title>Périodiques</title>
+    <title>Publicaciones períodicas</title>
 
-    <para>PMB permet de saisir des informations générales liées au périodique
-    ; des informations liées au numéro tel que sorti en kiosque par exemple ;
-    ou encore des informations liées aux articles présents dans ce
-    numéro.</para>
+    <para>PMB permite introducir informaciones específicas asociadas a las publicaciones periódicas; 
+	estos datos suelen ser el número de publicación, la periodicidad, ... ;
+    o también las informaciones asocidadas a los artículos incluídos en cada número.</para>
 
     <sect2 id="cat_serial_vocabulary">
-      <title>Un peu de vocabulaire</title>
+      <title>Un poco de vocabulario</title>
 
-      <para>On désigne sous le terme de périodique toute publication en série
-      (y compris non-imprimée) dont la parution se fait à intervalles plus ou
-      moins réguliers et sous un titre uniforme.</para>
+      <para>Utilizamos el término de publicación periódica para toda aquella
+	  publicación en serie (impresa o no) que aparece con intervalos de periodicidad más o menos
+	  regulares y bajo un título uniforme.</para>
 
-      <para>Vous devez connaître le sens de quatre termes pour comprendre la
-      façon dont PMB gère les périodiques :</para>
+      <para>Para entender cómo utiliza las publicaciones periódicas PMB, hay que conocer 
+	  cuatro término :</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">le périodique</emphasis> est défini dans
-          PMB par une notice (appelée <emphasis role="bold">notice
-          mère</emphasis> ou <emphasis role="bold">notice chapeau</emphasis>)
-          qui définit notamment le nom de la revue, du magazine, etc. Cette
-          notice correspond à une notice d'ouvrage et définit le périodique au
-          sens large : <emphasis>Le Monde </emphasis>est un quotidien, fondé
-          par <emphasis>Beuve-Méry</emphasis>.</para>
+          <para><emphasis role="bold">la publicación periódica</emphasis> se define en 
+		  PMB por un registro (llamado <emphasis role="bold">registro padre</emphasis> 
+		  o <emphasis role="bold">registro origen</emphasis>)
+          dónde se incluye el título de la revista, periódico, etc. Este registro corresponde a un 
+		  registro dónde se describe la publiación de forma general : <emphasis>Le Monde </emphasis>
+		  es un periódico, fundado por <emphasis>Beuve-Méry</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">le numéro ou élément</emphasis> (encore
-          appelé <emphasis role="bold">bulletin</emphasis>) désigne par
-          exemple pour <emphasis>le Monde</emphasis> le n°
-          <emphasis>32478</emphasis> publié le <emphasis>15 août
-          2002</emphasis>, tel qu'il était disponible en kiosque. Décrire un
-          numéro dans le catalogue c'est décrire chacune des unités
-          constituant un périodique en vue du prêt d'un de ses exemplaires, ou
-          du catalogage de ses articles.</para>
+          <para><emphasis role="bold">el número </emphasis> (a veces llamado 
+		  <emphasis role="bold">boletín</emphasis>) hace referencia a 
+		  <emphasis>le Monde</emphasis> el número <emphasis>32478</emphasis> publicado el
+		  <emphasis>15 agosto 2002</emphasis>. Describir un número en el catálogo 
+		  es describir cada una de las unidades que forma una publicación
+		  periódica. De esta forma se pueden prestar cada uno de sus ejemplares, o también catalogar
+		  los artículos de cada número.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">l'exemplaire</emphasis> correspond à
-          l'état physique d'un numéro ou élément. Si vous avez deux
-          abonnements au Monde, vous aurez dans vos collections <emphasis>deux
-          exemplaires</emphasis> du n° <emphasis>32478</emphasis>.</para>
+          <para><emphasis role="bold">el ejemplar</emphasis> corresponde al estado
+		  físico de un número. Si tienes dos subscripciones a le Monde, tendrás en tu fondo 
+		  <emphasis>dos ejemplares</emphasis> del número <emphasis>32478</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">l'article</emphasis> (encore appelé
-          <emphasis role="bold">dépouillement</emphasis>) constitue
-          l'information de base dont sont constitués les différents numéros
-          d'une revue. Ceux ci sont les informations à décrire (dépouillement)
-          et à cataloguer et disposent donc d'une notice. Exemple : cataloguer
-          un article paru à la page 10 du Monde du 18 Juin 2003</para>
+          <para><emphasis role="bold">el artículo</emphasis> (o 
+		  <emphasis role="bold">analítica</emphasis>) es la información que se incluye
+		  en el catálogo sobre la información incluida en cada número de una publicación. 
+		  Los datos que se incluyen (analítica) y se catalogan tiene forma de registro. 
+		  Ejemplo : catalocar un artículo aparecido en la página 10 del le Monde el 18 Junio 2003</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">Récapitulons</emphasis> : Nous sommes
-      abonnés au Monde (une <emphasis role="">notice de
-      périodique</emphasis>), qui possède un n° 32478 (un
-      <emphasis>bulletin</emphasis>), dont nous avons deux exemplaires dans
-      notre bibliothèque (<emphasis>deux fiches d'exemplaires</emphasis> avec
-      deux codes-barres différents pour le prêt). Dans ce numéro, il y avait
-      cinquante grands articles (<emphasis>50 dépouillements</emphasis>) que
-      les lecteurs ou bibliothécaires peuvent chercher indépendamment,
-      renvoyant au numéro correspondant et à la disponibilité des exemplaires
-      correspondants.</para>
+      <para><emphasis role="bold">Recapitulemos</emphasis> : Nosotros estamos subscritos
+	  a le Monde (un <emphasis role="">registro de publicación periódica</emphasis>), que contiene 
+	  el número 32478 (un número o <emphasis>boletín</emphasis>), del cual nosotros tenemos 
+	  dos ejemplares en nuestra biblioteca que corresponden a las dos subscripciones que tenemos
+	  (<emphasis>dos ejemplares</emphasis> con dos códigos de barras diferentes para el préstamo). 
+	  Dentro de este número, hay cincuenta artículos grandes (<emphasis>50 analíticas</emphasis>) que
+      los usuarios o bibliotecarios pueden buscar de forma independiente, cada artículo se mostrará 
+	  junto con la información sobre el número al cual pertenece y la disponibilidad de ejemplares.</para>
 
-      <para>Si aucune information n'a encore été saisie dans PMB, la saisie
-      d'un article de périodique se fait donc en différentes étapes,
-      correspondant à la création d'une notice du périodique, le listage des
-      éléments (bulletinage), la création des exemplaires éventuels
-      (exemplarisation), le catalogage de l'article (dépouillement).</para>
+      <para>Si no se ha introducido ninguna información en PMB, para poder catalogar un artículo
+	  hay que seguir diferentes etapas, primero hay que catalogar la publicación periódica, luego crear 
+	  el listado de números, luego introducir los ejemplares y finalmente catalogar el artículo (o analítica).</para>
 
       <figure>
-        <title>Navigation dans les écrans d'affichage des périodiques</title>
+        <title>Navegación entre las pantallas de visualización de las publicaciones periódicas</title>
 
         <mediaobject>
           <imageobject>
