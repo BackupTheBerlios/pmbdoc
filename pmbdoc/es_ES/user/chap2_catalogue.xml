@@ -1580,90 +1580,87 @@
 
           <para>PMB puede generar publicaciones periódicas en diferentes formatos. Si las
           publicaciones impresas (revistas, periódicos, ...) son los más frecuentes, PMB 
-		  permite generar también journaux vocaux pour les
-          aveugles ou malvoyants, les périodiques électroniques, etc.</para>
+		  permite generar también diarios hablados para los sordos o ciegos, periódicos electrónicos, etc.</para>
 
-          <para>Les 15 supports présents dans le menu déroulant en haut de la
-          fiche correspondent aux dénominations UNIMARC:</para>
+          <para>Los 15 soportes que hay en el menú desplegable en la parte superior del
+		  registro corresponden a las denominaciones UNIMARC:</para>
 
           <itemizedlist>
             <listitem>
-              <para>texte imprimé</para>
+              <para>texto empreso</para>
             </listitem>
 
             <listitem>
-              <para>texte manuscrit</para>
+              <para>texto manuscrito</para>
             </listitem>
 
             <listitem>
-              <para>partition musicale imprimée</para>
+              <para>partitura musical impresa</para>
             </listitem>
 
             <listitem>
-              <para>partition musicale manuscrite</para>
+              <para>partitura musical manuscrita</para>
             </listitem>
 
             <listitem>
-              <para>document cartographique imprimé</para>
+              <para>documento carográfico impreso</para>
             </listitem>
 
             <listitem>
-              <para>document cartographique manuscrit</para>
+              <para>documento cartográfico manuscrito</para>
             </listitem>
 
             <listitem>
-              <para>document projeté ou vidéo</para>
+              <para>documento proyectable o vídeo</para>
             </listitem>
 
             <listitem>
-              <para>enregistrement sonore non musical</para>
+              <para>grabación sonora no musical</para>
             </listitem>
 
             <listitem>
-              <para>enregistrement sonore musical</para>
+              <para>grabación sonora musical</para>
             </listitem>
 
             <listitem>
-              <para>document graphique à deux dimensions</para>
+              <para>documento gráfico bidimensional</para>
             </listitem>
 
             <listitem>
-              <para>document électronique</para>
+              <para>documento electrónico</para>
             </listitem>
 
             <listitem>
-              <para>document multimédia</para>
+              <para>documento multimedia</para>
             </listitem>
 
             <listitem>
-              <para>objet à 3 dimensions, artefacts, ...</para>
+              <para>objeto tridimensional, aparatos, ...</para>
             </listitem>
           </itemizedlist>
         </sect4>
 
         <sect4>
-          <title>Autres champs de saisie</title>
+          <title>Otros campos a rellenar</title>
 
-          <para>Les autres champs de saisie d'un périodique correspondent à
-          ceux d'un ouvrage. Voir plus haut la section 1.2.1 <emphasis>Saisie
-          d'une nouvelle notice</emphasis>.</para>
+          <para>Los otros campos a introducir datos de una publicación periódica corresponden a los
+		  de un registro normal. Ver un poco más arriba la sección 1.2.1 <emphasis>Introducir datos para 
+		  un nuevo registro</emphasis>.</para>
 
-          <para><emphasis role="bold">A noter</emphasis> On ne peut pas
-          définir d'informations de collation (nb de pages, matériel
-          d'accompagnement, ...) pour un périodique. De même la notion de
-          collection ne s'applique pas à un périodique.</para>
+          <para><emphasis role="bold">A tener en cuenta</emphasis> No se pueden introducir datos
+		  sobre la colación (nº de páginas, material de acompañamiento, ..., ) en una p. periódica. 
+		  La definición de colación no se aplica a este tipo de material.</para>
 
-          <para>Après avoir enregistré votre notice de périodique, vous
-          obtenez l'affichage de l'écran <emphasis>Visualiser un
-          périodique</emphasis>.</para>
+          <para>Después de haber guardado el registro de tu p. periódica, puedes visualizarlo 
+		  a través de la pantalla <emphasis>Ver una publicación periódica</emphasis>.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_serial_view">
-        <title>Visualiser un périodique</title>
+        <title>Ver una publicación periódica</title>
 
         <figure>
-          <title>Visualiser un périodique</title>
+          <title>Ver una publicación periódica</title>
 
           <mediaobject>
             <imageobject>
@@ -1672,57 +1669,49 @@
           </mediaobject>
         </figure>
 
-        <para>Depuis cet écran, vous pouvez modifier le périodique en cliquant
-        sur le bouton <emphasis role="bold">Modifier</emphasis>. La
-        modification d'un périodique est identique à sa création. Voir plus
-        bas la section <emphasis>Nouveau périodique</emphasis>.</para>
+        <para>Dentro de esta pantalla, puedes modificar la publicación periódica 
+		haciendo clic sobre el botón <emphasis role="bold">Modificar</emphasis>. La
+        pantalla de modificación de una p. periódica es idéntica a la de creación. 
+		Ver más abajao la sección <emphasis>Nueva p. periódica</emphasis>.</para>
 
-        <para>Vous pouvez <emphasis role="bold">Supprimer</emphasis> le
-        périodique.</para>
+        <para>También desde este apartado puedes <emphasis role="bold">Eliminar</emphasis> la 
+		publicación.</para>
 
-        <para>Vous pouvez également <emphasis role="bold">ajouter un numéro ou
-        un élément </emphasis>(bulletin).</para>
+        <para>También puedes <emphasis role="bold">añadir un número o elemento </emphasis>(boletín).</para>
 
-        <para>Dans l'<emphasis>état des collections</emphasis> qui apparaît en
-        bas de l'écran, chaque ligne présente pour un bulletin sa mention de
-        date (<emphasis role="bold">Date ou période</emphasis>), le nombre
-        d'articles (<emphasis role="bold">Art</emphasis>.) dépouillés pour ce
-        bulletin, le nombre de documents numériques (<emphasis
-        role="bold">Doc</emphasis>.), le nombre d'exemplaires du bulletin
-        (<emphasis role="bold">Expl</emphasis>.).</para>
+        <para>Dentro del <emphasis>estado de las colecciones</emphasis> que aparecen 
+		en la parte inferior de la pantalla, cada línea describe para cada número la fecha 
+		(<emphasis role="bold">Fecha o período</emphasis>), el número de artículos 
+		(<emphasis role="bold">Art</emphasis>.) catalogados de ese número, el número de 
+		documentos electrónicos (<emphasis role="bold">Doc</emphasis>.), y el número de ejemplares 
+		(<emphasis role="bold">Expl</emphasis>.).</para>
 
-        <para>Vous pouvez afficher un des bulletins déjà saisis en cliquant
-        sur une des lignes de <emphasis>l'état des collections</emphasis>. Le
-        bulletin est alors affiché dans l'écran
-        <emphasis>Bulletinage</emphasis>.</para>
+        <para>Puedes ver un número de los ya catalogados haciendo clic 
+        sobre una de las líneas de <emphasis>estado de las colecciones</emphasis>. El número se muestra en la 
+		pantalla <emphasis>Números</emphasis>.</para>
 
         <sect4 id="cat_serial_bul">
-          <title>Ajouter un numéro ou un élément (bulletin)</title>
+          <title>Añadir un número o elemento (boletín)</title>
 
-          <para>Différentes informations seulement sont nécessaires : la
-          mention de numérotation (n° 32478), le code barre du numéro, le
-          libellé de période et/ou la date de parution et enfin le titre du
-          bulletin.</para>
+          <para>Sólo se necesitan algunos datos : la
+          mención de numeración (nº 32478), el código de barras del número, la etiqueta 
+		  del período i/o la fecha de aparición y finalmente el título del número.</para>
 
-          <para><emphasis role="bold">Numérotation</emphasis> : sert à stocker
-          le numéro du bulletin. Par exemple le numéro
-          <emphasis>153</emphasis> du périodique.</para>
+          <para><emphasis role="bold">Numeración</emphasis> : sirve para guardar la numeración
+		  del número. Por ejemplo el número <emphasis>153</emphasis> de una revista.</para>
 
-          <para><emphasis role="bold">Code barre</emphasis> : ceci vous permet
-          d'enregistrer le code barre du numéro du périodique, par exemple
-          <emphasis>3792578022009</emphasis>.</para>
+          <para><emphasis role="bold">Código de barras</emphasis> : permite guardar el número de 
+		  código de barras del número, por ejemplo <emphasis>3792578022009</emphasis>.</para>
 
-          <para><emphasis role="bold">Date de parution</emphasis> sert à dater
-          au jour près le bulletin (01/06/04). C'est cette date qui sert à
-          classer l'affichage des bulletins. Si cette case n'est pas remplie,
-          soit à la main, soit par le popup calendrier en cliquant sur
-          <emphasis>calendrier,</emphasis> elle sera automatiquement remplie
-          par PMB à la date du jour.</para>
+          <para><emphasis role="bold">Fecha de aparición</emphasis> sirve para seleccionar
+		  la fecha del número (01/06/04). Es esta fecha la que sirve para ordenar los diferentes 
+		  números. La fecha se puede introducir manualment o bien a través del popup con el 
+		  calendario que se abre al hacer clic sobre <emphasis>calendario,</emphasis> 
+		  se selecciona la fecha deseada y pmb introduce directamente la fecha.</para>
 
-          <para><emphasis role="bold">Libellé de période</emphasis> : ce champ
-          sert pour la saisie de la date de publication telle qu'elle est
-          mentionnée pour le numéro : par exemple<emphasis> juin-juillet
-          2004</emphasis>.</para>
+          <para><emphasis role="bold">Período</emphasis> : este campo sirve
+		  para introducir la mención de período que a veces incluyen algunas publicaciones : 
+		  por ejemplo<emphasis> junio-julio 2004</emphasis>.</para>
 
           <para><emphasis role="bold">Titre du bulletin</emphasis> : pour
           stocker le titre d'un bulletin le cas échéant, par exemple
