@@ -1875,20 +1875,20 @@
           </mediaobject>
         </figure>
 
-        <para>En cliquant sur le nom d'un panier, vous pouvez consulter le
-        contenu d'un panier. En cliquant sur Editer, vous pouvez éditer ce
-        panier : nom, type, commentaire, droits d'accès. Enfin, en cliquant
-        sur Ajouter un panier vous pouvez définir un nouveau panier.</para>
+        <para>Haciendo clic sobre el nombre de una de las cestas, puedes consultar el 
+		contenido de la cesta. Haciendo clic en Editar, puedes editar la cesta: 
+		nombre, tipo, comentario, derechos de acceso. Finalmente haciendo clic en Añadir una
+		cesta puedes definir una nueva cesta.</para>
 
         <sect4>
-          <title>Contenu d'un panier</title>
+          <title>Contenido de una cesta</title>
 
-          <para>En cliquant sur le nom d'un panier, vous pouvez consulter le
-          contenu d'un panier.</para>
+          <para>Al hacer clic sobre el nombre de una cesta, puedes consultar el contenido 
+		  de cada cesta.</para>
 
           <figure>
-            <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
-            paniers, contenu d'un panier</title>
+            <title>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de 
+            cestas, contenido del panel</title>
 
             <mediaobject>
               <imageobject>
@@ -1897,15 +1897,14 @@
             </mediaobject>
           </figure>
 
-          <para>Vous pouvez éventuellement en supprimer des éléments à l'aide
-          de l'icône supprimer du panier :<graphic
-          fileref="images/basket_del.gif" /></para>
+          <para>También puedes eventualmente suprimir los elementos con la ayuda del 
+		  icono eliminar de la cesta :<graphic fileref="images/basket_del.gif" /></para>
 
-          <para>Un panier peut contenir des éléments du fonds (notices,
-          exemplaires ou bulletins catalogués dans PMB) :</para>
+          <para>Una cesta puede contener elementos del fondo de la biblioteca (registros, 
+		  ejemplars o número de p. periódica catalogados en PMB) :</para>
 
           <figure>
-            <title>Elément du fond</title>
+            <title>Elemento del fondo</title>
 
             <mediaobject>
               <imageobject>
@@ -1914,20 +1913,19 @@
             </mediaobject>
           </figure>
 
-          <para>Si vous développez la notice en cliquant sur le + situé devant
-          l'élément, vous pourrez consulter sa notice au format ISBD ainsi la
-          liste des exemplaires et des exemplaires numériques. L'affichage de
-          la notice est identique à celui que vous pouvez avoir en résultat
-          d'une recherche (Catalogage &gt; Recherche).</para>
+          <para>Si amplias la noticia haciendo clic sobre el + situado deltante
+		  del registro, puedes consultar el registro en formato ISBD y también ver 
+		  la lista de ejemplares y de documentos electrónicos. La visualización 
+		  del registro es idéntica a la que puedes ver en el resultado de una 
+		  búsqueda (Catálogo &gt; Buscar).</para>
 
-          <para>Cependant, lors de la collecte du panier, vous pouvez avoir
-          douchetté un élément inconnu du fonds (par exemple, un livre de la
-          BDP qui n'a pas été importé dans PMB). Pour vous permettre de
-          conserver la trace de ces éléments, un panier peut également
-          contenir des éléments inconnus :</para>
+          <para>Las cestas pueden contener también elementos no catalogados
+		  en PMB (por ejemplo, puedes haber introducido un libro de otra biblioteca). 
+		  Para conservar información sobre estos elementos, una cesta también puede guardar
+		  este tipo de elementos :</para>
 
           <figure>
-            <title>Elément inconnu</title>
+            <title>Elemento desconocido</title>
 
             <mediaobject>
               <imageobject>
@@ -1936,13 +1934,13 @@
             </mediaobject>
           </figure>
 
-          <para>Dans le contenu d'un panier, si des éléments ont été pointés,
-          ceux- ci sont signalés par une icône précédant leur titre. Pour plus
-          d'informations sur le pointage des éléments d'un panier, consulter
-          la section <xref linkend="cat_caddie_pointage" />.</para>
+          <para>Dentro del contenido de una cesta, si los elementos han sido marcados,
+          éstos están señalados por el icono que precede al título. Para más información sobre 
+		  cómo marcar los elementos de una cesta, consulta la 
+		  sección <xref linkend="cat_caddie_pointage" />.</para>
 
           <figure>
-            <title>Elément pointé</title>
+            <title>Elemento marcado</title>
 
             <mediaobject>
               <imageobject>
@@ -1953,15 +1951,13 @@
         </sect4>
 
         <sect4 id="catalogue_panier_editer_un_panier">
-          <title id="catalogue_panier_editer_un_panier.title">Editer un
-          panier</title>
+          <title id="catalogue_panier_editer_un_panier.title">Editar una cesta</title>
 
-          <para>Vous pouvez également éditer un panier en cliquant sur le lien
-          Éditer à droite de l'écran.</para>
+          <para>También puedes editar un pnael haciendo clic sobre el enlace 
+		  Editar a la derecha de la pantalla.</para>
 
           <figure>
-            <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
-            paniers</title>
+            <title>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de las cestas</title>
 
             <mediaobject>
               <imageobject>
@@ -1970,42 +1966,39 @@
             </mediaobject>
           </figure>
 
-          <para>L'écran Éditer un panier vous permet de modifier le nom, le
-          commentaire d'un panier, et les droits des utilisateurs sur ce
-          panier.</para>
+          <para>La pantalla de Editar permite modificar el nombre, el comentario de 
+		  una cesta, y los derechos de los usuarios sobre esa cesta.</para>
 
-          <para>Vous pouvez voir le type de panier : Panier de notices, Panier
-          de bulletins, Panier d'exemplaires. Vous ne pouvez pas changer le
-          type d'un panier existant. Si vous vous êtes trompés dans la
-          création d'un panier, supprimez le et créez en un nouveau.</para>
+          <para>También puedes ver el tipo de cesta: Cesta de registros, Cesta
+		  de artículos, Cesta de ejemplares. No se puede cambiar el tipo de cesta 
+		  de una cesta ya creada. Si te has equivocado al crear una cesta, 
+		  eliminínala y vuelve a crearla de nuevo.</para>
 
-          <para>Sous la mention "Autorisations accordées à", vous pouvez voir
-          des cases à cocher correspondant aux autorisations d'accès. Les noms
-          affichés sont les différents utilisateurs définis dans PMB. Vous ne
-          pouvez pas retirer l'accès à l'administrateur.</para>
+          <para>Bajo la mención de "Autorizaciones concedidas a", puedes ver las casillas
+		  a marcar que corresponden a los usuarios a los cuales se autoriza el acceso.
+		  Los nombres que se muestran son los de los diferentes usuarios definidos
+		  en PMB. No se le pueden retirar derechos de acceso al administrador.</para>
 
-          <para>Vous pouvez donc créer un panier qui ne sera accessible qu'à
-          vous (et à l'administrateur).</para>
+          <para>Puedes crear, por tanto, cestas que sólo podrás acceder tú 
+		  (y el administrador).</para>
         </sect4>
 
         <sect4>
-          <title>Ajouter un panier</title>
+          <title>Añadir una cesta</title>
 
-          <para>L'écran d'ajout d'un panier est identique à celui d'Editer un
-          panier. Seul le bouton Supprimer n'y figure pas. Pour plus
-          d'informations, consulter plus haut la section <xref
+          <para>La pantalla de añadir una cesta es idéntica a la de Editar 
+		  una cesta. La única diferencia es que el botón Eliminar no está. Para más información, 
+		  consulta un poco más arriba la sección <xref
           linkend="catalogue_panier_editer_un_panier" />.</para>
         </sect4>
 
         <sect4>
-          <title>Paniers installés par défaut lors de l'installation de
-          PMB</title>
+          <title>Cestas instaladas por defecto en PMB</title>
 
-          <para>Si votre administrateur informatique a installé PMB avec les
-          "données essentielles pour démarrer rapidement" (feed_essential.sql,
-          pour plus d'informations, consulter le Guide d'Installation PMB), un
-          certain nombre de paniers ont été créés, soit à titre d'exemple,
-          soit pour faciliter la gestion de la bibliothèque.</para>
+          <para>Si tu administrador informático ha instalado PMB con los 
+		  "datos esenciales para un inicio rápido" (feed_essential.sql,
+          para más información, consulta la Guía de Instalación PMB), se habrán
+		  creado algunas cestas, para facilitar la gestión de la biblioteca.</para>
 
           <para><emphasis>Notices pour exposition</emphasis> panier de notices
           exemple. Destiné à recevoir les notices d'une petite exposition, qui
