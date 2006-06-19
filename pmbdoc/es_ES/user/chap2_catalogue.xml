@@ -3,7 +3,7 @@
   <title>Catálago</title>
 
   <para>La catalogación hace referencia a las diferentes acciones que se
-  realizan con a los documentos para crear un catálogo que permitirá buscar,
+  realizan con los documentos para crear un catálogo que permitirá buscar,
   generar préstamos, editar estadísticas, ...</para>
 
   <para><emphasis role="bold">Nota </emphasis>En todo momento, dentro del
@@ -31,12 +31,12 @@
           <title>Búsqueda por título</title>
 
           <para>Esta es la pantalla que aparece al hacer clic sobre la pestaña
-          catalogación. Permite realizar una búsqueda y está constantemente
+          catálogo. Permite realizar una búsqueda y está constantemente
           accesible en este apartado al hacer clic sobre "buscar" en el menú
           lateral.</para>
 
           <figure>
-            <title>Catalogación &gt; Documentos &gt; Buscar por título</title>
+            <title>Catálogo &gt; Documentos &gt; Buscar por título</title>
 
             <mediaobject>
               <imageobject>
@@ -2497,23 +2497,23 @@
       <sect3>
         <title>Generar inventarios</title>
 
-        <programlisting>&gt; Je voudrais me simplifier la vie lors de mes inventaires, j'ai donc 
-&gt; pensé à créer un paniers avec tous les exemplaires d'une section. Je 
-&gt; pourrais ainsi pointer les exemplaires physiquement en rayon et avec 
-&gt; l'action supprimer du panier les éléments pointés retrouver les livres 
-&gt; qui sont dans la base mais physiquement perdus, volés... 
+        <programlisting>&gt; Yo quisiera simplicar mi vida en cuanto a los inventarios, es por esto
+&gt; que he pensado en crear unas cestas con todos los ejemplares de una sección. Yo 
+&gt; podría así marcar los ejemplares que están físicamente en las estanterías y con 
+&gt; la acción suprimir de la cesta eliminar estos elementos de la cesta, de forma que podría 
+&gt; encontrar los elementos que están en la base pero que físicament están perdidos, desaparecidos, ... 
 &gt; 
-&gt; J'ai voulu utilisé une procédure mais je suis vraiment nulle! Dans les 
-&gt; PS j'ai un inventaire de tout mes documentaires par ex. mais je ne sais 
-&gt; pas comment la transformer pour qu'elle fonctionne dans les paniers? 
-&gt; Voici donc la PS corrigée ! 
+&gt; Quería usar una consulta pero soy realmente un desastre para ello! En los 
+&gt; PS yo tenía un inventario de todos mis documentos, pero 
+&gt; cómo transformarlo para que funcionara en las cestas? 
+&gt; Pues aquí está el PS corregido ! 
 
 select expl_id as object_id, 'EXPL' as object_type from exemplaires, notices, 
 docs_section where idsection in (!!section!!) and expl_notice=notice_id and 
 expl_section=idsection order by section_libelle, expl_cote, expl_cb 
 
-&gt;Il ne reste plus qu'à paramétrer le paramètre !!section!! : liste de choix 
-&gt;à partir d'une requête, liste multiple si on veut avec : 
+&gt;Sólo faltará parametrizar el parámetro !!section!! : lista de opciones 
+&gt;a partir de una consulta, si se quiere lista múltiple : 
 
 select idsection, section_libelle from docs_section order by section_libelle 
 
@@ -2527,23 +2527,23 @@ select idsection, section_libelle from docs_section order by section_libelle
   </sect1>
 
   <sect1 id="cat_etg">
-    <title>Étagères</title>
+    <title>Estanterías</title>
 
-    <para>Les étagères virtuelles sont un regroupement de paniers de notices
-    qui peuvent contenir ou non des notices. Les étagères virtuelles
-    permettent d'afficher ces notices dans l'OPAC ou dans votre site internet.
-    PMB permet par ce moyen de présenter dans votre site internet une
-    exposition virtuelle, la liste des derniers ouvrages acquis par la
-    bibliothèque, la sélection d'un club de lecteurs, etc...</para>
+    <para>Las estanterías virtuales son un conjunto de cestas de registros que
+    pueden contener o no registros. Las estanterías virtuales permiten mostrar
+    estos registros en el OPAC o en tu página web. PMB permite a través de
+    esta forma mostrar en tu página web una exposición virtual, la lista de
+    las últimas obras adquiridas por la biblioteca, la selección de un club de
+    lectura, etc...</para>
 
     <sect2 id="cat_etg_gestion">
-      <title>Gestion</title>
+      <title>Gestión</title>
 
-      <para>La gestion des étagères affiche une liste des étagères
-      existantes.</para>
+      <para>La gestión de las estanterías muestra una lista de estanterías
+      existentes.</para>
 
       <figure>
-        <title>Catalogue &gt; Étagères &gt; Gestion</title>
+        <title>Catálogo &gt; Estanterías &gt; Gestión</title>
 
         <mediaobject>
           <imageobject>
@@ -2552,30 +2552,30 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Vous pouvez ajouter une étagère en cliquant sur le bouton
-      <emphasis>Ajouter une étagère</emphasis>.</para>
+      <para>Puedes añadir una estanterías haciendo clic sobre el botón
+      <emphasis>Añadir una estantería</emphasis>.</para>
 
-      <para>Pour éditer une étagère existante, cliquez sur la ligne
-      correspondante.</para>
+      <para>Para editar una estantería existente, haz clic sobre la línea
+      correspondiente.</para>
 
-      <para>Une étagère est définie par un nom, une période de validité, sa
-      visibilité ou non en page d'accueil de l'OPAC. Un commentaire peut
-      également être ajouté. Enfin chaque étagère possède des droits : ces
-      autorisations permettent aux utilisateurs correspondants d'éditer
-      l'étagère sélectionnée et son contenu.</para>
+      <para>Una estantería se define por un nombre, un período de validez, su
+      visibilidad o no en la página de inicio del OPAC. También se puede
+      añadir un comentario. Finalmente cada estantería tiene sus derechos :
+      las autorizaciones que permiten a los diversos usuarios editar la
+      estantería seleccionada y su contenido.</para>
     </sect2>
 
     <sect2 id="cat_etg_constit">
-      <title>Constitution</title>
+      <title>Creación</title>
 
-      <para>L'écran de constitution d'une étagère permet d'ajouter ou de
-      retirer le contenu d'un ou plusieurs paniers à une de vos étagères
-      virtuelles.</para>
+      <para>La pantalla de creación de una estantería virtual permite añadir o
+      retirar el contenido de una o varias cestas a una de tus estanterías
+      virtuales.</para>
 
-      <para>Cliquez sur l'étagère à constituer.</para>
+      <para>Haz clic sobre la estantería a crear.</para>
 
       <figure>
-        <title>Catalogue &gt; Étagères &gt; Constitution</title>
+        <title>Catálogo &gt; Estanterías &gt; Creación</title>
 
         <mediaobject>
           <imageobject>
@@ -2584,12 +2584,12 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Cochez ensuite les paniers de notices à ajouter à votre étagère
-      virtuelle.</para>
+      <para>Marca las cestas de registros a añadir a tu estantería
+      virtual.</para>
 
       <figure>
-        <title>Catalogue &gt; Étagères &gt; Constitution, ajout de paniers à
-        une étagère</title>
+        <title>Catálogo &gt; Estanterías &gt; Creación, añadir cestas a una
+        estantería</title>
 
         <mediaobject>
           <imageobject>
@@ -2598,8 +2598,8 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Puis cliquez sur <emphasis>Enregistrer</emphasis> pour valider la
-      constitution de votre étagère virtuelle.</para>
+      <para>Después haz clic sobre <emphasis>Guardar</emphasis> para validar
+      la creación de tu estantería virtual.</para>
     </sect2>
   </sect1>
 
@@ -2607,24 +2607,23 @@ select idsection, section_libelle from docs_section order by section_libelle
     <title>Z39.50</title>
 
     <sect2 id="cat_z3950">
-      <title>recherche Z39.50</title>
+      <title>Búsqueda Z39.50</title>
 
-      <para>La recherche Z39.50 permet de rechercher un ouvrage dans le
-      catalogue d'une autre bibliothèque, ce qui permettra de l'insérer
-      directement dans le catalogue géré par PMB, sans refaire le travail de
-      catalogage déjà réalisé dans l'autre bibliothèque.</para>
+      <para>La búsqueda Z39.50 permite buscar una obra en el catálogo de otra
+      biblioteca, una vez encontrada la puedes copiar directamente a tu
+      catálogo generado por PMB, sin tener que volver a hacer el trabajo que
+      ya han hecho otras bibliotecas.</para>
 
-      <para><emphasis role="bold">Remarque</emphasis> les notices cataloguées
-      correspondent à un travail intellectuel et sont soumises à droits
-      d'auteurs. Les notices de la <emphasis>BnF</emphasis> comme celles de la
-      <emphasis>Bibliothèque du Congrès Américain</emphasis> (Library of
-      Congress) sont du domaine public : vous pouvez donc les importer en
-      toute tranquillité, les autres bibliothèques peuvent avoir d'autres
-      politiques de communication de leurs notices. Renseignez vous auprès de
-      la bibliothèque concernée.</para>
+      <para><emphasis role="bold">Nota</emphasis> los registros catalogados
+      corresponden a un trabajo intelectual y están sometidos a los derechos
+      de autor. Los registros de la <emphasis>BnF</emphasis> y los de la
+      <emphasis>Biblioteca del Congreso Americano</emphasis> (Library of
+      Congress) son de dominio público : puedes importar los datos con toda
+      tranquilidad, otras bibliotecas puden tener otras políticas aplicadas a
+      sus registros. Informáte en la biblioteca en cuestión.</para>
 
       <figure>
-        <title>Catalogage &gt; Z39.50 &gt; Recherche</title>
+        <title>Catálogo &gt; Z39.50 &gt; Buscar</title>
 
         <mediaobject>
           <imageobject>
@@ -2633,18 +2632,16 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Prenons un exemple, importons <emphasis>Germinal</emphasis> de
-      <emphasis>Zola</emphasis>. Comme critère de recherche, nous choisissons
-      "titre", et dans le champ situé à côté nous spécifions
-      "Germinal".</para>
+      <para>Hagamos un ejemplo, importemos <emphasis>Germinal</emphasis> de
+      <emphasis>Zola</emphasis>. Como criterio de búsqueda, escogemos
+      "título", y en la casilla introducimos "Germinal".</para>
 
-      <para>Nous cochons alors une ou plusieurs bibliothèques susceptibles
-      d'avoir l'édition de <emphasis>Germinal</emphasis> que nous voulons
-      cataloguer.</para>
+      <para>Marcamos una o varias bibliotecas susceptibles de tener la edición
+      de <emphasis>Germinal</emphasis> que nosotros queremos catalogar.</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran intermédiaire
-        montrant l'avancement</title>
+        <title>Catálogo &gt; Z39.50 &gt; Buscar, pantalla intermedia que
+        muestra el avance</title>
 
         <mediaobject>
           <imageobject>
@@ -2653,47 +2650,46 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Au bout d'une dizaine de secondes d'une requête non aboutie, on
-      peut imaginer que notre connexion à internet est saturée, que le serveur
-      à l'autre bout ne répond pas, ou que notre configuration de PMB n'est
-      pas bonne (si aucune recherche z39.50 n'a fonctionné
-      jusqu'alors).</para>
+      <para>Al cabo de unos segundos si no una consulta no ha tenido éxito,
+      podemos imaginar que nuestra conexión a internet está saturada, que el
+      servidor del otro lado no ha respondido, o que nuestra configuración de
+      PMB no es correcta (en caso de que ninguna búsqueda z39.50
+      funcione).</para>
 
-      <para>Les lignes qui commencent par "Échec..." correspondent à une
-      erreur. Un message d'erreur est alors renvoyé. En voici quelques
-      exemples :</para>
+      <para>Las líneas que empiezan por "Fallo..." corresponden a un error. En
+      estos casos se muestra un mensaje de error. Aquí hay varios ejemplos
+      :</para>
 
       <itemizedlist>
         <listitem>
-          <para>Timeout : le serveur n'a pas répondu dans le délai
-          imparti</para>
+          <para>Timeout : el servidor no ha respondido en el tiempo
+          indicado</para>
         </listitem>
 
         <listitem>
-          <para>Connect failed : le serveur a répondu, mais la connexion n'a
-          pu être réalisée</para>
+          <para>Connect failed : el servidor ha respondido, pero la conexión
+          no se ha podido realizar</para>
         </listitem>
 
         <listitem>
-          <para>Malformed query : le profil z3950 du serveur n'est pas bon.
-          Vérifier le profil Z39.50 de ce serveur auprès de son
-          administrateur</para>
+          <para>Malformed query : el perfil z3950 del servidor no es correcto.
+          Verifica el perfil Z39.50 de este servidor a través de su
+          administrador</para>
         </listitem>
       </itemizedlist>
 
-      <para>Les lignes commençant par TERMINE signalent que la recherche a
-      abouti. Le nombre de résultats retournés est fourni dans la
-      phrase<emphasis> le serveur a retourné X notices sur X
-      trouvée</emphasis>s (limitation aux cent premières notices d'une
-      recherche, si vous obtenez plus de cent résultats, affinez votre
-      recherche).</para>
+      <para>Las línias que empiezan por TERMINADO señalan que la búsqueda ha
+      tenido éxito. El número de resultados devueltos se muestra bajo la
+      frase<emphasis> el servidor ha devuelto X registros de X
+      encontrados</emphasis> (limitación a los 100 primeros registros, si
+      obtienes más de cien resultados, afina tu búsqueda).</para>
 
-      <para>Une fois la recherche achevée, cliquer sur "Résultats" pour
-      afficher les résultats obtenus.</para>
+      <para>Una vez la búsqueda ha finalizado, haz clic sobre "Resultados"
+      para ver los resultados obtenidos.</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran des résultats de
-        recherche</title>
+        <title>Catálogo &gt; Z39.50 &gt; Buscar, pantalla de
+        resultados</title>
 
         <mediaobject>
           <imageobject>
@@ -2702,15 +2698,15 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Un écran affiche alors les résultats de la recherche. La liste des
-      résultats présente des notices résumées au format ISBD. Ne figurent pas
-      dans cette liste les notes éventuellement saisies, ainsi que d'autres
-      renseignements mineurs. Pour choisir une notice, cliquer sur son
-      titre.</para>
+      <para>Se muestra entonces una pantalla con los resultados de la
+      búsqueda. La lista de los resultados presenta los registros resumidos en
+      formato ISBD. No figuran en esta lista notas eventualmente introducidas,
+      así como tampoco otras informaciones menores. Para escoger un registros,
+      haz clic sobre su título.</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran de modification de
-        la notice avant intégration</title>
+        <title>Catálogo &gt; Z39.50 &gt; Buscar, pantalla de modificación del
+        registro antes de integrarlo</title>
 
         <mediaobject>
           <imageobject>
@@ -2719,30 +2715,31 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>La notice obtenue est alors affichée en modification pour pouvoir
-      la consulter en détail, la modifier le cas échéant et enfin l'intégrer
-      au catalogue. Il existe quelques différences par rapport à l'écran
-      d'édition habituel d'une notice : les auteurs et éditeurs ont deux
-      champs de saisies correspondant à élément principal (nom) et élément
-      rejeté (prénom). Une fois les éventuelles corrections faites valider par
-      le bouton "intégrer la notice".</para>
+      <para>El registro obtenido se muestra para modificarlo, la modificación
+      se realiza con el finde mostrar el registro en detalle y en caso de que
+      sea correcto integrarlo al catálogo. Existen algunas diferencias con la
+      pantalla habitual de modificación de un registro : los autores y
+      editoriales tienen dos campos para introducir el elemento principal
+      (apellido) y el elemento secundario (nombre). Una vez se han realizado
+      las eventuales correcciones sólo hace falta validar con el botón
+      "integrar el registro".</para>
 
-      <para>Un écran suivant permet de définir alors des exemplaires.</para>
+      <para>La pantalla siguiente permite definir los ejemplares.</para>
 
-      <para>Cataloguez ensuite votre ou vos exemplaires. Une fois l'exemplaire
-      défini, cliquer sur intégrer, on peut également revenir à la liste des
-      résultats pour intégrer un des autres résultats de la liste.</para>
+      <para>Cataloga entonces el o los ejemplares. Una vez se han introducido
+      los ejemplares, haz lic para integrarlos, puedes también volver a la
+      lista de resultados para integrar otros resultados de la lista.</para>
 
-      <para>Dans cet écran, en haut de l'écran figure la mention notice
-      intégrée, avec un lien<emphasis> La voir en catalogage.</emphasis> Ce
-      lien permet d'afficher la notice en modification. L'écran de
-      modification affiché ensuite est le même que celui de la création de
-      notice (voir plus haut la section<emphasis> Nouvelle
-      notice</emphasis>).</para>
+      <para>En esta pantalla, en la parte superior figura la información sobre
+      el registro integrafo, con un enlace<emphasis> Verlo en
+      catalogación.</emphasis> Este enlace permite mostrar el registro en
+      modificación. La pantalla de modificación que se muestra es la misma que
+      la de creación de un registro (ver más información un poco más arriba en
+      la sección<emphasis> Nuevo registro</emphasis>).</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, Notice intégrée, la voir
-        en catalogage</title>
+        <title>Catalogación &gt; Z39.50 &gt; Buscar, Registro integrado, verlo
+        en catalogación</title>
 
         <mediaobject>
           <imageobject>
@@ -2752,31 +2749,30 @@ select idsection, section_libelle from docs_section order by section_libelle
       </figure>
 
       <sect3>
-        <title>Utilisation de la recherche Z39.50 au quotidien</title>
+        <title>Uso de la búsqueda Z39.50 en el día a día</title>
 
-        <para>Pour les bibliothèques française, le principal intérêt de la
-        recherche Z39.50 est la recherche par ISBN depuis la BnF. Pour les
-        ouvrages de votre fond propre, vous pouvez facilement cataloguer les
-        livres à l'aide de votre douchette et du code barre commercial (EAN)
-        de l'ouvrage.</para>
+        <para>Para las bibliotecas francesas, el principal interés de la
+        búsqueda Z39.50 es la búsqueda por ISBN en la BnF. Para las obras de
+        tu fondo propio, puedes catalogar fácilmente los libros con la ayuda
+        de tu lector de códigos de barras y el código de barras comercial
+        (EAN) del documento.</para>
 
-        <para>Pour cela,</para>
+        <para>Para esto,</para>
 
         <itemizedlist>
           <listitem>
-            <para>passez par Catalogage &gt; Z39.50 &gt; Recherche</para>
+            <para>ve a Catálogo &gt; Z39.50 &gt; Buscar</para>
           </listitem>
 
           <listitem>
-            <para>cochez BnF parmi les serveurs,</para>
+            <para>escoge BnF entre los servidores,</para>
           </listitem>
 
           <listitem>
-            <para>vérifiez que la recherche porte bien sur l'Isbn</para>
+            <para>verifica que la búsqueda es por Isbn</para>
 
             <figure>
-              <title>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
-              sur l'ISBD</title>
+              <title>Catálogo &gt; Z39.50 &gt; Buscar, buscar por ISBN</title>
 
               <mediaobject>
                 <imageobject>
@@ -2787,13 +2783,12 @@ select idsection, section_libelle from docs_section order by section_libelle
           </listitem>
 
           <listitem>
-            <para>douchettez le code barre commercial de votre livre dans le
-            champ de saisie. L'EAN (code commercial) douchetté sera converti
-            par PMB en ISBN.</para>
+            <para>lee el código de barras comercial de tu documento.El EAN
+            (código comercial) leído PMB lo convertirá en un ISBN.</para>
 
             <figure>
-              <title>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
-              sur l'ISBN</title>
+              <title>Catalogación &gt; Z39.50 &gt; Buscar, buscar por
+              ISBN</title>
 
               <mediaobject>
                 <imageobject>
@@ -2804,18 +2799,18 @@ select idsection, section_libelle from docs_section order by section_libelle
           </listitem>
 
           <listitem>
-            <para>Le résultat d'une recherche par ISBN est normalement unique.
-            En théorie, deux ouvrages ne peuvent avoir le même ISBN.
-            Cependant, les notices peuvent être plus ou moins détaillées selon
-            le serveur choisi.</para>
+            <para>El resultado de una búsqueda por ISBN normalmente devuelve
+            un único resultado. En teoría, dos obras no pueden llevar el mismo
+            ISBN. Dependiendo del servidor, los registros pueden contener más
+            o menos información.</para>
           </listitem>
         </itemizedlist>
 
-        <para>Vous pouvez ensuite exemplariser l'ouvrage recherché.</para>
+        <para>Seguidamente puedes añadir un ejemplar a la obra buscada.</para>
 
-        <para><emphasis role="bold">Note </emphasis>: la BnF a un certain
-        délai de catalogage. Les dernières nouveautés (publiées depuis moins
-        d'un an) peuvent ne pas être encore cataloguées.</para>
+        <para><emphasis role="bold">Nota </emphasis>: la BnF mantiene un
+        pequeño retraso en catalogación. Las últimas novedades (publicadas
+        hace menos de un año) pueden no estar aún catalogadas.</para>
       </sect3>
     </sect2>
   </sect1>
