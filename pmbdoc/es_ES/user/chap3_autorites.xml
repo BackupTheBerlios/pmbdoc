@@ -105,22 +105,21 @@
         un autor. <emphasis role="bold">Atención</emphasis> un autor no 
         puede ser eliminado si se usa en algún registro.</para>
 
-        <para>El botón <emphasis role="bold">Uso</emphasis> permet de
-        savoir dans quels ouvrages est mentionné l'auteur. Il lance une
-        recherche dans l'onglet catalogue pour l'auteur correspondant. Ceci
-        permet notamment de savoir pourquoi la suppression de cet auteur est
-        impossible.</para>
+        <para>El botón <emphasis role="bold">Uso</emphasis> permite saber
+        en qué obras se ha usado a este autor. Inicia una búsqueda en la 
+		pestaña catálogo sobre el autor correspondiente. 
+		Permite saber porqué un autor no se puede eliminar.</para>
 
-        <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet
-        de remplacer un auteur par un autre, pour éliminer des doublons mals
-        orthographiés par exemple.</para>
+        <para>El botón <emphasis role="bold">Reemplazar por</emphasis> permite
+		reemplazar un autor por otro, para eliminar duplicados de entradas
+		incorrectas por errores ortográficos, por ejemplo.</para>
       </sect3>
 
       <sect3 id="autorites_ajout_auteur">
-        <title>Ajouter un auteur</title>
+        <title>Añadir un autor</title>
 
         <figure>
-          <title>Autorités &gt; Auteurs, ajout d'un auteur</title>
+          <title>Autoridades &gt; Autores, añadir un autor</title>
 
           <mediaobject>
             <imageobject>
@@ -129,52 +128,51 @@
           </mediaobject>
         </figure>
 
-        <para>L'ajout d'un auteur est identique à l'édition. Pour plus
-        d'informations, consulter plus haut la section <xref
-        linkend="autorites_modification_auteur" /></para>
+        <para>Añadir un autor es igual que editarlo. 
+		Para más información, consulta un poco más arriba la sección
+		<xref linkend="autorites_modification_auteur" /></para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title>Faciliter le catalogage : normaliser la saisie des
-      auteurs</title>
+      <title>Facilitar la catalogación : normaliza la entrada de los 
+	  autores</title>
 
-      <para>Saisir le nom comme le prénom avec une majuscule initiale, le
-      reste en minuscules.</para>
+      <para>Introducir tanto el apellido como el nombre con una mayúscula
+	  inicial, el resto en minúsculas.</para>
 
-      <para>Le nom est l'élément d'entrée, le prénom est l'élément
-      rejeté.</para>
+      <para>El apellido es el elemento de entrada, el nombre es el 
+	  elemento secundario.</para>
 
-      <para>Dans les cas particuliers, en cas de doute, ne rien saisir en
-      élément rejeté.</para>
+      <para>En casos particulares, y en caso de duda, no introducir 
+	  el elemento secundario.</para>
 
-      <para>Pour les particules françaises (noblesse), les "de", "des", "du"
-      sont rejetés. Les éléments de noms ne sont pas rejetés (La Fontaine par
-      exemple).</para>
+      <para>Las partículas que unen nombres, los "de", "de los", "de"
+      forman parte del elemento secundario. Sin embargo los que forman parte del apellido 
+	  son parte del elemento de entrada (La Fontaine por ejemplo).</para>
 
-      <para>Les tirets sont conservés.</para>
+      <para>Los guiones se conservan.</para>
 
-      <para>Pour les noms composés de femmes, saisir trois auteurs : un avec
-      le nom composé, un au nom patronymique, un au nom d'usage ; en prévoyant
-      les renvois (zone forme retenue sous PMB) vers la forme retenue par
-      l'auteur dans l'ouvrage.</para>
+      <para>Para los nombres compuestos de mujeres, introducir tres autores : uno con el 
+	  nombre compuesto, otro con el nombre patronímico, y uno con el nombre usual; de esta forma
+	  podrás hacer los reenvíos de las formas incorrectas hacia la correcta.</para>
 
-      <para>Voici quelques exemples :</para>
+      <para>Aquí hay algunos ejemplos :</para>
 
       <table>
-        <title>Exemples de saisies d'auteur : éléments d'entrée, éléments
-        rejetés</title>
+        <title>Ejemplos de introducción de un autor : elementos principales, elementos 
+		secundarios</title>
 
         <tgroup cols="4">
           <thead>
             <row>
-              <entry>Nom de l'auteur</entry>
+              <entry>Apellido del autor</entry>
 
-              <entry>Element d'entrée</entry>
+              <entry>Elemento principal</entry>
 
-              <entry>Elément rejeté</entry>
+              <entry>Elemento secundario</entry>
 
-              <entry>Affichage obtenu</entry>
+              <entry>Vista de la autoridad</entry>
             </row>
           </thead>
 
@@ -266,7 +264,7 @@
 
               <entry>Françoise</entry>
 
-              <entry>Ducrocq, Françoise <emphasis>renvoi vers</emphasis>
+              <entry>Ducrocq, Françoise <emphasis>reenvía hacia</emphasis>
               Barret-Ducrocq, Françoise</entry>
             </row>
 
@@ -277,56 +275,56 @@
 
               <entry>Françoise</entry>
 
-              <entry>Barret, Françoise <emphasis>renvoi vers</emphasis>
+              <entry>Barret, Françoise <emphasis>reenvía hacia</emphasis>
               Barret-Ducrocq, Françoise</entry>
             </row>
           </tbody>
         </tgroup>
       </table>
 
-      <para>En cas de rejet, le préfixe est rejeté après la virgule (ex : La
+      <para>En caso de prefijo, éste se coloca junto al elemento secundario (ej : La
       Fontaine, Jean de).</para>
 
-      <para>Le rejet des préfixes des noms dépend de la nationalité des
-      auteurs. Ainsi le rejet de la particule "de" dépend de la nationalité de
-      l'auteur.</para>
+      <para>La colocación de los prefijos depende de la nacionalidad de los
+	  autores. Por ejemplo la colocación de la particula "de" depende de la
+	  nacionalidad del autor.</para>
 
       <table>
-        <title>Exemples de rejets de préfixe selon les nationalités des
-        auteurs</title>
+        <title>Ejemplos de orden del prefijo dependiendo de la nacionalidad de los
+		autores</title>
 
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>Préfixe</entry>
+              <entry>Prefijo</entry>
 
-              <entry>Rejet</entry>
+              <entry>Pasa a ser elemento secundario</entry>
 
-              <entry>Maintien</entry>
+              <entry>Se mantienen como parte del elemento principal</entry>
             </row>
 
             <row>
               <entry>D', DE</entry>
 
-              <entry>auteurs français, espagnols, portugais</entry>
+              <entry>autores franceses, españoles, portugueses</entry>
 
-              <entry>auteurs anglo-américains, belges et italiens</entry>
+              <entry>autores anglo-americanos, belgas e italianos</entry>
             </row>
 
             <row>
               <entry>DA</entry>
 
-              <entry>auteurs portugais et brésiliens</entry>
+              <entry>autores portugueses y brasileños</entry>
 
-              <entry>auteurs italiens</entry>
+              <entry>autores italianos</entry>
             </row>
 
             <row>
               <entry>DEL</entry>
 
-              <entry>auteurs espagnols</entry>
+              <entry>autores españoles</entry>
 
-              <entry>auteurs italiens</entry>
+              <entry>autores italianos</entry>
             </row>
 
             <row>
@@ -334,8 +332,7 @@
 
               <entry></entry>
 
-              <entry>maintien général sauf auteurs espagnols et
-              sud-américains</entry>
+              <entry>se mantiene en general excepto en autores españoles y sudamericanos</entry>
             </row>
           </tbody>
         </tgroup>
@@ -344,20 +341,19 @@
   </sect1>
 
   <sect1 id="autorites_categ">
-    <title>Catégories</title>
+    <title>Materias</title>
 
     <sect2>
-      <title>Préambule</title>
+      <title>Preámbulo</title>
 
-      <para>Les catégories ne sont pas des vedettes Rameau : leur choix doit
-      permettre une exploration par une arborescence concentrée et structurée.
-      Ce choix des développeurs de PMB est davantage à rapprocher d'une sorte
-      de classification thématique à la logique arborescente proches de la CDU
-      ou DEWEY.</para>
+      <para>Las materias no es una clasificación Rameau : su uso debe permitir 
+	  una exploración arbórea estructurada.
+      Esta elección de los desarrolladores intenta acercar PMB hacia una clasificación
+	  temática de estructura arbórea como la CDU o DEWEY.</para>
     </sect2>
 
     <sect2>
-      <title>Parcours et édition des catégories</title>
+      <title>Edición de las categorías</title>
 
       <para>Les catégories sont un moyen de ranger dans la base les ouvrages
       et d'organiser les informations pour faciliter la recherche notamment
