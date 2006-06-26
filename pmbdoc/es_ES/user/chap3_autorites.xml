@@ -353,113 +353,104 @@
     </sect2>
 
     <sect2>
-      <title>Edición de las categorías</title>
+      <title>Edición de las materias</title>
 
-      <para>Les catégories sont un moyen de ranger dans la base les ouvrages
-      et d'organiser les informations pour faciliter la recherche notamment
-      pour les utilisateurs via l'OPAC.</para>
+      <para>Las materias son una forma de ordenar dentro de la base de datos
+	  los documentos y organizar la información para facilitar su búsqueda a 
+	  través del OPAC.</para>
 
-      <para>Le but est de regrouper les ouvrages dans une arborescence de
-      catégories et de sous-catégories. PMB vous est fourni avec une liste de
-      catégories qui s'avérera efficace dans le cas d'un centre documentaire
-      généraliste.</para>
+      <para>El objectivo es agrupar las obras en una estructura de categorías
+	  y subcategorías. PMB viene con una lista de materias que será eficaz
+	  en el caso de un centro de documentación de tipo general.</para>
 
-      <para>Si vous gérez des ressources spécialisées, il vous faudra adapter
-      ces catégories à votre usage, par exemple à votre thésaurus
-      utilisé.</para>
+      <para>Si tu centro es de tipo especializado, será necesario adaptar
+	  estas materías a las necesidades de tu centro, por ejemplo a tu
+	  tesauro.</para>
 
       <para><figure>
-          <title>Autorités &gt; Catégories</title>
+          <title>Autoridades &gt; Materias</title>
 
           <mediaobject>
             <imageobject>
               <imagedata fileref="images/aut_categ.gif" />
             </imageobject>
           </mediaobject>
-        </figure>Pour parcourir cette arborescence, cliquez sur les icônes des
-      dossiers pour les ouvrir. Un clic sur le nom de la catégorie entraîne sa
-      sélection et donc l'ouverture d'un écran permettant la modification des
-      informations.</para>
+        </figure>Para navegar por esta estructura arbórea, haz clic sobre los 
+		iconos de las carpetas para abrirlas. Un clic en el nombre de la materia
+		la selecciona para poderla modificar.</para>
 
-      <para>Vous pouvez spécifier différentes informations pour une catégorie
-      :</para>
+      <para>Puedes especificar diferentes informaciones para una materias :</para>
 
       <itemizedlist>
         <listitem>
-          <para>le <emphasis role="bold">libellé</emphasis> est
-          obligatoire</para>
+          <para>le <emphasis role="bold">etiqueta</emphasis> es
+          obligatoria</para>
         </listitem>
 
         <listitem>
-          <para>un <emphasis role="bold">commentaire</emphasis> peut être
-          ajouté</para>
+          <para>se puede añadir un <emphasis role="bold">comentario</emphasis> </para>
         </listitem>
 
         <listitem>
-          <para>si la catégorie est une sous-catégorie, le champ <emphasis
-          role="bold">catégorie parente </emphasis>permet de sélectionner à
-          l'aide du bouton "..." la catégorie parente de cette sous-catégorie.
-          Pour effacer une catégorie parente sélectionnée, cliquez sur le
-          bouton "X"</para>
+          <para>si la materia es una término específico, el campo <emphasis
+          role="bold">término general </emphasis>permite seleccionar con la ayuda
+		  del botón "..." el término general de este término específico.
+          Para eliminar un término general seleccionado, haz clic sobre el botón "X"</para>
         </listitem>
 
         <listitem>
-          <para>le <emphasis role="bold">renvoi voir </emphasis>permet
-          d'établir une logique de renvoi par exemple entre deux
-          sous-catégories portant le même libellé mais situées à différents
-          endroits de l'arborescence, par exemple dans
-          <emphasis>Europe</emphasis>, la sous-catégorie
-          <emphasis>France</emphasis>, et dans <emphasis>OTAN</emphasis>, la
-          sous-catégorie <emphasis>France</emphasis>.</para>
+          <para>le <emphasis role="bold">Ver </emphasis>permite
+          establecer una lógica por ejemplo entre dos términos específicos que 
+		  lleven la misma etiqueta, pero situados en lugares diferentes de la estructura, por ejemplo
+		  dentro de <emphasis>Europa</emphasis>, el término específico 
+		  <emphasis>Francia</emphasis>, y dentro de <emphasis>OTAN</emphasis>, el término específico 
+		  <emphasis>Francia</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para>le <emphasis role="bold">renvoi voir aussi </emphasis>(nouveau
-          dans la version 1.3) permet d'enrichir les catégories par une notion
-          d'enchaînement d'idées. Par exemple, <emphasis>Rome</emphasis> peut
-          renvoyer sur <emphasis>voix</emphasis> <emphasis>romaine.</emphasis>
-          Contrairement au renvoi voir, il ne s'agit pas d'un renvoi entre
-          termes identiques.</para>
+          <para>le <emphasis role="bold">ver también </emphasis>(novedad 
+		  en la versión 1.3) permite enriquecer las materias a través de una aproximación
+		  de conceptos. Por ejemplo, <emphasis>Roma</emphasis> puede enlazarse
+		  con<emphasis>ver también</emphasis> <emphasis>romano.</emphasis>
+          Contrariamente al Ver, no se trata de usarlo entre términos iguales, sino entre 
+		  conceptos similares.</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer une
-      catégorie. <emphasis role="bold">Attention</emphasis> une catégorie ne
-      peut être supprimée que si elle n'est utilisée dans aucune
-      notice.</para>
+      <para><emphasis role="bold">Suprimir</emphasis> permite eliminar una materia.
+	  <emphasis role="bold">Atención</emphasis> una materia no puede ser eliminada
+	  si se usa en algún registro.</para>
 
-      <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
-      savoir dans quels ouvrages est mentionnée la catégorie. Il lance une
-      recherche dans l'onglet catalogue pour la catégorie correspondante. Ceci
-      permet notamment de savoir pourquoi la suppression de cette catégorie
-      est impossible.</para>
+      <para>El botón <emphasis role="bold">Uso</emphasis> permite saber
+      en qué obras se usa esta materia. Inicia una búsqueda en la pestaña
+      catálogo para la materia seleccionada. Es útil para saber porqué
+	  no se puede eliminar una materia.</para>
 
-      <para><emphasis role="bold">Note</emphasis> : les boutons
-      <emphasis>Supprimer</emphasis> et <emphasis>Utilisation</emphasis> ne
-      sont pas visibles lors de la création d'une catégorie, mais uniquement
-      lors de sa modification.</para>
+      <para><emphasis role="bold">Nota</emphasis> : los botones 
+	  <emphasis>Suprimir</emphasis> y <emphasis>Uso</emphasis> no
+	  son visibles cuando se crea una materia, sólo cuando se
+	  modifica.</para>
     </sect2>
   </sect1>
 
   <sect1 id="autorites_editeurs">
-    <title>Éditeurs</title>
+    <title>Editoriales</title>
 
     <sect2>
-      <title>Rechercher et modifier un éditeur</title>
+      <title>Buscar y modificar una editorial</title>
 
-      <para>L'écran Éditeurs fonctionne avec la même logique que celui des
-      Auteurs.</para>
+      <para>La pantalla Editoriales funciona de la misma forma que la de Autores.</para>
 
-      <para>Pour rechercher un éditeur, saisissez une expression à rechercher
-      puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
-      affiche par défaut l'ensemble des éditeurs de la base.</para>
+      <para>Para buscar una editorial, introduce alguna palabra a buscar 
+	  y haz clic sobre <emphasis role="bold">Buscar</emphasis>. Por defecto, se muestran
+	  todas las editoriales introducidas en la base de datos.</para>
 
-      <para>Vous pouvez également cliquer sur le lien <emphasis
-      role="bold">Voir les derniers éditeurs créés</emphasis> pour afficher
-      les dix derniers éditeurs ajoutés dans la base.</para>
+      <para>Puedes igualmente hacer clic sobre el enlace <emphasis
+      role="bold">Ver las últimas editoriales creadas</emphasis> para visualizar
+	  las diez últimas editoriales añadidas a la base de datos.</para>
 
       <figure>
-        <title>Autorités &gt; Éditeurs</title>
+        <title>Autoridades &gt; Editoriales</title>
 
         <mediaobject>
           <imageobject>
@@ -469,7 +460,7 @@
       </figure>
 
       <figure>
-        <title>Autorités &gt; Éditeurs, édition d'un éditeur</title>
+        <title>Autoridades &gt; Editoriales, crear una editorial</title>
 
         <mediaobject>
           <imageobject>
@@ -478,36 +469,35 @@
         </mediaobject>
       </figure>
 
-      <para>Différentes données peuvent être saisies pour un éditeur :</para>
+      <para>Se pueden introducir diferentes informaciones para una editorial :</para>
 
       <itemizedlist>
         <listitem>
-          <para>le nom de l'éditeur</para>
+          <para>el nombre de la editorial</para>
         </listitem>
 
         <listitem>
-          <para>son adresse sur deux lignes, son code postal, sa ville et son
-          pays. La ville d'édition est un élément souvent présent dans les
-          bibliographies des publications. Précisez le pour chaque éditeur, si
-          possible.</para>
+          <para>su dirección en dos línias, su código postal, la población y 
+		  el país. La población de edición es un elemento presente habitualmente en las 
+		  bibliografías de las publicaciones. Es importante introducirlo para cada editorial,
+		  siempre que sea posible.</para>
         </listitem>
 
         <listitem>
-          <para>le site web de l'éditeur</para>
+          <para>la págia web de la editorial</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
-      éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
-      être supprimé que s'il n'est utilisé dans aucune notice.</para>
+      <para><emphasis role="bold">Suprimir</emphasis> permite eliminar una editorial.
+	  <emphasis role="bold">Atención</emphasis> no se puede eliminar una
+	  editorial que se use en algún registro.</para>
 
-      <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
-      savoir dans quels ouvrages est mentionné l'éditeur. Il lance une
-      recherche dans l'onglet catalogue pour l'éditeur correspondant. Ceci
-      permet notamment de savoir pourquoi la suppression de cet éditeur est
-      impossible.</para>
+      <para>El botón <emphasis role="bold">Uso</emphasis> permite saber
+	  en qué obras se usa esta editorial. Inicia una búsqueda en la pestaña 
+	  catálogo para la editorial seleccionada. Esto permite saber porqué
+	  no se puede eliminar una editorial.</para>
 
-      <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+      <para>El botón <emphasis role="bold">Remplazar por</emphasis> permet de
       remplacer un éditeur par un autre, pour éliminer des doublons mals
       orthographiés par exemple.</para>
 
