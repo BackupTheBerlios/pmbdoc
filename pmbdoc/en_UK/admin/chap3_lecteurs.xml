@@ -1,138 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-+==========================================================================+
-| PMB                                                                      |
-+==========================================================================+
-| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
-| (voir www.sigb.net)                                                      |
-| creator : Gautier MICHELIN                                               |
-| modified : ...                                                           |
-+==========================================================================+
--->
-
 <chapter id="admin_empr">
-  <title>Lecteurs</title>
+  <title>Readers</title>
 
-  <para>Dans cette partie de l'onglet administration, vous pouvez définir vos
-  options personnelles utiles dans la gestion des lecteurs.</para>
+  <para>In this part of the administration tab, you can define your personal useful options for managing readers.</para>
 
   <sect1 id="admin_empr_categ">
-    <title>Catégories</title>
+    <title>Categories</title>
 
-    <para>Définir différentes catégories de lecteurs permet d'établir des
-    statistiques pour évaluer l'utilisation de votre bibliothèque. Pour plus
-    d'informations sur la réalisation de statistiques avec PMB, consulter le
-    <emphasis>Guide de l'Utilisateur de PMB</emphasis>, Chapitre
-    <emphasis>Editions</emphasis>.</para>
+    <para>Defining multiple reader categories permits calculating statistics on how your library is being used. For more information on calculating statistics with PMB, refer to <emphasis>PMB User's Guide</emphasis>, Chapter <emphasis>Editing</emphasis>.</para>
 
-    <para>Si vous avez activé la gestion des quotas avancés, les catégories
-    vous permettront de spécifier des quotas : par exemple un enfant peut
-    emprunter 2 ouvrages, un adulte 5 ouvrages simultanément.</para>
-
-    <para>En France, la durée de tenue d'un fichier de lecteur est limitée à
-    un an, lorsque le fichier est déclaré (procédure obligatoire auprès de la
-    CNIL) selon la procédure simplifiée.</para>
-
-    <para>Pour plus d'informations, consulter
-    http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf</para>
+    <para>If you have activated management of advanced quotas, the categories will enable you to specify quotas: for example a kid can borrow 2 works, an adult 5 works at the same time. For more information on advanced quotas management, refer to chapter <xref linkend="admin_quotas"/>.</para>
 
     <figure>
-      <title>Lecteurs - catégories</title>
+      <title>Readers - Categories</title>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/admin_lect_cat.gif" />
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <mediaobject><imageobject><imagedata fileref="images/admin_lect_cat.gif"/></imageobject></mediaobject></figure>
 
-    <para>Si vous souhaitez vous affranchir de cette limite, il vous suffit
-    par exemple de passer la durée d'adhésion à 9999 jours.</para>
-  </sect1>
+    <para>In France, the maintenance of a reader's file in a library is limited to one year, when the file is declared (mandatory declaration to the CNIL) with a simplified procedure.</para>
+
+    <para>For more information, refer to <ulink url="http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf">http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf</ulink>.</para>
+
+    <para>If you want to be exempt from this limit, you could for example change the membership time to 9999 days.</para>
+
+    <para><emphasis role="bold">Note</emphasis> if you have activated the readers financial management, you can define a membership rate by reader category, available here in the third column. For more information, refer to chapter <xref linkend="admin_gestion_financiere"/>.</para></sect1>
 
   <sect1 id="admin_empr_codstat">
-    <title>Codes statistiques</title>
+    <title>Statistical codes</title>
 
-    <para>Les codes statistiques servent à produire des informations sur vos
-    lecteurs en croisant les données. De nombreuses possibilités vous sont
-    laissées : s'en servir comme discriminant pour les âges lorsque la date de
-    naissance n'est pas demandée (moins de 18 ans, 18-35 ans, 36-65 ans, plus
-    de 65 ans par exemple) ; s'en servir pour évaluer le rayon d'action de
-    votre bibliothèque (exemple ci dessous).</para>
+    <para>Statistical codes enable production of information about your readers by crossing data. </para>
+
+    <para>Multiple possibilities are available: </para>
+
+    <itemizedlist><listitem><para>use it to differentiate by age when the birth date is not requested (less than 18, 18-35, 36-65, over 65 years of age for example); </para></listitem>
+
+      <listitem><para>use it to assess your library radius of influence (example below)...</para></listitem></itemizedlist>
 
     <figure>
-      <title>Lecteurs - code statistique</title>
+      <title>Readers - Statistical codes</title>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/admin_lect_stat.gif" />
-        </imageobject>
-      </mediaobject>
-    </figure>
-  </sect1>
+      <mediaobject><imageobject><imagedata fileref="images/admin_lect_stat.gif"/></imageobject></mediaobject></figure></sect1>
 
   <sect1 id="admin_empr_implec">
-    <title>Import lecteurs</title>
+    <title>Readers Import</title>
 
-    <para>L'import d'un fichier lecteurs permet de récupérer des informations
-    depuis un autre programme ou un fichier que vous auriez constitué par
-    ailleurs : membres d'un laboratoire possédant un centre documentaire
-    spécialisé, liste des élèves dans un établissement d'enseignement, export
-    depuis un annuaire LDAP, etc...</para>
+    <para>Importing a reader file requires getting information from another program or file that would otherwise be available. laboratory members with a specialized documentation center, student list of a teaching establishment, export from a LDAP directory, etc...</para>
 
     <figure>
-      <title>Lecteurs - import lecteurs</title>
+      <title>Readers - Import readers</title>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/admin_lect_imp.gif" />
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <mediaobject><imageobject><imagedata fileref="images/admin_lect_imp.gif"/></imageobject></mediaobject></figure>
 
-    <para>Les lecteurs importés vont être classés dans une catégorie
-    préexistante. Si vous souhaitez paramétrer plus finement l'import, vous
-    pouvez utiliser <emphasis>phpmyadmin</emphasis> ou lier vos données dans
-    un logiciel en utilisant MyODBC. Pour plus d'informations sur phpmyadmin,
-    consulter le site web de <ulink
-    url="http://www.phpmyadmin.net">phpmyadmin</ulink> ou, pour plus
-    d'informations sur l'installation [en français] consulter <ulink
-    url="http://www.allhtml.com/mysql/mysql582.php">http://www.allhtml.com/mysql/mysql582.php</ulink>.</para>
+    <para>From the readers import screen you can import readers from a file or delete readers.</para>
 
-    <para>MyODBC est une solution ODBC, permettant d'éditer des données MySQL
-    dans votre gestionnaire de base de données habituel, permettant par
-    exemple de copier coller des données depuis un tableur. Pour plus
-    d'informations, consulter www.mysql.com ou faire une recherche portant sur
-    MyODBC sur google.</para>
-  </sect1>
+    <sect2>
+      <title>Importing Readers</title>
+
+      <para>Import is done from a text file (mostly TXT or CSV type files). Spreadsheet programs (OpenOffice, Excel, ...) can export files in a CSV format.</para>
+
+      <para>Click on Browse to select the file to import. According to your file format, select a fields separator. Select also a readers category and a statistical code: this information cannot be imported directly.</para>
+
+      <para>Click Next to continue.</para>
+
+      <figure>
+        <title>Readers - Import readers</title>
+
+        <mediaobject><imageobject><imagedata fileref="images/admin_lect_imp2.gif"/></imageobject></mediaobject></figure>
+
+      <para>The following screen displays le list of fields of the readers table.</para>
+
+      <para>In the left column appears the fields name of the database. Information about readers will be entered in these fields.</para>
+
+      <para>In the center column you will find the position of the field in the file.</para>
+
+      <para>The right column represents an example of the first line of the file, it can be very useful when you want to change the position within the file. Enter the positions in the center column, and don't forget to click on Update to update the changes.</para>
+
+      <para>Here is an example of a file to be imported:</para>
+
+      <programlisting>&quot;12527&quot;,&quot;Archambault&quot;,&quot;rue de... &quot;12528&quot;,&quot;Baudin&quot;,&quot;rue de...</programlisting>
+
+      <para>12527 is the first position, it represents the reader's bar code, the second position is the reader's name, the third represents the address, etc....</para>
+
+      <para><emphasis role="bold">Important </emphasis> the red fields are non-modifiable fields by the user, they will be filled automatically.</para>
+
+      <para>After filling up you corresponding table click on Next.</para>
+
+      <para>Finally the number of persons treated by the readers import is displayed.</para></sect2>
+
+    <sect2>
+      <title>Deleting readers</title>
+
+      <para>You can delete readers by clicking on the Delete Readers button. Then checkmark the expiration date(s) of the readers to be deleted, for example those whose expiration date is more that one year.</para>
+
+      <para>Click Delete.</para>
+
+      <para>The list of the corresponding readers is displayed.</para>
+
+      <para>You can then click on Delete All to delete the corresponding readers.</para>
+
+      <para>The number of deleted persons is displayed. Those that could not be deleted, for example because they are currently borrowing a work, are displayed.</para></sect2>
+
+    <sect2>
+      <title>Advanced solutions for importing readers</title>
+
+      <para>Advanced solutions for importing readers are available.</para>
+
+      <para>Imported readers will be sorted into existing categories. If you wish to set your imports more finely. you can use <emphasis>phpmyadmin</emphasis> or link your data in an application using MyODBC. For more information on phpmyadmin, refer to the web site <ulink url="http://www.phpmyadmin.net">phpmyadmin</ulink> or, for more information on the installation [in French] refer to <ulink url="http://www.allhtml.com/mysql/mysql582.php">http://www.allhtml.com/mysql/mysql582.php</ulink>.</para>
+
+      <para>MyODBC is an ODBC application, it allows editing of MySQL data within your database application, allowing for example to copy and paste data from a spreadsheet. For more information, refer to www.mysql.com or perform a google search on MyODBC.</para></sect2></sect1>
 
   <sect1 id="admin_empr_parperso">
-    <title>Paramètres personnalisés</title>
+    <title>Customized parameters</title>
 
-    <para>Les paramètres personnalisés permettent d'ajouter des informations
-    supplémentaires à des fiches-lecteur. Vous pourrez ainsi spécifier des
-    informations telles que l'entreprise d'origine, la catégorie
-    socio-professionnelle....</para>
+    <para>Customized parameters allow adding complementary information to reader cards. You can thereby specify information such as company, socio-professional category....</para>
 
-    <para>Vous devrez donner un nom à votre paramètre (les caractères
-    accentués et la ponctuation dans le nom du champ sont interdits, mais vous
-    pouvez les utiliser dans le titre à l'affichage).</para>
+    <para>You must specify a name for your parameter (accentuated letters and punctuation are not accepted in the field name, but you can use them in the display title).</para>
 
-    <para>Vous avez la possibilité de rendre la saisie de ce paramètre
-    obligatoire.</para>
+    <para>You can specify this parameter to be a mandatory entry.</para>
 
     <figure>
-      <title>Lecteurs - paramètres personnalisés</title>
+      <title>Readers - Customized parameters</title>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/admin_lect_param.gif" />
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <mediaobject><imageobject><imagedata fileref="images/admin_lect_param.gif"/></imageobject></mediaobject></figure>
 
-    <para>Le fonctionnement des paramètres personnalisables est identique à
-    celui des champs personnalisés pour les exemplaires ou les notices. Pour
-    plus d'informations, voir <xref linkend="admin_expl_perso" />.</para>
-  </sect1>
-</chapter>
+    <para>Operations of the customizable parameters is identical to the customized fields for copies and bibliographical notes. For more information, refer to <xref linkend="admin_expl_perso"/>.</para></sect1></chapter>

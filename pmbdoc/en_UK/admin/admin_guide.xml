@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-+==========================================================================+
-| PMB                                                                      |
-+==========================================================================+
-| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
-| (voir www.sigb.net)                                                      |
-| creator : Gautier MICHELIN                                               |
-| modified : ...                                                           |
-+==========================================================================+
--->
-
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
-"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY __chap0_introduction SYSTEM "chap0_introduction.xml">
 <!ENTITY __chap00_minimum SYSTEM "chap00_minimum.xml">
 <!ENTITY __chap000_definitions SYSTEM "chap000_definitions.xml">
@@ -19,6 +7,8 @@
 <!ENTITY __chap2_notices SYSTEM "chap2_notices.xml">
 <!ENTITY __chap3_lecteurs SYSTEM "chap3_lecteurs.xml">
 <!ENTITY __chap4_quotas SYSTEM "chap4_quotas.xml">
+<!ENTITY __chap4c_calendrier SYSTEM "chap4c_calendrier.xml">
+<!ENTITY __chap4b_gestion_financiere SYSTEM "chap4b_gestion_financiere.xml">
 <!ENTITY __chap5_utilisateurs SYSTEM "chap5_utilisateurs.xml">
 <!ENTITY __chap6_imports SYSTEM "chap6_imports.xml">
 <!ENTITY __chap7_conversion SYSTEM "chap7_conversion.xml">
@@ -27,63 +17,38 @@
 <!ENTITY __chap10_sauvegardes SYSTEM "chap10_sauvegardes.xml">
 <!ENTITY __chap99_postface SYSTEM "chap99_postface.xml">
 ]>
-<book lang="fr_FR" id="admin">
-  <title>PMB : Guide de l'administrateur</title>
+<book id="admin" lang="fr_FR">
+  <title>PMB: Administrator Guide</title>
 
-  <bookinfo>
-    <graphic fileref="images/cover.jpg" scalefit="1" />
+  <bookinfo><date>July 14 2005</date>
 
-    <date>22 avril 2004</date>
+    <abstract><para>This guide describes the PMB administrative functions, computerized library management system, a free and opensource PHP/MySQL interface.</para>
 
-    <abstract>
-      <para>Ce guide détaille les fonctions administrateur de PMB, système
-      informatisé de gestion de bibliothèques, interface PHP/MySQL libre et
-      opensource.</para>
+      <para>For more information, refer to <ulink url="http://www.sigb.net">www.sigb.net</ulink></para></abstract>
 
-      <para>Pour plus d'informations, consulter www.sigb.net</para>
-    </abstract>
+    <releaseinfo>PMB version of this guide: v2.1.</releaseinfo>
 
-    <releaseinfo>Version de PMB correspondante à ce guide : v1.3 en cours de
-    développement.</releaseinfo>
+    <copyright><year>2004-2005</year>
 
-    <copyright>
-      <year>2004</year>
+      <holder>PMB development group</holder></copyright>
 
-      <holder>Groupe de développeurs PMB</holder>
-    </copyright>
+    <legalnotice><para>This manual is the intellectual property of PMB Services SARL and of its contributors (their names appear with their contributions).</para>
 
-    <legalnotice>
-      <para>Ce manuel est la propriété intellectuelle de PMB Services SARL. Il
-      peut être librement copié, distribué et/ou modifié selon les termes de
-      la Licence GNU Free Documentation License, Version 1.1 ou ultérieure
-      publiée par la Free Software Foundation ; avec la section inaltérable la
-      section intitulée “Au sujet de PMB” ; les textes de couverture, cités
-      ci-dessous, et sans texte de quatrième de couverture. Une copie complète
-      de la licence se trouve sur le <ulink
-      url="http://www.gnu.org/licenses/fdl.html">site de GNU</ulink>.</para>
+      <para>HTML Version: authorized free distribution, Creative Commons 2.0 license, (Authorship, No commercial use). For more information refer to: <ulink url="http://creativecommons.org/licenses/by-nc/2.0/fr/">http://creativecommons.org/licenses/by-nc/2.0/fr/</ulink></para>
 
-      <para>Textes de couverture :</para>
+      <para>Printed, XML and other formats version: forbidden distribution, modifications authorized for PMB developers and documentation registered contributors (CVS access). For any questions regarding other versions of the PMB documentation, please send an email to <ulink url="mailto:pmb@sigb.net?subject=documentation%20de%20PMB">pmb@sigb.net</ulink></para>
 
-      <para><literal>PMB Services SARL, août 2004</literal></para>
+      <para>Cover page Text:</para>
 
-      <para><literal>PMB est une solution opensource (licence CECILL compatible GNU/GPL) pour la
-      médiathèque.</literal></para>
+      <para><literal>PMB Services SARL, 2004-2005</literal></para>
+
+      <para><literal>PMB is a opensource application (GNU/GPL compliant CECILL License) for media libraries.</literal></para>
 
       <para><literal>http://www.sigb.net</literal></para>
 
-      <para><literal>Copyright © 2004 PMB Services SARL</literal></para>
-    </legalnotice>
+      <para><literal>Copyright &copy; 2004 PMB Services SARL</literal></para></legalnotice>
 
-    <othercredit>
-      <surname>Ce manuel a été rédigé avec la grammaire XML DocBook. Les
-      fichiers source XML ont été édités soit dans un éditeur de texte, soit
-      dans XML Mind XML editor (version standard) puis formatés avec l'aide
-      des feuilles de style personnalisées de Norman Walsh sous XFC version
-      standard. Les captures d'écran ont été prises sous Linux avec GIMP, sous
-      Windows avec PrtScr puis GIMP ou sous MacOS X.3, puis éditées et
-      converties avec GIMP.</surname>
-    </othercredit>
-  </bookinfo>
+    <othercredit><surname>This manual was produced with the Docbook XML grammar. XML source files have been edited either with a text editor, or with XMLMind XML editor (standard version) then formatted with Norman Walsh customized styles with XFC standard version. Screen captures were performed under Linux with GIMP, under Windows with PrtScr then GIMP or under MacOS X.3, then edited and converted with GIMP.</surname></othercredit></bookinfo>
 
   &__chap0_introduction;
 
@@ -99,6 +64,10 @@
 
   &__chap4_quotas;
 
+  &__chap4c_calendrier;
+
+  &__chap4b_gestion_financiere;
+
   &__chap5_utilisateurs;
 
   &__chap6_imports;
@@ -111,5 +80,4 @@
 
   &__chap10_sauvegardes;
 
-  &__chap99_postface;
-</book>
+  &__chap99_postface;</book>
