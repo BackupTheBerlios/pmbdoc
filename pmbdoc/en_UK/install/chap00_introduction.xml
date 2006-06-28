@@ -4,133 +4,116 @@
 
   <para></para>
 
-  <sect1>
-    <title>Au sujet de PMB</title>
+  <sect1 id="introduction_sujetpmb">
+    <title>About PMB</title>
 
-    <para>PMB est un SIGB (Système Intégré de Gestion de Bibliothèque)
-    entièrement libre. Le terrain des logiciels de bibliothèque est presque
-    exclusivement occupé par des produits propriétaires. Nous sommes quelques
-    bibliothécaires, utilisateurs et développeurs à déplorer cet état de
-    fait.</para>
+    <para>PMB is a completely free ILS (Integrated Library management System).
+    The domain of software for libraries is almost exclusively occupied by
+    proprietary products. We are some librarians, users and developers
+    deploring this state of affairs.</para>
 
-    <para>PMB est basé sur des technologies issues du Web. C'est ce que l'on
-    appelle parfois une `web-app`. Il se fonde sur un serveur HTTP
-    (basiquement Apache mais ce n'est pas une obligation), la base de donnée
-    MySQL et le langage PHP.</para>
+    <para>PMB is based on web technology. This is what we sometimes call a
+    'web-app'. PMB requires an HTTP server (such as Apache, but this is not an
+    obligation), the MySQL database and the PHP language.</para>
 
-    <para>Les principales fonctionnalités de PMB sont :</para>
+    <para>The main functions of PMB are :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Le support du format UNIMARC</para>
+        <para>Support for the UNIMARC format</para>
       </listitem>
 
       <listitem>
-        <para>La gestion des autorités (responsables, éditeurs, collections,
-        matières...)</para>
+        <para>Authorities management (authors, publishers, series,
+        subjects...)</para>
       </listitem>
 
       <listitem>
-        <para>La gestion du prêt, des réservations, des emprunteurs...</para>
+        <para>Management of loans, holds, borrowers...</para>
       </listitem>
 
       <listitem>
-        <para>Un paramétrage simple</para>
+        <para>A user-friendly configuration</para>
       </listitem>
 
       <listitem>
-        <para>La possibilité d'importer des notices</para>
+        <para>The ability to import full bibliographic records</para>
       </listitem>
 
       <listitem>
-        <para>Un OPAC simplifié intégrant un "butineur"</para>
+        <para>A user-friendly OPAC integrating a browser</para>
       </listitem>
 
       <listitem>
-        <para>Un module de gestion des documents BDP pouvant convenir aux plus
-        petits établissements</para>
+        <para>Loans management with a module designed to serve even the very
+        small establishments</para>
       </listitem>
 
       <listitem>
-        <para>La gestion des périodiques</para>
+        <para>Serials management</para>
       </listitem>
 
       <listitem>
-        <para>Une administration simplifiée pouvant être assurée par le
-        personnel de la bibliothèque...</para>
+        <para>Simple administration procedures that can be handled easily even
+        by the library staff...</para>
       </listitem>
     </itemizedlist>
 
-    <para>Vous pouvez trouver des informations supplémentaires sur
-    www.sigb.net</para>
+    <para>More details can be found at www.sigb.net</para>
 
-    <para>Vous y trouverez aussi une version de démonstration en ligne, le
-    site des utilisateurs de PMB, les dernières versions du Guide
-    d'Installation, du Guide de l'utilisateur et du Guide de l'Administrateur
-    PMB.</para>
+    <para>There you will also find an online demo version, the PMB users Web
+    page, and the latest versions of the Installation Guide, the User Guide,
+    and the Administrator Guide.</para>
   </sect1>
 
-  <sect1>
-    <title>Où trouver des informations sur PMB</title>
+  <sect1 id="introduction_infos">
+    <title>Where to find information about PMB</title>
 
-    <para>Sur le site de PMB : www.sigb.net</para>
+    <para>At the PMB website: www.sigb.net</para>
 
-    <para>Sur le site de la communauté des utilisateurs :
-    www.sigb.net/communaute</para>
+    <para>At the users' forum: www.sigb.net/communaute</para>
 
-    <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
-    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
-    pmb.user_request@sigb.net)</para>
+    <para>Via the users' mailing lists : pmb.user@sigb.net (free subscription,
+    just send an email subject SUBSCRIBE to pmb.user_request@sigb.net)</para>
 
-    <para>Sur la mailing liste des traducteurs, des développeurs, du support
-    de l'unicode (alphabets non européens). Pour plus de renseignements sur
-    ces listes, consulter www.sigb.net</para>
+    <para>Via the mailing lists for translators, developers, for Unicode
+    support (non European alphabets). For more information on these lists, go
+    to <ulink url="http://www.sibg.net">www.sigb.net</ulink></para>
 
-    <para>Cette documentation est consultable en ligne sur www.sigb.net/doc,
-    elle est disponible aux formats XML (format de rédaction), HTML, RTF et
-    PDF.</para>
+    <para>This documentation is viewable online at www.sigb.net/doc, the HTML
+    version may be downloaded freely, it can be integrated within PMB to
+    become a contextual help.</para>
   </sect1>
 
-  <sect1>
-    <title>Références</title>
+  <sect1 id="introduction_references">
+    <title>References</title>
 
-    <para><emphasis role="bold">Auteurs</emphasis></para>
+    <para><emphasis role="bold">Authors</emphasis></para>
 
-    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART and, as the case may
+    be, the writers of certain sections of this documentation.</para>
 
-    <para><emphasis role="bold">Installation sur les différentes plateforme</emphasis></para>
+    <para><emphasis role="bold">Installation on the various
+    platforms</emphasis></para>
 
-    <para>Les crédits des différents auteurs se trouvent en entête de leurs contributions.</para>
+    <para>The names of the various authors are mentioned in their
+    contributions headings.</para>
 
-    <para>PMB est libre de droit, le code du logiciel est du à la
-    collaboration de nombreux développeurs, dont les auteurs de ce manuel.
-    Merci à tous.</para>
-
-    <para><emphasis role="bold">Version de ce fichier d'aide</emphasis></para>
-
-    <para>Tiré de user_guide.xml. Vous pouvez trouver une version PDF de ce
-    document sur www.sigb.net en cherchant install_guide.pdf'.</para>
-
-	<para>Ce Guide d'Installation correspond à la version 1.3 de PMB</para>
-	
-    <para><emphasis role="bold">Version enregistrée sur le
-    CVS</emphasis></para>
-
-    <para>$Id: install_guide.lyx,v 1.5 2004/04/04 12:19:46 gautiermichelin Exp
-    $</para>
+    <para>PMB is rights free, its source code is the collective work of many
+    developers, of whom the authors of this guide. Thank you all.</para>
   </sect1>
 
-  <sect1>
+  <sect1 id="introduction_cvs">
     <title>CVS</title>
 
-    <para>CVS signifie Concurrent Version System. Il s'agit d'un système de
-    gestion de mise à jour de code source pour programmeurs.</para>
+    <para>CVS stands for Concurrent Versions System. It is a tool for
+    programmers for the management of source code updates.</para>
 
-    <para>PMB dispose d'un CVS. Le CVS est accessible aux
-    développeurs. N'hésitez pas à nous contacter si vous souhaitez aider au
-    développement de PMB ou participer à la rédaction de la
-    documentation.</para>
+    <para>PMB uses a CVS. The CVS is accessible to developers. Do not hesitate
+    to contact us if you wish to help with the development of PMB or to
+    participate in the write-up of the documentation.</para>
 
-    <para>Pour plus d'informations, cherchez CVS sur www.sigb.net</para>
+    <para>For more information, contact the developers of
+    PMB<emphasis>.</emphasis></para>
   </sect1>
 </chapter>
