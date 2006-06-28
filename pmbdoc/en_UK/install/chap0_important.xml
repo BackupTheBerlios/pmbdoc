@@ -1,242 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter lang="fr" id="install_informations_importantes">
-  <title>Informations importantes</title>
+<chapter id="install_informations_importantes" lang="fr">
+  <title>Essential information</title>
 
   <sect1>
-    <title>Où trouver des informations sur PMB</title>
+    <title>Updating an existing installation</title>
 
-    <para>Sur le site de PMB : www.sigb.net</para>
+    <para><citetitle>CAUTION</citetitle></para>
 
-    <para>Sur le site de la communauté des utilisateurs :
-    www.sigb.net/communaute</para>
+    <para>If you are installing an update over an existing version by
+    extracting files from the zip archive :</para>
 
-    <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
-    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
-    pmb.user_request@sigb.net)</para>
-
-    <para>Sur la mailing liste des traducteurs, des développeurs, du support
-    de l'unicode (alphabets non européens). Pour plus de renseignements sur
-    ces listes, consulter www.sigb.net</para>
-
-    <para>Cette documentation est consultable en ligne sur www.sigb.net/doc,
-    elle est disponible aux formats HTML et PDF.</para>
-
-    <para><emphasis role="bold">Important</emphasis> : PMB possède également
-    des fichiers de documentations dans "VOTRE_REP_PMB/doc". Les fichiers
-    pre_requisite.txt et install.txt sont à consulter.</para>
+    <para>Go to Administration; Tools; Choose the option Database Update to
+    update your database. You will not have to make a new installation, your
+    data will be preserved without suffering any loss.</para>
   </sect1>
 
   <sect1>
-    <title>Mise à jour d'une installation existante</title>
+    <title>Minimum configuration and installation pre-requisites</title>
 
-    <para><emphasis>ATTENTION</emphasis></para>
+    <para>Here are our recommendations for a minimum configuration to run
+    PMB.</para>
 
-    <para>Si vous faites une mise-à-jour à partir d'une version existante en
-    décompressant l'archive :</para>
+    <para>Go to Administration; Tools; Choose the option Database Update to
+    update your database. You will not have to make a new installation, your
+    data will be preserved without suffering any loss.</para>
 
-    <para>Allez en <emphasis role="bold">Administration</emphasis>; Rubrique
-    <emphasis role="bold">Outils</emphasis> ; Choisissez l'option <emphasis
-    role="bold">M.à.J. base</emphasis> afin de mettre à jour le noyau de votre
-    base de données. Vous n'avez pas besoin de réinstaller la base de données,
-    vos données actuelles seront conservées sans aucune perte.</para>
+    <sect2>
+      <title>Standalone on Windows</title>
+
+      <para>PMB is a client/server web application. Nevertheless a number of
+      sites use PMB in a standalone environment (only one computer) on
+      Windows.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Intel Pentium processor or equivalent, 1 GHz minimum</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para>128 MB RAM, recommended 256MB</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para>Microsoft Windows 2000 ou XP</para>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para>EasyPHP 1.7 or 1.8</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <sect2>
+      <title>Installation pre-requisites</title>
+
+      <para>PMB is a 3-tier application based on a typical web environment. In
+      order to function, it will need :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Server side :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Any web server capable of integrating the PHP scripting
+              language</para>
+            </listitem>
+
+            <listitem>
+              <para>The PHP language to execute the scripts. The PHP language
+              necessary specific features :</para>
+
+              <itemizedlist>
+                <listitem>
+                  <para>4.2 version or higher, not PHP 5 (some
+                  incompatibilities exist)</para>
+                </listitem>
+
+                <listitem>
+                  <para>Necessary modules : MySQL, GD, XSLT</para>
+                </listitem>
+
+                <listitem>
+                  <para>Optional modules for activating certain functions :
+                  YAZ for Z39.50 search, bz2 for the direct archiving of
+                  backups.</para>
+                </listitem>
+              </itemizedlist>
+            </listitem>
+
+            <listitem>
+              <para>A MySQL database server, 4.0 or 4.1 version</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para>Client side :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>A new generation web browser (MS I.E. 6, Netscape 7, ...)
+              platform independent : Windows, Linux, MacOS, UNIX, Solaris,
+              BeOS...</para>
+            </listitem>
+
+            <listitem>
+              <para>Cookies must be enabled (not necessary for OPAC)</para>
+            </listitem>
+
+            <listitem>
+              <para>Pop-ups must be enabled (not necessary for OPAC)</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+
+      <para>It is possible to havePMB functioning on a standalone. In this
+      case, server and client are one and same machine. In this case, the
+      server's network address will be http://localhost/ or the IP address
+      http://127.0.0.1/ both addresses directing to the local machine, that
+      is, the client computer itself.</para>
+
+      <para>Similarly client and server can be different, either on the
+      library's local network or via the Internet. Likewise it is possible to
+      install the MySQL server hosting the database separately.</para>
+    </sect2>
   </sect1>
 
   <sect1>
-    <title>Pré-requis d'installation</title>
+    <title>Configuring your server before installing PMB</title>
 
-    <para>PMB est une application 3 tiers basé sur un environnement Web
-    classique. Pour fonctionner elle nécessite :</para>
-
-    <itemizedlist>
-      <listitem>
-        <para>Côté serveur :</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Un serveur Web quelconque capable d'intégrer le langage
-            PHP</para>
-          </listitem>
-
-          <listitem>
-            <para>Le langage PHP pour exécuter les scripts. Spécificités du
-            langage PHP requises :</para>
-
-            <itemizedlist>
-              <listitem>
-                <para>Version supérieure ou égale à 4.2, version 5 non
-                testée</para>
-              </listitem>
-
-              <listitem>
-                <para>Modules impératifs : MySQL, GD, XSLT</para>
-              </listitem>
-
-              <listitem>
-                <para>Modules optionnels pour activer certaines
-                fonctionnalités : YAZ pour la recherche Z3950, bz2 pour la
-                compression directe des sauvegardes.</para>
-              </listitem>
-            </itemizedlist>
-          </listitem>
-
-          <listitem>
-            <para>Un serveur de base de données MySQL de version supérieure ou
-            égale à 3.23</para>
-          </listitem>
-        </itemizedlist>
-      </listitem>
-    </itemizedlist>
-
-    <itemizedlist>
-      <listitem>
-        <para>Coté client :</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Un navigateur Web de génération récente (MS I.E. 6, Netscape
-            7, ...) quelque soit la plate-forme : Windows, Linux, MacOS, UNIX,
-            Solaris, BeOS...</para>
-          </listitem>
-        </itemizedlist>
-      </listitem>
-    </itemizedlist>
-
-    <para>Il est possible de faire fonctionner PMB en monoposte. Dans ce cas,
-    le serveur et le client sont la même machine. Dans ce cas, l'adresse
-    réseau du serveur sera http://localhost/ ou avec l'adresse IP
-    http://127.0.0.1/ ces deux adresses renvoient à l'hôte local, soit pour
-    l'ordinateur client "soi-même".</para>
-
-    <para>De même client et serveur peuvent être distincts, soit sur le réseau
-    local de la bibliothèque, soit via internet. Il est possible également de
-    séparer le serveur MySQL hébergeant les données.</para>
-  </sect1>
-
-  <sect1>
-    <title>Configurer son serveur avant d'installer PMB</title>
-
-    <para>Ces informations sont disponibles dans le fichier
-    <emphasis>votre_rep_pmb/doc/pre_requisite.txt</emphasis></para>
-
-    <para>Version de pre_requisite.txt reprise ici
-    <emphasis>pre_requisite.txt,v 1.4 2004/08/08 17:38:52
-    touraine37</emphasis></para>
+    <para>This information is available in the file
+    <citetitle>your_dir_pmb/doc/pre_requisite.txt</citetitle> This version of
+    the pre_requisite.txt is the <citetitle>pre_requisite.txt,v 1.4 2004/08/08
+    17:38:52 touraine37</citetitle>.</para>
 
     <para><emphasis role="bold">Configuration de PHP :
     php.ini</emphasis></para>
 
-    <para>Position de ce fichier avec une installation sur Windows :</para>
+    <para><emphasis><emphasis>The address of this file for an installation on
+    Windows</emphasis></emphasis></para>
 
-    <para>\windows\</para>
+    <para><emphasis><emphasis>\windows\</emphasis></emphasis></para>
 
-    <para>ou :</para>
+    <para><emphasis><emphasis>or : </emphasis></emphasis></para>
 
-    <para>\rep_install_apache\apache\</para>
+    <para><emphasis><emphasis>\rep_install_apache\apache\</emphasis></emphasis></para>
 
-    <para><emphasis>Que faut-il vérifier :</emphasis></para>
+    <para><emphasis><emphasis><citetitle>What you need to check
+    :</citetitle></emphasis></emphasis></para>
 
-    <para>Librairie GD : vérifier qu'elle est disponible et activée
-    (génération de code-barre)</para>
+    <para><emphasis><emphasis>GD Library : check whether it is available and
+    has been activated (barcode creation)</emphasis></emphasis></para>
 
-    <para>Librairie PHP_YAZ : vérifier qu'elle est disponible et activée
-    (recherche z3950)</para>
+    <para><emphasis><emphasis>PHP_YAZ Library : check whether it is available
+    and has been activated (z39.50 search)</emphasis></emphasis></para>
 
-    <para>Librairie PHP_BZ2 : vérifier qu'elle est disponible et activée
-    (sauvegardes de la base)</para>
+    <para><emphasis><emphasis>PHP_BZ2 Library : check whether it is available
+    and has been activated (database backups)</emphasis></emphasis></para>
 
-    <para>Librairie PHP_XSLT : vérifier qu'elle est disponible et activée
-    (sauvegardes de la base)</para>
+    <para><emphasis><emphasis>PHP_XSLT : check whether it is available and has
+    been activated (database backups)</emphasis></emphasis></para>
 
-    <para><emphasis>Ce qu'il faut modifier dans le fichier php.ini
-    :</emphasis></para>
+    <para><emphasis><emphasis><citetitle>The changes you need to do in the
+    file php.ini</citetitle></emphasis></emphasis></para>
 
-    <para><literal>;;;;;;;;;;;;;;;;;;;</literal></para>
+    <para><emphasis><emphasis>;;;;;;;;;;;;;;;;;;;</emphasis></emphasis></para>
 
-    <para><literal>Resource Limits ;</literal></para>
+    <para><emphasis><emphasis>Resource Limits ;</emphasis></emphasis></para>
 
-    <para><literal>;;;;;;;;;;;;;;;;;;;</literal></para>
+    <para><emphasis><emphasis>;;;;;;;;;;;;;;;;;;;</emphasis></emphasis></para>
 
-    <para><literal>max_execution_time = 120 ; </literal>Maximum execution time
-    of each script, in seconds</para>
+    <para><emphasis><emphasis>max_execution_time = 120 ; Maximum execution
+    time of each script, in seconds</emphasis></emphasis></para>
 
-    <para>à pousser à 120 secondes</para>
+    <para><emphasis><emphasis>extend to 120
+    seconds</emphasis></emphasis></para>
 
-    <para>Extensions :</para>
+    <para><emphasis><emphasis>Extensions :</emphasis></emphasis></para>
 
-    <para><literal>extension=php_bz2.dll</literal></para>
+    <para><emphasis><emphasis>extension=php_bz2.dll</emphasis></emphasis></para>
 
-    <para><literal>extension=php_gd.dll</literal> ou
-    extension=php_gd2.dll</para>
+    <para><emphasis><emphasis>extension=php_gd.dll or
+    extension=php_gd2.dll</emphasis></emphasis></para>
 
-    <para><literal>extension=php_yaz.dll</literal></para>
+    <para><emphasis><emphasis>extension=php_yaz.dll</emphasis></emphasis></para>
 
-    <para><literal>extension=php_xslt.dll</literal></para>
+    <para><emphasis><emphasis>extension=php_xslt.dll</emphasis></emphasis></para>
 
-    <para>Les DLL correspondantes doivent être copiées dans \windows\system32,
-    attention, bien prendre les dll fournies avec votre distribution de php,
-    question de compatibilité de compilation.</para>
+    <para><emphasis><emphasis>The corresponding DLL must be copied into
+    \windows\system32, caution, use the dll supplied with your php
+    distribution package, for reasons of
+    compatibility.</emphasis></emphasis></para>
 
-    <para>Ces DLL doivent être disponibles dans le répertoire de PHP ou
-    php\dlls pour une installation de php indépendante ou EasyPHP\php pour une
-    installation avec EasyPHP Les DLL sont les suivantes : expat.dll,
-    iconv.dll, sablot.dll, yaz.dll</para>
+    <para><emphasis><emphasis>These DLL have to be available in the PHP
+    directory or php\dlls for a separate php installation or EasyPHP\php for
+    an installation with EasyPHP. The DLL are the following : expat.dll,
+    iconv.dll, sablot.dll, yaz.dll.</emphasis></emphasis></para>
 
-    <para>Afin de pouvoir charger des fichiers de taille importante dans les
-    documents numériques attachés, il faut agmenter la taille du max upload
-    :</para>
+    <para><emphasis><emphasis>To be able to upload larger files found in
+    attached electronic documents, you need to increase the importance of max
+    upload :</emphasis></emphasis></para>
 
-    <para><literal>Maximum allowed size for uploaded files.</literal></para>
+    <para><emphasis><emphasis>Maximum allowed size for uploaded
+    files.</emphasis></emphasis></para>
 
-    <para><literal>upload_max_filesize = 16M</literal></para>
+    <para><emphasis><emphasis>upload_max_filesize =
+    16M</emphasis></emphasis></para>
 
-    <para>Cas particulier :</para>
+    <para><emphasis><emphasis>Separate case :</emphasis></emphasis></para>
 
-    <para><literal>extension=php_mime_magic.dll</literal></para>
+    <para><emphasis><emphasis>extension=php_mime_magic.dll</emphasis></emphasis></para>
 
-    <para><literal>mime_magic.magicfile =
-    "c:\easyphp\php\magic.mime"</literal></para>
+    <para><emphasis><emphasis>mime_magic.magicfile =
+    "c:\easyphp\php\magic.mime"</emphasis></emphasis></para>
 
-    <para>Cette extension, facultative, permet de récupérer les types de
-    fichier des documents numériques de façon propre. A défaut, PMB utilisera
-    l'extension de fichier pour retrouver ses petits. Pensez à renseigner
-    (voire à créer) la ligne</para>
+    <para><emphasis><emphasis>This extension, optional, allows you to retrieve
+    the file types of electronic documents cleanly. By default, PMB will use
+    the file extension to find its children. Think about commenting (creating
+    if need be) the line</emphasis></emphasis></para>
 
-    <para><literal>mime_magic.magicfile =
-    "c:\easyphp\php\magic.mime"</literal></para>
+    <para><emphasis><emphasis>mime_magic.magicfile =
+    "c:\easyphp\php\magic.mime"</emphasis></emphasis></para>
 
-    <para>en donnant le bon chemin d'accès au fichier magic.mime.</para>
+    <para><emphasis><emphasis>by indicating the correct path to the file
+    magic.mime.</emphasis></emphasis></para>
 
-    <para>Pour une installation sous Linux, les paramètres de php.ini sont les
-    mêmes mis à part les extensions qui sont des ".so" et qui vous obligeront
-    vraisemblablement à recompiler si vous n'avez pas toutes les bonnes
-    dernières versions à jour. Par chance, certaines distributions incluent
-    ces packages compilés, ou téléchargeables sur le web sans nécessiter de
-    compilation.</para>
+    <para><emphasis><emphasis>For an installation on Linux, the parameters of
+    php.ini are the same except for ".so" extensions which may well force you
+    to restart the compilation if you haven't got the latest up-to-date
+    versions. Fortunately some distributions do include these packages already
+    compiled, or ready for download on the web without necessitating any
+    compilation.</emphasis></emphasis></para>
 
-    <para>Consulter à ce sujet la partie dédiée à votre système d'exploitation
-    dans ce <emphasis>Guide d'Installation PMB</emphasis>.</para>
+    <para><emphasis><emphasis>Consult the section on your operating system in
+    this PMB Installation guide.</emphasis></emphasis></para>
 
-    <para><emphasis role="bold">Installation de la librairie
-    php_xslt.dll</emphasis></para>
+    <para><emphasis><emphasis>Installing the php_xslt.dll
+    library</emphasis></emphasis></para>
 
-    <para>Sous Windows et EasyPHP, il faut activer la librairie php_xslt.dll
-    dans le fichier php.ini et copier les dlls expat.dll, iconv.dll,
-    sablot.dll du répertoire EasyPHP\php dans Windows\System.</para>
+    <para><emphasis><emphasis>For Windows and EasyPHP, you need to activate
+    the php_xslt.dll library in the file php.ini, and copy the dlls expat.dll,
+    iconv.dll, sablot.dll from the EasyPHP\php directory into
+    Windows\System.</emphasis></emphasis></para>
 
-    <para><emphasis role="bold">Configuration particulière de
-    MySQL</emphasis></para>
+    <para><emphasis><emphasis>Specific configuration for
+    MySQL</emphasis></emphasis></para>
 
-    <para>Afin de pouvoir charger des documents numériques de taille
-    importante, il faut augmenter la taille des paquets de MySQL. Recherchez
-    le fichier my.ini ou équivalent, recherchez la ligne :</para>
+    <para><emphasis><emphasis>To be able to upload larger electronic
+    documents, you need to increase the size of MySQL packets. Find the file
+    my.ini or equivalent, look for the line :</emphasis></emphasis></para>
 
-    <para><literal>set-variable = max_allowed_packet=1M</literal></para>
+    <para><emphasis><emphasis>set-variable =
+    max_allowed_packet=1M</emphasis></emphasis></para>
 
-    <para>et fixez-la à</para>
+    <para><emphasis><emphasis>and set it at </emphasis></emphasis></para>
 
-    <para><literal>set-variable= max_allowed_packet=16M</literal></para>
+    <para><emphasis><emphasis>set-variable=
+    max_allowed_packet=16M</emphasis></emphasis></para>
 
-    <para>Notez le 16M qui vous donne droit à stocker des fichiers jusqu'à 16
-    Mo</para>
+    <para><emphasis><emphasis>Note the 16M giving you right to keep files with
+    sizes up to 16MB.</emphasis></emphasis></para>
+  </sect1>
+
+  <sect1>
+    <title>Rights on the server</title>
+
+    <para>To be able to use the function UNIMARC records upload from the
+    Administration tab, the http service of your host need to have <emphasis
+    role="bold">read/write access</emphasis> in the <emphasis
+    role="bold">admin/import</emphasis> directory of PMB (which is normally
+    the case). In addition your file must not be greater than a certain size
+    (<emphasis role="bold">upload limit</emphasis> of your host).</para>
+
+    <para>Failing which the solution for importing UNIMARC records will
+    consist in uploading the required file into the admin/import directory of
+    PMB, by <emphasis role="bold">FTP</emphasis> for example, then choosing
+    the option "pre-loading" from the import page in Administration. Your file
+    must IMPERATIVELY bear the name <emphasis
+    role="bold">unimarc.fic</emphasis>.</para>
+
+    <para>To be able to create barcodes, the web server need to have
+    read/write access in the temp directory of PMB.</para>
   </sect1>
 </chapter>
