@@ -27,8 +27,8 @@
       <title>Using MAMP</title>
 
       <para>MAMP is an Apache 2, PHP, MySQL package available at <ulink
-      url="???"><link linkend="???"><link
-      linkend="???">www.mamp.info</link></link></ulink>.</para>
+      url="???"><ulink url="???"><ulink
+      url="???">www.mamp.info</ulink></ulink></ulink>.</para>
 
       <para>To install PMB on MAMP, unzip the PMB archive into
       Applications/MAMP/htdocs.</para>
@@ -73,8 +73,8 @@
     <sect2>
       <title>Activating YAZ on Mac OS X</title>
 
-      <para>You can download the file yaz.so available at <link
-      linkend="???">http://www.sigb.net/mac</link> and install it in the PHP
+      <para>You can download the file yaz.so available at <ulink
+      url="???">http://www.sigb.net/mac</ulink> and install it in the PHP
       directory of your machine. In your <citetitle>php.ini</citetitle>, in
       the section extensions, add the line extension=yaz.so and restart your
       Apache server to activate it. To do this, go to System Preferences,
