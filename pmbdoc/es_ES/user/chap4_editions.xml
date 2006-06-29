@@ -17,57 +17,56 @@
   </figure>
 
   <sect1>
-    <title>Exemplaires</title>
+    <title>Ejemplares</title>
 
-    <para>Cette partie du menu vous permet d'accéder à des informations sur
-    les exemplaires présents dans votre bibliothèque ou centre de
-    documentation. Vous pouvez afficher :</para>
+    <para>Este apartado del menú permite acceder a la información sobre los 
+	ejemplares de tu biblioteca o centro de documentación. Puedes ver :</para>
 
     <itemizedlist>
       <listitem>
-        <para>la liste des prêts en cours</para>
+        <para>la lista de préstamos actuales</para>
       </listitem>
 
       <listitem>
-        <para>la liste des exemplaires dont la date de retour prévu est
-        dépassée (retards)</para>
+        <para>la lista de los ejemplares cuyo período de retorno ya se ha pasado
+		(retrasos)</para>
       </listitem>
 
       <listitem>
-        <para>les prêts par groupe</para>
+        <para>los préstamos por grupos</para>
       </listitem>
     </itemizedlist>
 
     <sect2 id="edit_expl_encours">
-      <title>Prêts en cours</title>
+      <title>Préstamos actuales</title>
 
-      <para><emphasis>Prêts en cours </emphasis>liste tous les prêts en cours
-      et offre la possibilité d'imprimer des lettres de relance ou d'expédier
-      des mails de relance.</para>
+      <para><emphasis>Préstamos actuales </emphasis>lista todos los ejemplares que 
+	  actualmente  están prestados y ofrece también la posibilidad de imprimir las cartas
+	  de reclamación o de enviar los correos electrónicos.</para>
 
-      <para>En dessous des résultats, vous pouvez modifier le nombre des
-      résultats de la recherche qui seront affichés sur une seule page. Pour
-      modifier ce chiffre, effacer le et remplacez le par la valeur désirée
-      puis cliquez sur <emphasis role="bold">Actualiser</emphasis>.</para>
+      <para>Al final de los resultados, puedes modificar el número de
+	  resultados que se muestan por página. Para modificar esta cifra,
+	  elimina la que hay y reemplazala por el valor que quieras y después
+	  haz clic sobre <emphasis role="bold">Actualizar</emphasis>.</para>
 
-      <para>Les emails ou lettres de relance sont paramétrables en partie
-      Administration (voir le Guide de l'Administration PMB).</para>
+      <para>Los correos electrónicos o las cartas de reclamación se pueden 
+	  modificar des de el apartado Administración (ver la Guía de la Administración PMB).</para>
 
-      <para>Pour expédier un mail de relance à un lecteur pour un exemplaire
-      en retard, cliquez sur l'icône (l'icône n'est pas visible si l'adresse
-      mail du lecteur n'est pas renseignée). <graphic
-      fileref="images/mail.gif" /> Pour afficher une lettre de relance prête à
-      imprimer cliquez sur l'icône<graphic fileref="images/new.gif" /></para>
+      <para>Para enviar un correo electrónico de reclamación a un usuario por
+	  un ejemplar con retraso, haz clic sobre el icono (el icono no está visible si la dirección
+	  de correo del usuario no se ha introducido). <graphic
+      fileref="images/mail.gif" /> Para ver la carta de reclamación y imprimirla haz clic
+	  sobre el icono<graphic fileref="images/new.gif" /></para>
     </sect2>
 
     <sect2 id="edit_expl_retard">
-      <title>Retard par lecteurs</title>
+      <title>Retrasos por usuario</title>
 
-      <para>Liste les prêts en retard et permet d'imprimer une lettre de
-      relance personnalisée. La liste est triée selon les lecteurs.</para>
+      <para>Listado de los préstamos en retraso, permite imprimir una carta de reclamación 
+	  personalizada. La lista se ordena según los usuarios.</para>
 
       <figure>
-        <title>Éditions &gt; Prêts &gt; Retards par lecteur</title>
+        <title>Informes &gt; Ejemplares &gt; Retrasos por usuario</title>
 
         <mediaobject>
           <imageobject>
@@ -76,21 +75,19 @@
         </mediaobject>
       </figure>
 
-      <para>Vous pouvez également imprimer d'un clic toutes les lettres, pour
-      cela cliquez sur <emphasis>Imprimer toutes les lettres de
-      relance</emphasis>.</para>
+      <para>Puedes también imprimir haciendo un clic en Todas las cartas, para
+	  hacer esto sobre <emphasis>Imprimir todas las cartas de reclamación</emphasis>.</para>
     </sect2>
 
     <sect2 id="edit_expl_retard_date">
-      <title>Retard par date</title>
+      <title>Retrasos por fecha</title>
 
-      <para>Liste les prêts en retard et permet d'imprimer une lettre de
-      relance personnalisée. La liste est triée selon la date de retour
-      prévue. Les prêts les plus anciens sont affichés en haut de la
-      liste.</para>
+      <para>Listado de los préstamos en retraso, permite imprimir una cara de reclamación
+	  personalizada. La lista muestra un orden por fecha de retorno prevista. Los préstamos 
+	  más antiguos se muestran en la parte superior de la lista.</para>
 
       <figure>
-        <title>Éditions &gt; Prêts &gt; Retards par date</title>
+        <title>Informes &gt; Ejemplares &gt; Retrasos por fecha</title>
 
         <mediaobject>
           <imageobject>
@@ -99,20 +96,20 @@
         </mediaobject>
       </figure>
 
-      <para>Vous pouvez également imprimer d'un clic toutes les lettres, pour
-      cela cliquez sur <emphasis>Imprimer toutes les lettres de
-      relance</emphasis>.</para>
+      <para>Puedes también imprimir de un clic todas las cartas, 
+	  para hacer esto haz clic sobre <emphasis>Imprimir todas las cartas de
+	  reclamación</emphasis>.</para>
     </sect2>
 
     <sect2 id="edit_expl_pargroupe">
-      <title>Prêts par groupes</title>
+      <title>Préstamos por grupo</title>
 
-      <para>Même logique que pour les éditions sur les exemplaires mais
-      regroupement selon les groupes. Pour plus d'information, voir <xref
+      <para>Este apartado sigue la misma lógica que los anteriores sólo que 
+	  los préstamos se agrupan según los grupos. Para más información, ver <xref
       linkend="edit_expl_encours" /></para>
 
       <figure>
-        <title>Éditions &gt; Exemplaires &gt; Prêts par groupes</title>
+        <title>Informes &gt; Ejemplares &gt; Préstamos por grupo</title>
 
         <mediaobject>
           <imageobject>
@@ -124,28 +121,25 @@
   </sect1>
 
   <sect1>
-    <title>Réservations</title>
+    <title>Reservas</title>
 
-    <para>Les réservations sont gérées depuis l'onglet
-    <emphasis>Circulation</emphasis>. Dans la partie de l'écran consacrée à
-    l'affichage des alertes, en bas à gauche de l'écran, apparaissent des
-    messages qui vous avertissent des nouvelles réservations placées par des
-    lecteurs, par l'OPAC, ou par des bibliothécaires.</para>
+    <para>Las reservas se generan a través de la pestaña 
+    <emphasis>Circulación</emphasis>. En la parte de la pantalla destinada a 
+	mostrar alertas, parte inferior izquierda de la pantalla, aparecen los
+	mensajes que advierten de nuevas reservas realizadas por los
+	usuarios, a través del OPAC o través de alguna biblioteca.</para>
 
-    <para>Les états, que vous pouvez consulter dans l'onglet
-    <emphasis>Éditions</emphasis>, permettent d'aller chercher dans les rayons
-    les ouvrages qui sont réservés. Une fois mis de coté, vous pouvez alors
-    pointer dans l'onglet <emphasis>Circulation</emphasis> les ouvrages qui
-    correspondent à des réservations qui viennent d'être prises en
-    compte.</para>
+    <para>Puedes consultar des de el apartado <emphasis>Informes</emphasis>, 
+	las obras reservadas. Una vez encontradas las obras, puedes introducirlas
+	conforme están apartadas en el apartado <emphasis>Circulación</emphasis>.</para>
 
     <sect2 id="edit_resa">
-      <title>Réservations en cours</title>
+      <title>Reservas actuales</title>
 
-      <para>Affiche la liste des réservations en cours.</para>
+      <para>Muestra el listado de ejemplares que están reservados.</para>
 
       <figure>
-        <title>Editions &gt; Réservations &gt; Réservations</title>
+        <title>Informes &gt; Reservas &gt; Reservas</title>
 
         <mediaobject>
           <imageobject>
@@ -154,66 +148,61 @@
         </mediaobject>
       </figure>
 
-      <para>Vous pouvez lire les informations suivantes :</para>
+      <para>Puedes ver la siguiente información :</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Titre</emphasis> : titre principal de
-          l'ouvrage réservé. Le titre est un lien qui affiche la notice
-          correspondante avec la liste de ses exemplaires dans l'onglet
-          Catalogue. Pour plus d'informations sur l'affichage des notices,
-          consulter le Chapitre <emphasis>Catalogue</emphasis>.</para>
+          <para><emphasis role="bold">Título</emphasis> : título principal
+		  de la obra reservada. El título es un enlace para ver el registros
+		  con la lista de ejemplares en la pestaña catálogo. Para más información
+		  sobre la visualización de registros, consulta el Capítulo <emphasis>Catálogo</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Emprunteur</emphasis> : le lecteur qui a
-          réservé l'ouvrage. L'emprunteur est un lien qui affiche la fiche
-          lecteur dans l'onglet Circulation. Pour plus d'information sur
-          l'affichage d'une fiche lecteur, consultez le chapitre
-          <emphasis>Circulation</emphasis>, section <emphasis>Prêt de
-          documents</emphasis>.</para>
+          <para><emphasis role="bold">Usuario</emphasis> : el usuario que ha 
+		  reservado el documento. El usuario es un enlace que muestra la ficha 
+		  del usuario en el apartado Circulación. Para más información sobre
+		  la visualización de una ficha de usuario, consulta el capítulo
+          <emphasis>Circulación</emphasis>, sección <emphasis>Préstamo de
+		  documentos</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Rang</emphasis> : position dans la file
-          d'attente.</para>
+          <para><emphasis role="bold">Rango</emphasis> : posición dentro de la lista
+		  de reservas para ese documento.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Date de la réservation</emphasis></para>
+          <para><emphasis role="bold">Fecha de la reserva</emphasis></para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Retour</emphasis> : date de retour prévu
-          ou <emphasis role="bold">disponible</emphasis> si au moins un des
-          exemplaires de l'ouvrage réservé est disponible dans la
-          bibliothèque. Dans ce cas, consultez plus loin Editions &gt;
-          Réservations &gt; à traiter pour éditer une liste des exemplaires à
-          sortir des rayons pour satisfaire les réservations.</para>
+          <para><emphasis role="bold">Retorno</emphasis> : fecha de retorno previsto
+          o <emphasis role="bold">disponible</emphasis> si alguno de los 
+		  ejemplares de la obra reservada está disponible en la biblioteca. 
+		  En este caso, consulta un poco más abajo Informes &gt;
+          Reservas &gt; a procesar para editar una lista de los ejemplares 
+          que hay que sacar de los estantes para satisfacer las reservas.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Validité</emphasis> : date de fin de
-          validité de la réservation, définie dans Administration &gt; Quotas
-          si les quotas avancés ont été activés ; sinon dans Administration
-          &gt; Exemplaires &gt; Types de document. Pour plus d'informations
-          sur les quotas avancés, consultez le <emphasis>Guide de
-          l'Administrateur PMB</emphasis>, chapitre
-          <emphasis>Quotas</emphasis>, sinon consultez le <emphasis>Guide de
-          l'Administrateur PMB</emphasis>, chapitre
-          <emphasis>Exemplaires</emphasis>.</para>
+          <para><emphasis role="bold">Validez</emphasis> : fecha en que finaliza la
+		  reserva, definida en Administración &gt; Cuotas si las cuotas avanzadas
+		  están activadas ; sinó dentro de Administración &gt; Ejemplares &gt; Tipos de documentos. 
+		  Para más información sobre las cuotas avanzadas, consulta la <emphasis>Guía del 
+		  Administrador PMB</emphasis>, capítulo <emphasis>Cuotas</emphasis>, o la <emphasis>Guía del
+		  Adminstrador PMB</emphasis>, capítulo <emphasis>Ejemplares</emphasis>.</para>
         </listitem>
       </itemizedlist>
     </sect2>
 
     <sect2 id="edit_resa_a_traiter">
-      <title>réservations à traiter</title>
+      <title>reservas a procesar</title>
 
-      <para>Affiche la liste des réservations qui n'ont pas été encore prises
-      en compte par le personnel en charge.</para>
+      <para>Muestra la lista de reservas que no han sido aún apartadas por el personal encargado.</para>
 
       <figure>
-        <title>Editions &gt; Réservations &gt; à traiter</title>
+        <title>Informes &gt; Reservas &gt; a procesar</title>
 
         <mediaobject>
           <imageobject>
@@ -222,14 +211,13 @@
         </mediaobject>
       </figure>
 
-      <para>Pour une réservation non pointée, les références d'un exemplaire
-      disponible correspondant à la réservation sont affichées. Si plusieurs
-      réservations portent sur un même ouvrage et que plusieurs exemplaires
-      sont disponibles, la liste présente chacune des réservations qui peuvent
-      être satisfaites.</para>
+      <para>Cuando una reserva de una ejemplar disponible no se ha procesado aún, ésta
+	  se muestra con los datos del ejemplar. Si hay más reservas para un mismo documento, 
+	  y hay más de un documento disponible, la lista muestra todas las reservas que pueden
+	  procesarse.</para>
 
-      <para>Si aucun exemplaire n'est disponible, la réservation est listée,
-      mais sans référence d'un exemplaire correspondant.</para>
+      <para>Si no hay ningún ejemplar disponible, la reserva se muestra en la lista 
+	  pero sin ningún ejemplar.</para>
 
       <para>A l'aide des références des réservations à traiter, déplacez vous
       dans les rayons et sortez les exemplaires, puis pointez les en
