@@ -660,53 +660,52 @@
       </listitem>
 
       <listitem>
-        <para>vous pouvez consulter <emphasis role="bold">l'éditeur</emphasis>
-        de la collection "mère". Ce champ n'est pas modifiable. Pour changer
-        l'éditeur d'une collection, passez par Autorités &gt;
-        Collections.</para>
+        <para>puedes consultar <emphasis role="bold">la editorial</emphasis>
+        de la colección "madre". Este campo no se puede modificar. Para cambiar la
+		editorial de una colección, ve a Autoridades &gt;
+        Colecciones.</para>
       </listitem>
     </itemizedlist>
 
-    <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
-    éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
-    être supprimé que s'il n'est utilisé dans aucune notice.</para>
+    <para><emphasis role="bold">Suprimir</emphasis> permite eliminar una 
+	editorial. <emphasis role="bold">Atención</emphasis> una editorial no se puede
+	eliminar si se usa en algún registro.</para>
 
-    <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
-    savoir dans quels ouvrages est mentionné l'éditeur. Il lance une recherche
-    dans l'onglet catalogue pour l'éditeur correspondant. Ceci permet
-    notamment de savoir pourquoi la suppression de cet éditeur est
-    impossible.</para>
+    <para>El botón <emphasis role="bold">Uso</emphasis> permite saber
+	en qué registros se ha usado una editorial. Inicia una búsqueda 
+	en la pestaña catálogo por la editorial seleccionada. Esta función 
+	permite saber porqué una editorial no se puede eliminar.</para>
 
-    <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
-    remplacer un éditeur par un autre, pour éliminer des doublons mals
-    orthographiés par exemple.</para>
+    <para>Le bouton <emphasis role="bold">Reemplazar por</emphasis> permite 
+	reemplazar una editorial por otra, para poder eliminar duplicados creados por
+	faltas ortográficas por ejemplo.</para>
 
-    <para><emphasis role="bold">Note</emphasis> : les boutons
-    <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
-    <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
-    création d'une sous-collection, mais uniquement lors de sa
-    modification.</para>
+    <para><emphasis role="bold">Nota</emphasis> : los botones
+	<emphasis>Suprimir</emphasis>, <emphasis>Uso</emphasis> y
+    <emphasis>Reemplazar por</emphasis> sólo están visibles cuando 
+	se modifica una subcolección, no cuando se crea.</para>
   </sect1>
 
   <sect1 id="autorites_series">
-    <title>Titres de série</title>
+    <title>Título de serie</title>
 
-    <para>Un <emphasis role="bold">titre de série</emphasis> désigne un
-    ensemble d'ouvrages distincts d'un même auteur, par exemple <emphasis
-    role="bold">Les aventures de Tintin</emphasis> d'Hergé. Pour plus
-    d'informations, consulter la Section 6 : Catalogage, rubrique : normaliser
-    le catalogage.</para>
+    <para>Un <emphasis role="bold">título de serie</emphasis> designa un
+    conjunto de obras diferentes de un mismo autor, por ejemplo <emphasis
+    role="bold">Las aventuras de Tintín</emphasis> de Hergé. Para más 
+	información, consulta la Sección 6 : Catálogo, apartado : normalizar 
+	la catalogación.</para>
 
-    <para>Pour rechercher un éditeur, saisissez une expression à rechercher
-    puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
-    affiche par défaut l'ensemble des éditeurs de la base.</para>
+    <para>Para buscar una editorial, introduce algunas palabras a buscar
+	y después haz clic en <emphasis role="bold">Buscar</emphasis>. La pantalla
+	inicial que se muestra es el conjunto de editoriales creadas en la base de
+	datos.</para>
 
-    <para>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
-    les derniers titres de série créés</emphasis> pour afficher les dix
-    derniers titres de séries ajoutés dans la base.</para>
+    <para>Puedes igualmente hacer clic sobre el enlace <emphasis role="bold">Ver
+    los últimos títulos de serie creados</emphasis> para ver los últimos diez
+	títulos de seie añadidos al catálogo.</para>
 
     <figure>
-      <title>Autorités &gt; Titres de Séries</title>
+      <title>Autoridades &gt; Títulos de serie</title>
 
       <mediaobject>
         <imageobject>
@@ -716,8 +715,8 @@
     </figure>
 
     <figure>
-      <title>Autorités &gt; Titres de Séries, édition d'un titre de
-      série</title>
+      <title>Autoridades &gt; Títulos de serie, edición de un título de 
+	  serie</title>
 
       <mediaobject>
         <imageobject>
@@ -726,45 +725,42 @@
       </mediaobject>
     </figure>
 
-    <para>Les titres de séries ne possèdent qu'un champ éditable : le
-    titre.</para>
+    <para>Los títulos de serie sólo tienen un campo : el
+	título.</para>
 
-    <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
-    titre de série. <emphasis role="bold">Attention</emphasis> un titre de
-    série ne peut être supprimé que s'il n'est utilisé dans aucune
-    notice.</para>
+    <para><emphasis role="bold">Suprimir</emphasis> permite eliminar un
+	título de serie. <emphasis role="bold">Atención</emphasis> un título de 
+	serie no puede elimarse si se utiliza en algún registro.</para>
 
-    <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
-    remplacer un titre de série par un autre, pour éliminer des doublons mals
-    orthographiés par exemple.</para>
+    <para>El botón <emphasis role="bold">Reemplazar por</emphasis> permite 
+	reemplazar un título de serie por otro, para eliminar posibles duplicados 
+	debidos a errores ortográficos por ejemplo.</para>
 
-    <para><emphasis role="bold">Note</emphasis> : les boutons
-    <emphasis>Supprimer</emphasis> et <emphasis>Remplacer par</emphasis> ne
-    sont pas visibles lors de la création d'un titre de série, mais uniquement
-    lors de sa modification.</para>
+    <para><emphasis role="bold">Nota</emphasis> : los botones
+	<emphasis> Suprimir</emphasis> y <emphasis>Remplazar por</emphasis> sólo
+	son visibles cuando se modifica un título, no cuando se crea.</para>
   </sect1>
 
   <sect1 id="autorites_indexint">
-    <title>Indexations</title>
+    <title>Clasificación</title>
 
-    <para>PMB gère des indexations décimales qui vous permettent de
-    personnaliser l'indexation de vos ouvrages. Pour plus d'informations sur
-    les indexations décimales fournies avec PMB, consulter le Chapitre
-    <emphasis>Catégories et classifications préinstallées avec
-    PMB</emphasis>.</para>
+    <para>PMB genera clasificaciones decimales que permiten 
+	personalizar la clasificación en vuestros documentos. Para más información sobre
+	las clasificaciones decimales incluidas con PMB, consulta el capítulo
+    <emphasis>Categorías y clasificaciones preinstaladas con PMB</emphasis>.</para>
 
-    <para>Pour rechercher une indexation, saisissez une expression à
-    rechercher puis cliquez sur <emphasis role="bold">Rechercher</emphasis>.
-    L'écran affiche par défaut l'ensemble des indexations de la base. Cette
-    recherche porte à la fois sur l'indexation (110) et son intitulé
-    (Métaphysique)</para>
+    <para>Para buscar una clasificación, introduce una expresión a buscar y después
+	haz clic sobre <emphasis role="bold">Buscar</emphasis>.
+    La pantalla que se muestra por defecto es el conjunto de clasificaciones incluidas 
+	en la base de datos. Ésta búsqueda muestra a la vez la clasificación (110) y su nombre
+	(Metafísica)</para>
 
-    <para>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
-    les dernières indexations créées</emphasis> pour afficher les dix
-    dernières indexations ajoutées dans la base.</para>
+    <para>Puedes también hacer clic sobre el enlace <emphasis role="bold">Ver 
+	las últimas clasificaciones creadas</emphasis> para ver las últimas
+	diez clasificaciones añadidas a la base de datos.</para>
 
     <figure>
-      <title>Autorités &gt; Indexations</title>
+      <title>Autoridades &gt; Clasificaciones</title>
 
       <mediaobject>
         <imageobject>
@@ -774,7 +770,7 @@
     </figure>
 
     <figure>
-      <title>Autorités &gt; Indexations, édition d'une indexation</title>
+      <title>Autoridades &gt; Clasificaciones, edición de una clasificación</title>
 
       <mediaobject>
         <imageobject>
@@ -783,33 +779,33 @@
       </mediaobject>
     </figure>
 
-    <para>Pour une indexation vous pouvez définir :</para>
+    <para>Para una clasificación debes introducir :</para>
 
     <itemizedlist>
       <listitem>
-        <para>un nom (obligatoire)</para>
+        <para>un número (obligatorio)</para>
       </listitem>
 
       <listitem>
-        <para>un commentaire</para>
+        <para>un comentario</para>
       </listitem>
     </itemizedlist>
 
-    <para><emphasis role="bold">Supprimer</emphasis> permet de supprimer une
-    indexation. <emphasis role="bold">Attention</emphasis> une indexation ne
-    peut être supprimée que si elle n'est utilisée dans aucune notice.</para>
+    <para><emphasis role="bold">Suprimir</emphasis> permite suprimir una 
+	clasificación. <emphasis role="bold">Atención</emphasis> una clasificación no 
+	puede eliminarse si se usa en algún registro.</para>
 
-    <para>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
-    savoir dans quels ouvrages est mentionné l'indexation. Il lance une
-    recherche dans l'onglet catalogue pour l'indexation correspondante. Ceci
-    permet notamment de savoir pourquoi sa suppression est impossible.</para>
+    <para>El botón <emphasis role="bold">Uso</emphasis> permite saber dentro
+	de qué obras se usa la clasificación seleccionada. Inicia una búsqueda
+	en la pestaña catálogo de la clasificación seleccionada. Esto permite por ejemplo
+	saber porqué una clasificación no se puede eliminar.</para>
 
-    <para>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
-    remplacer une indexation par une autre.</para>
+    <para>El botón <emphasis role="bold">Reemplazar por</emphasis> permite reeemplazar
+	una clasificación por otra.</para>
 
-    <para><emphasis role="bold">Note</emphasis> : les boutons
-    <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
-    <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
-    création d'une indexation, mais uniquement lors de sa modification.</para>
+    <para><emphasis role="bold">Nota</emphasis> : los botones
+	<emphasis> Suprimir</emphasis>, <emphasis>Uso</emphasis> y
+	<emphasis> Reemplazar por</emphasis> sólo son visibles cuando se modifica
+	una clasificación, no cuando se crea.</para>
   </sect1>
 </chapter>
