@@ -3,52 +3,52 @@
   <title>Windows</title>
 
   <sect1>
-    <title>Fichier d'auto-installation : setup.exe</title>
+    <title>Self-install exe file : setup.exe</title>
 
-    <para>PMB a été diffusé de la version 1.1 à la version 1.2 avec un
-    installateur automatique (setup.exe) qui installait automatiquement PMB et
-    EasyPHP. Nous ne maintiendrons plus ce setup.exe. En effet, les
-    configurations Windows exotiques, la possibilité d'installer PMB dans un
-    autre répertoire, ... étaient mal ou non prises en charge.</para>
+    <para>PMB was distributed with an automatic installer (setup.exe) from
+    version 1.1 to 1.2, which automatically installed PMB and EasyPHP. We are
+    not supporting this setup.exe anymore. Indeed, exotic Windows
+    configurations, the possibility of installing PMB in some other directory,
+    ... were not well handled or not at all.</para>
 
-    <para>A partir de la version 1.3, l'installation sera uniquement
-    manuelle.</para>
+    <para>As from version 1.3, the installation is effected manually
+    only.</para>
   </sect1>
 
   <sect1>
-    <title>Installation manuelle</title>
+    <title>Manual install</title>
 
     <sect2>
-      <title>Avec EasyPHP</title>
+      <title>With EasyPHP</title>
 
-      <para>Ce tutoriel décrit l'installation de PMB sur les plate-formes
-      Windows (95/98/XP/NT/ 2000). PMB est une application qui s'exécute sur
-      un serveur Web (Apache) et utilise la base de donnée libre MySQL. Son
-      installation est donc légèrement plus complexe que des logiciels
-      courants. Cependant, des solutions libres permettent maintenant de faire
-      fonctionner le serveur Web Apache, PHP et MySQL très facilement. Nous
-      nous baserons donc sur l'une d'entre elles : EasyPHP.</para>
+      <para>This tutorial describes the installation of PMB on the following
+      Windows platforms (95/98/XP/NT/2000). PMB is a web-app functioning on a
+      Web server (Apache) and using the free MySQL database. Installing PMB is
+      thus rather more complicated than other current applications. On the
+      other hand, there are now solutions readily available for free to make
+      the Web server Apache, PHP and MySQL function very easily. We are going
+      to use one of these : EasyPHP.</para>
 
       <sect3>
-        <title>Ce dont nous avons besoin</title>
+        <title>What you need</title>
 
-        <para>Vous devez télécharger deux choses.</para>
+        <para>You need to download two things.</para>
 
         <orderedlist>
           <listitem>
-            <para><emphasis role="bold">EasyPHP</emphasis>. Pour télécharger
-            ce logiciel, rendez vous ici : <ulink
+            <para><emphasis role="bold">EasyPHP</emphasis>. To download this
+            application, go to : <ulink
             url="http://www.easyphp.org">http://www.easyphp.org/</ulink></para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">PMB</emphasis>. Vous trouverez la
-            dernière version de l'application à l'adresse : <ulink
-            url="http://www.sigb.net">http://www.sigb.net</ulink>. Sous
-            Windows, téléchargez le fichier avec l'extension .ZIP.</para>
+            <para><emphasis role="bold">PMB</emphasis>. You will find the
+            latest version of the application at : <ulink
+            url="http://www.sigb.net">http://www.sigb.net</ulink>. For
+            Windows, download the archive with the .ZIP file extension.</para>
 
             <figure>
-              <title>Fichier ZIP PMB</title>
+              <title>PMB ZIP file</title>
 
               <mediaobject>
                 <imageobject>
@@ -59,27 +59,26 @@
           </listitem>
         </orderedlist>
 
-        <para>A l'issue de ces opérations de téléchargement, vous devriez
-        avoir quelque part sur votre machine un fichier
-        <emphasis>easyphp-setup.exe</emphasis> ainsi qu'un fichier
-        <emphasis>pmb-xxxx.zip</emphasis> (<emphasis>xxxx</emphasis> symbolise
-        le numéro de version).</para>
+        <para>When you have finished with the downloads, you should have
+        somewhere on your machine an <citetitle>easyphp-setup.exe</citetitle>
+        file as well as a <citetitle>pmb-xxxx.zip</citetitle>
+        (<citetitle>xxxx</citetitle> being the version number).</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP</title>
+        <title>Installing EasyPHP</title>
 
-        <para>Nous allons commencer par installer EasyPHP, qui comprend le
-        serveur Web Apache, La base de données MySQL, le langage PHP et
-        différents outils les accompagnant.</para>
+        <para>We shall start by installing EasyPHP which comprises an Apache
+        Web server, the MySQL database, and the PHP language together with
+        their various tools.</para>
 
-        <para>Double cliquez sur l'icône de l'archive d'EasyPHP 1.7</para>
+        <para>Double-click on the icon of the EasyPHP 1.8 archive.</para>
 
-        <para>Ceci aura pour effet, après une boite de dialogue de
-        confirmation, d'afficher ce qui suit :</para>
+        <para>This will cause the following to be displayed on your screen,
+        after okaying the confirmation dialog box.</para>
 
         <figure>
-          <title>Premier écran, setup d'EasyPHP</title>
+          <title>Screen 1, EasyPHP Set up</title>
 
           <mediaobject>
             <imageobject>
@@ -88,19 +87,17 @@
           </mediaobject>
         </figure>
 
-        <para>Cliquez sur le bouton 'suivant' pour afficher l'écran de la
-        licence</para>
+        <para>Click on the 'Next' button to display the licence page.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPhp (2)</title>
+        <title>Installing EasyPHP (2)</title>
 
-        <para>Le programme d'installation d'EasyPhp affiche l'écran vous
-        permettant de confirmer votre acceptation de sa licence de diffusion
-        :</para>
+        <para>The EasyPHP installer displays a screen prompting you to confirm
+        your acceptance of the distribution licence.</para>
 
         <figure>
-          <title>Deuxième écran, setup d'EasyPHP</title>
+          <title>Screen 2, EasyPHP set up</title>
 
           <mediaobject>
             <imageobject>
@@ -109,33 +106,35 @@
           </mediaobject>
         </figure>
 
-        <para>Cochez "I accept..." puis cliquez sur le bouton 'Next' pour
-        continuer.</para>
+        <para>Tick "I accept..." then click on the 'Next' button to
+        continue.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (3)</title>
+        <title>Installing EasyPHP (3)</title>
 
-        <para>L'écran suivant affiche quelques informations notamment sur la
-        mise à jour depuis une version précédente d'EasyPHP.<figure>
-            <title>Troisième écran, setup d'EasyPHP</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/setup_easyphp_3.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure></para>
-      </sect3>
-
-      <sect3>
-        <title>Installation d'EasyPHP (4)</title>
-
-        <para>La boîte de dialogue suivante permet de définir l'emplacement où
-        seront installés les composants d'EasyPHP.</para>
+        <para>The next screen displays some information namely on updates from
+        a previous version of EasyPHP.</para>
 
         <figure>
-          <title>Quatrième écran, setup d'EasyPHP</title>
+          <title>Screen 3, EasyPHP set up</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/setup_easyphp_3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
+
+      <sect3>
+        <title>Installing EasyPHP (4)</title>
+
+        <para>The next dialog box allows you to determine where you want the
+        EasyPHP components installed.</para>
+
+        <figure>
+          <title>Screen 4, EasyPHP set up</title>
 
           <mediaobject>
             <imageobject>
@@ -144,18 +143,18 @@
           </mediaobject>
         </figure>
 
-        <para>L'emplacement par défaut est le meilleur choix, il suffit donc
-        de cliquer sur le bouton 'suivant' pour continuer.</para>
+        <para>The default location is the best choice, all you have to do is
+        click on the 'Next' button to continue.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (5)</title>
+        <title>Installing EasyPHP (5)</title>
 
-        <para>Le dialogue suivant vous permet, quant à lui de définir où
-        seront placés les raccourcis du programme.</para>
+        <para>The next dialog box will allow you to decide where to place the
+        EasyPHP shortcuts.</para>
 
         <figure>
-          <title>Cinquième écran, setup d'EasyPHP</title>
+          <title>Screen 5, EasyPHP set up</title>
 
           <mediaobject>
             <imageobject>
@@ -164,18 +163,18 @@
           </mediaobject>
         </figure>
 
-        <para>Là encore, l'emplacement par défaut est le meilleur choix, il
-        suffit donc de cliquer sur le bouton 'suivant' pour continuer.</para>
+        <para>Here again, the default location is the best choice, all you
+        have to do is click on the 'Next' button to continue.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (6)</title>
+        <title>Installing EasyPHP (6)</title>
 
-        <para>Le programme d'installation affiche ensuite un écran
-        récapitulant les choix précédents :</para>
+        <para>The install programme then displays a new screen recapitulating
+        your choices.</para>
 
         <figure>
-          <title>Sixième écran, setup d'EasyPHP</title>
+          <title>Screen 6, EasyPHP set up</title>
 
           <mediaobject>
             <imageobject>
@@ -184,15 +183,14 @@
           </mediaobject>
         </figure>
 
-        <para>Cliquez sur 'installer' pour lancer l'installation proprement
-        dite.</para>
+        <para>Click on 'Install' to start the installation proper.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPhp (7)</title>
+        <title>Installing EasyPHP (7)</title>
 
         <figure>
-          <title>Septième écran, setup d'EasyPHP</title>
+          <title>Screen 7, EasyPHP set up</title>
 
           <mediaobject>
             <imageobject>
@@ -201,12 +199,12 @@
           </mediaobject>
         </figure>
 
-        <para>Après les quelques instant nécessaires à la copie des fichiers
-        d'EasyPhp, nous aboutissons à une liste des changements importants
-        depuis la version précédente de PHP :</para>
+        <para>After a few moments necessary for copying the EasyPHP files, a
+        page listing important changes since the previous version of PHP is
+        displayed on screen :</para>
 
         <figure>
-          <title>Huitième écran, setup d'EasyPHP</title>
+          <title>Screen 8, EasyPHP set up</title>
 
           <mediaobject>
             <imageobject>
@@ -215,14 +213,13 @@
           </mediaobject>
         </figure>
 
-        <para>Nous ne lancerons pas l'application, ceci faisant l'objet d'une
-        étape prochaine. Décochez donc la case à cocher avant de cliquer sur
-        le bouton 'terminer'. Vous pouvez, si vous le souhaitez, redémarrer
-        ensuite votre ordinateur. EasyPHP ne le requiert pas, mais c'est quand
-        même préférable.</para>
+        <para>We shall not start the application for now, this will be done at
+        a later stage. Therefore clear the tick box and click 'Finish'. You
+        may, if you so wish, restart your computer. it is recommended even
+        though not required after the EasyPHP install.</para>
 
         <figure>
-          <title>Neuvième écran</title>
+          <title>Screen 9</title>
 
           <mediaobject>
             <imageobject>
@@ -233,13 +230,13 @@
       </sect3>
 
       <sect3>
-        <title>Utilisation d'EasyPHP</title>
+        <title>Using EasyPHP</title>
 
-        <para>Le menu 'démarrer' comprend maintenant une nouvelle entrée pour
-        EasyPhp :</para>
+        <para>The Windows Start menu includes a new entry for EasyPHP now
+        :</para>
 
         <figure>
-          <title>Menu démarrer avec EasyPHP</title>
+          <title>Start menu showing EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -248,18 +245,17 @@
           </mediaobject>
         </figure>
 
-        <para>En cliquant sur l'entrée 'EasyPhp', vous lancez le serveur
-        Web.</para>
+        <para>Click on the entry 'EasyPHP' to start the Web server.</para>
       </sect3>
 
       <sect3>
-        <title>Utilisation d'EasyPHP (2)</title>
+        <title>Using EasyPHP (2)</title>
 
-        <para>Vous savez que le serveur Web tourne en regardant la barre des
-        tâches :</para>
+        <para>You will know whether the Web server is running or not just by
+        looking at the system tray on your task bar :</para>
 
         <figure>
-          <title>icône d'EasyPHP à coté de l'horloge</title>
+          <title>EasyPHP icon next to the clock</title>
 
           <mediaobject>
             <imageobject>
@@ -268,14 +264,13 @@
           </mediaobject>
         </figure>
 
-        <para>L'icône d'EasyPhp, s'y affiche avec un point rouge clignotant.
-        Ceci indique que tout va bien.</para>
+        <para>Displayed there is the EasyPHP icon with a red dot blinking,
+        meaning everything is fine.</para>
 
-        <para>Un clic avec le bouton droit de la souris affiche un menu
-        contextuel :</para>
+        <para>Right-click your mouse to display the contextual menu.</para>
 
         <figure>
-          <title>menu contextuel EasyPHP</title>
+          <title>EasyPHP contextual menu</title>
 
           <mediaobject>
             <imageobject>
@@ -284,14 +279,14 @@
           </mediaobject>
         </figure>
 
-        <para>Les entrées 'Quitter', 'Arrêter', 'Redémarrer' permettent de
-        stopper ou de démarrer le serveur Web.</para>
+        <para>The entries 'Quit', 'Stop', 'Restart' allow you to stop or
+        restart the Web server.</para>
 
-        <para>En sélectionnant l'entrée 'configuration', vous pourrez afficher
-        les paramètres de l'application :</para>
+        <para>Choose the entry 'Configuration' to display the application's
+        parameters :</para>
 
         <figure>
-          <title>Configuration d'EasyPHP</title>
+          <title>EasyPHP configuration</title>
 
           <mediaobject>
             <imageobject>
@@ -300,25 +295,22 @@
           </mediaobject>
         </figure>
 
-        <para>Vous avez la possibilité de cocher l'option 'Démarrer EasyPHP en
-        même temps que Windows' (ou 'Démarrer les serveurs en tant que
-        services' si vous êtes sous Windows NT). Ceci aura pour effet de
-        lancer automatiquement le serveur au démarrage de la machine et vous
-        évitera d'avoir à le faire manuellement. Ne changez rien aux autres
-        options à moins de savoir ce que vous faites.</para>
+        <para>You can tick the option 'Start on Windows startup' (or start
+        Apache and MySQL as services if you are on Windows NT). This will
+        cause the server to start automatically when you boot your computer,
+        avoiding you having to make a manual start. Do not touch the other
+        options unless you know exactly what you are doing.</para>
 
-        <para>Vous savez maintenant démarrer les serveurs Apache et
-        MySQL.</para>
+        <para>Now you know how to start the Apache and MySQL servers.</para>
       </sect3>
 
       <sect3>
-        <title>Installation des fichiers de PMB</title>
+        <title>Installing PMB files</title>
 
-        <para>Retrouvez maintenant le fichier ZIP contenant l'archive de PMB
-        :</para>
+        <para>Now look for the ZIP file containing the PMB archive :</para>
 
         <figure>
-          <title>Archive ZIP contenant les fichiers de PMB</title>
+          <title>ZIP file containing the PMB archive</title>
 
           <mediaobject>
             <imageobject>
@@ -327,16 +319,16 @@
           </mediaobject>
         </figure>
 
-        <para>Pour ce tutoriel, nous prenons comme principe que vous installez
-        le logiciel dans le dossier '<emphasis
-        role="bold">c:\pmb</emphasis>'.</para>
+        <para>For this tutorial, we will assume you are installing the
+        application in the folder <emphasis
+        role="bold">'c:\pmb'.</emphasis></para>
 
-        <para>Vous devez décompresser le fichier dans ce dossier avec le
-        logiciel de compression que vous utilisez habituellement (Winzip,
-        PowerArchiver,...). De façon à obtenir ceci :</para>
+        <para>Extract the archive into this directory with your usual zip
+        extraction software programme (WinZip, PowerArchiver, ...) to obtain
+        this :</para>
 
         <figure>
-          <title>Contenu de l'archive PMB</title>
+          <title>Content of the PMB archive</title>
 
           <mediaobject>
             <imageobject>
@@ -345,28 +337,28 @@
           </mediaobject>
         </figure>
 
-        <para>Si vous ne savez pas comment utiliser le logiciel de
-        compression, demandez autour de vous, ou reportez vous à la
-        documentation fournie avec ce logiciel.</para>
+        <para>If you don't know how to use the zip extraction software
+        programme, ask around you, or go to the documentation supplied along
+        with the application.</para>
 
-        <para><emphasis role="bold">note</emphasis> Le contenu du répertoire
-        peut changer suivant la version de PMB que vous avez
-        téléchargée.</para>
+        <para><emphasis role="bold">Note</emphasis> : The content of the
+        directory may vary depending on which version of PMB you have
+        downloaded.</para>
       </sect3>
 
       <sect3>
-        <title>Accéder à la page de configuration des serveurs</title>
+        <title>Accessing the servers' configuration page</title>
 
-        <para>Nous partons du principe que vous avez copié les fichiers de
-        l'application PMB dans le dossier 'c:\pmb' et que le serveur Web
-        Apache fonctionne (le serveur est démarré et l'icône EasyPHP clignote
-        dans la barre des tâches).</para>
+        <para>We will assume that you copied the PMB files into the directory
+        <emphasis role="bold">'c:\pmb'</emphasis> and that the Apache Web
+        server is functioning (you have started the server and the EasyPHP
+        icon is blinking in the system tray on the task bar).</para>
 
-        <para>Ouvrez le menu contextuel de l'icône EasyPHP de la barre des
-        tâches et sélectionnez l'entrée 'Administration' :</para>
+        <para>Click the EasyPHP icon on the task bar to open the contextual
+        menu and select the entry 'Administration' :</para>
 
         <figure>
-          <title>menu contextuel d'EasyPHP</title>
+          <title>EasyPHP contextual menu</title>
 
           <mediaobject>
             <imageobject>
@@ -375,10 +367,10 @@
           </mediaobject>
         </figure>
 
-        <para>Le navigateur Internet s'ouvre sur cette page :</para>
+        <para>The Web browser will open on this page.</para>
 
         <figure>
-          <title>écran d'administration d'EasyPHP</title>
+          <title>EasyPHP administration screen</title>
 
           <mediaobject>
             <imageobject>
@@ -387,20 +379,18 @@
           </mediaobject>
         </figure>
 
-        <para>Ceci est la page d'administration d'EasyPHP. A l'aide de cette
-        page vous pourrez configurer facilement votre serveur.</para>
+        <para>This is the administration page of EasyPHP. It will help you
+        configure your server easily.</para>
       </sect3>
 
       <sect3>
-        <title>Création de l'alias PMB</title>
+        <title>Creating the PMB alias</title>
 
-        <para>Cliquez sur le lien 'ajouter' à droite de la mention 'Vos alias'
-        de la page d'administration d'EasyPHP.</para>
-
-        <para>Vous voyez s'afficher le formulaire suivant :</para>
+        <para>Click on the link 'add' on the administration page of EasyPHP.
+        The following fill-in form will appear on your screen :</para>
 
         <figure>
-          <title>écran d'administration d'EasyPHP, création d'un alias</title>
+          <title>EasyPHP administration screen, creating an alias</title>
 
           <mediaobject>
             <imageobject>
@@ -409,28 +399,28 @@
           </mediaobject>
         </figure>
 
-        <para>Saisissez les données suivantes dans le formulaire :</para>
+        <para>Enter the following data in the fill-in form :</para>
 
-        <para>Saisir un nom pour l'alias :<emphasis role="bold">
+        <para>Type a name for the alias :<emphasis role="bold">
         pmb</emphasis></para>
 
-        <para>Saisir le chemin du répertoire créé :<emphasis role="bold">
+        <para>Type the directory path :<emphasis role="bold">
         c:\pmb</emphasis></para>
 
-        <para>Paramètres par défaut du répertoire :<emphasis> laisser les
-        paramètres par défaut</emphasis></para>
+        <para>Directory default settings :<emphasis> leave the default
+        settings as they are</emphasis></para>
 
-        <para>Cliquez ensuite sur valider pour créer l'alias PMB</para>
+        <para>Finally click 'OK' to create the PMB alias.</para>
       </sect3>
 
       <sect3>
-        <title>Première connexion à PMB</title>
+        <title>PMB first login</title>
 
-        <para>Après validation du formulaire de création de l'alias, vous
-        verrez s'afficher la page suivante :</para>
+        <para>Validate the creation of the alias and the following page will
+        be displayed on your screen :</para>
 
         <figure>
-          <title>écran d'administration d'EasyPHP, avec l'alias PMB</title>
+          <title>EasyPHP administration screen, showing the PMB alias</title>
 
           <mediaobject>
             <imageobject>
@@ -439,22 +429,22 @@
           </mediaobject>
         </figure>
 
-        <para>La rubrique 'Vos Alias' contient maintenant une entrée 'pmb' qui
-        est le lien qui vous permettra d'accéder au logiciel. </para>
+        <para>The item 'alias' now displays an entry 'pmb', it is the very
+        link that will allow you to access the application.</para>
 
-        <para>Après avoir créé un alias vous devez redémarrer le serveur
-        Apache pour qu'il soit pris en compte. Pour cela, cliquez avec le
-        bouton droit de la souris sur l'icône EasyPHP à côté de l'horloge,
-        puis sur Redémarrer.</para>
+        <para>After creating the alias you may have to restart the Apache
+        server if you are using an earlier version of EasyPHP so it can
+        recognize the alias. Right-click on the EasyPHP icon in the system
+        tray, then on Restart. Not necessary with EasyPHP 1.8.</para>
 
-        <para>Ouvrez alors un navigateur web (Internet Explorer, Netscape,
-        Mozilla ou Firefox) et allez à l'adresse http://localhost/pmb</para>
+        <para>Now start your Web browser (Internet Explorer, Netscape, Mozilla
+        or Firefox) and go to http://localhost/pmb.</para>
 
-        <para>Votre navigateur affiche alors une nouvelle fenêtre avec l'écran
-        de connexion de PMB :</para>
+        <para>Your browser now displays a new window showing the PMB login
+        screen :</para>
 
         <figure>
-          <title>écran de login de PMB</title>
+          <title>PMB login screen</title>
 
           <mediaobject>
             <imageobject>
@@ -463,96 +453,136 @@
           </mediaobject>
         </figure>
 
-        <para>Notez bien l'adresse qui figure dans la barre d'adresse du
-        navigateur : <emphasis role="bold">http://127.0.0.1/pmb/</emphasis>.
-        Cette adresse permet d'accéder directement à l'application sans passer
-        par le menu d'EasyPhp. Vous pouvez d'ailleurs la rajouter à vos
-        favoris ou lui affecter un raccourci sur le bureau. <emphasis
-        role="bold">Rappel</emphasis> : Vous ne pourrez accéder à cette page
-        <emphasis role="bold">que</emphasis> si EasyPHP est démarré et actif
-        dans la barre des tâches.</para>
+        <para>Take good note of the path indicated on your browser's address
+        bar : <emphasis role="bold">http://127.0.0.1/pmb/</emphasis>. This
+        address bypasses the EasyPHP menu giving you direct access to the
+        application. You may add it to your favourites or bookmarks, or even
+        place a shortcut on your desktop. <emphasis
+        role="bold">Remember</emphasis> : You can only access this page if
+        EasyPHP is started and active on the task bar.</para>
 
-        <para>[NDLR : <emphasis role="bold">127.0.0.1</emphasis> est
-        équivalent à <emphasis role="bold">localhost</emphasis>. ]</para>
+        <para>[Editor's note : <emphasis role="bold">127.0.0.1</emphasis> is
+        the same as <emphasis role="bold">localhost</emphasis>.]</para>
 
-        <para>Sur la capture d'écran plus haut, PMB n'a pas détecté de base de
-        données configurée : cliquez sur le lien "<emphasis
-        role="bold">tables/install.php</emphasis>" pour créer ou configurer
-        une base de données utilisable avec PMB. Pour plus d'informations sur
-        la configuration de la base de données, 
-        voir <xref linkend="install_parametrer_base_donnees" />.</para>
+        <para>On the screen capture above, PMB did not detect any configured
+        database : click on the link <emphasis
+        role="bold">"tables/install.php"</emphasis> to create or configure a
+        database usable with PMB. For more information on configuring the
+        database, see Section 3, "Configuring the PMB database".</para>
+      </sect3>
+
+      <sect3>
+        <title>Important : PHP extensions</title>
+
+        <para>To function properly PMB needs various PHP extensions : YAZ,
+        XML, GD ou GD2, BZ2.</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>XML, a must in order to display PMB messages on screen.
+            Active by default in EasyPHP you don't have to do anything
+            here.</para>
+          </listitem>
+
+          <listitem>
+            <para>XSLT, necessary for importing/exporting records.</para>
+          </listitem>
+
+          <listitem>
+            <para>GD ou GD2, needed for reminder letters or else for
+            electronic documents.</para>
+          </listitem>
+
+          <listitem>
+            <para>BZ2 to allow for the compression of backups.</para>
+          </listitem>
+
+          <listitem>
+            <para>YAZ necessary for importing records in Z39.50 from other
+            library servers.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>The DLL corresponding to these extensions need to be copied in
+        \windows\system32 : <emphasis role="bold">expat.dll, iconv.dll,
+        sablot.dll, yaz.dll.</emphasis></para>
+
+        <para><emphasis><emphasis>These DLL are available in the directory
+        Program Files\EasyPHP\php for an installation with
+        EasyPHP.</emphasis></emphasis></para>
+
+        <para><emphasis><emphasis>There are other recommendations for the
+        configuration of PHP and MySQL with PMB (max_execution_time, ...). For
+        more information, consult the Chapter Important information further
+        up.</emphasis></emphasis></para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title>Installation avec PHP, MySQL, PhpMyAdmin</title>
+      <title>Installing with PHP, MySQL, PhpMyAdmin</title>
 
-      <para>Vous trouverez un mode d'emploi pour installer PHP et MySQL sous
-      Windows (indépendants, sans EasyPHP) à l'adresse suivante : <ulink
+      <para>You will find a how-to-install PHP and MySQL on Windows
+      (separately without EasyPHP) at this address : <ulink
       url="http://www.phptools4u.com/articles/view.php?article=3">http://www.phptools4u.com/articles/view.php?article=3</ulink>.</para>
     </sect2>
 
     <sect2>
-      <title>Avec IIS</title>
+      <title>With IIS</title>
 
-      <para>Internet Information Server (IIS) est le serveur web http
-      professionnel de Microsoft, il est livré notamment avec les produits
-      Windows 2000 Server ou Windows XP Server.</para>
+      <para>Internet Information Server (IIS) is the http professional Web
+      server of Microsoft, it is supplied with their Windows 2000 Server or
+      Windows XP Server namely.</para>
 
       <sect3>
-        <title>Installer PHP sous IIS</title>
+        <title>Installing PHP with IIS</title>
 
-        <para>L'installeur Windows de PHP disponible depuis les pages de
-        <ulink
-        url="http://www.php.net/downloads.php">http://www.php.net/downloads.php</ulink>
-        , installe la version CGI de PHP , et configure les serveurs web IIS,
-        PWS, et Xitami.</para>
+        <para>The PHP Windows installer is available at <ulink
+        url="http://www.php.net/downloads.php">http://www.php.net/downloads.php</ulink>,
+        it installs the CGI version of PHP, and configures the Web servers
+        IIS, PWS, and Xitami.</para>
 
-        <para>Notez bien que bien que InstallShield soit une méthode simple
-        pour installer PHP , il est limité dans son fonctionnement, puisque
-        l'installation automatique des extensions n'est pas prise en compte.
-        Le jeu complet des extensions PHP est disponible en téléchargeant et
-        décompressant manuellement l'archive.</para>
+        <para>Note that although InstallShield is a quick way to install PHP,
+        it has limited functions as some extensions are not automatically
+        installed. You can obtain the complete set of PHP extensions by
+        downloading and unzipping the archive manually.</para>
 
-        <para>Pour plus d'information sur cette installation, vous pouvez
-        consulter <ulink
+        <para>For more information on this installation, go to <ulink
         url="http://www.nexen.net/docs/php/annotee/install.windows.installer.php">http://www.nexen.net/docs/php/annotee/install.windows.installer.php</ulink>.</para>
       </sect3>
 
       <sect3>
-        <title>Installer MySQL sous IIS</title>
+        <title>Installing MySQL with IIS</title>
 
-        <para>Vous trouverez un didacticiel à l'adresse <ulink
+        <para>You will find a tutorial at <ulink
         url="http://www.asp-php.net/tutorial/asp-php/iis_et_mysql.php">http://www.asp-php.net/tutorial/asp-php/iis_et_mysql.php</ulink>.</para>
       </sect3>
     </sect2>
   </sect1>
 
   <sect1 id="install_parametrer_base_donnees">
-    <title>Paramétrer la base de données de PMB</title>
+    <title>Configuring the PMB database</title>
 
     <sect2>
-      <title>Installation simplifiée :
-      http://localhost/pmb/tables/install.php</title>
-
-      <para>A l'adresse http://localhost/pmb/tables/install.php
-      vous accéderez à l'interface simplifiée de paramétrage des tables de
-      PMB.</para>
+      <title>Quick install : http://localhost/pmb/tables/install.php</title>
 
       <sect3>
-        <title>Installation de la base MySQL 'PMB'</title>
+        <title>Installing the MySQL 'PMB' database</title>
 
-        <para>Il s'agit de la page d'accueil de l'application. Pour installer
-        la base utilisée par celle-ci, vous devez accéder à la page 
-        http://localhost/pmb/tables/install.php.
-        Veuillez donc compléter l'adresse figurant dans la barre d'adresse de
-        votre navigateur.</para>
+        <para>To install the database to be used by PMB, you have to access
+        the quick install page <emphasis
+        role="bold">http://localhost/pmb/tables/install.php</emphasis>.
+        Complete the Home page address of the application <emphasis
+        role="bold">http://localhost/pmb/</emphasis> on the address bar of
+        your browser with <emphasis
+        role="bold">./tables/install.php</emphasis> to look like this
+        <emphasis
+        role="bold">http://localhost/pmb/tables/install.php</emphasis>.</para>
 
-        <para>Une fois ceci effectué et après validation, vous devriez voir
-        cette page s'afficher :</para>
+        <para>Upon validation, the following page should appear on your screen
+        :</para>
 
         <figure>
-          <title>écran de création des tables MySQL de PMB</title>
+          <title>PMB MySQL tables creation screen</title>
 
           <mediaobject>
             <imageobject>
@@ -561,28 +591,26 @@
           </mediaobject>
         </figure>
 
-        <para>Plusieurs précisions vous sont ici demandées. Pour l'instant,
-        nous vous conseillons de garder les valeurs pré-renseignées. Le
-        formulaire se termine par une case à cocher Remplir les tables avec le
-        jeu d'exemple ?. Cochez cette option si vous souhaitez que le script
-        d'installation intégre un jeu de données de test pour commencer à
-        utiliser le logiciel. Ceci est facultatif et vous pourrez commencer
-        également en créant vos propres données.</para>
+        <para>You are required to provide some precision here. For the time
+        being, we advise you to leave the values already entered as they are.
+        The fill-in form ends with a tick box 'Load tables with the test
+        set?". Tick this option if you wish the install script to include a
+        data test set to start using the application. This is optional, you
+        may equally start by entering your own data.</para>
 
-        <para>Validez maintenant en cliquant sur le bouton Créer la
-        base.</para>
+        <para>Now click the 'Create the database' button to confirm.</para>
       </sect3>
 
       <sect3>
-        <title>Fin de l'installation et première utilisation du
-        logiciel</title>
+        <title>End of install process, using PMB for the first time</title>
 
-        <para>La création de la base PMB est très rapide. A son issue, vous
-        devez voir s'afficher la page suivante :</para>
+        <para>The creation process of the PMB database goes very quickly. As
+        soon as it's completed, the following page will appear on your screen
+        :</para>
 
         <figure>
-          <title>second écran de création des tables (confirmation) MySQL de
-          PMB</title>
+          <title>PMB MySQL tables creation second screen
+          (confirmation)</title>
 
           <mediaobject>
             <imageobject>
@@ -591,217 +619,210 @@
           </mediaobject>
         </figure>
 
-        <para>Si la page que vous voyez comportait des messages d'erreurs, une
-        bonne idée est de la sauvegarder en utilisant la fonction Enregistrer
-        sous de votre navigateur afin de pouvoir la communiquer aux personnes
-        qui sont susceptibles de vous apporter de l'aide (voir la section
-        <emphasis>Que faire si vous n'y arrivez pas ?</emphasis> de ce
-        tutoriel).</para>
+        <para>If the page displays error messages, it's a good idea to save it
+        with the "Save Page As..." of your browser for eventual transmission
+        to people in a position to help you (see the section <citetitle>What
+        if you can't do it ?</citetitle> of this guide).</para>
 
-        <para>L'installation de PMB est maintenant terminée.</para>
+        <para>The installation of PMB is now complete.</para>
 
-        <para>Pour accéder dorénavant à PMB, il vous suffira d'ouvrir votre
-        navigateur internet et d'accéder à l'adresse : <emphasis
-        role="bold">http://localhost/pmb/</emphasis>.
-        Sur certains systèmes (certaines versions de Windows), lors du premier
-        lancement de l'application, il est possible que la machine tente de se
-        connecter à Internet. Si cela arrivait, essayez de continuer en
-        cliquant sur 'rester hors-connexion'. Éventuellement, si ce problème
-        persiste, accédez à PMB en utilisant cette adresse : <emphasis
-        role="bold">http://127.0.0.1/PMB/</emphasis>
-        (elle est synonyme de la précédente).</para>
+        <para>To access PMB from now on, you need only start your internet
+        browser and go to the address : <emphasis
+        role="bold">http://localhost/pmb/</emphasis>. On some systems (certain
+        versions of Windows), when you start the application for the first
+        time, the machine may try to connect to Internet. If it were to
+        happen, try clicking <emphasis role="bold">'stay
+        hors-connexion'</emphasis> to continue. Finally, if the problem
+        persists, access PMB by using this address : <emphasis
+        role="bold">http://127.0.0.1/pmb/</emphasis> (it is the same as the
+        previous one).</para>
 
-        <para><emphasis role="bold">Chose très importante</emphasis> : lors de
-        la première connexion à PMB, le nom d'utilisateur à utiliser est
-        <emphasis>admin</emphasis> et le mot de passe est
-        <emphasis>admin</emphasis>. C'est le seul login qui est créé lors de
-        l'installation. C'est à vous de créer de nouveaux utilisateurs en
-        utilisant le menu administration/gestion des utilisateurs. Il est bon
-        aussi de commencer par changer le mot de passe de l'utilisateur admin,
-        celui qui existe au début est un mot de passe par défaut.</para>
+        <para><emphasis role="bold">Very important</emphasis> : When you start
+        PMB for the first time, the username is <citetitle>admin</citetitle>
+        and the password is <citetitle>admin</citetitle>. It is the only login
+        created during the install process. It is up to you to create new
+        users from the menu administration/manage users. It is a good thing
+        too to change the password of user admin, the existing one being a
+        default password.</para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title>Installation avancée : fichiers SQL</title>
+      <title>Install for advanced users : SQL files</title>
 
-      <para>Lorsque vous installez une version de PMB, pour pouvoir tester PMB
-      vous pouvez vous servir des données de test. Ces données sont également
-      chargeable "manuellement". Elles sont réparties dans différents fichiers
-      situés dans VOTRE_REP_PMB/tables .</para>
+      <para>When you install a version of PMB and you wish to test the
+      application, you can use the test data provided in the distribution.
+      These test data can be loaded 'manually'. They are located in various
+      files inside your_dir_pmb/tables.</para>
 
-      <para><emphasis role="bold">Description des fichiers</emphasis></para>
+      <para><emphasis role="bold">Files description</emphasis></para>
 
-      <para><emphasis>bibli.sql</emphasis> : structure de la base de données
-      uniquement, pas de données</para>
+      <para><emphasis>bibli.sql</emphasis> : the database structure only, no
+      data</para>
 
-      <para><emphasis>minimum.sql</emphasis> : utilisateur admin/admin,
-      paramètres de l'application</para>
+      <para><emphasis>minimum.sql</emphasis> : user admin/admin, application's
+      settings</para>
 
-      <para><emphasis>feed_essential.sql</emphasis> : ce dont vous avez besoin
-      pour utiliser l'application en mode quick-start :</para>
+      <para><emphasis>feed_essential.sql</emphasis> : what you need to run the
+      application in quick-start mode :</para>
 
       <itemizedlist>
         <listitem>
-          <para>Données de l'application préremplies, modifiables.</para>
+          <para>the appliction's preloaded data, modifications allowed</para>
         </listitem>
 
         <listitem>
-          <para>Un jeu de sauvegarde prêt à l'emploi</para>
+          <para>a backup set ready to use</para>
         </listitem>
 
         <listitem>
-          <para>Un jeu de paramétrage de Z3950.</para>
+          <para>a set of Z39.50 settings</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis>data_test.sql</emphasis> : une petite sélection de
-      données de notices, lecteurs, afin de pouvoir tester de suite
+      <para><emphasis>data_test.sql</emphasis> : a small selection of records,
+      borrowers data for testing PMB immediately :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Records, borrowers, lenders, items, serials</para>
+        </listitem>
+
+        <listitem>
+          <para>Based on data supplied in feed_essential.sql</para>
+        </listitem>
+
+        <listitem>
+          <para>Must load the thesaurus UNESCO_FR supplied in
+          unesco_fr.sql</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">Note</emphasis> : you can delete the test
+      data after evaluating PMB as they can become a nuisance in your database
+      later. For this, use one of the scripts /tables/empty_example_set; for
+      more details consult the <citetitle>Administrator's Guide</citetitle> of
       PMB.</para>
 
-      <itemizedlist>
-        <listitem>
-          <para>Notices, lecteurs, prêteurs, exemplaires, périodiques</para>
-        </listitem>
+      <para><emphasis role="bold">Thesaurus : </emphasis></para>
 
-        <listitem>
-          <para>Se base sur les données de l'application fournies dans
-          feed_essential.sql</para>
-        </listitem>
+      <para><emphasis>3 thesauri are offered to you :</emphasis></para>
 
-        <listitem>
-          <para>Doit charger le thésaurus UNESCO_FR unesco_fr.sql</para>
-        </listitem>
-      </itemizedlist>
+      <para><emphasis>unesco_fr.sql</emphasis> : the UNESCO thesaurus,
+      hierarchical structure, quite large and well made</para>
 
-      <para><emphasis role="bold">Note</emphasis> : vous pouvez vider les
-      données du jeu de test opérationnel de PMB après avoir évalué PMB. Ces
-      données peuvent parasiter votre base de données par la suite. Pour cela
-      utiliser un des scripts /tables/empty_example_set ; pour plus
-      d'informations consulter le <emphasis>guide de
-      l'administrateur</emphasis> de PMB.</para>
+      <para><emphasis>agneaux.sql</emphasis> : smaller, simpler, but equally
+      well made</para>
 
-      <para><emphasis role="bold">Thésaurus : </emphasis></para>
-
-      <para><emphasis>3 thésaurus vous sont proposés</emphasis></para>
-
-      <para><emphasis>unesco_fr.sql</emphasis> : thésaurus hiérarchisé de
-      l'UNESCO, assez important et bien fait.</para>
-
-      <para><emphasis>agneaux.sql</emphasis> : plus petit, plus simple mais
-      bien fait aussi.</para>
-
-      <para><emphasis>environnement</emphasis> : un thésaurus possible pour un
-      fonds documentaire axé Environnement.</para>
+      <para><emphasis>environnement</emphasis> : a possible thesaurus for an
+      Environment based collection</para>
     </sect2>
 
     <sect2>
-      <title>Liste des tables remplies par les fichiers SQL</title>
+      <title>List of tables loaded by the SQL files</title>
 
-      <para>Vous trouverez ici une liste des données chargées par ces
-      différents fichiers SQL. Pour charger en ligne de commande sous MySQL un
-      fichier SQLreportez vous à la documentation de MySQL.</para>
+      <para>You will find here a list of data tables loaded by these various
+      SQL files. To run an SQL file using the command line with MySQL, go to
+      the MySQL documentation.</para>
 
       <para><emphasis role="bold">minimum.sql</emphasis></para>
 
-      <para>Contenu de la table `paramètres'</para>
+      <para>Content of table `paramètres'</para>
 
-      <para>Contenu de la table `users` : utilisateur admin/admin</para>
+      <para>Content of table `users` : user admin/admin</para>
 
       <para><emphasis role="bold">feed_essential.sql</emphasis></para>
 
-      <para><emphasis>idem que minimum.sql avec en plus</emphasis></para>
+      <para><emphasis>same as minimum.sql plus</emphasis></para>
 
-      <para>Contenu de la table `docs_codestat'</para>
+      <para>Content of table `docs_codestat'</para>
 
-      <para>Contenu de la table `docs_location`</para>
+      <para>Content of table `docs_location`</para>
 
-      <para>Contenu de la table `docs_section`</para>
+      <para>Content of table `docs_section`</para>
 
-      <para>Contenu de la table `docs_statut`</para>
+      <para>Content of table `docs_statut`</para>
 
-      <para>Contenu de la table `docs_type`</para>
+      <para>Content of table `docs_type`</para>
 
-      <para>Contenu de la table `empr_categ`</para>
+      <para>Content of table `empr_categ`</para>
 
-      <para>Contenu de la table `empr_codestat`</para>
+      <para>Content of table `empr_codestat`</para>
 
-      <para>Contenu de la table `lenders`</para>
+      <para>Content of table `lenders`</para>
 
-      <para>Contenu de la table `sauv_lieux`</para>
+      <para>Content of table `sauv_lieux`</para>
 
-      <para>Contenu de la table `sauv_sauvegardes`</para>
+      <para>Content of table `sauv_sauvegardes`</para>
 
-      <para>Contenu de la table `sauv_tables`</para>
+      <para>Content of table `sauv_tables`</para>
 
-      <para>Contenu de la table `z_attr`</para>
+      <para>Content of table `z_attr`</para>
 
-      <para>Contenu de la table `z_bib`</para>
+      <para>Content of table `z_bib`</para>
 
       <para><emphasis role="bold">data_test.sql</emphasis></para>
 
-      <para><emphasis>idem que feed_essential.sql avec en
-      plus</emphasis></para>
+      <para><emphasis>same as feed_essential.sql plus</emphasis></para>
 
-      <para>Contenu de la table `users` : Utilisateurs supplémentaires</para>
+      <para>Content of table `users` : additional users</para>
 
-      <para>Contenu de la table `empr`</para>
+      <para>Content of table `empr`</para>
 
-      <para>Contenu de la table `empr_groupe`</para>
+      <para>Content of table `empr_groupe`</para>
 
-      <para>Contenu de la table `groupe`</para>
+      <para>Content of table `groupe`</para>
 
-      <para>Contenu de la table `notices`</para>
+      <para>Content of table `notices`</para>
 
-      <para>Contenu de la table `exemplaires`</para>
+      <para>Content of table `exemplaires`</para>
 
-      <para>Contenu de la table `authors`</para>
+      <para>Content of table `authors`</para>
 
-      <para>Contenu de la table `publishers`</para>
+      <para>Content of table `publishers`</para>
 
-      <para>Contenu de la table `collections`</para>
+      <para>Content of table `collections`</para>
 
-      <para>Contenu de la table `sub_collections`</para>
+      <para>Content of table `sub_collections`</para>
 
-      <para>Contenu de la table `responsability`</para>
+      <para>Content of table `responsability`</para>
 
-      <para>Contenu de la table `bulletins`</para>
+      <para>Content of table `bulletins`</para>
 
-      <para>Contenu de la table `analysis`</para>
+      <para>Content of table `analysis`</para>
 
-      <para>Contenu de la table `notices_categories`</para>
+      <para>Content of table `notices_categories`</para>
 
-      <para><emphasis role="bold">agneaux.sql</emphasis> ou <emphasis
-      role="bold">unesco_fr.sql</emphasis> ou <emphasis
+      <para><emphasis role="bold">agneaux.sql</emphasis> or <emphasis
+      role="bold">unesco_fr.sql</emphasis> or <emphasis
       role="bold">environnement.sql</emphasis></para>
 
-      <para>Contenu de la table `categories`</para>
+      <para>Content of table `categories`</para>
 
-      <para>Contenu de la table `categ_assoc`</para>
+      <para>Content of table `categ_assoc`</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>Que faire si vous n'y arrivez pas ?</title>
+    <title>What if you can't do it ?</title>
 
-    <para>Vous pouvez tout d'abord consulter le site <ulink
-    url="http://www.sigb.net/communaute">http://www.sigb.net/communaute</ulink>,
-    vous y trouverez des informations mais aussi des forums de discussion ou
-    vous pouvez déposer vos questions.</para>
+    <para>You can first of all consult the web site <ulink
+    url="http://www.sigb.net/communaute">http://www.sigb.net/communaute</ulink>
+    where you will not only find information but also discussion forums to put
+    your questions.</para>
 
-    <para>Vous pouvez aussi vous abonner à la liste des utilisateurs de PMB :
-    pour vous abonner envoyez un mail avec pour sujet
-    <emphasis>SUBSCRIBE</emphasis> à l'adresse <ulink
+    <para>You can also subscribe to the mailing list of PMB users : to
+    subscribe just send an email subject SUBSCRIBE to <ulink
     url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>.</para>
 
-    <para>En outre, nous serions heureux de vous compter parmi nos
-    utilisateurs et quelques chiffres tels que nombre de lecteurs, d'ouvrages,
-    de CD... avec les coordonnées de votre établissement (ou à titre
-    particulier) nous suffiront pour mieux vous connaître.</para>
+    <para>Above all, we will be glad to count you among our users, and a
+    little statistics like how many borrowers, records, CD... as well as the
+    address of your library (or your goodself) will help us to know you
+    better.</para>
 
-    <para>Plus d'informations dans le répertoire ./doc ou bien sur notre site
+    <para>More information in the ./doc directory or else at our web site
     <ulink url="http://www.sigb.net">http://www.sigb.net</ulink></para>
 
-    <para>L'équipe des développeurs.</para>
+    <para>The team of developers.</para>
   </sect1>
 </chapter>
