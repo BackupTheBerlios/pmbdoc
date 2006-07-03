@@ -1,60 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Administration</title>
+  <title>Administración</title>
 
-  <para>Cet écran est à réservée aux administrateurs informatique ou aux
-  personnes de la bibliothèques qui en assumeront le rôle : les options
-  présentes ici ne sont pas sans danger pour votre base. Cependant voici
-  quelques fonctionnalités facilement accessibles.</para>
+  <para>Esta pantalla está reservado a los administradores informáticos o al personal
+  de la biblioteca que asuma ésta función : las opciones que se presentan 
+  no presentan peligros para vuestra base de datos. Se muestran funcionalidades de forma fácilmente 
+  accesibles.</para>
 
-  <para><emphasis role="bold">[Pour plus d'information] </emphasis>consultez
-  le Guide de l'Administrateur PMB.</para>
+  <para><emphasis role="bold">[Para más información] </emphasis>consulta la
+  Guía del Administrador PMB.</para>
 
   <sect1>
-    <title>Exemplaires, notices</title>
+    <title>Ejemplares, registros</title>
 
-    <para>Permet de personnaliser certaines options de catalogage : types ou
-    statuts de documents, etc.</para>
+    <para>Permite personalizar ciertas opciones de la catalogación : tipos o estados 
+	de los documentos, etc.</para>
   </sect1>
 
   <sect1>
-    <title>Lecteurs</title>
+    <title>Usuarios</title>
 
-    <para>Permet de personnaliser la gestion des lecteurs et leur
-    import.</para>
+    <para>Permite personalizar la gestión de los usuarios y su importación.</para>
   </sect1>
 
   <sect1>
-    <title>Utilisateurs</title>
+    <title>Administradores</title>
 
-    <para>Permet de créer des utilisateurs en leur donnant noms et mots de
-    passes, ainsi que le droit d'accéder ou non aux différents onglets.</para>
+    <para>Permite crear administradores y darles nombres de usuario y contraseñas, 
+	así como los derechos a acceder a las diferentes pestañas o funcionalidades.</para>
   </sect1>
 
   <sect1>
-    <title>Outils</title>
+    <title>Herramientas</title>
 
-    <para>Cette partie de l'onglet administration contient des outils de
-    maintenance pour la base de données MySQL, le système de mise à jour de la
-    base de données lorsque vous téléchargez une nouvelle version de PMB,
-    ainsi que les paramètres de l'application.</para>
+    <para>Esta parte de la administración contiene las herramientas de 
+	mantenimiento de la base de datos MySQL, la actualización de la base 
+	de datos que debe realizarse después de haber instalado una nueva
+	versión de PMB, así como los parámetros de la aplicación.</para>
 
-    <para>C'est en éditant ces paramètres que vous pourrez indiquer le nom de
-    votre bibliothèque, ses heures d'ouverture, le fonctionnnement de votre
-    OPAC...</para>
+    <para>Es editando estos parámetros que puedes introducir el nombre de 
+	tu biblioteca, las horas de abertura, el funcionamiento del OPAC...</para>
   </sect1>
 
   <sect1>
     <title>Z39.50</title>
 
-    <para>Permet d'administrer les serveurs interrogeables via Catalogue &gt;
-    z39.50 &gt; Recherche</para>
+    <para>Permite administrar los servidores disponibles en Catálogo &gt;
+    z39.50 &gt; Buscar</para>
   </sect1>
 
   <sect1>
-    <title>Sauvegardes</title>
+    <title>Copias de seguridad</title>
 
-    <para>Permet de gérer la façon dont seront réalisées les
-    sauvegardes</para>
+    <para>Permite introducir y crear todos los parámetros para realizar las copias de seguridad</para>
   </sect1>
 </chapter>
