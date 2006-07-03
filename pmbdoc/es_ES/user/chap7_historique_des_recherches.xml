@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="search_history" lang="fr">
-  <title>Historique des recherches</title>
+  <title>Historial de las búsquedas</title>
 
-  <para>Le lien "historique" en haut à droite de l'écran affiche l'historique
-  des recherches faites dans l'interface de gestion dans un iframe (bloc de
-  l'écran).</para>
+  <para>El enlace "historial" en la parte superior derecha de la pantalla muestra
+  el historial de búsquedas realizadas en la interficie de gestión, éstas se muestran en 
+  un iframe (marco de pantalla).</para>
 
   <figure>
-    <title>Lien historique</title>
+    <title>Enlace historial</title>
 
     <mediaobject>
       <imageobject>
@@ -17,15 +17,14 @@
   </figure>
 
   <sect1>
-    <title>Affichage de l'historique des recherches</title>
+    <title>Visualización del historial de búsquedas</title>
 
-    <para>L'historique affiche les recherches réalisées par l'utilisateur en
-    ordre chronologique inverse. Les dernières recherches réalisées sont
-    affichées en haut de l'écran.</para>
+    <para>El historial que muestra las búsquedas realizadas por un usuario se muestra
+	ordenado por orden cronológico inverso. Las últimas búsquedas realizadas se muestran 
+	en lo alto de la pantalla.</para>
 
     <figure>
-      <title>Affichage de l'historique des recherches à gauche de
-      l'écran</title>
+      <title>Visualización del historial de búsquedas a la izquierda de la pantalla</title>
 
       <mediaobject>
         <imageobject>
@@ -34,11 +33,11 @@
       </mediaobject>
     </figure>
 
-    <para>Vous avez la possibilité d'imprimer les résultats d'une recherche à
-    l'aide de l'icône imprimer.</para>
+    <para>Tienes la posibilidad de imprimir los resultados de una búsqueda con 
+	la ayuda del icono imprimir.</para>
 
     <figure>
-      <title>Icône imprimer</title>
+      <title>Icono imprimir</title>
 
       <mediaobject>
         <imageobject>
@@ -47,27 +46,27 @@
       </mediaobject>
     </figure>
 
-    <para>L'ensemble des résultats d'une recherche peut être placé directement
-    dans un panier.</para>
+    <para>El conjunto de resultados de una búsqueda se puede incluir directamente
+	en una cesta.</para>
 
-    <para>L'ensemble des résultats d'une recherche peut également être envoyé
-    par e-mail.</para>
+    <para>El conjunto de resultados de una búsqueda puede también igualmente enviarse por 
+	correo electrónico.</para>
   </sect1>
 
   <sect1>
-    <title>Mémorisation de l'historique des recherches</title>
+    <title>Guardar el historial de búsquedas</title>
 
-    <para>L'historique des recherches est sauvegardé dans la session
-    utilisateur. Ceci vous permet de retrouver l'historique de vos recherches
-    après une déconnexion, ou une fois déconnecté de votre ordinateur de
-    travail et reconnecté sur un autre.</para>
+    <para>El historial de búsquedas se guarda en la sesión de usuario. 
+	Esto permite reecontrar el historial de tus búsquedas después de una 
+	desconexión, o una vez desconectado de tu ordenador de tabajo y reconectado
+	en otro.</para>
   </sect1>
 
   <sect1>
-    <title>Vidage de l'historique des recherches</title>
+    <title>Vaciar el historial de búsquedas</title>
 
     <figure>
-      <title>Icône vider l'historique</title>
+      <title>Icono vaciar el historial</title>
 
       <mediaobject>
         <imageobject>
@@ -77,7 +76,7 @@
     </figure>
 
     <figure>
-      <title>Icône supprimer les recherches cochées</title>
+      <title>Icono suprimir las búsquedas marcadas</title>
 
       <mediaobject>
         <imageobject>
@@ -86,22 +85,22 @@
       </mediaobject>
     </figure>
 
-    <para>L'icône <emphasis role="bold">vider l'historique </emphasis>supprime
-    l'ensemble des recherches de l'historique.</para>
+    <para>El icono <emphasis role="bold">vaciar el historial </emphasis>suprime
+    el conjunto de búsquedas del historial.</para>
 
-    <para>L'icône <emphasis role="bold">supprimer les recherches cochées
-    </emphasis>permet de "faire le ménage" parmi les recherches. Pour
-    supprimer une ou plusieurs recherches, cochez la case située en début de
-    ligne. Répétez cette étape pour l'ensemble des recherches à supprimer.
-    Cliquez enfin sur l'icône <emphasis role="bold">supprimer les recherches
-    cochées</emphasis>.</para>
+    <para>El icono <emphasis role="bold">suprimir las búsquedas marcadas 
+	</emphasis>permite "hacer limpieza" entre las búsquedas. Para suprimir
+	una o más búsquedas, marca la casilla situada al inicio de la
+	línea. Repite este proceso para el resto de búsquedas a eliminar.
+    Haz clic sobre el icono <emphasis role="bold">suprimir las búsquedas 
+	marcadas</emphasis>.</para>
   </sect1>
 
   <sect1>
-    <title>Sauvegarde de l'historique des recherches</title>
+    <title>Copia del historial de búsquedas</title>
 
     <figure>
-      <title>Icône sauvegarder</title>
+      <title>Icono guardar</title>
 
       <mediaobject>
         <imageobject>
@@ -110,27 +109,26 @@
       </mediaobject>
     </figure>
 
-    <para>Le bouton "<emphasis role="bold">Sauvegarder
-    l'historique</emphasis>" sauvegarde l'historique des recherches en cours.
-    Attention, ceci ne correspond pas à l'export d'un fichier historique. Pour
-    plus d'informations sur les imports et exports d'historiques de
-    recherches, consultez la section <xref linkend="history_import" /></para>
+    <para>El botón "<emphasis role="bold">Guardar el 
+	historial</emphasis>" guarda el historial de búsquedas en curso.
+    Atención, esto no corresponde a la función exportar un archivo del historial. Para
+	más información sobre las importaciones y las exportaciones de historiales
+	de búsquedas, consulta la sección <xref linkend="history_import" /></para>
   </sect1>
 
   <sect1 id="history_import">
-    <title>Import/Export des recherches</title>
+    <title>Importar/Exportar las búsquedas</title>
 
-    <para>L'historique des recherches peut être exporté dans un fichier. De
-    même un tel fichier peut ensuite être réimporté dans PMB.</para>
+    <para>El historial de búsquedas puede exportarse a un archivo. De
+    la misma forma, un archivo puede reimportarse en PMB.</para>
 
-    <para>Cette opération est réalisée à l'aide des icônes <emphasis
-    role="bold">exporter</emphasis> et <emphasis
-    role="bold">importer</emphasis> situées en haut de la fenêtre
-    <emphasis>historique des recherches</emphasis>.</para>
+    <para>Esta operación se realiza con la ayuda de los iconos <emphasis
+    role="bold">exportar</emphasis> y <emphasis
+    role="bold">importar</emphasis> situados en la parte superior de la ventana 
+    <emphasis>historial de búsquedas</emphasis>.</para>
 
     <figure>
-      <title>Icône exporter (les données vont de la liste vers la
-      disquette)</title>
+      <title>Icono exportar (los datos irán hacia un disquet)</title>
 
       <mediaobject>
         <imageobject>
@@ -140,8 +138,7 @@
     </figure>
 
     <figure>
-      <title>Icône importer (les données vont de la disquette vers la
-      liste)</title>
+      <title>Icono importar (los datos irán del disquet a la lista)</title>
 
       <mediaobject>
         <imageobject>
@@ -150,11 +147,10 @@
       </mediaobject>
     </figure>
 
-    <para>L'historique des recherches est exporté dans un fichier
-    <emphasis>search.rsh. </emphasis>Vous pouvez stocker ce fichier s'il
-    correspond à une suite de recherches que vous souhaitez mémoriser.</para>
+    <para>El historial de búsquedas se exportará a un archivo 
+    <emphasis>search.rsh. </emphasis>Puedes guardar este archivo para realizar una serie de búsquedas 
+	que necesites guardar o ir realizando periódicamente.</para>
 
-    <para>Lorsque vous aurez besoin de relancer ces recherches, vous
-    disposerez alors d'un fichier préétabli.</para>
+    <para>De esta forma, tendrás un archivo con búsquedas preestablecidas.</para>
   </sect1>
 </chapter>
