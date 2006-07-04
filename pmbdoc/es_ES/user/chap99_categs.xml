@@ -1,60 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="categ">
-  <title>Thésaurus et catégories dans PMB</title>
+  <title>Tesauro y categorías en PMB</title>
 
-  <para>PMB dispose de trois thésaurus qui peuvent être chargés lors de
-  l'installation. Un thésaurus est un répertoire de termes, des
-  "catégories".</para>
+  <para>PMB dispone de tres tesauros que pueden cargarse durante la
+  instalación. Un tesauro es un conjunto de términos, de "categorías".</para>
 
-  <para>Vous pouvez également charger une indexation décimale, comme les
-  indexations décimales validées de la BM de Chambéry, ou une indexation style
-  Dewey. Ces indexations définissent le sujet d'une notice, et peuvent être
-  utilisées pour définir une cote. La cote définit l'emplacement physique, le
-  rangement de l'ouvrage dans la bibliothèque, par exemple "848 MAR".</para>
+  <para>También puedes cargar una clasificación decimal, como la validada de 
+  la BM de Chambéry, o una clasificación estilo Dewey. Estas clasificaciones
+  definen la materia de un registro, y pueden utilizarse a la hora de definir 
+  la signatura. La signatura define la localización física, dónde se encuentra
+  el ejemplar en la biblioteca, por ejemplo "848 MAR".</para>
 
-  <para>Depuis la version 2.2 de PMB, vous pouvez utiliser simultanément
-  différents thésaurus dans PMB : c'est la gestion multi-thésaurus. Chacun de
-  ces thésaurus peut être traduit dans différentes langues. Un lecteur
-  pourrait donc consulter un thésaurus dans sa langue d'utilisation :
-  multi-thésaurus multi-lingue.</para>
+  <para>A partir de la versión 2.2 de PMB, puedes utilizar simultáneamente
+  diferentes tesauros en PMB : es la gestión multi-tesaros. Cada uno de estos
+  tesauros puede ser traducido a diferentes lenguas. Un usaurio podrá 
+  consultar un tesaurus en su idioma de uso : multi-tesaurus multilingüe.</para>
 
   <sect1 id="categ_intro">
-    <title>Introduction</title>
+    <title>Introducción</title>
 
     <sect2 id="categ_intro_voca">
-      <title>Un peu de vocabulaire</title>
+      <title>Un poco de vocabulario</title>
 
-      <para><emphasis role="bold">Thesaurus </emphasis>: peut s'écrire soit
-      selon le terme latin : sing. thesaurus, pl. thesauri ; soit en
-      françisant le terme : sing. thésaurus, pl. thésaurus.</para>
+      <para><emphasis role="bold">Tesauro </emphasis>: a veces también puede
+	  encontrarse bajo su forma original latina : sing. thesaurus, pl. thesauri.</para>
 
-      <para><emphasis role="bold">Catégorie</emphasis> : terme d'un thésaurus
-      dans PMB. La gestion des catégories correspond également à une
-      philosophie de l'utilisation d'un thésaurus.</para>
+      <para><emphasis role="bold">Categoría</emphasis> : término de un tesauro en PMB. 
+	  La gestión de las categorías corresponde a la filosofía de uso de un tesauro.</para>
 
-      <para><emphasis role="bold">Terme du thesaurus</emphasis> : synonyme de
-      catégorie dans PMB.</para>
+      <para><emphasis role="bold">Término del tesauros</emphasis> : sinónimo de categoría en PMB.</para>
 
-      <para><emphasis role="bold">Descripteur</emphasis> = terme du
-      thesaurus.</para>
+      <para><emphasis role="bold">Descriptor</emphasis> = término del tesauro.</para>
     </sect2>
 
     <sect2 id="categ_redac">
-      <title>Rédaction d'un thesaurus</title>
+      <title>Creación de un tesauro</title>
 
-      <para>Cette introduction est une adaptation d'un article de Wikipédia,
-      l'encyclopédie libre et gratuite (<ulink
-      url="http://fr.wikipedia.org/wiki/Thesaurus">http://fr.wikipedia.org/wiki/Thesaurus</ulink>).</para>
+      <para>Esta introducción es una adapatación de un artículo de Wikipédia,
+      la enciclopedia libre y gratuita (<ulink
+      url="http://fr.wikipedia.org/wiki/Thesaurus">http://es.wikipedia.org/wiki/Tesauro</ulink>).</para>
 
       <epigraph>
-        <para><emphasis role="bold">référence</emphasis> Contributeurs à
-        Wikipédia, "Thesaurus," <emphasis>Wikipédia, l'encyclopédie
-        libre</emphasis>, <ulink
-        url="http://fr.wikipedia.org/w/index.php?title=Thesaurus&amp;oldid=5041972">http://fr.wikipedia.org/wiki/Thesaurus</ulink>
-        (Page consultée le mars 13, 2006).</para>
+        <para><emphasis role="bold">referencia</emphasis> Colaboradores de Wikipédia, "Tesauro," <emphasis>Wikipedia, la enciclopedia
+		libre</emphasis>, <ulink
+        url="http://es.wikipedia.org/wiki/Tesauro">http://es.wikipedia.org/wiki/Tesauro</ulink>
+        (Página consultada el 4 de julio de 2006).</para>
       </epigraph>
 
-      <para>Un <emphasis role="bold">thesaurus</emphasis> est une sorte de
+      <para>La palabra <emphasis>tesauro</emphasis> proviene del Neo-latín "tesoro"; siendo acuñada a principios de la década de 1820. 
+	  Adquiere al menos dos significados relacionados, el primero en el campo de la Literatura, el segundo en el campo de la 
+	  Bibliotecología o Ciencias de la Información. 
+	  En el campo de la Literatura, es una lista de palabras con significados similares sinónimos, habitualmente acompañada por 
+	  otra lista de antónimos. Un ejemplo sería un tesauro dedicado a un campo especializado, que contiene la jerga que se emplea 
+	  en dicho campo del conocimiento. En el mundo de habla inglesa, es clásico el Tesauro de Roget, cuya función es, según su autor, 
+	  además de ayudar al escritor a encontrar la palabra que exprese mejor su pensamiento, también estimular su intelecto y sugerirle 
+	  palabras o ideas relacionadas.</para>
+	  <para>En el campo de la Bibliotecología o de las Ciencias de la Información, un tesauro es una <emphasis>lista de temas</emphasis> (en la forma 
+	  de términos, es decir, pueden estar constituidos por más de una palabra), relacionados entre sí jerárquicamente (términos 
+	  generales y subordinados), utilizadas para la indexación (con fines de archivo) y la recuperación de documentos.</para>
+	  <para>Es un intermediario entre el lenguaje que encontramos en los documentos (lenguaje natural) y el que emplean 
+	  los especialistas de un determinado campo del saber (lenguaje controlado).</para>
+	  <para>Aunque los incluye, las entradas de un tesauro no deben ser consideradas sólo como una lista de sinónimos.</para>
+	  <para>En líneas generales, un tesauro comprende lo siguiente:
+	  1-un listado de términos preferidos, que se los ordena en forma alfabética, y también temática.
+	  2-un listado de sinónimos de esos términos preferidos, con la leyenda "úsese (término preferido)" o una indicación similar.
+	  3-una jerarquía o relaciones entre los términos. Esto se expresa con la identificación de "términos más generales" y 
+	  "términos más restringidos". 
+	  4-las definiciones de los términos, para facilitar la selección de los mismos por parte del usuario 
+	  5-un conjunto de reglas para usar el tesauro </para
+	  <para>Veamos como ejemplo, parte de la sección alfabética de un tesauro impreso: (nótese que los términos preferidos 
+	  están en mayúscula (en este caso, la palabra AUTOMÓVIL)</para> 
+	  		Auto: úsese Automóvil
+			Autómata
+			Automatismo
+			AUTOMÓVIL
+			 Término más general: Medios de Transporte
+			 Término(s) subordinado(s):
+			    sedán
+			    coupé
+			    todo terreno
+			Baloncesto
+			Bicicleta
+			Camión
+			Carro: úsese Automóvil
+			Coche: úsese Automóvil
+			Motocicleta
+			etc.
+
+	En la sección temática del tesauro, encontraremos agrupados los temas, habitualmente de lo más general a lo más específico:
+
+Medios de transporte
+ Medios de transporte terrestre
+    Automóvil
+      sedán
+      coupé
+      todo terreno
+ Medios de transporte aéreo
+ Medios de transporte marítimo
+
+Se debe tener en cuenta que los tesauros no tienen por qué ser completos, en el sentido de abarcar todo el conocimiento. 
+Generalmente se limitan a un área temática específica, y desde un cierto ángulo en particular. Es así que existen innumerables 
+tesauros específicos. Como ejemplo de tesauros, podemos citar el Tesauro de la Propiedad Industrial (en español), el MeSH o 
+encabezamientos temáticos médicos (en lengua inglesa), y a Agrovoc (tesauro multilingüe de términos de agricultura).
+
+En rigor de verdad, no es la función de un tesauro definir las palabras (esta función es propia del diccionario). 
+Sin embargo, muchos tesauros contienen definiciones de los términos que emplean, con el fin de que el usuario del tesauro no 
+tenga dudas al seleccionar un término.
+
+Se debe tener en cuenta que ha habido un gran cambio al aparecer la posibilidad de tesauros digitales, porque las jerarquías 
+y las relaciones hacen que muchas limitaciones de los tesauros impresos hayan desaparecido. Por ejemplo, es posible buscar casi 
+instantáneamente los términos de un tesauro usando un motor de búsqueda, o simplemente recorrer las jerarquías en línea, o 
+también usar la función de "mapeo" al término preferido en forma automática, introduciendo el usuario el término en lenguaje 
+natural, siendo el programa informático el que relaciona este término con la lista de términos preferidos, y realiza posteriormente 
+la búsqueda en la base de datos empleando los términos preferidos.
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  Un <emphasis role="bold">thesaurus</emphasis> est une sorte de
       dictionnaire hiérarchisé&nbsp;; un vocabulaire normalisé sur la base de
       termes génériques et de termes spécifiques à un domaine. Il ne fournit
       qu'accessoirement des définitions, les relations des termes et leur
