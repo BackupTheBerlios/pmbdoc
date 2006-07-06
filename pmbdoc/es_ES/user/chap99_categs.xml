@@ -5,16 +5,17 @@
   <para>PMB dispone de tres tesauros que pueden cargarse durante la
   instalación. Un tesauro es un conjunto de términos, de "categorías".</para>
 
-  <para>También puedes cargar una clasificación decimal, como la validada de 
+  <para>También puedes cargar una clasificación decimal, como la validada de
   la BM de Chambéry, o una clasificación estilo Dewey. Estas clasificaciones
-  definen la materia de un registro, y pueden utilizarse a la hora de definir 
+  definen la materia de un registro, y pueden utilizarse a la hora de definir
   la signatura. La signatura define la localización física, dónde se encuentra
   el ejemplar en la biblioteca, por ejemplo "848 MAR".</para>
 
   <para>A partir de la versión 2.2 de PMB, puedes utilizar simultáneamente
   diferentes tesauros en PMB : es la gestión multi-tesaros. Cada uno de estos
-  tesauros puede ser traducido a diferentes lenguas. Un usaurio podrá 
-  consultar un tesaurus en su idioma de uso : multi-tesaurus multilingüe.</para>
+  tesauros puede ser traducido a diferentes lenguas. Un usaurio podrá
+  consultar un tesaurus en su idioma de uso : multi-tesaurus
+  multilingüe.</para>
 
   <sect1 id="categ_intro">
     <title>Introducción</title>
@@ -23,14 +24,18 @@
       <title>Un poco de vocabulario</title>
 
       <para><emphasis role="bold">Tesauro </emphasis>: a veces también puede
-	  encontrarse bajo su forma original latina : sing. thesaurus, pl. thesauri.</para>
+      encontrarse bajo su forma original latina : sing. thesaurus, pl.
+      thesauri.</para>
 
-      <para><emphasis role="bold">Categoría</emphasis> : término de un tesauro en PMB. 
-	  La gestión de las categorías corresponde a la filosofía de uso de un tesauro.</para>
+      <para><emphasis role="bold">Categoría</emphasis> : término de un tesauro
+      en PMB. La gestión de las categorías corresponde a la filosofía de uso
+      de un tesauro.</para>
 
-      <para><emphasis role="bold">Término del tesauros</emphasis> : sinónimo de categoría en PMB.</para>
+      <para><emphasis role="bold">Término del tesauros</emphasis> : sinónimo
+      de categoría en PMB.</para>
 
-      <para><emphasis role="bold">Descriptor</emphasis> = término del tesauro.</para>
+      <para><emphasis role="bold">Descriptor</emphasis> = término del
+      tesauro.</para>
     </sect2>
 
     <sect2 id="categ_redac">
@@ -41,220 +46,143 @@
       url="http://fr.wikipedia.org/wiki/Thesaurus">http://es.wikipedia.org/wiki/Tesauro</ulink>).</para>
 
       <epigraph>
-        <para><emphasis role="bold">referencia</emphasis> Colaboradores de Wikipédia, "Tesauro," <emphasis>Wikipedia, la enciclopedia
-		libre</emphasis>, <ulink
+        <para><emphasis role="bold">referencia</emphasis> Colaboradores de
+        Wikipédia, "Tesauro," <emphasis>Wikipedia, la enciclopedia
+        libre</emphasis>, <ulink
         url="http://es.wikipedia.org/wiki/Tesauro">http://es.wikipedia.org/wiki/Tesauro</ulink>
         (Página consultada el 4 de julio de 2006).</para>
       </epigraph>
 
-      <para>La palabra <emphasis>tesauro</emphasis> proviene del Neo-latín "tesoro"; siendo acuñada a principios de la década de 1820. 
-	  Adquiere al menos dos significados relacionados, el primero en el campo de la Literatura, el segundo en el campo de la 
-	  Bibliotecología o Ciencias de la Información. 
-	  En el campo de la Literatura, es una lista de palabras con significados similares sinónimos, habitualmente acompañada por 
-	  otra lista de antónimos. Un ejemplo sería un tesauro dedicado a un campo especializado, que contiene la jerga que se emplea 
-	  en dicho campo del conocimiento. En el mundo de habla inglesa, es clásico el Tesauro de Roget, cuya función es, según su autor, 
-	  además de ayudar al escritor a encontrar la palabra que exprese mejor su pensamiento, también estimular su intelecto y sugerirle 
-	  palabras o ideas relacionadas.</para>
-	  <para>En el campo de la Bibliotecología o de las Ciencias de la Información, un tesauro es una <emphasis>lista de temas</emphasis> (en la forma 
-	  de términos, es decir, pueden estar constituidos por más de una palabra), relacionados entre sí jerárquicamente (términos 
-	  generales y subordinados), utilizadas para la indexación (con fines de archivo) y la recuperación de documentos.</para>
-	  <para>Es un intermediario entre el lenguaje que encontramos en los documentos (lenguaje natural) y el que emplean 
-	  los especialistas de un determinado campo del saber (lenguaje controlado).</para>
-	  <para>Aunque los incluye, las entradas de un tesauro no deben ser consideradas sólo como una lista de sinónimos.</para>
-	  <para>En líneas generales, un tesauro comprende lo siguiente:
-	  1-un listado de términos preferidos, que se los ordena en forma alfabética, y también temática.
-	  2-un listado de sinónimos de esos términos preferidos, con la leyenda "úsese (término preferido)" o una indicación similar.
-	  3-una jerarquía o relaciones entre los términos. Esto se expresa con la identificación de "términos más generales" y 
-	  "términos más restringidos". 
-	  4-las definiciones de los términos, para facilitar la selección de los mismos por parte del usuario 
-	  5-un conjunto de reglas para usar el tesauro </para
-	  <para>Veamos como ejemplo, parte de la sección alfabética de un tesauro impreso: (nótese que los términos preferidos 
-	  están en mayúscula (en este caso, la palabra AUTOMÓVIL)</para> 
-	  		Auto: úsese Automóvil
-			Autómata
-			Automatismo
-			AUTOMÓVIL
-			 Término más general: Medios de Transporte
-			 Término(s) subordinado(s):
-			    sedán
-			    coupé
-			    todo terreno
-			Baloncesto
-			Bicicleta
-			Camión
-			Carro: úsese Automóvil
-			Coche: úsese Automóvil
-			Motocicleta
-			etc.
-
-	En la sección temática del tesauro, encontraremos agrupados los temas, habitualmente de lo más general a lo más específico:
-
-Medios de transporte
- Medios de transporte terrestre
-    Automóvil
-      sedán
-      coupé
-      todo terreno
- Medios de transporte aéreo
- Medios de transporte marítimo
-
-Se debe tener en cuenta que los tesauros no tienen por qué ser completos, en el sentido de abarcar todo el conocimiento. 
-Generalmente se limitan a un área temática específica, y desde un cierto ángulo en particular. Es así que existen innumerables 
-tesauros específicos. Como ejemplo de tesauros, podemos citar el Tesauro de la Propiedad Industrial (en español), el MeSH o 
-encabezamientos temáticos médicos (en lengua inglesa), y a Agrovoc (tesauro multilingüe de términos de agricultura).
-
-En rigor de verdad, no es la función de un tesauro definir las palabras (esta función es propia del diccionario). 
-Sin embargo, muchos tesauros contienen definiciones de los términos que emplean, con el fin de que el usuario del tesauro no 
-tenga dudas al seleccionar un término.
-
-Se debe tener en cuenta que ha habido un gran cambio al aparecer la posibilidad de tesauros digitales, porque las jerarquías 
-y las relaciones hacen que muchas limitaciones de los tesauros impresos hayan desaparecido. Por ejemplo, es posible buscar casi 
-instantáneamente los términos de un tesauro usando un motor de búsqueda, o simplemente recorrer las jerarquías en línea, o 
-también usar la función de "mapeo" al término preferido en forma automática, introduciendo el usuario el término en lenguaje 
-natural, siendo el programa informático el que relaciona este término con la lista de términos preferidos, y realiza posteriormente 
-la búsqueda en la base de datos empleando los términos preferidos.
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  Un <emphasis role="bold">thesaurus</emphasis> est une sorte de
-      dictionnaire hiérarchisé&nbsp;; un vocabulaire normalisé sur la base de
-      termes génériques et de termes spécifiques à un domaine. Il ne fournit
-      qu'accessoirement des définitions, les relations des termes et leur
-      choix l'emportant sur les significations.</para>
+      <para>Un <emphasis role="bold">tesauros</emphasis> es una especie de
+      diccionario jerarquizado&nbsp;; un vocabulario normalizado en base a
+      términos genéricos y términos específicos sobre un tema. Las
+      definiciones no suelen incluirse, ya que son las relaciones de los
+      términos y su uso lo importante, y por tanto no su significado.</para>
 
       <sect3 id="categ_redac_indexation">
-        <title>Outil d'indexation et outil de recherche</title>
+        <title>Herramienta de indexación y herramienta para buscar</title>
 
-        <para>Un <emphasis>thesaurus</emphasis> est un ensemble structuré de
-        termes choisis pour leur capacité à faciliter la description d'un
-        domaine et à harmoniser la communication et le traitement de
-        l'information à son sujet. Chaque terme appelé descripteur
-        [<emphasis>catégorie dans PMB</emphasis>] est aussi peu ambigü que
-        possible et est préféré à des termes voisins (quasi-synonymie) ou
-        synonymes, les non-descripteurs [également catégorie dans PMB, mais
-        possédant un renvoi «&nbsp;voir&nbsp;» vers une autre catégorie], pour
-        tous les échanges significatifs.</para>
+        <para>Un <emphasis>tesauro</emphasis> es un conjunto estructurado de
+        palabras escogidas por su capacidad de facilitar la descrispción sobre
+        un tema y de homogeneizar la comunicación y el tratamiento de la
+        información de este tema. Cada término llamado descriptor
+        [<emphasis>categoría en PMB</emphasis>] es el menos ambiguo posible y
+        es escogido de entre sus términos vecinos (casi-sinonímia) o
+        sinónimos, los no-descriptores [también llamados categoría en PMB,
+        reenvían «&nbsp;veir&nbsp;» hacia la categoría correcta], disponen de
+        todas las relaciones necesarias.</para>
 
-        <para>En pratique, le <emphasis>thesaurus</emphasis> est un outil
-        documentaire d'indexation. Guidé par un thesaurus pertinent, il est
-        possible de représenter tout document par une sélection rigoureuse de
-        mots précis. Il sera ensuite aisé d'en assurer une forme quelconque de
-        gestion documentaire.</para>
+        <para>A la práctica, el <emphasis>tesauro</emphasis> es una
+        herramienta documental de indexación. Usando un tesauro pertinente, es
+        posible representar cualquier documento con una selección rigurosa de
+        palabras clave. De esta forma se puede garantizar una correcta gestión
+        de la colección.</para>
 
-        <para>Dans le catalogue public [<emphasis>OPAC</emphasis>], le
-        thesaurus devient un instrument de recherche&nbsp;: disposant des
-        vocabulaire et règles de l'indexation, l'utilisateur peut optimiser
-        ses requêtes. L'utilisateur peut également dans certains cas explorer
-        par une navigation intuitive le thesaurus, il s'agit de ce qu'on
-        qualifie d'OPAC <emphasis>«&nbsp;à la yahoo&nbsp;»</emphasis>.</para>
+        <para>En el catálogo público [<emphasis>OPAC</emphasis>], el tesauro
+        se transforma en un intrumento para buscar &nbsp;: disponiendo de un
+        vocabulario y de las reglas de indexación, el usuario puede optimizar
+        sus búsquedas. El usuario también puede explorar de forma intuitiva el
+        tesauro, se crea así lo que nosotros llamamos un OPAC
+        <emphasis>«&nbsp;a lo yahoo&nbsp;»</emphasis>.</para>
       </sect3>
 
       <sect3 id="categ_redac_constitution">
-        <title>Constitution d'un thesaurus</title>
+        <title>Constitución de un tesauro</title>
 
-        <para>Un <emphasis>thesaurus</emphasis> s'élabore comme un
-        sous-ensemble du vocabulaire usuel et d'au moins un vocabulaire
-        spécialisé. Il s'agit d'un vocabulaire contrôlé puisqu'il résulte d'un
-        long processus de tri des mots, appellations et expressions utilisés
-        de manière informelle dans un domaine particulier. Il s'agit d'une
-        démarche pragmatique et continue de rationalisation des termes
-        descriptifs. Un nouveau thesaurus ou une nouvelle version doit
-        généralement subir une phase de validation par la communauté
-        concernée.</para>
+        <para>Un <emphasis>tesauro</emphasis> se elebora como un conjunto de
+        vocabulario usual (lenguaje natural) y un conjunto de vocabulario
+        escecializado. Se trata de un vocabulario controlado resultante de un
+        largo proceso de selección de palabras, nombre y expresiones usadas de
+        forma informal en un campo específico. Se trata de un planteamiento
+        pragmático y continuo de racionalización de términos descriptivos. Un
+        tesuaro nuevo o una nueva versión suele pasar generalmente por una
+        fase de validación de la comunidada a la cual afecta.</para>
 
         <epigraph>
-          <para>En vue de la meilleure adéquation au domaine considéré, les
-          termes sont inventoriés, comparés, mis en relation et finalement
-          hiérarchisés pour rendre compte des traits essentiels du domaine.
-          Cette hiérarchie s'appuie sur une typologie&nbsp;: chaque terme
-          appartient à une catégorie qui le situe par rapport à tous les
-          autres termes retenus et qui fixe de cette manière sa priorité
-          d'emploi. La hiérarchie des termes peut tout-à-fait être différente
-          d'un thesaurus à un autre et même sous réserve d'incohérence dans un
-          usage ou un autre du même thesaurus.</para>
+          <para>Para mejorar este proceso, los términos sos inventariados,
+          comparados, relacionados y finalmente jerarquizados para describir
+          las caracterísicas esenciales del campo seleccionado. Esta jerarquía
+          se basa en una tipología&nbsp;: cada término pertenece a una
+          categoría que lo relaciona con los demás términos no aceptados, y
+          que a la vez marca su uso. La jerarquía de los términos puede ser
+          diferente de un tesauro a otro, también puede ser diferente el uso
+          de los términos.</para>
         </epigraph>
 
-        <para>Finalement en partant du niveau le plus haut et correspondant au
-        domaine du thesaurus, on trouve d'abord les subdivisions majeures
-        représentant les composantes du domaine - subdivisions souvent nommés
-        <emphasis>microthesaurus</emphasis>, puis pour chaque subdivision, la
-        hiérarchie propre aux descripteurs. Un thesaurus peut aussi concerner
-        plusieurs domaines.</para>
+        <para>Finalmente y hablando de niveles, el más alto corresponde al
+        tema del tesauro, por debajo encontramos las subdivisiones más
+        importantes, representando las áreas del tema - subdivisiones a menudo
+        llamadas <emphasis>microtesauros</emphasis>, ya que cada subdivisión
+        tiene su jerarquía propia de descriptores. Un tesauro puede hacer
+        referencia también a varios temas.</para>
 
         <epigraph>
-          <para>Il demeure toujours une dimension arbitraire dans la
-          hiérarchie d'un thesaurus, soit dans le choix des termes, soit dans
-          leur position hiérarchique. Il existe des normes pour l'élaboration
-          des thesaurus&nbsp;:</para>
+          <para>Aunque haya siempre un factor arbitrario en la elección de la
+          jerarquía de un tesauro, o en la elección de los descriptores, hay
+          unas normas para la elaboración de tesauros&nbsp;:</para>
 
-          <para><emphasis role="bold">Norme ISO 2788-1986&nbsp;:</emphasis>
-          Principes directeurs pour l'établissement et le développement des
-          thesaurus monolingues.</para>
+          <para><emphasis role="bold">Norma ISO 2788-1986&nbsp;:</emphasis>
+          Directrices para la elaboración y el desarrollo de tesauros
+          monolingües.</para>
 
-          <para><emphasis role="bold">Norme ISO 5964-1985&nbsp;:</emphasis>
-          Principes directeurs pour l'établissement et le développement des
-          thesaurus multilingues.</para>
+          <para><emphasis role="bold">Norma ISO 5964-1985&nbsp;:</emphasis>
+          Directrices para la elaboración y el desarrollo de tesauros
+          multilingües.</para>
         </epigraph>
       </sect3>
 
       <sect3 id="categ_redac_relations">
-        <title>Les relations hiérarchiques</title>
+        <title>Las relaciones jerárquicas</title>
 
-        <para>Les termes d'un thesaurus sont organisés hiérarchiquement (à
-        l'intérieur de microthesaurus souvent classés alphabétiquement). Cette
-        hiérarchie permet de régler la précision de l'indexation ou de
-        l'interrogation. L'indexation s'appuiera autant que possible sur
-        l'identification des termes spécifiques (donc du niveau le plus bas
-        possible), alors que la recherche selon les cas pourra faire appel aux
-        termes génériques pour augmenter le nombre de réponses.</para>
+        <para>Los términos de un tesauro se organizan jerárquicamente (en un
+        microtesauros suelen estar ordenados alfabéticamente). Esta jerarquía
+        permite normalizar la indexación o la interrogación. La indexación se
+        apoya en lo posible en la identificación de los términos específicos
+        (nivel más bajo posible), a la vez que en la búsqueda según el caso
+        para hacer aparecer los términos generales para aumentar el número de
+        respuestas.</para>
 
-        <para>Les relations des termes sont de trois types&nbsp;:</para>
+        <para>Las relaciones entre los términos son de tres
+        tipos&nbsp;:</para>
 
         <itemizedlist>
           <listitem>
-            <para>relation hiérarchique stricto sensu (entre descripteurs),
-            base de la hiérarchie du thesaurus =&gt; parenté ;</para>
+            <para>relación jerárquica stricto sensu (entre descriptores), base
+            de la jerarquía del tesauro =&gt; general ;</para>
           </listitem>
 
           <listitem>
-            <para>relation d'équivalence (entre descripteurs et
-            non-descripteurs), base de l'univocité =&gt; renvoi
-            «&nbsp;voir&nbsp;» ;</para>
+            <para>relación de equivalencia (entre descriptores y
+            no-descriptores), base de la univocidad =&gt; reenvío
+            «&nbsp;ver&nbsp;» ;</para>
           </listitem>
 
           <listitem>
-            <para>relation d'association (entre descripteurs), enrichissement
-            sémantique&nbsp;; sujets connexes =&gt; renvoi «&nbsp;voir
-            aussi&nbsp;».</para>
+            <para>relación de asociación (entre descriptores), enriquecimiento
+            semántico&nbsp;; materias relacionadas =&gt; reenvío «&nbsp;ver
+            también&nbsp;».</para>
           </listitem>
         </itemizedlist>
 
-        <para>Tout thesaurus comporte au moins trois catégories de
-        termes&nbsp;: les termes génériques et les termes spécifiques qui
-        doivent être utilisés comme descripteurs&nbsp;; les termes équivalents
-        qui sont considérés comme non-descripteurs selon les conventions du
-        thesaurus.</para>
+        <para>Todo tesauro comporta como mínimo tres categorías de
+        términos&nbsp;: los términos generales y los términos específicos que
+        deben usarse como descripotres&nbsp;; los términos equivalente que se
+        consideran como no-descriptores según el tesauro.</para>
 
         <itemizedlist>
           <listitem>
-            <para>Les <emphasis>termes génériques</emphasis> sont repérés
-            généralement par le sigle <emphasis
-            role="bold">TG</emphasis>&nbsp;; ils désignent les entités ou
-            concepts principaux en référence aux autres termes et au domaine
-            considéré&nbsp;;</para>
+            <para>Los <emphasis>términos genéricos</emphasis> se identifican
+            con las siglas <emphasis role="bold">TG</emphasis>&nbsp;; designan
+            las entidades o los conceptos principales en relación a otros
+            términos y al tema considerado&nbsp;;</para>
           </listitem>
 
           <listitem>
-            <para>Les <emphasis>termes spécifiques</emphasis> sont repérés
-            généralement par le sigle <emphasis
-            role="bold">TS</emphasis>&nbsp;; ils précisent et identifient les
-            entités ou concepts particuliers à l'intérieur du champ sémantique
-            d'un terme générique donné&nbsp;;</para>
+            <para>Los <emphasis>términos específicos</emphasis> se identifican
+            con las siglas <emphasis role="bold">TE</emphasis>&nbsp;; precisan
+            e identifican las entidades o conceptos particulares dentro del
+            campo semántico del término general al cual
+            pertenece&nbsp;;</para>
           </listitem>
 
           <listitem>
@@ -313,12 +241,12 @@ la búsqueda en la base de datos empleando los términos preferidos.
         role="bold">Utilisateur</emphasis> (<emphasis>terme imprécis&nbsp;: à
         proscrire</emphasis>)&nbsp;; <emphasis
         role="bold">Internaute</emphasis> (<emphasis>imprécis&nbsp;: à
-        proscrire</emphasis>). </para>
+        proscrire</emphasis>).</para>
 
         <para>Le responsable de toute contribution (tout rédacteur) pourrait
         ainsi être spécifié par au moins un terme descriptif choisi parmi les
         cinq termes spécifiques ou parmi les trois termes génériques, selon
-        les besoins. </para>
+        les besoins.</para>
 
         <para>Les termes (EP) seront par principe évités dans
         l'indexation.</para>
@@ -531,6 +459,8 @@ la búsqueda en la base de datos empleando los términos preferidos.
         précédant «&nbsp;recherche par termes&nbsp;» dans le popup de
         sélection des catégories</para>
 
+         
+
         <para>L'écran du popup est alors divisé en trois la partie tout en
         haut, réduite, permet de lancer une recherche ou de revenir en
         recherche hiérarchique. La partie supérieure affiche les termes
@@ -539,6 +469,8 @@ la búsqueda en la base de datos empleando los términos preferidos.
         termes sont affichés par ordre alphabétique, sans aucune relation
         directement visible. La partie inférieure affiche plus d'informations
         sur un terme sélectionné dans la partie supérieure.</para>
+
+         
 
         <figure>
           <title>Popup de sélection d'une catégorie, recherche par termes
@@ -559,6 +491,8 @@ la búsqueda en la base de datos empleando los términos preferidos.
         catégorie parente <emphasis role="bold">@termes
         orphelins</emphasis>.</para>
 
+         
+
         <para>Vous pouvez également voir les renvois qui peuvent exister pour
         un terme : ici un <emphasis>«&nbsp;renvoi voir&nbsp;»</emphasis> vers
         <emphasis role="bold">Editeur non-inscrit</emphasis>.</para>
@@ -575,7 +509,7 @@ la búsqueda en la base de datos empleando los términos preferidos.
 
         <emphasis>Editeur non-inscrit</emphasis>
 
-        . 
+         . 
 
         <epigraph>
           <para>
