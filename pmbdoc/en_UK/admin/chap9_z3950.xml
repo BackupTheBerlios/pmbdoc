@@ -1,46 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-+==========================================================================+
-| PMB                                                                      |
-+==========================================================================+
-| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
-| (voir www.sigb.net)                                                      |
-| creator : Gautier MICHELIN                                               |
-| modified : ...                                                           |
-+==========================================================================+
--->
 <chapter>
   <title>Z39.50</title>
 
-  <para>If Z39.50 search option is enabled, it's visible from the cataloging
-  tab. To enable the Z39.50 search, the parameter Z3950.accessible must be set
-  to 1. For more details on the PMB customization, see <xref
+  <para>If the Z39.50 search option is enabled, it will visible from the
+  cataloging tab. To enable the Z39.50 search, the parameter Z3950.accessible
+  must be set to 1. For more details on the customization of PMB, see <xref
   linkend="admin_outils_parametres" />.</para>
 
-  <para><emphasis role="bold">Caution : </emphasis>z39.50 search implies
+  <para><emphasis role="bold">Warning : </emphasis>z39.50 search implies
   installing and enabling the PHP module YAZ on your web server. For more
   details, please read the PMB installation guide.</para>
 
-  <para>Z29.50 search allows you to import bibliographic data from a notice
-  server like the one of the British Library. Provided that the British
-  Library server is accessible from you computer connected to Internet, you
-  will benefit of an automated book cataloging for every book that has been
-  concerned by a legal deposit to the British Library.</para>
+  <para>Z29.50 search allows you to import bibliographic data from a
+  bibliogrpahic records server like the Library of Congress. Provided the
+  Library of Congress server is accessible from your computer connected to
+  Internet, you will enjoy the benefits of an automated book cataloging system
+  for every publication falling under legal deposit in the United
+  States.</para>
 
-  <para>You just need then to set one or more categories (thesaurus),
+  <para>All you need then is to enter one or more subjects (thesaurus terms),
   eventually some keywords and your own notes, and finally create one or more
-  items corresponding to your material situation.</para>
+  copies depending on your holdings.</para>
 
-  <para>The Z39.50 search allows you to greatly decrease the cataloging time.
-  You will find it from the Cataloging tab, for more details, please read the
-  PMB user's guide, chapter Cataloging.</para>
+  <para>The Z39.50 search allows you to save considerable cataloguing time.
+  You will find the z39.50 search in the Cataloguing side menu, for more
+  details, please read the PMB user's guide, chapter Cataloguing.</para>
 
   <figure>
     <title>z39.50</title>
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="images/admin_z39_home.gif" />
+        <imagedata fileref="../../pmb2.1/doc/documentation/en_UK/html-admin/images/admin_z39_home.gif" />
       </imageobject>
     </mediaobject>
   </figure>
@@ -48,27 +39,28 @@
   <sect1>
     <title>Servers</title>
 
-    <para>Z39.50 &gt; Servers gives you a list of all Z39.50 servers available
-    in search mode. You can add here a new server or update an existing
-    one.</para>
+    <para>Z39.50 &gt; Servers lists of all Z39.50 servers available in search
+    mode. You can add here a new server or update an existing one.</para>
 
-    <para>For each server, you will need some parameters like the type of data
-    returned, a userid and a password, etc. Contact directly the Z39.50 server
-    administrator to get this profile. You can also search Google with the
-    following search criteria "profile Z39.50" .</para>
+    <para>For each server you will need different parameters like the type of
+    data returned, a userid and a password, etc. Contact the Z39.50 server
+    administrator directly to obtain this profile. You can also search
+    "profile Z39.50" on Google.</para>
 
-    <para>If you are a member of a RLS (regional library service) network,
-    ask, if necessary, the RLS administrator his Z39.50 server profile.</para>
+    <para>If you are a member of an RLS (regional library service) network,
+    ask your RLS administrator for his Z39.50 server profile, if
+    necessary.</para>
 
-    <para>PMB is provided with several server parameters corresponding to
-    French-speaking needs and the American Library of Congress.</para>
+    <para>The PMB distribution already contains a number of parameters of
+    servers of French-speaking establishments and the Library of Congress,
+    United States.</para>
 
     <figure>
-      <title>Z39.50 &gt; Servers &gt; Modify the server</title>
+      <title>Z39.50 &gt; Servers &gt; Edit server</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_z39.gif" />
+          <imagedata fileref="../../pmb2.1/doc/documentation/en_UK/html-admin/images/admin_z39.gif" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -78,8 +70,8 @@
 
     <itemizedlist>
       <listitem>
-        <para>Server name : this is the name that will be displayed on the
-        screen. You may define it.</para>
+        <para>Server name : the name that will be displayed on the screen. You
+        may define it.</para>
       </listitem>
 
       <listitem>
@@ -103,31 +95,31 @@
       </listitem>
 
       <listitem>
-        <para>Format : Information this information is part of the Z39.50
-        server profile.</para>
+        <para>Format : this information is part of the Z39.50 server
+        profile.</para>
       </listitem>
 
       <listitem>
-        <para>Userid and password : ID used to connect to the server. Those
-        informations are part of the Z39.50 server profile.</para>
+        <para>Userid and password : ID used to connect to the server. This
+        information is part of the Z39.50 server profile.</para>
       </listitem>
     </itemizedlist>
 
-    <para>Finally, the Z3905 server profile defines various attributes
-    accessibles by clicking on the Attribute button. Those are the various
-    search criterias of the Z39.50 server.</para>
+    <para>Finally, the Z39.50 server profile defines various attributes
+    accessible by clicking on the Attribute button. They are the various
+    search criteria of the Z39.50 server.</para>
 
     <figure>
       <title>Z39.50 &gt; Z39.50 search attributes management</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/Z39_attributs.gif" />
+          <imagedata fileref="../../pmb2.1/doc/documentation/en_UK/html-admin/images/Z39_attributs.gif" />
         </imageobject>
       </mediaobject>
     </figure>
 
-    <para>Each attribute is composed of a label and a numeric server
+    <para>Each attribute is made up of a label and a numerical server
     attribute.</para>
   </sect1>
 </chapter>

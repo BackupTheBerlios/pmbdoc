@@ -2,124 +2,220 @@
 <chapter id="admin_empr">
   <title>Readers</title>
 
-  <para>In this part of the administration tab, you can define your personal options useful for managing readers.</para>
+  <para>In this part of the administration tab, you can define your personal
+  options useful for managing readers.</para>
 
   <sect1 id="admin_empr_categ">
     <title>Categories</title>
 
-    <para>Defining multiple reader categories enables you to compile statistics on how your library is being used. For more information on compiling statistics with PMB, refer to <emphasis>PMB User's Guide</emphasis>, Chapter <emphasis>Management</emphasis>.</para>
+    <para>Defining multiple reader categories enables you to compile
+    statistics on how your library is being used. For more information on
+    compiling statistics with PMB, refer to <emphasis>PMB User's
+    Guide</emphasis>, Chapter <emphasis>Management</emphasis>.</para>
 
-    <para>If you have activated advanced quotas management, categories will enable you to specify quotas: for example, a child can borrow 2 works, an adult 5 works at the same time. For more information on advanced quotas management, refer to chapter <xref linkend="admin_quotas"/>.</para>
+    <para>If you have activated advanced quotas management, categories will
+    enable you to specify quotas: for example, a child can borrow 2 works, an
+    adult 5 works at the same time. For more information on advanced quotas
+    management, refer to chapter <xref linkend="admin_quotas" />.</para>
 
     <figure>
-      <title>Readers - Categories</title>
+      <title>Readers categories</title>
 
-      <mediaobject><imageobject><imagedata fileref="images/admin_lect_cat.gif"/></imageobject></mediaobject></figure>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_cat.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
 
-    <para>In France, the maintenance of a readers' file in a public library is limited to one year, when the file is declared (statement mandatory with the CNIL) when using the simplified procedure.</para>
+    <para>In France, the maintenance of a readers' file in public libraries is
+    limited to one year, when the file is declared (statement mandatory with
+    the CNIL) as using the simplified procedure mode.</para>
 
-    <para>For more information, refer to <ulink url="http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf">http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf</ulink>.</para>
+    <para>For more information, refer to <ulink
+    url="http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf">http://www.culture.gouv.fr/culture/mrt/bibliotheque/dll/informatique/c4.pdf</ulink>.</para>
 
-    <para>If you want to be exempted from this limit, you need only extend the membership period to 9,999 days, for example.</para>
+    <para>If you wish to be exempted from this limit, you need only extend the
+    membership period to 9,999 days, for example.</para>
 
-    <para><emphasis role="bold">Note</emphasis> if you have activated the readers financial management, you can define a membership rate per reader category, displayed here in the third column. For more information, refer to chapter <xref linkend="admin_gestion_financiere"/>.</para></sect1>
+    <para><emphasis role="bold">Note</emphasis> if you have enabled financial
+    management for readers, you can define a membership rate per reader
+    category, displayed here in the third column. For more information, refer
+    to chapter <xref linkend="admin_gestion_financiere" />.</para>
+  </sect1>
 
   <sect1 id="admin_empr_codstat">
     <title>Statistical codes</title>
 
-    <para>Statistical codes are useful for producing readers' profiles by crossing data. </para>
+    <para>Statistical codes are useful for producing readers' profiles by
+    crossing data.</para>
 
-    <para>Several options are available: </para>
+    <para>Several options are available:</para>
 
-    <itemizedlist><listitem><para>use it to differentiate readers by age-group when birthdate is not required (less than 18, 18-35, 36-65, over 65 years of age, for example); </para></listitem>
+    <itemizedlist>
+      <listitem>
+        <para>use it to differentiate readers by age-group when birthdate is
+        not required (less than 18, 18-35, 36-65, over 65 years of age, for
+        example);</para>
+      </listitem>
 
-      <listitem><para>use it to assess your library's geographical coverage (example below)...</para></listitem></itemizedlist>
+      <listitem>
+        <para>use it to assess your library's geographical coverage (example
+        below)...</para>
+      </listitem>
+    </itemizedlist>
 
     <figure>
-      <title>Readers - Statistical codes</title>
+      <title>Readers statistical codes</title>
 
-      <mediaobject><imageobject><imagedata fileref="images/admin_lect_stat.gif"/></imageobject></mediaobject></figure></sect1>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_stat.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
 
   <sect1 id="admin_empr_implec">
     <title>Readers Import</title>
 
-    <para>Importing a readers' file allows you to retrieve data from another application or else from a file that you would have built up: laboratory members with a specialized documentation centre, a students' list from a school, import from a LDAP directory, etc...</para>
+    <para>Importing a readers' file allows you to retrieve data from another
+    application or else from a file that you would have built up: laboratory
+    members with a specialized documentation centre, a students' list from a
+    school, import from an LDAP directory, etc...</para>
 
     <figure>
-      <title>Readers - Import readers</title>
+      <title>Readers import</title>
 
-      <mediaobject><imageobject><imagedata fileref="images/admin_lect_imp.gif"/></imageobject></mediaobject></figure>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_imp.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
 
-    <para>Using the readers import screen you can either import readers from a file or delete readers.</para>
+    <para>Using the readers import screen you can either import readers from a
+    file or delete readers.</para>
 
     <sect2>
       <title>Importing readers</title>
 
-      <para>Import is effected from a text file (usually TXT or CSV type files). Spreadsheet applications (OpenOffice, Excel, ...) can export files in CSV format.</para>
+      <para>Import is effected from a text file (usually TXT or CSV type
+      files). Spreadsheet applications (OpenOffice, Excel, ...) can export
+      files in CSV format.</para>
 
-      <para>Click on Browse to select the file to import. Depending on your file format, select a fields' separator. Select also a readers' category and a statistical code: this information cannot be imported directly.</para>
+      <para>Click on Browse to select the file to import. Depending on your
+      file format, select a field separator. Select also a readers category
+      and a statistical code: this information cannot be imported
+      directly.</para>
 
       <para>Click Next to continue.</para>
 
       <figure>
-        <title>Readers - Import readers</title>
+        <title>Readers import</title>
 
-        <mediaobject><imageobject><imagedata fileref="images/admin_lect_imp2.gif"/></imageobject></mediaobject></figure>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_lect_imp2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
 
-      <para>The following screen displays le list of fields in the readers' table.</para>
+      <para>The following screen displays the list of fields in the readers'
+      table.</para>
 
-      <para>In the left hand side column are the fields' name of the database. Readers data will be entered in these fields.</para>
+      <para>In the left hand side column are the fields names of the database.
+      Readers data will be entered in these fields.</para>
 
-      <para>In the center column is indicated the position of the field in the file.</para>
+      <para>The center column shows the position of the field in the
+      file.</para>
 
-      <para>The right hand side column shows an example of the first line of the file, it can be very useful when you want to change the position within the file. Enter the positions in the center column, and don't forget to click on Update to update the changes.</para>
+      <para>The right hand side column shows an example of the first line of
+      the file, it can be very useful when you want to change the position
+      within the file. Enter the positions in the center column, and don't
+      forget to click on Update to update the changes.</para>
 
       <para>Here is an example of an import file:</para>
 
-      <programlisting>&quot;12527&quot;,&quot;Archambault&quot;,&quot;rue de... &quot;12528&quot;,&quot;Baudin&quot;,&quot;rue de...</programlisting>
+      <programlisting>"12527","Archambault","rue de... "12528","Baudin","rue de...</programlisting>
 
-      <para>12527 is the first position, it represents the reader's barcode, the second position is the reader's name, the third his address, etc....</para>
+      <para>12527 is the first position, it represents the reader's barcode,
+      the second position is the reader's name, the third his address,
+      etc....</para>
 
-      <para><emphasis role="bold">Important </emphasis> fields shown in red cannot be modified by the user, they are automatically filled in.</para>
+      <para><emphasis role="bold">Important </emphasis> fields shown in red
+      cannot be modified by the user, they are automatically filled in.</para>
 
       <para>After filling up your corresponding table click on Next.</para>
 
-      <para>The number of persons processed by the readers import is finally displayed.</para></sect2>
+      <para>The number of persons processed by the readers import is finally
+      displayed.</para>
+    </sect2>
 
     <sect2>
       <title>Deleting readers</title>
 
-      <para>You can delete readers by clicking on the Delete readers button. Then checkmark the expiry date(s) of readers to delete, for example, expiry dating back to more than a year.</para>
+      <para>You can delete readers by clicking on the Delete readers button.
+      Then checkmark the expiry date(s) of readers to delete, for example,
+      expiry dates going back to more than a year.</para>
 
       <para>Click Delete.</para>
 
       <para>The list of readers matching the criteria is displayed.</para>
 
-      <para>You can then click on Delete All to remove the corresponding readers.</para>
+      <para>You can then click on Delete All to remove the corresponding
+      readers.</para>
 
-      <para>The number of persons that have been deleted is displayed on screen. Those that could not be deleted, for example, because they have current loans, are displayed.</para></sect2>
+      <para>The number of persons that have been deleted is displayed on
+      screen. Those that could not be deleted, for example, because they have
+      current loans, are displayed.</para>
+    </sect2>
 
     <sect2>
       <title>Importing readers, advanced</title>
 
       <para>Advanced solutions for importing readers are available.</para>
 
-      <para>Imported readers will be placed into an existing category. If you wish to fine tune your imports you can use <emphasis>phpmyadmin</emphasis> or link your data in an application using MyODBC. For more information on phpmyadmin, refer to the web site <ulink url="http://www.phpmyadmin.net">phpmyadmin</ulink> or, for more information on the installation [in French] refer to <ulink url="http://www.allhtml.com/mysql/mysql582.php">http://www.allhtml.com/mysql/mysql582.php</ulink>.</para>
+      <para>Imported readers will be placed into an existing category. If you
+      wish to fine tune your imports you can use
+      <emphasis>phpmyadmin</emphasis> or link your data in an application
+      using MyODBC. For more information on phpmyadmin, refer to the web site
+      <ulink url="http://www.phpmyadmin.net">phpmyadmin</ulink> or, for more
+      information on the installation [in French] refer to <ulink
+      url="http://www.allhtml.com/mysql/mysql582.php">http://www.allhtml.com/mysql/mysql582.php</ulink>.</para>
 
-      <para>MyODBC is an ODBC application, it allows you to edit MySQL data within your database application, for example you can copy and paste data from a spreadsheet. For more information, refer to www.mysql.com or perform a google search on MyODBC.</para></sect2></sect1>
+      <para>MyODBC is an ODBC application, it allows you to edit MySQL data
+      within your database application, for example, you can copy and paste
+      data from a spreadsheet. For more information, refer to www.mysql.com or
+      perform a google search on MyODBC.</para>
+    </sect2>
+  </sect1>
 
   <sect1 id="admin_empr_parperso">
     <title>Customized parameters</title>
 
-    <para>Customized parameters allow you to add additional data to readers' cards. You can thus specify such information as company, socio-professional category....</para>
+    <para>Customized parameters allow you to add additional data to readers'
+    cards. You can thus specify such information as company,
+    socio-professional category....</para>
 
-    <para>You must give a name to your parameter (accents and punctuation are not accepted in a field name, but you can use them in the title display).</para>
+    <para>You must give a name to your parameter (accents and punctuation are
+    not accepted in a field name, but you can use them in the title
+    display).</para>
 
     <para>You may opt to make entries mandatory under this parameter.</para>
 
     <figure>
       <title>Readers - Customized parameters</title>
 
-      <mediaobject><imageobject><imagedata fileref="images/admin_lect_param.gif"/></imageobject></mediaobject></figure>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_lect_param.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
 
-    <para>Customizable parameters function in the same manner as customized fields for copies or records. For more information, refer to <xref linkend="admin_expl_perso"/>.</para></sect1></chapter>
+    <para>Customizable parameters function in the same manner as customized
+    fields for copies or records. For more information, refer to <xref
+    linkend="admin_expl_perso" />.</para>
+  </sect1>
+</chapter>

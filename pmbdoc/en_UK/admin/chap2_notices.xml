@@ -11,19 +11,19 @@
 
     <para>This represents the source of a bibliographical record. PMB imports
     records mainly via z39.50 or through UNIMARC import. However these records
-    are copyrighted. Records from the Biblioth豵e Nationale de France [National
-    Library, France] can be used freely, however this might not it might not
-    necessarily be the same for a few professionals in this domain. Indeed,
-    the company Electre publishes a CD-Rom of bibliographical notes, updated
+    are copyrighted. Records from the Bibliothèque Nationale de France
+    [National Library, France] can be used freely, however this might not
+    necessarily be the case for some professionals in this domain. Indeed, the
+    company Electre publishes a CD-Rom of bibliographical records, updated
     with the latest publications. This CD-Rom is not free, and each one of its
-    bibliographical notes are copyrighted.</para>
+    bibliographical records are copyrighted.</para>
 
-    <para>Since version 1.3, PMB manages the source of bibliographical
-    notes.</para>
+    <para>Since version 1.3, PMB keeps track of source of bibliographical
+    records.</para>
 
-    <para>The administrative function for the sources of the notes allows to
-    predefine sources for the notes. It also allows editing of the imported
-    sources of bibliographical notes.</para>
+    <para>The administrative function for sources of records allows to
+    pre-define these sources. It also allows the editing of sources of
+    imported records.</para>
 
     <figure>
       <title>Notes &gt; Notes sources</title>
@@ -39,9 +39,9 @@
   <sect1>
     <title>Status</title>
 
-    <para>The status of a bibliographical note allows to distinguish between
-    treatment and cataloguing for notes, as well as the display in
-    OPAC.</para>
+    <para>The status of records allows to set distinct properties to records
+    at processing and cataloguing levels, and whether they are to be displayed
+    in OPAC as well.</para>
 
     <figure>
       <title>Notes &gt; Status</title>
@@ -53,48 +53,49 @@
       </mediaobject>
     </figure>
 
-    <para>The notes status table shows various information:</para>
+    <para>The records status table shows various information:</para>
 
     <itemizedlist>
       <listitem>
         <para>a display class (1 to 9), corresponds to a color rectangle on
         the left of the table. This marker quickly identifies the status of
-        the note, for example during a search in the cataloguing tab.</para>
+        the record, for example, when using the cataloguing tab for a
+        search.</para>
       </listitem>
 
       <listitem>
-        <para>being visible or not during management. This will allow
-        management of a "reservoir of notes", for example by saving destroyed
-        notes with a "destroy" status.</para>
+        <para>whether visible or not from the PMB management tab. This will
+        allow the management of a "reservoir of records", for example, by
+        saving destroyed records with a "destroy" status.</para>
       </listitem>
 
       <listitem>
-        <para>for OPAC,</para>
+        <para>for the OPAC,</para>
 
         <itemizedlist>
           <listitem>
-            <para>potential label (e.g. being ordered)</para>
+            <para>potential label (e.g. on order)</para>
           </listitem>
 
           <listitem>
-            <para>Notes visibility</para>
+            <para>visibility of records</para>
           </listitem>
 
           <listitem>
-            <para>copies display</para>
+            <para>display of copies</para>
           </listitem>
 
           <listitem>
-            <para>digital copies display</para>
+            <para>display of e-copies (electronic copies)</para>
           </listitem>
         </itemizedlist>
       </listitem>
     </itemizedlist>
 
-    <para>To add a new status for a bibliographical note, click on the
-    appropriate button at the bottom of the screen.</para>
+    <para>To add a new status to a record, click on the appropriate button at
+    the bottom of the screen.</para>
 
-    <para>To modify a the status of a note, click on the corresponding line in
+    <para>To edit the status of a record, click on the corresponding line in
     the table,</para>
 
     <figure>
@@ -107,20 +108,20 @@
       </mediaobject>
     </figure>
 
-    <para>From the modification screen, you can also restrict the display of
-    notes, copies, digital copies, to subscribers only (readers and borrowers
-    with a login and password). If restrictions apply, the reader will have to
-    be identified in order to remove these restrictions.</para>
+    <para>From the edit screen, you can also restrict the display of records,
+    copies, e-copies to subscribers only (readers and borrowers with a login
+    and password). If restrictions apply, the reader will have to be
+    identified in order to remove these restrictions.</para>
   </sect1>
 
   <sect1 id="admin_notices_perso">
     <title>Customizable data</title>
 
-    <para>This is about the customizable fields of a bibliographical note.
-    These customizable fields allow specification of information about your
-    own library or documentation center in bibliographical notes: source of
-    the acquisition idea, commentary of a reading committee, targeted
-    readers...</para>
+    <para>Here we are talking of customizable fields of records. These
+    customizable fields allow you to specify any information about your own
+    library or documentation center within the records: origin of idea to
+    acquire the work, commentary of a reading committee, intended
+    audience...</para>
 
     <figure>
       <title>Notes &gt; Customizable data</title>
@@ -132,17 +133,7 @@
       </mediaobject>
     </figure>
 
-    <figure>
-      <title></title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="???" />
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para>Operations on customizable fields are identical to the ones for
+    <para>Customizable fields for records work the same way as those for
     copies. For more information, refer to <xref
     linkend="admin_expl_perso" />.</para>
   </sect1>

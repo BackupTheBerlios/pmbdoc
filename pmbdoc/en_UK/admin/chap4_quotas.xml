@@ -1,63 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-+==========================================================================+
-| PMB                                                                      |
-+==========================================================================+
-| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
-| (voir www.sigb.net)                                                      |
-| creator : Gautier MICHELIN                                               |
-| modified : ...                                                           |
-+==========================================================================+
--->
 <chapter id="admin_quotas">
   <title>Quotas</title>
 
-  <para>There is in PMB two ways to handle quotas. The advanced quotas
-  managment is enabled if the parameter pmd.quotas_avances is set to 1 in the
+  <para>There are two ways to handle quotas in PMB. Advanced quotas management
+  is enabled if the parameter pmb.quotas_avances is set to 1 in the
   <emphasis>Administration &gt; Tools &gt; parameters</emphasis>.</para>
 
-  <para>When a circulation quota is reached, an alert warns the book lending
-  agents and gives the opportunity to eventually force the lent. For more
-  details, read the <emphasis>PMB user guide</emphasis>,
+  <para>When a circulation quota is reached, an alert warns staff at the issue
+  counter giving her/him the option, as the case may be, to force the loan.
+  For more details, read the <emphasis>PMB user guide</emphasis>,
   <emphasis>Cirulation</emphasis> chapter.</para>
 
   <sect1>
-    <title>if the advanced quota managment is not enabled</title>
+    <title>If Advanced Quotas Management is not enabled</title>
 
     <para><graphic fileref="images/warning.gif" /></para>
 
-    <para>if the advanced quota managment is not enabled, you will not see
+    <para>if advanced quota management is not enabled, you will not see
     "quotas" in the menu.</para>
 
-    <para>In this case, only the lend duration and the hold duration can be
-    set, per book type. For more details, see </para>
-
-    <para><xref linkend="admin_expl_typdoc" />.</para>
+    <para>In this case, only the loan period and the hold duration per media
+    type can be set. For more details, see <xref
+    linkend="admin_expl_typdoc" />.</para>
   </sect1>
 
   <sect1>
-    <title>Quotas : duration, number and types</title>
+    <title>Quotas : duration, quantity and types</title>
 
-    <para>In PMB, there is two quotas types, they correspond either to a
-    duration, either to a number of elements. Quotas may be set according to
+    <para>In PMB, there is two types of quotas, they correspond either to
+    period or to quantity or number of items. Quotas may be set according to
     various types.</para>
 
     <sect2>
-      <title>Duration</title>
+      <title>Period</title>
 
-      <para>Quotas linked to duration work all in the same way : one value by
-      default (14 see below) is used if no particular specified value is
+      <para>Quotas linked to period work all in the same way : a default value
+      (14 see below) is used if no particular specified value is
       applicable.</para>
 
-      <para>This value is set into <emphasis>General parameters</emphasis> in
-      the default value of XXX if not specified.. It's a duration in days. PMB
-      sees all the days of the week in the same way and doesn't integrate a
-      calendat with the open days of the library. Monday will be counted a a
-      day, in the same way as Sunday.</para>
-
-      <para>Les quotas liés à la durée fonctionnent tous de manière identique
-      : une valeur par défaut (14 ci dessus) est utilisée si aucune valeur
-      particulière spécifiée n'est applicable.</para>
+      <para>This value is set in <emphasis>General parameters</emphasis> in
+      the <emphasis>default value <emphasis><emphasis>fields</emphasis>
+      by</emphasis> XXX if left unspecified</emphasis>. It is a period given
+      in days. PMB sees all seven days of the week equally and does not have a
+      calendar showing the opening days of the library. Monday will be counted
+      as one day just like Sunday.</para>
 
       <figure>
         <title>Quotas : default value for a duration quota in PMB</title>
@@ -71,26 +57,25 @@
     </sect2>
 
     <sect2>
-      <title>Number</title>
+      <title>Quantity</title>
 
-      <para>Les quotas liés à un nombre fonctionnent tous de manière identique
-      : une valeur par défaut est utilisée si aucune valeur particulière
-      spécifiée n'est applicable.</para>
+      <para>Quotas linked to quantity work all in the same way : a default
+      value is used if no particular specified value is applicable.</para>
 
-      <para>Cette valeur est définie dans <emphasis>Paramètres généraux
-      </emphasis>dans le champs<emphasis> Valeur par défaut de XXX si ce n'est
-      pas précisé</emphasis>. Cette valeur désigne un nombre de documents, de
-      périodiques ou de réservation correspondant à un SEUL type de document.
-      Les quotas liés à un nombre possèdent également un champs de seuil
-      maximal. Ce maximum est un quota absolu de simultanéité de documents, de
-      périodiques ou de réservation. Si la valeur par défaut est définie à 5
-      et qu'aucune autre valeur n'est définie, le lecteur a le droit de
-      réserver, d'emprunter en même temps 5 cédéroms et 5 livres. Si le
-      maximum est fixé à 7, il peut prendre au plus 7 ouvrages, parmi lesquels
-      5 cédéroms maximum ou 5 livres maximum.</para>
+      <para>This value is defined in <emphasis>General parameters</emphasis>
+      in the <emphasis>default value<emphasis>
+      </emphasis><emphasis><emphasis>fields</emphasis> by</emphasis> XXX if
+      left unspecified</emphasis>. This value points to the number of works,
+      serials or holds corresponding to only ONE type of document. Quotas
+      linked to quantity also have a field to enter the maximum quota allowed.
+      This maximum represents the absolute quota across works, serials or
+      holds collectively. If the default value is set at 5 and no other value
+      is entered, the reader will have the right to hold, borrow 5 CDs and 5
+      books all at the same time. If the maximum is set at 7, he will be able
+      to have 7 works only, of which a maximum of 5 CDs or 5 books.</para>
 
       <figure>
-        <title>Quotas : valeurs par défaut pour un quota de nombre dans
+        <title>Quotas : default values for quantity linked quotas in
         PMB</title>
 
         <mediaobject>
@@ -102,27 +87,27 @@
     </sect2>
 
     <sect2>
-      <title>Types de quotas</title>
+      <title>Types of quotas</title>
 
-      <para>Il existe cinq types de quotas par nombres ou par durée :</para>
+      <para>There are five types of quotas linked to quantity or
+      period:</para>
 
       <itemizedlist>
         <listitem>
-          <para>par Catégories de lecteurs</para>
+          <para>by Readers categories</para>
 
-          <para>Pour chaque catégorie de lecteur un quota peut être spécifié
-          dans la colonne nombre de documents. Pour supprimer un des quotas,
-          effacer la valeur contenue dans la case. Attention, 0 ne signifie
-          pas une absence de quota, mais un quota égal à 0, donc un prêt
-          interdit.</para>
+          <para>A quota may be set for each borrower category in the column
+          "Number of items". To delete a quota, clear the value entered in the
+          check box. Warning, 0 does not mean no quota at all, but one whose
+          value is set to 0, that is, loan not allowed.</para>
 
-          <para>Vous pouvez autoriser ou non le forçage pour chacune des
-          catégories de lecteurs. Si un quota est atteint par un lecteur d'une
-          catégorie, le bibliothécaire peut dans ce cas autoriser un prêt,
-          c'est à dire forcer le prêt.</para>
+          <para>You may authorize (or not) override quota for each of the
+          readers categories. If a quota is reached by one reader in a
+          particular category, the librarian may then authorize a loan issue,
+          that is, override the stop loan directive.</para>
 
           <para><figure>
-              <title>Quotas par catégories de lecteurs</title>
+              <title>Quotas by readers categories</title>
 
               <mediaobject>
                 <imageobject>
@@ -133,12 +118,11 @@
         </listitem>
 
         <listitem>
-          <para>par Types d'exemplaires</para>
+          <para>by Media types</para>
 
-          <para>Pour chaque type d'exemplaires un quota peut être défini. Le
-          fonctionnement est similaire aux quotas par catégories de lecteurs
-          <figure>
-              <title>Quotas par types d'exemplaires</title>
+          <para>A quota may be set for each type of document. It works exactly
+          like quotas by readers categories <figure>
+              <title>Quotas by media types</title>
 
               <mediaobject>
                 <imageobject>
@@ -149,14 +133,13 @@
         </listitem>
 
         <listitem>
-          <para>par Catégories de lecteurs et par Types d'exemplaires</para>
+          <para>by Readers categories and by Media types</para>
 
-          <para>Vous pouvez ici croiser catégories de lecteurs et types
-          d'exemplaires pour affiner votre politique de prêt. Les quotas sont
-          affichés sous la forme d'un tableau reprenant pour chaque catégorie
-          de lecteur l'ensemble des types d'exemplaires.<figure>
-              <title>Quotas par catégories de lecteurs et par types
-              d'exemplaires</title>
+          <para>Here you may cross Readers categories with Media types to
+          refine your loans policy. Quotas are displayed in the form of a
+          table sub-listing all the media types under each Readers
+          category.<figure>
+              <title>Quotas by Readers categories and by Media types</title>
 
               <mediaobject>
                 <imageobject>
@@ -167,12 +150,11 @@
         </listitem>
 
         <listitem>
-          <para>par Lecteurs individuels</para>
+          <para>by Individual readers</para>
 
-          <para>Même fonctionnement que pour les catégories de lecteurs, mais
-          de façon unique pour chacun des lecteurs de votre
-          bibliothèque.<figure>
-              <title>Quotas par lecteurs individuels</title>
+          <para>Functions exactly like by Readers categories, but individually
+          for every reader of your library.<figure>
+              <title>Quotas by individual readers</title>
 
               <mediaobject>
                 <imageobject>
@@ -183,13 +165,11 @@
         </listitem>
 
         <listitem>
-          <para>par Types d'exemplaires et par Lecteurs individuels</para>
+          <para>by Media types and by Individual readers</para>
 
-          <para>Même fonctionnement que pour les quotas par Catégories de
-          lecteurs et par Types d'exemplaires, mais de façon unique pour
-          chacun des lecteurs de votre bibliothèque.<figure>
-              <title>Quotas par lecteurs individuels et par types
-              d'exemplaires</title>
+          <para>Functions exactly like by Readers categories and by Media
+          types, but individually for every reader of your library.<figure>
+              <title>Quotas by individual Readers and by Media types</title>
 
               <mediaobject>
                 <imageobject>
@@ -200,87 +180,85 @@
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">Exemple</emphasis> En définissant un type de
-      quotas de nombre de documents par Catégories de lecteurs et par Types
-      d'Exemplaires, vous pourrez par exemple définir que les scolaires ont le
-      droit d'emprunter 2 CD audio.</para>
+      <para><emphasis role="bold">Example.</emphasis> By defining a quota
+      linked to Number of items by Readers categories and by Media types, you
+      could thus grant students the right to borrow 2 CD audio.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>Les différents quotas</title>
+    <title>The various quotas</title>
 
     <sect2>
-      <title>nombre de documents</title>
+      <title>number of items</title>
 
-      <para>Il s'agit ici de la gestion du nombre de documents empruntables
-      simultanément.</para>
+      <para>We are talking here about defining the number of items that can be
+      borrowed simultaneously.</para>
     </sect2>
 
     <sect2>
-      <title>durée d'emprunt</title>
+      <title>loan period</title>
 
-      <para>C'est la gestion avancée de la durée de prêt des ouvrages.</para>
+      <para>This comes under loans management (advanced) relating to loan
+      period of copies of works.</para>
 
-      <para>Il existe cinq types de quotas par durée d'emprunt : par
-      Catégories de lecteurs, par Types d'exemplaires, par Catégories de
-      lecteurs et par Types d'exemplaires, par Lecteurs individuels, enfin par
-      Types d'exemplaires et par Lecteurs individuels</para>
+      <para>There are five types of quotas by loan period : by Readers
+      categories, by Media types, by Readers categories and by Media types, by
+      Individual readers, and finally by Media types and by Individual
+      readers.</para>
     </sect2>
 
     <sect2>
-      <title>nombre de réservations</title>
+      <title>number of holds</title>
 
-      <para>Ceci désigne la gestion du nombre de documents (hors périodiques)
-      réservables simultanément.</para>
+      <para>This refers to loans management relating to the number of items
+      (except serials) that can be placed on hold simultaneously.</para>
     </sect2>
 
     <sect2>
-      <title>durée de réservation</title>
+      <title>hold duration</title>
 
-      <para>C'est la gestion avancée de la durée de réservation de documents
-      (hors périodiques).</para>
+      <para>This comes under loans management (advanced) relating to duration
+      of hold for works (except serials).</para>
     </sect2>
 
     <sect2>
-      <title>nombre de réservations des périodiques</title>
+      <title>number of serials holds</title>
 
-      <para>Ceci désigne la gestion du nombre de documents (périodiques
-      uniquement) réservables simultanément.</para>
+      <para>This refers to loans management relating to the number of items
+      (serials only) that can be placed on hold simultaneously.</para>
     </sect2>
 
     <sect2>
-      <title>durée de réservation des périodiques</title>
+      <title>serials hold duration</title>
 
-      <para>C'est la gestion avancée de la durée de réservation des
-      périodiques.</para>
+      <para>This comes under loans management (advanced) relating to duration
+      of hold for serials.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>En cas de conflit</title>
+    <title>In case of conflict</title>
 
-    <para>En plus de la définition des valeurs par défaut (voir plus haut
-    Quotas : durée, nombre et types de quotas), les paramètres généraux
-    permettent de choisir les méthodes de résolution de conflits entre les
-    quotas. Puisque vous pouvez définir des quotas par lecteurs individuels
-    mais aussi par catégories, il vous faut choisir quel quota est
-    prioritaire.</para>
+    <para>In addition to the default values (see further up Quotas : period,
+    quantity and types), the general parameters allow you to choose how to
+    resolve conflicts between quotas. Since you can define quotas by
+    individual readers and by categories as well, you will have to decide
+    which one has precedence over the other.</para>
 
-    <para>En cas de conflit entre plusieurs quotas, vous pouvez choisir de
-    <emphasis>Prendre le plus grand</emphasis> (politique d'autorisation
-    maximale) de <emphasis>Prendre le plus petit </emphasis>(politique de
-    restriction maximale), de <emphasis>Prendre la valeur par défaut
-    </emphasis>(si deux valeurs sont contradictoires, c'est la valeur par
-    défaut qui servira à résoudre ce conflit), enfin de <emphasis>Regarder
-    dans un ordre précis</emphasis> les différents quotas.</para>
+    <para>In case of conflict between several quotas, you can choose among
+    <emphasis>Take the largest</emphasis> (full authorization policy)
+    <emphasis>Take the smallest</emphasis>(full restriction policy),
+    <emphasis>Take the default value </emphasis>(if both values clash, it's
+    the default value that be used to resolve the conflict), enfin de
+    <emphasis>Process according to a specified directive</emphasis> the
+    various quotas.</para>
 
-    <para>Si vous retenez cette dernière option, vous pouvez placer à l'aide
-    des menus déroulants vos types de quotas dans l'ordre de leur
-    priorité.</para>
+    <para>If you choose to retain this option, you can use list-down menus to
+    indicate the order of precedence of your types of quotas.</para>
 
     <figure>
-      <title>Quotas : en cas de conflit</title>
+      <title>Quotas : in case of conflict</title>
 
       <mediaobject>
         <imageobject>
@@ -289,85 +267,83 @@
       </mediaobject>
     </figure>
 
-    <para>Vous avez également la possibilité de laisser au personnel chargé du
-    prêt la possibilité de décider en choisissant d'<emphasis>autoriser en
-    règle générale le forçage du prêt</emphasis>.</para>
+    <para>You may also leave it to your staff at the issue counter to decide
+    in principle whether to <emphasis>authorize a loan thus overriding the
+    stop directive</emphasis>.</para>
   </sect1>
 
   <sect1>
-    <title>Définir un quota</title>
+    <title>Defining a quota</title>
 
-    <para>Prenons un exemple. Dans notre bibliothèque, les enfants peuvent
-    emprunter trois documents parmi lesquels au plus deux livres, deux
-    documents de la BDP, un CD audio, une cassette vidéo. Dans le cadre d'une
-    recherche scolaire, on peut sur demande leur prêter plus de deux documents
-    de la BDP (forcer ce type de prêt et le nombre total de prêts simultanés
-    possible).</para>
+    <para>Let's take an example. In our library, children are allowed three
+    items of which a maximum of two books, two items from the Deparmental
+    Lending Library, one CD audio, one video recording. For a school project
+    the children may on request be allowed more than two items from the
+    Deparmental Lending Library (forcing the loan directive for this type of
+    document and the total number of items allowed at the same time).</para>
 
     <procedure>
       <step>
-        <para>Dans l'onglet <emphasis>Administration</emphasis>, cliquez dans
-        le menu latéral sur <emphasis>Quotas</emphasis></para>
+        <para>On the <emphasis>Administration</emphasis> tab, click on
+        <emphasis>Quotas</emphasis> in the side menu</para>
       </step>
 
       <step>
-        <para>Cliquez ensuite sur le quota <emphasis>Nombre de
-        documents</emphasis></para>
+        <para>Next click on <emphasis>Number of items</emphasis> quota</para>
       </step>
 
       <step>
-        <para>Cliquez sur le type de quota par Catégorie de Lecteurs</para>
+        <para>Click on quota type by Readers categories</para>
       </step>
 
       <step>
-        <para>Pour la catégorie <emphasis><emphasis
-        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
-        role="bold">2</emphasis> pour nombre de documents, et <emphasis
-        role="bold">décocher</emphasis> <emphasis>Interdire le
-        forçage</emphasis></para>
+        <para>For the category <emphasis><emphasis
+        role="bold">Children</emphasis></emphasis>, enter <emphasis
+        role="bold">2</emphasis> for number of items, and <emphasis
+        role="bold">clear</emphasis> <emphasis>Override
+        quota</emphasis></para>
       </step>
 
       <step>
-        <para>Cliquez sur Enregistrer</para>
+        <para>Click on Save</para>
       </step>
 
       <step>
-        <para>Cliquez sur le type de quota <emphasis>par Catégorie de Lecteurs
-        et par Types d'Exemplaires</emphasis>.</para>
+        <para>Click on quota type <emphasis>by Readers categories and by Media
+        types</emphasis>.</para>
       </step>
 
       <step>
-        <para>Pour la catégorie <emphasis><emphasis
-        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
-        role="bold">2</emphasis> pour le nombre de documents
-        <emphasis>Livre</emphasis>, et <emphasis
-        role="bold">décocher</emphasis> <emphasis>Interdire le
-        forçage</emphasis></para>
+        <para>For the category <emphasis><emphasis
+        role="bold">Children</emphasis></emphasis>, enter <emphasis
+        role="bold">2</emphasis> for number of items
+        <emphasis>Book</emphasis>, and <emphasis role="bold">clear</emphasis>
+        <emphasis>Override quota</emphasis></para>
       </step>
 
       <step>
-        <para>Toujours pour la catégorie <emphasis><emphasis
-        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
-        role="bold">2</emphasis> pour le nombre de documents <emphasis>Doc de
-        la BDP</emphasis>, et <emphasis role="bold">cocher</emphasis>
-        <emphasis>Interdire le forçage</emphasis></para>
+        <para>Again for the category <emphasis><emphasis
+        role="bold">Children</emphasis></emphasis>, enter <emphasis
+        role="bold">2</emphasis> for number of items <emphasis>BDP
+        items</emphasis>, and <emphasis role="bold">tick</emphasis>
+        <emphasis>Interdire le forcage</emphasis></para>
       </step>
 
       <step>
-        <para>Toujours pour la catégorie <emphasis><emphasis
-        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
-        role="bold">1</emphasis> pour le nombre de documents <emphasis>CD
-        Audio</emphasis> et <emphasis role="bold">1</emphasis> pour le nombre
-        de documents <emphasis>Cassette vidéo</emphasis>, et <emphasis
-        role="bold">cocher</emphasis> <emphasis>Interdire le
-        forçage</emphasis></para>
+        <para>Once again for the category <emphasis><emphasis
+        role="bold">Children</emphasis></emphasis>, enter <emphasis
+        role="bold">1</emphasis> for number of items <emphasis>CD
+        Audio</emphasis> and <emphasis role="bold">1</emphasis> for number of
+        items <emphasis>Video recording</emphasis>, and <emphasis
+        role="bold">tick</emphasis> <emphasis>Interdire le
+        forcage</emphasis></para>
       </step>
 
       <step>
-        <para>Cliquer sur Enregistrer</para>
+        <para>Click on Save</para>
 
-        <para>Vos quotas sont définis. Vous pouvez ensuite personnaliser les
-        paramètres généraux selon vos besoins.</para>
+        <para>Your quotas are now defined. Vous may eventually customize the
+        general parameter to suit your needs.</para>
       </step>
     </procedure>
   </sect1>

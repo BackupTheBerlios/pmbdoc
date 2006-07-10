@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-+==========================================================================+
-| PMB                                                                      |
-+==========================================================================+
-| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
-| (voir www.sigb.net)                                                      |
-| creator : Gautier MICHELIN                                               |
-| modified : ...                                                           |
-+==========================================================================+
--->
 <chapter id="admin_misc">
   <title>Tools</title>
 
-  <para>The <emphasis>tools</emphasis> part of the
-  <emphasis>Administration</emphasis> tab is a collection of tools needed for
-  a day-to-day PMB administration.</para>
+  <para>The <emphasis>Tools</emphasis> section of the
+  <emphasis>Administration</emphasis> tab is a tool box useful for the
+  day-to-day administration of PMB.</para>
 
   <figure>
     <title>Tools</title>
@@ -29,13 +19,13 @@
   <sect1 id="admin_netbase">
     <title>Database cleanup</title>
 
-    <para>The database cleaning allows you to remove unused or redundant data,
-    to purge your database from unused authorities.</para>
+    <para>Database cleanup enables you to remove unused or redundant data, to
+    purge your database of unused authorities.</para>
 
-    <para>You can also optimize your database by re indexing it. With the
-    removal of data in the database, some free space is left inside the
-    datafile on the server. This operation is the only way to keep at a high
-    level your data server performance.</para>
+    <para>Here you can also optimize your database by re-indexing it. Removing
+    data from the database, frees more space inside the datafile on the
+    server. This is the only way to maintain a high level of performance from
+    your database server.</para>
 
     <figure>
       <title>Tools &gt; Database cleanup</title>
@@ -47,53 +37,53 @@
       </mediaobject>
     </figure>
 
-    <para><emphasis role="bold">Caution</emphasis> : after the database
-    cleaning, perform always a database optimization by clicking on
-    Administration &gt; Tools &gt; MySQL maintenance &gt; Optimise the tables
-    (this will reconstruct the MySQL indexes)</para>
+    <para><emphasis role="bold">Caution</emphasis> : after a database cleanup,
+    always perform a database optimization by clicking on Administration &gt;
+    Tools &gt; MySQL maintenance &gt; Optimize the tables (this will
+    reconstruct the MySQL indexes)</para>
   </sect1>
 
   <sect1 id="admin_misc_proc">
-    <title>Stored procedures</title>
+    <title>SQL queries</title>
 
-    <para>Stored procedures are SQL commands lines written in the
-    database.</para>
+    <para>SQL queries are SQL commands lines written in the database.</para>
 
-    <para>Those stored procedures are created or updated in the administration
-    tab. They are also enabled for users with the Management right. For more
-    details on the <emphasis>Management</emphasis> tab, please read the
+    <para>These SQL queries are created or updated in the administration tab.
+    They are also enabled for users with access privileges in Management. For
+    more details on the <emphasis>Management</emphasis> tab, please read the
     <emphasis>Management</emphasis> Chapter in the PMB user's guide.</para>
 
-    <para>Each stored procedure is shown in a array line. You can edit them by
-    clicking on their title, or execute them by clicking on the button run on
-    the left margin.</para>
+    <para>Each stored procedure is shown in an array line. You can edit them
+    by clicking on their title, or execute them by clicking on the button run
+    on the left margin.</para>
 
-    <para>You can add parameters : this will allow you to personalize your
-    stored procedures at execution time.</para>
+    <para>You can add parameters : this will allow you to run your stored
+    procedures immediately on screen.</para>
 
-    <para>Let take an example:</para>
+    <para>Let's make it simpler.</para>
 
-    <para>Suppose that I'm a library supervisor without any SQL knowledge and
-    that I want a query that displays me the total amount of lended items by
-    more than 65 years old lenders.</para>
+    <para>Suppose I'm a librarian with no SQL knowledge and I want a query
+    that will get me the total count of current loans to borrowers over 65
+    years old.</para>
 
-    <para>I ask a stored procedure to my administrator. He will create a query
-    called "Current lends by people &gt; 65 years" (title example). The SQL
+    <para>I ask my administrator for a stored procedure. He will create a
+    query called "Current loans / &gt; 65 years old" (title example). The SQL
     code for the query will be a simple ""SELECT COUNT (*) FROM empr, prets
-    WHERE pret.empr_id=empr_id AND (2004-empr_year&gt;=65)"</para>
+    WHERE pret.empr_id=empr_id AND (2006-empr_year&gt;=65)"</para>
 
     <para>I can access the query created by the administrator from the
-    management tab. However for my statistics, I need the same informations
-    but for people between 30 and 65 years old and for people below 30 years
-    old. Furthermore, I must execute my query each year. In the year 2005, the
-    previous query will not give the correct results.</para>
+    Management tab. However for my statistics, I need the same information but
+    for borrowers aged 30 to 65 years old and under 30 years old. Furthermore,
+    I must execute my query every year. In 2007 the previous query will not
+    give the correct results.</para>
 
     <para>The administrator will then create a query with some parameters
-    between four exclamation marks like ||current_year||. The parameter title
-    may be something like "Please, enter the current year :"</para>
+    enclosed between four exclamation marks like !!current_year!! The
+    parameter title may be something like "Please, enter the current
+    year"</para>
 
     <figure>
-      <title>Tools &gt; Stored procedures</title>
+      <title>Tools &gt; SQL queries</title>
 
       <mediaobject>
         <imageobject>
@@ -102,10 +92,10 @@
       </mediaobject>
     </figure>
 
-    <para>Stored procedures are one of the advanced features of PMB. If MySQL
-    knowledge is need to create them, their use is simple through the
-    Management tab &gt; Statistics &gt; SQL Queries. This high degree of
-    statistics customization is not directly available to the user in
+    <para>Stored procedures are among the advanced features of PMB. To create
+    them you need knowledge of MySQL syntax, to use them simply access
+    Management &gt; Statistics &gt; SQL Queries. This high degree of
+    statistics customization is rarely directly available to the user in
     proprietary softwares.</para>
 
     <sect2>
@@ -331,7 +321,7 @@ order by idcode</programlisting>
 
     <para>There are various parameters types : <link
     linkend="admin_outils_parametres_biblio">biblio</link> ; <link
-    linkend="???">categories</link> ; <link
+    linkend="admin_outils_parametres_categories">categories</link> ; <link
     linkend="admin_outils_parametres_empr">empr</link> ; <link
     linkend="admin_outils_parametres_mailrelanceadhesion">mailrelanceadhesion</link>
     ; <link linkend="admin_outils_parametres_mailretard">mailretard</link> ;
@@ -340,7 +330,7 @@ order by idcode</programlisting>
     <link
     linkend="admin_outils_parametres_pdflettreadhesion">pdflettreadhesion</link>
     ; <link
-    linkend="admin_outils_parametres_pdflettreadhesion">pdflettreresa</link> ;
+    linkend="admin_outils_parametres_pdflettreresa">pdflettreresa</link> ;
     <link
     linkend="admin_outils_parametres_pdflettreretard">pdflettreretard</link> ;
     <link linkend="admin_outils_parametres_pmb">pmb</link> ; <link
@@ -1013,7 +1003,7 @@ order by idcode</programlisting>
               <entry>1</entry>
 
               <entry>Simple search on sub collections : 0 : forbidden 1 :
-              authorized 2 : authorized and validated by default </entry>
+              authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
@@ -1059,7 +1049,7 @@ order by idcode</programlisting>
 
               <entry>Notices display format in search results 1 : ISBD only 2
               : Public only 4 : ISBD and Public 8 : only a subset
-              (title+authors) </entry>
+              (title+authors)</entry>
             </row>
 
             <row>
@@ -1304,7 +1294,7 @@ order by idcode</programlisting>
 
               <entry>80</entry>
 
-              <entry>Borrower name length printed on the card in mm </entry>
+              <entry>Borrower name length printed on the card in mm</entry>
             </row>
 
             <row>
@@ -1439,7 +1429,7 @@ order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_pdflettreadhesion">
+    <sect2 id="admin_outils_parametres_pdflettreresa">
       <title>pdflettreresa</title>
 
       <para>The <emphasis>pdflettreresa<emphasis> parameters correspond to
@@ -1499,7 +1489,7 @@ order by idcode</programlisting>
               <entry>15</entry>
 
               <entry>Item list starting position in mm from the top of the
-              next page. </entry>
+              next page.</entry>
             </row>
 
             <row>
@@ -1630,7 +1620,7 @@ order by idcode</programlisting>
               étudier la possibilité de prolonger ces prêts ou de ramener les
               ouvrages concernés.</entry>
 
-              <entry>Text shown after the overdue items list </entry>
+              <entry>Text shown after the overdue items list</entry>
             </row>
 
             <row>
@@ -1659,7 +1649,7 @@ order by idcode</programlisting>
               <entry>15</entry>
 
               <entry>Item list starting position in mm from the top of the
-              next page. </entry>
+              next page.</entry>
             </row>
 
             <row>
@@ -1702,7 +1692,7 @@ order by idcode</programlisting>
 
               <entry>Item list ending position in mm from bottom of page. If
               during printing this limit is reached, the item will be printed
-              on the next page </entry>
+              on the next page</entry>
             </row>
 
             <row>
@@ -1827,7 +1817,7 @@ order by idcode</programlisting>
               <entry>1</entry>
 
               <entry>0 ou 1 : internal indexation is a Dewey like
-              classification </entry>
+              classification</entry>
             </row>
 
             <row>

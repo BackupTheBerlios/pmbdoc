@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-+==========================================================================+
-| PMB                                                                      |
-+==========================================================================+
-| (c) 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs  |
-| (voir www.sigb.net)                                                      |
-| creator : Gautier MICHELIN                                               |
-| modified : ...                                                           |
-+==========================================================================+
--->
-
 <chapter>
-  <title>Sauvegarde</title>
+  <title>Backup</title>
 
-  <para>PMB fonctionnant sur un modèle de client/serveur, vous n'avez pas
-  forcément accès au serveur depuis votre console de catalogage et
-  d'administration qu'est PMB.</para>
+  <para>Because PMB functions on a client/server model, you may not
+  necessarily have access to the server from your PMB cataloguing and
+  administration console.</para>
 
-  <para>PMB permet de sauvegarder à distance la base dans un fichier sur le
-  serveur puis de le rapatrier sur votre ordinateur pour le copier sur un CD
-  ou sur un stick mémoire USB.</para>
+  <para>PMB enables you to make remote backups of the database on your server
+  and then to repatriate them on your computer for copying on a CD or USB
+  storage stick.</para>
 
-  <para>La sauvegarde dans PMB se fait par jeux de tables, ceci vous permet de
-  ne sauvegarder que les données de votre choix. Ainsi la sauvegarde des prêts
-  et du fichier lecteur pourrait être quotidienne, alors que la sauvegarde des
-  notices et des exemplaires issus du catalogage pourrait être hebdomadaire,
-  mensuelle ou ponctuelle.</para>
+  <para>In PMB backups are done by sets of tables, this enables you to backup
+  only those data that you choose to keep. Thus backups of loans transactions
+  and the readers' file could be effected on a daily basis while the backups
+  of catalogue records and copies could be done weekly, monthly or even from
+  time to time.</para>
 
   <sect1 id="admin_sauv_lieux">
-    <title>Lieux de sauvegarde</title>
+    <title>Backup locations</title>
 
-    <para>Un lieu de sauvegarde est un emplacement informatique sur votre
-    ordinateur ou à distance ou le fichier doit être sauvegardé. Le serveur
-    doit avoir la possibilité d'écriture directe à cet endroit.</para>
+    <para>A backup location may be situated locally on your computer or on a
+    remotely situated computer for safekeeping of the backup file. The server
+    must have read/write privileges on the backup location.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Lieux de sauvegarde</title>
+      <title>Backup &gt; Backup location</title>
 
       <mediaobject>
         <imageobject>
@@ -46,17 +35,16 @@
   </sect1>
 
   <sect1 id="admin_sauv_tables">
-    <title>Groupes de tables</title>
+    <title>Groups of tables</title>
 
-    <para>Il s'agit de la constitution de groupes de tables qui seront
-    sauvegardées simultanément. Vous n'avez pas forcément besoin de
-    sauvegarder vos notices quotidiennement (une sauvegarde hebdomadaire ou à
-    chaque import/catalogage suffit), mais les prêts étant fréquents vous
-    pouvez avoir besoin d'une sauvegarde fréquente des emprunteurs et des
-    prêts.</para>
+    <para>It is about the constitution of groups of tables to backup
+    simultaneously. You do not necessarily have to make a daily backup of your
+    records (a weekly backup, or after every import/calatoguing is enough. On
+    the other hand, loans being frequent you may need regular backups for
+    borrowers and issues.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Groupes de tables</title>
+      <title>Backup &gt; Groups of tables</title>
 
       <mediaobject>
         <imageobject>
@@ -65,24 +53,25 @@
       </mediaobject>
     </figure>
 
-    <para>Si vous avez chargé les données correspondant au fichier
-    <emphasis>feed_essential.sql</emphasis>, vous disposez d'un jeu de
-    sauvegarde opérationnel (pour plus d'informations voir <xref linkend="donnees_minimum" />.</para>
+    <para>If you have loaded the data supplied in
+    <emphasis>feed_essential.sql</emphasis>, you already have at your disposal
+    a backup set ready to use (for more information see <xref
+    linkend="donnees_minimum" />).</para>
 
-    <para>Voici la liste des tables dans les différents groupes chargés avec
-    le jeu de test opérationnel.</para>
+    <para>Here is a list of tables from the various groups pre-loaded with the
+    test data set.</para>
 
     <table>
-      <title>Groupes de tables chargés par feed_essential.sql</title>
+      <title>Groups of tables pre-loaded with feed_essential.sql</title>
 
       <tgroup cols="3">
         <thead>
           <row>
-            <entry>Nom du groupe de tables</entry>
+            <entry>Name of group of tables</entry>
 
-            <entry>Descriptif</entry>
+            <entry>Description</entry>
 
-            <entry>Contenu</entry>
+            <entry>Content</entry>
           </row>
         </thead>
 
@@ -90,8 +79,7 @@
           <row>
             <entry>Application</entry>
 
-            <entry>Tables utilisées par le fonctionnement de l'application
-            PMB</entry>
+            <entry>Tables required to make PMB function</entry>
 
             <entry>categ_assoc categories explnum indexint lenders
             notices_categories origine_notice parametres procs quotas
@@ -99,18 +87,17 @@
           </row>
 
           <row>
-            <entry>Aucune utilité</entry>
+            <entry>Of no use</entry>
 
-            <entry>Tables dont le contenu n'a pas besoin d'être
-            sauvegardé</entry>
+            <entry>Tables whose contents there is no need to backup</entry>
 
             <entry>error_log import_marc sessions</entry>
           </row>
 
           <row>
-            <entry>Autorités</entry>
+            <entry>Authorities</entry>
 
-            <entry>Tables correspondant aux données des autorités</entry>
+            <entry>Tables relating to Authorities files</entry>
 
             <entry>authors collections publishers responsability series
             sub_collections</entry>
@@ -119,7 +106,7 @@
           <row>
             <entry>Biblio</entry>
 
-            <entry>Tables contenant les données bibliographiques</entry>
+            <entry>Bibliographic data tables </entry>
 
             <entry>analysis bulletins docs_codestat docs_location docs_section
             docs_statut docs_type exemplaires notices</entry>
@@ -128,15 +115,15 @@
           <row>
             <entry>Caddies</entry>
 
-            <entry>Les caddies, leurs procédures et leurs contenus</entry>
+            <entry>Caddies, their content and related procedures</entry>
 
             <entry>caddie caddie_content caddie_procs</entry>
           </row>
 
           <row>
-            <entry>Emprunteurs</entry>
+            <entry>Borrowers</entry>
 
-            <entry>Fichiers lecteurs, prets et réservations</entry>
+            <entry>Readers files, loans, holds</entry>
 
             <entry>empr empr_categ empr_codestat empr_custom empr_custom_lists
             empr_custom_values empr_groupe groupe pret pret_archive
@@ -146,7 +133,7 @@
           <row>
             <entry>feed_example</entry>
 
-            <entry>contenu de feed_example.sql</entry>
+            <entry>content of feed_example.sql</entry>
 
             <entry>analysis authors bulletins collections docs_codestat
             docs_location docs_section docs_statut docs_type empr empr_categ
@@ -156,9 +143,9 @@
           </row>
 
           <row>
-            <entry>TOUT</entry>
+            <entry>ALL</entry>
 
-            <entry>toutes les tables de la base</entry>
+            <entry>all the tables of the database</entry>
 
             <entry></entry>
           </row>
@@ -166,7 +153,7 @@
           <row>
             <entry>Z3950</entry>
 
-            <entry>profils des serveurs Z39.50</entry>
+            <entry>Z39.50 servers profiles</entry>
 
             <entry>z_attr z_bib z_notices z_query</entry>
           </row>
@@ -174,12 +161,12 @@
       </tgroup>
     </table>
 
-    <para>Pour créer un nouveau jeu de tables, cliquer sur <emphasis>Ajouter
-    un jeu de tables</emphasis>. Puis cochez les différentes tables qui
-    correspondent à votre jeu.</para>
+    <para>To create a nes set of tables, click on <emphasis>Add a set of
+    tables</emphasis>. Then tick the various tables corresponding to your
+    set.</para>
 
     <figure>
-      <title>Sauvegarde : édition d'un jeu de tables</title>
+      <title>Backup : editing a set of tables</title>
 
       <mediaobject>
         <imageobject>
@@ -190,17 +177,15 @@
   </sect1>
 
   <sect1 id="admin_sauv_gestsauv">
-    <title>Jeux de sauvegardes</title>
+    <title>Backup sets</title>
 
-    <para>Un jeu de sauvegarde constitue un groupe jeu de table/lieu de
-    sauvegarde.</para>
+    <para>A backup set is made up of a group of tables/backup location.</para>
 
-    <para>Sauvegarder les emprunteurs et les prêts dans
-    c:/sauvegardes_pmb/date_du_jour/bibli.sav est par exemple un jeu
-    valide.</para>
+    <para>Backing up borrowers and loans in c:/pmb_backups/date/bibli.sav is
+    valid.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Jeux de sauvegarde</title>
+      <title>Backup &gt; Backup sets</title>
 
       <mediaobject>
         <imageobject>
@@ -210,8 +195,7 @@
     </figure>
 
     <figure>
-      <title>Sauvegarde &gt; Jeux de sauvegarde, édition d'un jeu de
-      sauvegarde</title>
+      <title>Backup &gt; Backup sets &gt; editing a backup set</title>
 
       <mediaobject>
         <imageobject>
@@ -222,70 +206,66 @@
   </sect1>
 
   <sect1 id="admin_sauv_launch">
-    <title>Lancement sauvegarde</title>
+    <title>Start backup</title>
 
-    <para>Quand un jeu de sauvegarde est constitué, il n'y a plus qu'à lancer
-    la sauvegarde. Vous pouvez ici tester le bon fonctionnement de vos
-    paramètres.</para>
+    <para>When a backup set is ready, all you need to do is start the backup.
+    You can test here whether your parameters work.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Lancement sauvegarde</title>
+      <title>Backup &gt; Start backup</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_sauv_lanc.gif" />
+          <imagedata fileref="../../pmb2.1/doc/documentation/en_UK/html-admin/images/admin_sauv_lanc.gif" />
         </imageobject>
       </mediaobject>
     </figure>
 
-    <para>Il s'agit en fait de la même fenêtre qui apparaît dans un popup,
-    lors du clic d'un utilisateur sur le lien "sauv." à coté du lien "quitter"
-    en haut à droit de l'écran de PMB.</para>
+    <para>The same window pops-up when a user clicks on "backup" link near
+    "Quit" on the top right of the PMB screen.</para>
 
     <figure>
-      <title>Popup de sauvegarde</title>
+      <title>Backup pop-up</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/sauv_popup.gif" />
+          <imagedata fileref="../../pmb2.1/doc/documentation/en_UK/html-admin/images/sauv_popup.gif" />
         </imageobject>
       </mediaobject>
     </figure>
   </sect1>
 
   <sect1 id="admin_sauv_list">
-    <title>Sauvegardes faites</title>
+    <title>Backups done</title>
 
-    <para>Depuis cet écran vous pouvez consulter les sauvegardes qui ont été
-    réalisées, afficher le cas échéant les erreurs rencontrées lors de la
-    sauvegarde, rapatrier les données ou supprimer les sauvegardes de votre
-    choix (par exemple les plus anciennes).</para>
+    <para>On the following screen, you can visualize the various backups made,
+    display errors, if any, encountered during the backup, repatriate the data
+    or delete the backups of your choice (for example old ones).</para>
 
     <figure>
-      <title>Sauvegarde &gt; Sauvegardes faites</title>
+      <title>Backup &gt; Backups made</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_sauv_list.gif" />
+          <imagedata fileref="../../pmb2.1/doc/documentation/en_UK/html-admin/images/admin_sauv_list.gif" />
         </imageobject>
       </mediaobject>
     </figure>
   </sect1>
 
   <sect1>
-    <title>Restaurer une sauvegarde faite sur une autre installation de
-    PMB</title>
+    <title>Restore a backup made on another PMB installation</title>
 
-    <para>PMB dispose d'un module caché de restauration de sauvegardes
+    <para>PMB has a hidden module for the emergency restoration of backups
     :</para>
 
     <para><programlisting>http://MACHINE/PMB/admin/sauvegarde/emergency/emergency.php</programlisting></para>
 
-    <para>Ceci va demander d'uploader le fichier (attention au max_upload_size
-    de php.ini) et hop !</para>
+    <para>You will have to upload the file (pay attention to max_upload_size
+    of php.ini)</para>
 
     <figure>
-      <title>Module de restauration d'urgence</title>
+      <title>Emergency restore module</title>
 
       <mediaobject>
         <imageobject>
@@ -294,7 +274,7 @@
       </mediaobject>
     </figure>
 
-    <para>Vous aurez besoin du mot de passe de la base de données (par défaut
-    bibli/bibli)</para>
+    <para>You will be needing the database username and password (bibli/bibli
+    by default)</para>
   </sect1>
 </chapter>

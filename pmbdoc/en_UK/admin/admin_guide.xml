@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY __chap0_introduction SYSTEM "chap0_introduction.xml">
 <!ENTITY __chap00_minimum SYSTEM "chap00_minimum.xml">
 <!ENTITY __chap000_definitions SYSTEM "chap000_definitions.xml">
@@ -17,38 +18,68 @@
 <!ENTITY __chap10_sauvegardes SYSTEM "chap10_sauvegardes.xml">
 <!ENTITY __chap99_postface SYSTEM "chap99_postface.xml">
 ]>
-<book id="admin" lang="fr_FR">
+<book id="admin" lang="en_UK">
   <title>PMB: Administrator Guide</title>
 
-  <bookinfo><date>July 14 2005</date>
+  <bookinfo>
+    <date>July 14 2006</date>
 
-    <abstract><para>This guide describes the PMB administrative functions, computerized library management system, a free and opensource PHP/MySQL interface.</para>
+    <abstract>
+      <para>This guide describes the administrative functions of PMB, a free
+      and opensource ILS (Integrated Library Management System, using a
+      PHP/MySQL interface.</para>
 
-      <para>For more information, refer to <ulink url="http://www.sigb.net">www.sigb.net</ulink></para></abstract>
+      <para>For more information, refer to <ulink
+      url="http://www.sigb.net">www.sigb.net</ulink></para>
+    </abstract>
 
-    <releaseinfo>PMB version of this guide: v2.1.</releaseinfo>
+    <releaseinfo>PMB version of this guide: v2.2.</releaseinfo>
 
-    <copyright><year>2004-2005</year>
+    <copyright>
+      <year>2004-2006</year>
 
-      <holder>PMB development group</holder></copyright>
+      <holder>PMB development group</holder>
+    </copyright>
 
-    <legalnotice><para>This manual is the intellectual property of PMB Services SARL and of its contributors (their names appear with their contributions).</para>
+    <legalnotice>
+      <para>This manual is the intellectual property of PMB Services SARL and
+      of its contributors (their names appear with their
+      contributions).</para>
 
-      <para>HTML Version: authorized free distribution, Creative Commons 2.0 license, (Authorship, No commercial use). For more information refer to: <ulink url="http://creativecommons.org/licenses/by-nc/2.0/fr/">http://creativecommons.org/licenses/by-nc/2.0/fr/</ulink></para>
+      <para>HTML Version: free distribution permitted, Creative Commons 2.0
+      license, (Paternity, Not for commercial use). For more information refer
+      to: <ulink
+      url="http://creativecommons.org/licenses/by-nc/2.0/fr/">http://creativecommons.org/licenses/by-nc/2.0/fr/</ulink></para>
 
-      <para>Printed, XML and other formats version: forbidden distribution, modifications authorized for PMB developers and documentation registered contributors (CVS access). For any questions regarding other versions of the PMB documentation, please send an email to <ulink url="mailto:pmb@sigb.net?subject=documentation%20de%20PMB">pmb@sigb.net</ulink></para>
+      <para>Printed version, XML and other support : distribution forbidden,
+      modifications allowed under authority of PMB developers and registered
+      contributors for the documentation (CVS access). For any questions
+      regarding other versions of the PMB documentation, please send an email
+      to <ulink
+      url="mailto:pmb@sigb.net?subject=documentation%20de%20PMB">pmb@sigb.net</ulink></para>
 
       <para>Cover page Text:</para>
 
-      <para><literal>PMB Services SARL, 2004-2005</literal></para>
+      <para><literal>PMB Services SARL, 2004-2006</literal></para>
 
-      <para><literal>PMB is a opensource application (GNU/GPL compliant CECILL License) for media libraries.</literal></para>
+      <para><literal>PMB is a opensource application (GNU/GPL compliant CECILL
+      License) for libraries.</literal></para>
 
       <para><literal>http://www.sigb.net</literal></para>
 
-      <para><literal>Copyright &copy; 2004 PMB Services SARL</literal></para></legalnotice>
+      <para><literal>Copyright © 2006 PMB Services SARL</literal></para>
+    </legalnotice>
 
-    <othercredit><surname>This manual was produced with the Docbook XML grammar. XML source files have been edited either with a text editor, or with XMLMind XML editor (standard version) then formatted with Norman Walsh customized styles with XFC standard version. Screen captures were performed under Linux with GIMP, under Windows with PrtScr then GIMP or under MacOS X.3, then edited and converted with GIMP.</surname></othercredit></bookinfo>
+    <othercredit>
+      <surname>This manual was written using the XML DocBook grammar, the XML
+      source files were edited either with a text editor, or with XMLMind XML
+      Editor (standard version), then formatted with the help of Norman Walsh
+      personalized styles sheets under XFC standard version. The screen
+      captures were made under Linux with GIMP, under Windows with PrtScr and
+      then GIMP or under MacOS X.3, then copy-edited and converted with
+      GIMP.</surname>
+    </othercredit>
+  </bookinfo>
 
   &__chap0_introduction;
 
@@ -61,23 +92,25 @@
   &__chap2_notices;
 
   &__chap3_lecteurs;
-
+  
   &__chap4_quotas;
-
+  
   &__chap4c_calendrier;
-
+  
   &__chap4b_gestion_financiere;
-
+  
   &__chap5_utilisateurs;
-
+  
   &__chap6_imports;
-
+  
   &__chap7_conversion;
-
+  
   &__chap8_outils;
-
+  
   &__chap9_z3950;
-
+  
   &__chap10_sauvegardes;
+  
+  &__chap99_postface;
 
-  &__chap99_postface;</book>
+</book>
