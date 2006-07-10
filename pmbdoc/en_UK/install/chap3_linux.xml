@@ -3,9 +3,9 @@
   <title>PC with Linux</title>
 
   <para>Linux is a freely available operating system, powerful and rapid,
-  especially if the server on which you are installing PMB is a dedicated
-  server, functioning in text mode. For this type of use, we recommend using
-  Linux on your servers.</para>
+  especially if the server on which you are installing PMB is a dedicated one,
+  functioning in text mode. For this type of use, we recommend using Linux on
+  your servers.</para>
 
   <para>The information presented here was supplied by users on whatever
   procedures they used to install PMB on their distribution packages. These
@@ -172,15 +172,16 @@ chown -R apache.apache pmb</programlisting>
       <para>On a debian for example, the install process goes like this
       :</para>
 
-      <para><literal>tar xvzf &lt;archive.tar.gz&gt;</literal></para>
+      <para><programlisting>tar xvzf &lt;archive.tar.gz&gt;</programlisting></para>
 
       <para>Move everything to the directory of the server in which you will
       (cd /var/www)</para>
 
       <para>Assign rights :</para>
 
-      <para><literal>chown -R www-data.www.data * ; chmod -R 0640 * ; find
-      -type d -exec chmod 0777 \;</literal></para>
+      <para><programlisting>chown -R www-data.www.data * ; 
+chmod -R 0640 * ; 
+find -type d -exec chmod 0777 \;</programlisting></para>
 
       <para>[Ed note. As from here, you can use the quick configuration of the
       database, described earlier in this guide : <citetitle>Configuring the
@@ -195,10 +196,8 @@ chown -R apache.apache pmb</programlisting>
       <para>Create a dedicated user (highly recommended and adapted to your
       case)</para>
 
-      <para><literal>GRANT ALL ON PMB.* TO 'admin'@'localhost' IDENTIFIED BY
-      'password';</literal></para>
-
-      <para><literal>flush privileges ;</literal></para>
+      <para><programlisting>GRANT ALL ON PMB.* TO 'admin'@'localhost' IDENTIFIED BY 'password';
+flush privileges ;</programlisting></para>
 
       <para>And you start the install process as indicated in the
       documentation.</para>
@@ -257,16 +256,10 @@ chown -R apache.apache pmb</programlisting>
       <para><emphasis role="bold">Preparing the installation
       :</emphasis></para>
 
-      <para><literal>mkdir /root/php cd /root/php </literal></para>
-
-      <para><literal>tar -zvxf /root/my_downloads/yaz-2.0.9.tar.gz
-      </literal></para>
-
-      <para><literal>tar -zvxf /root/my_downloads/php-4.3.4.tar.gz
-      </literal></para>
-
-      <para><literal>tar -zvxf /root/my_downloads/apache_1.3.29.tar.gz
-      </literal></para>
+      <para><programlisting>mkdir /root/php cd /root/php 
+tar -zvxf /root/my_downloads/yaz-2.0.9.tar.gz 
+tar -zvxf /root/my_downloads/php-4.3.4.tar.gz
+tar -zvxf /root/my_downloads/apache_1.3.29.tar.gz </programlisting></para>
 
       <para>Close the door of your office, unplug the telephone... in short,
       create an atmosphere conducive to an installation in all quietude. In

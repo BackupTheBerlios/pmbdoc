@@ -46,13 +46,13 @@
 
       <itemizedlist>
         <listitem>
-          <para>Microsoft Windows 2000 ou XP</para>
+          <para>Microsoft Windows 2000 or XP</para>
         </listitem>
       </itemizedlist>
 
       <itemizedlist>
         <listitem>
-          <para>EasyPHP 1.7 or 1.8</para>
+          <para>EasyPHP 1.8</para>
         </listitem>
       </itemizedlist>
     </sect2>
@@ -96,7 +96,7 @@
             </listitem>
 
             <listitem>
-              <para>A MySQL database server, 4.0 or 4.1 version</para>
+              <para>A MySQL database server, 4.0 version or higher</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -108,9 +108,9 @@
 
           <itemizedlist>
             <listitem>
-              <para>A new generation web browser (MS I.E. 6, Netscape 7, ...)
-              platform independent : Windows, Linux, MacOS, UNIX, Solaris,
-              BeOS...</para>
+              <para>A new generation web browser (MS I.E. 6, Mozilla Firefox,
+              Netscape 7, ...) platform independent : Windows, Linux, MacOS,
+              UNIX, Solaris, BeOS...</para>
             </listitem>
 
             <listitem>
@@ -124,11 +124,11 @@
         </listitem>
       </itemizedlist>
 
-      <para>It is possible to havePMB functioning on a standalone. In this
-      case, server and client are one and same machine. In this case, the
-      server's network address will be http://localhost/ or the IP address
-      http://127.0.0.1/ both addresses directing to the local machine, that
-      is, the client computer itself.</para>
+      <para>It is possible to make PMB function on a standalone. In this case,
+      server and client are one and same machine. The server's network address
+      will be http://localhost/ or the IP address http://127.0.0.1/ both
+      addresses directing to the local machine, that is, the client computer
+      itself.</para>
 
       <para>Similarly client and server can be different, either on the
       library's local network or via the Internet. Likewise it is possible to
@@ -227,7 +227,7 @@
     <para><emphasis><emphasis>This extension, optional, allows you to retrieve
     the file types of electronic documents cleanly. By default, PMB will use
     the file extension to find its children. Think about commenting (creating
-    if need be) the line</emphasis></emphasis></para>
+    if necessary) the line</emphasis></emphasis></para>
 
     <para><emphasis><emphasis>mime_magic.magicfile =
     "c:\easyphp\php\magic.mime"</emphasis></emphasis></para>
@@ -236,10 +236,10 @@
     magic.mime.</emphasis></emphasis></para>
 
     <para><emphasis><emphasis>For an installation on Linux, the parameters of
-    php.ini are the same except for ".so" extensions which may well force you
-    to restart the compilation if you haven't got the latest up-to-date
-    versions. Fortunately some distributions do include these packages already
-    compiled, or ready for download on the web without necessitating any
+    php.ini are identical except for ".so" extensions. You may have to restart
+    the compilation if you haven't got the latest updates. Fortunately some
+    distributions do include these packages already compiled, or ready for
+    download on the web without necessitating any
     compilation.</emphasis></emphasis></para>
 
     <para><emphasis><emphasis>Consult the section on your operating system in

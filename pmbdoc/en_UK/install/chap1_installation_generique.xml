@@ -46,7 +46,7 @@
       <para><emphasis><emphasis role="bold">Caution : </emphasis><emphasis>IF
       YOU ARE NOT USING THIS PROCEDURE, THINK ABOUT DELETING THE FILES
       INSTALL.PHP and INSTALL.REP.PHP. FURTHERMORE : THINK ABOUT CHANGING THE
-      ROOT PASSWORD ON MySQL. IT IS EMPTY BY DEFAULT, THIS CONSTITUTE A
+      ROOT PASSWORD ON MySQL. IT IS EMPTY BY DEFAULT, THIS CONSTITUTES A
       POTENTIAL SECURITY RISK.</emphasis></emphasis></para>
 
       <sect3>
@@ -163,31 +163,41 @@
     <sect2>
       <title>Settings creation and version update</title>
 
-      <para>Afin de conserver la base à jour, après chaque installation ou
-      mise à jour :</para>
+      <para>In order to keep the database up-to-date, after each new
+      installation or upgrade :</para>
 
-      <para>* Click on the 'Administration' tab</para>
+      <orderedlist>
+        <listitem>
+          <para>Click on the 'Administration' tab</para>
+        </listitem>
 
-      <para>* Go to the menu on the left hand side on the Administration page,
-      click on Tools, then on Database update from among the links displayed
-      at the top section</para>
+        <listitem>
+          <para>Go to the side menu on the left on the Administration page,
+          click on Tools, then on Database update from among the links
+          displayed in the top section</para>
+        </listitem>
 
-      <para>* Click on the link 'click here to start update'</para>
+        <listitem>
+          <para>Click on the link 'click here to start update'</para>
+        </listitem>
 
-      <para>* Click on continue until a message 'Your database is up-to-date
-      in version v. xxx !' appears on screen</para>
+        <listitem>
+          <para>Click on continue until a message 'Your database is up-to-date
+          in version v. xxx !' appears on screen</para>
+        </listitem>
+      </orderedlist>
     </sect2>
   </sect1>
 
   <sect1>
     <title>Changing the administrator's password</title>
 
-    <para>We will not look at the administration of privileges and the various
-    parameter settings possibilities of PMB in this tutorial. For this consult
-    the Administrator's Guide.</para>
+    <para>We shall not look at the administration of privileges and the
+    various parameter settings possibilities of PMB in this tutorial. For
+    this, consult the Administrator's Guide.</para>
 
     <para>In order to tighten access to PMB, the next thing to do after
-    installation is to change the password of user admin.</para>
+    installation is to change the password of the user admin.</para>
 
     <para>This user is vested with full privileges in PMB and for this he
     bears the name of "Super User" by default. This user cannot be
@@ -201,7 +211,7 @@
       </listitem>
 
       <listitem>
-        <para>Go to the menu on the left hand side on the Administration page,
+        <para>Go to the side menu on the left on the Administration page,
         click on the link 'users'</para>
       </listitem>
 
@@ -230,14 +240,34 @@
 
     <para>PMB was successfully tested on the following platforms :</para>
 
-    <para>* Windows XP with EasyPHP 1.6 and 1.7</para>
+    <itemizedlist>
+      <listitem>
+        <para>Windows XP with EasyPHP 1.7 and 1.8</para>
+      </listitem>
+    </itemizedlist>
 
-    <para>* Windows 98 with EasyPHP 1.6 and 1.7</para>
+    <itemizedlist>
+      <listitem>
+        <para>Windows 98 with EasyPHP 1.6 to 1.8</para>
+      </listitem>
+    </itemizedlist>
 
-    <para>* Windows 2000 server with IIS/MySQL 3.23</para>
+    <itemizedlist>
+      <listitem>
+        <para>Windows 2000 server with IIS/MySQL 3.23</para>
+      </listitem>
+    </itemizedlist>
 
-    <para>* Linux Mandrake 8.2 with Apache 1.3.23/ MySQL 3.23</para>
+    <itemizedlist>
+      <listitem>
+        <para>Linux Mandrake 8.2 with Apache 1.3.23/ MySQL 3.23</para>
+      </listitem>
+    </itemizedlist>
 
-    <para>* MacOS X with Apache/MySQL</para>
+    <itemizedlist>
+      <listitem>
+        <para>MacOS X with Apache/MySQL</para>
+      </listitem>
+    </itemizedlist>
   </sect1>
 </chapter>
