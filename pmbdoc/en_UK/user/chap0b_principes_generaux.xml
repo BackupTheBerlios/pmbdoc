@@ -7,7 +7,7 @@
 
   <para>PMB is a web application, a "WebApp". Running on a web server (see the
   <emphasis>PMB Installation Guide</emphasis>, Section 1,
-  <emphasis>Installation under Windows,</emphasis> for more information about
+  <emphasis>Installation on Windows,</emphasis> for more information about
   Apache), PMB benefits from the flexibility of internet applications.</para>
 
   <para><emphasis role="bold">Don't use the "previous page" browser
@@ -17,11 +17,14 @@
   on the internet, it is the same in PMB.</para>
 
   <para><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
-  role="bold">Attention</emphasis></emphasis> Whenever you see on the screen a
+  role="bold">Warning</emphasis></emphasis> Whenever you see on the screen a
   message starting with <emphasis>Update </emphasis>do not click on previous
   page. Whenever you see this message, it is vital to leave the update to
   finish completely. In general, avoid using previous page if you can achieve
   the same results by clicking on one of the links visible on screen.</para>
+
+  <para>The "Reload" button of your browser enables you to reload the page
+  displayed on screen.</para>
 
   <para>Whenever you reload a page which is the result of a form (for example
   adding a new volume), the data is resubmitted to the server.</para>
@@ -62,9 +65,9 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Attention</emphasis> During important operations
-  on the database (additions, deletions), you can not stop the loading of the
-  page without interrupting the update in progress, this could risk
+  <para><emphasis role="bold">Warning</emphasis> During important operations
+  on the database (additions, deletions), you should not stop the loading of
+  the page without interrupting the update in progress, this could risk
   deterioration of the integrity of the database.</para>
 
   <para>In particular, do not click the "cancel" button when the database is
