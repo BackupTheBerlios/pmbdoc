@@ -11,7 +11,7 @@
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="images/admin_outils_home.gif" />
+        <imagedata fileref="../../../../../../../pmb/doc/documentation/en_UK/html-admin/images/admin_outils_home.gif" />
       </imageobject>
     </mediaobject>
   </figure>
@@ -66,16 +66,16 @@
     that will get me the total count of current loans to borrowers over 65
     years old.</para>
 
-    <para>I ask my administrator for a stored procedure. He will create a
-    query called "Current loans / &gt; 65 years old" (title example). The SQL
-    code for the query will be a simple ""SELECT COUNT (*) FROM empr, prets
-    WHERE pret.empr_id=empr_id AND (2006-empr_year&gt;=65)"</para>
+    <para>I ask my administrator for a stored procedure. He creates a query
+    called "Current loans / &gt; 65 years old" (title example). The SQL code
+    for the query is a simple ""SELECT COUNT (*) FROM empr, prets WHERE
+    pret.empr_id=empr_id AND (2006-empr_year&gt;=65)"</para>
 
     <para>I can access the query created by the administrator from the
     Management tab. However for my statistics, I need the same information but
-    for borrowers aged 30 to 65 years old and under 30 years old. Furthermore,
-    I must execute my query every year. In 2007 the previous query will not
-    give the correct results.</para>
+    for borrowers aged 30 to 65 and under 30 years. Furthermore, I must
+    execute my query every year. In 2007 the previous query will not give the
+    correct results.</para>
 
     <para>The administrator will then create a query with some parameters
     enclosed between four exclamation marks like !!current_year!! The
@@ -93,55 +93,64 @@
     </figure>
 
     <para>Stored procedures are among the advanced features of PMB. To create
-    them you need knowledge of MySQL syntax, to use them simply access
-    Management &gt; Statistics &gt; SQL Queries. This high degree of
+    them you need to have a good knowledge of MySQL syntax, to use them simply
+    access Management &gt; Statistics &gt; SQL Queries. This high degree of
     statistics customization is rarely directly available to the user in
     proprietary softwares.</para>
 
     <sect2>
       <title>Examples of stored procedure usage</title>
 
+      <para>To find out the names of fields to use in your queries open the
+      documentation page on the nucleus of PMB. It lists and describes all the
+      tables of the database, the various fields and fields' attributes
+      :</para>
+
+      <para><emphasis role="bold">pmb/doc/noyau/links.html</emphasis></para>
+
       <sect3>
-        <title>Stored procedures : creating a query according to the status of
-        the items</title>
+        <title>Stored procedures : creating a query according to items
+        status</title>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat, 
 docs_statut where idcode=expl_codestat and expl_section in (!!section!!) and 
 expl_statut='!!status!!' group by idcode, codestat_libelle order by idcode</programlisting>
 
-        <para>You have just then to customize the query parameters by clicking
-        on "Configure parameters".</para>
+        <para>All you have to do is to enter your settings for !!statut!! and
+        !!section!! by clicking on "Configure parameters".</para>
       </sect3>
 
       <sect3>
-        <title>Using parameters in queries</title>
+        <title>Using your own customized fields in queries</title>
 
-        <para><emphasis>I have created a Purchase_year text field in the
-        personalised fields of the Exemplaires (items) table. I would like to
-        use it for my own statistics, but I can't find this field in the
-        tables. ?</emphasis></para>
+        <para><emphasis><emphasis>I have created a
+        <citetitle>Purchase_year</citetitle> text field for copies in Items
+        &gt; new field. I would like to use it for my statistics, but I can't
+        find the field in the tables.</emphasis></emphasis></para>
 
-        <para><emphasis>Here is the query I have created to get the number of
-        items by statistic code :</emphasis></para>
+        <para><emphasis role="bold"><emphasis>Here is the query I have created
+        to get the number of items using the statistical code
+        :</emphasis></emphasis></para>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat 
 where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</programlisting>
 
-        <para><emphasis>What must I do to only see at the end of the query the
-        items bought per year Y</emphasis></para>
+        <para><emphasis><emphasis>What must I do when I execute the query to
+        display only the items purchased in year <citetitle>y</citetitle>
+        ?</emphasis></emphasis></para>
 
-        <para>Personalised fields don't appear like field in the database but
-        are written in various tables.</para>
+        <para>Customized fields do not appear as fields in the database but
+        are written within various tables.</para>
 
-        <para>About a items field, you have to add in the FROM clause of your
-        query : expl_custom_values, expl_custom and add the filter and join
-        condition in the WHERE clause :</para>
+        <para>If it's an items field, you will have to add in the FROM clause
+        of your query : expl_custom_values, expl_custom, and to specify links
+        and condition, the filter in the WHERE clause :</para>
 
         <para><programlisting>expl_custom_small_text='!!purchase_year_param!!'</programlisting></para>
 
-        <para><emphasis role="bold">EXPLANATION</emphasis>: filter : creation
-        of a query parameter, you need to click afterwards on "Configure
-        parameters" to validate it.</para>
+        <para><emphasis role="bold">EXPLANATION</emphasis>: filter : after
+        creating a query parameter, Click on "Configure parameters" to
+        indicate it's a parameter and define input options.</para>
 
         <programlisting>texte and name='Purchase_year'</programlisting>
 
@@ -150,16 +159,15 @@ where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</pr
 
         <programlisting>and expl_id=expl_custom_origine</programlisting>
 
-        <para><emphasis role="bold">EXPLANATION</emphasis>: join condition
-        between exemplaires (items) table and the items customized fields
-        table.</para>
+        <para><emphasis role="bold">EXPLANATION</emphasis>: the link between
+        the items table and the one with your items customized data.</para>
 
         <programlisting>and expl_custom_champ=idchamp</programlisting>
 
         <para><emphasis role="bold">EXPLANATION</emphasis>: the join condition
-        between the field name table and the field value table.</para>
+        between field names table and field values table.</para>
 
-        <para>The final query is :</para>
+        <para>The final query looks like this :</para>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre 
 from exemplaires, expl_custom_values, expl_custom, docs_codestat 
@@ -168,7 +176,7 @@ and name='Purchase_year' and expl_id=expl_custom_origine
 and expl_custom_champ=idchamp group by idcode, codestat_libelle 
 order by idcode</programlisting>
 
-        <para><emphasis role="bold">CAUTION </emphasis>: Carriage return is
+        <para><emphasis role="bold">WARNING </emphasis>: Carriage return is
         not supported in queries.</para>
       </sect3>
     </sect2>
@@ -177,14 +185,16 @@ order by idcode</programlisting>
   <sect1 id="admin_alter">
     <title>Database update</title>
 
-    <para>If you update PMB version, you will replace all the PMB files by a
-    new version downloaded from www.sigb.net. But this update affect only PMB
-    and not your database. To update the database structure, use Tools &gt;
-    Update database. This update is not destructive. You won't loose any
-    information. You are sure to preserve the integrity of your data and to
-    benefit from the latest new features of PMB.</para>
+    <para>Whenever you update PMB, you replace all the files in the PMB
+    installation directory with those of a new version downloaded from
+    www.sigb.net. But this update affects PMB only and not your database. To
+    update the structure of your database, use Tools &gt; Database update.
+    This update does not destroy anything. You won't lose any information and
+    while you will benefit from the latest new features of PMB, you have the
+    assurance the integrity of your data will be preserved.</para>
 
-    <remark>This tool is mandatory after a PMB update.</remark>
+    <remark>Tools &gt; Database update is a must after updating to a new
+    version of PMB.</remark>
 
     <figure>
       <title>Tools &gt; Database update</title>
@@ -196,8 +206,8 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para>Click on the message "Click here to start the update" to see if your
-    database need updating.</para>
+    <para>Click on the message <citetitle>Click here to start the
+    update</citetitle> to see if your database needs updating.</para>
 
     <figure>
       <title>No database update needed</title>
@@ -219,12 +229,12 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para>In all the next screens (the more your PMB version was old, the more
-    the updates will be numerous), Click on the link <emphasis>click here to
-    proceed</emphasis>.</para>
+    <para>In all the screens following (the more your PMB version is old, the
+    more the updates will be numerous), Click on the link <emphasis>Click here
+    to continue</emphasis>.</para>
 
     <figure>
-      <title>An array displaying the various update actions and their
+      <title>A screen capture displaying various update actions and their
       results</title>
 
       <mediaobject>
@@ -234,17 +244,17 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para>Continue to click on the message <emphasis>click here to
-    proceed</emphasis> until you get the message "Your database is up to date
-    in version X.X (this version number is not the same as the PMB version
-    number). You have then ended the database update process.</para>
+    <para>Continue to click on the message <emphasis>Click here to
+    continue</emphasis> until the message "Your database is up to date in
+    version X.X appears (this version number is not the same as the PMB
+    version number). The database update process is now completed.</para>
   </sect1>
 
   <sect1 id="admin_misc_tables">
-    <title>Table descriptions</title>
+    <title>Tables description</title>
 
-    <para>This table descriptions correspond to the basic informations on
-    MySQL tables. A deeper documentation is available at the URL
+    <para>This tables description corresponds to the basic description of the
+    database MySQL tables. A more detailed documentation is available at
     http://localhost/pmb/doc/noyau</para>
 
     <remark>"localhost" and "pmb" need to be adapted according to your
@@ -256,12 +266,12 @@ order by idcode</programlisting>
   <sect1 id="admin_misc_mysql">
     <title>MySQL maintenance</title>
 
-    <para>You will find here an interface to the MySQL main maintenance tools
-    : checking, analysing, repairing and optimising tables.</para>
+    <para>You will find here an interface to the main maintenance tools of
+    MySQL : checking, analysing, repairing and optimising tables.</para>
 
-    <para><emphasis role="bold">Note</emphasis> MySQL optimisation doesn't
-    correspond to the re indexation accessible from the Database cleanup, PMB
-    manages his own data index.</para>
+    <para><emphasis role="bold">Note.</emphasis> Optimising MySQL does not
+    correspond to re-indexing accessible from Database cleanup. PMB manages
+    its own data index.</para>
 
     <para>There are four MySQL maintenance tools :</para>
 
@@ -276,7 +286,7 @@ order by idcode</programlisting>
 
       <listitem>
         <para>repair tables. Allows you to repair the database, if the
-        checking or analysing tools have reported errors.</para>
+        checking or analysing tools report errors.</para>
       </listitem>
 
       <listitem>
@@ -290,7 +300,7 @@ order by idcode</programlisting>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_outils_maintenance.gif" />
+          <imagedata fileref="./images/admin_outils_maintenance.gif" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -299,62 +309,141 @@ order by idcode</programlisting>
   <sect1 id="admin_outils_parametres">
     <title>Parameters</title>
 
-    <para>With this tool, you can change/view a lot of parameters from you
-    library name, which will be used on all the documents created by PMB, to
-    the weather displayed in the OPAC, without forgetting various parameters
-    customising ergonomy or even the application structure.</para>
+    <para>This tool gives you access various parameters like the name of your
+    library that will be used on all documents created by PMB, displaying the
+    weather in the OPAC, as well as various parameters relating to the
+    ergonomy or even the very structure of the application.</para>
 
     <para>Don't change a parameter value unless you know exactly the effect it
-    will generate, and make a backup before.</para>
+    will generate, make a backup beforehand.</para>
 
     <para>The parameters types are listed on the screen. To display the
-    various parameters corresponding to one given type, just click on the +
-    icon to expand a type. Equally, you can use the - icon to collapse the
-    expanded type shown on the screen.</para>
+    various parameters corresponding to a given type, click on the + icon to
+    expand it. Equally, you can use the - icon to collapse the expanded type
+    shown on the screen.</para>
 
     <para>To change a parameter value, click on the line corresponding to this
     parameter.</para>
 
-    <para>When you have saved the changes to your parameter value, the
+    <para>Once you have saved the changes to your parameter value, the
     parameter list is displayed again at the same place where you left it. The
-    last changed parameter is highlighted with another color.</para>
+    last changed parameter is highlighted with another colour.</para>
 
     <para>There are various parameters types : <link
-    linkend="admin_outils_parametres_biblio">biblio</link> ; <link
+    linkend="admin_outils_parametres_biblio">acquisitions</link> ; <link
     linkend="admin_outils_parametres_categories">categories</link> ; <link
-    linkend="admin_outils_parametres_empr">empr</link> ; <link
-    linkend="admin_outils_parametres_mailrelanceadhesion">mailrelanceadhesion</link>
-    ; <link linkend="admin_outils_parametres_mailretard">mailretard</link> ;
-    <link linkend="admin_outils_parametres_opac">opac</link> ; <link
-    linkend="admin_outils_parametres_pdfcartelecteur">pdfcartelecteur</link> ;
-    <link
-    linkend="admin_outils_parametres_pdflettreadhesion">pdflettreadhesion</link>
-    ; <link
-    linkend="admin_outils_parametres_pdflettreresa">pdflettreresa</link> ;
-    <link
-    linkend="admin_outils_parametres_pdflettreretard">pdflettreretard</link> ;
-    <link linkend="admin_outils_parametres_pmb">pmb</link> ; <link
-    linkend="admin_outils_parametres_sauvegarde">sauvegarde</link> et <link
-    linkend="admin_outils_parametres_z3950">z3950</link></para>
+    linkend="admin_outils_parametres_empr">selective dissemination of
+    information</link> ; <link linkend="???">borrowers</link> ; <link
+    linkend="???">LDAP</link> ; <link
+    linkend="admin_outils_parametres_mailrelanceadhesion">membership reminder
+    email</link> ; <link linkend="admin_outils_parametres_mailretard">overdues
+    email</link> ; <link linkend="admin_outils_parametres_opac">opac</link> ;
+    <link linkend="admin_outils_parametres_pdfcartelecteur">borrowers
+    card</link> ; <link
+    linkend="admin_outils_parametres_pdflettreadhesion">membership reminder
+    notice</link> ; <link
+    linkend="admin_outils_parametres_pdflettreresa">holds confirmation
+    notice</link> ; <link
+    linkend="admin_outils_parametres_pdflettreretard">overdue notice</link> ;
+    <link linkend="admin_outils_parametres_pmb">general parameters</link> ;
+    <link linkend="admin_outils_parametres_sauvegarde">backup</link> ; <link
+    linkend="???">thesaurus</link> and <link
+    linkend="admin_outils_parametres_z3950">Z39.50 options</link></para>
+
+    <para><emphasis role="bold">Important</emphasis> : You can use one
+    parameter value in another parameter. For example : if you wish to use the
+    parameter value of type <citetitle>borrowers card</citetitle> sub-type
+    <citetitle>biblio_name</citetitle> in type <citetitle>membership reminder
+    notice</citetitle> sub-type <citetitle>fdp</citetitle> , enter <emphasis
+    role="bold">$borrowers card_biblio_name :</emphasis> in
+    <citetitle>fdp</citetitle>, and you'll get this as result "The officer in
+    charge of <emphasis role="bold">$borrowers card_biblio_name"</emphasis>.
+    The syntax is as follows $typeparam_sstypeparam. To retrieve this
+    information click on a parameter, the first two lines indicate the
+    parameter type and sub-type respectively.</para>
 
     <sect2 id="admin_outils_parametres_biblio">
-      <title>biblio</title>
+      <title>Acquisitions</title>
 
-      <para><emphasis>Obsolete</emphasis>.</para>
+      <para><emphasis><emphasis>Tha acquisitions module of PMB
+      offers...</emphasis></emphasis></para>
 
-      <para>The <emphasis>biblio</emphasis> type has been replaced in version
-      2.0 by informations linked to the items localisation. For more details,
-      see the items, Locations section,</para>
+      <table>
+        <title>Acquisitions type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry align="left">subtype</entry>
+
+              <entry align="left">value</entry>
+
+              <entry align="left">comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>active</entry>
+
+              <entry>1</entry>
+
+              <entry>Acquisitions module enabled. 0 : No. 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>budget</entry>
+
+              <entry>1</entry>
+
+              <entry>Use budget for orders. 0 : Optional. 1 :
+              Mandatory.</entry>
+            </row>
+
+            <row>
+              <entry>email_sugg</entry>
+
+              <entry>1</entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry>format</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry>gestion_tva</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+
+            <row>
+              <entry>poids_sugg</entry>
+
+              <entry></entry>
+
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
     </sect2>
 
     <sect2 id="admin_outils_parametres_categories">
-      <title>categories</title>
+      <title>Subject headings</title>
 
       <para>The <emphasis>categories</emphasis> type correspond to the PMB
       categories (integrated thesaurus).</para>
 
       <table>
-        <title>Categories type</title>
+        <title>Subject headings type</title>
 
         <tgroup cols="3">
           <thead>
@@ -373,16 +462,67 @@ order by idcode</programlisting>
 
               <entry>1</entry>
 
-              <entry>Display categories with no notices : 0= No, 1 Yes</entry>
+              <entry>Display subject headings with no records : 0= No, 1
+              Yes</entry>
             </row>
 
             <row>
               <entry>term_search_n_per_page</entry>
 
-              <entry>500</entry>
+              <entry>10</entry>
 
-              <entry>Number of result items displayed per page when searching
-              by term in the categories</entry>
+              <entry>Number of items displayed per page when searching by term
+              in Subject headings</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2>
+      <title>Selective Dissemination of Information</title>
+
+      <para>Le type Diffusion sélective de l'information (dsi) désigne les
+      informations liés aux emprunteurs.</para>
+
+      <table>
+        <title>S.D.I. type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry align="left">subtype</entry>
+
+              <entry align="left">value</entry>
+
+              <entry align="left">comment</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>active</entry>
+
+              <entry>0</entry>
+
+              <entry>S.D.I. enabled ? 0 = No. 1 = Yes</entry>
+            </row>
+
+            <row>
+              <entry>auto</entry>
+
+              <entry>0</entry>
+
+              <entry>S.D.I. enabled automatically ? 0 = No 1 = Yes</entry>
+            </row>
+
+            <row>
+              <entry>insc_categ</entry>
+
+              <entry>0</entry>
+
+              <entry>Automatically set in inboxes when creating a category of
+              readers ? 0 = No 1 = Yes</entry>
             </row>
           </tbody>
         </tgroup>
@@ -390,7 +530,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_empr">
-      <title>empr</title>
+      <title>Borrowers</title>
 
       <para>The empr type point out informations related to borrowers.</para>
 
@@ -414,16 +554,30 @@ order by idcode</programlisting>
 
               <entry>1</entry>
 
-              <entry>Optional birth year : 0 &gt; No it is mandatory, 1
+              <entry>Birth year (optional) : 0 = No it is mandatory. 1 =
               Yes</entry>
+            </row>
+
+            <row>
+              <entry>corresp_import</entry>
+
+              <entry></entry>
+
+              <entry></entry>
             </row>
           </tbody>
         </tgroup>
       </table>
     </sect2>
 
+    <sect2>
+      <title>LDAP</title>
+
+      <para></para>
+    </sect2>
+
     <sect2 id="admin_outils_parametres_mailrelanceadhesion">
-      <title>mailrelanceadhesion</title>
+      <title>Membership reminder email</title>
 
       <para>The <emphasis>mailrelanceadhesion</emphasis> type correspond to
       the e-mails customisation related to proposal for renewal of soon
@@ -486,7 +640,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailretard">
-      <title>mailretard</title>
+      <title>Overdues email</title>
 
       <para>The <emphasis>mailretard</emphasis> type point out to e-mail
       parameters for a overdue return.</para>
@@ -558,7 +712,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_opac">
-      <title>opac</title>
+      <title>OPAC</title>
 
       <para>The <emphasis>opac</emphasis> type correspond to the OPAC
       custmosation. The OPAC is highly customisable and thus has a lot of
@@ -1249,7 +1403,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdfcartelecteur">
-      <title>pdfcartelecteur</title>
+      <title>Borrower's card</title>
 
       <para>The <emphasis>pdfcartelecteur</emphasis> parameters correspond to
       the printing parameters of a borrower card.</para>
@@ -1335,7 +1489,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreadhesion">
-      <title>pdflettreadhesion</title>
+      <title>Membership reminder notice</title>
 
       <para>The <emphasis>pdflettreadhesion</emphasis> parameters correspond
       to the parameters printing of almost expired adhesion letters.</para>
@@ -1430,7 +1584,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreresa">
-      <title>pdflettreresa</title>
+      <title>Holds confirmation notice</title>
 
       <para>The <emphasis>pdflettreresa<emphasis> parameters correspond to
       printing parameters of holds confirmation
@@ -1590,7 +1744,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreretard">
-      <title>pdflettreretard</title>
+      <title>Overdue notice</title>
 
       <para>The <emphasis>pdflettreretard</emphasis> type point out printing
       parameters for overdue items claim letter.</para>
@@ -1750,7 +1904,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pmb">
-      <title>pmb</title>
+      <title>General parameters</title>
 
       <para>The <emphasis>pmb</emphasis> parameters are general application
       parameters</para>
@@ -1906,7 +2060,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_sauvegarde">
-      <title>sauvegarde</title>
+      <title>Backup</title>
 
       <para>The <emphasis>sauvegarde</emphasis> parameters correspond to the
       PMB backup procedures.</para>
@@ -1948,8 +2102,14 @@ order by idcode</programlisting>
       </table>
     </sect2>
 
+    <sect2>
+      <title>Thesaurus</title>
+
+      <para></para>
+    </sect2>
+
     <sect2 id="admin_outils_parametres_z3950">
-      <title>z3950</title>
+      <title>Z39.50 options</title>
 
       <para>The <emphasis>z3950</emphasis> are for z3950 search in the
       cataloging tab.</para>
