@@ -268,7 +268,7 @@ order by idcode</programlisting>
     <title>MySQL maintenance</title>
 
     <para>You will find here an interface to the main maintenance tools of
-    MySQL : checking, analysing, repairing and optimising tables.</para>
+    MySQL : checking, analyzing, repairing and optimizing tables.</para>
 
     <para><emphasis role="bold">Note.</emphasis> Optimising MySQL does not
     correspond to re-indexing accessible from Database cleanup. PMB manages
@@ -282,7 +282,7 @@ order by idcode</programlisting>
       </listitem>
 
       <listitem>
-        <para>analyse tables.</para>
+        <para>analyze tables.</para>
       </listitem>
 
       <listitem>
@@ -697,8 +697,8 @@ order by idcode</programlisting>
         </tgroup>
       </informaltable>
 
-      <para><emphasis><emphasis role="bold">Layout options for
-      quotations</emphasis></emphasis></para>
+      <para><emphasis><emphasis role="bold">Layout options for quotation
+      requests </emphasis></emphasis></para>
 
       <informaltable>
         <tgroup cols="3">
@@ -1217,8 +1217,8 @@ order by idcode</programlisting>
     <sect2 id="admin_outils_parametres_dsi">
       <title>Selective Dissemination of Information</title>
 
-      <para>Le type Diffusion sélective de l'information (dsi) désigne les
-      informations liés aux emprunteurs.</para>
+      <para>The <citetitle>S.D.I.</citetitle> type relates to readers'
+      profiles.</para>
 
       <table>
         <title>S.D.I. type</title>
@@ -1226,7 +1226,7 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry align="left">subtype</entry>
+              <entry align="left">sub-type</entry>
 
               <entry align="left">value</entry>
 
@@ -1267,7 +1267,8 @@ order by idcode</programlisting>
     <sect2 id="admin_outils_parametres_empr">
       <title>Borrowers</title>
 
-      <para>The empr type point out informations related to borrowers.</para>
+      <para>The <citetitle>borrowers</citetitle> type relates to
+      borrowers.</para>
 
       <table>
         <title>Borrowers type</title>
@@ -1275,7 +1276,7 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>subtype</entry>
+              <entry>sub-type</entry>
 
               <entry>value</entry>
 
@@ -1298,8 +1299,8 @@ order by idcode</programlisting>
 
               <entry></entry>
 
-              <entry>Table de correspondances colonnes/champs en import de
-              lecteurs à partir d'un fichier ASCII</entry>
+              <entry>Columns/Fields table for the import of readers from an
+              ASCII file</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1309,15 +1310,117 @@ order by idcode</programlisting>
     <sect2 id="admin_outils_parametres_ldap">
       <title>LDAP</title>
 
-      <para></para>
+      <para>The <citetitle>ldap</citetitle> type refers to the setting of an
+      LDAP connection to enable an automatic identification. Using an LDAP
+      directory, you can customize PMB so that a user is immediately
+      identified.</para>
+
+      <table>
+        <title>ldap type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry align="left">sub-type</entry>
+
+              <entry align="left">value</entry>
+
+              <entry align="left">explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>accessible</entry>
+
+              <entry>0</entry>
+
+              <entry>LDAP accessible ?</entry>
+            </row>
+
+            <row>
+              <entry>base_dn</entry>
+
+              <entry></entry>
+
+              <entry>Root of LDAP domain name</entry>
+            </row>
+
+            <row>
+              <entry>binddn</entry>
+
+              <entry></entry>
+
+              <entry>Description of link : building the binddn chain to bind
+              LDAP server authentication in the OPAC</entry>
+            </row>
+
+            <row>
+              <entry>fields</entry>
+
+              <entry></entry>
+
+              <entry>Fields of LDAP server</entry>
+            </row>
+
+            <row>
+              <entry>filter</entry>
+
+              <entry></entry>
+
+              <entry>LDAP server, IP or host</entry>
+            </row>
+
+            <row>
+              <entry>groups</entry>
+
+              <entry></entry>
+
+              <entry>LDAP server groups</entry>
+            </row>
+
+            <row>
+              <entry>lang</entry>
+
+              <entry></entry>
+
+              <entry>LDAP serveur language</entry>
+            </row>
+
+            <row>
+              <entry>port</entry>
+
+              <entry></entry>
+
+              <entry>LDAP server port</entry>
+            </row>
+
+            <row>
+              <entry>proto</entry>
+
+              <entry></entry>
+
+              <entry>LDAP protocol version : 2 or 3</entry>
+            </row>
+
+            <row>
+              <entry>server</entry>
+
+              <entry></entry>
+
+              <entry>LDAP server : IP or host</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailrelanceadhesion">
       <title>Membership reminder email</title>
 
-      <para>The <emphasis>mailrelanceadhesion</emphasis> type correspond to
-      the e-mails customisation related to proposal for renewal of soon
-      expired adhesion.</para>
+      <para>The <emphasis>Membership reminder email</emphasis> type
+      corresponds to email customization inviting readers to renew their
+      membership with the library due to lapse shortly.</para>
 
       <table>
         <title>Membership reminder email</title>
@@ -1325,7 +1428,7 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>subtype</entry>
+              <entry>sub-type</entry>
 
               <entry>value</entry>
 
@@ -1337,9 +1440,9 @@ order by idcode</programlisting>
             <row>
               <entry>fdp</entry>
 
-              <entry>The library manager.</entry>
+              <entry>The librarian.</entry>
 
-              <entry>Formulate courtesy in the trailer of the page</entry>
+              <entry>Signature</entry>
             </row>
 
             <row>
@@ -1347,28 +1450,26 @@ order by idcode</programlisting>
 
               <entry>Dear Sir or Madam,</entry>
 
-              <entry>Mail header of the adhesion renewal proposal</entry>
+              <entry>Email header</entry>
             </row>
 
             <row>
               <entry>objet</entry>
 
-              <entry>Bibliothèque : votre abonnement</entry>
+              <entry>Library membership</entry>
 
-              <entry>Subject of the adhesion renewal proposal</entry>
+              <entry>Subject of email : Membership renewal</entry>
             </row>
 
             <row>
               <entry>texte</entry>
 
-              <entry>Votre abonnement à la bibliothèque municipale arrive à
-              échéance le !!date_fin_adhesion!!. Nous vous remercions de
-              penser à le renouveler lors de votre prochaine visite.
-              Cordialement,</entry>
+              <entry>Votre membership will lapse on !!date_fin_adhesion!!.
+              Thank you for sparing some time to renew it on your next visit.
+              Yours faithfully</entry>
 
-              <entry>Text of the adhesion renewal proposal,
-              !!date_fin_adhesion!! will be replaced at printing time by the
-              borrower adhesion end date</entry>
+              <entry>Bodytext of email : !!date_fin_adhesion!! will be
+              replaced with membership expiry date when printing</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1376,18 +1477,18 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailretard">
-      <title>Overdues email</title>
+      <title>Overdue email</title>
 
-      <para>The <emphasis>mailretard</emphasis> type point out to e-mail
-      parameters for a overdue return.</para>
+      <para>The <emphasis>overdue mail</emphasis> type corresponds parameters
+      for an overdue notice by email for unreturned items.</para>
 
       <table>
-        <title>Mailretard type</title>
+        <title>Overdue mail type</title>
 
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>subtype</entry>
+              <entry>sub-type</entry>
 
               <entry>value</entry>
 
@@ -1404,8 +1505,7 @@ order by idcode</programlisting>
               mail@mail.mail pour étudier la possibilité de prolonger ces
               prêts ou de ramener les ouvrages concernés.</entry>
 
-              <entry>Text displayed after the overdue return list in the
-              mail.</entry>
+              <entry>Bodytext printed after list of overdue items</entry>
             </row>
 
             <row>
@@ -1415,8 +1515,7 @@ order by idcode</programlisting>
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Text displayed before the overdue return list in the
-              mail.</entry>
+              <entry>Bodytext printed before list of overdue items</entry>
             </row>
 
             <row>
@@ -1424,7 +1523,7 @@ order by idcode</programlisting>
 
               <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
 
-              <entry>Signature of the overdue return mail</entry>
+              <entry>Signature</entry>
             </row>
 
             <row>
@@ -1432,7 +1531,7 @@ order by idcode</programlisting>
 
               <entry>Madame, Monsieur</entry>
 
-              <entry>Header of the mail</entry>
+              <entry>Email header</entry>
             </row>
 
             <row>
@@ -1440,7 +1539,7 @@ order by idcode</programlisting>
 
               <entry>Documents en retard</entry>
 
-              <entry>Subject of the overdue return mail.</entry>
+              <entry>Subject of email : Overdue items</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1973,7 +2072,7 @@ order by idcode</programlisting>
             <row>
               <entry>resa_dispo</entry>
 
-              <entry>&nbsp;</entry>
+              <entry></entry>
 
               <entry>Enable holds for available documents in the OPAC 1: Yes
               or 0: No</entry>
@@ -1999,7 +2098,7 @@ order by idcode</programlisting>
             <row>
               <entry>show_100cases_browser</entry>
 
-              <entry>&nbsp;</entry>
+              <entry></entry>
 
               <entry>100 Categories display : 0 : No 1 : Yes
               categories</entry>
@@ -2482,11 +2581,12 @@ order by idcode</programlisting>
     <sect2 id="admin_outils_parametres_pdflettreretard">
       <title>Overdue notice</title>
 
-      <para>The <emphasis>pdflettreretard</emphasis> type point out printing
-      parameters for overdue items claim letter.</para>
+      <para>The <emphasis>overdue notice</emphasis> type corresponds
+      parameters for an overdue notice in print format for unreturned
+      items.</para>
 
       <table>
-        <title>Type pdflettreretard</title>
+        <title>Overdue notice type</title>
 
         <tgroup cols="3">
           <thead>
@@ -2775,7 +2875,7 @@ order by idcode</programlisting>
             <row>
               <entry>serial_link_article</entry>
 
-              <entry>&nbsp;0</entry>
+              <entry>0</entry>
 
               <entry>???Préremplissage du lien des dépouillements avec le lien
               de la notice mère en catalogage des périodiques ? 0 : No 1 :
@@ -2823,7 +2923,7 @@ order by idcode</programlisting>
 
               <entry></entry>
 
-              <entry>&nbsp;</entry>
+              <entry></entry>
             </row>
 
             <row>
@@ -2831,7 +2931,7 @@ order by idcode</programlisting>
 
               <entry></entry>
 
-              <entry>&nbsp;</entry>
+              <entry></entry>
             </row>
           </tbody>
         </tgroup>
