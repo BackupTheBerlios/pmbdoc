@@ -3,7 +3,8 @@
   <title>Tesauro y categorías en PMB</title>
 
   <para>PMB dispone de tres tesauros que pueden cargarse durante la
-  instalación. Un tesauro es un conjunto de términos, de "categorías".</para>
+  instalación. Un tesauro es un conjunto de descriptores, de
+  "categorías".</para>
 
   <para>También puedes cargar una clasificación decimal, como la validada de
   la BM de Chambéry, o una clasificación estilo Dewey. Estas clasificaciones
@@ -12,9 +13,9 @@
   el ejemplar en la biblioteca, por ejemplo "848 MAR".</para>
 
   <para>A partir de la versión 2.2 de PMB, puedes utilizar simultáneamente
-  diferentes tesauros en PMB : es la gestión multi-tesaros. Cada uno de estos
-  tesauros puede ser traducido a diferentes lenguas. Un usaurio podrá
-  consultar un tesaurus en su idioma de uso : multi-tesaurus
+  diferentes tesauros en PMB : es la gestión multi-tesauros. Cada uno de estos
+  tesauros puede ser traducido a diferentes lenguas. Un usuario podrá
+  consultar un tesauro en su idioma de uso : multi-tesaurus
   multilingüe.</para>
 
   <sect1 id="categ_intro">
@@ -31,8 +32,8 @@
       en PMB. La gestión de las categorías corresponde a la filosofía de uso
       de un tesauro.</para>
 
-      <para><emphasis role="bold">Término del tesauros</emphasis> : sinónimo
-      de categoría en PMB.</para>
+      <para><emphasis role="bold">Descriptor del tesauros</emphasis> :
+      sinónimo de categoría en PMB.</para>
 
       <para><emphasis role="bold">Descriptor</emphasis> = término del
       tesauro.</para>
@@ -1635,32 +1636,31 @@
           </mediaobject>
         </figure>
 
-        <para>El popup de selección de una nueva categoríaLe popup de
-        sélection d'une nouvelle catégorie vous permet de choisir un des
-        thésaurus disponible. La recherche hiérarchique et la recherche par
-        termes sont disponibles. Pour plus d'informations sur les différents
-        avantages de ces modes de recherches, consulter le Guide de
-        l'utilisateur, <xref linkend="categ_search_hierar" /> et <xref
+        <para>El popup de selección de una nueva categoría permite escoger
+        entre los tesauros disponibles. La búsqueda jerárquica y la búsqueda
+        por descriptores están disponibles. Para más información sobre las
+        diferentes ventajas de estos tipos de búsquedas, consulta la Guía del
+        usuario, <xref linkend="categ_search_hierar" /> et <xref
         linkend="categ_search_terms" /></para>
       </sect3>
 
       <sect3 id="categ_multi_opac">
         <title>OPAC</title>
 
-        <para>L'OPAC de PMB permet une navigation simple pour le lecteur à
-        travers les différents thésaurus configurés dans PMB pour le
-        catalogage.</para>
+        <para>El OPAC de PMB permite una navegación simple para el usuario a
+        través de los diferentes tesauros configurados en PMB para la
+        catalogación.</para>
 
-        <para>L'activation de la gestion multi-thésaurus modifie différents
-        écrans lors des recherches de l'OPAC.</para>
+        <para>La activación de la gestión multi-tesauro modifica diferentes
+        pantallas en la búsqueda del OPAC.</para>
 
         <sect4 id="categ_multi_opac_navig">
-          <title>Navigateur par catégories</title>
+          <title>Navegación por categorías</title>
 
           <figure>
-            <title>OPAC, affichage des catégories en page d'accueil :
-            affichage du thésaurus dans la langue de l'utilisateur
-            (français)</title>
+            <title>OPAC, visualización de las categorías en la página de
+            inicio : visualización del tesauro en la lengua del usuario
+            (español)</title>
 
             <mediaobject>
               <imageobject>
@@ -1670,9 +1670,9 @@
           </figure>
 
           <figure>
-            <title>OPAC, affichage des catégories en page d'accueil :
-            affichage du thésaurus dans la langue de l'utilisateur
-            (anglais)</title>
+            <title>OPAC, visualización de las categorías en la página de
+            inicio : visualización del tesauro en la lengua del
+            usuarioaffichage du (inglés)</title>
 
             <mediaobject>
               <imageobject>
@@ -1681,34 +1681,33 @@
             </mediaobject>
           </figure>
 
-          <para>Si vous avez activé le navigateur par catégories de l'OPAC,
-          vos différents thésaurus sont affichés en page d'accueil. Pour plus
-          d'informations sur l'activation du navigateur par catégories de
-          l'OPAC, consultez le Guide de l'administrateur PMB, chapitre Outils,
-          section Paramètres.</para>
+          <para>Si has activado la navegación por categorías del OPAC, los
+          diferentes tesauros se mostrarán en la página de inicio. Para más
+          información sobre cómo activar la navegación por categorías en el
+          OPAC, consulta la Guía del administrador PMB, capítulo Herramientas,
+          sección Parámetros.</para>
 
-          <para>Seul le thésaurus affiché par défaut est visible en page
-          d'accueil. Vous pouvez accéder aux autres thésaurus en cliquant sur
-          l'onglet correspondant. Par exemple, dans l'écran ci-dessus, vous
-          pourrez afficher le thésaurus Environnement ou le thésaurus
+          <para>Solamente el tesauro por defecto es visible en la página de
+          incio. Puedes acceder a los otros tesauros haciendo clic sobre la
+          pestaña correspondiente. Por ejemplo, en la pantalla de ejemplo,
+          puedes ver el tesauro de Medipo ambiente o el tesauro
           Agneaux.</para>
 
-          <para>Selon la langue choisie par l'utilisateur (voir ci-dessus des
-          exemples pour l'anglais ou le français), les catégories du thésaurus
-          sont affichées dans la langue correspondante. Si le thésaurus est
-          partiellement ou n'est pas traduit, les catégories non traduites
-          seront affichées dans la langue par défaut du thésaurus. Pour plus
-          d'informations sur la création d'un thésaurus, consultez plus haut
-          <xref linkend="categ_multi_create" /></para>
+          <para>Según la lengua escogida por el usuario (ver la pantalla de
+          ejemplo para inglés o español), las categorías del tesauro se
+          muestran en la lengua correspondiente. Si el tesauro está
+          parcialmente o no está traducido, las categorías no traducidas se
+          mostrarán en la lengua por defecto del tesauro. Para más información
+          sobre la creación de un tesauro, consulta un poco más arriba <xref
+          linkend="categ_multi_create" /></para>
         </sect4>
 
         <sect4 id="categ_multi_opac_simple">
-          <title>Recherche simple</title>
+          <title>Búsqueda simple</title>
 
           <figure>
-            <title>OPAC, recherche simple dans les catégories : affichage des
-            catégories correspondantes à la recherche dans les
-            thésaurus</title>
+            <title>OPAC, búsqueda simple en las categorías : visualización de
+            los resultados de la búsqueda en el tesauro</title>
 
             <mediaobject>
               <imageobject>
@@ -1717,28 +1716,28 @@
             </mediaobject>
           </figure>
 
-          <para>La recherche simple de l'OPAC permet de chercher dans les
-          catégories de manière simple et rapide pour les lecteurs.</para>
+          <para>La búsqueda simple del OPAC permite buscar en las categorías
+          de forma simple y rápida para los usuarios.</para>
 
-          <para>Les résultats de recherche sont affichés à la fois</para>
+          <para>Los resultado se muestran a la vez</para>
 
           <itemizedlist>
             <listitem>
-              <para>de manière globale : vous pouvez consulter l'ensemble des
-              catégories correspondants à la recherche et "contenants" des
-              notices</para>
+              <para>de manera global : puedes consultar el conjunto de las
+              categorías correspondientes a la búsqueda y que "contienen" en
+              los registros</para>
             </listitem>
 
             <listitem>
-              <para>de manière précise : pour chaque thésaurus, vous pouvez
-              consulter le nombre de résultat correspondants à la recherche et
-              "contenants" des notices</para>
+              <para>de manera precisa : para cada tesuaro, puedes consultar el
+              número de resultados correspondientes a la búsqueda y que
+              "contienten" en los registros</para>
             </listitem>
           </itemizedlist>
 
           <figure>
-            <title>OPAC, recherche simple dans les catégories : affichage des
-            résultats d'un thésaurus</title>
+            <title>OPAC, búsqueda simple en las categorías : visualización de
+            los resultados de un tesauro</title>
 
             <mediaobject>
               <imageobject>
@@ -1747,18 +1746,18 @@
             </mediaobject>
           </figure>
 
-          <para>Vous pouvez voir ci-dessus le détail des catégories affichées
-          pour un thésaurus. A ce niveau les éventuels renvois sont également
-          affichés.</para>
+          <para>Puedes ver en la pantalla de ejemplo la información de las
+          categorías mostradas para un tesauro. A este nivel también se
+          muestran las formas de reenvíos.</para>
         </sect4>
 
         <sect4 id="categ_multi_opac_terms">
-          <title>Recherche par termes</title>
+          <title>Buscar por descriptores</title>
 
           <figure>
-            <title>OPAC, recherche par termes, recherche dans un thésaurus
-            (écran 1) : affichage des catégories correspondant au terme
-            recherché</title>
+            <title>OPAC, buscar por descriptores, buscar un tesauro (pantalla
+            1) : visualización de las categorías correspondientes al
+            descriptor buscado</title>
 
             <mediaobject>
               <imageobject>
@@ -1767,25 +1766,26 @@
             </mediaobject>
           </figure>
 
-          <para>La recherche par termes nécessite de sélectionner le thésaurus
-          dans lequel portera la recherche.</para>
+          <para>Para poder buscar por descriptores recherche hay que
+          seleccionar un tesauro sobre el cual efectuar la búsqueda.</para>
 
-          <para>Le thésaurus par défaut sur lequel est défini dans les
-          paramètres de PMB. Pour plus d'informations sur le paramétrage,
-          consulter le Guide de l'Administrateur de PMB, chapitre Outils,
-          section Paramètres.</para>
+          <para>El tesauro por defecto es aquel que está definido en los
+          parámetros de PMB. Para más información sobre los parámetros,
+          consulta la Guía del Administrador de PMB, capítulo Herramientas,
+          sección Parámetros.</para>
 
-          <para>La partie supérieure de l'écran affiche les catégories
-          correspondantes à l'expression recherchée, ici "chimie".</para>
+          <para>La parte superior de la pantalla muestra las categorías
+          correspondientes a la expresión buscada, en este caso
+          "química".</para>
 
-          <para>Il y a 5 termes contenant "chimie" dans l'exemple ci-dessus :
-          "chimie", "chimie minérale secteur", "chimie organique secteur" et
-          enfin deux catégories portent exactement le même titre "chimie
-          secteur".</para>
+          <para>Hay 5 descriptores que contienen "química" en los ejemplos :
+          "química", "sector química mineral", "sector química orgánica" y
+          finalmente dos categorías que tienen exactamente el mismo título
+          "sector química".</para>
 
           <figure>
-            <title>OPAC, recherche par termes, recherche dans un thésaurus
-            (écran 2) : développement de la catégorie sélectionnée</title>
+            <title>OPAC, buscar por descriptores, buscar en un tesauro
+            (pantalla 2) : desarrollo de la categoría seleccionada</title>
 
             <mediaobject>
               <imageobject>
@@ -1794,15 +1794,16 @@
             </mediaobject>
           </figure>
 
-          <para>En cliquant sur "chimie secteur" dans la partie supérieure de
-          l'écran vous affichez les catégories correspondantes dans la partie
-          inférieure de l'écran. Les deux catégories homonymes "chimie
-          secteur" contiennent des sous-catégories qui sont elles aussi
-          affichées, pour vous permettre de spécifier votre recherche.</para>
+          <para>Haciendo clic sobre "sector química" en la parte superior de
+          la pantalla, podrás ver las categorías las categorías
+          correspondientes en la parte inferior de la pantalla. Las dos
+          categorías homonímas "sector química" contienen subcategorías que
+          también se muestran, para que puedas especificar más tu
+          búsqueda.</para>
 
           <figure>
-            <title>OPAC, recherche par termes : recherche dans tous les
-            thésaurus</title>
+            <title>OPAC, buscar por descriptores : buscar en todos los
+            tesauros</title>
 
             <mediaobject>
               <imageobject>
@@ -1811,18 +1812,17 @@
             </mediaobject>
           </figure>
 
-          <para>La recherche par termes de l'OPAC permet de rechercher dans
-          tous les thésaurus. Les catégories correspondantes à l'expression
-          recherchée sont affichées, chacune précédée du nom du thésaurus
-          correspondant.</para>
+          <para>La búsqueda por descriptores del OPAC permite buscar en todos
+          los tesauros. Las categorías correspondientes a la expresión buscada
+          vienen precedidas por el nombre del tesauro al cual
+          corresponden.</para>
         </sect4>
 
         <sect4 id="categ_multi_opac_multicrit">
-          <title>Recherche multi-critères</title>
+          <title>Búsqueda avanzada</title>
 
           <figure>
-            <title>OPAC, recherche multi-critères, recherche portant le
-            sujet</title>
+            <title>OPAC, búsqueda avanzada, buscar por materia</title>
 
             <mediaobject>
               <imageobject>
@@ -1831,11 +1831,11 @@
             </mediaobject>
           </figure>
 
-          <para>L'OPAC de PMB permet de rechercher dans un ou plusieurs des
-          différents thésaurus.</para>
+          <para>El OPAC de PMB permite buscar en uno o en diferentes
+          tesauros.</para>
 
-          <para>La recherche multi-critères permet ainsi de sélectionner le
-          thésaurus dans lequel portera la recherche.</para>
+          <para>La búsqueda avanzada permite también seleccionar el tesauro
+          sobre el cual iniciar la búsqueda.</para>
         </sect4>
       </sect3>
     </sect2>
