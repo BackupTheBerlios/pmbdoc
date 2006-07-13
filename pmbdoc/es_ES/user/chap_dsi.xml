@@ -25,72 +25,69 @@
     <sect2>
       <title>DSI privada y pública</title>
 
-      <para>La diffusion sélective de l'information permet d'alerter les
-      utilisateurs de la parution récente de documents, d'informations
-      rentrant dans leurs domaines d'intérêts et d'être ainsi au courant de
-      l'actualité. La DSI est une mise à jour perpétuelle des connaissances
-      d'un utilisateur ou d'un groupe d'utilisateurs. Cette mise à jour est
-      réalisée grâce à l'envoi régulier des références les plus récentes. On
-      distingue donc deux types de diffusion sélective d'information :</para>
+      <para>La difusión selectiva de la información permite alertar a los
+      usuarios de la aparición reciente de documentos, de informacions sobre
+      el área temática que les interesa y matenerlos, por tanto, al día. La
+      DSI es una actualización perpetua de los conocimientos de un usuario o
+      de un grupo de usuario. Esta actualización se realiza gracias al envío
+      regular de las referencias bibliográficas más recientes. Distinguimos
+      entre dos tipos de difusión selectiva de la información :</para>
 
       <itemizedlist>
         <listitem>
-          <para>l'une correspond à la fourniture de références
-          bibliographiques répondant au profil d'un seul utilisateur : la
-          diffusion est alors strictement " individuelle ", on parle de "
-          profil personnalisé ". Ce seront les <emphasis role="bold">bannettes
-          privées de PMB</emphasis>.</para>
+          <para>una corresponde a un conjunto de referencias que responden a
+          un perfil de un solo usuario : la difusión es estrictamente "
+          individual ", y hablamos de un " perfil personalizado". Son las
+          <emphasis role="bold">cestas privadas de PMB</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para>l'autre correspond à la fourniture de listes bibliographiques
-          plus larges répondant au profil d'intérêt d'un groupe homogène
-          d'utilisateurs. C'est un " profil de groupe " qui se traduit
-          généralement par une proposition de différents " profils standards "
-          Ce seront les <emphasis role="bold">bannettes publiques de
-          PMB</emphasis>.</para>
+          <para>la otra corresponde al conjunto de listas bibliogràficas más
+          largas que corresponden al perfil de interés de un grupo homogéneo
+          de usuarios. Es un " perfil de grupo" que se traduce generalmente
+          por un conjunto de diferentes " perfiles estándares " Son las
+          <emphasis role="bold">cestas públicas de PMB</emphasis>.</para>
         </listitem>
       </itemizedlist>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>Activer la DSI</title>
+    <title>Activar la DSI</title>
 
     <sect2>
-      <title>Afficher l'onglet DSI</title>
+      <title>Ver la pestaña de DSI</title>
 
       <para><inlinemediaobject>
           <imageobject>
             <imagedata fileref="images/warning.gif" />
           </imageobject>
-        </inlinemediaobject> Si la DSI n'est pas activée, vous ne verrez pas
-      l'onglet DSI de PMB. Pour activer la DSI, allez dans Administration,
-      Outils, Paramètres, Diffusion Sélective de l'Information, et activez la
-      DSI.</para>
+        </inlinemediaobject> Si la DSI no está activa, no verás la pestaña DSI
+      de PMB. Para activar la DSI, ve a Administración, Herramientas,
+      Parámetros, Difusión Selectiva de la Información y activa la DSI.</para>
 
-      <para><emphasis role="bold">Attention</emphasis> l'utilisateur de PMB
-      doit avoir le droit d'accéder à l'onglet DSI. Dans Administration,
-      Utilisateurs, cliquez pour un utilisateur sur le bouton Modifier et
-      cochez DSI pour un ou plusieurs utilisateurs.</para>
+      <para><emphasis role="bold">Atención</emphasis> el usuario de PMB debe
+      tener los derechos de acceder a esta función. En Administración,
+      Usuarios, haz clic sobre un usuario y sobre el botón Modificar y marca
+      la opción DSI para ese usuario.</para>
 
-      <para>Pour plus d'information sur le paramétrage de PMB, consulter le
-      <emphasis role="bold">Guide de l'Administrateur PMB</emphasis>. Afin de
-      faciliter le paramétrage de la DSI, voici ici la liste des paramètres
-      concernés :</para>
+      <para>Para más información sobre la parametrización de PMB, consulta la
+      <emphasis role="bold">Guía del Administrador PMB</emphasis>. Con el fin
+      de facilitar la parametrización de la DSI, aquí están los parámetros
+      :</para>
 
       <table>
-        <title>Administration &gt; Outils &gt; Paramètres, type Diffusion
-        Sélective de l'information (dsi)</title>
+        <title>Administración &gt; Herramientas &gt; Parámetros, apartado
+        Difusión Selectiva de la Información (dsi)</title>
 
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry>sub-tipo</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry>valor por defecto</entry>
 
-              <entry>commentaire</entry>
+              <entry>comentario</entry>
             </row>
           </thead>
 
@@ -100,7 +97,7 @@
 
               <entry>0</entry>
 
-              <entry>D.S.I activée ? 0: Non 1: Oui</entry>
+              <entry>D.S.I activada ? 0: No 1: Sí</entry>
             </row>
 
             <row>
@@ -108,7 +105,7 @@
 
               <entry>0</entry>
 
-              <entry>D.S.I automatique activée ? 0: Non 1: Oui</entry>
+              <entry>D.S.I automática activada ? 0: No 1: Sí</entry>
             </row>
 
             <row>
@@ -116,8 +113,8 @@
 
               <entry>0</entry>
 
-              <entry>Inscription automatique dans les bannettes de la
-              catégorie du lecteur en création ? 0: Non 1: Ouixs</entry>
+              <entry>Inscripción automática en las cestas de la categoría del
+              lector al crearlo ? 0: No 1: Sí</entry>
             </row>
           </tbody>
         </tgroup>
@@ -125,49 +122,49 @@
     </sect2>
 
     <sect2>
-      <title>DSI et OPAC</title>
+      <title>DSI y OPAC</title>
 
-      <para>La DSI sera également visible dans l'OPAC pour le lecteur qui se
-      sera identifié. Pour activer la DSI dans l'OPAC, modifier les paramètres
-      dans Administration &gt; Outils &gt; Paramètres, type OPAC, section
-      Options concernant la DSI.</para>
+      <para>La DSI estará también visible en el OPAC cuando un usuario se
+      identifique. Para activar la DSI en el OPAC, modifica los parámetros en
+      Administracióntion &gt; Herramientas &gt; Parámetros, apartado OPAC,
+      sección Opciones referentes a la DSI.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>DSI publique</title>
+    <title>DSI pública</title>
 
     <sect2 id="dsi_diffusion">
-      <title>Diffusion</title>
+      <title>Uso</title>
 
-      <para>La diffusion est la dernière étape de la DSI. Une fois une ou des
-      bannettes créées, et que des équations y aient été attribuées, vous
-      pouvez diffuser l'information.</para>
+      <para>La difusión es la última etapa de la DSI. Una vez se han creado
+      una o más cestas, y que las ecuaciones se hayan asignado, puedes
+      difundir la información.</para>
 
-      <para>La diffusion automatique présente à la fois les banettes de
-      diffusion publique et celles de diffusion privée.</para>
+      <para>La difusión automática muestra a la vez las cestas públicas y las
+      privadas.</para>
     </sect2>
 
     <sect2 id="diffusion">
-      <title>Bannettes</title>
+      <title>Cestas</title>
 
-      <para>Vous pouvez ici gérer vos bannettes de diffusion. Les bannettes
-      sont des réservoirs de nouveautés. C'est le contenu de ces bannettes qui
-      va être envoyé aux abonnés lors de la diffusion. Vous pouvez ici créer,
-      modifier ou supprimer une bannette. Vous pouvez également affecter des
-      équations pour remplir la bannette et des lecteurs destinataires de ces
-      listes de nouveautés.</para>
+      <para>En este apartado puedes generar las cestas de difusión. En las
+      cestas se juntan las novedades. Es el contenido de estas cestas lo que
+      se enviará a los subscritos cuando se difundan. Puedes crear, modificar
+      o suprimir una cesta. También puedes eliminar las ecuaciones para volver
+      a llenar la cesta y asociarla con los usuarios a los cuales va destinada
+      la cesta de novedades.</para>
     </sect2>
 
     <sect2 id="dsi_equations">
-      <title>Equations</title>
+      <title>Ecuaciones</title>
 
-      <para>Les équations sont des recherches multicritères sélectionnées qui
-      vont permettre le remplissage des bannettes.</para>
+      <para>Las ecuaciones son las búsquedas avanzadas seleccionadas que
+      permiten llenar las cestas.</para>
     </sect2>
 
     <sect2 id="dsi_options">
-      <title>Options</title>
+      <title>Opciones</title>
 
       <para>Vous pouvez ici définir des classements pour vous permettre
       d'organiser vos bannettes et vos équations.</para>
