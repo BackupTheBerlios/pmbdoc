@@ -506,524 +506,75 @@
           poursuivre la création de la notice.</para>
         </sect4>
 
-        <sect4 id="cat_create_form">
+        <sect4>
           <title>Saisies des données de la notice</title>
 
-          <figure>
-            <title>Ouvrages &gt; Nouvelle notice (écran 2)</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/cat_new_2.jpg" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <sect5>
-            <title>Choix d'un support de document</title>
-
-            <para>Dans la liste déroulante située en haut du formulaire, vous
-            pouvez choisir entre différents types de support :</para>
-
-            <itemizedlist>
-              <listitem>
-                <para>texte imprimé</para>
-              </listitem>
-
-              <listitem>
-                <para>texte manuscrit</para>
-              </listitem>
-
-              <listitem>
-                <para>partition musicale imprimée</para>
-              </listitem>
-
-              <listitem>
-                <para>partition musicale manuscrite</para>
-              </listitem>
-
-              <listitem>
-                <para>document cartographique imprimé</para>
-              </listitem>
-
-              <listitem>
-                <para>document cartographique manuscrit</para>
-              </listitem>
-
-              <listitem>
-                <para>document projeté ou vidéo</para>
-              </listitem>
-
-              <listitem>
-                <para>enregistrement sonore non musical</para>
-              </listitem>
-
-              <listitem>
-                <para>enregistrement sonore musical</para>
-              </listitem>
-
-              <listitem>
-                <para>document graphique à deux dimensions</para>
-              </listitem>
-
-              <listitem>
-                <para>document électronique</para>
-              </listitem>
-
-              <listitem>
-                <para>document multimédia</para>
-              </listitem>
-
-              <listitem>
-                <para>objet à 3 dimensions, artéfacts, ...</para>
-              </listitem>
-            </itemizedlist>
-
-            <para>Ces supports correspondent aux supports de documents définis
-            par la norme UNIMARC.</para>
-
-            <para><emphasis role="bold">Attention</emphasis> : ne pas
-            confondre avec type de document, qui correspond à
-            l'exemplaire.</para>
-          </sect5>
-
-          <sect5>
-            <title>Titre</title>
-
-            <para>Le titre propre est le titre principal d'un ouvrage.</para>
-
-            <para>Même si le titre est généralement présent sur la couverture
-            ou la tranche de l'ouvrage, il faut le lire sur la page de titre
-            car il est parfois différent du titre de couverture. Dans ce cas,
-            le titre de couverture sera spécifié ailleurs (zone de
-            note).</para>
-
-            <para>Vous pouvez également définir le titre propre d'un auteur
-            différent, un titre parallèle, ainsi qu'un complément du
-            titre.</para>
-
-            <para>Le titre parallèle correspond par exemple au titre de
-            l'ouvrage dans la langue d'origine.</para>
-
-            <para>Enfin, vous pouvez définir un titre de série. Un titre de
-            série est un titre commun à différents ouvrages d'un même auteur.
-            Par exemple <emphasis>Les aventures de Tintin</emphasis> de
-            <emphasis>Hergé</emphasis>. Le champs "Partie de" est différent
-            des champs de titre. Pour spécifier un titre de série, cliquez sur
-            le bouton "..."</para>
-
-            <figure>
-              <title>Définir un titre de série</title>
+          <para><figure>
+              <title>Ouvrages &gt; Nouvelle notice (écran 2)</title>
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="images/titres_serie.gif" />
+                  <imagedata fileref="images/cat_new_2.jpg" />
                 </imageobject>
               </mediaobject>
-            </figure>
-
-            <para>Choisissez ensuite un titre de série dans le popup.</para>
-
-            <figure>
-              <title>Popup de sélection de titre de série</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/popup-serie.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>Si votre titre de série ne figure pas dans la liste du
-            popup, cliquez sur<emphasis> créer un titre de série</emphasis>.
-            Saisissez ensuite le titre de série, cliquez sur
-            <emphasis>Enregistrer</emphasis> puis sélectionnez votre titre de
-            série dans la liste. Vous ne pouvez ni modifier ni supprimer un
-            titre de série dans le popup. Pour modifier ou supprimer un titre
-            de série, dans l'onglet <emphasis>Autorités</emphasis>, choisissez
-            dans le menu<emphasis> Titres de série</emphasis>. Pour plus
-            d'informations, voir <xref linkend="autorites" />.</para>
-
-            <para>Le titre de série sélectionné est ensuite affiché dans le
-            formulaire de la notice.</para>
-
-            <figure>
-              <title>La saisie d'un auteur se fait soit lors du catalogage,
-              soit avec l'onglet "autorités" Le titre de série sélectionné est
-              affiché</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/titres_serie2.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>Pour effacer un titre de série sélectionné, cliquer sur le
-            bouton "X"</para>
-
-            <para>Vous pouvez également spécifier un <emphasis>n° de
-            partie</emphasis>. Par exemple, <emphasis>Les aventures de
-            Tintin</emphasis>, n° <emphasis>11</emphasis>.</para>
-          </sect5>
-
-          <sect5>
-            <title>Saisie d'un auteur (mention de responsabilité)</title>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, sélection des
-              auteurs</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_resp.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>Pour sélectionner un auteur, cliquez sur le bouton "..."
-            puis sélectionnez l'auteur dans le popup de recherche d'auteur.
-            Pour rechercher un auteur, tapez quelques lettres de son nom puis
-            cliquez sur <emphasis>Rechercher</emphasis>. Les résultats de la
-            recherche sont alors affichés.</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, popup de sélection d'un
-              auteur</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/popup_authors.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>Si l'auteur de l'ouvrage que vous souhaitez cataloguer n'est
-            pas déjà enregistré, ajoutez le en cliquant sur le bouton
-            <emphasis>Ajouter un auteur</emphasis>.</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, ajout d'un auteur depuis
-              le popup</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/popup-new-author.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>La saisie d'un auteur se fait soit lors du catalogage, soit
-            avec l'onglet "autorités". Pour plus d'informations sur la
-            création d'un auteur, voir <xref
-            linkend="autorites_ajout_auteur" />.</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, auteur
-              sélectionné</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat-new-resp-filled.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>Si le terme "auteur" est le nom qui convient à l'auteur d'un
-            livre, il n'en est pas de même pour l'auteur d'un film, pour
-            lequel on parlera davantage d'un metteur en scène. Il s'agit alors
-            de la fonction de l'auteur par rapport à l'ouvrage dont il le
-            responsable. Puis sélectionner une fonction (non obligatoire),
-            cliquer sur le bouton "...".</para>
-
-            <figure>
-              <title>Popup de sélection d'une fonction pour l'auteur</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/popup-fonction.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>Quelques remarques :</para>
-
-            <itemizedlist>
-              <listitem>
-                <para>il ne peut y avoir qu'un auteur principal pour un
-                ouvrage, mais il peut y avoir plus autres auteurs, et/ou
-                plusieurs auteurs secondaires. Pour sélectionner un
-                <emphasis>autre auteur</emphasis> ou un <emphasis>auteur
-                secondaire</emphasis> cliquez sur le bouton "..."
-                correspondant. Pour ajouter un auteur supplémentaire, cliquez
-                sur le bouton "+".</para>
-              </listitem>
-
-              <listitem>
-                <para>pour effacer un auteur ou une fonction sélectionné,
-                cliquez sur le bouton "X"</para>
-              </listitem>
-            </itemizedlist>
-          </sect5>
-
-          <sect5>
-            <title>Saisie d'un éditeur, des collections, sous-collection et
-            titres de série</title>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Éditeurs,
-              collection</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_publisher.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para>La saisie des collections, sous-collections, sous-titres de
-            séries se fait soit lors de la création d'une notice (possibilité
-            uniquement d'ajouter des données), soit avec l'onglet "autorités".
-            Commencez par remplir <emphasis>sous-collection</emphasis> le cas
-            échéant, sinon <emphasis>collection</emphasis> ou enfin
-            <emphasis>éditeur</emphasis>.</para>
-
-            <para>Dans le popup de sélection de la sous-collection,
-            sélectionner une sous-collection <emphasis>ou</emphasis> choisir
-            <emphasis>créer une sous-collection</emphasis>, remplir les champs
-            connus puis cliquer sur le bouton de sélection de la collection
-            mère de cette sous-collection.</para>
-
-            <para>Dans le popup de sélection de la collection dont fait partie
-            notre sous-collection, sélectionner une collection
-            <emphasis>ou</emphasis> choisir <emphasis>créer une
-            collection</emphasis>, remplir les champs connus sauf l'éditeur
-            puis cliquer sur le bouton de sélection de l'éditeur.</para>
-
-            <para>Dans le popup de sélection de l'éditeur, sélectionner un
-            éditeur <emphasis>ou </emphasis>choisir <emphasis>créer un
-            éditeur</emphasis> et compléter les champs.</para>
-
-            <para>Une fois notre saisie finie, sélectionnez l'éditeur de la
-            collection, puis la collection de notre sous-collection enfin
-            enregistrez la sous-collection et sélectionnez la.</para>
-
-            <para>De manière générale, choisissez l'élément le plus spécifique
-            en premier. Choisissez la sous-collection, puis la collection
-            enfin l'éditeur.</para>
-
-            <para>Une collection correspond au choix d'un éditeur :
-            <emphasis>PUF</emphasis>, collection <emphasis>Que Sais-je
-            ?</emphasis></para>
-
-            <para>Une sous-collection répond au même souci à un niveau
-            supérieur : Nathan Université, collection 128, sous-collection
-            Histoire.</para>
-
-            <para>Un titre de série correspond à un ouvrage en plusieurs
-            volume, chaque volume a un titre propre et l'ensemble des volumes
-            en a un autre.</para>
-
-            <para><emphasis role="bold">Exemple</emphasis> Pullman, Philip
-            <emphasis role="bold">Titre de série</emphasis> A la croisée des
-            mondes <emphasis role="bold">Numéro de partie</emphasis> Volume 1
-            <emphasis role="bold">Titre propre</emphasis> Les royaumes du
-            Nord</para>
-
-            <para>Pour réaliser cette saisie, il faut créer sous PMB les
-            collections et titres de série avant de les sélectionner. Le
-            numéro de partie comme le titre de propre sont à saisir lors de la
-            rédaction de la notice d'ouvrage.</para>
-          </sect5>
-
-          <sect5>
-            <title>ISBN, EAN ou no. commercial</title>
-
-            <para>L'ISBN, qui a été demandé dans le premier écran lors d'une
-            création de notice, est affiché ici. Cliquez sur le bouton "..."
-            pour ouvrir un popup et pouvoir douchetter l'EAN de l'ouvrage, ou
-            saisir son ISBN. Cette saisie se fait dans un popup pour éviter
-            que la validation qui suit une lecture de code-barres ne ferme la
-            notice en cours d'édition.</para>
-
-            <para>PMB convertit les EAN saisis (code-barres commercial)
-            automatiquement en ISBN.</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé ISBN</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_isbn.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </sect5>
-
-          <sect5>
-            <title>Collation</title>
-
-            <para>La collation précise différentes informations liées à
-            l'aspect physique du document : importance matérielle,
-            illustrations, format, prix, matériel d'accompagnement.</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Collation</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_collation.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </sect5>
-
-          <sect5>
-            <title>Notes</title>
-
-            <para>Les notes sont de trois types :
-            <emphasis>générale</emphasis>, liée au
-            <emphasis>contenu</emphasis> (appréciation, critique), ou
-            <emphasis>un résumé, un extrait </emphasis>du document (par
-            exemple le résumé d'un roman en quatrième de couverture).</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Notes</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_notes.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </sect5>
-
-          <sect5>
-            <title>Indexation</title>
-
-            <para>Le pavé d'indexation est composé de trois indexations
-            différentes :</para>
-
-            <itemizedlist>
-              <listitem>
-                <para><emphasis role="bold">Catégories</emphasis> : ajout
-                d'une catégorie du thésaurus interne de PMB. Pour plus
-                d'informations sur les catégories, voir <xref
-                linkend="autorites_categ" /> .</para>
-
-                <para>Pour sélectionner une catégorie, cliquez sur le bouton
-                "...". Pour ajouter une catégorie supplémentaire, cliquez sur
-                le bouton "+". Pour supprimer la sélection d'une catégorie,
-                cliquez sur le bouton "X".</para>
-              </listitem>
-
-              <listitem>
-                <para><emphasis role="bold">Indexation</emphasis> : ajout
-                d'une indexation décimale. Pour plus d'informations, consulter
-                le chapitre <emphasis>Autorités</emphasis>, section
-                <emphasis>Indexation</emphasis>.</para>
-              </listitem>
-
-              <listitem>
-                <para><emphasis role="bold">Indexation libre</emphasis> : vous
-                pouvez ici ajouter des mots clés librement, séparés par des
-                espaces. Vous pouvez par exemple spécifier des mots clés, ou
-                une indexation libre d'un thésaurus non intégré à PMB
-                (vedettes Blanc-Montmayeur par exemple).</para>
-              </listitem>
-            </itemizedlist>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Indexation</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_indexation.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </sect5>
-
-          <sect5>
-            <title>Langue de la publication</title>
-
-            <para>Vous pouvez ici spécifier une langue d'origine de la
-            publication, celle-ci est définie par défaut dans les préférences
-            de l'utilisateur. Pour plus d'informations, consulter le chapitre
-            <emphasis>Préférences utilisateurs</emphasis>.</para>
-
-            <para>Les codes langues sont définis par la norme UNIMARC.</para>
-
-            <para>Vous pouvez également définir une langue originale, si
-            l'ouvrage décrit est une traduction.</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Langues</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_langue.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </sect5>
-
-          <sect5>
-            <title>Liens (ressources électroniques)</title>
-
-            <para>L'URL associée doit être saisie dans son intégralité de
-            préférence (y compris le http://) pour être sur du fonctionnement
-            des liens, quel que soit le navigateur internet de
-            l'utilisateur.</para>
-
-            <para>Le format électronique de la ressource est laissé à la
-            discrétion du catalogueur. Préférer un début de champ tel que
-            "fichier", par exemple "fichier PDF" ou "fichier Acrobat", et des
-            mentions génériques : "site internet".</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Liens</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_liens.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </sect5>
-
-          <sect5>
-            <title>Champs personnalisés</title>
-
-            <para>Enfin, le cas échéant, en bas de la notice, vous pouvez
-            définir les valeurs de vos champs personnalisés.</para>
-
-            <para>Les champs personnalisables des notices sont des
-            informations supplémentaires, vous pouvez les créer dans
-            <emphasis>Administration</emphasis> &gt;
-            <emphasis>Notices</emphasis> &gt;
-            <emphasis>Personnalisables</emphasis>. Pour plus d'informations,
-            consulter le <emphasis>Guide de l'Administrateur</emphasis>,
-            chapitre <emphasis>Notices</emphasis>.</para>
-
-            <para>Si aucun champs personnalisé n'est défini, ce pavé n'est pas
-            affiché.</para>
-
-            <figure>
-              <title>Catalogue &gt; Nouvelle notice, pavé Champs
-              personnalisables</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/cat_new_perso.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </sect5>
-
-          <para>Une fois les différents champs de la notice complétés, cliquez
-          sur <emphasis>Enregistrer</emphasis>.La notice est enregistrée, vous
-          arrivez sur la liste des exemplaires de l'ouvrage.</para>
+            </figure>Choix d'un support de document</para>
+
+          <para>Dans la liste déroulante située en haut du formulaire, vous
+          pouvez choisir entre différents types de support :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>texte imprimé</para>
+            </listitem>
+
+            <listitem>
+              <para>texte manuscrit</para>
+            </listitem>
+
+            <listitem>
+              <para>partition musicale imprimée</para>
+            </listitem>
+
+            <listitem>
+              <para>partition musicale manuscrite</para>
+            </listitem>
+
+            <listitem>
+              <para>document cartographique imprimé</para>
+            </listitem>
+
+            <listitem>
+              <para>document cartographique manuscrit</para>
+            </listitem>
+
+            <listitem>
+              <para>document projeté ou vidéo</para>
+            </listitem>
+
+            <listitem>
+              <para>enregistrement sonore non musical</para>
+            </listitem>
+
+            <listitem>
+              <para>enregistrement sonore musical</para>
+            </listitem>
+
+            <listitem>
+              <para>document graphique à deux dimensions</para>
+            </listitem>
+
+            <listitem>
+              <para>document électronique</para>
+            </listitem>
+
+            <listitem>
+              <para>document multimédia</para>
+            </listitem>
+
+            <listitem>
+              <para>objet à 3 dimensions, artéfacts, ...</para>
+            </listitem>
+          </itemizedlist>
         </sect4>
       </sect3>
 

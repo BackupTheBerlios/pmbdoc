@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="edit">
-  <title>Éditions</title>
+  <title>Management</title>
 
   <para>Six types d'éditions (ou de rapports) sont à votre disposition avec
   cet onglet. Les résultats sont affichés sous la forme de tableaux dans
@@ -39,7 +39,6 @@
     </itemizedlist>
 
     <sect2 id="edit_expl_encours">
-
       <title>Prêts en cours</title>
 
       <para><emphasis>Prêts en cours </emphasis>liste tous les prêts en cours
@@ -66,9 +65,9 @@
 
       <para>Pour expédier un mail de relance à un lecteur pour un exemplaire
       en retard, cliquez sur l'icône (l'icône n'est pas visible si l'adresse
-      mail du lecteur n'est pas renseignée). <graphic fileref="images/mail.jpg" />
-      Pour afficher une lettre de relance prête à imprimer cliquez sur
-      l'icône<graphic fileref="images/new.gif" /></para>
+      mail du lecteur n'est pas renseignée). <graphic
+      fileref="images/mail.jpg" /> Pour afficher une lettre de relance prête à
+      imprimer cliquez sur l'icône<graphic fileref="images/new.gif" /></para>
     </sect2>
 
     <sect2 id="edit_expl_retard">
@@ -98,8 +97,9 @@
     <sect2 id="edit_expl_pargroupe">
       <title>Prêts par groupes</title>
 
-      <para>Même logique que pour les éditions sur les exemplaires mais regroupement selon les
-      groupes. Pour plus d'information, voir <xref linkend="edit_expl_encours" /></para>
+      <para>Même logique que pour les éditions sur les exemplaires mais
+      regroupement selon les groupes. Pour plus d'information, voir <xref
+      linkend="edit_expl_encours" /></para>
 
       <figure>
         <title>Éditions &gt; Exemplaires &gt; Prêts par groupes</title>
@@ -340,7 +340,7 @@
     <sect2>
       <title>État des collections</title>
 
-     <figure>
+      <figure>
         <title>Éditions &gt; Périodiques &gt; Etat des collections</title>
 
         <mediaobject>
@@ -355,10 +355,10 @@
 
       <para>Ceci permet notamment de vérifier s'il y a un numéro manquant dans
       la collection.</para>
-	  
-	  <para>La première colonne indique le numéro du périodique (bulletin), la
-		deuxième la date de publication renseignée, enfin le nombre d'exemplaires
-		catalogués.</para>
+
+      <para>La première colonne indique le numéro du périodique (bulletin), la
+      deuxième la date de publication renseignée, enfin le nombre
+      d'exemplaires catalogués.</para>
     </sect2>
   </sect1>
 

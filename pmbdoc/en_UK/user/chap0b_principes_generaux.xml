@@ -2,7 +2,7 @@
 <chapter id="principes">
   <title>General Principles</title>
 
-  <para><emphasis role="bold">Ergonomics relating to use of an internet
+  <para><emphasis role="bold">Ergonomics relating to the use of a web
   application</emphasis></para>
 
   <para>PMB is a web application, a "WebApp". Running on a web server (see the
@@ -13,11 +13,11 @@
   <para><emphasis role="bold">Don't use the "previous page" browser
   button.</emphasis></para>
 
-  <para>"Previous page" and "page forward" allow the movement to another page
-  on the internet, it is the same in PMB.</para>
+  <para>"Previous page" and "Page forward" allow the movement from one page to
+  another on the internet, it works the same way with PMB.</para>
 
   <para><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
-  role="bold">Warning</emphasis></emphasis> Whenever you see on the screen a
+  role="bold">Warning.</emphasis></emphasis> Whenever you see on your screen a
   message starting with <emphasis>Update </emphasis>do not click on previous
   page. Whenever you see this message, it is vital to leave the update to
   finish completely. In general, avoid using previous page if you can achieve
@@ -30,7 +30,7 @@
   adding a new volume), the data is resubmitted to the server.</para>
 
   <para>Following the same principle as "Previous page", your browser's "Stop"
-  button allows the loading of a page to be interrupted.</para>
+  button interrupts the loading of a page.</para>
 
   <figure>
     <title>Mozilla navigation buttons - Previous page, Page forward, Reload,
@@ -67,9 +67,9 @@
 
   <para><emphasis role="bold">Warning</emphasis> During important operations
   on the database (additions, deletions), you should not stop the loading of
-  the page without interrupting the update in progress, this could risk
-  deterioration of the integrity of the database.</para>
+  the page, you would be interrupting the update in progress and putting at
+  risk the integrity of the database.</para>
 
-  <para>In particular, do not click the "cancel" button when the database is
-  being restored, backed-up or optimised.</para>
+  <para>In particular, never click "cancel" when the database is being
+  restored, backed-up or optimized.</para>
 </chapter>

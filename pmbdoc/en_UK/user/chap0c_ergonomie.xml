@@ -3,7 +3,7 @@
   <title>Management interface layout</title>
 
   <para>Here is a screenshot of the PMB management interface. The screen is
-  divided into three sections.</para>
+  divided in three sections.</para>
 
   <figure>
     <title>management interface</title>
@@ -17,13 +17,13 @@
 
   <para><emphasis role="bold">The main navigation bar</emphasis></para>
 
-  <para>This allows for the switching between the different management
-  interface modules at any time.</para>
+  <para>The navigation bar enables you to switch between the various
+  management interface modules at any time.</para>
 
-  <para>Only the modules for which the user has access are displayed.</para>
+  <para>Only the modules to which the user has access are displayed.</para>
 
   <figure>
-    <title>Main navigation bar</title>
+    <title>The main navigation bar</title>
 
     <mediaobject>
       <imageobject>
@@ -32,20 +32,20 @@
     </mediaobject>
   </figure>
 
-  <para>To the right of the navigation bar, at the same level as the tabs, can
-  be found different links :
+  <para>To the right of the navigation bar, on the same level as the tabs, can
+  be found various links :
   <emphasis>history</emphasis>,<emphasis>?</emphasis>, <emphasis>edit your
-  account, opac</emphasis>, and <emphasis>Logout</emphasis>.</para>
+  account, opac</emphasis>, and <emphasis>logout</emphasis>.</para>
 
   <para><emphasis>history</emphasis> opens in an iframe (block on the screen)
-  a history of the searches carried out in the PMB management interface. This
-  link is only displayed if you have the access rights to the catalogue tab.
+  a history of the searches carried out in the PMB management interface . This
+  link is displayed only if you have access privileges to the catalogue tab.
   For more information about searches, see <xref linkend="cat_search" /> ; for
   more information about search history, see <xref
   linkend="search_history" />.</para>
 
-  <para><emphasis>?</emphasis> allows access to PMB's context sensitive help.
-  For more information, read the chapter <xref linkend="aide_contextuelle"
+  <para><emphasis>?</emphasis> gives access to PMB's contextual help. For more
+  information, read the chapter <xref linkend="aide_contextuelle"
   xreflabel="" />. The displaying or not of contextual help is parametrised.
   For more information, consult the <emphasis>PMB Administrator
   Guide</emphasis>, chapter <emphasis>Utils</emphasis>, section
@@ -54,19 +54,19 @@
   <para><emphasis>edit your account</emphasis> allows access to the
   preferences of the user connected to PMB.</para>
 
-  <para><emphasis>opac</emphasis> opens a new browser window and displays the
-  OPAC</para>
+  <para><emphasis>opac</emphasis> opens a new browser window/tab and displays
+  the OPAC</para>
 
   <para><emphasis>logout</emphasis> disconnects the current user, and returns
   to the login screen</para>
 
-  <para><emphasis role="bold">The vertical menu </emphasis></para>
+  <para><emphasis role="bold">The side menu </emphasis></para>
 
-  <para>This provides access to the different functions within each
+  <para>The side menu provides access to the various functions within each
   module.</para>
 
   <figure>
-    <title>Vertical list of functions</title>
+    <title>The side menu</title>
 
     <mediaobject>
       <imageobject>
@@ -77,11 +77,11 @@
 
   <para><emphasis role="bold">The central interface</emphasis></para>
 
-  <para>The central interface is the part of PMB in which you can input or
-  edit information, execute functions, validate updates, etc.</para>
+  <para>The central interface is the part of PMB where you can input or edit
+  information, execute functions, validate updates, etc.</para>
 
   <figure>
-    <title>central interface</title>
+    <title>The central interface</title>
 
     <mediaobject>
       <imageobject>
@@ -90,9 +90,9 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">The alerts</emphasis></para>
+  <para><emphasis role="bold">Alerts</emphasis></para>
 
-  <para>The alerts are displayed to the left, under the menu :</para>
+  <para>Alerts are displayed to the left under the side menu :</para>
 
   <itemizedlist>
     <listitem>
@@ -105,12 +105,11 @@
     </listitem>
 
     <listitem>
-      <para>if there are borrowers who are close to the end of their
-      membership</para>
+      <para>if memberships are about to lapse</para>
     </listitem>
 
     <listitem>
-      <para>if there are borrwers with expired memberships</para>
+      <para>if memberships have already lapsed</para>
     </listitem>
   </itemizedlist>
 
@@ -123,4 +122,16 @@
       </imageobject>
     </mediaobject>
   </figure>
+
+  <para><emphasis role="bold">Search results</emphasis></para>
+
+  <para>Search results are displayed on the interface along with pages numbers
+  to click at the bottom of the screen, enabling you to load a specific result
+  page at once. </para>
+
+  <para>By default PMB will display 10 search results on a page; therefore if
+  your search equation has yielded more than 10 results and you wish to access
+  results 11 to 20, you only have to click on page 2 to display them on your
+  screen. You may also use the Next page and Previous page icons on the
+  interface (blue triangles).</para>
 </chapter>
