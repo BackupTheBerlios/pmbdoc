@@ -2,14 +2,17 @@
 <chapter id="principes">
   <title>Características generales</title>
 
-  <para><emphasis role="bold">Ergonomía asociada a la utilización de una aplicación internet</emphasis></para>
+  <para><emphasis role="bold">Ergonomía asociada a la utilización de una
+  aplicación internet</emphasis></para>
 
-  <para>PMB es una aplicación Web, una "WebApp". Funciona sobre un servidor 
+  <para>PMB es una aplicación Web, una "WebApp". Funciona sobre un servidor
   Web (ver la <emphasis>Guía de Instalación PMB</emphasis>, Sección 1,
-  <emphasis>Instalación sobre Windows,</emphasis> para más informacion sobre 
-  Apache), PMB se beneficia de la flexibilidad de las aplicaciones de Internet.</para>
+  <emphasis>Instalación sobre Windows,</emphasis> para más informacion sobre
+  Apache), PMB se beneficia de la flexibilidad de las aplicaciones de
+  Internet.</para>
 
-  <para><emphasis role="bold">No uses el botón "Página anterior" del navegador.</emphasis></para>
+  <para><emphasis role="bold">No uses el botón "Página anterior" del
+  navegador.</emphasis></para>
 
   <para><inlinemediaobject>
       <imageobject>
@@ -19,42 +22,42 @@
       <imageobject>
         <imagedata fileref="images/firefox-next.gif" />
       </imageobject>
-    </inlinemediaobject> "página siguiente" permiten desplazarpermettent de se déplacer d'une page
-  à l'autre sur internet, il en est de même dans PMB.</para>
+    </inlinemediaobject> "página siguiente" permiten desplazarte de una página
+  a otra sobre internet, es lo mismo en PMB.</para>
 
   <para><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
-  role="bold">Attention</emphasis></emphasis> lorsque vous voyez à l'écran un
-  message commençant par <emphasis>Mise à jour </emphasis>ne cliquez pas sur
-  page précédente. Lorsque vous voyez ce message, il est impératif de laisser
-  la mise à jour s'accomplir entièrement. De façon générale, évitez d'utiliser
-  page précédente si vous pouvez obtenir le même résultat en cliquant sur un
-  des liens présent à l'écran.</para>
+  role="bold">Atención</emphasis></emphasis> cuando veas en la pantalla un
+  mensaje que empieza por <emphasis>Actualización </emphasis>no hagas clic
+  sobre la página anterior. Cuando veas este mensaje, es necesario dejar que
+  la actualización se realice completamente. Por norma general, evita utilizar
+  la página anterior si puedes obtener el mismo resultado haciendo clic en
+  alguno de los enlaces de la página.</para>
 
-  <para>Le bouton Actualiser la page <inlinemediaobject>
+  <para>El botón Actualizar la página <inlinemediaobject>
       <imageobject>
         <imagedata fileref="images/firefox-reload.gif" />
       </imageobject>
-    </inlinemediaobject> de votre navigateur permettent de recharger une page
-  à l'écran.</para>
+    </inlinemediaobject> de tu navegdor permite volver a cargar una página en
+  pantalla.</para>
 
-  <para>Lorsque vous rechargez une page qui est le résultat d'un formulaire
-  (par exemple ajout d'une nouvelle notice), les données sont à nouveau
-  soumises au serveur.</para>
+  <para>Cuando vuelves a cargar una página que es el resultado de un
+  formulario (por ejemplo de un nuevo registro), los datos vuelven a enviarse
+  también al servidor.</para>
 
-  <para>Suivant le même principe que "Page précédente", le bouton "Stop"
+  <para>Pasa lo mismo con el botón "Stop" que con el botón "Página precedente"
   <inlinemediaobject>
       <imageobject>
         <imagedata fileref="images/firefox-stop.gif" />
       </imageobject>
-    </inlinemediaobject> de votre navigateur permettra d'interrompre le
-  chargement d'une page.</para>
+    </inlinemediaobject> de tu navegador, el primero permite interrumpir la
+  carga de una página.</para>
 
-  <para><emphasis role="bold">Attention</emphasis> Lors d'opérations
-  importantes sur la base de données (ajouts, suppressions), il ne faut pas
-  arrêter le chargement de la page sous peine d'interrompre le traitement en
-  cours, vous auriez un risque de détérioration de la base de données.</para>
+  <para><emphasis role="bold">Atención</emphasis> Cuando se están realizando
+  operaciones importantes en la base de datos (añadir, eliminar), no se debe
+  parar la carga de una página por que se puede interrumpir el tractamiento de
+  los datos, y puede ser que la base de datos sufra un deterioro.</para>
 
-  <para>Ne surtout pas cliquer sur ce bouton "arrêter le chargement" lors
-  d'une restauration de la base de données, d'une sauvegarde ou d'une
-  optimisation de la base.</para>
+  <para>Sobre todo no hay que presionar el botón "para la carga" cuando se
+  esté realizando una restauración de la base de datos, una copia de seguridad
+  o se esté optimizando la base de datos.</para>
 </chapter>
