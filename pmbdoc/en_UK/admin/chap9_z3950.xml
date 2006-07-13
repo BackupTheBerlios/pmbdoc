@@ -2,9 +2,9 @@
 <chapter>
   <title>Z39.50</title>
 
-  <para>If the Z39.50 search option is enabled, it will visible from the
-  cataloging tab. To enable the Z39.50 search, the parameter Z3950.accessible
-  must be set to 1. For more details on the customization of PMB, see <xref
+  <para>If the Z39.50 search option is enabled, it will be visible from the
+  cataloguing tab. To enable Z39.50 search, the parameter Z3950.accessible
+  must be set to 1. For more details on customizing PMB, see <xref
   linkend="admin_outils_parametres" />.</para>
 
   <para><emphasis role="bold">Warning : </emphasis>z39.50 search implies
@@ -12,7 +12,7 @@
   details, please read the PMB installation guide.</para>
 
   <para>Z29.50 search allows you to import bibliographic data from a
-  bibliogrpahic records server like the Library of Congress. Provided the
+  bibliographic records server like the Library of Congress. Provided the
   Library of Congress server is accessible from your computer connected to
   Internet, you will enjoy the benefits of an automated book cataloging system
   for every publication falling under legal deposit in the United
@@ -65,8 +65,8 @@
       </mediaobject>
     </figure>
 
-    <para>The customization of Z39.50 parameters is composed of various
-    elements :</para>
+    <para>You will need the following parameters to customize your Z39.50
+    servers :</para>
 
     <itemizedlist>
       <listitem>

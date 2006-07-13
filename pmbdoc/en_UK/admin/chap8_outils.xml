@@ -376,11 +376,11 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry align="left">sub-type</entry>
+              <entry align="left">Sub-type</entry>
 
-              <entry align="left">value</entry>
+              <entry align="left">Value</entry>
 
-              <entry align="left">explanation</entry>
+              <entry align="left">Explanation</entry>
             </row>
           </thead>
 
@@ -1174,11 +1174,11 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sub-type</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -1226,11 +1226,11 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry align="left">sub-type</entry>
+              <entry align="left">Sub-type</entry>
 
-              <entry align="left">value</entry>
+              <entry align="left">Value</entry>
 
-              <entry align="left">explanation</entry>
+              <entry align="left">Explanation</entry>
             </row>
           </thead>
 
@@ -1276,11 +1276,11 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sub-type</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -1321,11 +1321,11 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry align="left">sub-type</entry>
+              <entry align="left">Sub-type</entry>
 
-              <entry align="left">value</entry>
+              <entry align="left">Value</entry>
 
-              <entry align="left">explanation</entry>
+              <entry align="left">Explanation</entry>
             </row>
           </thead>
 
@@ -1428,11 +1428,11 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sub-type</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -1488,11 +1488,11 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sub-type</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -1541,6 +1541,105 @@ order by idcode</programlisting>
 
               <entry>Subject of email : Overdue items</entry>
             </row>
+
+            <row>
+              <entry>2after_list</entry>
+
+              <entry>Nous vous remercions de prendre rapidement contact par
+              téléphone au 00 00 00 00 00 ou de nous répondre par mail à
+              mail@mail.mail pour étudier la possibilité de prolonger ces
+              prêts ou de ramener les ouvrages concernés.</entry>
+
+              <entry>Bodytext printed after list of overdue items</entry>
+            </row>
+
+            <row>
+              <entry>2before_list</entry>
+
+              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
+              est aujourd'hui dépassée :</entry>
+
+              <entry>Bodytext printed before list of overdue items</entry>
+            </row>
+
+            <row>
+              <entry>2fdp</entry>
+
+              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+
+              <entry>Signature</entry>
+            </row>
+
+            <row>
+              <entry>2madame_monsieur</entry>
+
+              <entry>Madame, Monsieur</entry>
+
+              <entry>Email header</entry>
+            </row>
+
+            <row>
+              <entry>2objet</entry>
+
+              <entry>Documents en retard</entry>
+
+              <entry>Subject of email : Overdue items</entry>
+            </row>
+
+            <row>
+              <entry>3after_list</entry>
+
+              <entry>Nous vous remercions de prendre rapidement contact par
+              téléphone au 00 00 00 00 00 ou de nous répondre par mail à
+              mail@mail.mail pour étudier la possibilité de prolonger ces
+              prêts ou de ramener les ouvrages concernés.</entry>
+
+              <entry>Bodytext printed after list of overdue items</entry>
+            </row>
+
+            <row>
+              <entry>3before_list</entry>
+
+              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
+              est aujourd'hui dépassée :</entry>
+
+              <entry>Bodytext printed before list of overdue items</entry>
+            </row>
+
+            <row>
+              <entry>3fdp</entry>
+
+              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+
+              <entry>Signature</entry>
+            </row>
+
+            <row>
+              <entry>3madame_monsieur</entry>
+
+              <entry>Madame, Monsieur</entry>
+
+              <entry>Email header</entry>
+            </row>
+
+            <row>
+              <entry>3objet</entry>
+
+              <entry>Documents en retard</entry>
+
+              <entry>Subject of email : Overdue items</entry>
+            </row>
+
+            <row>
+              <entry>priorite_email</entry>
+
+              <entry>1</entry>
+
+              <entry>Overdue reminders priorities : 0 = Printed notification,
+              1 = Email, 2 = Email AND Printed notification</entry>
+            </row>
           </tbody>
         </tgroup>
       </table>
@@ -1549,9 +1648,12 @@ order by idcode</programlisting>
     <sect2 id="admin_outils_parametres_opac">
       <title>OPAC</title>
 
-      <para>The <emphasis>opac</emphasis> type correspond to the OPAC
-      custmosation. The OPAC is highly customisable and thus has a lot of
+      <para>The <emphasis>opac</emphasis> type correspond to customization of
+      the OPAC module. The OPAC is highly customizable and therefore has many
       parameters.</para>
+
+      <para>In a bid to make parameter setting more user-friendly, we have
+      grouped the parameters feature-wise.</para>
 
       <table>
         <title>Opac type</title>
@@ -1561,11 +1663,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -2251,11 +2353,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -2337,11 +2439,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -2433,11 +2535,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -2593,11 +2695,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -2753,11 +2855,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -2909,11 +3011,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 
@@ -2958,11 +3060,11 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>subtype</entry>
+              <entry>Sub-type</entry>
 
-              <entry>value</entry>
+              <entry>Value</entry>
 
-              <entry>explanation</entry>
+              <entry>Explanation</entry>
             </row>
           </thead>
 

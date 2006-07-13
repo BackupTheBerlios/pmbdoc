@@ -37,11 +37,11 @@
   <sect1 id="admin_sauv_tables">
     <title>Groups of tables</title>
 
-    <para>It is about the constitution of groups of tables to backup
-    simultaneously. You do not necessarily have to make a daily backup of your
-    records (a weekly backup, or after every import/calatoguing is enough. On
-    the other hand, loans being frequent you may need regular backups for
-    borrowers and issues.</para>
+    <para>It is about the grouping of tables to backup simultaneously. You do
+    not necessarily have to make a daily backup of your records (a weekly
+    backup, or after every import/calatoguing is enough. On the other hand,
+    loans being frequent you may need regular backups for borrowers and
+    issues.</para>
 
     <figure>
       <title>Backup &gt; Groups of tables</title>
@@ -106,7 +106,7 @@
           <row>
             <entry>Biblio</entry>
 
-            <entry>Bibliographic data tables </entry>
+            <entry>Bibliographic data tables</entry>
 
             <entry>analysis bulletins docs_codestat docs_location docs_section
             docs_statut docs_type exemplaires notices</entry>
@@ -161,7 +161,7 @@
       </tgroup>
     </table>
 
-    <para>To create a nes set of tables, click on <emphasis>Add a set of
+    <para>To create a new set of tables, click on <emphasis>Add a set of
     tables</emphasis>. Then tick the various tables corresponding to your
     set.</para>
 
@@ -179,7 +179,8 @@
   <sect1 id="admin_sauv_gestsauv">
     <title>Backup sets</title>
 
-    <para>A backup set is made up of a group of tables/backup location.</para>
+    <para>A backup set is made up of a group of tables and a backup
+    location.</para>
 
     <para>Backing up borrowers and loans in c:/pmb_backups/date/bibli.sav is
     valid.</para>
@@ -221,7 +222,7 @@
       </mediaobject>
     </figure>
 
-    <para>The same window pops-up when a user clicks on "backup" link near
+    <para>The same window pops-up when a user clicks on the "backup" link near
     "Quit" on the top right of the PMB screen.</para>
 
     <figure>
@@ -256,13 +257,13 @@
   <sect1>
     <title>Restore a backup made on another PMB installation</title>
 
-    <para>PMB has a hidden module for the emergency restoration of backups
-    :</para>
+    <para>PMB has a hidden module for the restoration of backups in case of
+    emergency :</para>
 
     <para><programlisting>http://MACHINE/PMB/admin/sauvegarde/emergency/emergency.php</programlisting></para>
 
     <para>You will have to upload the file (pay attention to max_upload_size
-    of php.ini)</para>
+    of php.ini).</para>
 
     <figure>
       <title>Emergency restore module</title>
