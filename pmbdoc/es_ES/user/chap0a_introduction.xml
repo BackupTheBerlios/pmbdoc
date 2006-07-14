@@ -11,10 +11,9 @@
     bibliotecarios, usuarios y desarrolladores que no estamos de acuerdo con
     este panorama.</para>
 
-    <para>PPMB se basa en las tecnologías del Web. Es lo que a veces se llama
-    una `web-app`. Se basa en un servidor Il se fonde sur un serveur HTTP
-    (básicamente Apache aunque no es obligatorio), una base de datos MySQL y
-    el lenguaje PHP.</para>
+    <para>PMB se basa en las tecnologías del Web. Es lo que a veces se llama
+    una `web-app`. Se basa en un servidor HTTP (básicamente Apache aunque no
+    es obligatorio), una base de datos MySQL y el lenguaje PHP.</para>
 
     <para>Las principales funcionalidades de PMB son :</para>
 
@@ -42,16 +41,16 @@
       </listitem>
 
       <listitem>
-        <para>Un OPAC simplificado que integra un "butineur"</para>
+        <para>Un OPAC simplificado que integra un "navegador"</para>
       </listitem>
 
       <listitem>
-        <para>Un módulo de gestión de los documentos BDP conveniente para los
+        <para>Un módulo de gestión de los documentos BDP útil para los
         establecimientos pequeños</para>
       </listitem>
 
       <listitem>
-        <para>La gestion de las publicaciones periódicas</para>
+        <para>La gestión de las publicaciones periódicas</para>
       </listitem>
 
       <listitem>
@@ -62,7 +61,7 @@
 
     <para>François Lemarchand, iniciador del proyecto PMB</para>
 
-   <para>Puedes encontrar más información en: <ulink
+    <para>Puedes encontrar más información en: <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
     <para>Encontrarás también una versión de demostración en línea, el
@@ -71,17 +70,17 @@
   </sect1>
 
   <sect1 id="introduction_infos">
-    <title>Donde encontrar información sobre PMB</title>
+    <title>Dónde encontrar información sobre PMB</title>
 
     <para>En la página web de PMB : <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-   <para>En la página web de la comunidad de usuarios : <ulink
+    <para>En la página web de la comunidad de usuarios : <ulink
     url="http://www.sigb.net">www.sigb.net/communaute</ulink></para>
 
     <para>En la lista de distribución de usuarios: pmb.user@sigb.net
-    (inscripción libre enviando un correo electrónico con el asunto SUBSCRIBE
-    a <ulink
+    (subscripción enviando un correo electrónico con el asunto SUBSCRIBE a
+    <ulink
     url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>)</para>
 
     <para>En la lista de distribución de los traductores, desarrolladores, de
@@ -89,13 +88,9 @@
     estas listas, consultar <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>En la lista de distribución de los traductores, desarrolladores, de
-    soporte a unicode (alfabetos no europeos). Para más información sobre
-    estas listas, consultar <ulink
-    url="http://www.sigb.net">www.sigb.net</ulink></para>
-	
     <para>Esta documentación está también disponible en línea en <ulink
-    url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>, en formato HTML y PDF.</para>
+    url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>, en formato HTML y
+    PDF.</para>
   </sect1>
 
   <sect1 id="introduction_references">
@@ -105,9 +100,11 @@
 
     <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
 
-    <para>Contribuciones de: François LEMARCHAND (antiguo administrador del proyecto), Betty FAIS, Stéphanie FORT</para>
+    <para>Contribuciones de: François LEMARCHAND (antiguo administrador del
+    proyecto), Betty FAIS, Stéphanie FORT</para>
 
-    <para>Gracias al Equipo de desarrolladores PMB, a los antiguos desarrolladores, a los usuarios.</para>
+    <para>Gracias al Equipo de desarrolladores PMB, a los antiguos
+    desarrolladores, a los usuarios.</para>
   </sect1>
 
   <sect1 id="introduction_cvs">
@@ -117,7 +114,7 @@
     gestión de actualización de código fuente para programadores.</para>
 
     <para>PMB dispone de CVS. El CVS está accesible para los desarrolladores.
-    Contacta con nosotros si si quieres ayudar al desarrollo de PMB o
-    participar en la redacción de la documentación.</para>
+    Contacta con nosotros si quieres ayudar al desarrollo de PMB o participar
+    en la redacción de la documentación.</para>
   </sect1>
 </chapter>
