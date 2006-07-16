@@ -12,6 +12,7 @@
 <!ENTITY __chap3_autorites SYSTEM "chap3_autorites.xml">
 <!ENTITY __chap4_editions SYSTEM "chap4_editions.xml">
 <!ENTITY __chap_dsi SYSTEM "chap_dsi.xml">
+<!ENTITY __chap_acquisitions SYSTEM "chap_acquisitions.xml">
 <!ENTITY __chap5_administration SYSTEM "chap5_administration.xml">
 <!ENTITY __chap6_aidecontextuelle SYSTEM "chap6_aidecontextuelle.xml">
 <!ENTITY __chap7_historique_des_recherches SYSTEM "chap7_historique_des_recherches.xml">
@@ -103,6 +104,8 @@
   &__chap4_editions;
 
   &__chap_dsi;
+  
+  &__chap_acquisitions;
 
   &__chap5_administration;
 
