@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Recherche multicriteres</title>
+  <title>Advanced search</title>
 
   <section>
-    <title>Ajout d'un critère de recherche</title>
+    <title>Adding a search criteria</title>
 
-    <para>Pour lancer une recherche multicritères, cliquez sur le bouton
-    "recherche multicritères" sur la page d'accueil de l'OPAC.</para>
+    <para>To launch a multi-faceted search, click on "advanced search" on the
+    OPAC home page.</para>
 
-    <para>Lors d'une recherche multicritères, vous affinez votre recherche par
-    l'utilisation de critères successifs.</para>
+    <para>When making an advanced search, you refine your search by using
+    successive criterias.</para>
 
     <figure>
-      <title>Bandeau de recherche multi-critères</title>
+      <title>Advanced search text box</title>
 
       <mediaobject>
         <imageobject>
@@ -21,35 +21,35 @@
       </mediaobject>
     </figure>
 
-    <para>Choisissez un champ de recherche dans la liste déroulante :</para>
+    <para>Choose a field to search from the list box :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Champs principaux</para>
+        <para>Main fields</para>
 
         <itemizedlist>
           <listitem>
-            <para>Titre</para>
+            <para>Title</para>
           </listitem>
 
           <listitem>
-            <para>Auteur</para>
+            <para>Author</para>
           </listitem>
 
           <listitem>
-            <para>Editeur</para>
+            <para>Publisher</para>
+          </listitem>
+
+          <listitem>
+            <para>Series</para>
+          </listitem>
+
+          <listitem>
+            <para>Sub-series</para>
           </listitem>
 
           <listitem>
             <para>Collection</para>
-          </listitem>
-
-          <listitem>
-            <para>Sous-collection</para>
-          </listitem>
-
-          <listitem>
-            <para>Série</para>
           </listitem>
 
           <listitem>
@@ -63,37 +63,37 @@
 
         <itemizedlist>
           <listitem>
-            <para>Note générale</para>
+            <para>General note</para>
           </listitem>
 
           <listitem>
-            <para>Note de contenu</para>
+            <para>Contents note</para>
           </listitem>
 
           <listitem>
-            <para>Notes de résumé</para>
+            <para>Summary note</para>
           </listitem>
 
           <listitem>
-            <para>Toutes les notes</para>
+            <para>All notes</para>
           </listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
-        <para>Indexations</para>
+        <para>Indexes</para>
 
         <itemizedlist>
           <listitem>
-            <para>Sujet</para>
+            <para>Subject</para>
           </listitem>
 
           <listitem>
-            <para>Indexation décimale</para>
+            <para>Classmark</para>
           </listitem>
 
           <listitem>
-            <para>Indexation libre</para>
+            <para>Free index</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -103,11 +103,11 @@
 
         <itemizedlist>
           <listitem>
-            <para>Langue de publication</para>
+            <para>Publication language</para>
           </listitem>
 
           <listitem>
-            <para>Langue originale</para>
+            <para>Original language</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -117,48 +117,69 @@
 
         <itemizedlist>
           <listitem>
-            <para>Type de notice</para>
+            <para>Record type</para>
           </listitem>
 
           <listitem>
-            <para>Type de document</para>
+            <para>Media type</para>
           </listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
-        <para>Exemplaires</para>
+        <para>Items</para>
 
         <itemizedlist>
           <listitem>
-            <para>Localisation d'exemplaire</para>
+            <para>Item location</para>
           </listitem>
 
           <listitem>
-            <para>Section d'exemplaire</para>
+            <para>Item section</para>
           </listitem>
 
           <listitem>
-            <para>Propriétaire d'exemplaire</para>
+            <para>Item owner</para>
           </listitem>
 
           <listitem>
-            <para>Type de support de l'exemplaire</para>
+            <para>Media type</para>
+          </listitem>
+
+          <listitem>
+            <para>Classmark</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Serials</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Date of publication of issue</para>
+          </listitem>
+
+          <listitem>
+            <para>Articles in serial</para>
+          </listitem>
+
+          <listitem>
+            <para>Issue No.</para>
           </listitem>
         </itemizedlist>
       </listitem>
     </itemizedlist>
 
-    <para>Cliquez ensuite sur Ajouter.</para>
+    <para>Click on Add.</para>
 
-    <para>Le critère que vous avez choisi est alors ajouté à la liste des
-    critères.</para>
+    <para>Your search criteria is then added to the list of criterias.</para>
 
-    <para>Les champs liés aux exemplaires</para>
+    <para>The fields associated with items (or copies) </para>
 
     <itemizedlist>
       <listitem>
-        <para>Localisation</para>
+        <para>Location</para>
       </listitem>
 
       <listitem>
@@ -166,59 +187,58 @@
       </listitem>
 
       <listitem>
-        <para>Propriétaire</para>
+        <para>Owner</para>
       </listitem>
 
       <listitem>
-        <para>Type de support</para>
+        <para>Media type</para>
       </listitem>
     </itemizedlist>
 
-    <para>fonctionnent différemment et vous affichent une liste de choix. Pour
-    sélectionner deux valeurs ou plus simultanément, maintenez la touche Ctrl
-    du clavier appuyée en cliquant sur les valeurs choisies.</para>
+    <para>operate differently and display a list to choose from. To choose two
+    or more values simultaneously, hold down Ctrl key and click on the values
+    required.</para>
 
-    <para>Pour chaque critère, spécifiez le ou les mots ou expressions à
-    rechercher. Vous pouvez ensuite choisir où se trouvent le ou les mots
-    recherchés dans le champ, à l'aide du menu déroulant :</para>
+    <para>For each criteria, enter one or more words or search expressions.
+    Then choose where to find the word or words to search for within the field
+    using the list box :</para>
 
     <itemizedlist>
       <listitem>
-        <para>contient au moins un des mots</para>
+        <para>contains at least one of the words</para>
       </listitem>
 
       <listitem>
-        <para>contient tous les mots</para>
+        <para>contains all the words</para>
       </listitem>
 
       <listitem>
-        <para>commence par</para>
+        <para>starts with</para>
       </listitem>
 
       <listitem>
-        <para>fini par</para>
+        <para>ends with</para>
       </listitem>
 
       <listitem>
-        <para>exactement comme</para>
+        <para>exactly like</para>
       </listitem>
     </itemizedlist>
 
-    <para>Le champ ISBN accepte uniquement le choix "commence par" ; les
-    champs liés aux exemplaires nécessitent uniquement un choix dans la
-    liste.</para>
+    <para>The ISBN field accepts only "starts with" ; fields associated with
+    copies of works require only choosing from the list.</para>
   </section>
 
   <section>
-    <title>Combinaison des critères de recherche</title>
+    <title>Combined search criteria</title>
 
-    <para>Pour chaque nouveau critère ajouté, vous devez spécifier les liens
-    entre les différents critères : et/ou/sauf.</para>
+    <para>For every additional criteria, you need to determine the association
+    with the various criterias : and/or/not.</para>
 
-    <para>Les critères se cumulent dans un ordre inversé : le premier critère
-    choisi sera le dernier appliqué. </para>
-    
-    <para>Vous pouvez spécifier deux conditions pour un même critère, par exemple Titre commence par... et Titre contient les mots...</para>
-    
+    <para>Criterias add with one another in inverted order : the first
+    criteria chosen will be applied last.</para>
+
+    <para>You may specify two conditions for one and same criteria, for
+    example, Title starts with.... and Title contains the words...</para>
   </section>
 </chapter>

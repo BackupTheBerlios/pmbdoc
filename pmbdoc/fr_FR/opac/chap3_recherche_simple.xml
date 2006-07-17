@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Recherche simple</title>
+  <title>Quick search</title>
 
-  <para>Vous pouvez chercher vos documents de différentes manières dans PMB.
-  La recherche simple est le mode de recherche par défaut.</para>
+  <para>There are various ways to make searches in PMB. Quick search is the
+  default search mode.</para>
 
   <section>
-    <title>Choix des champs de la recherche</title>
+    <title>Choosing fields to search</title>
 
     <figure>
-      <title>Champs de recherche</title>
+      <title>Fields to search</title>
 
       <mediaobject>
         <imageobject>
@@ -18,62 +18,63 @@
       </mediaobject>
     </figure>
 
-    <para>La recherche simple dans PMB porte par défaut sur les titres et les
-    auteurs. Vous pouvez spécifier un ou plusieurs champs de recherche parmi
-    les informations suivantes :</para>
+    <para>Quick search is set by default to titles and authors in PMB. You can
+    specify one or several fields to search from the following fields :</para>
 
     <itemizedlist>
       <listitem>
-        <para>titres</para>
+        <para>titles</para>
       </listitem>
 
       <listitem>
-        <para>auteurs</para>
+        <para>authors</para>
       </listitem>
 
       <listitem>
-        <para>éditeurs</para>
+        <para>publishers</para>
       </listitem>
 
       <listitem>
-        <para>collections</para>
+        <para>series</para>
       </listitem>
 
       <listitem>
-        <para>sous-collections</para>
+        <para>sub-series</para>
       </listitem>
 
       <listitem>
-        <para>catégories</para>
+        <para>subjects</para>
       </listitem>
 
       <listitem>
-        <para>indexations</para>
+        <para>indexes</para>
       </listitem>
 
       <listitem>
-        <para>mots clés</para>
+        <para>keywords</para>
       </listitem>
 
       <listitem>
-        <para>résumé et notes</para>
+        <para>summary and notes</para>
       </listitem>
     </itemizedlist>
 
-    <para>Si vous ne spécifiez aucun champs de recherche, votre recherche
-    portera sur l'option par défaut, les titres et les auteurs.</para>
-    
-    <para>Attention, si vous recherchez le titre d'une partie de l'oeuvre (piste d'un cd, nouvelle dans un recueil, poème dans une anthologie...) cochez également la case "résumé et notes"</para>
+    <para>If you do not indicate any fields, the search will be made using the
+    default option, that is, titles and authors.</para>
+
+    <para>Warning. if you are looking for the title of part of a work (cd
+    track, a short story in a compilation, a poem from an anthology, ....)
+    check the text box "summary and notes" as well.</para>
   </section>
 
   <section>
-    <title>Nombre de résultats</title>
+    <title>Number of results</title>
 
-    <para>La recherche simple dans PMB cherche l'ensemble de vos critères de
-    recherche dans chacun des champs qui ont été sélectionnés.</para>
+    <para>Quick search in PMB processes your search criteria for each of the
+    fields selected.</para>
 
     <figure>
-      <title>Nombre de résultats pour une recherche</title>
+      <title>Number of results for a search</title>
 
       <mediaobject>
         <imageobject>
@@ -82,7 +83,7 @@
       </mediaobject>
     </figure>
 
-    <para>Pour afficher les résultats de recherche, cliquez sur
-    <emphasis>afficher</emphasis>.</para>
+    <para>To display search results, click on
+    <emphasis>display</emphasis>.</para>
   </section>
 </chapter>
