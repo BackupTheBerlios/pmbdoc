@@ -3,70 +3,71 @@
   <title>Introduction</title>
 
   <sect1>
-    <title>Credits</title>
+    <title>Références</title>
 
-    <para><emphasis role="bold">Authors</emphasis></para>
+    <para><emphasis role="bold">Auteurs</emphasis></para>
 
     <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
 
     <para><emphasis role="bold">Contributions</emphasis></para>
 
-    <para>PMB Team of developers.</para>
+    <para>Equipe de développeurs PMB.</para>
 
-    <para>Former developers of PMB : François Lemarchand, Jesir Vargas,
+    <para>Anciens développeurs de PMB : François Lemarchand, Jesir Vargas,
     Christophe Bliard, ...</para>
 
-    <para>This User Guide corresponds to PMB version 2.2</para>
+    <para>Ce Guide de l'OPAC correspond à la version 1.3 de PMB</para>
 
-    <para>Version number on cover.</para>
+    <para>Tiré de admin_guide.xml. Vous pouvez trouver une version PDF de ce
+    document sur www.sigb.net en cherchant admin_guide.pdf'.</para>
+
+    <para>Numéro de version en couverture.</para>
   </sect1>
 
   <sect1>
-    <title>About PMB</title>
+    <title>A propos de PMB</title>
 
-    <para>PMB is a completely free ILS (Integrated Library management System).
-    For more details refer to <ulink
-    url="http://www.sigb.net">www.sigb.net</ulink> .</para>
+    <para>PMB est un logiciel libre de gestion de bibliothèques. Pour plus
+    d'informations consulter <ulink url="http://www.sigb.net">www.sigb.net</ulink> .</para>
   </sect1>
 
   <sect1>
-    <title>How is the OPAC organized</title>
+    <title>Organisation de l'OPAC</title>
 
-    <para>OPAC stands for Online Public Access Catalogue.</para>
+    <para>OPAC signifie Online Public Access Catalog.</para>
 
-    <para>The OPAC of PMB enables the library user to query the catalogue on
-    the holdings of the library, that is , to make searches. You have various
-    search modes at your disposal :</para>
+    <para>L'OPAC de PMB permet de faire des recherches dans le catalogue de la
+    bibliothèque. Vous disposez de différents moyens de recherche :</para>
 
     <itemizedlist>
       <listitem>
-        <para>quick search</para>
+        <para>la recherche simple</para>
       </listitem>
 
       <listitem>
-        <para>advanced search</para>
+        <para>la recherche multicritères</para>
       </listitem>
 
       <listitem>
-        <para>search by (thesaurus) terms</para>
+        <para>la recherche par termes du thésaurus</para>
       </listitem>
 
       <listitem>
-        <para>browsing subject headings</para>
+        <para>le parcours des catégories</para>
       </listitem>
 
       <listitem>
-        <para>browsing virtual shelves</para>
+        <para>le parcours d'une étagère virtuelle</para>
       </listitem>
 
       <listitem>
-        <para>exploring the color wheel or the 100 knowledge tables (for
-        schools) </para>
+        <para>pour les établissements d'éducation, l'exploration de la
+        marguerite des couleurs ou du tableau des 100 cases du savoir</para>
       </listitem>
     </itemizedlist>
 
     <figure>
-      <title>OPAC home page</title>
+      <title>Accueil de l'OPAC</title>
 
       <mediaobject>
         <imageobject>
@@ -75,14 +76,16 @@
       </mediaobject>
     </figure>
 
-    <para>The OPAC screen is divided in two parts :</para>
+    <para>L'écran de l'OPAC de PMB est divisé verticalement en deux parties
+    :</para>
 
     <itemizedlist>
       <listitem>
-        <para>a side strip showing reader's login</para>
+        <para>bandeau latéral avec formulaire d'identification du
+        lecteur</para>
 
         <figure>
-          <title>The side strip</title>
+          <title>bandeau latéral</title>
 
           <mediaobject>
             <imageobject>
@@ -93,11 +96,12 @@
       </listitem>
 
       <listitem>
-        <para>the central interface which contains the search form and
-        eventually search results, catalogue browsing options</para>
+        <para>une partie centrale qui contient le formulaire de recherche et
+        le cas échéant les résultats de ces recherches, des possibilités
+        d'explorer le catalogue</para>
 
         <figure>
-          <title>The central interface of the OPAC</title>
+          <title>partie centrale de l'OPAC</title>
 
           <mediaobject>
             <imageobject>
