@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Advanced search</title>
+
+  <section>
+    <title>Adding a search criteria</title>
+
+    <para>To launch a multi-faceted search, click on "advanced search" on the
+    OPAC home page.</para>
+
+    <para>When making an advanced search, you refine your search by using
+    successive criterias.</para>
+
+    <figure>
+      <title>Advanced search text box</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/multicrit.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Choose a field to search from the list box :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Main fields</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Title</para>
+          </listitem>
+
+          <listitem>
+            <para>Author</para>
+          </listitem>
+
+          <listitem>
+            <para>Publisher</para>
+          </listitem>
+
+          <listitem>
+            <para>Series</para>
+          </listitem>
+
+          <listitem>
+            <para>Sub-series</para>
+          </listitem>
+
+          <listitem>
+            <para>Collection</para>
+          </listitem>
+
+          <listitem>
+            <para>ISBN</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Notes</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>General note</para>
+          </listitem>
+
+          <listitem>
+            <para>Contents note</para>
+          </listitem>
+
+          <listitem>
+            <para>Summary note</para>
+          </listitem>
+
+          <listitem>
+            <para>All notes</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Indexes</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Subject</para>
+          </listitem>
+
+          <listitem>
+            <para>Classmark</para>
+          </listitem>
+
+          <listitem>
+            <para>Free index</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Langues</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Publication language</para>
+          </listitem>
+
+          <listitem>
+            <para>Original language</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Types</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Record type</para>
+          </listitem>
+
+          <listitem>
+            <para>Media type</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Items</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Item location</para>
+          </listitem>
+
+          <listitem>
+            <para>Item section</para>
+          </listitem>
+
+          <listitem>
+            <para>Item owner</para>
+          </listitem>
+
+          <listitem>
+            <para>Media type</para>
+          </listitem>
+
+          <listitem>
+            <para>Classmark</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Serials</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Date of publication of issue</para>
+          </listitem>
+
+          <listitem>
+            <para>Articles in serial</para>
+          </listitem>
+
+          <listitem>
+            <para>Issue No.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <para>Click on Add.</para>
+
+    <para>Your search criteria is then added to the list of criterias.</para>
+
+    <para>The fields associated with items (or copies) </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Location</para>
+      </listitem>
+
+      <listitem>
+        <para>Section</para>
+      </listitem>
+
+      <listitem>
+        <para>Owner</para>
+      </listitem>
+
+      <listitem>
+        <para>Media type</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>operate differently and display a list to choose from. To choose two
+    or more values simultaneously, hold down Ctrl key and click on the values
+    required.</para>
+
+    <para>For each criteria, enter one or more words or search expressions.
+    Then choose where to find the word or words to search for within the field
+    using the list box :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>contains at least one of the words</para>
+      </listitem>
+
+      <listitem>
+        <para>contains all the words</para>
+      </listitem>
+
+      <listitem>
+        <para>starts with</para>
+      </listitem>
+
+      <listitem>
+        <para>ends with</para>
+      </listitem>
+
+      <listitem>
+        <para>exactly like</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>The ISBN field accepts only "starts with" ; fields associated with
+    copies of works require only choosing from the list.</para>
+  </section>
+
+  <section>
+    <title>Combined search criteria</title>
+
+    <para>For every additional criteria, you need to determine the association
+    with the various criterias : and/or/not.</para>
+
+    <para>Criterias add with one another in inverted order : the first
+    criteria chosen will be applied last.</para>
+
+    <para>You may specify two conditions for one and same criteria, for
+    example, Title starts with.... and Title contains the words...</para>
+  </section>
+</chapter>
