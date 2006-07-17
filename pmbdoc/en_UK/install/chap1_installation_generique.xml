@@ -87,7 +87,7 @@
         </itemizedlist>
 
         <para>Once the parameters have been entered, click on the button
-        <citetitle>Create database</citetitle>.</para>
+        <emphasis>Create database</emphasis>.</para>
       </sect3>
     </sect2>
 
@@ -96,8 +96,8 @@
 
       <para>Once the database has been created, check the connection
       configuration files of PMB with the database. Edit the file
-      <citetitle>db_param.inc.php</citetitle> in the sub-folder
-      <citetitle>includes</citetitle> in the install directory.</para>
+      <emphasis>db_param.inc.php</emphasis> in the sub-folder
+      <emphasis>includes</emphasis> in the install directory.</para>
 
       <para>Verify the line :</para>
 
@@ -128,8 +128,8 @@
       <para><literal> break;</literal></para>
 
       <para>Proceed with the same verification with the file
-      <citetitle>opac_db_param.incp.php</citetitle> in
-      <citetitle>opac_css/includes</citetitle>.</para>
+      <emphasis>opac_db_param.incp.php</emphasis> in
+      <emphasis>opac_css/includes</emphasis>.</para>
     </sect2>
 
     <sect2>
