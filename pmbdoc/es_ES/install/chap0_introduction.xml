@@ -1,85 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter lang="fr" id="introduction">
-  <title>Introduction</title>
+<chapter id="introduction" lang="fr">
+  <title>Introducción</title>
 
   <sect1>
-    <title>Où trouver des informations sur PMB</title>
+    <title>Dónde encontrar información sobre PMB</title>
 
-    <para>Sur le site de PMB : www.sigb.net</para>
+    <para>En la página web de PMB : www.sigb.net</para>
 
-    <para>Sur le site de la communauté des utilisateurs :
+    <para>En la página de la comunidad de usuarios :
     www.sigb.net/communaute</para>
 
-    <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
-    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
-    pmb.user_request@sigb.net)</para>
+    <para>En la lista de distribución de usuarios : pmb.user@sigb.net
+    (inscripción libre enviando un correo electrónico con el asunto SUBSCRIBE
+    a pmb.user_request@sigb.net)</para>
 
-    <para>Sur la mailing liste des traducteurs, des développeurs, du support
-    de l'unicode (alphabets non européens). Pour plus de renseignements sur
-    ces listes, consulter www.sigb.net</para>
+    <para>En la lista de de distribución de traductores, de desarrolladores,
+    de soporte a unicode (alfabetos no europeos). Para más información sobre
+    estas listas, consulta www.sigb.net</para>
 
-    <para>Cette documentation est consultable en ligne sur www.sigb.net/doc,
-    elle est disponible aux formats XML (format de rédaction), HTML, RTF et
-    PDF.</para>
+    <para>Esta documentación es consultable en línea en www.sigb.net/doc, está
+    disponible en formato XML (formato de redacción), HTML, RTF y PDF.</para>
   </sect1>
 
   <sect1>
-    <title>Mise à jour d'une installation existante</title>
+    <title>Actualización de una instalación existente</title>
 
-    <para>
-      <emphasis>ATTENTION</emphasis>
-    </para>
+    <para><emphasis>ATENCIÓN</emphasis></para>
 
-    <para>Si vous faites une mise-à-jour à partir d'une version existante en
-    décompressant l'archive :</para>
+    <para>Si realizas una actualización a partir de una versión anterior,
+    después de descomprimir el archivo y cargarlo al servidor debes :</para>
 
-    <para>Allez en <emphasis role="bold">Administration</emphasis>; Rubrique
-    <emphasis role="bold">Outils</emphasis> ; Choisissez l'option <emphasis
-    role="bold">M.à.J. base</emphasis> afin de mettre à jour le noyau de votre
-    base de données. Vous n'avez pas besoin de réinstaller la base de données,
-    vos données actuelles seront conservées sans aucune perte.</para>
+    <para>Ir a <emphasis role="bold">Administración</emphasis>; Apartado
+    <emphasis role="bold">Herramientas</emphasis>; Escoger la opción <emphasis
+    role="bold">Act. base</emphasis> para actualizar la base de datos a los
+    nuevos cambios o funcionalidades. No es necesario que reinstales toda la
+    base de datos, ya que tus datos actuales se conservarán sin perderse
+    nada.</para>
   </sect1>
 
   <sect1>
-    <title>Pré-requis d'installation</title>
+    <title>Requisitos antes de instalar</title>
 
-    <para>PMB est une application 3 tiers basé sur un environnement Web
-    classique. Pour fonctionner elle nécessite :</para>
+    <para>PMB es una aplicación de 3 aplicaciones bajo un sistema Web clásico.
+    Para funcionar necesita. :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Coté serveur :</para>
+        <para>De la parte del servidor :</para>
 
         <itemizedlist>
           <listitem>
-            <para>Un serveur Web quelconque capable d'intégrer le langage
-            PHP</para>
+            <para>Un servidor Web capaz de integrar el lenguaje PHP</para>
           </listitem>
 
           <listitem>
-            <para>Le langage PHP pour exécuter les scripts. Spécificités du
-            langage PHP requises :</para>
+            <para>LEl lenguaje PHP para ejecutar los scripts. Especificaciones
+            del lenguaje PHP requeridas :</para>
 
             <itemizedlist>
               <listitem>
-                <para>Version supérieure ou égale à 4.2</para>
+                <para>Versión superior o igual a 4.2, pero no PHP 5 (existen
+                incompatibilidades)</para>
               </listitem>
 
               <listitem>
-                <para>Modules impératifs : MySQL, GD, XSLT</para>
+                <para>Módulos obligatorios : MySQL, GD, XSLT</para>
               </listitem>
 
               <listitem>
-                <para>Modules optionnels pour activer certaines
-                fonctionnalités : YAZ pour la recherche z3950, bz2 pour la
-                compression, directe des sauvegardes.</para>
+                <para>Módulos opcionales para activar ciertas funcionalidades
+                : YAZ para la búsqueda Z3950, bz2 para la compresión directa
+                de las copias de seguridad</para>
               </listitem>
             </itemizedlist>
           </listitem>
 
           <listitem>
-            <para>Un serveur de base de données MySQL de version supérieure ou
-            égale à 3.23</para>
+            <para>Un servidor de base de datos MySQL 4.0 o 4.1</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -87,185 +84,152 @@
 
     <itemizedlist>
       <listitem>
-        <para>Coté client :</para>
+        <para>De la parte del cliente:</para>
 
         <itemizedlist>
           <listitem>
-            <para>Un navigateur Web de génération récente (MS I.E. 6, Netscape
-            7, ...) quelque soit la plate-forme : Windows, Linux, MacOS, UNIX,
-            Solaris, BeOS...</para>
+            <para>Un navigador Web de generación reciente (Internet Explorer
+            6, Netscape 7, ...) en cualquier plataforma: Windows, Linux,
+            MacOS, UNIX, Solaris, BeOS...</para>
           </listitem>
         </itemizedlist>
       </listitem>
     </itemizedlist>
 
-    <para>Il est possible de faire fonctionner PMB en monoposte. Dans ce cas,
-    le serveur et le client sont la même machine. Dans ce cas, l'adresse
-    réseau du serveur sera http://localhost/ ou avec l'adresse IP
-    http://127.0.0.1/ ces deux adresses renvoient à l'hôte local, soit pour
-    l'ordinateur client "soi-même".</para>
+    <para>Es posible hacer funcionar PMB en local. En este caso, el servidor y
+    el cliente son la misma máquina. En este caso la dirección real del
+    servidor será http://localhost/ o la dirección IP http://127.0.0.1/, estas
+    dos direcciones envían hacia el servidor local, que será el mismo
+    ordenador cliente.</para>
 
-    <para>De même client et serveur peuvent être distincts, soit sur le réseau
-    local de la bibliothèque, soit via internet. Il est possible également de
-    séparer le serveur MySQL hébergeant le donner.</para>
+    <para>De la misma forma el cliente y el servidor pueden ser distintos, o
+    en la red local de la biblioteca o en internet. Es posible también separar
+    el servidor MySQL que guarda los datos..</para>
   </sect1>
 
   <sect1>
-    <title>Configurer son serveur avant d'installer PMB</title>
+    <title>Configurar el servidor antes de instalar PMB</title>
 
-    <para>Ces informations sont disponibles dans le fichier
-    <emphasis>votre_rep_pmb/doc/pre_requisite.txt</emphasis></para>
+    <para>Estas informaciones están disponibles en el archivo de
+    <emphasis>vuestro_directorio_pmb/doc/pre_requisite.txt</emphasis></para>
 
-    <para>Version de pre_requisite.txt reprise ici
+    <para>Versión de pre_requisite.txt expuesta aquí
     <emphasis>pre_requisite.txt,v 1.4 2004/08/08 17:38:52
     touraine37</emphasis></para>
 
-    <para>
-      <emphasis role="bold">Configuration de PHP : php.ini</emphasis>
-    </para>
+    <para><emphasis role="bold">Configuración de PHP :
+    php.ini</emphasis></para>
 
-    <para>Position de ce fichier avec une installation sur Windows :</para>
+    <para>Este archivo se encuentra en una instalación Windows en :</para>
 
     <para>\windows\</para>
 
-    <para>ou :</para>
+    <para>o :</para>
 
     <para>\rep_install_apache\apache\</para>
 
-    <para>
-      <emphasis>Que faut-il vérifier :</emphasis>
-    </para>
+    <para><emphasis>Que hace falta comprobar :</emphasis></para>
 
-    <para>Librairie GD : vérifier qu'elle est disponible et activée
-    (génération de code-barre)</para>
+    <para>Librería&nbsp;GD : verificar que está disponible y activada
+    (generación de códigos de barras)</para>
 
-    <para>Librairie PHP_YAZ : vérifier qu'elle est disponible et activée
-    (recherche z3950)</para>
+    <para>Librería PHP_YAZ : verificar que está disponible y activada
+    (búsqueda z3950)</para>
 
-    <para>Librairie PHP_BZ2 : vérifier qu'elle est disponible et activée
-    (sauvegardes de la base)</para>
+    <para>Librería PHP_BZ2 : verificar que está disponible y activada (copias
+    de seguridad de la base de datos)</para>
 
-    <para>Librairie PHP_XSLT : vérifier qu'elle est disponible et activée
-    (sauvegardes de la base)</para>
+    <para>Librería PHP_XSLT : verificar que está disponible y activada (copias
+    de seguridad de la base)</para>
 
-    <para>
-      <emphasis>Ce qu'il faut modifier dans le fichier php.ini :</emphasis>
-    </para>
+    <para><emphasis>Qué hace falta modificar en el archivo php.ini
+    :</emphasis></para>
 
-    <para>
-      <literal>;;;;;;;;;;;;;;;;;;;</literal>
-    </para>
+    <para><literal>;;;;;;;;;;;;;;;;;;;</literal></para>
 
-    <para>
-      <literal>Resource Limits ;</literal>
-    </para>
+    <para><literal>Resource Limits ;</literal></para>
 
-    <para>
-      <literal>;;;;;;;;;;;;;;;;;;;</literal>
-    </para>
+    <para><literal>;;;;;;;;;;;;;;;;;;;</literal></para>
 
     <para><literal>max_execution_time = 120 ; </literal>Maximum execution time
     of each script, in seconds</para>
 
-    <para>à pousser à 120 secondes</para>
+    <para>poner 120 segundos</para>
 
-    <para>Extensions :</para>
+    <para>Extensiones :</para>
 
-    <para>
-      <literal>extension=php_bz2.dll</literal>
-    </para>
+    <para><literal>extension=php_bz2.dll</literal></para>
 
-    <para><literal>extension=php_gd.dll</literal> ou
+    <para><literal>extension=php_gd.dll</literal> o
     extension=php_gd2.dll</para>
 
-    <para>
-      <literal>extension=php_yaz.dll</literal>
-    </para>
+    <para><literal>extension=php_yaz.dll</literal></para>
 
-    <para>
-      <literal>extension=php_xslt.dll</literal>
-    </para>
+    <para><literal>extension=php_xslt.dll</literal></para>
 
-    <para>Les DLL correspondantes doivent être copiées dans \windows\system32,
-    attention, bien prendre les dll fournies avec votre distribution de php,
-    question de compatibilité de compilation.</para>
+    <para>Las DLL correspondientes deben copiarse a \windows\system32,
+    atención, copia las dll distribuidas con tu versión de php, es una
+    cuestión de compatibilidad y compilación.</para>
 
-    <para>Ces DLL doivent être disponibles dans le répertoire de PHP ou
-    php\dlls pour une installation de php indépendante ou EasyPHP\php pour une
-    installation avec EasyPHP Les DLL sont les suivantes : expat.dll,
-    iconv.dll, sablot.dll, yaz.dll</para>
+    <para>Estas DLL deben estar disponibles en el directorio de php o php\dlls
+    para una instalación de php independiente o EasyPHP\php para una
+    instalación con EasyPHP Las DLL son las siguientes : expat.dll, iconv.dll,
+    sablot.dll, yaz.dll</para>
 
-    <para>Afin de pouvoir charger des fichiers de taille importante dans les
-    documents numériques attachés, il faut agmenter la taille du max upload
-    :</para>
+    <para>Con el fin de poder cargar archivos de tamaño importante como
+    documentos electrónicos adjuntos, es necesario aumentar el tamaño de max
+    upload :</para>
 
-    <para>
-      <literal>Maximum allowed size for uploaded files.</literal>
-    </para>
+    <para><literal>Maximum allowed size for uploaded files.</literal></para>
 
-    <para>
-      <literal>upload_max_filesize = 16M</literal>
-    </para>
+    <para><literal>upload_max_filesize = 16M</literal></para>
 
-    <para>Cas particulier :</para>
+    <para>Caso particular :</para>
 
-    <para>
-      <literal>extension=php_mime_magic.dll</literal>
-    </para>
+    <para><literal>extension=php_mime_magic.dll</literal></para>
 
-    <para>
-      <literal>mime_magic.magicfile = "c:\easyphp\php\magic.mime"</literal>
-    </para>
+    <para><literal>mime_magic.magicfile =
+    "c:\easyphp\php\magic.mime"</literal></para>
 
-    <para>Cette extension, facultative, permet de récupérer les types de
-    fichier des documents numériques de façon propre. A défaut, PMB utilisera
-    l'extension de fichier pour retrouver ses petits. Pensez à renseigner
-    (voire à créer) la ligne</para>
+    <para>Esta extensión, opcional, permite recuperar los tipos de arvhivo de
+    los documentos electrónicos automáticamente. Por defecto, PMB usará la
+    extensión del archivo para encontrar su imagen. Piensa en incluir (o
+    incluso crear) la línea</para>
 
-    <para>
-      <literal>mime_magic.magicfile = "c:\easyphp\php\magic.mime"</literal>
-    </para>
+    <para><literal>mime_magic.magicfile =
+    "c:\easyphp\php\magic.mime"</literal></para>
 
-    <para>en donnant le bon chemin d'accès au fichier magic.mime.</para>
+    <para>dando el camino correcto de acceso al archivo magic.mime.</para>
 
-    <para>Pour une installation sous Linux, les paramètres de php.ini sont les
-    mêmes mis à part les extensions qui sont des ".so" et qui vous obligeront
-    vraisemblablement à recompiler si vous n'avez pas toutes les bonnes
-    dernières versions à jour. Par chance, certaines distributions incluent
-    ces packages compilés, ou téléchargeables sur le web sans nécessiter de
-    compilation.</para>
+    <para>Para una instalación bajo Linux, los parámetros de php.ini son los
+    mismos excepto que las extensiones son ".so" y que os obligarán a
+    recopilar las últimas versiones si no están todas al día. En cambio,
+    ciertas distribuciones que incluyen los paquetes compilados, o
+    descargables en la página web sin necesidad de compilar.</para>
 
-    <para>Consulter à ce sujet la partie dédiée à votre système d'exploitation
-    dans ce <emphasis>Guide d'Installation PMB</emphasis>.</para>
+    <para>Consulta sobre este tema la parte dedicada a tu sistema de la
+    <emphasis>Guía de instalación PMB</emphasis>.</para>
 
-    <para>
-      <emphasis role="bold">Installation de la librairie
-      php_xslt.dll</emphasis>
-    </para>
+    <para><emphasis role="bold">Instalación de la librería
+    php_xslt.dll</emphasis></para>
 
-    <para>Sous Windows et EasyPHP, il faut activer la librairie php_xslt.dll
-    dans le fichier php.ini et copier les dlls expat.dll, iconv.dll,
-    sablot.dll du répertoire EasyPHP\php dans Windows\System.</para>
+    <para>Bajo Windows y EasyPHP, es necesario activar la libraría
+    php_xslt.dll del arvhivo php.ini y copiar las dlls expat.dll, iconv.dll,
+    sablot.dll del directorio EasyPHP\php en Windows\System.</para>
 
-    <para>
-      <emphasis role="bold">Configuration particulière de MySQL</emphasis>
-    </para>
+    <para><emphasis role="bold">Configuración particular de
+    MySQL</emphasis></para>
 
-    <para>Afin de pouvoir charger des documents numériques de taille
-    importante, il faut augmenter la taille des paquets de MySQL. Recherchez
-    le fichier my.ini ou équivalent, recherchez la ligne :</para>
+    <para>Con el fin de poder cargar los documentos electrónicos de tamaño
+    grande, es necesario aumentar el tamaño de los paquetes de MySQL. Buscar
+    el archivo my.ini o equivalente, buscar la línea :</para>
 
-    <para>
-      <literal>set-variable = max_allowed_packet=1M</literal>
-    </para>
+    <para><literal>set-variable = max_allowed_packet=1M</literal></para>
 
-    <para>et fixez-la à</para>
+    <para>y cambiarla a</para>
 
-    <para>
-      <literal>set-variable= max_allowed_packet=16M</literal>
-    </para>
+    <para><literal>set-variable= max_allowed_packet=16M</literal></para>
 
-    <para>Notez le 16M qui vous donne droit à stocker des fichiers jusqu'à 16
-    Mo</para>
+    <para>Los 16Mb dan derecho a guardar archvios de hasta 16 Mb</para>
   </sect1>
 </chapter>
