@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Installation générique</title>
+  <title>Instalación genérica</title>
 
-  <para>PMB est une application web qui nécessite un serveur web configuré
-  avec PHP et l'accès à une base de données MySQL. Si les installations
-  diffèrent au niveau des procédures à suivre selon les OS, il existe un
-  certain nombre de points communs.</para>
+  <para>PMB es una aplicación web que necesita un servidor web configurado con
+  PHP y el acceso a una base de datos MySQL. Si bien las intalaciones difieren
+  en los procedimientos a seguir según el Sistema Operativo, existe una serie
+  de puntos en común.</para>
 
   <sect1>
-    <title>Pré-requis</title>
+    <title>Requisitos previos</title>
 
-    <para>Voir ci-dessus, chapitre 2, section 3 : Pré-requis
-    d'installation</para>
+    <para>Ver más arriba, capítulo 2, sección 3 : Requisitos previos de
+    instalación</para>
   </sect1>
 
   <sect1>
-    <title>Installation</title>
+    <title>Instalación</title>
 
-    <para>Téléchargez la dernière version sur le site de PMB
+    <para>Descargar la última versión de la página web de PMB
     [http://www.sigb.net].</para>
 
-    <para>Vous pouvez choisir entre les deux formats d'archive zip (pour
-    Windows) ou tar.gz (pour Linux). Les deux archives contiennent les mêmes
-    fichiers. Extraire l'archive dans le répertoire de votre serveur Web où
-    vous souhaitez installer PMB (Pour les archives tar.gz, copiez l'archive
-    dans le répertoire d'installation et tapez tar xzf PMB.tar.gz.). Dans la
-    suite du document, nous prendrons comme exemple une extraction dans le
-    sous répertoire PMB du répertoire racine de votre serveur Web sur la
-    machine "monserveur".</para>
+    <para>Puedes escoger entre dos formatos de archivo, zip (para Windows) o
+    tar.gz (para Linux). Los dos archivos contienen los mismos archivos.
+    Extraer el archivo en el directorio de vuestro servidor web donde quereís
+    instalar PMB (Para los archivos tar.gz, copiad el archivo en el directorio
+    de instalación y teclea tar xzf PMB.tar.gz.). Para este documento, hemos
+    tomado como ejemplo una Dans la suite du document, nous prendrons comme
+    exemple une extraction dans le sous répertoire PMB du répertoire racine de
+    votre serveur Web sur la machine "monserveur".</para>
 
     <sect2>
       <title>Création de la base de données et initialisation de
