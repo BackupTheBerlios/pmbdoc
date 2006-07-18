@@ -267,14 +267,14 @@
     defecto). Además el archivo no debe superar cierto tamaño (<emphasis
     role="bold">límite de upload</emphasis> de vuestro alojamiento).</para>
 
-    <para>A défaut, la solution pour les imports de fiches UNIMARC consiste à
-    télécharger le fichier à charger dans le répertoire admin/import de PMB,
-    par <emphasis role="bold">FTP</emphasis> par exemple, puis à choisir
-    l'option "préchargement" à partir de la page d'import de l'administration.
-    Votre fichier doit pour cela s'appeler IMPÉRATIVEMENT <emphasis
-    role="bold">unimarc.fic</emphasis>, attention à respecter la casse.</para>
+    <para>En caso de que no, la solución para las importaciones de registros
+    UNIMARC consiste en cargar en el directorio admin/import de PMB, vía
+    <emphasis role="bold">FTP</emphasis> por ejemplo, y luego escoger la
+    opción "precarga" en la página de importación de la administración. En
+    este caso el archivo debe llamarse OBLIGATORIAMENTE <emphasis
+    role="bold">unimarc.fic</emphasis>, debe respertarse el punto.</para>
 
-    <para>Pour pouvoir générer des codes barres, le serveur web doit avoir le
-    droit d'écriture dans le répertoire temp de PMB.</para>
+    <para>Para poder generar los códigos de barras, el servidor debe tener
+    derecho de escritorio en el directorio temp de PMB.</para>
   </sect1>
 </chapter>
