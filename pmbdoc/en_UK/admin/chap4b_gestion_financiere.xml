@@ -2,8 +2,8 @@
 <chapter id="admin_gestion_financiere">
   <title>Financial management</title>
 
-  <para>The financial management of membership module enables you to monitor
-  financial movements relating to the library's readership. These may be of
+  <para>The module financial management of membership enables you to monitor
+  financial transactions relating to the library's readership. These may be of
   different types :</para>
 
   <itemizedlist>
@@ -39,20 +39,45 @@
   <sect1>
     <title>Basic notions</title>
 
-    <para>How the financial management functions is based on the following
-    .... It is necessary to have a good command of the .. to use the financial
-    management module in PMB.</para>
+    <para>How the financial management functions rests on a number of notions.
+    It is necessary to have a good command of these notions to use the
+    financial management module in PMB.</para>
 
     <sect2>
-      <title>Types of readers accounts </title>
+      <title>Types of readers accounts</title>
 
-      <para></para>
+      <para>There are three types of accounts for each reader : </para>
+
+      <para><itemizedlist>
+          <listitem>
+            <para>A membership account : in which shall be recorded financial
+            transactions relating to membership</para>
+          </listitem>
+        </itemizedlist><itemizedlist>
+          <listitem>
+            <para>A loans account : in which shall be recorded the dues for
+            the loan of certain types of documents (DVD for example)</para>
+          </listitem>
+        </itemizedlist><itemizedlist>
+          <listitem>
+            <para>A fines account : in which shall be recorded the fines
+            relating to overdue items as well as the settlement of the
+            fines.</para>
+          </listitem>
+        </itemizedlist></para>
     </sect2>
 
     <sect2>
       <title>The Library account</title>
 
-      <para></para>
+      <para>Similarly the library possesses an account that will enable it to
+      manage in some cases the rebates on the readers accounts. La
+      bibliothèque possède également un compte, qui permettra de gérer dans
+      certains cas les remises accordées sur les comptes lecteurs. This
+      account can never be creditor. It is just a debit account listing
+      rebates. On no account shall it show a surplus. Ce compte ne peut jamais
+      être positif. Il s'agit uniquement d'un compte de débit listant des
+      remises. En aucun il ne pourra être bénéficiaire.</para>
     </sect2>
   </sect1>
 

@@ -6,9 +6,9 @@
   is enabled if the parameter pmb.quotas_avances is set to 1 in the
   <emphasis>Administration &gt; Tools &gt; parameters</emphasis>.</para>
 
-  <para>When a circulation quota is reached, an alert warns staff at the issue
-  counter giving her/him the option, as the case may be, to force the loan.
-  For more details, read the <emphasis>PMB user guide</emphasis>,
+  <para>When a circulation quota is reached, an alert warns the staff at the
+  issue counter giving her/him the option, as the case may be, to force the
+  loan. For more details, read the <emphasis>PMB user guide</emphasis>,
   <emphasis>Cirulation</emphasis> chapter.</para>
 
   <sect1>
@@ -16,7 +16,7 @@
 
     <para><graphic fileref="images/warning.gif" /></para>
 
-    <para>if advanced quota management is not enabled, you will not see
+    <para>If advanced quota management is not enabled, you will not see
     "quotas" in the menu.</para>
 
     <para>In this case, only the loan period and the hold duration per media
@@ -41,9 +41,10 @@
       <para>This value is set in <emphasis>General parameters</emphasis> in
       the <emphasis>default value <emphasis><emphasis>fields</emphasis>
       by</emphasis> XXX if left unspecified</emphasis>. It is a period given
-      in days. PMB sees all seven days of the week equally and does not have a
-      calendar showing the opening days of the library. Monday will be counted
-      as one day just like Sunday.</para>
+      in days. If <emphasis>calendar</emphasis> is not enabled in
+      <emphasis>General parameters</emphasis> and the opening days of the
+      library are not set accordingly PMB sees all seven days of the week
+      equally. Thus Monday will be counted as one day just like Sunday.</para>
 
       <figure>
         <title>Quotas : default value for a duration quota in PMB</title>
