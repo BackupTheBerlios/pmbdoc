@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="prefs" lang="fr">
-  <title>Preferencias usuarios</title>
+  <title>Preferencias de los usuarios</title>
 
-  <para>En cada inicio de PMB se debe introducir un nombre de usuario y una
-  contraseña. Esto permite a PMB identificaros y establecer cuales son los
-  derechos y privilegios que cada usuario tiene en la aplicación (circulación,
-  catalogación, administración,...). La dualidad nombre de usurio/contraseña
-  permite a PMB retener cierto número de parámetros que permitirán tener una
-  ergonomía personalizada como por ejemplo visualizar unos colores
-  personalizados.</para>
+  <para>Cada vez que se quiere iniciar PMB se debe introducir un nombre de
+  usuario y una contraseña. Esto permite a PMB identificar a los usuarios y
+  establecer cuales son los derechos y privilegios que cada usuario tiene en
+  la aplicación (circulación, catalogación, administración,...). La dualidad
+  nombre de usurio/contraseña permite a PMB retener cierto número de
+  parámetros que permitirán tener una ergonomía personalizada como por ejemplo
+  visualizar unos colores personalizados.</para>
 
   <para>Resumiendo, las preferencias de los usuarios son una serie de
   parámetros memorizados para cada usuario. Estas preferencias están asociadas
   a un nombre de usuario introducido en la pantalla de inicio de conexión.
-  Para consultar sus preferencias, haga clic en el enlace
+  Para consultar las preferencias, haz clic en el enlace
   <emphasis>pref</emphasis>. en la parte superior derecha de la pantalla, al
-  aldo de <emphasis>salir</emphasis>.</para>
+  lado de <emphasis>salir</emphasis>.</para>
 
   <figure>
     <title>preferencias usuarios</title>
@@ -30,13 +30,13 @@
   <sect1 id="prefs_pass">
     <title>Contraseña, idioma, estilo</title>
 
-    <para>Aquí puede cambiar su contraseña. Si introduce una 
-	<emphasis>Nueva contraseña</emphasis>, debe volver a introducirla en el campo
-	<emphasis>Confirmar</emphasis>.</para>
+    <para>En este apartado puedes cambiar tu contraseña. Si introduces una
+    <emphasis>Nueva contraseña</emphasis>, debes volver a introducirla en el
+    campo <emphasis>Confirmar</emphasis>.</para>
 
-    <para>Pude seleccionar también otro 
-	<emphasis>Idioma</emphasis>. Atención, algunos idiomas necesitan un 
-	estilo particular para ser visualizados de forma óptima.</para>
+    <para>También puedes seleccionar otro <emphasis>Idioma</emphasis>.
+    Atención, algunos idiomas necesitan un estilo particular para ser
+    visualizados de forma óptima.</para>
 
     <table>
       <title>Idomas y estilos de visualización adaptados</title>
@@ -54,19 +54,19 @@
           <row>
             <entry>inglés (en_us)</entry>
 
-            <entry>toudos excepto affichage_arabe</entry>
+            <entry>todos excepto affichage_arabe</entry>
           </row>
 
           <row>
             <entry>español (es_es</entry>
 
-            <entry>toudos excepto affichage_arabe</entry>
+            <entry>todos excepto affichage_arabe</entry>
           </row>
 
           <row>
             <entry>francés (fr_fr)</entry>
 
-            <entry>toudos excepto affichage_arabe</entry>
+            <entry>todos excepto affichage_arabe</entry>
           </row>
 
           <row>
@@ -84,7 +84,7 @@
       </tgroup>
     </table>
 
-    <para>También puede cambiar el estilo de visualización :
+    <para>También puedes cambiar el estilo de visualización :
     <emphasis>Estilo/tema</emphasis>.</para>
 
     <table>
@@ -103,36 +103,39 @@
           <row>
             <entry>affichage_arabe</entry>
 
-            <entry>Visualización simple que invierto el sentido de la visualización
-            (izquierda-derecha)</entry>
+            <entry>Visualización simple que invierte el sentido de la
+            visualización (izquierda-derecha)</entry>
           </row>
 
           <row>
             <entry>aqua-green</entry>
 
-            <entry>Visualización por defecto de la versión 1.1 Estética acidulada, 
-			botones estilizados inspirados en MacOS. El verde es el color dominante.</entry>
+            <entry>Visualización por defecto de la versión 1.1 Estética
+            acidulada, botones estilizados inspirados en MacOS. El verde es el
+            color dominante.</entry>
           </row>
 
           <row>
             <entry>couleurs_onglets</entry>
 
-            <entry>Colores diferentes para cada pestaña : verde para la circulación, 
-			beige para la catalogación, lila para las autoridades, amarillo para los préstamos, 
-			rosa para la administración.</entry>
+            <entry>Colores diferentes para cada pestaña : verde para la
+            circulación, beige para la catalogación, lila para las
+            autoridades, amarillo para los préstamos, rosa para la
+            administración.</entry>
           </row>
 
           <row>
             <entry>por defecto</entry>
 
-            <entry>Visualización por defecto. Estética acidulada, botones estilizados
-			inspirados en MacOS. Colores dominantes : naranja y azul.</entry>
+            <entry>Visualización por defecto. Estética acidulada, botones
+            estilizados inspirados en MacOS. Colores dominantes : naranja y
+            azul.</entry>
           </row>
 
           <row>
             <entry>metal</entry>
 
-            <entry>Colores dorados y plateados. Botones con pequeños.</entry>
+            <entry>Colores dorados y plateados. Botones pequeños.</entry>
           </row>
 
           <row>
@@ -150,7 +153,8 @@
           <row>
             <entry>seabreeze</entry>
 
-            <entry>Estilo simplificado que no utiliza imagenes. Visualización rápida.</entry>
+            <entry>Estilo simplificado que no utiliza imagenes. Visualización
+            rápida.</entry>
           </row>
 
           <row>
@@ -166,8 +170,8 @@
   <sect1 id="prefs_page">
     <title>Número de registros por página</title>
 
-    <para>El <emphasis>Número de registros que se muestran por página </emphasis>
-    se puede personalizar en las pantallas siguientes :</para>
+    <para>El <emphasis>Número de registros que se muestran por página
+    </emphasis> se puede personalizar en los siguientes apartados :</para>
 
     <itemizedlist>
       <listitem>
@@ -183,44 +187,48 @@
       </listitem>
     </itemizedlist>
 
-    <para>Cuanto más alto sea el número, más grande serán los resultados por pagína, 
-	y más larga será la página. Si usted prefiere páginas cortas, debe reducir estos valores ; 
-	si usted prefiere que se muestren nel máximo de resultados, puede aumentar los valores.</para>
+    <para>Cuanto más alto sea el número, más grandes serán los resultados por
+    pagína, y más larga será la página. Si prefieres páginas cortas, debes
+    reducir estos valores ; si prefieres que se muestren el máximo de
+    resultados, puedes aumentar los valores.</para>
 
-    <para>Las opciones por defecto son las opciones de los desarrolladores y permiten una visualización óptima en 
-    sistemas de 1024x768.</para>
+    <para>Las opciones por defecto son las opciones de los desarrolladores y
+    permiten una visualización óptima en sistemas de 1024x768.</para>
   </sect1>
 
   <sect1 id="prefs_appli">
     <title>Parámetros de funcionamiento de la aplicación</title>
 
-    <para><emphasis>Popup automático del tíquet de préstamo </emphasis>: muestra sistemáticamente el tíquet 
-	de préstamo luego de validar un préstamo.</para>
+    <para><emphasis>Popup automático del tíquet de préstamo </emphasis>:
+    muestra sistemáticamente el tíquet de préstamo después de validar un
+    préstamo.</para>
 
-    <para><emphasis>Activar las alertas sonoras</emphasis> : señal sonoro que se reproduce cuando se genera algun error.</para>
+    <para><emphasis>Activar las alertas sonoras</emphasis> : señal sonoro que
+    se reproduce cuando se genera algun error o alguna acción.</para>
   </sect1>
 
   <sect1 id="prefs_licence">
     <title>He leído y aceptado las condiciones de la licencia de uso de
     PMB</title>
 
-    <para>Con la versión 1.3 PMB se aplica una nueva licencia : la
-    licencia CECILL. Esta licencia es compatible con la GNU/GPL. Para más información, 
-	consulte <ulink
+    <para>Con la versión 1.3 PMB se aplica una nueva licencia : la licencia
+    CECILL. Esta licencia es compatible con la GNU/GPL. Para más información,
+    consulta <ulink
     url="http://www.cecill.info">http://www.cecill.info</ulink></para>
 
-    <para>Esta nueva licencia se muestra al iniciarse PMB, después de introducir
-    el nombre de usuario y la contraseña para conectarse.</para>
+    <para>Esta nueva licencia se muestra al iniciarse PMB, después de
+    introducir el nombre de usuario y la contraseña para conectarse.</para>
 
-    <para>Para no visualizar más la licencia al iniciar cada sesión, marca <emphasis>No ver mostrar más 
-    la licencia al iniciar sesión</emphasis>.</para>
+    <para>Para no visualizar la licencia cada vez que se inicia una sesión,
+    marca <emphasis>No ver mostrar más la licencia al iniciar
+    sesión</emphasis>.</para>
   </sect1>
 
   <sect1 id="prefs_valeurs">
     <title>Valores por defecto de la aplicación</title>
 
-    <para>Esta parte de la pantalla permite especificar algunos valores por defecto que se aplican 
-	al crear un ejemplar&nbsp;:</para>
+    <para>Esta parte de la pantalla permite especificar algunos valores por
+    defecto que se aplican al crear un ejemplar&nbsp;:</para>
 
     <itemizedlist>
       <listitem>
@@ -250,25 +258,29 @@
 
     <para>Estos valores permiten ganar tiempo a la hora de catalogar.</para>
 
-    <para>También se pueden especificar algunos valores por defecto que se aplican al crear un registro nuevo :</para>
+    <para>También se pueden especificar algunos valores por defecto que se
+    aplican al crear un registro nuevo :</para>
 
     <itemizedlist>
       <listitem>
-        <para>idioma. Por defecto está especificado el valor <emphasis role="bold">fre</emphasis>,
-        para <emphasis role="bold">Francés</emphasis>. Los códigos de idiomas están fijados
-		según la norma UNIMARC. Puede consultar la lista de idiomas y sus códigos abriendo, 
-		a través de un editor de texto, el archivo<emphasis>
+        <para>idioma. Por defecto está especificado el valor <emphasis
+        role="bold">fre</emphasis>, para <emphasis
+        role="bold">Francés</emphasis>. Los códigos de idiomas están fijados
+        según la norma UNIMARC. Puedes consultar la lista de idiomas y sus
+        códigos abriendo, a través de un editor de texto, el archivo<emphasis>
         pmb/includes/marc_tables/es_ES/lang.xml</emphasis></para>
       </listitem>
 
       <listitem>
         <para>función autor. Por defecto está especificado el valor <emphasis
-        role="bold">70</emphasis> para <emphasis
-        role="bold">autor</emphasis>. La función de un autor puede variar según la obra : 
-		director de escena para un video o dvd de una obra de teatro, fotógrafo para una selección, autor para una 
-		monografía, ... Las funciones de los autores son definidas según la norma UNIMARC. 
-		Puede consultar la lista de funciones de autores y sus códigos correspondientes abriendo, a través de un editor
-		de texto, el archivo <emphasis>pmb/includes/marc_tables/es_ES/function.xml</emphasis></para>
+        role="bold">70</emphasis> para <emphasis role="bold">autor</emphasis>.
+        La función de un autor puede variar según la obra : director de escena
+        para un video o dvd de una obra de teatro, fotógrafo para una
+        selección, autor para una monografía, ... Las funciones de los autores
+        son definidas según la norma UNIMARC. Puedes consultar la lista de
+        funciones de autores y sus códigos correspondientes abriendo, a través
+        de un editor de texto, el archivo
+        <emphasis>pmb/includes/marc_tables/es_ES/function.xml</emphasis></para>
       </listitem>
     </itemizedlist>
   </sect1>
