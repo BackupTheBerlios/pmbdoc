@@ -19,7 +19,7 @@
   <para>La parte Visualización muestra información sobre los documentos de la
   biblioteca.</para>
 
-  <para>La parte Reserva sirve para crear i administrar las reservas de
+  <para>La parte Reserva sirve para crear y administrar las reservas de
   documentos.</para>
 
   <para>La parte Renovaciones permite administrar las renovaciones de los
@@ -32,7 +32,7 @@
       <title>Préstar un documento</title>
 
       <para>Prestar un documento es muy fácil y se puede realizar con la ayuda
-      de un lector de códigos de baras. Primero hay que introducir el número
+      de un lector de códigos de barras. Primero hay que introducir el número
       de carnet del usuario (código de barras), y luego introducir los números
       de los ejemplares que se quieren prestar. El lector de códigos de barras
       lee automáticamente los códigos de barras y los introduce
@@ -67,7 +67,7 @@
         Skywalker </emphasis>(código de barras 100003).</para>
 
         <para>El código de barras del usuario puede introducirse manualmente o
-        a través del lector de códigos de barras.</para>
+        con el lector de códigos de barras.</para>
 
         <para>También se puede introducir parte o todo el apellido del usuario
         para seleccionarlo de una lista. En este ejemplo hemos introducido
@@ -84,7 +84,7 @@
           </mediaobject>
         </figure>
 
-        <para>Haz clic en la lista de resultados para seleccionar al usaurio
+        <para>Haz clic en la lista de resultados para seleccionar al usuario
         Skywalker.</para>
       </sect3>
 
@@ -120,12 +120,12 @@
 
         <para>El programa ofrece también la posibilidad de cancelar el
         préstamo (hay que tener en cuenta que en este caso el préstamo no se
-        contabiliza en las estadísticas, contrariamente a un préstamo que a
-        continuación de prestarse es devuelto).</para>
+        contabiliza en las estadísticas, cosa que no pasa con un préstamo que
+        a continuación de prestarse es devuelto).</para>
 
         <para>El programa permite también imprimir un comprobante de préstamo.
         En este caso se genera un archivo PDF generado por PMB. Bajo Windows,
-        el botón de imprimir el comprobante inicia el pluginde mostrar al
+        el botón de imprimir el comprobante inicia el pluggin de mostrar al
         usuario el comprobante para poderlo visualizar y imprimir. Para
         imprimirlo hay que hacer clic sobre el icono "imprimir" de
         Acrobat.</para>
@@ -204,7 +204,7 @@
             otras cuotas eventuales).</para>
 
             <para>Después lee con el lector de códigos el código de barras, o
-            introducelo manualmente y haz clic sobre Crear registro y
+            introdúcelo manualmente y haz clic sobre Crear registro y
             prestar.</para>
 
             <para>Posteriormente podrás buscar el documento y completar la
@@ -331,7 +331,7 @@
         usuario</title>
 
         <para>Si creas un nuevo usuario adulto, por ejemplo Jar-Jar Bings, y
-        has fijado una tarifa de inicio para el tipo de usuario"adulto",
+        has fijado una tarifa de inicio para el tipo de usuario "adulto",
         cuando crees a este usuario, su cuenta se iniciará debiendo ese
         importe.</para>
 
@@ -378,7 +378,7 @@
           </mediaobject>
         </figure>
 
-        <para>Si la cuenta de usuario es negativa, se pueden realizar
+        <para>Si la cuenta del usuario es negativa, se pueden realizar
         diferentes operaciones :</para>
 
         <itemizedlist>
@@ -490,7 +490,7 @@
 
         <para>Para más información sobre las diferentes acciones (cobro, pago
         ...) consulta un poco más arriba <link
-        linkend="solde_abonnement"><emphasis>Pago del
+        linkend="solde_abonnement"><emphasis>Saldo del
         abono</emphasis></link>.</para>
       </sect3>
 
@@ -512,7 +512,7 @@
 
         <para>Para más información sobre las diferentes posibilidades de
         acciones (cobro, pago, ...) consulta un poco más arriba la sección
-        <link linkend="solde_abonnement"><emphasis>Saldo
+        <link linkend="solde_abonnement"><emphasis>Saldo del
         abono</emphasis></link>.</para>
       </sect3>
     </sect2>
@@ -520,11 +520,11 @@
     <sect2 id="circ_retour">
       <title>Devolución de un documento</title>
 
-      <para>Para hacer el retorno de un libro sólo es necesario introducir el
-      código de barras. No se necesita el carné de usuario. .</para>
+      <para>Para hacer la devolución de un libro sólo es necesario introducir
+      el código de barras. No se necesita el carné de usuario. .</para>
 
       <figure>
-        <title>Circulación &gt; Retorno de documentos</title>
+        <title>Circulación &gt; Devolución de documentos</title>
 
         <mediaobject>
           <imageobject>
@@ -533,13 +533,13 @@
         </mediaobject>
       </figure>
 
-      <para>Cuando se realiza un retorno, se muestra un mensaje de
+      <para>Cuando se realiza una devolución, se muestra un mensaje de
       confirmación para verificar que la devolución se ha hecho de forma
       correcta y que el código de barras introducido corresponde a la obra en
       cuestión.</para>
 
       <figure>
-        <title>Circulación &gt; Retorno de documentos, confirmación
+        <title>Circulación &gt; Devolución de documentos, confirmación
         realizada</title>
 
         <mediaobject>
@@ -551,8 +551,8 @@
 
       <para>Esta pantalla muestra el nombre del usuario que ha devuelto el
       documento. Desde aquí se puede acceder directamente a la la ficha del
-      usuario. Ésto es útil cuando después de devolver libros se quiere volver
-      a coger libros en préstamo.</para>
+      usuario. Ésto es útil cuando después de devolver libros, el usuario
+      quiere volver a coger libros en préstamo.</para>
 
       <para>También se muestran :</para>
 
@@ -563,7 +563,7 @@
         </listitem>
 
         <listitem>
-          <para>si el retorno va con retraso, el número de días de
+          <para>si la devolución se ha hecho con retraso, el número de días de
           retraso</para>
         </listitem>
 
@@ -586,9 +586,10 @@
       Para más información, consulta la sección Ficha de usuario un poco más
       arriba.</para>
 
-      <para>Pueden también gestionarse las multas económicas y la suspensión
-      del préstamo. Para más información, consulta la Guía de administración
-      de PMB, capítulo Gestión económica de los usuarios.</para>
+      <para>Pueden también gestionarse las multas económicas y la suspensión o
+      bloqueo del préstamo. Para más información, consulta la Guía de
+      administración de PMB, capítulo Gestión económica de los
+      usuarios.</para>
     </sect2>
 
     <sect2 id="circ_groups">
@@ -656,8 +657,8 @@
         haz clic sobre el campo y introduce o lee con el lector de códigos el
         nuevo número.</para>
 
-        <para>Si al introducir un código, este ya se utiliza en la base de
-        datos, PMB os dará un mensaje de error.</para>
+        <para>Si al introducir un código, éste ya se utiliza en la base de
+        datos, PMB dará un mensaje de error.</para>
 
         <para>A tener en cuenta :</para>
 
@@ -702,7 +703,7 @@
 
           <listitem>
             <para>los posibles campos personalizados se muestran en la parte
-            inferior de la ficha de usuario. Estos campos permieten añadir
+            inferior de la ficha de usuario. Estos campos permiten añadir
             cualquier tipo de información sobre los usuarios. Para más
             información, consulta la <emphasis>Guía del Administrador de
             PMB</emphasis>, capítulo <emphasis>Usuarios</emphasis>.</para>
@@ -747,7 +748,7 @@
     <sect2 id="circ_visu_rech">
       <title>Documento por autor/título</title>
 
-      <para>Aquí se muestra una pantalla que funcina como la pantalla de
+      <para>Aquí se muestra una pantalla que funciona como la pantalla de
       búsqueda de catalogación. (Ver un poco más abajo el capítulo
       <emphasis>Catalogación</emphasis>). Puedes introducir un autor o un
       título como punto de partida de tu búsqueda.</para>
@@ -757,7 +758,7 @@
       sobre <emphasis>"operadores de búsqueda"</emphasis>.</para>
 
       <para>En este apartado puedes buscar un documento también por su ISBN,
-      su depósito legal (DL), o como anteriormente por número de
+      su depósito legal (DL), o, como anteriormente, por número de
       ejemplar.</para>
 
       <figure>
@@ -870,10 +871,10 @@
   <sect1 id="relances">
     <title>Reclamaciones</title>
 
-    <para>La gestión avancazada de las reclamaciones está asociada al uso de
-    la gestión financera de los usuarios. Para más información sobre cómo
-    activar la gestión financiera de los usuarios, consulta la <emphasis>Guía
-    del Administrador PMB</emphasis>, capítulo Gestión financiera de los
+    <para>La gestión avanzada de las reclamaciones está asociada al uso de la
+    gestión financera de los usuarios. Para más información sobre cómo activar
+    la gestión financiera de los usuarios, consulta la <emphasis>Guía del
+    Administrador PMB</emphasis>, capítulo Gestión financiera de los
     usuarios.</para>
 
     <sect2 id="relances_todo">
