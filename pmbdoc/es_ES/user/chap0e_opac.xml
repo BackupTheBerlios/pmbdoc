@@ -5,17 +5,17 @@
   <para>OPAC significa <emphasis role="bold">O</emphasis>nline <emphasis
   role="bold">P</emphasis>ublic <emphasis role="bold">A</emphasis>ccess
   <emphasis role="bold">C</emphasis>atalog. El módulo OPAC permite a los
-  usuarios efectura una búsqueda en el catálogo de la biblioteca.</para>
+  usuarios efectuar una búsqueda en el catálogo de la biblioteca.</para>
 
   <para>De hecho, el módulo OPAC de PMB corresponde a un WebPAC : OPAC
-  accessble vía Web.</para>
+  accessible vía Web.</para>
 
   <para>La <emphasis>parametrización</emphasis> del OPAC está descrita en la
   <emphasis>Guía del Administrador PMB</emphasis>.</para>
 
   <para>El OPAC puede separarse de la interficie de gestión de PMB, y situarse
   en un servidor separado. Para más información sobre la instalación del OPAC
-  consulte la <emphasis>Guía de Instalación PMB</emphasis>.</para>
+  consulta la <emphasis>Guía de Instalación PMB</emphasis>.</para>
 
   <para><emphasis role="bold">Nota</emphasis> este capítulo no es una ayuda
   sobre cómo utilizar el OPAC, sino sólo un rápido resumen. Actualmente se
@@ -39,14 +39,14 @@
     <para>Es necesario reemplazar el valor <emphasis>localhost</emphasis> por
     el nombre del servidor dónde está instalado PMB.</para>
 
-    <para>Para obtener el nombre del servidor local en Windows, haga clic
-    sobre <emphasis>Poste de travail </emphasis>después
-    escoja<emphasis>Identificación réseau</emphasis>. Obtendrá el nombre del
+    <para>Para obtener el nombre del servidor local en Windows, haz clic sobre
+    <emphasis>Poste de travail </emphasis>después escoge
+    <emphasis>Iidentificación réseau</emphasis>. Obtendrás el nombre del
     ordenador sobre el servidor local.</para>
 
-    <para>El catálogo en linia creado por PMB es dinámico : se actualiza
+    <para>El catálogo en línea creado por PMB es dinámico : se actualiza
     automáticamente cada vez que se carga una página. Cualquier cambio o
-    modificación que se realice en la interficie de gestión (ver siguiente
+    modificación que se realice en la interficie de gestión (ver siguientes
     secciones) repercute inmediatamente en el OPAC. Una obra catalogada estará
     accessible inmediatamente a través del OPAC.</para>
   </sect1>
@@ -69,14 +69,14 @@
 
     <itemizedlist>
       <listitem>
-        <para>Una zona de "búsquda" en la parte superior de la página.</para>
+        <para>Una zona de "búsqueda" en la parte superior de la página.</para>
 
         <para><emphasis role="bold">Novedad</emphasis> : a partir de la
         versión 1.3, el OPAC ofrece una opción de búsqueda avanzada.</para>
       </listitem>
 
       <listitem>
-        <para>En la parte inferior derecha se muestran las materias. Hay más
+        <para>En la parte inferior derecha se muestran las categorías. Hay más
         bloques de información que pueden mostrarse. El OPAC es totalmente
         configurable. Para más información, consulta la <emphasis> Guía del
         </emphasis><emphasis>Administrador</emphasis> capítulo
@@ -88,9 +88,9 @@
         <para>La parte de la derecha (que puede ser desactivada en el apartado
         <emphasis>Administración &gt; Herramientas &gt; Parámetros</emphasis>)
         ofrece la posibilidad de que el usuario se identifique con su número
-        de carnet Este apartado incluye también los datos de la biblioteca o
-        de vuestro centro de documentación. Estos datos se configuran también
-        en <emphasis>Administración</emphasis> &gt;
+        de carnet. Este apartado incluye también los datos de la biblioteca o
+        del centro de documentación. Estos datos se configuran también en
+        <emphasis>Administración</emphasis> &gt;
         <emphasis>Herramientas</emphasis> &gt; <emphasis>Parámetros</emphasis>
         (Para más información consulta la Guía del Administrador PMB, capítulo
         Herramientas.</para>
@@ -101,9 +101,9 @@
   <sect1 id="useropac_keywords">
     <title>Búsqueda simple</title>
 
-    <para>Si introduce una palabra en la zona de texto de "Búsqueda", el OPAC
-    mostrará el resultado de vuestra búsqueda. Para afinar el resultado de la
-    búsqueda, puede marcar o desmarcar los campos en dónde se buscarrá:
+    <para>Si introduces una palabra en la zona de texto de "Búsqueda", el OPAC
+    mostrará el resultado de tu búsqueda. Para afinar el resultado de la
+    búsqueda, puedes marcar o desmarcar los campos en dónde se buscará:
     título, autor, colección...</para>
 
     <para>A partir de la versión 1.3, el OPAC de PMB conserva durante la
@@ -115,17 +115,18 @@
   <sect1 id="useropac_categs">
     <title>Búsqueda por materias</title>
 
-    <para>Este apartado permite navegar por entre las materias del catálogo.
-    Estas materias corresponden a un tesauro jerárquico que debe crearse en
-    PMB para poder utilizarlo y mostrarlo.</para>
+    <para>Este apartado permite navegar por entre las categorías o materias
+    del catálogo. Estas categorías corresponden a un tesauro jerárquico que
+    debe crearse en PMB para poder utilizarlo y mostrarlo.</para>
   </sect1>
 
   <sect1 id="useropac_lecteur">
     <title>Acceso a la cuenta de usuario desde el OPAC</title>
 
-    <para>Los usuarios registrados en la interficie de gestión pueden acceder a
-    su cuenta de usuario desde el OPAC. Para acceder a la cuenta es necesario
-    el número de carnet de usuario (código de barras) y una contraseña.</para>
+    <para>Los usuarios registrados en la interficie de gestión pueden acceder
+    a su cuenta de usuario desde el OPAC. Para acceder a la cuenta es
+    necesario el número de carnet de usuario (código de barras) y una
+    contraseña.</para>
 
     <para><emphasis role="bold">Nota</emphasis> : por defecto la contraseña es
     idéntica al código de barras. Este parámetro puede cambiarse en la
@@ -133,7 +134,7 @@
     a su cuenta de usuario.</para>
 
     <figure>
-      <title>información sobre el usuario desde el l'OPAC</title>
+      <title>información sobre el usuario desde el OPAC</title>
 
       <mediaobject>
         <imageobject>
