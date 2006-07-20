@@ -3,52 +3,52 @@
   <title>Windows</title>
 
   <sect1>
-    <title>Fichier d'auto-installation : setup.exe</title>
+    <title>Archivo de auto-instalación : setup.exe</title>
 
-    <para>PMB a été diffusé de la version 1.1 à la version 1.2 avec un
-    installateur automatique (setup.exe) qui installait automatiquement PMB et
-    EasyPHP. Nous ne maintiendrons plus ce setup.exe. En effet, les
-    configurations Windows exotiques, la possibilité d'installer PMB dans un
-    autre répertoire, ... étaient mal ou non prises en charge.</para>
+    <para>PMB se distribuía de la versión 1.1 a la versión 1.2 con un
+    instalador automático (setup.exe) que instalaba automáticamente PMB y
+    EasyPHP. Pero a partir de esa versión ya no se mantiene más ese setup.exe.
+    Este instalador producía errores y conflictos por configuraciones Windows
+    exóticas, o a veces instalaba PMB donde no tocaba, ...</para>
 
-    <para>A partir de la version 1.3, l'installation sera uniquement
-    manuelle.</para>
+    <para>A partir de la versión 1.3, la instalación será únicamente
+    manual.</para>
   </sect1>
 
   <sect1>
-    <title>Installation manuelle</title>
+    <title>Instalación manual</title>
 
     <sect2>
-      <title>Avec EasyPHP</title>
+      <title>Con EasyPHP</title>
 
-      <para>Ce tutoriel décrit l'installation de PMB sur les plate-formes
-      Windows (95/98/XP/NT/ 2000). PMB est une application qui s'exécute sur
-      un serveur Web (Apache) et utilise la base de donnée libre MySQL. Son
-      installation est donc légèrement plus complexe que des logiciels
-      courants. Cependant, des solutions libres permettent maintenant de faire
-      fonctionner le serveur Web Apache, PHP et MySQL très facilement. Nous
-      nous baserons donc sur l'une d'entre elles : EasyPHP.</para>
+      <para>Este tutorial describe la instación de PMB sobre las plataformas
+      Windows (95/98/XP/NT/ 2000). PMB es una aplicación que se ejecuta sobre
+      un servidor Web (Apache) y utiliza la base de datos libre MySQL. Su
+      instalación es, por tanto, un poco más compleja que la de los programas
+      informáticos corrientes. Sin embargo, hay soluciones libres que permiten
+      hacer funcionar el servidor Web Apache, PHP y MySQL muy fácilmente.
+      Nosotros nos basaremos en una de estas soluciones : EasyPHP.</para>
 
       <sect3>
-        <title>Ce dont nous avons besoin</title>
+        <title>Esto es lo que necesitamos</title>
 
-        <para>Vous devez télécharger deux choses.</para>
+        <para>Debes descargarte dos cosas.</para>
 
         <orderedlist>
           <listitem>
-            <para><emphasis role="bold">EasyPHP</emphasis>. Pour télécharger
-            ce logiciel, rendez vous ici : <ulink
+            <para><emphasis role="bold">EasyPHP</emphasis>. Para descargar
+            este programa, ve aquí : <ulink
             url="http://www.easyphp.org">http://www.easyphp.org/</ulink></para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">PMB</emphasis>. Vous trouverez la
-            dernière version de l'application à l'adresse : <ulink
-            url="http://www.sigb.net">http://www.sigb.net</ulink>. Sous
-            Windows, téléchargez le fichier avec l'extension .ZIP.</para>
+            <para><emphasis role="bold">PMB</emphasis>. Encontrarás la última
+            versión de la aplicación en la dirección : <ulink
+            url="http://www.sigb.net">http://www.sigb.net</ulink>. Para
+            Windows, descárgate la versión .ZIP.</para>
 
             <figure>
-              <title>Fichier ZIP PMB</title>
+              <title>Archivo ZIP PMB</title>
 
               <mediaobject>
                 <imageobject>
@@ -59,27 +59,26 @@
           </listitem>
         </orderedlist>
 
-        <para>A l'issue de ces opérations de téléchargement, vous devriez
-        avoir quelque part sur votre machine un fichier
-        <emphasis>easyphp-setup.exe</emphasis> ainsi qu'un fichier
-        <emphasis>pmb-xxxx.zip</emphasis> (<emphasis>xxxx</emphasis> symbolise
-        le numéro de version).</para>
+        <para>Después de estas operaciones, deberías tener en alguna parte de
+        tu ordenador archivo <emphasis>easyphp-setup.exe</emphasis> y un
+        archivo <emphasis>pmb-xxxx.zip</emphasis> (<emphasis>xxxx</emphasis>
+        simboliza el número de versión).</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP</title>
+        <title>Instalación de EasyPHP</title>
 
-        <para>Nous allons commencer par installer EasyPHP, qui comprend le
-        serveur Web Apache, La base de données MySQL, le langage PHP et
-        différents outils les accompagnant.</para>
+        <para>Emezaremos por instalar EasyPHP, que aúna el servidor Web
+        Apache, La base de datos MySQL, el lenguaje PHP y diferentes
+        utilidades que los acompañan.</para>
 
-        <para>Double cliquez sur l'icône de l'archive d'EasyPHP 1.7</para>
+        <para>Haz doble clic sobre el icono del archivo de EasyPHP 1.7</para>
 
-        <para>Ceci aura pour effet, après une boite de dialogue de
-        confirmation, d'afficher ce qui suit :</para>
+        <para>Después de hacer doble clic, y de una pequeña ventana de
+        confirmación, se verá esta imagen :</para>
 
         <figure>
-          <title>Premier écran, setup d'EasyPHP</title>
+          <title>Primera pantalla, instalando EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -88,19 +87,18 @@
           </mediaobject>
         </figure>
 
-        <para>Cliquez sur le bouton 'suivant' pour afficher l'écran de la
-        licence</para>
+        <para>Haz clic en el botón "siguiente" para ver la pantalla de la
+        licencia</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPhp (2)</title>
+        <title>Instalación de EasyPhp (2)</title>
 
-        <para>Le programme d'installation d'EasyPhp affiche l'écran vous
-        permettant de confirmer votre acceptation de sa licence de diffusion
-        :</para>
+        <para>El programa de instalación de EasyPhp mostrará la pantalla que
+        os permitirá aceptar su licencia de difusión :</para>
 
         <figure>
-          <title>Deuxième écran, setup d'EasyPHP</title>
+          <title>Segunda pantalla, instalación de EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -109,16 +107,16 @@
           </mediaobject>
         </figure>
 
-        <para>Cochez "I accept..." puis cliquez sur le bouton 'Next' pour
-        continuer.</para>
+        <para>Marca "I accept..." y haz clic sobre el botón 'Next' para
+        continuar.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (3)</title>
+        <title>Instalación de EasyPHP (3)</title>
 
-        <para>L'écran suivant affiche quelques informations notamment sur la
-        mise à jour depuis une version précédente d'EasyPHP.<figure>
-            <title>Troisième écran, setup d'EasyPHP</title>
+        <para>La pantalla siguiente mostrará algunas informaciones sobre
+        actualizaciones sobre versiones anteriores de EasyPHP.<figure>
+            <title>Tercera pantalla, instalación de EasyPHP</title>
 
             <mediaobject>
               <imageobject>
@@ -129,13 +127,13 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (4)</title>
+        <title>Instalación de EasyPHP (4)</title>
 
-        <para>La boîte de dialogue suivante permet de définir l'emplacement où
-        seront installés les composants d'EasyPHP.</para>
+        <para>La ventana de diálogo siguiente permite definir el directorio
+        dónde se instalarán los componentes de EasyPHP.</para>
 
         <figure>
-          <title>Quatrième écran, setup d'EasyPHP</title>
+          <title>Cuarta pantalla, instalación de EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -144,18 +142,19 @@
           </mediaobject>
         </figure>
 
-        <para>L'emplacement par défaut est le meilleur choix, il suffit donc
-        de cliquer sur le bouton 'suivant' pour continuer.</para>
+        <para>El emplazamiento por defecto es la mejor opción, sólo hace falta
+        en este caso hacer clic sobre el botón 'siguiente' para
+        continuar.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (5)</title>
+        <title>Instalación de EasyPHP (5)</title>
 
-        <para>Le dialogue suivant vous permet, quant à lui de définir où
-        seront placés les raccourcis du programme.</para>
+        <para>La ventana siguiente permite definir dónde se pondrán los
+        enlaces directos al programa.</para>
 
         <figure>
-          <title>Cinquième écran, setup d'EasyPHP</title>
+          <title>Quinta pantalla, instalación de EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -164,18 +163,19 @@
           </mediaobject>
         </figure>
 
-        <para>Là encore, l'emplacement par défaut est le meilleur choix, il
-        suffit donc de cliquer sur le bouton 'suivant' pour continuer.</para>
+        <para>En este caso también, el emplazamiento por defecto que sugiere
+        la instalación es la mejor opción, sólo es necesario hacer clic en el
+        botón 'siguiente' para continuar.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (6)</title>
+        <title>Instalación de 'EasyPHP (6)</title>
 
-        <para>Le programme d'installation affiche ensuite un écran
-        récapitulant les choix précédents :</para>
+        <para>El programa de instalación mostrará enseguida una pantalla de
+        recapitulación de las opciones anteriores :</para>
 
         <figure>
-          <title>Sixième écran, setup d'EasyPHP</title>
+          <title>Sexta pantalla, instalación de EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -184,15 +184,15 @@
           </mediaobject>
         </figure>
 
-        <para>Cliquez sur 'installer' pour lancer l'installation proprement
-        dite.</para>
+        <para>Haz clic en 'instalar' para iniciar la instalación del
+        programa.</para>
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPhp (7)</title>
+        <title>Instalación de EasyPhp (7)</title>
 
         <figure>
-          <title>Septième écran, setup d'EasyPHP</title>
+          <title>Séptima pantalla, instalación de EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -201,12 +201,12 @@
           </mediaobject>
         </figure>
 
-        <para>Après les quelques instants nécessaires à la copie des fichiers
-        d'EasyPhp, nous aboutissons à une liste des changements importants
-        depuis la version précédente de PHP :</para>
+        <para>Después de algunos instantes necesarios para copiar los archivos
+        de EasyPhp, veremos una lista de los cambios importantes realizados
+        con la nueva versión de PHP :</para>
 
         <figure>
-          <title>Huitième écran, setup d'EasyPHP</title>
+          <title>Octava pantalla, instalación de EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -215,14 +215,14 @@
           </mediaobject>
         </figure>
 
-        <para>Nous ne lancerons pas l'application, ceci faisant l'objet d'une
-        étape prochaine. Décochez donc la case à cocher avant de cliquer sur
-        le bouton 'terminer'. Vous pouvez, si vous le souhaitez, redémarrer
-        ensuite votre ordinateur. EasyPHP ne le requiert pas, mais c'est quand
-        même préférable.</para>
+        <para>No iniciaremos la aplicación en este momento, sino
+        posteriormente. Deselecciona la opción de iniciar el programa antes de
+        hacer clic sobre el botón 'terminar'. Puedes, si lo prefieres,
+        reiniciar tu ordenador, EasyPHP no lo requiere, pero siempre es
+        aconsejable.</para>
 
         <figure>
-          <title>Neuvième écran</title>
+          <title>Novena pantalla</title>
 
           <mediaobject>
             <imageobject>
@@ -233,13 +233,13 @@
       </sect3>
 
       <sect3>
-        <title>Utilisation d'EasyPHP</title>
+        <title>Uso de EasyPHP</title>
 
-        <para>Le menu 'démarrer' comprend maintenant une nouvelle entrée pour
-        EasyPhp :</para>
+        <para>El menú Inicio, Programas tendrá una nueva entrada para EasyPhp
+        :</para>
 
         <figure>
-          <title>Menu démarrer avec EasyPHP</title>
+          <title>Menú inicio programas con EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -248,18 +248,18 @@
           </mediaobject>
         </figure>
 
-        <para>En cliquant sur l'entrée 'EasyPhp', vous lancez le serveur
+        <para>Haciendo clic sobre la entrada 'EasyPhp', iniciarás el servidor
         Web.</para>
       </sect3>
 
       <sect3>
-        <title>Utilisation d'EasyPHP (2)</title>
+        <title>Uso de EasyPHP (2)</title>
 
-        <para>Vous savez que le serveur Web tourne en regardant la barre des
-        tâches :</para>
+        <para>Sabrás que el servidor Web funciona porque estará situado en la
+        barra de herramientas :</para>
 
         <figure>
-          <title>icône d'EasyPHP à coté de l'horloge</title>
+          <title>icono de EasyPHP a lado del reloj</title>
 
           <mediaobject>
             <imageobject>
@@ -268,14 +268,14 @@
           </mediaobject>
         </figure>
 
-        <para>L'icône d'EasyPhp, s'y affiche avec un point rouge clignotant.
-        Ceci indique que tout va bien.</para>
+        <para>El icono de EasyPhp se muestra con un pequeño punto rojo
+        intermitente. Esto indica que todo va bien.</para>
 
-        <para>Un clic avec le bouton droit de la souris affiche un menu
-        contextuel :</para>
+        <para>Un clic con el botón derecho del ratón muestra un menú
+        contextual :</para>
 
         <figure>
-          <title>menu contextuel EasyPHP</title>
+          <title>menú contextual EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -284,14 +284,14 @@
           </mediaobject>
         </figure>
 
-        <para>Les entrées 'Quitter', 'Arrêter', 'Redémarrer' permettent de
-        stopper ou de démarrer le serveur Web.</para>
+        <para>Las entradas 'Salir', 'Detener', 'Reiniciar' permiten parar o
+        reiniciar el servidor Web.</para>
 
-        <para>En sélectionnant l'entrée 'configuration', vous pourrez afficher
-        les paramètres de l'application :</para>
+        <para>Seleccionando la opción 'configuración', permite ver los
+        parámetros de la aplicación :</para>
 
         <figure>
-          <title>Configuration d'EasyPHP</title>
+          <title>Configuración de EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -300,25 +300,24 @@
           </mediaobject>
         </figure>
 
-        <para>Vous avez la possibilité de cocher l'option 'Démarrer EasyPHP en
-        même temps que Windows' (ou 'Démarrer les serveurs en tant que
-        services' si vous êtes sous Windows NT). Ceci aura pour effet de
-        lancer automatiquement le serveur au démarrage de la machine et vous
-        évitera d'avoir à le faire manuellement. Ne changez rien aux autres
-        options à moins de savoir ce que vous faites.</para>
+        <para>Tienes la posibilidad de escoger la opción 'Iniciar EasyPHP al
+        iniciar Windows' (o 'Iniciar los servidores sólo como servicios' si si
+        estás bajo Windows NT). Esto hará que el programa se inicie
+        automáticamente cuando se encienda el ordenador, de forma que no
+        tendrás que inciar el programa manualmente. No cambies nada de las
+        otras opciones a no ser que sepas qué estás haciendo.</para>
 
-        <para>Vous savez maintenant démarrer les serveurs Apache et
-        MySQL.</para>
+        <para>Ahora se iniciarán los servidores Apache et MySQL.</para>
       </sect3>
 
       <sect3>
-        <title>Installation des fichiers de PMB</title>
+        <title>Instalación de los archivos de PMB</title>
 
-        <para>Retrouvez maintenant le fichier ZIP contenant l'archive de PMB
+        <para>Vuelve a buscar el archivo ZIP que contiene el archivo de PMB
         :</para>
 
         <figure>
-          <title>Archive ZIP contenant les fichiers de PMB</title>
+          <title>Archivo ZIP que contiene los archivos de PMB</title>
 
           <mediaobject>
             <imageobject>
@@ -327,16 +326,17 @@
           </mediaobject>
         </figure>
 
-        <para>Pour ce tutoriel, nous prenons comme principe que vous installez
-        le logiciel dans le dossier '<emphasis
+        <para>Para este tutorial, nosotros entendemos que vais a instalar el
+        programa en el directorio '<emphasis
         role="bold">c:\pmb</emphasis>'.</para>
 
-        <para>Vous devez décompresser le fichier dans ce dossier avec le
-        logiciel de compression que vous utilisez habituellement (Winzip,
-        PowerArchiver,...). De façon à obtenir ceci :</para>
+        <para>Debes descomprimir el archivo en este directorio con el programa
+        de descompresión avec le logiciel de compression que utilices
+        habitualmente (Winzip, PowerArchiver,...). De cara a obtenir ésto
+        :</para>
 
         <figure>
-          <title>Contenu de l'archive PMB</title>
+          <title>Contenido del archivo PMB</title>
 
           <mediaobject>
             <imageobject>
@@ -345,17 +345,17 @@
           </mediaobject>
         </figure>
 
-        <para>Si vous ne savez pas comment utiliser le logiciel de
-        compression, demandez autour de vous, ou reportez vous à la
-        documentation fournie avec ce logiciel.</para>
+        <para>Si no sabes como utilizar el programa para descomprimir, pide
+        ayuda entre tus compañeros, o leete la documentación o ayuda del
+        programa de descompresión.</para>
 
-        <para><emphasis role="bold">note</emphasis> Le contenu du répertoire
-        peut changer suivant la version de PMB que vous avez
-        téléchargée.</para>
+        <para><emphasis role="bold">nota</emphasis> El contenido del
+        directorio puede cambiar segúna la versión de PMB que te hayas
+        descargado.</para>
       </sect3>
 
       <sect3>
-        <title>Accéder à la page de configuration des serveurs</title>
+        <title>Acceder a la página de configuración de los servidores</title>
 
         <para>Nous partons du principe que vous avez copié les fichiers de
         l'application PMB dans le dossier 'c:\pmb' et que le serveur Web
