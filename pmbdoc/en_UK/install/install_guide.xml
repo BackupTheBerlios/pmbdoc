@@ -9,6 +9,7 @@
 <!ENTITY __chap3_linux SYSTEM "chap3_linux.xml">
 <!ENTITY __chap4_mac_bsd_unix SYSTEM "chap4_mac_bsd_unix.xml">
 <!ENTITY __chap5_yaz SYSTEM "chap5_yaz.xml">
+<!ENTITY __chap6_personnaliser SYSTEM "chap6_personnaliser.xml">
 <!ENTITY __chap98_erreurs SYSTEM "chap98_erreurs.xml">
 <!ENTITY __chap99_postface SYSTEM "chap99_postface.xml">
 <!ENTITY __cecill SYSTEM "cecill.xml">
@@ -74,24 +75,26 @@
   </bookinfo>
 
   &__chap00_introduction;
-
+  
   &__chap0_important;
-
+  
   &__chap1_installation_generique;
-
+  
   &__chap1b_maj_pmb;
-
+  
   &__chap2_windows;
-
+  
   &__chap3_linux;
-
+  
   &__chap4_mac_bsd_unix;
-
+  
   &__chap5_yaz;
-
+  
+  &__chap6_personnaliser;
+  
   &__chap98_erreurs;
-
+  
   &__chap99_postface;
-
+  
   &__cecill;
 </book>
