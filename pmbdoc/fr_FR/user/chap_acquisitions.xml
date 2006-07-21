@@ -12,15 +12,16 @@
 
   <itemizedlist>
     <listitem>
-      <para>le paramètre de type acquisitions, sous-type active ait la valeur
-      1. Pour plus d'informations, consulter le <emphasis>Guide de
-      l'administrateur PMB, chapitre Outils, section
-      Paramètres</emphasis>.</para>
+      <para>le paramètre de type <emphasis>acquisitions</emphasis>, sous-type
+      <emphasis>active</emphasis> ait la valeur 1. Pour plus d'informations,
+      consulter le <emphasis>Guide de l'administrateur PMB, chapitre Outils,
+      section Paramètres</emphasis>.</para>
     </listitem>
 
     <listitem>
       <para>l'utilisateur en cours ait le droit d'utiliser l'onglet
-      acquisitions</para>
+      acquisitions. Pour plus d'informations, consulter le <emphasis>Guide de
+      l'administrateur PMB, chapitre Utilisateurs</emphasis>.</para>
     </listitem>
   </itemizedlist>
 
@@ -385,122 +386,216 @@
     <sect2 id="acquis_sugg_atraiter">
       <title>A traiter</title>
 
-      <para>Vous pouvez consulter les différentes suggestions pour les
-      traiter.</para>
+      <para>Vous pouvez consulter les différentes suggestions pour les traiter
+      ou créer une nouvelle suggestion en cliquant sur le bouton
+      <emphasis>Créer une suggestion</emphasis>.</para>
 
-      <para>Vous pouvez fusionner des transactions, les imprimer.</para>
+      <sect3 id="acquis_sugg_rechercher">
+        <title>Rechercher et traiter une suggestion</title>
 
-      <para>Pour les transactions en cours, vous pouvez</para>
+        <para>Vous pouvez fusionner des transactions, les imprimer.</para>
 
-      <itemizedlist>
-        <listitem>
-          <para>Imprimer</para>
-        </listitem>
+        <para>Pour les transactions en cours, vous pouvez</para>
 
-        <listitem>
-          <para>Fusionner</para>
-        </listitem>
+        <itemizedlist>
+          <listitem>
+            <para>Imprimer</para>
+          </listitem>
 
-        <listitem>
-          <para>Valider</para>
-        </listitem>
+          <listitem>
+            <para>Fusionner</para>
+          </listitem>
 
-        <listitem>
-          <para>Rejeter</para>
-        </listitem>
+          <listitem>
+            <para>Valider</para>
+          </listitem>
 
-        <listitem>
-          <para>Supprimer</para>
-        </listitem>
-      </itemizedlist>
+          <listitem>
+            <para>Rejeter</para>
+          </listitem>
 
-      <para>Pour les transactions rejetées ou abandonnées, vous pouvez</para>
+          <listitem>
+            <para>Supprimer</para>
+          </listitem>
+        </itemizedlist>
 
-      <itemizedlist>
-        <listitem>
-          <para>Imprimer</para>
-        </listitem>
+        <para>Pour les transactions rejetées ou abandonnées, vous
+        pouvez</para>
 
-        <listitem>
-          <para>Archiver</para>
-        </listitem>
-      </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Imprimer</para>
+          </listitem>
 
-      <para>Pour les transactions validées, vous pouvez</para>
+          <listitem>
+            <para>Archiver</para>
+          </listitem>
+        </itemizedlist>
 
-      <itemizedlist>
-        <listitem>
-          <para>Imprimer</para>
-        </listitem>
+        <para>Pour les transactions validées, vous pouvez</para>
 
-        <listitem>
-          <para>Fusionner</para>
-        </listitem>
+        <itemizedlist>
+          <listitem>
+            <para>Imprimer</para>
+          </listitem>
 
-        <listitem>
-          <para>Confirmer</para>
-        </listitem>
+          <listitem>
+            <para>Fusionner</para>
+          </listitem>
 
-        <listitem>
-          <para>Abandonner</para>
-        </listitem>
-      </itemizedlist>
+          <listitem>
+            <para>Confirmer</para>
+          </listitem>
 
-      <para>Pour les transactions confirmées, vous pouvez</para>
+          <listitem>
+            <para>Abandonner</para>
+          </listitem>
+        </itemizedlist>
 
-      <itemizedlist>
-        <listitem>
-          <para>Imprimer</para>
-        </listitem>
+        <para>Pour les transactions confirmées, vous pouvez</para>
 
-        <listitem>
-          <para>Commander</para>
-        </listitem>
-      </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Imprimer</para>
+          </listitem>
+
+          <listitem>
+            <para>Commander</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+
+      <sect3 id="acquis_sugg_create">
+        <title>Créer une suggestion</title>
+
+        <figure>
+          <title>Acquisitions &gt; Suggestion : à traiter, Création d'une
+          suggestion</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/creation-suggestion.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>L'écran de création d'une suggestion est divisée en deux
+        partie.</para>
+
+        <para>Les informations en haut de l'écran sont non modifiables et
+        indiquent :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>la date de création</para>
+          </listitem>
+
+          <listitem>
+            <para>le login de l'utilisateur qui crée la suggestion</para>
+          </listitem>
+
+          <listitem>
+            <para>une pondération en fonction du type d'utilisateur. La
+            pondération de la suggestion est fonction du paramètre
+            <emphasis>Acquisitions</emphasis> <emphasis>poids_sugg</emphasis>.
+            Pour plus d'informations, consulter le <emphasis>Guide de
+            l'administrateur PMB, chapitre Outils, section
+            Paramètres</emphasis>.</para>
+          </listitem>
+
+          <listitem>
+            <para>un état. Pour plus d'informations, consulter plus loin <xref
+            linkend="acquis_sugg_etats" />.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Dans le formulaire de création de suggestion, vous pouvez
+        définir :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>un titre</para>
+          </listitem>
+
+          <listitem>
+            <para>un éditeur</para>
+          </listitem>
+
+          <listitem>
+            <para>un auteur</para>
+          </listitem>
+
+          <listitem>
+            <para>un ISBN</para>
+          </listitem>
+
+          <listitem>
+            <para>un prix</para>
+          </listitem>
+
+          <listitem>
+            <para>une URL associée</para>
+          </listitem>
+
+          <listitem>
+            <para>des commentaires</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Vous devez renseigner au moins un titre ainsi qu'un auteur ou un
+        titre ainsi qu'un éditeur. Les autres champs sont facultatifs.</para>
+      </sect3>
     </sect2>
 
-    <sect2>
+    <sect2 id="acquis_sugg_etats">
       <title>Liste des états des suggestions</title>
 
-      <para>Voici la liste des états que peut prendre une suggestion :</para>
+      <para>Voici la liste des états que peut prendre une suggestion, avec la
+      liste des étapes ayant amené la suggestion à cette étape : </para>
 
       <itemizedlist>
         <listitem>
-          <para>en cours</para>
+          <para><emphasis role="bold">en cours</emphasis></para>
         </listitem>
 
         <listitem>
-          <para>en cours &gt; validé : la suggestion est valide. Les
-          informations de la suggestion transmise sont suffisantes pour
-          pouvoir envisager une recherche du document demandé. A cette étape,
-          on ne prend pas en compte le fait d'être d'accord ou non avec la
-          suggestion, il s'agit juste d'un contrôle de validité.</para>
+          <para>en cours &gt; <emphasis role="bold">validé</emphasis> : la
+          suggestion est valide. Les informations de la suggestion transmise
+          sont suffisantes pour pouvoir envisager une recherche du document
+          demandé. A cette étape, on ne prend pas en compte le fait d'être
+          d'accord ou non avec la suggestion, il s'agit juste d'un contrôle de
+          validité.</para>
         </listitem>
 
         <listitem>
-          <para>en cours &gt; rejeté : suggestion invalide ou trop incomplète
-          pour réaliser la moindre recherche</para>
+          <para>en cours &gt; <emphasis role="bold">rejeté</emphasis> :
+          suggestion invalide ou trop incomplète pour réaliser la moindre
+          recherche</para>
         </listitem>
 
         <listitem>
-          <para>en cours &gt; validé &gt; confirmé : la suggestion valide est
-          retenue pour une prochaine commande</para>
+          <para>en cours &gt; validé &gt; <emphasis
+          role="bold">confirmé</emphasis> : la suggestion valide est retenue
+          pour une prochaine commande</para>
         </listitem>
 
         <listitem>
-          <para>en cours &gt; validé &gt; abandonné : la suggestion valide ne
+          <para>en cours &gt; validé &gt; <emphasis
+          role="bold">abandonné</emphasis> : la suggestion valide ne
           correspond pas aux critères de choix ou au budget par exemple. La
           suggestion ne sera pas commandée.</para>
         </listitem>
 
         <listitem>
-          <para>en cours &gt; validé &gt; confirmé &gt; commandé : la
-          suggestion valide a été retenue puis commandée</para>
+          <para>en cours &gt; validé &gt; confirmé &gt; <emphasis
+          role="bold">commandé</emphasis> : la suggestion valide a été retenue
+          puis commandée</para>
         </listitem>
 
         <listitem>
-          <para>en cours &gt; validé &gt; confirmé &gt; commandé &gt; reçu :
-          la suggestion commandée est reçue</para>
+          <para>en cours &gt; validé &gt; confirmé &gt; commandé &gt;
+          <emphasis role="bold">reçu</emphasis> : la suggestion commandée est
+          reçue</para>
         </listitem>
       </itemizedlist>
     </sect2>

@@ -16,53 +16,8 @@
     (basiquement Apache mais ce n'est pas une obligation), la base de donnée
     MySQL et le langage PHP.</para>
 
-    <para>Les principales fonctionnalités de PMB sont :</para>
-
-    <itemizedlist>
-      <listitem>
-        <para>Le support du format UNIMARC</para>
-      </listitem>
-
-      <listitem>
-        <para>La gestion des autorités (responsables, éditeurs, collections,
-        matières...)</para>
-      </listitem>
-
-      <listitem>
-        <para>La gestion du prêt, des réservations, des emprunteurs...</para>
-      </listitem>
-
-      <listitem>
-        <para>Un paramétrage simple</para>
-      </listitem>
-
-      <listitem>
-        <para>La possibilité d'importer des notices</para>
-      </listitem>
-
-      <listitem>
-        <para>Un OPAC simplifié intégrant un "butineur"</para>
-      </listitem>
-
-      <listitem>
-        <para>Un module de gestion des documents BDP pouvant convenir aux plus
-        petits établissements</para>
-      </listitem>
-
-      <listitem>
-        <para>La gestion des périodiques</para>
-      </listitem>
-
-      <listitem>
-        <para>Une administration simplifiée pouvant être assurée par le
-        personnel de la bibliothèque..."</para>
-      </listitem>
-    </itemizedlist>
-
-    <para>François Lemarchand, initiateur du projet PMB</para>
-
-    <para>Vous pouvez trouver des informations supplémentaires sur
-    www.sigb.net</para>
+    <para>Vous pouvez trouver des informations supplémentaires sur <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
 
     <para>Vous y trouverez aussi une version de démonstration en ligne, le
     site des utilisateurs de PMB, les dernières versions du Guide
@@ -73,31 +28,33 @@
   <sect1 id="introduction_infos">
     <title>Où trouver des informations sur PMB</title>
 
-    <para>Sur le site de PMB : www.sigb.net</para>
-
-    <para>Sur les forums de la communauté des utilisateurs : <ulink
-    url="http://www.sigb.net/communaute">www.sigb.net/communaute</ulink></para>
-
-    <para>Sur le wiki de la communauté des utilisateurs : <ulink
-    url="http://www.sigb.net/wiki">www.sigb.net/wiki</ulink></para>
-
-    <para>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
-    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
-    pmb.user_request@sigb.net)</para>
-
-    <para>Sur la mailing liste des traducteurs, des développeurs, du support
-    de l'unicode (alphabets non européens). Pour plus de renseignements sur
-    ces listes, consulter <ulink
+    <para>Sur le site de PMB : <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>Cette documentation est consultable en ligne sur www.sigb.net/doc,
-    elle est disponible aux formats HTML et PDF.</para>
+    <para>La communauté des utilisateurs dispose de trois types d'outils : un
+    wiki <ulink url="http://www.sigb.net/wiki">www.sigb.net/wiki</ulink> ; une
+    liste des utilisateurs et des forums. Consultez <ulink
+    url="http://www.sigb.net/communaute">www.sigb.net/communaute</ulink></para>
+
+    <para>La mailing liste des utilisateurs est ouverte à tous :
+    pmb.user@sigb.net (inscription libre en envoyant un mail avec pour sujet
+    SUBSCRIBE à pmb.user_request@sigb.net)</para>
+
+    <para>La mailing liste des traducteurs, des développeurs, du support de
+    l'unicode (alphabets non européens) est accessible. Pour plus de
+    renseignements sur ces listes, consulter <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
+
+    <para>Cette documentation est consultable en ligne sur <ulink
+    url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>.</para>
   </sect1>
 
   <sect1 id="introduction_references">
     <title>Références</title>
 
     <para><emphasis role="bold">Auteurs</emphasis></para>
+
+    <para>Coordination de la documentation : Gautier MICHELIN</para>
 
     <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
 

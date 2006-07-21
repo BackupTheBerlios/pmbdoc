@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="prefs" lang="fr">
   <title>Préférences utilisateurs</title>
 
@@ -50,7 +50,19 @@
 
         <tbody>
           <row>
+            <entry>català (ca_es)</entry>
+
+            <entry>tous sauf affichage_arabe</entry>
+          </row>
+
+          <row>
             <entry>english (en_us)</entry>
+
+            <entry>tous sauf affichage_arabe</entry>
+          </row>
+
+          <row>
+            <entry>english (en_uk)</entry>
 
             <entry>tous sauf affichage_arabe</entry>
           </row>
@@ -74,7 +86,13 @@
           </row>
 
           <row>
-            <entry>portuguais (pt_pt)</entry>
+            <entry>neerlandais (nl_nl)</entry>
+
+            <entry>tous sauf affichage_arabe</entry>
+          </row>
+
+          <row>
+            <entry>portuguese (pt_pt)</entry>
 
             <entry>tous sauf affichage_arabe</entry>
           </row>
@@ -163,6 +181,10 @@
         </tbody>
       </tgroup>
     </table>
+
+    <para>Certains styles sont également conservés à titre de compatibilité
+    (et parce que leurs concepteurs ne veulent pas qu'on les enlève... ;-) ).
+    Je vous déconseille metal et seabreeze.</para>
   </sect1>
 
   <sect1 id="prefs_page">
@@ -226,9 +248,14 @@
     <title>Valeurs par défaut de l'application</title>
 
     <para>Cette partie de l'écran permet de spécifier un certain nombre de
-    valeurs par défaut pour la création d'exemplaire&nbsp;:</para>
+    valeurs par défaut pour la création d'exemplaire :</para>
 
     <itemizedlist>
+      <listitem>
+        <para>Statut de notice (défini notamment la visibilité des notices
+        dans l'opac)</para>
+      </listitem>
+
       <listitem>
         <para>Type de document</para>
       </listitem>
@@ -251,6 +278,17 @@
 
       <listitem>
         <para>Section du document</para>
+      </listitem>
+
+      <listitem>
+        <para>Site de gestion par défaut des lecteurs (utile pour la gestion
+        multi-site dans PMB : défini la visibilité des lecteurs et leur
+        affectation à l'inscription)</para>
+      </listitem>
+
+      <listitem>
+        <para>Thésaurus par défaut (si la gestion multi-thésaurus est activée,
+        définit un thésaurus par défaut)</para>
       </listitem>
     </itemizedlist>
 
@@ -279,6 +317,14 @@
         UNIMARC. Vous pouvez consulter la liste des fonctions des auteurs et
         de leurs codes en ouvrant, dans un éditeur de texte, le fichier
         <emphasis>pmb/includes/marc_tables/fr_FR/function.xml</emphasis></para>
+      </listitem>
+
+      <listitem>
+        <para>module par défaut lors de la connexion à PMB</para>
+      </listitem>
+
+      <listitem>
+        <para>préfixe de cote par défaut</para>
       </listitem>
     </itemizedlist>
   </sect1>

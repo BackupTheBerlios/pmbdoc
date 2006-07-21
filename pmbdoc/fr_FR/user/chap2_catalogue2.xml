@@ -219,8 +219,8 @@
         <title>Multi-critères</title>
 
         <para>La recherche multi-critères est une recherche combinatoire. Vous
-        pouvez sélectionner des champs de recherches : titre, auteur, champs
-        personnalisés...</para>
+        pouvez sélectionner des champs de recherches : titre, auteur,
+        champs personnalisés...</para>
 
         <figure>
           <title>Ouvrages &gt; Recherche &gt; Multi-critères</title>
@@ -2570,9 +2570,8 @@
             <para>Créer une procédure de sélection, y mettre le code
             ci-dessous (ATTENTION sans saut de ligne) :</para>
 
-            <programlisting>SELECT notice_id as object_id, 'NOTI' as object_type 
-FROM notices left join exemplaires on 
-notice_id=expl_notice WHERE expl_notice 
+            <programlisting>SELECT notice_id as object_id, 'NOTI' as object_type FROM notices 
+left join exemplaires on notice_id=expl_notice WHERE expl_notice 
 is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
           </listitem>
 
@@ -2586,35 +2585,31 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
       <sect3>
         <title>Gérer les inventaires</title>
 
-        <para>"Je voudrais me simplifier la vie lors de mes inventaires, j'ai
-        donc pensé à créer un paniers avec tous les exemplaires d'une section.
-        Je pourrais ainsi pointer les exemplaires physiquement en rayon et
-        avec l'action supprimer du panier les éléments pointés retrouver les
-        livres qui sont dans la base mais physiquement perdus, volés...
-        "</para>
+        <programlisting>&gt; Je voudrais me simplifier la vie lors de mes inventaires, j'ai donc 
+&gt; pensé à créer un paniers avec tous les exemplaires d'une section. Je 
+&gt; pourrais ainsi pointer les exemplaires physiquement en rayon et avec 
+&gt; l'action supprimer du panier les éléments pointés retrouver les livres 
+&gt; qui sont dans la base mais physiquement perdus, volés... 
+&gt; 
+&gt; J'ai voulu utilisé une procédure mais je suis vraiment nulle! Dans les 
+&gt; PS j'ai un inventaire de tout mes documentaires par ex. mais je ne sais 
+&gt; pas comment la transformer pour qu'elle fonctionne dans les paniers? 
+&gt; Voici donc la PS corrigée ! 
 
-        <para>"J'ai voulu utilisé une procédure mais je suis vraiment nulle!
-        Dans les PS j'ai un inventaire de tout mes documentaires par ex. mais
-        je ne sais pas comment la transformer pour qu'elle fonctionne dans les
-        paniers ? "</para>
+select expl_id as object_id, 'EXPL' as object_type from exemplaires, notices, 
+docs_section where idsection in (!!section!!) and expl_notice=notice_id and 
+expl_section=idsection order by section_libelle, expl_cote, expl_cb 
 
-        <para>Voici donc la PS corrigée ! </para>
+&gt;Il ne reste plus qu'à paramétrer le paramètre !!section!! : liste de choix 
+&gt;à partir d'une requête, liste multiple si on veut avec : 
 
-        <programlisting>select expl_id as object_id, 'EXPL' as object_type from 
-exemplaires, notices, docs_section where idsection in 
-(!!section!!) and expl_notice=notice_id and 
-expl_section=idsection order by section_libelle, expl_cote, 
-expl_cb </programlisting>
+select idsection, section_libelle from docs_section order by section_libelle 
 
-        <para>Il ne reste plus qu'à paramétrer le paramètre !!section!! :
-        liste de choix à partir d'une requête, liste multiple si on veut avec
-        : </para>
-
-        <programlisting>select idsection, section_libelle from docs_section 
-order by section_libelle</programlisting>
-
-        <para>Stéphanie FORT (Bibliothécaire CDI - Collège Saint Pierre,
-        Jette, Belgique)</para>
+&gt; Stéphanie FORT 
+&gt; Bibliothécaire 
+&gt; 
+&gt; CDI - Collège Saint Pierre 
+&gt; Jette (Belgique)</programlisting>
       </sect3>
     </sect2>
   </sect1>
