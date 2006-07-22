@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_notices">
-  <title>Notices</title>
+  <title lang='fr'>Notices</title>
 
-  <para>La plupart des données qui définissent une notice sont normées. PMB
+  <para lang='fr'>La plupart des données qui définissent une notice sont normées. PMB
   permet cependant d'éditer une table d'origine des notices. Vous pouvez
   également ajouter des champs personnalisables.</para>
 
   <sect1 id="admin_notices_orinot">
-    <title>Origines</title>
+    <title lang='fr'>Origines</title>
 
-    <para>Il s'agit de l'origine des notices. PMB importe les notices via
+    <para lang='fr'>Il s'agit de l'origine des notices. PMB importe les notices via
     z39.50 ou par l'import UNIMARC notamment. Mais sur ces notices
     s'appliquent des droits d'auteur. Si la BnF met à disposition de tous ses
     notices, il n'en est pas forcément de même pour certains professionnels du
@@ -18,15 +18,15 @@
     Ce cédérom est payant, et chacune des notices qu'il contient sont
     protégées par des droits d'auteur.</para>
 
-    <para>PMB gère depuis sa version 1.3 un suivi des origines des
+    <para lang='fr'>PMB gère depuis sa version 1.3 un suivi des origines des
     notices.</para>
 
-    <para>La fonction d'administration des origines des notices permet de
+    <para lang='fr'>La fonction d'administration des origines des notices permet de
     prédéfinir des origines de notices. Elle permet aussi d'éditer les
     origines de notices importées.</para>
 
     <figure>
-      <title>Notices &gt; Origines des notices</title>
+      <title lang='fr'>Notices &gt; Origines des notices</title>
 
       <mediaobject>
         <imageobject>
@@ -37,14 +37,14 @@
   </sect1>
 
   <sect1>
-    <title>Statuts</title>
+    <title lang='fr'>Statuts</title>
 
-    <para>Le statut des notices permet de faire des distinctions de traitement
+    <para lang='fr'>Le statut des notices permet de faire des distinctions de traitement
     et de catalogage pour les notices, ainsi que dans l'affichage dans
     l'OPAC.</para>
 
     <figure>
-      <title>Notices &gt; Statuts</title>
+      <title lang='fr'>Notices &gt; Statuts</title>
 
       <mediaobject>
         <imageobject>
@@ -53,54 +53,54 @@
       </mediaobject>
     </figure>
 
-    <para>Le tableau des différents statuts de notices affiche différents
+    <para lang='fr'>Le tableau des différents statuts de notices affiche différents
     renseignements :</para>
 
     <itemizedlist>
       <listitem>
-        <para>une classe d'affichage (de 1 à 9), correspond au rectangle de
+        <para lang='fr'>une classe d'affichage (de 1 à 9), correspond au rectangle de
         couleur à gauche du tableau. Ce marqueur est un élément
         d'identification rapide du statut de la notice, par exemple lors d'une
         recherche dans l'onglet Catalogage.</para>
       </listitem>
 
       <listitem>
-        <para>le fait d'être visible ou non en partie gestion. Ceci va
+        <para lang='fr'>le fait d'être visible ou non en partie gestion. Ceci va
         permettre de gérer un "réservoir de notices" en stockant par exemple
         des notices pilonnées avec un statut "pilonné".</para>
       </listitem>
 
       <listitem>
-        <para>pour l'OPAC, </para>
+        <para lang='fr'>pour l'OPAC, </para>
 
         <itemizedlist>
           <listitem>
-            <para>libellé éventuel (par exemple En commande)</para>
+            <para lang='fr'>libellé éventuel (par exemple En commande)</para>
           </listitem>
 
           <listitem>
-            <para>notices visibles ou non</para>
+            <para lang='fr'>notices visibles ou non</para>
           </listitem>
 
           <listitem>
-            <para>affichage des exemplaires</para>
+            <para lang='fr'>affichage des exemplaires</para>
           </listitem>
 
           <listitem>
-            <para>affichage des exemplaires numériques</para>
+            <para lang='fr'>affichage des exemplaires numériques</para>
           </listitem>
         </itemizedlist>
       </listitem>
     </itemizedlist>
 
-    <para>Pour ajouter un nouveau statut de notices, cliquez sur le bouton à
+    <para lang='fr'>Pour ajouter un nouveau statut de notices, cliquez sur le bouton à
     cet effet en bas de l'écran.</para>
 
-    <para>Pour modifier un statut de notices, cliquez sur la ligne
+    <para lang='fr'>Pour modifier un statut de notices, cliquez sur la ligne
     correspondante dans le tableau.</para>
 
     <figure>
-      <title>Notices &gt; Statut, modifier le statut</title>
+      <title lang='fr'>Notices &gt; Statut, modifier le statut</title>
 
       <mediaobject>
         <imageobject>
@@ -109,7 +109,7 @@
       </mediaobject>
     </figure>
 
-    <para>Vous pouvez également depuis l'écran de modification affiner
+    <para lang='fr'>Vous pouvez également depuis l'écran de modification affiner
     l'affichage des notices, des exemplaires ou des exemplaires numériques aux
     seuls abonnés (lecteur ou emprunteur bénéficiant d'un login et d'un mot de
     passe). Si des restrictions sont appliquées le lecteur devra être
@@ -117,16 +117,16 @@
   </sect1>
 
   <sect1 id="admin_notices_perso">
-    <title>Personnalisables</title>
+    <title lang='fr'>Personnalisables</title>
 
-    <para>Il s'agit ici des champs personnalisables des notices. Ces champs
+    <para lang='fr'>Il s'agit ici des champs personnalisables des notices. Ces champs
     personnalisables permettent de spécifier des informations propres à votre
     bibliothèque ou à votre centre de documentation sur les notices : origine
     de l'idée d'acquisition, commentaire d'un comité de lecture, public cible
     de l'ouvrage...</para>
 
     <figure>
-      <title>Notices &gt; Personnalisables</title>
+      <title lang='fr'>Notices &gt; Personnalisables</title>
 
       <mediaobject>
         <imageobject>
@@ -136,7 +136,7 @@
     </figure>
 
     <figure>
-      <title></title>
+      <title lang='fr'></title>
 
       <mediaobject>
         <imageobject>
@@ -145,7 +145,7 @@
       </mediaobject>
     </figure>
 
-    <para>Le fonctionnement des champs personnalisables pour les notices est
+    <para lang='fr'>Le fonctionnement des champs personnalisables pour les notices est
     identique à celui des exemplaires. Pour plus d'information, voir <xref
     linkend="admin_expl_perso" />.</para>
   </sect1>

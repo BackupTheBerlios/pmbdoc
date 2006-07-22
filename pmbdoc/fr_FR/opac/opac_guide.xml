@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY __chap1_introduction SYSTEM "chap1_introduction.xml">
@@ -9,17 +9,17 @@
 <!ENTITY __chap6_compte_lecteur_et_reservations SYSTEM "chap6_compte_lecteur_et_reservations.xml">]
 >
 <book>
-  <title>PMB : guide de l'OPAC (catalogue public)</title>
+  <title lang='fr'>PMB : guide de l'OPAC (catalogue public)</title>
 
   <bookinfo>
     <date>15 octobre 2004</date>
 
     <abstract>
-      <para>Ce guide détaille le fonctionnement de l'OPAC de PMB, système
+      <para lang='fr'>Ce guide détaille le fonctionnement de l'OPAC de PMB, système
       informatisé de gestion de bibliothèques, interface PHP/MySQL libre et
       opensource.</para>
 
-      <para>Pour plus d'informations, consulter <ulink url="http://www.sigb.net">www.sigb.netw</ulink></para>
+      <para lang='fr'>Pour plus d'informations, consulter <ulink url="http://www.sigb.net">www.sigb.netw</ulink></para>
     </abstract>
 
     <releaseinfo>Version de PMB correspondante à ce guide : v1.3</releaseinfo>
@@ -36,7 +36,7 @@
     </copyright>
 
     <legalnotice>
-      <para>Ce manuel est la propriété intellectuelle de PMB Services SARL
+      <para lang='fr'>Ce manuel est la propriété intellectuelle de PMB Services SARL
       pour la compilation et les chapitres dont les auteurs ne sont pas
       mentionnés. Les contributions pour les installations sur les plateformes
       spécifiques sont la propriété intellectuelle de leurs auteurs
@@ -48,16 +48,16 @@
       Une copie complète de la licence se trouve sur le <ulink
       url="http://www.gnu.org/licenses/fdl.html">site de GNU</ulink>.</para>
 
-      <para>Textes de couverture :</para>
+      <para lang='fr'>Textes de couverture :</para>
 
-      <para><literal>PMB Services SARL, octobre 2004</literal></para>
+      <para lang='fr'><literal>PMB Services SARL, octobre 2004</literal></para>
 
-      <para><literal>PMB est une solution opensource (licence CECILL compatible GNU/GPL) pour la
+      <para lang='fr'><literal>PMB est une solution opensource (licence CECILL compatible GNU/GPL) pour la
       médiathèque.</literal></para>
 
-      <para><literal>http://www.sigb.net</literal></para>
+      <para lang='fr'><literal>http://www.sigb.net</literal></para>
 
-      <para><literal>Copyright © 2004 PMB Services SARL</literal></para>
+      <para lang='fr'><literal>Copyright © 2004 PMB Services SARL</literal></para>
     </legalnotice>
 
     <othercredit>

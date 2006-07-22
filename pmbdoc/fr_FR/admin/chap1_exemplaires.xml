@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_expl">
-  <title>Exemplaires</title>
+  <title lang='fr'>Exemplaires</title>
 
-  <para><emphasis>Administration</emphasis> &gt;
+  <para lang='fr'><emphasis>Administration</emphasis> &gt;
   <emphasis>Exemplaires</emphasis> vous permet de personnaliser le catalogage
   des exemplaires de votre bibliothèque. Vous pouvez personnaliser les types
   de documents, codes statistiques, sections, statuts, localisations,
@@ -10,23 +10,23 @@
   exemplaires.</para>
 
   <sect1 id="admin_expl_typdoc">
-    <title>Types de document</title>
+    <title lang='fr'>Types de document</title>
 
-    <para><emphasis role="bold">Types de documents</emphasis> permet de
+    <para lang='fr'><emphasis role="bold">Types de documents</emphasis> permet de
     paramétrer les différents supports des exemplaires et pour chacun d'eux la
     durée du prêt en jours.</para>
 
-    <para>Attention, il s'agit ici des types de documents qui seront affichés
+    <para lang='fr'>Attention, il s'agit ici des types de documents qui seront affichés
     pour les exemplaires et non pour les ouvrages. Ceux-ci sont définis ici
     pour compléter ou afficher des précisions par rapport au type de document
     défini pour l'ouvrage. Les types de support des ouvrages sont normés en
     UNIMARC dans PMB.</para>
 
-    <para>Le type de document sert également à définir la <emphasis
+    <para lang='fr'>Le type de document sert également à définir la <emphasis
     role="">Durée du prêt</emphasis> ou la <emphasis role="">Durée de la
     réservation</emphasis> affectée à un exemplaire.</para>
 
-    <para><emphasis role="bold">Attention</emphasis> si les quotas de prêts
+    <para lang='fr'><emphasis role="bold">Attention</emphasis> si les quotas de prêts
     avancés sont activés (paramètre type <emphasis>pmb</emphasis>, sous-type
     <emphasis>quotas_avances</emphasis> défini à 1), les colonnes Durée de
     prêt et Durée de la réservation renvoient<emphasis role=""> Voir
@@ -34,7 +34,7 @@
     linkend="admin_quotas" /> et <xref
     linkend="admin_outils_parametres" />.</para>
 
-    <para>Les deux colonnes <emphasis role="">propriétaire de
+    <para lang='fr'>Les deux colonnes <emphasis role="">propriétaire de
     codage</emphasis> et <emphasis role="">codage d'import
     </emphasis>correspondent à la gestion des informations recueillies lors de
     l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un type de
@@ -42,7 +42,7 @@
     pour plus d'informations.</para>
 
     <figure>
-      <title>Exemplaires &gt; types de document</title>
+      <title lang='fr'>Exemplaires &gt; types de document</title>
 
       <mediaobject>
         <imageobject>
@@ -53,13 +53,13 @@
   </sect1>
 
   <sect1 id="admin_expl_codstat">
-    <title>Codes statistiques</title>
+    <title lang='fr'>Codes statistiques</title>
 
-    <para>Le code statistique est utilisé pour la constitution des
+    <para lang='fr'>Le code statistique est utilisé pour la constitution des
     statistiques de prêt et sur les fonds de la médiathèque.</para>
 
     <figure>
-      <title>Exemplaires &gt; codes statistiques</title>
+      <title lang='fr'>Exemplaires &gt; codes statistiques</title>
 
       <mediaobject>
         <imageobject>
@@ -68,7 +68,7 @@
       </mediaobject>
     </figure>
 
-    <para>Les deux colonnes <emphasis role="">propriétaire de
+    <para lang='fr'>Les deux colonnes <emphasis role="">propriétaire de
     codage</emphasis> et <emphasis role="">codage d'import
     </emphasis>correspondent à la gestion des informations recueillies lors de
     l'import d'exemplaires UNIMARC. Ceci permet de faire le lien avec un type
@@ -77,17 +77,17 @@
   </sect1>
 
   <sect1 id="admin_expl_section">
-    <title>Sections</title>
+    <title lang='fr'>Sections</title>
 
-    <para>La section est le secteur de la médiathèque dont dépend le document
+    <para lang='fr'>La section est le secteur de la médiathèque dont dépend le document
     (secteur adulte, jeunesse, discothèque...). Ce code est par exemple pris
     en compte dans la constitution des statistiques des BDP.</para>
 
-    <para>Ce secteur peut correspondre à une partie physique de la médiathèque
+    <para lang='fr'>Ce secteur peut correspondre à une partie physique de la médiathèque
     aussi grande qu'une salle ou aussi petite qu'un rayonnage.</para>
 
     <figure>
-      <title>Exemplaires &gt; sections</title>
+      <title lang='fr'>Exemplaires &gt; sections</title>
 
       <mediaobject>
         <imageobject>
@@ -96,7 +96,7 @@
       </mediaobject>
     </figure>
 
-    <para>Les deux colonnes <emphasis role="">propriétaire de
+    <para lang='fr'>Les deux colonnes <emphasis role="">propriétaire de
     codage</emphasis> et <emphasis role="">codage d'import
     </emphasis>correspondent à la gestion des informations recueillies lors de
     l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec une section
@@ -105,13 +105,13 @@
   </sect1>
 
   <sect1 id="admin_expl_statut">
-    <title>Statuts</title>
+    <title lang='fr'>Statuts</title>
 
-    <para>La notion de statut est utilisée pour spécifier si le document est
+    <para lang='fr'>La notion de statut est utilisée pour spécifier si le document est
     empruntable ou non.</para>
 
     <figure>
-      <title>Exemplaires &gt; statuts</title>
+      <title lang='fr'>Exemplaires &gt; statuts</title>
 
       <mediaobject>
         <imageobject>
@@ -120,13 +120,13 @@
       </mediaobject>
     </figure>
 
-    <para>Ce statut concerne généralement un état physique (détérioré, bon
+    <para lang='fr'>Ce statut concerne généralement un état physique (détérioré, bon
     état, perdu) ou une position sur le chemin du livre entre la démarche
     d'acquisition de la bibliothèque et la situation de prêt au lecteur
     (commandé, en cours d'acquisition, en cours de catalogage, en
     réparation,...).</para>
 
-    <para>Les deux colonnes <emphasis role="">propriétaire de
+    <para lang='fr'>Les deux colonnes <emphasis role="">propriétaire de
     codage</emphasis> et <emphasis role="">codage d'import
     </emphasis>correspondent à la gestion des informations recueillies lors de
     l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un statut
@@ -135,13 +135,13 @@
   </sect1>
 
   <sect1 id="admin_expl_location">
-    <title>Localisations</title>
+    <title lang='fr'>Localisations</title>
 
-    <para>La localisation peut être utilisée pour attacher le document à un
+    <para lang='fr'>La localisation peut être utilisée pour attacher le document à un
     emplacement particulier (exemple : en réserve).</para>
 
     <figure>
-      <title>Exemplaires &gt; localisations</title>
+      <title lang='fr'>Exemplaires &gt; localisations</title>
 
       <mediaobject>
         <imageobject>
@@ -150,7 +150,7 @@
       </mediaobject>
     </figure>
 
-    <para>Cette notion de localisation est très importante pour les
+    <para lang='fr'>Cette notion de localisation est très importante pour les
     bibliothèques multi-sites. Elle peut également être intéressante pour les
     centres de documentations spécialisés : laboratoire de recherche ou
     entreprise, dans lesquels les livres peuvent être prêtés pour une durée
@@ -163,14 +163,14 @@
     la présence aurait été requise hors des rayons de la bibliothèque, sans
     obliger une logique de prêt à durée indéterminée.</para>
 
-    <para>Les deux colonnes <emphasis role="">propriétaire de
+    <para lang='fr'>Les deux colonnes <emphasis role="">propriétaire de
     codage</emphasis> et <emphasis role="">codage d'import
     </emphasis>correspondent à la gestion des informations recueillies lors de
     l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un type de
     document déjà défini. Voir le chapitre <emphasis>Définitions</emphasis>
     pour plus d'informations.</para>
 
-    <para>Vous pouvez définir pour chaque localisation différents paramètres.
+    <para lang='fr'>Vous pouvez définir pour chaque localisation différents paramètres.
     Ces paramètres définissent les lettres de relances, l'adresse de la
     bibliothèque par exemple. A chaque fois que l'adresse de la bibliothèque
     est nécessaire, PMB vient chercher la valeur qui correspond à sa
@@ -178,15 +178,15 @@
   </sect1>
 
   <sect1 id="admin_expl_lenders">
-    <title>Propriétaires</title>
+    <title lang='fr'>Propriétaires</title>
 
-    <para>Vous trouverez ici la liste des propriétaires des exemplaires gérés
+    <para lang='fr'>Vous trouverez ici la liste des propriétaires des exemplaires gérés
     dans le catalogue. Vous pouvez ici mentionner le dépôt de votre BDP, une
     collection issue d'un legs, d'un don ou d'une dation que vous souhaitez
     identifier...</para>
 
     <figure>
-      <title>Exemplaires &gt; propriétaires</title>
+      <title lang='fr'>Exemplaires &gt; propriétaires</title>
 
       <mediaobject>
         <imageobject>
@@ -197,14 +197,14 @@
   </sect1>
 
   <sect1 id="admin_expl_perso">
-    <title>Personnalisables</title>
+    <title lang='fr'>Personnalisables</title>
 
-    <para>Il s'agit ici des informations propres à votre bibliothèque sur les
+    <para lang='fr'>Il s'agit ici des informations propres à votre bibliothèque sur les
     exemplaires. Ceci vous permet de spécifier des données propres à votre
     gestion : origine du don ou du financement de l'acquisition, ...</para>
 
     <figure>
-      <title>Exemplaires &gt; Personnalisables</title>
+      <title lang='fr'>Exemplaires &gt; Personnalisables</title>
 
       <mediaobject>
         <imageobject>
@@ -213,19 +213,19 @@
       </mediaobject>
     </figure>
 
-    <para>Prenons un exemple. Ajoutons un champs intitulé <emphasis>Type de
+    <para lang='fr'>Prenons un exemple. Ajoutons un champs intitulé <emphasis>Type de
     couverture </emphasis>qui nous permettra de spécifier le type de reliure
     d'un ouvrage. Les reliures peuvent être de trois types : souple, cartonné,
     broché. Enfin tous les exemplaires ne correspondent pas forcément à des
     livres, on ajoutera donc un autre choix : non concerné.</para>
 
-    <para>Cliquez sur <emphasis>nouveau champ</emphasis> <graphic
+    <para lang='fr'>Cliquez sur <emphasis>nouveau champ</emphasis> <graphic
     fileref="images/nouveau_champ.gif" /></para>
 
-    <para>L'écran suivant est affiché :</para>
+    <para lang='fr'>L'écran suivant est affiché :</para>
 
     <figure>
-      <title>Exemplaires &gt; Personnalisables, nouveau champ</title>
+      <title lang='fr'>Exemplaires &gt; Personnalisables, nouveau champ</title>
 
       <mediaobject>
         <imageobject>
@@ -234,18 +234,18 @@
       </mediaobject>
     </figure>
 
-    <para>Dans nom du champ, saisissez <emphasis>couverture</emphasis>
+    <para lang='fr'>Dans nom du champ, saisissez <emphasis>couverture</emphasis>
     (n'utilisez pas d'accent, d'espace ou de ponctuation dans un nom de
     champs), dans titre à l'affichage saisissez
     <emphasis>couverture</emphasis> (Vous pourriez également utiliser un nom
     avec des espaces mais uniquement à l'affichage, par exemple <emphasis>Type
     de couverture</emphasis>).</para>
 
-    <para>Choisissez pour type de saisie une <emphasis>liste de
+    <para lang='fr'>Choisissez pour type de saisie une <emphasis>liste de
     choix</emphasis>. Puis cliquer sur <emphasis>Options</emphasis>.</para>
 
     <figure>
-      <title>Options du type liste de choix</title>
+      <title lang='fr'>Options du type liste de choix</title>
 
       <mediaobject>
         <imageobject>
@@ -254,7 +254,7 @@
       </mediaobject>
     </figure>
 
-    <para>Cliquez sur <emphasis>Ajouter</emphasis> 4 fois pour pouvoir définir
+    <para lang='fr'>Cliquez sur <emphasis>Ajouter</emphasis> 4 fois pour pouvoir définir
     quatre choix possibles : broché, relié, cartonné et non concerné. Les
     valeurs stockées en base de données sont <emphasis>brochage</emphasis>,
     <emphasis>reliure</emphasis>, <emphasis>cartonnage</emphasis>, et
@@ -263,17 +263,17 @@
     puis sur <emphasis>Enregistrer</emphasis> pour ajouter votre
     paramètre.</para>
 
-    <para>Vous pouvez désormais utiliser votre nouveau champ personnalisé dans
+    <para lang='fr'>Vous pouvez désormais utiliser votre nouveau champ personnalisé dans
     toute saisie ou modification d'un exemplaire. Pour plus d'informations sur
     la création d'un exemplaire, consultez le <emphasis>Guide de l'utilisateur
     de PMB</emphasis>.</para>
 
-    <para>Dans Catalogage &gt; Ouvrage &gt; Nouvelle notice, après avoir
+    <para lang='fr'>Dans Catalogage &gt; Ouvrage &gt; Nouvelle notice, après avoir
     défini une nouvelle notice, vous pouvez ajouter un exemplaire. Vous verrez
     alors votre nouveau champ personnalisé.</para>
 
     <figure>
-      <title>Édition d'un exemplaire, le champs personnalisé Type de
+      <title lang='fr'>Édition d'un exemplaire, le champs personnalisé Type de
       Couverture a été ajouté</title>
 
       <mediaobject>
@@ -284,44 +284,44 @@
     </figure>
 
     <sect2>
-      <title>Types de saisie des champs personnalisés</title>
+      <title lang='fr'>Types de saisie des champs personnalisés</title>
 
-      <para>Il existe d'autres types de saisie pour un champs personnalisé que
+      <para lang='fr'>Il existe d'autres types de saisie pour un champs personnalisé que
       liste de choix.</para>
 
-      <para>Les champs personnalisés peuvent être de cinq types :</para>
+      <para lang='fr'>Les champs personnalisés peuvent être de cinq types :</para>
 
       <itemizedlist>
         <listitem>
-          <para>texte</para>
+          <para lang='fr'>texte</para>
         </listitem>
 
         <listitem>
-          <para>liste de choix</para>
+          <para lang='fr'>liste de choix</para>
         </listitem>
 
         <listitem>
-          <para>liste de choix à partir d'une requête</para>
+          <para lang='fr'>liste de choix à partir d'une requête</para>
         </listitem>
 
         <listitem>
-          <para>sélection d'une date</para>
+          <para lang='fr'>sélection d'une date</para>
         </listitem>
 
         <listitem>
-          <para>zone de commentaire</para>
+          <para lang='fr'>zone de commentaire</para>
         </listitem>
       </itemizedlist>
 
-      <para>Chacun de ces types possède différentes options. Cliquez sur
+      <para lang='fr'>Chacun de ces types possède différentes options. Cliquez sur
       <emphasis>options </emphasis>pour spécifier les paramètres de ces
       champs.</para>
 
       <sect3>
-        <title>Type texte</title>
+        <title lang='fr'>Type texte</title>
 
         <figure>
-          <title>Options du type texte</title>
+          <title lang='fr'>Options du type texte</title>
 
           <mediaobject>
             <imageobject>
@@ -330,7 +330,7 @@
           </mediaobject>
         </figure>
 
-        <para>Vous pouvez spécifier pour un champ de type texte sa taille à
+        <para lang='fr'>Vous pouvez spécifier pour un champ de type texte sa taille à
         l'écran. Vous pouvez aussi spécifier le nombre maximum de caractères à
         saisir (si ce dernier est plus grand que la taille affichée à l'écran,
         vous pourrez continuer à saisir même arrivé au bout de la case de
@@ -338,16 +338,16 @@
       </sect3>
 
       <sect3>
-        <title>Type liste de choix</title>
+        <title lang='fr'>Type liste de choix</title>
 
-        <para><emphasis role="bold">Attention</emphasis> on ne peut pas créer
+        <para lang='fr'><emphasis role="bold">Attention</emphasis> on ne peut pas créer
         des options de choix tant que le champ n'a pas été enregistré. Depuis
         l'écran d'ajout d'un paramètre, enregistrez le champ personnalisé.
         Cliquez ensuite sur son nom pour le modifier et spécifier des
         options.</para>
 
         <figure>
-          <title>Options du type liste de choix</title>
+          <title lang='fr'>Options du type liste de choix</title>
 
           <mediaobject>
             <imageobject>
@@ -356,23 +356,23 @@
           </mediaobject>
         </figure>
 
-        <para>Vous pouvez spécifier pour une liste de choix :</para>
+        <para lang='fr'>Vous pouvez spécifier pour une liste de choix :</para>
 
         <itemizedlist>
           <listitem>
-            <para>si la liste est à choix multiples possibles (pour
+            <para lang='fr'>si la liste est à choix multiples possibles (pour
             sélectionner plusieurs choix dans une liste sur votre navigateur
             internet, il faut cliquer sur les choix en maintenant la touche
             CTRL appuyée)</para>
           </listitem>
 
           <listitem>
-            <para>la valeur par défaut. Si aucun choix n'est sélectionné,
+            <para lang='fr'>la valeur par défaut. Si aucun choix n'est sélectionné,
             cette valeur sera celle qui sera renvoyée.</para>
           </listitem>
 
           <listitem>
-            <para>une liste des options. Cette liste se compose d'un <emphasis
+            <para lang='fr'>une liste des options. Cette liste se compose d'un <emphasis
             role="bold">libellé</emphasis> : le texte qui sera affiché à
             l'écran ; d'une <emphasis role="bold">valeur</emphasis> : c'est la
             valeur qui sera stockée dans PMB (accents, espaces, ponctuation...
@@ -381,30 +381,30 @@
           </listitem>
         </itemizedlist>
 
-        <para>A l'aide des boutons d'action vous pouvez:</para>
+        <para lang='fr'>A l'aide des boutons d'action vous pouvez:</para>
 
         <itemizedlist>
           <listitem>
-            <para>ajouter un choix supplémentaire à la liste</para>
+            <para lang='fr'>ajouter un choix supplémentaire à la liste</para>
           </listitem>
 
           <listitem>
-            <para>supprimer les choix que vous avez coché en cliquant sur la
+            <para lang='fr'>supprimer les choix que vous avez coché en cliquant sur la
             case à cocher en début de chacune des lignes
             correspondantes</para>
           </listitem>
 
           <listitem>
-            <para>enregistrer vos changements</para>
+            <para lang='fr'>enregistrer vos changements</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title>Type liste de choix à partir d'une requête</title>
+        <title lang='fr'>Type liste de choix à partir d'une requête</title>
 
         <figure>
-          <title>Options du type liste de choix à partir d'une requête</title>
+          <title lang='fr'>Options du type liste de choix à partir d'une requête</title>
 
           <mediaobject>
             <imageobject>
@@ -413,47 +413,47 @@
           </mediaobject>
         </figure>
 
-        <para>Vous pouvez spécifier pour une liste de choix par requête
+        <para lang='fr'>Vous pouvez spécifier pour une liste de choix par requête
         :</para>
 
         <itemizedlist>
           <listitem>
-            <para>si la liste est à choix multiple possible (pour sélectionner
+            <para lang='fr'>si la liste est à choix multiple possible (pour sélectionner
             plusieurs choix dans une liste sur votre navigateur internet, il
             faut cliquer sur les choix en maintenant la touche CTRL
             appuyée)</para>
           </listitem>
 
           <listitem>
-            <para>la valeur par défaut. Si aucun choix n'est sélectionné,
+            <para lang='fr'>la valeur par défaut. Si aucun choix n'est sélectionné,
             cette valeur sera celle qui sera renvoyée</para>
           </listitem>
 
           <listitem>
-            <para>une requête qui renverra la liste des options.</para>
+            <para lang='fr'>une requête qui renverra la liste des options.</para>
           </listitem>
         </itemizedlist>
 
-        <para>A l'aide des boutons d'action vous pouvez:</para>
+        <para lang='fr'>A l'aide des boutons d'action vous pouvez:</para>
 
         <itemizedlist>
           <listitem>
-            <para>tester votre requête. Si vous cliquez sur ce bouton, les
+            <para lang='fr'>tester votre requête. Si vous cliquez sur ce bouton, les
             choix retournés par la requête sont alors affichés sous le bouton.
             Ceci vous permet de vérifier la validité de votre requête.</para>
           </listitem>
 
           <listitem>
-            <para>enregistrer vos changements</para>
+            <para lang='fr'>enregistrer vos changements</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title>Type date</title>
+        <title lang='fr'>Type date</title>
 
         <figure>
-          <title>Options du type sélection d'une date</title>
+          <title lang='fr'>Options du type sélection d'une date</title>
 
           <mediaobject>
             <imageobject>
@@ -462,16 +462,16 @@
           </mediaobject>
         </figure>
 
-        <para>Il n'y a pas d'options particulières pour les champs
+        <para lang='fr'>Il n'y a pas d'options particulières pour les champs
         personnalisés de type date. Un clic sur le bouton Options affiche
         uniquement le message ci-dessus.</para>
       </sect3>
 
       <sect3>
-        <title>Type zone de commentaire</title>
+        <title lang='fr'>Type zone de commentaire</title>
 
         <figure>
-          <title>Options du type zone de commentaire</title>
+          <title lang='fr'>Options du type zone de commentaire</title>
 
           <mediaobject>
             <imageobject>
@@ -480,29 +480,29 @@
           </mediaobject>
         </figure>
 
-        <para>Les champs de type zone de commentaire fonctionnent de la même
+        <para lang='fr'>Les champs de type zone de commentaire fonctionnent de la même
         manière que les champs texte. On peut préciser de plus un nombre de
         lignes du champ commentaire.</para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title>Types de données, visible dans l'OPAC, obligatoire</title>
+      <title lang='fr'>Types de données, visible dans l'OPAC, obligatoire</title>
 
-      <para>Cinq types de données peuvent être stockées en base dans PMB :
+      <para lang='fr'>Cinq types de données peuvent être stockées en base dans PMB :
       texte, texte large, entier, date, nombre à virgule.</para>
 
-      <para><emphasis>Visible dans l'OPAC</emphasis> permet de choisir si ce
+      <para lang='fr'><emphasis>Visible dans l'OPAC</emphasis> permet de choisir si ce
       champ sera visible par les lecteurs. Vous pouvez ainsi ajouter des
       champs réservés au personnel de la bibliothèque : par exemple, le nom de
       la personne qui a créé la notice, ...</para>
 
-      <para><emphasis>Obligatoire</emphasis> spécifie que le champ devra être
+      <para lang='fr'><emphasis>Obligatoire</emphasis> spécifie que le champ devra être
       rempli. Si ce champ n'est pas rempli lors de la saisie ou de la
       modification d'un exemplaire, un message d'erreur est affiché.</para>
 
       <figure>
-        <title>Alerte pour un champs obligatoire non rempli</title>
+        <title lang='fr'>Alerte pour un champs obligatoire non rempli</title>
 
         <mediaobject>
           <imageobject>

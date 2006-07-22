@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="prefs" lang="fr">
-  <title>Préférences utilisateurs</title>
+  <title lang='fr'>Préférences utilisateurs</title>
 
-  <para>A chaque démarrage de PMB, vous devez saisir un mot de passe et un nom
+  <para lang='fr'>A chaque démarrage de PMB, vous devez saisir un mot de passe et un nom
   d'utilisateur. Ceci permet à PMB de vous identifier, et donc de connaître
   les droits que vous avez dans l'application (circulation, catalogage,
   administration...). Ce couple nom d'utilisateur/mot de passe permet à PMB de
   retenir un certain nombre de paramètres qui vous permettront soit d'avoir
   une ergonomie personnalisée soit d'être affiché à vos couleurs.</para>
 
-  <para>En somme, les préférences utilisateurs sont un ensemble de paramètres
+  <para lang='fr'>En somme, les préférences utilisateurs sont un ensemble de paramètres
   mémorisés pour un utilisateur. Ces préférences sont donc liées au nom
   d'utilisateur saisi à l'écran de login. Pour consulter vos préférences,
   cliquez sur le lien <emphasis>préf</emphasis>. en haut à droite de l'écran,
   à côté de <emphasis>quitter</emphasis>.</para>
 
   <figure>
-    <title>préférences utilisateurs</title>
+    <title lang='fr'>préférences utilisateurs</title>
 
     <mediaobject>
       <imageobject>
@@ -26,18 +26,18 @@
   </figure>
 
   <sect1 id="prefs_pass">
-    <title>Mot de passe, langue, style</title>
+    <title lang='fr'>Mot de passe, langue, style</title>
 
-    <para>Vous pouvez ici changer votre mot de passe. Si vous saisissez un
+    <para lang='fr'>Vous pouvez ici changer votre mot de passe. Si vous saisissez un
     <emphasis>Nouveau mot de passe</emphasis>, veuillez le ressaisir dans le
     champ <emphasis>Confirmation</emphasis>.</para>
 
-    <para>Vous pouvez aussi sélectionner une autre
+    <para lang='fr'>Vous pouvez aussi sélectionner une autre
     <emphasis>Langue</emphasis>. Attention, certaines langues nécessitent un
     style particulier pour permettre un affichage optimal.</para>
 
     <table>
-      <title>Langues et styles d'affichage adaptés</title>
+      <title lang='fr'>Langues et styles d'affichage adaptés</title>
 
       <tgroup cols="2">
         <thead>
@@ -100,11 +100,11 @@
       </tgroup>
     </table>
 
-    <para>Vous pouvez aussi changer le style de votre affichage :
+    <para lang='fr'>Vous pouvez aussi changer le style de votre affichage :
     <emphasis>Style/thèm</emphasis>e.</para>
 
     <table>
-      <title>Styles disponibles dans l'interface de gestion de PMB</title>
+      <title lang='fr'>Styles disponibles dans l'interface de gestion de PMB</title>
 
       <tgroup cols="2">
         <thead>
@@ -182,124 +182,124 @@
       </tgroup>
     </table>
 
-    <para>Certains styles sont également conservés à titre de compatibilité
+    <para lang='fr'>Certains styles sont également conservés à titre de compatibilité
     (et parce que leurs concepteurs ne veulent pas qu'on les enlève... ;-) ).
     Je vous déconseille metal et seabreeze.</para>
   </sect1>
 
   <sect1 id="prefs_page">
-    <title>Nombre d'enregistrements par page</title>
+    <title lang='fr'>Nombre d'enregistrements par page</title>
 
-    <para>Le <emphasis>Nombre d'enregistrement affichés par page</emphasis>
+    <para lang='fr'>Le <emphasis>Nombre d'enregistrement affichés par page</emphasis>
     est personnalisable pour les écrans suivants :</para>
 
     <itemizedlist>
       <listitem>
-        <para>En recherche (20 par défaut)</para>
+        <para lang='fr'>En recherche (20 par défaut)</para>
       </listitem>
 
       <listitem>
-        <para>En sélection d'autorités (20 par défaut)</para>
+        <para lang='fr'>En sélection d'autorités (20 par défaut)</para>
       </listitem>
 
       <listitem>
-        <para>En gestion d'autorités (40 par défaut).</para>
+        <para lang='fr'>En gestion d'autorités (40 par défaut).</para>
       </listitem>
     </itemizedlist>
 
-    <para>Plus ce nombre est élevé, plus le nombre de résultat sera grand par
+    <para lang='fr'>Plus ce nombre est élevé, plus le nombre de résultat sera grand par
     page, plus la page sera longue. Si vous préférez les pages courtes, vous
     pouvez réduire ces valeurs ; si vous préférez afficher un maximum de
     renseignements sur une même page, vous pouvez les augmenter.</para>
 
-    <para>Les choix par défaut correspondent au choix des développeurs et à un
+    <para lang='fr'>Les choix par défaut correspondent au choix des développeurs et à un
     affichage en 1024x768 de votre système.</para>
   </sect1>
 
   <sect1 id="prefs_appli">
-    <title>Paramètres de fonctionnement de l'application</title>
+    <title lang='fr'>Paramètres de fonctionnement de l'application</title>
 
-    <para><emphasis>Popup automatique du ticket de prêt </emphasis>: affiche
+    <para lang='fr'><emphasis>Popup automatique du ticket de prêt </emphasis>: affiche
     systématiquement le ticket de prêt lors de la validation d'un nouveau
     prêt.</para>
 
-    <para><emphasis>Jouer les alertes sonores</emphasis> : signal sonore lors
+    <para lang='fr'><emphasis>Jouer les alertes sonores</emphasis> : signal sonore lors
     d'un message d'erreur notamment.</para>
   </sect1>
 
   <sect1 id="prefs_licence">
-    <title>J'ai lu et accepté les termes de la licence d'utilisation de
+    <title lang='fr'>J'ai lu et accepté les termes de la licence d'utilisation de
     PMB</title>
 
-    <para>Avec la version 1.3 PMB s'est doté d'une nouvelle licence : la
+    <para lang='fr'>Avec la version 1.3 PMB s'est doté d'une nouvelle licence : la
     licence CECILL. Cette licence est compatible avec la GNU/GPL. Pour plus
     d'informations, consulter <ulink
     url="http://www.cecill.info">http://www.cecill.info</ulink></para>
 
-    <para>Cette nouvelle licence est affichée lors du démarrage de PMB, après
+    <para lang='fr'>Cette nouvelle licence est affichée lors du démarrage de PMB, après
     que vous vous soyez connecté en ayant saisi votre nom d'utilisateur et
     votre mot de passe.</para>
 
-    <para>Pour ne pas afficher la licence au démarrage, cocher <emphasis>Ne
+    <para lang='fr'>Pour ne pas afficher la licence au démarrage, cocher <emphasis>Ne
     plus afficher la licence au démarrage</emphasis>.</para>
   </sect1>
 
   <sect1 id="prefs_valeurs">
-    <title>Valeurs par défaut de l'application</title>
+    <title lang='fr'>Valeurs par défaut de l'application</title>
 
-    <para>Cette partie de l'écran permet de spécifier un certain nombre de
+    <para lang='fr'>Cette partie de l'écran permet de spécifier un certain nombre de
     valeurs par défaut pour la création d'exemplaire :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Statut de notice (défini notamment la visibilité des notices
+        <para lang='fr'>Statut de notice (défini notamment la visibilité des notices
         dans l'opac)</para>
       </listitem>
 
       <listitem>
-        <para>Type de document</para>
+        <para lang='fr'>Type de document</para>
       </listitem>
 
       <listitem>
-        <para>Propriétaire</para>
+        <para lang='fr'>Propriétaire</para>
       </listitem>
 
       <listitem>
-        <para>Statut de document</para>
+        <para lang='fr'>Statut de document</para>
       </listitem>
 
       <listitem>
-        <para>Code statistique de document</para>
+        <para lang='fr'>Code statistique de document</para>
       </listitem>
 
       <listitem>
-        <para>Localisation du document</para>
+        <para lang='fr'>Localisation du document</para>
       </listitem>
 
       <listitem>
-        <para>Section du document</para>
+        <para lang='fr'>Section du document</para>
       </listitem>
 
       <listitem>
-        <para>Site de gestion par défaut des lecteurs (utile pour la gestion
+        <para lang='fr'>Site de gestion par défaut des lecteurs (utile pour la gestion
         multi-site dans PMB : défini la visibilité des lecteurs et leur
         affectation à l'inscription)</para>
       </listitem>
 
       <listitem>
-        <para>Thésaurus par défaut (si la gestion multi-thésaurus est activée,
+        <para lang='fr'>Thésaurus par défaut (si la gestion multi-thésaurus est activée,
         définit un thésaurus par défaut)</para>
       </listitem>
     </itemizedlist>
 
-    <para>Ceci permet de gagner du temps lors du catalogage.</para>
+    <para lang='fr'>Ceci permet de gagner du temps lors du catalogage.</para>
 
-    <para>Vous pouvez également spécifier des valeurs par défaut dans la
+    <para lang='fr'>Vous pouvez également spécifier des valeurs par défaut dans la
     création de notices :</para>
 
     <itemizedlist>
       <listitem>
-        <para>langue. Par défaut fixé à <emphasis role="bold">fre</emphasis>,
+        <para lang='fr'>langue. Par défaut fixé à <emphasis role="bold">fre</emphasis>,
         pour <emphasis role="bold">Français</emphasis>. Les codes langues sont
         définis par la norme UNIMARC. Vous pouvez consulter la liste des
         langues et de leurs codes en ouvrant, dans un éditeur de texte, le
@@ -308,7 +308,7 @@
       </listitem>
 
       <listitem>
-        <para>fonction auteur. Par défaut fixé à <emphasis
+        <para lang='fr'>fonction auteur. Par défaut fixé à <emphasis
         role="bold">70</emphasis> pour <emphasis
         role="bold">auteur</emphasis>. La fonction d'un auteur peut varier
         selon l'ouvrage concerné : metteur en scène pour une cassette vidéo
@@ -320,11 +320,11 @@
       </listitem>
 
       <listitem>
-        <para>module par défaut lors de la connexion à PMB</para>
+        <para lang='fr'>module par défaut lors de la connexion à PMB</para>
       </listitem>
 
       <listitem>
-        <para>préfixe de cote par défaut</para>
+        <para lang='fr'>préfixe de cote par défaut</para>
       </listitem>
     </itemizedlist>
   </sect1>

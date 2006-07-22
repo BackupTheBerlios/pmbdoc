@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_misc">
-  <title>Outils</title>
+  <title lang='fr'>Outils</title>
 
-  <para>La partie <emphasis>Outils</emphasis> de l'onglet
+  <para lang='fr'>La partie <emphasis>Outils</emphasis> de l'onglet
   <emphasis>Administration</emphasis> est un réservoir d'outils nécessaires à
   une administration régulière de PMB.</para>
 
   <figure>
-    <title>Outils</title>
+    <title lang='fr'>Outils</title>
 
     <mediaobject>
       <imageobject>
@@ -17,20 +17,20 @@
   </figure>
 
   <sect1 id="admin_netbase">
-    <title>Nettoyage de base</title>
+    <title lang='fr'>Nettoyage de base</title>
 
-    <para>Le nettoyage de base vous permet de nettoyer votre base en
+    <para lang='fr'>Le nettoyage de base vous permet de nettoyer votre base en
     supprimant des données redondantes ou inutilisées, en purgeant votre base
     des autorités inutilisées.</para>
 
-    <para>Vous pouvez également ici optimiser votre base en la réindexant.
+    <para lang='fr'>Vous pouvez également ici optimiser votre base en la réindexant.
     Lors de la suppression de données dans la base, de l'espace libre est
     laissé au sein du fichier de données sur le serveur. Cette opération est
     la seule manière de maintenir à un haut niveau la performance de votre
     serveur de données.</para>
 
     <figure>
-      <title>Outils &gt; Nettoyage de base</title>
+      <title lang='fr'>Outils &gt; Nettoyage de base</title>
 
       <mediaobject>
         <imageobject>
@@ -39,58 +39,58 @@
       </mediaobject>
     </figure>
 
-    <para>Attention après un nettoyage de la base, réalisez toujours une
+    <para lang='fr'>Attention après un nettoyage de la base, réalisez toujours une
     optimisation de la base de données en passant Administration &gt; Outils
     &gt; Maintenance MySQL &gt; Optimiser les tables (ceci permet de
     reconstruire les index de MySQL).</para>
   </sect1>
 
   <sect1 id="admin_misc_proc">
-    <title>Actions personnalisables</title>
+    <title lang='fr'>Actions personnalisables</title>
 
-    <para>Les actions personnalisables désignent des lignes de commandes SQL
+    <para lang='fr'>Les actions personnalisables désignent des lignes de commandes SQL
     saisies en base de données.</para>
 
-    <para>Ces actions personnalisables sont créées ou modifiées dans l'onglet
+    <para lang='fr'>Ces actions personnalisables sont créées ou modifiées dans l'onglet
     administrations. Elles sont également visibles pour les utilisateurs
     autorisés dans l'onglet édition. Pour plus d'informations sur les états
     personnalisables dans l'onglet <emphasis>Éditions</emphasis>, consultez le
     chapitre <emphasis>Éditions</emphasis> du <emphasis>Guide de l'utilisateur
     de PMB</emphasis>.</para>
 
-    <para>Chaque procédure stockée est présentée dans une ligne du tableau.
+    <para lang='fr'>Chaque procédure stockée est présentée dans une ligne du tableau.
     Vous pouvez les éditer en cliquant sur leur titre, ou tester leur
     exécution en cliquant sur le bouton exécuter présent en marge
     gauche.</para>
 
-    <para>Des paramètres personnalisés sont ajoutables : ceux-ci permettront
+    <para lang='fr'>Des paramètres personnalisés sont ajoutables : ceux-ci permettront
     d'obtenir une requête personnalisable directement à l'écran.</para>
 
-    <para>Simplifions un peu.</para>
+    <para lang='fr'>Simplifions un peu.</para>
 
-    <para>Admettons que je sois bibliothécaire sans connaissance en SQL et que
+    <para lang='fr'>Admettons que je sois bibliothécaire sans connaissance en SQL et que
     je veuille obtenir une requête qui m'affiche le nombre d'exemplaires
     actuellement en cours d'emprunt par des lecteurs de plus de 65 ans.</para>
 
-    <para>Je demande à mon administrateur une procédure stockée. Il va créer
+    <para lang='fr'>Je demande à mon administrateur une procédure stockée. Il va créer
     une requête appelée "emprunts en cours / age &gt; 65 ans" (exemple de
     titre). Le code de la procédure sera un simple "SELECT COUNT (*) FROM
     empr, prets WHERE pret.empr_id=empr_id AND (2005-empr_year&gt;=65)"</para>
 
-    <para>L'administrateur m'a créé une procédure à laquelle j'accède depuis
+    <para lang='fr'>L'administrateur m'a créé une procédure à laquelle j'accède depuis
     éditions. Cependant pour mes statistiques, j'ai besoin des mêmes
     informations mais pour des lecteurs de 30 à 65 ans et pour les moins de 30
     ans. En outre, il faut que ma requête fonctionne tous les ans. En 2006 la
     requête exemple ne fonctionnera plus.</para>
 
-    <para>L'administrateur va donc créer une requête dont certains paramètres
+    <para lang='fr'>L'administrateur va donc créer une requête dont certains paramètres
     seront saisis par lui entre quatre points d'exclamation, par exemple
     !!annee_actuelle!!. Un de ces paramètres personnalisés pourra avoir pour
     titre à l'écran : <emphasis>Veuillez saisir l'année en cours,
     SVP</emphasis>.</para>
 
     <figure>
-      <title>Outils &gt; Actions personnalisables</title>
+      <title lang='fr'>Outils &gt; Actions personnalisables</title>
 
       <mediaobject>
         <imageobject>
@@ -99,7 +99,7 @@
       </mediaobject>
     </figure>
 
-    <para>Les procédures stockées sont une des fonctions avancées de PMB. Si
+    <para lang='fr'>Les procédures stockées sont une des fonctions avancées de PMB. Si
     la connaissance de MySQL est nécessaire à leur création, leur utilisation
     est simple en passant par l'Onglet Editions &gt; Statistiques &gt;
     Procédures. Ce haut degré de paramétrage des statistiques est rarement
@@ -107,80 +107,80 @@
     propriétaires.</para>
 
     <sect2>
-      <title>Exemples d'utilisation des actions personnalisables</title>
+      <title lang='fr'>Exemples d'utilisation des actions personnalisables</title>
 
-      <para>Pour connaître le nom des champs à utiliser dans vos requêtes,
+      <para lang='fr'>Pour connaître le nom des champs à utiliser dans vos requêtes,
       consultez la documentation du noyau de PMB qui décrit l'ensemble des
       tables de la base, leurs différents champs et pour ces champs leurs
       attributs :</para>
 
-      <para><emphasis role="bold">pmb/doc/noyau</emphasis></para>
+      <para lang='fr'><emphasis role="bold">pmb/doc/noyau</emphasis></para>
 
       <sect3>
-        <title>Actions personnalisables : création d'un état statistique selon
+        <title lang='fr'>Actions personnalisables : création d'un état statistique selon
         l' "état" des exemplaires</title>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat, 
 docs_statut where idcode=expl_codestat and expl_section in (!!section!!) and 
 expl_statut='!!statut!!' group by idcode, codestat_libelle order by idcode</programlisting>
 
-        <para>Il ne reste plus qu'à renseigner vos paramètres
+        <para lang='fr'>Il ne reste plus qu'à renseigner vos paramètres
         <emphasis>!!statut!!</emphasis> et <emphasis>!!section!!</emphasis> en
         passant par "configurer les paramètres" de la requète.</para>
       </sect3>
 
       <sect3>
-        <title>Utilisation des champs personnalisés dans les requêtes</title>
+        <title lang='fr'>Utilisation des champs personnalisés dans les requêtes</title>
 
-        <para><emphasis>J'ai créé un champ Annee_achat de type texte dans les
+        <para lang='fr'><emphasis>J'ai créé un champ Annee_achat de type texte dans les
         champs personnalisables de Exemplaires. Je voudrais m'en servir pour
         les statistiques, mais je ne retrouve pas ce champ dans les tables
         ?</emphasis></para>
 
-        <para><emphasis>Voici la requête que j'ai réalisé pour avoir le nombre
+        <para lang='fr'><emphasis>Voici la requête que j'ai réalisé pour avoir le nombre
         d'exemplaires par code statistique :</emphasis></para>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat 
 where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</programlisting>
 
-        <para><emphasis>Que dois je modifier pour ne faire apparaître à
+        <para lang='fr'><emphasis>Que dois je modifier pour ne faire apparaître à
         l'issue de la requête que les exemplaires achetés dans l'année N
         ?</emphasis></para>
 
-        <para>Les <emphasis role="bold">champs personnalisés
+        <para lang='fr'>Les <emphasis role="bold">champs personnalisés
         </emphasis>n'apparaissent pas en tant que champs dans la base mais
         sont 'encodés' dans différentes tables.</para>
 
-        <para>S'agissant d'un champ d'exemplaire, vous allez devoir ajouter à
+        <para lang='fr'>S'agissant d'un champ d'exemplaire, vous allez devoir ajouter à
         votre requête dans le FROM : expl_custom_values, expl_custom et
         préciser les jointures et la condition, le filtre, dans la clause
         WHERE :</para>
 
-        <para><programlisting>expl_custom_small_text='!!param_annee_achat!!'</programlisting></para>
+        <para lang='fr'><programlisting>expl_custom_small_text='!!param_annee_achat!!'</programlisting></para>
 
-        <para><emphasis role="bold">EXPLICATION</emphasis>: filtre : création
+        <para lang='fr'><emphasis role="bold">EXPLICATION</emphasis>: filtre : création
         d'un paramètre à la requête, il faut ensuite passer en "Configurer les
         paramètres" pour dire que c'est un paramètre et définir des options de
         saisie</para>
 
         <programlisting>texte and name='Annee_achat'</programlisting>
 
-        <para><emphasis role="bold">EXPLICATION</emphasis>: le nom de votre
+        <para lang='fr'><emphasis role="bold">EXPLICATION</emphasis>: le nom de votre
         champ personnalisé</para>
 
         <programlisting>and expl_id=expl_custom_origine</programlisting>
 
-        <para><emphasis role="bold">EXPLICATION</emphasis>: jointure entre la
+        <para lang='fr'><emphasis role="bold">EXPLICATION</emphasis>: jointure entre la
         table exemplaires et la table contenant les données personnalisées de
         vos exemplaires</para>
 
         <programlisting>and expl_custom_champ=idchamp</programlisting>
 
-        <para><emphasis role="bold">EXPLICATION</emphasis>: la jointure entre
+        <para lang='fr'><emphasis role="bold">EXPLICATION</emphasis>: la jointure entre
         la table contenant les noms des champs et la table contenant les
         valeurs.</para>
 
-        <para>ce qui donne au final donc:</para>
+        <para lang='fr'>ce qui donne au final donc:</para>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre 
 from exemplaires, expl_custom_values, expl_custom, docs_codestat 
@@ -189,21 +189,21 @@ and name='Annee_achat' and expl_id=expl_custom_origine
 and expl_custom_champ=idchamp group by idcode, codestat_libelle 
 order by idcode</programlisting>
 
-        <para><emphasis role="bold">ATTENTION </emphasis>: les requêtes ne
+        <para lang='fr'><emphasis role="bold">ATTENTION </emphasis>: les requêtes ne
         contiennent pas de saut de ligne.</para>
       </sect3>
 
       <sect3>
-        <title>Echangez vos états personnalisables</title>
+        <title lang='fr'>Echangez vos états personnalisables</title>
 
-        <para>Le wiki des utilisateurs de PMB est un site collaboratif où les
+        <para lang='fr'>Le wiki des utilisateurs de PMB est un site collaboratif où les
         utilisateurs peuvent écrire librement leurs conseils pour d'autres
         utilisateurs.</para>
 
-        <para>N'hésitez pas à le consulter <ulink
+        <para lang='fr'>N'hésitez pas à le consulter <ulink
         url="http://www.sigb.net/wiki">http://www.sigb.net/wiki</ulink></para>
 
-        <para>Vous pouvez également adresser vos questions à la liste des
+        <para lang='fr'>Vous pouvez également adresser vos questions à la liste des
         utilisateurs de PMB, consultez <ulink
         url="http://www.sigb.net/communaute">http://www.sigb.net/communaute</ulink></para>
       </sect3>
@@ -211,9 +211,9 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_alter">
-    <title>M. à J. base</title>
+    <title lang='fr'>M. à J. base</title>
 
-    <para>Si vous mettez à jour PMB, vous remplacez les fichiers de PMB par
+    <para lang='fr'>Si vous mettez à jour PMB, vous remplacez les fichiers de PMB par
     une nouvelle version téléchargée depuis www.sigb.net. Mais cette mise à
     jour n'agit que sur PMB et pas sur votre base de donnée. Pour mettre à
     jour la structure de votre base de donnée, utilisez Outils &gt; M. à J.
@@ -225,7 +225,7 @@ order by idcode</programlisting>
     PMB.</remark>
 
     <figure>
-      <title>Outils &gt; Mise à Jour de la Base</title>
+      <title lang='fr'>Outils &gt; Mise à Jour de la Base</title>
 
       <mediaobject>
         <imageobject>
@@ -234,12 +234,12 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para>Cliquez sur le message <emphasis>Cliquer ici pour commencer la mise
+    <para lang='fr'>Cliquez sur le message <emphasis>Cliquer ici pour commencer la mise
     à jour</emphasis> pour voir si votre base a besoin d'être mise à
     jour.</para>
 
     <figure>
-      <title>Aucune mise à jour à effectuer</title>
+      <title lang='fr'>Aucune mise à jour à effectuer</title>
 
       <mediaobject>
         <imageobject>
@@ -249,7 +249,7 @@ order by idcode</programlisting>
     </figure>
 
     <figure>
-      <title>Des mises à jour sont à effectuer</title>
+      <title lang='fr'>Des mises à jour sont à effectuer</title>
 
       <mediaobject>
         <imageobject>
@@ -258,12 +258,12 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para>Dans tous les écrans suivants (plus votre version de PMB était
+    <para lang='fr'>Dans tous les écrans suivants (plus votre version de PMB était
     ancienne, plus les mises à jour seront nombreuses) cliquez sur<emphasis>
     Cliquez ici pour poursuivre</emphasis>.</para>
 
     <figure>
-      <title>Un tableau présentant les différentes actions des mises à jour,
+      <title lang='fr'>Un tableau présentant les différentes actions des mises à jour,
       et leur résultat</title>
 
       <mediaobject>
@@ -273,7 +273,7 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para>Continuez à cliquer sur les messages<emphasis> Cliquez ici pour
+    <para lang='fr'>Continuez à cliquer sur les messages<emphasis> Cliquez ici pour
     poursuivre</emphasis> jusqu'à obtenir ce message <emphasis>Votre base est
     à jour en version X.X</emphasis> (ce numéro de version du format de base
     est différent de celui de la version de PMB). Vous aurez alors fini de
@@ -281,9 +281,9 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_misc_tables">
-    <title>Description des tables</title>
+    <title lang='fr'>Description des tables</title>
 
-    <para>Cette description des tables correspond aux informations basiques
+    <para lang='fr'>Cette description des tables correspond aux informations basiques
     concernant les tables de données gérées par MySQL. Une documentation
     approfondie est disponible à l'adresse
     http://localhost/pmb/doc/noyau.</para>
@@ -294,41 +294,41 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_misc_mysql">
-    <title>Maintenance MySQL</title>
+    <title lang='fr'>Maintenance MySQL</title>
 
-    <para>Vous trouverez ici une interface aux principaux outils de
+    <para lang='fr'>Vous trouverez ici une interface aux principaux outils de
     maintenance de MySQL : vérification des tables, analyse et réparation de
     celles-ci ou encore leur optimisation.</para>
 
-    <para><emphasis role="bold">Note</emphasis> l'optimisation de MySQL ne
+    <para lang='fr'><emphasis role="bold">Note</emphasis> l'optimisation de MySQL ne
     correspond pas à la réindexation accessible depuis Nettoyage de base, PMB
     gère ses propres données d'indexation.</para>
 
-    <para>Vous disposez de quatre outils de maintenance MySQL :</para>
+    <para lang='fr'>Vous disposez de quatre outils de maintenance MySQL :</para>
 
     <itemizedlist>
       <listitem>
-        <para>vérifier les tables.</para>
+        <para lang='fr'>vérifier les tables.</para>
       </listitem>
 
       <listitem>
-        <para>analyser les tables.</para>
+        <para lang='fr'>analyser les tables.</para>
       </listitem>
 
       <listitem>
-        <para>réparer les tables. Permet de réparer la base de données, si la
+        <para lang='fr'>réparer les tables. Permet de réparer la base de données, si la
         vérification ou l'analyse ont renvoyé une erreur.</para>
       </listitem>
 
       <listitem>
-        <para>optimiser les tables. L'optimisation des tables permet
+        <para lang='fr'>optimiser les tables. L'optimisation des tables permet
         d'améliorer les performances MySQL. Cette optimisation est à faire
         régulièrement.</para>
       </listitem>
     </itemizedlist>
 
     <figure>
-      <title>Outils &gt; Maintenance MySQL</title>
+      <title lang='fr'>Outils &gt; Maintenance MySQL</title>
 
       <mediaobject>
         <imageobject>
@@ -339,31 +339,31 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_outils_parametres">
-    <title>Paramètres</title>
+    <title lang='fr'>Paramètres</title>
 
-    <para>Dans cet outil, vous trouverez l'accès à de nombreux paramètres
+    <para lang='fr'>Dans cet outil, vous trouverez l'accès à de nombreux paramètres
     allant du nom de votre bibliothèque, qui sera réutilisé sur tous les
     documents créés par PMB, à l'affichage ou non de la météo dans l'OPAC, en
     passant par différents paramètres conditionnant l'ergonomie ou la
     structure même de l'application.</para>
 
-    <para>Ne modifiez un paramètre que si vous avez une idée de l'effet
+    <para lang='fr'>Ne modifiez un paramètre que si vous avez une idée de l'effet
     souhaité, et procédez à une sauvegarde préalable.</para>
 
-    <para>Les types de paramètres sont listés à l'écran. Pour afficher les
+    <para lang='fr'>Les types de paramètres sont listés à l'écran. Pour afficher les
     différents paramètres correspondant à un type, cliquez sur l'icône + pour
     développer un type. De même, vous pouvez utiliser l'icône - pour réduire
     un type développé à l'écran.</para>
 
-    <para>Pour modifier un paramètre, cliquez sur la ligne correspondant à ce
+    <para lang='fr'>Pour modifier un paramètre, cliquez sur la ligne correspondant à ce
     paramètre.</para>
 
-    <para>Une fois les modifications enregistrées pour votre paramètre, la
+    <para lang='fr'>Une fois les modifications enregistrées pour votre paramètre, la
     liste des paramètres est réaffichée à l'endroit où vous l'aviez laissé. Le
     dernier paramètre édité est mis en relief par une couleur
     différente.</para>
 
-    <para>Il existe différents types de paramètres : <link
+    <para lang='fr'>Il existe différents types de paramètres : <link
     linkend="admin_outils_parametres_biblio">biblio</link> (biblio, obsolète);
     <link linkend="admin_outils_parametres_dsi">dsi</link> (Diffusion
     sélective de l'information); <link
@@ -390,9 +390,9 @@ order by idcode</programlisting>
     (Options Z39.50).</para>
 
     <sect2>
-      <title>récupérer les valeurs d'un paramètre dans un autre</title>
+      <title lang='fr'>récupérer les valeurs d'un paramètre dans un autre</title>
 
-      <para><emphasis role="bold">Important </emphasis>vous pouvez
+      <para lang='fr'><emphasis role="bold">Important </emphasis>vous pouvez
       <emphasis>utiliser la valeur d'un paramètre dans un autre
       paramètre</emphasis>. Par exemple : si vous voulez utiliser la valeur du
       paramètre "<emphasis>PDF Carte de lecteur</emphasis>", intitulé
@@ -409,13 +409,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_acquis">
-      <title>Acquisitions</title>
+      <title lang='fr'>Acquisitions</title>
 
-      <para>Le type <emphasis>Acquisitions</emphasis> (acquisition) désigne
+      <para lang='fr'>Le type <emphasis>Acquisitions</emphasis> (acquisition) désigne
       les informations liées au module acquisition.</para>
 
       <table>
-        <title>Paramètres généraux pour les acquisitions</title>
+        <title lang='fr'>Paramètres généraux pour les acquisitions</title>
 
         <tgroup cols="3">
           <thead>
@@ -488,7 +488,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options de mise en page des emails de suggestions</title>
+        <title lang='fr'>Options de mise en page des emails de suggestions</title>
 
         <tgroup cols="3">
           <thead>
@@ -589,7 +589,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options de mise en page des lettres de commande</title>
+        <title lang='fr'>Options de mise en page des lettres de commande</title>
 
         <tgroup cols="3">
           <thead>
@@ -768,7 +768,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options de mise en page des lettres de demande de devis</title>
+        <title lang='fr'>Options de mise en page des lettres de demande de devis</title>
 
         <tgroup cols="3">
           <thead>
@@ -946,7 +946,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options de mise en page des factures</title>
+        <title lang='fr'>Options de mise en page des factures</title>
 
         <tgroup cols="3">
           <thead>
@@ -1099,7 +1099,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options de mise en page des bons de livraison</title>
+        <title lang='fr'>Options de mise en page des bons de livraison</title>
 
         <tgroup cols="3">
           <thead>
@@ -1216,7 +1216,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options de mise en page des listes de suggestions</title>
+        <title lang='fr'>Options de mise en page des listes de suggestions</title>
 
         <tgroup cols="3">
           <thead>
@@ -1304,23 +1304,23 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_biblio">
-      <title>biblio</title>
+      <title lang='fr'>biblio</title>
 
-      <para><emphasis>Obsolète</emphasis>.</para>
+      <para lang='fr'><emphasis>Obsolète</emphasis>.</para>
 
-      <para>Le type <emphasis>biblio</emphasis> a été remplacé dans la version
+      <para lang='fr'>Le type <emphasis>biblio</emphasis> a été remplacé dans la version
       2.0 par des informations liées à la localisation des ouvrages. Pour plus
       d'informations, consulter la section Exemplaires, Localisations.</para>
     </sect2>
 
     <sect2 id="admin_outils_parametres_categories">
-      <title>Categories</title>
+      <title lang='fr'>Categories</title>
 
-      <para>Le type <emphasis>Categories</emphasis> (categories) correspond
+      <para lang='fr'>Le type <emphasis>Categories</emphasis> (categories) correspond
       aux paramètres des catégories (thésaurus intégré) de PMB.</para>
 
       <table>
-        <title>Type categories</title>
+        <title lang='fr'>Type categories</title>
 
         <tgroup cols="3">
           <thead>
@@ -1367,13 +1367,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_dsi">
-      <title>Diffusion sélective de l'information</title>
+      <title lang='fr'>Diffusion sélective de l'information</title>
 
-      <para>Le type <emphasis>Diffusion sélective de l'information</emphasis>
+      <para lang='fr'>Le type <emphasis>Diffusion sélective de l'information</emphasis>
       (dsi) désigne les informations liées aux emprunteurs.</para>
 
       <table>
-        <title>Type dsi</title>
+        <title lang='fr'>Type dsi</title>
 
         <tgroup cols="3">
           <thead>
@@ -1417,13 +1417,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_empr">
-      <title>Emprunteurs</title>
+      <title lang='fr'>Emprunteurs</title>
 
-      <para>Le type <emphasis>Emprunteurs</emphasis> (empr) désigne les
+      <para lang='fr'>Le type <emphasis>Emprunteurs</emphasis> (empr) désigne les
       informations liées aux emprunteurs.</para>
 
       <table>
-        <title>Type empr</title>
+        <title lang='fr'>Type empr</title>
 
         <tgroup cols="3">
           <thead>
@@ -1460,15 +1460,15 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_ldap">
-      <title>LDAP</title>
+      <title lang='fr'>LDAP</title>
 
-      <para>Le type <emphasis>LDAP</emphasis> (ldap) désigne le paramétrage de
+      <para lang='fr'>Le type <emphasis>LDAP</emphasis> (ldap) désigne le paramétrage de
       la connectivité LDAP pour permettre l'authentification automatique. Avec
       un annuaire LDAP, vous pouvez configurer PMB pour que l'utilisateur soit
       automatiquement identifié dans PMB.</para>
 
-      <para><table>
-          <title>Type ldap</title>
+      <para lang='fr'><table>
+          <title lang='fr'>Type ldap</title>
 
           <tgroup cols="3">
             <thead>
@@ -1569,14 +1569,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailrelanceadhesion">
-      <title>Mail de relance d'adhésion</title>
+      <title lang='fr'>Mail de relance d'adhésion</title>
 
-      <para>Le type <emphasis>Mail de relance d'adhésion</emphasis>
+      <para lang='fr'>Le type <emphasis>Mail de relance d'adhésion</emphasis>
       (mailrelanceadhesion) correspond au paramétrage des mails de relance
       pour proposer de renouveler une adhésion bientôt expirée.</para>
 
       <table>
-        <title>Type mailrelanceadhesion</title>
+        <title lang='fr'>Type mailrelanceadhesion</title>
 
         <tgroup cols="3">
           <thead>
@@ -1632,14 +1632,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailretard">
-      <title>Mail de retard</title>
+      <title lang='fr'>Mail de retard</title>
 
-      <para>Le type <emphasis>Mail de retard</emphasis> (mailretard) indique
+      <para lang='fr'>Le type <emphasis>Mail de retard</emphasis> (mailretard) indique
       les paramètres des emails de contact pour un ouvrage dont le retour est
       en retard.</para>
 
       <table>
-        <title>Type mailretard</title>
+        <title lang='fr'>Type mailretard</title>
 
         <tgroup cols="3">
           <thead>
@@ -1817,15 +1817,15 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_opac">
-      <title>OPAC</title>
+      <title lang='fr'>OPAC</title>
 
-      <para>Le type <emphasis>opac</emphasis> correspond au paramétrage de
+      <para lang='fr'>Le type <emphasis>opac</emphasis> correspond au paramétrage de
       l'OPAC. L'OPAC est hautement configurable et possède à ce titre de
       nombreux paramètres.</para>
 
-      <para>Pour plus de facilité de lecture, ces paramètres ont été regroupés
+      <para lang='fr'>Pour plus de facilité de lecture, ces paramètres ont été regroupés
       par fonctionnalité au sein de l'OPAC.<table>
-          <title>Options générales de fonctionnement de l'OPAC</title>
+          <title lang='fr'>Options générales de fonctionnement de l'OPAC</title>
 
           <tgroup cols="3">
             <thead>
@@ -1966,7 +1966,7 @@ order by idcode</programlisting>
         </table></para>
 
       <table>
-        <title>Informations de la bibliothèque ou du centre de
+        <title lang='fr'>Informations de la bibliothèque ou du centre de
         ressources</title>
 
         <tgroup cols="3">
@@ -2128,7 +2128,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options pour les recherches dans l'OPAC</title>
+        <title lang='fr'>Options pour les recherches dans l'OPAC</title>
 
         <tgroup cols="3">
           <thead>
@@ -2313,7 +2313,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options d'affichage des résultats de recherche</title>
+        <title lang='fr'>Options d'affichage des résultats de recherche</title>
 
         <tgroup cols="3">
           <thead>
@@ -2366,7 +2366,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Affichage des notices</title>
+        <title lang='fr'>Affichage des notices</title>
 
         <tgroup cols="3">
           <thead>
@@ -2454,7 +2454,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Modules affichés dans l'OPAC</title>
+        <title lang='fr'>Modules affichés dans l'OPAC</title>
 
         <tgroup cols="3">
           <thead>
@@ -2627,7 +2627,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options concernant le panier</title>
+        <title lang='fr'>Options concernant le panier</title>
 
         <tgroup cols="3">
           <thead>
@@ -2666,7 +2666,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options pour l'affichage et la navigation dans les
+        <title lang='fr'>Options pour l'affichage et la navigation dans les
         catégories</title>
 
         <tgroup cols="3">
@@ -2777,7 +2777,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options concernant les étagères</title>
+        <title lang='fr'>Options concernant les étagères</title>
 
         <tgroup cols="3">
           <thead>
@@ -2846,7 +2846,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options concernant la navigation par sections</title>
+        <title lang='fr'>Options concernant la navigation par sections</title>
 
         <tgroup cols="3">
           <thead>
@@ -2883,13 +2883,13 @@ order by idcode</programlisting>
         </tgroup>
       </table>
 
-      <para>Les paramètres ci-dessous, figurant dans la partie Inutilisé des
+      <para lang='fr'>Les paramètres ci-dessous, figurant dans la partie Inutilisé des
       paramètres de l'OPAC, sont des paramètres obsolètes qui ont pu être
       utilisés dans d'anciennes versions de PMB. A l'heure actuelle, ils sont
       inutilisés mais leur avenir n'est pas fixé.</para>
 
       <table>
-        <title>Options concernant la D.S.I.</title>
+        <title lang='fr'>Options concernant la D.S.I.</title>
 
         <tgroup cols="3">
           <tbody>
@@ -2971,7 +2971,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Inutilisé</title>
+        <title lang='fr'>Inutilisé</title>
 
         <tgroup cols="3">
           <thead>
@@ -3028,14 +3028,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdfcartelecteur">
-      <title>Carte lecteur</title>
+      <title lang='fr'>Carte lecteur</title>
 
-      <para>Les paramètres <emphasis>Carte lecteur</emphasis>
+      <para lang='fr'>Les paramètres <emphasis>Carte lecteur</emphasis>
       (pdfcartelecteur) correspondent au paramétrage de l'impression d'une
       carte de lecteur.</para>
 
       <table>
-        <title>Type pdfcartelecteur</title>
+        <title lang='fr'>Type pdfcartelecteur</title>
 
         <tgroup cols="3">
           <thead>
@@ -3118,18 +3118,18 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreadhesion">
-      <title>Lettre de relance d'adhésion</title>
+      <title lang='fr'>Lettre de relance d'adhésion</title>
 
-      <para>Les paramètres <emphasis>Lettre de relance d'adhésion</emphasis>
+      <para lang='fr'>Les paramètres <emphasis>Lettre de relance d'adhésion</emphasis>
       (pdflettreadhesion) correspondent au paramétrage des lettres de relance
       pour une adhésion bientôt expirée.</para>
 
-      <para><emphasis role="bold">Important</emphasis> l'expression
+      <para lang='fr'><emphasis role="bold">Important</emphasis> l'expression
       !!date_fin_adhesion!! prendra la valeur correspondante lors de la
       génération de la lettre de relance d'adhésion.</para>
 
       <table>
-        <title>Type pdflettreadhesion</title>
+        <title lang='fr'>Type pdflettreadhesion</title>
 
         <tgroup cols="3">
           <thead>
@@ -3219,18 +3219,18 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreresa">
-      <title>Lettre de confirmation de réservation</title>
+      <title lang='fr'>Lettre de confirmation de réservation</title>
 
-      <para>Les paramètres <emphasis>Lettre de confirmation de
+      <para lang='fr'>Les paramètres <emphasis>Lettre de confirmation de
       réservation</emphasis> (pdflettreresa) correspondent au paramétrage des
       lettres de confirmation des réservations.</para>
 
-      <para><emphasis role="bold">Note</emphasis> Ce paramètre a été repris
+      <para lang='fr'><emphasis role="bold">Note</emphasis> Ce paramètre a été repris
       dans la version 2.1 pour permettre de relancer par email ou par
       courrier, avec une logique de priorité.</para>
 
       <table>
-        <title>Type pdflettreresa</title>
+        <title lang='fr'>Type pdflettreresa</title>
 
         <tgroup cols="3">
           <thead>
@@ -3410,14 +3410,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreretard">
-      <title>Lettre de retard</title>
+      <title lang='fr'>Lettre de retard</title>
 
-      <para>Le type <emphasis>Lettre de retard</emphasis> (pdflettreretard)
+      <para lang='fr'>Le type <emphasis>Lettre de retard</emphasis> (pdflettreretard)
       désigne les paramètres de la lettre de rappel pour un prêt en
       retard.</para>
 
       <table>
-        <title>Type pdflettreretard</title>
+        <title lang='fr'>Type pdflettreretard</title>
 
         <tgroup cols="3">
           <thead>
@@ -3858,13 +3858,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pmb">
-      <title>Paramètres généraux</title>
+      <title lang='fr'>Paramètres généraux</title>
 
-      <para>Les paramètres de type <emphasis>Paramètres généraux</emphasis>
+      <para lang='fr'>Les paramètres de type <emphasis>Paramètres généraux</emphasis>
       (pmb) sont les paramètres généraux de l'application</para>
 
       <table>
-        <title>Type pmb</title>
+        <title lang='fr'>Type pmb</title>
 
         <tgroup cols="3">
           <thead>
@@ -4291,13 +4291,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_sauvegarde">
-      <title>Sauvegarde</title>
+      <title lang='fr'>Sauvegarde</title>
 
-      <para>Les paramètres de type <emphasis>sauvegarde</emphasis> concernent
+      <para lang='fr'>Les paramètres de type <emphasis>sauvegarde</emphasis> concernent
       le fonctionnement des sauvegardes de PMB.</para>
 
       <table>
-        <title>Type sauvegarde</title>
+        <title lang='fr'>Type sauvegarde</title>
 
         <tgroup cols="3">
           <thead>
@@ -4334,13 +4334,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_sauvegarde">
-      <title>Thésaurus</title>
+      <title lang='fr'>Thésaurus</title>
 
-      <para>Les paramètres de type <emphasis>thesaurus</emphasis> concernent
+      <para lang='fr'>Les paramètres de type <emphasis>thesaurus</emphasis> concernent
       la gestion multi-thésaurus de PMB.</para>
 
       <table>
-        <title>Type thesaurus</title>
+        <title lang='fr'>Type thesaurus</title>
 
         <tgroup cols="3">
           <thead>
@@ -4387,13 +4387,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_z3950">
-      <title>Options Z3950</title>
+      <title lang='fr'>Options Z3950</title>
 
-      <para>Les paramètres <emphasis>Options Z3950</emphasis> (z3950) sont
+      <para lang='fr'>Les paramètres <emphasis>Options Z3950</emphasis> (z3950) sont
       ceux de la recherche z3950 dans l'onglet catalogage.</para>
 
       <table>
-        <title>Type z3950</title>
+        <title lang='fr'>Type z3950</title>
 
         <tgroup cols="3">
           <thead>

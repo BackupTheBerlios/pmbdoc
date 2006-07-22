@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_calendrier">
-  <title>Calendrier</title>
+  <title lang='fr'>Calendrier</title>
 
-  <para>Vous pouvez choisir d'utiliser pour PMB un calendrier d'ouverture de
+  <para lang='fr'>Vous pouvez choisir d'utiliser pour PMB un calendrier d'ouverture de
   la bibliothèque. Si vous activez le calendrier, l'ensemble des calculs liés
   aux prêts (retard, durée de prêt, ...) sera basé sur le calendrier des jours
   d'ouvertures de la bibliothèque et non sur la semaine calendaire de 7
   jours.</para>
 
-  <para><emphasis role="bold">Important</emphasis> : Le calendrier va être
+  <para lang='fr'><emphasis role="bold">Important</emphasis> : Le calendrier va être
   utilisé pour les dates de retour ou de mise à disposition de réservation.
   C'est le premier jour ouvert postérieur ou égal au jour calculé qui sera
   retenu.</para>
 
   <sect1>
-    <title>Si la gestion du calendrier n'est pas activée</title>
+    <title lang='fr'>Si la gestion du calendrier n'est pas activée</title>
 
-    <para><inlinemediaobject>
+    <para lang='fr'><inlinemediaobject>
         <imageobject>
           <imagedata fileref="images/warning.gif" />
         </imageobject>
       </inlinemediaobject> Si la gestion du calendrier des jours d'ouverture
     n'est pas activée, vous ne verrez pas "calendrier" dans le menu.</para>
 
-    <para>Pour plus d'information sur l'activation du calendrier des jours
+    <para lang='fr'>Pour plus d'information sur l'activation du calendrier des jours
     d'ouverture, voir <xref linkend="admin_outils_parametres_pmb" />.</para>
   </sect1>
 
   <sect1>
-    <title>Définir des jours d'ouverture</title>
+    <title lang='fr'>Définir des jours d'ouverture</title>
 
     <figure>
-      <title>Administration &gt; Calendrier &gt; Consultation</title>
+      <title lang='fr'>Administration &gt; Calendrier &gt; Consultation</title>
 
       <mediaobject>
         <imageobject>
@@ -40,20 +40,20 @@
       </mediaobject>
     </figure>
 
-    <para>Une fois le paramètre <emphasis>utiliser_calendrier</emphasis> dans
+    <para lang='fr'>Une fois le paramètre <emphasis>utiliser_calendrier</emphasis> dans
     la section <emphasis>paramètres généraux </emphasis>passé à 1, cliquez sur
     l'onglet <emphasis>Administration</emphasis> pour faire apparaitre dans le
     menu latéral le lien Calendrier.</para>
 
-    <para>Dans le formulaire, renseignez alors la période que vous voulez
+    <para lang='fr'>Dans le formulaire, renseignez alors la période que vous voulez
     modifier, par exemple 01/09/2005 - 30/06/2006.</para>
 
-    <para>Cochez les jours concernés par votre action : par exemple lundi,
+    <para lang='fr'>Cochez les jours concernés par votre action : par exemple lundi,
     mercredi, jeudi. Cliquez sur ouvrir pour déclarer ces jours comme étant
     ceux d'ouverture de la bibliothèque.</para>
 
     <figure>
-      <title>Administration &gt; Calendrier &gt; Consultation</title>
+      <title lang='fr'>Administration &gt; Calendrier &gt; Consultation</title>
 
       <mediaobject>
         <imageobject>
@@ -62,27 +62,27 @@
       </mediaobject>
     </figure>
 
-    <para>Pour fermer pour Noël : renseignez la période que vous voulez
+    <para lang='fr'>Pour fermer pour Noël : renseignez la période que vous voulez
     modifier : 20/12/2005 - 05/01/2006. Cochez les jours concernés par votre
     action lundi, mercredi, jeudi puis cliquez sur Fermer.</para>
 
-    <para>Pour modifier manuellement un jour, cliquez simplement sur le numéro
+    <para lang='fr'>Pour modifier manuellement un jour, cliquez simplement sur le numéro
     du jour, il va passer de vert à "pas vert" et vice-versa.</para>
 
-    <para>Pour passer d'une année à l'autre, utilisez les flêches vertes sous
+    <para lang='fr'>Pour passer d'une année à l'autre, utilisez les flêches vertes sous
     le formulaire.</para>
 
-    <para><emphasis role="bold">Rappel</emphasis> : Le calendrier va être
+    <para lang='fr'><emphasis role="bold">Rappel</emphasis> : Le calendrier va être
     utilisé pour les dates de retour ou de mise à disposition de réservation.
     C'est le premier jour ouvert postérieur ou égal au jour calculé qui sera
     retenu.</para>
 
-    <para><emphasis role="bold">Exemple d'utilisation </emphasis>: la date
+    <para lang='fr'><emphasis role="bold">Exemple d'utilisation </emphasis>: la date
     prévue de retour du document tombe pendant les vacances de Noël, la date
     de retour sera alors fixée au 06/01/2006 (ou à défaut d'ouverture ce jour
     là au premier jour ouvert suivant).</para>
 
-    <para><emphasis role="bold">Info</emphasis> : vous pouvez donner un
+    <para lang='fr'><emphasis role="bold">Info</emphasis> : vous pouvez donner un
     commentaire associé à votre action : "Chouette c'est Noël" ou "Fermeture
     exceptionnelle". Pour modifier un commentaire sur un jour précis, cliquez
     sur le nom du mois, vous arrivez alors sur formulaire qui vous affiche

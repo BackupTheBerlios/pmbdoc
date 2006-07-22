@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="ergo" lang="fr">
-  <title>Ergonomie de l'interface de gestion</title>
+  <title lang='fr'>Ergonomie de l'interface de gestion</title>
 
-  <para>Voici un écran de l'interface de gestion de PMB. L'écran est divisé en
+  <para lang='fr'>Voici un écran de l'interface de gestion de PMB. L'écran est divisé en
   trois parties.</para>
 
   <figure>
-    <title>interface de gestion</title>
+    <title lang='fr'>interface de gestion</title>
 
     <mediaobject>
       <imageobject>
@@ -15,17 +15,17 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">La barre de navigation
+  <para lang='fr'><emphasis role="bold">La barre de navigation
   supérieure</emphasis></para>
 
-  <para>Elle permet de basculer entre les différents modules de l'interface de
+  <para lang='fr'>Elle permet de basculer entre les différents modules de l'interface de
   gestion à tout moment.</para>
 
-  <para>Seuls les modules auquel l'utilisateur aura accès seront
+  <para lang='fr'>Seuls les modules auquel l'utilisateur aura accès seront
   affichés.</para>
 
   <figure>
-    <title>Barre de navigation supérieure</title>
+    <title lang='fr'>Barre de navigation supérieure</title>
 
     <mediaobject>
       <imageobject>
@@ -34,45 +34,45 @@
     </mediaobject>
   </figure>
 
-  <para>A droite de la barre de navigation, au même niveau que les onglets,
+  <para lang='fr'>A droite de la barre de navigation, au même niveau que les onglets,
   vous trouvez différentes icônes : <emphasis>historique</emphasis>,
   a<emphasis>ide</emphasis>, <emphasis>préférences de
   l'utilisateur</emphasis>, <emphasis>opac</emphasis>,
   <emphasis>sauvegarde</emphasis> et <emphasis>quitter</emphasis>.</para>
 
-  <para><emphasis>historique</emphasis> ouvre dans un iframe (bloc à l'écran)
+  <para lang='fr'><emphasis>historique</emphasis> ouvre dans un iframe (bloc à l'écran)
   un historique des recherches lancées dans l'interface de gestion de PMB. Ce
   lien n'est affiché que si vous avez les droits d'accès à l'onglet
   catalogage. Pour plus d'informations sur les recherches, voir <xref
   linkend="cat_search" /> ; pour plus d'informations sur l'historique des
   recherches, voir <xref linkend="search_history" />.</para>
 
-  <para><emphasis>aide</emphasis> permet d'accéder à l'aide contextuelle de
+  <para lang='fr'><emphasis>aide</emphasis> permet d'accéder à l'aide contextuelle de
   PMB. Pour plus d'informations, consulter le chapitre <xref
   linkend="aide_contextuelle" />. L'affichage ou non de l'aide contextuelle
   peut être paramétré. Pour plus d'informations, consulter le <emphasis>Guide
   de l'Administrateur PMB</emphasis>, chapitre <emphasis>Outils</emphasis>,
   section <emphasis>Paramètres</emphasis>.</para>
 
-  <para><emphasis>préférences de l'utilisateur</emphasis>. permet d'accéder
+  <para lang='fr'><emphasis>préférences de l'utilisateur</emphasis>. permet d'accéder
   aux préférences de l'utilisateur connecté à PMB</para>
 
-  <para><emphasis>opac</emphasis> ouvre une nouvelle fenêtre de votre
+  <para lang='fr'><emphasis>opac</emphasis> ouvre une nouvelle fenêtre de votre
   navigateur et affiche l'OPAC</para>
 
-  <para><emphasis>sauvegarde</emphasis> vous permet de lancer vos
+  <para lang='fr'><emphasis>sauvegarde</emphasis> vous permet de lancer vos
   sauvegardes</para>
 
-  <para><emphasis>quitter</emphasis> déconnecte l'utilisateur en cours et
+  <para lang='fr'><emphasis>quitter</emphasis> déconnecte l'utilisateur en cours et
   renvoie à l'écran de login</para>
 
-  <para><emphasis role="bold">Le menu latéral</emphasis></para>
+  <para lang='fr'><emphasis role="bold">Le menu latéral</emphasis></para>
 
-  <para>Il permet d'accéder aux différentes fonctions de chacun des
+  <para lang='fr'>Il permet d'accéder aux différentes fonctions de chacun des
   modules.</para>
 
   <figure>
-    <title>Menu latéral</title>
+    <title lang='fr'>Menu latéral</title>
 
     <mediaobject>
       <imageobject>
@@ -81,14 +81,14 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">L'interface centrale</emphasis></para>
+  <para lang='fr'><emphasis role="bold">L'interface centrale</emphasis></para>
 
-  <para>L'interface centrale constitue la partie de PMB dans laquelle vous
+  <para lang='fr'>L'interface centrale constitue la partie de PMB dans laquelle vous
   pouvez saisir ou éditer des informations, exécuter des fonctions, valider
   des changements, etc.</para>
 
   <figure>
-    <title>interface centrale</title>
+    <title lang='fr'>interface centrale</title>
 
     <mediaobject>
       <imageobject>
@@ -97,31 +97,31 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Les alertes</emphasis></para>
+  <para lang='fr'><emphasis role="bold">Les alertes</emphasis></para>
 
-  <para>Des alertes sont affichées à gauche sous le menu :</para>
+  <para lang='fr'>Des alertes sont affichées à gauche sous le menu :</para>
 
   <itemizedlist>
     <listitem>
-      <para>si des réservations sont ajoutées</para>
+      <para lang='fr'>si des réservations sont ajoutées</para>
     </listitem>
 
     <listitem>
-      <para>si des ouvrages sont à ranger suite à des réservations
+      <para lang='fr'>si des ouvrages sont à ranger suite à des réservations
       annulées</para>
     </listitem>
 
     <listitem>
-      <para>si des lecteurs ont une fin d'abonnement proche</para>
+      <para lang='fr'>si des lecteurs ont une fin d'abonnement proche</para>
     </listitem>
 
     <listitem>
-      <para>si des lecteurs ont un abonnement expiré</para>
+      <para lang='fr'>si des lecteurs ont un abonnement expiré</para>
     </listitem>
   </itemizedlist>
 
   <figure>
-    <title>alertes</title>
+    <title lang='fr'>alertes</title>
 
     <mediaobject>
       <imageobject>
@@ -130,13 +130,13 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Les résultats de recherche</emphasis></para>
+  <para lang='fr'><emphasis role="bold">Les résultats de recherche</emphasis></para>
 
-  <para>Les résultats de recherche dans l'interface de PMB sont présentés avec
+  <para lang='fr'>Les résultats de recherche dans l'interface de PMB sont présentés avec
   des numéros de pages cliquables en bas de l'écran : ceci vous permet de
   passer rapidement à la page de résultat souhaité.</para>
 
-  <para>Si vous avez lancé une recherche et que vous voulez passer directement
+  <para lang='fr'>Si vous avez lancé une recherche et que vous voulez passer directement
   aux résultats 11 à 20 de cette recherche, cliquez sur la page 2 pour les
   atteindre directement. Vous pouvez également utiliser les icônes page
   suivante et page précédente à l'écran (triangles bleus).</para>

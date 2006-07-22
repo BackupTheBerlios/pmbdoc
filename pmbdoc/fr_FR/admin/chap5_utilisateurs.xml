@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_users">
-  <title>Utilisateurs</title>
+  <title lang='fr'>Utilisateurs</title>
 
-  <para>Dans PMB, cette appellation <emphasis>d'utilisateurs</emphasis>
+  <para lang='fr'>Dans PMB, cette appellation <emphasis>d'utilisateurs</emphasis>
   correspond aux utilisateurs de l'application et non aux usagers de la
   bibliothèque, qui sont les emprunteurs. Un utilisateur est par exemple un
   agent de prêt, un bibliothécaire, un administrateur informatique,
   etc.</para>
 
   <sect1>
-    <title>Gestion des utilisateurs</title>
+    <title lang='fr'>Gestion des utilisateurs</title>
 
-    <para>La rubrique gestion des utilisateurs de PMB va permettre de créer
+    <para lang='fr'>La rubrique gestion des utilisateurs de PMB va permettre de créer
     des profils d'utilisateurs. A chaque compte d'utilisateur est attribué un
     login et un mot de passe. PMB nécessite au moins un compte administrateur
     (Super User). Ce compte ne peut pas être effacé depuis PMB.</para>
 
-    <para>Si vous avez chargé le jeu de test opérationnel de PMB, vous
+    <para lang='fr'>Si vous avez chargé le jeu de test opérationnel de PMB, vous
     disposez également de trois comptes supplémentaires : bibliothécaire (nom
     d'utilisateur : <emphasis>bib</emphasis> ; mot de passe :
     <emphasis>bib</emphasis>), catalogueur (<emphasis>cat</emphasis> ;
     <emphasis>cat</emphasis>), chargé de prêt (<emphasis>circ</emphasis> ;
     <emphasis>circ</emphasis>).</para>
 
-    <para>Les droits d'accès aux différentes parties du logiciel sont gérés en
+    <para lang='fr'>Les droits d'accès aux différentes parties du logiciel sont gérés en
     fonction des onglets. Selon le droit d'accès (cadenas ouvert) ou
     l'interdiction (cadenas verrouillé), l'onglet concerné s'affichera ou non.
     Une seule exception à cette règle est la fonction de sauvegarde qui n'est
     pas présentée dans PMB comme un onglet.</para>
 
-    <para>Vous pouvez ici modifier un utilisateur et modifier son mot de
+    <para lang='fr'>Vous pouvez ici modifier un utilisateur et modifier son mot de
     passe. Cette dernière fonction est utile lors d'un changement de personne
     à un poste, ou lors de la perte d'un mot de passe. L'utilisateur peut
     librement changer son mot de passe sans demander à l'administrateur de le
@@ -37,7 +37,7 @@
     droite de l'écran).</para>
 
     <figure>
-      <title>Gestion des utilisateurs</title>
+      <title lang='fr'>Gestion des utilisateurs</title>
 
       <mediaobject>
         <imageobject>
@@ -46,7 +46,7 @@
       </mediaobject>
     </figure>
 
-    <para>Les préférences d'un utilisateur, accessibles en cliquant sur le
+    <para lang='fr'>Les préférences d'un utilisateur, accessibles en cliquant sur le
     bouton modifier, correspondent aux préférences utilisateurs, accessibles
     depuis le lien préf. à côté du lien quitter.</para>
   </sect1>

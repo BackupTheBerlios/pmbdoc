@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Sauvegarde</title>
+  <title lang='fr'>Sauvegarde</title>
 
-  <para>PMB fonctionnant sur un modèle de client/serveur, vous n'avez pas
+  <para lang='fr'>PMB fonctionnant sur un modèle de client/serveur, vous n'avez pas
   forcément accès au serveur depuis votre console de catalogage et
   d'administration PMB.</para>
 
-  <para>PMB permet de sauvegarder à distance la base dans un fichier sur le
+  <para lang='fr'>PMB permet de sauvegarder à distance la base dans un fichier sur le
   serveur puis de le rapatrier sur votre ordinateur pour le copier sur un CD
   ou sur un stick mémoire USB.</para>
 
-  <para>La sauvegarde dans PMB se fait par jeux de tables, ceci vous permet de
+  <para lang='fr'>La sauvegarde dans PMB se fait par jeux de tables, ceci vous permet de
   ne sauvegarder que les données de votre choix. Ainsi la sauvegarde des prêts
   et du fichier lecteur pourrait être quotidienne, alors que la sauvegarde des
   notices et des exemplaires issus du catalogage pourrait être hebdomadaire,
   mensuelle ou ponctuelle.</para>
 
   <sect1 id="admin_sauv_lieux">
-    <title>Lieux de sauvegarde</title>
+    <title lang='fr'>Lieux de sauvegarde</title>
 
-    <para>Un lieu de sauvegarde est un emplacement informatique sur votre
+    <para lang='fr'>Un lieu de sauvegarde est un emplacement informatique sur votre
     ordinateur ou à distance où le fichier doit être sauvegardé. Le serveur
     doit avoir la possibilité d'écriture directe à cet endroit.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Lieux de sauvegarde</title>
+      <title lang='fr'>Sauvegarde &gt; Lieux de sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -35,9 +35,9 @@
   </sect1>
 
   <sect1 id="admin_sauv_tables">
-    <title>Groupes de tables</title>
+    <title lang='fr'>Groupes de tables</title>
 
-    <para>Il s'agit de la constitution de groupes de tables qui seront
+    <para lang='fr'>Il s'agit de la constitution de groupes de tables qui seront
     sauvegardées simultanément. Vous n'avez pas forcément besoin de
     sauvegarder vos notices quotidiennement (une sauvegarde hebdomadaire ou à
     chaque import/catalogage suffit), mais les prêts étant fréquents vous
@@ -45,7 +45,7 @@
     prêts.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Groupes de tables</title>
+      <title lang='fr'>Sauvegarde &gt; Groupes de tables</title>
 
       <mediaobject>
         <imageobject>
@@ -54,16 +54,16 @@
       </mediaobject>
     </figure>
 
-    <para>Si vous avez chargé les données correspondant au fichier
+    <para lang='fr'>Si vous avez chargé les données correspondant au fichier
     <emphasis>feed_essential.sql</emphasis>, vous disposez d'un jeu de
     sauvegarde opérationnel (pour plus d'informations voir <xref
     linkend="donnees_minimum" />.</para>
 
-    <para>Voici la liste des tables dans les différents groupes chargés avec
+    <para lang='fr'>Voici la liste des tables dans les différents groupes chargés avec
     le jeu de test opérationnel.</para>
 
     <table>
-      <title>Groupes de tables chargés par feed_essential.sql</title>
+      <title lang='fr'>Groupes de tables chargés par feed_essential.sql</title>
 
       <tgroup cols="3">
         <thead>
@@ -164,12 +164,12 @@
       </tgroup>
     </table>
 
-    <para>Pour créer un nouveau jeu de tables, cliquez sur <emphasis>Ajouter
+    <para lang='fr'>Pour créer un nouveau jeu de tables, cliquez sur <emphasis>Ajouter
     un jeu de tables</emphasis>. Puis cochez les différentes tables qui
     correspondent à votre jeu.</para>
 
     <figure>
-      <title>Sauvegarde : édition d'un jeu de tables</title>
+      <title lang='fr'>Sauvegarde : édition d'un jeu de tables</title>
 
       <mediaobject>
         <imageobject>
@@ -180,17 +180,17 @@
   </sect1>
 
   <sect1 id="admin_sauv_gestsauv">
-    <title>Jeux de sauvegardes</title>
+    <title lang='fr'>Jeux de sauvegardes</title>
 
-    <para>Un jeu de sauvegarde constitue un groupe jeu de table/lieu de
+    <para lang='fr'>Un jeu de sauvegarde constitue un groupe jeu de table/lieu de
     sauvegarde.</para>
 
-    <para>Sauvegarder les emprunteurs et les prêts dans
+    <para lang='fr'>Sauvegarder les emprunteurs et les prêts dans
     c:/sauvegardes_pmb/date_du_jour/bibli.sav est par exemple un jeu
     valide.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Jeux de sauvegarde</title>
+      <title lang='fr'>Sauvegarde &gt; Jeux de sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -200,7 +200,7 @@
     </figure>
 
     <figure>
-      <title>Sauvegarde &gt; Jeux de sauvegarde, édition d'un jeu de
+      <title lang='fr'>Sauvegarde &gt; Jeux de sauvegarde, édition d'un jeu de
       sauvegarde</title>
 
       <mediaobject>
@@ -212,14 +212,14 @@
   </sect1>
 
   <sect1 id="admin_sauv_launch">
-    <title>Lancement sauvegarde</title>
+    <title lang='fr'>Lancement sauvegarde</title>
 
-    <para>Quand un jeu de sauvegarde est constitué, il n'y a plus qu'à lancer
+    <para lang='fr'>Quand un jeu de sauvegarde est constitué, il n'y a plus qu'à lancer
     la sauvegarde. Vous pouvez ici tester le bon fonctionnement de vos
     paramètres.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Lancement sauvegarde</title>
+      <title lang='fr'>Sauvegarde &gt; Lancement sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -228,12 +228,12 @@
       </mediaobject>
     </figure>
 
-    <para>Il s'agit en fait de la même fenêtre qui apparaît dans un popup,
+    <para lang='fr'>Il s'agit en fait de la même fenêtre qui apparaît dans un popup,
     lors du clic d'un utilisateur sur le lien "sauv." à coté du lien "quitter"
     en haut à droit de l'écran de PMB.</para>
 
     <figure>
-      <title>Popup de sauvegarde</title>
+      <title lang='fr'>Popup de sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -244,15 +244,15 @@
   </sect1>
 
   <sect1 id="admin_sauv_list">
-    <title>Sauvegardes faites</title>
+    <title lang='fr'>Sauvegardes faites</title>
 
-    <para>Depuis cet écran vous pouvez consulter les sauvegardes qui ont été
+    <para lang='fr'>Depuis cet écran vous pouvez consulter les sauvegardes qui ont été
     réalisées, afficher le cas échéant les erreurs rencontrées lors de la
     sauvegarde, rapatrier les données ou supprimer les sauvegardes de votre
     choix (par exemple les plus anciennes).</para>
 
     <figure>
-      <title>Sauvegarde &gt; Sauvegardes faites</title>
+      <title lang='fr'>Sauvegarde &gt; Sauvegardes faites</title>
 
       <mediaobject>
         <imageobject>
@@ -263,19 +263,19 @@
   </sect1>
 
   <sect1>
-    <title>Restaurer une sauvegarde faite sur une autre installation de
+    <title lang='fr'>Restaurer une sauvegarde faite sur une autre installation de
     PMB</title>
 
-    <para>PMB dispose d'un module caché de restauration de sauvegardes
+    <para lang='fr'>PMB dispose d'un module caché de restauration de sauvegardes
     :</para>
 
-    <para><programlisting>http://MACHINE/PMB/admin/sauvegarde/emergency/emergency.php</programlisting></para>
+    <para lang='fr'><programlisting>http://MACHINE/PMB/admin/sauvegarde/emergency/emergency.php</programlisting></para>
 
-    <para>Ceci va demander d'uploader le fichier (attention au max_upload_size
+    <para lang='fr'>Ceci va demander d'uploader le fichier (attention au max_upload_size
     de php.ini) et hop !</para>
 
     <figure>
-      <title>Module de restauration d'urgence</title>
+      <title lang='fr'>Module de restauration d'urgence</title>
 
       <mediaobject>
         <imageobject>
@@ -284,7 +284,7 @@
       </mediaobject>
     </figure>
 
-    <para>Vous aurez besoin du mot de passe de la base de données (par défaut
+    <para lang='fr'>Vous aurez besoin du mot de passe de la base de données (par défaut
     bibli/bibli)</para>
   </sect1>
 </chapter>

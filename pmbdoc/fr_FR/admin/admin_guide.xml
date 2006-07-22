@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY __chap0_introduction SYSTEM "chap0_introduction.xml">
@@ -19,17 +19,17 @@
 <!ENTITY __chap99_postface SYSTEM "chap99_postface.xml">
 ]>
 <book id="admin" lang="fr_FR">
-  <title>PMB : Guide de l'administrateur</title>
+  <title lang='fr'>PMB : Guide de l'administrateur</title>
 
   <bookinfo>
     <date>14 juillet 2005</date>
 
     <abstract>
-      <para>Ce guide détaille les fonctions administrateur de PMB, système
+      <para lang='fr'>Ce guide détaille les fonctions administrateur de PMB, système
       informatisé de gestion de bibliothèques, interface PHP/MySQL libre et
       opensource.</para>
 
-      <para>Pour plus d'informations, consulter <ulink
+      <para lang='fr'>Pour plus d'informations, consulter <ulink
       url="http://www.sigb.net">www.sigb.net</ulink></para>
     </abstract>
 
@@ -43,32 +43,32 @@
     </copyright>
 
     <legalnotice>
-      <para>Ce manuel est la propriété intellectuelle de PMB Services SARL et
+      <para lang='fr'>Ce manuel est la propriété intellectuelle de PMB Services SARL et
       des contributeurs (leurs noms sont mentionnés dans leurs
       contributions).</para>
 
-      <para>Version HTML : diffusion libre autorisée, licence Creative Commons
+      <para lang='fr'>Version HTML : diffusion libre autorisée, licence Creative Commons
       2.0, (Paternité, Pas d'utilisation commerciale). Pour plus
       d'informations, consulter : <ulink
       url="http://creativecommons.org/licenses/by-nc/2.0/fr/">http://creativecommons.org/licenses/by-nc/2.0/fr/</ulink></para>
 
-      <para>Version imprimée, XML et autres formats : diffusion interdite,
+      <para lang='fr'>Version imprimée, XML et autres formats : diffusion interdite,
       modifications autorisées par les développeurs de PMB et les
       contributeurs enregistrés de la documentation (accès au CVS). Pour toute
       question sur les autres versions de la documentation de PMB, vous pouvez
       envoyer un mail à <ulink
       url="mailto:pmb@sigb.net?subject=documentation%20de%20PMB">pmb@sigb.net</ulink></para>
 
-      <para>Textes de couverture :</para>
+      <para lang='fr'>Textes de couverture :</para>
 
-      <para><literal>PMB Services SARL, 2004-2005</literal></para>
+      <para lang='fr'><literal>PMB Services SARL, 2004-2005</literal></para>
 
-      <para><literal>PMB est une solution opensource (licence CECILL
+      <para lang='fr'><literal>PMB est une solution opensource (licence CECILL
       compatible GNU/GPL) pour la médiathèque.</literal></para>
 
-      <para><literal>http://www.sigb.net</literal></para>
+      <para lang='fr'><literal>http://www.sigb.net</literal></para>
 
-      <para><literal>Copyright © 2004 PMB Services SARL</literal></para>
+      <para lang='fr'><literal>Copyright © 2004 PMB Services SARL</literal></para>
     </legalnotice>
 
     <othercredit>
