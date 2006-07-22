@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_quotas">
+  <title lang='fr'>Quotas</title>
+
+  <para lang='fr'>Il existe dans PMB deux gestions possibles des quotas. La gestion
+  avancée des quotas est activée si le paramètre
+  <emphasis>pmb.quotas_avances</emphasis> vaut 1, défini dans
+  <emphasis>Administration</emphasis> &gt; <emphasis>Outils</emphasis> &gt;
+  <emphasis>Paramètres</emphasis>.</para>
+
+  <para lang='fr'>Lorsqu'un quota en circulation est atteint, une alerte prévient le
+  personnel chargé de la circulation des ouvrages et lui offre la possibilité,
+  le cas échéant, de forcer le prêt. Pour plus d'informations consultez le
+  <emphasis>Guide de l'Utilisateur de PMB</emphasis>, chapitre
+  <emphasis>Circulation</emphasis>.</para>
+
+  <sect1>
+    <title lang='fr'>Si la gestion des quotas avancés n'est pas activée</title>
+
+    <para lang='fr'><graphic fileref="images/warning.gif" />Si la gestion des quotas
+    avancés n'est pas activée, vous ne verrez pas "quotas" dans le
+    menu.</para>
+
+    <para lang='fr'>Dans ce cas, seule une durée de prêt et une durée de réservation
+    sont définissables, par type d'ouvrage. Pour plus d'information, voir
+    <xref linkend="admin_expl_typdoc" />.</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Quotas : durée, nombre et types de quotas</title>
+
+    <para lang='fr'>Dans PMB, il existe deux types de quotas, ils correspondent soit à
+    une durée, soit à un nombre d'éléments. Les quotas peuvent être affectés
+    selon plusieurs types.</para>
+
+    <sect2>
+      <title lang='fr'>Durée</title>
+
+      <para lang='fr'>Les quotas liés à la durée fonctionnent tous de manière identique
+      : une valeur par défaut (14 ci dessus) est utilisée si aucune valeur
+      particulière spécifiée n'est applicable.</para>
+
+      <para lang='fr'>Cette valeur est définie dans <emphasis>Paramètres
+      généraux</emphasis> dans le champs<emphasis> Valeur par défaut de XXX si
+      ce n'est pas précisé</emphasis>. Il s'agit d'une durée en jours. PMB
+      gère tous les jours de la semaine de manière identique et ne dispose pas
+      d'un calendrier indiquant les jours d'ouverture de la bibliothèque.
+      Lundi sera donc compté comme un jour, de même que Dimanche.</para>
+
+      <figure>
+        <title lang='fr'>Quotas : valeurs par défaut pour un quota de durée dans
+        PMB</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/quota-defaut-duree.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>Nombre</title>
+
+      <para lang='fr'>Les quotas liés à un nombre fonctionnent tous de manière identique
+      : une valeur par défaut est utilisée si aucune valeur particulière
+      spécifiée n'est applicable.</para>
+
+      <para lang='fr'>Cette valeur est définie dans <emphasis>Paramètres généraux
+      </emphasis>dans le champs<emphasis> Valeur par défaut de XXX si ce n'est
+      pas précisé</emphasis>. Cette valeur désigne un nombre de documents, de
+      périodiques ou de réservation correspondant à un SEUL type de document.
+      Les quotas liés à un nombre possèdent également un champs de seuil
+      maximal. Ce maximum est un quota absolu de simultanéité de documents, de
+      périodiques ou de réservations. Si la valeur par défaut est définie à 5
+      et qu'aucune autre valeur n'est définie, le lecteur a le droit de
+      réserver, d'emprunter en même temps 5 cédéroms et 5 livres. Si le
+      maximum est fixé à 7, il peut prendre au plus 7 ouvrages, parmi lesquels
+      5 cédéroms maximum ou 5 livres maximum.</para>
+
+      <figure>
+        <title lang='fr'>Quotas : valeurs par défaut pour un quota de nombre dans
+        PMB</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/quota_defauts.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>Types de quotas</title>
+
+      <para lang='fr'>Il existe cinq types de quotas par nombre ou par durée :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang='fr'>par Catégories de lecteurs</para>
+
+          <para lang='fr'>Pour chaque catégorie de lecteur un quota peut être spécifié
+          dans la colonne nombre de documents. Pour supprimer un des quotas,
+          effacez la valeur contenue dans la case. Attention, 0 ne signifie
+          pas une absence de quota, mais un quota égal à 0, donc un prêt
+          interdit.</para>
+
+          <para lang='fr'>Vous pouvez autoriser ou non le forçage pour chacune des
+          catégories de lecteurs. Si un quota est atteint par un lecteur d'une
+          catégorie, le bibliothécaire peut dans ce cas autoriser un prêt,
+          c'est à dire forcer le prêt.</para>
+
+          <para lang='fr'><figure>
+              <title lang='fr'>Quotas par catégories de lecteurs</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/quota_categ_lect.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure></para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>par Types d'exemplaires</para>
+
+          <para lang='fr'>Pour chaque type d'exemplaires un quota peut être défini. Le
+          fonctionnement est similaire aux quotas par catégories de lecteurs
+          <figure>
+              <title lang='fr'>Quotas par types d'exemplaires</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/quota_type_exp.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure></para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>par Catégories de lecteurs et par Types d'exemplaires</para>
+
+          <para lang='fr'>Vous pouvez ici croiser catégories de lecteurs et types
+          d'exemplaires pour affiner votre politique de prêt. Les quotas sont
+          affichés sous la forme d'un tableau reprenant pour chaque catégorie
+          de lecteur l'ensemble des types d'exemplaires.<figure>
+              <title lang='fr'>Quotas par catégories de lecteurs et par types
+              d'exemplaires</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/quota_categ_lect_et_type.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure></para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>par Lecteurs individuels</para>
+
+          <para lang='fr'>Même fonctionnement que pour les catégories de lecteurs, mais
+          de façon unique pour chacun des lecteurs de votre
+          bibliothèque.<figure>
+              <title lang='fr'>Quotas par lecteurs individuels</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/quota_lecteurs.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure></para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>par Types d'exemplaires et par Lecteurs individuels</para>
+
+          <para lang='fr'>Même fonctionnement que pour les quotas par Catégories de
+          lecteurs et par Types d'exemplaires, mais de façon unique pour
+          chacun des lecteurs de votre bibliothèque.<figure>
+              <title lang='fr'>Quotas par lecteurs individuels et par types
+              d'exemplaires</title>
+
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/quota_lecteurs_types.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure></para>
+        </listitem>
+      </itemizedlist>
+
+      <para lang='fr'><emphasis role="bold">Exemple</emphasis> En définissant un type de
+      quotas de nombre de documents par Catégories de lecteurs et par Types
+      d'Exemplaires, vous pourrez par exemple définir que les scolaires ont le
+      droit d'emprunter 2 CD audio.</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Les différents quotas</title>
+
+    <sect2>
+      <title lang='fr'>nombre de documents</title>
+
+      <para lang='fr'>Il s'agit ici de la gestion du nombre de documents empruntables
+      simultanément.</para>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>durée d'emprunt</title>
+
+      <para lang='fr'>C'est la gestion avancée de la durée de prêt des ouvrages.</para>
+
+      <para lang='fr'>Il existe cinq types de quotas par durée d'emprunt : par
+      Catégories de lecteurs, par Types d'exemplaires, par Catégories de
+      lecteurs et par Types d'exemplaires, par Lecteurs individuels, enfin par
+      Types d'exemplaires et par Lecteurs individuels</para>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>nombre de réservations</title>
+
+      <para lang='fr'>Ceci désigne la gestion du nombre de documents (hors périodiques)
+      réservables simultanément.</para>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>durée de réservation</title>
+
+      <para lang='fr'>C'est la gestion avancée de la durée de réservation de documents
+      (hors périodiques).</para>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>nombre de réservations des périodiques</title>
+
+      <para lang='fr'>Ceci désigne la gestion du nombre de documents (périodiques
+      uniquement) réservables simultanément.</para>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>durée de réservation des périodiques</title>
+
+      <para lang='fr'>C'est la gestion avancée de la durée de réservation des
+      périodiques.</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>En cas de conflit</title>
+
+    <para lang='fr'>En plus de la définition des valeurs par défaut (voir plus haut
+    Quotas : durée, nombre et types de quotas), les paramètres généraux
+    permettent de choisir les méthodes de résolution de conflits entre les
+    quotas. Puisque vous pouvez définir des quotas par lecteurs individuels
+    mais aussi par catégories, il vous faut choisir quel quota est
+    prioritaire.</para>
+
+    <para lang='fr'>En cas de conflit entre plusieurs quotas, vous pouvez choisir de
+    <emphasis>Prendre le plus grand</emphasis> (politique d'autorisation
+    maximale) de <emphasis>Prendre le plus petit </emphasis>(politique de
+    restriction maximale), de <emphasis>Prendre la valeur par défaut
+    </emphasis>(si deux valeurs sont contradictoires, c'est la valeur par
+    défaut qui servira à résoudre ce conflit), enfin de <emphasis>Regarder
+    dans un ordre précis</emphasis> les différents quotas.</para>
+
+    <para lang='fr'>Si vous retenez cette dernière option, vous pouvez placer à l'aide
+    des menus déroulants vos types de quotas dans l'ordre de leur
+    priorité.</para>
+
+    <figure>
+      <title lang='fr'>Quotas : en cas de conflit</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/quota_conflits.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Vous avez également la possibilité de laisser au personnel chargé du
+    prêt la possibilité de décider en choisissant d'<emphasis>autoriser en
+    règle générale le forçage du prêt</emphasis>.</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Définir un quota</title>
+
+    <para lang='fr'>Prenons un exemple. Dans notre bibliothèque, les enfants peuvent
+    emprunter trois documents parmi lesquels au plus deux livres, deux
+    documents de la BDP, un CD audio, une cassette vidéo. Dans le cadre d'une
+    recherche scolaire, on peut sur demande leur prêter plus de deux documents
+    de la BDP (forcer ce type de prêt et le nombre total de prêts simultanés
+    possibles).</para>
+
+    <procedure>
+      <step>
+        <para lang='fr'>Dans l'onglet <emphasis>Administration</emphasis>, cliquez dans
+        le menu latéral sur <emphasis>Quotas</emphasis></para>
+      </step>
+
+      <step>
+        <para lang='fr'>Cliquez ensuite sur le quota <emphasis>Nombre de
+        documents</emphasis></para>
+      </step>
+
+      <step>
+        <para lang='fr'>Cliquez sur le type de quota par Catégorie de Lecteurs</para>
+      </step>
+
+      <step>
+        <para lang='fr'>Pour la catégorie <emphasis><emphasis
+        role="bold">Enfants</emphasis></emphasis>, spécifiez <emphasis
+        role="bold">2</emphasis> pour nombre de documents, et <emphasis
+        role="bold">décochez</emphasis> <emphasis>Interdire le
+        forçage</emphasis></para>
+      </step>
+
+      <step>
+        <para lang='fr'>Cliquez sur Enregistrer</para>
+      </step>
+
+      <step>
+        <para lang='fr'>Cliquez sur le type de quota <emphasis>par Catégorie de Lecteurs
+        et par Types d'Exemplaires</emphasis>.</para>
+      </step>
+
+      <step>
+        <para lang='fr'>Pour la catégorie <emphasis><emphasis
+        role="bold">Enfants</emphasis></emphasis>, spécifiez <emphasis
+        role="bold">2</emphasis> pour le nombre de documents
+        <emphasis>Livre</emphasis>, et <emphasis
+        role="bold">décochez</emphasis> <emphasis>Interdire le
+        forçage</emphasis></para>
+      </step>
+
+      <step>
+        <para lang='fr'>Toujours pour la catégorie <emphasis><emphasis
+        role="bold">Enfants</emphasis></emphasis>, spécifiez <emphasis
+        role="bold">2</emphasis> pour le nombre de documents <emphasis>Doc de
+        la BDP</emphasis>, et <emphasis role="bold">cochez</emphasis>
+        <emphasis>Interdire le forçage</emphasis></para>
+      </step>
+
+      <step>
+        <para lang='fr'>Toujours pour la catégorie <emphasis><emphasis
+        role="bold">Enfants</emphasis></emphasis>, spécifier <emphasis
+        role="bold">1</emphasis> pour le nombre de documents <emphasis>CD
+        Audio</emphasis> et <emphasis role="bold">1</emphasis> pour le nombre
+        de documents <emphasis>Cassette vidéo</emphasis>, et <emphasis
+        role="bold">cochez</emphasis> <emphasis>Interdire le
+        forçage</emphasis></para>
+      </step>
+
+      <step>
+        <para lang='fr'>Cliquez sur Enregistrer</para>
+
+        <para lang='fr'>Vos quotas sont définis. Vous pouvez ensuite personnaliser les
+        paramètres généraux selon vos besoins.</para>
+      </step>
+    </procedure>
+  </sect1>
+</chapter>

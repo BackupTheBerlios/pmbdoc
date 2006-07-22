@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_convert">
+  <title lang='fr'>Conversions/export</title>
+
+  <para lang='fr'>Les conversions vous permettent de transformer un fichier
+  bibliographique d'un format dans un autre. L'export permet d'exporter, comme
+  son nom l'indique, les données de tout ou partie de la base de donnée de
+  PMB.</para>
+
+  <figure>
+    <title lang='fr'>Conversions/export</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/admin_conv_home.gif" />
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect1 id="formats_fichiers">
+    <title lang='fr'>Formats de fichiers</title>
+
+    <para lang='fr'>PMB peut convertir ou exporter depuis et vers différents formats de
+    fichiers.</para>
+
+    <para lang='fr'><emphasis role="bold">marc iso 2709</emphasis> : notices dans un des
+    formats MARC codé selon la norme ISO, ceci comprend les fichiers UNIMARC
+    ISO 2709 mais aussi les fichiers en MARC21, USMARC... Ce format de fichier
+    n'est pas éditable avec un éditeur de texte standard.</para>
+
+    <para lang='fr'><emphasis role="bold">html marc</emphasis> : notices dans un des
+    formats MARC codé en HTML pour être affiché dans un navigateur
+    internet.</para>
+
+    <figure>
+      <title lang='fr'>html marc</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/htmlmarc.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'><emphasis role="bold">pmb xml marc</emphasis> : notices dans un des
+    formats MARC codé en XML selon la DTD PMB, ceci comprend les fichiers
+    UNIMARC en pmb xml mais aussi les fichiers en MARC21, USMARC...</para>
+
+    <figure>
+      <title lang='fr'>pmb xml marc</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/pmbxml.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'><emphasis role="bold">texte</emphasis> : notices dans un format
+    éditable par un éditeur de texte standard.</para>
+
+    <para lang='fr'><emphasis role="bold">Mémo notices BCDI</emphasis> : notices issues
+    d'un export de BCDI.</para>
+
+    <para lang='fr'><emphasis role="bold">rtf</emphasis> : liste de notices au format
+    Rich Text Format. Il s'agit d'une liste des livres et de leurs auteurs.
+    Ceci permet par exemple d'éditer une liste des nouveautés dans le dépôt
+    d'une BDP.</para>
+
+    <figure>
+      <title lang='fr'>rtf</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/rtf.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_convert_import">
+    <title lang='fr'>Conversion de fichiers externes</title>
+
+    <figure>
+      <title lang='fr'>Conversions &gt; Conversion de fichiers externes</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_conv_conv.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>PMB permet des conversions de fichiers bibliographiques.</para>
+
+    <para lang='fr'>Pour choisir un fichier :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='fr'>vous pouvez cliquer sur Parcourir pour choisir un fichier de
+        votre disque. Ce fichier sera ensuite téléchargé sur le serveur.
+        Attention, la taille du fichier qui sera téléchargé vers le serveur
+        peut être limitée selon votre configuration de PHP.</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>vous pouvez également télécharger à l'avance votre fichier sur
+        le serveur. Vous devez alors le placer dans le répertoire <emphasis
+        role="bold">temp</emphasis> de votre serveur et lui donner le nom
+        <emphasis role="bold">convert.fic</emphasis></para>
+      </listitem>
+    </itemizedlist>
+
+    <para lang='fr'>Vous devez ensuite choisir un type de conversion :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='fr'>marc iso 2709 -&gt; html marc</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>marc iso 2709 -&gt; pmb-xml marc</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>marc iso 2709 -&gt; texte marc</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>texte -&gt; unimarc iso 2709</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>texte -&gt; pmb xml unimarc</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>memo notices bcdi -&gt; unimarc iso 2709</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>memo notices bcdi -&gt; pmb xml unimarc</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>pmb xml marc -&gt; marc iso 2709</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>pmb xml marc -&gt; html marc</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>pmb xml marc -&gt; texte marc</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>pmb xml marc -&gt; rtf</para>
+      </listitem>
+    </itemizedlist>
+
+    <para lang='fr'>Pour plus d'informations voir <xref
+    linkend="formats_fichiers" />.</para>
+
+    <para lang='fr'>Une fois lancée la conversion, une barre indique l'avancement du
+    processus de conversion.</para>
+
+    <para lang='fr'>Quand la conversion est achevée, le fichier créé par la conversion
+    est proposé au téléchargement.</para>
+
+    <figure>
+      <title lang='fr'>Conversion réussie</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/conversion_reussie.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_convert_export">
+    <title lang='fr'>Export de la base PMB</title>
+
+    <para lang='fr'>Il s'agit de la fonctionnalité de PMB permettant l'export de ses
+    données, totales ou partielles dans différents formats. L'export au format
+    UNIMARC vous assure la possibilité de pouvoir réutiliser les données de
+    PMB dans un autre programme par la suite.</para>
+
+    <figure>
+      <title lang='fr'>Conversions &gt; Export de la base PMB</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_conv_export.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <procedure>
+      <step>
+        <para lang='fr'>Choisissez un format de fichier. Pour plus d'informations voir
+        <xref linkend="formats_fichiers" />.</para>
+      </step>
+
+      <step>
+        <para lang='fr'>Choisissez ensuite un propriétaire pour les exemplaires qui
+        seront exportés. Ceci permet, pour une bibliothèque municipale par
+        exemple, d'exporter un fichier au format RTF de tous les exemplaires
+        de votre dépôt de la BDP.</para>
+      </step>
+
+      <step>
+        <para lang='fr'>Choisissez ensuite un ou des types de documents correspondants
+        aux exemplaires exportés. Par défaut, aucun type de document n'est
+        sélectionné, pour en sélectionner un cliquez sur un type de document.
+        Pour en sélectionner plusieurs, maintenez la toucher Ctrl du clavier
+        appuyée en cliquant sur différents types de documents.</para>
+      </step>
+
+      <step>
+        <para lang='fr'>Puis, choisissez un ou plusieurs statuts. Pour en sélectionner
+        plusieurs, maintenez la touche Ctrl du clavier appuyé en cliquant sur
+        différents statuts.</para>
+      </step>
+
+      <step>
+        <para lang='fr'>Si vous souhaitez conserver les informations correspondantes à
+        vos exemplaires, par exemple si vous faites un dépôt de votre fond
+        dans un autre site, si vous faites un don suite à un désherbage, vous
+        pouvez conserver les informations des exemplaires.</para>
+      </step>
+    </procedure>
+  </sect1>
+</chapter>

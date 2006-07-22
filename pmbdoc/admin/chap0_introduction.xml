@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title lang='fr'>Introduction</title>
+  <title lang='en'>Introduction</title>
+
+  <para lang='fr'>PMB est une application hautement configurable. Ainsi des paramètres
+  liés aux lecteurs, aux traitements statistiques, au fonctionnement du client
+  Z39.50 peuvent être personnalisés.</para>
+  <para lang='en'>PMB is a highly configurable application. Parameters linked to
+  readers, statistical processes, operations of the Z39.50 client, all can be
+  customized.</para>
+
+  <para lang='fr'>En outre, l'onglet d'administration permet différentes fonctions liées
+  à la base, comme son optimisation par exemple, ou encore au fonctionnement
+  quotidien de PMB, comme la gestion des utilisateurs
+  (bibliothécaires).</para>
+  <para lang='en'>Moreover, the administration tab allows multiple database-related
+  functions, like optimizing the database tables, or routine PMB operations
+  like user management (librarians).</para>
+
+  <para lang='fr'>L'onglet d'administration, outre son importance, possède plus d'écrans
+  que chacun des autres onglets de PMB. Pour cette raison, et pour faciliter
+  la mise à jour des informations présentées ici, nous avons décidé de
+  présenter ce guide à part.</para>
+  <para lang='en'>The administration tab, in addition to its importance, has more
+  screens than any other PMB tab. For this reason, we have decided to
+  introduce this guide separately to facilitate the update of the information
+  presented here.</para>
+
+  <sect1>
+    <title lang='fr'>Références</title>
+    <title lang='en'>Credits</title>
+
+    <para lang='fr'><emphasis role="bold">Auteurs</emphasis></para>
+    <para lang='en'><emphasis role="bold">Authors</emphasis></para>
+
+    <para lang='fr'>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+    <para lang='en'>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+
+    <para lang='fr'><emphasis role="bold">Contributions</emphasis></para>
+    <para lang='en'><emphasis role="bold">Contributions</emphasis></para>
+
+    <para lang='fr'>Equipe de développeurs PMB.</para>
+    <para lang='en'>PMB development team.</para>
+
+    <para lang='fr'>Anciens développeurs de PMB : François Lemarchand, Jesir Vargas,
+    Christophe Bliard, ...</para>
+    <para lang='en'>Former PMB developers: François Lemarchand, Jesir Vargas, Christophe
+    Bliard, ...</para>
+
+    <para lang='fr'>Ce Guide de l'Administrateur correspond à la version 2.1 de
+    PMB</para>
+    <para lang='en'>This administrator's guide corresponds to PMB version 2.2</para>
+
+    <para lang='fr'>Numéro de version en couverture.</para>
+    <para lang='en'>Version number on the cover page.</para>
+
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>A propos de PMB</title>
+    <title lang='en'>About PMB</title>
+
+    <para lang='fr'>PMB est un logiciel libre de gestion de bibliothèques. Pour plus
+    d'informations consulter <ulink
+    url="http://www.sigb.net">http://www.sigb.net</ulink> .</para>
+
+    <para lang='en'>PMB is a free integrated library management software. For more
+    information, refer to <ulink
+    url="http://www.sigb.net">http://www.sigb.net</ulink> .</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Organisation de l'onglet administration</title>
+    <title lang='en'>Organization of the Administration Tab</title>
+
+    <figure>
+      <title lang='fr'>Onglet administration</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title lang='en'>Administration Tab</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>L'onglet administration possède un menu situé à gauche de l'écran,
+    et à l'intérieur de ces différentes sections de menu, une bande de liens
+    est située en haut de l'écran.</para>
+    <para lang='en'>The administration tab has a side menu on the left of the screen,
+    and within each of the various sub-menus there is a links bar located on
+    top of the screen.</para>
+
+    <figure>
+      <title lang='fr'>Bande de liens en haut de l'écran</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/lien_haut.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title lang='en'>Links bar on top of the screen</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/lien_haut.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Voici ci-dessous une capture du menu latéral. Dans ce document, nous
+    suivrons une organisation en chapitres correspondant en partie à chacune
+    des options de ce menu.</para>
+    <para lang='en'>A screen capture of the side menu is represented below. This
+    document is organized in chapters corresponding to some extent to every
+    option of this menu.</para>
+
+    <figure>
+      <title lang='fr'>Menu latéral</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_menu.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title lang='en'>Side Menu</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_menu.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+  </sect1>
+</chapter>
