@@ -37,7 +37,7 @@
   </itemizedlist>
 
   <sect1>
-    <title>Basic notions</title>
+    <title>Basic factors</title>
 
     <para>How the financial management module in PMB functions rests on a
     number of factors of which you need a very good understanding to be able
@@ -71,21 +71,31 @@
     <sect2>
       <title>The Library account</title>
 
-      <para>Similarly the library possesses an account that will enable it to
-      manage in some cases the rebates on the readers accounts. La
-      bibliothèque possède également un compte, qui permettra de gérer dans
-      certains cas les remises accordées sur les comptes lecteurs. This
-      account can never be in credit. It is just a debit account listing
-      rebates. On no account shall it show a surplus. Ce compte ne peut jamais
-      être positif. Il s'agit uniquement d'un compte de débit listant des
-      remises. En aucun il ne pourra être bénéficiaire.</para>
+      <para>Similarly the library owns an account that will enable staff to
+      waive dues payable to the library in certain cases from readers'
+      accounts.</para>
+
+      <para>This account can never be in credit. It is only a debit account
+      listing clearances and cancellations of dues. In no circumstances shall
+      it show a positive balance.</para>
     </sect2>
   </sect1>
 
   <sect1>
     <title>Managing membership</title>
 
-    <para></para>
+    <para>Click on <emphasis role="bold">Add membership type</emphasis> to add
+    a new type of membership.</para>
+
+    <para><figure>
+        <title>Membership management, adding a membership</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="???" />
+          </imageobject>
+        </mediaobject>
+      </figure>You can define :</para>
 
     <sect2>
       <title>Adding a membership type</title>
