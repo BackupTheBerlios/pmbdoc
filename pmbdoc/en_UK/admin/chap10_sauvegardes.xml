@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Backup</title>
+  <title lang='en'>Backup</title>
 
-  <para>Because PMB functions on a client/server model, you may not
+  <para lang='en'>Because PMB functions on a client/server model, you may not
   necessarily have access to the server from your PMB cataloguing and
   administration console.</para>
 
-  <para>PMB enables you to make remote backups of the database on your server
+  <para lang='en'>PMB enables you to make remote backups of the database on your server
   and then to repatriate them on your computer for copying on a CD or USB
   storage stick.</para>
 
-  <para>In PMB backups are done by sets of tables, this enables you to backup
+  <para lang='en'>In PMB backups are done by sets of tables, this enables you to backup
   only those data that you choose to keep. Thus backups of loans transactions
   and the readers' file could be effected on a daily basis while the backups
   of catalogue records and copies could be done weekly, monthly or even from
   time to time.</para>
 
   <sect1 id="admin_sauv_lieux">
-    <title>Backup locations</title>
+    <title lang='en'>Backup locations</title>
 
-    <para>A backup location may be situated locally on your computer or on a
+    <para lang='en'>A backup location may be situated locally on your computer or on a
     remotely situated computer for safekeeping of the backup file. The server
     must have read/write privileges on the backup location.</para>
 
     <figure>
-      <title>Backup &gt; Backup location</title>
+      <title lang='en'>Backup &gt; Backup location</title>
 
       <mediaobject>
         <imageobject>
@@ -35,16 +35,16 @@
   </sect1>
 
   <sect1 id="admin_sauv_tables">
-    <title>Groups of tables</title>
+    <title lang='en'>Groups of tables</title>
 
-    <para>It is about the grouping of tables to backup simultaneously. You do
+    <para lang='en'>It is about the grouping of tables to backup simultaneously. You do
     not necessarily have to make a daily backup of your records (a weekly
     backup, or after every import/calatoguing is enough. On the other hand,
     loans being frequent you may need regular backups for borrowers and
     issues.</para>
 
     <figure>
-      <title>Backup &gt; Groups of tables</title>
+      <title lang='en'>Backup &gt; Groups of tables</title>
 
       <mediaobject>
         <imageobject>
@@ -53,16 +53,16 @@
       </mediaobject>
     </figure>
 
-    <para>If you have loaded the data supplied in
+    <para lang='en'>If you have loaded the data supplied in
     <emphasis>feed_essential.sql</emphasis>, you already have at your disposal
     a backup set ready to use (for more information see <xref
     linkend="donnees_minimum" />).</para>
 
-    <para>Here is a list of tables from the various groups pre-loaded with the
+    <para lang='en'>Here is a list of tables from the various groups pre-loaded with the
     test data set.</para>
 
     <table>
-      <title>Groups of tables pre-loaded with feed_essential.sql</title>
+      <title lang='en'>Groups of tables pre-loaded with feed_essential.sql</title>
 
       <tgroup cols="3">
         <thead>
@@ -161,12 +161,12 @@
       </tgroup>
     </table>
 
-    <para>To create a new set of tables, click on <emphasis>Add a set of
+    <para lang='en'>To create a new set of tables, click on <emphasis>Add a set of
     tables</emphasis>. Then tick the various tables corresponding to your
     set.</para>
 
     <figure>
-      <title>Backup : editing a set of tables</title>
+      <title lang='en'>Backup : editing a set of tables</title>
 
       <mediaobject>
         <imageobject>
@@ -177,16 +177,16 @@
   </sect1>
 
   <sect1 id="admin_sauv_gestsauv">
-    <title>Backup sets</title>
+    <title lang='en'>Backup sets</title>
 
-    <para>A backup set is made up of a group of tables and a backup
+    <para lang='en'>A backup set is made up of a group of tables and a backup
     location.</para>
 
-    <para>Backing up borrowers and loans in c:/pmb_backups/date/bibli.sav is
+    <para lang='en'>Backing up borrowers and loans in c:/pmb_backups/date/bibli.sav is
     valid.</para>
 
     <figure>
-      <title>Backup &gt; Backup sets</title>
+      <title lang='en'>Backup &gt; Backup sets</title>
 
       <mediaobject>
         <imageobject>
@@ -196,7 +196,7 @@
     </figure>
 
     <figure>
-      <title>Backup &gt; Backup sets &gt; editing a backup set</title>
+      <title lang='en'>Backup &gt; Backup sets &gt; editing a backup set</title>
 
       <mediaobject>
         <imageobject>
@@ -207,13 +207,13 @@
   </sect1>
 
   <sect1 id="admin_sauv_launch">
-    <title>Start backup</title>
+    <title lang='en'>Start backup</title>
 
-    <para>When a backup set is ready, all you need to do is start the backup.
+    <para lang='en'>When a backup set is ready, all you need to do is start the backup.
     You can test here whether your parameters work.</para>
 
     <figure>
-      <title>Backup &gt; Start backup</title>
+      <title lang='en'>Backup &gt; Start backup</title>
 
       <mediaobject>
         <imageobject>
@@ -222,11 +222,11 @@
       </mediaobject>
     </figure>
 
-    <para>The same window pops-up when a user clicks on the "backup" link near
+    <para lang='en'>The same window pops-up when a user clicks on the "backup" link near
     "Quit" on the top right of the PMB screen.</para>
 
     <figure>
-      <title>Backup pop-up</title>
+      <title lang='en'>Backup pop-up</title>
 
       <mediaobject>
         <imageobject>
@@ -237,14 +237,14 @@
   </sect1>
 
   <sect1 id="admin_sauv_list">
-    <title>Backups done</title>
+    <title lang='en'>Backups done</title>
 
-    <para>On the following screen, you can visualize the various backups made,
+    <para lang='en'>On the following screen, you can visualize the various backups made,
     display errors, if any, encountered during the backup, repatriate the data
     or delete the backups of your choice (for example old ones).</para>
 
     <figure>
-      <title>Backup &gt; Backups made</title>
+      <title lang='en'>Backup &gt; Backups made</title>
 
       <mediaobject>
         <imageobject>
@@ -255,18 +255,18 @@
   </sect1>
 
   <sect1>
-    <title>Restore a backup made on another PMB installation</title>
+    <title lang='en'>Restore a backup made on another PMB installation</title>
 
-    <para>PMB has a hidden module for the restoration of backups in case of
+    <para lang='en'>PMB has a hidden module for the restoration of backups in case of
     emergency :</para>
 
-    <para><programlisting>http://MACHINE/PMB/admin/sauvegarde/emergency/emergency.php</programlisting></para>
+    <para lang='en'><programlisting>http://MACHINE/PMB/admin/sauvegarde/emergency/emergency.php</programlisting></para>
 
-    <para>You will have to upload the file (pay attention to max_upload_size
+    <para lang='en'>You will have to upload the file (pay attention to max_upload_size
     of php.ini).</para>
 
     <figure>
-      <title>Emergency restore module</title>
+      <title lang='en'>Emergency restore module</title>
 
       <mediaobject>
         <imageobject>
@@ -275,7 +275,7 @@
       </mediaobject>
     </figure>
 
-    <para>You will be needing the database username and password (bibli/bibli
+    <para lang='en'>You will be needing the database username and password (bibli/bibli
     by default)</para>
   </sect1>
 </chapter>

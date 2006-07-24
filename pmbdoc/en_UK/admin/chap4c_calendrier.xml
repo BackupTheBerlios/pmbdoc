@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_calendrier">
-  <title>Calendar</title>
+  <title lang='en'>Calendar</title>
 
-  <para>You can choose to use the integrated calendar within PMB to manage the
+  <para lang='en'>You can choose to use the integrated calendar within PMB to manage the
   library's opening days. If the calendar is enabled, the whole arithmetic
   linked with loans (overdues, loan period, ...) will be based on the calendar
   of opening days of the library and not on the 7-day week.</para>
 
-  <para>Important : The calendar will be used for return dates or holds
+  <para lang='en'>Important : The calendar will be used for return dates or holds
   available. The first day of opening following or falling on the expected
   date will be the one retained.</para>
 
   <sect1>
-    <title>If the Calendar is not enabled</title>
+    <title lang='en'>If the Calendar is not enabled</title>
 
-    <para><graphic fileref="images/warning.gif" /></para>
+    <para lang='en'><graphic fileref="images/warning.gif" /></para>
 
-    <para>if the calendar is not enabled, you will not see "calendar" in the
+    <para lang='en'>if the calendar is not enabled, you will not see "calendar" in the
     menu.</para>
 
-    <para>For more details on activating the calendar of opening days, see
+    <para lang='en'>For more details on activating the calendar of opening days, see
     <xref linkend="admin_expl_typdoc" />.</para>
   </sect1>
 
   <sect1>
-    <title>Defining opening days</title>
+    <title lang='en'>Defining opening days</title>
 
     <figure>
-      <title>Figure 8.1. Administration &gt; Calendar &gt;
+      <title lang='en'>Figure 8.1. Administration &gt; Calendar &gt;
       Consultation</title>
 
       <mediaobject>
@@ -37,19 +37,19 @@
       </mediaobject>
     </figure>
 
-    <para>Once parameter use_calendar in general parameters has been set to 1,
+    <para lang='en'>Once parameter use_calendar in general parameters has been set to 1,
     click on the Administration tab to make Calendar appear in the side
     menu.</para>
 
-    <para>In the form, enter the period you wish to modify, for example,
+    <para lang='en'>In the form, enter the period you wish to modify, for example,
     01/09/2006 - 31/08/2006.</para>
 
-    <para>Tick the days affected by your action : for example, monday,
+    <para lang='en'>Tick the days affected by your action : for example, monday,
     wednesday, thursday. Click on open to declare these days as the opening
     days of the library.</para>
 
     <figure>
-      <title>Figure 8.2. Administration &gt; Calendar &gt;
+      <title lang='en'>Figure 8.2. Administration &gt; Calendar &gt;
       Consultation</title>
 
       <mediaobject>
@@ -59,25 +59,25 @@
       </mediaobject>
     </figure>
 
-    <para>To close for Christmas : enter the period you wish to modify :
+    <para lang='en'>To close for Christmas : enter the period you wish to modify :
     20/12/2006 - 05/01/2007. Tick the days affected by your action monday,
     wednesday, thursday then click on Close.</para>
 
-    <para>To modify a day manually, simply click on the number of the day, it
+    <para lang='en'>To modify a day manually, simply click on the number of the day, it
     will turn from green to "not green" and vice-versa.</para>
 
-    <para>To move from one year to another, use the green arrows under the
+    <para lang='en'>To move from one year to another, use the green arrows under the
     form.</para>
 
-    <para>Reminder : The calendar will be used to calculate return dates or
+    <para lang='en'>Reminder : The calendar will be used to calculate return dates or
     holds available. The first day of opening following or falling on the
     expected date will be the one retained.</para>
 
-    <para>Example : the return date of an item falls during Christmas
+    <para lang='en'>Example : the return date of an item falls during Christmas
     holidays, the return date is therefore automatically reset at 06/01/2007
     (or failing opening on that day on the next opening day).</para>
 
-    <para>Note : you have to write a note linked with your action : "Great,
+    <para lang='en'>Note : you have to write a note linked with your action : "Great,
     it's Christmas" or "Closed exceptionally". To edit a note for a particular
     day, click on the month, a form showing all the days of the month is
     displayed along with the corresponding notes.</para>

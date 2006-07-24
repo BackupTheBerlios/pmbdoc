@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_users">
-  <title>Users</title>
+  <title lang='en'>Users</title>
 
-  <para>In PMB, the <emphasis>user</emphasis> denomination refers to the
-  application users and not the library users, that is readers or borrowers. A
-  user is for example : a library assistant at the issue counter, a librarian,
-  a software administrator, ...</para>
+  <para lang='en'>In PMB, the <emphasis>user</emphasis> denomination refers to the
+  application users and not the library users, that is readers or borrowers.
+  An user is for example : a library assistant at the issue counter, a
+  librarian, a software administrator, ...</para>
 
   <sect1>
-    <title>Managing users</title>
+    <title lang='en'>Managing users</title>
 
-    <para>The PMB users managment section will allow you to create users
-    profiles. For each user account, a username and a password is created. PMB
-    needs at least an administrator account (Super User). This account can't
-    be erased from within PMB.</para>
+    <para lang='en'>The PMB users managment section will allow you to create users profiles.
+    For each user account, a username and a password is created. PMB needs at
+    least on administrator account (superuser). This account can't be reased
+    from within PMB.</para>
 
-    <para>If you have uploaded the operational test data set of PMB, you have
+    <para lang='en'>If you have uploaded the operationnal test data set of PMB, you have
     moreover three additionnal accounts : librarian (user :
     <emphasis>bib</emphasis>, password : <emphasis>bib</emphasis>),
     cataloguing agent (<emphasis>cat</emphasis> ; <emphasis>cat</emphasis>)
     and lending agent (<emphasis>circ</emphasis>:
     <emphasis>circ</emphasis>)</para>
 
-    <para>Access rights to the various part of the software depends on the
+    <para lang='en'>Access rights to the various part of the software depends on the
     tabs. According to the access right granted (open padlock) of not (closed
     padlock), the corresponding tab will be shown or not. Only one exception
     to this rule : the backup feature is not displayed as a tab.</para>
 
-    <para>You can here change an user and change his password. This last
+    <para lang='en'>You can here change an user and change his password. This last
     feature is usefull when someone moves to another job, or when the password
     is lost. The user may freely change his password witthout asking the
     administrator to do it, by clicking on the user preferences (preferences
     link on the top right of the screen).</para>
 
     <figure>
-      <title>Managing users</title>
+      <title lang='en'>Managing users</title>
 
       <mediaobject>
         <imageobject>
@@ -43,7 +43,7 @@
       </mediaobject>
     </figure>
 
-    <para>The preferences of an user, accessible by clicking on the modify
+    <para lang='en'>The preferences of an user, accessible by clicking on the modify
     button, corresponds to the user preferences accessible from the
     <emphasis>edit your account</emphasis> link next to the
     <emphasis>logout</emphasis> link.</para>

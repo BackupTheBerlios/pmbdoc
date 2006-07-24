@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title id="admin_acquis">Acquisitions</title>
 
-  <para>PMB fonctionnant sur un modèle de client/serveur, vous n'avez pas
+  <para lang='en'>PMB fonctionnant sur un modèle de client/serveur, vous n'avez pas
   forcément accès au serveur depuis votre console de catalogage et
   d'administration PMB.</para>
 
-  <para>PMB permet de sauvegarder à distance la base dans un fichier sur le
+  <para lang='en'>PMB permet de sauvegarder à distance la base dans un fichier sur le
   serveur puis de le rapatrier sur votre ordinateur pour le copier sur un CD
   ou sur un stick mémoire USB.</para>
 
-  <para>La sauvegarde dans PMB se fait par jeux de tables, ceci vous permet de
+  <para lang='en'>La sauvegarde dans PMB se fait par jeux de tables, ceci vous permet de
   ne sauvegarder que les données de votre choix. Ainsi la sauvegarde des prêts
   et du fichier lecteur pourrait être quotidienne, alors que la sauvegarde des
   notices et des exemplaires issus du catalogage pourrait être hebdomadaire,
   mensuelle ou ponctuelle.</para>
 
   <sect1 id="admin_acquis_prerequis">
-    <title>Pré-requis d'utilisation du module d'acquisition</title>
+    <title lang='en'>Pré-requis d'utilisation du module d'acquisition</title>
 
-    <para>Avant de pouvoir réaliser vos commandes dans PMB et éventuellement
+    <para lang='en'>Avant de pouvoir réaliser vos commandes dans PMB et éventuellement
     de suivre votre budget, vous devez définir certains prérequis :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Coordonnées d'au moins un établissement</para>
+        <para lang='en'>Coordonnées d'au moins un établissement</para>
       </listitem>
 
       <listitem>
-        <para>Au moins un exercice comptable actif</para>
+        <para lang='en'>Au moins un exercice comptable actif</para>
       </listitem>
 
       <listitem>
-        <para>Si vous avez rendu l'utilisation obligatoire d'un budget pour
+        <para lang='en'>Si vous avez rendu l'utilisation obligatoire d'un budget pour
         les acquisitions, vous devez avoir un budget défini dont le solde est
         positif. Pour plus d'informations, consulter <xref
         linkend="admin_outils_parametres_acquis" /></para>
@@ -40,7 +40,7 @@
     </itemizedlist>
 
     <figure>
-      <title>Sauvegarde &gt; Lieux de sauvegarde</title>
+      <title lang='en'>Sauvegarde &gt; Lieux de sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -51,107 +51,107 @@
   </sect1>
 
   <sect1 id="admin_acquis_coord">
-    <title>Coordonnées</title>
+    <title lang='en'>Coordonnées</title>
 
-    <para>Pour définir les coordonnées d'un établissement, cliquez sur
+    <para lang='en'>Pour définir les coordonnées d'un établissement, cliquez sur
     <emphasis role="bold">Ajouter les coordonnées d'un
     établissement</emphasis>.</para>
 
-    <para><emphasis>Nom ou raison sociale </emphasis>: définissez le nom ou la
+    <para lang='en'><emphasis>Nom ou raison sociale </emphasis>: définissez le nom ou la
     raison sociale de votre structure.</para>
 
-    <para><emphasis>Adresse de facturation</emphasis> : à compléter. Cette
+    <para lang='en'><emphasis>Adresse de facturation</emphasis> : à compléter. Cette
     adresse sera notamment utilisée pour l'émission des bons de
     commandes.</para>
 
-    <para><emphasis>Adresse de livraison</emphasis> : à compléter. Cette
+    <para lang='en'><emphasis>Adresse de livraison</emphasis> : à compléter. Cette
     adresse sera notamment utilisée pour l'émission des bons de
     commandes.</para>
 
-    <para>Vous pouvez également ajouter une ou des <emphasis>adresses
+    <para lang='en'>Vous pouvez également ajouter une ou des <emphasis>adresses
     supplémentaires</emphasis>.</para>
 
-    <para><emphasis>SIRET, RCS, TVA, NAF </emphasis>: complétez avec les
+    <para lang='en'><emphasis>SIRET, RCS, TVA, NAF </emphasis>: complétez avec les
     informations correspondantes à votre structure.</para>
 
-    <para><emphasis>Site internet</emphasis> : à compléter. L'adresse de votre
+    <para lang='en'><emphasis>Site internet</emphasis> : à compléter. L'adresse de votre
     site web sera notamment mentionnée sur les différents documents
     imprimés.</para>
 
-    <para><emphasis>Nom du fichier du logo</emphasis> : emplacement de l'image
+    <para lang='en'><emphasis>Nom du fichier du logo</emphasis> : emplacement de l'image
     qui sera incluse dans les différents documents imprimés.</para>
 
-    <para><emphasis>Autorisations d'accès</emphasis> : utilisateur autorisés à
+    <para lang='en'><emphasis>Autorisations d'accès</emphasis> : utilisateur autorisés à
     utiliser le module acquisition pour cet établissement.</para>
 
-    <para>Vous pouvez définir plusieurs établissements si vous partagez une
+    <para lang='en'>Vous pouvez définir plusieurs établissements si vous partagez une
     même installation et une même base dans PMB pour différentes
     structures.</para>
   </sect1>
 
   <sect1 id="admin_acquis_exercices">
-    <title>Exercices comptables</title>
+    <title lang='en'>Exercices comptables</title>
 
-    <para>Dans PMB, un exercice comptable est obligatoirement lié à un
+    <para lang='en'>Dans PMB, un exercice comptable est obligatoirement lié à un
     établissement. Vous ne pouvez avoir qu'un exercice comptable actif par
     établissement. </para>
 
-    <para>Pour créer un exercice comptable, vous devez définir </para>
+    <para lang='en'>Pour créer un exercice comptable, vous devez définir </para>
 
     <itemizedlist>
       <listitem>
-        <para>un libellé, par exemple 2006-2007</para>
+        <para lang='en'>un libellé, par exemple 2006-2007</para>
       </listitem>
 
       <listitem>
-        <para>une date de début, au format JJ/MM/AAAA</para>
+        <para lang='en'>une date de début, au format JJ/MM/AAAA</para>
       </listitem>
 
       <listitem>
-        <para>une date de fin</para>
+        <para lang='en'>une date de fin</para>
       </listitem>
     </itemizedlist>
 
-    <para>Vous pouvez également clôturer ou supprimer un exercice actif. Une
+    <para lang='en'>Vous pouvez également clôturer ou supprimer un exercice actif. Une
     fois l'exercice comptable clôturé, vous ne pourrez plus le
     modifier.</para>
   </sect1>
 
   <sect1 id="admin_sauv_tables">
-    <title>Types de produits</title>
+    <title lang='en'>Types de produits</title>
 
-    <para>Vous pouvez définir des types pour les produits dont vous ferez
+    <para lang='en'>Vous pouvez définir des types pour les produits dont vous ferez
     l'acquisition (livres, CD, DVD, ...) et leur affecter un numéro de
     compte.</para>
   </sect1>
 
   <sect1 id="admin_acquis_frais">
-    <title>Frais annexes</title>
+    <title lang='en'>Frais annexes</title>
 
-    <para>Il s'agit des frais annexes qui peuvent s'appliquer à une commande.
+    <para lang='en'>Il s'agit des frais annexes qui peuvent s'appliquer à une commande.
     Vous pouvez par exemple préciser des frais de livraisons forfaitaires.
     </para>
 
-    <para>Pour créer un type de frais annexes, vous devez définir</para>
+    <para lang='en'>Pour créer un type de frais annexes, vous devez définir</para>
 
     <itemizedlist>
       <listitem>
-        <para>un libellé, par exemple Livraison de Mon petit libraire (à
+        <para lang='en'>un libellé, par exemple Livraison de Mon petit libraire (à
         partir de 200€)</para>
       </listitem>
 
       <listitem>
-        <para>des conditions, Si la commande n'atteint pas 200 € TTC, les
+        <para lang='en'>des conditions, Si la commande n'atteint pas 200 € TTC, les
         frais de livraisons sont de 10 € (cette mention n'est pas
         obligatoire)</para>
       </listitem>
 
       <listitem>
-        <para>un montant</para>
+        <para lang='en'>un montant</para>
       </listitem>
 
       <listitem>
-        <para>un numéro de compte pour permettre un rapprochement avec la
+        <para lang='en'>un numéro de compte pour permettre un rapprochement avec la
         comptabilité de votre structure (cette mention n'est pas
         obligatoire)</para>
       </listitem>
@@ -159,94 +159,94 @@
   </sect1>
 
   <sect1 id="admin_acquis_paiements">
-    <title>Modes de paiement</title>
+    <title lang='en'>Modes de paiement</title>
 
-    <para>Vous pouvez définir un moyen de paiement (par exemple, chèque, ou
+    <para lang='en'>Vous pouvez définir un moyen de paiement (par exemple, chèque, ou
     encore virement). Un mode de paiement est défini par un libellé auquel
     vous pouvez attacher des commentaires.</para>
   </sect1>
 
   <sect1 id="admin_acquis_budgets">
-    <title>Budgets</title>
+    <title lang='en'>Budgets</title>
 
-    <para>Si vous avez rendu l'utilisation obligatoire d'un budget pour les
+    <para lang='en'>Si vous avez rendu l'utilisation obligatoire d'un budget pour les
     acquisitions, vous devez avoir un budget défini dont le solde est positif.
     Pour plus d'informations, consulter <xref
     linkend="admin_outils_parametres_acquis" />.</para>
 
-    <para>Un budget est affecté à un seul établissement durant un seul
+    <para lang='en'>Un budget est affecté à un seul établissement durant un seul
     exercice de cet établissement. Pour plus d'informations, consulter plus
     haut <xref linkend="admin_acquis_coord" /> et <xref
     linkend="admin_acquis_exercices" />. </para>
 
-    <para>Pour créer un budget, cliquez sur <emphasis role="bold">Ajouter un
+    <para lang='en'>Pour créer un budget, cliquez sur <emphasis role="bold">Ajouter un
     budget</emphasis>. Si vous avez défini plusieurs établissements, vous
     devrez auparavant choisir à quel établissement est affecté ce
     budget.</para>
 
     <sect2 id="admin_acquis_budgets_creation">
-      <title>Création d'un budget</title>
+      <title lang='en'>Création d'un budget</title>
 
-      <para>Un budget est défini par </para>
+      <para lang='en'>Un budget est défini par </para>
 
       <itemizedlist>
         <listitem>
-          <para>un libellé, par exemple DVD</para>
+          <para lang='en'>un libellé, par exemple DVD</para>
         </listitem>
 
         <listitem>
-          <para>un exercice actif correspondant</para>
+          <para lang='en'>un exercice actif correspondant</para>
         </listitem>
 
         <listitem>
-          <para>une affectation, soit <emphasis>globale</emphasis> soit
+          <para lang='en'>une affectation, soit <emphasis>globale</emphasis> soit
           <emphasis>par rubrique</emphasis>. </para>
 
-          <para>Si l'affectation est par rubriques, le montant total de votre
+          <para lang='en'>Si l'affectation est par rubriques, le montant total de votre
           budget sera calculé à partir du montant de chacune des rubriques qui
           le compose. Le montant de chaque rubrique sera calculé à partir du
           montant de ses sous-rubriques, et ainsi de suite. Le mode de calcul
           est alors pyramidal. </para>
 
-          <para>Si l'affectation est globale, un montant est affecté à
+          <para lang='en'>Si l'affectation est globale, un montant est affecté à
           l'ensemble du budget. Les éventuelles rubriques de votre budget ne
           pourront pas alors avoir de montant défini et serviront simplement à
           détailler l'enveloppe globale.</para>
         </listitem>
 
         <listitem>
-          <para>un statut : un budget est en préparation avant d'être activé,
+          <para lang='en'>un statut : un budget est en préparation avant d'être activé,
           il n'est alors plus modifiable. Le budget peut ensuite être clôturé
           une fois l'exercice achevé.</para>
         </listitem>
       </itemizedlist>
 
-      <para>Cliquez sur Enregistrer pour enregistrer votre budget. Une fois
+      <para lang='en'>Cliquez sur Enregistrer pour enregistrer votre budget. Une fois
       votre budget enregistré, vous pourrez y ajouter des rubriques.</para>
     </sect2>
 
     <sect2 id="admin_acquis_budgets_rubriques">
-      <title>Ajout d'une rubrique à un budget</title>
+      <title lang='en'>Ajout d'une rubrique à un budget</title>
 
-      <para>Vous ne pouvez ajouter de rubriques à un budget que s'il n'est pas
+      <para lang='en'>Vous ne pouvez ajouter de rubriques à un budget que s'il n'est pas
       clôturé. Pour ajouter une rubrique, une fois que celui-ci est
       enregistré, affichez le budget en modification, puis cliquez sur Ajouter
       une rubrique.</para>
 
-      <para>Une rubrique budgétaire est définie par</para>
+      <para lang='en'>Une rubrique budgétaire est définie par</para>
 
       <itemizedlist>
         <listitem>
-          <para>un libellé, par exemple Romans peut être une rubrique du
+          <para lang='en'>un libellé, par exemple Romans peut être une rubrique du
           budget Livres</para>
         </listitem>
 
         <listitem>
-          <para>un montant si le montant du budget est affecté par rubrique.
+          <para lang='en'>un montant si le montant du budget est affecté par rubrique.
           Pour plus d'informations, consulter plus haut <xref
           linkend="admin_acquis_budgets_creation" />. </para>
 
-          <para>Attention, si vous définissez ensuite des sous-rubriques, ce
+          <para lang='en'>Attention, si vous définissez ensuite des sous-rubriques, ce
           sera la somme de leurs montants qui sera retenue comme montant
           global de cette rubrique. Dans le cadre d'un budget affecté par
           rubrique, vous n'avez besoin d'affecter des montants qu'aux plus
@@ -254,35 +254,35 @@
         </listitem>
 
         <listitem>
-          <para>un numéro de compte pour permettre un rapprochement avec la
+          <para lang='en'>un numéro de compte pour permettre un rapprochement avec la
           comptabilité de votre structure (cette mention n'est pas
           obligatoire)</para>
         </listitem>
 
         <listitem>
-          <para>des commentaires éventuels</para>
+          <para lang='en'>des commentaires éventuels</para>
         </listitem>
 
         <listitem>
-          <para>vous pouvez également donner les droits à un ou plusieurs des
+          <para lang='en'>vous pouvez également donner les droits à un ou plusieurs des
           utilisateurs de PMB d'utiliser cette rubrique de votre
           budget.</para>
         </listitem>
       </itemizedlist>
 
-      <para>Une fois la rubrique de votre budget enregistrée, vous pouvez
+      <para lang='en'>Une fois la rubrique de votre budget enregistrée, vous pouvez
       éventuellement lui <emphasis role="bold">ajouter des sous-rubriques
       </emphasis>en cliquant sur le bouton correspondant.</para>
     </sect2>
 
     <sect2>
-      <title>Activation d'un budget, devis, commandes</title>
+      <title lang='en'>Activation d'un budget, devis, commandes</title>
 
-      <para>Une fois votre budget défini, vous pouvez l'<emphasis
+      <para lang='en'>Une fois votre budget défini, vous pouvez l'<emphasis
       role="bold">activer</emphasis> en l'affichant en modification. Une fois
       le budget activé, vous pouvez l'utiliser dans des commandes.</para>
 
-      <para>Pour réaliser des commandes, préparer des devis, vous devez
+      <para lang='en'>Pour réaliser des commandes, préparer des devis, vous devez
       utiliser l'onglet <emphasis role="bold">Acquisitions</emphasis>. Pour
       plus d'informations sur le fonctionnement de l'onglet Acquisitions,
       consultez le <emphasis>Guide de l'Utilisateur PMB, chapitre
