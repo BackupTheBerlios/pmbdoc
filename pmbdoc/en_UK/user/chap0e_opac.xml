@@ -76,18 +76,18 @@
 
       <listitem>
         <para>Subject headings are presented in the bottom right area. Other
-        blocks can also be displayed. The OPAC is highly configurable. For
+        blocks can also be displayed. The OPAC is highly customizable. For
         more information, consult the<emphasis> Administrator's Guide
-        ,</emphasis> <emphasis>Utils</emphasis> chapter,
+        ,</emphasis> <emphasis>Tools</emphasis> chapter,
         <emphasis>Parameters</emphasis> section.</para>
       </listitem>
 
       <listitem>
         <para>The left column (which can be deactivated from
-        <emphasis>Administration &gt; Utils &gt; Parameters</emphasis>) offers
+        <emphasis>Administration &gt; Tools &gt; Parameters</emphasis>) offers
         the possibility to identify the barcode of the reader and the address
         of your library. The library's addresss is parameterisable
-        in<emphasis> Administration</emphasis> &gt; <emphasis>Utils</emphasis>
+        in<emphasis> Administration</emphasis> &gt; <emphasis>Tools</emphasis>
         &gt; <emphasis>Parameters</emphasis> (For more information consult the
         PMB Administrator's Guide, Utils chapter).</para>
       </listitem>
@@ -98,35 +98,36 @@
     <title>Key word search</title>
 
     <para>If you enter a term in the "Search" textbox, the OPAC will display
-    the results of your search. You can further refine your search by ticking
-    or unticking the boxes which correspond to the elements which were queried
-    : title, author, collection...</para>
+    the results of your search. You can further refine your search by checking
+    or unchecking the boxes which correspond to the elements queried : title,
+    author, series...</para>
 
-    <para><emphasis role="bold">New</emphasis> : since version 1.3, the PMB
-    OPAC stores throughout the duration of your session (from the start of
-    your connection, that is to say the first OPAC window that you opened) the
-    searches you have undertaken.</para>
+    <para><emphasis role="bold">New</emphasis> : Starting with version 1.3,
+    the PMB OPAC stores all your searches made throughout the duration of your
+    session (from the start of your connection, that is to say, the first OPAC
+    window opened by you).</para>
   </sect1>
 
   <sect1 id="useropac_categs">
-    <title>Browsing the categories</title>
+    <title>Browsing the subject index</title>
 
-    <para>Concieved to allow a facilitated exploration of the resources, the
-    categories correspond to a heirarchical thesaurus whch must be entered
-    into PMB to be used.</para>
+    <para>Conceived to facilitate the exploration of resources, the subject
+    index corresponds to a thesaurus with a hierarchical structure ready to be
+    loaded (by you) with subject terms to be usable in PMB.</para>
   </sect1>
 
   <sect1 id="useropac_lecteur">
-    <title>Acces to the reader's account from the OPAC</title>
+    <title>Accessing readers' accounts from the OPAC</title>
 
     <para>Readers registered in the management interface can access their
-    account from the OPAC. That need for this their reader's bar code, which
-    is found on their library card, as well as their password.</para>
+    account from the OPAC. For that, they need their reader's barcode (or
+    identifier), printed on their library card, and their password as
+    well.</para>
 
     <para><emphasis role="bold">Note</emphasis> : by default this password is
-    identical to the reader's bar code. It can be changed in the management
-    interface, or at any time by the reader through accessing their account in
-    the OPAC.</para>
+    identical to the reader's barcode. It can be changed in the management
+    interface, or at any time by the reader by accessing his account in the
+    OPAC.</para>
 
     <figure>
       <title>OPAC reader file</title>
