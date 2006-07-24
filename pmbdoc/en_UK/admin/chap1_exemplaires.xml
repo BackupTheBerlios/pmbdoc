@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_expl">
-  <title>Copies</title>
+  <title lang='en'>Copies</title>
 
-  <para><emphasis>Administration</emphasis> &gt; <emphasis>Copies</emphasis>
+  <para lang='en'><emphasis>Administration</emphasis> &gt; <emphasis>Copies</emphasis>
   allows you to customize the cataloguing of copies of works in your library.
   You can customize media type, statistical code, section, status, location,
   owner, and finally add customizable fields to your copies.</para>
 
   <sect1 id="admin_expl_typdoc">
-    <title>Media types</title>
+    <title lang='en'>Media types</title>
 
-    <para><emphasis role="bold">Media types</emphasis> allows configuration of
+    <para lang='en'><emphasis role="bold">Media types</emphasis> allows configuration of
     the various types of documents and for each one of them the loan period in
     days.</para>
 
-    <para><emphasis role="bold">Warning</emphasis>, we are talking here of
+    <para lang='en'><emphasis role="bold">Warning</emphasis>, we are talking here of
     types of documents that will be displayed for the copy and not for the
     bibliographical record. They are defined here to supplement or provide
     details about the type of document defined for the work. In PMB the medium
     type for works is normalized in UNIMARC.</para>
 
-    <para>Type of document is also used to define <emphasis role="">Loan
+    <para lang='en'>Type of document is also used to define <emphasis role="">Loan
     period</emphasis> or <emphasis role="">Duration of hold</emphasis> for an
     item.</para>
 
-    <para><emphasis role="bold">Warning</emphasis> If advanced loans quotas
+    <para lang='en'><emphasis role="bold">Warning</emphasis> If advanced loans quotas
     are enabled (parameter type <emphasis>pmb</emphasis>, sub-type
     <emphasis>advanced-quotas</emphasis> set to 1), the columns Loan period
     and Duration of hold display <emphasis role=""> See quotas</emphasis>. For
     more information, refer to <xref linkend="admin_quotas" /> and <xref
     linkend="admin_outils_parametres" />.</para>
 
-    <para>Both columns <emphasis role="">Coding owners</emphasis> and
+    <para lang='en'>Both columns <emphasis role="">Coding owners</emphasis> and
     <emphasis role="">Import coding</emphasis> correspond to the management of
     data gathered while importing UNIMARC copies, they are used to establish
     the link with the type of document already defined. For more information,
     refer to the chapter <emphasis>Definitions</emphasis>.</para>
 
     <figure>
-      <title>Copies &gt; type of document</title>
+      <title lang='en'>Copies &gt; type of document</title>
 
       <mediaobject>
         <imageobject>
@@ -49,13 +49,13 @@
   </sect1>
 
   <sect1 id="admin_expl_codstat">
-    <title>Statistical codes</title>
+    <title lang='en'>Statistical codes</title>
 
-    <para>The statistical code is used for loan statistics and for the library
+    <para lang='en'>The statistical code is used for loan statistics and for the library
     holdings.</para>
 
     <figure>
-      <title>Copies &gt; Statistical codes</title>
+      <title lang='en'>Copies &gt; Statistical codes</title>
 
       <mediaobject>
         <imageobject>
@@ -64,7 +64,7 @@
       </mediaobject>
     </figure>
 
-    <para>Both columns <emphasis role="">Coding owners</emphasis> and
+    <para lang='en'>Both columns <emphasis role="">Coding owners</emphasis> and
     <emphasis role="">Import coding</emphasis> correspond to the management of
     data gathered while importing UNIMARC copies, they are used to establish
     the link with the type of document already defined. For more information,
@@ -72,17 +72,17 @@
   </sect1>
 
   <sect1 id="admin_expl_section">
-    <title>Sections</title>
+    <title lang='en'>Sections</title>
 
-    <para>Section is the division of the library to which the document belongs
+    <para lang='en'>Section is the division of the library to which the document belongs
     (adult, youth, music ...). This code is taken into account for the
     calculation of statistics, for example.</para>
 
-    <para>Section might also correspond to a geographical area of the library,
+    <para lang='en'>Section might also correspond to a geographical area of the library,
     it can be as large as a room or as small as a shelf.</para>
 
     <figure>
-      <title>Copies &gt; Sections</title>
+      <title lang='en'>Copies &gt; Sections</title>
 
       <mediaobject>
         <imageobject>
@@ -91,7 +91,7 @@
       </mediaobject>
     </figure>
 
-    <para>Both columns <emphasis role="">Coding owners</emphasis> and
+    <para lang='en'>Both columns <emphasis role="">Coding owners</emphasis> and
     <emphasis role="">Import coding</emphasis> correspond to the management of
     data gathered while importing UNIMARC copies, they are used to establish a
     link with a section already defined. See the chapter <xref
@@ -99,13 +99,13 @@
   </sect1>
 
   <sect1 id="admin_expl_statut">
-    <title>Status</title>
+    <title lang='en'>Status</title>
 
-    <para>Status is used to specify whether the document can be loaned or
+    <para lang='en'>Status is used to specify whether the document can be loaned or
     not.</para>
 
     <figure>
-      <title>Copies &gt; Status</title>
+      <title lang='en'>Copies &gt; Status</title>
 
       <mediaobject>
         <imageobject>
@@ -114,11 +114,11 @@
       </mediaobject>
     </figure>
 
-    <para>Status generally deals with a physical state (damaged, good, lost)
+    <para lang='en'>Status generally deals with a physical state (damaged, good, lost)
     or the whereabouts of the book between ordering and loan to readers (on
     order, in acquisition, in cataloguing, in repairs ...).</para>
 
-    <para>Both columns <emphasis role="">Coding owners</emphasis> and
+    <para lang='en'>Both columns <emphasis role="">Coding owners</emphasis> and
     <emphasis role="">Import coding</emphasis> correspond to the management of
     data gathered while importing UNIMARC copies, they are used to establish a
     link with a status already defined. For more information, refer to the
@@ -126,13 +126,13 @@
   </sect1>
 
   <sect1 id="admin_expl_location">
-    <title>Locations</title>
+    <title lang='en'>Locations</title>
 
-    <para>Location can be used to link the document with a specific
+    <para lang='en'>Location can be used to link the document with a specific
     geographical location (example: in reserve).</para>
 
     <figure>
-      <title>Copies &gt; Location</title>
+      <title lang='en'>Copies &gt; Location</title>
 
       <mediaobject>
         <imageobject>
@@ -141,7 +141,7 @@
       </mediaobject>
     </figure>
 
-    <para>This location notion is very important for multi-site libraries. It
+    <para lang='en'>This location notion is very important for multi-site libraries. It
     can also be very useful for specialized documentation centres: research
     laboratory or company where books can be loaned for a rather long period.
     These have been taken off the shelves and have been transferred to the
@@ -153,28 +153,28 @@
     the library without necessitating a loan for a period left
     undetermined.</para>
 
-    <para>Both columns <emphasis role="">Coding owners</emphasis> and
+    <para lang='en'>Both columns <emphasis role="">Coding owners</emphasis> and
     <emphasis role="">Import coding</emphasis> correspond to the management of
     data gathered while importing UNIMARC copies, they are used to establish a
     link with the type of document already defined. For more information,
     refer to the chapter <emphasis>Definitions</emphasis>.</para>
 
-    <para>You can define different parameters for each location. For example,
+    <para lang='en'>You can define different parameters for each location. For example,
     these parameters can be used for overdue letters or the library address.
     Each time the library address is required, PMB looks for the corresponding
     value in location.</para>
   </sect1>
 
   <sect1 id="admin_expl_lenders">
-    <title>Owners</title>
+    <title lang='en'>Owners</title>
 
-    <para>You will find here the list of owners of copies managed in the
+    <para lang='en'>You will find here the list of owners of copies managed in the
     catalogue. You can mention here the collection made available to you by
     your Departmental Lending Library, a collection bequeathed to the library,
     a donation that you wish to identify ...</para>
 
     <figure>
-      <title>Copies &gt; owners</title>
+      <title lang='en'>Copies &gt; owners</title>
 
       <mediaobject>
         <imageobject>
@@ -185,14 +185,14 @@
   </sect1>
 
   <sect1 id="admin_expl_perso">
-    <title>Customizable data</title>
+    <title lang='en'>Customizable data</title>
 
-    <para>These correspond to your own library information regarding copies.
+    <para lang='en'>These correspond to your own library information regarding copies.
     It allows you to specify your management data: source of donation or
     financing for the acquisition, ...</para>
 
     <figure>
-      <title>Copies &gt; Customizable data</title>
+      <title lang='en'>Copies &gt; Customizable data</title>
 
       <mediaobject>
         <imageobject>
@@ -201,19 +201,19 @@
       </mediaobject>
     </figure>
 
-    <para>Example. Let's add a field entitled <emphasis>Type of book
+    <para lang='en'>Example. Let's add a field entitled <emphasis>Type of book
     cover</emphasis> that will enable us to specify the type of binding of a
     book. Bindings can be of 3 types: soft, hardback, paperback. Since not all
     copies correspond to books, we will add another choice: Not
     Applicable.</para>
 
-    <para>Click on <emphasis>New field</emphasis> <graphic
+    <para lang='en'>Click on <emphasis>New field</emphasis> <graphic
     fileref="images/nouveau_champ.gif" /></para>
 
-    <para>The following screen is displayed:</para>
+    <para lang='en'>The following screen is displayed:</para>
 
     <figure>
-      <title>Copies &gt; Customizable data, New field</title>
+      <title lang='en'>Copies &gt; Customizable data, New field</title>
 
       <mediaobject>
         <imageobject>
@@ -222,17 +222,17 @@
       </mediaobject>
     </figure>
 
-    <para>For name of field, enter <emphasis>cover</emphasis> (do not use
+    <para lang='en'>For name of field, enter <emphasis>cover</emphasis> (do not use
     accents, spaces or punctuation marks in the name for a field), for title
     to display, enter <emphasis>cover</emphasis> (you can also use a name with
     spaces but only for display purposes, for example <emphasis>Type of
     cover</emphasis>).</para>
 
-    <para>For type of entry choose <emphasis>List box</emphasis>. Then click
+    <para lang='en'>For type of entry choose <emphasis>List box</emphasis>. Then click
     on <emphasis>Options</emphasis>.</para>
 
     <figure>
-      <title>Options for the List box type</title>
+      <title lang='en'>Options for the List box type</title>
 
       <mediaobject>
         <imageobject>
@@ -241,23 +241,23 @@
       </mediaobject>
     </figure>
 
-    <para>Click on <emphasis>Add</emphasis> 4 times to define 4 different
+    <para lang='en'>Click on <emphasis>Add</emphasis> 4 times to define 4 different
     choices: paperback, soft, hardback, Not Applicable. The stored values in
     the database are paperback, soft, hardback and nocover. You will then
     obtain the result displayed above. Now click on <emphasis>Save</emphasis>
     to close the popup window, and finally on <emphasis>Save</emphasis> to add
     your parameter.</para>
 
-    <para>You can now use your new customized field for any input or
+    <para lang='en'>You can now use your new customized field for any input or
     modification of a copy. For more information on the creation of a copy,
     refer to the <emphasis>PMB User's Guide</emphasis>.</para>
 
-    <para>In Cataloguing &gt; record &gt; new record, after creating a new
+    <para lang='en'>In Cataloguing &gt; record &gt; new record, after creating a new
     record, you can add a copy. You will then see your new customized
     field.</para>
 
     <figure>
-      <title>Editing a copy, the customized field Type of cover has been
+      <title lang='en'>Editing a copy, the customized field Type of cover has been
       added</title>
 
       <mediaobject>
@@ -268,44 +268,44 @@
     </figure>
 
     <sect2>
-      <title>Types of input for customizable fields</title>
+      <title lang='en'>Types of input for customizable fields</title>
 
-      <para>Other types of input exist for a customizable field than the list
+      <para lang='en'>Other types of input exist for a customizable field than the list
       box type.</para>
 
-      <para>There are five types of customizable fields:</para>
+      <para lang='en'>There are five types of customizable fields:</para>
 
       <itemizedlist>
         <listitem>
-          <para>text</para>
+          <para lang='en'>text</para>
         </listitem>
 
         <listitem>
-          <para>list box</para>
+          <para lang='en'>list box</para>
         </listitem>
 
         <listitem>
-          <para>list box from a query</para>
+          <para lang='en'>list box from a query</para>
         </listitem>
 
         <listitem>
-          <para>date selection</para>
+          <para lang='en'>date selection</para>
         </listitem>
 
         <listitem>
-          <para>note zone</para>
+          <para lang='en'>note zone</para>
         </listitem>
       </itemizedlist>
 
-      <para>Each one of these types has 5 different options. Click on
+      <para lang='en'>Each one of these types has 5 different options. Click on
       <emphasis>Options </emphasis>to specify the parameters for these
       fields.</para>
 
       <sect3>
-        <title>Text type</title>
+        <title lang='en'>Text type</title>
 
         <figure>
-          <title>Options for the text type</title>
+          <title lang='en'>Options for the text type</title>
 
           <mediaobject>
             <imageobject>
@@ -314,22 +314,22 @@
           </mediaobject>
         </figure>
 
-        <para>For a text type you can specify its screen size. You can also
+        <para lang='en'>For a text type you can specify its screen size. You can also
         specify the maximum number of letters to enter (if larger that the
         specified size on screen, you will still be able to enter even when
         you reach the end of the input box).</para>
       </sect3>
 
       <sect3>
-        <title>List box type</title>
+        <title lang='en'>List box type</title>
 
-        <para><emphasis role="bold">Warning</emphasis> you cannot create
+        <para lang='en'><emphasis role="bold">Warning</emphasis> you cannot create
         options for the choices until the field has been recorded. From the
         screen add a parameter, record the customizable field. Then click on
         its name to modify it and specify options.</para>
 
         <figure>
-          <title>Options for the List box type</title>
+          <title lang='en'>Options for the List box type</title>
 
           <mediaobject>
             <imageobject>
@@ -338,22 +338,22 @@
           </mediaobject>
         </figure>
 
-        <para>For a list box you can specify:</para>
+        <para lang='en'>For a list box you can specify:</para>
 
         <itemizedlist>
           <listitem>
-            <para>if it is a multiple choice list (to select multiple choices
+            <para lang='en'>if it is a multiple choice list (to select multiple choices
             in a list with your internet browser, you need to click on the
             choices while holding down the control key.)</para>
           </listitem>
 
           <listitem>
-            <para>the default value. When no choice is made, this is the value
+            <para lang='en'>the default value. When no choice is made, this is the value
             that will be displayed.</para>
           </listitem>
 
           <listitem>
-            <para>a list of options, This list includes a <emphasis
+            <para lang='en'>a list of options, This list includes a <emphasis
             role="bold">label</emphasis>: the text that will be displayed on
             screen; a <emphasis role="bold">value</emphasis>: the value that
             will be stored in PMB (accents, spaces, punctuation marks ... are
@@ -362,29 +362,29 @@
           </listitem>
         </itemizedlist>
 
-        <para>With the action buttons you can:</para>
+        <para lang='en'>With the action buttons you can:</para>
 
         <itemizedlist>
           <listitem>
-            <para>add an extra choice to the list</para>
+            <para lang='en'>add an extra choice to the list</para>
           </listitem>
 
           <listitem>
-            <para>delete the choices you have made on the checkbox at the
+            <para lang='en'>delete the choices you have made on the checkbox at the
             beginning of each corresponding line</para>
           </listitem>
 
           <listitem>
-            <para>record your changes</para>
+            <para lang='en'>record your changes</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title>List box from a query type</title>
+        <title lang='en'>List box from a query type</title>
 
         <figure>
-          <title>Options for a List box from a query type</title>
+          <title lang='en'>Options for a List box from a query type</title>
 
           <mediaobject>
             <imageobject>
@@ -393,45 +393,45 @@
           </mediaobject>
         </figure>
 
-        <para>For a List box from a query you can specify:</para>
+        <para lang='en'>For a List box from a query you can specify:</para>
 
         <itemizedlist>
           <listitem>
-            <para>if it is a multiple choice list (to select multiple choices
+            <para lang='en'>if it is a multiple choice list (to select multiple choices
             in a list with you internet browser, you need to click on the
             choices while holding down the control key.)</para>
           </listitem>
 
           <listitem>
-            <para>the default value. When no choice is made, this is the value
+            <para lang='en'>the default value. When no choice is made, this is the value
             that will be displayed</para>
           </listitem>
 
           <listitem>
-            <para>a query that will display the options list.</para>
+            <para lang='en'>a query that will display the options list.</para>
           </listitem>
         </itemizedlist>
 
-        <para>With the action buttons you can:</para>
+        <para lang='en'>With the action buttons you can:</para>
 
         <itemizedlist>
           <listitem>
-            <para>test your query. When you click on the button, the choices
+            <para lang='en'>test your query. When you click on the button, the choices
             returned by the query are displayed below the button. This will
             enable you to check the validity of your query.</para>
           </listitem>
 
           <listitem>
-            <para>record your changes</para>
+            <para lang='en'>record your changes</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title>Date type</title>
+        <title lang='en'>Date type</title>
 
         <figure>
-          <title>Options for the Date type</title>
+          <title lang='en'>Options for the Date type</title>
 
           <mediaobject>
             <imageobject>
@@ -440,16 +440,16 @@
           </mediaobject>
         </figure>
 
-        <para>There are no particular options for customizable fields of date
+        <para lang='en'>There are no particular options for customizable fields of date
         type. Clicking on the Options button will only display the message
         above.</para>
       </sect3>
 
       <sect3>
-        <title>Comment zone type</title>
+        <title lang='en'>Comment zone type</title>
 
         <figure>
-          <title>Options for the Comment zone type</title>
+          <title lang='en'>Options for the Comment zone type</title>
 
           <mediaobject>
             <imageobject>
@@ -458,29 +458,29 @@
           </mediaobject>
         </figure>
 
-        <para>Fields of the type Comment zone work the same way as text
+        <para lang='en'>Fields of the type Comment zone work the same way as text
         fields. In addition, you can specify a number of lines for the comment
         field.</para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title>Data types, visible in OPAC, mandatory</title>
+      <title lang='en'>Data types, visible in OPAC, mandatory</title>
 
-      <para>Five types of data can be stored in the PMB database: text, large
+      <para lang='en'>Five types of data can be stored in the PMB database: text, large
       text, integer, date, decimal number.</para>
 
-      <para><emphasis>Visible in OPAC</emphasis> allows to choose if this
+      <para lang='en'><emphasis>Visible in OPAC</emphasis> allows to choose if this
       field will be visible to readers. In this way you can add fields
       reserved for the library personnel: for example, the name of the person
       who created the record, ...</para>
 
-      <para><emphasis>Mandatory</emphasis> specifies that the field must be
+      <para lang='en'><emphasis>Mandatory</emphasis> specifies that the field must be
       filled in. If the field is not filled in during input or editing of an
       item, an error message is displayed.</para>
 
       <figure>
-        <title>Warning for a blank mandatory field</title>
+        <title lang='en'>Warning for a blank mandatory field</title>
 
         <mediaobject>
           <imageobject>
