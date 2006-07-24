@@ -4,15 +4,16 @@
 <!ENTITY __chap0a_introduction SYSTEM "chap0a_introduction.xml">
 <!ENTITY __chap0b_principes_g SYSTEM "chap0b_principes_generaux.xml">
 <!ENTITY __chap0c_ergonomie SYSTEM "chap0c_ergonomie.xml">
-<!ENTITY __chap0d_opac SYSTEM "chap0d_opac.xml">
-<!ENTITY __chap0e_login SYSTEM "chap0e_login.xml">
-<!ENTITY __chap0f_pref_user SYSTEM "chap0f_pref_user.xml">
+<!ENTITY __chap0e_opac SYSTEM "chap0e_opac.xml">
+<!ENTITY __chap0f_login SYSTEM "chap0f_login.xml">
+<!ENTITY __chap0d_pref_user SYSTEM "chap0d_pref_user.xml">
 <!ENTITY __chap1_circ SYSTEM "chap1_circ.xml">
 <!ENTITY __chap2_catalogue SYSTEM "chap2_catalogue.xml">
 <!ENTITY __chap3_autorites SYSTEM "chap3_autorites.xml">
 <!ENTITY __chap4_editions SYSTEM "chap4_editions.xml">
 <!ENTITY __chap5_dsi SYSTEM "chap5_dsi.xml">
-<!ENTITY __chap5a_administration SYSTEM "chap5a_administration.xml">
+<!ENTITY __chap_acquisitions SYSTEM "chap_acquisitions.xml">
+<!ENTITY __chap5_administration SYSTEM "chap5_administration.xml">
 <!ENTITY __chap6_aidecontextuelle SYSTEM "chap6_aidecontextuelle.xml">
 <!ENTITY __chap7_historique_des_recherches SYSTEM "chap7_historique_des_recherches.xml">
 <!ENTITY __chap9_erreurs SYSTEM "chap9_erreurs.xml">
@@ -82,11 +83,11 @@
 
   &__chap0c_ergonomie;
 
-  &__chap0d_opac;
+  &__chap0e_opac;
 
-  &__chap0e_login;
+  &__chap0f_login;
 
-  &__chap0f_pref_user;
+  &__chap0d_pref_user;
 
   &__chap1_circ;
 
@@ -97,8 +98,10 @@
   &__chap4_editions;
 
   &__chap5_dsi;
+  
+  &__chap_acquisitions;
 
-  &__chap5a_administration;
+  &__chap5_administration;
 
   &__chap6_aidecontextuelle;
 
