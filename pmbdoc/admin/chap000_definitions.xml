@@ -1,102 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="definitions">
-  <title lang='fr'>Quelques définitions</title>
-  <title lang='en'>A few definitions</title>
+  <title lang="fr">Quelques définitions</title>
+
+  <title lang="en">A few definitions</title>
 
   <sect1>
-    <title lang='fr'>Lecteurs et emprunteurs</title>
-    <title lang='en'>Readers and borrowers</title>
+    <title lang="fr">Lecteurs et emprunteurs</title>
 
-    <para lang='fr'>Dans PMB et dans ce guide, le vocabulaire emprunteur recouvre la
-    même définition que le mot lecteur. Aucune distinction n'est faite entre
-    ces deux termes.</para>
-    <para lang='en'>In PMB and in this guide, the word borrower carries the same meaning
-    as the word reader. Both are used interchangeably.</para>
+    <title lang="en">Readers and borrowers</title>
+
+    <para lang="fr">Dans PMB et dans ce guide, le vocabulaire emprunteur
+    recouvre la même définition que le mot lecteur. Aucune distinction n'est
+    faite entre ces deux termes.</para>
+
+    <para lang="en">In PMB and in this guide, the word borrower carries the
+    same meaning as the word reader. Both are used interchangeably.</para>
   </sect1>
 
   <sect1>
-    <title lang='fr'>Douchetter ou saisir au clavier</title>
-    <title lang='en'>Barcode scan or keyboard input</title>
+    <title lang="fr">Douchetter ou saisir au clavier</title>
 
-    <para lang='fr'>PMB a été conçu pour permettre une utilisation avec un lecteur de
-    codes-barres. Communément appelé douchette, le lecteur de codes-barres
-    fonctionne sans configuration particulière. Il est branché sur le port USB
-    de l'ordinateur ou est intercalé entre clavier et ordinateur (port
-    PS/2).</para>
-    <para lang='en'>PMB was conceived to be used with a barcode scanner. Barcode
-    scanners do not require any special setting. It is connected to the
-    computer's USB port or placed between the computer and the keyboard (PS/2
-    port).</para>
+    <title lang="en">Barcode scan or keyboard input</title>
 
-    <para lang='fr'>Douchetter désigne le fait de lire un code barre dans ce Guide de
-    l'Administrateur PMB.</para>
-    <para lang='en'>Scanning means reading a barcode with a scanner in PMB
+    <para lang="fr">PMB a été conçu pour permettre une utilisation avec un
+    lecteur de codes-barres. Communément appelé douchette, le lecteur de
+    codes-barres fonctionne sans configuration particulière. Il est branché
+    sur le port USB de l'ordinateur ou est intercalé entre clavier et
+    ordinateur (port PS/2).</para>
+
+    <para lang="en">PMB was designed to be used with a barcode scanner.
+    Barcode scanners do not require any special setting. It is connected to
+    the computer's USB port or placed between the computer and the keyboard
+    (PS/2 port).</para>
+
+    <para lang="fr">Douchetter désigne le fait de lire un code barre dans ce
+    Guide de l'Administrateur PMB.</para>
+
+    <para lang="en">Scanning means reading a barcode with a scanner in PMB
     Administrator's Guide.</para>
 
-    <para lang='fr'>Nous recommandons à tout utilisateur l'acquisition d'une douchette
-    (environ 150 € pour un modèle USB).</para>
-    <para lang='en'>We recommend the use of a scanner (approximately 150 Euros for a USB
-    model).</para>
+    <para lang="fr">Nous recommandons à tout utilisateur l'acquisition d'une
+    douchette (environ 150 € pour un modèle USB).</para>
 
-    <para lang='fr'>Vous pouvez saisir au clavier le code-barres puis valider par Entrée
-    au lieu d'utiliser la douchette.</para>
-     <para lang='en'>You can also enter the barcode with the keyboard and press Enter
-    instead of using the scanner.</para>
- </sect1>
+    <para lang="en">We recommend the use of a scanner (approximately 150 € for
+    a USB model).</para>
 
-  <sect1>
-    <title lang='fr'>Ouvrages et exemplaires</title>
-    <title lang='en'>Records and copies</title>
+    <para lang="fr">Vous pouvez saisir au clavier le code-barres puis valider
+    par Entrée au lieu d'utiliser la douchette.</para>
 
-    <para lang='fr'>Un livre est décrit dans une notice. Il peut être possédé par une
-    bibliothèque en plusieurs exemplaires, dont certains pourront être exclus
-    du prêt, d'autres prêtables.</para>
-    <para lang='en'>A book is described in a bibliographical record, or simply record. A
-    library can possess many copies of a book, some copies can be excluded
-    from loan, while others can be borrowed.</para>
-
-
-    <para lang='fr'>La notice d'ouvrage correspond donc à une description d'ouvrage que
-    la bibliothèque peut posséder ou non. Les exemplaires de cet ouvrage
-    permettront d'identifier précisément chacune des copies d'un même livre
-    dans une bibliothèque.</para>
-   <para lang='en'>The record represents a description of a work owned or not by the
-    library. Copies or items allow to distinguish precisely between each of
-    the copies of one and same book in a library.</para>
-
-    <para lang='fr'>Pour un livre, on aura donc une notice et un exemplaire dans PMB.
-    Pour deux copies du même livre, on aura alors une notice et deux
-    exemplaires dans PMB.</para>
-    <para lang='en'>For a book, both a record and a copy will be present in PMB. For two
-    copies of one and same book, there will be 1 record and 2 copies in
-    PMB.</para>
+    <para lang="en">You can also enter the barcode with the keyboard and press
+    Enter instead of using the scanner.</para>
   </sect1>
 
   <sect1>
-    <title lang='fr'>Le format bibliographique UNIMARC</title>
-    <title lang='en'>UNIMARC bibliographic format</title>
+    <title lang="fr">Ouvrages et exemplaires</title>
 
-    <para lang='fr'>UNIMARC est un standard d'échange de données
-    bibliographiques.</para>
-    <para lang='en'>UNIMARC is a standard for bibliographic data exchange.</para>
+    <title lang="en">Records and copies</title>
 
-    <para lang='fr'>Une notice UNIMARC est constituée de différents blocs numérotés qui
-    correspondent à des types d'informations. Chacun de ces blocs est
-    constitué de champs et de sous champs. Les champs sont numérotés, les
-    sous-champs sont introduits par le symbole $ suivi d'une lettre.</para>
-    <para lang='en'>A UNIMARC record is composed of various numbered blocks
-    corresponding to various types of data. Each block is made up of fields
-    and sub-fields. Fields are numbered, while sub-fields are preceded by the
-    $ sign followed by a letter.</para>
+    <para lang="fr">Un livre est décrit dans une notice. Il peut être possédé
+    par une bibliothèque en plusieurs exemplaires, dont certains pourront être
+    exclus du prêt, d'autres prêtables.</para>
 
-    <para lang='fr'>Voici un exemple de fichier UNIMARC correspondant à un exemplaire de
-    code barre 5777008954 de :</para>
-    <para lang='en'>Here is an example of a UNIMARC file for a copy with barcode
-    5777008954 of:</para>
+    <para lang="en">A book is described in a bibliographical record, or simply
+    record. A library can possess many copies of a book, some copies can be
+    excluded from loan, while others can be borrowed.</para>
 
-    <address>Les Champignons / Jean C. Keller. - Paris : le Livre de poche, 1983 - 127 p. : ill. ; 17 cm. - (Le Livre de poche&nbsp;; 7847).</address>
+    <para lang="fr">La notice d'ouvrage correspond donc à une description
+    d'ouvrage que la bibliothèque peut posséder ou non. Les exemplaires de cet
+    ouvrage permettront d'identifier précisément chacune des copies d'un même
+    livre dans une bibliothèque.</para>
 
-    <programlisting>*****cam**22002411**450*                       [Données codées]
+    <para lang="en">The record represents a description of a work owned or not
+    by the library. Copies or items allow to distinguish precisely between
+    each of the copies of one and same book in a library.</para>
+
+    <para lang="fr">Pour un livre, on aura donc une notice et un exemplaire
+    dans PMB. Pour deux copies du même livre, on aura alors une notice et deux
+    exemplaires dans PMB.</para>
+
+    <para lang="en">For a book, both a record and a copy will be present in
+    PMB. For two copies of one and same book, there will be 1 record and 2
+    copies in PMB.</para>
+  </sect1>
+
+  <sect1><title lang="fr">Le format bibliographique UNIMARC</title> <title
+  lang="en">UNIMARC bibliographic format</title> <para lang="fr">UNIMARC est
+  un standard d'échange de données bibliographiques.</para> <para
+  lang="en">UNIMARC is a standard for bibliographic data exchange.</para>
+  <para lang="fr">Une notice UNIMARC est constituée de différents blocs
+  numérotés qui correspondent à des types d'informations. Chacun de ces blocs
+  est constitué de champs et de sous champs. Les champs sont numérotés, les
+  sous-champs sont introduits par le symbole $ suivi d'une lettre.</para>
+  <para lang="en">A UNIMARC record is composed of various numbered blocks
+  corresponding to various types of data. Each block is made up of fields and
+  sub-fields. Fields are numbered, while sub-fields are preceded by the $ sign
+  followed by a letter.</para> <para lang="fr">Voici un exemple de fichier
+  UNIMARC correspondant à un exemplaire de code barre 5777008954 de :</para>
+  <para lang="en">Here is an example of a UNIMARC file for a copy with barcode
+  5777008954 of:</para> <address>Les Champignons / Jean C. Keller. - Paris : le Livre de poche, 1983 - 127 p. : ill. ; 17 cm. - (Le Livre de poche&nbsp;; 7847).</address>
+  <programlisting>*****cam**22002411**450*                       [Données codées]
 010 ** $a 2-253-03268-9 $b Br. $d 24 F         [ISBN, reliure, prix]
 100 ** $a 19840104d1983****m**y0frey0103****ba [Données codées]
 101 ** $a fre                                  [Code de langue et numéros]
@@ -111,93 +113,101 @@
 676 ** $a 589.2                                [Indice Dewey]
 700 1* $a Keller $b Jean                       [Vedette auteur principal]
 995 ** $f 5777008954 $k 589.2 KEL
-</programlisting>
-<para lang='fr'>(1) les * correspondent à des blancs ou à des positions non renseignées</para>
-<para lang='fr'>(2) les mentions entre crochets [] ne figurent pas dans le fichier UNIMARC </para>
-et sont ici mentionnées pour aider la lecture
-<para lang='en'>(1) the * represent blanks or non filled positions </para>
-<para lang='en'>(2) the words in brackets [] are not part of a UNIMARC file and are mentioned here to help understand</para>
-	 
+</programlisting> <para lang="fr">(1) les * correspondent à des blancs ou à
+  des positions non renseignées</para> <para lang="fr">(2) les mentions entre
+  crochets [] ne figurent pas dans le fichier UNIMARC </para> et sont ici
+  mentionnées pour aider la lecture <para lang="en">(1) the * represent blanks
+  or non filled positions </para> <para lang="en">(2) the words in brackets []
+  are not part of a UNIMARC file but are mentioned here to help
+  understand</para> <para lang="fr">Pour plus d'informations sur le format
+  UNIMARC, consultez l'excellent dossier <ulink
+  url="http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/">http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/</ulink>
+  ou faire une recherche portant sur UNIMARC sur Google.</para> <para
+  lang="en">For more information on the UNIMARC format, refer to this
+  excellent link <ulink
+  url="http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/">http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/</ulink>
+  or perform a Google search on UNIMARC.</para> <para lang="fr">PMB peut
+  importer et exporter des données au format UNIMARC.</para> <para
+  lang="en">PMB can import and export data with a UNIMARC
+  format.</para></sect1>
 
-    <para lang='fr'>Pour plus d'informations sur le format UNIMARC, consultez
-    l'excellent dossier <ulink
-    url="http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/">http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/</ulink>
-    ou faire une recherche portant sur UNIMARC sur Google.</para>
-    <para lang='en'>For more information on the UNIMARC format, refer to this excellent
-    link <ulink
-    url="http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/">http://www.cg95.fr/biblio/bdvo/coinbib/iso2709/</ulink>
-    or perform a Google search on UNIMARC.</para>
+  <sect1>
+    <title lang="fr">BDP, recommandation 995</title>
 
-    <para lang='fr'>PMB peut importer et exporter des données au format UNIMARC.</para>
-    <para lang='en'>PMB can import and export data with a UNIMARC format.</para>
+    <title lang="en">BDP, recommendation 995</title>
+
+    <para lang="fr">BDP signifie Bibliothèque Départementale de Prêt. En
+    France, ces bibliothèques ont la plupart de temps un rôle de prêt à des
+    bibliothèques de leur réseau. Ces livres en dépôt sont alors prêtés par
+    les bibliothèques à leurs lecteurs.</para>
+
+    <para lang="en">BDP stands for Bibliothèque Départementale de Prêt
+    [Departmental Lending Library]. In France, these libraries generally
+    function as lending libraries managing interlibrary loans for other
+    libraries within their network. Books deposited are then loaned by these
+    libraries to their readers.</para>
+
+    <para lang="fr">La recommandation 995 a été publiée par l'ABF, l'ADBDP et
+    la FULBI avec le soutien du Ministère de la Culture (Direction du livre et
+    de la lecture). Elle vise à simplifier l'échange de données
+    bibliographiques liées aux exemplaires et situées en zone 995 UNIMARC. PMB
+    respecte la recommandation 995 et permet d'importer des informations de
+    fichier UNIMARC, par exemple pour un dépôt de BDP dans une des
+    bibliothèques de son réseau.</para>
+
+    <para lang="en">Recommendation 995 was published by ABF, ADBDP and FULBI
+    with the full support of the Ministry of Culture [Book and Reading
+    Directorate], (France). Its purpose is to simplify bibliographical data
+    exchange related to book copies in zone 995 UNIMARC. PMB supports
+    recommendation 995 and allows imports of UNIMARC files, for example, for a
+    BDP depot in one of the libraries within its network.</para>
   </sect1>
 
   <sect1>
-    <title lang='fr'>BDP, recommandation 995</title>
-  <title lang='en'>BDP, recommendation 995</title>
+    <title lang="fr">Import d'exemplaires UNIMARC et le Codage
+    d'import</title>
 
-    <para lang='fr'>BDP signifie Bibliothèque Départementale de Prêt. En France, ces
-    bibliothèques ont la plupart de temps un rôle de prêt à des bibliothèques
-    de leur réseau. Ces livres en dépôt sont alors prêtés par les
-    bibliothèques à leurs lecteurs.</para>
-   <para lang='en'>BDP stands for Bibliothèque Départementale de Prêt [Departmental
-    Lending Library]. In France, these libraries generally function as lending
-    libraries managing interlibrary loans for other libraries within their
-    network. Books deposited are then loaned by these libraries to their
-    readers.</para>
+    <title lang="en">UNIMARC Copy Import and Import Coding</title>
 
-    <para lang='fr'>La recommandation 995 a été publiée par l'ABF, l'ADBDP et la FULBI
-    avec le soutien du Ministère de la Culture (Direction du livre et de la
-    lecture). Elle vise à simplifier l'échange de données bibliographiques
-    liées aux exemplaires et situées en zone 995 UNIMARC. PMB respecte la
-    recommandation 995 et permet d'importer des informations de fichier
-    UNIMARC, par exemple pour un dépôt de BDP dans une des bibliothèques de
-    son réseau.</para>
-    <para lang='en'>Recommendation 995 was published by ABF, ADBDP and FULBI with the
-    full support of the Ministry of Culture [Book and Reading Directorate],
-    (France). Its purpose is to simplify bibliographical data exchange related
-    to book copies in zone 995 UNIMARC. PMB supports recommendation 995 and
-    allows imports of UNIMARC files, for example, for a BDP depot in one of
-    the libraries within its network.</para>
-  </sect1>
-
-  <sect1>
-    <title lang='fr'>Import d'exemplaires UNIMARC et le Codage d'import</title>
-    <title lang='en'>UNIMARC Copy Import and Import Coding</title>
-
-    <para lang='fr'>Les informations contenues dans la zone 995 UNIMARC concernent les
-    exemplaires. Cependant ces informations ne correspondent pas à des listes
-    précises de types de document, de codes statistiques, etc... Pour
-    permettre l'import de ces informations, une tentative de mise en relation
-    avec les tables existantes est réalisée. Les codes présents dans le
-    fichier UNIMARC sont alors considérés par PMB comme des codages
+    <para lang="fr">Les informations contenues dans la zone 995 UNIMARC
+    concernent les exemplaires. Cependant ces informations ne correspondent
+    pas à des listes précises de types de document, de codes statistiques,
+    etc... Pour permettre l'import de ces informations, une tentative de mise
+    en relation avec les tables existantes est réalisée. Les codes présents
+    dans le fichier UNIMARC sont alors considérés par PMB comme des codages
     d'import.</para>
-    <para lang='en'>Data in the zone 995 UNIMARC relate to copies. But these data do not
-    correspond to precise lists of document types, statistical codes, etc...
-    To allow these data to be imported, an attempt is made to create a
-    relationship with existing tables. The codes from the UNIMARC file are
-    then processed by PMB as import codes.</para>
 
-    <para lang='fr'>Lors de l'import, ces codages sont ajoutés aux codages préexistants
-    de PMB ; par exemple à la liste des types de documents (visible en
-    Administration &gt; Exemplaires &gt; Types de documents).</para>
-   <para lang='en'>During the import process, these codes are added to the pre-existing
-    codes in PMB, for example, to the list of document types (visible in
-    Administration &gt; Copies &gt; Document types).</para>
+    <para lang="en">Data in the zone 995 UNIMARC relate to copies. But these
+    data do not correspond to precise lists of document types, statistical
+    codes, etc... To allow these data to be imported, an attempt is made to
+    create a relationship with existing tables. The codes from the UNIMARC
+    file are then processed by PMB as import codes.</para>
 
-    <para lang='fr'>Après tout import, il faut alors nettoyer les données contenues en
-    Administration &gt; Exemplaires pour réaliser des recoupements, car
-    l'ajout systématique des codages d'import peut polluer la base.</para>
-    <para lang='en'>After an import, it is necessary to cleanup the data contained in
-    Administration &gt; Copies to allow cross-checking, as adding import codes
-    systematically can pollute the database.</para>
+    <para lang="fr">Lors de l'import, ces codages sont ajoutés aux codages
+    préexistants de PMB ; par exemple à la liste des types de documents
+    (visible en Administration &gt; Exemplaires &gt; Types de
+    documents).</para>
 
-    <para lang='fr'>Vous trouverez dans les différentes listes d'informations
+    <para lang="en">During the import process, these codes are added to the
+    pre-existing codes in PMB, for example, to the list of document types
+    (visible in Administration &gt; Copies &gt; Document types).</para>
+
+    <para lang="fr">Après tout import, il faut alors nettoyer les données
+    contenues en Administration &gt; Exemplaires pour réaliser des
+    recoupements, car l'ajout systématique des codages d'import peut polluer
+    la base.</para>
+
+    <para lang="en">After an import, it is necessary to cleanup the data
+    contained in Administration &gt; Copies to allow cross-checking, as adding
+    import codes systematically can pollute the database.</para>
+
+    <para lang="fr">Vous trouverez dans les différentes listes d'informations
     correspondant aux exemplaires une colonne codage d'import et une colonne
     propriétaire de l'import. Ces colonnes permettent de faire le lien avec
     les informations importées.</para>
-    <para lang='en'>You will find a column for import codes and another one for the
-    import owner in the various information lists for copies. These columns
-    enable you to find the link with imported data.</para>
+
+    <para lang="en">You will find a column for import codes and another one
+    for the import owner in the various information lists for copies. These
+    columns enable you to find the link with imported data.</para>
   </sect1>
 </chapter>
