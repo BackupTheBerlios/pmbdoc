@@ -19,7 +19,7 @@
       <title lang='fr'>toutes notices</title>
 
       <para lang='fr'>La recherche "toutes notices" porte sur l'ensemble des notices de
-      PMB : monographies, notices mère de périodique, notices des
+      PMB : monographies, notices mères de périodique, notices des
       articles.</para>
 
       <para lang='fr'>La recherche "périodiques" ne porte que sur les notices mères de
@@ -259,8 +259,8 @@
             retenu, pour un champ titre vous pouvez choisir entre "contient au
             moins des mots", "contient tous les mots", "commence par", "finit
             par" ou "exactement comme". Ce type de recherche varie selon le
-            champs concerné<figure>
-                <title lang='fr'>Types de recherche pour le champs Titre</title>
+            champ concerné<figure>
+                <title lang='fr'>Types de recherche pour le champ Titre</title>
 
                 <mediaobject>
                   <imageobject>
@@ -448,7 +448,7 @@
             <listitem>
               <para lang='fr'><programlisting>poésie + (française romantique)</programlisting></para>
 
-              <para lang='fr'>signifie dans tous les éléments qui contiennent francaise
+              <para lang='fr'>signifie dans tous les éléments qui contiennent française
               ou romantique, uniquement ceux qui contiennent poésie.</para>
             </listitem>
 
@@ -718,7 +718,7 @@
             <para lang='fr'>Enfin, vous pouvez définir un titre de série. Un titre de
             série est un titre commun à différents ouvrages d'un même auteur.
             Par exemple <emphasis>Les aventures de Tintin</emphasis> de
-            <emphasis>Hergé</emphasis>. Le champs "Partie de" est différent
+            <emphasis>Hergé</emphasis>. Le champ "Partie de" est différent
             des champs de titre. Pour spécifier un titre de série, cliquez sur
             le bouton "..."</para>
 
@@ -1212,7 +1212,7 @@
 
           <para lang='fr'>Pour modifier une notice, cliquez sur le bouton Modifier qui
           se trouve sous la notice, au dessus de la liste des exemplaires
-          correspondant.</para>
+          correspondants.</para>
 
           <para lang='fr'>En modification de la notice, vous obtenez un affichage des
           champs de la notice identique à sa création (voir plus haut la
@@ -1541,7 +1541,7 @@
 
           <para lang='fr'><remark><emphasis role="bold">Note</emphasis> PMB peut
           également générer un flux RSS à partir d'un panier ou d'une étagère.
-          Un panier peut lui-même remplit à l'aide de la Diffusion Sélection
+          Un panier peut lui-même être remplit à l'aide de la Diffusion Sélection
           de l'Information (DSI). Pour plus d'informations sur la création de
           flux RSS, consulter <xref linkend="dsi_rss_def" />.</remark></para>
 
@@ -2001,7 +2001,7 @@
     <para lang='fr'>Il y a deux moyens de remplir un panier : soit en y plaçant des
     éléments manuellement (repérer l'icône en forme de panier lors des
     différents affichages), soit en pointant à la douchette ou en saisissant
-    des codes barres à la main.</para>
+    des codes barres manuellement.</para>
 
     <sect2 id="cat_caddie_gestion">
       <title lang='fr'>Gestion</title>
@@ -2046,7 +2046,7 @@
             </mediaobject>
           </figure>
 
-          <para lang='fr'>Vous pouvez éventuellement en supprimer des éléments à l'aide
+          <para lang='fr'>Vous pouvez éventuellement supprimer des éléments à l'aide
           de l'icône supprimer du panier :<graphic
           fileref="images/basket_del.gif" /></para>
 
@@ -2054,7 +2054,7 @@
           exemplaires ou bulletins catalogués dans PMB) :</para>
 
           <figure>
-            <title lang='fr'>Elément du fond</title>
+            <title lang='fr'>Elément du fonds</title>
 
             <mediaobject>
               <imageobject>
@@ -2196,7 +2196,7 @@
         d'utilisation des paniers</emphasis>.</para>
 
         <sect4>
-          <title lang='fr'>Procédures installés par défaut lors de l'installation de
+          <title lang='fr'>Procédures installées par défaut lors de l'installation de
           PM</title>
 
           <para lang='fr'>Si votre administrateur informatique a installé PMB avec les
@@ -2373,7 +2373,7 @@
 
         <para lang='fr'>Les éléments du panier qui ont été pointés sont déclarés comme
         étant<emphasis> Pointé(s)</emphasis>. Le nombre total d'éléments du
-        paniers est rappelé. Les éléments appartenant au fond enregistré dans
+        panier est rappelé. Les éléments appartenant au fonds enregistré dans
         PMB figurent sur la deuxième ligne du tableau récapitulatif en bas de
         page.</para>
       </sect3>
@@ -2587,7 +2587,7 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
         <title lang='fr'>Gérer les inventaires</title>
 
         <para lang='fr'>"Je voudrais me simplifier la vie lors de mes inventaires, j'ai
-        donc pensé à créer un paniers avec tous les exemplaires d'une section.
+        donc pensé à créer un panier avec tous les exemplaires d'une section.
         Je pourrais ainsi pointer les exemplaires physiquement en rayon et
         avec l'action supprimer du panier les éléments pointés retrouver les
         livres qui sont dans la base mais physiquement perdus, volés...
@@ -2768,7 +2768,7 @@ order by section_libelle</programlisting>
         </listitem>
 
         <listitem>
-          <para lang='fr'>Malformed query : le profil z3950 du serveur n'est pas bon.
+          <para lang='fr'>Malformed query : le profil z39.50 du serveur n'est pas bon.
           Vérifier le profil Z39.50 de ce serveur auprès de son
           administrateur</para>
         </listitem>
@@ -2777,7 +2777,7 @@ order by section_libelle</programlisting>
       <para lang='fr'>Les lignes commençant par TERMINE signalent que la recherche a
       abouti. Le nombre de résultats retournés est fourni dans la
       phrase<emphasis> le serveur a retourné X notices sur X
-      trouvée</emphasis>s (limitation aux cent premières notices d'une
+      trouvées</emphasis> (limitation aux cent premières notices d'une
       recherche, si vous obtenez plus de cent résultats, affinez votre
       recherche).</para>
 
@@ -2816,7 +2816,7 @@ order by section_libelle</programlisting>
       la consulter en détail, la modifier le cas échéant et enfin l'intégrer
       au catalogue. Il existe quelques différences par rapport à l'écran
       d'édition habituel d'une notice : les auteurs et éditeurs ont deux
-      champs de saisies correspondant à élément principal (nom) et élément
+      champs de saisie correspondant à élément principal (nom) et élément
       rejeté (prénom). Une fois les éventuelles corrections faites valider par
       le bouton "intégrer la notice".</para>
 
@@ -2849,7 +2849,7 @@ order by section_libelle</programlisting>
 
         <para lang='fr'>Pour les bibliothèques française, le principal intérêt de la
         recherche Z39.50 est la recherche par ISBN depuis la BnF. Pour les
-        ouvrages de votre fond propre, vous pouvez facilement cataloguer les
+        ouvrages de votre fonds propre, vous pouvez facilement cataloguer les
         livres à l'aide de votre douchette et du code barre commercial (EAN)
         de l'ouvrage.</para>
 
@@ -2924,7 +2924,7 @@ order by section_libelle</programlisting>
 
       <para lang='fr'>Pour plus d'informations sur l'ajout d'une suggestion, consulter
       plus loin dans ce <emphasis>Guide de l'utilisateur</emphasis>, le
-      chapitre <emphasis>Acquistions</emphasis> : <xref
+      chapitre <emphasis>Acquisitions</emphasis> : <xref
       linkend="acquis_sugg_create" />.</para>
     </sect2>
   </sect1>

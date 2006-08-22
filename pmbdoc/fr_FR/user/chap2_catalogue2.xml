@@ -19,7 +19,7 @@
       <title lang='fr'>toutes notices</title>
 
       <para lang='fr'>La recherche "toutes notices" porte sur l'ensemble des notices de
-      PMB : monographies, notices mère de périodique, notices des
+      PMB : monographies, notices mères de périodique, notices des
       articles.</para>
 
       <para lang='fr'>La recherche "périodiques" ne porte que sur les notices mères de
@@ -259,8 +259,8 @@
             retenu, pour un champ titre vous pouvez choisir entre "contient au
             moins des mots", "contient tous les mots", "commence par", "finit
             par" ou "exactement comme". Ce type de recherche varie selon le
-            champs concerné<figure>
-                <title lang='fr'>Types de recherche pour le champs Titre</title>
+            champ concerné<figure>
+                <title lang='fr'>Types de recherche pour le champ Titre</title>
 
                 <mediaobject>
                   <imageobject>
@@ -384,7 +384,7 @@
         <sect4>
           <title lang='fr'>Négation</title>
 
-          <para lang='fr'>Le symbole ~ devant un terme représente un négation de ce
+          <para lang='fr'>Le symbole ~ devant un terme représente une négation de ce
           terme. Cela signifie la recherche de tous les éléments ne contenant
           pas ce terme.</para>
 
@@ -552,7 +552,7 @@
 
       <para lang='fr'><emphasis role="bold">Note </emphasis>Les résultats de la
       recherche de périodiques sont uniquement des notices mères ou notices
-      chapeau de périodiques : par exemple géo, SVM, Le Monde ; les articles
+      chapeau de périodiques : par exemple Géo, SVM, Le Monde ; les articles
       comme les différents numéros du périodiques ne sont pas renvoyés par la
       recherche de périodiques mais à l'écran <emphasis>Bulletinage</emphasis>
       voir plus la section 2.3.3 <emphasis>Bulletinage</emphasis>.</para>
@@ -633,7 +633,7 @@
             <title lang='fr'>Choix d'un support de document</title>
 
             <para lang='fr'>Dans la liste déroulante située en haut du formulaire, vous
-            pouvez choisir entre différents types de supports :</para>
+            pouvez choisir entre différents types de support :</para>
 
             <itemizedlist>
               <listitem>
@@ -685,7 +685,7 @@
               </listitem>
 
               <listitem>
-                <para lang='fr'>objet à 3 dimensions, artéfacts, ...</para>
+                <para lang='fr'>objet à 3 dimensions, artefacts, ...</para>
               </listitem>
             </itemizedlist>
 
@@ -718,7 +718,7 @@
             <para lang='fr'>Enfin, vous pouvez définir un titre de série. Un titre de
             série est un titre commun à différents ouvrages d'un même auteur.
             Par exemple <emphasis>Les aventures de Tintin</emphasis> de
-            <emphasis>Hergé</emphasis>. Le champs "Partie de" est différent
+            <emphasis>Hergé</emphasis>. Le champ "Partie de" est différent
             des champs de titre. Pour spécifier un titre de série, cliquez sur
             le bouton "..."</para>
 
@@ -759,7 +759,7 @@
 
             <figure>
               <title lang='fr'>La saisie d'un auteur se fait soit lors du catalogage,
-              soit avec l'onglet "autorités" Le titre de série sélectionné est
+              soit avec l'onglet "autorités". Le titre de série sélectionné est
               affiché</title>
 
               <mediaobject>
@@ -1212,7 +1212,7 @@
 
           <para lang='fr'>Pour modifier une notice, cliquez sur le bouton Modifier qui
           se trouve sous la notice, au dessus de la liste des exemplaires
-          correspondant.</para>
+          correspondants.</para>
 
           <para lang='fr'>En modification de la notice, vous obtenez un affichage des
           champs de la notice identique à sa création (voir plus haut la
@@ -1345,7 +1345,7 @@
             <listitem>
               <para lang='fr'>sélectionnez le <emphasis role="bold">type de document
               </emphasis>parmi les choix du menu déroulant. La liste des types
-              de documents est configurable dans <emphasis>Administration &gt;
+              de document est configurable dans <emphasis>Administration &gt;
               Exemplaires &gt; Types de document</emphasis>.</para>
             </listitem>
 
@@ -1520,7 +1520,7 @@
         <title lang='fr'>Cataloguer des notices particulières</title>
 
         <para lang='fr'>PMB peut vous permettre de cataloguer non seulement des livres
-        et des périodiques, mais aussi vos documents multimédias, sites webs,
+        et des périodiques, mais aussi vos documents multimédias, sites web,
         fil RSS...</para>
 
         <sect4>
@@ -1541,7 +1541,7 @@
 
           <para lang='fr'><remark><emphasis role="bold">Note</emphasis> PMB peut
           également générer un flux RSS à partir d'un panier ou d'une étagère.
-          Un panier peut lui-même remplit à l'aide de la Diffusion Sélection
+          Un panier peut être lui-même rempli à l'aide de la Diffusion Sélection
           de l'Information (DSI). Pour plus d'informations sur la création de
           flux RSS, consulter <xref linkend="dsi_rss_def" />.</remark></para>
 
@@ -2844,7 +2844,7 @@ select idsection, section_libelle from docs_section order by section_libelle
 
         <para lang='fr'>Pour les bibliothèques française, le principal intérêt de la
         recherche Z39.50 est la recherche par ISBN depuis la BnF. Pour les
-        ouvrages de votre fond propre, vous pouvez facilement cataloguer les
+        ouvrages de votre fonds propre, vous pouvez facilement cataloguer les
         livres à l'aide de votre douchette et du code barre commercial (EAN)
         de l'ouvrage.</para>
 
@@ -2912,14 +2912,14 @@ select idsection, section_libelle from docs_section order by section_libelle
     <title lang='fr'>Suggestion</title>
 
     <para lang='fr'>Cette partie du menu vous permet de créer une suggestion
-    d'acquistion pour la bibliothèque ou le centre de ressources.</para>
+    d'acquisition pour la bibliothèque ou le centre de ressources.</para>
 
     <sect2>
       <title lang='fr'>Faire une suggestion</title>
 
       <para lang='fr'>Pour plus d'informations sur l'ajout d'une suggestion, consulter
       plus loin dans ce <emphasis>Guide de l'utilisateur</emphasis>, le
-      chapitre <emphasis>Acquistions</emphasis> : <xref
+      chapitre <emphasis>Acquisitions</emphasis> : <xref
       linkend="acquis_sugg_create" />.</para>
     </sect2>
   </sect1>
