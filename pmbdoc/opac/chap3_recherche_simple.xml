@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title lang='fr'>Recherche simple</title>
+
+  <para lang='fr'>Vous pouvez chercher vos documents de différentes manières dans PMB.
+  La recherche simple est le mode de recherche par défaut.</para>
+
+  <section>
+    <title lang='fr'>Choix des champs de la recherche</title>
+
+    <figure>
+      <title lang='fr'>Champs de recherche</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/recherche_simple.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>La recherche simple dans PMB porte par défaut sur les titres et les
+    auteurs. Vous pouvez spécifier un ou plusieurs champs de recherche parmi
+    les informations suivantes :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='fr'>titres</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>auteurs</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>éditeurs</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>collections</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>sous-collections</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>catégories</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>indexations</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>mots clés</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>résumé et notes</para>
+      </listitem>
+    </itemizedlist>
+
+    <para lang='fr'>Si vous ne spécifiez aucun champs de recherche, votre recherche
+    portera sur l'option par défaut, les titres et les auteurs.</para>
+    
+    <para lang='fr'>Attention, si vous recherchez le titre d'une partie de l'oeuvre (piste d'un cd, nouvelle dans un recueil, poème dans une anthologie...) cochez également la case "résumé et notes"</para>
+  </section>
+
+  <section>
+    <title lang='fr'>Nombre de résultats</title>
+
+    <para lang='fr'>La recherche simple dans PMB cherche l'ensemble de vos critères de
+    recherche dans chacun des champs qui ont été sélectionnés.</para>
+
+    <figure>
+      <title lang='fr'>Nombre de résultats pour une recherche</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/categs_search_results.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Pour afficher les résultats de recherche, cliquez sur
+    <emphasis>afficher</emphasis>.</para>
+  </section>
+</chapter>
