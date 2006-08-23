@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Customizing PMB</title>
+  <title lang='en'>Customizing PMB</title>
 
-  <para>There are various ways to customize PMB.</para>
+  <para lang='en'>There are various ways to customize PMB.</para>
 
   <sect1>
-    <title>Adapting language files</title>
+    <title lang='en'>Adapting language files</title>
 
-    <para>PMB uses language files for displaying menus, messages, etc. on the
+    <para lang='en'>PMB uses language files for displaying menus, messages, etc. on the
     Management and OPAC interfaces respectively. These language files are to
     be found in the sub-folders <emphasis role="bold">includes/messages
     </emphasis>and <emphasis role="bold">opac_css/includes/messages</emphasis>
     respectively inside your PMB installation directory.</para>
 
-    <para>The contents of these language files may be modified to suit the
+    <para lang='en'>The contents of these language files may be modified to suit the
     needs of your library. But if you want your PMB application to remain
     compatible with future versions, you are advised not to modify the
     original files in your PMB distribution.</para>
 
-    <para>Indeed starting with PMB 2.1, you are now able to substitute
+    <para lang='en'>Indeed starting with PMB 2.1, you are now able to substitute
     messages or official labels in the original files with your own in XML
     format.</para>
 
-    <para>Example. You wish to have your own local version in English : In the
+    <para lang='en'>Example. You wish to have your own local version in English : In the
     same folder as <emphasis role="bold">en_UK.xml</emphasis> create a new
     file named <emphasis role="bold">en_UK_subst.xml</emphasis> and enter the
     lines that you want to substitute in <emphasis
@@ -32,21 +32,21 @@
 &lt;!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd"&gt;
 
 &lt;!-- personalized messages en English for PMB
-$Id: chap6_personnaliser.xml,v 1.1 2006/07/21 10:55:33 pickles_1955 Exp $ --&gt;
+$Id: chap6_personnaliser.xml,v 1.2 2006/08/23 09:58:47 gautier Exp $ --&gt;
 
 &lt;XMLlist&gt;
 &lt;entry code="1000"&gt;Identify yourself&lt;/entry&gt;
 &lt;/XMLlist&gt;</programlisting>
 
-    <para>Note. The syntax must comprise the elements necessary for the XML
+    <para lang='en'>Note. The syntax must comprise the elements necessary for the XML
     file. Look at the example given above, and insert the lines to modify
     in-between the XMLlist tags.</para>
   </sect1>
 
   <sect1>
-    <title>Style sheets and CSS</title>
+    <title lang='en'>Style sheets and CSS</title>
 
-    <para>You can create your own style sheet for the OPAC and/or the
+    <para lang='en'>You can create your own style sheet for the OPAC and/or the
     Management Interface. Use any of the styles available in the various
     sub-folders <emphasis role="bold">pmb/styles</emphasis> or <emphasis
     role="bold">pmb/opac_css/styles</emphasis> as model.</para>

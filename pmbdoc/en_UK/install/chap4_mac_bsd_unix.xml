@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Mac OS X, FreeBSD, other UNIX systems</title>
+  <title lang='en'>Mac OS X, FreeBSD, other UNIX systems</title>
 
   <sect1>
-    <title>FreeBSD</title>
+    <title lang='en'>FreeBSD</title>
 
-    <para>We have no feedback as yet from anyone using a FreeBSD system. Do
+    <para lang='en'>We have no feedback as yet from anyone using a FreeBSD system. Do
     not hesitate to contact us and pass on any information.</para>
   </sect1>
 
   <sect1>
-    <title>Unix</title>
+    <title lang='en'>Unix</title>
 
-    <para>We have no feedback from anyone using a Unix system (other than
+    <para lang='en'>We have no feedback from anyone using a Unix system (other than
     Linux). Do not hesitate to contact us and pass on any information.</para>
   </sect1>
 
   <sect1>
-    <title>Mac OS X</title>
+    <title lang='en'>Mac OS X</title>
 
-    <para>Linux is not the only open source operating system of the Unix
+    <para lang='en'>Linux is not the only open source operating system of the Unix
     family. Mac OS X, the latest system from Apple, is partially based on
     Unix.</para>
 
     <sect2>
-      <title>Using MAMP</title>
+      <title lang='en'>Using MAMP</title>
 
-      <para>MAMP is an Apache 2, PHP, MySQL package available at <ulink
+      <para lang='en'>MAMP is an Apache 2, PHP, MySQL package available at <ulink
       url="???"><ulink url="???"><ulink
       url="???">www.mamp.info</ulink></ulink></ulink>.</para>
 
-      <para>To install PMB on MAMP, unzip the PMB archive into
+      <para lang='en'>To install PMB on MAMP, unzip the PMB archive into
       Applications/MAMP/htdocs.</para>
 
-      <para>When installing the database, specify :</para>
+      <para lang='en'>When installing the database, specify :</para>
 
-      <para>user mysql : root</para>
+      <para lang='en'>user mysql : root</para>
 
-      <para>password : root</para>
+      <para lang='en'>password : root</para>
 
-      <para>server : 127.0.0.1:8889</para>
+      <para lang='en'>server : 127.0.0.1:8889</para>
 
-      <para>database : bibli</para>
+      <para lang='en'>database : bibli</para>
 
-      <para>For the rest, consult the general information on
+      <para lang='en'>For the rest, consult the general information on
       installation.</para>
 
-      <para>Note : MAMP is distributed with the YAZ extension (z39.50) for Mac
+      <para lang='en'>Note : MAMP is distributed with the YAZ extension (z39.50) for Mac
       activated in PHP4. Cataloguing with z39.50 is immediately available for
       PMB users on MAMP, no further configuration needed.</para>
     </sect2>
 
     <sect2>
-      <title>Using the Apache and PHP distribution supplied with Mac OS
+      <title lang='en'>Using the Apache and PHP distribution supplied with Mac OS
       X</title>
 
-      <para>Go to System Preferences, then Share, and activate Web sharing.
+      <para lang='en'>Go to System Preferences, then Share, and activate Web sharing.
       The files found in /Library/Webserver/Documents correspond to files
       accessible by PMB : extract the PMB archive downloaded on www.sigb.net
       in this directory.</para>
 
-      <para>MySQL is not supplied with Mac OS X. You will find a MySQL version
+      <para lang='en'>MySQL is not supplied with Mac OS X. You will find a MySQL version
       at www.mysql.com.</para>
 
-      <para>Once the PMB files have been extracted, you need to configure the
+      <para lang='en'>Once the PMB files have been extracted, you need to configure the
       PMB database. To do this, start your browser, Safari for example, and go
       to the address http://localhost/pmb/tables/install.php.</para>
 
-      <para>PMB is accessible from now on at http://localhost/pmb.</para>
+      <para lang='en'>PMB is accessible from now on at http://localhost/pmb.</para>
     </sect2>
 
     <sect2>
-      <title>Activating YAZ on Mac OS X</title>
+      <title lang='en'>Activating YAZ on Mac OS X</title>
 
-      <para>You can download the file yaz.so available at <ulink
+      <para lang='en'>You can download the file yaz.so available at <ulink
       url="???">http://www.sigb.net/mac</ulink> and install it in the PHP
       directory of your machine. In your <citetitle>php.ini</citetitle>, in
       the section extensions, add the line extension=yaz.so and restart your

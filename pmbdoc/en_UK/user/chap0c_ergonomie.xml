@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="ergo" lang="fr">
-  <title>Management interface layout</title>
+  <title lang='en'>Management interface layout</title>
 
-  <para>Here is a screenshot of the PMB management interface. The screen is
+  <para lang='en'>Here is a screenshot of the PMB management interface. The screen is
   divided in three sections.</para>
 
   <figure>
-    <title>management interface</title>
+    <title lang='en'>management interface</title>
 
     <mediaobject>
       <imageobject>
@@ -15,15 +15,15 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">The main navigation bar</emphasis></para>
+  <para lang='en'><emphasis role="bold">The main navigation bar</emphasis></para>
 
-  <para>The navigation bar enables you to switch between the various
+  <para lang='en'>The navigation bar enables you to switch between the various
   management interface modules at any time.</para>
 
-  <para>Only the modules to which the user has access are displayed.</para>
+  <para lang='en'>Only the modules to which the user has access are displayed.</para>
 
   <figure>
-    <title>The main navigation bar</title>
+    <title lang='en'>The main navigation bar</title>
 
     <mediaobject>
       <imageobject>
@@ -32,41 +32,41 @@
     </mediaobject>
   </figure>
 
-  <para>To the right of the navigation bar, on the same level as the tabs, can
+  <para lang='en'>To the right of the navigation bar, on the same level as the tabs, can
   be found various links :
   <emphasis>history</emphasis>,<emphasis>?</emphasis>, <emphasis>edit your
   account, opac</emphasis>, and <emphasis>logout</emphasis>.</para>
 
-  <para><emphasis>history</emphasis> opens in an iframe (block on the screen)
+  <para lang='en'><emphasis>history</emphasis> opens in an iframe (block on the screen)
   a history of the searches carried out in the PMB management interface . This
   link is displayed only if you have access privileges to the catalogue tab.
   For more information about searches, see <xref linkend="cat_search" /> ; for
   more information about search history, see <xref
   linkend="search_history" />.</para>
 
-  <para><emphasis>?</emphasis> gives access to PMB's contextual help. For more
+  <para lang='en'><emphasis>?</emphasis> gives access to PMB's contextual help. For more
   information, read the chapter <xref linkend="aide_contextuelle"
   xreflabel="" />. The displaying or not of contextual help is parametrised.
   For more information, consult the <emphasis>PMB Administrator
   Guide</emphasis>, chapter <emphasis>Utils</emphasis>, section
   <emphasis>Parameters</emphasis>.</para>
 
-  <para><emphasis>edit your account</emphasis> allows access to the
+  <para lang='en'><emphasis>edit your account</emphasis> allows access to the
   preferences of the user connected to PMB.</para>
 
-  <para><emphasis>opac</emphasis> opens a new browser window/tab and displays
+  <para lang='en'><emphasis>opac</emphasis> opens a new browser window/tab and displays
   the OPAC</para>
 
-  <para><emphasis>logout</emphasis> disconnects the current user, and returns
+  <para lang='en'><emphasis>logout</emphasis> disconnects the current user, and returns
   to the login screen</para>
 
-  <para><emphasis role="bold">The side menu </emphasis></para>
+  <para lang='en'><emphasis role="bold">The side menu </emphasis></para>
 
-  <para>The side menu provides access to the various functions within each
+  <para lang='en'>The side menu provides access to the various functions within each
   module.</para>
 
   <figure>
-    <title>The side menu</title>
+    <title lang='en'>The side menu</title>
 
     <mediaobject>
       <imageobject>
@@ -75,13 +75,13 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">The central interface</emphasis></para>
+  <para lang='en'><emphasis role="bold">The central interface</emphasis></para>
 
-  <para>The central interface is the part of PMB where you can input or edit
+  <para lang='en'>The central interface is the part of PMB where you can input or edit
   information, execute functions, validate updates, etc.</para>
 
   <figure>
-    <title>The central interface</title>
+    <title lang='en'>The central interface</title>
 
     <mediaobject>
       <imageobject>
@@ -90,31 +90,31 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Alerts</emphasis></para>
+  <para lang='en'><emphasis role="bold">Alerts</emphasis></para>
 
-  <para>Alerts are displayed to the left under the side menu :</para>
+  <para lang='en'>Alerts are displayed to the left under the side menu :</para>
 
   <itemizedlist>
     <listitem>
-      <para>If holds are added</para>
+      <para lang='en'>If holds are added</para>
     </listitem>
 
     <listitem>
-      <para>if items are to be processed following the cancellation of
+      <para lang='en'>if items are to be processed following the cancellation of
       holds</para>
     </listitem>
 
     <listitem>
-      <para>if memberships are about to lapse</para>
+      <para lang='en'>if memberships are about to lapse</para>
     </listitem>
 
     <listitem>
-      <para>if memberships have already lapsed</para>
+      <para lang='en'>if memberships have already lapsed</para>
     </listitem>
   </itemizedlist>
 
   <figure>
-    <title>alerts</title>
+    <title lang='en'>alerts</title>
 
     <mediaobject>
       <imageobject>
@@ -123,13 +123,13 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Search results</emphasis></para>
+  <para lang='en'><emphasis role="bold">Search results</emphasis></para>
 
-  <para>Search results are displayed on the interface along with pages numbers
+  <para lang='en'>Search results are displayed on the interface along with pages numbers
   to click at the bottom of the screen, enabling you to load a specific result
   page at once.</para>
 
-  <para>By default PMB will display 10 search results on a page; therefore if
+  <para lang='en'>By default PMB will display 10 search results on a page; therefore if
   your search equation has yielded more than 10 results and you wish to access
   results 11 to 20, you only have to click on page 2 to display them on your
   screen. You may also use the Next page and Previous page icons on the

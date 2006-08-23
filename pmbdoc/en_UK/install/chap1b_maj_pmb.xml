@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Updating PMB</title>
+  <title lang='en'>Updating PMB</title>
 
-  <para>Updating an existing version of the database :</para>
+  <para lang='en'>Updating an existing version of the database :</para>
 
-  <para>Updating a version of PMB is done by replacing your installation files
+  <para lang='en'>Updating a version of PMB is done by replacing your installation files
   with those contained in the ZIP archive of the new version.</para>
 
-  <para><emphasis role="bold">Caution<emphasis> :</emphasis></emphasis> After
+  <para lang='en'><emphasis role="bold">Caution<emphasis> :</emphasis></emphasis> After
   every installation or version update when you install a new version over an
   existing one, after extracting the files contained in the archive on to your
   Web server, you imperatively have to :</para>
 
-  <para><emphasis role="bold">check whether the parameters
+  <para lang='en'><emphasis role="bold">check whether the parameters
   in</emphasis></para>
 
   <itemizedlist>
     <listitem>
-      <para>./includes/db_param.inc.php</para>
+      <para lang='en'>./includes/db_param.inc.php</para>
     </listitem>
   </itemizedlist>
 
   <itemizedlist>
     <listitem>
-      <para>./opac_css/includes/opac_db_param.inc.php</para>
+      <para lang='en'>./opac_css/includes/opac_db_param.inc.php</para>
     </listitem>
   </itemizedlist>
 
-  <para><emphasis role="bold">correspond to your configuration <emphasis>(make
+  <para lang='en'><emphasis role="bold">correspond to your configuration <emphasis>(make
   a backup beforehand !)</emphasis></emphasis></para>
 
-  <para>In addition :</para>
+  <para lang='en'>In addition :</para>
 
-  <para><emphasis role="bold">You have to update the heart of your very
+  <para lang='en'><emphasis role="bold">You have to update the heart of your very
   database.</emphasis></para>
 
-  <para><emphasis>Nothing will be lost</emphasis>.</para>
+  <para lang='en'><emphasis>Nothing will be lost</emphasis>.</para>
 
-  <para>To effect this update :</para>
+  <para lang='en'>To effect this update :</para>
 
   <orderedlist>
     <listitem>
-      <para>Login as usual to PMB, the graphical style could be different,
+      <para lang='en'>Login as usual to PMB, the graphical style could be different,
       there may not even be one (a rather disorderly screen display with no
       colour or images)</para>
     </listitem>
 
     <listitem>
-      <para>Go to Administration &gt; Tools &gt; Database update to update the
+      <para lang='en'>Go to Administration &gt; Tools &gt; Database update to update the
       heart of your database. A series of messages will indicate to you the
       successive updates, continue the database update with the link displayed
       at bottom of page until you see on your screen 'Your database is
       up-to-date in version ...'</para>
 
       <figure>
-        <title>Administration &gt; Tools &gt; Database update</title>
+        <title lang='en'>Administration &gt; Tools &gt; Database update</title>
 
         <mediaobject>
           <imageobject>
@@ -65,12 +65,12 @@
     </listitem>
 
     <listitem>
-      <para><emphasis role="bold">if necessary,</emphasis><emphasis><emphasis
+      <para lang='en'><emphasis role="bold">if necessary,</emphasis><emphasis><emphasis
       role="bold"> </emphasis></emphasis>you can then edit your account to
       change your preferences, namely the display style.</para>
     </listitem>
   </orderedlist>
 
-  <para>Do not hesitate to contact us if you run into difficulties or if you
+  <para lang='en'>Do not hesitate to contact us if you run into difficulties or if you
   have any ideas you wish to share by sending us a mail at pmb@sigb.net</para>
 </chapter>

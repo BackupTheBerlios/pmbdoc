@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Generic installation</title>
+  <title lang='en'>Generic installation</title>
 
-  <para>PMB is a web application that requires a web server configured with
+  <para lang='en'>PMB is a web application that requires a web server configured with
   PHP together with access to a MySQL database. Installations may differ as
   regards protocol in relation to Operating Systems, but there are a number of
   similarities between them.</para>
 
   <sect1>
-    <title>Pre-requisites</title>
+    <title lang='en'>Pre-requisites</title>
 
-    <para>See above, Chapter 3, section 3. Installation pre-requisites</para>
+    <para lang='en'>See above, Chapter 3, section 3. Installation pre-requisites</para>
   </sect1>
 
   <sect1>
-    <title>Installation</title>
+    <title lang='en'>Installation</title>
 
-    <para>Download the latest version on the PMB website
+    <para lang='en'>Download the latest version on the PMB website
     [http://www.sigb.net].</para>
 
-    <para>You may choose between the two archives formats, zip (for Windows)
+    <para lang='en'>You may choose between the two archives formats, zip (for Windows)
     or tar.gz (for Linux). Both contain the same files. Extract the archive
     into the directory of your web server where you wish to install PMB (For
     the tar.gz archive, copy it into the install directory and enter tar xzf
@@ -28,9 +28,9 @@
     server on the workstation "myserver".</para>
 
     <sect2>
-      <title>Creating the database and initializing the application</title>
+      <title lang='en'>Creating the database and initializing the application</title>
 
-      <para>From the place where you have extracted the archive, call the page
+      <para lang='en'>From the place where you have extracted the archive, call the page
       <emphasis role="bold">tables/install.php</emphasis> (in our example,
       call the URL <emphasis
       role="bold">http://myserver/pmb/tables/install.php</emphasis>). This
@@ -38,21 +38,21 @@
       up with the required minimum to make PMB work, and create the
       administrator account in PMB. Two areas need to be filled in.</para>
 
-      <para><emphasis role="bold"><emphasis>Next choose the language in which
+      <para lang='en'><emphasis role="bold"><emphasis>Next choose the language in which
       you wish to install PMB : this relates directly to the database
       interface language. The interface language may be changed at any time
       from the User's preferences.</emphasis></emphasis></para>
 
-      <para><emphasis><emphasis role="bold">Caution : </emphasis><emphasis>IF
+      <para lang='en'><emphasis><emphasis role="bold">Caution : </emphasis><emphasis>IF
       YOU ARE NOT USING THIS PROCEDURE, THINK ABOUT DELETING THE FILES
       INSTALL.PHP and INSTALL.REP.PHP. FURTHERMORE : THINK ABOUT CHANGING THE
       ROOT PASSWORD ON MySQL. IT IS EMPTY BY DEFAULT, THIS CONSTITUTES A
       POTENTIAL SECURITY RISK.</emphasis></emphasis></para>
 
       <sect3>
-        <title>System parameters</title>
+        <title lang='en'>System parameters</title>
 
-        <para>These are the MySQL server parameters which will be used to
+        <para lang='en'>These are the MySQL server parameters which will be used to
         create the database. It is imperative that the MySQL user has
         administrative rights on the server to be able to create the PMB
         database as well as the MySQL user for this database. The field Server
@@ -62,127 +62,127 @@
       </sect3>
 
       <sect3>
-        <title>PMB parameters</title>
+        <title lang='en'>PMB parameters</title>
 
-        <para>They are the parameters that the script will use to create the
+        <para lang='en'>They are the parameters that the script will use to create the
         PMB database and the corresponding MySQL user :</para>
 
         <itemizedlist>
           <listitem>
-            <para>PMB User/Password : MySQL user that will be created to
+            <para lang='en'>PMB User/Password : MySQL user that will be created to
             access PMB database</para>
           </listitem>
 
           <listitem>
-            <para>PMB database : the name given to the database to be
+            <para lang='en'>PMB database : the name given to the database to be
             created</para>
           </listitem>
 
           <listitem>
-            <para>Filling up the tables with the set of examples : if you tick
+            <para lang='en'>Filling up the tables with the set of examples : if you tick
             this check-box, the database will be loaded with a set of records
             and authorities files that will enable you to test the
             application</para>
           </listitem>
         </itemizedlist>
 
-        <para>Once the parameters have been entered, click on the button
+        <para lang='en'>Once the parameters have been entered, click on the button
         <emphasis>Create database</emphasis>.</para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title>Database connection configuration files</title>
+      <title lang='en'>Database connection configuration files</title>
 
-      <para>Once the database has been created, check the connection
+      <para lang='en'>Once the database has been created, check the connection
       configuration files of PMB with the database. Edit the file
       <emphasis>db_param.inc.php</emphasis> in the sub-folder
       <emphasis>includes</emphasis> in the install directory.</para>
 
-      <para>Verify the line :</para>
+      <para lang='en'>Verify the line :</para>
 
-      <para><literal>define('LOCATION','nom_de_votre_base');</literal></para>
+      <para lang='en'><literal>define('LOCATION','nom_de_votre_base');</literal></para>
 
-      <para>(nom_de_votre_base [name_of_your_database] is the name entered in
+      <para lang='en'>(nom_de_votre_base [name_of_your_database] is the name entered in
       the field PMB Database on the install page. If you have left the default
       parameters as they are : bibli).</para>
 
-      <para>Check whether the parameters of the section name_of_your_database
+      <para lang='en'>Check whether the parameters of the section name_of_your_database
       correspond to those of the connection :</para>
 
-      <para><literal>nom_de_votre_base: // values for local
+      <para lang='en'><literal>nom_de_votre_base: // values for local
       access</literal></para>
 
-      <para><literal> define('SQL_SERVER', 'chemin_du_serveur'); //server
+      <para lang='en'><literal> define('SQL_SERVER', 'chemin_du_serveur'); //server
       name</literal></para>
 
-      <para><literal> define('USER_NAME', 'utilisateur_pmb'); //
+      <para lang='en'><literal> define('USER_NAME', 'utilisateur_pmb'); //
       username</literal></para>
 
-      <para><literal> define('USER_PASS', 'mot_de_passe');
+      <para lang='en'><literal> define('USER_PASS', 'mot_de_passe');
       //password</literal></para>
 
-      <para><literal> define('DATA_BASE', 'nom_de_votre_base');
+      <para lang='en'><literal> define('DATA_BASE', 'nom_de_votre_base');
       //name_of_database</literal></para>
 
-      <para><literal> break;</literal></para>
+      <para lang='en'><literal> break;</literal></para>
 
-      <para>Proceed with the same verification with the file
+      <para lang='en'>Proceed with the same verification with the file
       <emphasis>opac_db_param.incp.php</emphasis> in
       <emphasis>opac_css/includes</emphasis>.</para>
     </sect2>
 
     <sect2>
-      <title>First login</title>
+      <title lang='en'>First login</title>
 
-      <para>Once you have completed all of the foregoing procedures, you may
+      <para lang='en'>Once you have completed all of the foregoing procedures, you may
       test the connection to PMB. Enter the address of your installation in
       your browser http://myserver/pmb</para>
 
-      <para>On the connection page, login as :</para>
+      <para lang='en'>On the connection page, login as :</para>
 
-      <para><emphasis role="bold">Username</emphasis> : admin</para>
+      <para lang='en'><emphasis role="bold">Username</emphasis> : admin</para>
 
-      <para><emphasis role="bold">Password</emphasis> : admin</para>
+      <para lang='en'><emphasis role="bold">Password</emphasis> : admin</para>
 
-      <para>If all went well, you should have on screen the first page of PMB,
+      <para lang='en'>If all went well, you should have on screen the first page of PMB,
       with 5 tabs on the top section with Circulation already active. In the
       centre of the page there should be a text box to enter a borrower's
       barcode or name.</para>
 
-      <para><emphasis>Note</emphasis> : When the database is created, only one
+      <para lang='en'><emphasis>Note</emphasis> : When the database is created, only one
       user having full administrative privileges is created along with it.
       This user's name is Super User, his login admin, his password
       admin.</para>
 
-      <para><emphasis role="bold">Caution : </emphasis>THINK ABOUT CHANGING
+      <para lang='en'><emphasis role="bold">Caution : </emphasis>THINK ABOUT CHANGING
       THE PASSWORD OF THE USER ADMIN OF PMB, SET BY DEFAULT AS "ADMIN". THIS
       DEFAULT VALUE IS KNOWN TO ALL PMB USERS.</para>
     </sect2>
 
     <sect2>
-      <title>Settings creation and version update</title>
+      <title lang='en'>Settings creation and version update</title>
 
-      <para>In order to keep the database up-to-date, after each new
+      <para lang='en'>In order to keep the database up-to-date, after each new
       installation or upgrade :</para>
 
       <orderedlist>
         <listitem>
-          <para>Click on the 'Administration' tab</para>
+          <para lang='en'>Click on the 'Administration' tab</para>
         </listitem>
 
         <listitem>
-          <para>Go to the side menu on the left on the Administration page,
+          <para lang='en'>Go to the side menu on the left on the Administration page,
           click on Tools, then on Database update from among the links
           displayed in the top section</para>
         </listitem>
 
         <listitem>
-          <para>Click on the link 'click here to start update'</para>
+          <para lang='en'>Click on the link 'click here to start update'</para>
         </listitem>
 
         <listitem>
-          <para>Click on continue until a message 'Your database is up-to-date
+          <para lang='en'>Click on continue until a message 'Your database is up-to-date
           in version v. xxx !' appears on screen</para>
         </listitem>
       </orderedlist>
@@ -190,83 +190,83 @@
   </sect1>
 
   <sect1>
-    <title>Changing the administrator's password</title>
+    <title lang='en'>Changing the administrator's password</title>
 
-    <para>We shall not look at the administration of privileges and the
+    <para lang='en'>We shall not look at the administration of privileges and the
     various parameter settings possibilities of PMB in this tutorial. For
     this, consult the Administrator's Guide.</para>
 
-    <para>In order to tighten access to PMB, the next thing to do after
+    <para lang='en'>In order to tighten access to PMB, the next thing to do after
     installation is to change the password of the user admin.</para>
 
-    <para>This user is vested with full privileges in PMB and for this he
+    <para lang='en'>This user is vested with full privileges in PMB and for this he
     bears the name of "Super User" by default. This user cannot be
     removed.</para>
 
-    <para>To change the password :</para>
+    <para lang='en'>To change the password :</para>
 
     <orderedlist>
       <listitem>
-        <para>Click on the 'Administration' tab</para>
+        <para lang='en'>Click on the 'Administration' tab</para>
       </listitem>
 
       <listitem>
-        <para>Go to the side menu on the left on the Administration page,
+        <para lang='en'>Go to the side menu on the left on the Administration page,
         click on the link 'users'</para>
       </listitem>
 
       <listitem>
-        <para>When the manage users page appears, click on the link [password]
+        <para lang='en'>When the manage users page appears, click on the link [password]
         of the user Super User</para>
       </listitem>
 
       <listitem>
-        <para>Enter the new password you wish to use twice in the text boxes
+        <para lang='en'>Enter the new password you wish to use twice in the text boxes
         new password and confirmation</para>
       </listitem>
 
       <listitem>
-        <para>Finally click on the button <citetitle>Save</citetitle></para>
+        <para lang='en'>Finally click on the button <citetitle>Save</citetitle></para>
       </listitem>
     </orderedlist>
 
-    <para>You can also change the login 'admin' and the name 'Super User' by
+    <para lang='en'>You can also change the login 'admin' and the name 'Super User' by
     clicking on the link admin of the Super User on the manage users
     page.</para>
   </sect1>
 
   <sect1>
-    <title>Tested configurations</title>
+    <title lang='en'>Tested configurations</title>
 
-    <para>PMB was successfully tested on the following platforms :</para>
+    <para lang='en'>PMB was successfully tested on the following platforms :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Windows XP with EasyPHP 1.7 and 1.8</para>
+        <para lang='en'>Windows XP with EasyPHP 1.7 and 1.8</para>
       </listitem>
     </itemizedlist>
 
     <itemizedlist>
       <listitem>
-        <para>Windows 98 with EasyPHP 1.6 to 1.8</para>
+        <para lang='en'>Windows 98 with EasyPHP 1.6 to 1.8</para>
       </listitem>
     </itemizedlist>
 
     <itemizedlist>
       <listitem>
-        <para>Windows 2000 server with IIS/MySQL 3.23</para>
+        <para lang='en'>Windows 2000 server with IIS/MySQL 3.23</para>
       </listitem>
     </itemizedlist>
 
     <itemizedlist>
       <listitem>
-        <para>Linux Mandrake 8.2 with Apache 1.3.23/ MySQL 3.23</para>
+        <para lang='en'>Linux Mandrake 8.2 with Apache 1.3.23/ MySQL 3.23</para>
       </listitem>
     </itemizedlist>
 
     <itemizedlist>
       <listitem>
-        <para>MacOS X with Apache/MySQL</para>
+        <para lang='en'>MacOS X with Apache/MySQL</para>
       </listitem>
     </itemizedlist>
   </sect1>

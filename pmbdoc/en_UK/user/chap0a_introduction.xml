@@ -1,114 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="introduction">
-  <title>Introduction</title>
+  <title lang='en'>Introduction</title>
 
   <sect1 id="introduction_sujetpmb">
-    <title>About PMB</title>
+    <title lang='en'>About PMB</title>
 
-    <para>PMB is a completely free ILS (Integrated Library management System).
+    <para lang='en'>PMB is a completely free ILS (Integrated Library management System).
     The domain of software for libraries is almost exclusively occupied by
     proprietary products. We are some librarians, users and developers
     deploring this state of affairs.</para>
 
-    <para>PMB is based on web technology. This is what we sometimes call a
+    <para lang='en'>PMB is based on web technology. This is what we sometimes call a
     'web-app'. PMB requires an HTTP server (such as Apache, but this is not an
     obligation), the MySQL database and the PHP language.</para>
 
-    <para>The main functions of PMB are :</para>
+    <para lang='en'>The main functions of PMB are :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Supporting the UNIMARC format</para>
+        <para lang='en'>Supporting the UNIMARC format</para>
       </listitem>
 
       <listitem>
-        <para>Authorities management (authors, publishers, series,
+        <para lang='en'>Authorities management (authors, publishers, series,
         subjects...)</para>
       </listitem>
 
       <listitem>
-        <para>Management of loans, holds, borrowers...</para>
+        <para lang='en'>Management of loans, holds, borrowers...</para>
       </listitem>
 
       <listitem>
-        <para>A user-friendly configuration</para>
+        <para lang='en'>A user-friendly configuration</para>
       </listitem>
 
       <listitem>
-        <para>The ability to import full bibliographic records</para>
+        <para lang='en'>The ability to import full bibliographic records</para>
       </listitem>
 
       <listitem>
-        <para>A user-friendly OPAC integrating a browser</para>
+        <para lang='en'>A user-friendly OPAC integrating a browser</para>
       </listitem>
 
       <listitem>
-        <para>Loans management with a module designed to serve even the very
+        <para lang='en'>Loans management with a module designed to serve even the very
         small establishments</para>
       </listitem>
 
       <listitem>
-        <para>Serials management</para>
+        <para lang='en'>Serials management</para>
       </listitem>
 
       <listitem>
-        <para>Simple administration procedures that can be handled easily even
+        <para lang='en'>Simple administration procedures that can be handled easily even
         by the library staff...</para>
       </listitem>
     </itemizedlist>
 
-    <para>More details can be found at www.sigb.net where you will also find
+    <para lang='en'>More details can be found at www.sigb.net where you will also find
     an online demo version, the PMB users Web page, and the latest versions of
     the Installation Guide, the User Guide, and the Administrator
     Guide.</para>
   </sect1>
 
   <sect1 id="introduction_infos">
-    <title>Where to find information about PMB</title>
+    <title lang='en'>Where to find information about PMB</title>
 
-    <para>At the PMB website: www.sigb.net</para>
+    <para lang='en'>At the PMB website: www.sigb.net</para>
 
-    <para>At the users' forum: www.sigb.net/communaute</para>
+    <para lang='en'>At the users' forum: www.sigb.net/communaute</para>
 
-    <para>Via the users' mailing lists : pmb.user@sigb.net (free subscription,
+    <para lang='en'>Via the users' mailing lists : pmb.user@sigb.net (free subscription,
     just send an email subject SUBSCRIBE to pmb.user_request@sigb.net)</para>
 
-    <para>Via the mailing lists for translators, developers, for Unicode
+    <para lang='en'>Via the mailing lists for translators, developers, for Unicode
     support (non European alphabets). For more information on these lists, go
     to <ulink url="http://www.sibg.net">www.sigb.net</ulink></para>
 
-    <para>This documentation is viewable online at www.sigb.net/doc, the HTML
+    <para lang='en'>This documentation is viewable online at www.sigb.net/doc, the HTML
     version may be downloaded freely, it can be integrated within PMB to
     become a contextual help.</para>
   </sect1>
 
   <sect1 id="introduction_references">
-    <title>Credits</title>
+    <title lang='en'>Credits</title>
 
-    <para><emphasis role="bold">Authors</emphasis></para>
+    <para lang='en'><emphasis role="bold">Authors</emphasis></para>
 
-    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+    <para lang='en'>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
 
-    <para>Contributions by : François LEMARCHAND (former project
+    <para lang='en'>Contributions by : François LEMARCHAND (former project
     administrator), Betty FAIS</para>
 
-    <para>Thank you to the PMB development team, former developers, and
+    <para lang='en'>Thank you to the PMB development team, former developers, and
     users.</para>
 
-    <para>This User Guide corresponds to PMB version 2.2</para>
+    <para lang='en'>This User Guide corresponds to PMB version 2.2</para>
   </sect1>
 
   <sect1 id="introduction_cvs">
-    <title>CVS</title>
+    <title lang='en'>CVS</title>
 
-    <para>CVS stands for Concurrent Versions System. It is a tool for
+    <para lang='en'>CVS stands for Concurrent Versions System. It is a tool for
     programmers for the management of source code updates.</para>
 
-    <para>PMB uses a CVS. The CVS is accessible to developers. Do not hesitate
+    <para lang='en'>PMB uses a CVS. The CVS is accessible to developers. Do not hesitate
     to contact us if you wish to help with the development of PMB or to
     participate in the write-up of the documentation.</para>
 
-    <para>For more information, contact the developers of
+    <para lang='en'>For more information, contact the developers of
     PMB<emphasis>.</emphasis></para>
   </sect1>
 </chapter>

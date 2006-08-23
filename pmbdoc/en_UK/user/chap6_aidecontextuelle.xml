@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="aide_contextuelle" lang="fr">
-  <title>Contextual help</title>
+  <title lang='en'>Contextual help</title>
 
-  <para>Parmi les liens situés en haut à gauche des écrans de l'interface de
+  <para lang='en'>Parmi les liens situés en haut à gauche des écrans de l'interface de
   gestion de PMB, le point d'interrogation "?" permet d'afficher l'aide
   contextuelle de PMB.</para>
 
   <figure>
-    <title>liens de navigation</title>
+    <title lang='en'>liens de navigation</title>
 
     <mediaobject>
       <imageobject>
@@ -16,26 +16,26 @@
     </mediaobject>
   </figure>
 
-  <para>L'aide contextuelle peut être activée ou désactivée à l'aide du
+  <para lang='en'>L'aide contextuelle peut être activée ou désactivée à l'aide du
   paramètre pmb dont le sous-type est <emphasis>show_help</emphasis>. Pour
   plus d'informations, consulter le <emphasis>Guide de l'Administrateur
   PMB</emphasis>.</para>
 
   <sect1>
-    <title>Disponibilité de l'aide contextuelle</title>
+    <title lang='en'>Disponibilité de l'aide contextuelle</title>
 
-    <para>L'aide contextuelle est uniquement disponible en français à ce
+    <para lang='en'>L'aide contextuelle est uniquement disponible en français à ce
     jour.</para>
   </sect1>
 
   <sect1>
-    <title>Fonctionnement de l'aide contextuelle</title>
+    <title lang='en'>Fonctionnement de l'aide contextuelle</title>
 
-    <para>L'aide contextuelle est affichée dans un popup. L'aide affichée
+    <para lang='en'>L'aide contextuelle est affichée dans un popup. L'aide affichée
     correspond à l'écran où vous étiez dans l'interface de gestion.</para>
 
     <figure>
-      <title>Aide contextuelle, popup</title>
+      <title lang='en'>Aide contextuelle, popup</title>
 
       <mediaobject>
         <imageobject>
@@ -44,29 +44,29 @@
       </mediaobject>
     </figure>
 
-    <para>L'aide contextuelle permet d'intégrer à PMB le Guide de
+    <para lang='en'>L'aide contextuelle permet d'intégrer à PMB le Guide de
     l'utilisateur PMB, le Guide de l'administrateur PMB et le Guide
     d'Installation PMB.</para>
 
-    <para>En haut de chaque page vous disposez de différents éléments :</para>
+    <para lang='en'>En haut de chaque page vous disposez de différents éléments :</para>
 
     <itemizedlist>
       <listitem>
-        <para>le titre du chapitre affiché</para>
+        <para lang='en'>le titre du chapitre affiché</para>
       </listitem>
 
       <listitem>
-        <para>le titre de la section du chapitre affichée</para>
+        <para lang='en'>le titre de la section du chapitre affichée</para>
       </listitem>
 
       <listitem>
-        <para>des flèches de navigation permettant de vous déplacer d'une page
+        <para lang='en'>des flèches de navigation permettant de vous déplacer d'une page
         à l'autre pour parcourir l'aide.</para>
       </listitem>
     </itemizedlist>
 
     <figure>
-      <title>Aide contextuelle, éléments en haut de page</title>
+      <title lang='en'>Aide contextuelle, éléments en haut de page</title>
 
       <mediaobject>
         <imageobject>
@@ -75,11 +75,11 @@
       </mediaobject>
     </figure>
 
-    <para>En bas de chaque page, vous trouvez différentes icones de
+    <para lang='en'>En bas de chaque page, vous trouvez différentes icones de
     navigation.</para>
 
     <figure>
-      <title>Aide contextuelle, icones de navigation en bas de page</title>
+      <title lang='en'>Aide contextuelle, icones de navigation en bas de page</title>
 
       <mediaobject>
         <imageobject>
@@ -88,32 +88,32 @@
       </mediaobject>
     </figure>
 
-    <para>Les flèches gauche et droite vous permettent de vous déplacer d'une
+    <para lang='en'>Les flèches gauche et droite vous permettent de vous déplacer d'une
     page à l'autre pour parcourir l'aide.</para>
 
-    <para>La flèche vers le haut est un lien vers le sommaire du chapitre
+    <para lang='en'>La flèche vers le haut est un lien vers le sommaire du chapitre
     affiché. Parmi les titres de chapitre du Guide de l'Utilisateur, on peut
     noter par exemple les différents onglets Circulation, Catalogage,
     Autorités et Editions.</para>
 
-    <para>L'icône maison est un lien vers le sommaire du Guide affiché : Guide
+    <para lang='en'>L'icône maison est un lien vers le sommaire du Guide affiché : Guide
     de l'utilisateur, Guide de l'administrateur, Guide d'Installation.</para>
   </sect1>
 
   <sect1>
-    <title>Fonctionnement par défaut</title>
+    <title lang='en'>Fonctionnement par défaut</title>
 
-    <para>L'installation de l'aide contextuelle se fait par l'intégration d'un
+    <para lang='en'>L'installation de l'aide contextuelle se fait par l'intégration d'un
     fichier compressé comprenant l'ensemble de la documentation et disponible
     sur <ulink
     url="http://www.sigb.net/documentation.zip">www.sigb.net/documentation.zip</ulink></para>
 
-    <para>Si l' administrateur de PMB n'a pas correctement installé la
+    <para lang='en'>Si l' administrateur de PMB n'a pas correctement installé la
     documentation contextuelle par défaut, le lien vers l'aide contextuelle
     "?" renverra vers les fichiers liés à l'installation et au paramétrage
     contenus dans le répertoire doc de votre installation de PMB.</para>
 
-    <para>Dans ce cas, contactez votre administrateur informatique ou lisez
+    <para lang='en'>Dans ce cas, contactez votre administrateur informatique ou lisez
     attentivement la procédure d'installation affichée dans le popup en
     dessous des liens vers les fichiers de documentation sur l'installation de
     PMB.</para>

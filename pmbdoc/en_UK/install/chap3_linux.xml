@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>PC with Linux</title>
+  <title lang='en'>PC with Linux</title>
 
-  <para>Linux is a freely available operating system, powerful and rapid,
+  <para lang='en'>Linux is a freely available operating system, powerful and rapid,
   especially if the server on which you are installing PMB is a dedicated one,
   functioning in text mode. For this type of use, we recommend using Linux on
   your servers.</para>
 
-  <para>The information presented here was supplied by users on whatever
+  <para lang='en'>The information presented here was supplied by users on whatever
   procedures they used to install PMB on their distribution packages. These
   packages are the more popular ones. If in doubt, do not hesitate to find out
   more on the discussion lists of PMB or on the internet site.</para>
 
   <sect1>
-    <title>Mandrake</title>
+    <title lang='en'>Mandrake</title>
 
-    <para>Installing PMB on Linux Mandrake 9.2 by Bruno Desroches, 05 April
+    <para lang='en'>Installing PMB on Linux Mandrake 9.2 by Bruno Desroches, 05 April
     2004.</para>
 
     <sect2>
-      <title>Introduction</title>
+      <title lang='en'>Introduction</title>
 
-      <para>The idea first came to my mind when I decided to install PMB
+      <para lang='en'>The idea first came to my mind when I decided to install PMB
       myself. I must confess now, that all the elements were there right from
       the start, but where they were located, the way they presented
       themselves made me sweat quite a bit. And then, being myself a Linux
@@ -29,12 +29,12 @@
     </sect2>
 
     <sect2>
-      <title>Setting up</title>
+      <title lang='en'>Setting up</title>
 
-      <para>Download the file PMB.tar.gz on the web site
+      <para lang='en'>Download the file PMB.tar.gz on the web site
       http://www.sigb.net/download.html into /home/toto, then unzip it.</para>
 
-      <para>But where do you extract the files ? I am assuming you already
+      <para lang='en'>But where do you extract the files ? I am assuming you already
       have Apache installed and that your httpd service is functioning. In
       which case you should have a directory /var/www/html which is your
       document root. Create a pmb directory for example and extract the files
@@ -42,226 +42,226 @@
 
       <programlisting>tar -xzvf PMB.tar.gz</programlisting>
 
-      <para>All the files and folders will be extracted into this directory
+      <para lang='en'>All the files and folders will be extracted into this directory
       /home/toto/PMB.</para>
 
-      <para>Now move all the files to /var/www/html/pmb with the following
+      <para lang='en'>Now move all the files to /var/www/html/pmb with the following
       command :</para>
 
       <programlisting>mv PMB/* /var/www/html/pmb/</programlisting>
 
-      <para>You need now to look at rights on these files</para>
+      <para lang='en'>You need now to look at rights on these files</para>
 
       <programlisting>cd /var/www/html</programlisting>
 
-      <para>change to root with <keycode>su</keycode></para>
+      <para lang='en'>change to root with <keycode>su</keycode></para>
 
       <programlisting>chmod -R 777 pmb
 chown -R apache.apache pmb</programlisting>
 
-      <para>You will have to ensure you have the necessary kits for the good
+      <para lang='en'>You will have to ensure you have the necessary kits for the good
       functioning of PMB.</para>
 
-      <para>There are two ways of checking quickly whether a kit is installed
+      <para lang='en'>There are two ways of checking quickly whether a kit is installed
       or not :</para>
 
       <programlisting>rpm -q nomdupaquetage</programlisting>
 
-      <para>or</para>
+      <para lang='en'>or</para>
 
       <programlisting>urpmi nomdupaquetage</programlisting>
     </sect2>
 
     <sect2>
-      <title>Pre-requisites</title>
+      <title lang='en'>Pre-requisites</title>
 
-      <para>Check for :</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>php-xml</para>
-        </listitem>
-
-        <listitem>
-          <para>php-devel</para>
-        </listitem>
-
-        <listitem>
-          <para>php-bz2</para>
-        </listitem>
-
-        <listitem>
-          <para>php-xslt</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>All of them must be installed.</para>
-
-      <para>You need also to install :</para>
+      <para lang='en'>Check for :</para>
 
       <itemizedlist>
         <listitem>
-          <para>libyaz</para>
+          <para lang='en'>php-xml</para>
         </listitem>
 
         <listitem>
-          <para>yaz</para>
+          <para lang='en'>php-devel</para>
+        </listitem>
+
+        <listitem>
+          <para lang='en'>php-bz2</para>
+        </listitem>
+
+        <listitem>
+          <para lang='en'>php-xslt</para>
         </listitem>
       </itemizedlist>
 
-      <para>You can find both these kits at http://www.rpmfind.net for
+      <para lang='en'>All of them must be installed.</para>
+
+      <para lang='en'>You need also to install :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang='en'>libyaz</para>
+        </listitem>
+
+        <listitem>
+          <para lang='en'>yaz</para>
+        </listitem>
+      </itemizedlist>
+
+      <para lang='en'>You can find both these kits at http://www.rpmfind.net for
       Mandrake.</para>
     </sect2>
 
     <sect2>
-      <title>Install</title>
+      <title lang='en'>Install</title>
 
-      <para>First you have to go to http://mysite/pmb/tables/install.php to
+      <para lang='en'>First you have to go to http://mysite/pmb/tables/install.php to
       relate the PMB application to a MySQL table. Here you can pick up all
       the recommendations given for the installation on Windows, they are
       absolutely identical.</para>
 
-      <para>You can also configure the application all by yourself by editing
+      <para lang='en'>You can also configure the application all by yourself by editing
       the file /var/www/html/pmb/includes/config.inc.php.</para>
 
-      <para>Finally you will only have to enter or import your data. Note that
+      <para lang='en'>Finally you will only have to enter or import your data. Note that
       the installed PMB version already contains some data that you will no
       doubt have to destroy !</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>RedHat</title>
+    <title lang='en'>RedHat</title>
 
-    <para>Download php-yaz on pecl.php.net, install the packet php-devel
+    <para lang='en'>Download php-yaz on pecl.php.net, install the packet php-devel
     (essential for the command phpize).</para>
 
-    <para>cd php-yaz</para>
+    <para lang='en'>cd php-yaz</para>
 
-    <para>phpize</para>
+    <para lang='en'>phpize</para>
 
-    <para>./configure</para>
+    <para lang='en'>./configure</para>
 
-    <para>make</para>
+    <para lang='en'>make</para>
 
-    <para>sudo make install</para>
+    <para lang='en'>sudo make install</para>
 
-    <para>sudo echo 'extensions=yaz.so' &gt; /etc/php.d/php.ini</para>
+    <para lang='en'>sudo echo 'extensions=yaz.so' &gt; /etc/php.d/php.ini</para>
 
-    <para>sudo /etc/init.d/httpd restart</para>
+    <para lang='en'>sudo /etc/init.d/httpd restart</para>
   </sect1>
 
   <sect1>
-    <title>Debian</title>
+    <title lang='en'>Debian</title>
 
-    <para>Installation described by Stef on a forum at <ulink
+    <para lang='en'>Installation described by Stef on a forum at <ulink
     url="http://www.sigb.net/communaute">www.sigb.net/communaute/</ulink>, 29
     mars 2004.</para>
 
-    <para>See also your_dir_pmb/doc/installation_debian.pdf.</para>
+    <para lang='en'>See also your_dir_pmb/doc/installation_debian.pdf.</para>
 
     <sect2>
-      <title>Pre-requisites</title>
+      <title lang='en'>Pre-requisites</title>
 
-      <para>Apache must be installed and the httpd server running.</para>
+      <para lang='en'>Apache must be installed and the httpd server running.</para>
     </sect2>
 
     <sect2>
-      <title>Install</title>
+      <title lang='en'>Install</title>
 
-      <para>On a debian for example, the install process goes like this
+      <para lang='en'>On a debian for example, the install process goes like this
       :</para>
 
-      <para><programlisting>tar xvzf &lt;archive.tar.gz&gt;</programlisting></para>
+      <para lang='en'><programlisting>tar xvzf &lt;archive.tar.gz&gt;</programlisting></para>
 
-      <para>Move everything to the directory of the server in which you will
+      <para lang='en'>Move everything to the directory of the server in which you will
       (cd /var/www)</para>
 
-      <para>Assign rights :</para>
+      <para lang='en'>Assign rights :</para>
 
-      <para><programlisting>chown -R www-data.www.data * ; 
+      <para lang='en'><programlisting>chown -R www-data.www.data * ; 
 chmod -R 0640 * ; 
 find -type d -exec chmod 0777 \;</programlisting></para>
 
-      <para>[Ed note. As from here, you can use the quick configuration of the
+      <para lang='en'>[Ed note. As from here, you can use the quick configuration of the
       database, described earlier in this guide : <emphasis>Configuring the
       PMB database</emphasis>]</para>
 
-      <para>Create the database</para>
+      <para lang='en'>Create the database</para>
 
-      <para><literal>mysql</literal></para>
+      <para lang='en'><literal>mysql</literal></para>
 
-      <para><literal>create database &lt;thedatabase&gt; ;</literal></para>
+      <para lang='en'><literal>create database &lt;thedatabase&gt; ;</literal></para>
 
-      <para>Create a dedicated user (highly recommended and adapted to your
+      <para lang='en'>Create a dedicated user (highly recommended and adapted to your
       case)</para>
 
-      <para><programlisting>GRANT ALL ON PMB.* TO 'admin'@'localhost' IDENTIFIED BY 'password';
+      <para lang='en'><programlisting>GRANT ALL ON PMB.* TO 'admin'@'localhost' IDENTIFIED BY 'password';
 flush privileges ;</programlisting></para>
 
-      <para>And you start the install process as indicated in the
+      <para lang='en'>And you start the install process as indicated in the
       documentation.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>Slackware</title>
+    <title lang='en'>Slackware</title>
 
     <sect2>
-      <title>About Slackware</title>
+      <title lang='en'>About Slackware</title>
 
-      <para>Installing the Apache Web server on Linux together with the
+      <para lang='en'>Installing the Apache Web server on Linux together with the
       extensions for use by PMB.</para>
 
-      <para>Author : Francois NIGON – linux@nigon.net</para>
+      <para lang='en'>Author : Francois NIGON – linux@nigon.net</para>
     </sect2>
 
     <sect2>
-      <title>Sources</title>
+      <title lang='en'>Sources</title>
 
-      <para>The help files for the installation of www.indexdata.dk/phpyaz and
+      <para lang='en'>The help files for the installation of www.indexdata.dk/phpyaz and
       the chapter Installing Apache from www.php.net, item
       documentation.</para>
     </sect2>
 
     <sect2>
-      <title>Preamble</title>
+      <title lang='en'>Preamble</title>
 
-      <para>The installation described below was done on a P4-2,6GHz,
+      <para lang='en'>The installation described below was done on a P4-2,6GHz,
       slackware 9.1, kernel 2.4.24. The files used were downloaded on the net.
       I am assuming the installation will be done in the same manner as with
       any other distribution...</para>
     </sect2>
 
     <sect2>
-      <title>Downloads</title>
+      <title lang='en'>Downloads</title>
 
-      <para><emphasis role="bold">YAZ</emphasis> : go to the web site
+      <para lang='en'><emphasis role="bold">YAZ</emphasis> : go to the web site
       www.indexdata.dk/yaz/</para>
 
-      <para>download the file
+      <para lang='en'>download the file
       http://ftp.indexdata.dk/pub/yaz/yaz-2.0.9.tar.gz</para>
 
-      <para><emphasis role="bold">PHP</emphasis> : go to the web site
+      <para lang='en'><emphasis role="bold">PHP</emphasis> : go to the web site
       www.php.net, item downloads, download php-4.3.4.tar.gz</para>
 
-      <para><emphasis role="bold">Apache</emphasis> : go to the site
+      <para lang='en'><emphasis role="bold">Apache</emphasis> : go to the site
       httpd.apache.org, item Download from a mirror, download
       apache_1.3.29.tar.gz</para>
     </sect2>
 
     <sect2>
-      <title>Install</title>
+      <title lang='en'>Install</title>
 
-      <para><emphasis role="bold">Preparing the installation
+      <para lang='en'><emphasis role="bold">Preparing the installation
       :</emphasis></para>
 
-      <para><programlisting>mkdir /root/php cd /root/php 
+      <para lang='en'><programlisting>mkdir /root/php cd /root/php 
 tar -zvxf /root/my_downloads/yaz-2.0.9.tar.gz 
 tar -zvxf /root/my_downloads/php-4.3.4.tar.gz
 tar -zvxf /root/my_downloads/apache_1.3.29.tar.gz </programlisting></para>
 
-      <para>Close the door of your office, unplug the telephone... in short,
+      <para lang='en'>Close the door of your office, unplug the telephone... in short,
       create an atmosphere conducive to an installation in all quietude. In
       the example given below, the Web server and the extensions are installed
       in /www, this may come as a surprise to any confirmed Linux user, but
@@ -269,55 +269,55 @@ tar -zvxf /root/my_downloads/apache_1.3.29.tar.gz </programlisting></para>
       version DON'T FORGET ONE SINGLE FILE, then to install it in
       /usr/local/apache. God help you !</para>
 
-      <para><emphasis role="bold">YAZ</emphasis> : <literal>cd
+      <para lang='en'><emphasis role="bold">YAZ</emphasis> : <literal>cd
       yaz-2.0.9</literal></para>
 
-      <para><literal>./configure --prefix=/usr</literal></para>
+      <para lang='en'><literal>./configure --prefix=/usr</literal></para>
 
-      <para><literal>make</literal></para>
+      <para lang='en'><literal>make</literal></para>
 
-      <para><literal>make install </literal></para>
+      <para lang='en'><literal>make install </literal></para>
 
-      <para><emphasis role="bold">Apache</emphasis> : <literal>cd
+      <para lang='en'><emphasis role="bold">Apache</emphasis> : <literal>cd
       ../apache_1.3.29</literal></para>
 
-      <para><literal>./configure --prefix=/www
+      <para lang='en'><literal>./configure --prefix=/www
       --enable-module=so</literal></para>
 
-      <para><literal>make</literal></para>
+      <para lang='en'><literal>make</literal></para>
 
-      <para><literal>make install</literal></para>
+      <para lang='en'><literal>make install</literal></para>
 
-      <para><emphasis role="bold">PHP</emphasis> : <literal>cd ../php-4.3.4
+      <para lang='en'><emphasis role="bold">PHP</emphasis> : <literal>cd ../php-4.3.4
       </literal></para>
 
-      <para><literal>./configure --with-mysql --with-gd
+      <para lang='en'><literal>./configure --with-mysql --with-gd
       --with-apxs=/www/bin/apxs --with-yaz=/usr/bin --with-zlib-dir
       --with-bz2</literal></para>
 
-      <para><literal>make</literal></para>
+      <para lang='en'><literal>make</literal></para>
 
-      <para><literal>make install </literal></para>
+      <para lang='en'><literal>make install </literal></para>
 
-      <para><literal>cp php.ini-dist /usr/local/lib/php.ini</literal></para>
+      <para lang='en'><literal>cp php.ini-dist /usr/local/lib/php.ini</literal></para>
 
-      <para><emphasis role="bold">Configuration : </emphasis>Edit the file
+      <para lang='en'><emphasis role="bold">Configuration : </emphasis>Edit the file
       /www/conf/httpd.conf</para>
 
-      <para>Check whether the line Loadmodule php4_module libexec/libphp4.so
+      <para lang='en'>Check whether the line Loadmodule php4_module libexec/libphp4.so
       exists(and without #)</para>
 
-      <para>Add AddType application/x-httpd-php .php .php3 .php4</para>
+      <para lang='en'>Add AddType application/x-httpd-php .php .php3 .php4</para>
 
-      <para>Add index.php index.php4 index.php3 to the line
+      <para lang='en'>Add index.php index.php4 index.php3 to the line
       DirectoryIndex</para>
 
-      <para>Start Apache : /www/bin/apachectl start</para>
+      <para lang='en'>Start Apache : /www/bin/apachectl start</para>
 
-      <para>Delete the other existing apachectl binaries (find / -name
+      <para lang='en'>Delete the other existing apachectl binaries (find / -name
       apachectl to find them)</para>
 
-      <para>The files to be loaded by Apache are /www/htdocs</para>
+      <para lang='en'>The files to be loaded by Apache are /www/htdocs</para>
     </sect2>
   </sect1>
 </chapter>

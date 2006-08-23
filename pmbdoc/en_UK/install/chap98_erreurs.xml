@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter lang="en">
-  <title>Error messages resulting from install or configuration
+  <title lang='en'>Error messages resulting from install or configuration
   problems</title>
 
-  <para>Various error messages indicate the existence of a problem with the
+  <para lang='en'>Various error messages indicate the existence of a problem with the
   installation of PMB. It can be, for example, "Call to undefined function"
   error messages.</para>
 
-  <para>PMB needs a number of pre-requisites : for more details on these
+  <para lang='en'>PMB needs a number of pre-requisites : for more details on these
   pre-requisites, go to Chapter 2, Essential information and/or the file
   YOUR_DIR_PMB/doc/pre_requisite.txt.</para>
 
   <sect1>
-    <title>Call to undefined function : xslt_create() in ...</title>
+    <title lang='en'>Call to undefined function : xslt_create() in ...</title>
 
-    <para>This error message indicates that the library
+    <para lang='en'>This error message indicates that the library
     <emphasis>PHP_XSLT</emphasis> is not correctly installed.</para>
 
-    <para>It is used in : backups, conversion.</para>
+    <para lang='en'>It is used in : backups, conversion.</para>
 
-    <para>Solution : activate the PHP_XSLT library in your PHP configuration.
+    <para lang='en'>Solution : activate the PHP_XSLT library in your PHP configuration.
     Go to the installation corresponding to your system as well as the chapter
     Generic installation.</para>
   </sect1>
 
   <sect1>
-    <title>Call to undefined function: imagecreate() in ...</title>
+    <title lang='en'>Call to undefined function: imagecreate() in ...</title>
 
-    <para>This error message indicates that the library
+    <para lang='en'>This error message indicates that the library
     <emphasis>PHP_GD</emphasis> is not correctly installed.</para>
 
-    <para>It is used in : barcode creation.</para>
+    <para lang='en'>It is used in : barcode creation.</para>
 
-    <para>Solution : activate the PHP_GD library in your PHP configuration. Go
+    <para lang='en'>Solution : activate the PHP_GD library in your PHP configuration. Go
     to the installation corresponding to your system as well as the chapter
     Generic installation.</para>
   </sect1>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY __chap0a_introduction SYSTEM "chap0a_introduction.xml">
@@ -21,18 +21,18 @@
 <!ENTITY __chap999_postface SYSTEM "chap999_postface.xml">
 ]>
 <book lang="fr_FR">
-  <title>PMB : User Guide</title>
+  <title lang='en'>PMB : User Guide</title>
 
   <bookinfo>
     <date>14 juillet 2006</date>
 
     <abstract>
-      <para>This guide is the user documentation of PMB, a free and opensource
+      <para lang='en'>This guide is the user documentation of PMB, a free and opensource
       integrated library management system, using a PHP/MySQL interface. This
       user documentation is intended to the library staff, and not users of
       the library, that is, the borrowers.</para>
 
-      <para>For more information, see www.sigb.net</para>
+      <para lang='en'>For more information, see www.sigb.net</para>
     </abstract>
 
     <releaseinfo>Version of PMB corresponding to this guide :
@@ -45,7 +45,7 @@
     </copyright>
 
     <legalnotice>
-      <para>HTML version : free distribution authorized, Creative Commons 2.0
+      <para lang='en'>HTML version : free distribution authorized, Creative Commons 2.0
       licence, (Paternity, Not for commercial use). For more information,
       consult : http://creativecommons.org/licenses/by-nc/2.0/fr/ Printed
       version, XML and other support : distribution forbidden, modifications
@@ -54,16 +54,16 @@
       other versions of the documentation of PMB, send an email to
       pmb@sigb.net.</para>
 
-      <para>Cover page text :</para>
+      <para lang='en'>Cover page text :</para>
 
-      <para><literal>PMB Services SARL, January 2006</literal></para>
+      <para lang='en'><literal>PMB Services SARL, January 2006</literal></para>
 
-      <para><literal>PMB is an opensource solution (GNU/GPL compliant CECILL
+      <para lang='en'><literal>PMB is an opensource solution (GNU/GPL compliant CECILL
       License) for libraries.</literal></para>
 
-      <para><literal>http://www.sigb.net</literal></para>
+      <para lang='en'><literal>http://www.sigb.net</literal></para>
 
-      <para><literal>Copyright © 2006 PMB Services SARL</literal></para>
+      <para lang='en'><literal>Copyright © 2006 PMB Services SARL</literal></para>
     </legalnotice>
 
     <othercredit>

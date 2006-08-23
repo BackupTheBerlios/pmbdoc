@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="principes">
-  <title>General Principles</title>
+  <title lang='en'>General Principles</title>
 
-  <para><emphasis role="bold">Ergonomics relating to the use of a web
+  <para lang='en'><emphasis role="bold">Ergonomics relating to the use of a web
   application</emphasis></para>
 
-  <para>PMB is a web application, a "WebApp". Running on a web server (see the
+  <para lang='en'>PMB is a web application, a "WebApp". Running on a web server (see the
   <emphasis>PMB Installation Guide</emphasis>, Section 1,
   <emphasis>Installation on Windows,</emphasis> for more information about
   Apache), PMB benefits from the flexibility of internet applications.</para>
 
-  <para><emphasis role="bold">Don't use the "previous page" browser
+  <para lang='en'><emphasis role="bold">Don't use the "previous page" browser
   button.</emphasis></para>
 
-  <para>"Previous page" and "Page forward" allow the movement from one page to
+  <para lang='en'>"Previous page" and "Page forward" allow the movement from one page to
   another on the internet, it works the same way with PMB.</para>
 
-  <para><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
+  <para lang='en'><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
   role="bold">Warning.</emphasis></emphasis> Whenever you see on your screen a
   message starting with <emphasis>Update </emphasis>do not click on previous
   page. Whenever you see this message, it is vital to leave the update to
   finish completely. In general, avoid using previous page if you can achieve
   the same results by clicking on one of the links visible on screen.</para>
 
-  <para>The "Reload" button of your browser enables you to reload the page
+  <para lang='en'>The "Reload" button of your browser enables you to reload the page
   displayed on screen.</para>
 
-  <para>Whenever you reload a page which is the result of a form (for example
+  <para lang='en'>Whenever you reload a page which is the result of a form (for example
   adding a new volume), the data is resubmitted to the server.</para>
 
-  <para>Following the same principle as "Previous page", your browser's "Stop"
+  <para lang='en'>Following the same principle as "Previous page", your browser's "Stop"
   button interrupts the loading of a page.</para>
 
   <figure>
-    <title>Mozilla navigation buttons - Previous page, Page forward, Reload,
+    <title lang='en'>Mozilla navigation buttons - Previous page, Page forward, Reload,
     Stop</title>
 
     <mediaobject>
@@ -44,7 +44,7 @@
   </figure>
 
   <figure>
-    <title>Mozilla navigation buttons - Previous page, Page forward, Reload,
+    <title lang='en'>Mozilla navigation buttons - Previous page, Page forward, Reload,
     Stop</title>
 
     <mediaobject>
@@ -55,7 +55,7 @@
   </figure>
 
   <figure>
-    <title>Internet Explorer navigation buttons - Previous page, Page forward,
+    <title lang='en'>Internet Explorer navigation buttons - Previous page, Page forward,
     Stop, Reload</title>
 
     <mediaobject>
@@ -65,11 +65,11 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Warning</emphasis> During important operations
+  <para lang='en'><emphasis role="bold">Warning</emphasis> During important operations
   on the database (additions, deletions), you should not stop the loading of
   the page, you would be interrupting the update in progress and putting at
   risk the integrity of the database.</para>
 
-  <para>In particular, never click "cancel" when the database is being
+  <para lang='en'>In particular, never click "cancel" when the database is being
   restored, backed-up or optimized.</para>
 </chapter>
