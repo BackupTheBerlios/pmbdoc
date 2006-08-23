@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY __chap0_introduction SYSTEM "chap0_introduction.xml">
@@ -16,6 +16,7 @@
 <!ENTITY __chap8_outils SYSTEM "chap8_outils.xml">
 <!ENTITY __chap9_z3950 SYSTEM "chap9_z3950.xml">
 <!ENTITY __chap10_sauvegardes SYSTEM "chap10_sauvegardes.xml">
+<!ENTITY __chap11_acquisitions SYSTEM "chap11_acquisitions.xml">
 <!ENTITY __chap99_postface SYSTEM "chap99_postface.xml">
 ]>
 <book id="admin" lang="fr_FR">
@@ -112,5 +113,7 @@
 
   &__chap10_sauvegardes;
 
+  &__chap11_acquisitions;
+	
   &__chap99_postface;
 </book>
