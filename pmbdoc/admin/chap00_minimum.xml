@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="donnees_minimum">
-  <title lang="fr">Données minimums</title>
+  <chapterinfo>
+	 <releaseinfo>$Id: chap00_minimum.xml,v 1.4 2006/08/23 08:12:35 gautier Exp $</releaseinfo> 
+  </chapterinfo>	
 
-  <title lang="en">Minimum data set</title>
+  <title lang='fr'>Données minimums</title>
+
+  <title lang='en'>Minimum data set</title>
 
   <para lang="fr">PMB repose sur un ensemble de fichier (scripts PHP, XML,...)
   et une base de données. Pour pouvoir fonctionner, PMB nécessite qu'un jeu de
