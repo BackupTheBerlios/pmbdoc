@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="introduction">
+  <title lang='fr'>Introduction</title>
+
+  <sect1 id="introduction_sujetpmb">
+    <title lang='fr'>Au sujet de PMB</title>
+
+    <para lang='fr'>PMB est un SIGB (Système Intégré de Gestion de Bibliothèque)
+    entièrement libre. Le terrain des logiciels de bibliothèque est presque
+    exclusivement occupé par des produits propriétaires. Nous sommes quelques
+    bibliothécaires, utilisateurs et développeurs à déplorer cet état de
+    fait.</para>
+
+    <para lang='fr'>PMB est basé sur des technologies issues du Web. C'est ce que l'on
+    appelle parfois une `web-app`. Il se fonde sur un serveur HTTP
+    (basiquement Apache mais ce n'est pas une obligation), la base de donnée
+    MySQL et le langage PHP.</para>
+
+    <para lang='fr'>Vous pouvez trouver des informations supplémentaires sur <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
+
+    <para lang='fr'>Vous y trouverez aussi une version de démonstration en ligne, le
+    site des utilisateurs de PMB, les dernières versions du Guide
+    d'Installation, du Guide de l'utilisateur et du Guide de l'Administrateur
+    PMB.</para>
+  </sect1>
+
+  <sect1 id="introduction_infos">
+    <title lang='fr'>Où trouver des informations sur PMB</title>
+
+    <para lang='fr'>Sur le site de PMB : <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
+
+    <para lang='fr'>La communauté des utilisateurs dispose de trois types d'outils : un
+    wiki <ulink url="http://www.sigb.net/wiki">www.sigb.net/wiki</ulink> ; une
+    liste des utilisateurs et des forums. Consultez <ulink
+    url="http://www.sigb.net/communaute">www.sigb.net/communaute</ulink></para>
+
+    <para lang='fr'>La mailing liste des utilisateurs est ouverte à tous :
+    pmb.user@sigb.net (inscription libre en envoyant un mail avec pour sujet
+    SUBSCRIBE à pmb.user_request@sigb.net)</para>
+
+    <para lang='fr'>La mailing liste des traducteurs, des développeurs, du support de
+    l'unicode (alphabets non européens) est accessible. Pour plus de
+    renseignements sur ces listes, consulter <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
+
+    <para lang='fr'>Cette documentation est consultable en ligne sur <ulink
+    url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>.</para>
+  </sect1>
+
+  <sect1 id="introduction_references">
+    <title lang='fr'>Références</title>
+
+    <para lang='fr'><emphasis role="bold">Auteurs</emphasis></para>
+
+    <para lang='fr'>Coordination de la documentation : Gautier MICHELIN</para>
+
+    <para lang='fr'>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+
+    <para lang='fr'>Contributions de : François LEMARCHAND (ancien administrateur du
+    projet), Betty FAIS, Stéphanie FORT</para>
+
+    <para lang='fr'>Merci à l'Equipe des Développeurs PMB, aux anciens développeurs, aux
+    utilisateurs.</para>
+  </sect1>
+
+  <sect1 id="introduction_cvs">
+    <title lang='fr'>CVS</title>
+
+    <para lang='fr'>CVS signifie Concurrent Version System. Il s'agit d'un système de
+    gestion de mise à jour de code source pour programmeurs.</para>
+
+    <para lang='fr'>PMB dispose d'un CVS. Le CVS est accessible aux développeurs.
+    N'hésitez pas à nous contacter si vous souhaitez aider au développement de
+    PMB ou participer à la rédaction de la documentation.</para>
+  </sect1>
+</chapter>

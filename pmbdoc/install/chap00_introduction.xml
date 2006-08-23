@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter lang="fr">
+  <title lang='fr'>Introduction</title>
+
+  <para lang='fr'></para>
+
+  <sect1>
+    <title lang='fr'>Au sujet de PMB</title>
+
+    <para lang='fr'>PMB est un SIGB (Système Intégré de Gestion de Bibliothèque)
+    entièrement libre. Le terrain des logiciels de bibliothèque est presque
+    exclusivement occupé par des produits propriétaires. Nous sommes quelques
+    bibliothécaires, utilisateurs et développeurs à déplorer cet état de
+    fait.</para>
+
+    <para lang='fr'>PMB est basé sur des technologies issues du Web. C'est ce que l'on
+    appelle parfois une `web-app`. Il se fonde sur un serveur HTTP
+    (basiquement Apache mais ce n'est pas une obligation), la base de donnée
+    MySQL et le langage PHP.</para>
+
+    <para lang='fr'>Les principales fonctionnalités de PMB sont :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='fr'>Le support du format UNIMARC</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>La gestion des autorités (responsables, éditeurs, collections,
+        matières...)</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>La gestion du prêt, des réservations, des emprunteurs...</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>Un paramétrage simple</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>La possibilité d'importer des notices</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>Un OPAC simplifié intégrant un "butineur"</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>Un module de gestion des documents BDP pouvant convenir aux plus
+        petits établissements</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>La gestion des périodiques</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>Une administration simplifiée pouvant être assurée par le
+        personnel de la bibliothèque...</para>
+      </listitem>
+    </itemizedlist>
+
+    <para lang='fr'>Vous pouvez trouver des informations supplémentaires sur <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
+
+    <para lang='fr'>Vous y trouverez aussi une version de démonstration en ligne, le
+    site des utilisateurs de PMB, les dernières versions du Guide
+    d'Installation, du Guide de l'utilisateur et du Guide de l'Administrateur
+    PMB.</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Où trouver des informations sur PMB</title>
+
+    <para lang='fr'>Sur le site de PMB : <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
+
+    <para lang='fr'>Sur le site de la communauté des utilisateurs : <ulink
+    url="http://www.sigb.net">www.sigb.net/communaute</ulink></para>
+
+    <para lang='fr'>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
+    (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à <ulink
+    url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>)</para>
+
+    <para lang='fr'>Sur la mailing liste des traducteurs, des développeurs, du support
+    de l'unicode (alphabets non européens). Pour plus de renseignements sur
+    ces listes, consulter <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
+
+    <para lang='fr'>Cette documentation est consultable en ligne sur <ulink
+    url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>, elle est librement
+    téléchargeable au format HTML et est intégrable à PMB. Elle devient alors
+    une aide contextuelle.</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Références</title>
+
+    <para lang='fr'><emphasis role="bold">Auteurs</emphasis></para>
+
+    <para lang='fr'>Gautier MICHELIN, Eric ROBERT, Florent TETART et le cas échéant les
+    contributeurs de certaines parties de cette documentation.</para>
+
+    <para lang='fr'><emphasis role="bold">Installation sur les différentes
+    plateformes</emphasis></para>
+
+    <para lang='fr'>Les crédits des différents auteurs se trouvent en entête de leurs
+    contributions.</para>
+
+    <para lang='fr'>PMB est libre de droit, le code du logiciel est dû à la
+    collaboration de nombreux développeurs, dont les auteurs de ce manuel.
+    Merci à tous.</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>CVS</title>
+
+    <para lang='fr'>CVS signifie Concurrent Version System. Il s'agit d'un système de
+    gestion de mise à jour de code source pour programmeurs.</para>
+
+    <para lang='fr'>PMB dispose d'un CVS. Le CVS est accessible aux développeurs.
+    N'hésitez pas à nous contacter si vous souhaitez aider au développement de
+    PMB ou participer à la rédaction de la documentation.</para>
+
+    <para lang='fr'>Pour plus d'informations, prenez contact avec les développeurs de
+    PMB.</para>
+  </sect1>
+</chapter>

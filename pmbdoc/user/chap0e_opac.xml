@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="useropac">
+  <title lang='fr'>Le module OPAC</title>
+
+  <para lang='fr'>OPAC signifie <emphasis role="bold">O</emphasis>nline <emphasis
+  role="bold">P</emphasis>ublic <emphasis role="bold">A</emphasis>ccess
+  <emphasis role="bold">C</emphasis>atalog. Le module OPAC permet aux lecteurs
+  d'effectuer une recherche dans le catalogue de la bibliothèque.</para>
+
+  <para lang='fr'>En fait, le module OPAC de PMB correspond à un WebPAC : OPAC
+  accessible via le Web.</para>
+
+  <para lang='fr'>Le <emphasis>paramétrage</emphasis> de l'OPAC est décrit dans le
+  <emphasis>Guide de l'Administrateur PMB</emphasis>.</para>
+
+  <para lang='fr'>L'OPAC peut être séparé de l'interface de gestion de PMB, et placé sur
+  un serveur séparé. Pour plus d'informations sur l'installation de l'OPAC
+  consulter le <emphasis>Guide d'Installation PMB</emphasis>.</para>
+
+  <para lang='fr'><emphasis role="bold">Note</emphasis> ce chapitre ne constitue pas
+  l'aide de l'OPAC, mais uniquement un rapide aide-mémoire. Un <emphasis>Guide
+  de l'OPAC de PMB </emphasis>est en préparation.</para>
+
+  <sect1 id="useropac_access">
+    <title lang='fr'>Accès à l'OPAC</title>
+
+    <para lang='fr'>Le catalogue OPAC du centre documentaire géré par PMB sera
+    accessible par défaut à l'adresse internet suivante :</para>
+
+    <para lang='fr'><emphasis role="bold">[v1.3 à 2.2]</emphasis> <emphasis
+    role="bold">http://localhost/pmb/opac_css</emphasis></para>
+
+    <para lang='fr'><emphasis role="bold">[v1.0 à 1.2]</emphasis>
+    http://localhost/phpmybibli/opac_css</para>
+
+    <para lang='fr'><emphasis role="bold">[pre-v1]</emphasis>
+    http://localhost/phpmybibli/opac</para>
+
+    <para lang='fr'>Cependant, pour les autres postes connectés en réseau local, il
+    faudra remplacer <emphasis>localhost</emphasis> par le nom réseau du
+    serveur PMB.</para>
+
+    <para lang='fr'>Pour obtenir ce nom sous Windows, cliquez droit sur <emphasis>Poste
+    de travail </emphasis>puis choisissez <emphasis>Identification
+    réseau</emphasis>. Vous obtiendrez ainsi le nom de la machine sur le
+    réseau local.</para>
+
+    <para lang='fr'>Le catalogue en ligne produit par PMB est dynamique : il est
+    automatiquement mis à jour à chaque chargement de page. Ainsi une
+    modification depuis l'interface de gestion (voir sections suivantes) est
+    immédiatement répercutée. Un ouvrage catalogué est aussitôt accessible par
+    l'OPAC.</para>
+  </sect1>
+
+  <sect1 id="useropac_interface">
+    <title lang='fr'>Interface de l'OPAC</title>
+
+    <para lang='fr'>L'OPAC de PMB affiche 3 zones principales d'informations à
+    l'écran.</para>
+
+    <figure>
+      <title lang='fr'>écran d'accueil de l'OPAC</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/opac_home.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='fr'>Une zone de dialogue "rechercher" figure en haut de la
+        page.</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>Les catégories sont présentées dans la partie inférieure droite.
+        D'autres blocs peuvent également être affichés. L'OPAC est très
+        fortement configurable. Pour plus d'informations, consulter
+        le<emphasis> Guide de </emphasis><emphasis>l'Administrateur</emphasis>
+        chapitre <emphasis>Outils</emphasis> section
+        <emphasis>Paramètres</emphasis>.</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>Le bandeau de gauche (il peut être désactivé depuis
+        <emphasis>Administration &gt; Outils &gt; Paramètres</emphasis>) offre
+        la possibilité de s'identifier par le code barre de la carte de
+        lecteur. Vous y trouverez aussi les coordonnées de votre bibliothèque
+        ou de votre centre de documentation. Ces coordonnées sont
+        paramétrables dans <emphasis>Administration</emphasis> &gt;
+        <emphasis>Outils</emphasis> &gt; <emphasis>Paramètres</emphasis> (Pour
+        plus d'informations consulter le Guide de l'Administrateur PMB,
+        chapitre Outils).</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+  <sect1 id="useropac_keywords">
+    <title lang='fr'>Recherche par mots-clés</title>
+
+    <para lang='fr'>Si vous saisissez un terme dans la zone de texte "Rechercher",
+    l'OPAC affichera le résultat de votre recherche.Vous pouvez éventuellement
+    affiner votre recherche en cochant ou non les cases qui se rapportent aux
+    éléments qui seront interrogés : titre, auteur, collection...</para>
+
+    <para lang='fr'>L'OPAC de PMB conserve durant toute la durée de votre session
+    (depuis le début de votre connexion, c'est à dire la première fenêtre de
+    l'OPAC que vous avez ouverte) les recherches que vous avez faites.</para>
+  </sect1>
+
+  <sect1 id="useropac_categs">
+    <title lang='fr'>Parcours des catégories</title>
+
+    <para lang='fr'>Conçues pour permettre une exploration facilitée des ressources
+    documentaires, les catégories correspondent à un thésaurus hiérarchisé qui
+    doit être saisi dans PMB pour être utilisé.</para>
+  </sect1>
+
+  <sect1 id="useropac_lecteur">
+    <title lang='fr'>Accès au compte lecteur depuis l'OPAC</title>
+
+    <para lang='fr'>Les lecteurs enregistrés dans l'interface de gestion peuvent accéder
+    à leur compte depuis l'OPAC. Ils ont besoin pour cela de leur code barre
+    lecteur, qui figure sur leur carte, ainsi que de leur mot de passe.</para>
+
+    <para lang='fr'><emphasis role="bold">Note</emphasis> : par défaut ce mot de passe
+    est identique au code barre lecteur. Il peut être changé par l'interface
+    de gestion, ou à tout moment par le lecteur en passant par son compte
+    lecteur dans l'OPAC.</para>
+
+    <figure>
+      <title lang='fr'>fiche lecteur dans l'OPAC</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/opac_fiche_empr.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+</chapter>
