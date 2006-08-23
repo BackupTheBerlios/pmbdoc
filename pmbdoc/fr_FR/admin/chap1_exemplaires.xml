@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_expl">
   <title lang='fr'>Exemplaires</title>
 
@@ -10,19 +10,19 @@
   exemplaires.</para>
 
   <sect1 id="admin_expl_typdoc">
-    <title lang='fr'>Types de document</title>
+    <title lang='fr'>Support</title>
 
-    <para lang='fr'><emphasis role="bold">Types de documents</emphasis> permet de
+    <para lang='fr'><emphasis role="bold">Support</emphasis> permet de
     paramétrer les différents supports des exemplaires et pour chacun d'eux la
     durée du prêt en jours.</para>
 
-    <para lang='fr'>Attention, il s'agit ici des types de documents qui seront affichés
+    <para lang='fr'>Attention, il s'agit ici des supports qui seront affichés
     pour les exemplaires et non pour les ouvrages. Ceux-ci sont définis ici
     pour compléter ou afficher des précisions par rapport au type de document
     défini pour l'ouvrage. Les types de support des ouvrages sont normés en
     UNIMARC dans PMB.</para>
 
-    <para lang='fr'>Le type de document sert également à définir la <emphasis
+    <para lang='fr'>Le support sert également à définir la <emphasis
     role="">Durée du prêt</emphasis> ou la <emphasis role="">Durée de la
     réservation</emphasis> affectée à un exemplaire.</para>
 
@@ -37,8 +37,8 @@
     <para lang='fr'>Les deux colonnes <emphasis role="">propriétaire de
     codage</emphasis> et <emphasis role="">codage d'import
     </emphasis>correspondent à la gestion des informations recueillies lors de
-    l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un type de
-    document déjà défini. Voir le chapitre <emphasis>Définitions</emphasis>
+    l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un support. 
+	Voir le chapitre <emphasis>Définitions</emphasis>
     pour plus d'informations.</para>
 
     <figure>
@@ -152,7 +152,7 @@
 
     <para lang='fr'>Cette notion de localisation est très importante pour les
     bibliothèques multi-sites. Elle peut également être intéressante pour les
-    centres de documentation spécialisés : laboratoire de recherche ou
+    centres de documentations spécialisés : laboratoire de recherche ou
     entreprise, dans lesquels les livres peuvent être prêtés pour une durée
     plus ou moins longue. Ceux-ci sont sortis des rayonnages pour rejoindre le
     bureau d'études ou le bureau d'un chercheur. Dans ce cas, on peut se
@@ -171,7 +171,7 @@
     pour plus d'informations.</para>
 
     <para lang='fr'>Vous pouvez définir pour chaque localisation différents paramètres.
-    Ces paramètres définissent les lettres de relance, l'adresse de la
+    Ces paramètres définissent les lettres de relances, l'adresse de la
     bibliothèque par exemple. A chaque fois que l'adresse de la bibliothèque
     est nécessaire, PMB vient chercher la valeur qui correspond à sa
     localisation.</para>
@@ -213,7 +213,7 @@
       </mediaobject>
     </figure>
 
-    <para lang='fr'>Prenons un exemple. Ajoutons un champ intitulé <emphasis>Type de
+    <para lang='fr'>Prenons un exemple. Ajoutons un champs intitulé <emphasis>Type de
     couverture </emphasis>qui nous permettra de spécifier le type de reliure
     d'un ouvrage. Les reliures peuvent être de trois types : souple, cartonné,
     broché. Enfin tous les exemplaires ne correspondent pas forcément à des
