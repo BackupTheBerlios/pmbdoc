@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="ergo" lang="fr">
   <title lang='fr'>Ergonomie de l'interface de gestion</title>
+  
+  <title lang='es'>Ergonomía de la interfície de gestión</title>  
 
   <para lang='fr'>Voici un écran de l'interface de gestion de PMB. L'écran est divisé en
   trois parties.</para>
+  
+  <para lang='es'>Esta es una pantalla de la interfaz de gestión de PMB. La pantalla
+  está dividida en tres partes.</para>  
 
   <figure>
     <title lang='fr'>interface de gestion</title>
+	
+    <title lang='es'>interfaz de gestión</title>	
 
     <mediaobject>
       <imageobject>
@@ -17,15 +24,28 @@
 
   <para lang='fr'><emphasis role="bold">La barre de navigation
   supérieure</emphasis></para>
+  
+  <para lang='es'><emphasis role="bold">La barra de navegación 
+  superior</emphasis></para>  
+
 
   <para lang='fr'>Elle permet de basculer entre les différents modules de l'interface de
   gestion à tout moment.</para>
+  
+  <para lang='es'>Permite ir cambiando entre los diferentes módulos de la interfaz de
+  gestión en cualquier momento.</para>  
+
 
   <para lang='fr'>Seuls les modules auquel l'utilisateur aura accès seront
   affichés.</para>
+  
+  <para lang='es'>Solamente se visualizarán los módulos a los cuales el usuario tenga
+  acceso (según sus privilegios de usuario).</para>  
 
   <figure>
     <title lang='fr'>Barre de navigation supérieure</title>
+	
+    <title lang='es'>Barra de navegación superior</title>	
 
     <mediaobject>
       <imageobject>
@@ -36,9 +56,15 @@
 
   <para lang='fr'>A droite de la barre de navigation, au même niveau que les onglets,
   vous trouvez différentes icônes : <emphasis>historique</emphasis>,
-  a<emphasis>ide</emphasis>, <emphasis>préférences de
+  <emphasis>aide</emphasis>, <emphasis>préférences de
   l'utilisateur</emphasis>, <emphasis>opac</emphasis>,
   <emphasis>sauvegarde</emphasis> et <emphasis>quitter</emphasis>.</para>
+  
+  <para lang='es'>A la derecha de la barra de navegación, y al mismo nivel que las
+  pestañas de los módulos, se encuentran otros enlaces :
+  <emphasis>historial</emphasis>,<emphasis>ayuda</emphasis>,
+  <emphasis>preferencias del usuario</emphasis>, <emphasis>opac</emphasis>,
+  <emphasis>copia de seguridad</emphasis> y <emphasis>salir</emphasis>.</para>  
 
   <para lang='fr'><emphasis>historique</emphasis> ouvre dans un iframe (bloc à l'écran)
   un historique des recherches lancées dans l'interface de gestion de PMB. Ce
@@ -46,6 +72,14 @@
   catalogage. Pour plus d'informations sur les recherches, voir <xref
   linkend="cat_search" /> ; pour plus d'informations sur l'historique des
   recherches, voir <xref linkend="search_history" />.</para>
+  
+  <para lang='es'><emphasis>historial</emphasis> abre en un popup un histórico de las
+  búsquedas realizadas en la interfaz de gestión de PMB. Este enlace sólo se
+  muestra si el usuario dispone de los privilegios de acceso a la
+  catalogación. Para más información sobre las búsquedas, ver <xref
+  linkend="cat_search" /> ; para más información sobre el historial de
+  búsquedas, ver <xref linkend="search_history" />.</para>
+  
 
   <para lang='fr'><emphasis>aide</emphasis> permet d'accéder à l'aide contextuelle de
   PMB. Pour plus d'informations, consulter le chapitre <xref
@@ -53,26 +87,57 @@
   peut être paramétré. Pour plus d'informations, consulter le <emphasis>Guide
   de l'Administrateur PMB</emphasis>, chapitre <emphasis>Outils</emphasis>,
   section <emphasis>Paramètres</emphasis>.</para>
+  
+  <para lang='es'><emphasis>ayuda</emphasis> permite acceder a la ayuda contextual de PMB.
+  Para más información, consulta el capítulo <xref
+  linkend="aide_contextuelle" />. La visualización o no de la ayuda contextual
+  puede configurarse. Para más información, consulta la <emphasis>Guía del
+  Administrador de PMB</emphasis>, capítulo <emphasis>Herramientas</emphasis>,
+  sección <emphasis>Parámetros</emphasis>.</para>
+  
 
   <para lang='fr'><emphasis>préférences de l'utilisateur</emphasis>. permet d'accéder
   aux préférences de l'utilisateur connecté à PMB</para>
 
+  <para lang='es'><emphasis>preferencias del usuario</emphasis>. permite acceder
+  a las preferencias del usuario conectado a PMB</para>
+  
+
   <para lang='fr'><emphasis>opac</emphasis> ouvre une nouvelle fenêtre de votre
   navigateur et affiche l'OPAC</para>
+  
+  <para lang='es'><emphasis>opac</emphasis> abre una nueva ventana del navegador que
+  muestra el OPAC</para>  
+  
 
   <para lang='fr'><emphasis>sauvegarde</emphasis> vous permet de lancer vos
   sauvegardes</para>
+  
+  <para lang='es'><emphasis>copia de seguridad</emphasis> permite iniciar las copias
+  de seguridad</para>  
+  
 
   <para lang='fr'><emphasis>quitter</emphasis> déconnecte l'utilisateur en cours et
   renvoie à l'écran de login</para>
+  
+  <para lang='es'><emphasis>salir</emphasis> desconecta al usuario en curso y 
+  reenvía a la pantalla de conexión</para>  
+  
 
   <para lang='fr'><emphasis role="bold">Le menu latéral</emphasis></para>
+  
+  <para lang='es'><emphasis role="bold">El menú lateral</emphasis></para>
+  
 
   <para lang='fr'>Il permet d'accéder aux différentes fonctions de chacun des
   modules.</para>
+  
+  <para lang='es'>Permite acceder a las diferentes funciones de cada uno de los
+  módulos.</para>
 
   <figure>
     <title lang='fr'>Menu latéral</title>
+    <title lang='es'>Menú lateral</title>	
 
     <mediaobject>
       <imageobject>
@@ -82,13 +147,18 @@
   </figure>
 
   <para lang='fr'><emphasis role="bold">L'interface centrale</emphasis></para>
+  <para lang='es'><emphasis role="bold">La interfaz central</emphasis></para>
 
   <para lang='fr'>L'interface centrale constitue la partie de PMB dans laquelle vous
   pouvez saisir ou éditer des informations, exécuter des fonctions, valider
   des changements, etc.</para>
 
+  <para lang='es'>La interfaz central es la parte de PMB en la que puedes introducir o
+  editar datos, ejecutar funciones, validar los cambios, etc.</para>  
+
   <figure>
     <title lang='fr'>interface centrale</title>
+    <title lang='es'>interfaz central</title>	
 
     <mediaobject>
       <imageobject>
@@ -98,30 +168,38 @@
   </figure>
 
   <para lang='fr'><emphasis role="bold">Les alertes</emphasis></para>
+  <para lang='es'><emphasis role="bold">Las alertas</emphasis></para>  
 
   <para lang='fr'>Des alertes sont affichées à gauche sous le menu :</para>
+  <para lang='es'>Las alertas se visualizan a la izquierda debajo del menú :</para>
 
   <itemizedlist>
     <listitem>
       <para lang='fr'>si des réservations sont ajoutées</para>
+      <para lang='es'>si hay reservas añadidas</para>	  
     </listitem>
 
     <listitem>
       <para lang='fr'>si des ouvrages sont à ranger suite à des réservations
       annulées</para>
+	  
+      <para lang='es'>si hay documentos a colocar por reservas anuladas</para>	  
     </listitem>
 
     <listitem>
       <para lang='fr'>si des lecteurs ont une fin d'abonnement proche</para>
+      <para lang='es'>si hay usuarios que su abono finaliza pronto</para>	  
     </listitem>
 
     <listitem>
       <para lang='fr'>si des lecteurs ont un abonnement expiré</para>
+      <para lang='es'>si hay usuarios cuyo abono ha finalizado</para>	  
     </listitem>
   </itemizedlist>
 
   <figure>
     <title lang='fr'>alertes</title>
+    <title lang='es'>alertas</title>	
 
     <mediaobject>
       <imageobject>
@@ -131,13 +209,25 @@
   </figure>
 
   <para lang='fr'><emphasis role="bold">Les résultats de recherche</emphasis></para>
-
+  <para lang='es'><emphasis role="bold">Los resultados de la búsqueda</emphasis></para>
+  
+  
   <para lang='fr'>Les résultats de recherche dans l'interface de PMB sont présentés avec
   des numéros de pages cliquables en bas de l'écran : ceci vous permet de
   passer rapidement à la page de résultat souhaité.</para>
+  
+  <para lang='es'>Los resultados de las búsquedas en la interfaz de PMB se presentan
+  con los números de páginas de resultados clicables en la parte inferior de
+  la pantalla : esto permite pasar de una página de resultados a otra de forma
+  ágil.</para>  
 
   <para lang='fr'>Si vous avez lancé une recherche et que vous voulez passer directement
   aux résultats 11 à 20 de cette recherche, cliquez sur la page 2 pour les
   atteindre directement. Vous pouvez également utiliser les icônes page
   suivante et page précédente à l'écran (triangles bleus).</para>
+  
+  <para lang='es'>Si has realizado una búsqueda y lo que quieres es pasar directamente a
+  los resultados del 11 al 20 de esa búsqueda, haz clic en la página número 2
+  para ir de forma directa. También puedes utilizar los iconos de página
+  anterior y página siguiente de la pantalla (triángulos azules).</para>  
 </chapter>
