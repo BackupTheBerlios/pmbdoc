@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="prefs" lang="fr">
   <title lang='fr'>Préférences utilisateurs</title>
+  <title lang='es'>Preferencias de los usuarios</title>  
 
   <para lang='fr'>A chaque démarrage de PMB, vous devez saisir un mot de passe et un nom
   d'utilisateur. Ceci permet à PMB de vous identifier, et donc de connaître
@@ -8,6 +9,15 @@
   administration...). Ce couple nom d'utilisateur/mot de passe permet à PMB de
   retenir un certain nombre de paramètres qui vous permettront soit d'avoir
   une ergonomie personnalisée soit d'être affiché à vos couleurs.</para>
+  
+  <para lang='es'>Cada vez que se quiere iniciar PMB se debe introducir un nombre de
+  usuario y una contraseña. Esto permite a PMB identificar a los usuarios y
+  establecer cuales son los derechos y privilegios que cada usuario tiene en
+  la aplicación (circulación, catalogación, administración,...). La dualidad
+  nombre de usurio/contraseña permite a PMB retener cierto número de
+  parámetros que permitirán tener una ergonomía personalizada como por ejemplo
+  visualizar unos colores personalizados.</para>  
+
 
   <para lang='fr'>En somme, les préférences utilisateurs sont un ensemble de paramètres
   mémorisés pour un utilisateur. Ces préférences sont donc liées au nom
@@ -15,8 +25,17 @@
   cliquez sur le lien <emphasis>préf</emphasis>. en haut à droite de l'écran,
   à côté de <emphasis>quitter</emphasis>.</para>
 
+  <para lang='es'>Resumiendo, las preferencias de los usuarios son una serie de
+  parámetros memorizados para cada usuario. Estas preferencias están asociadas
+  a un nombre de usuario introducido en la pantalla de inicio de conexión.
+  Para consultar las preferencias, haz clic en el enlace
+  <emphasis>pref</emphasis>. en la parte superior derecha de la pantalla, al
+  lado de <emphasis>salir</emphasis>.</para>
+
+
   <figure>
     <title lang='fr'>préférences utilisateurs</title>
+	<title lang='es'>preferencias de los usurios</title>
 
     <mediaobject>
       <imageobject>
@@ -27,17 +46,28 @@
 
   <sect1 id="prefs_pass">
     <title lang='fr'>Mot de passe, langue, style</title>
+    <title lang='es'>Contraseña, idioma, estilo</title>	
 
     <para lang='fr'>Vous pouvez ici changer votre mot de passe. Si vous saisissez un
     <emphasis>Nouveau mot de passe</emphasis>, veuillez le ressaisir dans le
     champ <emphasis>Confirmation</emphasis>.</para>
+	
+    <para lang='es'>En este apartado puedes cambiar tu contraseña. Si introduces una
+    <emphasis>Nueva contraseña</emphasis>, debes volver a introducirla en el
+    campo <emphasis>Confirmar</emphasis>.</para>	
+
 
     <para lang='fr'>Vous pouvez aussi sélectionner une autre
     <emphasis>Langue</emphasis>. Attention, certaines langues nécessitent un
     style particulier pour permettre un affichage optimal.</para>
+	
+    <para lang='es'>También puedes seleccionar otro <emphasis>Idioma</emphasis>.
+    Atención, algunos idiomas necesitan un estilo particular para ser
+    visualizados de forma óptima.</para>	
 
     <table>
       <title lang='fr'>Langues et styles d'affichage adaptés</title>
+      <title lang='es'>Idomas y estilos de visualización adaptados</title>	  
 
       <tgroup cols="2">
         <thead>
@@ -102,7 +132,7 @@
 
     <para lang='fr'>Vous pouvez aussi changer le style de votre affichage :
     <emphasis>Style/thèm</emphasis>e.</para>
-
+	
     <table>
       <title lang='fr'>Styles disponibles dans l'interface de gestion de PMB</title>
 
