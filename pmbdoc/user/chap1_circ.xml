@@ -1189,16 +1189,27 @@
 
   <sect1 id="circ_visu">
     <title lang='fr'>Visualiser</title>
+    <title lang='es'>Visualizar</title>
+	
 
     <sect2 id="circ_visu_ex">
       <title lang='fr'>Exemplaire par code barre</title>
+      <title lang='es'>Ejemplar por código de barras</title>
 
       <para lang='fr'>Saisissez un code barre pour afficher des informations sur
       l'exemplaire correspondant.</para>
+	  
+      <para lang='es'>Introduce un código de barras para ver la información sobre ese
+      ejemplar.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
         premier écran</title>
+		
+        <title lang='es'>Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
+        primera pantalla</title>
+				
 
         <mediaobject>
           <imageobject>
@@ -1211,6 +1222,9 @@
         <title lang='fr'>Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
         écran de résultat</title>
 
+        <title lang='es'>Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
+        pantalla de resultados</title>		
+
         <mediaobject>
           <imageobject>
             <imagedata fileref="images/circ_visu_ex2.gif" />
@@ -1221,23 +1235,44 @@
 
     <sect2 id="circ_visu_rech">
       <title lang='fr'>Document par auteur/titre</title>
+      <title lang='es'>Documento por autor/título</title>	  
 
       <para lang='fr'>Vous accédez ici à un écran fonctionnant comme la partie recherche
       en catalogage. (Voir plus loin le chapitre
       <emphasis>Catalogue</emphasis>). Vous pouvez saisir un titre ou un
       auteur comme point de départ de votre recherche.</para>
+	  
+      <para lang='es'>Aquí se muestra una pantalla que funciona como la pantalla de
+      búsqueda de catalogación. (Ver un poco más abajo el capítulo
+      <emphasis>Catalogación</emphasis>). Puedes introducir un autor o un
+      título como punto de partida de tu búsqueda.</para>
+	  
+	  	  
 
       <para lang='fr'>Des troncatures sont utilisables ici en utilisant les expressions
       régulières. Pour obtenir plus d'informations à ce sujet, cliquez sur le
       lien <emphasis>"expression régulière"</emphasis>.</para>
+	  
+      <para lang='es'>Los truncamientos y los operadores booleanos también se pueden
+      usar aquí. Para ver más información sobre estos operadores, haz clic
+      sobre <emphasis>"operadores de búsqueda"</emphasis>.</para>	  
+	  
+	  
 
       <para lang='fr'>Vous pouvez également rechercher un ouvrage par son ISBN, son
       numéro commercial (EAN), ou comme précédemment par son numéro
       d'exemplaire.</para>
+	  
+      <para lang='es'>En este apartado puedes buscar un documento también por su ISBN,
+      su número comercial (EAN), o, como anteriormente, por número de
+      ejemplar.</para>	  
 
       <figure>
         <title lang='fr'>Circulation &gt; Visualiser &gt; Document par
         auteur/titre</title>
+		
+        <title lang='es'>Circulación &gt; Mostrar &gt; Documentos por
+        autor/título</title>		
 
         <mediaobject>
           <imageobject>
@@ -1250,22 +1285,40 @@
 
   <sect1 id="circ_resa">
     <title lang='fr'>Réservations</title>
+    <title lang='es'>Reservas</title>	
 
     <para lang='fr'>PMB permet de réserver des documents pour un lecteur. Les
     réservations sont accessibles dans l'onglet circulation en fiche lecteur
     (prêt de documents) et, suivant le paramétrage, dans l'OPAC, depuis la
     fiche lecteur. (Pour plus d'informations sur le paramétrage de l'OPAC,
     consulter le <emphasis>Guide de l'Administrateur PMB</emphasis>.)</para>
+	
+    <para lang='es'>PMB permite reservar documentos para un usuario. Las reservas están
+    accesibles en la pestaña circulación, dentro de cada ficha de usuario
+    (préstamo de documentos) y, según los parámetros, en el OPAC, dentro de la
+    ficha de usuario. (Para más información sobre los parámetros del OPAC,
+    consulta la <emphasis>Guía del Administrador PMB</emphasis>.)</para>	
+	
 
     <para lang='fr'>La gestion avancée des réservations est disponible depuis la version
     1.3 de PMB.</para>
+	
+    <para lang='es'>La gestión avanzada de las reservas está disponible a partir de la
+    versión 1.3 de PMB</para>	
+
 
     <sect2 id="circ_resa_encours">
       <title lang='fr'>En cours</title>
+      <title lang='es'>Actuales</title>	  
 
       <para lang='fr'>Dans cet écran, les réservations en cours sont affichées. La place
       dans la file d'attente est spécifiée si plusieurs lecteurs ont réservé
       le même ouvrage .</para>
+	  
+      <para lang='es'>En esta pantalla, se muestran las reservas en curso. El lugar en
+      la cola se especifica en el caso de que varios usuarios hayan reservado
+      la misma obra.</para>	  
+
 
       <para lang='fr'>Les réservations sont insérées comme étant non validées. Une fois
       une réservation ajoutée, la personne responsable des réservations sort
@@ -1274,19 +1327,44 @@
       rayons, dans l'onglet <emphasis>Editions</emphasis>, cliquez dans le
       menu sur réservations<emphasis> à traiter</emphasis>. (Pour plus
       d'informations, voir <xref linkend="edit" />).</para>
+	  
+      <para lang='es'>Las reservas se introducen en estado no validadas. Cuando se añade
+      una reserva, la persona responsable de las reservas la separa
+      de los estantes y la reserva (es decir, la aparta). Para editar una
+      lista de los ejemplares a apartar, en la pestaña
+      <emphasis>Préstamos</emphasis>, haz clic en el menú sobre reservas
+      <emphasis> a procesar</emphasis>. (Para más información, ver <xref linkend="edit" />).</para>
+	  
+	  	  
 
       <para lang='fr'>Un pointage est ensuite fait à la douchette des nouveaux
       exemplaires mis de côté. Les réservations sont alors "validées".</para>
+	  
+      <para lang='es'>Una vez apartados los documentos, se introducen los códigos de
+      barras con el lector de códigos de barras, de forma que las reservas
+      quedan "validadas".</para>	  
+
 
       <para lang='fr'>Si vous voulez supprimer une réservation, cochez la case
       <emphasis>Supprimer</emphasis> puis cliquez sur le bouton
       <emphasis>Valider les suppressions</emphasis>.</para>
+	  
+      <para lang='es'>Si quieres suprimir una reserva, haz clic 
+	  en <emphasis>Suprimir</emphasis> y después haz clic en 
+	  <emphasis>Validar las reservas suprimidas.</emphasis>.</para>
+	  
+	  	  
 
       <para lang='fr'>Vous pouvez également supprimer une réservation directement depuis
       la fiche du lecteur.</para>
+	  
+      <para lang='es'>También puedes eliminar una reserva directamente desde 
+	  la ficha del usuario.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Circulation &gt; Réservations &gt; En cours</title>
+        <title lang='es'>Circulación &gt; Reservas &gt; Actuales</title>		
 
         <mediaobject>
           <imageobject>
@@ -1298,23 +1376,45 @@
       <para lang='fr'>Vous pouvez imprimer des lettres de confirmation des réservations
       prises en compte. Pour cela, cliquez sur le bouton <emphasis>Lettres de
       confirmation</emphasis></para>
+	  
+      <para lang='es'>ara imprimir las las cartas de confirmación de las reservas, haz
+      lic en <emphasis>Cartas de confirmación</emphasis></para>
+	  
+	  	  
     </sect2>
 
     <sect2 id="circ_resa_depassee">
       <title lang='fr'>Dépassées</title>
+	  <title lang='es'>Reservas pasadas</title>	  
 
       <para lang='fr'>L'écran des réservations dépassées liste les réservations qui
       n'ont pas été annulées et ont une date de validité dépassée. Vous devrez
       alors les supprimer. Pour supprimer une réservation, cochez la case
       <emphasis>Supprimer</emphasis> puis cliquez sur le bouton
       <emphasis>Valider les suppressions</emphasis>.</para>
+	  
+      <para lang='es'>La pantalla de reservas pasadas muestra las reservas que no han
+      sido anuladas y que los usuarios no han pasado a buscar y, por tanto, se
+      ha pasado el tiempo de reserva. En estos casos puedes suprimirlas. Para
+      suprimir una reserva, selecciona la reserva y haz clic en Suprimir la
+      selección, después haz clic en <emphasis>Validar las reservas
+      suprimidas</emphasis>.</para>
+	  
+	  	  
 
       <para lang='fr'>Vous pouvez souhaiter laisser un délai supplémentaire aux
       réservations même dépassées. Dans ce cas, ne supprimez pas les
       réservations dépassées avant la fin de ce délai.</para>
+	  
+      <para lang='es'>También puedes dejar pasar un tiempo suplementario a las reservas
+      pasadas. En este caso no suprimas las reservas antes de que haya pasado
+      este período suplementario..</para>
+	  
+	  	  
 
       <figure>
         <title lang='fr'>Circulation &gt; réservations &gt; dépassées</title>
+        <title lang='es'>Circulación &gt; reservas &gt; pasadas</title>		
 
         <mediaobject>
           <imageobject>
@@ -1326,6 +1426,7 @@
 
     <sect2 id="circ_resa_docranger">
       <title lang='fr'>Doc. à ranger</title>
+      <title lang='es'>Doc. a colocar</title>	  
 
       <para lang='fr'>La liste des documents à ranger présente les documents réservés,
       qui ont normalement été sortis des rayons et réservés avec le nom du
@@ -1333,9 +1434,16 @@
       placées dans la majorité des cas au guichet d'accueil de la bibliothèque
       ; "doc. à ranger" permet de faire le point sur les documents qui doivent
       rejoindre les rayons.</para>
+	  
+      <para lang='es'>La lista de documentos a colocar muestra los documentos
+      reservados, que están apartados, pero que la reserva ha sido suprimida.
+      Esta lista permite volver a poner en las estanterías los documentos que
+      no han venido a buscar los usuarios, o aquellos en que directamente la
+      reserva se ha suprimido.</para>	  
 
       <figure>
         <title lang='fr'>Circulation &gt; réservations &gt; à ranger</title>
+        <title lang='es'>Circulación &gt; reservas &gt; a colocar</title>		
 
         <mediaobject>
           <imageobject>
@@ -1348,21 +1456,35 @@
 
   <sect1 id="relances">
     <title lang='fr'>Relances</title>
+    <title lang='es'>Reclamaciones</title>	
 
     <para lang='fr'>La gestion avancées des relances est liée à l'utilisation de la
     gestion financière des lecteurs. Pour plus d'informations sur l'activation
     de la gestion financière des lecteurs, consulter le <emphasis>Guide de
     l'Administrateur PMB</emphasis>, chapitre Gestion financière des
     lecteurs.</para>
+	
+    <para lang='es'>La gestión avanzada de las reclamaciones está asociada al uso de la
+    gestión financera de los usuarios. Para más información sobre cómo activar
+    la gestión financiera de los usuarios, consulta la <emphasis>Guía del
+    Administrador PMB</emphasis>, capítulo Gestión financiera de los
+    usuarios.</para>	
 
     <sect2 id="relances_todo">
       <title lang='fr'>Relances à faire</title>
+      <title lang='es'>Reclamaciones a realizar</title>	  
 
       <para lang='fr'>Dans cet écran, vous pourrez consulter la liste des relances
       lecteurs qui peuvent être faites.</para>
+	  
+      <para lang='es'>En esta pantalla, puedes consultar la lista de las
+      reclamaciones a usuarios que puedes realizar.</para>
+	  
+	  	  
 
       <figure>
         <title lang='fr'>Relances à faire</title>
+        <title lang='es'>Reclamaciones a realizar</title>		
 
         <mediaobject>
           <imageobject>
@@ -1375,69 +1497,127 @@
       lecteurs. Ces lettres ont un contenu variable suivant le niveau de
       relance. Le niveau 2 est le plus faible niveau de relance (retard
       léger).</para>
+	  
+      <para lang='es'>Puedes imprimir las cartas de reclamaciones para cada uno de los
+      usuarios. El contenido de estas cartas varía dependiendo del nivel de
+      reclamación. En el nivel 2, el contenido de la carta es más suave que en
+      niveles más altos, cuando el retraso de los documentos es más
+      largo.</para>
+	  
+	  	  
 
       <para lang='fr'>Lorsque l'envoi de la lettre de relance a été réalisé pour le
       lecteur, vous pouvez changer le niveau de retard du lecteur.</para>
+	  
+      <para lang='es'>Una vez has enviado la carta al usuario, puedes cambiar el nivel
+      de retraso del usuario.</para>
+	  
+	  	  
 
       <para lang='fr'>Pour chaque lecteur, vous pouvez :</para>
+      <para lang='es'>Para cada usuario, puedes :</para>	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>voir le code barre du lecteur, son nom, le nombre de livres en
           retard</para>
+		  
+          <para lang='es'>ver el código de barras del usuario, su nombre, el número de
+          libros que tiene en retraso</para>
+		  		  
         </listitem>
 
         <listitem>
           <para lang='fr'>voir le dernier niveau de retard validé (correspond à la
           lettre de relance du plus haut niveau, soit le plus petit
           chiffre)</para>
+		  
+          <para lang='es'>ver el último nivel de retraso validado (corresponde a la
+          carta de reclamación de más nivel)</para>
+		  
+		  		  
         </listitem>
 
         <listitem>
           <para lang='fr'>voir la date de dernière validation (correspond au dernier
           envoi d'une relance)</para>
+		  
+         <para lang='es'>ver la fecha de la última validación (corresponde al último
+          envío de una reclamación)</para>		  
         </listitem>
 
         <listitem>
           <para lang='fr'>voir le niveau supposé : il s'agit du niveau de relance que
           PMB propose en fonction du retard des différents ouvrages</para>
+		  
+          <para lang='es'>ver el nivel supuesto : es el nivel que PMB propone en función
+          del retraso de los diferentes documentos</para>
+		  		  		  
         </listitem>
 
         <listitem>
           <para lang='fr'>réaliser un changement de niveau et, le cas échéant, passer en
           recouvrement</para>
+		  
+          <para lang='es'>realizar un cambio de nivel y, cuando proceda, pasar a
+          cobrar.</para>
+		  		  
         </listitem>
       </itemizedlist>
     </sect2>
 
     <sect2 id="relances_recouvr">
       <title lang='fr'>Recouvrement</title>
+	  <title lang='es'>Cobros</title>	  
+
 
       <para lang='fr'>Le passage en recouvrement signifie transmettre le dossier des
       comptes à une institution qui sera chargée de la récupération, du
       recouvrement des amendes notamment.</para>
+	  
+      <para lang='es'>El apartado de cobros sirve para transmitir el estado de cuentas
+      de un usuario a una institución que será la que se encargue de realizar
+      la recuperación y el cobro de las multas.</para>	  
+
 
       <para lang='fr'>Cet écran est avant tout un moyen de consultation. En effet,
       lorsque les comptes sont transmis pour recouvrement celles ci ne
       relèvent plus du fonctionnement de la bibliothèque ou du centre de
       documentation (transmission à la mairie pour une bibliothèque publique,
       au service comptable pour un centre de documentation, ...).</para>
+	  
+      <para lang='es'>Esta pantalla es ante todo una forma de consulta. Una vez los
+      datos del estado de cuentas de un usuario son transmitidos para el
+      cobro, ya no constán más en la base de datos de la biblioteca, ni en el
+      funcionamiento de la misma (pasan a formar parte del ayuntamiento o del
+      departamento contable, ...).</para>	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Suggestion</title>
+    <title lang='es'>Sugerencias</title>	
 
     <para lang='fr'>Cette partie du menu vous permet de créer une suggestion
     d'acquistion pour la bibliothèque ou le centre de ressources.</para>
+	
+    <para lang='es'>Este apartado del menú permite crear una sugerencia de compra o desiderata 
+	para la biblioteca o el centro de recursos.</para>	
 
     <sect2>
       <title lang='fr'>Faire une suggestion</title>
+      <title lang='es'>Hacer una sugerencia de compra</title>
 
       <para lang='fr'>Pour plus d'informations sur l'ajout d'une suggestion, consulter
       plus loin dans ce <emphasis>Guide de l'utilisateur</emphasis>, le
       chapitre <emphasis>Acquistions</emphasis> : <xref
       linkend="acquis_sugg_create" />.</para>
+	  
+      <para lang='es'>Para más información sobre cómo añadir una sugerencia de compra, consulta 
+      un poco más abajo ce esta <emphasis>Guía del usuario</emphasis>, el
+      capítulo <emphasis>Compras</emphasis> : <xref
+      linkend="acquis_sugg_create" />.</para>
+	  	  
     </sect2>
   </sect1>
 </chapter>
