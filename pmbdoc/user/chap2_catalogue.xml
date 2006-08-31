@@ -2093,15 +2093,30 @@
           <para lang='fr'>Pour modifier une notice, cliquez sur le bouton Modifier qui
           se trouve sous la notice, au dessus de la liste des exemplaires
           correspondant.</para>
+		  
+          <para lang='es'>Para modificar un registro, haz clic sobre el botón Modificar
+          que está en la parte inferior del registro, justo antes de la lista
+          de ejemplares.</para>		  
+
 
           <para lang='fr'>En modification de la notice, vous obtenez un affichage des
           champs de la notice identique à sa création (voir plus haut la
           section 1.2.1.2 Saisie des données de la notice). Cependant, vous
           pouvez voir des boutons supplémentaires en bas de l'écran.</para>
+		  
+          <para lang='es'>Cuando modificas un registro lo haces sobre la misma pantalla
+          de cuando creas un registro (ver más arriba la sección 1.2.1.2
+          Introducir datos de un registro). Además tienes otros botones
+          suplementarios que permiten otras accciones:</para>
+		  		  
 
           <figure>
             <title lang='fr'>Boutons disponibles en bas de l'écran de modification d'une
             notice</title>
+			
+            <title lang='es'>Botones disponibles en la parte inferior de la pantalla de
+            modificación de un registro</title>			
+			
 
             <mediaobject>
               <imageobject>
@@ -2112,26 +2127,42 @@
 
           <sect5>
             <title lang='fr'>Remplacer par</title>
+            <title lang='es'>Reemplazar por</title>			
+			
 
             <para lang='fr'>Permet de remplacer une notice par une autre, ceci vous
             permet de dédoublonner et de rassembler différents exemplaires
             liés avec différentes notices en doublon.</para>
+			
+            <para lang='es'>Permite reemplazar un registro por otro, esto permite juntar
+            diversos ejemplares duplicados o separados.</para>			
           </sect5>
 
           <sect5>
             <title lang='fr'>Dupliquer</title>
+            <title lang='es'>Duplicar</title>			
 
             <para lang='fr'>Permet de dupliquer une notice. Une nouvelle notice est
             affichée, appliquez à celle-ci les différences que présente
             l'ouvrage à cataloguer avec la notice d'origine et enregistrez la
             nouvelle notice.</para>
-
+			
+            <para lang='es'>Permite duplicar un registro. Al duplicar se muestra un
+            nuevo registro que se puede modificar para aplicar las diferencias
+            con el registro original.</para>			
+			
+			
+			
             <para lang='fr'>Cette fonctionnalité est très utile lors du catalogage de
             toute une collection ou d'une série.</para>
+			
+			<para lang='es'>Esta acción es muy útil a la hora de catalogar toda una
+            coleccción o una serie</para>
           </sect5>
 
           <sect5>
             <title lang='fr'>Hist.</title>
+            <title lang='es'>Hist.</title>			
 
             <para lang='fr'>Ce bouton n'est affiché que si l'audit des notices et des
             exemplaires est affiché. Il va permettre de voir qui a réalisé le
@@ -2141,9 +2172,18 @@
             l'Administrateur PMB, chapitre Outils, section Paramètres : il
             s'agit du paramètre de type Paramètres généraux intitulé
             type_audit.</para>
+			
+            <para lang='es'>Este botón sólo se muestra si la autoría de los registros y
+            ejemplares está activa. Permite ver quién ha creado el registro,
+            quién lo ha modificado, etc. Toda esta información se muestra en
+            un popup y depende del tipo de autoría escogida. Para más
+            información, consulta la Guía del Administrador PMB, capítulo
+            Herramientas, sección Parámetros : hace referencia al párametro
+            general llamado type_audit.</para>			
 
             <figure>
               <title lang='fr'>Historique</title>
+              <title lang='es'>Historique</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -2155,30 +2195,50 @@
 
           <sect5>
             <title lang='fr'>Z39.50</title>
+            <title lang='fr'>Z39.50</title>
 
             <para lang='fr'>Permet de rechercher une notice en Z39.50. Ce bouton relance
             une recherche correspondant à l'ISBN de la notice affichée.</para>
+			
+            <para lang='es'>Permite buscar un registro a través de la pasarela Z39.50.
+            Este botón inicia una búsqueda a partir del ISBN del
+            registro.</para>			
           </sect5>
 
           <sect5>
             <title lang='fr'>Supprimer</title>
+            <title lang='es'>Eliminar</title>			
+
 
             <para lang='fr'>Permet de supprimer une notice. Attention, vous ne pourrez
             supprimer une notice que si elle n'a aucun exemplaire ou document
             numérique associé.</para>
+
+            <para lang='es'>Permite eliminar un registro. Atención, no podrás eliminar
+            un registro que tenga ejemplares o documentos electrónicos
+            asociados.</para>			
+			
           </sect5>
         </sect4>
 
         <sect4 id="cat_expl_create">
           <title lang='fr'>Ajout d'un exemplaire</title>
+          <title lang='es'>Añadir un ejemplar</title>		  
 
           <para lang='fr'>Pour modifier un des exemplaires de l'ouvrage, cliquez sur son
           code barre. Pour ajouter un exemplaire, saisissez le <emphasis>N° de
           l'exemplaire</emphasis> puis cliquez sur <emphasis>Ajouter un
           exemplaire</emphasis>.</para>
+		  
+          <para lang='es'>Para modificar un ejemplar de un documento, haz clic en su
+          código de barras. Para añadir un ejemplar, introduce el número de
+          ejemplar y haz clic en <emphasis>Añadir un
+          ejemplar</emphasis>.</para>		  
 
           <figure>
             <title lang='fr'>Ajout d'un exemplaire : saisie du num? d'exemplaire</title>
+            <title lang='es'>Añadir un ejemplar : introducir el número de
+            ejemplar</title>			
 
             <mediaobject>
               <imageobject>
@@ -2191,9 +2251,16 @@
           vous avez posé en couverture, si vous utilisez une douchette. Dans
           le cas contraire, il s'agit d'un numéro distinct pour chacun des
           exemplaires de votre bibliothèque (numéro d'inventaire).</para>
+		  
+          <para lang='es'>El <emphasis>número de ejemplar</emphasis> es el código 
+		  de barras que tú has colocado en la cubierta o en la portada del documento, 
+		  en el caso que utilices un lector de códigos de barra. En caso contrario, se
+          necesita un número distinto para cada uno de los ejemplares de la
+          biblioteca (un número de inventario).</para>		  
 
           <figure>
             <title lang='fr'>Ajouter un exemplaire</title>
+            <title lang='es'>Añadir un ejemplar</title>			
 
             <mediaobject>
               <imageobject>
@@ -2204,6 +2271,9 @@
 
           <para lang='fr'>L'écran d'ajout d'exemplaire vous permet de saisir différentes
           informations :</para>
+		  
+          <para lang='es'>La pantalla de añadir un ejemplar permite introducir alguna
+          información más :</para>		  
 
           <itemizedlist>
             <listitem>
@@ -2213,6 +2283,14 @@
               le bouton "..." et douchettez le code barre de l'exemplaire dans
               le popup (ou saisissez un nouveau n° d'exemplaire puis
               valider).</para>
+			  
+              <para lang='es'>se muetra el <emphasis role="bold">nº de ejemplar</emphasis>. 
+			  Esta información es <emphasis
+              role="bold">obligatoria</emphasis>. Para modificarlo haz clic en
+              botón "...", lee con el lector de códigos de barra el nuevo código 
+			  (o introduce el nuevo código de barras en el
+              popup y valídalo).</para>
+			  			  
             </listitem>
 
             <listitem>
@@ -2220,6 +2298,12 @@
               information est <emphasis role="bold">obligatoire</emphasis>. La
               cote est souvent composée de l'indexation décimale suivie des
               trois premières lettres de l'auteur.</para>
+			  
+              <para lang='es'>introduce una <emphasis role="bold">signatura</emphasis>.
+              Esta información es <emphasis
+              role="bold">obligatoria</emphasis>. La signatura se compone a
+              menudo de la indexación decimal y de las tres primeras letras
+              del apellido del autor.</para>			  
             </listitem>
 
             <listitem>
@@ -2227,6 +2311,13 @@
               </emphasis>parmi les choix du menu déroulant. La liste des types
               de documents est configurable dans <emphasis>Administration &gt;
               Exemplaires &gt; Types de document</emphasis>.</para>
+			  
+              <para lang='es'>selecciona el <emphasis role="bold">tipo de documento
+              </emphasis>de entre las diferentes opciones que se muestran. La
+              lista de los diferentes tipos de documentos se configura en
+              <emphasis>Administración &gt; Ejemplares &gt; Tipos de
+              documentos</emphasis>.</para>
+			  			  
             </listitem>
 
             <listitem>
@@ -2234,6 +2325,11 @@
               </emphasis>parmi le menu déroulant. La liste des localisations
               est configurable dans <emphasis>Administration &gt; Exemplaires
               &gt; Localisations</emphasis>.</para>
+			  
+              <para lang='es'>selecciona la <emphasis role="bold">localización
+              </emphasis>del menú desplegable. La lista de las localizaciones
+              se configura en <emphasis>Administración &gt; Ejemplares &gt;
+              Localizaciones</emphasis>.</para>			  
             </listitem>
 
             <listitem>
@@ -2241,6 +2337,11 @@
               parmi les choix du menu déroulant. La liste des sections est
               configurable dans <emphasis>Administration &gt; Exemplaires &gt;
               Sections</emphasis>.</para>
+			  
+              <para lang='es'>selecciona la <emphasis role="bold">sección</emphasis>
+			   del menú desplegable. La lista de secciones se configura 
+			   en <emphasis>Administración &gt; Ejemplares &gt; Secciones</emphasis>.</para>
+			  			  
             </listitem>
 
             <listitem>
@@ -2251,6 +2352,15 @@
               Propriétaires</emphasis>. Généralement il s'agit du Fonds
               propre. Cependant, vous pouvez avoir un dépôt de votre BDP, ou
               d'une autre bibliothèque.</para>
+			  
+              <para lang='es'>selecciona un <emphasis
+              role="bold">proprietario</emphasis> del ejemplar de entre la
+              lista del menú desplegable. La lista de propietarios se
+              configura <emphasis>en Administración &gt; Ejemplares &gt;
+              Proprietarios</emphasis>. Generalmente se muestra un Fondo
+              propio. A veces puede haber un depósito en otra biblioteca o en
+              otro centro.</para>
+			  
             </listitem>
 
             <listitem>
@@ -2258,12 +2368,21 @@
               l'exemplaire parmi les choix du menu déroulant. La liste des
               statuts est configurable dans <emphasis>Administration &gt;
               Exemplaires &gt; Statuts </emphasis>.</para>
+			  
+              <para lang='es'>selecciona el <emphasis role="bold">estado</emphasis> del
+              ejemplar de entre las opciones del menú desplegable. La lista de
+              estados se configura en <emphasis>Administración &gt; Ejemplares
+              &gt; Estados</emphasis>.</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>sélectionnez le <emphasis role="bold">code statistique
               </emphasis>de l'exemplaire parmi les choix du menu
               déroulant.</para>
+			  
+              <para lang='es'>selecciona el <emphasis role="bold">código estadístico
+              </emphasis>del ejemplar de entre las opciones del menú
+              desplegable.</para>			  
             </listitem>
 
             <listitem>
@@ -2272,10 +2391,16 @@
               message sera affiché avant tout prêt. Par exemple : "méthode
               ASSIMIL, vérifier la présence des trois cassettes dans le
               boîtier".</para>
+			  
+              <para lang='es'>también puedes introducir algunas <emphasis
+              role="bold">notas</emphasis> asociadas al ejemplar. Estas notas
+              o mensaje se mostrará antes de realizar un préstamo. Por ejemplo
+              : "incluye cd, verifica que esté incluído".</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>vous pouvez enfin définir un prêt.</para>
+              <para lang='es'>también puedes definir un tipo de préstamo.</para>			  
             </listitem>
           </itemizedlist>
 
@@ -2283,6 +2408,13 @@
           défaut définie dans vos <emphasis>préférences
           utilisateur</emphasis>. Pour plus d'informations, consulter le
           chapitre <emphasis>Préférences utilisateur</emphasis>.</para>
+		  
+          <para lang='es'>Algunos de estos campos pueden incluir un valor por defecto
+          definido por en tu <emphasis>preferencias de usuario</emphasis>.
+          Para más información, consulta el capítulo <emphasis>Prerencias
+          usuario</emphasis>.</para>
+		  
+		  		  
 
           <para lang='fr'>En <emphasis>dessous du prix </emphasis>figurent les <emphasis
           role="bold">champs personnalisés </emphasis>de l'exemplaire. Il
@@ -2291,16 +2423,37 @@
           Personnalisables.</emphasis> Pour plus d'informations, consulter le
           <emphasis>Guide de l'Administrateur de PMB</emphasis>, chapitre
           <emphasis>Exemplaires</emphasis>.</para>
+		  
+          <para lang='es'>Debajo del precio </emphasis>figuran los <emphasis
+          role="bold">campos personalizados </emphasis>del ejemplar. Se
+          mostrarán todos los datos suplementarios que hayas definido o que
+          definas en <emphasis>Administración &gt; Ejemplares &gt;
+          Personalizables.</emphasis> Para más información, consulta la
+          <emphasis>Guía del Administrador de PMB</emphasis>, capítulo
+          <emphasis>Ejemplares</emphasis>.</para>
+		  
+		  		  
 
           <para lang='fr'>Vous pouvez enregistrer vos modifications en cliquant sur
           <emphasis>Enregistrer</emphasis> ou les
           <emphasis>Annuler</emphasis>. Si vous avez ouvert un exemplaire en
           modification, vous pouvez également <emphasis>Supprimer
           </emphasis>cet exemplaire.</para>
+		  
+          <para lang='es'>Para guardar los cambios haz clic sobre
+          <emphasis>Guardar</emphasis> o sobre <emphasis>Cancelar</emphasis>
+          si no quieres guardar los cambios. Cuando tienes abierto un ejemplar
+          para modificarlo, también puedes <emphasis>Eliminar </emphasis>ese
+          ejemplar.</para>
+		  
         </sect4>
+		
 
         <sect4 id="cat_explnum_create">
           <title lang='fr'>Ajout d'un exemplaire numérique</title>
+		  
+          <title lang='es'>Añadir un documento electrónico</title>		  
+		  
 
           <para lang='fr'>Les exemplaires numériques ne sont pas des liens, mais des
           documents numériques directement intégrés dans votre catalogue sous
@@ -2309,8 +2462,14 @@
           au format MP3, des documents de votre traitement de texte ou de
           votre tableur, des images...</para>
 
+          <para lang='es'>Los ejemplares electrónicos no son enlaces, sino que son
+          documentos directamente integrados en el catálogo de PMB. Puedes
+          añadir al catálogo documentos en formato PDF, archivos de sonido en
+          formato MP3, documentos de texto, imágenes, ...</para>
+
           <figure>
             <title lang='fr'>Saisie d'un exemplaire numérique</title>
+            <title lang='es'>Introducir un documento electrónico</title>			
 
             <mediaobject>
               <imageobject>
@@ -2320,10 +2479,12 @@
           </figure>
 
           <para lang='fr'>Vous pouvez définir différentes informations :</para>
+          <para lang='es'>Puedes introducir algunos datos :</para>		  
 
           <itemizedlist>
             <listitem>
               <para lang='fr'>un <emphasis role="bold">nom</emphasis> du document</para>
+              <para lang='es'>un <emphasis role="bold">nombre</emphasis> del documento</para>			  
             </listitem>
 
             <listitem>
@@ -2331,6 +2492,12 @@
               numérique. Cliquez sur le bouton <emphasis>Parcourir</emphasis>
               (ou <emphasis>Browse</emphasis> selon votre navigateur) et
               sélectionnez le fichier à télécharger sur le serveur.</para>
+			  
+              <para lang='es'>el <emphasis role="bold">archivo</emphasis> del documento
+              electrónico. Haz clic sobre el botón <emphasis>Navega</emphasis>
+              (o <emphasis>Navegar</emphasis> según el navegador que uses) y
+              selecciona el archivo para cargarlo en el servidor.</para>
+			  			  
             </listitem>
 
             <listitem>
@@ -2339,6 +2506,12 @@
               <emphasis>Parcourir</emphasis> (ou <emphasis>Browse</emphasis>
               selon votre navigateur) et sélectionnez le fichier à télécharger
               sur le serveur.</para>
+			  
+              <para lang='es'><emphasis role="bold">una imagen</emphasis> (imagen que se
+              mostrará como el icono del documento electrónico). Haz clic
+              sobre el botón <emphasis>Navega</emphasis> (o
+              <emphasis>Navegar</emphasis> según el navegador que uses) y
+              selecciona el archivo a para cargarlo en el servidor.</para>			  
             </listitem>
 
             <listitem>
@@ -2346,29 +2519,51 @@
               fichier qui n'est pas sur votre disque mais sur votre réseau
               intranet ou sur internet. Dans ce cas spécifiez <emphasis
               role="bold">l'URL </emphasis>du fichier.</para>
+			  
+              <para lang='es'>puedes igualmente cargar también archivos en el servidor
+              que no estén en tu disco duro sino en tu intranet o en internet.
+              En este caso especifica el <emphasis role="bold">URL
+              </emphasis>del archivo.</para>			  
             </listitem>
           </itemizedlist>
 
           <para lang='fr'>PMB génère automatiquement les vignettes des images au format
           GIF, JPG et PNG à partir du fichier, et place des icônes appropriées
           pour la plupart des formats de fichier.</para>
+		  
+          <para lang='es'>PMB genera automáticamente las imágenes que se usarán como
+          icono de imágenes en formato GIF, JPG y PNG a partir del archivo, y
+          utiliza los iconos apropiados para la mayoría de formatos de
+          arvhivos.</para>		  
+
 
           <para lang='fr'>Vous pouvez enregistrer vos modifications en cliquant sur
           <emphasis>Enregistrer</emphasis> ou les
           <emphasis>Annuler</emphasis>. Si vous avez ouvert un exemplaire
           numérique en modification, vous pouvez également <emphasis>Supprimer
           </emphasis>cet exemplaire numérique.</para>
+		  
+          <para lang='es'>Puedes guardar los cambios o modificaciones haciendo clic
+          sobre <emphasis>Guardar</emphasis> o bien
+          <emphasis>Cancelar</emphasis>. Si tienes abierto un documento
+          electrónico para modificarlo, también lo puedes
+          <emphasis>Eliminar</para>		  
         </sect4>
 
         <sect4 id="cat_edit_expl">
           <title lang='fr'>Modifier un exemplaire</title>
+          <title lang='es'>Modificar un ejemplar</title>		  
 
           <para lang='fr'>L'écran de modification est identique à celui d'ajout d'un
           exemplaire auquel viennent s'ajouter deux boutons : Hist. et
           Supprimer.</para>
+		  
+          <para lang='es'>La pantalla de modificación es idéntica a la de crear un
+          ejemplar, aunque incluye dos botones más : Hist. y Eliminar.</para>		  
 
           <sect5>
             <title lang='fr'>Hist.</title>
+            <title lang='fr'>Hist.</title>			
 
             <para lang='fr'>Ce bouton n'est affiché que si l'audit des notices et des
             exemplaires est affiché. Il va permettre de voir qui a réalisé le
@@ -2378,33 +2573,56 @@
             l'Administrateur PMB, chapitre Outils, section Paramètres : il
             s'agit du paramètre de type Paramètres généraux intitulé
             type_audit.</para>
+			
+            <para lang='es'>Este botón no se muestra si la auditoría de los registros y
+            los ejemplares no está activada. Esta función permite ver quién ha
+            realizado la catalogación de un registro, quién lo ha modificado,
+            etc. La información se muestra en un popup y puede variar según el
+            tipo de auditoría seleccionada. Para más información, consulta la
+            Guía del Administrador PMB, capítulo Herramientas, sección
+            Parámetros : hay un parámetro dentro de Parámentros generales que
+            se llama type_audit.</para>			
           </sect5>
 
           <sect5>
             <title lang='fr'>Supprimer</title>
+            <title lang='es'>Eliminar</title>			
 
             <para lang='fr'>Permet de supprimer l'exemplaire affiché. Attention, un
             exemplaire ne peut être supprimé s'il est en cours de prêt.</para>
+			
+            <para lang='es'>Permite eliminar el ejemplar que se visualiza. Atención, un
+            ejemplar no se puede elimnar si está prestado.</para>			
           </sect5>
         </sect4>
 
         <sect4>
           <title lang='fr'>Modifier un exemplaire numérique</title>
+          <title lang='es'>Modificar un documento electrónico</title>		  
+
 
           <para lang='fr'>L'écran de modification d'un exemplaire numérique est
           identique à celui d'ajout d'un exemplaire numérique.</para>
+		  
+          <para lang='es'>La pantalla de modificación de un documento electrónico es
+          idéntica a la de crear un documento electrónico.</para>		  
         </sect4>
       </sect3>
 
       <sect3>
         <title lang='fr'>Cataloguer des notices particulières</title>
+        <title lang='es'>Catalogación de registros especiales</title>		
 
         <para lang='fr'>PMB peut vous permettre de cataloguer non seulement des livres
         et des périodiques, mais aussi vos documents multimédias, sites webs,
         fil RSS...</para>
+		
+        <para lang='es'>PMB te permite catalogar no solamente libros o publicaciones 
+		periódicas, también documentos multimedias, páginas web, RSS...</para>		
 
         <sect4>
           <title lang='fr'>Cataloguer un site web</title>
+          <title lang='es'>Catalogar una página web</title>		  
 
           <para lang='fr'>Pour cataloguer un site web, spécifiez comme type de document
           <emphasis role="bold">ressources électroniques</emphasis>. Saisissez
@@ -2414,16 +2632,33 @@
           role="bold">http://www.memonde.fr</emphasis>). Dans format
           électronique de la ressource, vous pouvez spécifier <emphasis
           role="bold">site web</emphasis>.</para>
+		  
+          <para lang='es'>Para catalogar una página web, especifica como tipo de documento 
+          <emphasis role="bold">recursos electrónicos</emphasis>. Introduce un 
+		  título propio para tu registro. En la zona <emphasis
+          role="">enlaces (recursos electrónicos)</emphasis>, especifica la URL
+          asociada (con el formato <emphasis
+          role="bold">http://www.memonde.fr</emphasis>). En el formato 
+		  electrónico del recurso, puedes especificar <emphasis
+          role="bold">página web</emphasis>.</para>		  
         </sect4>
 
         <sect4>
           <title lang='fr'>Cataloguer un flux RSS</title>
+          <title lang='es'>Catalogar una fuente RSS</title>		  
 
           <para lang='fr'><remark><emphasis role="bold">Note</emphasis> PMB peut
           également générer un flux RSS à partir d'un panier ou d'une étagère.
           Un panier peut lui-même remplit à l'aide de la Diffusion Sélection
           de l'Information (DSI). Pour plus d'informations sur la création de
           flux RSS, consulter <xref linkend="dsi_rss_def" />.</remark></para>
+		  
+          <para lang='es'><remark><emphasis role="bold">Nota</emphasis> PMB puede 
+          también generar una fuente RSS a partir de una cesta o de una estantería 
+		  virtual. Una cesta puede rellenarse ella misma con la ayuda de la 
+		  Difusión Selectiva de la Información (DSI). Para más información sobre la 
+		  creación de fuentes RSS, consulta <xref linkend="dsi_rss_def" />.</remark></para>		  
+
 
           <para lang='fr'>"<emphasis>Un flux RSS ou fil RSS ("RSS feed" en anglais),
           sigle de Really Simple Syndication (syndication vraiment simple), ou
@@ -2433,25 +2668,50 @@
           rapidement consulter ces dernières sans visiter le site</emphasis>"
           (source :
           http://fr.wikipedia.org/wiki/Really_Simple_Syndication).</para>
+		  
+          <para lang='es'>"<emphasis>El RSS no es otra cosa que un 
+		  sencillo formato de datos que es utilizado para sindicar 
+		  (acusar, delatar) contenidos a suscriptores de un sitio web.
+		  Este sistema permite difundir las novedades de los sitios 
+		  o blogs, de forma que se pueden consultar de forma rápida 
+		  los últimos cambios que se hayan producido sin tener que 
+		  visitar el web </emphasis>"
+          (fuente :
+          http://fr.wikipedia.org/wiki/Really_Simple_Syndication).</para>
+		  		  
 
           <para lang='fr'>Pour cataloguer un RSS, donnez un titre à votre flux. Dans la
           zone liens, recopiez l'URL du fil RSS. Dans le format de la
           ressource électronique, mettez "RSS ### #" avec :</para>
 
+          <para lang='es'>Para catalogar un RSS, da un título a tu fuente. En la 
+		  zona de enlaces, copia la URL de la fuente RSS. En el formato del 
+		  recurso electrónico, pon "RSS ### #" donde :</para>
+		  		  
+
           <itemizedlist>
             <listitem>
               <para lang='fr'>RSS : pour que PMB affiche le contenu de l'URL, le fichier
               XML, comme il faut</para>
+			  
+              <para lang='es'>RSS : para PMB muestre el contenido de la URL, el archivo le XML, 
+			  tal i como es necesario</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>### : pour le temps de mise en cache 30 pour 30 minutes
               par exemple</para>
+			  
+              <para lang='es'>### : para el tiempo de actualización, 30 para 30 minutos
+              por ejemplo</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'># : 0 ou 1 pour mettre le flux en page d'accueil ou
               pas</para>
+			  
+              <para lang='es'># : 0 o 1 para incluir la fuente en la página de inicio 
+			  o no</para>			  
             </listitem>
           </itemizedlist>
 
@@ -2460,6 +2720,12 @@
           1. Pour plus d'information sur le paramétrage de PMB, consultez le
           <emphasis>Guide de l'Administrateur PMB</emphasis>, chapitre
           <emphasis>Outils</emphasis>.</para>
+		  
+          <para lang='es'>Para ver la fuente RSS en la página de inicio del opac,
+          pon el parámetro <emphasis>opac show_rss_browser</emphasis>
+          como 1. Para más información sobre la parametrización de PMB, consulta la 
+          <emphasis>Guía del Administrador PMB</emphasis>, capítulo 
+          <emphasis>Utilidades</emphasis>.</para>		  
         </sect4>
       </sect3>
     </sect2>
@@ -2467,21 +2733,38 @@
 
   <sect1 id="cat_serial">
     <title lang='fr'>Périodiques</title>
+    <title lang='fr'>Publicaciones periódicas</title>	
 
     <para lang='fr'>PMB permet de saisir des informations générales liées au périodique
     ; des informations liées au numéro tel que sorti en kiosque par exemple ;
     ou encore des informations liées aux articles présents dans ce
     numéro.</para>
+	
+    <para lang='es'>PMB permite introducir informaciones específicas asociadas a las
+    publicaciones periódicas; estos datos suelen ser el número de publicación,
+    la periodicidad, ... ; o también las informaciones asocidadas a los
+    artículos incluídos en cada número.</para>	
 
     <sect2 id="cat_serial_vocabulary">
       <title lang='fr'>Un peu de vocabulaire</title>
+      <title lang='es'>Un poco de vocabulario</title>	  
 
       <para lang='fr'>On désigne sous le terme de périodique toute publication en série
       (y compris non-imprimée) dont la parution se fait à intervalles plus ou
       moins réguliers et sous un titre uniforme.</para>
+	  
+      <para lang='es'>Utilizamos el término de publicación periódica para toda aquella
+      publicación en serie (impresa o no) que aparece con intervalos de
+      periodicidad más o menos regulares y bajo un título uniforme.</para>	  
+
 
       <para lang='fr'>Vous devez connaître le sens de quatre termes pour comprendre la
       façon dont PMB gère les périodiques :</para>
+	  
+      <para lang='es'>Para entender cómo utiliza las publicaciones periódicas PMB, hay
+      que conocer cuatro término :</para>	  
+	  
+	  
 
       <itemizedlist>
         <listitem>
@@ -2492,6 +2775,15 @@
           notice correspond à une notice d'ouvrage et définit le périodique au
           sens large : <emphasis>Le Monde </emphasis>est un quotidien, fondé
           par <emphasis>Beuve-Méry</emphasis>.</para>
+		  
+          <para lang='es'><emphasis role="bold">la publicación periódica</emphasis> se
+          define en PMB por un registro (llamado <emphasis
+          role="bold">registro padre</emphasis> o <emphasis
+          role="bold">registro origen</emphasis>) dónde se incluye el título
+          de la revista, periódico, etc. Este registro corresponde a un
+          registro dónde se describe la publiación de forma general :
+          <emphasis>Le Monde </emphasis> es un periódico, fundado por
+          <emphasis>Beuve-Méry</emphasis>.</para>		  
         </listitem>
 
         <listitem>
@@ -2503,6 +2795,15 @@
           numéro dans le catalogue c'est décrire chacune des unités
           constituant un périodique en vue du prêt d'un de ses exemplaires, ou
           du catalogage de ses articles.</para>
+		  
+          <para lang='es'><emphasis role="bold">el número </emphasis> (a veces llamado
+          <emphasis role="bold">boletín</emphasis>) hace referencia a
+          <emphasis>le Monde</emphasis> el número <emphasis>32478</emphasis>
+          publicado el <emphasis>15 agosto 2002</emphasis>. Describir un
+          número en el catálogo es describir cada una de las unidades que
+          forma una publicación periódica. De esta forma se pueden prestar
+          cada uno de sus ejemplares, o también catalogar los artículos de
+          cada número.</para>		  
         </listitem>
 
         <listitem>
@@ -2510,6 +2811,11 @@
           l'état physique d'un numéro ou élément. Si vous avez deux
           abonnements au Monde, vous aurez dans vos collections <emphasis>deux
           exemplaires</emphasis> du n° <emphasis>32478</emphasis>.</para>
+		  
+          <para lang='es'><emphasis role="bold">el ejemplar</emphasis> corresponde al
+          estado físico de un número. Si tienes dos subscripciones a le Monde,
+          tendrás en tu fondo <emphasis>dos ejemplares</emphasis> del número
+          <emphasis>32478</emphasis>.</para>		  
         </listitem>
 
         <listitem>
@@ -2519,6 +2825,13 @@
           d'une revue. Ceux ci sont les informations à décrire (dépouillement)
           et à cataloguer et disposent donc d'une notice. Exemple : cataloguer
           un article paru à la page 10 du Monde du 18 Juin 2003</para>
+		  
+          <para lang='es'><emphasis role="bold">el artículo</emphasis> (o <emphasis
+          role="bold">analítica</emphasis>) es la información que se incluye
+          en el catálogo sobre la información incluida en cada número de una
+          publicación. Los datos que se incluyen (analítica) y se catalogan
+          tiene forma de registro. Ejemplo : catalocar un artículo aparecido
+          en la página 10 del le Monde el 18 Junio 2003</para>		  
         </listitem>
       </itemizedlist>
 
