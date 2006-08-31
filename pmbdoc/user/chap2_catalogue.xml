@@ -1,50 +1,95 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="cat">
   <title lang='fr'>Catalogue</title>
+  <title lang='es'>Catálogo</title>  
 
   <para lang='fr'>Le catalogage désigne l'ensemble des techniques de constitution d'un
   catalogue de documents de la bibliothèque qui va permettre de faire des
   recherches, de gérer les prêts, d'éditer des statistiques, ...</para>
+  
+  <para lang='es'>a catalogación hace referencia a las diferentes acciones que se
+  realizan con los documentos para crear un catálogo que permitirá buscar,
+  generar préstamos, editar estadísticas, ...</para>
+  
+    
 
   <para lang='fr'><emphasis role="bold">Note </emphasis>A tout moment dans l'onglet
   Catalogue, lorsque vous voyez l'icône d'un panier affichée, vous pouvez
   ajouter un élément (notice, exemplaire, bulletin) à un panier en cliquant
   sur l'icône <graphic fileref="images/basket_small.gif" /> Pour plus
   d'informations, voir <xref linkend="cat_caddies" />.</para>
+  
+  <para lang='es'><emphasis role="bold">Nota </emphasis>En todo momento, dentro del
+  apartado Catálogo, cuando se visualiza el icono de cesta, puedes añadir un
+  elemento (registro, ejemplar o número de revista) a una cesta haciendo clic
+  sobre el icono <graphic fileref="images/basket_small.gif" /> Para más
+  información, ver <xref linkend="cat_caddies" />.</para>
+  
+    
 
   <sect1 id="cat_ouvrages">
     <title lang='fr'>Recherche</title>
+    <title lang='es'>Búsqueda</title>	
 
     <sect2 id="cat_search">
       <title lang='fr'>toutes notices</title>
+      <title lang='es'>todos los registros</title>	  
 
       <para lang='fr'>La recherche "toutes notices" porte sur l'ensemble des notices de
       PMB : monographies, notices mère de périodique, notices des
       articles.</para>
+	  
+      <para lang='es'>La búsqueda "todos los registros" permite buscar en todo el conjunto de 
+	  registros de PMB : monografías, publicaciones periódicas y artículos.</para>
+	  	  
+
 
       <para lang='fr'>La recherche "périodiques" ne porte que sur les notices mères de
       périodiques.</para>
+	  
+      <para lang='es'>La búsqueda por "publicaciones periódicas" sólo hace referencia a los
+	  registros de las publicaciones, no a los artículos</para>
+	  	  
+		  
 
       <para lang='fr'>L'affichage des dernières notices vous permet de consulter les
       dernières notices créées dans la base de données.</para>
+	  
+      <para lang='es'>La visualización de los últimos registros permite consultar los 
+	  últimos registros creados en la base de datos.</para>	  
+	  
+
 
       <para lang='fr'>PMB permet d'utiliser des expressions booléennes comme critère de
       recherche. Pour plus d'informations, voir <xref
       linkend="exp_bool" />.</para>
+	  
+      <para lang='es'>PMB permite usar operadores booleanos en la búsqueda. Para más
+      información, ver <xref linkend="exp_bool" />.</para>
+	  	  
 
       <sect3 id="cat_search_tit">
         <title lang='fr'>Auteur/titre</title>
+        <title lang='es'>Autor/título</title>		
 
         <sect4>
           <title lang='fr'>Recherche par titre</title>
+          <title lang='es'>Búsqueda por título</title>		  
 
           <para lang='fr'>Voici l'écran qui vous apparaît lorsque vous cliquez sur
           l'onglet catalogage. Il permet d'effectuer une recherche et est
           constamment accessible dans ce module par un clic sur "toutes
           notices" dans le menu latéral.</para>
+		  
+          <para lang='es'>Ésta es la pantalla que aparece al hacer clic sobre la pestaña
+          catálogo. Permite realizar una búsqueda y está siempre accesible en
+          este apartado al hacer clic sobre "buscar" en el menú
+          lateral.</para>
+		  		  
 
           <figure>
             <title lang='fr'>Catalogage &gt; Ouvrages &gt; Recherche par titre</title>
+            <title lang='es'>Catálogo &gt; Documentos &gt; Buscar por título</title>			
 
             <mediaobject>
               <imageobject>
@@ -54,13 +99,20 @@
           </figure>
 
           <para lang='fr'>Tentons une recherche sur le titre "cat''.</para>
+          <para lang='es'>Intentemos una búsqueda del título "cat''.</para>		  
 
           <para lang='fr'>Si vous avez installé la base de test, c'est l'ouvrage
           <emphasis>Catfish Blues</emphasis>, de <emphasis>Gérard
           Herzhaft</emphasis>, qui est renvoyé.</para>
 
+          <para lang='es'>Si tienes instalada la base de datos de prueba, será el
+          documento <emphasis>Catfish Blues</emphasis>, de <emphasis>Gérard
+          Herzhaft</emphasis>, lo que el buscador encontrará.</para>
+		  
+
           <figure>
             <title lang='fr'>Résultat d'une recherche</title>
+            <title lang='es'>Resultado de una búsqueda</title>			
 
             <mediaobject>
               <imageobject>
@@ -72,14 +124,25 @@
           <para lang='fr'>Pour afficher plus d'informations sur un des résultats de la
           recherche, cliquer sur le + pour déplier la notice et lister les
           exemplaires et exemplaires numériques de l'ouvrage.</para>
+		  
+          <para lang='es'>Para ver más información sobre los documentos encontrados, haz
+          clic sobre el +, se mostrará información ampliada y la lista de
+          ejemplares del documento.</para>		  
+
 
           <para lang='fr'>Un clic sur le titre affiche les informations sur l'ouvrage,
           et permet éventuellement d'apporter les modifications désirées.
           L'écran affiché ensuite est la liste des exemplaires de
           l'ouvrage.</para>
+		  
+          <para lang='es'>Un clic sobre el título mostrará el registro y su información,
+          y permite modificarlo y añadir o editar información. La pantalla
+          siguiente muestra la lista de ejemplares del documento.</para>
+		  		  
 
           <figure>
             <title lang='fr'>Liste des exemplaires d'un ouvrage</title>
+            <title lang='es'>Lista de los ejemplares de un documento</title>			
 
             <mediaobject>
               <imageobject>
@@ -96,44 +159,95 @@
           document numérique, cliquez sur <emphasis>Ajouter un document
           numérique</emphasis>. Pour plus d'informations, voir <xref
           linkend="cat_isbd" />.</para>
+		  
+          <para lang='es'>PPara modificar el registro, haz clic en
+          <emphasis>Modificar</emphasis>. Para modificar alguno de los
+          ejemplares del documento, haz clic sobre su código de barras. Para
+          añadir un ejemplar, introduce el <emphasis>Nº del
+          ejemplar</emphasis> y haz clic en <emphasis>Añadir un
+          ejemplar</emphasis>. Para añadir un documento electrónico, haz clic
+          en <emphasis>Añadir un documento electrónico</emphasis>. Para más
+          información, ver <xref
+          linkend="cat_isbd" />.</para>		  
+
 
           <para lang='fr'>Les références situées en dessous de la notice concernent le
           ou les exemplaires de l'ouvrage, leur disponibilité, etc. Un clic
           sur le code barre de l'exemplaire permet de modifier
           l'exemplaire.</para>
+		  
+          <para lang='es'>Las referencias situadas debajo del registro hacen referencia
+          a los ejemplares del documento, su disponibilidad, ubicación, etc.
+          Un clic sobre el código de barras del ejemplar, permite modificar el
+          ejemplar.</para>
+		  		  
         </sect4>
 
         <sect4>
           <title lang='fr'>Recherche par auteur, par ISBN, EAN ou numéro
           d'exemplaire</title>
+		  
+          <title lang='es'>Búsqueda por autor, ISBN, EAN o número de 
+		  ejemplar</title>		  
+
 
           <para lang='fr'>La <emphasis role="bold">Recherche par auteur</emphasis>
           fonctionne de la même manière que la recherche par titre.</para>
+		  
+          <para lang='es'>La <emphasis role="bold">Búsqueda por autor</emphasis>
+          funciona de la misma manera que la búsqueda por título.</para>
+		  		  
 
           <para lang='fr'>Vous pouvez également chercher un ouvrage par son ISBN, son
           code barre commercial (EAN) ou le numéro d'un de ses
           exemplaires.</para>
+		  
+          <para lang='es'>También se puede realizar una búsqueda por ISBN, por EAN (número comercial, 
+		  el Depósito Legal (DL) o el código de barras de los ejemplares.</para>		  
+
 
           <para lang='fr'>Enfin, vous pouvez affiner la recherche en la faisant porter
           sur un type précis de document.</para>
+		  
+          <para lang='es'>Finalmente puedes afinar la búsqueda escogiendo un tipo
+          concreto de documento.</para>
+		  		  
         </sect4>
       </sect3>
 
       <sect3 id="cat_search_categ">
         <title lang='fr'>Catégorie/Sujet</title>
+        <title lang='es'>Categoría/Materia</title>		
 
         <para lang='fr'>Les catégories disponibles sont affichées (elles sont
         modifiables dans l'onglet autorités).</para>
+		
+        <para lang='es'>Al hacer clic sobre este apartado se muestran las categorías o
+        materias disponibles (las categorías se pueden modificar en la pestaña
+        autoridades).</para>
+				
 
         <para lang='fr'>Cliquez sur l'icône du dossier pour ouvrir le dossier de la
         catégorie et afficher éventuellement les sous-catégories.</para>
+		
+        <para lang='es'>Haz clic sobre el icono de la carpeta para abrir la categoría y
+        ver posibles subcategorías.</para>		
+
 
         <para lang='fr'>Lorsque vous avez atteint la catégorie ou sous-catégorie désirée
         cliquez sur son nom pour afficher les résultats.</para>
+		
+        <para lang='es'>Una vez ya sabes qué categoría o subcategoría te interesa, haz
+        clic sobre su nombre para ver los registros catalogados con esa
+        categoría.</para>
+				
 
         <figure>
           <title lang='fr'>Catalogage &gt; Ouvrages &gt; Recherche par
           catégorie/sujet</title>
+		  
+          <title lang='es'>Catalogación &gt; Documentos &gt; Búsqueda por
+          categoría/materia</title>		  
 
           <mediaobject>
             <imageobject>
@@ -145,9 +259,14 @@
 
       <sect3 id="cat_search_terms">
         <title lang='fr'>Termes du thésaurus</title>
+        <title lang='es'>Términos del tesauro</title>		
 
         <para lang='fr'>La recherche par termes du thésaurus permet de naviguer entre
         les renvois du thésaurus.</para>
+		
+        <para lang='es'>La búsqueda por términos del tesauro permite navegar entre los
+        diferentes términos.</para>		
+		
 
         <para lang='fr'><figure>
             <title lang='fr'>Catalogage &gt; Ouvrages &gt; Recherche par termes du
@@ -166,26 +285,65 @@
         une des catégories de la partie supérieure (par exemple <emphasis
         role="bold">histoire politique</emphasis>) vous affiche dans la partie
         inférieure plus d'informations sur la catégorie choisie.</para>
+		
+        <para lang='es'><figure>
+            <title lang='es'>Catalogación &gt; Documentos &gt; Búsqueda por términos del
+            tesauro</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_search_terms.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>En este tipo de búsqueda, empieza por escoger uno o varios
+        términos a buscar, por ejemplo <emphasis
+        role="bold">histoire</emphasis>. Los resultados de la búsqueda se
+        mostrarán en dos partes. La parte superior muestra las categorías 
+        correspondientes a la búsqueda. Un clic sobre una de las categorías de
+        la parte superior (por ejemplo <emphasis role="bold">histoire politique</emphasis>) 
+		mostrará en la parte inferior más información
+        sobre la categoría escogida.</para>		
+
 
         <para lang='fr'>En cliquant sur un des liens, vous vous déplacez de catégorie en
         catégorie.</para>
+		
+        <para lang='es'>Haciendo clic sobre uno de los enlaces, te desplazarás de una
+        categoría a otra.</para>
+		
+				
 
         <para lang='fr'>Pour sélectionner une catégorie et afficher les ouvrages
         correspondants, cliquez sur l'étoile située en début de ligne <graphic
         fileref="images/search_terms_select.gif" /> si aucun ouvrage ne
         correspond à cette catégorie, l'étoile n'est pas affichée.</para>
+		
+        <para lang='es'>Para seleccionar una categoría y mostrar las obras
+        correspondientes, haz clic en la lupa o asterisco situado al inicio de
+        la linia. <graphic fileref="images/search_terms_select.gif" /> si no
+        hay ninguna obra dentro de esa categoría, la lupa o asterisco no se
+        muestra.</para>
+				
       </sect3>
 
       <sect3 id="cat_search_publisher">
         <title lang='fr'>Editeur/Collection</title>
+        <title lang='es'>Editorial/Colección</title>		
 
         <para lang='fr'>La recherche Editeur/Collection affiche une liste des éditeurs
         et collections de la même manière que les recherches sur les
         catégories.</para>
+		
+        <para lang='es'>La búsqueda Editorial/Colección muestra una lista de las
+        editoriales y colecciones con el mismo formato que las
+        categorías.</para>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Ouvrages &gt; Recherche par
           éditeur/collection</title>
+		  
+          <title lang='es'>Catalogage &gt; Ouvrages &gt; Recherche par
+          éditeur/collection</title>		  
 
           <mediaobject>
             <imageobject>
@@ -196,16 +354,26 @@
       </sect3>
 
       <sect3 id="cat_search_caddie">
+	  
         <title lang='fr'>Paniers de notices</title>
+        <title lang='es'>Cestas de registros</title>		
 
         <para lang='fr'><emphasis>Recherche</emphasis> &gt; <emphasis>Paniers de
         notices</emphasis> permet d'afficher le contenu d'un panier de notices
         (également appelé caddie). Les paniers correspondent à des sélections
         de notices, de bulletins ou d'exemplaires.</para>
+		
+        <para lang='es'><emphasis>Buscar</emphasis> &gt; <emphasis>Cestas de
+        registros</emphasis> permite ver el contenido de una cesta de
+        registros (también llamadas paneles). Las cestas son selecciones de
+        registros, números de revistas o ejemplares.</para>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Ouvrages &gt; Recherche par paniers de
           notices</title>
+		  
+          <title lang='es'>Catalogación &gt; Documentos &gt; Buscar por cestas de
+          registros</title>		  
 
           <mediaobject>
             <imageobject>
@@ -217,13 +385,20 @@
 
       <sect3 id="cat_search_multi">
         <title lang='fr'>Multi-critères</title>
+        <title lang='es'>Búsqueda avanzada</title>		
 
         <para lang='fr'>La recherche multi-critères est une recherche combinatoire. Vous
         pouvez sélectionner des champs de recherches : titre, auteur, champs
         personnalisés...</para>
+		
+        <para lang='es'>a búsqueda avanzada es una búsqueda combinada. Puedes
+        seleccionar entre los diferentes campos: título, autor, campos
+        personalizados, ejemplar, ...</para>		
+
 
         <figure>
           <title lang='fr'>Ouvrages &gt; Recherche &gt; Multi-critères</title>
+          <title lang='es'>Documentos &gt; Buscar &gt; Avanzada</title>		  
 
           <mediaobject>
             <imageobject>
@@ -233,15 +408,25 @@
         </figure>
 
         <para lang='fr'>Pour lancer une recherche multicritères :</para>
+        <para lang='es'>Para realizar una búsqueda avanzada :</para>		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>cliquez sur <emphasis>Ajouter</emphasis> pour définir un
             premier champ de la recherche</para>
+			
+            <para lang='es'haz clic sobre <emphasis>Añadir</emphasis> para definir un
+            primer campo de búsqueda</para>			
+
 
             <para lang='fr'>La recherche multicritères s'applique aux champs des
             notices, des exemplaires, des périodiques et aux champs
             personnalisés.</para>
+			
+            <para lang='es'>La búsqueda avanzada se aplica a los campos de registros,
+            ejemplares, publicaciones periódicas y campos
+            personalizados.</para>			
+
 
             <para lang='fr'><figure>
                 <title lang='fr'>Champs de recherche possibles</title>
@@ -252,6 +437,16 @@
                   </imageobject>
                 </mediaobject>
               </figure></para>
+			  
+            <para lang='es'><figure>
+                <title lang='es'>Campos de búsqueda posibles</title>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/multicrit2.gif" />
+                  </imageobject>
+                </mediaobject>
+              </figure></para>			  
           </listitem>
 
           <listitem>
@@ -260,7 +455,16 @@
             moins des mots", "contient tous les mots", "commence par", "finit
             par" ou "exactement comme". Ce type de recherche varie selon le
             champs concerné<figure>
+			
+            <para lang='es'>escoge después un tipo de búsqueda para el campo
+            seleccionado, por ejemplo, para un campo de título puedes escoger
+            entre "contiene alguna de las palabras", "contiene todas las
+            palabras", "empieza por", "acaba por" o "exactamente como". Este
+            tipo de búsqueda varía según el campo escogido<figure>
+			
+						
                 <title lang='fr'>Types de recherche pour le champs Titre</title>
+				<title lang='es'>Tipos de búsqueda para el campo título</title>				
 
                 <mediaobject>
                   <imageobject>
@@ -276,11 +480,21 @@
             type de support), choisissez une ou plusieurs propositions en
             cliquant et en maintenant la touche <emphasis>Ctrl</emphasis> de
             votre clavier appuyée.</para>
+			
+            <para lang='es'>si el campo necesita un valor, introducelo en la casilla
+            correspondiente ; si el campo necesita más de un valor (por
+            ejemplo tipo de soporte), escógelos manteniendo la tecla
+            <emphasis>Ctrl</emphasis> del teclado apretada.</para>
+						
           </listitem>
 
           <listitem>
             <para lang='fr'>enfin validez en cliquant sur
             <emphasis>Rechercher</emphasis></para>
+			
+            <para lang='es'>finalmente valida haciendo clic en
+            <emphasis>Buscar</emphasis></para>			
+			
           </listitem>
         </itemizedlist>
       </sect3>
@@ -291,171 +505,341 @@
         <para lang='fr'>Dans l'ensemble des écrans de recherche vous pouvez utiliser des
         expressions booléennes. Ces expressions booléennes ont été introduites
         dans PMB avec la version 2.0.</para>
+		
+        <para lang='es'>En todas las pantallas de búsqueda puedes utilizar operadores booleanos para
+        mejorar los resultados de las búsquedas. Los operadores booleanos se
+        han incluido en PMB con la versión 2.0.</para>		
 
         <sect4>
           <title lang='fr'>Recherche simple</title>
+          <title lang='es'>Búsqueda simple</title>		  
 
           <para lang='fr'>Par défaut, le moteur cherche les éléments qui contiennent
           <emphasis role="bold">au moins</emphasis> (OU implicite) un des mots
           saisis. Le tri se fait selon le nombre décroissant de mots trouvés,
           puis par ordre alphabétique.</para>
+		  
+          <para lang='es'>Por defecto, el motor de búsqueda busca los elementos que
+          contienen <emphasis role="bold">alguna</emphasis> (O implícito) de
+          las palabras introducidas. Los resultados se muestran según el
+          número decreciente de palabras encontradas, y por orden
+          alfabético.</para>		  
+
 
           <para lang='fr'><programlisting>jambon bayonne</programlisting>signifie les
           éléments qui contiennent les mots jambon ou bayonne (jambon de
           bayonne, jambon de parme, l'histoire de Bayonne, ...).</para>
 
+          <para lang='es'><programlisting>jambon bayonne</programlisting>al realizar una
+          búsqueda con estas dos palabras, el motor buscará registros que
+          contengan tanto jambon como bayonne (jambon de
+          bayonne, jambon de parme, la historia Bayonne, ...).</para>
+		  
+		  
+
           <para lang='fr'>Les accents ne sont pas pris en compte ainsi que les
           majuscules/minuscules. Si deux mots sont séparés par un autre signe
           que espace, +, ou -, les deux mots sont considérés comme devant
           apparaître dans le résultat .</para>
+		  
+          <para lang='es'>Los acentos no se tienen en cuenta así cómo las
+          mayúsculas/minúsculas. Si dos palabras están separadas por un signo
+          que no sea espacio, , +, o -, las dos palabras se buscarán tal cual
+          en los resultados.</para>
+		  
 
           <para lang='fr'><programlisting>Saint Jean/mer</programlisting>sera analysé
           comme : chercher les <emphasis>éléments qui contiennent
           saint</emphasis> ou les <emphasis>éléments qui contiennent jean et
           mer</emphasis> ou les <emphasis>deux</emphasis>.</para>
 
+          <para lang='es'><programlisting>Saint Jean/mer</programlisting>será analizado
+          como: <emphasis>busca los elementos que contengan saint
+		  </emphasis> o los <emphasis>elementos que contengan jean y 
+          mer</emphasis> o los <emphasis>dos</emphasis>.</para>
+		  
+
           <para lang='fr'>Certains mots sont ignorés car trop courants ou sans
           signification pertinente en français (ex : de, du, da, t, l, d, s,
           son, sa, ...).</para>
+		  
+          <para lang='es'>Algunas palabras son ignoradas porque se consideran vacías de
+          contenido, por ejemplo: la, de, el, su, suyo, ...</para>		
+		    
         </sect4>
 
         <sect4>
           <title lang='fr'>Cas du tiret</title>
+          <title lang='es'>El guión</title>		  
 
           <para lang='fr'>Le tiret est considéré comme un opérateur entre deux mots
           (voir plus bas le chapitre : Opérateurs logiques entre deux mots).
           Ainsi, tout mot composé avec un tiret doit être entouré de
           guillemets pour faire une recherche en terme exact (voir plus bas
           ).</para>
+		  
+          <para lang='es'>El guión se considera como un operador entre dos palabras (ver
+          un poco más abajo el capítulo : Operadores lógicos entre dos
+          palabras). Así que toda palabra compuesta por un guión debe estar
+          rodeada de de comillas para hacer la búsqueda por el término exacto
+          (ver más abajo).</para>		
+		    
         </sect4>
 
         <sect4>
           <title lang='fr'>Troncature</title>
-
+          <title lang='es'>Truncamiento</title>
+		  
+		  
           <para lang='fr'>Les mots peuvent être tronqués à gauche, droite ou
           partiellement par le caractère *</para>
+		  
+          <para lang='es'>Las palabras pueden truncarse por la derecha, la izquierda o
+          parcialmente introduciendo el carácter *</para>		  
+		  
 
           <para lang='fr'><programlisting>chev* </programlisting>cherchera les mots
           commençant par chev (cheval, chevaux, cheveux, ...),</para>
+		  
+          <para lang='es'><programlisting>cam* </programlisting>buscará las palabras que
+          empiecen por cam (cama, camino, caminar, ...),</para>
+		  
+		  		  
 
           <para lang='fr'><programlisting>*logie</programlisting>cherchera les mots
           finissant par 'logie' (psychologie, théologie, trilogie,
           ...),</para>
+		  
+          <para lang='es'><programlisting>*ogia</programlisting>buscará las palabras que
+          acaben con "ogia" (psicología, teología, trilogía, ...),</para>		
+		    
 
           <para lang='fr'><programlisting>p*logie </programlisting>cherchera les mots
           commençant par p et finissant par logie (psychologie,
           paléonthologie, pathologie, ...).</para>
+		  
+          <para lang='es'><programlisting>p*logía </programlisting>buscará las palabras
+          que empiezan por p y acaban con logía (psicología, paleontología,
+          patología, ...).</para>		  
+
 
           <para lang='fr'>Plusieurs troncatures peuvent être utilisées dans un même
           mot.</para>
+		  
+          <para lang='es'>Se puede utilizar más de un truncamiento para una misma
+          palabra.</para>		
+		    
         </sect4>
 
         <sect4 id="cat_recherche_termesexacts">
           <title lang='fr'>Recherche avec des termes exacts</title>
+          <title lang='es'>Búsqueda por términos exactos</title>
+		  		  
 
           <para lang='fr'>Un terme exact est défini par un texte entouré de guillemets.
           Si le moteur de recherche rencontre un terme exact, il cherche les
           éléments contenant exactement ce texte.</para>
+		  
+          <para lang='es'>Un término exacto debe estar rodeado de comillas. El motor de
+          búsqueda buscará exactamente los elementos contenidos entre las
+          comillas.</para>		  
+
 
           <para lang='fr'>La troncature peut-être utilisée dans les termes
           exacts.</para>
 
+          <para lang='es'>Con la búsqueda exacta también se puede truncar.</para>
+		  
+
           <para lang='fr'><programlisting>"dent"</programlisting>signifie tous les
           éléments contenant le texte dent (dentition, accident, indentation,
           ...).</para>
+		  
+          <para lang='es'><programlisting>"dent"</programlisting>significa todos los
+          elementos que contengan el texto dent (dentista, accedente,
+          intendente, ...)</para>
+		  
+		  		  
 
           <para lang='fr'>La recherche exacte est pratique pour la recherche
           d'expressions contenant des espaces ou des signes de ponctuation.
           (un sigle par exemple).</para>
+		  
+          <para lang='es'>La búsqueda exacta es práctica para buscar expresiones que
+          contengan espacios o signos de puntuación. (una sigla por
+          ejemplo).</para>
+		  		  
 
           <para lang='fr'><programlisting>"A.N.P.E."</programlisting>cherche les
           éléments qui contiennent le texte A.N.P.E.,</para>
+		  
+          <para lang='es'><programlisting>"A.N.P.E."</programlisting>buscará los
+          elementos que contentag el texto A.N.P.E.,</para>
+		  
+		  		  
 
           <para lang='fr'><programlisting>A.N.P.E.</programlisting> cherche les éléments
           qui continnent les mots A ou N ou P ou E .</para>
+		  
+          <para lang='es'><programlisting>A.N.P.E.</programlisting> buscará los
+          elementos que contengan las letras A o N o P o E </para>
+		  
+		  		  
 
           <para lang='fr'>Les accents et les majuscules/minuscules ne sont pas pris en
           compte dans un terme exact.</para>
+		  
+          <para lang='es'>Los acentos y las mayúsculas/minúsculas non se tienen en
+          cuenta en una búsqueda exacta.</para>
+		  
+		  		  
 
           <para lang='fr'>Enfin, les termes exacts peuvent être utilisés dans toutes les
           expressions complexes décrites ci-dessous.</para>
+		  
+          <para lang='es'>Finalmente, los términos exactos pueden ser utilizados junto
+          con todos operadores complejos descritos más abajo.</para>		  
+		  
         </sect4>
 
         <sect4>
           <title lang='fr'>Négation</title>
+          <title lang='es'>Negación</title>		  
 
           <para lang='fr'>Le symbole ~ devant un terme représente un négation de ce
           terme. Cela signifie la recherche de tous les éléments ne contenant
           pas ce terme.</para>
+		  
+          <para lang='es'>El símbolo ~ delante de un término representa una negación de
+          ese término, o se buscará todos los registros que no contengan ese
+          término.</para>		  
+		  
 
           <para lang='fr'><emphasis>Ex.</emphasis><programlisting>~travail</programlisting>
           signifie tous les éléments sauf ceux qui contiennent le mot
           travail</para>
+		  
+          <para lang='es'><emphasis>Ej.</emphasis><programlisting>~trabajo</programlisting>
+          se buscarán todos los registros excepto aquellos que incluyan la
+          palabra trabajo.</para>
+		  		  
         </sect4>
 
         <sect4>
           <title lang='fr'>Opérateurs logiques entre deux mots</title>
+		  
+          <title lang='es'>Operadores lógicos entre dos palabras</title>		  
+		  
 
           <para lang='fr'>Des opérateurs logiques peuvent être utilisés entre les mots
           :</para>
+		  
+          <para lang='es'>Los operadores lógicos pueden utilizarse entre palabras
+          :</para>		  
 
           <itemizedlist>
             <listitem>
               <para lang='fr'>+ : opérateur ET</para>
+			  <para lang='es'>+ : operador Y</para>
 
               <para lang='fr'><emphasis>Ex. </emphasis><programlisting>disque + dur</programlisting>
               signifie les éléments qui contiennent les mots disque et
               dur.</para>
+			  
+              <para lang='es'><emphasis>Ej. </emphasis><programlisting>disco + duro</programlisting>
+              buscará los elementos que contengan las palabras disco y
+              duro.</para>
+			  			  
             </listitem>
 
             <listitem>
               <para lang='fr'>- : opérateur SAUF (ET NON)</para>
+              <para lang='es'>- : operador EXCEPTO (Y NO)</para>			  
 
               <para lang='fr'><emphasis>Ex. </emphasis><programlisting>disque - dur</programlisting>
               signifie les éléments qui contiennent le mot disque, sauf ceux
               qui contiennent aussi le mot dur.</para>
+			  
+              <para lang='es'><emphasis>Ej. </emphasis><programlisting>disco - duro</programlisting>
+              buscará los registros que contengan la palabra disco excepto
+              aquellos que contenga la palabra duro.</para>
+			  			  
             </listitem>
           </itemizedlist>
 
           <para lang='fr'>Plusieurs opérateurs peuvent-être enchainés dans une même
           expression. Ils sont appliqués dans l'ordre, de gauche à
           droite.</para>
+		  
+          <para lang='es'>Los operadores pueden encadenarse dentro de una misma
+          búsqueda. Se aplican según su orden, de izquierda a derecha.</para>		  
+
 
           <para lang='fr'><emphasis>Ex.</emphasis> <programlisting>poésie + français* - romantique*</programlisting>signifie
           les éléments contenant poésie et français(e)(s) sans
           romantique(s).</para>
+		  
+          <para lang='es'><emphasis>Ej.</emphasis> <programlisting>poesía + frances* - romántica*</programlisting>buscará
+          los elementos que contengan poesia y francés(a)(s) sin
+          romántica(s).</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis role="bold">Attention</emphasis>, deux opérateurs ne
           peuvent se suivre, une négation ne peut-être combinée à un opérateur
           (+~ revient au même que l'opérateur -).</para>
+		  
+          <para lang='es'><emphasis role="bold">Atención</emphasis>, no se pueden poner
+          seguidos dos operadores, una negación no puede ir combinada con un
+          operador (+~ significa lo mismo que el operadore -).</para>
+		  		  
         </sect4>
 
         <sect4>
           <title lang='fr'>Commence par</title>
+		  
+          <title lang='es'>Empieza por</title>		  
 
           <para lang='fr'></para>
         </sect4>
 
         <sect4>
           <title lang='fr'>Regroupements</title>
+          <title lang='es'>Reagrupaciones</title>		  
 
           <para lang='fr'>Une expression peut-être regroupée pour devenir un terme. Ce
           regroupement se fait avec les parenthèses. Cela permet de changer
           l'ordre d'application des opérateurs ou de combiner les résultats
           d'expressions complexes.</para>
+		  
+          <para lang='es'>Una expresión puede ser reagrupada para convertirse en un
+          conjunto a buscar. Estos agrupamientos se hacen usando los
+          paréntesis. Esto permite cambiar el orden de aplicación de los
+          operadores para combinar resultados en búsquedas complejas.</para>
+		  		  
 
           <itemizedlist>
             <listitem>
               <para lang='fr'><programlisting>poésie + (française romantique)</programlisting></para>
+              <para lang='es'><programlisting>poesía + (francesa romántica)</programlisting></para>			  
 
               <para lang='fr'>signifie dans tous les éléments qui contiennent francaise
               ou romantique, uniquement ceux qui contiennent poésie.</para>
+			  
+              <para lang='es'>buscará de todos los registros que contengan francesa o
+              romántica, únicamente aquellos que contengan poesia.</para>
+			  			  
             </listitem>
 
             <listitem>
               <para lang='fr'><programlisting>(poésie + française) romantique</programlisting>signifie
               tous les éléments qui contiennent poésie et française ou tous
               les éléments qui contiennent romantique</para>
+			  
+              <para lang='es'><programlisting>(poesía + francesa) romántica</programlisting>buscará
+              todos los elementos que contengan poesía y francesa o todos los
+              elementos que contengan romántica</para>
+			  			  
             </listitem>
 
             <listitem>
@@ -463,6 +847,12 @@
               signifie tous les éléments qui ne contiennent pas poésie et
               française et les éléments qui contiennent littérature ou améri*
               Les parenthèses peuvent-être imbriquées sans limite.</para>
+			  
+              <para lang='es'><programlisting>~(poesía + francesa) + (literatura ameri*)</programlisting>
+              buscará todos los elementos que no contengan poesía y francesa y
+              los elementos que contengan literatura o ameri* Los paréntesis
+              pueden colocarse sin límites.</para>
+			  			  
             </listitem>
 
             <listitem>
@@ -470,24 +860,42 @@
               dans tous les éléments qui contiennent francaise ou romantique,
               uniquement ceux qui contiennent poésie ou les éléments qui
               contiennent littérature et XIX</para>
+			  
+              <para lang='es'><programlisting>(poesía + (francesa romántica)) (literatura + XIX)</programlisting>buscará
+              de todos los elementos que contengan francesa o romántica,
+              aquellos que contengan poesía o los elementos que contengan
+              literatura y XIX</para>
+			  			  
             </listitem>
           </itemizedlist>
         </sect4>
 
         <sect4>
           <title lang='fr'>Pertinence</title>
+		  
+          <title lang='es'>Pertinencia</title>		  
 
           <para lang='fr'>Les résultats sont triés par ordre de pertinence puis par
           ordre alphabétique. La pertinence est calculée simplement par le
           nombre total de mots ou de termes exacts trouvés.</para>
+		  
+          <para lang='es'>Los resultados se muestran por orden de pertinencia y por
+          orden alfabético. La pertinencia se calcula simplemente por el
+          número total de palabras o términos exactos encontrados.</para>
+		  		  
 
           <para lang='fr'>Par exemple :</para>
+          <para lang='es'>Por ejemplo :</para>		  
 
           <itemizedlist>
             <listitem>
               <para lang='fr'>jambon bayonne trouvera tous les éléments contenant jambon
               ou bayonne, ceux qui contiennent les deux mots seront au début
               de la liste de résultats</para>
+			  
+              <para lang='es'>jamón bellota encontrará todos los elementos que contengan
+              jamón o bellota, aquellos que contengan las dos palabras se
+              mostrarán al inicio de la lista</para>			  
             </listitem>
 
             <listitem>
@@ -496,6 +904,13 @@
               ces éléments, ceux qui contiennent littérature ou améri*
               apparaitront en premier dans la liste de résultats (d'abord
               littérature et améri*, puis améri*, puis littérature)</para>
+			  
+              <para lang='es'>~(poesía + francesa) (literatura ameri*) encontrará todos
+              los elementos que no contienen poesía y francesa, de estos
+              elementos, aquellos que contienen literatura o améri* aparecerán
+              en primer lugar en la lista de resultados (en primer luguar
+              literatura y ameri*, luego ameri*, y luego literatura)</para>
+			  			  
             </listitem>
           </itemizedlist>
         </sect4>
@@ -504,21 +919,36 @@
 
     <sect2 id="cat_serial_search">
       <title lang='fr'>périodiques</title>
+      <title lang='es'>publicaciones periódicas</title>	  
 
       <para lang='fr'>Pour plus d'informations sur la gestion des périodiques, consulter
       également plus bas la section Périodiques &gt; Nouveau
       Périodique.</para>
+	  
+      <para lang='es'>Para más información sobre la gestión de las publicaciones periódicas, consulta
+	  también un poco más abajo la sección Publicaciones Periódicas &gt; Nueva publicación 
+	  periódica.</para>	  
+
 
       <para lang='fr'>La recherche toutes notices permet de rechercher dans l'ensemble
       du catalogue, y compris articles et périodiques.</para>
+	  
+      <para lang='es'>La búsqueda de todos los registros permite buscar en el conjunto
+	  de registros de todo el catálogo, inluídos los artículos y las publicaciones periódicas.</para>
+	  	  
 
       <para lang='fr'>La recherche de périodiques permet, elle, d'accéder rapidement à
       un périodique précis, dans le but par exemple de saisir un nouveau
       numéro du périodique arrivé à la bibliothèque, ou de continuer de
       dépouiller les articles d'un numéro.</para>
+	  
+      <para lang='es'>La búsqueda de publicaciones periódicas permite acceder rápidamente a 
+	  una publicación periódica concreta, para introducir, por ejemplo, un nuevo número 
+	  que haya llegado a la biblioteca, o continuar introduciendo artículos de un número.</para>	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Périodiques &gt; Recherche</title>
+        <title lang='fr'>Catálogo &gt; P. periódicas &gt; Buscar</title>
 
         <mediaobject>
           <imageobject>
@@ -530,10 +960,16 @@
       <para lang='fr'>PMB permet d'utiliser des expressions booléennes comme critères de
       recherche. Pour plus d'informations, voir <xref
       linkend="exp_bool" />.</para>
+	  
+      <para lang='fr'>PMB permite utitlizar operadores booleanos en las búsquedas. Para más
+	   información, ver <xref linkend="exp_bool" />.</para>	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Périodiques &gt; Recherche, résultats d'une
         recherche</title>
+		
+        <title lang='es'>Catálogo &gt; P. periódicas &gt; Buscar, resultados de una 
+		búsqueda</title>		
 
         <mediaobject>
           <imageobject>
@@ -544,11 +980,20 @@
 
       <para lang='fr'>Pour avoir plus d'informations sur un résultat de recherche
       cliquez sur le "+" devant son titre.</para>
+	  
+      <para lang='es'>Para ver más información de un resultado de una búsqueda 
+	  haz clic sobre el "+" que hay delante de su título.</para>
+	  	  
 
       <para lang='fr'>Pour visualiser un périodique, cliquez sur son titre parmi les
       résultats.Vous obtenez alors l'écran de visualisation d'un périodique.
       Pour plus d'informations, consulter plus la section 2.3.2
       <emphasis>Visualiser un périodique.</emphasis></para>
+	  
+      <para lang='es'>Para ver una publicación periódica, haz clic sobre su 
+	  título de entre los resultados.Accederás a la pantalla de visualización
+	  de una publicación periódica. Para más información, consulta la sección 2.3.2
+      <emphasis>Visualizar una publicación periódicac.</emphasis></para>	  
 
       <para lang='fr'><emphasis role="bold">Note </emphasis>Les résultats de la
       recherche de périodiques sont uniquement des notices mères ou notices
@@ -556,16 +1001,28 @@
       comme les différents numéros du périodiques ne sont pas renvoyés par la
       recherche de périodiques mais à l'écran <emphasis>Bulletinage</emphasis>
       voir plus la section 2.3.3 <emphasis>Bulletinage</emphasis>.</para>
+	  
+      <para lang='es'><emphasis role="bold">Nota </emphasis>Los resultados de la 
+	  búsqueda de publicaciones periódicas son únicamente los registros principales :
+	   por ejemplo Item, La Vanguardia, El País ; los artículos así cómo los diferentes 
+	   números de estas publicaciones no se encuentran a través de esta búsqueda sino 
+	   a través del apartado <emphasis>Artículos</emphasis>
+      ver la sección 2.3.3 <emphasis>Artículos</emphasis>.</para>	  
     </sect2>
 
     <sect2>
       <title lang='fr'>dernières notices</title>
+      <title lang='es'>últimos registros</title>
 
       <para lang='fr'>Cet élément du menu permet d'accéder aux dernières notices
       saisies.</para>
+	  
+      <para lang='es'>Este elemento del menú permite acceder a los últimos registros
+	  introducidos.</para>	  
 
       <figure>
         <title lang='fr'>Catalogage &gt; Ouvrages &gt; Dernières notices</title>
+        <title lang='es'>Catálogo &gt; Documentos &gt; Últimos registros</title>
 
         <mediaobject>
           <imageobject>
@@ -577,33 +1034,57 @@
       <para lang='fr'>L'accès aux dernières notices permet au bibliothécaire de
       retrouver rapidement une notice qu'il aurait créé pour une correction,
       rectifier un oubli...</para>
+	  
+      <para lang='es'>El acceso a los últimos registros permite a los bibliotecarios 
+	  entrontrar rápidamente un regitro para corregirlo, para rectificar algún
+	  descuido, ...</para>
+	  	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Documents</title>
+    <title lang='es'>Documentos</title>	
 
     <sect2 id="cat_doc_nouvnotice">
       <title lang='fr'>Nouvelle notice</title>
+      <title lang='es'>Nuevo registro</title>	  
 
       <sect3>
         <title lang='fr'>Saisie d'une nouvelle notice</title>
+        <title lang='es'>Introducir un nuevo registro</title>		
 
         <para lang='fr'>La saisie d'une nouvelle notice se fait en deux écrans : un
         numéro d'identification (ISBN) est d'abord demandé mais il n'est pas
         obligatoire de le saisir. Si un EAN est saisi, il est alors converti
         en ISBN.</para>
+		
+        <para lang='es'>La introducción de un nuevo registro se realiza en dos pantallas
+        : en la primera se pide un numero de identificación (el ISBN es lo
+        usual) aunque no es obligatorio introducirlo. Si lo que se introduce
+        es un EAN, pmb lo convierte automáticamente en ISBN.</para>		
 
         <sect4 id="cat_create">
           <title lang='fr'>Saisie de l'ISBN, de l'EAN ou d'un numéro commercial</title>
+          <title lang='es'>Introducción del ISBN, del EAN o de un numero
+          comercial</title>
+
 
           <para lang='fr'>Si le numéro d'identification saisi correspond à un ouvrage
           déjà présent en base, la notice est alors directement ouverte en
           modification. Ceci permet un dédoublonnage de la base dès le
           catalogage.</para>
+		  
+          <para lang='es'>Si el número identificador corresponde a un documento que ya
+          está introducido en la base de datos, el registro que ya está en la
+          base de datos se muestra directamente. De esta forma se evitan los
+          duplicados en la base de datos.</para>
+		  		  
 
           <figure>
             <title lang='fr'>Ouvrages &gt; Nouvelle notice</title>
+            <title lang='es'>Documentos &gt; Nuevo registro</title>
+			
 
             <mediaobject>
               <imageobject>
@@ -614,13 +1095,19 @@
 
           <para lang='fr'>Cliquez ensuite sur <emphasis>suivant</emphasis> pour
           poursuivre la création de la notice.</para>
+		  
+          <para lang='es'>Haz clic en <emphasis>siguiente</emphasis> para seguir 
+		  con la creación del registro.</para>
+		  		  
         </sect4>
 
         <sect4 id="cat_create_form">
           <title lang='fr'>Saisies des données de la notice</title>
+          <title lang='es'>Introducir datos en el registro</title>		  
 
           <figure>
             <title lang='fr'>Ouvrages &gt; Nouvelle notice (écran 2)</title>
+            <title lang='es'>Documentos &gt; Nuevo registro (pantalla 2)</title>
 
             <mediaobject>
               <imageobject>
@@ -631,89 +1118,144 @@
 
           <sect5>
             <title lang='fr'>Choix d'un support de document</title>
+            <title lang='es'>Escoger un tipo de documento</title>
+
 
             <para lang='fr'>Dans la liste déroulante située en haut du formulaire, vous
             pouvez choisir entre différents types de supports :</para>
+			
+            <para lang='es'>En la parte superior del formulario hay una lista
+            desplegable dónde se puede escoger entre los diferentes tipos de
+            soportes :</para>
+			
 
             <itemizedlist>
               <listitem>
                 <para lang='fr'>texte imprimé</para>
+                <para lang='es'>texto impreso</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>texte manuscrit</para>
+                <para lang='es'>texto manuscrito</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>partition musicale imprimée</para>
+                <para lang='es'>partitura musical impresa</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>partition musicale manuscrite</para>
+                <para lang='es'>partitura musical manuscrita</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>document cartographique imprimé</para>
+                <para lang='es'>documento cartográfico impreso</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>document cartographique manuscrit</para>
+                <para lang='es'>documento carográfico manuscrito</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>document projeté ou vidéo</para>
+                <para lang='es'>documento proyectable o video</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>enregistrement sonore non musical</para>
+                <para lang='es'>grabación sonora no musical</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>enregistrement sonore musical</para>
+                <para lang='es'>grabació sonora musical</para>				
               </listitem>
 
               <listitem>
                 <para lang='fr'>document graphique à deux dimensions</para>
+                <para lang='es'>documento gráfico de dos dimensiones</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>document électronique</para>
+                <para lang='es'>documento electrónico</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>document multimédia</para>
+                <para lang='es'>documento multimedia</para>				
               </listitem>
 
               <listitem>
                 <para lang='fr'>objet à 3 dimensions, artéfacts, ...</para>
+                <para lang='es'>objeto tridimensional, artefactos, ...</para>
+				
               </listitem>
             </itemizedlist>
 
             <para lang='fr'>Ces supports correspondent aux supports de documents définis
             par la norme UNIMARC.</para>
+			
+            <para lang='es'>Estos soportes corresponden a los soportes de documentos
+            definidos por la norma UNIMARC.</para>			
+
 
             <para lang='fr'><emphasis role="bold">Attention</emphasis> : ne pas
             confondre avec type de document, qui correspond à
             l'exemplaire.</para>
+			
+            <para lang='es'><emphasis role="bold">Atención</emphasis> : no confundir con
+            tipo de documento, que hace referencia al ejemplar.</para>			
           </sect5>
 
           <sect5>
             <title lang='fr'>Titre</title>
+            <title lang='es'>Título</title>			
 
             <para lang='fr'>Le titre propre est le titre principal d'un ouvrage.</para>
+            <para lang='es'>El título propio es el título principal de una obra.</para>
 
             <para lang='fr'>Même si le titre est généralement présent sur la couverture
             ou la tranche de l'ouvrage, il faut le lire sur la page de titre
             car il est parfois différent du titre de couverture. Dans ce cas,
             le titre de couverture sera spécifié ailleurs (zone de
             note).</para>
+			
+            <para lang='es'>Aunque a veces el título de la cubierta coincide con el de
+            la portada, hay que tener en cuenta que el título propio es el de
+            la portada. En caso de diferencias, el título de la cubierta se
+            especificará en la zona de notas.</para>			
+			
 
             <para lang='fr'>Vous pouvez également définir le titre propre d'un auteur
             différent, un titre parallèle, ainsi qu'un complément du
             titre.</para>
 
+            <para lang='es'>También puedes introducir un título propio para un autor
+            diferente, un título paralelo, así como complementos del
+            título.</para>
+			
+
             <para lang='fr'>Le titre parallèle correspond par exemple au titre de
             l'ouvrage dans la langue d'origine.</para>
+			
+            <para lang='es'>El título paralelo corresponde por ejemplo al título de la
+            obra en la lengua original.</para>			
+
 
             <para lang='fr'>Enfin, vous pouvez définir un titre de série. Un titre de
             série est un titre commun à différents ouvrages d'un même auteur.
@@ -721,9 +1263,19 @@
             <emphasis>Hergé</emphasis>. Le champs "Partie de" est différent
             des champs de titre. Pour spécifier un titre de série, cliquez sur
             le bouton "..."</para>
+			
+            <para lang='es'>Finalmente, puedes introducir un título de serie. Un título
+            de serie es un título común a diferentes obras de un mismo autor.
+            Por ejemplo <emphasis>Las aventuras de Tintín</emphasis> de
+            <emphasis>Hergé</emphasis>. Los campos "Parte de" son diferentes a
+            los campos de título. Para especificar un título de serie, haz
+            clic en botón "..."</para>
+			
 
             <figure>
               <title lang='fr'>Définir un titre de série</title>
+              <title lang='es'>Definir un título de serie</title>
+			  
 
               <mediaobject>
                 <imageobject>
@@ -733,9 +1285,13 @@
             </figure>
 
             <para lang='fr'>Choisissez ensuite un titre de série dans le popup.</para>
+            <para lang='es'>Escoge un título del popup.</para>
+			
 
             <figure>
               <title lang='fr'>Popup de sélection de titre de série</title>
+              <title lang='es'>Popup para seleccionar el título de serie</title>
+			  
 
               <mediaobject>
                 <imageobject>
@@ -753,14 +1309,34 @@
             de série, dans l'onglet <emphasis>Autorités</emphasis>, choisissez
             dans le menu<emphasis> Titres de série</emphasis>. Pour plus
             d'informations, voir <xref linkend="autorites" />.</para>
+			
+            <para lang='es'>Si tu título no está incluido en la lista del popup, haz
+            clic en<emphasis> crear un título de serie</emphasis>. Introduce
+            el nuevo título de serie, haz clic en <emphasis>Guardar</emphasis>
+            y selecciona el título de la lista. No se puede suprimir ni
+            modificar un título en el popup. Para modificar o suprimir un
+            título de serie, ve a la pestaña <emphasis>Autoridades</emphasis>,
+            escoge del menú <emphasis> Título de serie</emphasis>. Para más
+            información, ver <xref linkend="autorites" />.</para>
+
+			
 
             <para lang='fr'>Le titre de série sélectionné est ensuite affiché dans le
             formulaire de la notice.</para>
+			
+            <para lang='es'>El título de serie seleccionado será automáticamente
+            mostrado en el formulario del registro.</para>			
+
 
             <figure>
               <title lang='fr'>La saisie d'un auteur se fait soit lors du catalogage,
               soit avec l'onglet "autorités" Le titre de série sélectionné est
               affiché</title>
+
+              <title lang='es'>Para introducir un autor se puede hacer o a través de la
+              catalogación, o a través de la pestaña "autoridades" El título
+              de serie seleccionado se muestra</title>
+
 
               <mediaobject>
                 <imageobject>
@@ -772,17 +1348,33 @@
             <para lang='fr'>Pour effacer un titre de série sélectionné, cliquer sur le
             bouton "X"</para>
 
+            <para lang='es'>Para eliminar un título de serie, haz clic sobre el botón
+            "X"</para>
+			
+			
+
             <para lang='fr'>Vous pouvez également spécifier un <emphasis>n° de
             partie</emphasis>. Par exemple, <emphasis>Les aventures de
             Tintin</emphasis>, n° <emphasis>11</emphasis>.</para>
+			
+            <para lang='es'>También puedes espeficiar un <emphasis>nº de
+            parte</emphasis>. Por ejemplo, <emphasis>Las aventuras de
+            Tintin</emphasis>, n° <emphasis>11</emphasis>.</para>
+			
           </sect5>
 
           <sect5>
             <title lang='fr'>Saisie d'un auteur (mention de responsabilité)</title>
+            <title lang='es'>Introducir un autor (mención de responsabilidad)</title>
+			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, sélection des
               auteurs</title>
+			  
+              <title lang='es'>Catalogación &gt; Nuevo registro, selección de
+              autores</title>
+			  
 
               <mediaobject>
                 <imageobject>
@@ -796,10 +1388,21 @@
             Pour rechercher un auteur, tapez quelques lettres de son nom puis
             cliquez sur <emphasis>Rechercher</emphasis>. Les résultats de la
             recherche sont alors affichés.</para>
+			
+            <para lang='es'>Para seleccionar un autor, haz clic sobre el botón "..."
+            después selecciona al autor dentro del popup que sirve para poder
+            buscar al autor. Para buscar un autor, introduce algunas letras de
+            su apellido y haz clic sobre <emphasis>Buscar</emphasis>. Se
+            mostrarán los resultados.</para>
+			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, popup de sélection d'un
               auteur</title>
+			  
+              <title lang='es'>Catalogación &gt; Nuevo registro, popup de selección de
+              un autor</title>
+			  
 
               <mediaobject>
                 <imageobject>
@@ -811,10 +1414,18 @@
             <para lang='fr'>Si l'auteur de l'ouvrage que vous souhaitez cataloguer n'est
             pas déjà enregistré, ajoutez le en cliquant sur le bouton
             <emphasis>Ajouter un auteur</emphasis>.</para>
+			
+            <para lang='es'>Si el autor de la obra que quieres catalogar no está todavía
+            entrado, añádelo a la base de datos haciendo clic sobre el botón
+            <emphasis>Añadir un autor</emphasis>.</para>
+			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, ajout d'un auteur depuis
               le popup</title>
+			  
+              <title lang='es'>Catálogo &gt; Nuevo registro, añadir un autor en el
+              popup</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -827,10 +1438,18 @@
             avec l'onglet "autorités". Pour plus d'informations sur la
             création d'un auteur, voir <xref
             linkend="autorites_ajout_auteur" />.</para>
+			
+            <para lang='es'>Des de el apartado de catalogación puedes introducir nuevos
+            autores, para editarlos o introducirlos también, puedes ir al
+            apartado "autoridades". Para más información sobre la creación de
+            un autor, ver <xref linkend="autorites_ajout_auteur" />.</para>			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, auteur
               sélectionné</title>
+			  
+              <title lang='es'>Catalogación &gt; Nuevo registro, autor
+              seleccionado</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -845,9 +1464,18 @@
             de la fonction de l'auteur par rapport à l'ouvrage dont il est le
             responsable. Puis sélectionner une fonction (non obligatoire),
             cliquer sur le bouton "...".</para>
+			
+            <para lang='es'>Si la palabra "autor" es la función que le corresponde al
+            autor de un libro, ésta no es la función para el autor de una
+            película, o para una diseñador de una cubierta, ... Para selecciar
+            la función que le corresponde a cada autor (no es obligatorio),
+            haz clic sobre el botón "...".</para>
+			
 
             <figure>
               <title lang='fr'>Popup de sélection d'une fonction pour l'auteur</title>
+			  
+              <title lang='es'>Popup de selección de una función para un autor</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -857,6 +1485,7 @@
             </figure>
 
             <para lang='fr'>Quelques remarques :</para>
+            <para lang='es'>Algunas observaciones :</para>			
 
             <itemizedlist>
               <listitem>
@@ -867,11 +1496,22 @@
                 secondaire</emphasis> cliquez sur le bouton "..."
                 correspondant. Pour ajouter un auteur supplémentaire, cliquez
                 sur le bouton "+".</para>
+				
+                <para lang='es'>Sólo puede haber un autor principal para cada obra, pero
+                sí que puede haber otros autores i/o otros autores
+                secundarios. Para seleccionar <emphasis>otro autor</emphasis>
+                o un <emphasis>autor secundario</emphasis> haz clic sobre el
+                botón "..." correspondiente. Para añadir un autor
+                suplementario, haz clic sobre el botón "+".</para>
+								
               </listitem>
 
               <listitem>
                 <para lang='fr'>pour effacer un auteur ou une fonction sélectionné,
                 cliquez sur le bouton "X"</para>
+				
+                <para lang='es'>para eliminar un autor o una función seleccionada, haz
+                clic sobre el botón "X"</para>				
               </listitem>
             </itemizedlist>
           </sect5>
@@ -879,10 +1519,17 @@
           <sect5>
             <title lang='fr'>Saisie d'un éditeur, des collections, sous-collections et
             titres de séries</title>
+			
+            <title lang='es'>Introducción de una editorial, colecciones, subcolecciones
+            y títulos de serie</title>
+			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé Éditeurs,
               collection</title>
+			  
+              <title lang='es'>Catalogación &gt; Nuevo registro, zona de la Edición,
+              colección</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -897,57 +1544,123 @@
             Commencez par remplir <emphasis>sous-collection</emphasis> le cas
             échéant, sinon <emphasis>collection</emphasis> ou enfin
             <emphasis>éditeur</emphasis>.</para>
+			
+            <para lang='es'>Durante la catalogación se pueden introducir nuevas
+            colecciones, subcolecciones o títulos de serie. Empieza por llenar
+			el campo <emphasis>subcolección</emphasis>, sino <emphasis>colección
+			</emphasis> o finalmente <emphasis>editorial</emphasis>.</para>
+			
 
             <para lang='fr'>Dans le popup de sélection de la sous-collection,
             sélectionnez une sous-collection <emphasis>ou</emphasis>
             choisissez <emphasis>créer une sous-collection</emphasis>,
             remplissez les champs connus puis cliquez sur le bouton de
             sélection de la collection mère de cette sous-collection.</para>
+			
+            <para lang='es'>n el popup de selección de la subcolección, selecciona una
+            subcolección <emphasis>o</emphasis> escoge <emphasis>crear una
+            subcolección</emphasis>, llema los campos que conozcas y haz clic
+            sobre el botón de la colección de la colección madre para
+            escogerla.</para>
+						
 
             <para lang='fr'>Dans le popup de sélection de la collection dont fait partie
             notre sous-collection, sélectionnez une collection
             <emphasis>ou</emphasis> choisissez <emphasis>créer une
             collection</emphasis>, remplissez les champs connus sauf l'éditeur
             puis cliquez sur le bouton de sélection de l'éditeur.</para>
+			
+            <para lang='es'>En el popup de selección de la colección de la cual forma
+            parte nuestra subcolección, selecciona una colección <emphasis>o</emphasis> 
+			haz clic sobre <emphasis>crear una colección</emphasis>, llena los campos
+            conocidos excepto la editorial para la que tendrás que hacer clic
+            en el botón de seleccionar una editorial.</para>
+			
+						
 
             <para lang='fr'>Dans le popup de sélection de l'éditeur, sélectionner un
             éditeur <emphasis>ou </emphasis>choisir <emphasis>créer un
             éditeur</emphasis> et compléter les champs.</para>
+			
+            <para lang='es'>En el popup de selección de la editorial, selecciona una
+            editorial <emphasis>o </emphasis>escoge <emphasis>crear una
+            editorial</emphasis> y completa los datos.</para>
+			
+						
 
             <para lang='fr'>Une fois notre saisie finie, sélectionnez l'éditeur de la
             collection, puis la collection de notre sous-collection enfin
             enregistrez la sous-collection et sélectionnez la.</para>
+			
+            <para lang='es'>Una vez los datos están introducidos, selecciona la
+            editorial de la colección, después la colección para la
+            subcolección y finalmente guarda la subcolección y
+            seleccionala.</para>
+			
+						
 
             <para lang='fr'>De manière générale, choisissez l'élément le plus spécifique
             en premier. Choisissez la sous-collection, puis la collection
             enfin l'éditeur.</para>
+			
+            <para lang='es'>De forma general, escoge el elementos más específico en
+            primer lugar. Primero la subcolección, luego la colección,
+            finalmente la editorial.</para>
+									
 
             <para lang='fr'>Une collection correspond au choix d'un éditeur :
             <emphasis>PUF</emphasis>, collection <emphasis>Que Sais-je
             ?</emphasis></para>
+			
+            <para lang='es'>Cada colección se corresponde con una editorial :
+            <emphasis>PUF</emphasis>, colección <emphasis>Que Sais-je
+            ?</emphasis></para>
+						
 
             <para lang='fr'>Une sous-collection répond au même souci à un niveau
             supérieur : Nathan Université, collection 128, sous-collection
             Histoire.</para>
+			
+            <para lang='es'>Una subcolección depende de una colección superior : Nathan
+            Université, collection 128, subcolección Histoire.</para>
+						
 
             <para lang='fr'>Un titre de série correspond à un ouvrage en plusieurs
             volumes, chaque volume a un titre propre et l'ensemble des volumes
             en a un autre.</para>
+			
+            <para lang='es'>Un título de serie se utiliza en una obra en varios
+            volúmenes, de los cuales cada volúmen tiene un título propio y el
+            total de la obra tiene un título colectivo.</para>
+			
 
             <para lang='fr'><emphasis role="bold">Exemple</emphasis> Pullman, Philip
             <emphasis role="bold">Titre de série</emphasis> A la croisée des
             mondes <emphasis role="bold">Numéro de partie</emphasis> Volume 1
             <emphasis role="bold">Titre propre</emphasis> Les royaumes du
             Nord</para>
+			
+            <para lang='es'><emphasis role="bold">Ejemplo</emphasis> Pullman, Philip
+            <emphasis role="bold">Título de serie</emphasis> A la croisée des
+            mondes <emphasis role="bold">Número de la parte</emphasis> Volúmen
+            1 <emphasis role="bold">Título propio</emphasis> Les royaumes du
+            Nord</para>			
 
             <para lang='fr'>Pour réaliser cette saisie, il faut créer sous PMB les
             collections et titres de série avant de les sélectionner. Le
             numéro de partie comme le titre de chaque volume sont à saisir
             lors de la rédaction de la notice d'ouvrage.</para>
+			
+            <para lang='es'>Para introducir este tipo de registros, es necesario crear
+            con anterioridad en PMB las colecciones y los títulos de serie des
+            de el apartado Autoridades. Los campos de número de la parte y
+            título de cada volúmen se introducen cuando se cataloga el
+            registro.</para>			
           </sect5>
 
           <sect5>
             <title lang='fr'>ISBN, EAN ou no. commercial</title>
+            <title lang='es'>ISBN, EAN o nº comercial</title>			
 
             <para lang='fr'>L'ISBN, qui a été demandé dans le premier écran lors d'une
             création de notice, est affiché ici. Cliquez sur le bouton "..."
@@ -955,12 +1668,25 @@
             saisir son ISBN. Cette saisie se fait dans un popup pour éviter
             que la validation qui suit une lecture de code-barres ne ferme la
             notice en cours d'édition.</para>
+			
+            <para lang='es'>El ISBN, que aparece en la primera pantalla cuando creas un
+            registro, se muestra también aquí. Haz clic sobre el botón "..."
+            para abrir el popup y poder introducir el EAN de la obra (con el
+            lector de códigos de barras), o introducir el ISBN directamente.
+            En este campo se introducen los datos en forma de popup para
+            evitar que al introducir el EAN con el lector de códigos de
+            barras, el registro se cierre al validar el campo.</para>			
+
 
             <para lang='fr'>PMB convertit les EAN saisis (code-barres commercial)
             automatiquement en ISBN.</para>
+			
+            <para lang='es'>PMB convierte los EAN introducidos (código de barras
+            comercial) automáticamente en ISBN.</para>			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé ISBN</title>
+              <title lang='es'>Catálogo &gt; Nuevo registro, zona del ISBN</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -972,13 +1698,21 @@
 
           <sect5>
             <title lang='fr'>Collation</title>
+            <title lang='es'>Colación</title>			
 
             <para lang='fr'>La collation précise différentes informations liées à
             l'aspect physique du document : importance matérielle,
             illustrations, format, prix, matériel d'accompagnement.</para>
+			
+            <para lang='es'>La colación son las diferentes informaciones asociadas al
+            aspecto físico del documento : tamaño, ilustraciones, formato,
+            precio, y material de acompañamiento.</para>
+						
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé Collation</title>
+              <title lang='es'>Catalogación &gt; Nuevo registro, zona de la
+              colación</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -990,15 +1724,23 @@
 
           <sect5>
             <title lang='fr'>Notes</title>
+            <title lang='es'>Notas</title>			
 
             <para lang='fr'>Les notes sont de trois types :
             <emphasis>générale</emphasis>, liée au
             <emphasis>contenu</emphasis> (appréciation, critique), ou
             <emphasis>un résumé, un extrait </emphasis>du document (par
             exemple le résumé d'un roman en quatrième de couverture).</para>
+			
+            <para lang='es'>Las notas pueden ser de tres tipos :
+            <emphasis>general</emphasis>, asociadas al
+            <emphasis>contenido</emphasis>, o <emphasis>un resumen, o un
+            extracto </emphasis>del documento (por ejemplo el resumen de una
+            novela).</para>
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé Notes</title>
+              <title lang='es'>Catalogación &gt; Nuevo registro, zona de notas</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -1010,9 +1752,13 @@
 
           <sect5>
             <title lang='fr'>Indexation</title>
+            <title lang='es'>Indexación</title>			
 
             <para lang='fr'>Le pavé d'indexation est composé de trois indexations
             différentes :</para>
+			
+            <para lang='es'>La zona de indexación se compone de tres indexaciones
+            diferentes :</para>			
 
             <itemizedlist>
               <listitem>
@@ -1020,15 +1766,29 @@
                 d'une catégorie du thésaurus interne de PMB. Pour plus
                 d'informations sur les catégories, voir <xref
                 linkend="autorites_categ" /> .</para>
+				
+                <para lang='es'><emphasis role="bold">Categorías</emphasis> : añade 
+				una categoría del tesauro de PMB. Para más información sobre las
+				categorías, ver <xref linkend="autorites_categ" /> .</para>				
+				
 
                 <para lang='fr'>Pour sélectionner une catégorie, cliquez sur le bouton
                 "...". Pour ajouter une catégorie supplémentaire, cliquez sur
                 le bouton "+". Pour supprimer la sélection d'une catégorie,
                 cliquez sur le bouton "X".</para>
+				
+                <para lang='es'>ara seleccionar una categoría, haz clic sobre el botón
+                "...". Para añadir una categoría suplementaria, haz clic sobre
+                el botón "+". Para suprimir una categoría del registro, haz clic
+                sobre el botón "X".</para>
+								
 
                 <figure>
                   <title lang='fr'>Catalogage &gt; Nouvelle notice, popup de sélection
                   de catégorie</title>
+				  
+                  <title lang='es'>Catalogación &gt; Nuevo registro, popup de selección
+                  de categoría</title>				  
 
                   <mediaobject>
                     <imageobject>
@@ -1039,6 +1799,9 @@
 
                 <para lang='fr'>Vous pouvez créer une catégorie en cliquant sur le
                 bouton Ajouter.</para>
+				
+                <para lang='es'>Puedes crear una categoría nueva haciendo clic en el
+                botón Añadir.</para>				
               </listitem>
 
               <listitem>
@@ -1046,6 +1809,12 @@
                 d'une indexation décimale. Pour plus d'informations, consultez
                 le chapitre <emphasis>Autorités</emphasis>, section
                 <emphasis>Indexation</emphasis>.</para>
+				
+                <para lang='es'><emphasis role="bold">Indexación</emphasis> : añade una
+                clasificación decimal. Para más información, consulta el
+                capítulo <emphasis>Autoridades</emphasis>, sección
+                <emphasis>Indexación</emphasis>.</para>
+								
               </listitem>
 
               <listitem>
@@ -1054,11 +1823,19 @@
                 espaces. Vous pouvez par exemple spécifier des mots clés, ou
                 une indexation libre d'un thésaurus non intégré à PMB
                 (vedettes Blanc-Montmayeur par exemple).</para>
+				
+                <para lang='es'><emphasis role="bold">Indexación libre</emphasis> : en
+                este apartado puedes añadir palabras clave, separadas por
+                espacios. Puedes incluir palabras clave o una indexación libre
+                de un tesauro no integrado a PMB.</para>
+								
               </listitem>
             </itemizedlist>
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé Indexation</title>
+              <title lang='es'>Catalogación &gt; Nuevo registro, zona de la
+              indexación</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -1070,19 +1847,32 @@
 
           <sect5>
             <title lang='fr'>Langue de la publication</title>
+            <title lang='es'>Lengua de la publicación</title>			
 
             <para lang='fr'>Vous pouvez ici spécifier une langue d'origine de la
             publication, celle-ci est définie par défaut dans les préférences
             de l'utilisateur. Pour plus d'informations, consultez le chapitre
             <emphasis>Préférences utilisateurs</emphasis>.</para>
+			
+            <para lang='es'>Especifica aquí la lengua del documento, ésta puede
+            especificarse en las preferencias del usuario. Para más
+            información sobre cómo especificar una lengua en concencreto,
+            consulta el capítulo <emphasis>Preferencias de los usuarios.</emphasis>.</para>			
 
             <para lang='fr'>Les codes langues sont définis par la norme UNIMARC.</para>
+            <para lang='es'>Los códigos de lengua están definidos según la noma
+            UNIMARC.</para>
 
             <para lang='fr'>Vous pouvez également définir une langue originale, si
             l'ouvrage décrit est une traduction.</para>
+			
+            <para lang='es'>También puedes especificar la lengua original del documento
+            en caso de que el documento sea una traducción.</para>			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé Langues</title>
+              <title lang='es'>Catalogación &gt; Nuevo registrovelle , zona de la 
+              lengua</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -1094,19 +1884,32 @@
 
           <sect5>
             <title lang='fr'>Liens (ressources électroniques)</title>
+            <title lang='es'>Enlaces (recursos electrónicos)</title>			
 
             <para lang='fr'>L'URL associée doit être saisie dans son intégralité de
             préférence (y compris le http://) pour être sûr du fonctionnement
             des liens, quel que soit le navigateur internet de
             l'utilisateur.</para>
+			
+            <para lang='es'>La URL asociada debe introducirse entera (con el http://
+            incluído) para asegurar el funcionamiento correcto del enlace, sea
+            cual sea el usuario.</para>			
+
 
             <para lang='fr'>Le format électronique de la ressource est laissé à la
             discrétion du catalogueur. Préférez un début de champ tel que
             "fichier", par exemple "fichier PDF" ou "fichier Acrobat", et des
             mentions génériques : "site internet".</para>
+			
+            <para lang='es'>El formato electrónico de un recurso se deja a discreción
+            del catalogador. Se recomienda poner al principio del campo el
+            formato del archivo, por ejemplo "archivo PDF" o "archivo de
+            Acrobat", y menciones también genéricas : "en línea".</para>			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé Liens</title>
+              <title lang='es'>Catalogación &gt; Nuevo registro, zona de los
+              enlaces</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -1124,6 +1927,17 @@
             lemonde.fr, les lecteurs de votre bibliothèque ou de votre centre
             de documentation peuvent consulter les dernières informations de
             ce site depuis votre opac.</para>
+			
+            <para lang='es'><emphasis role="bold">Ir un poco más allá : las fuentes
+            RSS</emphasis> Puedes asociar una fuente RSS a un registro. Una
+            fuente RSS es un flujo de información que emitido continuamente
+            por una página web de internet. La fuente RSS del web lemonde.fr
+            te informa sobre las principales noticias de actualidad que se
+            incluyen en su página. Asociando esa fuente RSS de ese web a un
+            registro que describa lemonde.fr, puedes hacer que tus usuario
+            puedan consultar las últimas noticias de lemonde a través de tu
+            opac.</para>
+			
 
             <para lang='fr'>Pour associer un fil RSS saisissez l'URL correspondante (il
             est facile de trouver ces informations sur le Web) dans le champ
@@ -1134,13 +1948,30 @@
             minutes depuis le site web d'origine. Ces informations seront
             mises en cache pour accélérer les réponses de l'OPAC de PMB
             pendant les trentes prochaines minutes.</para>
+			
+            <para lang='es'>Para asociar una fuente RSS introduce la URL correspondiente
+            (la dirección es fácil de encontrar en el web) en el campo URL
+            asociado. Introduce como formato electrónico RSS NN donde NN es el
+            número en minutos para actualizar la información de la fuente RSS.
+            Por ejemplo, si introduces "RSS 30", la fuente RSS correspondiente
+            se actualizará cada 30 minutos con la información del sitio web
+            original. Estas informaciones se irán almacenando en cache para
+            acelerar las respuestas del OPAC de PMB durante los treinta
+            minutos siguientes.</para>
+			
           </sect5>
 
           <sect5>
             <title lang='fr'>Champs personnalisés</title>
+            <title lang='es'>Campos personalizados</title>			
 
             <para lang='fr'>Enfin, le cas échéant, en bas de la notice, vous pouvez
             définir les valeurs de vos champs personnalisés.</para>
+
+            <para lang='es'>Finalmente, cuando proceda, el la parte inferior del
+            registro, puedes definir valores correspondientes a los campos
+            personalizados que hayas creado.</para>
+			
 
             <para lang='fr'>Les champs personnalisables des notices sont des
             informations supplémentaires, vous pouvez les créer dans
@@ -1149,13 +1980,29 @@
             <emphasis>Personnalisables</emphasis>. Pour plus d'informations,
             consulter le <emphasis>Guide de l'Administrateur</emphasis>,
             chapitre <emphasis>Notices</emphasis>.</para>
+			
+            <para lang='es'>Los campos personalizados de los registros son informaciones
+            suplementarias que puedes utilizar para personalizar la
+            información de los registros con datos que tus usuarios puedan
+            necesitar. Para crearlos ve a <emphasis>Administración</emphasis>
+            &gt; <emphasis>Registros</emphasis> &gt;
+            <emphasis>Personalizables</emphasis>. Para más información,
+            consulta la <emphasis>Guía del Administrador</emphasis>, capítulo
+            <emphasis>Registros</emphasis>.</para>
+			
 
             <para lang='fr'>Si aucun champ personnalisé n'est défini, ce pavé n'est pas
             affiché.</para>
+			
+            <para lang='es'>Si no hay ningún campo personalizado definido, esta zona no
+            se muestra.</para>			
 
             <figure>
               <title lang='fr'>Catalogue &gt; Nouvelle notice, pavé Champs
               personnalisables</title>
+			  
+              <title lang='es'>Catalogación &gt; Nuevo registro, zona campos
+              personalizados</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -1168,18 +2015,30 @@
           <para lang='fr'>Une fois les différents champs de la notice complétés, cliquez
           sur <emphasis>Enregistrer</emphasis>.La notice est enregistrée, vous
           arrivez sur la liste des exemplaires de l'ouvrage.</para>
+		  
+          <para lang='es'>Una vez los diferentes campos del registro está completados,
+          haz clic en <emphasis>Guardar</emphasis>. El registro se guardará, y
+          se mostrará la lista de ejemplares del documento.</para>
+		  		  
         </sect4>
       </sect3>
 
       <sect3 id="cat_isbd">
         <title lang='fr'>Liste des exemplaires d'un ouvrage</title>
+        <title lang='es'>Lista de ejemplares de un documento</title>		
 
         <para lang='fr'>l'écran suivant présente la notice au format ISBD et les
         éventuels exemplaires qui lui correspondent.</para>
+		
+        <para lang='es'>la pantalla siguiente muestra el registro en formato ISBD y los
+        ejemplares que le corresponden.</para>		
 
         <figure>
           <title lang='fr'>catalogue &gt; ouvrages, liste des exemplaires d'un
           ouvrage</title>
+		  
+          <title lang='es'>catalogación &gt; documentos, lista de ejemplares de un
+          documento</title>		  
 
           <mediaobject>
             <imageobject>
@@ -1191,24 +2050,45 @@
         <para lang='fr'>Pour modifier la notice de l'ouvrage, cliquez sur
         <emphasis>Modifier</emphasis>. La modification d'une notice affiche le
         même écran que la création d'une notice.</para>
+		
+        <para lang='es'>Para modificar el registro de un documento, haz clic en
+        <emphasis>Modificar</emphasis>. La modificación de un registro es la
+        misma pantalla que la de crear un registro.</para>		
+		
 
         <para lang='fr'>Vous pouvez <emphasis>Ajouter un exemplaire.</emphasis></para>
+        <para lang='es'>Puedes <emphasis>Añadir un ejemplar.</emphasis></para>		
+
 
         <para lang='fr'>Vous pouvez également <emphasis>Ajouter un document
         numérique</emphasis>.</para>
+		
+        <para lang='es'>También puedes <emphasis>Añadir un documento
+        electrónico</emphasis>.</para>
+				
 
         <para lang='fr'>Si la notice possède déjà des exemplaires, vous pouvez modifier
         un des exemplaires de l'ouvrage le cas échéant, en cliquant sur son n°
         d'exemplaire.</para>
+		
+        <para lang='es'>Si el registro ya tiene ejemplares, puedes modificar los
+        ejemplares cuando proceda haciendo clic sobre el número de
+        ejemplar.</para>
+				
 
         <para lang='fr'>Si la notice possède déjà des exemplaires numériques, vous
         pouvez afficher ou modifier un des exemplaires numériques de l'ouvrage
         le cas échéant. Pour afficher le document numérique associé, cliquez
         sur son icône. Pour modifier le document numérique associé, cliquez
         sur son titre.</para>
+		
+        <para lang='es'>Si el registro tiene documentos electrónicos, puedes verlos o
+        modificarlos. Para verlos haz clic en el icono que lo identifica. Para
+        modificarlo, haz clic sobre su título.</para>		
 
         <sect4>
           <title lang='fr'>Modification d'une notice</title>
+          <title lang='es'>Modificar un registro</title>		  
 
           <para lang='fr'>Pour modifier une notice, cliquez sur le bouton Modifier qui
           se trouve sous la notice, au dessus de la liste des exemplaires
