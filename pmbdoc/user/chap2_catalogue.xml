@@ -2845,15 +2845,37 @@
       les lecteurs ou bibliothécaires peuvent chercher indépendamment,
       renvoyant au numéro correspondant et à la disponibilité des exemplaires
       correspondants.</para>
+	  
+      <para lang='es'><emphasis role="bold">Recapitulemos</emphasis> : Nosotros estamos
+      subscritos a le Monde (un <emphasis role="">registro de publicación
+      periódica</emphasis>), que contiene el número 32478 (un número o
+      <emphasis>boletín</emphasis>), del cual nosotros tenemos dos ejemplares
+      en nuestra biblioteca que corresponden a las dos subscripciones que
+      tenemos (<emphasis>dos ejemplares</emphasis> con dos códigos de barras
+      diferentes para el préstamo). Dentro de este número, hay cincuenta
+      artículos grandes (<emphasis>50 analíticas</emphasis>) que los usuarios
+      o bibliotecarios pueden buscar de forma independiente, cada artículo se
+      mostrará junto con la información sobre el número al cual pertenece y la
+      disponibilidad de ejemplares.</para>	  
+
 
       <para lang='fr'>Si aucune information n'a encore été saisie dans PMB, la saisie
       d'un article de périodique se fait donc en différentes étapes,
       correspondant à la création d'une notice du périodique, le listage des
       éléments (bulletinage), la création des exemplaires éventuels
       (exemplarisation), le catalogage de l'article (dépouillement).</para>
+	  
+      <para lang='es'>Si no se ha introducido ninguna información en PMB, para poder
+      catalogar un artículo hay que seguir diferentes etapas, primero hay que
+      catalogar la publicación periódica, luego crear el listado de números,
+      luego introducir los ejemplares y finalmente catalogar el artículo (o
+      analítica).</para>
+	  	  
 
       <figure>
         <title lang='fr'>Navigation dans les écrans d'affichage des périodiques</title>
+        <title lang='es'>Navegación entre las pantallas de visualización de las
+        publicaciones periódicas</title>		
 
         <mediaobject>
           <imageobject>
@@ -2868,13 +2890,23 @@
       barre de navigation est affichée en haut de l'écran. Elle permet de
       remonter rapidement d'un niveau dans l'exploration d'un
       périodique.</para>
+	  
+      <para lang='es'>Cuando se muestra de un registro de una publicaión periódica (en
+      el ejemplo <emphasis>Géo</emphasis>), uno de sus número (en el ejemplo
+      el nº <emphasis>278</emphasis>) o uno de los artículos de este número,
+      en la parte superior de la pantalla aparece una barra de navegación.
+      Esta barra permite navegar de forma rápida entres los diferentes niveles
+      de una publicación periódica.</para>	  
+	  
     </sect2>
 
     <sect2 id="cat_serial_form">
       <title lang='fr'>Nouveau périodique</title>
+      <title lang='es'>Nueva publicación periódica</title>	  
 
       <figure>
         <title lang='fr'>Catalogage &gt; Périodiques &gt; Nouveau périodique</title>
+        <title lang='es'>Catálogo &gt; P. periódicas &gt; Nueva p. periódica</title>		
 
         <mediaobject>
           <imageobject>
@@ -2885,100 +2917,150 @@
 
       <sect3 id="cat_serial_add">
         <title lang='fr'>Création d'un périodique</title>
+        <title lang='es'>Crear una publicación periódica</title>		
 
         <para lang='fr'>Commençons par détailler la création d'un périodique. Pour créer
         un périodique, dans l'onglet <emphasis>Catalogue</emphasis>, cliquez
         sur <emphasis>Nouveau périodique</emphasis> dans le menu.</para>
+		
+        <para lang='es'>Empezamos a explicar cómo crear una nueva publicación periódica.
+        Para crear una nueva p. periódica, en la pestaña
+        <emphasis>Catálogo</emphasis>, haz clic sobre <emphasis>Nueva p.
+        periódica</emphasis> del menú.</para>		
 
         <sect4>
           <title lang='fr'>Support</title>
+          <title lang='es'>Suporte</title>		  
 
           <para lang='fr'>PMB peut gérer des périodiques de différentes formes. Si les
           périodiques imprimés (journaux, magazines, revues) sont les plus
           fréquents, PMB peut aussi gérer les journaux vocaux pour les
           aveugles ou malvoyants, les périodiques électroniques, etc.</para>
+		  
+          <para lang='es'>PMB puede generar publicaciones periódicas en diferentes
+          formatos. Si las publicaciones impresas (revistas, periódicos, ...)
+          son los más frecuentes, PMB permite generar también diarios hablados
+          para los sordos o ciegos, periódicos electrónicos, etc.</para>		  
 
           <para lang='fr'>Les 15 supports présents dans le menu déroulant en haut de la
           fiche correspondent aux dénominations UNIMARC:</para>
+		  
+          <para lang='es'>Los 15 soportes que hay en el menú desplegable en la parte
+          superior del registro corresponden a las denominaciones
+          UNIMARC:</para>		  
 
           <itemizedlist>
             <listitem>
               <para lang='fr'>texte imprimé</para>
+              <para lang='es'>texto empreso</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>texte manuscrit</para>
+              <para lang='es'>texto manuscrito</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>partition musicale imprimée</para>
+              <para lang='es'>partitura musical impresa</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>partition musicale manuscrite</para>
+              <para lang='es'>partitura musical manuscrita</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>document cartographique imprimé</para>
+              <para lang='es'>documento carográfico impreso</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>document cartographique manuscrit</para>
+              <para lang='es'>documento cartográfico manuscrito</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>document projeté ou vidéo</para>
+              <para lang='es'>documento proyectable o vídeo</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>enregistrement sonore non musical</para>
+              <para lang='es'>grabación sonora no musical</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>enregistrement sonore musical</para>
+              <para lang='es'>grabación sonora musical</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>document graphique à deux dimensions</para>
+              <para lang='es'>documento gráfico bidimensional</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>document électronique</para>
+              <para lang='es'>documento electrónico</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>document multimédia</para>
+			  <para lang='es'>documento multimedia</para>
             </listitem>
 
             <listitem>
               <para lang='fr'>objet à 3 dimensions, artefacts, ...</para>
+              <para lang='es'>objeto tridimensional, aparatos, ...</para>			  
             </listitem>
           </itemizedlist>
         </sect4>
 
         <sect4>
           <title lang='fr'>Autres champs de saisie</title>
+          <title lang='es'>Otros campos a rellenar</title>		  
 
           <para lang='fr'>Les autres champs de saisie d'un périodique correspondent à
           ceux d'un ouvrage. Voir plus haut la section 1.2.1 <emphasis>Saisie
           d'une nouvelle notice</emphasis>.</para>
 
+          <para lang='es'>Los otros campos a introducir datos de una publicación
+          periódica corresponden a los de un registro normal. Ver un poco más
+          arriba la sección 1.2.1 <emphasis>Introducir datos para un nuevo
+          registro</emphasis>.</para>		  
+		  
+
           <para lang='fr'><emphasis role="bold">A noter</emphasis> On ne peut pas
           définir d'informations de collation (nb de pages, matériel
           d'accompagnement, ...) pour un périodique. De même la notion de
           collection ne s'applique pas à un périodique.</para>
+		  
+          <para lang='es'><emphasis role="bold">A tener en cuenta</emphasis> No se
+          pueden introducir datos sobre la colación (nº de páginas, material
+          de acompañamiento, ..., ) en una p. periódica. La definición de
+          colación no se aplica a este tipo de material.</para>
+		  
+		  		  
 
           <para lang='fr'>Après avoir enregistré votre notice de périodique, vous
           obtenez l'affichage de l'écran <emphasis>Visualiser un
           périodique</emphasis>.</para>
+		  
+          <para lang='es'>Después de haber guardado el registro de tu p. periódica,
+          puedes visualizarlo a través de la pantalla <emphasis>Ver una
+          publicación periódica</emphasis>.</para>		  
         </sect4>
       </sect3>
 
       <sect3 id="cat_serial_view">
         <title lang='fr'>Visualiser un périodique</title>
+        <title lang='es'>Ver una publicación periódica</title>		
 
         <figure>
           <title lang='fr'>Visualiser un périodique</title>
+          <title lang='es'>Ver una publicación periódica</title>		  
+		  
 
           <mediaobject>
             <imageobject>
@@ -2991,12 +3073,27 @@
         sur le bouton <emphasis role="bold">Modifier</emphasis>. La
         modification d'un périodique est identique à sa création. Voir plus
         bas la section <emphasis>Nouveau périodique</emphasis>.</para>
+		
+        <para lang='es'>Dentro de esta pantalla, puedes modificar la publicación
+        periódica haciendo clic sobre el botón <emphasis
+        role="bold">Modificar</emphasis>. La pantalla de modificación de una
+        p. periódica es idéntica a la de creación. Ver más abajao la sección
+        <emphasis>Nueva p. periódica</emphasis>.</para>
+				
 
         <para lang='fr'>Vous pouvez <emphasis role="bold">Supprimer</emphasis> le
         périodique.</para>
+		
+        <para lang='es'>También desde este apartado puedes <emphasis
+        role="bold">Eliminar</emphasis> la publicación.</para>
+				
 
         <para lang='fr'>Vous pouvez également <emphasis role="bold">ajouter un numéro ou
         un élément </emphasis>(bulletin).</para>
+		
+        <para lang='es'>También puedes <emphasis role="bold">añadir un número o elemento
+        </emphasis>(boletín).</para>
+				
 
         <para lang='fr'>Dans l'<emphasis>état des collections</emphasis> qui apparaît en
         bas de l'écran, chaque ligne présente pour un bulletin sa mention de
@@ -3005,27 +3102,61 @@
         bulletin, le nombre de documents numériques (<emphasis
         role="bold">Doc</emphasis>.), le nombre d'exemplaires du bulletin
         (<emphasis role="bold">Expl</emphasis>.).</para>
+		
+        <para lang='es'>Dentro del <emphasis>estado de las colecciones</emphasis> que
+        aparecen en la parte inferior de la pantalla, cada línea describe para
+        cada número la fecha (<emphasis role="bold">Fecha o
+        período</emphasis>), el número de artículos (<emphasis
+        role="bold">Art</emphasis>.) catalogados de ese número, el número de
+        documentos electrónicos (<emphasis role="bold">Doc</emphasis>.), y el
+        número de ejemplares (<emphasis role="bold">Expl</emphasis>.).</para>
+				
 
         <para lang='fr'>Vous pouvez afficher un des bulletins déjà saisis en cliquant
         sur une des lignes de <emphasis>l'état des collections</emphasis>. Le
         bulletin est alors affiché dans l'écran
         <emphasis>Bulletinage</emphasis>.</para>
+		
+        <para lang='es'>Puedes ver un número de los ya catalogados haciendo clic sobre
+        una de las líneas de <emphasis>estado de las colecciones</emphasis>.
+        El número se muestra en la pantalla
+        <emphasis>Números</emphasis>.</para>
+				
 
         <sect4 id="cat_serial_bul">
           <title lang='fr'>Ajouter un numéro ou un élément (bulletin)</title>
+          <title lang='es'>Añadir un número o elemento (boletín)</title>		  
 
           <para lang='fr'>Différentes informations seulement sont nécessaires : la
           mention de numérotation (n° 32478), le code barre du numéro, le
           libellé de période et/ou la date de parution et enfin le titre du
           bulletin.</para>
+		  
+          <para lang='es'>Sólo se necesitan algunos datos : la mención de numeración (nº
+          32478), el código de barras del número, la etiqueta del período i/o
+          la fecha de aparición y finalmente el título del número.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis role="bold">Numérotation</emphasis> : sert à stocker
           le numéro du bulletin. Par exemple le numéro
           <emphasis>153</emphasis> du périodique.</para>
+		  
+          <para lang='es'><emphasis role="bold">Numeración</emphasis> : sirve para
+          guardar la numeración del número. Por ejemplo el número
+          <emphasis>153</emphasis> de una revista.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis role="bold">Code barre</emphasis> : ceci vous permet
           d'enregistrer le code barre du numéro du périodique, par exemple
           <emphasis>3792578022009</emphasis>.</para>
+		  
+          <para lang='es'><emphasis role="bold">Código de barras</emphasis> : permite
+          guardar el número de código de barras del número, por ejemplo
+          <emphasis>3792578022009</emphasis>.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis role="bold">Date de parution</emphasis> sert à dater
           au jour près le bulletin (01/06/04). C'est cette date qui sert à
@@ -3033,19 +3164,40 @@
           soit à la main, soit par le popup calendrier en cliquant sur
           <emphasis>calendrier,</emphasis> elle sera automatiquement remplie
           par PMB à la date du jour.</para>
+		  
+          <para lang='es'><emphasis role="bold">Fecha de aparición</emphasis> sirve para
+          seleccionar la fecha del número (01/06/04). Es esta fecha la que
+          sirve para ordenar los diferentes números. La fecha se puede
+          introducir manualment o bien a través del popup con el calendario
+          que se abre al hacer clic sobre <emphasis>calendario,</emphasis> se
+          selecciona la fecha deseada y pmb introduce directamente la
+          fecha.</para>
+		  		  
 
           <para lang='fr'><emphasis role="bold">Libellé de période</emphasis> : ce champ
           sert pour la saisie de la date de publication telle qu'elle est
           mentionnée pour le numéro : par exemple<emphasis> juin-juillet
           2004</emphasis>.</para>
+		  
+          <para lang='es'><emphasis role="bold">Período</emphasis> : este campo sirve
+          para introducir la mención de período que a veces incluyen algunas
+          publicaciones : por ejemplo<emphasis> junio-julio
+          2004</emphasis>.</para>
+		  		  
 
           <para lang='fr'><emphasis role="bold">Titre du bulletin</emphasis> : pour
           stocker le titre d'un bulletin le cas échéant, par exemple
           <emphasis> hors-série : bouleversements
           climatiques</emphasis>.</para>
+		  
+          <para lang='es'><emphasis role="bold">Título del número</emphasis> : para
+          guardar el título del número en caso necesario, por ejemplo
+          <emphasis> Los cambios climáticos</emphasis>.</para>
+		  		  
 
           <figure>
             <title lang='fr'>Création d'un bulletin</title>
+            <title lang='es'>Crear un número</title>			
 
             <mediaobject>
               <imageobject>
@@ -3057,9 +3209,11 @@
 
         <sect4 id="cat_serial_bul_view">
           <title lang='fr'>Bulletinage</title>
+          <title lang='es'>Números</title>		  
 
           <figure>
             <title lang='fr'>Bulletinage</title>
+            <title lang='es'>Números</title>			
 
             <mediaobject>
               <imageobject>
@@ -3069,105 +3223,188 @@
           </figure>
 
           <para lang='fr'>Depuis cet écran vous pouvez :</para>
+          <para lang='es'>Dentro de esta pantalla puedes :</para>		  
 
           <itemizedlist>
             <listitem>
               <para lang='fr'><emphasis role="bold">Modifier</emphasis> ou <emphasis
               role="bold">Supprimer </emphasis>le bulletin</para>
+			  
+              <para lang='es'><emphasis role="bold">Modificar</emphasis> o <emphasis
+              role="bold">Eliminar </emphasis>el número</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>Modifier un exemplaire dans la liste des exemplaires du
               bulletin en cliquant sur son code-barres</para>
+			  
+              <para lang='es'>Modificar un ejemplar de la lista de ejemplares del número
+              haciendo clic sobre su código de barres</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>Afficher un document numérique en cliquant sur son icône,
               ou modifier le document numérique en cliquant sur son
               titre</para>
+			  
+              <para lang='es'>Ver un documento electrónico haciendo clic sobre su icono,
+              o modificar un documento electrónico haciendo clic sobre su
+              título</para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'>Ajouter un exemplaire en saisissant son n° d'exemplaire
               puis en cliquant sur <emphasis role="bold">Ajouter un
               exemplaire</emphasis></para>
+			  
+              <para lang='es'>Añadir un ejemplar introduciendo su nº de ejemplar y
+              haciendo clic sobre <emphasis role="bold">Añadir un
+              ejemplar</emphasis></para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'><emphasis role="bold">Ajouter un document
               numérique</emphasis></para>
+			  
+              <para lang='es'><emphasis role="bold">Añadir un documento
+              electrónico</emphasis></para>			  
             </listitem>
 
             <listitem>
               <para lang='fr'><emphasis role="bold">Ajouter un dépouillemen</emphasis>t
               à ce bulletin (article)</para>
+			  
+              <para lang='es'><emphasis role="bold">Añadir un artículo</emphasis> a este
+              número</para>			  
             </listitem>
           </itemizedlist>
 
           <para lang='fr'>La liste des dépouillements du bulletin est affichée en bas de
           l'écran.</para>
+		  
+          <para lang='es'>La lista de los artículos catalogados de un número se muestran
+          en la parte inferior de la pantalla.</para>		  
+
 
           <para lang='fr'>Pour plus de détails cliquer sur l'icône "<emphasis
           role="bold">+</emphasis>" en début de ligne.</para>
+		  
+          <para lang='es'>Para ver más información haz clic en el icono "<emphasis
+          role="bold">+</emphasis>" al inicio de la línea.</para>
+		  
+		  		  
 
           <para lang='fr'>Pour modifier un dépouillement cliquez sur son titre.</para>
+          <para lang='es'>Para modificar un artículo haz clic sobre su título.</para>
+
 
           <para lang='fr'>Pour ajouter un document numérique à un dépouillement cliquez
           sur <emphasis role="bold">Ajouter un document numérique
           </emphasis>qui figure dans le détail de l'article.</para>
+		  
+          <para lang='es'>Para añadir un documento electrónico a un artículo haz clic
+          sobre <emphasis role="bold">Añadir un documento
+          electrónico</emphasis> que está en la parte de información del
+          artículo.</para>		  
+		  
+		  
 
           <sect5 id="cat_serial_expl">
             <title lang='fr'>Ajouter un exemplaire à un élément</title>
+            <title lang='es'>Añadir un ejemplar a un número</title>			
 
             <para lang='fr'>Voir précédemment la procédure de création d'exemplaire d'un
             ouvrage section 1.2.2.1 <emphasis>Ajout d'un
             exemplaire</emphasis>. L'ajout d'exemplaires à un élément a le
             même fonctionnement.</para>
+			
+            <para lang='es'>Ver anteriormente el procedimiento de crear un ejemplar de
+            un documento en la sección 1.2.2.1 <emphasis>Añadir un
+            ejemplar</emphasis>. Añadir ejemplares a un número funciona de la
+            misma manera.</para>
+						
           </sect5>
 
           <sect5 id="cat_serial_explnum">
             <title lang='fr'>Ajouter un exemplaire numérique à un élément</title>
+            <title lang='es'>Añadir un ejemplar eletrónico a un número</title>			
 
             <para lang='fr'>Voir précédemment la procédure de création d'exemplaire
             numérique d'un ouvrage section 1.2.2.2 <emphasis>Ajout d'un
             exemplaire numérique</emphasis>. L'ajout d'exemplaires numériques
             à un élément a le même fonctionnement.</para>
+			
+            <para lang='es'>Ver anteriormente el procedimiento de creación de ejemplares
+            electrónicos en la sección 1.2.2.2 <emphasis>Añadir un ejemplar
+            electrónico</emphasis>. Añadir ejemplares electrónicos a un número
+            funciona de la misma forma.</para>
+						
           </sect5>
 
           <sect5 id="cat_serial_analysis">
             <title lang='fr'>Ajouter un dépouillement (article)</title>
+            <title lang='es'>Añadir un artículo</title>			
 
             <para lang='fr'>La notice d'un article correspond à une notice standard avec
             pour particularité la possibilité de spécifier une
             pagination.</para>
+			
+            <para lang='es'>El registro de un artículo corresponde a un registro
+            estandar con alguna particularidad como la posibilidad de
+            especificar una paginación.</para>
+						
 
             <para lang='fr'><emphasis role="bold">Remarque</emphasis> : on ne peut pas
             ajouter de titre propre d'un auteur différent à un article.</para>
 
+            <para lang='es'><emphasis role="bold">Nota</emphasis> : no se puede añadir
+            un título propio de un autor diferente a un artículo.</para>			
+			
+
             <para lang='fr'>Nous conseillons aux catalogueurs de respecter les
             conventions suivantes :</para>
+			
+            <para lang='es'>Aconsejamos a los catalogadores respetar las convenciones
+            siguientes :</para>			
 
             <itemizedlist>
               <listitem>
                 <para lang='fr'><emphasis role="bold">p. X</emphasis> article en page
                 X</para>
+				
+                <para lang='es'><emphasis role="bold">p. X</emphasis> artículo en la
+                página</para>
+								
               </listitem>
 
               <listitem>
                 <para lang='fr'><emphasis role="bold">pp. X-Y</emphasis> article en
                 pages X à Y</para>
+				
+                <para lang='es'><emphasis role="bold">pp. X-Y</emphasis> artículo de la
+                página X a la Y</para>				
               </listitem>
 
               <listitem>
                 <para lang='fr'><emphasis role="bold">pp. X-Y, Z, AA-AC</emphasis>
                 article séparé en trois groupes de pages : des pages X à Y,
                 sur la page Z, des pages AA à AC</para>
+				
+                <para lang='es'><emphasis role="bold">pp. X-Y, Z, AA-AC</emphasis>
+                artículo separado en tres grupos de páginas : de la página X a
+                la Y, en la página Z, de las páginas AA a la AC</para>
+								
               </listitem>
             </itemizedlist>
 
             <para lang='fr'>A ceci, il est possible de rajouter des informations de
             colonne, généralement précisées en spécifiant col. puis a, b ou c
             pour le numéro de la colonne.</para>
+			
+            <para lang='es'>De esta forma, es posible introducir los datos referentes a
+            la columna dónde está situado el artículo, especificando col. a, b
+            o c según el caso.</para>
+						
           </sect5>
         </sect4>
       </sect3>
@@ -3176,39 +3413,75 @@
 
   <sect1 id="cat_caddies">
     <title lang='fr'>Paniers</title>
+    <title lang='es'>Cestas</title>	
+	
 
     <para lang='fr'>Les paniers sont des espaces de stockages : au sein de PMB, on va
     pouvoir y placer des notices, des bulletins (numéros d'un périodique), des
     exemplaires.</para>
+	
+    <para lang='es'>Las cestas son espacios de almacenamiento : lugares dónde almacenar
+    registros, publicaciones periódicas, números de publicaciones periódicas,
+    y ejemplares.</para>
+		
 
     <para lang='fr'>Les paniers dans PMB vont notamment permettre le récolement du fonds
     : il s'agit d'un terme technique en bibliothéconomie pour désigner
     l'inventaire des collections. On peut également s'en servir pour faire un
     désherbage : il s'agit alors de supprimer du fonds les ouvrages périmés ou
     trop détériorés.</para>
+	
+    <para lang='es'>Las cestas de PMB permiten, en particular, recolectar fondos : se
+    trata de un término técnico de la biblioteconomía que se usa para designar
+    el inventario de las colecciones. Las cestas también se pueden utilizar
+    para expurgar el fondo : suprimir del fondo las obras obsoletas o
+    deterioradas.</para>
+	
+		
 
     <para lang='fr'>Les paniers sont le moyen de stocker une bibliographie : les
     résultats de différentes recherches pour préparer une publication, un
     catalogue thématique,...</para>
+	
+    <para lang='es'>Las cestas pueden servir también para elaborar una bibliografía :
+    los resultados de diferentes búsquedas que pueden servir para preparar una
+    publicación, un catálogo temático, catálogo temático,...</para>
+	
+		
 
     <para lang='fr'>Il y a deux moyens de remplir un panier : soit en y plaçant des
     éléments manuellement (repérer l'icône en forme de panier lors des
     différents affichages), soit en pointant à la douchette ou en saisissant
     des codes barres à la main.</para>
+	
+    <para lang='es'>Hay dos formas de llenar una cesta : colocando los elementos
+    manualmente (en todos los registros hay un icono de una cesta), o leyendo
+    los códigos de barras con el lector de códigos de barras o introduciendo
+    los códigos a mano.</para>
+		
 
     <sect2 id="cat_caddie_gestion">
       <title lang='fr'>Gestion</title>
+      <title lang='es'>Gestión</title>	  
 
       <para lang='fr'>Par défaut, en partie Paniers/Gestion, c'est la gestion des
       paniers qui est affichée. Vous pouvez afficher la gestion des procédures
       à l'aide du lien Gestion des procédures.</para>
+	  
+      <para lang='es'>Por defecto, el el apartado Cestas/Gestión, se muestran las cestas
+      y las opciones de gestión. Puedes ver la gestión de los procedimientos
+      en el enlace Gestión de los procedimientos.</para>	  
 
       <sect3 id="cat_caddie_gestion_caddie">
         <title lang='fr'>Gestion des paniers</title>
+        <title lang='es'>Gestión de las cestas</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
           paniers</title>
+		  
+          <title lang='es'>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de las
+          cestas</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3221,16 +3494,30 @@
         contenu d'un panier. En cliquant sur Editer, vous pouvez éditer ce
         panier : nom, type, commentaire, droits d'accès. Enfin, en cliquant
         sur Ajouter un panier vous pouvez définir un nouveau panier.</para>
+		
+        <para lang='es'>Haciendo clic sobre el nombre de una de las cestas, puedes
+        consultar el contenido de la cesta. Haciendo clic en Editar, puedes
+        editar la cesta: nombre, tipo, comentario, derechos de acceso.
+        Finalmente haciendo clic en Añadir una cesta puedes definir una nueva
+        cesta.</para>
+				
 
         <sect4>
           <title lang='fr'>Contenu d'un panier</title>
+          <title lang='es'>Contenido de una cesta</title>		  
 
           <para lang='fr'>En cliquant sur le nom d'un panier, vous pouvez consulter le
           contenu d'un panier.</para>
+		  
+          <para lang='es'>Al hacer clic sobre el nombre de una cesta, puedes consultar
+          el contenido de cada cesta.</para>		  
 
           <figure>
             <title lang='fr'>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
             paniers, contenu d'un panier</title>
+			
+            <title lang='es'>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de cestas,
+            contenido del panel</title>			
 
             <mediaobject>
               <imageobject>
@@ -3242,12 +3529,24 @@
           <para lang='fr'>Vous pouvez éventuellement en supprimer des éléments à l'aide
           de l'icône supprimer du panier :<graphic
           fileref="images/basket_del.gif" /></para>
+		  
+          <para lang='es'>También puedes eventualmente suprimir los elementos con la
+          ayuda del icono eliminar de la cesta :<graphic
+          fileref="images/basket_del.gif" /></para>
+		  
+		  		  
 
           <para lang='fr'>Un panier peut contenir des éléments du fonds (notices,
           exemplaires ou bulletins catalogués dans PMB) :</para>
+		  
+          <para lang='es'>Una cesta puede contener elementos del fondo de la biblioteca
+          (registros, ejemplars o número de p. periódica catalogados en PMB)
+          :</para>
+		  		  
 
           <figure>
             <title lang='fr'>Elément du fond</title>
+            <title lang='es'>Elemento del fondo</title>			
 
             <mediaobject>
               <imageobject>
@@ -3261,15 +3560,29 @@
           liste des exemplaires et des exemplaires numériques. L'affichage de
           la notice est identique à celui que vous pouvez avoir en résultat
           d'une recherche (Catalogage &gt; Recherche).</para>
+		  
+          <para lang='es'>Si amplias la noticia haciendo clic sobre el + situado
+          deltante del registro, puedes consultar el registro en formato ISBD
+          y también ver la lista de ejemplares y de documentos electrónicos.
+          La visualización del registro es idéntica a la que puedes ver en el
+          resultado de una búsqueda (Catálogo &gt; Buscar).</para>
+		  		  
 
           <para lang='fr'>Cependant, lors de la collecte du panier, vous pouvez avoir
           douchetté un élément inconnu du fonds (par exemple, un livre de la
           BDP qui n'a pas été importé dans PMB). Pour vous permettre de
           conserver la trace de ces éléments, un panier peut également
           contenir des éléments inconnus :</para>
+		  
+          <para lang='es'>Las cestas pueden contener también elementos no catalogados en
+          PMB (por ejemplo, puedes haber introducido un libro de otra
+          biblioteca). Para conservar información sobre estos elementos, una
+          cesta también puede guardar este tipo de elementos :</para>
+		  		  
 
           <figure>
             <title lang='fr'>Elément inconnu</title>
+            <title lang='es'>Elemento desconocido</title>			
 
             <mediaobject>
               <imageobject>
@@ -3282,9 +3595,15 @@
           ceux- ci sont signalés par une icône précédant leur titre. Pour plus
           d'informations sur le pointage des éléments d'un panier, consulter
           la section <xref linkend="cat_caddie_pointage" />.</para>
+		  
+          <para lang='es'>Dentro del contenido de una cesta, si los elementos han sido
+          marcados, éstos están señalados por el icono que precede al título.
+          Para más información sobre cómo marcar los elementos de una cesta,
+          consulta la sección <xref linkend="cat_caddie_pointage" />.</para>		  
 
           <figure>
             <title lang='fr'>Elément pointé</title>
+            <title lang='es'>Elemento marcado</title>			
 
             <mediaobject>
               <imageobject>
@@ -3300,10 +3619,16 @@
 
           <para lang='fr'>Vous pouvez également éditer un panier en cliquant sur le lien
           Éditer à droite de l'écran.</para>
+		  
+          <para lang='es'>También puedes editar un pnael haciendo clic sobre el enlace
+          Editar a la derecha de la pantalla.</para>		  
 
           <figure>
             <title lang='fr'>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
             paniers</title>
+			
+            <title lang='es'>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de las
+            cestas</title>			
 
             <mediaobject>
               <imageobject>
@@ -3315,122 +3640,257 @@
           <para lang='fr'>L'écran Éditer un panier vous permet de modifier le nom, le
           commentaire d'un panier, et les droits des utilisateurs sur ce
           panier.</para>
+		  
+          <para lang='es'>La pantalla de Editar permite modificar el nombre, el
+          comentario de una cesta, y los derechos de los usuarios sobre esa
+          cesta.</para>		  
+
+
 
           <para lang='fr'>Vous pouvez voir le type de panier : Panier de notices, Panier
           de bulletins, Panier d'exemplaires. Vous ne pouvez pas changer le
           type d'un panier existant. Si vous vous êtes trompés dans la
           création d'un panier, supprimez le et créez en un nouveau.</para>
+		  
+          <para lang='es'>También puedes ver el tipo de cesta: Cesta de registros, Cesta
+          de artículos, Cesta de ejemplares. No se puede cambiar el tipo de
+          cesta de una cesta ya creada. Si te has equivocado al crear una
+          cesta, eliminínala y vuelve a crearla de nuevo.</para>
+		  
+		  		  
 
           <para lang='fr'>Sous la mention "Autorisations accordées à", vous pouvez voir
           des cases à cocher correspondant aux autorisations d'accès. Les noms
           affichés sont les différents utilisateurs définis dans PMB. Vous ne
           pouvez pas retirer l'accès à l'administrateur.</para>
+		  
+          <para lang='es'>Bajo la mención de "Autorizaciones concedidas a", puedes ver
+          las casillas a marcar que corresponden a los usuarios a los cuales
+          se autoriza el acceso. Los nombres que se muestran son los de los
+          diferentes usuarios definidos en PMB. No se le pueden retirar
+          derechos de acceso al administrador.</para>
+		  
+		  		  
 
           <para lang='fr'>Vous pouvez donc créer un panier qui ne sera accessible qu'à
           vous (et à l'administrateur).</para>
+		  
+          <para lang='es'>Puedes crear, por tanto, cestas que sólo podrás acceder tú (y
+          el administrador).</para>
+		  		  
         </sect4>
 
         <sect4>
           <title lang='fr'>Ajouter un panier</title>
+          <title lang='es'>Añadir una cesta</title>		  
 
           <para lang='fr'>L'écran d'ajout d'un panier est identique à celui d'Editer un
           panier. Seul le bouton Supprimer n'y figure pas. Pour plus
           d'informations, consulter plus haut la section <xref
           linkend="catalogue_panier_editer_un_panier" />.</para>
+		  
+          <para lang='es'>La pantalla de añadir una cesta es idéntica a la de Editar una
+          cesta. La única diferencia es que el botón Eliminar no está. Para
+          más información, consulta un poco más arriba la sección <xref
+          linkend="catalogue_panier_editer_un_panier" />.</para>
+		  		  
         </sect4>
 
         <sect4>
           <title lang='fr'>Paniers installés par défaut lors de l'installation de
           PMB</title>
+		  
+          <title lang='es'>Cestas instaladas por defecto en PMB</title>		  
 
           <para lang='fr'>Si votre administrateur informatique a installé PMB avec les
           "données essentielles pour démarrer rapidement" (feed_essential.sql,
           pour plus d'informations, consulter le Guide d'Installation PMB), un
           certain nombre de paniers ont été créés, soit à titre d'exemple,
           soit pour faciliter la gestion de la bibliothèque.</para>
+		  
+          <para lang='es'>Si tu administrador informático ha instalado PMB con los
+          "datos esenciales para un inicio rápido" (feed_essential.sql, para
+          más información, consulta la Guía de Instalación PMB), se habrán
+          creado algunas cestas, para facilitar la gestión de la
+          biblioteca.</para>
+		  		  
 
           <para lang='fr'><emphasis>Notices pour exposition</emphasis> panier de notices
           exemple. Destiné à recevoir les notices d'une petite exposition, qui
           peut ensuite être mis en avant grâce aux étagères virtuelles de
           l'OPAC, pour plus d'informations consulter <xref
           linkend="cat_etg" /></para>
+		  
+          <para lang='es'><emphasis>Registros para exposición</emphasis> cesta de
+          registros de ejemplo. Destinada a recibir los registros de una
+          pequeña exposición, que puede exponerse a través de las estanterías
+          virtuales del l'OPAC, para más información consulta <xref
+          linkend="cat_etg" /></para>
+
+
+		  
 
           <para lang='fr'><emphasis>Notices pour retour BDP</emphasis> panier de notices
           pour faciliter la gestion. Destiné à recevoir les notices des
           exemplaires à retourner à une Bibliothèque Départementale de Prêt,
           pour nettoyer la base après retour.</para>
+		  
+          <para lang='es'><emphasis>Registros para devolver a otra biblioteca</emphasis>
+          cestas de registros para facilitar la gestión. Destinada a recibir
+          los registros de los ejemplares a devolver a otra biblioteca, para
+          poder limpiar la base de datos después de su devolución.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis>Exemplaires pour retour BDP</emphasis> panier
           d'exemplaires pour faciliter la gestion. Destiné à recevoir les
           exemplaires à retourner à une Bibliothèque Départementale de Prêt,
           pour les sortir du prêt puis nettoyer la base après retour.</para>
+		  
+          <para lang='es'><emphasis>Ejemplares para devolver a otra
+          biblioteca</emphasis> cesta de ejemplares para facilitar la gestión.
+          Destinada a guardar los ejemplares a devolver a otra biblioteca,
+          para borrar los ejemplares después de la devolución.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis>Notices en doublon sur titre</emphasis> panier de
           notices pour faciliter la gestion. Destiné à recevoir les notices en
           doublon, afin de nettoyer la base.</para>
+		  
+          <para lang='es'><emphasis>Registros duplicados</emphasis> cesta de registros
+          para facilitar la gestión. Destinada a recibir los registros
+          duplicados para posteriormente limpiar la base de datos.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis>Jamais prêtés</emphasis> panier d'exemplaires pour
           faciliter la gestion. Destiné à recevoir les exemplaires qui n'ont
           jamais été prêtés.</para>
+		  
+          <para lang='es'><emphasis>Nunca prestados</emphasis> cesta de ejemplares para
+          facilitar la gestión. Destinada a recibir los ejemplares que no se
+          han prestado nunca.</para>
+		  		  
         </sect4>
       </sect3>
 
       <sect3 id="cat_caddie_gestion_procs">
         <title lang='fr'>Gestion des procédures</title>
+        <title lang='es'>Gestión de los procedimientos</title>		
 
         <para lang='fr'>Cet écran affiche les différentes procédures associées aux
         paniers. Vous pouvez définir des procédures qui vous serviront à
         remplir des paniers, à faire des pointages sur des paniers constitués,
         ou à appliquer des changements aux notices, bulletins ou exemplaires
         stockés dans le panier.</para>
+		
+        <para lang='es'>Esta pantalla muestra diferentes procedimientos asociados a las
+        cestas. Debes definir los procedimientos que te servirán para llenar
+        las cesta, a marcar las cestas ya creadas, o a aplicar cambios a los
+        registros, números o ejemplares almacenados en el panel.</para>
+		
+				
 
         <para lang='fr'>Pour plus d'informations sur les procédures et étudier quelques
         exemples, consulter plus loin la section <emphasis>3.5 exemples
         d'utilisation des paniers</emphasis>.</para>
+		
+        <para lang='es'>Para más información sobre los procedimientos y estudiar algunos
+        ejemplos, consulta un poco más abajo la sección <emphasis>3.5 ejemplos
+        de uso de las cestas</emphasis>.</para>
+				
 
         <sect4>
           <title lang='fr'>Procédures installés par défaut lors de l'installation de
-          PM</title>
+          PMB</title>
+		  
+          <title lang='es'>Procedimientos instalados por defecto en PMB</title>		  
 
           <para lang='fr'>Si votre administrateur informatique a installé PMB avec les
           "données essentielles pour démarrer rapidement" (feed_essential.sql,
           pour plus d'informations, consulter le Guide d'Installation PMB), un
           certain nombre de procédures ont été créées, soit à titre d'exemple,
           soit pour faciliter la gestion de la bibliothèque.</para>
+		  
+          <para lang='es'>Si tu administrador informático ha instalado PMB con los
+          "dotos esenciales para un inicio rápido" (feed_essential.sql, para
+          más información, consulta la Guía de Instalación PMB), se habrán
+          creado algunos procedimientos, para facilitar la gestión de la
+          biblioteca.</para>
+		  		  
 
           <para lang='fr'><emphasis>EXPL par section / propriétaire</emphasis> procédure
           de sélection suivant une ou plusieurs sections pour un ou plusieurs
           propriétaires.</para>
+		  
+          <para lang='es'><emphasis>EJEMP por sección / propietario</emphasis>
+          procedimiento de selección escogiendo una o varias secciones para
+          uno o más propietarios.</para>
+		  		  
 
           <para lang='fr'><emphasis>EXPL où cote commence par</emphasis> procédure de
           sélection suivant les caractères de début d'une cote. Utile pour le
           récolement notamment (vérification périodique de l'inventaire
           réalisée par une bibliothèque).</para>
+		  
+          <para lang='es'><emphasis>EJEMP cuya signatura empieza por</emphasis>
+          procedimiento de selección escogiendo los caracteres de inicio de
+          una signatura. Útil para reunir documentos (para el inventario
+          periódico a realizar en una biblioteca).</para>
+
+		  
 
           <para lang='fr'><emphasis>Retour BDP des exemplaires</emphasis> procédure
           d'action permettant un changement de statut à l'ensemble des
           exemplaires d'un panier.</para>
+		  
+          <para lang='es'><emphasis>Devolución la biblioteca X de sus
+          ejemplares</emphasis> procedimiento de acción que permite cambiar el
+          estado a todo un conjunto de ejemplares de una cesta.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis>Notices par auteur</emphasis> procédure de sélection
           de notices suivant un ou des auteurs.</para>
+		  
+          <para lang='es'><emphasis>Registros de un autor</emphasis> procedimiento de
+          selección de registros escogiendo los de un autor o varios autores
+          en concreto.</para>
+		  		  
 
           <para lang='fr'><emphasis>Notices en doublons</emphasis> procédure de
           sélection des notices doublons ayant un titre identique.</para>
+		  
+          <para lang='es'><emphasis>Registros duplicados</emphasis> procedimiento de
+          selección de registros que tengan un título idéntico.</para>
+		  
+		  		  
 
           <para lang='fr'><emphasis>Notices sans exemplaires</emphasis> procédure de
           sélection des notices n'ayant aucun exemplaire attaché.</para>
+		  
+          <para lang='es'><emphasis>Registros sin ejemplar</emphasis> procedimiento de
+          selección de registros que no tengan ningún ejemplar.</para>
+		  		  
 
           <para lang='fr'><emphasis>Jamais prêtés</emphasis> procédure de sélection des
           exemplaires qui n'ont jamais été prêtés.</para>
+		  
+          <para lang='es'><emphasis>Nunca prestados</emphasis> procedimiento de
+          selección de ejemplares que nunca se han prestado.</para>
+		  		  
         </sect4>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_collecte">
       <title lang='fr'>Collecte</title>
+      <title lang='es'>Cómo se llenan las cestas</title>	  
 
       <figure>
         <title lang='fr'>Catalogage &gt; Paniers &gt; Collecte</title>
+        <title lang='es'>Catálogo &gt; Cestas &gt; Llenar las cestas</title>		
 
         <mediaobject>
           <imageobject>
@@ -3443,20 +3903,41 @@
       remplir les paniers à la douchette (en scannant les codes barres des
       exemplaires). Vous pouvez également placer des éléments dans un panier
       en lançant une procédure de sélection.</para>
+	  
+      <para lang='es'>Puedes llenar las cestas ayudado del lector de códigos de barras
+      (escaneando los códigos de barras de los ejemplares). O puedes también
+      enviar elementos a una cesta lanzando un procedimiento de selección
+      contra el sistema.</para>	  
+	  
 
       <para lang='fr'>Ces procédures ont été définies en passant par
       Paniers/Gestion/Gestion des procédures.</para>
+	  
+      <para lang='es'>Estos procedimientos han de ser definidos en el apartado
+      Cestas/Gestión/Gestión de los procedimientos.</para>
+	  	  
 
       <para lang='fr'>A tout moment dans l'onglet Catalogue, lorsque vous voyez l'icône
       d'un panier affichée, vous pouvez ajouter un élément (notice,
       exemplaire, bulletin) à un panier en cliquant sur l'icône <graphic
       fileref="images/basket_small.gif" /></para>
+	  
+      <para lang='es'>En todo momento en el apartado Catálogo, cuando veas el icono de
+      una cesta, puedes añadir un elemento (registro, ejemplare o número) a
+      una cista haciendo clic sobre el icono <graphic
+      fileref="images/basket_small.gif" /></para>
+	  	  
 
       <sect3>
         <title lang='fr'>subtilités des ajouts dans un panier</title>
+        <title lang='es'>detalles de llenar una cesta</title>		
 
         <para lang='fr'>La gestion de l'ajout d'un élément dans un panier correspond aux
         divers fonctionnements possibles :</para>
+		
+        <para lang='es'>La gestión de añadir un elemento a una cesta puedes hacerse a
+        través de diferentes funciones posibles :</para>		
+
 
         <itemizedlist>
           <listitem>
@@ -3464,12 +3945,21 @@
             <emphasis>panier d'exemplaires</emphasis> = ajout de
             <emphasis>tous les exemplaires de la notice</emphasis> au
             panier</para>
+			
+            <para lang='es'>añadir un <emphasis role="bold">registro</emphasis> a una
+            <emphasis>cesta de ejemplares</emphasis> = añadir <emphasis>todos
+            los ejemplares del registro</emphasis> a una cesta</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>ajout d'un <emphasis role="bold">exemplaire</emphasis> à un
             <emphasis>panier de notices</emphasis> = ajout de la
             <emphasis>notice de l'exemplaire</emphasis> au panier</para>
+			
+            <para lang='es'>añadir un <emphasis role="bold">ejemplar</emphasis> a una
+            <emphasis>cesta de registros</emphasis> = añadir el
+            <emphasis>registro del ejemplar</emphasis> a la cesta</para>			
           </listitem>
 
           <listitem>
@@ -3477,6 +3967,12 @@
             </emphasis>à un <emphasis>panier de bulletins </emphasis>= ajout
             du <emphasis>bulletin correspondant</emphasis> à ce dépouillement
             au panier</para>
+			
+            <para lang='es'>añadir un <emphasis role="bold">artículo</emphasis>a una
+            <emphasis>cesta de números </emphasis>= añadir la
+            <emphasis>publiación periódica correspondiente</emphasis> a ese
+            artículo a la cesta</para>
+			
           </listitem>
         </itemizedlist>
 
@@ -3485,21 +3981,36 @@
         </emphasis>n'aura <emphasis>aucun effet</emphasis>. En effet, au
         bulletin correspondent deux types de notices : la notice mère du
         périodique et les notices de dépouillement du bulletin.</para>
+		
+        <para lang='es'>Atención : añadir un <emphasis role="bold">número</emphasis> a
+        una <emphasis>cesta de registros </emphasis>no tendrá <emphasis>ningún
+        efecto</emphasis>. En efecto, a un número le corresponden dos tipos de
+        registros : el registro madre de la publicación y los registros de los
+        artículos catalogados de ese número.</para>
+		
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_pointage">
       <title lang='fr'>Pointage</title>
+      <title lang='es'>Seleccionar</title>	  
 
       <para lang='fr'>Le pointage des paniers permet de comparer le contenu d'un panier
       avec d'autres éléments, soit en pointant manuellement (en douchettant)
       ou en effectuant une procédure de sélection dans PMB.</para>
+	  
+      <para lang='es'>La selección de las cestas permite comparar el contenido de una
+      cesta con otros elementos, escogiendo los registros manualmente (con el
+      lector de códigos de barras) o realizando un procedimiento de selección
+      en PMB.</para>	  
 
       <sect3 id="cat_caddie_pointage_douchette">
         <title lang='fr'>Pointage par douchette</title>
+        <title lang='es'>Seleccionar con el lector de códigos de barras</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Par douchette</title>
+          <title lang='es'>Catalogación &gt; Cestas &gt; Con lector</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3510,8 +4021,13 @@
 
         <para lang='fr'>Cliquez sur le nom du panier dont vous voulez pointer les
         éléments.<figure>
+		
+        <para lang='es'>Haz clic sobre el nombre de la cesta de la cual quieres marcar
+        elementos.<figure>
+		
             <title lang='fr'>Catalogage &gt; Paniers &gt; Pointage &gt; Par
             douchette</title>
+            <title lang='es'>Catálogo &gt; Cestas &gt; Marcar &gt; Con lector</title>			
 
             <mediaobject>
               <imageobject>
@@ -3523,13 +4039,18 @@
 
       <sect3 id="cat_caddie_pointage_sélection">
         <title lang='fr'>Pointage par sélection</title>
+        <title lang='es'>Marcar por selección</title>		
 
         <para lang='fr'>Pour pointer un panier par sélection, cliquez sur le panier à
         pointer.</para>
+		
+        <para lang='es'>Para marcar una cesta por selección, haz clic sobre la cesta a
+        marcar.</para>		
 
         <figure>
           <title lang='fr'>Catalogue &gt; Paniers &gt; Pointage &gt; Par
           sélection</title>
+          <title lang='es'>Catálogo &gt; Cestas &gt; Marcar &gt; Por selección</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3539,10 +4060,14 @@
         </figure>
 
         <para lang='fr'>Cliquez ensuite sur la procédure à utiliser.</para>
+        <para lang='es'>Haz clic después sobre el procedimiento a usar.</para>		
 
         <figure>
           <title lang='fr'>Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
           choix de la procédure de pointage</title>
+		  
+          <title lang='es'>Catálogo &gt; Cestas &gt; Marcar &gt; Por selección, escoger
+          el procedimiento para marcar</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3552,10 +4077,14 @@
         </figure>
 
         <para lang='fr'>Veillez à compléter les éventuels paramètres demandés.</para>
+        <para lang='es'>Debes completar algunos parámetros eventuales que se
+        piden.</para>		
 
         <figure>
           <title lang='fr'>Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
           pointage terminé</title>
+          <title lang='es'>Catálogo &gt; Cestas &gt; Marcar &gt; Por selección,
+          marcación terminada</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3569,14 +4098,22 @@
         paniers est rappelé. Les éléments appartenant au fond enregistré dans
         PMB figurent sur la deuxième ligne du tableau récapitulatif en bas de
         page.</para>
+		
+        <para lang='es'>Los elementos de la cesta que hayan sido marcados son incluidos
+        bajo la etiqueta<emphasis> Marcados(s)</emphasis>. El número total de
+        elementos de las cestas también se incluye. Los elementos que
+        pertenecen al fondo de PMB figuran en la segunda línea de la tabla de
+        recapitulación en la parte inferior de la página.</para>		
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_actions">
       <title lang='fr'>Actions</title>
+      <title lang='es'>Acciones</title>	  
 
       <figure>
         <title lang='fr'>Catalogage &gt; Paniers &gt; Actions</title>
+        <title lang='es'>Catálogo &gt; Cestas &gt; Acciones</title>		
 
         <mediaobject>
           <imageobject>
@@ -3587,43 +4124,59 @@
 
       <para lang='fr'>Depuis cet écran, vous pouvez réaliser différentes actions
       :</para>
+	  
+      <para lang='es'>En esta pantalla, puedes realizar diferentes acciones :</para>	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>éditer le contenu (aux formats HTML, Excel HTML, Excel
           XLS).</para>
+		  
+          <para lang='es'>editar el contenido (en formatos HTML, Excel HTML, Excel
+          XLS).</para>		  
         </listitem>
 
         <listitem>
           <para lang='fr'>vider le panier choisi</para>
+          <para lang='es'>vaciar la cesta seleccionada</para>		  
         </listitem>
 
         <listitem>
           <para lang='fr'>supprimer de la base les éléments du panier</para>
+          <para lang='es'>supprimir de la base de datos los elementos de la cesta</para>		  
         </listitem>
 
         <listitem>
           <para lang='fr'>exporter le contenu du panier</para>
+          <para lang='es'>exportar el contenido de la cesta</para>		  
         </listitem>
 
         <listitem>
           <para lang='fr'>transférer le contenu d'un panier dans un autre</para>
+          <para lang='es'>transferir el contenido de una cesta a otra</para>		  
         </listitem>
 
         <listitem>
           <para lang='fr'>appliquer une requête SQL au contenu d'un panier</para>
+          <para lang='es'>aplicar una consulta SQL al contenido de una cesta</para>		  
         </listitem>
       </itemizedlist>
 
       <para lang='fr'>Ces actions sont réalisables en cliquant sur le lien correspondant
       dans l'interface centrale, puis en cliquant sur le nom du panier sur
       lequel l'action doit être réalisée.</para>
+	  
+      <para lang='es'>Estas acciones se pueden realizar haciendo clic sobre la
+      interfaz central, y hacer clic sobre el nombre de la cesta sobre la
+      cual se tiene que realizar la acción.</para>	  
 
       <sect3>
         <title lang='fr'>Éditions</title>
+        <title lang='es'>Editar</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Éditions</title>
+          <title lang='es'>Catálogo &gt; Cestas &gt; Acciones &gt; Editar</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3636,17 +4189,31 @@
         consulter le<emphasis> Guide de l'Administrateur</emphasis>, Chapitre
         10 <emphasis>Export</emphasis>, section 1 <emphasis>Formats de
         fichier.</emphasis></para>
+		
+        <para lang='es'>Para más información sobre los formatos de exportación de PMB,
+        consulta la <emphasis>Guía del Administrador</emphasis>, Capítulo 10
+        <emphasis>Exportación</emphasis>, sección 1 <emphasis>Formatos de
+        archivo.</emphasis></para>
+				
 
         <para lang='fr'>Choisissez ensuite les éléments du panier concernés : éléments
         pointés ou éléments non pointés.</para>
+
+        <para lang='es'>Escoge después los elementos de la cesta afectados : elementos
+        marcados o elementos no marcadas</para>		
+		
       </sect3>
 
       <sect3>
         <title lang='fr'>Vider du panier</title>
+        <title lang='es'>Vaciar una cesta</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Vider du
           panier</title>
+		  
+          <title lang='es'>Catálogo &gt; Cestas &gt; Acciones &gt; Vaciar una
+          cesta</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3657,17 +4224,28 @@
 
         <para lang='fr'><emphasis>Vider du panier </emphasis>permet de vider le contenu
         d'un panier.</para>
+		
+        <para lang='es'><emphasis>Vaciar una cesta </emphasis>permite vaciar el
+        contenido de una cesta.</para>
+				
 
         <para lang='fr'>Choisissez ensuite les éléments du panier concernés : éléments
         pointés ou éléments non pointés.</para>
+		
+        <para lang='es'>Escoge los elementos de la cesta afectados : elementos marcados
+        o elementos no marcados.</para>		
       </sect3>
 
       <sect3>
         <title lang='fr'>Supprimer de la base</title>
+        <title lang='es'>Suprimir de la base de datos</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Supprimer de la
           base</title>
+		  
+          <title lang='es'>Catalogación &gt; Cestas &gt; Acciones &gt; Suprimir de la
+          base de datos</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3679,19 +4257,35 @@
         <para lang='fr'>Supprimer de la base supprime les éléments contenus dans un
         panier (notices, bulletins ou exemplaires) de la base de données de la
         bibliothèque.</para>
+		
+        <para lang='es'>Suprimir de la base de datos suprime los elementos incluidos en
+        una cesta (registros, boletines o ejemplares) de la base de datos de
+        la biblioteca.</para>
+				
 
         <para lang='fr'>A utiliser avec grande prudence, donc, par exemple pour effacer
         un panier d'exemplaires perdus.</para>
+		
+        <para lang='es'>Utiliza esa función con mucho cuidado, para, por ejemplo,
+        eliminar una cesta de ejemplares perdidos.</para>
+				
 
         <para lang='fr'>Choisissez ensuite les éléments du paniers concerné : éléments
         pointés ou éléments non pointés.</para>
+		
+        <para lang='es'>Escoge los elementos de las cestas afectadas : elementos
+        marcados o elementos no marcados.</para>
+				
       </sect3>
 
       <sect3>
         <title lang='fr'>Export</title>
+        <title lang='es'>Exportación</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Export</title>
+          <title lang='es'>Catalogación &gt; Cestas &gt; Acciones &gt;
+          Exportación</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3701,16 +4295,25 @@
         </figure>
 
         <para lang='fr'>L'export va permettre d'exporter le contenu d'un panier.</para>
+        <para lang='es'>La exportación permite exportar el contenido de una
+        cesta.</para>		
 
         <para lang='fr'>Choisissez ensuite les éléments du panier concernés : éléments
         pointés ou éléments non pointés.</para>
+
+        <para lang='es'>Escoge los elementos del panel afectado : elementos marcados o
+        no marcados.</para>		
+		
       </sect3>
 
       <sect3>
         <title lang='fr'>Transfert</title>
+        <title lang='es'>Transferencia</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Transfert</title>
+          <title lang='es'>Catalogación &gt; Cestas &gt; Acciones &gt;
+          Transferencia</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3721,13 +4324,18 @@
 
         <para lang='fr'>Le transfert permet de transférer les éléments du panier
         (éléments pointés et/ou non pointés) dans un autre panier.</para>
+		
+        <para lang='es'>La transferencia permite transferir los elementos de una cesta
+        (elementos marcados i/o no marcados) de una cesta a otra cesta.</para>		
       </sect3>
 
       <sect3>
         <title lang='fr'>Par requête</title>
+        <title lang='es'>Por consulta</title>		
 
         <figure>
           <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Par requête</title>
+          <title lang='es'>Catálogo &gt; Cestas &gt; Acciones &gt; Por consulta</title>		  
 
           <mediaobject>
             <imageobject>
@@ -3741,27 +4349,44 @@
         ensemble d'ouvrages déplacés ailleurs dans votre bibliothèque. Pour
         plus d'informations sur les requêtes, consultez le <emphasis>Guide de
         l'Administrateur PMB.</emphasis></para>
+		
+        <para lang='es'>Puedes igualmente aplicar una consulta SQL al contenido de una
+        cesta, por ejemplo una consulta UPDATE para cambiar las signaturas de
+        un conjunto de documentos enviados a otra biblioteca. Para más
+        información sobre las consultas, consulta la <emphasis>Guía del
+        Administrador PMB.</emphasis></para>
+				
       </sect3>
     </sect2>
 
     <sect2>
       <title lang='fr'>Exemples d'utilisation des paniers</title>
+      <title lang='es'>Ejemplos de uso de las cestas</title>	  
 
       <para lang='fr'>Voici quelques exemples d'utilisation des paniers. Ceux-ci vous
       permettront de mieux appréhender l'utilisation des paniers de PMB ainsi
       que la puissance de leurs fonctionnalités, grâce aux requêtes.</para>
+	  
+      <para lang='es'>Aquí encontrarás varios ejemplos sobre el uso de las cestas. Estos
+      ejemplos permiten comprender mejor el uso de las cestas de PMB y sus
+      funcionalidades, gracias a las consultas.</para>	  
 
       <sect3>
         <title lang='fr'>Placer dans un panier les ouvrages sans exemplaires</title>
+        <title lang='es'>Juntar en una cesta las obras sin ejemplares</title>		
 
         <itemizedlist>
           <listitem>
-            <para lang='fr'>Créer un panier de notices,</para>
+            <para lang='fr'>Créer un panier de notices</para>
+            <para lang='es'>Crear una cesta de registros</para>			
           </listitem>
 
           <listitem>
             <para lang='fr'>Créer une procédure de sélection, y mettre le code
             ci-dessous (ATTENTION sans saut de ligne) :</para>
+			
+            <para lang='es'>Crear un procedimiento de selección, y introducir la
+            consulta SQL siguiente (ATENCIÓN sin salto de línea) :</para>			
 
             <programlisting>SELECT notice_id as object_id, 'NOTI' as object_type 
 FROM notices left join exemplaires on 
@@ -3772,12 +4397,16 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
           <listitem>
             <para lang='fr'>Aller en Panier &gt; Collecte &gt; Par sélection et remplir
             votre panier avec cette procédure</para>
+			
+            <para lang='es'>Ir a Cestas &gt; Marcar &gt; Por selección y llenar tu cesta
+            con este procedimiento</para>			
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
         <title lang='fr'>Gérer les inventaires</title>
+        <title lang='es'>Generar inventarios</title>		
 
         <para lang='fr'>"Je voudrais me simplifier la vie lors de mes inventaires, j'ai
         donc pensé à créer un paniers avec tous les exemplaires d'une section.
@@ -3786,12 +4415,28 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
         livres qui sont dans la base mais physiquement perdus, volés...
         "</para>
 
+        <para lang='es'>"Yo quería simplicar mi vida en cuanto a los inventarios, es por esto 
+		que he pensado en crear unas cestas con todos los ejemplares de una sección. Yo 
+		podría así marcar los ejemplares que están físicamente en las estanterías y con 
+		la acción suprimir de la cesta eliminar estos elementos de la cesta, de forma que podría 
+		encontrar los elementos que están en la base pero que físicament están perdidos, 
+		desaparecidos, ... "</para>		
+
+
+
         <para lang='fr'>"J'ai voulu utilisé une procédure mais je suis vraiment nulle!
         Dans les PS j'ai un inventaire de tout mes documentaires par ex. mais
         je ne sais pas comment la transformer pour qu'elle fonctionne dans les
         paniers ? "</para>
+		
+        <para lang='es'>"Quería usar una consulta pero soy realmente un desastre para ello! 
+		En los PS yo tenía un inventario de todos mis documentos, pero cómo transformarlo 
+		para que funcionara en las cestas? "</para>
+		
+				
 
         <para lang='fr'>Voici donc la PS corrigée ! </para>
+        <para lang='es'>Pues aquí está el PS corregido ! </para>		
 
         <programlisting>select expl_id as object_id, 'EXPL' as object_type from 
 exemplaires, notices, docs_section where idsection in 
@@ -3802,18 +4447,25 @@ expl_cb </programlisting>
         <para lang='fr'>Il ne reste plus qu'à paramétrer le paramètre !!section!! :
         liste de choix à partir d'une requête, liste multiple si on veut avec
         : </para>
+		
+        <para lang='es'>Sólo faltará parametrizar el parámetro !!section!! : 
+		lista de opciones a partir de una consulta, si se quiere lista múltiple : </para>		
 
         <programlisting>select idsection, section_libelle from docs_section 
 order by section_libelle</programlisting>
 
         <para lang='fr'>Stéphanie FORT (Bibliothécaire CDI - Collège Saint Pierre,
         Jette, Belgique)</para>
+		
+        <para lang='es'>Stéphanie FORT (Bibliothécaire CDI - Collège Saint Pierre,
+        Jette, Belgique)</para>		
       </sect3>
     </sect2>
   </sect1>
 
   <sect1 id="cat_etg">
     <title lang='fr'>Étagères</title>
+    <title lang='es'>Estanterías</title>	
 
     <para lang='fr'>Les étagères virtuelles sont un regroupement de paniers de notices
     qui peuvent contenir ou non des notices. Les étagères virtuelles
@@ -3822,14 +4474,26 @@ order by section_libelle</programlisting>
     exposition virtuelle, la liste des derniers ouvrages acquis par la
     bibliothèque, la sélection d'un club de lecteurs, etc...</para>
 
+    <para lang='es'>Las estanterías virtuales son un conjunto de cestas de registros que
+    pueden contener o no registros. Las estanterías virtuales permiten mostrar
+    estos registros en el OPAC o en tu página web. PMB permite a través de
+    esta forma mostrar en tu página web una exposición virtual, la lista de
+    las últimas obras adquiridas por la biblioteca, la selección de un club de
+    lectura, etc...</para>
+
     <sect2 id="cat_etg_gestion">
       <title lang='fr'>Gestion</title>
+      <title lang='es'>Gestión</title>	  
 
       <para lang='fr'>La gestion des étagères affiche une liste des étagères
       existantes.</para>
+	  
+      <para lang='es'>La gestión de las estanterías muestra una lista de estanterías
+      existentes.</para>	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Étagères &gt; Gestion</title>
+        <title lang='es'>Catálogo &gt; Estanterías &gt; Gestión</title>		
 
         <mediaobject>
           <imageobject>
@@ -3840,28 +4504,53 @@ order by section_libelle</programlisting>
 
       <para lang='fr'>Vous pouvez ajouter une étagère en cliquant sur le bouton
       <emphasis>Ajouter une étagère</emphasis>.</para>
+	  
+      <para lang='es'>Puedes añadir una estanterías haciendo clic sobre el botón
+      <emphasis>Añadir una estantería</emphasis>.</para>
+	  	  
 
       <para lang='fr'>Pour éditer une étagère existante, cliquez sur la ligne
       correspondante.</para>
+	  
+      <para lang='es'>Para editar una estantería existente, haz clic sobre la línea
+      correspondiente.</para>
+	  	  
 
       <para lang='fr'>Une étagère est définie par un nom, une période de validité, sa
       visibilité ou non en page d'accueil de l'OPAC. Un commentaire peut
       également être ajouté. Enfin chaque étagère possède des droits : ces
       autorisations permettent aux utilisateurs correspondants d'éditer
       l'étagère sélectionnée et son contenu.</para>
+	  
+      <para lang='es'>Una estantería se define por un nombre, un período de validez, su
+      visibilidad o no en la página de inicio del OPAC. También se puede
+      añadir un comentario. Finalmente cada estantería tiene sus derechos :
+      las autorizaciones que permiten a los diversos usuarios editar la
+      estantería seleccionada y su contenido.</para>
+	  	  
     </sect2>
 
     <sect2 id="cat_etg_constit">
       <title lang='fr'>Constitution</title>
+	  
+      <title lang='es'>Creación</title>	  
+	  
 
       <para lang='fr'>L'écran de constitution d'une étagère permet d'ajouter ou de
       retirer le contenu d'un ou plusieurs paniers à une de vos étagères
       virtuelles.</para>
+	  
+      <para lang='es'>La pantalla de creación de una estantería virtual permite añadir o
+      retirar el contenido de una o varias cestas a una de tus estanterías
+      virtuales.</para>	  
+
 
       <para lang='fr'>Cliquez sur l'étagère à constituer.</para>
+      <para lang='es'>Haz clic sobre la estantería a crear.</para>	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Étagères &gt; Constitution</title>
+        <title lang='es'>Catálogo &gt; Estanterías &gt; Creación</title>		
 
         <mediaobject>
           <imageobject>
@@ -3872,10 +4561,18 @@ order by section_libelle</programlisting>
 
       <para lang='fr'>Cochez ensuite les paniers de notices à ajouter à votre étagère
       virtuelle.</para>
+	  
+      <para lang='es'>Marca las cestas de registros a añadir a tu estantería
+      virtual.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Étagères &gt; Constitution, ajout de paniers à
         une étagère</title>
+		
+        <title lang='es'>Catálogo &gt; Estanterías &gt; Creación, añadir cestas a una
+        estantería</title>
+				
 
         <mediaobject>
           <imageobject>
@@ -3886,19 +4583,32 @@ order by section_libelle</programlisting>
 
       <para lang='fr'>Puis cliquez sur <emphasis>Enregistrer</emphasis> pour valider la
       constitution de votre étagère virtuelle.</para>
+	  
+      <para lang='es'>Después haz clic sobre <emphasis>Guardar</emphasis> para validar
+      la creación de tu estantería virtual.</para>
+	  	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Z39.50</title>
+    <title lang='es'>Z39.50</title>	
 
     <sect2 id="cat_z3950">
       <title lang='fr'>recherche Z39.50</title>
+      <title lang='es'>Búsqueda Z39.50</title>	  
 
       <para lang='fr'>La recherche Z39.50 permet de rechercher un ouvrage dans le
       catalogue d'une autre bibliothèque, ce qui permettra de l'insérer
       directement dans le catalogue géré par PMB, sans refaire le travail de
       catalogage déjà réalisé dans l'autre bibliothèque.</para>
+	  
+      <para lang='es'>La búsqueda Z39.50 permite buscar una obra en el catálogo de otra
+      biblioteca, una vez encontrada la puedes copiar directamente a tu
+      catálogo generado por PMB, sin tener que volver a hacer el trabajo que
+      ya han hecho otras bibliotecas.</para>
+	  
+	  	  
 
       <para lang='fr'><emphasis role="bold">Remarque</emphasis> les notices cataloguées
       correspondent à un travail intellectuel et sont soumises à droits
@@ -3908,9 +4618,19 @@ order by section_libelle</programlisting>
       toute tranquillité, les autres bibliothèques peuvent avoir d'autres
       politiques de communication de leurs notices. Renseignez vous auprès de
       la bibliothèque concernée.</para>
+	  
+      <para lang='es'><emphasis role="bold">Nota</emphasis> los registros catalogados
+      corresponden a un trabajo intelectual y están sometidos a los derechos
+      de autor. Los registros de la <emphasis>BnF</emphasis> y los de la
+      <emphasis>Biblioteca del Congreso Americano</emphasis> (Library of
+      Congress) son de dominio público : puedes importar los datos con toda
+      tranquilidad, otras bibliotecas puden tener otras políticas aplicadas a
+      sus registros. Informáte en la biblioteca en cuestión.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Catalogage &gt; Z39.50 &gt; Recherche</title>
+        <title lang='es'>Catálogo &gt; Z39.50 &gt; Buscar</title>		
 
         <mediaobject>
           <imageobject>
@@ -3923,14 +4643,28 @@ order by section_libelle</programlisting>
       <emphasis>Zola</emphasis>. Comme critère de recherche, nous choisissons
       "titre", et dans le champ situé à côté nous spécifions
       "Germinal".</para>
+	  
+      <para lang='es'>Hagamos un ejemplo, importemos <emphasis>Germinal</emphasis> de
+      <emphasis>Zola</emphasis>. Como criterio de búsqueda, escogemos
+      "título", y en la casilla introducimos "Germinal".</para>
+	  
+	  	  
 
       <para lang='fr'>Nous cochons alors une ou plusieurs bibliothèques susceptibles
       d'avoir l'édition de <emphasis>Germinal</emphasis> que nous voulons
       cataloguer.</para>
+	  
+      <para lang='es'>Marcamos una o varias bibliotecas susceptibles de tener la edición
+      de <emphasis>Germinal</emphasis> que nosotros queremos catalogar.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Z39.50 &gt; Recherche, écran intermédiaire
         montrant l'avancement</title>
+		
+        <title lang='es'>Catálogo &gt; Z39.50 &gt; Buscar, pantalla intermedia que
+        muestra el avance</title>
+				
 
         <mediaobject>
           <imageobject>
@@ -3944,26 +4678,52 @@ order by section_libelle</programlisting>
       à l'autre bout ne répond pas, ou que notre configuration de PMB n'est
       pas bonne (si aucune recherche z39.50 n'a fonctionné
       jusqu'alors).</para>
+	  
+      <para lang='es'>Al cabo de unos segundos si no una consulta no ha tenido éxito,
+      podemos imaginar que nuestra conexión a internet está saturada, que el
+      servidor del otro lado no ha respondido, o que nuestra configuración de
+      PMB no es correcta (en caso de que ninguna búsqueda z39.50
+      funcione).</para>
+	  
+	  	  
 
       <para lang='fr'>Les lignes qui commencent par "Échec..." correspondent à une
       erreur. Un message d'erreur est alors renvoyé. En voici quelques
       exemples :</para>
+	  
+      <para lang='es'>Las líneas que empiezan por "Fallo..." corresponden a un error. En
+      estos casos se muestra un mensaje de error. Aquí hay varios ejemplos
+      :</para>
+	  	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>Timeout : le serveur n'a pas répondu dans le délai
           imparti</para>
+		  
+          <para lang='es'>Timeout : el servidor no ha respondido en el tiempo
+          indicado</para>
+		  		  
         </listitem>
 
         <listitem>
           <para lang='fr'>Connect failed : le serveur a répondu, mais la connexion n'a
           pu être réalisée</para>
+		  
+          <para lang='es'>Connect failed : el servidor ha respondido, pero la conexión
+          no se ha podido realizar</para>
+		  		  
         </listitem>
 
         <listitem>
           <para lang='fr'>Malformed query : le profil z3950 du serveur n'est pas bon.
           Vérifier le profil Z39.50 de ce serveur auprès de son
           administrateur</para>
+		  
+          <para lang='es'>Malformed query : el perfil z3950 del servidor no es correcto.
+          Verifica el perfil Z39.50 de este servidor a través de su
+          administrador</para>
+		  		  
         </listitem>
       </itemizedlist>
 
@@ -3973,13 +4733,28 @@ order by section_libelle</programlisting>
       trouvée</emphasis>s (limitation aux cent premières notices d'une
       recherche, si vous obtenez plus de cent résultats, affinez votre
       recherche).</para>
+	  
+      <para lang='es'>Las líneas que empiezan por TERMINADO señalan que la búsqueda ha
+      tenido éxito. El número de resultados devueltos se muestra bajo la
+      frase<emphasis> el servidor ha devuelto X registros de X
+      encontrados</emphasis> (limitación a los 100 primeros registros, si
+      obtienes más de cien resultados, afina tu búsqueda).</para>
+	  	  
 
       <para lang='fr'>Une fois la recherche achevée, cliquer sur "Résultats" pour
       afficher les résultats obtenus.</para>
+	  
+      <para lang='es'>Una vez la búsqueda ha finalizado, haz clic sobre "Resultados"
+      para ver los resultados obtenidos.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Z39.50 &gt; Recherche, écran des résultats de
         recherche</title>
+		
+        <title lang='es'>Catálogo &gt; Z39.50 &gt; Buscar, pantalla de
+        resultados</title>
+				
 
         <mediaobject>
           <imageobject>
@@ -3993,10 +4768,21 @@ order by section_libelle</programlisting>
       dans cette liste les notes éventuellement saisies, ainsi que d'autres
       renseignements mineurs. Pour choisir une notice, cliquer sur son
       titre.</para>
+	  
+      <para lang='es'>Se muestra entonces una pantalla con los resultados de la
+      búsqueda. La lista de los resultados presenta los registros resumidos en
+      formato ISBD. No figuran en esta lista notas eventualmente introducidas,
+      así como tampoco otras informaciones menores. Para escoger un registros,
+      haz clic sobre su título.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Z39.50 &gt; Recherche, écran de modification de
         la notice avant intégration</title>
+		
+        <title lang='es'>Catálogo &gt; Z39.50 &gt; Buscar, pantalla de modificación del
+        registro antes de integrarlo</title>		
+		
 
         <mediaobject>
           <imageobject>
@@ -4012,12 +4798,29 @@ order by section_libelle</programlisting>
       champs de saisies correspondant à élément principal (nom) et élément
       rejeté (prénom). Une fois les éventuelles corrections faites valider par
       le bouton "intégrer la notice".</para>
+	  
+      <para lang='es'>El registro obtenido se muestra para modificarlo, la modificación
+      se realiza con el finde mostrar el registro en detalle y en caso de que
+      sea correcto integrarlo al catálogo. Existen algunas diferencias con la
+      pantalla habitual de modificación de un registro : los autores y
+      editoriales tienen dos campos para introducir el elemento principal
+      (apellido) y el elemento secundario (nombre). Una vez se han realizado
+      las eventuales correcciones sólo hace falta validar con el botón
+      "integrar el registro".</para>
+	  	  
 
       <para lang='fr'>Un écran suivant permet de définir alors des exemplaires.</para>
+      <para lang='es'>La pantalla siguiente permite definir los ejemplares.</para>	  
+
 
       <para lang='fr'>Cataloguez ensuite votre ou vos exemplaires. Une fois l'exemplaire
       défini, cliquer sur intégrer, on peut également revenir à la liste des
       résultats pour intégrer un des autres résultats de la liste.</para>
+	  
+      <para lang='es'>Cataloga entonces el o los ejemplares. Una vez se han introducido
+      los ejemplares, haz lic para integrarlos, puedes también volver a la
+      lista de resultados para integrar otros resultados de la lista.</para>
+	  	  
 
       <para lang='fr'>Dans cet écran, en haut de l'écran figure la mention notice
       intégrée, avec un lien<emphasis> La voir en catalogage.</emphasis> Ce
@@ -4025,10 +4828,21 @@ order by section_libelle</programlisting>
       modification affiché ensuite est le même que celui de la création de
       notice (voir plus haut la section<emphasis> Nouvelle
       notice</emphasis>).</para>
+	  
+      <para lang='es'>En esta pantalla, en la parte superior figura la información sobre
+      el registro integrafo, con un enlace<emphasis> Verlo en
+      catalogación.</emphasis> Este enlace permite mostrar el registro en
+      modificación. La pantalla de modificación que se muestra es la misma que
+      la de creación de un registro (ver más información un poco más arriba en
+      la sección<emphasis> Nuevo registro</emphasis>).</para>
+	  	  
 
       <figure>
         <title lang='fr'>Catalogue &gt; Z39.50 &gt; Recherche, Notice intégrée, la voir
         en catalogage</title>
+		
+        <title lang='es'>Catalogación &gt; Z39.50 &gt; Buscar, Registro integrado, verlo
+        en catalogación</title>		
 
         <mediaobject>
           <imageobject>
@@ -4039,30 +4853,45 @@ order by section_libelle</programlisting>
 
       <sect3>
         <title lang='fr'>Utilisation de la recherche Z39.50 au quotidien</title>
+        <title lang='es'>Uso de la búsqueda Z39.50 en el día a día</title>		
 
         <para lang='fr'>Pour les bibliothèques française, le principal intérêt de la
         recherche Z39.50 est la recherche par ISBN depuis la BnF. Pour les
         ouvrages de votre fond propre, vous pouvez facilement cataloguer les
         livres à l'aide de votre douchette et du code barre commercial (EAN)
         de l'ouvrage.</para>
+		
+        <para lang='es'>Para las bibliotecas francesas, el principal interés de la
+        búsqueda Z39.50 es la búsqueda por ISBN en la BnF. Para las obras de
+        tu fondo propio, puedes catalogar fácilmente los libros con la ayuda
+        de tu lector de códigos de barras y el código de barras comercial
+        (EAN) del documento.</para>
+				
 
         <para lang='fr'>Pour cela,</para>
+        <para lang='es'>Para esto,</para>
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>passez par Catalogage &gt; Z39.50 &gt; Recherche</para>
+            <para lang='es'>ve a Catálogo &gt; Z39.50 &gt; Buscar</para>			
           </listitem>
 
           <listitem>
             <para lang='fr'>cochez BnF parmi les serveurs,</para>
+            <para lang='es'>escoge BnF entre los servidores,</para>			
           </listitem>
 
           <listitem>
             <para lang='fr'>vérifiez que la recherche porte bien sur l'Isbn</para>
+            <para lang='es'>verifica que la búsqueda es por Isbn</para>			
 
             <figure>
               <title lang='fr'>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
               sur l'ISBD</title>
+			  
+            <figure>
+              <title lang='es'>Catálogo &gt; Z39.50 &gt; Buscar, buscar por ISBN</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -4076,10 +4905,17 @@ order by section_libelle</programlisting>
             <para lang='fr'>douchettez le code barre commercial de votre livre dans le
             champ de saisie. L'EAN (code commercial) douchetté sera converti
             par PMB en ISBN.</para>
+			
+          <listitem>
+            <para lang='es'>lee el código de barras comercial de tu documento.El EAN
+            (código comercial) leído PMB lo convertirá en un ISBN.</para>			
 
             <figure>
               <title lang='fr'>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
               sur l'ISBN</title>
+
+              <title lang='es'>Catalogación &gt; Z39.50 &gt; Buscar, buscar por
+              ISBN</title>			  
 
               <mediaobject>
                 <imageobject>
@@ -4094,31 +4930,56 @@ order by section_libelle</programlisting>
             En théorie, deux ouvrages ne peuvent avoir le même ISBN.
             Cependant, les notices peuvent être plus ou moins détaillées selon
             le serveur choisi.</para>
+			
+            <para lang='es'>El resultado de una búsqueda por ISBN normalmente devuelve
+            un único resultado. En teoría, dos obras no pueden llevar el mismo
+            ISBN. Dependiendo del servidor, los registros pueden contener más
+            o menos información.</para>
+						
           </listitem>
         </itemizedlist>
 
         <para lang='fr'>Vous pouvez ensuite exemplariser l'ouvrage recherché.</para>
+		
+        <para lang='es'>Seguidamente puedes añadir un ejemplar a la obra buscada.</para>		
+
+
 
         <para lang='fr'><emphasis role="bold">Note </emphasis>: la BnF a un certain
         délai de catalogage. Les dernières nouveautés (publiées depuis moins
         d'un an) peuvent ne pas être encore cataloguées.</para>
+
+        <para lang='es'><emphasis role="bold">Nota </emphasis>: la BnF mantiene un
+        pequeño retraso en catalogación. Las últimas novedades (publicadas
+        hace menos de un año) pueden no estar aún catalogadas.</para>		
+		
       </sect3>
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Suggestion</title>
+    <title lang='es'>Sugerencia</title>	
 
     <para lang='fr'>Cette partie du menu vous permet de créer une suggestion
     d'acquistion pour la bibliothèque ou le centre de ressources.</para>
+	
+    <para lang='es'>Este apartado del menú permite crear una sugerencia de compra 
+	para la biblioteca o el centro de recursos.</para>	
 
     <sect2>
       <title lang='fr'>Faire une suggestion</title>
+      <title lang='es'>Hacer una sugerencia</title>	  
 
       <para lang='fr'>Pour plus d'informations sur l'ajout d'une suggestion, consulter
       plus loin dans ce <emphasis>Guide de l'utilisateur</emphasis>, le
       chapitre <emphasis>Acquistions</emphasis> : <xref
       linkend="acquis_sugg_create" />.</para>
+	  
+      <para lang='es'>Para más información sobre cómo añadir una sugerencia, consulta 
+      un poco más abajo en esta <emphasis>Guía del usuario</emphasis>, el 
+	  capítulo <emphasis>Compras</emphasis> : <xref
+      linkend="acquis_sugg_create" />.</para>	  
     </sect2>
   </sect1>
 </chapter>
