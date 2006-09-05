@@ -2,13 +2,11 @@
 <chapter id="admin_gestion_financiere">
   <title>Financial management</title>
 
-  <para>The module financial management of membership enables you to monitor
-  financial transactions relating to the library's readership. These may be of
-  different types :</para>
+  <para>The financial management module enables you to monitor financial transactions relating to the library's readership. These may be of different types :</para>
 
   <itemizedlist>
     <listitem>
-      <para>membership fees</para>
+      <para>membership dues</para>
     </listitem>
   </itemizedlist>
 
@@ -20,7 +18,7 @@
 
   <itemizedlist>
     <listitem>
-      <para>loans fees relating to one or more types of documents (for
+      <para>dues on loans relating to one or more types of documents (for
       example, DVD), either as a whole, or based on the loan period...</para>
 
       <para><figure>
@@ -39,7 +37,7 @@
   <sect1>
     <title>Basic factors</title>
 
-    <para>How the financial management module in PMB functions rests on a
+    <para>How the financial management module functions in PMB rests on a
     number of factors of which you need a very good understanding to be able
     to use the module.</para>
 
@@ -84,47 +82,277 @@
   <sect1>
     <title>Managing membership</title>
 
-    <para>Click on <emphasis role="bold">Add membership type</emphasis> to add
-    a new type of membership.</para>
+    <para <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/warning.gif" />
+        </imageobject>
+      </inlinemediaobject> It's about the advanced management of subscriptions. If this entry is not visible, the management of subscriptions is accessible in Administration &gt; Readers &gt; Categories de readers.</para>
 
-    <para><figure>
-        <title>Membership management, adding a membership</title>
+    <para>If not, then Subscription management was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis> in this guide.</para>
+
+    <figure>
+      <title>Accounts management</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_abo.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <sect2>
+      <title>Adding a subscription type</title>
+
+      <para>To add a subscription type, click on <emphasis
+      role="bold">Add a subscription type</emphasis>.</para>
+
+      <figure>
+        <title>Subscriptions management, adding a subscription</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="???" />
+            <imagedata fileref="images/admin_fin_abo_ajout.gif" />
           </imageobject>
         </mediaobject>
-      </figure>You can define :</para>
+      </figure>
 
-    <sect2>
-      <title>Adding a membership type</title>
+      <para>You can define :</para>
 
-      <para></para>
+      <itemizedlist>
+        <listitem>
+          <para>a <emphasis role="bold">label</emphasis> corresponding to the type of subscription and that will be displayed on all screens</para>
+        </listitem>
+
+        <listitem>
+          <para>a <emphasis role="bold">note</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para>a <emphasis role="bold">subscriptions rate</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para>a <emphasis role="bold">deposit</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para>finally, vous can specify the <emphasis
+          role="bold">locations</emphasis> where the subscription applies.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Upon validation, your new subscription appears in the list.</para>
+
+      <figure>
+        <title>Subscription management</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_fin_abo_apres_ajout.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>Managing tariffs of loans</title>
+    <title>Managing loans rates</title>
 
-    <para></para>
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/warning.gif" />
+        </imageobject>
+      </inlinemediaobject> It's about the advanced management of loans. If this entry is not visible, the management of loans rates is accessible in Administration &gt; Copies &gt; Media types.</para>
+
+    <para>If not, then the management of laons rates was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis>.</para>
+
+    <figure>
+      <title>Managing loans rates</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_tarifs.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>La partie supérieure de l'écran liste les différents types de tarifs
+    de prêts possibles. Cliquez sur un de ces types pour définir vos tarifs
+    correspondants.</para>
+
+    <para>Les paramètres généraux occupent la partie inférieure de l'écran. On
+    peut définir une valeur par défaut ainsi que définir une politique pour la
+    résolution des conflits (si deux tarifs de prêts correspondants ont été
+    spécifiés et sont contradictoires).</para>
+
+    <para>L'ergonomie de la gestion des tarifs de prêts est la même que celle
+    utilisée dans la gestion des quotas.</para>
+
+    <para>Pour plus d'informations sur l'ergonomie des tarifs de prêts,
+    consultez dans ce Guide le chapitre Quotas avancés.</para>
   </sect1>
 
   <sect1>
     <title>Managing fines</title>
 
-    <para></para>
+    <figure>
+      <title>Administration &gt; Gestion financière &gt; Gestion des
+      amendes</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_amendes.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Dans <emphasis>Gestion des amendes</emphasis>, vous pouvez modifier
+    les paramètres des amendes qui seront utilisés. Pour ce faire, cliquez sur
+    le bouton <emphasis role="bold">Modifier les paramètres</emphasis>.</para>
+
+    <figure>
+      <title>Administration &gt; Gestion financière &gt; Gestion des amendes,
+      modification des paramètres</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_amendes_parametres.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Vous pouvez spécifier des valeurs pour les paramètres suivants
+    :</para>
+
+    <para><emphasis role="bold">Montant de l'amende par jour et par exemplaire
+    </emphasis>: idem. <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/warning.gif" />
+        </imageobject>
+      </inlinemediaobject> La valeur donnée peut être décimale, mais vous
+    devrez utiliser un point "." à la place de la virgule.</para>
+
+    <para><emphasis role="bold">Délai avant comptabilisation de
+    l'amende</emphasis> : même si l'amende court depuis le premier jour de
+    retard, on peut considérer que le lecteur est exonéré de paiement s'il
+    rend l'ouvrage rapidement, à la fin de ce délai sera généré la première
+    lettre de relance.</para>
+
+    <para><emphasis role="bold">Délai entre la 1ère et la 2ème relance :
+    </emphasis>après une première relance, généralement très courtoise, le ton
+    retenu par la 2ème relance peut être plus vif.</para>
+
+    <para><emphasis role="bold">Délai entre la 2ème et la 3ème
+    relance</emphasis> : après cette deuxième relance, une troisième relance
+    plus expéditive peut être envoyée.</para>
+
+    <para><emphasis role="bold">Délai entre la 3ème relance et le passage en
+    recouvrement</emphasis> : après une 3ème relance infructueuse, les
+    informations sont transmises pour recouvrement à une autre structure
+    responsable du recouvrement (il s'agira de la mairie pour une bibliothèque
+    municipale, du service comptabilité pour un centre de documentation,
+    etc.)</para>
+
+    <para><emphasis role="bold">Montant maximum d'une amende par
+    exemplaire</emphasis> : montant auquel s'arrêtera de courir
+    l'amende.</para>
+
+    <para>Avec les paramètres en exemple, le jour de la transmission en
+    recouvrement, l'amende vaudra : (15 + 15 + 15 + 7) x 0,15 soit 52 €
+    auxquels viendront se rajouter des frais pour les relances
+    réalisées.</para>
   </sect1>
 
   <sect1>
-    <title>Managing fines : overdue items</title>
+    <title>Managing fines : reminders</title>
 
-    <para></para>
+    <para>Dans cet écran vous pourrez spécifier les frais de relances suite à
+    des retards dans le retour de prêt.</para>
+
+    <figure>
+      <title>Managing fines : reminders</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_relances.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Pour modifier les paramètres des frais liés aux relances, cliquez
+    sur <emphasis role="bold">Modifier les paramètres</emphasis>.</para>
+
+    <figure>
+      <title>Managing fines : reminders, modifying settings</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_relances_parametr.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Vous pouvez modifier les paramètres suivants :</para>
+
+    <para><emphasis role="bold">Frais de la première relance </emphasis>:
+    correspond aux frais facturés pour l'envoi de la première relance, dans
+    cet exemple ils sont basés sur les frais postaux d'envoi d'un
+    courrier.</para>
+
+    <para><emphasis role="bold">Frais de la deuxième relance</emphasis></para>
+
+    <para><emphasis role="bold">Frais de la troisième relance</emphasis> :
+    celle-ci sera généralement envoyée en recommandé avec accusé de réception,
+    ce qui explique un montant plus élevé.</para>
+
+    <para><emphasis role="bold">Statut perdu des ouvrages non rendus
+    </emphasis>: lorsque l'amende est transmise pour recouvrement au service
+    concerné, on considère généralement que l'ouvrage est, sauf exception,
+    définitivement perdu pour la bibliothèque. Dans ce cas, on peut affecter
+    un statut à l'exemplaire concerné, tel que "perdu" ou "manquant
+    inventaire".</para>
   </sect1>
 
   <sect1>
-    <title>Suspension of loans</title>
+    <title>Blocage des prêts</title>
 
-    <para></para>
+    <figure>
+      <title>Blocage des prêts</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_blocage_prets.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Pour modifier les paramètres de blocage des prêts, cliquez sur le
+    bouton <emphasis role="bold">Modifier les paramètres</emphasis>.</para>
+
+    <figure>
+      <title>Blocage des prêts, modification des paramètres</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_blocage_prets_parametres.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>Vous pouvez alors :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>bloquer les prêts si le compte abonnement est débiteur</para>
+      </listitem>
+
+      <listitem>
+        <para>bloquer les prêts si le compte prêt est débiteur</para>
+      </listitem>
+
+      <listitem>
+        <para>bloquer les prêts si le compte amende est débiteur</para>
+      </listitem>
+    </itemizedlist>
   </sect1>
 </chapter>
