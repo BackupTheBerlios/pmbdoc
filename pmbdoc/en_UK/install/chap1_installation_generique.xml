@@ -38,7 +38,21 @@
       up with the required minimum to make PMB work, and create the
       administrator account in PMB. Two areas need to be filled in.</para>
 
+<<<<<<< chap1_installation_generique.xml
+      <figure>
+        <title>Figure 3.1 Select installation language</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="../../../../../../../pmb/doc/documentation/en_UK/html-install/images/tables_install1.gif" />
+            </imageobject>
+          </mediaobject>
+      </figure>
+        
+      <para><emphasis role="bold"><emphasis>Next choose the language in which
+=======
       <para lang='en'><emphasis role="bold"><emphasis>Next choose the language in which
+>>>>>>> 1.5
       you wish to install PMB : this relates directly to the database
       interface language. The interface language may be changed at any time
       from the User's preferences.</emphasis></emphasis></para>
@@ -49,6 +63,16 @@
       ROOT PASSWORD ON MySQL. IT IS EMPTY BY DEFAULT, THIS CONSTITUTES A
       POTENTIAL SECURITY RISK.</emphasis></emphasis></para>
 
+      <figure>
+        <title>Figure 3.2 Installation information, definition of settings in page centre (scroll down the screen)</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="../../../../../../../pmb/doc/documentation/en_UK/html-install/images/pmb_tables.gif" />
+            </imageobject>
+          </mediaobject>
+      </figure>      
+      
       <sect3>
         <title lang='en'>System parameters</title>
 
