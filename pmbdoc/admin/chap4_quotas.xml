@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_quotas">
   <chapterinfo>
-	 <releaseinfo>$Id: chap4_quotas.xml,v 1.2 2006/08/23 07:51:33 gautier Exp $</releaseinfo> 
+	 <releaseinfo>$Id: chap4_quotas.xml,v 1.3 2006/09/06 21:24:45 gautier Exp $</releaseinfo> 
   </chapterinfo>	
 
   <title lang='fr'>Quotas</title>
@@ -45,7 +45,7 @@
       particulière spécifiée n'est applicable.</para>
 
       <para lang='fr'>Cette valeur est définie dans <emphasis>Paramètres
-      généraux</emphasis> dans le champs<emphasis> Valeur par défaut de XXX si
+      généraux</emphasis> dans le champ <emphasis>Valeur par défaut de XXX si
       ce n'est pas précisé</emphasis>. Il s'agit d'une durée en jours. PMB
       gère tous les jours de la semaine de manière identique et ne dispose pas
       d'un calendrier indiquant les jours d'ouverture de la bibliothèque.
@@ -71,10 +71,10 @@
       spécifiée n'est applicable.</para>
 
       <para lang='fr'>Cette valeur est définie dans <emphasis>Paramètres généraux
-      </emphasis>dans le champs<emphasis> Valeur par défaut de XXX si ce n'est
+      </emphasis>dans le champ <emphasis>Valeur par défaut de XXX si ce n'est
       pas précisé</emphasis>. Cette valeur désigne un nombre de documents, de
       périodiques ou de réservation correspondant à un SEUL type de document.
-      Les quotas liés à un nombre possèdent également un champs de seuil
+      Les quotas liés à un nombre possèdent également un champ de seuil
       maximal. Ce maximum est un quota absolu de simultanéité de documents, de
       périodiques ou de réservations. Si la valeur par défaut est définie à 5
       et qu'aucune autre valeur n'est définie, le lecteur a le droit de
