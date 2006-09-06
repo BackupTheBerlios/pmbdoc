@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_expl">
   <chapterinfo>
-	 <releaseinfo>$Id: chap1_exemplaires.xml,v 1.5 2006/08/23 16:49:15 gautier Exp $</releaseinfo> 
+	 <releaseinfo>$Id: chap1_exemplaires.xml,v 1.6 2006/09/06 21:17:38 gautier Exp $</releaseinfo> 
   </chapterinfo>	
 
   <title lang='fr'>Exemplaires</title>
@@ -350,7 +350,7 @@
       </mediaobject>
     </figure>
 
-    <para lang="fr">Prenons un exemple. Ajoutons un champs intitulé
+    <para lang="fr">Prenons un exemple. Ajoutons un champ intitulé
     <emphasis>Type de couverture </emphasis>qui nous permettra de spécifier le
     type de reliure d'un ouvrage. Les reliures peuvent être de trois types :
     souple, cartonné, broché. Enfin tous les exemplaires ne correspondent pas
@@ -388,7 +388,7 @@
 
     <para lang="fr">Dans nom du champ, saisissez
     <emphasis>couverture</emphasis> (n'utilisez pas d'accent, d'espace ou de
-    ponctuation dans un nom de champs), dans titre à l'affichage saisissez
+    ponctuation dans un nom de champ), dans titre à l'affichage saisissez
     <emphasis>couverture</emphasis> (Vous pourriez également utiliser un nom
     avec des espaces mais uniquement à l'affichage, par exemple <emphasis>Type
     de couverture</emphasis>).</para>
@@ -451,7 +451,7 @@
     field.</para>
 
     <figure>
-      <title lang="fr">Édition d'un exemplaire, le champs personnalisé Type de
+      <title lang="fr">Édition d'un exemplaire, le champ personnalisé Type de
       Couverture a été ajouté</title>
 
       <title lang="en">Editing a copy, the customized field Type of cover has
@@ -469,7 +469,7 @@
 
       <title lang="en">Types of input for customizable fields</title>
 
-      <para lang="fr">Il existe d'autres types de saisie pour un champs
+      <para lang="fr">Il existe d'autres types de saisie pour un champ
       personnalisé que liste de choix.</para>
 
       <para lang="en">Inputs other than the list box type exist for a
@@ -805,7 +805,7 @@
       of an item, an error message is displayed.</para>
 
       <figure>
-        <title lang="fr">Alerte pour un champs obligatoire non rempli</title>
+        <title lang="fr">Alerte pour un champ obligatoire non rempli</title>
 
         <title lang="en">Warning for a blank mandatory field</title>
 
