@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_misc">
   <chapterinfo>
-	 <releaseinfo>$Id: chap8_outils.xml,v 1.3 2006/09/06 21:24:45 gautier Exp $</releaseinfo> 
+	 <releaseinfo>$Id: chap8_outils.xml,v 1.4 2006/09/07 19:05:46 gautier Exp $</releaseinfo> 
   </chapterinfo>	
 
   <title lang='fr'>Outils</title>
@@ -424,66 +424,66 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>active</entry>
+              <entry lang="fr">active</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Module acquisitions activé. 0 : Non. 1 : Oui.</entry>
+              <entry lang="fr">Module acquisitions activé. 0 : Non. 1 : Oui.</entry>
             </row>
 
             <row>
-              <entry>budget</entry>
+              <entry lang="fr">budget</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Utilisation d'un budget pour les commandes. 0:optionnel
+              <entry lang="fr">Utilisation d'un budget pour les commandes. 0:optionnel
               1:obligatoire</entry>
             </row>
 
             <row>
-              <entry>email_sugg</entry>
+              <entry lang="fr">email_sugg</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Information par email de l'évolution des suggestions. 0 :
+              <entry lang="fr">Information par email de l'évolution des suggestions. 0 :
               Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>format</entry>
+              <entry lang="fr">format</entry>
 
-              <entry>8,CA,DD,BL,FA</entry>
+              <entry lang="fr">8,CA,DD,BL,FA</entry>
 
-              <entry>Taille du Numéro et Préfixes des actes d'achats. ex :
+              <entry lang="fr">Taille du Numéro et Préfixes des actes d'achats. ex :
               8,CA,DD,BL,FA 8 = Préfixe + 8 Chiffres CA=Commande Achat,
               DD=Demande de Devis,BL=Bon de Livraison, FA=Facture
               Achat</entry>
             </row>
 
             <row>
-              <entry>gestion_tva</entry>
+              <entry lang="fr">gestion_tva</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Gestion de la TVA. 0 : Non. 1 : Oui.</entry>
+              <entry lang="fr">Gestion de la TVA. 0 : Non. 1 : Oui.</entry>
             </row>
 
             <row>
-              <entry>poids_sugg</entry>
+              <entry lang="fr">poids_sugg</entry>
 
-              <entry>U=1.00,E=0.70,V=0.00</entry>
+              <entry lang="fr">U=1.00,E=0.70,V=0.00</entry>
 
-              <entry>Pondération des suggestions par défaut en pourcentage.
+              <entry lang="fr">Pondération des suggestions par défaut en pourcentage.
               U=Utilisateurs, E=Emprunteurs, V=Visiteurs. ex :
               U=1.00,E=0.70,V=0.00</entry>
             </row>
@@ -497,96 +497,96 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>mel_aba_cor</entry>
+              <entry lang="fr">mel_aba_cor</entry>
 
-              <entry>Votre suggestion du !!date!! n'est pas retenue ou n'est
+              <entry lang="fr">Votre suggestion du !!date!! n'est pas retenue ou n'est
               pas disponible à la vente.</entry>
 
-              <entry>Corps du mail d'abandon de suggestion</entry>
+              <entry lang="fr">Corps du mail d'abandon de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_aba_obj</entry>
+              <entry lang="fr">mel_aba_obj</entry>
 
-              <entry>Abandon suggestion</entry>
+              <entry lang="fr">Abandon suggestion</entry>
 
-              <entry>Objet du mail d'abandon de suggestion</entry>
+              <entry lang="fr">Objet du mail d'abandon de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_cde_cor</entry>
+              <entry lang="fr">mel_cde_cor</entry>
 
-              <entry>Votre suggestion du !!date!! est en commande.</entry>
+              <entry lang="fr">Votre suggestion du !!date!! est en commande.</entry>
 
-              <entry>Corps du mail de commande de suggestion</entry>
+              <entry lang="fr">Corps du mail de commande de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_cde_obj</entry>
+              <entry lang="fr">mel_cde_obj</entry>
 
-              <entry>Commande suggestion</entry>
+              <entry lang="fr">Commande suggestion</entry>
 
-              <entry>Objet du mail de commande de suggestion</entry>
+              <entry lang="fr">Objet du mail de commande de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_con_cor</entry>
+              <entry lang="fr">mel_con_cor</entry>
 
-              <entry>Votre suggestion du !!date!! est retenue pour un prochain
+              <entry lang="fr">Votre suggestion du !!date!! est retenue pour un prochain
               achat.</entry>
 
-              <entry>Corps du mail de confirmation de suggestion</entry>
+              <entry lang="fr">Corps du mail de confirmation de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_con_obj</entry>
+              <entry lang="fr">mel_con_obj</entry>
 
-              <entry>Confirmation suggestion</entry>
+              <entry lang="fr">Confirmation suggestion</entry>
 
-              <entry>Objet du mail de confirmation de suggestion</entry>
+              <entry lang="fr">Objet du mail de confirmation de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_rec_cor</entry>
+              <entry lang="fr">mel_rec_cor</entry>
 
-              <entry>Votre suggestion du !!date!! a été reçue et sera bientôt
+              <entry lang="fr">Votre suggestion du !!date!! a été reçue et sera bientôt
               disponible en réservation.</entry>
 
-              <entry>Corps du mail de réception de suggestion</entry>
+              <entry lang="fr">Corps du mail de réception de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_rec_obj</entry>
+              <entry lang="fr">mel_rec_obj</entry>
 
-              <entry>Réception suggestion</entry>
+              <entry lang="fr">Réception suggestion</entry>
 
-              <entry>Objet du mail de réception de suggestion</entry>
+              <entry lang="fr">Objet du mail de réception de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_rej_cor</entry>
+              <entry lang="fr">mel_rej_cor</entry>
 
-              <entry>Votre suggestion du !!date!! est rejetée.</entry>
+              <entry lang="fr">Votre suggestion du !!date!! est rejetée.</entry>
 
-              <entry>Corps du mail de rejet de suggestion</entry>
+              <entry lang="fr">Corps du mail de rejet de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_rej_obj</entry>
+              <entry lang="fr">mel_rej_obj</entry>
 
-              <entry>Rejet suggestion</entry>
+              <entry lang="fr">Rejet suggestion</entry>
 
-              <entry>Objet du mail de rejet de suggestion</entry>
+              <entry lang="fr">Objet du mail de rejet de suggestion</entry>
             </row>
           </tbody>
         </tgroup>
@@ -598,174 +598,174 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>pdfcde_format_page</entry>
+              <entry lang="fr">pdfcde_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="fr">210x297</entry>
 
-              <entry>Largeur x Hauteur de la page en mm</entry>
+              <entry lang="fr">Largeur x Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>pdfcde_marges_page</entry>
+              <entry lang="fr">pdfcde_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="fr">10,20,10,10</entry>
 
-              <entry>Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
+              <entry lang="fr">Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
             </row>
 
             <row>
-              <entry>pdfcde_orient_page</entry>
+              <entry lang="fr">pdfcde_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Orientation de la page: P=Portrait, L=Paysage</entry>
+              <entry lang="fr">Orientation de la page: P=Portrait, L=Paysage</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_adr_fac</entry>
+              <entry lang="fr">pdfcde_pos_adr_fac</entry>
 
-              <entry>10,35,60,5,10</entry>
+              <entry lang="fr">10,35,60,5,10</entry>
 
-              <entry>Position Adresse de facturation: Distance par rapport au
+              <entry lang="fr">Position Adresse de facturation: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_adr_fou</entry>
+              <entry lang="fr">pdfcde_pos_adr_fou</entry>
 
-              <entry>100,55,100,6,14</entry>
+              <entry lang="fr">100,55,100,6,14</entry>
 
-              <entry>Position Adresse fournisseur: Distance par rapport au
+              <entry lang="fr">Position Adresse fournisseur: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_adr_liv</entry>
+              <entry lang="fr">pdfcde_pos_adr_liv</entry>
 
-              <entry>10,75,60,5,10</entry>
+              <entry lang="fr">10,75,60,5,10</entry>
 
-              <entry>Position Adresse de livraison: Distance par rapport au
+              <entry lang="fr">Position Adresse de livraison: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_date</entry>
+              <entry lang="fr">pdfcde_pos_date</entry>
 
-              <entry>150,10,0,6,8</entry>
+              <entry lang="fr">150,10,0,6,8</entry>
 
-              <entry>Position Date: Distance par rapport au bord gauche de la
+              <entry lang="fr">Position Date: Distance par rapport au bord gauche de la
               page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_footer</entry>
+              <entry lang="fr">pdfcde_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="fr">15,8</entry>
 
-              <entry>Position bas de page: Distance par rapport au bas de
+              <entry lang="fr">Position bas de page: Distance par rapport au bas de
               page, Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_logo</entry>
+              <entry lang="fr">pdfcde_pos_logo</entry>
 
-              <entry>10,10,20,20</entry>
+              <entry lang="fr">10,10,20,20</entry>
 
-              <entry>Position du logo: Distance par rapport au bord gauche de
+              <entry lang="fr">Position du logo: Distance par rapport au bord gauche de
               la page,Distance par rapport au haut de la
               page,Largeur,Hauteur</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_num</entry>
+              <entry lang="fr">pdfcde_pos_num</entry>
 
-              <entry>10,110,0,10,16</entry>
+              <entry lang="fr">10,110,0,10,16</entry>
 
-              <entry>Position numéro de commande: Distance par rapport au bord
+              <entry lang="fr">Position numéro de commande: Distance par rapport au bord
               gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_raison</entry>
+              <entry lang="fr">pdfcde_pos_raison</entry>
 
-              <entry>35,10,100,10,16</entry>
+              <entry lang="fr">35,10,100,10,16</entry>
 
-              <entry>Position Raison sociale: Distance par rapport au bord
+              <entry lang="fr">Position Raison sociale: Distance par rapport au bord
               gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_sign</entry>
+              <entry lang="fr">pdfcde_pos_sign</entry>
 
-              <entry>10,60,5,10</entry>
+              <entry lang="fr">10,60,5,10</entry>
 
-              <entry>Position signature: Distance par rapport au bord gauche
+              <entry lang="fr">Position signature: Distance par rapport au bord gauche
               de la page, Largeur, Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_tot</entry>
+              <entry lang="fr">pdfcde_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="fr">10,40,5,10</entry>
 
-              <entry>Position total de commande: Distance par rapport au bord
+              <entry lang="fr">Position total de commande: Distance par rapport au bord
               gauche de la page, Largeur, Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_tab_cde</entry>
+              <entry lang="fr">pdfcde_tab_cde</entry>
 
-              <entry>5,10</entry>
+              <entry lang="fr">5,10</entry>
 
-              <entry>Table de commandes: Hauteur ligne,Taille police</entry>
+              <entry lang="fr">Table de commandes: Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_after</entry>
+              <entry lang="fr">pdfcde_text_after</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Texte après le tableau de commande</entry>
+              <entry lang="fr">Texte après le tableau de commande</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_before</entry>
+              <entry lang="fr">pdfcde_text_before</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Texte avant le tableau de commande</entry>
+              <entry lang="fr">Texte avant le tableau de commande</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_sign</entry>
+              <entry lang="fr">pdfcde_text_sign</entry>
 
-              <entry>Le responsable de la bibliothèque.</entry>
+              <entry lang="fr">Le responsable de la bibliothèque.</entry>
 
-              <entry>Texte signature</entry>
+              <entry lang="fr">Texte signature</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_size</entry>
+              <entry lang="fr">pdfcde_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Taille de la police texte</entry>
+              <entry lang="fr">Taille de la police texte</entry>
             </row>
           </tbody>
         </tgroup>
@@ -777,173 +777,173 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>pdfdev_comment</entry>
+              <entry lang="fr">pdfdev_comment</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Affichage des commentaires : 0=non, 1=oui</entry>
+              <entry lang="fr">Affichage des commentaires : 0=non, 1=oui</entry>
             </row>
 
             <row>
-              <entry>pdfdev_format_page</entry>
+              <entry lang="fr">pdfdev_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="fr">210x297</entry>
 
-              <entry>Largeur x Hauteur de la page en mm</entry>
+              <entry lang="fr">Largeur x Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>pdfdev_marges_page</entry>
+              <entry lang="fr">pdfdev_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="fr">10,20,10,10</entry>
 
-              <entry>Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
+              <entry lang="fr">Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
             </row>
 
             <row>
-              <entry>pdfdev_orient_page</entry>
+              <entry lang="fr">pdfdev_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Orientation de la page: P=Portrait, L=Paysage</entry>
+              <entry lang="fr">Orientation de la page: P=Portrait, L=Paysage</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_adr_fac</entry>
+              <entry lang="fr">pdfdev_pos_adr_fac</entry>
 
-              <entry>10,35,60,5,10</entry>
+              <entry lang="fr">10,35,60,5,10</entry>
 
-              <entry>Position Adresse de facturation: Distance par rapport au
+              <entry lang="fr">Position Adresse de facturation: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_adr_fou</entry>
+              <entry lang="fr">pdfdev_pos_adr_fou</entry>
 
-              <entry>100,55,100,6,14</entry>
+              <entry lang="fr">100,55,100,6,14</entry>
 
-              <entry>Position Adresse fournisseur: Distance par rapport au
+              <entry lang="fr">Position Adresse fournisseur: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_adr_liv</entry>
+              <entry lang="fr">pdfdev_pos_adr_liv</entry>
 
-              <entry>10,75,60,5,10</entry>
+              <entry lang="fr">10,75,60,5,10</entry>
 
-              <entry>Position Adresse de livraison: Distance par rapport au
+              <entry lang="fr">Position Adresse de livraison: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_date</entry>
+              <entry lang="fr">pdfdev_pos_date</entry>
 
-              <entry>150,10,0,6,8</entry>
+              <entry lang="fr">150,10,0,6,8</entry>
 
-              <entry>Position Date: Distance par rapport au bord gauche de la
+              <entry lang="fr">Position Date: Distance par rapport au bord gauche de la
               page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_footer</entry>
+              <entry lang="fr">pdfdev_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="fr">15,8</entry>
 
-              <entry>Position bas de page: Distance par rapport au bas de
+              <entry lang="fr">Position bas de page: Distance par rapport au bas de
               page, Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_logo</entry>
+              <entry lang="fr">pdfdev_pos_logo</entry>
 
-              <entry>10,10,20,20</entry>
+              <entry lang="fr">10,10,20,20</entry>
 
-              <entry>Position du logo: Distance par rapport au bord gauche de
+              <entry lang="fr">Position du logo: Distance par rapport au bord gauche de
               la page,Distance par rapport au haut de la
               page,Largeur,Hauteur</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_num</entry>
+              <entry lang="fr">pdfdev_pos_num</entry>
 
-              <entry>10,110,0,10,16</entry>
+              <entry lang="fr">10,110,0,10,16</entry>
 
-              <entry>Position numéro de commande: Distance par rapport au bord
+              <entry lang="fr">Position numéro de commande: Distance par rapport au bord
               gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_raison</entry>
+              <entry lang="fr">pdfdev_pos_raison</entry>
 
-              <entry>35,10,100,10,16</entry>
+              <entry lang="fr">35,10,100,10,16</entry>
 
-              <entry>Position Raison sociale: Distance par rapport au bord
+              <entry lang="fr">Position Raison sociale: Distance par rapport au bord
               gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_sign</entry>
+              <entry lang="fr">pdfdev_pos_sign</entry>
 
-              <entry>10,60,5,10</entry>
+              <entry lang="fr">10,60,5,10</entry>
 
-              <entry>Position signature: Distance par rapport au bord gauche
+              <entry lang="fr">Position signature: Distance par rapport au bord gauche
               de la page, Largeur, Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_tab_dev</entry>
+              <entry lang="fr">pdfdev_tab_dev</entry>
 
-              <entry>5,10</entry>
+              <entry lang="fr">5,10</entry>
 
-              <entry>Table de commandes: Hauteur ligne,Taille police</entry>
+              <entry lang="fr">Table de commandes: Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_after</entry>
+              <entry lang="fr">pdfdev_text_after</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Texte après le tableau de commande</entry>
+              <entry lang="fr">Texte après le tableau de commande</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_before</entry>
+              <entry lang="fr">pdfdev_text_before</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Texte avant le tableau de commande</entry>
+              <entry lang="fr">Texte avant le tableau de commande</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_sign</entry>
+              <entry lang="fr">pdfdev_text_sign</entry>
 
-              <entry>Le responsable de la bibliothèque.</entry>
+              <entry lang="fr">Le responsable de la bibliothèque.</entry>
 
-              <entry>Texte signature</entry>
+              <entry lang="fr">Texte signature</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_size</entry>
+              <entry lang="fr">pdfdev_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Taille de la police texte</entry>
+              <entry lang="fr">Taille de la police texte</entry>
             </row>
           </tbody>
         </tgroup>
@@ -955,147 +955,147 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>pdffac_format_page</entry>
+              <entry lang="fr">pdffac_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="fr">210x297</entry>
 
-              <entry>Largeur x Hauteur de la page en mm</entry>
+              <entry lang="fr">Largeur x Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>pdffac_marges_page</entry>
+              <entry lang="fr">pdffac_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="fr">10,20,10,10</entry>
 
-              <entry>Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
+              <entry lang="fr">Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
             </row>
 
             <row>
-              <entry>pdffac_orient_page</entry>
+              <entry lang="fr">pdffac_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Orientation de la page: P=Portrait, L=Paysage</entry>
+              <entry lang="fr">Orientation de la page: P=Portrait, L=Paysage</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_adr_fac</entry>
+              <entry lang="fr">pdffac_pos_adr_fac</entry>
 
-              <entry>10,20,60,5,10</entry>
+              <entry lang="fr">10,20,60,5,10</entry>
 
-              <entry>Position Adresse de facturation: Distance par rapport au
+              <entry lang="fr">Position Adresse de facturation: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_adr_fou</entry>
+              <entry lang="fr">pdffac_pos_adr_fou</entry>
 
-              <entry>110,20,100,5,10</entry>
+              <entry lang="fr">110,20,100,5,10</entry>
 
-              <entry>Position éléments fournisseur: Distance par rapport au
+              <entry lang="fr">Position éléments fournisseur: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_date</entry>
+              <entry lang="fr">pdffac_pos_date</entry>
 
-              <entry>170,10,0,6,8</entry>
+              <entry lang="fr">170,10,0,6,8</entry>
 
-              <entry>Position Date: Distance par rapport au bord gauche de la
+              <entry lang="fr">Position Date: Distance par rapport au bord gauche de la
               page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_footer</entry>
+              <entry lang="fr">pdffac_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="fr">15,8</entry>
 
-              <entry>Position bas de page: Distance par rapport au bas de
+              <entry lang="fr">Position bas de page: Distance par rapport au bas de
               page, Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_num</entry>
+              <entry lang="fr">pdffac_pos_num</entry>
 
-              <entry>10,60,0,6,14</entry>
+              <entry lang="fr">10,60,0,6,14</entry>
 
-              <entry>Position numéro Commande/Facture: Distance par rapport au
+              <entry lang="fr">Position numéro Commande/Facture: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_raison</entry>
+              <entry lang="fr">pdffac_pos_raison</entry>
 
-              <entry>10,10,100,10,16</entry>
+              <entry lang="fr">10,10,100,10,16</entry>
 
-              <entry>Position Raison sociale: Distance par rapport au bord
+              <entry lang="fr">Position Raison sociale: Distance par rapport au bord
               gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_tot</entry>
+              <entry lang="fr">pdffac_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="fr">10,40,5,10</entry>
 
-              <entry>Position total de commande: Distance par rapport au bord
+              <entry lang="fr">Position total de commande: Distance par rapport au bord
               gauche de la page, Largeur, Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_tab_fac</entry>
+              <entry lang="fr">pdffac_tab_fac</entry>
 
-              <entry>5,10</entry>
+              <entry lang="fr">5,10</entry>
 
-              <entry>Table de facturation: Hauteur ligne,Taille police</entry>
+              <entry lang="fr">Table de facturation: Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_text_size</entry>
+              <entry lang="fr">pdffac_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Taille de la police texte</entry>
+              <entry lang="fr">Taille de la police texte</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_tot</entry>
+              <entry lang="fr">pdffac_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="fr">10,40,5,10</entry>
 
-              <entry>Position total de commande: Distance par rapport au bord
+              <entry lang="fr">Position total de commande: Distance par rapport au bord
               gauche de la page, Largeur, Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_tot</entry>
+              <entry lang="fr">pdffac_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="fr">10,40,5,10</entry>
 
-              <entry>Position total de commande: Distance par rapport au bord
+              <entry lang="fr">Position total de commande: Distance par rapport au bord
               gauche de la page, Largeur, Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_tot</entry>
+              <entry lang="fr">pdffac_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="fr">10,40,5,10</entry>
 
-              <entry>Position total de commande: Distance par rapport au bord
+              <entry lang="fr">Position total de commande: Distance par rapport au bord
               gauche de la page, Largeur, Hauteur ligne,Taille police</entry>
             </row>
           </tbody>
@@ -1108,112 +1108,112 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>pdfliv_format_page</entry>
+              <entry lang="fr">pdfliv_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="fr">210x297</entry>
 
-              <entry>Largeur x Hauteur de la page en mm</entry>
+              <entry lang="fr">Largeur x Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>pdfliv_marges_page</entry>
+              <entry lang="fr">pdfliv_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="fr">10,20,10,10</entry>
 
-              <entry>Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
+              <entry lang="fr">Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
             </row>
 
             <row>
-              <entry>pdfliv_orient_page</entry>
+              <entry lang="fr">pdfliv_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Orientation de la page: P=Portrait, L=Paysage</entry>
+              <entry lang="fr">Orientation de la page: P=Portrait, L=Paysage</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_adr_fou</entry>
+              <entry lang="fr">pdfliv_pos_adr_fou</entry>
 
-              <entry>110,20,100,5,10</entry>
+              <entry lang="fr">110,20,100,5,10</entry>
 
-              <entry>Position éléments fournisseur: Distance par rapport au
+              <entry lang="fr">Position éléments fournisseur: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_adr_liv</entry>
+              <entry lang="fr">pdfliv_pos_adr_liv</entry>
 
-              <entry>10,20,60,5,10</entry>
+              <entry lang="fr">10,20,60,5,10</entry>
 
-              <entry>Position Adresse de livraison: Distance par rapport au
+              <entry lang="fr">Position Adresse de livraison: Distance par rapport au
               bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_date</entry>
+              <entry lang="fr">pdfliv_pos_date</entry>
 
-              <entry>170,10,0,6,8</entry>
+              <entry lang="fr">170,10,0,6,8</entry>
 
-              <entry>Position Date: Distance par rapport au bord gauche de la
+              <entry lang="fr">Position Date: Distance par rapport au bord gauche de la
               page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_footer</entry>
+              <entry lang="fr">pdfliv_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="fr">15,8</entry>
 
-              <entry>Position bas de page: Distance par rapport au bas de
+              <entry lang="fr">Position bas de page: Distance par rapport au bas de
               page, Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_num</entry>
+              <entry lang="fr">pdfliv_pos_num</entry>
 
-              <entry>10,60,0,6,14</entry>
+              <entry lang="fr">10,60,0,6,14</entry>
 
-              <entry>Position numéro Commande/Livraison: Distance par rapport
+              <entry lang="fr">Position numéro Commande/Livraison: Distance par rapport
               au bord gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_raison</entry>
+              <entry lang="fr">pdfliv_pos_raison</entry>
 
-              <entry>10,10,100,10,16</entry>
+              <entry lang="fr">10,10,100,10,16</entry>
 
-              <entry>Position Raison sociale: Distance par rapport au bord
+              <entry lang="fr">Position Raison sociale: Distance par rapport au bord
               gauche de la page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfliv_tab_liv</entry>
+              <entry lang="fr">pdfliv_tab_liv</entry>
 
-              <entry>5,10</entry>
+              <entry lang="fr">5,10</entry>
 
-              <entry>Table de livraisons: Hauteur ligne,Taille police</entry>
+              <entry lang="fr">Table de livraisons: Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfliv_text_size</entry>
+              <entry lang="fr">pdfliv_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Taille de la police texte</entry>
+              <entry lang="fr">Taille de la police texte</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1225,82 +1225,82 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>pdfsug_format_page</entry>
+              <entry lang="fr">pdfsug_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="fr">210x297</entry>
 
-              <entry>Largeur x Hauteur de la page en mm</entry>
+              <entry lang="fr">Largeur x Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>pdfsug_marges_page</entry>
+              <entry lang="fr">pdfsug_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="fr">10,20,10,10</entry>
 
-              <entry>Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
+              <entry lang="fr">Marges de page en mm : Haut,Bas,Droite,Gauche</entry>
             </row>
 
             <row>
-              <entry>pdfsug_orient_page</entry>
+              <entry lang="fr">pdfsug_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Orientation de la page: P=Portrait, L=Paysage</entry>
+              <entry lang="fr">Orientation de la page: P=Portrait, L=Paysage</entry>
             </row>
 
             <row>
-              <entry>pdfsug_pos_date</entry>
+              <entry lang="fr">pdfsug_pos_date</entry>
 
-              <entry>170,10,0,6,8</entry>
+              <entry lang="fr">170,10,0,6,8</entry>
 
-              <entry>Position Date: Distance par rapport au bord gauche de la
+              <entry lang="fr">Position Date: Distance par rapport au bord gauche de la
               page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfsug_pos_footer</entry>
+              <entry lang="fr">pdfsug_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="fr">15,8</entry>
 
-              <entry>Position bas de page: Distance par rapport au bas de
+              <entry lang="fr">Position bas de page: Distance par rapport au bas de
               page, Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfsug_pos_titre</entry>
+              <entry lang="fr">pdfsug_pos_titre</entry>
 
-              <entry>10,10,100,10,16</entry>
+              <entry lang="fr">10,10,100,10,16</entry>
 
-              <entry>Position titre: Distance par rapport au bord gauche de la
+              <entry lang="fr">Position titre: Distance par rapport au bord gauche de la
               page,Distance par rapport au haut de la
               page,Largeur,Hauteur,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfsug_tab_sug</entry>
+              <entry lang="fr">pdfsug_tab_sug</entry>
 
-              <entry>5,10</entry>
+              <entry lang="fr">5,10</entry>
 
-              <entry>Table de suggestions: Hauteur ligne,Taille police</entry>
+              <entry lang="fr">Table de suggestions: Hauteur ligne,Taille police</entry>
             </row>
 
             <row>
-              <entry>pdfsug_text_size</entry>
+              <entry lang="fr">pdfsug_text_size</entry>
 
-              <entry>8</entry>
+              <entry lang="fr">8</entry>
 
-              <entry>Taille de la police texte</entry>
+              <entry lang="fr">Taille de la police texte</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1329,40 +1329,40 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>show_empty_categ</entry>
+              <entry lang="fr">show_empty_categ</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage des catégories ne contenant aucune notice :
+              <entry lang="fr">Affichage des catégories ne contenant aucune notice :
               0=non, 1=oui</entry>
             </row>
 
             <row>
-              <entry>show_only_last</entry>
+              <entry lang="fr">show_only_last</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Dans la fiche d'une notice : 0 tout afficher 1 : afficher
+              <entry lang="fr">Dans la fiche d'une notice : 0 tout afficher 1 : afficher
               uniquement la dernière feuille de l'arbre de la
               catégorie</entry>
             </row>
 
             <row>
-              <entry>term_search_n_per_page</entry>
+              <entry lang="fr">term_search_n_per_page</entry>
 
-              <entry>500</entry>
+              <entry lang="fr">500</entry>
 
-              <entry>Nombre de termes affichés par page lors d'une recherche
+              <entry lang="fr">Nombre de termes affichés par page lors d'une recherche
               par terme dans les catégories</entry>
             </row>
           </tbody>
@@ -1382,37 +1382,37 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>active</entry>
+              <entry lang="fr">active</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>D.S.I activée ? 0: Non 1: Oui</entry>
+              <entry lang="fr">D.S.I activée ? 0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>auto</entry>
+              <entry lang="fr">auto</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>D.S.I automatique activée ? 0: Non 1: Oui</entry>
+              <entry lang="fr">D.S.I automatique activée ? 0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>insc_categ</entry>
+              <entry lang="fr">insc_categ</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Inscription automatique dans les bannettes de la
+              <entry lang="fr">Inscription automatique dans les bannettes de la
               catégorie du lecteur en création ? 0: Non 1: Ouixs</entry>
             </row>
           </tbody>
@@ -1432,30 +1432,30 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>birthdate_optional</entry>
+              <entry lang="fr">birthdate_optional</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Année de naissance facultative : 0 &gt; non:elle est
+              <entry lang="fr">Année de naissance facultative : 0 &gt; non:elle est
               obligatoire 1 Oui</entry>
             </row>
 
             <row>
-              <entry>corresp_import</entry>
+              <entry lang="fr">corresp_import</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Table de correspondances colonnes/champs en import de
+              <entry lang="fr">Table de correspondances colonnes/champs en import de
               lecteurs à partir d'un fichier ASCII</entry>
             </row>
           </tbody>
@@ -1477,95 +1477,95 @@ order by idcode</programlisting>
           <tgroup cols="3">
             <thead>
               <row>
-                <entry>sous-type</entry>
+                <entry lang="fr">sous-type</entry>
 
-                <entry>valeur</entry>
+                <entry lang="fr">valeur</entry>
 
-                <entry>commentaire</entry>
+                <entry lang="fr">commentaire</entry>
               </row>
             </thead>
 
             <tbody>
               <row>
-                <entry>accessible</entry>
+                <entry lang="fr">accessible</entry>
 
-                <entry>0</entry>
+                <entry lang="fr">0</entry>
 
-                <entry>LDAP accessible ?</entry>
+                <entry lang="fr">LDAP accessible ?</entry>
               </row>
 
               <row>
-                <entry>base_dn</entry>
+                <entry lang="fr">base_dn</entry>
 
-                <entry></entry>
+                <entry lang="fr"></entry>
 
-                <entry>Racine du nom de domaine LDAP</entry>
+                <entry lang="fr">Racine du nom de domaine LDAP</entry>
               </row>
 
               <row>
-                <entry>binddn</entry>
+                <entry lang="fr">binddn</entry>
 
-                <entry>uid=UID,ou=People</entry>
+                <entry lang="fr">uid=UID,ou=People</entry>
 
-                <entry>Description de la liaison : construction de la chaine
+                <entry lang="fr">Description de la liaison : construction de la chaine
                 binddn pour lier l'authentification au serveur LDAP dans
                 l'OPAC</entry>
               </row>
 
               <row>
-                <entry>fields</entry>
+                <entry lang="fr">fields</entry>
 
-                <entry>uid,gecos,departmentnumber</entry>
+                <entry lang="fr">uid,gecos,departmentnumber</entry>
 
-                <entry>Champs du serveur LDAP</entry>
+                <entry lang="fr">Champs du serveur LDAP</entry>
               </row>
 
               <row>
-                <entry>filter</entry>
+                <entry lang="fr">filter</entry>
 
-                <entry>(&amp;(objectclass=person)(gidnumber=GID))</entry>
+                <entry lang="fr">(&amp;(objectclass=person)(gidnumber=GID))</entry>
 
-                <entry>Serveur LDAP, IP ou host</entry>
+                <entry lang="fr">Serveur LDAP, IP ou host</entry>
               </row>
 
               <row>
-                <entry>groups</entry>
+                <entry lang="fr">groups</entry>
 
-                <entry></entry>
+                <entry lang="fr"></entry>
 
-                <entry>Groupes du serveur LDAP</entry>
+                <entry lang="fr">Groupes du serveur LDAP</entry>
               </row>
 
               <row>
-                <entry>lang</entry>
+                <entry lang="fr">lang</entry>
 
-                <entry>fr_FR</entry>
+                <entry lang="fr">fr_FR</entry>
 
-                <entry>Langue du serveur LDAP</entry>
+                <entry lang="fr">Langue du serveur LDAP</entry>
               </row>
 
               <row>
-                <entry>port</entry>
+                <entry lang="fr">port</entry>
 
-                <entry>389</entry>
+                <entry lang="fr">389</entry>
 
-                <entry>Port du serveur LDAP</entry>
+                <entry lang="fr">Port du serveur LDAP</entry>
               </row>
 
               <row>
-                <entry>proto</entry>
+                <entry lang="fr">proto</entry>
 
-                <entry>3</entry>
+                <entry lang="fr">3</entry>
 
-                <entry>Version du protocole LDAP : 2 ou 3</entry>
+                <entry lang="fr">Version du protocole LDAP : 2 ou 3</entry>
               </row>
 
               <row>
-                <entry>server</entry>
+                <entry lang="fr">server</entry>
 
-                <entry></entry>
+                <entry lang="fr"></entry>
 
-                <entry>Serveur LDAP : IP ou host</entry>
+                <entry lang="fr">Serveur LDAP : IP ou host</entry>
               </row>
             </tbody>
           </tgroup>
@@ -1585,49 +1585,49 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>fdp</entry>
+              <entry lang="fr">fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque Intercommunale de
+              <entry lang="fr">Le responsable de la Bibliothèque Intercommunale de
               SimTown.</entry>
 
-              <entry>Formule de politesse en bas de page</entry>
+              <entry lang="fr">Formule de politesse en bas de page</entry>
             </row>
 
             <row>
-              <entry>madame_monsieur</entry>
+              <entry lang="fr">madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="fr">Madame, Monsieur,</entry>
 
-              <entry>Entête du courrier de relance d'adhésion</entry>
+              <entry lang="fr">Entête du courrier de relance d'adhésion</entry>
             </row>
 
             <row>
-              <entry>objet</entry>
+              <entry lang="fr">objet</entry>
 
-              <entry>Bibliothèque : votre abonnement</entry>
+              <entry lang="fr">Bibliothèque : votre abonnement</entry>
 
-              <entry>Objet du courrier de relance d'adhésion</entry>
+              <entry lang="fr">Objet du courrier de relance d'adhésion</entry>
             </row>
 
             <row>
-              <entry>texte</entry>
+              <entry lang="fr">texte</entry>
 
-              <entry>Votre abonnement à la bibliothèque municipale arrive à
+              <entry lang="fr">Votre abonnement à la bibliothèque municipale arrive à
               échéance le !!date_fin_adhesion!!. Nous vous remercions de
               penser à le renouveler lors de votre prochaine visite.
               Cordialement,</entry>
 
-              <entry>Texte de la relance, !!date_fin_adhesion!! sera remplacé
+              <entry lang="fr">Texte de la relance, !!date_fin_adhesion!! sera remplacé
               à l'édition par la date de fin d'adhésion du lecteur</entry>
             </row>
           </tbody>
@@ -1648,171 +1648,171 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>1after_list</entry>
+              <entry lang="fr">1after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="fr">Nous vous remercions de prendre rapidement contact par
               téléphone au 00 00 00 00 00 ou de nous répondre par mail à
               mail@mail.mail pour étudier la possibilité de prolonger ces
               prêts ou de ramener les ouvrages concernés.</entry>
 
-              <entry>Texte apparaissant après la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant après la liste des ouvrages en retard
               dans le mail</entry>
             </row>
 
             <row>
-              <entry>1before_list</entry>
+              <entry lang="fr">1before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="fr">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Texte apparaissant avant la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant avant la liste des ouvrages en retard
               dans le mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>1fdp</entry>
+              <entry lang="fr">1fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque $biblio_name.</entry>
 
-              <entry>Signataire du mail de relance de retard</entry>
+              <entry lang="fr">Signataire du mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>1madame_monsieur</entry>
+              <entry lang="fr">1madame_monsieur</entry>
 
-              <entry>Madame, Monsieur</entry>
+              <entry lang="fr">Madame, Monsieur</entry>
 
-              <entry>Entête du mail</entry>
+              <entry lang="fr">Entête du mail</entry>
             </row>
 
             <row>
-              <entry>1objet</entry>
+              <entry lang="fr">1objet</entry>
 
-              <entry>Documents en retard</entry>
+              <entry lang="fr">Documents en retard</entry>
 
-              <entry>Objet du mail de relance de retard</entry>
+              <entry lang="fr">Objet du mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>2after_list</entry>
+              <entry lang="fr">2after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="fr">Nous vous remercions de prendre rapidement contact par
               téléphone au 00 00 00 00 00 ou de nous répondre par mail à
               mail@mail.mail pour étudier la possibilité de prolonger ces
               prêts ou de ramener les ouvrages concernés.</entry>
 
-              <entry>Texte apparaissant après la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant après la liste des ouvrages en retard
               dans le mail</entry>
             </row>
 
             <row>
-              <entry>2before_list</entry>
+              <entry lang="fr">2before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="fr">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Texte apparaissant avant la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant avant la liste des ouvrages en retard
               dans le mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>2fdp</entry>
+              <entry lang="fr">2fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque $biblio_name.</entry>
 
-              <entry>Signataire du mail de relance de retard</entry>
+              <entry lang="fr">Signataire du mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>2madame_monsieur</entry>
+              <entry lang="fr">2madame_monsieur</entry>
 
-              <entry>Madame, Monsieur</entry>
+              <entry lang="fr">Madame, Monsieur</entry>
 
-              <entry>Entête du mail</entry>
+              <entry lang="fr">Entête du mail</entry>
             </row>
 
             <row>
-              <entry>2objet</entry>
+              <entry lang="fr">2objet</entry>
 
-              <entry>Documents en retard</entry>
+              <entry lang="fr">Documents en retard</entry>
 
-              <entry>Objet du mail de relance de retard</entry>
+              <entry lang="fr">Objet du mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>3after_list</entry>
+              <entry lang="fr">3after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="fr">Nous vous remercions de prendre rapidement contact par
               téléphone au 00 00 00 00 00 ou de nous répondre par mail à
               mail@mail.mail pour étudier la possibilité de prolonger ces
               prêts ou de ramener les ouvrages concernés.</entry>
 
-              <entry>Texte apparaissant après la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant après la liste des ouvrages en retard
               dans le mail</entry>
             </row>
 
             <row>
-              <entry>3before_list</entry>
+              <entry lang="fr">3before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="fr">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Texte apparaissant avant la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant avant la liste des ouvrages en retard
               dans le mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>3fdp</entry>
+              <entry lang="fr">3fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque $biblio_name.</entry>
 
-              <entry>Signataire du mail de relance de retard</entry>
+              <entry lang="fr">Signataire du mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>3madame_monsieur</entry>
+              <entry lang="fr">3madame_monsieur</entry>
 
-              <entry>Madame, Monsieur</entry>
+              <entry lang="fr">Madame, Monsieur</entry>
 
-              <entry>Entête du mail</entry>
+              <entry lang="fr">Entête du mail</entry>
             </row>
 
             <row>
-              <entry>3objet</entry>
+              <entry lang="fr">3objet</entry>
 
-              <entry>Documents en retard</entry>
+              <entry lang="fr">Documents en retard</entry>
 
-              <entry>Objet du mail de relance de retard</entry>
+              <entry lang="fr">Objet du mail de relance de retard</entry>
             </row>
 
             <row>
-              <entry>priorite_email</entry>
+              <entry lang="fr">priorite_email</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Priorités lettres de retard lors des relances : 0 :
+              <entry lang="fr">Priorités lettres de retard lors des relances : 0 :
               Lettre seule 1 : Mail, lettre 2 : Mail ET lettre</entry>
             </row>
 
             <row>
-              <entry>priorite_email_3</entry>
+              <entry lang="fr">priorite_email_3</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Faire le troisième niveau de relance par mail : 0 : Non,
+              <entry lang="fr">Faire le troisième niveau de relance par mail : 0 : Non,
               lettre 1 : Oui, par mail</entry>
             </row>
           </tbody>
@@ -1836,132 +1836,132 @@ order by idcode</programlisting>
               <colspec />
 
               <row>
-                <entry>sous-type</entry>
+                <entry lang="fr">sous-type</entry>
 
-                <entry>valeur</entry>
+                <entry lang="fr">valeur</entry>
 
-                <entry>commentaire</entry>
+                <entry lang="fr">commentaire</entry>
               </row>
             </thead>
 
             <tbody>
               <row>
-                <entry>default_lang</entry>
+                <entry lang="fr">default_lang</entry>
 
-                <entry>fr_FR</entry>
+                <entry lang="fr">fr_FR</entry>
 
-                <entry>Langue de l'opac : fr_FR ou en_US ou es_ES ou
+                <entry lang="fr">Langue de l'opac : fr_FR ou en_US ou es_ES ou
                 ar</entry>
               </row>
 
               <row>
-                <entry>default_style</entry>
+                <entry lang="fr">default_style</entry>
 
-                <entry>1</entry>
+                <entry lang="fr">1</entry>
 
-                <entry>Style graphique de l'OPAC, 1 style par défaut, nomargin
+                <entry lang="fr">Style graphique de l'OPAC, 1 style par défaut, nomargin
                 : sans affichage du bandeau de gauche</entry>
               </row>
 
               <row>
-                <entry>duration_session_auth</entry>
+                <entry lang="fr">duration_session_auth</entry>
 
-                <entry>1200</entry>
+                <entry lang="fr">1200</entry>
 
-                <entry>Durée de la session lecteur dans l'OPAC en
+                <entry lang="fr">Durée de la session lecteur dans l'OPAC en
                 secondes</entry>
               </row>
 
               <row>
-                <entry>mail_methode</entry>
+                <entry lang="fr">mail_methode</entry>
 
-                <entry>php</entry>
+                <entry lang="fr">php</entry>
 
-                <entry>Méthode d'envoi des mails : php : fonction mail() de
+                <entry lang="fr">Méthode d'envoi des mails : php : fonction mail() de
                 php smtp,hote:port,auth,user,pass : en smtp, mettre O ou 1
                 pour l'authentification...</entry>
               </row>
 
               <row>
-                <entry>max_resa</entry>
+                <entry lang="fr">max_resa</entry>
 
-                <entry>5</entry>
+                <entry lang="fr">5</entry>
 
-                <entry>Nombre maximum de réservation sur un document 5 par
+                <entry lang="fr">Nombre maximum de réservation sur un document 5 par
                 défaut 0 pour illimité</entry>
               </row>
 
               <row>
-                <entry>resa</entry>
+                <entry lang="fr">resa</entry>
 
-                <entry>1</entry>
+                <entry lang="fr">1</entry>
 
-                <entry>Réservations possibles par l'OPAC 1: oui ou 0:
+                <entry lang="fr">Réservations possibles par l'OPAC 1: oui ou 0:
                 non</entry>
               </row>
 
               <row>
-                <entry>resa_contact</entry>
+                <entry lang="fr">resa_contact</entry>
 
-                <entry>&lt;a
+                <entry lang="fr">&lt;a
                 href='mailto:pmb@sigb.net'&gt;pmb@sigb.net&lt;/a&gt;</entry>
 
-                <entry>Code HTML d'information sur la personne à contacter par
+                <entry lang="fr">Code HTML d'information sur la personne à contacter par
                 exemple en cas de problème de réservation.</entry>
               </row>
 
               <row>
-                <entry>resa_dispo</entry>
+                <entry lang="fr">resa_dispo</entry>
 
-                <entry>1</entry>
+                <entry lang="fr">1</entry>
 
-                <entry>Réservations possibles de documents disponibles par
+                <entry lang="fr">Réservations possibles de documents disponibles par
                 l'OPAC 1: oui ou 0: non</entry>
               </row>
 
               <row>
-                <entry>resa_planning</entry>
+                <entry lang="fr">resa_planning</entry>
 
-                <entry>0</entry>
+                <entry lang="fr">0</entry>
 
-                <entry>Utiliser un planning de réservation ? 0: Non 1:
+                <entry lang="fr">Utiliser un planning de réservation ? 0: Non 1:
                 Oui</entry>
               </row>
 
               <row>
-                <entry>resa_popup</entry>
+                <entry lang="fr">resa_popup</entry>
 
-                <entry>1</entry>
+                <entry lang="fr">1</entry>
 
-                <entry>Demande de connexion sous forme de pop-up ?</entry>
+                <entry lang="fr">Demande de connexion sous forme de pop-up ?</entry>
               </row>
 
               <row>
-                <entry>show_languages</entry>
+                <entry lang="fr">show_languages</entry>
 
-                <entry>1 fr_FR,it_IT,en_UK,nl_NL,oc_FR</entry>
+                <entry lang="fr">1 fr_FR,it_IT,en_UK,nl_NL,oc_FR</entry>
 
-                <entry>Afficher la liste déroulante de sélection de la langue
+                <entry lang="fr">Afficher la liste déroulante de sélection de la langue
                 ? 0 : Non 1 : Oui Faire suivre d'un espace et des codes des
                 langues possibles séparées par des virgules :
                 fr_FR,it_IT,en_UK,nl_NL,oc_FR</entry>
               </row>
 
               <row>
-                <entry>thesaurus</entry>
+                <entry lang="fr">thesaurus</entry>
 
-                <entry>0</entry>
+                <entry lang="fr">0</entry>
 
-                <entry>Niveau d'utilisation des thésaurus. 0 : Un seul
+                <entry lang="fr">Niveau d'utilisation des thésaurus. 0 : Un seul
                 thésaurus par défaut. 1 : Choix du thésaurus possible.</entry>
               </row>
 
               <row>
-                <entry>url_base</entry>
+                <entry lang="fr">url_base</entry>
 
-                <entry>./opac_css/</entry>
+                <entry lang="fr">./opac_css/</entry>
 
-                <entry>URL de base de l'opac : typiquement mettre l'url
+                <entry lang="fr">URL de base de l'opac : typiquement mettre l'url
                 publique web http://monsite/opac/ ne pas oublier le /
                 final</entry>
               </row>
@@ -1978,154 +1978,154 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>biblio_adr1</entry>
+              <entry lang="fr">biblio_adr1</entry>
 
-              <entry>Le Gué Luneau</entry>
+              <entry lang="fr">Le Gué Luneau</entry>
 
-              <entry>Adresse 1 de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Adresse 1 de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_country</entry>
+              <entry lang="fr">biblio_country</entry>
 
-              <entry>France</entry>
+              <entry lang="fr">France</entry>
 
-              <entry>Pays de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Pays de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_cp</entry>
+              <entry lang="fr">biblio_cp</entry>
 
-              <entry>37370</entry>
+              <entry lang="fr">37370</entry>
 
-              <entry>Code postal de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Code postal de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_dep</entry>
+              <entry lang="fr">biblio_dep</entry>
 
-              <entry>37</entry>
+              <entry lang="fr">37</entry>
 
-              <entry>Département de la bibliothèque dans l'OPAC pour la
+              <entry lang="fr">Département de la bibliothèque dans l'OPAC pour la
               météo</entry>
             </row>
 
             <row>
-              <entry>biblio_email</entry>
+              <entry lang="fr">biblio_email</entry>
 
-              <entry>pmb@sigb.net</entry>
+              <entry lang="fr">pmb@sigb.net</entry>
 
-              <entry>Email de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Email de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_important_p1</entry>
+              <entry lang="fr">biblio_important_p1</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Infos importantes 1 sur la bibliothèque, est masqué par
+              <entry lang="fr">Infos importantes 1 sur la bibliothèque, est masqué par
               défaut dans la feuille de style, voir id important.p1</entry>
             </row>
 
             <row>
-              <entry>biblio_important_p2</entry>
+              <entry lang="fr">biblio_important_p2</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Infos importantes sur la bibliothèque, est masqué par
+              <entry lang="fr">Infos importantes sur la bibliothèque, est masqué par
               défaut dans la feuille de style, voir id important.p2</entry>
             </row>
 
             <row>
-              <entry>biblio_name</entry>
+              <entry lang="fr">biblio_name</entry>
 
-              <entry>Bibliothèque PMB Services</entry>
+              <entry lang="fr">Bibliothèque PMB Services</entry>
 
-              <entry>Nom de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Nom de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_phone</entry>
+              <entry lang="fr">biblio_phone</entry>
 
-              <entry>02 47 24 89 29</entry>
+              <entry lang="fr">02 47 24 89 29</entry>
 
-              <entry>Téléphone de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Téléphone de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_preamble_p1</entry>
+              <entry lang="fr">biblio_preamble_p1</entry>
 
-              <entry>La bibliothèque de test de PMB vous propose près de 60
+              <entry lang="fr">La bibliothèque de test de PMB vous propose près de 60
               ouvrages pour tester l'application. Cet écran vous présente de
               nombreuses possibilités de recherche et de navigation, celles-ci
               sont grandement paramétrables.</entry>
 
-              <entry>Paragraphe 1 d'informations sur la bibliothèque (par
+              <entry lang="fr">Paragraphe 1 d'informations sur la bibliothèque (par
               exemple, description du fonds)</entry>
             </row>
 
             <row>
-              <entry>biblio_preamble_p2</entry>
+              <entry lang="fr">biblio_preamble_p2</entry>
 
-              <entry>PMB Services est à votre disposition pour vous aider à
+              <entry lang="fr">PMB Services est à votre disposition pour vous aider à
               paramétrer ou adapter votre PMB.</entry>
 
-              <entry>Paragraphe 2 d'informations sur la bibliothèque : accueil
+              <entry lang="fr">Paragraphe 2 d'informations sur la bibliothèque : accueil
               du public.</entry>
             </row>
 
             <row>
-              <entry>biblio_town</entry>
+              <entry lang="fr">biblio_town</entry>
 
-              <entry>BUEIL EN TOURAINE</entry>
+              <entry lang="fr">BUEIL EN TOURAINE</entry>
 
-              <entry>Ville de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Ville de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_website</entry>
+              <entry lang="fr">biblio_website</entry>
 
-              <entry>www.sigb.net</entry>
+              <entry lang="fr">www.sigb.net</entry>
 
-              <entry>Site web de la bibliothèque dans l'OPAC</entry>
+              <entry lang="fr">Site web de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
-              <entry>lien_bas_supplementaire</entry>
+              <entry lang="fr">lien_bas_supplementaire</entry>
 
-              <entry>&lt;a href='http://www.sigb.net/' target=_blank&gt;Lien
+              <entry lang="fr">&lt;a href='http://www.sigb.net/' target=_blank&gt;Lien
               vers autre site&lt;/a&gt;</entry>
 
-              <entry>Lien supplémentaire en bas de page d'accueil, à
+              <entry lang="fr">Lien supplémentaire en bas de page d'accueil, à
               renseigner complètement : a href= lien /a</entry>
             </row>
 
             <row>
-              <entry>lien_moteur_recherche</entry>
+              <entry lang="fr">lien_moteur_recherche</entry>
 
-              <entry>&lt;a href=http://www.google.fr target=_blank&gt;Faire
+              <entry lang="fr">&lt;a href=http://www.google.fr target=_blank&gt;Faire
               une recherche avec Google&lt;/a&gt;</entry>
 
-              <entry>Lien supplémentaire en bas de page d'accueil, à
+              <entry lang="fr">Lien supplémentaire en bas de page d'accueil, à
               renseigner complètement : a href= lien /a</entry>
             </row>
 
             <row>
-              <entry>logosmall</entry>
+              <entry lang="fr">logosmall</entry>
 
-              <entry>logo_default_small.jpg</entry>
+              <entry lang="fr">logo_default_small.jpg</entry>
 
-              <entry>Nom du fichier de l'image petit logo</entry>
+              <entry lang="fr">Nom du fichier de l'image petit logo</entry>
             </row>
           </tbody>
         </tgroup>
@@ -2139,177 +2139,177 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>allow_extended_search</entry>
+              <entry lang="fr">allow_extended_search</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Autorisation ou non de la recherche avancée dans l'OPAC
+              <entry lang="fr">Autorisation ou non de la recherche avancée dans l'OPAC
               0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>allow_term_search</entry>
+              <entry lang="fr">allow_term_search</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Autorisation ou non de la recherche par termes dans
+              <entry lang="fr">Autorisation ou non de la recherche par termes dans
               l'OPAC 0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>default_operator</entry>
+              <entry lang="fr">default_operator</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Opérateur par défaut. 0 : OR, 1 : AND.</entry>
+              <entry lang="fr">Opérateur par défaut. 0 : OR, 1 : AND.</entry>
             </row>
 
             <row>
-              <entry>modules_search_abstract</entry>
+              <entry lang="fr">modules_search_abstract</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Recherche simple dans le champ résumé : 0 : interdite 1 :
+              <entry lang="fr">Recherche simple dans le champ résumé : 0 : interdite 1 :
               autorisée 2 : autorisée et validée par défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_all</entry>
+              <entry lang="fr">modules_search_all</entry>
 
-              <entry>2</entry>
+              <entry lang="fr">2</entry>
 
-              <entry>Recherche simple dans l'ensemble des champs :0 :
+              <entry lang="fr">Recherche simple dans l'ensemble des champs :0 :
               interdite, 1 : autorisée, 2 : autorisée et validée par
               défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_author</entry>
+              <entry lang="fr">modules_search_author</entry>
 
-              <entry>2</entry>
+              <entry lang="fr">2</entry>
 
-              <entry>Recherche simple dans les auteurs : 0 : interdite 1 :
+              <entry lang="fr">Recherche simple dans les auteurs : 0 : interdite 1 :
               autorisée 2 : autorisée et validée par défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_category</entry>
+              <entry lang="fr">modules_search_category</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Recherche simple dans les catégories : 0 : interdite 1 :
+              <entry lang="fr">Recherche simple dans les catégories : 0 : interdite 1 :
               autorisée 2 : autorisée et validée par défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_collection</entry>
+              <entry lang="fr">modules_search_collection</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Recherche simple dans les collections : 0 : interdite 1 :
+              <entry lang="fr">Recherche simple dans les collections : 0 : interdite 1 :
               autorisée 2 : autorisée et validée par défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_content</entry>
+              <entry lang="fr">modules_search_content</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Recherche simple dans le champ résumé : 0 : interdite 1 :
+              <entry lang="fr">Recherche simple dans le champ résumé : 0 : interdite 1 :
               autorisée 2 : autorisée et validée par défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_indexint</entry>
+              <entry lang="fr">modules_search_indexint</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Recherche simple dans les indexations internes : 0 :
+              <entry lang="fr">Recherche simple dans les indexations internes : 0 :
               interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_keywords</entry>
+              <entry lang="fr">modules_search_keywords</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Recherche simple dans les indexations libres : 0 :
+              <entry lang="fr">Recherche simple dans les indexations libres : 0 :
               interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_publisher</entry>
+              <entry lang="fr">modules_search_publisher</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Recherche simple dans les éditeurs : 0 : interdite 1 :
+              <entry lang="fr">Recherche simple dans les éditeurs : 0 : interdite 1 :
               autorisée 2 : autorisée et validée par défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_subcollection</entry>
+              <entry lang="fr">modules_search_subcollection</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Recherche simple dans les sous-collections : 0 :
+              <entry lang="fr">Recherche simple dans les sous-collections : 0 :
               interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
 
             <row>
-              <entry>modules_search_title</entry>
+              <entry lang="fr">modules_search_title</entry>
 
-              <entry>2</entry>
+              <entry lang="fr">2</entry>
 
-              <entry>Recherche simple dans les titres : 0 : interdite 1 :
+              <entry lang="fr">Recherche simple dans les titres : 0 : interdite 1 :
               autorisée 2 : autorisée et validée par défaut</entry>
             </row>
 
             <row>
-              <entry>search_other_function</entry>
+              <entry lang="fr">search_other_function</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Fonction complémentaire pour les recherches en page
+              <entry lang="fr">Fonction complémentaire pour les recherches en page
               d'accueil</entry>
             </row>
 
             <row>
-              <entry>search_show_typdoc</entry>
+              <entry lang="fr">search_show_typdoc</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage de la restriction par type de document pour les
+              <entry lang="fr">Affichage de la restriction par type de document pour les
               recherches en page d'accueil</entry>
             </row>
 
             <row>
-              <entry>term_search_height</entry>
+              <entry lang="fr">term_search_height</entry>
 
-              <entry>350</entry>
+              <entry lang="fr">350</entry>
 
-              <entry>Hauteur en pixels de la frame de recherche par termes (si
+              <entry lang="fr">Hauteur en pixels de la frame de recherche par termes (si
               pas précisé ou zéro : par défaut 200 pixels)</entry>
             </row>
 
             <row>
-              <entry>term_search_n_per_page</entry>
+              <entry lang="fr">term_search_n_per_page</entry>
 
-              <entry>50</entry>
+              <entry lang="fr">50</entry>
 
-              <entry>Nombre de termes affichés par page en recherche par
+              <entry lang="fr">Nombre de termes affichés par page en recherche par
               termes</entry>
             </row>
           </tbody>
@@ -2324,45 +2324,45 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>authors_aut_rec_per_page</entry>
+              <entry lang="fr">authors_aut_rec_per_page</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Nombre d'auteurs affichés par page</entry>
+              <entry lang="fr">Nombre d'auteurs affichés par page</entry>
             </row>
 
             <row>
-              <entry>authors_aut_sort_records</entry>
+              <entry lang="fr">authors_aut_sort_records</entry>
 
-              <entry>index_serie, tnvol, index_sew</entry>
+              <entry lang="fr">index_serie, tnvol, index_sew</entry>
 
-              <entry>Visu auteurs : tri des notices</entry>
+              <entry lang="fr">Visu auteurs : tri des notices</entry>
             </row>
 
             <row>
-              <entry>nb_aut_rec_per_page</entry>
+              <entry lang="fr">nb_aut_rec_per_page</entry>
 
-              <entry>15</entry>
+              <entry lang="fr">15</entry>
 
-              <entry>Nombre de notices affichées pour une autorité</entry>
+              <entry lang="fr">Nombre de notices affichées pour une autorité</entry>
             </row>
 
             <row>
-              <entry>search_results_per_page</entry>
+              <entry lang="fr">search_results_per_page</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Nombre de résultats affichés sur les pages
+              <entry lang="fr">Nombre de résultats affichés sur les pages
               suivantes</entry>
             </row>
           </tbody>
@@ -2377,80 +2377,80 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>book_pics_url</entry>
+              <entry lang="fr">book_pics_url</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>URL des vignettes des notices, dans le chemin fourni,
+              <entry lang="fr">URL des vignettes des notices, dans le chemin fourni,
               !!isbn!! sera remplacé par le code ISBN ou EAN de la notice
               purgé de tous les tirets ou points. exemple :
               http://www.monsite/opac/images/vignettes/!!isbn!!.jpg</entry>
             </row>
 
             <row>
-              <entry>notices_depliable</entry>
+              <entry lang="fr">notices_depliable</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage dépliable eds notices en résultat de recherche
+              <entry lang="fr">Affichage dépliable eds notices en résultat de recherche
               0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>notices_format</entry>
+              <entry lang="fr">notices_format</entry>
 
-              <entry>4</entry>
+              <entry lang="fr">4</entry>
 
-              <entry>Format d'affichage des notices en résultat de recherche 1
+              <entry lang="fr">Format d'affichage des notices en résultat de recherche 1
               : ISBD seul 2 : Public seul 4 : ISBD et Public 8 : Réduit
               (titre+auteurs) seul</entry>
             </row>
 
             <row>
-              <entry>notice_affichage_class</entry>
+              <entry lang="fr">notice_affichage_class</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Nom de la classe d'affichage pour personnalisation de
+              <entry lang="fr">Nom de la classe d'affichage pour personnalisation de
               l'affichage des notices</entry>
             </row>
 
             <row>
-              <entry>notice_reduit_format</entry>
+              <entry lang="fr">notice_reduit_format</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Format d'affichage des réduits des notices : 0 normal =
+              <entry lang="fr">Format d'affichage des réduits des notices : 0 normal =
               titre+auteurs principaux P 1,2,3: Perso. : tit+aut+champs persos
               id 1 2 3 E 1,2,3: Perso. : tit+aut+édit+champs persos id 1 2
               3</entry>
             </row>
 
             <row>
-              <entry>show_book_pics</entry>
+              <entry lang="fr">show_book_pics</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Afficher les vignettes de livres dans les fiches ouvrages
+              <entry lang="fr">Afficher les vignettes de livres dans les fiches ouvrages
               : 0 : Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>show_exemplaires</entry>
+              <entry lang="fr">show_exemplaires</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Afficher les exemplaires dans l'OPAC 1 Oui, 0 :
+              <entry lang="fr">Afficher les exemplaires dans l'OPAC 1 Oui, 0 :
               Non</entry>
             </row>
           </tbody>
@@ -2465,164 +2465,164 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur par défaut</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>cart_allow</entry>
+              <entry lang="fr">cart_allow</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Paniers possibles dans l'OPAC de PMB 1: Oui 0 :
+              <entry lang="fr">Paniers possibles dans l'OPAC de PMB 1: Oui 0 :
               Non</entry>
             </row>
 
             <row>
-              <entry>show_100cases_browser</entry>
+              <entry lang="fr">show_100cases_browser</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>0 ou 1 : affichage de 100 catégories</entry>
+              <entry lang="fr">0 ou 1 : affichage de 100 catégories</entry>
             </row>
 
             <row>
-              <entry>show_bandeaugauche</entry>
+              <entry lang="fr">show_bandeaugauche</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage du bandeau de gauche ? 0 : Non 1 : Oui</entry>
+              <entry lang="fr">Affichage du bandeau de gauche ? 0 : Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>show_categ_browser</entry>
+              <entry lang="fr">show_categ_browser</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage des catégories en page d'accueil OPAC 1: oui ou
+              <entry lang="fr">Affichage des catégories en page d'accueil OPAC 1: oui ou
               0: non</entry>
             </row>
 
             <row>
-              <entry>show_dernieresnotices</entry>
+              <entry lang="fr">show_dernieresnotices</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Affichage des dernières notices créées en base de page ?
+              <entry lang="fr">Affichage des dernières notices créées en base de page ?
               0 : Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>show_dernieresnotices_nb</entry>
+              <entry lang="fr">show_dernieresnotices_nb</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Nombre de dernières notices affichées en Catalogue -
+              <entry lang="fr">Nombre de dernières notices affichées en Catalogue -
               Dernières notices</entry>
             </row>
 
             <row>
-              <entry>show_etageres_accueil</entry>
+              <entry lang="fr">show_etageres_accueil</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage des étagères dans la page d'accueil en bas de
+              <entry lang="fr">Affichage des étagères dans la page d'accueil en bas de
               page ? 0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>show_help</entry>
+              <entry lang="fr">show_help</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage de l'aide en ligne dans l'OPAC de PMB 1: Oui 0:
+              <entry lang="fr">Affichage de l'aide en ligne dans l'OPAC de PMB 1: Oui 0:
               Non</entry>
             </row>
 
             <row>
-              <entry>show_homeontop</entry>
+              <entry lang="fr">show_homeontop</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Affichage du lien HOME (retour accueil) sous le nom de la
+              <entry lang="fr">Affichage du lien HOME (retour accueil) sous le nom de la
               bibliothèque (nécessaire si masquage bandeau gauche) ? 0 : Non 1
               : Oui</entry>
             </row>
 
             <row>
-              <entry>show_liensbas</entry>
+              <entry lang="fr">show_liensbas</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage des liens (pmb, google, bibli) en bas de page ?
+              <entry lang="fr">Affichage des liens (pmb, google, bibli) en bas de page ?
               0 : Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>show_loginform</entry>
+              <entry lang="fr">show_loginform</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage du login lecteur dans l'OPAC 0 &gt; non 1
+              <entry lang="fr">Affichage du login lecteur dans l'OPAC 0 &gt; non 1
               Oui</entry>
             </row>
 
             <row>
-              <entry>show_marguerite_browser</entry>
+              <entry lang="fr">show_marguerite_browser</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>0 ou 1 : marguerite des catégories</entry>
+              <entry lang="fr">0 ou 1 : marguerite des catégories</entry>
             </row>
 
             <row>
-              <entry>show_meteo</entry>
+              <entry lang="fr">show_meteo</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Affichage de la météo dans l'OPAC 1: oui ou 0:
+              <entry lang="fr">Affichage de la météo dans l'OPAC 1: oui ou 0:
               non</entry>
             </row>
 
             <row>
-              <entry>show_meteo_url</entry>
+              <entry lang="fr">show_meteo_url</entry>
 
-              <entry>&lt;img
+              <entry lang="fr">&lt;img
               src="http://perso0.free.fr/cgi-bin/meteo.pl?dep=37" alt=""
               border="0" hspace=0&gt;</entry>
 
-              <entry>URL de la météo affichée</entry>
+              <entry lang="fr">URL de la météo affichée</entry>
             </row>
 
             <row>
-              <entry>show_rss_browser</entry>
+              <entry lang="fr">show_rss_browser</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Affichage des flux RSS du catalogue en page d'accueil
+              <entry lang="fr">Affichage des flux RSS du catalogue en page d'accueil
               OPAC 1: oui ou 0: non</entry>
             </row>
 
             <row>
-              <entry>show_section_browser</entry>
+              <entry lang="fr">show_section_browser</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Afficher le butineur de localisation et de sections ? 0:
+              <entry lang="fr">Afficher le butineur de localisation et de sections ? 0:
               Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>show_suggest</entry>
+              <entry lang="fr">show_suggest</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Proposer de faire des suggestions dans l'OPAC. 0 : Non. 1
+              <entry lang="fr">Proposer de faire des suggestions dans l'OPAC. 0 : Non. 1
               : Oui, avec authentification. 2 : Oui, sans
               authentification.</entry>
             </row>
@@ -2638,31 +2638,31 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>cart_only_for_subscriber</entry>
+              <entry lang="fr">cart_only_for_subscriber</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Paniers de notices réservés aux adhérents de la
+              <entry lang="fr">Paniers de notices réservés aux adhérents de la
               bibliothèque 1: Oui 0 : Non, autorisé pour tout
               internaute</entry>
             </row>
 
             <row>
-              <entry>max_cart_items</entry>
+              <entry lang="fr">max_cart_items</entry>
 
-              <entry>200</entry>
+              <entry lang="fr">200</entry>
 
-              <entry>Nombre maximum de notices dans un panier
+              <entry lang="fr">Nombre maximum de notices dans un panier
               utilisateur</entry>
             </row>
           </tbody>
@@ -2678,102 +2678,102 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>categories_categ_path_sep</entry>
+              <entry lang="fr">categories_categ_path_sep</entry>
 
-              <entry>&gt;</entry>
+              <entry lang="fr">&gt;</entry>
 
-              <entry>Séparateur pour les catégories</entry>
+              <entry lang="fr">Séparateur pour les catégories</entry>
             </row>
 
             <row>
-              <entry>categories_categ_rec_per_page</entry>
+              <entry lang="fr">categories_categ_rec_per_page</entry>
 
-              <entry>6</entry>
+              <entry lang="fr">6</entry>
 
-              <entry>Nombre de notices à afficher par page dans l'exploration
+              <entry lang="fr">Nombre de notices à afficher par page dans l'exploration
               des catégories</entry>
             </row>
 
             <row>
-              <entry>categories_categ_sort_records</entry>
+              <entry lang="fr">categories_categ_sort_records</entry>
 
-              <entry>index_serie, tnvol, index_sew</entry>
+              <entry lang="fr">index_serie, tnvol, index_sew</entry>
 
-              <entry>Explorateur de catégories : mode de tri des notices :
+              <entry lang="fr">Explorateur de catégories : mode de tri des notices :
               index_serie, tnvol, index_sew &gt; par titre de série, numéro
               dans la série et index des titres ; rand() : aléatoire</entry>
             </row>
 
             <row>
-              <entry>categories_columns</entry>
+              <entry lang="fr">categories_columns</entry>
 
-              <entry>3</entry>
+              <entry lang="fr">3</entry>
 
-              <entry>Nombre de colonnes du sommaire général des
+              <entry lang="fr">Nombre de colonnes du sommaire général des
               catégories</entry>
             </row>
 
             <row>
-              <entry>categories_max_display</entry>
+              <entry lang="fr">categories_max_display</entry>
 
-              <entry>200</entry>
+              <entry lang="fr">200</entry>
 
-              <entry>Pour la page d'accueil, nombre maximum de catégories
+              <entry lang="fr">Pour la page d'accueil, nombre maximum de catégories
               principales affichées</entry>
             </row>
 
             <row>
-              <entry>categories_nb_col_subcat</entry>
+              <entry lang="fr">categories_nb_col_subcat</entry>
 
-              <entry>3</entry>
+              <entry lang="fr">3</entry>
 
-              <entry>Nombre de colonnes de sous-catégories en navigation dans
+              <entry lang="fr">Nombre de colonnes de sous-catégories en navigation dans
               les catégories</entry>
             </row>
 
             <row>
-              <entry>categories_show_only_last</entry>
+              <entry lang="fr">categories_show_only_last</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Dans la fiche d'une notice : 0 tout afficher 1 : afficher
+              <entry lang="fr">Dans la fiche d'une notice : 0 tout afficher 1 : afficher
               uniquement la dernière feuille de l'arbre de la
               catégorie</entry>
             </row>
 
             <row>
-              <entry>categories_sub_display</entry>
+              <entry lang="fr">categories_sub_display</entry>
 
-              <entry>3</entry>
+              <entry lang="fr">3</entry>
 
-              <entry>Nombre de sous-categories sur la première page</entry>
+              <entry lang="fr">Nombre de sous-categories sur la première page</entry>
             </row>
 
             <row>
-              <entry>categories_sub_mode</entry>
+              <entry lang="fr">categories_sub_mode</entry>
 
-              <entry>categ_libelle</entry>
+              <entry lang="fr">categ_libelle</entry>
 
-              <entry>Mode affichage des sous-categories : rand() &gt;
+              <entry lang="fr">Mode affichage des sous-categories : rand() &gt;
               aléatoire categ_libelle &gt; ordre alpha</entry>
             </row>
 
             <row>
-              <entry>show_empty_categ</entry>
+              <entry lang="fr">show_empty_categ</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>En recherche par terme, affichage des catégories ne
+              <entry lang="fr">En recherche par terme, affichage des catégories ne
               contenant aucun ouvrage : 0 : Non 1 : Oui</entry>
             </row>
           </tbody>
@@ -2788,61 +2788,61 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>etagere_nbnotices_accueil</entry>
+              <entry lang="fr">etagere_nbnotices_accueil</entry>
 
-              <entry>5</entry>
+              <entry lang="fr">5</entry>
 
-              <entry>Nombre de notices affichées dans les étagères de l'écran
+              <entry lang="fr">Nombre de notices affichées dans les étagères de l'écran
               d'accueil 0 : Toutes -1 : Aucune x : x notices affichées au
               maximum</entry>
             </row>
 
             <row>
-              <entry>etagere_notices_depliable</entry>
+              <entry lang="fr">etagere_notices_depliable</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage dépliable des notices en résultat de recherche
+              <entry lang="fr">Affichage dépliable des notices en résultat de recherche
               0 : Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>etagere_notices_format</entry>
+              <entry lang="fr">etagere_notices_format</entry>
 
-              <entry>4</entry>
+              <entry lang="fr">4</entry>
 
-              <entry>Format d'affichage des notices dans les étagères de
+              <entry lang="fr">Format d'affichage des notices dans les étagères de
               l'écran d'accueil 1 : ISBD seul 2 : Public seul 4 : ISBD et
               Public 5 : ISBD et Public avec ISBD en premier 8 : Réduit
               (titre+auteurs) seul</entry>
             </row>
 
             <row>
-              <entry>etagere_etagere_notices_order</entry>
+              <entry lang="fr">etagere_etagere_notices_order</entry>
 
-              <entry>index_serie, tnvol, index_sew</entry>
+              <entry lang="fr">index_serie, tnvol, index_sew</entry>
 
-              <entry>Ordre d'affichage des notices dans les étagères dans
+              <entry lang="fr">Ordre d'affichage des notices dans les étagères dans
               l'opac index_serie, tit1 : tri par titre de série et titre
               rand() : aléatoire</entry>
             </row>
 
             <row>
-              <entry>etagere_order</entry>
+              <entry lang="fr">etagere_order</entry>
 
-              <entry>name</entry>
+              <entry lang="fr">name</entry>
 
-              <entry>Tri des étagères dans l'écran d'accueil, name = par nom
+              <entry lang="fr">Tri des étagères dans l'écran d'accueil, name = par nom
               name DESC = par nom décroissant</entry>
             </row>
           </tbody>
@@ -2857,30 +2857,30 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>nb_localisations_per_line</entry>
+              <entry lang="fr">nb_localisations_per_line</entry>
 
-              <entry>6</entry>
+              <entry lang="fr">6</entry>
 
-              <entry>Nombre de localisations affichées par ligne en page
+              <entry lang="fr">Nombre de localisations affichées par ligne en page
               d'accueil (si show_section_browser=1)</entry>
             </row>
 
             <row>
-              <entry>nb_sections_per_line</entry>
+              <entry lang="fr">nb_sections_per_line</entry>
 
-              <entry>6</entry>
+              <entry lang="fr">6</entry>
 
-              <entry>Nombre de sections affichées par ligne en visualisation
+              <entry lang="fr">Nombre de sections affichées par ligne en visualisation
               de localisation (si show_section_browser=1)</entry>
             </row>
           </tbody>
@@ -2898,76 +2898,76 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>allow_bannette_priv</entry>
+              <entry lang="fr">allow_bannette_priv</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Possibilité pour les lecteurs de créer ou modifier leurs
+              <entry lang="fr">Possibilité pour les lecteurs de créer ou modifier leurs
               bannettes privées 0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>allow_resiliation</entry>
+              <entry lang="fr">allow_resiliation</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Possibilité pour les lecteurs de résilier leur abonnement
+              <entry lang="fr">Possibilité pour les lecteurs de résilier leur abonnement
               aux bannettes pro 0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>bannette_nb_liste</entry>
+              <entry lang="fr">bannette_nb_liste</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Nbre de notices par bannettes en affichage de la liste
+              <entry lang="fr">Nbre de notices par bannettes en affichage de la liste
               des bannettes 0 Toutes N : maxi N -1 : aucune</entry>
             </row>
 
             <row>
-              <entry>bannette_notices_depliables</entry>
+              <entry lang="fr">bannette_notices_depliables</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage dépliable des notices dans les bannettes 0 :
+              <entry lang="fr">Affichage dépliable des notices dans les bannettes 0 :
               Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>bannette_notices_format</entry>
+              <entry lang="fr">bannette_notices_format</entry>
 
-              <entry>8</entry>
+              <entry lang="fr">8</entry>
 
-              <entry>Format d'affichage des notices dans les bannettes 1 :
+              <entry lang="fr">Format d'affichage des notices dans les bannettes 1 :
               ISBD seul 2 : Public seul 4 : ISBD et Public 8 : Réduit
               (titre+auteurs) seul</entry>
             </row>
 
             <row>
-              <entry>bannette_notices_order</entry>
+              <entry lang="fr">bannette_notices_order</entry>
 
-              <entry>index_serie, tnvol, index_sew</entry>
+              <entry lang="fr">index_serie, tnvol, index_sew</entry>
 
-              <entry>Ordre d'affichage des notices dans les bannettes dans
+              <entry lang="fr">Ordre d'affichage des notices dans les bannettes dans
               l'opac index_serie, tnvol, index_sew : tri par titre de série et
               titre rand() : aléatoire</entry>
             </row>
 
             <row>
-              <entry>dsi_active</entry>
+              <entry lang="fr">dsi_active</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>DSI, bannettes accessibles par l'OPAC ? 0 : Non 1 :
+              <entry lang="fr">DSI, bannettes accessibles par l'OPAC ? 0 : Non 1 :
               Oui</entry>
             </row>
 
             <row>
-              <entry>show_categ_bannette</entry>
+              <entry lang="fr">show_categ_bannette</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Affichage des bannettes de la catégorie du lecteur et
+              <entry lang="fr">Affichage des bannettes de la catégorie du lecteur et
               possibilité de s'y abonner 0: Non 1: Oui</entry>
             </row>
           </tbody>
@@ -2982,49 +2982,49 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>biblio_quicksummary_p1</entry>
+              <entry lang="fr">biblio_quicksummary_p1</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Paragraphe 1 de résumé sur la bibliothèque, est masqué
+              <entry lang="fr">Paragraphe 1 de résumé sur la bibliothèque, est masqué
               par défaut dans la feuille de style, voir id
               quickSummary.p1</entry>
             </row>
 
             <row>
-              <entry>biblio_quicksummary_p2</entry>
+              <entry lang="fr">biblio_quicksummary_p2</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Paragraphe 2 de résumé sur la bibliothèque, est masqué
+              <entry lang="fr">Paragraphe 2 de résumé sur la bibliothèque, est masqué
               par défaut dans la feuille de style, voir id
               quickSummary.p1</entry>
             </row>
 
             <row>
-              <entry>logo</entry>
+              <entry lang="fr">logo</entry>
 
-              <entry>logo_default.jpg</entry>
+              <entry lang="fr">logo_default.jpg</entry>
 
-              <entry>Nom du fichier de l'image logo</entry>
+              <entry lang="fr">Nom du fichier de l'image logo</entry>
             </row>
 
             <row>
-              <entry>search_results_first_level</entry>
+              <entry lang="fr">search_results_first_level</entry>
 
-              <entry>4</entry>
+              <entry lang="fr">4</entry>
 
-              <entry>Nombre de résultats affichés sur la première page</entry>
+              <entry lang="fr">Nombre de résultats affichés sur la première page</entry>
             </row>
           </tbody>
         </tgroup>
@@ -3046,74 +3046,74 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>biblio_name</entry>
+              <entry lang="fr">biblio_name</entry>
 
-              <entry>$biblio_name</entry>
+              <entry lang="fr">$biblio_name</entry>
 
-              <entry>Nom de la bibliothèque imprimé sur la carte de lecteur.
+              <entry lang="fr">Nom de la bibliothèque imprimé sur la carte de lecteur.
               Mettre $biblio_name pour reprendre le paramètre "biblio name" ou
               bien mettre autre chose.</entry>
             </row>
 
             <row>
-              <entry>carteno</entry>
+              <entry lang="fr">carteno</entry>
 
-              <entry>Carte N° :</entry>
+              <entry lang="fr">Carte N° :</entry>
 
-              <entry>Mention précédant le numéro de la carte</entry>
+              <entry lang="fr">Mention précédant le numéro de la carte</entry>
             </row>
 
             <row>
-              <entry>largeur_nom</entry>
+              <entry lang="fr">largeur_nom</entry>
 
-              <entry>80</entry>
+              <entry lang="fr">80</entry>
 
-              <entry>Largeur accordée à l'impression du nom du lecteur en
+              <entry lang="fr">Largeur accordée à l'impression du nom du lecteur en
               mm</entry>
             </row>
 
             <row>
-              <entry>pos_h</entry>
+              <entry lang="fr">pos_h</entry>
 
-              <entry>20</entry>
+              <entry lang="fr">20</entry>
 
-              <entry>Position horizontale en mm à partir du bord gauche de la
+              <entry lang="fr">Position horizontale en mm à partir du bord gauche de la
               page</entry>
             </row>
 
             <row>
-              <entry>pos_v</entry>
+              <entry lang="fr">pos_v</entry>
 
-              <entry>20</entry>
+              <entry lang="fr">20</entry>
 
-              <entry>Position verticale en mm à partir du bord supérieur de la
+              <entry lang="fr">Position verticale en mm à partir du bord supérieur de la
               page</entry>
             </row>
 
             <row>
-              <entry>valableau</entry>
+              <entry lang="fr">valableau</entry>
 
-              <entry>au</entry>
+              <entry lang="fr">au</entry>
 
-              <entry>'au' dans "valable du ##/##/#### AU ##/##/####"</entry>
+              <entry lang="fr">'au' dans "valable du ##/##/#### AU ##/##/####"</entry>
             </row>
 
             <row>
-              <entry>valabledu</entry>
+              <entry lang="fr">valabledu</entry>
 
-              <entry>Valable du</entry>
+              <entry lang="fr">Valable du</entry>
 
-              <entry>'Valable du' dans "VALABLE DU ##/##/#### au
+              <entry lang="fr">'Valable du' dans "VALABLE DU ##/##/#### au
               ##/##/####"</entry>
             </row>
           </tbody>
@@ -3140,81 +3140,81 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>fdp</entry>
+              <entry lang="fr">fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque.</entry>
 
-              <entry>Formule de politesse en bas de page</entry>
+              <entry lang="fr">Formule de politesse en bas de page</entry>
             </row>
 
             <row>
-              <entry>format_page</entry>
+              <entry lang="fr">format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>P pour Portrait, L pour paysage (Landscape)</entry>
+              <entry lang="fr">P pour Portrait, L pour paysage (Landscape)</entry>
             </row>
 
             <row>
-              <entry>hauteur_page</entry>
+              <entry lang="fr">hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="fr">297</entry>
 
-              <entry>Hauteur de la page en mm</entry>
+              <entry lang="fr">Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>largeur_page</entry>
+              <entry lang="fr">largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="fr">210</entry>
 
-              <entry>Largeur de la page en mm</entry>
+              <entry lang="fr">Largeur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>madame_monsieur</entry>
+              <entry lang="fr">madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="fr">Madame, Monsieur,</entry>
 
-              <entry>Civilité du destinataire</entry>
+              <entry lang="fr">Civilité du destinataire</entry>
             </row>
 
             <row>
-              <entry>marge_page_droite</entry>
+              <entry lang="fr">marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge droite de la page en mm</entry>
+              <entry lang="fr">Marge droite de la page en mm</entry>
             </row>
 
             <row>
-              <entry>marge_page_gauche</entry>
+              <entry lang="fr">marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge gauche de la page en mm</entry>
+              <entry lang="fr">Marge gauche de la page en mm</entry>
             </row>
 
             <row>
-              <entry>texte</entry>
+              <entry lang="fr">texte</entry>
 
-              <entry>Votre abonnement à la bibliothèque municipale arrive à
+              <entry lang="fr">Votre abonnement à la bibliothèque municipale arrive à
               échéance le !!date_fin_adhesion!!. Nous vous remercions de
               penser à le renouveler lors de votre prochaine visite. Nous vous
               prions de recevoir, Madame, Monsieur, l'expression de nos
               meilleures salutations.</entry>
 
-              <entry>Phrase d'introduction de l'échéance de
+              <entry lang="fr">Phrase d'introduction de l'échéance de
               l'abonnement</entry>
             </row>
           </tbody>
@@ -3241,170 +3241,170 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>after_list</entry>
+              <entry lang="fr">after_list</entry>
 
-              <entry>Passé le délai de réservation, ces ouvrages seront remis
+              <entry lang="fr">Passé le délai de réservation, ces ouvrages seront remis
               en circulation, nous vous prions de les retirer dans les
               meilleurs délais.</entry>
 
-              <entry>Texte apparaissant après la liste des ouvrages</entry>
+              <entry lang="fr">Texte apparaissant après la liste des ouvrages</entry>
             </row>
 
             <row>
-              <entry>before_list</entry>
+              <entry lang="fr">before_list</entry>
 
-              <entry>Suite à votre demande de réservation, nous vous informons
+              <entry lang="fr">Suite à votre demande de réservation, nous vous informons
               que le ou les ouvrages ci-dessous sont à votre disposition à la
               bibliothèque.</entry>
 
-              <entry>Texte apparaissant avant la liste des ouvrages en résa
+              <entry lang="fr">Texte apparaissant avant la liste des ouvrages en résa
               dans le courrier de confirmation de résa</entry>
             </row>
 
             <row>
-              <entry>debut_expl_1er_page</entry>
+              <entry lang="fr">debut_expl_1er_page</entry>
 
-              <entry>160</entry>
+              <entry lang="fr">160</entry>
 
-              <entry>Début de la liste des ouvrages sur la première page, en
+              <entry lang="fr">Début de la liste des ouvrages sur la première page, en
               mm depuis le bord supérieur de la page. Doit être règlé en
               fonction du texte qui précède la liste des ouvrages, lequel peut
               être plus ou moins long.</entry>
             </row>
 
             <row>
-              <entry>debut_expl_page</entry>
+              <entry lang="fr">debut_expl_page</entry>
 
-              <entry>15</entry>
+              <entry lang="fr">15</entry>
 
-              <entry>Début de la liste des ouvrages sur les pages suivantes,
+              <entry lang="fr">Début de la liste des ouvrages sur les pages suivantes,
               en mm depuis le bord supérieur de la page.</entry>
             </row>
 
             <row>
-              <entry>fdp</entry>
+              <entry lang="fr">fdp</entry>
 
-              <entry>Le responsable de la $biblio_name.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
-              <entry>Signataire de la lettre, utiliser $biblio_name pour
+              <entry lang="fr">Signataire de la lettre, utiliser $biblio_name pour
               reprendre le paramètre "biblio name" ou bien mettre autre
               chose.</entry>
             </row>
 
             <row>
-              <entry>format_page</entry>
+              <entry lang="fr">format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Format de la page : P : Portrait L : Landscape =
+              <entry lang="fr">Format de la page : P : Portrait L : Landscape =
               paysage</entry>
             </row>
 
             <row>
-              <entry>hauteur_page</entry>
+              <entry lang="fr">hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="fr">297</entry>
 
-              <entry>Hauteur de la page en mm</entry>
+              <entry lang="fr">Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>largeur_page</entry>
+              <entry lang="fr">largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="fr">210</entry>
 
-              <entry>Largeur de la page en mm</entry>
+              <entry lang="fr">Largeur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>limite_after_list</entry>
+              <entry lang="fr">limite_after_list</entry>
 
-              <entry>270</entry>
+              <entry lang="fr">270</entry>
 
-              <entry>Position limite en bas de page. Si un élément imprimé
+              <entry lang="fr">Position limite en bas de page. Si un élément imprimé
               tente de dépasser cette limite, il sera imprimé sur la page
               suivante.</entry>
             </row>
 
             <row>
-              <entry>madame_monsieur</entry>
+              <entry lang="fr">madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="fr">Madame, Monsieur,</entry>
 
-              <entry>Civilité du destinataire</entry>
+              <entry lang="fr">Civilité du destinataire</entry>
             </row>
 
             <row>
-              <entry>marge_page_droite</entry>
+              <entry lang="fr">marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge droite de la page en mm</entry>
+              <entry lang="fr">Marge droite de la page en mm</entry>
             </row>
 
             <row>
-              <entry>marge_page_gauche</entry>
+              <entry lang="fr">marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge gauche de la page en mm</entry>
+              <entry lang="fr">Marge gauche de la page en mm</entry>
             </row>
 
             <row>
-              <entry>nb_1ere_page</entry>
+              <entry lang="fr">nb_1ere_page</entry>
 
-              <entry>5</entry>
+              <entry lang="fr">5</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur la première
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la première
               page</entry>
             </row>
 
             <row>
-              <entry>nb_par_page</entry>
+              <entry lang="fr">nb_par_page</entry>
 
-              <entry>7</entry>
+              <entry lang="fr">7</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur les pages
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur les pages
               suivantes.</entry>
             </row>
 
             <row>
-              <entry>priorite_email</entry>
+              <entry lang="fr">priorite_email</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Priorité des lettres de confirmation de réservation par
+              <entry lang="fr">Priorité des lettres de confirmation de réservation par
               mail : 0 : Lettre seule 1 : Mail, à défaut lettre 2 : Mail ET
               lettre 3 : Aucune alerte</entry>
             </row>
 
             <row>
-              <entry>priorite_email_manuel</entry>
+              <entry lang="fr">priorite_email_manuel</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Priorité des lettres de confirmation de réservation par
+              <entry lang="fr">Priorité des lettres de confirmation de réservation par
               mail lors de l'impression à partir du bouton : 0 : Lettre seule
               1 : Mail, à défaut lettre 2 : Mail ET lettre 3 : Aucune
               alerte</entry>
             </row>
 
             <row>
-              <entry>taille_bloc_expl</entry>
+              <entry lang="fr">taille_bloc_expl</entry>
 
-              <entry>20</entry>
+              <entry lang="fr">20</entry>
 
-              <entry>Taille d'un bloc (2 lignes) d'ouvrages en réservation. Le
+              <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrages en réservation. Le
               début de chaque ouvrage en retard sera espacé de cette valeur
               sur la page</entry>
             </row>
@@ -3428,431 +3428,431 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>1after_list</entry>
+              <entry lang="fr">1after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="fr">Nous vous remercions de prendre rapidement contact par
               téléphone au $biblio_phone ou par mail à $biblio_email pour
               étudier la possibilité de prolonger ces prêts ou de ramener les
               ouvrages concernés.</entry>
 
-              <entry>Texte apparaissant après la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant après la liste des ouvrages en retard
               dans le courrier</entry>
             </row>
 
             <row>
-              <entry>1before_list</entry>
+              <entry lang="fr">1before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="fr">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Texte apparaissant avant la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant avant la liste des ouvrages en retard
               dans le courrier de relance de retard</entry>
             </row>
 
             <row>
-              <entry>1debut_expl_1er_page</entry>
+              <entry lang="fr">1debut_expl_1er_page</entry>
 
-              <entry>160</entry>
+              <entry lang="fr">160</entry>
 
-              <entry>Début de la liste des exemplaires sur la première page,
+              <entry lang="fr">Début de la liste des exemplaires sur la première page,
               en mm depuis le bord supérieur de la page. Doit être réglé en
               fonction du texte qui précède la liste des ouvrages, lequel peut
               être plus ou moins long.</entry>
             </row>
 
             <row>
-              <entry>1debut_expl_page</entry>
+              <entry lang="fr">1debut_expl_page</entry>
 
-              <entry>15</entry>
+              <entry lang="fr">15</entry>
 
-              <entry>Début de la liste des exemplaires sur les pages
+              <entry lang="fr">Début de la liste des exemplaires sur les pages
               suivantes, en mm depuis le bord supérieur de la page.</entry>
             </row>
 
             <row>
-              <entry>1fdp</entry>
+              <entry lang="fr">1fdp</entry>
 
-              <entry>Le responsable de la $biblio_name.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
-              <entry>Signataire de la lettre, utiliser $biblio_name pour
+              <entry lang="fr">Signataire de la lettre, utiliser $biblio_name pour
               reprendre le paramètre "biblio name" ou bien mettre autre
               chose.</entry>
             </row>
 
             <row>
-              <entry>1format_page</entry>
+              <entry lang="fr">1format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Format de la page : P : Portrait L : Landscape =
+              <entry lang="fr">Format de la page : P : Portrait L : Landscape =
               paysage</entry>
             </row>
 
             <row>
-              <entry>1hauteur_page</entry>
+              <entry lang="fr">1hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="fr">297</entry>
 
-              <entry>Hauteur de la page en mm</entry>
+              <entry lang="fr">Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>1largeur_page</entry>
+              <entry lang="fr">1largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="fr">210</entry>
 
-              <entry>Largeur de la page en mm</entry>
+              <entry lang="fr">Largeur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>1limite_after_list</entry>
+              <entry lang="fr">1limite_after_list</entry>
 
-              <entry>70</entry>
+              <entry lang="fr">70</entry>
 
-              <entry>Espace mini à laisser en bas de page. Si un élément
+              <entry lang="fr">Espace mini à laisser en bas de page. Si un élément
               imprimé tente de dépasser cette limite, il sera imprimé sur la
               page suivante.</entry>
             </row>
 
             <row>
-              <entry>1madame_monsieur</entry>
+              <entry lang="fr">1madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="fr">Madame, Monsieur,</entry>
 
-              <entry>Entête de la lettre</entry>
+              <entry lang="fr">Entête de la lettre</entry>
             </row>
 
             <row>
-              <entry>1marge_page_droite</entry>
+              <entry lang="fr">1marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge de droite en mm</entry>
+              <entry lang="fr">Marge de droite en mm</entry>
             </row>
 
             <row>
-              <entry>1marge_page_gauche</entry>
+              <entry lang="fr">1marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge de gauche en mm</entry>
+              <entry lang="fr">Marge de gauche en mm</entry>
             </row>
 
             <row>
-              <entry>1nb_1ere_page</entry>
+              <entry lang="fr">1nb_1ere_page</entry>
 
-              <entry>5</entry>
+              <entry lang="fr">5</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur la première
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la première
               page</entry>
             </row>
 
             <row>
-              <entry>1nb_par_page</entry>
+              <entry lang="fr">1nb_par_page</entry>
 
-              <entry>7</entry>
+              <entry lang="fr">7</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur les pages
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur les pages
               suivantes.</entry>
             </row>
 
             <row>
-              <entry>1taille_bloc_expl</entry>
+              <entry lang="fr">1taille_bloc_expl</entry>
 
-              <entry>20</entry>
+              <entry lang="fr">20</entry>
 
-              <entry>Taille d'un bloc (2 lignes) d'ouvrage en retard. Le début
+              <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrage en retard. Le début
               de chaque ouvrage en retard sera espacé de cette valeur sur la
               page</entry>
             </row>
 
             <row>
-              <entry>2after_list</entry>
+              <entry lang="fr">2after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="fr">Nous vous remercions de prendre rapidement contact par
               téléphone au $biblio_phone ou par mail à $biblio_email pour
               étudier la possibilité de prolonger ces prêts ou de ramener les
               ouvrages concernés.</entry>
 
-              <entry>Texte apparaissant après la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant après la liste des ouvrages en retard
               dans le courrier</entry>
             </row>
 
             <row>
-              <entry>2before_list</entry>
+              <entry lang="fr">2before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="fr">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Texte apparaissant avant la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant avant la liste des ouvrages en retard
               dans le courrier de relance de retard</entry>
             </row>
 
             <row>
-              <entry>2debut_expl_1er_page</entry>
+              <entry lang="fr">2debut_expl_1er_page</entry>
 
-              <entry>160</entry>
+              <entry lang="fr">160</entry>
 
-              <entry>Début de la liste des exemplaires sur la première page,
+              <entry lang="fr">Début de la liste des exemplaires sur la première page,
               en mm depuis le bord supérieur de la page. Doit être réglé en
               fonction du texte qui précède la liste des ouvrages, lequel peut
               être plus ou moins long.</entry>
             </row>
 
             <row>
-              <entry>2debut_expl_page</entry>
+              <entry lang="fr">2debut_expl_page</entry>
 
-              <entry>15</entry>
+              <entry lang="fr">15</entry>
 
-              <entry>Début de la liste des exemplaires sur les pages
+              <entry lang="fr">Début de la liste des exemplaires sur les pages
               suivantes, en mm depuis le bord supérieur de la page.</entry>
             </row>
 
             <row>
-              <entry>2fdp</entry>
+              <entry lang="fr">2fdp</entry>
 
-              <entry>Le responsable de la $biblio_name.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
-              <entry>Signataire de la lettre, utiliser $biblio_name pour
+              <entry lang="fr">Signataire de la lettre, utiliser $biblio_name pour
               reprendre le paramètre "biblio name" ou bien mettre autre
               chose.</entry>
             </row>
 
             <row>
-              <entry>2format_page</entry>
+              <entry lang="fr">2format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Format de la page : P : Portrait L : Landscape =
+              <entry lang="fr">Format de la page : P : Portrait L : Landscape =
               paysage</entry>
             </row>
 
             <row>
-              <entry>2hauteur_page</entry>
+              <entry lang="fr">2hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="fr">297</entry>
 
-              <entry>Hauteur de la page en mm</entry>
+              <entry lang="fr">Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>2largeur_page</entry>
+              <entry lang="fr">2largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="fr">210</entry>
 
-              <entry>Largeur de la page en mm</entry>
+              <entry lang="fr">Largeur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>2limite_after_list</entry>
+              <entry lang="fr">2limite_after_list</entry>
 
-              <entry>70</entry>
+              <entry lang="fr">70</entry>
 
-              <entry>Espace mini à laisser en bas de page. Si un élément
+              <entry lang="fr">Espace mini à laisser en bas de page. Si un élément
               imprimé tente de dépasser cette limite, il sera imprimé sur la
               page suivante.</entry>
             </row>
 
             <row>
-              <entry>2madame_monsieur</entry>
+              <entry lang="fr">2madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="fr">Madame, Monsieur,</entry>
 
-              <entry>Entête de la lettre</entry>
+              <entry lang="fr">Entête de la lettre</entry>
             </row>
 
             <row>
-              <entry>2marge_page_droite</entry>
+              <entry lang="fr">2marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge de droite en mm</entry>
+              <entry lang="fr">Marge de droite en mm</entry>
             </row>
 
             <row>
-              <entry>2marge_page_gauche</entry>
+              <entry lang="fr">2marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge de gauche en mm</entry>
+              <entry lang="fr">Marge de gauche en mm</entry>
             </row>
 
             <row>
-              <entry>2nb_1ere_page</entry>
+              <entry lang="fr">2nb_1ere_page</entry>
 
-              <entry>5</entry>
+              <entry lang="fr">5</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur la première
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la première
               page</entry>
             </row>
 
             <row>
-              <entry>2nb_par_page</entry>
+              <entry lang="fr">2nb_par_page</entry>
 
-              <entry>7</entry>
+              <entry lang="fr">7</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur les pages
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur les pages
               suivantes.</entry>
             </row>
 
             <row>
-              <entry>2taille_bloc_expl</entry>
+              <entry lang="fr">2taille_bloc_expl</entry>
 
-              <entry>20</entry>
+              <entry lang="fr">20</entry>
 
-              <entry>Taille d'un bloc (2 lignes) d'ouvrage en retard. Le début
+              <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrage en retard. Le début
               de chaque ouvrage en retard sera espacé de cette valeur sur la
               page</entry>
             </row>
 
             <row>
-              <entry>3after_list</entry>
+              <entry lang="fr">3after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="fr">Nous vous remercions de prendre rapidement contact par
               téléphone au $biblio_phone ou par mail à $biblio_email pour
               étudier la possibilité de prolonger ces prêts ou de ramener les
               ouvrages concernés.</entry>
 
-              <entry>Texte apparaissant après la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant après la liste des ouvrages en retard
               dans le courrier</entry>
             </row>
 
             <row>
-              <entry>3before_list</entry>
+              <entry lang="fr">3before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="fr">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Texte apparaissant avant la liste des ouvrages en retard
+              <entry lang="fr">Texte apparaissant avant la liste des ouvrages en retard
               dans le courrier de relance de retard</entry>
             </row>
 
             <row>
-              <entry>3debut_expl_1er_page</entry>
+              <entry lang="fr">3debut_expl_1er_page</entry>
 
-              <entry>160</entry>
+              <entry lang="fr">160</entry>
 
-              <entry>Début de la liste des exemplaires sur la première page,
+              <entry lang="fr">Début de la liste des exemplaires sur la première page,
               en mm depuis le bord supérieur de la page. Doit être réglé en
               fonction du texte qui précède la liste des ouvrages, lequel peut
               être plus ou moins long.</entry>
             </row>
 
             <row>
-              <entry>3debut_expl_page</entry>
+              <entry lang="fr">3debut_expl_page</entry>
 
-              <entry>15</entry>
+              <entry lang="fr">15</entry>
 
-              <entry>Début de la liste des exemplaires sur les pages
+              <entry lang="fr">Début de la liste des exemplaires sur les pages
               suivantes, en mm depuis le bord supérieur de la page.</entry>
             </row>
 
             <row>
-              <entry>3fdp</entry>
+              <entry lang="fr">3fdp</entry>
 
-              <entry>Le responsable de la $biblio_name.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
-              <entry>Signataire de la lettre, utiliser $biblio_name pour
+              <entry lang="fr">Signataire de la lettre, utiliser $biblio_name pour
               reprendre le paramètre "biblio name" ou bien mettre autre
               chose.</entry>
             </row>
 
             <row>
-              <entry>3format_page</entry>
+              <entry lang="fr">3format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="fr">P</entry>
 
-              <entry>Format de la page : P : Portrait L : Landscape =
+              <entry lang="fr">Format de la page : P : Portrait L : Landscape =
               paysage</entry>
             </row>
 
             <row>
-              <entry>3hauteur_page</entry>
+              <entry lang="fr">3hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="fr">297</entry>
 
-              <entry>Hauteur de la page en mm</entry>
+              <entry lang="fr">Hauteur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>3largeur_page</entry>
+              <entry lang="fr">3largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="fr">210</entry>
 
-              <entry>Largeur de la page en mm</entry>
+              <entry lang="fr">Largeur de la page en mm</entry>
             </row>
 
             <row>
-              <entry>3limite_after_list</entry>
+              <entry lang="fr">3limite_after_list</entry>
 
-              <entry>70</entry>
+              <entry lang="fr">70</entry>
 
-              <entry>Espace mini à laisser en bas de page. Si un élément
+              <entry lang="fr">Espace mini à laisser en bas de page. Si un élément
               imprimé tente de dépasser cette limite, il sera imprimé sur la
               page suivante.</entry>
             </row>
 
             <row>
-              <entry>3madame_monsieur</entry>
+              <entry lang="fr">3madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="fr">Madame, Monsieur,</entry>
 
-              <entry>Entête de la lettre</entry>
+              <entry lang="fr">Entête de la lettre</entry>
             </row>
 
             <row>
-              <entry>3marge_page_droite</entry>
+              <entry lang="fr">3marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge de droite en mm</entry>
+              <entry lang="fr">Marge de droite en mm</entry>
             </row>
 
             <row>
-              <entry>3marge_page_gauche</entry>
+              <entry lang="fr">3marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Marge de gauche en mm</entry>
+              <entry lang="fr">Marge de gauche en mm</entry>
             </row>
 
             <row>
-              <entry>3nb_1ere_page</entry>
+              <entry lang="fr">3nb_1ere_page</entry>
 
-              <entry>5</entry>
+              <entry lang="fr">5</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur la première
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la première
               page</entry>
             </row>
 
             <row>
-              <entry>3nb_par_page</entry>
+              <entry lang="fr">3nb_par_page</entry>
 
-              <entry>7</entry>
+              <entry lang="fr">7</entry>
 
-              <entry>Nombre d'ouvrages en retard imprimé sur les pages
+              <entry lang="fr">Nombre d'ouvrages en retard imprimé sur les pages
               suivantes.</entry>
             </row>
 
             <row>
-              <entry>3taille_bloc_expl</entry>
+              <entry lang="fr">3taille_bloc_expl</entry>
 
-              <entry>20</entry>
+              <entry lang="fr">20</entry>
 
-              <entry>Taille d'un bloc (2 lignes) d'ouvrage en retard. Le début
+              <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrage en retard. Le début
               de chaque ouvrage en retard sera espacé de cette valeur sur la
               page</entry>
             </row>
@@ -3875,418 +3875,418 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>bdd_version</entry>
+              <entry lang="fr">bdd_version</entry>
 
-              <entry>v4.22</entry>
+              <entry lang="fr">v4.22</entry>
 
-              <entry>Version de noyau de la base de données, à ne changer
+              <entry lang="fr">Version de noyau de la base de données, à ne changer
               qu'en version inférieur si un paramètre était mal passé et
               relancer la mise à jour. En général, contactez plutôt la mailing
               liste pmb.user@sigb.net</entry>
             </row>
 
             <row>
-              <entry>blocage_coef</entry>
+              <entry lang="fr">blocage_coef</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Coefficient de proportionnalité des jours de retard pour
+              <entry lang="fr">Coefficient de proportionnalité des jours de retard pour
               le blocage</entry>
             </row>
 
             <row>
-              <entry>blocage_delai</entry>
+              <entry lang="fr">blocage_delai</entry>
 
-              <entry>7</entry>
+              <entry lang="fr">7</entry>
 
-              <entry>Délai à partir duquel le retard est pris en
+              <entry lang="fr">Délai à partir duquel le retard est pris en
               compte</entry>
             </row>
 
             <row>
-              <entry>blocage_max</entry>
+              <entry lang="fr">blocage_max</entry>
 
-              <entry>60</entry>
+              <entry lang="fr">60</entry>
 
-              <entry>Nombre maximum de jours bloqués (0 = pas de
+              <entry lang="fr">Nombre maximum de jours bloqués (0 = pas de
               limite)</entry>
             </row>
 
             <row>
-              <entry>blocage_retard</entry>
+              <entry lang="fr">blocage_retard</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Bloquer le prêt d'une durée équivalente au retard ?
+              <entry lang="fr">Bloquer le prêt d'une durée équivalente au retard ?
               0=non, 1=oui</entry>
             </row>
 
             <row>
-              <entry>blocage_retard_force</entry>
+              <entry lang="fr">blocage_retard_force</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>1 = Le prêt peut-être forcé lors d'un blocage du compte,
+              <entry lang="fr">1 = Le prêt peut-être forcé lors d'un blocage du compte,
               2 = Pas de forçage possible</entry>
             </row>
 
             <row>
-              <entry>book_pics_show</entry>
+              <entry lang="fr">book_pics_show</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Affichage des couvertures de livres en gestion 1: oui 0:
+              <entry lang="fr">Affichage des couvertures de livres en gestion 1: oui 0:
               non</entry>
             </row>
 
             <row>
-              <entry>book_pics_url</entry>
+              <entry lang="fr">book_pics_url</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>URL des vignettes des notices, dans le chemin fourni,
+              <entry lang="fr">URL des vignettes des notices, dans le chemin fourni,
               !!isbn!! sera remplacé par le code ISBN ou EAN de la notice
               purgé de tous les tirets ou points. exemple :
               http://www.monsite/opac/images/vignettes/!!isbn!!.jpg</entry>
             </row>
 
             <row>
-              <entry>confirm_retour</entry>
+              <entry lang="fr">confirm_retour</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>En retour de documents, le retour doit-il être confirmé ?
+              <entry lang="fr">En retour de documents, le retour doit-il être confirmé ?
               0 : Non, on peut passer les codes-barres les uns après les
               autres 1 : Oui, il faut valider le retour après chaque
               code-barre</entry>
             </row>
 
             <row>
-              <entry>default_operator</entry>
+              <entry lang="fr">default_operator</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Opérateur par défaut. 0 : OR, 1 : AND.</entry>
+              <entry lang="fr">Opérateur par défaut. 0 : OR, 1 : AND.</entry>
             </row>
 
             <row>
-              <entry>gestion_abonnement</entry>
+              <entry lang="fr">gestion_abonnement</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Utiliser la gestion des abonnements des lecteurs ? 0 :
+              <entry lang="fr">Utiliser la gestion des abonnements des lecteurs ? 0 :
               Non 1 : Oui, gestion simple, 2 : Oui, gestion avancée</entry>
             </row>
 
             <row>
-              <entry>gestion_amende</entry>
+              <entry lang="fr">gestion_amende</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Utiliser la gestion des amendes ? 0 : Non 1 : Oui</entry>
+              <entry lang="fr">Utiliser la gestion des amendes ? 0 : Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>gestion_devise</entry>
+              <entry lang="fr">gestion_devise</entry>
 
-              <entry>€</entry>
+              <entry lang="fr">€</entry>
 
-              <entry>Devise de la gestion financière, ce qui va être affiché
+              <entry lang="fr">Devise de la gestion financière, ce qui va être affiché
               en code HTML</entry>
             </row>
 
             <row>
-              <entry>gestion_financiere</entry>
+              <entry lang="fr">gestion_financiere</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Utiliser le module de gestion financière ? 0 : Non 1 :
+              <entry lang="fr">Utiliser le module de gestion financière ? 0 : Non 1 :
               Oui</entry>
             </row>
 
             <row>
-              <entry>gestion_tarifs_prets</entry>
+              <entry lang="fr">gestion_tarifs_prets</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Utiliser la gestion des tarifs de prêts ? 0 : Non 1 :
+              <entry lang="fr">Utiliser la gestion des tarifs de prêts ? 0 : Non 1 :
               Oui, gestion simple, 2 : Oui, gestion avancée</entry>
             </row>
 
             <row>
-              <entry>import_limit_read_file</entry>
+              <entry lang="fr">import_limit_read_file</entry>
 
-              <entry>100</entry>
+              <entry lang="fr">100</entry>
 
-              <entry>Limite de taille de lecture du fichier en import, en
+              <entry lang="fr">Limite de taille de lecture du fichier en import, en
               général 100 ou 200 doit fonctionner, si problème de time out :
               fixer plus bas, 50 par exemple.</entry>
             </row>
 
             <row>
-              <entry>import_limit_record_load</entry>
+              <entry lang="fr">import_limit_record_load</entry>
 
-              <entry>100</entry>
+              <entry lang="fr">100</entry>
 
-              <entry>Limite de taille de traitement de notices en import, en
+              <entry lang="fr">Limite de taille de traitement de notices en import, en
               général 100 ou 200 doit fonctionner, si problème de time out :
               fixer plus bas, 50 par exemple.</entry>
             </row>
 
             <row>
-              <entry>import_modele</entry>
+              <entry lang="fr">import_modele</entry>
 
-              <entry>func_bdp.inc.php</entry>
+              <entry lang="fr">func_bdp.inc.php</entry>
 
-              <entry>Quel script de fonctions d'import utiliser pour
+              <entry lang="fr">Quel script de fonctions d'import utiliser pour
               personnaliser l'import ?</entry>
             </row>
 
             <row>
-              <entry>import_modele_lecteur</entry>
+              <entry lang="fr">import_modele_lecteur</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Modèle d'import des lecteurs</entry>
+              <entry lang="fr">Modèle d'import des lecteurs</entry>
             </row>
 
             <row>
-              <entry>indexint_decimal</entry>
+              <entry lang="fr">indexint_decimal</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>0 ou 1 : l'indexation interne est-elle une cotation
+              <entry lang="fr">0 ou 1 : l'indexation interne est-elle une cotation
               décimale type Dewey</entry>
             </row>
 
             <row>
-              <entry>lecteurs_localises</entry>
+              <entry lang="fr">lecteurs_localises</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Lecteurs localisés ? 0: Non 1: Oui</entry>
+              <entry lang="fr">Lecteurs localisés ? 0: Non 1: Oui</entry>
             </row>
 
             <row>
-              <entry>limitation_dewey</entry>
+              <entry lang="fr">limitation_dewey</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Nombre maximum de caractères dans la Dewey (676) en
+              <entry lang="fr">Nombre maximum de caractères dans la Dewey (676) en
               import : 0 aucune limitation 3 : limitation de 000 à 999 5
               (exemple) limitation 000.0</entry>
             </row>
 
             <row>
-              <entry>mail_methode</entry>
+              <entry lang="fr">mail_methode</entry>
 
-              <entry>php</entry>
+              <entry lang="fr">php</entry>
 
-              <entry>Méthode d'envoi des mails : php : fonction mail() de php
+              <entry lang="fr">Méthode d'envoi des mails : php : fonction mail() de php
               smtp,hote:port,auth,user,pass : en smtp, mettre O ou 1 pour
               l'authentification...</entry>
             </row>
 
             <row>
-              <entry>nb_lastautorities</entry>
+              <entry lang="fr">nb_lastautorities</entry>
 
-              <entry>10</entry>
+              <entry lang="fr">10</entry>
 
-              <entry>Nombre de dernières autorités affichées en gestion
+              <entry lang="fr">Nombre de dernières autorités affichées en gestion
               d'autorités</entry>
             </row>
 
             <row>
-              <entry>num_carte_auto</entry>
+              <entry lang="fr">num_carte_auto</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Numéro de carte de lecteur automatique ? 1 : Oui 0 : Non
+              <entry lang="fr">Numéro de carte de lecteur automatique ? 1 : Oui 0 : Non
               (si utilisation de cartes pré-imprimées)</entry>
             </row>
 
             <row>
-              <entry>opac_url</entry>
+              <entry lang="fr">opac_url</entry>
 
-              <entry>./opac_css/</entry>
+              <entry lang="fr">./opac_css/</entry>
 
-              <entry>URL de l'OPAC vu depuis la partie gestion, par défaut
+              <entry lang="fr">URL de l'OPAC vu depuis la partie gestion, par défaut
               ./opac_css/</entry>
             </row>
 
             <row>
-              <entry>pdf_font</entry>
+              <entry lang="fr">pdf_font</entry>
 
-              <entry>Helvetica</entry>
+              <entry lang="fr">Helvetica</entry>
 
-              <entry>Police de caractères à chasse variable pour les éditions
+              <entry lang="fr">Police de caractères à chasse variable pour les éditions
               en pdf - Police Arial</entry>
             </row>
 
             <row>
-              <entry>pdf_font_fixed</entry>
+              <entry lang="fr">pdf_font_fixed</entry>
 
-              <entry>Courier</entry>
+              <entry lang="fr">Courier</entry>
 
-              <entry>Police de caractères à chasse variable pour les éditions
+              <entry lang="fr">Police de caractères à chasse variable pour les éditions
               en pdf - Police Courier</entry>
             </row>
 
             <row>
-              <entry>prefill_cote</entry>
+              <entry lang="fr">prefill_cote</entry>
 
-              <entry>custom_cote_02.inc.php</entry>
+              <entry lang="fr">custom_cote_02.inc.php</entry>
 
-              <entry>Script personnalisé de construction de la cote de
+              <entry lang="fr">Script personnalisé de construction de la cote de
               l'exemplaire</entry>
             </row>
 
             <row>
-              <entry>pret_adhesion_depassee</entry>
+              <entry lang="fr">pret_adhesion_depassee</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Prêts si adhésion dépassée : 0 INTERDIT incontournable, 1
+              <entry lang="fr">Prêts si adhésion dépassée : 0 INTERDIT incontournable, 1
               POSSIBLE</entry>
             </row>
 
             <row>
-              <entry>pret_express_statut</entry>
+              <entry lang="fr">pret_express_statut</entry>
 
-              <entry>2</entry>
+              <entry lang="fr">2</entry>
 
-              <entry>Statut de notice à utiliser en création d'exemplaires en
+              <entry lang="fr">Statut de notice à utiliser en création d'exemplaires en
               prêt express</entry>
             </row>
 
             <row>
-              <entry>quotas_avances</entry>
+              <entry lang="fr">quotas_avances</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Quotas de prêts avancées ? 0 : Non 1 : Oui</entry>
+              <entry lang="fr">Quotas de prêts avancées ? 0 : Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>recouvrement_auto</entry>
+              <entry lang="fr">recouvrement_auto</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Par défaut passage en recouvrement proposé en gestion des
+              <entry lang="fr">Par défaut passage en recouvrement proposé en gestion des
               relances si niveau=3 et devrait être en 4: 1: Oui, recouvrement
               proposé par défaut 0: Ne rien faire par défaut</entry>
             </row>
 
             <row>
-              <entry>relance_adhesion</entry>
+              <entry lang="fr">relance_adhesion</entry>
 
-              <entry>31</entry>
+              <entry lang="fr">31</entry>
 
-              <entry>Nombre de jours avant expiration adhésion pour
+              <entry lang="fr">Nombre de jours avant expiration adhésion pour
               relance</entry>
             </row>
 
             <row>
-              <entry>resa_dispo</entry>
+              <entry lang="fr">resa_dispo</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Réservation de documents disponibles possible ? 0 : Non 1
+              <entry lang="fr">Réservation de documents disponibles possible ? 0 : Non 1
               : Oui</entry>
             </row>
 
             <row>
-              <entry>resa_quota_pret_depasse</entry>
+              <entry lang="fr">resa_quota_pret_depasse</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Réservation possible même si quota de prêt dépassé ? 0 :
+              <entry lang="fr">Réservation possible même si quota de prêt dépassé ? 0 :
               Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry>serial_link_article</entry>
+              <entry lang="fr">serial_link_article</entry>
 
-              <entry>&nbsp;0</entry>
+              <entry lang="fr">&nbsp;0</entry>
 
-              <entry>Préremplissage du lien des dépouillements avec le lien de
+              <entry lang="fr">Préremplissage du lien des dépouillements avec le lien de
               la notice mère en catalogage des périodiques ? 0 : Non 1 :
               Oui</entry>
             </row>
 
             <row>
-              <entry>show_help</entry>
+              <entry lang="fr">show_help</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Affichage de l'aide contextuelle dans PMB en partie
+              <entry lang="fr">Affichage de l'aide contextuelle dans PMB en partie
               gestion 1: Oui 0 : Non</entry>
             </row>
 
             <row>
-              <entry>type_audit</entry>
+              <entry lang="fr">type_audit</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Gestion/affichage des dates de création/modification 0:
+              <entry lang="fr">Gestion/affichage des dates de création/modification 0:
               Rien 1: Création et dernière modification 2: Création et toutes
               les dates de modification</entry>
             </row>
 
             <row>
-              <entry>utiliser_calendrier</entry>
+              <entry lang="fr">utiliser_calendrier</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Utiliser le calendrier des jours d'ouverture ? 1: Oui 0 :
+              <entry lang="fr">Utiliser le calendrier des jours d'ouverture ? 1: Oui 0 :
               Non</entry>
             </row>
 
             <row>
-              <entry>verif_on_line</entry>
+              <entry lang="fr">verif_on_line</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Dans le menu Administration &gt; Outils &gt; Maj Base :
+              <entry lang="fr">Dans le menu Administration &gt; Outils &gt; Maj Base :
               vérification d'une version plus récente de PMB en ligne ? 0 :
               non : si vous n'êtes pas connecté à internet 1 : Oui : si vous
               avez une connexion à internet</entry>
             </row>
 
             <row>
-              <entry>vignette_imagemagick</entry>
+              <entry lang="fr">vignette_imagemagick</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>Chemin de l'exécutable ImageMagick (/usr/bin/imagemagick
+              <entry lang="fr">Chemin de l'exécutable ImageMagick (/usr/bin/imagemagick
               par exemple)</entry>
             </row>
 
             <row>
-              <entry>vignette_x</entry>
+              <entry lang="fr">vignette_x</entry>
 
-              <entry>100</entry>
+              <entry lang="fr">100</entry>
 
-              <entry>Largeur de la vignette créée pour un exemplaire numérique
+              <entry lang="fr">Largeur de la vignette créée pour un exemplaire numérique
               image</entry>
             </row>
 
             <row>
-              <entry>vignette_y</entry>
+              <entry lang="fr">vignette_y</entry>
 
-              <entry>100</entry>
+              <entry lang="fr">100</entry>
 
-              <entry>Hauteur de la vignette créée pour un exemplaire numérique
+              <entry lang="fr">Hauteur de la vignette créée pour un exemplaire numérique
               image</entry>
             </row>
           </tbody>
@@ -4308,29 +4308,29 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>cle_crypt1</entry>
+              <entry lang="fr">cle_crypt1</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>&nbsp;</entry>
+              <entry lang="fr">&nbsp;</entry>
             </row>
 
             <row>
-              <entry>cle_crypt2</entry>
+              <entry lang="fr">cle_crypt2</entry>
 
-              <entry></entry>
+              <entry lang="fr"></entry>
 
-              <entry>&nbsp;</entry>
+              <entry lang="fr">&nbsp;</entry>
             </row>
           </tbody>
         </tgroup>
@@ -4351,38 +4351,38 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>defaut</entry>
+              <entry lang="fr">defaut</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Identifiant du thésaurus par défaut.&nbsp;</entry>
+              <entry lang="fr">Identifiant du thésaurus par défaut.&nbsp;</entry>
             </row>
 
             <row>
-              <entry>liste_trad</entry>
+              <entry lang="fr">liste_trad</entry>
 
-              <entry>fr_FR</entry>
+              <entry lang="fr">fr_FR</entry>
 
-              <entry>Liste des langues affichées dans les thésaurus. (ex :
+              <entry lang="fr">Liste des langues affichées dans les thésaurus. (ex :
               fr_FR,en_UK,...,ar)&nbsp;</entry>
             </row>
 
             <row>
-              <entry>mode_pmb</entry>
+              <entry lang="fr">mode_pmb</entry>
 
-              <entry>O</entry>
+              <entry lang="fr">O</entry>
 
-              <entry>Niveau d'utilisation des thésaurus. 0 : Un seul thésaurus
+              <entry lang="fr">Niveau d'utilisation des thésaurus. 0 : Un seul thésaurus
               par défaut. 1 : Choix du thésaurus possible.&nbsp;</entry>
             </row>
           </tbody>
@@ -4404,40 +4404,40 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>sous-type</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry>valeur</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry>commentaire</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>accessible</entry>
+              <entry lang="fr">accessible</entry>
 
-              <entry>1</entry>
+              <entry lang="fr">1</entry>
 
-              <entry>Z3950 accessible ? 0 : non, menu inaccessible 1 : Oui, la
+              <entry lang="fr">Z3950 accessible ? 0 : non, menu inaccessible 1 : Oui, la
               librairie PHP_YAZ est activée, la recherche z3950 est
               possible</entry>
             </row>
 
             <row>
-              <entry>debug</entry>
+              <entry lang="fr">debug</entry>
 
-              <entry>0</entry>
+              <entry lang="fr">0</entry>
 
-              <entry>Debugage (export fichier) des notices lues en Z3950 0:
+              <entry lang="fr">Debugage (export fichier) des notices lues en Z3950 0:
               Non 1: 0ui</entry>
             </row>
 
             <row>
-              <entry>import_modele</entry>
+              <entry lang="fr">import_modele</entry>
 
-              <entry>func_other.inc.php</entry>
+              <entry lang="fr">func_other.inc.php</entry>
 
-              <entry>Quel script de fonctions d'import utiliser pour
+              <entry lang="fr">Quel script de fonctions d'import utiliser pour
               personnaliser l'import en intégration z3950 ?</entry>
             </row>
           </tbody>

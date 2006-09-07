@@ -386,55 +386,55 @@ order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry>active</entry>
+              <entry lang="en">active</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Acquisitions module enabled. 0= No. 1= Yes</entry>
+              <entry lang="en">Acquisitions module enabled. 0= No. 1= Yes</entry>
             </row>
 
             <row>
-              <entry>budget</entry>
+              <entry lang="en">budget</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Use budget for orders. 0= Optional. 1= Mandatory.</entry>
+              <entry lang="en">Use budget for orders. 0= Optional. 1= Mandatory.</entry>
             </row>
 
             <row>
-              <entry>email_sugg</entry>
+              <entry lang="en">email_sugg</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Monitoring the evolution of suggestions by email. 0= No.
+              <entry lang="en">Monitoring the evolution of suggestions by email. 0= No.
               1= Yes</entry>
             </row>
 
             <row>
-              <entry>format</entry>
+              <entry lang="en">format</entry>
 
-              <entry>4,PO, QUO, CN, INV</entry>
+              <entry lang="en">4,PO, QUO, CN, INV</entry>
 
-              <entry>No of digits and prefixes to be used in purchase
+              <entry lang="en">No of digits and prefixes to be used in purchase
               documents. ex : 4,PO, QUO, CN, INV 4= Prefix + 4 Digits
               PO=Purchase Order, QUO=Quotation, CN=Consignment Note,
               INV=Invoice</entry>
             </row>
 
             <row>
-              <entry>gestion_tva</entry>
+              <entry lang="en">gestion_tva</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>VAT management. 0= No. 1= Yes</entry>
+              <entry lang="en">VAT management. 0= No. 1= Yes</entry>
             </row>
 
             <row>
-              <entry>poids_sugg</entry>
+              <entry lang="en">poids_sugg</entry>
 
-              <entry>U=1.00,R=0.70,V=0.20</entry>
+              <entry lang="en">U=1.00,R=0.70,V=0.20</entry>
 
-              <entry>Suggestions weightage default percentage. U=Users,
+              <entry lang="en">Suggestions weightage default percentage. U=Users,
               R=Readers, V=Visitors. ex : U=1.00,R=0.70,V=0.20</entry>
             </row>
           </tbody>
@@ -448,87 +448,87 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>mel_aba_cor</entry>
+              <entry lang="en">mel_aba_cor</entry>
 
-              <entry>Your suggestion dated !!date!! has not been retained or
+              <entry lang="en">Your suggestion dated !!date!! has not been retained or
               it is not available.</entry>
 
-              <entry>Bodytext of mail : suggestion dropped</entry>
+              <entry lang="en">Bodytext of mail : suggestion dropped</entry>
             </row>
 
             <row>
-              <entry>mel_aba_obj</entry>
+              <entry lang="en">mel_aba_obj</entry>
 
-              <entry>Suggestion dropped</entry>
+              <entry lang="en">Suggestion dropped</entry>
 
-              <entry>Email subject : drop suggestion</entry>
+              <entry lang="en">Email subject : drop suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_cde_cor</entry>
+              <entry lang="en">mel_cde_cor</entry>
 
-              <entry>An order has been placed for your suggestion dated
+              <entry lang="en">An order has been placed for your suggestion dated
               !!date!!.</entry>
 
-              <entry>Bodytest of mail : suggestion ordered</entry>
+              <entry lang="en">Bodytest of mail : suggestion ordered</entry>
             </row>
 
             <row>
-              <entry>mel_cde_obj</entry>
+              <entry lang="en">mel_cde_obj</entry>
 
-              <entry>Suggestion on order</entry>
+              <entry lang="en">Suggestion on order</entry>
 
-              <entry>Subject du mail de commande de suggestion</entry>
+              <entry lang="en">Subject du mail de commande de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_con_cor</entry>
+              <entry lang="en">mel_con_cor</entry>
 
-              <entry>Yotre suggestion dated !!date!! has been retained for a
+              <entry lang="en">Yotre suggestion dated !!date!! has been retained for a
               future order.</entry>
 
-              <entry>Bodytext of mail : suggestion confirmed</entry>
+              <entry lang="en">Bodytext of mail : suggestion confirmed</entry>
             </row>
 
             <row>
-              <entry>mel_con_obj</entry>
+              <entry lang="en">mel_con_obj</entry>
 
-              <entry>Confirmation of suggestion</entry>
+              <entry lang="en">Confirmation of suggestion</entry>
 
-              <entry>Subject du mail de conf de suggestion</entry>
+              <entry lang="en">Subject du mail de conf de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_rec_cor</entry>
+              <entry lang="en">mel_rec_cor</entry>
 
-              <entry>We have just received your suggestion dated !!date!! from
+              <entry lang="en">We have just received your suggestion dated !!date!! from
               our supplier. It will be available very soon.</entry>
 
-              <entry>Bodytext of mail : suggestion received</entry>
+              <entry lang="en">Bodytext of mail : suggestion received</entry>
             </row>
 
             <row>
-              <entry>mel_rec_obj</entry>
+              <entry lang="en">mel_rec_obj</entry>
 
-              <entry>Suggestion received</entry>
+              <entry lang="en">Suggestion received</entry>
 
-              <entry>Subject du mail de recep de suggestion</entry>
+              <entry lang="en">Subject du mail de recep de suggestion</entry>
             </row>
 
             <row>
-              <entry>mel_reg_cor</entry>
+              <entry lang="en">mel_reg_cor</entry>
 
-              <entry>Your suggestion dated !!date!! has been rejected.</entry>
+              <entry lang="en">Your suggestion dated !!date!! has been rejected.</entry>
 
-              <entry>Bodytext of mail : suggestion rejected</entry>
+              <entry lang="en">Bodytext of mail : suggestion rejected</entry>
             </row>
 
             <row>
-              <entry>mel_reg_obj</entry>
+              <entry lang="en">mel_reg_obj</entry>
 
-              <entry>Suggestion rejected</entry>
+              <entry lang="en">Suggestion rejected</entry>
 
-              <entry>Subject du mail de reject de suggestion</entry>
+              <entry lang="en">Subject du mail de reject de suggestion</entry>
             </row>
           </tbody>
         </tgroup>
@@ -541,157 +541,157 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>pdfcde_format_page</entry>
+              <entry lang="en">pdfcde_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="en">210x297</entry>
 
-              <entry>Width x height of page in mm</entry>
+              <entry lang="en">Width x height of page in mm</entry>
             </row>
 
             <row>
-              <entry>pdfcde_marges_page</entry>
+              <entry lang="en">pdfcde_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="en">10,20,10,10</entry>
 
-              <entry>Margins in mm : Top,Bottom,Right,Left</entry>
+              <entry lang="en">Margins in mm : Top,Bottom,Right,Left</entry>
             </row>
 
             <row>
-              <entry>pdfcde_orient_page</entry>
+              <entry lang="en">pdfcde_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_adr_fac</entry>
+              <entry lang="en">pdfcde_pos_adr_fac</entry>
 
-              <entry>10,35,60,5,10</entry>
+              <entry lang="en">10,35,60,5,10</entry>
 
-              <entry>Position Billing address: Distance from left
+              <entry lang="en">Position Billing address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_adr_fou</entry>
+              <entry lang="en">pdfcde_pos_adr_fou</entry>
 
-              <entry>100,55,100,6,14</entry>
+              <entry lang="en">100,55,100,6,14</entry>
 
-              <entry>Position Supplier's address: Distance from left
+              <entry lang="en">Position Supplier's address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_adr_liv</entry>
+              <entry lang="en">pdfcde_pos_adr_liv</entry>
 
-              <entry>10,75,60,5,10</entry>
+              <entry lang="en">10,75,60,5,10</entry>
 
-              <entry>Position Delivery address: Distance from left
+              <entry lang="en">Position Delivery address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_date</entry>
+              <entry lang="en">pdfcde_pos_date</entry>
 
-              <entry>150,10,0,6,8</entry>
+              <entry lang="en">150,10,0,6,8</entry>
 
-              <entry>Position Date: Distance from left border,Distance from
+              <entry lang="en">Position Date: Distance from left border,Distance from
               right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_footer</entry>
+              <entry lang="en">pdfcde_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="en">15,8</entry>
 
-              <entry>Position bottom of page: Distance from bottom of page,
+              <entry lang="en">Position bottom of page: Distance from bottom of page,
               Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_logo</entry>
+              <entry lang="en">pdfcde_pos_logo</entry>
 
-              <entry>10,10,20,20</entry>
+              <entry lang="en">10,10,20,20</entry>
 
-              <entry>Position of logo: Distance from left border,Distance from
+              <entry lang="en">Position of logo: Distance from left border,Distance from
               top of page,Width,Height</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_num</entry>
+              <entry lang="en">pdfcde_pos_num</entry>
 
-              <entry>10,110,0,10,16</entry>
+              <entry lang="en">10,110,0,10,16</entry>
 
-              <entry>Position Order No.: Distance from left border,Distance
+              <entry lang="en">Position Order No.: Distance from left border,Distance
               from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_raison</entry>
+              <entry lang="en">pdfcde_pos_raison</entry>
 
-              <entry>35,10,100,10,16</entry>
+              <entry lang="en">35,10,100,10,16</entry>
 
-              <entry>Position Corporate name: Distance from left
+              <entry lang="en">Position Corporate name: Distance from left
               border,Distance from top of page,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_sign</entry>
+              <entry lang="en">pdfcde_pos_sign</entry>
 
-              <entry>10,60,5,10</entry>
+              <entry lang="en">10,60,5,10</entry>
 
-              <entry>Position signature: Distance from left border,Width,Line
+              <entry lang="en">Position signature: Distance from left border,Width,Line
               height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_pos_tot</entry>
+              <entry lang="en">pdfcde_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="en">10,40,5,10</entry>
 
-              <entry>Position Total order: Distance from left
+              <entry lang="en">Position Total order: Distance from left
               border,Width,Line height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_tab_cde</entry>
+              <entry lang="en">pdfcde_tab_cde</entry>
 
-              <entry>5,10</entry>
+              <entry lang="en">5,10</entry>
 
-              <entry>Orders list:Line height, Font size</entry>
+              <entry lang="en">Orders list:Line height, Font size</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_after</entry>
+              <entry lang="en">pdfcde_text_after</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Body text after orders list</entry>
+              <entry lang="en">Body text after orders list</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_before</entry>
+              <entry lang="en">pdfcde_text_before</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Body text before orders list</entry>
+              <entry lang="en">Body text before orders list</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_sign</entry>
+              <entry lang="en">pdfcde_text_sign</entry>
 
-              <entry>The Librarian</entry>
+              <entry lang="en">The Librarian</entry>
 
-              <entry>Text Signature</entry>
+              <entry lang="en">Text Signature</entry>
             </row>
 
             <row>
-              <entry>pdfcde_text_size</entry>
+              <entry lang="en">pdfcde_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Font size text</entry>
+              <entry lang="en">Font size text</entry>
             </row>
           </tbody>
         </tgroup>
@@ -704,165 +704,165 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>pdfdev_comment</entry>
+              <entry lang="en">pdfdev_comment</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Display notes : 0=No, 1=Yes</entry>
+              <entry lang="en">Display notes : 0=No, 1=Yes</entry>
             </row>
 
             <row>
-              <entry>pdfdev_format_page</entry>
+              <entry lang="en">pdfdev_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="en">210x297</entry>
 
-              <entry>Width x height of page in mm</entry>
+              <entry lang="en">Width x height of page in mm</entry>
             </row>
 
             <row>
-              <entry>pdfdev_marges_page</entry>
+              <entry lang="en">pdfdev_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="en">10,20,10,10</entry>
 
-              <entry>Margins in mm : Top,Bottom,Right,Left</entry>
+              <entry lang="en">Margins in mm : Top,Bottom,Right,Left</entry>
             </row>
 
             <row>
-              <entry>pdfdev_orient_page</entry>
+              <entry lang="en">pdfdev_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_adr_fac</entry>
+              <entry lang="en">pdfdev_pos_adr_fac</entry>
 
-              <entry>10,35,60,5,10</entry>
+              <entry lang="en">10,35,60,5,10</entry>
 
-              <entry>Position Billing address: Distance from left
+              <entry lang="en">Position Billing address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_adr_fou</entry>
+              <entry lang="en">pdfdev_pos_adr_fou</entry>
 
-              <entry>100,55,100,6,14</entry>
+              <entry lang="en">100,55,100,6,14</entry>
 
-              <entry>Position Supplier's address: Distance from left
+              <entry lang="en">Position Supplier's address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_adr_liv</entry>
+              <entry lang="en">pdfdev_pos_adr_liv</entry>
 
-              <entry>10,75,60,5,10</entry>
+              <entry lang="en">10,75,60,5,10</entry>
 
-              <entry>Position Delivery address: Distance from left
+              <entry lang="en">Position Delivery address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_date</entry>
+              <entry lang="en">pdfdev_pos_date</entry>
 
-              <entry>150,10,0,6,8</entry>
+              <entry lang="en">150,10,0,6,8</entry>
 
-              <entry>Position Date: Distance from left border,Distance from
+              <entry lang="en">Position Date: Distance from left border,Distance from
               right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_footer</entry>
+              <entry lang="en">pdfdev_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="en">15,8</entry>
 
-              <entry>Position bottom of page: Distance from bottom of page,
+              <entry lang="en">Position bottom of page: Distance from bottom of page,
               Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_logo</entry>
+              <entry lang="en">pdfdev_pos_logo</entry>
 
-              <entry>10,10,20,20</entry>
+              <entry lang="en">10,10,20,20</entry>
 
-              <entry>Position of logo: Distance from left border,Distance from
+              <entry lang="en">Position of logo: Distance from left border,Distance from
               top of page,Width,Height</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_num</entry>
+              <entry lang="en">pdfdev_pos_num</entry>
 
-              <entry>10,110,0,10,16</entry>
+              <entry lang="en">10,110,0,10,16</entry>
 
-              <entry>Position Order No.: Distance from left border,Distance
+              <entry lang="en">Position Order No.: Distance from left border,Distance
               from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_raison</entry>
+              <entry lang="en">pdfdev_pos_raison</entry>
 
-              <entry>35,10,100,10,16</entry>
+              <entry lang="en">35,10,100,10,16</entry>
 
-              <entry>Position Corporate name: Distance from left
+              <entry lang="en">Position Corporate name: Distance from left
               border,Distance from top of page,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_sign</entry>
+              <entry lang="en">pdfdev_pos_sign</entry>
 
-              <entry>10,60,5,10</entry>
+              <entry lang="en">10,60,5,10</entry>
 
-              <entry>Position signature: Distance from left border,Width,Line
+              <entry lang="en">Position signature: Distance from left border,Width,Line
               height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_pos_tot</entry>
+              <entry lang="en">pdfdev_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="en">10,40,5,10</entry>
 
-              <entry>Position Total order: Distance from left
+              <entry lang="en">Position Total order: Distance from left
               border,Width,Line height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_tab_dev</entry>
+              <entry lang="en">pdfdev_tab_dev</entry>
 
-              <entry>5,10</entry>
+              <entry lang="en">5,10</entry>
 
-              <entry>Orders list:Line height, Font size</entry>
+              <entry lang="en">Orders list:Line height, Font size</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_after</entry>
+              <entry lang="en">pdfdev_text_after</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Body text after orders list</entry>
+              <entry lang="en">Body text after orders list</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_before</entry>
+              <entry lang="en">pdfdev_text_before</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Body text before orders list</entry>
+              <entry lang="en">Body text before orders list</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_sign</entry>
+              <entry lang="en">pdfdev_text_sign</entry>
 
-              <entry>The Librarian</entry>
+              <entry lang="en">The Librarian</entry>
 
-              <entry>Text Signature</entry>
+              <entry lang="en">Text Signature</entry>
             </row>
 
             <row>
-              <entry>pdfdev_text_size</entry>
+              <entry lang="en">pdfdev_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Font size text</entry>
+              <entry lang="en">Font size text</entry>
             </row>
           </tbody>
         </tgroup>
@@ -875,106 +875,106 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>pdffac_format_page</entry>
+              <entry lang="en">pdffac_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="en">210x297</entry>
 
-              <entry>Width x height of page in mm</entry>
+              <entry lang="en">Width x height of page in mm</entry>
             </row>
 
             <row>
-              <entry>pdffac_marges_page</entry>
+              <entry lang="en">pdffac_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="en">10,20,10,10</entry>
 
-              <entry>Margins in mm : Top,Bottom,Right,Left</entry>
+              <entry lang="en">Margins in mm : Top,Bottom,Right,Left</entry>
             </row>
 
             <row>
-              <entry>pdffac_orient_page</entry>
+              <entry lang="en">pdffac_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_adr_fac</entry>
+              <entry lang="en">pdffac_pos_adr_fac</entry>
 
-              <entry>10,20,60,5,10</entry>
+              <entry lang="en">10,20,60,5,10</entry>
 
-              <entry>Position Billing address: Distance from left
+              <entry lang="en">Position Billing address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_adr_fou</entry>
+              <entry lang="en">pdffac_pos_adr_fou</entry>
 
-              <entry>110,20,100,5,10</entry>
+              <entry lang="en">110,20,100,5,10</entry>
 
-              <entry>Position Supplier's address: Distance from left
+              <entry lang="en">Position Supplier's address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_date</entry>
+              <entry lang="en">pdffac_pos_date</entry>
 
-              <entry>170,10,0,6,8</entry>
+              <entry lang="en">170,10,0,6,8</entry>
 
-              <entry>Position Date: Distance from left border,Distance from
+              <entry lang="en">Position Date: Distance from left border,Distance from
               right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_footer</entry>
+              <entry lang="en">pdffac_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="en">15,8</entry>
 
-              <entry>Position bottom of page: Distance from bottom of page,
+              <entry lang="en">Position bottom of page: Distance from bottom of page,
               Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_num</entry>
+              <entry lang="en">pdffac_pos_num</entry>
 
-              <entry>10,60,0,6,14</entry>
+              <entry lang="en">10,60,0,6,14</entry>
 
-              <entry>Position Order No.: Distance from left border,Distance
+              <entry lang="en">Position Order No.: Distance from left border,Distance
               from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_raison</entry>
+              <entry lang="en">pdffac_pos_raison</entry>
 
-              <entry>15,10,100,10,16</entry>
+              <entry lang="en">15,10,100,10,16</entry>
 
-              <entry>Position Corporate name: Distance from left
+              <entry lang="en">Position Corporate name: Distance from left
               border,Distance from top of page,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_pos_tot</entry>
+              <entry lang="en">pdffac_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="en">10,40,5,10</entry>
 
-              <entry>Position Total order: Distance from left
+              <entry lang="en">Position Total order: Distance from left
               border,Width,Line height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_tab_fac</entry>
+              <entry lang="en">pdffac_tab_fac</entry>
 
-              <entry>5,10</entry>
+              <entry lang="en">5,10</entry>
 
-              <entry>Orders list:Line height, Font size</entry>
+              <entry lang="en">Orders list:Line height, Font size</entry>
             </row>
 
             <row>
-              <entry>pdffac_text_size</entry>
+              <entry lang="en">pdffac_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Font size text</entry>
+              <entry lang="en">Font size text</entry>
             </row>
           </tbody>
         </tgroup>
@@ -987,97 +987,97 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>pdfliv_format_page</entry>
+              <entry lang="en">pdfliv_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="en">210x297</entry>
 
-              <entry>Width x height of page in mm</entry>
+              <entry lang="en">Width x height of page in mm</entry>
             </row>
 
             <row>
-              <entry>pdfliv_marges_page</entry>
+              <entry lang="en">pdfliv_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="en">10,20,10,10</entry>
 
-              <entry>Margins in mm : Top,Bottom,Right,Left</entry>
+              <entry lang="en">Margins in mm : Top,Bottom,Right,Left</entry>
             </row>
 
             <row>
-              <entry>pdfliv_orient_page</entry>
+              <entry lang="en">pdfliv_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_adr_liv</entry>
+              <entry lang="en">pdfliv_pos_adr_liv</entry>
 
-              <entry>110,20,100,5,10</entry>
+              <entry lang="en">110,20,100,5,10</entry>
 
-              <entry>Position Supplier's address: Distance from left
+              <entry lang="en">Position Supplier's address: Distance from left
               border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_date</entry>
+              <entry lang="en">pdfliv_pos_date</entry>
 
-              <entry>170,10,0,6,8</entry>
+              <entry lang="en">170,10,0,6,8</entry>
 
-              <entry>Position Date: Distance from left border,Distance from
+              <entry lang="en">Position Date: Distance from left border,Distance from
               right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_footer</entry>
+              <entry lang="en">pdfliv_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="en">15,8</entry>
 
-              <entry>Position bottom of page: Distance from bottom of page,
+              <entry lang="en">Position bottom of page: Distance from bottom of page,
               Font size</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_num</entry>
+              <entry lang="en">pdfliv_pos_num</entry>
 
-              <entry>10,60,0,6,14</entry>
+              <entry lang="en">10,60,0,6,14</entry>
 
-              <entry>Position Order No.: Distance from left border,Distance
+              <entry lang="en">Position Order No.: Distance from left border,Distance
               from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_raison</entry>
+              <entry lang="en">pdfliv_pos_raison</entry>
 
-              <entry>15,10,100,10,16</entry>
+              <entry lang="en">15,10,100,10,16</entry>
 
-              <entry>Position Corporate name: Distance from left
+              <entry lang="en">Position Corporate name: Distance from left
               border,Distance from top of page,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfliv_pos_tot</entry>
+              <entry lang="en">pdfliv_pos_tot</entry>
 
-              <entry>10,40,5,10</entry>
+              <entry lang="en">10,40,5,10</entry>
 
-              <entry>Position Total order: Distance from left
+              <entry lang="en">Position Total order: Distance from left
               border,Width,Line height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfliv_tab_liv</entry>
+              <entry lang="en">pdfliv_tab_liv</entry>
 
-              <entry>5,10</entry>
+              <entry lang="en">5,10</entry>
 
-              <entry>Orders list:Line height, Font size</entry>
+              <entry lang="en">Orders list:Line height, Font size</entry>
             </row>
 
             <row>
-              <entry>pdfliv_text_size</entry>
+              <entry lang="en">pdfliv_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Font size text</entry>
+              <entry lang="en">Font size text</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1090,70 +1090,70 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry>pdfsug_format_page</entry>
+              <entry lang="en">pdfsug_format_page</entry>
 
-              <entry>210x297</entry>
+              <entry lang="en">210x297</entry>
 
-              <entry>Width x height of page in mm</entry>
+              <entry lang="en">Width x height of page in mm</entry>
             </row>
 
             <row>
-              <entry>pdfsug_marges_page</entry>
+              <entry lang="en">pdfsug_marges_page</entry>
 
-              <entry>10,20,10,10</entry>
+              <entry lang="en">10,20,10,10</entry>
 
-              <entry>Margins in mm : Top,Bottom,Right,Left</entry>
+              <entry lang="en">Margins in mm : Top,Bottom,Right,Left</entry>
             </row>
 
             <row>
-              <entry>pdfsug_orient_page</entry>
+              <entry lang="en">pdfsug_orient_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
-              <entry>pdfsug_pos_date</entry>
+              <entry lang="en">pdfsug_pos_date</entry>
 
-              <entry>170,10,0,6,8</entry>
+              <entry lang="en">170,10,0,6,8</entry>
 
-              <entry>Position Date: Distance from left border,Distance from
+              <entry lang="en">Position Date: Distance from left border,Distance from
               right border,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfsug_pos_footer</entry>
+              <entry lang="en">pdfsug_pos_footer</entry>
 
-              <entry>15,8</entry>
+              <entry lang="en">15,8</entry>
 
-              <entry>Position bottom of page: Distance from bottom of page,
+              <entry lang="en">Position bottom of page: Distance from bottom of page,
               Font size</entry>
             </row>
 
             <row>
-              <entry>pdfsug_pos_titre</entry>
+              <entry lang="en">pdfsug_pos_titre</entry>
 
-              <entry>10,10,100,10,16</entry>
+              <entry lang="en">10,10,100,10,16</entry>
 
-              <entry>Position Title: Distance from left border,Distance from
+              <entry lang="en">Position Title: Distance from left border,Distance from
               top of page,Width,Height,Font size</entry>
             </row>
 
             <row>
-              <entry>pdfsug_tab_sug</entry>
+              <entry lang="en">pdfsug_tab_sug</entry>
 
-              <entry>5,10</entry>
+              <entry lang="en">5,10</entry>
 
-              <entry>Orders list:Line height, Font size</entry>
+              <entry lang="en">Orders list:Line height, Font size</entry>
             </row>
 
             <row>
-              <entry>pdfsug_text_size</entry>
+              <entry lang="en">pdfsug_text_size</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Font size text</entry>
+              <entry lang="en">Font size text</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1174,39 +1174,39 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>show_empty_categ</entry>
+              <entry lang="en">show_empty_categ</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Display subject headings with no records : 0= No. 1=
+              <entry lang="en">Display subject headings with no records : 0= No. 1=
               Yes</entry>
             </row>
 
             <row>
-              <entry>show_only_last</entry>
+              <entry lang="en">show_only_last</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>In a record : 0= Display all. 1= Display only the last
+              <entry lang="en">In a record : 0= Display all. 1= Display only the last
               sub-heading in Subject tree</entry>
             </row>
 
             <row>
-              <entry>term_search_n_per_page</entry>
+              <entry lang="en">term_search_n_per_page</entry>
 
-              <entry>50</entry>
+              <entry lang="en">50</entry>
 
-              <entry>Number of items displayed per page when searching by term
+              <entry lang="en">Number of items displayed per page when searching by term
               in Subject headings</entry>
             </row>
           </tbody>
@@ -1236,27 +1236,27 @@ order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry>active</entry>
+              <entry lang="en">active</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>S.D.I. enabled ? 0= No. 1= Yes</entry>
+              <entry lang="en">S.D.I. enabled ? 0= No. 1= Yes</entry>
             </row>
 
             <row>
-              <entry>auto</entry>
+              <entry lang="en">auto</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>S.D.I. enabled automatically ? 0= No. 1= Yes</entry>
+              <entry lang="en">S.D.I. enabled automatically ? 0= No. 1= Yes</entry>
             </row>
 
             <row>
-              <entry>insc_categ</entry>
+              <entry lang="en">insc_categ</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Automatically set in inboxes when creating a category of
+              <entry lang="en">Automatically set in inboxes when creating a category of
               readers ? 0= No. 1= Yes</entry>
             </row>
           </tbody>
@@ -1276,30 +1276,30 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>birthdate_optional</entry>
+              <entry lang="en">birthdate_optional</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Birth year (optional) : 0= No, it is mandatory. 1=
+              <entry lang="en">Birth year (optional) : 0= No, it is mandatory. 1=
               Yes</entry>
             </row>
 
             <row>
-              <entry>corresp_import</entry>
+              <entry lang="en">corresp_import</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Columns/Fields table for the import of readers from an
+              <entry lang="en">Columns/Fields table for the import of readers from an
               ASCII file</entry>
             </row>
           </tbody>
@@ -1331,84 +1331,84 @@ order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry>accessible</entry>
+              <entry lang="en">accessible</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>LDAP accessible ?</entry>
+              <entry lang="en">LDAP accessible ?</entry>
             </row>
 
             <row>
-              <entry>base_dn</entry>
+              <entry lang="en">base_dn</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Root of LDAP domain name</entry>
+              <entry lang="en">Root of LDAP domain name</entry>
             </row>
 
             <row>
-              <entry>binddn</entry>
+              <entry lang="en">binddn</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Description of link : building the binddn chain to bind
+              <entry lang="en">Description of link : building the binddn chain to bind
               LDAP server authentication in the OPAC</entry>
             </row>
 
             <row>
-              <entry>fields</entry>
+              <entry lang="en">fields</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Fields of LDAP server</entry>
+              <entry lang="en">Fields of LDAP server</entry>
             </row>
 
             <row>
-              <entry>filter</entry>
+              <entry lang="en">filter</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>LDAP server, IP or host</entry>
+              <entry lang="en">LDAP server, IP or host</entry>
             </row>
 
             <row>
-              <entry>groups</entry>
+              <entry lang="en">groups</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>LDAP server groups</entry>
+              <entry lang="en">LDAP server groups</entry>
             </row>
 
             <row>
-              <entry>lang</entry>
+              <entry lang="en">lang</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>LDAP serveur language</entry>
+              <entry lang="en">LDAP serveur language</entry>
             </row>
 
             <row>
-              <entry>port</entry>
+              <entry lang="en">port</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>LDAP server port</entry>
+              <entry lang="en">LDAP server port</entry>
             </row>
 
             <row>
-              <entry>proto</entry>
+              <entry lang="en">proto</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>LDAP protocol version : 2 or 3</entry>
+              <entry lang="en">LDAP protocol version : 2 or 3</entry>
             </row>
 
             <row>
-              <entry>server</entry>
+              <entry lang="en">server</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>LDAP server : IP or host</entry>
+              <entry lang="en">LDAP server : IP or host</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1428,47 +1428,47 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>fdp</entry>
+              <entry lang="en">fdp</entry>
 
-              <entry>The librarian.</entry>
+              <entry lang="en">The librarian.</entry>
 
-              <entry>Signature</entry>
+              <entry lang="en">Signature</entry>
             </row>
 
             <row>
-              <entry>madame_monsieur</entry>
+              <entry lang="en">madame_monsieur</entry>
 
-              <entry>Dear Sir or Madam,</entry>
+              <entry lang="en">Dear Sir or Madam,</entry>
 
-              <entry>Email header</entry>
+              <entry lang="en">Email header</entry>
             </row>
 
             <row>
-              <entry>objet</entry>
+              <entry lang="en">objet</entry>
 
-              <entry>Library membership</entry>
+              <entry lang="en">Library membership</entry>
 
-              <entry>Subject of email : Membership renewal</entry>
+              <entry lang="en">Subject of email : Membership renewal</entry>
             </row>
 
             <row>
-              <entry>texte</entry>
+              <entry lang="en">texte</entry>
 
-              <entry>Votre membership will lapse on !!date_fin_adhesion!!.
+              <entry lang="en">Votre membership will lapse on !!date_fin_adhesion!!.
               Thank you for sparing some time to renew it on your next visit.
               Yours faithfully</entry>
 
-              <entry>Bodytext of email : !!date_fin_adhesion!! will be
+              <entry lang="en">Bodytext of email : !!date_fin_adhesion!! will be
               replaced with membership expiry date when printing</entry>
             </row>
           </tbody>
@@ -1488,156 +1488,156 @@ order by idcode</programlisting>
         <tgroup cols="3">
           <thead>
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>1after_list</entry>
+              <entry lang="en">1after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="en">Nous vous remercions de prendre rapidement contact par
               téléphone au 00 00 00 00 00 ou de nous répondre par mail à
               mail@mail.mail pour étudier la possibilité de prolonger ces
               prêts ou de ramener les ouvrages concernés.</entry>
 
-              <entry>Bodytext printed after list of overdue items</entry>
+              <entry lang="en">Bodytext printed after list of overdue items</entry>
             </row>
 
             <row>
-              <entry>1before_list</entry>
+              <entry lang="en">1before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Bodytext printed before list of overdue items</entry>
+              <entry lang="en">Bodytext printed before list of overdue items</entry>
             </row>
 
             <row>
-              <entry>1fdp</entry>
+              <entry lang="en">1fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="en">Le responsable de la Bibliothèque $biblio_name.</entry>
 
-              <entry>Signature</entry>
+              <entry lang="en">Signature</entry>
             </row>
 
             <row>
-              <entry>1madame_monsieur</entry>
+              <entry lang="en">1madame_monsieur</entry>
 
-              <entry>Madame, Monsieur</entry>
+              <entry lang="en">Madame, Monsieur</entry>
 
-              <entry>Email header</entry>
+              <entry lang="en">Email header</entry>
             </row>
 
             <row>
-              <entry>1objet</entry>
+              <entry lang="en">1objet</entry>
 
-              <entry>Documents en retard</entry>
+              <entry lang="en">Documents en retard</entry>
 
-              <entry>Subject of email : Overdue items</entry>
+              <entry lang="en">Subject of email : Overdue items</entry>
             </row>
 
             <row>
-              <entry>2after_list</entry>
+              <entry lang="en">2after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="en">Nous vous remercions de prendre rapidement contact par
               téléphone au 00 00 00 00 00 ou de nous répondre par mail à
               mail@mail.mail pour étudier la possibilité de prolonger ces
               prêts ou de ramener les ouvrages concernés.</entry>
 
-              <entry>Bodytext printed after list of overdue items</entry>
+              <entry lang="en">Bodytext printed after list of overdue items</entry>
             </row>
 
             <row>
-              <entry>2before_list</entry>
+              <entry lang="en">2before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Bodytext printed before list of overdue items</entry>
+              <entry lang="en">Bodytext printed before list of overdue items</entry>
             </row>
 
             <row>
-              <entry>2fdp</entry>
+              <entry lang="en">2fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="en">Le responsable de la Bibliothèque $biblio_name.</entry>
 
-              <entry>Signature</entry>
+              <entry lang="en">Signature</entry>
             </row>
 
             <row>
-              <entry>2madame_monsieur</entry>
+              <entry lang="en">2madame_monsieur</entry>
 
-              <entry>Madame, Monsieur</entry>
+              <entry lang="en">Madame, Monsieur</entry>
 
-              <entry>Email header</entry>
+              <entry lang="en">Email header</entry>
             </row>
 
             <row>
-              <entry>2objet</entry>
+              <entry lang="en">2objet</entry>
 
-              <entry>Documents en retard</entry>
+              <entry lang="en">Documents en retard</entry>
 
-              <entry>Subject of email : Overdue items</entry>
+              <entry lang="en">Subject of email : Overdue items</entry>
             </row>
 
             <row>
-              <entry>3after_list</entry>
+              <entry lang="en">3after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="en">Nous vous remercions de prendre rapidement contact par
               téléphone au 00 00 00 00 00 ou de nous répondre par mail à
               mail@mail.mail pour étudier la possibilité de prolonger ces
               prêts ou de ramener les ouvrages concernés.</entry>
 
-              <entry>Bodytext printed after list of overdue items</entry>
+              <entry lang="en">Bodytext printed after list of overdue items</entry>
             </row>
 
             <row>
-              <entry>3before_list</entry>
+              <entry lang="en">3before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Bodytext printed before list of overdue items</entry>
+              <entry lang="en">Bodytext printed before list of overdue items</entry>
             </row>
 
             <row>
-              <entry>3fdp</entry>
+              <entry lang="en">3fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="en">Le responsable de la Bibliothèque $biblio_name.</entry>
 
-              <entry>Signature</entry>
+              <entry lang="en">Signature</entry>
             </row>
 
             <row>
-              <entry>3madame_monsieur</entry>
+              <entry lang="en">3madame_monsieur</entry>
 
-              <entry>Madame, Monsieur</entry>
+              <entry lang="en">Madame, Monsieur</entry>
 
-              <entry>Email header</entry>
+              <entry lang="en">Email header</entry>
             </row>
 
             <row>
-              <entry>3objet</entry>
+              <entry lang="en">3objet</entry>
 
-              <entry>Documents en retard</entry>
+              <entry lang="en">Documents en retard</entry>
 
-              <entry>Subject of email : Overdue items</entry>
+              <entry lang="en">Subject of email : Overdue items</entry>
             </row>
 
             <row>
-              <entry>priorite_email</entry>
+              <entry lang="en">priorite_email</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Overdue reminders priorities : 0 = Printed notification,
+              <entry lang="en">Overdue reminders priorities : 0 = Printed notification,
               1 = Email, 2 = Email AND Printed notification</entry>
             </row>
           </tbody>
@@ -1663,675 +1663,675 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>authors_aut_rec_per_page</entry>
+              <entry lang="en">authors_aut_rec_per_page</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Number of authors displayed per page</entry>
+              <entry lang="en">Number of authors displayed per page</entry>
             </row>
 
             <row>
-              <entry>authors_aut_sort_records</entry>
+              <entry lang="en">authors_aut_sort_records</entry>
 
-              <entry>index_serie, tnvol, index_sew</entry>
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
 
-              <entry>Authors display : notices sort order</entry>
+              <entry lang="en">Authors display : notices sort order</entry>
             </row>
 
             <row>
-              <entry>allow_extended_search</entry>
+              <entry lang="en">allow_extended_search</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Allow extended search in the OPAC 0: No 1: Yes</entry>
+              <entry lang="en">Allow extended search in the OPAC 0: No 1: Yes</entry>
             </row>
 
             <row>
-              <entry>allow_term_search</entry>
+              <entry lang="en">allow_term_search</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Allow search by terms in the OPAC 0: No 1: Yes</entry>
+              <entry lang="en">Allow search by terms in the OPAC 0: No 1: Yes</entry>
             </row>
 
             <row>
-              <entry>authors_aut_rec_per_page</entry>
+              <entry lang="en">authors_aut_rec_per_page</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Number of authors displayed per page</entry>
+              <entry lang="en">Number of authors displayed per page</entry>
             </row>
 
             <row>
-              <entry>authors_aut_sort_records</entry>
+              <entry lang="en">authors_aut_sort_records</entry>
 
-              <entry>index_serie, index_tit1</entry>
+              <entry lang="en">index_serie, index_tit1</entry>
 
-              <entry>Authors display : notices sort order</entry>
+              <entry lang="en">Authors display : notices sort order</entry>
             </row>
 
             <row>
-              <entry>biblio_adr1</entry>
+              <entry lang="en">biblio_adr1</entry>
 
-              <entry>Le Gué Luneau</entry>
+              <entry lang="en">Le Gué Luneau</entry>
 
-              <entry>First part of the Library address in the OPAC</entry>
+              <entry lang="en">First part of the Library address in the OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_country</entry>
+              <entry lang="en">biblio_country</entry>
 
-              <entry>France</entry>
+              <entry lang="en">France</entry>
 
-              <entry>Library country in the OPAC</entry>
+              <entry lang="en">Library country in the OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_cp</entry>
+              <entry lang="en">biblio_cp</entry>
 
-              <entry>37370</entry>
+              <entry lang="en">37370</entry>
 
-              <entry>Library zip code in the OPAC</entry>
+              <entry lang="en">Library zip code in the OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_dep</entry>
+              <entry lang="en">biblio_dep</entry>
 
-              <entry>37</entry>
+              <entry lang="en">37</entry>
 
-              <entry>Library State in the OPAC for weather forecast</entry>
+              <entry lang="en">Library State in the OPAC for weather forecast</entry>
             </row>
 
             <row>
-              <entry>biblio_email</entry>
+              <entry lang="en">biblio_email</entry>
 
-              <entry>pmb@sigb.net</entry>
+              <entry lang="en">pmb@sigb.net</entry>
 
-              <entry>Library e-mail in the OPAC</entry>
+              <entry lang="en">Library e-mail in the OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_important_p1</entry>
+              <entry lang="en">biblio_important_p1</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>First part of library important information, is hidden by
+              <entry lang="en">First part of library important information, is hidden by
               default in the CSS, see id important.p1</entry>
             </row>
 
             <row>
-              <entry>biblio_important_p2</entry>
+              <entry lang="en">biblio_important_p2</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Second part of library important information, is hidden
+              <entry lang="en">Second part of library important information, is hidden
               by default in the CSS, see id important.p2</entry>
             </row>
 
             <row>
-              <entry>biblio_name</entry>
+              <entry lang="en">biblio_name</entry>
 
-              <entry>Bibliothèque PMB Services</entry>
+              <entry lang="en">Bibliothèque PMB Services</entry>
 
-              <entry>Library name in the OPAC</entry>
+              <entry lang="en">Library name in the OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_phone</entry>
+              <entry lang="en">biblio_phone</entry>
 
-              <entry>02 47 24 89 29</entry>
+              <entry lang="en">02 47 24 89 29</entry>
 
-              <entry>Library phone number in the OPAC</entry>
+              <entry lang="en">Library phone number in the OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_preamble_p1</entry>
+              <entry lang="en">biblio_preamble_p1</entry>
 
-              <entry>La bibliothèque de test de PMB vous propose près de 60
+              <entry lang="en">La bibliothèque de test de PMB vous propose près de 60
               ouvrages pour tester l'application. Cet écran vous présente de
               nombreuses possibilités de recherche et de navigation, celles-ci
               sont grandement paramétrables.</entry>
 
-              <entry>First part of library preamble information (for example,
+              <entry lang="en">First part of library preamble information (for example,
               description of catalographic funds)</entry>
             </row>
 
             <row>
-              <entry>biblio_preamble_p2</entry>
+              <entry lang="en">biblio_preamble_p2</entry>
 
-              <entry>PMB Services est à votre disposition pour vous aider à
+              <entry lang="en">PMB Services est à votre disposition pour vous aider à
               paramétrer ou adapter votre PMB.</entry>
 
-              <entry>Second part of library preamble information : public
+              <entry lang="en">Second part of library preamble information : public
               welcome message.</entry>
             </row>
 
             <row>
-              <entry>biblio_quicksummary_p1</entry>
+              <entry lang="en">biblio_quicksummary_p1</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>First part of library summary, is hidden by default in
+              <entry lang="en">First part of library summary, is hidden by default in
               the CSS, see id quickSummary.p1</entry>
             </row>
 
             <row>
-              <entry>biblio_quicksummary_p2</entry>
+              <entry lang="en">biblio_quicksummary_p2</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Second part of library summary, is hidden by default in
+              <entry lang="en">Second part of library summary, is hidden by default in
               the CSS, see id quickSummary.p1</entry>
             </row>
 
             <row>
-              <entry>biblio_town</entry>
+              <entry lang="en">biblio_town</entry>
 
-              <entry>BUEIL EN TOURAINE</entry>
+              <entry lang="en">BUEIL EN TOURAINE</entry>
 
-              <entry>Library city in the OPAC</entry>
+              <entry lang="en">Library city in the OPAC</entry>
             </row>
 
             <row>
-              <entry>biblio_website</entry>
+              <entry lang="en">biblio_website</entry>
 
-              <entry>www.sigb.net</entry>
+              <entry lang="en">www.sigb.net</entry>
 
-              <entry>Library web site in the OPAC</entry>
+              <entry lang="en">Library web site in the OPAC</entry>
             </row>
 
             <row>
-              <entry>cart_allow</entry>
+              <entry lang="en">cart_allow</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Basket available in the PMB OPAC 1: Yes 0 : No</entry>
+              <entry lang="en">Basket available in the PMB OPAC 1: Yes 0 : No</entry>
             </row>
 
             <row>
-              <entry>cart_only_for_subscriber</entry>
+              <entry lang="en">cart_only_for_subscriber</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Basket only available for library borrowers 1: Yes 0 :
+              <entry lang="en">Basket only available for library borrowers 1: Yes 0 :
               No, authorized for all web surfer</entry>
             </row>
 
             <row>
-              <entry>categories_categ_path_sep</entry>
+              <entry lang="en">categories_categ_path_sep</entry>
 
-              <entry>&gt;</entry>
+              <entry lang="en">&gt;</entry>
 
-              <entry>Category divider</entry>
+              <entry lang="en">Category divider</entry>
             </row>
 
             <row>
-              <entry>categories_categ_rec_per_page</entry>
+              <entry lang="en">categories_categ_rec_per_page</entry>
 
-              <entry>6</entry>
+              <entry lang="en">6</entry>
 
-              <entry>Number of notices to display per page in the category
+              <entry lang="en">Number of notices to display per page in the category
               exploration.</entry>
             </row>
 
             <row>
-              <entry>categories_categ_sort_records</entry>
+              <entry lang="en">categories_categ_sort_records</entry>
 
-              <entry>index_serie, tnvol, index_sew</entry>
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
 
-              <entry>Categories explorer : notice sort order : index_serie,
+              <entry lang="en">Categories explorer : notice sort order : index_serie,
               tnvol, index_sew &gt; sorted by serials title, per number in the
               serial and by title index; rand() random.</entry>
             </row>
 
             <row>
-              <entry>categories_columns</entry>
+              <entry lang="en">categories_columns</entry>
 
-              <entry>3</entry>
+              <entry lang="en">3</entry>
 
-              <entry>Number of columns in the general categories
+              <entry lang="en">Number of columns in the general categories
               summary</entry>
             </row>
 
             <row>
-              <entry>categories_max_display</entry>
+              <entry lang="en">categories_max_display</entry>
 
-              <entry>200</entry>
+              <entry lang="en">200</entry>
 
-              <entry>For the home page, maximum number of main categories
+              <entry lang="en">For the home page, maximum number of main categories
               displayed</entry>
             </row>
 
             <row>
-              <entry>categories_nb_col_subcat</entry>
+              <entry lang="en">categories_nb_col_subcat</entry>
 
-              <entry>3</entry>
+              <entry lang="en">3</entry>
 
-              <entry>Number of subcategories columns when browsing the
+              <entry lang="en">Number of subcategories columns when browsing the
               categories</entry>
             </row>
 
             <row>
-              <entry>categories_sub_display</entry>
+              <entry lang="en">categories_sub_display</entry>
 
-              <entry>3</entry>
+              <entry lang="en">3</entry>
 
-              <entry>Number of subcategories on the first page</entry>
+              <entry lang="en">Number of subcategories on the first page</entry>
             </row>
 
             <row>
-              <entry>categories_sub_mode</entry>
+              <entry lang="en">categories_sub_mode</entry>
 
-              <entry>categ_libelle</entry>
+              <entry lang="en">categ_libelle</entry>
 
-              <entry>Subcategories display mode : rand() &gt; random;
+              <entry lang="en">Subcategories display mode : rand() &gt; random;
               cated_libelle &gt; alphabetic order</entry>
             </row>
 
             <row>
-              <entry>default_lang</entry>
+              <entry lang="en">default_lang</entry>
 
-              <entry>fr_FR</entry>
+              <entry lang="en">fr_FR</entry>
 
-              <entry>OPAC language: fr_FR, en_US, es_ES, ar</entry>
+              <entry lang="en">OPAC language: fr_FR, en_US, es_ES, ar</entry>
             </row>
 
             <row>
-              <entry>default_style</entry>
+              <entry lang="en">default_style</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>OPAC graphic style, 1 default style, nomargin : without
+              <entry lang="en">OPAC graphic style, 1 default style, nomargin : without
               displaying the left frame</entry>
             </row>
 
             <row>
-              <entry>duration_session_auth</entry>
+              <entry lang="en">duration_session_auth</entry>
 
-              <entry>1200</entry>
+              <entry lang="en">1200</entry>
 
-              <entry>OPAC reader session timeout in seconds</entry>
+              <entry lang="en">OPAC reader session timeout in seconds</entry>
             </row>
 
             <row>
-              <entry>etagere_nbnotices_accueil</entry>
+              <entry lang="en">etagere_nbnotices_accueil</entry>
 
-              <entry>5</entry>
+              <entry lang="en">5</entry>
 
-              <entry>Number of notices displayed in the shelves on the home
+              <entry lang="en">Number of notices displayed in the shelves on the home
               page 0 : All ; -1 : None ; x : maximum x notices
               displayed.</entry>
             </row>
 
             <row>
-              <entry>etagere_notices_depliables</entry>
+              <entry lang="en">etagere_notices_depliables</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Expandable notices display in the home page shelves 0 :
+              <entry lang="en">Expandable notices display in the home page shelves 0 :
               No 1 : Yes</entry>
             </row>
 
             <row>
-              <entry>etagere_notices_format</entry>
+              <entry lang="en">etagere_notices_format</entry>
 
-              <entry>8</entry>
+              <entry lang="en">8</entry>
 
-              <entry>Notices display format in the home page shelves 1 : ISBD
+              <entry lang="en">Notices display format in the home page shelves 1 : ISBD
               only 2 : Public only 4 : ISBD et Public 8 : Subset
               (title+authors) only</entry>
             </row>
 
             <row>
-              <entry>etagere_notices_order</entry>
+              <entry lang="en">etagere_notices_order</entry>
 
-              <entry>index_serie, tnvol, index_sew</entry>
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
 
-              <entry>Notices display order in the OPAC shelves</entry>
+              <entry lang="en">Notices display order in the OPAC shelves</entry>
             </row>
 
             <row>
-              <entry>logosmall</entry>
+              <entry lang="en">logosmall</entry>
 
-              <entry>logo_default_small.jpg</entry>
+              <entry lang="en">logo_default_small.jpg</entry>
 
-              <entry>Small logo file name</entry>
+              <entry lang="en">Small logo file name</entry>
             </row>
 
             <row>
-              <entry>max_cart_items</entry>
+              <entry lang="en">max_cart_items</entry>
 
-              <entry>200</entry>
+              <entry lang="en">200</entry>
 
-              <entry>Maximum number of notices in a user basket</entry>
+              <entry lang="en">Maximum number of notices in a user basket</entry>
             </row>
 
             <row>
-              <entry>modules_search_abstract</entry>
+              <entry lang="en">modules_search_abstract</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Search in the abstract search</entry>
+              <entry lang="en">Search in the abstract search</entry>
             </row>
 
             <row>
-              <entry>modules_search_author</entry>
+              <entry lang="en">modules_search_author</entry>
 
-              <entry>2</entry>
+              <entry lang="en">2</entry>
 
-              <entry>Simple search on authors : 0 : forbidden 1 : authorized 2
+              <entry lang="en">Simple search on authors : 0 : forbidden 1 : authorized 2
               : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>modules_search_category</entry>
+              <entry lang="en">modules_search_category</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Simple search on categories : 0 : forbidden 1 :
+              <entry lang="en">Simple search on categories : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>modules_search_collection</entry>
+              <entry lang="en">modules_search_collection</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Simple search on collections : 0 : forbidden 1 :
+              <entry lang="en">Simple search on collections : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>modules_search_content</entry>
+              <entry lang="en">modules_search_content</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Simple search on abstract field : 0 : forbidden 1 :
+              <entry lang="en">Simple search on abstract field : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default. Not used
               now</entry>
             </row>
 
             <row>
-              <entry>modules_search_indexint</entry>
+              <entry lang="en">modules_search_indexint</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Simple search on internal indexations : 0 : forbidden 1 :
+              <entry lang="en">Simple search on internal indexations : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>modules_search_keywords</entry>
+              <entry lang="en">modules_search_keywords</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Simple search on free indexations : 0 : forbidden 1 :
+              <entry lang="en">Simple search on free indexations : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>modules_search_publisher</entry>
+              <entry lang="en">modules_search_publisher</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Simple search on publishers : 0 : forbidden 1 :
+              <entry lang="en">Simple search on publishers : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>modules_search_subcollection</entry>
+              <entry lang="en">modules_search_subcollection</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Simple search on sub collections : 0 : forbidden 1 :
+              <entry lang="en">Simple search on sub collections : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>modules_search_title</entry>
+              <entry lang="en">modules_search_title</entry>
 
-              <entry>2</entry>
+              <entry lang="en">2</entry>
 
-              <entry>Simple search on titles : 0 : forbidden 1 : authorized 2
+              <entry lang="en">Simple search on titles : 0 : forbidden 1 : authorized 2
               : authorized and validated by default</entry>
             </row>
 
             <row>
-              <entry>nb_localisations_per_line</entry>
+              <entry lang="en">nb_localisations_per_line</entry>
 
-              <entry>6</entry>
+              <entry lang="en">6</entry>
 
-              <entry>Number of locations displayed per line on the home page
+              <entry lang="en">Number of locations displayed per line on the home page
               (if show_section_browser=1)</entry>
             </row>
 
             <row>
-              <entry>nb_sections_per_line</entry>
+              <entry lang="en">nb_sections_per_line</entry>
 
-              <entry>6</entry>
+              <entry lang="en">6</entry>
 
-              <entry>Number of sections displayed per line on the home page
+              <entry lang="en">Number of sections displayed per line on the home page
               (if show_section_browser=1)</entry>
             </row>
 
             <row>
-              <entry>notices_depliable</entry>
+              <entry lang="en">notices_depliable</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Expandable display of notices in search results 0: No 1:
+              <entry lang="en">Expandable display of notices in search results 0: No 1:
               Yes</entry>
             </row>
 
             <row>
-              <entry>notices_format</entry>
+              <entry lang="en">notices_format</entry>
 
-              <entry>4</entry>
+              <entry lang="en">4</entry>
 
-              <entry>Notices display format in search results 1 : ISBD only 2
+              <entry lang="en">Notices display format in search results 1 : ISBD only 2
               : Public only 4 : ISBD and Public 8 : only a subset
               (title+authors)</entry>
             </row>
 
             <row>
-              <entry>onlynotice_reduit_format</entry>
+              <entry lang="en">onlynotice_reduit_format</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>???Format d'affichage des réduits des notices : 0 normal
+              <entry lang="en">???Format d'affichage des réduits des notices : 0 normal
               = titre+auteurs principaux P 1,2,3: Perso. : tit+aut+champs
               persos id 1 2 3 E 1,2,3: Perso. : tit+aut+édit+champs persos id
               1 2 3</entry>
             </row>
 
             <row>
-              <entry>nb_aut_rec_per_page</entry>
+              <entry lang="en">nb_aut_rec_per_page</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>???Réservations possibles par l'OPAC 1: oui ou 0:
+              <entry lang="en">???Réservations possibles par l'OPAC 1: oui ou 0:
               No</entry>
             </row>
 
             <row>
-              <entry>resa</entry>
+              <entry lang="en">resa</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Enable holds in the OPAC 1: Yes or 0: No</entry>
+              <entry lang="en">Enable holds in the OPAC 1: Yes or 0: No</entry>
             </row>
 
             <row>
-              <entry>resa_dispo</entry>
+              <entry lang="en">resa_dispo</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Enable holds for available documents in the OPAC 1: Yes
+              <entry lang="en">Enable holds for available documents in the OPAC 1: Yes
               or 0: No</entry>
             </row>
 
             <row>
-              <entry>search_other_function</entry>
+              <entry lang="en">search_other_function</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>Auxiliary function for searching on home pages</entry>
+              <entry lang="en">Auxiliary function for searching on home pages</entry>
             </row>
 
             <row>
-              <entry>search_results_per_page</entry>
+              <entry lang="en">search_results_per_page</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Number of search results displayed on the following
+              <entry lang="en">Number of search results displayed on the following
               pages</entry>
             </row>
 
             <row>
-              <entry>show_100cases_browser</entry>
+              <entry lang="en">show_100cases_browser</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry>100 Categories display : 0 : No 1 : Yes
+              <entry lang="en">100 Categories display : 0 : No 1 : Yes
               categories</entry>
             </row>
 
             <row>
-              <entry>show_bandeaugauche</entry>
+              <entry lang="en">show_bandeaugauche</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show left frame ? 0 : No 1 : Yes</entry>
+              <entry lang="en">Show left frame ? 0 : No 1 : Yes</entry>
             </row>
 
             <row>
-              <entry>show_book_pics</entry>
+              <entry lang="en">show_book_pics</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show book cover thumbnail in the notices : 0 : No 1 :
+              <entry lang="en">Show book cover thumbnail in the notices : 0 : No 1 :
               Yes</entry>
             </row>
 
             <row>
-              <entry>show_categ_browser</entry>
+              <entry lang="en">show_categ_browser</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show categories on the OPAC home page 1: Yes or 0:
+              <entry lang="en">Show categories on the OPAC home page 1: Yes or 0:
               No</entry>
             </row>
 
             <row>
-              <entry>show_dernieresnotices</entry>
+              <entry lang="en">show_dernieresnotices</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Show last created notices in the page trailer ? 0 : No 1
+              <entry lang="en">Show last created notices in the page trailer ? 0 : No 1
               : Yes</entry>
             </row>
 
             <row>
-              <entry>show_etageres_accueil</entry>
+              <entry lang="en">show_etageres_accueil</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show shelves in the home page trailer ? 0: No 1:
+              <entry lang="en">Show shelves in the home page trailer ? 0: No 1:
               Yes</entry>
             </row>
 
             <row>
-              <entry>show_exemplaires</entry>
+              <entry lang="en">show_exemplaires</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show items in the OPAC 1 Yes, 0 : No</entry>
+              <entry lang="en">Show items in the OPAC 1 Yes, 0 : No</entry>
             </row>
 
             <row>
-              <entry>show_help</entry>
+              <entry lang="en">show_help</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show online help in the PMB OPAC 1: Yes 0: No</entry>
+              <entry lang="en">Show online help in the PMB OPAC 1: Yes 0: No</entry>
             </row>
 
             <row>
-              <entry>show_homeontop</entry>
+              <entry lang="en">show_homeontop</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Show home link under the library name (needed if the left
+              <entry lang="en">Show home link under the library name (needed if the left
               frame is hidden) ? 0 : No 1 : Yes</entry>
             </row>
 
             <row>
-              <entry>show_liensbas</entry>
+              <entry lang="en">show_liensbas</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show links (pmb, google, library) on the page trailer ? 0
+              <entry lang="en">Show links (pmb, google, library) on the page trailer ? 0
               : No 1 : Yes</entry>
             </row>
 
             <row>
-              <entry>show_loginform</entry>
+              <entry lang="en">show_loginform</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Display borrower user id in the OPAC ? 0 : No 1 :
+              <entry lang="en">Display borrower user id in the OPAC ? 0 : No 1 :
               Yes</entry>
             </row>
 
             <row>
-              <entry>show_marguerite_browser</entry>
+              <entry lang="en">show_marguerite_browser</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Show categories daisy ? 0 : No or 1 : Yes</entry>
+              <entry lang="en">Show categories daisy ? 0 : No or 1 : Yes</entry>
             </row>
 
             <row>
-              <entry>show_meteo</entry>
+              <entry lang="en">show_meteo</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Show weather forecast in the OPAC 1: Yes or 0: No</entry>
+              <entry lang="en">Show weather forecast in the OPAC 1: Yes or 0: No</entry>
             </row>
 
             <row>
-              <entry>show_section_browser</entry>
+              <entry lang="en">show_section_browser</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Show section and location browser ? 0: No 1: Yes</entry>
+              <entry lang="en">Show section and location browser ? 0: No 1: Yes</entry>
             </row>
 
             <row>
-              <entry>term_search_height</entry>
+              <entry lang="en">term_search_height</entry>
 
-              <entry>350</entry>
+              <entry lang="en">350</entry>
 
-              <entry>Pixel height of the search terms frame (if not specified
+              <entry lang="en">Pixel height of the search terms frame (if not specified
               or zero : 200 pixels by default)</entry>
             </row>
 
             <row>
-              <entry>term_search_n_per_page</entry>
+              <entry lang="en">term_search_n_per_page</entry>
 
-              <entry>50</entry>
+              <entry lang="en">50</entry>
 
-              <entry>Number of terms displayed per age in the term
+              <entry lang="en">Number of terms displayed per age in the term
               search</entry>
             </row>
           </tbody>
@@ -2353,71 +2353,71 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>biblio_name</entry>
+              <entry lang="en">biblio_name</entry>
 
-              <entry>$biblio_name</entry>
+              <entry lang="en">$biblio_name</entry>
 
-              <entry>Library name printed on the borrower card. You can set it
+              <entry lang="en">Library name printed on the borrower card. You can set it
               to any value or to $biblio_name to have the same value as for
               the biblio_name parameter.</entry>
             </row>
 
             <row>
-              <entry>carteno</entry>
+              <entry lang="en">carteno</entry>
 
-              <entry>Carte N° :</entry>
+              <entry lang="en">Carte N° :</entry>
 
-              <entry>Card number label</entry>
+              <entry lang="en">Card number label</entry>
             </row>
 
             <row>
-              <entry>largeur_nom</entry>
+              <entry lang="en">largeur_nom</entry>
 
-              <entry>80</entry>
+              <entry lang="en">80</entry>
 
-              <entry>Borrower name length printed on the card in mm</entry>
+              <entry lang="en">Borrower name length printed on the card in mm</entry>
             </row>
 
             <row>
-              <entry>pos_h</entry>
+              <entry lang="en">pos_h</entry>
 
-              <entry>20</entry>
+              <entry lang="en">20</entry>
 
-              <entry>Left margin in mm</entry>
+              <entry lang="en">Left margin in mm</entry>
             </row>
 
             <row>
-              <entry>pos_v</entry>
+              <entry lang="en">pos_v</entry>
 
-              <entry>20</entry>
+              <entry lang="en">20</entry>
 
-              <entry>Top margin in mm</entry>
+              <entry lang="en">Top margin in mm</entry>
             </row>
 
             <row>
-              <entry>valableau</entry>
+              <entry lang="en">valableau</entry>
 
-              <entry>au</entry>
+              <entry lang="en">au</entry>
 
-              <entry>'to' in "valid from ##/##/#### TO ##/##/####"</entry>
+              <entry lang="en">'to' in "valid from ##/##/#### TO ##/##/####"</entry>
             </row>
 
             <row>
-              <entry>valabledu</entry>
+              <entry lang="en">valabledu</entry>
 
-              <entry>Valable du</entry>
+              <entry lang="en">Valable du</entry>
 
-              <entry>'Valid from' in "VALID FROM ##/##/#### to
+              <entry lang="en">'Valid from' in "VALID FROM ##/##/#### to
               ##/##/####"</entry>
             </row>
           </tbody>
@@ -2439,81 +2439,81 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>fdp</entry>
+              <entry lang="en">fdp</entry>
 
-              <entry>Le responsable de la Bibliothèque.</entry>
+              <entry lang="en">Le responsable de la Bibliothèque.</entry>
 
-              <entry>Trailer formulate courtesy.</entry>
+              <entry lang="en">Trailer formulate courtesy.</entry>
             </row>
 
             <row>
-              <entry>format_page</entry>
+              <entry lang="en">format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>P for Portrait, L for Landscape.</entry>
+              <entry lang="en">P for Portrait, L for Landscape.</entry>
             </row>
 
             <row>
-              <entry>hauteur_page</entry>
+              <entry lang="en">hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="en">297</entry>
 
-              <entry>Page height in mm</entry>
+              <entry lang="en">Page height in mm</entry>
             </row>
 
             <row>
-              <entry>largeur_page</entry>
+              <entry lang="en">largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="en">210</entry>
 
-              <entry>Page width in mm</entry>
+              <entry lang="en">Page width in mm</entry>
             </row>
 
             <row>
-              <entry>madame_monsieur</entry>
+              <entry lang="en">madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="en">Madame, Monsieur,</entry>
 
-              <entry>Recipient salutation</entry>
+              <entry lang="en">Recipient salutation</entry>
             </row>
 
             <row>
-              <entry>marge_page_droite</entry>
+              <entry lang="en">marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Right margin in mm</entry>
+              <entry lang="en">Right margin in mm</entry>
             </row>
 
             <row>
-              <entry>marge_page_gauche</entry>
+              <entry lang="en">marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Left margin in mm</entry>
+              <entry lang="en">Left margin in mm</entry>
             </row>
 
             <row>
-              <entry>texte</entry>
+              <entry lang="en">texte</entry>
 
-              <entry>Votre abonnement à la bibliothèque municipale arrive à
+              <entry lang="en">Votre abonnement à la bibliothèque municipale arrive à
               échéance le !!date_fin_adhesion!!. Nous vous remercions de
               penser à le renouveler lors de votre prochaine visite. Nous vous
               prions de recevoir, Madame, Monsieur, l'expression de nos
               meilleures salutations.</entry>
 
-              <entry>Introduction phrase for adhesion expiration</entry>
+              <entry lang="en">Introduction phrase for adhesion expiration</entry>
             </row>
           </tbody>
         </tgroup>
@@ -2535,144 +2535,144 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>after_list</entry>
+              <entry lang="en">after_list</entry>
 
-              <entry>Passé le délai de réservation, ces ouvrages seront remis
+              <entry lang="en">Passé le délai de réservation, ces ouvrages seront remis
               en circulation, nous vous prions de les retirer dans les
               meilleurs délais.</entry>
 
-              <entry>Text shown after the hold items list</entry>
+              <entry lang="en">Text shown after the hold items list</entry>
             </row>
 
             <row>
-              <entry>before_list</entry>
+              <entry lang="en">before_list</entry>
 
-              <entry>Suite à votre demande de réservation, nous vous informons
+              <entry lang="en">Suite à votre demande de réservation, nous vous informons
               que le ou les ouvrages ci-dessous sont à votre disposition à la
               bibliothèque.</entry>
 
-              <entry>Text shown before the hold items list</entry>
+              <entry lang="en">Text shown before the hold items list</entry>
             </row>
 
             <row>
-              <entry>debut_expl_1er_page</entry>
+              <entry lang="en">debut_expl_1er_page</entry>
 
-              <entry>160</entry>
+              <entry lang="en">160</entry>
 
-              <entry>Item list starting position in mm from the top of the
+              <entry lang="en">Item list starting position in mm from the top of the
               first page. Must be set according to the length of the text
               before the item list.</entry>
             </row>
 
             <row>
-              <entry>debut_expl_page</entry>
+              <entry lang="en">debut_expl_page</entry>
 
-              <entry>15</entry>
+              <entry lang="en">15</entry>
 
-              <entry>Item list starting position in mm from the top of the
+              <entry lang="en">Item list starting position in mm from the top of the
               next page.</entry>
             </row>
 
             <row>
-              <entry>fdp</entry>
+              <entry lang="en">fdp</entry>
 
-              <entry>Le responsable de la $biblio_name.</entry>
+              <entry lang="en">Le responsable de la $biblio_name.</entry>
 
-              <entry>Letter signature. You may use $biblio_name to use the
+              <entry lang="en">Letter signature. You may use $biblio_name to use the
               value of the "biblio name" parameter.</entry>
             </row>
 
             <row>
-              <entry>format_page</entry>
+              <entry lang="en">format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>Page format : P : Portrait L : Landscape</entry>
+              <entry lang="en">Page format : P : Portrait L : Landscape</entry>
             </row>
 
             <row>
-              <entry>hauteur_page</entry>
+              <entry lang="en">hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="en">297</entry>
 
-              <entry>Page height in mm</entry>
+              <entry lang="en">Page height in mm</entry>
             </row>
 
             <row>
-              <entry>largeur_page</entry>
+              <entry lang="en">largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="en">210</entry>
 
-              <entry>Page width in mm</entry>
+              <entry lang="en">Page width in mm</entry>
             </row>
 
             <row>
-              <entry>limite_after_list</entry>
+              <entry lang="en">limite_after_list</entry>
 
-              <entry>270</entry>
+              <entry lang="en">270</entry>
 
-              <entry>Item list ending position in mm. If during printing this
+              <entry lang="en">Item list ending position in mm. If during printing this
               limit is reached, the item will be printed on the next
               page.</entry>
             </row>
 
             <row>
-              <entry>madame_monsieur</entry>
+              <entry lang="en">madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="en">Madame, Monsieur,</entry>
 
-              <entry>Recipient salutation.</entry>
+              <entry lang="en">Recipient salutation.</entry>
             </row>
 
             <row>
-              <entry>marge_page_droite</entry>
+              <entry lang="en">marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Right margin in mm</entry>
+              <entry lang="en">Right margin in mm</entry>
             </row>
 
             <row>
-              <entry>marge_page_gauche</entry>
+              <entry lang="en">marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Left margin in mm</entry>
+              <entry lang="en">Left margin in mm</entry>
             </row>
 
             <row>
-              <entry>nb_1ere_page</entry>
+              <entry lang="en">nb_1ere_page</entry>
 
-              <entry>5</entry>
+              <entry lang="en">5</entry>
 
-              <entry>Number of hold items printed on the first page</entry>
+              <entry lang="en">Number of hold items printed on the first page</entry>
             </row>
 
             <row>
-              <entry>nb_par_page</entry>
+              <entry lang="en">nb_par_page</entry>
 
-              <entry>7</entry>
+              <entry lang="en">7</entry>
 
-              <entry>Number of hold items printed on the following
+              <entry lang="en">Number of hold items printed on the following
               pages.</entry>
             </row>
 
             <row>
-              <entry>taille_bloc_expl</entry>
+              <entry lang="en">taille_bloc_expl</entry>
 
-              <entry>20</entry>
+              <entry lang="en">20</entry>
 
-              <entry>Hold items bloc size (2 lines). The start of each hold
+              <entry lang="en">Hold items bloc size (2 lines). The start of each hold
               item will be spaced according to this value</entry>
             </row>
           </tbody>
@@ -2695,145 +2695,145 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>1after_list</entry>
+              <entry lang="en">1after_list</entry>
 
-              <entry>Nous vous remercions de prendre rapidement contact par
+              <entry lang="en">Nous vous remercions de prendre rapidement contact par
               téléphone au $biblio_phone ou par mail à $biblio_email pour
               étudier la possibilité de prolonger ces prêts ou de ramener les
               ouvrages concernés.</entry>
 
-              <entry>Text shown after the overdue items list</entry>
+              <entry lang="en">Text shown after the overdue items list</entry>
             </row>
 
             <row>
-              <entry>1before_list</entry>
+              <entry lang="en">1before_list</entry>
 
-              <entry>Sauf erreur de notre part, vous avez toujours en votre
+              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
               possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
               est aujourd'hui dépassée :</entry>
 
-              <entry>Text shown before the overdue items list</entry>
+              <entry lang="en">Text shown before the overdue items list</entry>
             </row>
 
             <row>
-              <entry>1debut_expl_1er_page</entry>
+              <entry lang="en">1debut_expl_1er_page</entry>
 
-              <entry>160</entry>
+              <entry lang="en">160</entry>
 
-              <entry>Item list starting position in mm from the top of the
+              <entry lang="en">Item list starting position in mm from the top of the
               first page. Must be set according to the length of the text
               before the item list..</entry>
             </row>
 
             <row>
-              <entry>1debut_expl_page</entry>
+              <entry lang="en">1debut_expl_page</entry>
 
-              <entry>15</entry>
+              <entry lang="en">15</entry>
 
-              <entry>Item list starting position in mm from the top of the
+              <entry lang="en">Item list starting position in mm from the top of the
               next page.</entry>
             </row>
 
             <row>
-              <entry>1fdp</entry>
+              <entry lang="en">1fdp</entry>
 
-              <entry>Le responsable de la $biblio_name.</entry>
+              <entry lang="en">Le responsable de la $biblio_name.</entry>
 
-              <entry>Letter signature. You may use $biblio_name to use the
+              <entry lang="en">Letter signature. You may use $biblio_name to use the
               value of the "biblio name" parameter.</entry>
             </row>
 
             <row>
-              <entry>1format_page</entry>
+              <entry lang="en">1format_page</entry>
 
-              <entry>P</entry>
+              <entry lang="en">P</entry>
 
-              <entry>Page format : P : Portrait L : Landscape</entry>
+              <entry lang="en">Page format : P : Portrait L : Landscape</entry>
             </row>
 
             <row>
-              <entry>1hauteur_page</entry>
+              <entry lang="en">1hauteur_page</entry>
 
-              <entry>297</entry>
+              <entry lang="en">297</entry>
 
-              <entry>Page height in mm</entry>
+              <entry lang="en">Page height in mm</entry>
             </row>
 
             <row>
-              <entry>1largeur_page</entry>
+              <entry lang="en">1largeur_page</entry>
 
-              <entry>210</entry>
+              <entry lang="en">210</entry>
 
-              <entry>Page width in mm</entry>
+              <entry lang="en">Page width in mm</entry>
             </row>
 
             <row>
-              <entry>1limite_after_list</entry>
+              <entry lang="en">1limite_after_list</entry>
 
-              <entry>70</entry>
+              <entry lang="en">70</entry>
 
-              <entry>Item list ending position in mm from bottom of page. If
+              <entry lang="en">Item list ending position in mm from bottom of page. If
               during printing this limit is reached, the item will be printed
               on the next page</entry>
             </row>
 
             <row>
-              <entry>1madame_monsieur</entry>
+              <entry lang="en">1madame_monsieur</entry>
 
-              <entry>Madame, Monsieur,</entry>
+              <entry lang="en">Madame, Monsieur,</entry>
 
-              <entry>Recipient salutation</entry>
+              <entry lang="en">Recipient salutation</entry>
             </row>
 
             <row>
-              <entry>1marge_page_droite</entry>
+              <entry lang="en">1marge_page_droite</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Right margin in mm</entry>
+              <entry lang="en">Right margin in mm</entry>
             </row>
 
             <row>
-              <entry>1marge_page_gauche</entry>
+              <entry lang="en">1marge_page_gauche</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Left margin in mm</entry>
+              <entry lang="en">Left margin in mm</entry>
             </row>
 
             <row>
-              <entry>1nb_1ere_page</entry>
+              <entry lang="en">1nb_1ere_page</entry>
 
-              <entry>5</entry>
+              <entry lang="en">5</entry>
 
-              <entry>Number of overdue items printed on the first page</entry>
+              <entry lang="en">Number of overdue items printed on the first page</entry>
             </row>
 
             <row>
-              <entry>1nb_par_page</entry>
+              <entry lang="en">1nb_par_page</entry>
 
-              <entry>7</entry>
+              <entry lang="en">7</entry>
 
-              <entry>Number of overdue items printed on the following
+              <entry lang="en">Number of overdue items printed on the following
               pages.</entry>
             </row>
 
             <row>
-              <entry>1taille_bloc_expl</entry>
+              <entry lang="en">1taille_bloc_expl</entry>
 
-              <entry>20</entry>
+              <entry lang="en">20</entry>
 
-              <entry>Hold items bloc size (2 lines). The start of each hold
+              <entry lang="en">Hold items bloc size (2 lines). The start of each hold
               item will be spaced according to this value</entry>
             </row>
           </tbody>
@@ -2855,141 +2855,141 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>bdd_version</entry>
+              <entry lang="en">bdd_version</entry>
 
-              <entry>v2.08</entry>
+              <entry lang="en">v2.08</entry>
 
-              <entry>Database kernel version. Change it only with a lower
+              <entry lang="en">Database kernel version. Change it only with a lower
               version number if somethng goes wrong during the database
               update. Restart the database update after. If needed, contact
               the mailing list pmb.user@sigb.net</entry>
             </row>
 
             <row>
-              <entry>import_limit_read_file</entry>
+              <entry lang="en">import_limit_read_file</entry>
 
-              <entry>100</entry>
+              <entry lang="en">100</entry>
 
-              <entry>Read size limit of the imported file. In general, 100 or
+              <entry lang="en">Read size limit of the imported file. In general, 100 or
               200 should be OK. If you encounter timeoit problems, set it for
               exemple to 50</entry>
             </row>
 
             <row>
-              <entry>import_limit_record_load</entry>
+              <entry lang="en">import_limit_record_load</entry>
 
-              <entry>100</entry>
+              <entry lang="en">100</entry>
 
-              <entry>Process size limit of the imported file. In general, 100
+              <entry lang="en">Process size limit of the imported file. In general, 100
               or 200 should be OK. If you encounter timeoit problems, set it
               for exemple to 50</entry>
             </row>
 
             <row>
-              <entry>import_modele</entry>
+              <entry lang="en">import_modele</entry>
 
-              <entry>func_bdp.inc.php</entry>
+              <entry lang="en">func_bdp.inc.php</entry>
 
-              <entry>Name of the script file used to customise import.</entry>
+              <entry lang="en">Name of the script file used to customise import.</entry>
             </row>
 
             <row>
-              <entry>indexint_decimal</entry>
+              <entry lang="en">indexint_decimal</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>0 ou 1 : internal indexation is a Dewey like
+              <entry lang="en">0 ou 1 : internal indexation is a Dewey like
               classification</entry>
             </row>
 
             <row>
-              <entry>nb_lastautorities</entry>
+              <entry lang="en">nb_lastautorities</entry>
 
-              <entry>10</entry>
+              <entry lang="en">10</entry>
 
-              <entry>Number of last authorities displayed in the authorities
+              <entry lang="en">Number of last authorities displayed in the authorities
               managment</entry>
             </row>
 
             <row>
-              <entry>num_carte_auto</entry>
+              <entry lang="en">num_carte_auto</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Automatic borrower card number ? 1 : Yes 0 : No (if using
+              <entry lang="en">Automatic borrower card number ? 1 : Yes 0 : No (if using
               pre-printed cards)</entry>
             </row>
 
             <row>
-              <entry>pret_adhesion_depassee</entry>
+              <entry lang="en">pret_adhesion_depassee</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Lend if adhesion ending date is reached : 0 Strictly
+              <entry lang="en">Lend if adhesion ending date is reached : 0 Strictly
               forbidden, 1 POSSIBLE</entry>
             </row>
 
             <row>
-              <entry>quotas_avances</entry>
+              <entry lang="en">quotas_avances</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>Advanced lending quotas ? 0 : No 1 : Yes</entry>
+              <entry lang="en">Advanced lending quotas ? 0 : No 1 : Yes</entry>
             </row>
 
             <row>
-              <entry>relance_adhesion</entry>
+              <entry lang="en">relance_adhesion</entry>
 
-              <entry>31</entry>
+              <entry lang="en">31</entry>
 
-              <entry>Number of days before expired adhesion for renewal
+              <entry lang="en">Number of days before expired adhesion for renewal
               letters</entry>
             </row>
 
             <row>
-              <entry>resa_dispo</entry>
+              <entry lang="en">resa_dispo</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Avialable documents holding enabled ? 0 : No 1 :
+              <entry lang="en">Avialable documents holding enabled ? 0 : No 1 :
               Yes</entry>
             </row>
 
             <row>
-              <entry>resa_quota_pret_depasse</entry>
+              <entry lang="en">resa_quota_pret_depasse</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Holding avialable even if the lending quota is reached ?
+              <entry lang="en">Holding avialable even if the lending quota is reached ?
               0 : No 1 : Yes</entry>
             </row>
 
             <row>
-              <entry>serial_link_article</entry>
+              <entry lang="en">serial_link_article</entry>
 
-              <entry>0</entry>
+              <entry lang="en">0</entry>
 
-              <entry>???Préremplissage du lien des dépouillements avec le lien
+              <entry lang="en">???Préremplissage du lien des dépouillements avec le lien
               de la notice mère en catalogage des périodiques ? 0 : No 1 :
               Yes</entry>
             </row>
 
             <row>
-              <entry>show_help</entry>
+              <entry lang="en">show_help</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Display contextual help in managment part of PMB 1: Yes 0
+              <entry lang="en">Display contextual help in managment part of PMB 1: Yes 0
               : No</entry>
             </row>
           </tbody>
@@ -3011,29 +3011,29 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>cle_crypt1</entry>
+              <entry lang="en">cle_crypt1</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
             </row>
 
             <row>
-              <entry>cle_crypt2</entry>
+              <entry lang="en">cle_crypt2</entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
 
-              <entry></entry>
+              <entry lang="en"></entry>
             </row>
           </tbody>
         </tgroup>
@@ -3060,21 +3060,21 @@ order by idcode</programlisting>
             <colspec />
 
             <row>
-              <entry>Sub-type</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry>Value</entry>
+              <entry lang="en">Value</entry>
 
-              <entry>Explanation</entry>
+              <entry lang="en">Explanation</entry>
             </row>
           </thead>
 
           <tbody>
             <row>
-              <entry>accessible</entry>
+              <entry lang="en">accessible</entry>
 
-              <entry>1</entry>
+              <entry lang="en">1</entry>
 
-              <entry>Z39.50 accessible ? 0 : No 1 : Yes, PHP_YAZ module is
+              <entry lang="en">Z39.50 accessible ? 0 : No 1 : Yes, PHP_YAZ module is
               activated, z3950 search is possible</entry>
             </row>
           </tbody>

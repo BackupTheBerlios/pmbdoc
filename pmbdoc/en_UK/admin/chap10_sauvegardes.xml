@@ -67,75 +67,75 @@
       <tgroup cols="3">
         <thead>
           <row>
-            <entry>Name of group of tables</entry>
+            <entry lang="en">Name of group of tables</entry>
 
-            <entry>Description</entry>
+            <entry lang="en">Description</entry>
 
-            <entry>Content</entry>
+            <entry lang="en">Content</entry>
           </row>
         </thead>
 
         <tbody>
           <row>
-            <entry>Application</entry>
+            <entry lang="en">Application</entry>
 
-            <entry>Tables required to make PMB function</entry>
+            <entry lang="en">Tables required to make PMB function</entry>
 
-            <entry>categ_assoc categories explnum indexint lenders
+            <entry lang="en">categ_assoc categories explnum indexint lenders
             notices_categories origine_notice parametres procs quotas
             sauv_lieux sauv_log sauv_sauvegardes sauv_tables users</entry>
           </row>
 
           <row>
-            <entry>Of no use</entry>
+            <entry lang="en">Of no use</entry>
 
-            <entry>Tables whose contents there is no need to backup</entry>
+            <entry lang="en">Tables whose contents there is no need to backup</entry>
 
-            <entry>error_log import_marc sessions</entry>
+            <entry lang="en">error_log import_marc sessions</entry>
           </row>
 
           <row>
-            <entry>Authorities</entry>
+            <entry lang="en">Authorities</entry>
 
-            <entry>Tables relating to Authorities files</entry>
+            <entry lang="en">Tables relating to Authorities files</entry>
 
-            <entry>authors collections publishers responsability series
+            <entry lang="en">authors collections publishers responsability series
             sub_collections</entry>
           </row>
 
           <row>
-            <entry>Biblio</entry>
+            <entry lang="en">Biblio</entry>
 
-            <entry>Bibliographic data tables</entry>
+            <entry lang="en">Bibliographic data tables</entry>
 
-            <entry>analysis bulletins docs_codestat docs_location docs_section
+            <entry lang="en">analysis bulletins docs_codestat docs_location docs_section
             docs_statut docs_type exemplaires notices</entry>
           </row>
 
           <row>
-            <entry>Caddies</entry>
+            <entry lang="en">Caddies</entry>
 
-            <entry>Caddies, their content and related procedures</entry>
+            <entry lang="en">Caddies, their content and related procedures</entry>
 
-            <entry>caddie caddie_content caddie_procs</entry>
+            <entry lang="en">caddie caddie_content caddie_procs</entry>
           </row>
 
           <row>
-            <entry>Borrowers</entry>
+            <entry lang="en">Borrowers</entry>
 
-            <entry>Readers files, loans, holds</entry>
+            <entry lang="en">Readers files, loans, holds</entry>
 
-            <entry>empr empr_categ empr_codestat empr_custom empr_custom_lists
+            <entry lang="en">empr empr_categ empr_codestat empr_custom empr_custom_lists
             empr_custom_values empr_groupe groupe pret pret_archive
             resa</entry>
           </row>
 
           <row>
-            <entry>feed_example</entry>
+            <entry lang="en">feed_example</entry>
 
-            <entry>content of feed_example.sql</entry>
+            <entry lang="en">content of feed_example.sql</entry>
 
-            <entry>analysis authors bulletins collections docs_codestat
+            <entry lang="en">analysis authors bulletins collections docs_codestat
             docs_location docs_section docs_statut docs_type empr empr_categ
             empr_codestat empr_groupe exemplaires groupe lenders notices pret
             pret_archive publishers resa responsability series sub_collections
@@ -143,19 +143,19 @@
           </row>
 
           <row>
-            <entry>ALL</entry>
+            <entry lang="en">ALL</entry>
 
-            <entry>all the tables of the database</entry>
+            <entry lang="en">all the tables of the database</entry>
 
-            <entry></entry>
+            <entry lang="en"></entry>
           </row>
 
           <row>
-            <entry>Z3950</entry>
+            <entry lang="en">Z3950</entry>
 
-            <entry>Z39.50 servers profiles</entry>
+            <entry lang="en">Z39.50 servers profiles</entry>
 
-            <entry>z_attr z_bib z_notices z_query</entry>
+            <entry lang="en">z_attr z_bib z_notices z_query</entry>
           </row>
         </tbody>
       </tgroup>

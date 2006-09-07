@@ -67,77 +67,77 @@
       <tgroup cols="3">
         <thead>
           <row>
-            <entry>Nom du groupe de tables</entry>
+            <entry lang="fr">Nom du groupe de tables</entry>
 
-            <entry>Descriptif</entry>
+            <entry lang="fr">Descriptif</entry>
 
-            <entry>Contenu</entry>
+            <entry lang="fr">Contenu</entry>
           </row>
         </thead>
 
         <tbody>
           <row>
-            <entry>Application</entry>
+            <entry lang="fr">Application</entry>
 
-            <entry>Tables utilisées par le fonctionnement de l'application
+            <entry lang="fr">Tables utilisées par le fonctionnement de l'application
             PMB</entry>
 
-            <entry>categ_assoc categories explnum indexint lenders
+            <entry lang="fr">categ_assoc categories explnum indexint lenders
             notices_categories origine_notice parametres procs quotas
             sauv_lieux sauv_log sauv_sauvegardes sauv_tables users</entry>
           </row>
 
           <row>
-            <entry>Aucune utilité</entry>
+            <entry lang="fr">Aucune utilité</entry>
 
-            <entry>Tables dont le contenu n'a pas besoin d'être
+            <entry lang="fr">Tables dont le contenu n'a pas besoin d'être
             sauvegardé</entry>
 
-            <entry>error_log import_marc sessions</entry>
+            <entry lang="fr">error_log import_marc sessions</entry>
           </row>
 
           <row>
-            <entry>Autorités</entry>
+            <entry lang="fr">Autorités</entry>
 
-            <entry>Tables correspondant aux données des autorités</entry>
+            <entry lang="fr">Tables correspondant aux données des autorités</entry>
 
-            <entry>authors collections publishers responsability series
+            <entry lang="fr">authors collections publishers responsability series
             sub_collections</entry>
           </row>
 
           <row>
-            <entry>Biblio</entry>
+            <entry lang="fr">Biblio</entry>
 
-            <entry>Tables contenant les données bibliographiques</entry>
+            <entry lang="fr">Tables contenant les données bibliographiques</entry>
 
-            <entry>analysis bulletins docs_codestat docs_location docs_section
+            <entry lang="fr">analysis bulletins docs_codestat docs_location docs_section
             docs_statut docs_type exemplaires notices</entry>
           </row>
 
           <row>
-            <entry>Caddies</entry>
+            <entry lang="fr">Caddies</entry>
 
-            <entry>Les caddies, leurs procédures et leurs contenus</entry>
+            <entry lang="fr">Les caddies, leurs procédures et leurs contenus</entry>
 
-            <entry>caddie caddie_content caddie_procs</entry>
+            <entry lang="fr">caddie caddie_content caddie_procs</entry>
           </row>
 
           <row>
-            <entry>Emprunteurs</entry>
+            <entry lang="fr">Emprunteurs</entry>
 
-            <entry>Fichiers lecteurs, prets et réservations</entry>
+            <entry lang="fr">Fichiers lecteurs, prets et réservations</entry>
 
-            <entry>empr empr_categ empr_codestat empr_custom empr_custom_lists
+            <entry lang="fr">empr empr_categ empr_codestat empr_custom empr_custom_lists
             empr_custom_values empr_groupe groupe pret pret_archive
             resa</entry>
           </row>
 
           <row>
-            <entry>feed_example</entry>
+            <entry lang="fr">feed_example</entry>
 
-            <entry>contenu de feed_example.sql</entry>
+            <entry lang="fr">contenu de feed_example.sql</entry>
 
-            <entry>analysis authors bulletins collections docs_codestat
+            <entry lang="fr">analysis authors bulletins collections docs_codestat
             docs_location docs_section docs_statut docs_type empr empr_categ
             empr_codestat empr_groupe exemplaires groupe lenders notices pret
             pret_archive publishers resa responsability series sub_collections
@@ -145,19 +145,19 @@
           </row>
 
           <row>
-            <entry>TOUT</entry>
+            <entry lang="fr">TOUT</entry>
 
-            <entry>toutes les tables de la base</entry>
+            <entry lang="fr">toutes les tables de la base</entry>
 
-            <entry></entry>
+            <entry lang="fr"></entry>
           </row>
 
           <row>
-            <entry>Z3950</entry>
+            <entry lang="fr">Z3950</entry>
 
-            <entry>profils des serveurs Z39.50</entry>
+            <entry lang="fr">profils des serveurs Z39.50</entry>
 
-            <entry>z_attr z_bib z_notices z_query</entry>
+            <entry lang="fr">z_attr z_bib z_notices z_query</entry>
           </row>
         </tbody>
       </tgroup>
