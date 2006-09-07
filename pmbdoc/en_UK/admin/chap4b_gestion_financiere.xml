@@ -2,26 +2,26 @@
 <chapter id="admin_gestion_financiere">
   <title>Financial management</title>
 
-  <para>The financial management module enables you to monitor financial transactions relating to the library's readership. These may be of different types :</para>
+  <para lang="en">The financial management module enables you to monitor financial transactions relating to the library's readership. These may be of different types :</para>
 
   <itemizedlist>
     <listitem>
-      <para>membership dues</para>
+      <para lang="en">membership dues</para>
     </listitem>
   </itemizedlist>
 
   <itemizedlist>
     <listitem>
-      <para>fines on overdue items</para>
+      <para lang="en">fines on overdue items</para>
     </listitem>
   </itemizedlist>
 
   <itemizedlist>
     <listitem>
-      <para>dues on loans relating to one or more types of documents (for
+      <para lang="en">dues on loans relating to one or more types of documents (for
       example, DVD), either as a whole, or based on the loan period...</para>
 
-      <para><figure>
+      <para lang="en"><figure>
           <title lang="en">Figure 9.1. Administration, Financial management</title>
 
           <mediaobject>
@@ -37,29 +37,29 @@
   <sect1>
     <title lang="en">Basic factors</title>
 
-    <para>How the financial management module functions in PMB rests on a
+    <para lang="en">How the financial management module functions in PMB rests on a
     number of factors of which you need a very good understanding to be able
     to use the module.</para>
 
     <sect2>
       <title lang="en">Types of readers accounts</title>
 
-      <para>There are three types of accounts for each reader :</para>
+      <para lang="en">There are three types of accounts for each reader :</para>
 
-      <para><itemizedlist>
+      <para lang="en"><itemizedlist>
           <listitem>
-            <para>A membership account : in which shall be recorded financial
+            <para lang="en">A membership account : in which shall be recorded financial
             transactions relating to membership</para>
           </listitem>
         </itemizedlist><itemizedlist>
           <listitem>
-            <para>A loans account : in which shall be recorded the dues
+            <para lang="en">A loans account : in which shall be recorded the dues
             regarding the loan of certain types of documents (DVD for
             example)</para>
           </listitem>
         </itemizedlist><itemizedlist>
           <listitem>
-            <para>A fines account : in which shall be recorded the fines
+            <para lang="en">A fines account : in which shall be recorded the fines
             relating to overdue items as well as the settlement of
             fines.</para>
           </listitem>
@@ -69,11 +69,11 @@
     <sect2>
       <title lang="en">The Library account</title>
 
-      <para>Similarly the library owns an account that will enable staff to
+      <para lang="en">Similarly the library owns an account that will enable staff to
       waive dues payable to the library in certain cases from readers'
       accounts.</para>
 
-      <para>This account can never be in credit. It is only a debit account
+      <para lang="en">This account can never be in credit. It is only a debit account
       listing clearances and cancellations of dues. In no circumstances shall
       it show a positive balance.</para>
     </sect2>
@@ -82,7 +82,7 @@
   <sect1>
     <title lang="en">Managing membership</title>
 
-    <para>
+    <para lang="en">
 		 <inlinemediaobject>
         <imageobject>
           <imagedata fileref="images/warning.gif" />
@@ -90,7 +90,7 @@
       </inlinemediaobject> 
 		It's about the advanced management of subscriptions. If this entry is not visible, the management of subscriptions is accessible in Administration &gt; Readers &gt; Categories de readers.</para>
 
-    <para>If not, then Subscription management was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis> in this guide.</para>
+    <para lang="en">If not, then Subscription management was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis> in this guide.</para>
 
     <figure>
       <title lang="en">Accounts management</title>
@@ -105,7 +105,7 @@
     <sect2>
       <title lang="en">Adding a subscription type</title>
 
-      <para>To add a subscription type, click on <emphasis
+      <para lang="en">To add a subscription type, click on <emphasis
       role="bold">Add a subscription type</emphasis>.</para>
 
       <figure>
@@ -118,32 +118,32 @@
         </mediaobject>
       </figure>
 
-      <para>You can define :</para>
+      <para lang="en">You can define :</para>
 
       <itemizedlist>
         <listitem>
-          <para>a <emphasis role="bold">label</emphasis> corresponding to the type of subscription and that will be displayed on all screens</para>
+          <para lang="en">a <emphasis role="bold">label</emphasis> corresponding to the type of subscription and that will be displayed on all screens</para>
         </listitem>
 
         <listitem>
-          <para>a <emphasis role="bold">note</emphasis></para>
+          <para lang="en">a <emphasis role="bold">note</emphasis></para>
         </listitem>
 
         <listitem>
-          <para>a <emphasis role="bold">subscriptions rate</emphasis></para>
+          <para lang="en">a <emphasis role="bold">subscriptions rate</emphasis></para>
         </listitem>
 
         <listitem>
-          <para>a <emphasis role="bold">deposit</emphasis></para>
+          <para lang="en">a <emphasis role="bold">deposit</emphasis></para>
         </listitem>
 
         <listitem>
-          <para>finally, vous can specify the <emphasis
+          <para lang="en">finally, vous can specify the <emphasis
           role="bold">locations</emphasis> where the subscription applies.</para>
         </listitem>
       </itemizedlist>
 
-      <para>Upon validation, your new subscription appears in the list.</para>
+      <para lang="en">Upon validation, your new subscription appears in the list.</para>
 
       <figure>
         <title lang="en">Subscription management</title>
@@ -160,13 +160,13 @@
   <sect1>
     <title lang="en">Managing loans rates</title>
 
-    <para><inlinemediaobject>
+    <para lang="en"><inlinemediaobject>
         <imageobject>
           <imagedata fileref="images/warning.gif" />
         </imageobject>
       </inlinemediaobject> It's about the advanced management of loans. If this entry is not visible, the management of loans rates is accessible in Administration &gt; Copies &gt; Media types.</para>
 
-    <para>If not, then the management of laons rates was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis>.</para>
+    <para lang="en">If not, then the management of laons rates was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis>.</para>
 
     <figure>
       <title lang="en">Managing loans rates</title>
@@ -178,19 +178,19 @@
       </mediaobject>
     </figure>
 
-    <para>La partie sup�rieure de l'�cran liste les diff�rents types de tarifs
+    <para lang="en">La partie sup�rieure de l'�cran liste les diff�rents types de tarifs
     de pr�ts possibles. Cliquez sur un de ces types pour d�finir vos tarifs
     correspondants.</para>
 
-    <para>Les param�tres g�n�raux occupent la partie inf�rieure de l'�cran. On
+    <para lang="en">Les param�tres g�n�raux occupent la partie inf�rieure de l'�cran. On
     peut d�finir une valeur par d�faut ainsi que d�finir une politique pour la
     r�solution des conflits (si deux tarifs de pr�ts correspondants ont �t�
     sp�cifi�s et sont contradictoires).</para>
 
-    <para>L'ergonomie de la gestion des tarifs de pr�ts est la m�me que celle
+    <para lang="en">L'ergonomie de la gestion des tarifs de pr�ts est la m�me que celle
     utilis�e dans la gestion des quotas.</para>
 
-    <para>Pour plus d'informations sur l'ergonomie des tarifs de pr�ts,
+    <para lang="en">Pour plus d'informations sur l'ergonomie des tarifs de pr�ts,
     consultez dans ce Guide le chapitre Quotas avanc�s.</para>
   </sect1>
 
@@ -208,7 +208,7 @@
       </mediaobject>
     </figure>
 
-    <para>Dans <emphasis>Gestion des amendes</emphasis>, vous pouvez modifier
+    <para lang="en">Dans <emphasis>Gestion des amendes</emphasis>, vous pouvez modifier
     les param�tres des amendes qui seront utilis�s. Pour ce faire, cliquez sur
     le bouton <emphasis role="bold">Modifier les param�tres</emphasis>.</para>
 
@@ -223,10 +223,10 @@
       </mediaobject>
     </figure>
 
-    <para>Vous pouvez sp�cifier des valeurs pour les param�tres suivants
+    <para lang="en">Vous pouvez sp�cifier des valeurs pour les param�tres suivants
     :</para>
 
-    <para><emphasis role="bold">Montant de l'amende par jour et par exemplaire
+    <para lang="en"><emphasis role="bold">Montant de l'amende par jour et par exemplaire
     </emphasis>: idem. <inlinemediaobject>
         <imageobject>
           <imagedata fileref="images/warning.gif" />
@@ -234,32 +234,32 @@
       </inlinemediaobject> La valeur donn�e peut �tre d�cimale, mais vous
     devrez utiliser un point "." � la place de la virgule.</para>
 
-    <para><emphasis role="bold">D�lai avant comptabilisation de
+    <para lang="en"><emphasis role="bold">D�lai avant comptabilisation de
     l'amende</emphasis> : m�me si l'amende court depuis le premier jour de
     retard, on peut consid�rer que le lecteur est exon�r� de paiement s'il
     rend l'ouvrage rapidement, � la fin de ce d�lai sera g�n�r� la premi�re
     lettre de relance.</para>
 
-    <para><emphasis role="bold">D�lai entre la 1�re et la 2�me relance :
+    <para lang="en"><emphasis role="bold">D�lai entre la 1�re et la 2�me relance :
     </emphasis>apr�s une premi�re relance, g�n�ralement tr�s courtoise, le ton
     retenu par la 2�me relance peut �tre plus vif.</para>
 
-    <para><emphasis role="bold">D�lai entre la 2�me et la 3�me
+    <para lang="en"><emphasis role="bold">D�lai entre la 2�me et la 3�me
     relance</emphasis> : apr�s cette deuxi�me relance, une troisi�me relance
     plus exp�ditive peut �tre envoy�e.</para>
 
-    <para><emphasis role="bold">D�lai entre la 3�me relance et le passage en
+    <para lang="en"><emphasis role="bold">D�lai entre la 3�me relance et le passage en
     recouvrement</emphasis> : apr�s une 3�me relance infructueuse, les
     informations sont transmises pour recouvrement � une autre structure
     responsable du recouvrement (il s'agira de la mairie pour une biblioth�que
     municipale, du service comptabilit� pour un centre de documentation,
     etc.)</para>
 
-    <para><emphasis role="bold">Montant maximum d'une amende par
+    <para lang="en"><emphasis role="bold">Montant maximum d'une amende par
     exemplaire</emphasis> : montant auquel s'arr�tera de courir
     l'amende.</para>
 
-    <para>Avec les param�tres en exemple, le jour de la transmission en
+    <para lang="en">Avec les param�tres en exemple, le jour de la transmission en
     recouvrement, l'amende vaudra : (15 + 15 + 15 + 7) x 0,15 soit 52 �
     auxquels viendront se rajouter des frais pour les relances
     r�alis�es.</para>
@@ -268,7 +268,7 @@
   <sect1>
     <title lang="en">Managing fines : reminders</title>
 
-    <para>Dans cet �cran vous pourrez sp�cifier les frais de relances suite �
+    <para lang="en">Dans cet �cran vous pourrez sp�cifier les frais de relances suite �
     des retards dans le retour de pr�t.</para>
 
     <figure>
@@ -281,7 +281,7 @@
       </mediaobject>
     </figure>
 
-    <para>Pour modifier les param�tres des frais li�s aux relances, cliquez
+    <para lang="en">Pour modifier les param�tres des frais li�s aux relances, cliquez
     sur <emphasis role="bold">Modifier les param�tres</emphasis>.</para>
 
     <figure>
@@ -294,20 +294,20 @@
       </mediaobject>
     </figure>
 
-    <para>Vous pouvez modifier les param�tres suivants :</para>
+    <para lang="en">Vous pouvez modifier les param�tres suivants :</para>
 
-    <para><emphasis role="bold">Frais de la premi�re relance </emphasis>:
+    <para lang="en"><emphasis role="bold">Frais de la premi�re relance </emphasis>:
     correspond aux frais factur�s pour l'envoi de la premi�re relance, dans
     cet exemple ils sont bas�s sur les frais postaux d'envoi d'un
     courrier.</para>
 
-    <para><emphasis role="bold">Frais de la deuxi�me relance</emphasis></para>
+    <para lang="en"><emphasis role="bold">Frais de la deuxi�me relance</emphasis></para>
 
-    <para><emphasis role="bold">Frais de la troisi�me relance</emphasis> :
+    <para lang="en"><emphasis role="bold">Frais de la troisi�me relance</emphasis> :
     celle-ci sera g�n�ralement envoy�e en recommand� avec accus� de r�ception,
     ce qui explique un montant plus �lev�.</para>
 
-    <para><emphasis role="bold">Statut perdu des ouvrages non rendus
+    <para lang="en"><emphasis role="bold">Statut perdu des ouvrages non rendus
     </emphasis>: lorsque l'amende est transmise pour recouvrement au service
     concern�, on consid�re g�n�ralement que l'ouvrage est, sauf exception,
     d�finitivement perdu pour la biblioth�que. Dans ce cas, on peut affecter
@@ -328,7 +328,7 @@
       </mediaobject>
     </figure>
 
-    <para>Pour modifier les param�tres de blocage des pr�ts, cliquez sur le
+    <para lang="en">Pour modifier les param�tres de blocage des pr�ts, cliquez sur le
     bouton <emphasis role="bold">Modifier les param�tres</emphasis>.</para>
 
     <figure>
