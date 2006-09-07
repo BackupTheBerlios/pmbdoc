@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="edit">
-  <title>Informes</title>
+  <title lang="es">Informes</title>
 
-  <para>Seis tipos de informes (o de rapports) están a tu disposición en este
+  <para lang="es">Seis tipos de informes (o de rapports) están a tu disposición en este
   apartado. Los resultados se muestran en forma de tablas en la parte
   central de la aplicación.</para>
 
   <figure>
-    <title>Informes, menú lateral</title>
+    <title lang="es">Informes, menú lateral</title>
 
     <mediaobject>
       <imageobject>
@@ -17,42 +17,42 @@
   </figure>
 
   <sect1>
-    <title>Ejemplares</title>
+    <title lang="es">Ejemplares</title>
 
-    <para>Este apartado del menú permite acceder a la información sobre los 
+    <para lang="es">Este apartado del menú permite acceder a la información sobre los 
 	ejemplares de tu biblioteca o centro de documentación. Puedes ver :</para>
 
     <itemizedlist>
       <listitem>
-        <para>la lista de préstamos actuales</para>
+        <para lang="es">la lista de préstamos actuales</para>
       </listitem>
 
       <listitem>
-        <para>la lista de los ejemplares cuyo período de retorno ya se ha pasado
+        <para lang="es">la lista de los ejemplares cuyo período de retorno ya se ha pasado
 		(retrasos)</para>
       </listitem>
 
       <listitem>
-        <para>los préstamos por grupos</para>
+        <para lang="es">los préstamos por grupos</para>
       </listitem>
     </itemizedlist>
 
     <sect2 id="edit_expl_encours">
-      <title>Préstamos actuales</title>
+      <title lang="es">Préstamos actuales</title>
 
-      <para><emphasis>Préstamos actuales </emphasis>lista todos los ejemplares que 
+      <para lang="es"><emphasis>Préstamos actuales </emphasis>lista todos los ejemplares que 
 	  actualmente  están prestados y ofrece también la posibilidad de imprimir las cartas
 	  de reclamación o de enviar los correos electrónicos.</para>
 
-      <para>Al final de los resultados, puedes modificar el número de
+      <para lang="es">Al final de los resultados, puedes modificar el número de
 	  resultados que se muestan por página. Para modificar esta cifra,
 	  elimina la que hay y reemplazala por el valor que quieras y después
 	  haz clic sobre <emphasis role="bold">Actualizar</emphasis>.</para>
 
-      <para>Los correos electrónicos o las cartas de reclamación se pueden 
+      <para lang="es">Los correos electrónicos o las cartas de reclamación se pueden 
 	  modificar des de el apartado Administración (ver la Guía de la Administración PMB).</para>
 
-      <para>Para enviar un correo electrónico de reclamación a un usuario por
+      <para lang="es">Para enviar un correo electrónico de reclamación a un usuario por
 	  un ejemplar con retraso, haz clic sobre el icono (el icono no está visible si la dirección
 	  de correo del usuario no se ha introducido). <graphic
       fileref="images/mail.gif" /> Para ver la carta de reclamación y imprimirla haz clic
@@ -60,13 +60,13 @@
     </sect2>
 
     <sect2 id="edit_expl_retard">
-      <title>Retrasos por usuario</title>
+      <title lang="es">Retrasos por usuario</title>
 
-      <para>Listado de los préstamos en retraso, permite imprimir una carta de reclamación 
+      <para lang="es">Listado de los préstamos en retraso, permite imprimir una carta de reclamación 
 	  personalizada. La lista se ordena según los usuarios.</para>
 
       <figure>
-        <title>Informes &gt; Ejemplares &gt; Retrasos por usuario</title>
+        <title lang="es">Informes &gt; Ejemplares &gt; Retrasos por usuario</title>
 
         <mediaobject>
           <imageobject>
@@ -75,19 +75,19 @@
         </mediaobject>
       </figure>
 
-      <para>Puedes también imprimir haciendo un clic en Todas las cartas, para
+      <para lang="es">Puedes también imprimir haciendo un clic en Todas las cartas, para
 	  hacer esto sobre <emphasis>Imprimir todas las cartas de reclamación</emphasis>.</para>
     </sect2>
 
     <sect2 id="edit_expl_retard_date">
-      <title>Retrasos por fecha</title>
+      <title lang="es">Retrasos por fecha</title>
 
-      <para>Listado de los préstamos en retraso, permite imprimir una cara de reclamación
+      <para lang="es">Listado de los préstamos en retraso, permite imprimir una cara de reclamación
 	  personalizada. La lista muestra un orden por fecha de retorno prevista. Los préstamos 
 	  más antiguos se muestran en la parte superior de la lista.</para>
 
       <figure>
-        <title>Informes &gt; Ejemplares &gt; Retrasos por fecha</title>
+        <title lang="es">Informes &gt; Ejemplares &gt; Retrasos por fecha</title>
 
         <mediaobject>
           <imageobject>
@@ -96,20 +96,20 @@
         </mediaobject>
       </figure>
 
-      <para>Puedes también imprimir de un clic todas las cartas, 
+      <para lang="es">Puedes también imprimir de un clic todas las cartas, 
 	  para hacer esto haz clic sobre <emphasis>Imprimir todas las cartas de
 	  reclamación</emphasis>.</para>
     </sect2>
 
     <sect2 id="edit_expl_pargroupe">
-      <title>Préstamos por grupo</title>
+      <title lang="es">Préstamos por grupo</title>
 
-      <para>Este apartado sigue la misma lógica que los anteriores sólo que 
+      <para lang="es">Este apartado sigue la misma lógica que los anteriores sólo que 
 	  los préstamos se agrupan según los grupos. Para más información, ver <xref
       linkend="edit_expl_encours" /></para>
 
       <figure>
-        <title>Informes &gt; Ejemplares &gt; Préstamos por grupo</title>
+        <title lang="es">Informes &gt; Ejemplares &gt; Préstamos por grupo</title>
 
         <mediaobject>
           <imageobject>
@@ -121,25 +121,25 @@
   </sect1>
 
   <sect1>
-    <title>Reservas</title>
+    <title lang="es">Reservas</title>
 
-    <para>Las reservas se generan a través de la pestaña 
+    <para lang="es">Las reservas se generan a través de la pestaña 
     <emphasis>Circulación</emphasis>. En la parte de la pantalla destinada a 
 	mostrar alertas, parte inferior izquierda de la pantalla, aparecen los
 	mensajes que advierten de nuevas reservas realizadas por los
 	usuarios, a través del OPAC o través de alguna biblioteca.</para>
 
-    <para>Puedes consultar des de el apartado <emphasis>Informes</emphasis>, 
+    <para lang="es">Puedes consultar des de el apartado <emphasis>Informes</emphasis>, 
 	las obras reservadas. Una vez encontradas las obras, puedes introducirlas
 	conforme están apartadas en el apartado <emphasis>Circulación</emphasis>.</para>
 
     <sect2 id="edit_resa">
-      <title>Reservas actuales</title>
+      <title lang="es">Reservas actuales</title>
 
-      <para>Muestra el listado de ejemplares que están reservados.</para>
+      <para lang="es">Muestra el listado de ejemplares que están reservados.</para>
 
       <figure>
-        <title>Informes &gt; Reservas &gt; Reservas</title>
+        <title lang="es">Informes &gt; Reservas &gt; Reservas</title>
 
         <mediaobject>
           <imageobject>
@@ -148,18 +148,18 @@
         </mediaobject>
       </figure>
 
-      <para>Puedes ver la siguiente información :</para>
+      <para lang="es">Puedes ver la siguiente información :</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Título</emphasis> : título principal
+          <para lang="es"><emphasis role="bold">Título</emphasis> : título principal
 		  de la obra reservada. El título es un enlace para ver el registros
 		  con la lista de ejemplares en la pestaña catálogo. Para más información
 		  sobre la visualización de registros, consulta el Capítulo <emphasis>Catálogo</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Usuario</emphasis> : el usuario que ha 
+          <para lang="es"><emphasis role="bold">Usuario</emphasis> : el usuario que ha 
 		  reservado el documento. El usuario es un enlace que muestra la ficha 
 		  del usuario en el apartado Circulación. Para más información sobre
 		  la visualización de una ficha de usuario, consulta el capítulo
@@ -168,16 +168,16 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Rango</emphasis> : posición dentro de la lista
+          <para lang="es"><emphasis role="bold">Rango</emphasis> : posición dentro de la lista
 		  de reservas para ese documento.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Fecha de la reserva</emphasis></para>
+          <para lang="es"><emphasis role="bold">Fecha de la reserva</emphasis></para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Retorno</emphasis> : fecha de retorno previsto
+          <para lang="es"><emphasis role="bold">Retorno</emphasis> : fecha de retorno previsto
           o <emphasis role="bold">disponible</emphasis> si alguno de los 
 		  ejemplares de la obra reservada está disponible en la biblioteca. 
 		  En este caso, consulta un poco más abajo Informes &gt;
@@ -186,7 +186,7 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Validez</emphasis> : fecha en que finaliza la
+          <para lang="es"><emphasis role="bold">Validez</emphasis> : fecha en que finaliza la
 		  reserva, definida en Administración &gt; Cuotas si las cuotas avanzadas
 		  están activadas ; sinó dentro de Administración &gt; Ejemplares &gt; Tipos de documentos. 
 		  Para más información sobre las cuotas avanzadas, consulta la <emphasis>Guía del 
@@ -197,12 +197,12 @@
     </sect2>
 
     <sect2 id="edit_resa_a_traiter">
-      <title>reservas a procesar</title>
+      <title lang="es">reservas a procesar</title>
 
-      <para>Muestra la lista de reservas que no han sido aún apartadas por el personal encargado.</para>
+      <para lang="es">Muestra la lista de reservas que no han sido aún apartadas por el personal encargado.</para>
 
       <figure>
-        <title>Informes &gt; Reservas &gt; a procesar</title>
+        <title lang="es">Informes &gt; Reservas &gt; a procesar</title>
 
         <mediaobject>
           <imageobject>
@@ -211,15 +211,15 @@
         </mediaobject>
       </figure>
 
-      <para>Cuando una reserva de una ejemplar disponible no se ha procesado aún, ésta
+      <para lang="es">Cuando una reserva de una ejemplar disponible no se ha procesado aún, ésta
 	  se muestra con los datos del ejemplar. Si hay más reservas para un mismo documento, 
 	  y hay más de un documento disponible, la lista muestra todas las reservas que pueden
 	  procesarse.</para>
 
-      <para>Si no hay ningún ejemplar disponible, la reserva se muestra en la lista 
+      <para lang="es">Si no hay ningún ejemplar disponible, la reserva se muestra en la lista 
 	  pero sin ningún ejemplar.</para>
 
-      <para>Con ayuda de las referencias de las reservas a procesar, ve a las estanterías
+      <para lang="es">Con ayuda de las referencias de las reservas a procesar, ve a las estanterías
 	  y busca los ejemplares, después márcalos en Circulación &gt; Reservas &gt; Actuales. 
 	  Para más información sobre la selección, consulta el capítulo <emphasis>Circulación</emphasis>,
       sección <emphasis>Reservas</emphasis>.</para>
@@ -227,16 +227,16 @@
   </sect1>
 
   <sect1 id="edit_empr">
-    <title>Usuarios</title>
+    <title lang="es">Usuarios</title>
 
     <sect2 id="edit_empr_encours">
-      <title>Usuarios actuales</title>
+      <title lang="es">Usuarios actuales</title>
 
-      <para>Esta pantalla permite hacer una búsqueda de usuarios. Por defecto 
+      <para lang="es">Esta pantalla permite hacer una búsqueda de usuarios. Por defecto 
 	  se muestra el resultado de una búsqueda con todos los usuarios .</para>
 
       <figure>
-        <title>Informes &gt; Usuarios &gt; Usuarios actuales</title>
+        <title lang="es">Informes &gt; Usuarios &gt; Usuarios actuales</title>
 
         <mediaobject>
           <imageobject>
@@ -245,14 +245,14 @@
         </mediaobject>
       </figure>
 
-      <para>Para buscar a un usuario, introduce su apellido o el inicio de su
+      <para lang="es">Para buscar a un usuario, introduce su apellido o el inicio de su
 	  apellido y haz clic en OK.</para>
 
-      <para>Haz clic sobre uno de los usuarios de entre los resultados de la
+      <para lang="es">Haz clic sobre uno de los usuarios de entre los resultados de la
 	  búsqueda para poder ver su ficha que se mostrará en la pestaña 
 	   <emphasis>Circulación</emphasis>.</para>
 
-      <para>En la parte inferior de la página, puedes modificar el número de
+      <para lang="es">En la parte inferior de la página, puedes modificar el número de
 	  resultados por página. Después de modificar el número, haz clic sobre 
 	  Actualizar para aplicar los cambios. Puedes igualmente exportar los 
 	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla en
@@ -260,12 +260,12 @@
     </sect2>
 
     <sect2 id="edit_empr_limite">
-      <title>Usuarios : el abono caducará próximamente</title>
+      <title lang="es">Usuarios : el abono caducará próximamente</title>
 
-      <para>Puedes también ver los usuarios que tienen el abono a punto
+      <para lang="es">Puedes también ver los usuarios que tienen el abono a punto
 	  de caducar, o los usuarios que tienen el abono ya caducado.</para>
 
-      <para>PMB relaciona a los usuarios que tienen un abono próximo a 
+      <para lang="es">PMB relaciona a los usuarios que tienen un abono próximo a 
 	  expirar con una carta de reactivación del abono. Esta relación
 	  se configura en los parámetros de PMB, ya que se puede parametrizar el 
 	  número de días en que es necesario avisar antes de que se caduque el abono. 
@@ -273,7 +273,7 @@
       capítulo <emphasis>Herramientas</emphasis>, sección <emphasis>Parámetros</emphasis>.</para>
 
       <figure>
-        <title>Informes &gt; Usuarios, el abono caducará próximamente</title>
+        <title lang="es">Informes &gt; Usuarios, el abono caducará próximamente</title>
 
         <mediaobject>
           <imageobject>
@@ -282,13 +282,13 @@
         </mediaobject>
       </figure>
 
-      <para>Para buscar un usuario con un abono ya caducado, introduce su apellido
+      <para lang="es">Para buscar un usuario con un abono ya caducado, introduce su apellido
 	  o el inicio de su apellido y después haz clic en OK.</para>
 
-      <para>Haz clic en uno de los usuarios en los resutlados de la búsqueda
+      <para lang="es">Haz clic en uno de los usuarios en los resutlados de la búsqueda
 	  para ver su ficha que se mostrará en la pestaña <emphasis>Circulación</emphasis>.</para>
 
-      <para>En la parte inferior de la página, puedes modificar el número de resultados
+      <para lang="es">En la parte inferior de la página, puedes modificar el número de resultados
 	  que se mostrarán por página. Después de haber modificado este número, haz clic sobre <emphasis
       role="bold">Actualizar</emphasis> para aplicar los cambios. Puedes también exportar los
 	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla de formato HTML para OpenOffice
@@ -296,15 +296,15 @@
     </sect2>
 
     <sect2 id="edit_empr_depasse">
-      <title>Usuarios : abono caducado</title>
+      <title lang="es">Usuarios : abono caducado</title>
 
-      <para>Los usuarios con un abono caducado no se muestran como usuarios
+      <para lang="es">Los usuarios con un abono caducado no se muestran como usuarios
 	  actuales.</para>
 
-      <para>Aquí se mostrarán los usuarios que tengan un abono que haya expirados.</para>
+      <para lang="es">Aquí se mostrarán los usuarios que tengan un abono que haya expirados.</para>
 
       <figure>
-        <title>Informes &gt; Usuarios, abono caducado</title>
+        <title lang="es">Informes &gt; Usuarios, abono caducado</title>
 
         <mediaobject>
           <imageobject>
@@ -313,13 +313,13 @@
         </mediaobject>
       </figure>
 
-      <para>Para buscar un usuario con un abono caducado, introduce su apellido o
+      <para lang="es">Para buscar un usuario con un abono caducado, introduce su apellido o
 	  el inicio de su apellido y después haz clic sobre OK.</para>
 
-      <para>Haz clic sobre uno de los usuarios de entre los resultados de la búsqueda
+      <para lang="es">Haz clic sobre uno de los usuarios de entre los resultados de la búsqueda
 	  para ver su ficha que se mostrará en la pestaña <emphasis>Circulación</emphasis>.</para>
 
-      <para>En la parte inferior de la página, puedes modificar el número de resultados
+      <para lang="es">En la parte inferior de la página, puedes modificar el número de resultados
 	  que se mostrarán por página. Después de haber modificado este número, haz clic sobre <emphasis
       role="bold">Actualizar</emphasis> para aplicar los cambios. Puedes también exportar los
 	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla de formato HTML para OpenOffice
@@ -328,13 +328,13 @@
   </sect1>
 
   <sect1 id="edit_serials">
-    <title>Publicaciones periódicas</title>
+    <title lang="es">Publicaciones periódicas</title>
 
     <sect2>
-      <title>Estado de las colecciones</title>
+      <title lang="es">Estado de las colecciones</title>
 
       <figure>
-        <title>Informes &gt; P. periódicas &gt; Estado de las colecciones</title>
+        <title lang="es">Informes &gt; P. periódicas &gt; Estado de las colecciones</title>
 
         <mediaobject>
           <imageobject>
@@ -343,40 +343,40 @@
         </mediaobject>
       </figure>
 
-      <para>Esta pantalla muestra para cada registro principal de publicación periódica, el total de ejemplares para cada
+      <para lang="es">Esta pantalla muestra para cada registro principal de publicación periódica, el total de ejemplares para cada
 	  número.</para>
 
-      <para>Esto permite verificar si falta algún número en la colección.</para>
+      <para lang="es">Esto permite verificar si falta algún número en la colección.</para>
 
-      <para>La primera columna indica el número de la revista, la segunda columna
+      <para lang="es">La primera columna indica el número de la revista, la segunda columna
 	  la fecha de publicación, finalmente el número de ejemplares introducidos en la 
 	  base de datos.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>Estadísticas</title>
+    <title lang="es">Estadísticas</title>
 
     <sect2 id="edit_procs">
-      <title>Estadísticas personalizables</title>
+      <title lang="es">Estadísticas personalizables</title>
 
-      <para>Esta función de la pestaña <emphasis>Informes</emphasis> permite
+      <para lang="es">Esta función de la pestaña <emphasis>Informes</emphasis> permite
       ver los resultados de unas consultas guardadas, personalizables en la pestaña
 	  administración. Estas consultas o procedimientos se crean en lenguaje SQL y la
 	  base de datos los interpreta gracias al lenguaje PHP sobre el cual trabaja
 	  vuestro servidor.</para>
 
-      <para>Si al instalar PMB lo has hecho con los datos para probar PMB (data_test.sql,
+      <para lang="es">Si al instalar PMB lo has hecho con los datos para probar PMB (data_test.sql,
       para más información consulta la <emphasis>Guía del Administrador PMB</emphasis>, capítulo 
 	  <emphasis>Datos mímimos</emphasis>), dispones de diferentes estadísicas personalizadas ya 
 	  introducidas.</para>
 
-      <para>Los nombres de éstos procedimientos suelen ser bastante evocadores para saber 
+      <para lang="es">Los nombres de éstos procedimientos suelen ser bastante evocadores para saber 
 	  para qué sirven. En caso de duda, inicia el procedimiento y examina el resultado obtenido 
 	  para comprender su funcionamiento.</para>
 
       <figure>
-        <title>Informes &gt; Estadísticas &gt; Personalizables</title>
+        <title lang="es">Informes &gt; Estadísticas &gt; Personalizables</title>
 
         <mediaobject>
           <imageobject>
@@ -385,12 +385,12 @@
         </mediaobject>
       </figure>
 
-      <para>Para iniciar una estadístca personalizable, haz clic sobre la etiqueda del 
+      <para lang="es">Para iniciar una estadístca personalizable, haz clic sobre la etiqueda del 
 	  procedimiento que quieras. Si hay parámetros a especificar, se mostrará una pantalla
 	  intermedia para poder especificar algunos datos.</para>
 
       <figure>
-        <title>Informes &gt; Estadísicas &gt; Personalizables, definir parámetros</title>
+        <title lang="es">Informes &gt; Estadísicas &gt; Personalizables, definir parámetros</title>
 
         <mediaobject>
           <imageobject>
@@ -400,7 +400,7 @@
       </figure>
 
       <figure>
-        <title>Informes &gt; Estadíst &gt; Personalizables, visualización de
+        <title lang="es">Informes &gt; Estadíst &gt; Personalizables, visualización de
 		los resultados de un procedimiento</title>
 
         <mediaobject>
@@ -410,7 +410,7 @@
         </mediaobject>
       </figure>
 
-         <para>En la parte inferior de la página, puedes modificar el número de resultados
+         <para lang="es">En la parte inferior de la página, puedes modificar el número de resultados
 	  que se mostrarán por página. Después de haber modificado este número, haz clic sobre <emphasis
       role="bold">Actualizar</emphasis> para aplicar los cambios. Puedes también exportar los
 	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla de formato HTML para OpenOffice
@@ -419,16 +419,16 @@
   </sect1>
 
   <sect1>
-    <title>Códigos de barras</title>
+    <title lang="es">Códigos de barras</title>
 
     <sect2 id="edit_cbgen">
-      <title>Generación libre</title>
+      <title lang="es">Generación libre</title>
 
-      <para>Esta utilidad permite crear páginas de códigos de barras, y imprimirlas
+      <para lang="es">Esta utilidad permite crear páginas de códigos de barras, y imprimirlas
 	  sobre hojas de etiquetas.</para>
 
       <figure>
-        <title>Informes &gt; Códigos de barras &gt; Generación libre</title>
+        <title lang="es">Informes &gt; Códigos de barras &gt; Generación libre</title>
 
         <mediaobject>
           <imageobject>
@@ -437,22 +437,22 @@
         </mediaobject>
       </figure>
 
-      <para>Para modificar el <emphasis>formato de página </emphasis>de las etiquetas
+      <para lang="es">Para modificar el <emphasis>formato de página </emphasis>de las etiquetas
 	   haz clic sobre <emphasis role="bold">Visualizar</emphasis> y adapta los parámetro 
 	   a tu necesidades.</para>
 
-      <para>Escoge etiquetas de buena calidad y imprímelas con una impresora
+      <para lang="es">Escoge etiquetas de buena calidad y imprímelas con una impresora
 	  láser para asegurar que duren. Con las impresora de tinta se obtienen 
 	  etiquetas de menor calidad y el código de barras de estropea rápidament, 
 	  además la definición de los códigos también es pobre, y esto hace que a algunos
 	  lectores de códigos de barras les cueste más leer los códigos.</para>
 
-      <para>Puedes utilizar un archivo de texto que contenga los números a imprimir,
+      <para lang="es">Puedes utilizar un archivo de texto que contenga los números a imprimir,
 	  y personalizar el nombre de tu centro de documentación o biblioteca.</para>
 
-      <para>El resultado se muestra en una ventana de Acrobat (archivo PDF generado por PMB).</para>
+      <para lang="es">El resultado se muestra en una ventana de Acrobat (archivo PDF generado por PMB).</para>
 
-      <para>De esta forma puedes controlar que todo esté correcto, guardar el resultado 
+      <para lang="es">De esta forma puedes controlar que todo esté correcto, guardar el resultado 
 	  y imprimirlo.</para>
     </sect2>
   </sect1>

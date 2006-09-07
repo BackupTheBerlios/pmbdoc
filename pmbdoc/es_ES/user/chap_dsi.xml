@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Difusión selectiva de la información (DSI)</title>
+  <title lang="es">Difusión selectiva de la información (DSI)</title>
 
-  <para>La difusión selectiva de la información (DSI) es una herramienta
+  <para lang="es">La difusión selectiva de la información (DSI) es una herramienta
   novedosa en la documentación.</para>
 
   <sect1>
-    <title>Introducción</title>
+    <title lang="es">Introducción</title>
 
     <sect2>
-      <title>Definición</title>
+      <title lang="es">Definición</title>
 
-      <para>La <emphasis role="bold">difusión selectiva de la
+      <para lang="es">La <emphasis role="bold">difusión selectiva de la
       información</emphasis> es un servicio que consiste en hacer llegar a los
       usuarios, de forma regular, los resultados de un perfil de búsqueda
       personalizada. Se trata de un servicio novedoso. La DSI permite
       comunicar las novedades del fondo documental sobre una materia o tema
       concreto.</para>
 
-      <para>Se puede hablar igualmente de "perfil documental" o "perfil
+      <para lang="es">Se puede hablar igualmente de "perfil documental" o "perfil
       personalizado" o "perfil de búsqueda".</para>
     </sect2>
 
     <sect2>
-      <title>DSI privada y pública</title>
+      <title lang="es">DSI privada y pública</title>
 
-      <para>La difusión selectiva de la información permite alertar a los
+      <para lang="es">La difusión selectiva de la información permite alertar a los
       usuarios de la aparición reciente de documentos, de informacions sobre
       el área temática que les interesa y matenerlos, por tanto, al día. La
       DSI es una actualización perpetua de los conocimientos de un usuario o
@@ -35,14 +35,14 @@
 
       <itemizedlist>
         <listitem>
-          <para>una corresponde a un conjunto de referencias que responden a
+          <para lang="es">una corresponde a un conjunto de referencias que responden a
           un perfil de un solo usuario : la difusión es estrictamente "
           individual ", y hablamos de un " perfil personalizado". Son las
           <emphasis role="bold">cestas privadas de PMB</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para>la otra corresponde al conjunto de listas bibliogràficas más
+          <para lang="es">la otra corresponde al conjunto de listas bibliogràficas más
           largas que corresponden al perfil de interés de un grupo homogéneo
           de usuarios. Es un " perfil de grupo" que se traduce generalmente
           por un conjunto de diferentes " perfiles estándares " Son las
@@ -53,12 +53,12 @@
   </sect1>
 
   <sect1>
-    <title>Activar la DSI</title>
+    <title lang="es">Activar la DSI</title>
 
     <sect2>
-      <title>Ver la pestaña de DSI</title>
+      <title lang="es">Ver la pestaña de DSI</title>
 
-      <para><inlinemediaobject>
+      <para lang="es"><inlinemediaobject>
           <imageobject>
             <imagedata fileref="images/warning.gif" />
           </imageobject>
@@ -66,18 +66,18 @@
       de PMB. Para activar la DSI, ve a Administración, Herramientas,
       Parámetros, Difusión Selectiva de la Información y activa la DSI.</para>
 
-      <para><emphasis role="bold">Atención</emphasis> el usuario de PMB debe
+      <para lang="es"><emphasis role="bold">Atención</emphasis> el usuario de PMB debe
       tener los derechos de acceder a esta función. En Administración,
       Usuarios, haz clic sobre un usuario y sobre el botón Modificar y marca
       la opción DSI para ese usuario.</para>
 
-      <para>Para más información sobre la parametrización de PMB, consulta la
+      <para lang="es">Para más información sobre la parametrización de PMB, consulta la
       <emphasis role="bold">Guía del Administrador PMB</emphasis>. Con el fin
       de facilitar la parametrización de la DSI, aquí están los parámetros
       :</para>
 
       <table>
-        <title>Administración &gt; Herramientas &gt; Parámetros, apartado
+        <title lang="es">Administración &gt; Herramientas &gt; Parámetros, apartado
         Difusión Selectiva de la Información (dsi)</title>
 
         <tgroup cols="3">
@@ -122,9 +122,9 @@
     </sect2>
 
     <sect2>
-      <title>DSI y OPAC</title>
+      <title lang="es">DSI y OPAC</title>
 
-      <para>La DSI estará también visible en el OPAC cuando un usuario se
+      <para lang="es">La DSI estará también visible en el OPAC cuando un usuario se
       identifique. Para activar la DSI en el OPAC, modifica los parámetros en
       Administracióntion &gt; Herramientas &gt; Parámetros, apartado OPAC,
       sección Opciones referentes a la DSI.</para>
@@ -132,23 +132,23 @@
   </sect1>
 
   <sect1>
-    <title>DSI pública</title>
+    <title lang="es">DSI pública</title>
 
     <sect2 id="dsi_diffusion">
-      <title>Uso</title>
+      <title lang="es">Uso</title>
 
-      <para>La difusión es la última etapa de la DSI. Una vez se han creado
+      <para lang="es">La difusión es la última etapa de la DSI. Una vez se han creado
       una o más cestas, y que las ecuaciones se hayan asignado, puedes
       difundir la información.</para>
 
-      <para>La difusión automática muestra a la vez las cestas públicas y las
+      <para lang="es">La difusión automática muestra a la vez las cestas públicas y las
       privadas.</para>
     </sect2>
 
     <sect2 id="diffusion">
-      <title>Cestas</title>
+      <title lang="es">Cestas</title>
 
-      <para>En este apartado puedes generar las cestas de difusión. En las
+      <para lang="es">En este apartado puedes generar las cestas de difusión. En las
       cestas se juntan las novedades. Es el contenido de estas cestas lo que
       se enviará a los subscritos cuando se difundan. Puedes crear, modificar
       o suprimir una cesta. También puedes eliminar las ecuaciones para volver
@@ -157,27 +157,27 @@
     </sect2>
 
     <sect2 id="dsi_equations">
-      <title>Ecuaciones</title>
+      <title lang="es">Ecuaciones</title>
 
-      <para>Las ecuaciones son las búsquedas avanzadas seleccionadas que
+      <para lang="es">Las ecuaciones son las búsquedas avanzadas seleccionadas que
       permiten llenar las cestas.</para>
     </sect2>
 
     <sect2 id="dsi_options">
-      <title>Opciones</title>
+      <title lang="es">Opciones</title>
 
-      <para>Puedes definir las relaciones que te permitarán organizar las
+      <para lang="es">Puedes definir las relaciones que te permitarán organizar las
       cestas y las ecuaciones.</para>
     </sect2>
 
     <sect2>
-      <title>Ejemplo de uso paso a paso de la DSI</title>
+      <title lang="es">Ejemplo de uso paso a paso de la DSI</title>
 
-      <para>Pestaña DSI : - Ecuaciones, gestión, haz clic sobre añadir para
+      <para lang="es">Pestaña DSI : - Ecuaciones, gestión, haz clic sobre añadir para
       crear una ecuación de búsqueda.</para>
 
       <figure>
-        <title>Buscar o añadir un cesta</title>
+        <title lang="es">Buscar o añadir un cesta</title>
 
         <mediaobject>
           <imageobject>
@@ -186,10 +186,10 @@
         </mediaobject>
       </figure>
 
-      <para>y iniciar una búsqueda, por ejemplo :</para>
+      <para lang="es">y iniciar una búsqueda, por ejemplo :</para>
 
       <figure>
-        <title>Búsqueda avanzada</title>
+        <title lang="es">Búsqueda avanzada</title>
 
         <mediaobject>
           <imageobject>
@@ -199,7 +199,7 @@
       </figure>
 
       <figure>
-        <title>Resultado de la búsqueda avanzada</title>
+        <title lang="es">Resultado de la búsqueda avanzada</title>
 
         <mediaobject>
           <imageobject>
@@ -208,13 +208,13 @@
         </mediaobject>
       </figure>
 
-      <para>Cuando se muestran los resultados, se puede hacer clic sobre
+      <para lang="es">Cuando se muestran los resultados, se puede hacer clic sobre
       "Transformar en ecuación DSI"</para>
 
-      <para>Da un nombre a la ecuación y haz clic en Guardar</para>
+      <para lang="es">Da un nombre a la ecuación y haz clic en Guardar</para>
 
       <figure>
-        <title>Creación de una ecuación</title>
+        <title lang="es">Creación de una ecuación</title>
 
         <mediaobject>
           <imageobject>
@@ -223,13 +223,13 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">Nota </emphasis>: podrás en todo momento
+      <para lang="es"><emphasis role="bold">Nota </emphasis>: podrás en todo momento
       modificar una ecuación de búsqueda, añadiendo o variando los criterios
       de la búsqueda. Visualiza las diferentes ecuaciones de búsqueda y haz
       clic sobre una Ecuación para modificarla.</para>
 
       <figure>
-        <title>Visualización de la lista de ecuaciones disponibles</title>
+        <title lang="es">Visualización de la lista de ecuaciones disponibles</title>
 
         <mediaobject>
           <imageobject>
@@ -239,7 +239,7 @@
       </figure>
 
       <figure>
-        <title>Modificación de una ecuación</title>
+        <title lang="es">Modificación de una ecuación</title>
 
         <mediaobject>
           <imageobject>
@@ -248,13 +248,13 @@
         </mediaobject>
       </figure>
 
-      <para>Cestas, públicas, añadir : da un nombre a la cesta, escoge cesta
+      <para lang="es">Cestas, públicas, añadir : da un nombre a la cesta, escoge cesta
       automática, periodicidad (1 por ej.), número de registros (50 por ej.),
       escoge una categoría de usuarios y difusión por correo electrónico.
       Guarda.</para>
 
       <figure>
-        <title>Creación de una cesta</title>
+        <title lang="es">Creación de una cesta</title>
 
         <mediaobject>
           <imageobject>
@@ -263,12 +263,12 @@
         </mediaobject>
       </figure>
 
-      <para>Cuando cambias la categoría de usuarios a los que afecta, se abre
+      <para lang="es">Cuando cambias la categoría de usuarios a los que afecta, se abre
       una alerta javascript en pantalla. Esta alerta permite de actualizar
       directamente la subscripción de los usuarios.</para>
 
       <figure>
-        <title>Alerta javascript</title>
+        <title lang="es">Alerta javascript</title>
 
         <mediaobject>
           <imageobject>
@@ -278,7 +278,7 @@
       </figure>
 
       <figure>
-        <title>Lista de cestas</title>
+        <title lang="es">Lista de cestas</title>
 
         <mediaobject>
           <imageobject>
@@ -287,11 +287,11 @@
         </mediaobject>
       </figure>
 
-      <para>Haz clic sobre la cesta, en la columna Ecuaciones asociadas para
+      <para lang="es">Haz clic sobre la cesta, en la columna Ecuaciones asociadas para
       relacionar una o más Ecuaciones a la cesta.</para>
 
       <figure>
-        <title>Asociación de ecuaciones a la cesta</title>
+        <title lang="es">Asociación de ecuaciones a la cesta</title>
 
         <mediaobject>
           <imageobject>
@@ -300,11 +300,11 @@
         </mediaobject>
       </figure>
 
-      <para>Asociación de ecuaciones a la cesta : marca la ecuación y
+      <para lang="es">Asociación de ecuaciones a la cesta : marca la ecuación y
       guarda.</para>
 
       <figure>
-        <title>Subscribir usuarios a una cesta</title>
+        <title lang="es">Subscribir usuarios a una cesta</title>
 
         <mediaobject>
           <imageobject>
@@ -313,11 +313,11 @@
         </mediaobject>
       </figure>
 
-      <para>Haciendo clic sobre Subscriptres podrás escoger a los usuarios,
+      <para lang="es">Haciendo clic sobre Subscriptres podrás escoger a los usuarios,
       seleccionalos haz clic en Guardar.</para>
 
       <figure>
-        <title>Lista de cestas después de relacionar ecuaciones y
+        <title lang="es">Lista de cestas después de relacionar ecuaciones y
         subscriptores</title>
 
         <mediaobject>
@@ -327,14 +327,14 @@
         </mediaobject>
       </figure>
 
-      <para>Ve entonces a modificar los registros que corresponden a tu
+      <para lang="es">Ve entonces a modificar los registros que corresponden a tu
       ecuación de búsqueda : DSI, Difusión, Automática, Siguiente : escoge tu
       cesta, haz clic en llenar. El número de registros cambiará.</para>
 
-      <para></para>
+      <para lang="es"></para>
 
       <figure>
-        <title>Lista de cestas para realizar una acción</title>
+        <title lang="es">Lista de cestas para realizar una acción</title>
 
         <mediaobject>
           <imageobject>
@@ -343,10 +343,10 @@
         </mediaobject>
       </figure>
 
-      <para>Ahora la puedes difundir.</para>
+      <para lang="es">Ahora la puedes difundir.</para>
 
       <figure>
-        <title>Resultado de una acción realizada</title>
+        <title lang="es">Resultado de una acción realizada</title>
 
         <mediaobject>
           <imageobject>
@@ -355,15 +355,15 @@
         </mediaobject>
       </figure>
 
-      <para>Es necesario, por supuesto, que los usuarios tengan una dirección
+      <para lang="es">Es necesario, por supuesto, que los usuarios tengan una dirección
       de correo electrónico donde enviarles el mensaje con el contenido de la
       cesta. El mail que se manda se muestra en un popup en pantalla.</para>
 
-      <para><emphasis role="bold">Atención</emphasis> la dirección de tu
+      <para lang="es"><emphasis role="bold">Atención</emphasis> la dirección de tu
       servidor SMTP dentro de tu configuración php debe estar definida.</para>
 
       <figure>
-        <title>Envío del contenido de una cesta a los usuarios
+        <title lang="es">Envío del contenido de una cesta a los usuarios
         subscritos</title>
 
         <mediaobject>
@@ -373,11 +373,11 @@
         </mediaobject>
       </figure>
 
-      <para>Si el usuario se conecta en el OPAC, podrá ver el contenido de la
+      <para lang="es">Si el usuario se conecta en el OPAC, podrá ver el contenido de la
       cesta después de conectarse.</para>
 
-      <para><figure>
-          <title>Visualización de una cuenta de usuario en el OPAC</title>
+      <para lang="es"><figure>
+          <title lang="es">Visualización de una cuenta de usuario en el OPAC</title>
 
           <mediaobject>
             <imageobject>
@@ -388,7 +388,7 @@
       podrás ver las cestas a las cuales estás subscrito.</para>
 
       <figure>
-        <title>Pantalla de informacion del usuario en el OPAC, después de
+        <title lang="es">Pantalla de informacion del usuario en el OPAC, después de
         haber hecho clic sobre Acceder a tu información personal</title>
 
         <mediaobject>
@@ -398,14 +398,14 @@
         </mediaobject>
       </figure>
 
-      <para>Como en cualquier registro del OPAC, puedes ampliar la información
+      <para lang="es">Como en cualquier registro del OPAC, puedes ampliar la información
       haciendo clic sobre el botón + que aparece al hacer clic sobre un
       título. Tus posibilidades dependen del parámetro del OPAC
       bannette_notices_depliables. Para más información, consulta la Guía del
       Administrador PMB.</para>
 
       <figure>
-        <title>Visualización de un registro en el OPAC</title>
+        <title lang="es">Visualización de un registro en el OPAC</title>
 
         <mediaobject>
           <imageobject>
@@ -417,57 +417,57 @@
   </sect1>
 
   <sect1>
-    <title>DSI privada</title>
+    <title lang="es">DSI privada</title>
 
-    <para>La DSI privada está disponible a partir de la versión estable de PMB
+    <para lang="es">La DSI privada está disponible a partir de la versión estable de PMB
     2.1.</para>
 
-    <para>Permite a cada usuario identificado crear un "perfil documental" que
+    <para lang="es">Permite a cada usuario identificado crear un "perfil documental" que
     le permita conocer las novedades de la biblioteca o del centro de
     documentación que corresponden a sus intereses.</para>
 
-    <para><emphasis role="bold">atención</emphasis> las DSI personalizadas
+    <para lang="es"><emphasis role="bold">atención</emphasis> las DSI personalizadas
     configuradas en el OPAC solo están visibles en la interficie de gestión en
     un apartado : DSI &gt; cestas &gt; privadas</para>
 
-    <para>Las cestas de DSI privadas son <emphasis role="bold">no
+    <para lang="es">Las cestas de DSI privadas son <emphasis role="bold">no
     clasificadas</emphasis>.</para>
 
-    <para>La <emphasis role="bold">difusión </emphasis>de la DSI privada es
+    <para lang="es">La <emphasis role="bold">difusión </emphasis>de la DSI privada es
     <emphasis role="bold">obligatorioamente automática</emphasis>.</para>
 
-    <para>Las ecuaciones privadas no se pueden generar des de la pestaña DSI
+    <para lang="es">Las ecuaciones privadas no se pueden generar des de la pestaña DSI
     de PMB.</para>
 
-    <para>La DSI privada se organiza de la manera siguiente :</para>
+    <para lang="es">La DSI privada se organiza de la manera siguiente :</para>
 
     <itemizedlist>
       <listitem>
-        <para>un usuario se crea una cesta privada (sin categorización
+        <para lang="es">un usuario se crea una cesta privada (sin categorización
         posible)</para>
       </listitem>
 
       <listitem>
-        <para>él relaciona a esta cesta una y sólo una ecuación de búsqueda
+        <para lang="es">él relaciona a esta cesta una y sólo una ecuación de búsqueda
         (no hay posibilidad de relacionar diferentes ecuaciones de búsqueda a
         una sola cesta privada, para esto es necesario crear diferentes
         cestas)</para>
       </listitem>
 
       <listitem>
-        <para>la cesta estará sólo destinada a este usuario, y no se puede
+        <para lang="es">la cesta estará sólo destinada a este usuario, y no se puede
         difundir</para>
       </listitem>
     </itemizedlist>
 
     <sect2>
-      <title>Difusión</title>
+      <title lang="es">Difusión</title>
 
-      <para>La difusión es la última etapa de la DSI. Después de que se ha
+      <para lang="es">La difusión es la última etapa de la DSI. Después de que se ha
       creado una cesta y se ha relacionado con una o más ecuaciones, es cuando
       puedes hacer difusión de la información que la cesta contiene.</para>
 
-      <para>La difusión automática presenta a la vez las cestas de difusión
+      <para lang="es">La difusión automática presenta a la vez las cestas de difusión
       pública y las de difusión privada.</para>
     </sect2>
   </sect1>

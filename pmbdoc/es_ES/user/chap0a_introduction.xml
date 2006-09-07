@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="introduction">
-  <title>Introducción</title>
+  <title lang="es">Introducción</title>
 
   <sect1 id="introduction_sujetpmb">
-    <title>Sobre PMB</title>
+    <title lang="es">Sobre PMB</title>
 
-    <para>PMB es un SIGB (Sistema Integrado de Gestión de Bibliotecas)
+    <para lang="es">PMB es un SIGB (Sistema Integrado de Gestión de Bibliotecas)
     completamente libre. El panorama de los programas de bibliotecas está
     prácticamente lleno de productos propietarios. Nosotros somos
     bibliotecarios, usuarios y desarrolladores que no estamos de acuerdo con
     este panorama.</para>
 
-    <para>PMB se basa en las tecnologías del Web. Es lo que a veces se llama
+    <para lang="es">PMB se basa en las tecnologías del Web. Es lo que a veces se llama
     una `web-app`. Se basa en un servidor HTTP (básicamente Apache aunque no
     es obligatorio), una base de datos MySQL y el lenguaje PHP.</para>
 
-    <para>Las principales funcionalidades de PMB son :</para>
+    <para lang="es">Las principales funcionalidades de PMB son :</para>
 
     <itemizedlist>
       <listitem>
-        <para>El soporte del formato UNIMARC</para>
+        <para lang="es">El soporte del formato UNIMARC</para>
       </listitem>
 
       <listitem>
-        <para>La gestión de las autoridades (responsabilidades, editoriales,
+        <para lang="es">La gestión de las autoridades (responsabilidades, editoriales,
         colecciones, materias...)</para>
       </listitem>
 
       <listitem>
-        <para>La gestión del préstamo, de las reservas, de los
+        <para lang="es">La gestión del préstamo, de las reservas, de los
         usuarios...</para>
       </listitem>
 
       <listitem>
-        <para>Una configuración simple</para>
+        <para lang="es">Una configuración simple</para>
       </listitem>
 
       <listitem>
-        <para>La posibilidad de importar registros</para>
+        <para lang="es">La posibilidad de importar registros</para>
       </listitem>
 
       <listitem>
-        <para>Un OPAC simplificado que integra un "navegador"</para>
+        <para lang="es">Un OPAC simplificado que integra un "navegador"</para>
       </listitem>
 
       <listitem>
-        <para>Un módulo de gestión de los documentos BDP útil para los
+        <para lang="es">Un módulo de gestión de los documentos BDP útil para los
         establecimientos pequeños</para>
       </listitem>
 
       <listitem>
-        <para>La gestión de las publicaciones periódicas</para>
+        <para lang="es">La gestión de las publicaciones periódicas</para>
       </listitem>
 
       <listitem>
-        <para>Una administración simplificada para el personal de la
+        <para lang="es">Una administración simplificada para el personal de la
         biblioteca...</para>
       </listitem>
     </itemizedlist>
 
-    <para>François Lemarchand, iniciador del proyecto PMB</para>
+    <para lang="es">François Lemarchand, iniciador del proyecto PMB</para>
 
-    <para>Puedes encontrar más información en: <ulink
+    <para lang="es">Puedes encontrar más información en: <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>Encontrarás también una versión de demostración en línea, el
+    <para lang="es">Encontrarás también una versión de demostración en línea, el
     apartado de usuarios de PMB, y las últimas versiones de la Guía de
     instalación, la Guía del usuario y la Guía del administrador PMB.</para>
   </sect1>
 
   <sect1 id="introduction_infos">
-    <title>Dónde encontrar información sobre PMB</title>
+    <title lang="es">Dónde encontrar información sobre PMB</title>
 
-    <para>En la página web de PMB : <ulink
+    <para lang="es">En la página web de PMB : <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>En la página web de la comunidad de usuarios : <ulink
+    <para lang="es">En la página web de la comunidad de usuarios : <ulink
     url="http://www.sigb.net">www.sigb.net/communaute</ulink></para>
 
-    <para>En la lista de distribución de usuarios: pmb.user@sigb.net
+    <para lang="es">En la lista de distribución de usuarios: pmb.user@sigb.net
     (subscripción enviando un correo electrónico con el asunto SUBSCRIBE a
     <ulink
     url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>)</para>
 
-    <para>En la lista de distribución de los traductores, desarrolladores, de
+    <para lang="es">En la lista de distribución de los traductores, desarrolladores, de
     soporte a unicode (alfabetos no europeos). Para más información sobre
     estas listas, consultar <ulink
     url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para>Esta documentación está también disponible en línea en <ulink
+    <para lang="es">Esta documentación está también disponible en línea en <ulink
     url="http://www.sigb.net/doc">www.sigb.net/doc</ulink>, en formato HTML y
     PDF.</para>
   </sect1>
 
   <sect1 id="introduction_references">
-    <title>Referencias</title>
+    <title lang="es">Referencias</title>
 
-    <para><emphasis role="bold">Autores</emphasis></para>
+    <para lang="es"><emphasis role="bold">Autores</emphasis></para>
 
-    <para>Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
+    <para lang="es">Gautier MICHELIN, Eric ROBERT, Florent TETART</para>
 
-    <para>Contribuciones de: François LEMARCHAND (antiguo administrador del
+    <para lang="es">Contribuciones de: François LEMARCHAND (antiguo administrador del
     proyecto), Betty FAIS, Stéphanie FORT</para>
 
-    <para>Gracias al Equipo de desarrolladores PMB, a los antiguos
+    <para lang="es">Gracias al Equipo de desarrolladores PMB, a los antiguos
     desarrolladores, a los usuarios.</para>
   </sect1>
 
   <sect1 id="introduction_cvs">
-    <title>CVS</title>
+    <title lang="es">CVS</title>
 
-    <para>CVS significa Concurrent Version System. Se trata de un sistema de
+    <para lang="es">CVS significa Concurrent Version System. Se trata de un sistema de
     gestión de actualización de código fuente para programadores.</para>
 
-    <para>PMB dispone de CVS. El CVS está accesible para los desarrolladores.
+    <para lang="es">PMB dispone de CVS. El CVS está accesible para los desarrolladores.
     Contacta con nosotros si quieres ayudar al desarrollo de PMB o participar
     en la redacción de la documentación.</para>
   </sect1>

@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="cat">
-  <title>Catálogo</title>
+  <title lang="es">Catálogo</title>
 
-  <para>La catalogación hace referencia a las diferentes acciones que se
+  <para lang="es">La catalogación hace referencia a las diferentes acciones que se
   realizan con los documentos para crear un catálogo que permitirá buscar,
   generar préstamos, editar estadísticas, ...</para>
 
-  <para><emphasis role="bold">Nota </emphasis>En todo momento, dentro del
+  <para lang="es"><emphasis role="bold">Nota </emphasis>En todo momento, dentro del
   apartado Catálogo, cuando se visualiza el icono de cesta, puedes añadir un
   elemento (registro, ejemplar o número de revista) a una cesta haciendo clic
   sobre el icono <graphic fileref="images/basket_small.gif" /> Para más
   información, ver <xref linkend="cat_caddies" />.</para>
 
   <sect1 id="cat_ouvrages">
-    <title>Documentos</title>
+    <title lang="es">Documentos</title>
 
     <sect2 id="cat_search">
-      <title>Búsqueda</title>
+      <title lang="es">Búsqueda</title>
 
-      <para>La búsqueda afecta a todos los registros de PMB : monografías,
+      <para lang="es">La búsqueda afecta a todos los registros de PMB : monografías,
       registros de publicaciones periódicas, registros de artículos.</para>
 
-      <para>PMB permite usar operadores booleanos en la búsqueda. Para más
+      <para lang="es">PMB permite usar operadores booleanos en la búsqueda. Para más
       información, ver <xref linkend="exp_bool" />.</para>
 
       <sect3 id="cat_search_tit">
-        <title>Autor/título</title>
+        <title lang="es">Autor/título</title>
 
         <sect4>
-          <title>Búsqueda por título</title>
+          <title lang="es">Búsqueda por título</title>
 
-          <para>Ésta es la pantalla que aparece al hacer clic sobre la pestaña
+          <para lang="es">Ésta es la pantalla que aparece al hacer clic sobre la pestaña
           catálogo. Permite realizar una búsqueda y está siempre accesible en
           este apartado al hacer clic sobre "buscar" en el menú
           lateral.</para>
 
           <figure>
-            <title>Catálogo &gt; Documentos &gt; Buscar por título</title>
+            <title lang="es">Catálogo &gt; Documentos &gt; Buscar por título</title>
 
             <mediaobject>
               <imageobject>
@@ -45,14 +45,14 @@
             </mediaobject>
           </figure>
 
-          <para>Intentemos una búsqueda del título "cat''.</para>
+          <para lang="es">Intentemos una búsqueda del título "cat''.</para>
 
-          <para>Si tienes instalada la base de datos de prueba, será el
+          <para lang="es">Si tienes instalada la base de datos de prueba, será el
           documento <emphasis>Catfish Blues</emphasis>, de <emphasis>Gérard
           Herzhaft</emphasis>, lo que el buscador encontrará.</para>
 
           <figure>
-            <title>Resultado de una búsqueda</title>
+            <title lang="es">Resultado de una búsqueda</title>
 
             <mediaobject>
               <imageobject>
@@ -61,16 +61,16 @@
             </mediaobject>
           </figure>
 
-          <para>Para ver más información sobre los documentos encontrados, haz
+          <para lang="es">Para ver más información sobre los documentos encontrados, haz
           clic sobre el +, se mostrará información ampliada y la lista de
           ejemplares del documento.</para>
 
-          <para>Un clic sobre el título mostrará el registro y su información,
+          <para lang="es">Un clic sobre el título mostrará el registro y su información,
           y permite modificarlo y añadir o editar información. La pantalla
           siguiente muestra la lista de ejemplares del documento.</para>
 
           <figure>
-            <title>Lista de los ejemplares de un documento</title>
+            <title lang="es">Lista de los ejemplares de un documento</title>
 
             <mediaobject>
               <imageobject>
@@ -79,7 +79,7 @@
             </mediaobject>
           </figure>
 
-          <para>Para modificar el registro, haz clic en
+          <para lang="es">Para modificar el registro, haz clic en
           <emphasis>Modificar</emphasis>. Para modificar algunos de los
           ejemplares del documento, haz clic sobre su código de barras. Para
           añadir un ejemplar, introduce el <emphasis>N° del
@@ -88,42 +88,42 @@
           en <emphasis>Añadir un documento electrónico</emphasis>. Para más
           información, ver <xref linkend="cat_isbd" />.</para>
 
-          <para>Las referencias situadas debajo del registro hacen referencia
+          <para lang="es">Las referencias situadas debajo del registro hacen referencia
           a los ejemplares del documento, su disponibilidad, ubicación, etc.
           Un clic sobre el código de barras del ejemplar, permite modificar el
           ejemplar.</para>
         </sect4>
 
         <sect4>
-          <title>Búsqueda por autor, ISBN, DL o número de ejemplar</title>
+          <title lang="es">Búsqueda por autor, ISBN, DL o número de ejemplar</title>
 
-          <para>La <emphasis role="bold">Búsqueda por autor</emphasis>
+          <para lang="es">La <emphasis role="bold">Búsqueda por autor</emphasis>
           funciona de la misma manera que la búsqueda por título.</para>
 
-          <para>También se puede realizar una búsqueda por ISBN, el Depósito
+          <para lang="es">También se puede realizar una búsqueda por ISBN, el Depósito
           Legal (DL) o el código de barras de los ejemplares.</para>
 
-          <para>Finalmente puedes afinar la búsqueda escogiendo un tipo
+          <para lang="es">Finalmente puedes afinar la búsqueda escogiendo un tipo
           concreto de documento.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_search_categ">
-        <title>Categoría/Materia</title>
+        <title lang="es">Categoría/Materia</title>
 
-        <para>Al hacer clic sobre este apartado se muestran las categorías o
+        <para lang="es">Al hacer clic sobre este apartado se muestran las categorías o
         materias disponibles (las categorías se pueden modificar en la pestaña
         autoridades).</para>
 
-        <para>Haz clic sobre el icono de la carpeta para abrir la categoría y
+        <para lang="es">Haz clic sobre el icono de la carpeta para abrir la categoría y
         ver posibles subcategorías.</para>
 
-        <para>Una vez ya sabes qué categoría o subcategoría te interesa, haz
+        <para lang="es">Una vez ya sabes qué categoría o subcategoría te interesa, haz
         clic sobre su nombre para ver los registros catalogados con esa
         categoría.</para>
 
         <figure>
-          <title>Catalogación &gt; Documentos &gt; Búsqueda por
+          <title lang="es">Catalogación &gt; Documentos &gt; Búsqueda por
           categoría/materia</title>
 
           <mediaobject>
@@ -135,13 +135,13 @@
       </sect3>
 
       <sect3 id="cat_search_terms">
-        <title>Términos del tesauro</title>
+        <title lang="es">Términos del tesauro</title>
 
-        <para>La búsqueda por términos del tesauro permite navegar entre los
+        <para lang="es">La búsqueda por términos del tesauro permite navegar entre los
         diferentes términos .</para>
 
-        <para><figure>
-            <title>Catalogación &gt; Documentos &gt; Búsqueda por términos del
+        <para lang="es"><figure>
+            <title lang="es">Catalogación &gt; Documentos &gt; Búsqueda por términos del
             tesauro</title>
 
             <mediaobject>
@@ -158,10 +158,10 @@
         política</emphasis>) mostrará en la parte inferior más información
         sobre la materia escogida.</para>
 
-        <para>Haciendo clic sobre uno de los enlaces, te desplazarás de una
+        <para lang="es">Haciendo clic sobre uno de los enlaces, te desplazarás de una
         materia a otra.</para>
 
-        <para>Para seleccionar una categoría y mostrar las obras
+        <para lang="es">Para seleccionar una categoría y mostrar las obras
         correspondientes, haz clic en la lupa o asterisco situado al inicio de
         la linia. <graphic fileref="images/search_terms_select.gif" /> si no
         hay ninguna obra dentro de esa categoría, la lupa o asterisco no se
@@ -169,14 +169,14 @@
       </sect3>
 
       <sect3 id="cat_search_publisher">
-        <title>Editorial/Colección</title>
+        <title lang="es">Editorial/Colección</title>
 
-        <para>La búsqueda Editorial/Colección muestra una lista de las
+        <para lang="es">La búsqueda Editorial/Colección muestra una lista de las
         editoriales y colecciones con el mismo formato que las
         categorías.</para>
 
         <figure>
-          <title>Catalogación &gt; Obras &gt; Búsqueda por
+          <title lang="es">Catalogación &gt; Obras &gt; Búsqueda por
           editorial/colección</title>
 
           <mediaobject>
@@ -188,15 +188,15 @@
       </sect3>
 
       <sect3 id="cat_search_caddie">
-        <title>Cestas de registros</title>
+        <title lang="es">Cestas de registros</title>
 
-        <para><emphasis>Buscar</emphasis> &gt; <emphasis>Cestas de
+        <para lang="es"><emphasis>Buscar</emphasis> &gt; <emphasis>Cestas de
         registros</emphasis> permite ver el contenido de una cesta de
         registros (también llamadas paneles). Las cestas son selecciones de
         registros, números de revistas o ejemplares.</para>
 
         <figure>
-          <title>Catalogación &gt; Documentos &gt; Buscar por cestas de
+          <title lang="es">Catalogación &gt; Documentos &gt; Buscar por cestas de
           registros</title>
 
           <mediaobject>
@@ -208,14 +208,14 @@
       </sect3>
 
       <sect3 id="cat_search_multi">
-        <title>Búsqueda avanzada</title>
+        <title lang="es">Búsqueda avanzada</title>
 
-        <para>La búsqueda avanzada es una búsqueda combinada. Puedes
+        <para lang="es">La búsqueda avanzada es una búsqueda combinada. Puedes
         seleccionar entre los diferentes campos: título, autor, campos
         personalizados, ejemplar, ...</para>
 
         <figure>
-          <title>Documentos &gt; Buscar &gt; Avanzada</title>
+          <title lang="es">Documentos &gt; Buscar &gt; Avanzada</title>
 
           <mediaobject>
             <imageobject>
@@ -224,19 +224,19 @@
           </mediaobject>
         </figure>
 
-        <para>Para realizar una búsqueda avanzada :</para>
+        <para lang="es">Para realizar una búsqueda avanzada :</para>
 
         <itemizedlist>
           <listitem>
-            <para>haz clic sobre <emphasis>Añadir</emphasis> para definir un
+            <para lang="es">haz clic sobre <emphasis>Añadir</emphasis> para definir un
             primer campo de búsqueda</para>
 
-            <para>La búsqueda avanzada se aplica a los campos de registros,
+            <para lang="es">La búsqueda avanzada se aplica a los campos de registros,
             ejemplares, publicaciones periódicas y campos
             personalizados.</para>
 
-            <para><figure>
-                <title>Campos de búsqueda posibles</title>
+            <para lang="es"><figure>
+                <title lang="es">Campos de búsqueda posibles</title>
 
                 <mediaobject>
                   <imageobject>
@@ -247,12 +247,12 @@
           </listitem>
 
           <listitem>
-            <para>escoge después un tipo de búsqueda para el campo
+            <para lang="es">escoge después un tipo de búsqueda para el campo
             seleccionado, por ejemplo, para un campo de título puedes escoger
             entre "contiene alguna de las palabras", "contiene todas las
             palabras", "empieza por", "acaba por" o "exactamente como". Este
             tipo de búsqueda varía según el campo escogido<figure>
-                <title>Tipos de búsqueda para el campo título</title>
+                <title lang="es">Tipos de búsqueda para el campo título</title>
 
                 <mediaobject>
                   <imageobject>
@@ -263,14 +263,14 @@
           </listitem>
 
           <listitem>
-            <para>si el campo necesita un valor, introducelo en la casilla
+            <para lang="es">si el campo necesita un valor, introducelo en la casilla
             correspondiente ; si el campo necesita más de un valor (por
             ejemplo tipo de soporte), escógelos manteniendo la tecla
             <emphasis>Ctrl</emphasis> del teclado apretada.</para>
           </listitem>
 
           <listitem>
-            <para>finalmente valida haciendo clic en
+            <para lang="es">finalmente valida haciendo clic en
             <emphasis>Buscar</emphasis></para>
           </listitem>
         </itemizedlist>
@@ -279,41 +279,41 @@
       <sect3>
         <title id="exp_bool">Operadores booleanos</title>
 
-        <para>A la hora de buscar puedes utilizar operadores booleanos para
+        <para lang="es">A la hora de buscar puedes utilizar operadores booleanos para
         mejorar los resultados de las búsquedas. Los operadores booleanos se
         han incluido en PMB con la versión 2.0.</para>
 
         <sect4>
-          <title>Búsqueda simple</title>
+          <title lang="es">Búsqueda simple</title>
 
-          <para>Por defecto, el motor de búsqueda busca los elementos que
+          <para lang="es">Por defecto, el motor de búsqueda busca los elementos que
           contienen <emphasis role="bold">alguna</emphasis> (O implícito) de
           las palabras introducidas. Los resultados se muestran según el
           número decreciente de palabras encontradas, y por orden
           alfabético.</para>
 
-          <para><programlisting>jamón bellota</programlisting>al realizar una
+          <para lang="es"><programlisting>jamón bellota</programlisting>al realizar una
           búsqueda con estas dos palabras, el motor buscará registros que
           contengan tanto jamón como bellota (jamón de bellota, jamón york,
           árbol de bellota, ...).</para>
 
-          <para>Los acentos no se tienen en cuenta así cómo las
+          <para lang="es">Los acentos no se tienen en cuenta así cómo las
           mayúsculas/minúsculas. Si dos palabras están separadas por un signo
           que no sea espacio, , +, o -, las dos palabras se buscarán tal cual
           en los resultados.</para>
 
-          <para><programlisting>Santa Juana/mar</programlisting>será analizado
+          <para lang="es"><programlisting>Santa Juana/mar</programlisting>será analizado
           como: busca los elementos quecontengan santa <emphasis>o los
           elementos que contengan juana y mar o los dos</emphasis>.</para>
 
-          <para>Algunas palabras son ignoradas porque se consideran vacías de
+          <para lang="es">Algunas palabras son ignoradas porque se consideran vacías de
           contenido, por ejemplo: la, de, el, su, suyo, ...</para>
         </sect4>
 
         <sect4>
-          <title>El guión</title>
+          <title lang="es">El guión</title>
 
-          <para>El guión se considera como un operador entre dos palabras (ver
+          <para lang="es">El guión se considera como un operador entre dos palabras (ver
           un poco más abajo el capítulo : Operadores lógicos entre dos
           palabras). Así que toda palabra compuesta por un guión debe estar
           rodeada de de comillas para hacer la búsqueda por el término exacto
@@ -321,134 +321,134 @@
         </sect4>
 
         <sect4>
-          <title>Truncamiento</title>
+          <title lang="es">Truncamiento</title>
 
-          <para>Las palabras pueden truncarse por la derecha, la izquierda o
+          <para lang="es">Las palabras pueden truncarse por la derecha, la izquierda o
           parcialmente introduciendo el carácter *</para>
 
-          <para><programlisting>cam* </programlisting>buscará las palabras que
+          <para lang="es"><programlisting>cam* </programlisting>buscará las palabras que
           empiecen por cam (cama, camino, caminar, ...),</para>
 
-          <para><programlisting>*ogia</programlisting>buscará las palabras que
+          <para lang="es"><programlisting>*ogia</programlisting>buscará las palabras que
           acaben con "ogia" (psicología, teología, trilogía, ...),</para>
 
-          <para><programlisting>p*logía </programlisting>buscará las palabras
+          <para lang="es"><programlisting>p*logía </programlisting>buscará las palabras
           que empiezan por p y acaban con logía (psicología, paleontología,
           patología, ...).</para>
 
-          <para>Se puede utilizar más de un truncamiento para una misma
+          <para lang="es">Se puede utilizar más de un truncamiento para una misma
           palabra.</para>
         </sect4>
 
         <sect4 id="cat_recherche_termesexacts">
-          <title>Búsqueda por términos exactos</title>
+          <title lang="es">Búsqueda por términos exactos</title>
 
-          <para>Un término exacto debe estar rodeado de comillas. El motor de
+          <para lang="es">Un término exacto debe estar rodeado de comillas. El motor de
           búsqueda buscará exactamente los elementos contenidos entre las
           comillas.</para>
 
-          <para>Con la búsqueda exacta también se puede trucar.</para>
+          <para lang="es">Con la búsqueda exacta también se puede trucar.</para>
 
-          <para><programlisting>"dent"</programlisting>significa todos los
+          <para lang="es"><programlisting>"dent"</programlisting>significa todos los
           elementos que contengan el texto dent (dentista, accedente,
           intendente, ...).</para>
 
-          <para>La búsqueda exacta es práctica para buscar expresiones que
+          <para lang="es">La búsqueda exacta es práctica para buscar expresiones que
           contengan espacios o signos de puntuación. (una sigla por
           ejemplo).</para>
 
-          <para><programlisting>"A.N.P.E."</programlisting>buscará los
+          <para lang="es"><programlisting>"A.N.P.E."</programlisting>buscará los
           elementos que contentag el texto A.N.P.E.,</para>
 
-          <para><programlisting>A.N.P.E.</programlisting> buscará los
+          <para lang="es"><programlisting>A.N.P.E.</programlisting> buscará los
           elementos que contengan las letras A o N o P o E .</para>
 
-          <para>Los acentos y las mayúsculas/minúsculas non se tienen en
+          <para lang="es">Los acentos y las mayúsculas/minúsculas non se tienen en
           cuenta en una búsqueda exacta.</para>
 
-          <para>Finalmente, los términos exactos pueden ser utilizados junto
+          <para lang="es">Finalmente, los términos exactos pueden ser utilizados junto
           con todos operadores complejos descritos más abajo.</para>
         </sect4>
 
         <sect4>
-          <title>Negación</title>
+          <title lang="es">Negación</title>
 
-          <para>El símbolo ~ delante de un término representa una negación de
+          <para lang="es">El símbolo ~ delante de un término representa una negación de
           ese término, o se buscará todos los registros que no contengan ese
           término.</para>
 
-          <para><emphasis>Ej.</emphasis><programlisting>~trabajo</programlisting>
+          <para lang="es"><emphasis>Ej.</emphasis><programlisting>~trabajo</programlisting>
           se buscarán todos los registros excepto aquellos que incluyan la
           palabra trabajo.</para>
         </sect4>
 
         <sect4>
-          <title>Operadores lógicos entre dos palabras</title>
+          <title lang="es">Operadores lógicos entre dos palabras</title>
 
-          <para>Los operadores lógicos pueden utilizarse entre palabras
+          <para lang="es">Los operadores lógicos pueden utilizarse entre palabras
           :</para>
 
           <itemizedlist>
             <listitem>
-              <para>+ : operador Y</para>
+              <para lang="es">+ : operador Y</para>
 
-              <para><emphasis>Ej. </emphasis><programlisting>disco + duro</programlisting>
+              <para lang="es"><emphasis>Ej. </emphasis><programlisting>disco + duro</programlisting>
               buscará los elementos que contengan las palabras disco y
               duro.</para>
             </listitem>
 
             <listitem>
-              <para>- : operador EXCEPTO (Y NO)</para>
+              <para lang="es">- : operador EXCEPTO (Y NO)</para>
 
-              <para><emphasis>Ej. </emphasis><programlisting>disco - duro</programlisting>
+              <para lang="es"><emphasis>Ej. </emphasis><programlisting>disco - duro</programlisting>
               buscará los registros que contengan la palabra disco excepto
               aquellos que contenga la palabra duro.</para>
             </listitem>
           </itemizedlist>
 
-          <para>Los operadores pueden encadenarse dentro de una misma
+          <para lang="es">Los operadores pueden encadenarse dentro de una misma
           búsqueda. Se aplican según su orden, de izquierda a derecha.</para>
 
-          <para><emphasis>Ej.</emphasis> <programlisting>poesía + frances* - romántica*</programlisting>buscará
+          <para lang="es"><emphasis>Ej.</emphasis> <programlisting>poesía + frances* - romántica*</programlisting>buscará
           los elementos que contengan poesia y francés(a)(s) sin
           romántica(s).</para>
 
-          <para><emphasis role="bold">Atención</emphasis>, no se pueden poner
+          <para lang="es"><emphasis role="bold">Atención</emphasis>, no se pueden poner
           seguidos dos operadores, una negación no puede ir combinada con un
           operador (+~ significa lo mismo que el operadore -).</para>
         </sect4>
 
         <sect4>
-          <title>Reagrupaciones</title>
+          <title lang="es">Reagrupaciones</title>
 
-          <para>Una expresión puede ser reagrupada para convertirse en un
+          <para lang="es">Una expresión puede ser reagrupada para convertirse en un
           conjunto a buscar. Estos agrupamientos se hacen usando los
           paréntesis. Esto permite cambiar el orden de aplicación de los
           operadores para combinar resultados en búsquedas complejas.</para>
 
           <itemizedlist>
             <listitem>
-              <para><programlisting>poesía + (francesa romántica)</programlisting></para>
+              <para lang="es"><programlisting>poesía + (francesa romántica)</programlisting></para>
 
-              <para>buscará de todos los registros que contengan francesa o
+              <para lang="es">buscará de todos los registros que contengan francesa o
               romántica, únicamente aquellos que contengan poesia.</para>
             </listitem>
 
             <listitem>
-              <para><programlisting>(poesía + francesa) romántica</programlisting>buscará
+              <para lang="es"><programlisting>(poesía + francesa) romántica</programlisting>buscará
               todos los elementos que contengan poesía y francesa o todos los
               elementos que contengan romántica</para>
             </listitem>
 
             <listitem>
-              <para><programlisting>~(poesía + francesa) + (literatura ameri*)</programlisting>
+              <para lang="es"><programlisting>~(poesía + francesa) + (literatura ameri*)</programlisting>
               buscará todos los elementos que no contengan poesía y francesa y
               los elementos que contengan literatura o ameri* Los paréntesis
               pueden colocarse sin límites.</para>
             </listitem>
 
             <listitem>
-              <para><programlisting>(poesía + (francesa romántica)) (literatura + XIX)</programlisting>buscará
+              <para lang="es"><programlisting>(poesía + (francesa romántica)) (literatura + XIX)</programlisting>buscará
               de todos los elementos que contengan francesa o romántica,
               aquellos que contengan poesía o los elementos que contengan
               literatura y XIX</para>
@@ -457,23 +457,23 @@
         </sect4>
 
         <sect4>
-          <title>Pertinencia</title>
+          <title lang="es">Pertinencia</title>
 
-          <para>Los resultados se muestran por orden de pertinencia y por
+          <para lang="es">Los resultados se muestran por orden de pertinencia y por
           orden alfabético. La pertinencia se calcula simplemente por el
           número total de palabras o términos exactos encontrados.</para>
 
-          <para>Por ejemplo :</para>
+          <para lang="es">Por ejemplo :</para>
 
           <itemizedlist>
             <listitem>
-              <para>jamón bellota encontrará todos los elementos que contengan
+              <para lang="es">jamón bellota encontrará todos los elementos que contengan
               jamón o bellota, aquellos que contengan las dos palabras se
               mostrarán al inicio de la lista</para>
             </listitem>
 
             <listitem>
-              <para>~(poesía + francesa) (literatura ameri*) encontrará todos
+              <para lang="es">~(poesía + francesa) (literatura ameri*) encontrará todos
               los elementos que no contienen poesía y francesa, de estos
               elementos, aquellos que contienen literatura o améri* aparecerán
               en primer lugar en la lista de resultados (en primer luguar
@@ -485,27 +485,27 @@
     </sect2>
 
     <sect2>
-      <title>Nuevo registro</title>
+      <title lang="es">Nuevo registro</title>
 
       <sect3>
-        <title>Introducir un nuevo registro</title>
+        <title lang="es">Introducir un nuevo registro</title>
 
-        <para>La introducción de un nuevo registro se realiza en dos pantallas
+        <para lang="es">La introducción de un nuevo registro se realiza en dos pantallas
         : en la primera se pide un numero de identificación (el ISBN es lo
         usual) aunque no es obligatorio introducirlo. Si lo que se introduce
         es un EAN, pmb lo convierte automáticamente en ISBN.</para>
 
         <sect4 id="cat_create">
-          <title>Introducción del 'ISBN, del EAN o de un numero
+          <title lang="es">Introducción del 'ISBN, del EAN o de un numero
           comercial</title>
 
-          <para>Si el número identificador corresponde a un documento que ya
+          <para lang="es">Si el número identificador corresponde a un documento que ya
           está introducido en la base de datos, el registro que ya está en la
           base de datos se muestra directamente. De esta forma se evitan los
           duplicados en la base de datos.</para>
 
           <figure>
-            <title>Documentos &gt; Nuevo registro</title>
+            <title lang="es">Documentos &gt; Nuevo registro</title>
 
             <mediaobject>
               <imageobject>
@@ -514,15 +514,15 @@
             </mediaobject>
           </figure>
 
-          <para>Haz clic en siguiente para seguir con la creación del
+          <para lang="es">Haz clic en siguiente para seguir con la creación del
           registro.</para>
         </sect4>
 
         <sect4 id="cat_create_form">
-          <title>Introducir datos en el registro</title>
+          <title lang="es">Introducir datos en el registro</title>
 
           <figure>
-            <title>Documentos &gt; Nuevo registro (pantalla 2)</title>
+            <title lang="es">Documentos &gt; Nuevo registro (pantalla 2)</title>
 
             <mediaobject>
               <imageobject>
@@ -532,91 +532,91 @@
           </figure>
 
           <sect5>
-            <title>Escoger un tipo de documento</title>
+            <title lang="es">Escoger un tipo de documento</title>
 
-            <para>En la parte superior del formulario hay una lista
+            <para lang="es">En la parte superior del formulario hay una lista
             desplegable dónde se puede escoger entre los diferentes tipos de
             soportes :</para>
 
             <itemizedlist>
               <listitem>
-                <para>texto impreso</para>
+                <para lang="es">texto impreso</para>
               </listitem>
 
               <listitem>
-                <para>texto manuscrito</para>
+                <para lang="es">texto manuscrito</para>
               </listitem>
 
               <listitem>
-                <para>partitura musical impresa</para>
+                <para lang="es">partitura musical impresa</para>
               </listitem>
 
               <listitem>
-                <para>partitura musical manuscrita</para>
+                <para lang="es">partitura musical manuscrita</para>
               </listitem>
 
               <listitem>
-                <para>documento cartográfico impreso</para>
+                <para lang="es">documento cartográfico impreso</para>
               </listitem>
 
               <listitem>
-                <para>documento carográfico manuscrito</para>
+                <para lang="es">documento carográfico manuscrito</para>
               </listitem>
 
               <listitem>
-                <para>documento proyectable o video</para>
+                <para lang="es">documento proyectable o video</para>
               </listitem>
 
               <listitem>
-                <para>grabación sonora no musical</para>
+                <para lang="es">grabación sonora no musical</para>
               </listitem>
 
               <listitem>
-                <para>grabació sonora musical</para>
+                <para lang="es">grabació sonora musical</para>
               </listitem>
 
               <listitem>
-                <para>documento gráfico de dos dimensiones</para>
+                <para lang="es">documento gráfico de dos dimensiones</para>
               </listitem>
 
               <listitem>
-                <para>documento electrónico</para>
+                <para lang="es">documento electrónico</para>
               </listitem>
 
               <listitem>
-                <para>documento multimedia</para>
+                <para lang="es">documento multimedia</para>
               </listitem>
 
               <listitem>
-                <para>objeto tridimensional, artefactos, ...</para>
+                <para lang="es">objeto tridimensional, artefactos, ...</para>
               </listitem>
             </itemizedlist>
 
-            <para>Estos soportes corresponden a los soportes de documentos
+            <para lang="es">Estos soportes corresponden a los soportes de documentos
             definidos por la norma UNIMARC.</para>
 
-            <para><emphasis role="bold">Atención</emphasis> : no confundir con
+            <para lang="es"><emphasis role="bold">Atención</emphasis> : no confundir con
             tipo de documento, que hace referencia al ejemplar.</para>
           </sect5>
 
           <sect5>
-            <title>Título</title>
+            <title lang="es">Título</title>
 
-            <para>El título propio es el título principal de una obra.</para>
+            <para lang="es">El título propio es el título principal de una obra.</para>
 
-            <para>Aunque a veces el título de la cubierta coincide con el de
+            <para lang="es">Aunque a veces el título de la cubierta coincide con el de
             la portada, hay que tener en cuenta que el título propio es el de
             la portada. En caso de diferencias, el título de la cubierta se
             especificará en la zona de notas.</para>
 
-            <para>También puedes introducir un título propio para un autor
+            <para lang="es">También puedes introducir un título propio para un autor
             diferente, un título paralelo, así como complementos del
             título.</para>
 
-            <para>El título paralelo corresponde por ejemplo al título de la
+            <para lang="es">El título paralelo corresponde por ejemplo al título de la
             obra en la lengua original.</para>
 
-            <para>Finalmente, puedes introducir un título de serie. Un título
+            <para lang="es">Finalmente, puedes introducir un título de serie. Un título
             de serie es un título común a diferentes obras de un mismo autor.
             Por ejemplo <emphasis>Las aventuras de Tintín</emphasis> de
             <emphasis>Hergé</emphasis>. Los campos "Parte de" son diferentes a
@@ -624,7 +624,7 @@
             clic en botón "..."</para>
 
             <figure>
-              <title>Definir un título de serie</title>
+              <title lang="es">Definir un título de serie</title>
 
               <mediaobject>
                 <imageobject>
@@ -633,10 +633,10 @@
               </mediaobject>
             </figure>
 
-            <para>Escoge un título del popup.</para>
+            <para lang="es">Escoge un título del popup.</para>
 
             <figure>
-              <title>Popup para seleccionar el título de serie</title>
+              <title lang="es">Popup para seleccionar el título de serie</title>
 
               <mediaobject>
                 <imageobject>
@@ -645,7 +645,7 @@
               </mediaobject>
             </figure>
 
-            <para>Si tu título no está incluido en la lista del popup, haz
+            <para lang="es">Si tu título no está incluido en la lista del popup, haz
             clic en<emphasis> crear un título de serie</emphasis>. Introduce
             el nuevo título de serie, haz clic en <emphasis>Guardar</emphasis>
             y selecciona el título de la lista. No se puede suprimir ni
@@ -654,11 +654,11 @@
             escoge del menú <emphasis> Título de serie</emphasis>. Para más
             información, ver <xref linkend="autorites" />.</para>
 
-            <para>El título de serie seleccionado será automáticamente
+            <para lang="es">El título de serie seleccionado será automáticamente
             mostrado en el formulario del registro.</para>
 
             <figure>
-              <title>Para introducir un autor se puede hacer o a través de la
+              <title lang="es">Para introducir un autor se puede hacer o a través de la
               catalogación, o a través de la pestaña "autoridades" El título
               de serie seleccionado se muestra</title>
 
@@ -669,19 +669,19 @@
               </mediaobject>
             </figure>
 
-            <para>Para eliminar un título de serie, haz clic sobre el botón
+            <para lang="es">Para eliminar un título de serie, haz clic sobre el botón
             "X"</para>
 
-            <para>También puedes espeficiar un <emphasis>n° de
+            <para lang="es">También puedes espeficiar un <emphasis>n° de
             parte</emphasis>. Por ejemplo, <emphasis>Las aventuras de
             Tintin</emphasis>, n° <emphasis>11</emphasis>.</para>
           </sect5>
 
           <sect5>
-            <title>Introducir un autor (mención de responsabilidad)</title>
+            <title lang="es">Introducir un autor (mención de responsabilidad)</title>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, selección de
+              <title lang="es">Catalogación &gt; Nuevo registro, selección de
               autores</title>
 
               <mediaobject>
@@ -691,14 +691,14 @@
               </mediaobject>
             </figure>
 
-            <para>Para seleccionar un autor, haz clic sobre el botón "..."
+            <para lang="es">Para seleccionar un autor, haz clic sobre el botón "..."
             después selecciona al autor dentro del popup que sirve para poder
             buscar al autor. Para buscar un autor, introduce algunas letras de
             su apellido y haz clic sobre <emphasis>Buscar</emphasis>. Se
             mostrarán los resultados.</para>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, popup de selección de
+              <title lang="es">Catalogación &gt; Nuevo registro, popup de selección de
               un autor</title>
 
               <mediaobject>
@@ -708,12 +708,12 @@
               </mediaobject>
             </figure>
 
-            <para>Si el autor de la obra que quieres catalogar no está todavía
+            <para lang="es">Si el autor de la obra que quieres catalogar no está todavía
             entrado, añádelo a la base de datos haciendo clic sobre el botón
             <emphasis>Añadir un autor</emphasis>.</para>
 
             <figure>
-              <title>Catálogo &gt; Nuevo registro, añadir un autor en el
+              <title lang="es">Catálogo &gt; Nuevo registro, añadir un autor en el
               popup</title>
 
               <mediaobject>
@@ -723,13 +723,13 @@
               </mediaobject>
             </figure>
 
-            <para>Des de el apartado de catalogación puedes introducir nuevos
+            <para lang="es">Des de el apartado de catalogación puedes introducir nuevos
             autores, para editarlos o introducirlos también, puedes ir al
             apartado "autoridades". Para más información sobre la creación de
             un autor, ver <xref linkend="autorites_ajout_auteur" />.</para>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, autor
+              <title lang="es">Catalogación &gt; Nuevo registro, autor
               seleccionado</title>
 
               <mediaobject>
@@ -739,14 +739,14 @@
               </mediaobject>
             </figure>
 
-            <para>Si la palabra "autor" es la función que le corresponde al
+            <para lang="es">Si la palabra "autor" es la función que le corresponde al
             autor de un libro, ésta no es la función para el autor de una
             película, o para una diseñador de una cubierta, ... Para selecciar
             la función que le corresponde a cada autor (no es obligatorio),
             haz clic sobre el botón "...".</para>
 
             <figure>
-              <title>Popup de selección de una función para un autor</title>
+              <title lang="es">Popup de selección de una función para un autor</title>
 
               <mediaobject>
                 <imageobject>
@@ -755,11 +755,11 @@
               </mediaobject>
             </figure>
 
-            <para>Algunas observaciones :</para>
+            <para lang="es">Algunas observaciones :</para>
 
             <itemizedlist>
               <listitem>
-                <para>Sólo puede haber un autor principal para cada obra, pero
+                <para lang="es">Sólo puede haber un autor principal para cada obra, pero
                 sí que puede haber otros autores i/o otros autores
                 secundarios. Para seleccionar <emphasis>otro autor</emphasis>
                 o un <emphasis>autor secundario</emphasis> haz clic sobre el
@@ -768,18 +768,18 @@
               </listitem>
 
               <listitem>
-                <para>para eliminar un autor o una función seleccionada, haz
+                <para lang="es">para eliminar un autor o una función seleccionada, haz
                 clic sobre el botón "X"</para>
               </listitem>
             </itemizedlist>
           </sect5>
 
           <sect5>
-            <title>Introducción de una editorial, colecciones, subcolecciones
+            <title lang="es">Introducción de una editorial, colecciones, subcolecciones
             y títulos de serie</title>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, zona de la Edición,
+              <title lang="es">Catalogación &gt; Nuevo registro, zona de la Edición,
               colección</title>
 
               <mediaobject>
@@ -789,54 +789,54 @@
               </mediaobject>
             </figure>
 
-            <para>Durante la catalogación se pueden introducir nuevas
+            <para lang="es">Durante la catalogación se pueden introducir nuevas
             colecciones, subcolecciones o títulos de serie. Para modificar
             datos de estos campos, hazlo desde el apartado
             "autoridades".</para>
 
-            <para>En el popup de selección de la subcolección, selecciona una
+            <para lang="es">En el popup de selección de la subcolección, selecciona una
             subcolección <emphasis>o</emphasis> escoge <emphasis>crear una
             subcolección</emphasis>, llema los campos que conozcas y haz clic
             sobre el botón de la colección de la colección madre para
             escogerla.</para>
 
-            <para>En el popup de selección de la colección de la cual forma
+            <para lang="es">En el popup de selección de la colección de la cual forma
             parte nuestra subcolección, selecciona una colección o haz clic
             sobre <emphasis>crear una colección</emphasis>, llena los campos
             conocidos excepto la editorial para la que tendrás que hacer clic
             en el botón de seleccionar una editorial.</para>
 
-            <para>En el popup de selección de la editorial, selecciona una
+            <para lang="es">En el popup de selección de la editorial, selecciona una
             editorial <emphasis>o </emphasis>escoge <emphasis>crear una
             editorial</emphasis> y completa los datos.</para>
 
-            <para>Una vez los datos están introducidos, selecciona la
+            <para lang="es">Una vez los datos están introducidos, selecciona la
             editorial de la colección, después la colección para la
             subcolección y finalmente guarda la subcolección y
             seleccionala.</para>
 
-            <para>De forma general, escoge el elementos más específico en
+            <para lang="es">De forma general, escoge el elementos más específico en
             primer lugar. Primero la subcolección, luego la colección,
             finalmente la editorial.</para>
 
-            <para>Cada colección se corresponde con una editorial :
+            <para lang="es">Cada colección se corresponde con una editorial :
             <emphasis>PUF</emphasis>, colección <emphasis>Que Sais-je
             ?</emphasis></para>
 
-            <para>Una subcolección depende de una colección superior : Nathan
+            <para lang="es">Una subcolección depende de una colección superior : Nathan
             Université, collection 128, subcolección Histoire.</para>
 
-            <para>Un título de serie se utiliza en una obra en varios
+            <para lang="es">Un título de serie se utiliza en una obra en varios
             volúmenes, de los cuales cada volúmen tiene un título propio y el
             total de la obra tiene un título colectivo..</para>
 
-            <para><emphasis role="bold">Ejemplo</emphasis> Pullman, Philip
+            <para lang="es"><emphasis role="bold">Ejemplo</emphasis> Pullman, Philip
             <emphasis role="bold">Título de serie</emphasis> A la croisée des
             mondes <emphasis role="bold">Número de la parte</emphasis> Volúmen
             1 <emphasis role="bold">Título propio</emphasis> Les royaumes du
             Nord</para>
 
-            <para>Para introducir este tipo de registros, es necesario crear
+            <para lang="es">Para introducir este tipo de registros, es necesario crear
             con anterioridad en PMB las colecciones y los títulos de serie des
             de el apartado Autoridades. Los campos de número de la parte y
             título de cada volúmen se introducen cuando se cataloga el
@@ -844,9 +844,9 @@
           </sect5>
 
           <sect5>
-            <title>ISBN, EAN o nº comercial</title>
+            <title lang="es">ISBN, EAN o nº comercial</title>
 
-            <para>El ISBN, que aparece en la primera pantalla cuando creas un
+            <para lang="es">El ISBN, que aparece en la primera pantalla cuando creas un
             registro, se muestra también aquí. Haz clic sobre el botón "..."
             para abrir el popup y poder introducir el EAN de la obra (con el
             lector de códigos de barras), o introducir el ISBN directamente.
@@ -854,11 +854,11 @@
             evitar que al introducir el EAN con el lector de códigos de
             barras, el registro se cierre al validar el campo.</para>
 
-            <para>PMB convierte los EAN introducidos (código de barras
+            <para lang="es">PMB convierte los EAN introducidos (código de barras
             comercial) automáticamente en ISBN.</para>
 
             <figure>
-              <title>Catálogo &gt; Nuevo registro, zona del ISBN</title>
+              <title lang="es">Catálogo &gt; Nuevo registro, zona del ISBN</title>
 
               <mediaobject>
                 <imageobject>
@@ -869,14 +869,14 @@
           </sect5>
 
           <sect5>
-            <title>Colación</title>
+            <title lang="es">Colación</title>
 
-            <para>La colación son las diferentes informaciones asociadas al
+            <para lang="es">La colación son las diferentes informaciones asociadas al
             aspecto físico del documento : tamaño, ilustraciones, formato,
             precio, y material de acompañamiento.</para>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, zona de la
+              <title lang="es">Catalogación &gt; Nuevo registro, zona de la
               colación</title>
 
               <mediaobject>
@@ -888,16 +888,16 @@
           </sect5>
 
           <sect5>
-            <title>Notas</title>
+            <title lang="es">Notas</title>
 
-            <para>Las notas pueden ser de tres tipos :
+            <para lang="es">Las notas pueden ser de tres tipos :
             <emphasis>general</emphasis>, asociadas al
             <emphasis>contenido</emphasis>, o <emphasis>un resumen, o un
             extracto </emphasis>del documento (por ejemplo el resumen de una
             novela).</para>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, zona de notas</title>
+              <title lang="es">Catalogación &gt; Nuevo registro, zona de notas</title>
 
               <mediaobject>
                 <imageobject>
@@ -908,25 +908,25 @@
           </sect5>
 
           <sect5>
-            <title>Indexación</title>
+            <title lang="es">Indexación</title>
 
-            <para>La zona de indexación se compone de tres indexaciones
+            <para lang="es">La zona de indexación se compone de tres indexaciones
             diferentes :</para>
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">Materias</emphasis> : añade una
+                <para lang="es"><emphasis role="bold">Materias</emphasis> : añade una
                 materia del tesauro interno de de PMB. Para más información
                 sobre las materias, ver <xref linkend="autorites_categ" />
                 .</para>
 
-                <para>Para seleccionar una materia, haz clic sobre el botón
+                <para lang="es">Para seleccionar una materia, haz clic sobre el botón
                 "...". Para añadir una materia suplementaria, haz clic sobre
                 el botón "+". Para suprimir una materia del registro, haz clic
                 sobre el botón "X".</para>
 
                 <figure>
-                  <title>Catalogación &gt; Nuevo registro, popup de selección
+                  <title lang="es">Catalogación &gt; Nuevo registro, popup de selección
                   de materia</title>
 
                   <mediaobject>
@@ -936,19 +936,19 @@
                   </mediaobject>
                 </figure>
 
-                <para>Puedes crear una categoría nueva haciendo clic en el
+                <para lang="es">Puedes crear una categoría nueva haciendo clic en el
                 botón Añadir.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">Indexación</emphasis> : añade una
+                <para lang="es"><emphasis role="bold">Indexación</emphasis> : añade una
                 clasificación decimal. Para más información, consulta el
                 capítulo <emphasis>Autoridades</emphasis>, sección
                 <emphasis>Indexación</emphasis>.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">Indexación libre</emphasis> : en
+                <para lang="es"><emphasis role="bold">Indexación libre</emphasis> : en
                 este apartado puedes añadir palabras clave, separadas por
                 espacios. Puedes incluir palabras clave o una indexación libre
                 de un tesauro no integrado a PMB.</para>
@@ -956,7 +956,7 @@
             </itemizedlist>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, zona de la
+              <title lang="es">Catalogación &gt; Nuevo registro, zona de la
               indexación</title>
 
               <mediaobject>
@@ -968,21 +968,21 @@
           </sect5>
 
           <sect5>
-            <title>Idioma de la publicación</title>
+            <title lang="es">Idioma de la publicación</title>
 
-            <para>Especifica aquí la lengua del documento, ésta puede
+            <para lang="es">Especifica aquí la lengua del documento, ésta puede
             especificarse en las preferencias del usuario. Para más
             información sobre cómo especificar una lengua en concencreto,
             consulta el capítulo Preferencias de los usuarios.</para>
 
-            <para>Los códigos de lengua están definidos según la noma
+            <para lang="es">Los códigos de lengua están definidos según la noma
             UNIMARC.</para>
 
-            <para>También puedes especificar la lengua original del documento
+            <para lang="es">También puedes especificar la lengua original del documento
             en caso de que el documento sea una traducción.</para>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registrovelle , zona del
+              <title lang="es">Catalogación &gt; Nuevo registrovelle , zona del
               idioma</title>
 
               <mediaobject>
@@ -994,19 +994,19 @@
           </sect5>
 
           <sect5>
-            <title>Enlaces (recursos electrónicos)</title>
+            <title lang="es">Enlaces (recursos electrónicos)</title>
 
-            <para>La URL asociada debe introducirse entera (con el http://
+            <para lang="es">La URL asociada debe introducirse entera (con el http://
             incluído) para asegurar el funcionamiento correcto del enlace, sea
             cual sea el usuario.</para>
 
-            <para>El formato electrónico de un recurso se deja a discreción
+            <para lang="es">El formato electrónico de un recurso se deja a discreción
             del catalogador. Se recomienda poner al principio del campo el
             formato del archivo, por ejemplo "archivo PDF" o "archivo de
             Acrobat", y menciones también genéricas : "en línea".</para>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, zona de los
+              <title lang="es">Catalogación &gt; Nuevo registro, zona de los
               enlaces</title>
 
               <mediaobject>
@@ -1016,7 +1016,7 @@
               </mediaobject>
             </figure>
 
-            <para><emphasis role="bold">Ir un poco más allá : las fuentes
+            <para lang="es"><emphasis role="bold">Ir un poco más allá : las fuentes
             RSS</emphasis> Puedes asociar una fuente RSS a un registro. Una
             fuente RSS es un flujo de información que emitido continuamente
             por una página web de internet. La fuente RSS del web lemonde.fr
@@ -1026,7 +1026,7 @@
             puedan consultar las últimas noticias de lemonde a través de tu
             opac.</para>
 
-            <para>Para asociar una fuente RSS introduce la URL correspondiente
+            <para lang="es">Para asociar una fuente RSS introduce la URL correspondiente
             (la dirección es fácil de encontrar en el web) en el campo URL
             asociado. Introduce como formato electrónico RSS NN donde NN es el
             número en minutos para actualizar la información de la fuente RSS.
@@ -1038,13 +1038,13 @@
           </sect5>
 
           <sect5>
-            <title>Campos personalizados</title>
+            <title lang="es">Campos personalizados</title>
 
-            <para>Finalmente, cuando proceda, el la parte inferior del
+            <para lang="es">Finalmente, cuando proceda, el la parte inferior del
             registro, puedes definir valores correspondientes a los campos
             personalizados que hayas creado.</para>
 
-            <para>Los campos personalizados de los registros son informaciones
+            <para lang="es">Los campos personalizados de los registros son informaciones
             suplementarias que puedes utilizar para personalizar la
             información de los registros con datos que tus usuarios puedan
             necesitar. Para crearlos ve a <emphasis>Administración</emphasis>
@@ -1053,11 +1053,11 @@
             consulta la <emphasis>Guía del Administrador</emphasis>, capítulo
             <emphasis>Registros</emphasis>.</para>
 
-            <para>Si no hay ningún campo personalizado definido, esta zona no
+            <para lang="es">Si no hay ningún campo personalizado definido, esta zona no
             se muestra.</para>
 
             <figure>
-              <title>Catalogación &gt; Nuevo registro, zona campos
+              <title lang="es">Catalogación &gt; Nuevo registro, zona campos
               personalizados</title>
 
               <mediaobject>
@@ -1068,20 +1068,20 @@
             </figure>
           </sect5>
 
-          <para>Una vez los diferentes campos del registro está completados,
+          <para lang="es">Una vez los diferentes campos del registro está completados,
           haz clic en <emphasis>Guardar</emphasis>. El registro se guardará, y
           se mostrará la lista de ejemplares del documento.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_isbd">
-        <title>Lista de ejemplares de un documento</title>
+        <title lang="es">Lista de ejemplares de un documento</title>
 
-        <para>la pantalla siguiente muestra el registro en formato ISBD y los
+        <para lang="es">la pantalla siguiente muestra el registro en formato ISBD y los
         ejemplares que le corresponden.</para>
 
         <figure>
-          <title>catalogación &gt; documentos, lista de ejemplares de un
+          <title lang="es">catalogación &gt; documentos, lista de ejemplares de un
           documento</title>
 
           <mediaobject>
@@ -1091,37 +1091,37 @@
           </mediaobject>
         </figure>
 
-        <para>Para modificar el registro de un documento, haz clic en
+        <para lang="es">Para modificar el registro de un documento, haz clic en
         <emphasis>Modificar</emphasis>. La modificación de un registro es la
         misma pantalla que la de crear un registro.</para>
 
-        <para>Puedes <emphasis>Añadir un ejemplar.</emphasis></para>
+        <para lang="es">Puedes <emphasis>Añadir un ejemplar.</emphasis></para>
 
-        <para>También puedes <emphasis>Añadir un documento
+        <para lang="es">También puedes <emphasis>Añadir un documento
         electrónico</emphasis>.</para>
 
-        <para>Si el registro ya tiene ejemplares, puedes modificar los
+        <para lang="es">Si el registro ya tiene ejemplares, puedes modificar los
         ejemplares cuando proceda haciendo clic sobre el número de
         ejemplar.</para>
 
-        <para>Si el registro tiene documentos electrónicos, puedes verlos o
+        <para lang="es">Si el registro tiene documentos electrónicos, puedes verlos o
         modificarlos. Para verlos haz clic en el icono que lo identifica. Para
         modificarlo, haz clic sobre su título.</para>
 
         <sect4>
-          <title>Modificar un registro</title>
+          <title lang="es">Modificar un registro</title>
 
-          <para>Para modificar un registro, haz clic sobre el botón Modificar
+          <para lang="es">Para modificar un registro, haz clic sobre el botón Modificar
           que está en la parte inferior del registro, justo antes de la lista
           de ejemplares.</para>
 
-          <para>Cuando modificas un registro lo haces sobre la misma pantalla
+          <para lang="es">Cuando modificas un registro lo haces sobre la misma pantalla
           de cuando creas un registro (ver más arriba la sección 1.2.1.2
           Introducir datos de un registro). Además tienes otros botones
           suplementarios que permiten otras accciones:</para>
 
           <figure>
-            <title>Botones disponibles en la parte inferior de la pantalla de
+            <title lang="es">Botones disponibles en la parte inferior de la pantalla de
             modificación de un registro</title>
 
             <mediaobject>
@@ -1132,27 +1132,27 @@
           </figure>
 
           <sect5>
-            <title>Reemplazar por</title>
+            <title lang="es">Reemplazar por</title>
 
-            <para>Permite reemplazar un registro por otro, esto permite juntar
+            <para lang="es">Permite reemplazar un registro por otro, esto permite juntar
             diversos ejemplares duplicados o separados.</para>
           </sect5>
 
           <sect5>
-            <title>Duplicar</title>
+            <title lang="es">Duplicar</title>
 
-            <para>Permite duplicar un registro. Al duplicar se muestra un
+            <para lang="es">Permite duplicar un registro. Al duplicar se muestra un
             nuevo registro que se puede modificar para aplicar las diferencias
             con el registro original.</para>
 
-            <para>Esta acción es muy útil a la hora de catalogar toda una
+            <para lang="es">Esta acción es muy útil a la hora de catalogar toda una
             coleccción o una serie.</para>
           </sect5>
 
           <sect5>
-            <title>Hist.</title>
+            <title lang="es">Hist.</title>
 
-            <para>Esta acción sólo se muestra si la autoría de los registros y
+            <para lang="es">Esta acción sólo se muestra si la autoría de los registros y
             ejemplares está activa. Permite ver quién ha creado el registro,
             quién lo ha modificado, etc. Toda esta información se muestra en
             un popup y depende del tipo de auditoría escogida. Para más
@@ -1161,7 +1161,7 @@
             general llamado type_audit.</para>
 
             <figure>
-              <title>Historial</title>
+              <title lang="es">Historial</title>
 
               <mediaobject>
                 <imageobject>
@@ -1172,32 +1172,32 @@
           </sect5>
 
           <sect5>
-            <title>Z39.50</title>
+            <title lang="es">Z39.50</title>
 
-            <para>Permite buscar un registro a través de la pasarela Z39.50.
+            <para lang="es">Permite buscar un registro a través de la pasarela Z39.50.
             Este botón inicia una búsqueda a partir del ISBN del
             registro.</para>
           </sect5>
 
           <sect5>
-            <title>Eliminar</title>
+            <title lang="es">Eliminar</title>
 
-            <para>Permite eliminar un registro. Atención, no puedrás eliminar
+            <para lang="es">Permite eliminar un registro. Atención, no puedrás eliminar
             un registro que tenga ejemplares o documentos electrónicos
             asociados.</para>
           </sect5>
         </sect4>
 
         <sect4 id="cat_expl_create">
-          <title>Añadir un ejemplar</title>
+          <title lang="es">Añadir un ejemplar</title>
 
-          <para>Para modificar un ejemplar de un documento, haz clic en su
+          <para lang="es">Para modificar un ejemplar de un documento, haz clic en su
           código de barras. Para añadir un ejemplar, introduce el número de
           ejemplar y haz clic en <emphasis>Añadir un
           ejemplar</emphasis>.</para>
 
           <figure>
-            <title>Añadir un ejemplar : introducir el número de
+            <title lang="es">Añadir un ejemplar : introducir el número de
             ejemplar</title>
 
             <mediaobject>
@@ -1207,14 +1207,14 @@
             </mediaobject>
           </figure>
 
-          <para>El número de ejemplar es el código de barras que tú has
+          <para lang="es">El número de ejemplar es el código de barras que tú has
           colocado en la cubierta o en la portada del documento, en el caso
           que utilices un lector de códigos de barra. En caso contrario, se
           necesita un número distinto para cada uno de los ejemplares de la
           biblioteca (un número de inventario).</para>
 
           <figure>
-            <title>Añadir un ejemplar</title>
+            <title lang="es">Añadir un ejemplar</title>
 
             <mediaobject>
               <imageobject>
@@ -1223,12 +1223,12 @@
             </mediaobject>
           </figure>
 
-          <para>La pantalla de añadir un ejemplar permite introducir alguna
+          <para lang="es">La pantalla de añadir un ejemplar permite introducir alguna
           información más :</para>
 
           <itemizedlist>
             <listitem>
-              <para>se muestra el <emphasis role="bold">n° de
+              <para lang="es">se muestra el <emphasis role="bold">n° de
               ejemplar</emphasis>. Esta información es <emphasis
               role="bold">obligatoria</emphasis>. Para modificarlo haz clic en
               botón "..." y introduce el nuevo código de barras en el
@@ -1236,7 +1236,7 @@
             </listitem>
 
             <listitem>
-              <para>introduce una <emphasis role="bold">signatura</emphasis>.
+              <para lang="es">introduce una <emphasis role="bold">signatura</emphasis>.
               Esta información es <emphasis
               role="bold">obligatoria</emphasis>. La signatura se compone a
               menudo de la indexación decimal y de las tres primeras letras
@@ -1244,7 +1244,7 @@
             </listitem>
 
             <listitem>
-              <para>selecciona el <emphasis role="bold">tipo de documento
+              <para lang="es">selecciona el <emphasis role="bold">tipo de documento
               </emphasis>de entre las diferentes opciones que se muestran. La
               lista de los diferentes tipos de documentos se configura en
               <emphasis>Administración &gt; Ejemplares &gt; Tipos de
@@ -1252,20 +1252,20 @@
             </listitem>
 
             <listitem>
-              <para>selecciona la <emphasis role="bold">localización
+              <para lang="es">selecciona la <emphasis role="bold">localización
               </emphasis>del menú desplegable. La lista de las localizaciones
               se configura en <emphasis>Administración &gt; Ejemplares &gt;
               Localizaciones</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para>selecciona la <emphasis role="bold">sección</emphasis>. La
+              <para lang="es">selecciona la <emphasis role="bold">sección</emphasis>. La
               lista de secciones se configura en <emphasis>Administración &gt;
               Ejemplares &gt; Secciones</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para>selecciona un <emphasis
+              <para lang="es">selecciona un <emphasis
               role="bold">proprietario</emphasis> del ejemplar de entre la
               lista del menú desplegable. La lista de propietarios se
               configura <emphasis>en Administración &gt; Ejemplares &gt;
@@ -1275,36 +1275,36 @@
             </listitem>
 
             <listitem>
-              <para>selecciona el <emphasis role="bold">estado</emphasis> del
+              <para lang="es">selecciona el <emphasis role="bold">estado</emphasis> del
               ejemplar de entre las opciones del menú desplegable. La lista de
               estados se configura en <emphasis>Administración &gt; Ejemplares
               &gt; Estados</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para>selecciona el <emphasis role="bold">código estadístico
+              <para lang="es">selecciona el <emphasis role="bold">código estadístico
               </emphasis>del ejemplar de entre las opciones del menú
               desplegable.</para>
             </listitem>
 
             <listitem>
-              <para>también puedes introducir algunas <emphasis
+              <para lang="es">también puedes introducir algunas <emphasis
               role="bold">notas</emphasis> asociadas al ejemplar. Estas notas
               o mensaje se mostrará antes de realizar un préstamo. Por ejemplo
               : "incluye cd, verifica que esté incluído".</para>
             </listitem>
 
             <listitem>
-              <para>también puedes definir un tipo de préstamo.</para>
+              <para lang="es">también puedes definir un tipo de préstamo.</para>
             </listitem>
           </itemizedlist>
 
-          <para>Algunos de estos campos pueden incluir un valor por defecto
+          <para lang="es">Algunos de estos campos pueden incluir un valor por defecto
           definido por en tu <emphasis>preferencias de usuario</emphasis>.
           Para más información, consulta el capítulo <emphasis>Prerencias
           usuario</emphasis>.</para>
 
-          <para><emphasis>Debajo del precio </emphasis>figuran los <emphasis
+          <para lang="es"><emphasis>Debajo del precio </emphasis>figuran los <emphasis
           role="bold">campos personalizados </emphasis>del ejemplar. Se
           mostrarán todos los datos suplementarios que hayas definido o que
           definas en <emphasis>Administración &gt; Ejemplares &gt;
@@ -1312,7 +1312,7 @@
           <emphasis>Guía del Administrador de PMB</emphasis>, capítulo
           <emphasis>Ejemplares</emphasis>.</para>
 
-          <para>Para guardar los cambios haz clic sobre
+          <para lang="es">Para guardar los cambios haz clic sobre
           <emphasis>Guardar</emphasis> o sobre <emphasis>Cancelar</emphasis>
           si no quieres guardar los cambios. Cuando tienes abierto un ejemplar
           para modificarlo, también puedes <emphasis>Eliminar </emphasis>ese
@@ -1320,15 +1320,15 @@
         </sect4>
 
         <sect4 id="cat_explnum_create">
-          <title>Añadir un documento electrónico</title>
+          <title lang="es">Añadir un documento electrónico</title>
 
-          <para>Los ejemplares electrónicos no son enlaces, sino que son
+          <para lang="es">Los ejemplares electrónicos no son enlaces, sino que son
           documentos directamente integrados en el catálogo de PMB. Puedes
           añadir al catálogo documentos en formato PDF, archivos de sonido en
           formato MP3, documentos de texto, imágenes, ...</para>
 
           <figure>
-            <title>Introducir un documento electrónico</title>
+            <title lang="es">Introducir un documento electrónico</title>
 
             <mediaobject>
               <imageobject>
@@ -1337,23 +1337,23 @@
             </mediaobject>
           </figure>
 
-          <para>Puedes introducir algunos datos :</para>
+          <para lang="es">Puedes introducir algunos datos :</para>
 
           <itemizedlist>
             <listitem>
-              <para>un <emphasis role="bold">nombre</emphasis> del
+              <para lang="es">un <emphasis role="bold">nombre</emphasis> del
               documento</para>
             </listitem>
 
             <listitem>
-              <para>el <emphasis role="bold">archivo</emphasis> del documento
+              <para lang="es">el <emphasis role="bold">archivo</emphasis> del documento
               electrónico. Haz clic sobre el botón <emphasis>Navega</emphasis>
               (o <emphasis>Navegar</emphasis> según el navegador que uses) y
               selecciona el archivo para cargarlo en el servidor.</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">una imagen</emphasis> (imagen que se
+              <para lang="es"><emphasis role="bold">una imagen</emphasis> (imagen que se
               mostrará como el icono del documento electrónico). Haz clic
               sobre el botón <emphasis>Navega</emphasis> (o
               <emphasis>Navegar</emphasis> según el navegador que uses) y
@@ -1361,19 +1361,19 @@
             </listitem>
 
             <listitem>
-              <para>puedes igualmente cargar también archivos en el servidor
+              <para lang="es">puedes igualmente cargar también archivos en el servidor
               que no estén en tu disco duro sino en tu intranet o en internet.
               En este caso especifica el <emphasis role="bold">URL
               </emphasis>del archivo.</para>
             </listitem>
           </itemizedlist>
 
-          <para>PMB genera automáticamente las imágenes que se usarán como
+          <para lang="es">PMB genera automáticamente las imágenes que se usarán como
           icono de imágenes en formato GIF, JPG y PNG a partir del archivo, y
           utiliza los iconos apropiados para la mayoría de formatos de
           arvhivos.</para>
 
-          <para>Puedes guardar los cambios o modificaciones haciendo clic
+          <para lang="es">Puedes guardar los cambios o modificaciones haciendo clic
           sobre <emphasis>Guardar</emphasis> o bien
           <emphasis>Cancelar</emphasis>. Si tienes abierto un documento
           electrónico para modificarlo, también lo puedes
@@ -1381,15 +1381,15 @@
         </sect4>
 
         <sect4 id="cat_edit_expl">
-          <title>Modificar un ejemplar</title>
+          <title lang="es">Modificar un ejemplar</title>
 
-          <para>La pantalla de modificación es idéntica a la de crear un
+          <para lang="es">La pantalla de modificación es idéntica a la de crear un
           ejemplar, aunque incluye dos botones más : Hist. y Eliminar.</para>
 
           <sect5>
-            <title>Hist.</title>
+            <title lang="es">Hist.</title>
 
-            <para>Este botón no se muestra si la auditoría de los registros y
+            <para lang="es">Este botón no se muestra si la auditoría de los registros y
             los ejemplares no está activada. Esta función permite ver quién ha
             realizado la catalogación de un registro, quién lo ha modificado,
             etc. La información se muestra en un popup y puede variar según el
@@ -1400,30 +1400,30 @@
           </sect5>
 
           <sect5>
-            <title>Eliminar</title>
+            <title lang="es">Eliminar</title>
 
-            <para>Permite eliminar el ejemplar que se visualiza. Atención, un
+            <para lang="es">Permite eliminar el ejemplar que se visualiza. Atención, un
             ejemplar no se puede elimnar si está prestado.</para>
           </sect5>
         </sect4>
 
         <sect4>
-          <title>Modificar un documento electrónico</title>
+          <title lang="es">Modificar un documento electrónico</title>
 
-          <para>La pantalla de modificación de un documento electrónico es
+          <para lang="es">La pantalla de modificación de un documento electrónico es
           idéntica a la de crear un documento electrónico.</para>
         </sect4>
       </sect3>
     </sect2>
 
     <sect2 id="cat_last_records">
-      <title>Últimos registros</title>
+      <title lang="es">Últimos registros</title>
 
-      <para>Éste apartado permite acceder a los últimos registros
+      <para lang="es">Éste apartado permite acceder a los últimos registros
       creados.</para>
 
       <figure>
-        <title>Catálogo &gt; Documentos &gt; Últimos registros</title>
+        <title lang="es">Catálogo &gt; Documentos &gt; Últimos registros</title>
 
         <mediaobject>
           <imageobject>
@@ -1432,33 +1432,33 @@
         </mediaobject>
       </figure>
 
-      <para>El acceso a los últimos registros permite al bibliotecario
+      <para lang="es">El acceso a los últimos registros permite al bibliotecario
       encontrar rápidamente un registro que se acaba de crear para corregirlo,
       recticar alguna cosa que se ha olvidado incluir, ...</para>
     </sect2>
   </sect1>
 
   <sect1 id="cat_serial">
-    <title>Publicaciones períodicas</title>
+    <title lang="es">Publicaciones períodicas</title>
 
-    <para>PMB permite introducir informaciones específicas asociadas a las
+    <para lang="es">PMB permite introducir informaciones específicas asociadas a las
     publicaciones periódicas; estos datos suelen ser el número de publicación,
     la periodicidad, ... ; o también las informaciones asocidadas a los
     artículos incluídos en cada número.</para>
 
     <sect2 id="cat_serial_vocabulary">
-      <title>Un poco de vocabulario</title>
+      <title lang="es">Un poco de vocabulario</title>
 
-      <para>Utilizamos el término de publicación periódica para toda aquella
+      <para lang="es">Utilizamos el término de publicación periódica para toda aquella
       publicación en serie (impresa o no) que aparece con intervalos de
       periodicidad más o menos regulares y bajo un título uniforme.</para>
 
-      <para>Para entender cómo utiliza las publicaciones periódicas PMB, hay
+      <para lang="es">Para entender cómo utiliza las publicaciones periódicas PMB, hay
       que conocer cuatro término :</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">la publicación periódica</emphasis> se
+          <para lang="es"><emphasis role="bold">la publicación periódica</emphasis> se
           define en PMB por un registro (llamado <emphasis
           role="bold">registro padre</emphasis> o <emphasis
           role="bold">registro origen</emphasis>) dónde se incluye el título
@@ -1469,7 +1469,7 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">el número </emphasis> (a veces llamado
+          <para lang="es"><emphasis role="bold">el número </emphasis> (a veces llamado
           <emphasis role="bold">boletín</emphasis>) hace referencia a
           <emphasis>le Monde</emphasis> el número <emphasis>32478</emphasis>
           publicado el <emphasis>15 agosto 2002</emphasis>. Describir un
@@ -1480,14 +1480,14 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">el ejemplar</emphasis> corresponde al
+          <para lang="es"><emphasis role="bold">el ejemplar</emphasis> corresponde al
           estado físico de un número. Si tienes dos subscripciones a le Monde,
           tendrás en tu fondo <emphasis>dos ejemplares</emphasis> del número
           <emphasis>32478</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">el artículo</emphasis> (o <emphasis
+          <para lang="es"><emphasis role="bold">el artículo</emphasis> (o <emphasis
           role="bold">analítica</emphasis>) es la información que se incluye
           en el catálogo sobre la información incluida en cada número de una
           publicación. Los datos que se incluyen (analítica) y se catalogan
@@ -1496,7 +1496,7 @@
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">Recapitulemos</emphasis> : Nosotros estamos
+      <para lang="es"><emphasis role="bold">Recapitulemos</emphasis> : Nosotros estamos
       subscritos a le Monde (un <emphasis role="">registro de publicación
       periódica</emphasis>), que contiene el número 32478 (un número o
       <emphasis>boletín</emphasis>), del cual nosotros tenemos dos ejemplares
@@ -1508,14 +1508,14 @@
       mostrará junto con la información sobre el número al cual pertenece y la
       disponibilidad de ejemplares.</para>
 
-      <para>Si no se ha introducido ninguna información en PMB, para poder
+      <para lang="es">Si no se ha introducido ninguna información en PMB, para poder
       catalogar un artículo hay que seguir diferentes etapas, primero hay que
       catalogar la publicación periódica, luego crear el listado de números,
       luego introducir los ejemplares y finalmente catalogar el artículo (o
       analítica).</para>
 
       <figure>
-        <title>Navegación entre las pantallas de visualización de las
+        <title lang="es">Navegación entre las pantallas de visualización de las
         publicaciones periódicas</title>
 
         <mediaobject>
@@ -1525,7 +1525,7 @@
         </mediaobject>
       </figure>
 
-      <para>Cuando se muestra de un registro de una publicaión periódica (en
+      <para lang="es">Cuando se muestra de un registro de una publicaión periódica (en
       el ejemplo <emphasis>Géo</emphasis>), uno de sus número (en el ejemplo
       el nº <emphasis>278</emphasis>) o uno de los artículos de este número,
       en la parte superior de la pantalla aparece una barra de navegación.
@@ -1534,19 +1534,19 @@
     </sect2>
 
     <sect2 id="cat_serial_search">
-      <title>Buscar publicaciones periódicas</title>
+      <title lang="es">Buscar publicaciones periódicas</title>
 
-      <para>La búsqueda de documentos permite buscar dentro del apartado de
+      <para lang="es">La búsqueda de documentos permite buscar dentro del apartado de
       catalogación, y permite buscar también publicaciones periódicas y
       artículos.</para>
 
-      <para>La búsqueda de publicaciones periódicas permite, acceder
+      <para lang="es">La búsqueda de publicaciones periódicas permite, acceder
       rápidamente a una publicación periódica concreta, a la cual se quiere
       añadir un nuevo número que ha llegado a la biblioteca o, continuar
       catalogando artículos de un número.</para>
 
       <figure>
-        <title>Catálogo &gt; P. periódicas &gt; Buscar</title>
+        <title lang="es">Catálogo &gt; P. periódicas &gt; Buscar</title>
 
         <mediaobject>
           <imageobject>
@@ -1555,11 +1555,11 @@
         </mediaobject>
       </figure>
 
-      <para>PMB permite utilizar los operadores booleanos para buscar. Para
+      <para lang="es">PMB permite utilizar los operadores booleanos para buscar. Para
       más información, ver <xref linkend="exp_bool" />.</para>
 
       <figure>
-        <title>Catálogo &gt; P. periódicas &gt; Buscar, resultados de una
+        <title lang="es">Catálogo &gt; P. periódicas &gt; Buscar, resultados de una
         búsqueda</title>
 
         <mediaobject>
@@ -1569,15 +1569,15 @@
         </mediaobject>
       </figure>
 
-      <para>Para ver más información del resultado de una búsqueda haz clic
+      <para lang="es">Para ver más información del resultado de una búsqueda haz clic
       sobre el "+" de delante del título.</para>
 
-      <para>Para ver una publicación periódica, haga clic sobre su título en
+      <para lang="es">Para ver una publicación periódica, haga clic sobre su título en
       los resultados. Se mostrará el registro de la publicación. Para más
       información, consulta la sección 2.3.2 <emphasis>Ver una publiación
       periódica.</emphasis></para>
 
-      <para><emphasis role="bold">Nota </emphasis>Los resultado sde la
+      <para lang="es"><emphasis role="bold">Nota </emphasis>Los resultado sde la
       búsqueda de publicaciones periódicas son únicamente registros de
       publicacions periódicas : por ejemplo, SVM, Le Monde ; los artículos así
       como los diferentes números de las publicaciones no se muestran en este
@@ -1587,10 +1587,10 @@
     </sect2>
 
     <sect2 id="cat_serial_form">
-      <title>Nueva publicación periódica</title>
+      <title lang="es">Nueva publicación periódica</title>
 
       <figure>
-        <title>Catálogo &gt; P. periódicas &gt; Nueva p. periódica</title>
+        <title lang="es">Catálogo &gt; P. periódicas &gt; Nueva p. periódica</title>
 
         <mediaobject>
           <imageobject>
@@ -1600,104 +1600,104 @@
       </figure>
 
       <sect3 id="cat_serial_add">
-        <title>Crear una publicación periódica</title>
+        <title lang="es">Crear una publicación periódica</title>
 
-        <para>Empezamos a explicar cómo crear una nueva publicación periódica.
+        <para lang="es">Empezamos a explicar cómo crear una nueva publicación periódica.
         Para crear una nueva p. periódica, en la pestaña
         <emphasis>Catálogo</emphasis>, haz clic sobre <emphasis>Nueva p.
         periódica</emphasis> del menú.</para>
 
         <sect4>
-          <title>Suporte</title>
+          <title lang="es">Suporte</title>
 
-          <para>PMB puede generar publicaciones periódicas en diferentes
+          <para lang="es">PMB puede generar publicaciones periódicas en diferentes
           formatos. Si las publicaciones impresas (revistas, periódicos, ...)
           son los más frecuentes, PMB permite generar también diarios hablados
           para los sordos o ciegos, periódicos electrónicos, etc.</para>
 
-          <para>Los 15 soportes que hay en el menú desplegable en la parte
+          <para lang="es">Los 15 soportes que hay en el menú desplegable en la parte
           superior del registro corresponden a las denominaciones
           UNIMARC:</para>
 
           <itemizedlist>
             <listitem>
-              <para>texto empreso</para>
+              <para lang="es">texto empreso</para>
             </listitem>
 
             <listitem>
-              <para>texto manuscrito</para>
+              <para lang="es">texto manuscrito</para>
             </listitem>
 
             <listitem>
-              <para>partitura musical impresa</para>
+              <para lang="es">partitura musical impresa</para>
             </listitem>
 
             <listitem>
-              <para>partitura musical manuscrita</para>
+              <para lang="es">partitura musical manuscrita</para>
             </listitem>
 
             <listitem>
-              <para>documento carográfico impreso</para>
+              <para lang="es">documento carográfico impreso</para>
             </listitem>
 
             <listitem>
-              <para>documento cartográfico manuscrito</para>
+              <para lang="es">documento cartográfico manuscrito</para>
             </listitem>
 
             <listitem>
-              <para>documento proyectable o vídeo</para>
+              <para lang="es">documento proyectable o vídeo</para>
             </listitem>
 
             <listitem>
-              <para>grabación sonora no musical</para>
+              <para lang="es">grabación sonora no musical</para>
             </listitem>
 
             <listitem>
-              <para>grabación sonora musical</para>
+              <para lang="es">grabación sonora musical</para>
             </listitem>
 
             <listitem>
-              <para>documento gráfico bidimensional</para>
+              <para lang="es">documento gráfico bidimensional</para>
             </listitem>
 
             <listitem>
-              <para>documento electrónico</para>
+              <para lang="es">documento electrónico</para>
             </listitem>
 
             <listitem>
-              <para>documento multimedia</para>
+              <para lang="es">documento multimedia</para>
             </listitem>
 
             <listitem>
-              <para>objeto tridimensional, aparatos, ...</para>
+              <para lang="es">objeto tridimensional, aparatos, ...</para>
             </listitem>
           </itemizedlist>
         </sect4>
 
         <sect4>
-          <title>Otros campos a rellenar</title>
+          <title lang="es">Otros campos a rellenar</title>
 
-          <para>Los otros campos a introducir datos de una publicación
+          <para lang="es">Los otros campos a introducir datos de una publicación
           periódica corresponden a los de un registro normal. Ver un poco más
           arriba la sección 1.2.1 <emphasis>Introducir datos para un nuevo
           registro</emphasis>.</para>
 
-          <para><emphasis role="bold">A tener en cuenta</emphasis> No se
+          <para lang="es"><emphasis role="bold">A tener en cuenta</emphasis> No se
           pueden introducir datos sobre la colación (nº de páginas, material
           de acompañamiento, ..., ) en una p. periódica. La definición de
           colación no se aplica a este tipo de material.</para>
 
-          <para>Después de haber guardado el registro de tu p. periódica,
+          <para lang="es">Después de haber guardado el registro de tu p. periódica,
           puedes visualizarlo a través de la pantalla <emphasis>Ver una
           publicación periódica</emphasis>.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_serial_view">
-        <title>Ver una publicación periódica</title>
+        <title lang="es">Ver una publicación periódica</title>
 
         <figure>
-          <title>Ver una publicación periódica</title>
+          <title lang="es">Ver una publicación periódica</title>
 
           <mediaobject>
             <imageobject>
@@ -1706,19 +1706,19 @@
           </mediaobject>
         </figure>
 
-        <para>Dentro de esta pantalla, puedes modificar la publicación
+        <para lang="es">Dentro de esta pantalla, puedes modificar la publicación
         periódica haciendo clic sobre el botón <emphasis
         role="bold">Modificar</emphasis>. La pantalla de modificación de una
         p. periódica es idéntica a la de creación. Ver más abajao la sección
         <emphasis>Nueva p. periódica</emphasis>.</para>
 
-        <para>También desde este apartado puedes <emphasis
+        <para lang="es">También desde este apartado puedes <emphasis
         role="bold">Eliminar</emphasis> la publicación.</para>
 
-        <para>También puedes <emphasis role="bold">añadir un número o elemento
+        <para lang="es">También puedes <emphasis role="bold">añadir un número o elemento
         </emphasis>(boletín).</para>
 
-        <para>Dentro del <emphasis>estado de las colecciones</emphasis> que
+        <para lang="es">Dentro del <emphasis>estado de las colecciones</emphasis> que
         aparecen en la parte inferior de la pantalla, cada línea describe para
         cada número la fecha (<emphasis role="bold">Fecha o
         período</emphasis>), el número de artículos (<emphasis
@@ -1726,27 +1726,27 @@
         documentos electrónicos (<emphasis role="bold">Doc</emphasis>.), y el
         número de ejemplares (<emphasis role="bold">Expl</emphasis>.).</para>
 
-        <para>Puedes ver un número de los ya catalogados haciendo clic sobre
+        <para lang="es">Puedes ver un número de los ya catalogados haciendo clic sobre
         una de las líneas de <emphasis>estado de las colecciones</emphasis>.
         El número se muestra en la pantalla
         <emphasis>Números</emphasis>.</para>
 
         <sect4 id="cat_serial_bul">
-          <title>Añadir un número o elemento (boletín)</title>
+          <title lang="es">Añadir un número o elemento (boletín)</title>
 
-          <para>Sólo se necesitan algunos datos : la mención de numeración (nº
+          <para lang="es">Sólo se necesitan algunos datos : la mención de numeración (nº
           32478), el código de barras del número, la etiqueta del período i/o
           la fecha de aparición y finalmente el título del número.</para>
 
-          <para><emphasis role="bold">Numeración</emphasis> : sirve para
+          <para lang="es"><emphasis role="bold">Numeración</emphasis> : sirve para
           guardar la numeración del número. Por ejemplo el número
           <emphasis>153</emphasis> de una revista.</para>
 
-          <para><emphasis role="bold">Código de barras</emphasis> : permite
+          <para lang="es"><emphasis role="bold">Código de barras</emphasis> : permite
           guardar el número de código de barras del número, por ejemplo
           <emphasis>3792578022009</emphasis>.</para>
 
-          <para><emphasis role="bold">Fecha de aparición</emphasis> sirve para
+          <para lang="es"><emphasis role="bold">Fecha de aparición</emphasis> sirve para
           seleccionar la fecha del número (01/06/04). Es esta fecha la que
           sirve para ordenar los diferentes números. La fecha se puede
           introducir manualment o bien a través del popup con el calendario
@@ -1754,17 +1754,17 @@
           selecciona la fecha deseada y pmb introduce directamente la
           fecha.</para>
 
-          <para><emphasis role="bold">Período</emphasis> : este campo sirve
+          <para lang="es"><emphasis role="bold">Período</emphasis> : este campo sirve
           para introducir la mención de período que a veces incluyen algunas
           publicaciones : por ejemplo<emphasis> junio-julio
           2004</emphasis>.</para>
 
-          <para><emphasis role="bold">Título del número</emphasis> : para
+          <para lang="es"><emphasis role="bold">Título del número</emphasis> : para
           guardar el título del número en caso necesario, por ejemplo
           <emphasis> Los cambios climáticos</emphasis>.</para>
 
           <figure>
-            <title>Crear un número</title>
+            <title lang="es">Crear un número</title>
 
             <mediaobject>
               <imageobject>
@@ -1775,10 +1775,10 @@
         </sect4>
 
         <sect4 id="cat_serial_bul_view">
-          <title>Números</title>
+          <title lang="es">Números</title>
 
           <figure>
-            <title>Números</title>
+            <title lang="es">Números</title>
 
             <mediaobject>
               <imageobject>
@@ -1787,105 +1787,105 @@
             </mediaobject>
           </figure>
 
-          <para>Dentro de esta pantalla puedes :</para>
+          <para lang="es">Dentro de esta pantalla puedes :</para>
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">Modificar</emphasis> o <emphasis
+              <para lang="es"><emphasis role="bold">Modificar</emphasis> o <emphasis
               role="bold">Eliminar </emphasis>el número</para>
             </listitem>
 
             <listitem>
-              <para>Modificar un ejemplar de la lista de ejemplares del número
+              <para lang="es">Modificar un ejemplar de la lista de ejemplares del número
               haciendo clic sobre su código de barres</para>
             </listitem>
 
             <listitem>
-              <para>Ver un documento electrónico haciendo clic sobre su icono,
+              <para lang="es">Ver un documento electrónico haciendo clic sobre su icono,
               o modificar un documento electrónico haciendo clic sobre su
               título</para>
             </listitem>
 
             <listitem>
-              <para>Añadir un ejemplar introduciendo su nº de ejemplar y
+              <para lang="es">Añadir un ejemplar introduciendo su nº de ejemplar y
               haciendo clic sobre <emphasis role="bold">Añadir un
               ejemplar</emphasis></para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">Añadir un documento
+              <para lang="es"><emphasis role="bold">Añadir un documento
               electrónico</emphasis></para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">Añadir un artículo</emphasis> a este
+              <para lang="es"><emphasis role="bold">Añadir un artículo</emphasis> a este
               número</para>
             </listitem>
           </itemizedlist>
 
-          <para>La lista de los artículos catalogados de un número se muestran
+          <para lang="es">La lista de los artículos catalogados de un número se muestran
           en la parte inferior de la pantalla.</para>
 
-          <para>Para ver más información haz clic en el icono "<emphasis
+          <para lang="es">Para ver más información haz clic en el icono "<emphasis
           role="bold">+</emphasis>" al inicio de la línea.</para>
 
-          <para>Para modificar un artículo haz clic sobre su título.</para>
+          <para lang="es">Para modificar un artículo haz clic sobre su título.</para>
 
-          <para>Para añadir un documento electrónico a un artículo haz clic
+          <para lang="es">Para añadir un documento electrónico a un artículo haz clic
           sobre <emphasis role="bold">Añadir un documento
           electrónico</emphasis> que está en la parte de información del
           artículo.</para>
 
           <sect5 id="cat_serial_expl">
-            <title>Añadir un ejemplar a un número</title>
+            <title lang="es">Añadir un ejemplar a un número</title>
 
-            <para>Ver anteriormente el procedimiento de crear un ejemplar de
+            <para lang="es">Ver anteriormente el procedimiento de crear un ejemplar de
             un documento en la sección 1.2.2.1 <emphasis>Añadir un
             ejemplar</emphasis>. Añadir ejemplares a un número funciona de la
             misma manera.</para>
           </sect5>
 
           <sect5 id="cat_serial_explnum">
-            <title>Añadir un ejemplar eletrónico a un número</title>
+            <title lang="es">Añadir un ejemplar eletrónico a un número</title>
 
-            <para>Ver anteriormente el procedimiento de creación de ejemplares
+            <para lang="es">Ver anteriormente el procedimiento de creación de ejemplares
             electrónicos en la sección 1.2.2.2 <emphasis>Añadir un ejemplar
             electrónico</emphasis>. Añadir ejemplares electrónicos a un número
             funciona de la misma forma.</para>
           </sect5>
 
           <sect5 id="cat_serial_analysis">
-            <title>Añadir un artículo</title>
+            <title lang="es">Añadir un artículo</title>
 
-            <para>El registro de un artículo corresponde a un registro
+            <para lang="es">El registro de un artículo corresponde a un registro
             estandar con alguna particularidad como la posibilidad de
             especificar una paginación.</para>
 
-            <para><emphasis role="bold">Nota</emphasis> : no se puede añadir
+            <para lang="es"><emphasis role="bold">Nota</emphasis> : no se puede añadir
             un título propio de un autor diferente a un artículo.</para>
 
-            <para>Aconsejamos a los catalogadores respetar las convenciones
+            <para lang="es">Aconsejamos a los catalogadores respetar las convenciones
             siguientes :</para>
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">p. X</emphasis> artículo en la
+                <para lang="es"><emphasis role="bold">p. X</emphasis> artículo en la
                 página</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">pp. X-Y</emphasis> artículo de la
+                <para lang="es"><emphasis role="bold">pp. X-Y</emphasis> artículo de la
                 página X a la Y</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">pp. X-Y, Z, AA-AC</emphasis>
+                <para lang="es"><emphasis role="bold">pp. X-Y, Z, AA-AC</emphasis>
                 artículo separado en tres grupos de páginas : de la página X a
                 la Y, en la página Z, de las páginas AA a la AC</para>
               </listitem>
             </itemizedlist>
 
-            <para>De esta forma, es posible introducir los datos referentes a
+            <para lang="es">De esta forma, es posible introducir los datos referentes a
             la columna dónde está situado el artículo, especificando col. a, b
             o c según el caso.</para>
           </sect5>
@@ -1895,39 +1895,39 @@
   </sect1>
 
   <sect1 id="cat_caddies">
-    <title>Cestas</title>
+    <title lang="es">Cestas</title>
 
-    <para>Las cestas son espacios de almacenamiento : lugares dónde almacenar
+    <para lang="es">Las cestas son espacios de almacenamiento : lugares dónde almacenar
     registros, publicaciones periódicas, números de publicaciones periódicas,
     y ejemplares.</para>
 
-    <para>Las cestas de PMB permiten, en particular, recolectar fondos : se
+    <para lang="es">Las cestas de PMB permiten, en particular, recolectar fondos : se
     trata de un término técnico de la biblioteconomía que se usa para designar
     el inventario de las colecciones. Las cestas también se pueden utilizar
     para expurgar el fondo : suprimir del fondo las obras obsoletas o
     deterioradas.</para>
 
-    <para>Las cestas pueden servir también para elaborar una bibliografía :
+    <para lang="es">Las cestas pueden servir también para elaborar una bibliografía :
     los resultados de diferentes búsquedas que pueden servir para preparar una
     publicación, un catálogo temático, catálogo temático,...</para>
 
-    <para>Hay dos formas de llenar una cesta : colocando los elementos
+    <para lang="es">Hay dos formas de llenar una cesta : colocando los elementos
     manualmente (en todos los registros hay un icono de una cesta), o leyendo
     los códigos de barras con el lector de códigos de barras o introduciendo
     los códigos a mano.</para>
 
     <sect2 id="cat_caddie_gestion">
-      <title>Gestión</title>
+      <title lang="es">Gestión</title>
 
-      <para>Por defecto, el el apartado Cestas/Gestión, se muestran las cestas
+      <para lang="es">Por defecto, el el apartado Cestas/Gestión, se muestran las cestas
       y las opciones de gestión. Puedes ver la gestión de los procedimientos
       en el enlace Gestión de los procedimientos.</para>
 
       <sect3 id="cat_caddie_gestion_caddie">
-        <title>Gestión de las cestas</title>
+        <title lang="es">Gestión de las cestas</title>
 
         <figure>
-          <title>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de las
+          <title lang="es">Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de las
           cestas</title>
 
           <mediaobject>
@@ -1937,20 +1937,20 @@
           </mediaobject>
         </figure>
 
-        <para>Haciendo clic sobre el nombre de una de las cestas, puedes
+        <para lang="es">Haciendo clic sobre el nombre de una de las cestas, puedes
         consultar el contenido de la cesta. Haciendo clic en Editar, puedes
         editar la cesta: nombre, tipo, comentario, derechos de acceso.
         Finalmente haciendo clic en Añadir una cesta puedes definir una nueva
         cesta.</para>
 
         <sect4>
-          <title>Contenido de una cesta</title>
+          <title lang="es">Contenido de una cesta</title>
 
-          <para>Al hacer clic sobre el nombre de una cesta, puedes consultar
+          <para lang="es">Al hacer clic sobre el nombre de una cesta, puedes consultar
           el contenido de cada cesta.</para>
 
           <figure>
-            <title>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de cestas,
+            <title lang="es">Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de cestas,
             contenido del panel</title>
 
             <mediaobject>
@@ -1960,16 +1960,16 @@
             </mediaobject>
           </figure>
 
-          <para>También puedes eventualmente suprimir los elementos con la
+          <para lang="es">También puedes eventualmente suprimir los elementos con la
           ayuda del icono eliminar de la cesta :<graphic
           fileref="images/basket_del.gif" /></para>
 
-          <para>Una cesta puede contener elementos del fondo de la biblioteca
+          <para lang="es">Una cesta puede contener elementos del fondo de la biblioteca
           (registros, ejemplars o número de p. periódica catalogados en PMB)
           :</para>
 
           <figure>
-            <title>Elemento del fondo</title>
+            <title lang="es">Elemento del fondo</title>
 
             <mediaobject>
               <imageobject>
@@ -1978,19 +1978,19 @@
             </mediaobject>
           </figure>
 
-          <para>Si amplias la noticia haciendo clic sobre el + situado
+          <para lang="es">Si amplias la noticia haciendo clic sobre el + situado
           deltante del registro, puedes consultar el registro en formato ISBD
           y también ver la lista de ejemplares y de documentos electrónicos.
           La visualización del registro es idéntica a la que puedes ver en el
           resultado de una búsqueda (Catálogo &gt; Buscar).</para>
 
-          <para>Las cestas pueden contener también elementos no catalogados en
+          <para lang="es">Las cestas pueden contener también elementos no catalogados en
           PMB (por ejemplo, puedes haber introducido un libro de otra
           biblioteca). Para conservar información sobre estos elementos, una
           cesta también puede guardar este tipo de elementos :</para>
 
           <figure>
-            <title>Elemento desconocido</title>
+            <title lang="es">Elemento desconocido</title>
 
             <mediaobject>
               <imageobject>
@@ -1999,13 +1999,13 @@
             </mediaobject>
           </figure>
 
-          <para>Dentro del contenido de una cesta, si los elementos han sido
+          <para lang="es">Dentro del contenido de una cesta, si los elementos han sido
           marcados, éstos están señalados por el icono que precede al título.
           Para más información sobre cómo marcar los elementos de una cesta,
           consulta la sección <xref linkend="cat_caddie_pointage" />.</para>
 
           <figure>
-            <title>Elemento marcado</title>
+            <title lang="es">Elemento marcado</title>
 
             <mediaobject>
               <imageobject>
@@ -2019,11 +2019,11 @@
           <title id="catalogue_panier_editer_un_panier.title">Editar una
           cesta</title>
 
-          <para>También puedes editar un pnael haciendo clic sobre el enlace
+          <para lang="es">También puedes editar un pnael haciendo clic sobre el enlace
           Editar a la derecha de la pantalla.</para>
 
           <figure>
-            <title>Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de las
+            <title lang="es">Catálogo &gt; Cestas &gt; Gestión &gt; Gestión de las
             cestas</title>
 
             <mediaobject>
@@ -2033,124 +2033,124 @@
             </mediaobject>
           </figure>
 
-          <para>La pantalla de Editar permite modificar el nombre, el
+          <para lang="es">La pantalla de Editar permite modificar el nombre, el
           comentario de una cesta, y los derechos de los usuarios sobre esa
           cesta.</para>
 
-          <para>También puedes ver el tipo de cesta: Cesta de registros, Cesta
+          <para lang="es">También puedes ver el tipo de cesta: Cesta de registros, Cesta
           de artículos, Cesta de ejemplares. No se puede cambiar el tipo de
           cesta de una cesta ya creada. Si te has equivocado al crear una
           cesta, eliminínala y vuelve a crearla de nuevo.</para>
 
-          <para>Bajo la mención de "Autorizaciones concedidas a", puedes ver
+          <para lang="es">Bajo la mención de "Autorizaciones concedidas a", puedes ver
           las casillas a marcar que corresponden a los usuarios a los cuales
           se autoriza el acceso. Los nombres que se muestran son los de los
           diferentes usuarios definidos en PMB. No se le pueden retirar
           derechos de acceso al administrador.</para>
 
-          <para>Puedes crear, por tanto, cestas que sólo podrás acceder tú (y
+          <para lang="es">Puedes crear, por tanto, cestas que sólo podrás acceder tú (y
           el administrador).</para>
         </sect4>
 
         <sect4>
-          <title>Añadir una cesta</title>
+          <title lang="es">Añadir una cesta</title>
 
-          <para>La pantalla de añadir una cesta es idéntica a la de Editar una
+          <para lang="es">La pantalla de añadir una cesta es idéntica a la de Editar una
           cesta. La única diferencia es que el botón Eliminar no está. Para
           más información, consulta un poco más arriba la sección <xref
           linkend="catalogue_panier_editer_un_panier" />.</para>
         </sect4>
 
         <sect4>
-          <title>Cestas instaladas por defecto en PMB</title>
+          <title lang="es">Cestas instaladas por defecto en PMB</title>
 
-          <para>Si tu administrador informático ha instalado PMB con los
+          <para lang="es">Si tu administrador informático ha instalado PMB con los
           "datos esenciales para un inicio rápido" (feed_essential.sql, para
           más información, consulta la Guía de Instalación PMB), se habrán
           creado algunas cestas, para facilitar la gestión de la
           biblioteca.</para>
 
-          <para><emphasis>Registros para exposición</emphasis> cesta de
+          <para lang="es"><emphasis>Registros para exposición</emphasis> cesta de
           registros de ejemplo. Destinada a recibir los registros de una
           pequeña exposición, que puede exponerse a través de las estanterías
           virtuales del l'OPAC, para más información consulta <xref
           linkend="cat_etg" /></para>
 
-          <para><emphasis>Registros para devolver a otra biblioteca</emphasis>
+          <para lang="es"><emphasis>Registros para devolver a otra biblioteca</emphasis>
           cestas de registros para facilitar la gestión. Destinada a recibir
           los registros de los ejemplares a devolver a otra biblioteca, para
           poder limpiar la base de datos después de su devolución.</para>
 
-          <para><emphasis>Ejemplares para devolver a otra
+          <para lang="es"><emphasis>Ejemplares para devolver a otra
           biblioteca</emphasis> cesta de ejemplares para facilitar la gestión.
           Destinada a guardar los ejemplares a devolver a otra biblioteca,
           para borrar los ejemplares después de la devolución.</para>
 
-          <para><emphasis>Registros duplicados</emphasis> cesta de registros
+          <para lang="es"><emphasis>Registros duplicados</emphasis> cesta de registros
           para facilitar la gestión. Destinada a recibir los registros
           duplicados para posteriormente limpiar la base de datos.</para>
 
-          <para><emphasis>Nunca prestados</emphasis> cesta de ejemplares para
+          <para lang="es"><emphasis>Nunca prestados</emphasis> cesta de ejemplares para
           facilitar la gestión. Destinada a recibir los ejemplares que no se
           han prestado nunca.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_caddie_gestion_procs">
-        <title>Gestión de los procedimientos</title>
+        <title lang="es">Gestión de los procedimientos</title>
 
-        <para>Esta pantalla muestra diferentes procedimientos asociados a las
+        <para lang="es">Esta pantalla muestra diferentes procedimientos asociados a las
         cestas. Debes definir los procedimientos que te servirán para llenar
         las cesta, a marcar las cestas ya creadas, o a aplicar cambios a los
         registros, números o ejemplares almacenados en el panel.</para>
 
-        <para>Para más información sobre los procedimientos y estudiar algunos
+        <para lang="es">Para más información sobre los procedimientos y estudiar algunos
         ejemplos, consulta un poco más abajo la sección <emphasis>3.5 ejemplos
         de uso de las cestas</emphasis>.</para>
 
         <sect4>
-          <title>Procedimientos instalados por defecto en PMB</title>
+          <title lang="es">Procedimientos instalados por defecto en PMB</title>
 
-          <para>Si tu administrador informático ha instalado PMB con los
+          <para lang="es">Si tu administrador informático ha instalado PMB con los
           "dotos esenciales para un inicio rápido" (feed_essential.sql, para
           más información, consulta la Guía de Instalación PMB), se habrán
           creado algunos procedimientos, para facilitar la gestión de la
           biblioteca.</para>
 
-          <para><emphasis>EJEMP por sección / propietario</emphasis>
+          <para lang="es"><emphasis>EJEMP por sección / propietario</emphasis>
           procedimiento de selección escogiendo una o varias secciones para
           uno o más propietarios.</para>
 
-          <para><emphasis>EJEMP cuya signatura empieza por</emphasis>
+          <para lang="es"><emphasis>EJEMP cuya signatura empieza por</emphasis>
           procedimiento de selección escogiendo los caracteres de inicio de
           una signatura. Útil para reunir documentos (para el inventario
           periódico a realizar en una biblioteca).</para>
 
-          <para><emphasis>Devolución la biblioteca X de sus
+          <para lang="es"><emphasis>Devolución la biblioteca X de sus
           ejemplares</emphasis> procedimiento de acción que permite cambiar el
           estado a todo un conjunto de ejemplares de una cesta.</para>
 
-          <para><emphasis>Registros de un autor</emphasis> procedimiento de
+          <para lang="es"><emphasis>Registros de un autor</emphasis> procedimiento de
           selección de registros escogiendo los de un autor o varios autores
           en concreto.</para>
 
-          <para><emphasis>Registros duplicados</emphasis> procedimiento de
+          <para lang="es"><emphasis>Registros duplicados</emphasis> procedimiento de
           selección de registros que tengan un título idéntico.</para>
 
-          <para><emphasis>Registros sin ejemplar</emphasis> procedimiento de
+          <para lang="es"><emphasis>Registros sin ejemplar</emphasis> procedimiento de
           selección de registros que no tengan ningún ejemplar.</para>
 
-          <para><emphasis>Nunca prestados</emphasis> procedimiento de
+          <para lang="es"><emphasis>Nunca prestados</emphasis> procedimiento de
           selección de ejemplares que nunca se han prestado.</para>
         </sect4>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_collecte">
-      <title>Cómo se llenan las cestas</title>
+      <title lang="es">Cómo se llenan las cestas</title>
 
       <figure>
-        <title>Catálogo &gt; Cestas &gt; Llenar las cestas</title>
+        <title lang="es">Catálogo &gt; Cestas &gt; Llenar las cestas</title>
 
         <mediaobject>
           <imageobject>
@@ -2159,47 +2159,47 @@
         </mediaobject>
       </figure>
 
-      <para>Puedes llenar las cestas ayudado del lector de códigos de barras
+      <para lang="es">Puedes llenar las cestas ayudado del lector de códigos de barras
       (escaneando los códigos de barras de los ejemplares). O puedes también
       enviar elementos a una cesta lanzando un procedimiento de selección
       contra el sistema.</para>
 
-      <para>Estos procedimientos han de ser definidos en el apartado
+      <para lang="es">Estos procedimientos han de ser definidos en el apartado
       Cestas/Gestión/Gestión de los procedimientos.</para>
 
-      <para>En todo momento en el apartado Catálogo, cuando veas el icono de
+      <para lang="es">En todo momento en el apartado Catálogo, cuando veas el icono de
       una cesta, puedes añadir un elemento (registro, ejemplare o número) a
       una cista haciendo clic sobre el icono<graphic
       fileref="images/basket_small.gif" /></para>
 
       <sect3>
-        <title>detalles de llenar una cesta</title>
+        <title lang="es">detalles de llenar una cesta</title>
 
-        <para>La gestión de añadir un elemento a una cesta puedes hacerse a
+        <para lang="es">La gestión de añadir un elemento a una cesta puedes hacerse a
         través de diferentes funciones posibles :</para>
 
         <itemizedlist>
           <listitem>
-            <para>añadir un <emphasis role="bold">registro</emphasis> a una
+            <para lang="es">añadir un <emphasis role="bold">registro</emphasis> a una
             <emphasis>cesta de ejemplares</emphasis> = añadir <emphasis>todos
             los ejemplares del registro</emphasis> a una cesta</para>
           </listitem>
 
           <listitem>
-            <para>añadir un <emphasis role="bold">ejemplar</emphasis> a una
+            <para lang="es">añadir un <emphasis role="bold">ejemplar</emphasis> a una
             <emphasis>cesta de registros</emphasis> = añadir el
             <emphasis>registro del ejemplar</emphasis> a la cesta</para>
           </listitem>
 
           <listitem>
-            <para>añadir un <emphasis role="bold">artículo</emphasis>a una
+            <para lang="es">añadir un <emphasis role="bold">artículo</emphasis>a una
             <emphasis>cesta de números </emphasis>= añadir la
             <emphasis>publiación periódica correspondiente</emphasis> a ese
             artículo a la cesta</para>
           </listitem>
         </itemizedlist>
 
-        <para>Atención : añadir un <emphasis role="bold">número</emphasis> a
+        <para lang="es">Atención : añadir un <emphasis role="bold">número</emphasis> a
         una <emphasis>cesta de registros </emphasis>no tendrá <emphasis>ningún
         efecto</emphasis>. En efecto, a un número le corresponden dos tipos de
         registros : el registro madre de la publicación y los registros de los
@@ -2208,18 +2208,18 @@
     </sect2>
 
     <sect2 id="cat_caddie_pointage">
-      <title>Seleccionar</title>
+      <title lang="es">Seleccionar</title>
 
-      <para>La selección de las cestas permite comparar el contenido de una
+      <para lang="es">La selección de las cestas permite comparar el contenido de una
       cesta con otros elementos, escogiendo los registros manualmente (con el
       lector de códigos de barras) o realizando un procedimiento de selección
       en PMB.</para>
 
       <sect3 id="cat_caddie_pointage_douchette">
-        <title>Seleccionar con el lector de códigos de barras</title>
+        <title lang="es">Seleccionar con el lector de códigos de barras</title>
 
         <figure>
-          <title>Catalogación &gt; Cestas &gt; Con lector</title>
+          <title lang="es">Catalogación &gt; Cestas &gt; Con lector</title>
 
           <mediaobject>
             <imageobject>
@@ -2228,9 +2228,9 @@
           </mediaobject>
         </figure>
 
-        <para>Haz clic sobre el nombre de la cesta de la cual quieres marcar
+        <para lang="es">Haz clic sobre el nombre de la cesta de la cual quieres marcar
         elementos.<figure>
-            <title>Catálogo &gt; Cestas &gt; Marcar &gt; Con lector</title>
+            <title lang="es">Catálogo &gt; Cestas &gt; Marcar &gt; Con lector</title>
 
             <mediaobject>
               <imageobject>
@@ -2241,13 +2241,13 @@
       </sect3>
 
       <sect3 id="cat_caddie_pointage_sélection">
-        <title>Marcar por selección</title>
+        <title lang="es">Marcar por selección</title>
 
-        <para>Para marcar una cesta por selección, haz clic sobre la cesta a
+        <para lang="es">Para marcar una cesta por selección, haz clic sobre la cesta a
         marcar.</para>
 
         <figure>
-          <title>Catálogo &gt; Cestas &gt; Marcar &gt; Por selección</title>
+          <title lang="es">Catálogo &gt; Cestas &gt; Marcar &gt; Por selección</title>
 
           <mediaobject>
             <imageobject>
@@ -2256,10 +2256,10 @@
           </mediaobject>
         </figure>
 
-        <para>Haz clic después sobre el procedimiento a usar.</para>
+        <para lang="es">Haz clic después sobre el procedimiento a usar.</para>
 
         <figure>
-          <title>Catálogo &gt; Cestas &gt; Marcar &gt; Por selección, escoger
+          <title lang="es">Catálogo &gt; Cestas &gt; Marcar &gt; Por selección, escoger
           el procedimiento para marcar</title>
 
           <mediaobject>
@@ -2269,11 +2269,11 @@
           </mediaobject>
         </figure>
 
-        <para>Debes completar algunos parámetros eventuales que se
+        <para lang="es">Debes completar algunos parámetros eventuales que se
         piden.</para>
 
         <figure>
-          <title>Catálogo &gt; Cestas &gt; Marcar &gt; Por selección,
+          <title lang="es">Catálogo &gt; Cestas &gt; Marcar &gt; Por selección,
           marcación terminada</title>
 
           <mediaobject>
@@ -2283,7 +2283,7 @@
           </mediaobject>
         </figure>
 
-        <para>Los elementos de la cesta que hayan sido marcados son incluidos
+        <para lang="es">Los elementos de la cesta que hayan sido marcados son incluidos
         bajo la etiqueta<emphasis> Marcados(s)</emphasis>. El número total de
         elementos de las cestas también se incluye. Los elementos que
         pertenecen al fondo de PMB figuran en la segunda línea de la tabla de
@@ -2292,10 +2292,10 @@
     </sect2>
 
     <sect2 id="cat_caddie_actions">
-      <title>Acciones</title>
+      <title lang="es">Acciones</title>
 
       <figure>
-        <title>Catálogo &gt; Cestas &gt; Acciones</title>
+        <title lang="es">Catálogo &gt; Cestas &gt; Acciones</title>
 
         <mediaobject>
           <imageobject>
@@ -2304,44 +2304,44 @@
         </mediaobject>
       </figure>
 
-      <para>En esta pantalla, puedes realizar diferentes acciones :</para>
+      <para lang="es">En esta pantalla, puedes realizar diferentes acciones :</para>
 
       <itemizedlist>
         <listitem>
-          <para>editar el contenido (en formatos HTML, Excel HTML, Excel
+          <para lang="es">editar el contenido (en formatos HTML, Excel HTML, Excel
           XLS).</para>
         </listitem>
 
         <listitem>
-          <para>vaciar la cesta seleccionada</para>
+          <para lang="es">vaciar la cesta seleccionada</para>
         </listitem>
 
         <listitem>
-          <para>supprimir de la base de datos los elementos de la cesta</para>
+          <para lang="es">supprimir de la base de datos los elementos de la cesta</para>
         </listitem>
 
         <listitem>
-          <para>exportar el contenido de la cesta</para>
+          <para lang="es">exportar el contenido de la cesta</para>
         </listitem>
 
         <listitem>
-          <para>transferir el contenido de una cesta a otra</para>
+          <para lang="es">transferir el contenido de una cesta a otra</para>
         </listitem>
 
         <listitem>
-          <para>aplicar una consulta SQL al contenido de una cesta</para>
+          <para lang="es">aplicar una consulta SQL al contenido de una cesta</para>
         </listitem>
       </itemizedlist>
 
-      <para>Estas acciones se pueden realizar haciendo clic sobre la
+      <para lang="es">Estas acciones se pueden realizar haciendo clic sobre la
       interficie central, y hacer clic sobre el nombre de la cesta sobre la
       cual se tiene que realizar la acción.</para>
 
       <sect3>
-        <title>Editar</title>
+        <title lang="es">Editar</title>
 
         <figure>
-          <title>Catálogo &gt; Cestas &gt; Acciones &gt; Editar</title>
+          <title lang="es">Catálogo &gt; Cestas &gt; Acciones &gt; Editar</title>
 
           <mediaobject>
             <imageobject>
@@ -2350,20 +2350,20 @@
           </mediaobject>
         </figure>
 
-        <para>Para más información sobre los formatos de exportación de PMB,
+        <para lang="es">Para más información sobre los formatos de exportación de PMB,
         consulta la <emphasis>Guía del Administrador</emphasis>, Capítulo 10
         <emphasis>Exportación</emphasis>, sección 1 <emphasis>Formatos de
         archivo.</emphasis></para>
 
-        <para>Escoge después los elementos de la cesta afectados : elementos
+        <para lang="es">Escoge después los elementos de la cesta afectados : elementos
         marcados o elementos no marcadas.</para>
       </sect3>
 
       <sect3>
-        <title>Vaciar una cesta</title>
+        <title lang="es">Vaciar una cesta</title>
 
         <figure>
-          <title>Catálogo &gt; Cestas &gt; Acciones &gt; Vaciar una
+          <title lang="es">Catálogo &gt; Cestas &gt; Acciones &gt; Vaciar una
           cesta</title>
 
           <mediaobject>
@@ -2373,18 +2373,18 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis>Vaciar una cesta </emphasis>permite vaciar el
+        <para lang="es"><emphasis>Vaciar una cesta </emphasis>permite vaciar el
         contenido de una cesta.</para>
 
-        <para>Escoge los elementos de la cesta afectados : elementos marcados
+        <para lang="es">Escoge los elementos de la cesta afectados : elementos marcados
         o elementos no marcados.</para>
       </sect3>
 
       <sect3>
-        <title>Suprimir de la base de datos</title>
+        <title lang="es">Suprimir de la base de datos</title>
 
         <figure>
-          <title>Catalogación &gt; Cestas &gt; Acciones &gt; Suprimir de la
+          <title lang="es">Catalogación &gt; Cestas &gt; Acciones &gt; Suprimir de la
           base de datos</title>
 
           <mediaobject>
@@ -2394,22 +2394,22 @@
           </mediaobject>
         </figure>
 
-        <para>Suprimir de la base de datos suprime los elementos incluidos en
+        <para lang="es">Suprimir de la base de datos suprime los elementos incluidos en
         una cesta (registros, boletines o ejemplares) de la base de datos de
         la biblioteca.</para>
 
-        <para>Utiliza esa función con mucho cuidado, para, por ejemplo,
+        <para lang="es">Utiliza esa función con mucho cuidado, para, por ejemplo,
         eliminar una cesta de ejemplares perdidos.</para>
 
-        <para>Escoge los elementos de las cestas afectadas : elementos
+        <para lang="es">Escoge los elementos de las cestas afectadas : elementos
         marcados o elementos no marcados.</para>
       </sect3>
 
       <sect3>
-        <title>Exportación</title>
+        <title lang="es">Exportación</title>
 
         <figure>
-          <title>Catalogación &gt; Cestas &gt; Acciones &gt;
+          <title lang="es">Catalogación &gt; Cestas &gt; Acciones &gt;
           Exportación</title>
 
           <mediaobject>
@@ -2419,18 +2419,18 @@
           </mediaobject>
         </figure>
 
-        <para>La exportación permite exportar el contenido de una
+        <para lang="es">La exportación permite exportar el contenido de una
         cesta.</para>
 
-        <para>Escoge los elementos del panel afectado : elementos marcados o
+        <para lang="es">Escoge los elementos del panel afectado : elementos marcados o
         no marcados.</para>
       </sect3>
 
       <sect3>
-        <title>Transferencia</title>
+        <title lang="es">Transferencia</title>
 
         <figure>
-          <title>Catalogación &gt; Cestas &gt; Acciones &gt;
+          <title lang="es">Catalogación &gt; Cestas &gt; Acciones &gt;
           Transferencia</title>
 
           <mediaobject>
@@ -2440,15 +2440,15 @@
           </mediaobject>
         </figure>
 
-        <para>La transferencia permite transferir los elementos de una cesta
+        <para lang="es">La transferencia permite transferir los elementos de una cesta
         (elementos marcados i/o no marcados) de una cesta a otra cesta.</para>
       </sect3>
 
       <sect3>
-        <title>Por consulta</title>
+        <title lang="es">Por consulta</title>
 
         <figure>
-          <title>Catálogo &gt; Cestas &gt; Acciones &gt; Por consulta</title>
+          <title lang="es">Catálogo &gt; Cestas &gt; Acciones &gt; Por consulta</title>
 
           <mediaobject>
             <imageobject>
@@ -2457,7 +2457,7 @@
           </mediaobject>
         </figure>
 
-        <para>Puedes igualmente aplicar una consulta SQL al contenido de una
+        <para lang="es">Puedes igualmente aplicar una consulta SQL al contenido de una
         cesta, por ejemplo una consulta UPDATE para cambiar las signaturas de
         un conjunto de documentos enviados a otra biblioteca. Para más
         información sobre las consultas, consulta la <emphasis>Guía del
@@ -2466,36 +2466,36 @@
     </sect2>
 
     <sect2>
-      <title>Ejemplos de uso de las cestas</title>
+      <title lang="es">Ejemplos de uso de las cestas</title>
 
-      <para>Aquí encontrarás varios ejemplos sobre el uso de las cestas. Estos
+      <para lang="es">Aquí encontrarás varios ejemplos sobre el uso de las cestas. Estos
       ejemplos permiten comprender mejor el uso de las cestas de PMB y sus
       funcionalidades, gracias a las consultas.</para>
 
       <sect3>
-        <title>Juntar en una cesta las obras sin ejemplares</title>
+        <title lang="es">Juntar en una cesta las obras sin ejemplares</title>
 
         <itemizedlist>
           <listitem>
-            <para>Crear una cesta de registros,</para>
+            <para lang="es">Crear una cesta de registros,</para>
           </listitem>
 
           <listitem>
-            <para>Crear un procedimiento de selección, y introducir la
+            <para lang="es">Crear un procedimiento de selección, y introducir la
             consulta SQL siguiente (ATENCIÓN sin salto de línea) :</para>
 
             <programlisting>SELECT notice_id as object_id, 'NOTI' as object_type FROM notices left join exemplaires on notice_id=expl_notice WHERE expl_notice is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
           </listitem>
 
           <listitem>
-            <para>Ir a Cestas &gt; Marcar &gt; Por selección y llenar tu cesta
+            <para lang="es">Ir a Cestas &gt; Marcar &gt; Por selección y llenar tu cesta
             con este procedimiento</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title>Generar inventarios</title>
+        <title lang="es">Generar inventarios</title>
 
         <programlisting>&gt; Yo quisiera simplicar mi vida en cuanto a los inventarios, es por esto
 &gt; que he pensado en crear unas cestas con todos los ejemplares de una sección. Yo 
@@ -2527,9 +2527,9 @@ select idsection, section_libelle from docs_section order by section_libelle
   </sect1>
 
   <sect1 id="cat_etg">
-    <title>Estanterías</title>
+    <title lang="es">Estanterías</title>
 
-    <para>Las estanterías virtuales son un conjunto de cestas de registros que
+    <para lang="es">Las estanterías virtuales son un conjunto de cestas de registros que
     pueden contener o no registros. Las estanterías virtuales permiten mostrar
     estos registros en el OPAC o en tu página web. PMB permite a través de
     esta forma mostrar en tu página web una exposición virtual, la lista de
@@ -2537,13 +2537,13 @@ select idsection, section_libelle from docs_section order by section_libelle
     lectura, etc...</para>
 
     <sect2 id="cat_etg_gestion">
-      <title>Gestión</title>
+      <title lang="es">Gestión</title>
 
-      <para>La gestión de las estanterías muestra una lista de estanterías
+      <para lang="es">La gestión de las estanterías muestra una lista de estanterías
       existentes.</para>
 
       <figure>
-        <title>Catálogo &gt; Estanterías &gt; Gestión</title>
+        <title lang="es">Catálogo &gt; Estanterías &gt; Gestión</title>
 
         <mediaobject>
           <imageobject>
@@ -2552,13 +2552,13 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Puedes añadir una estanterías haciendo clic sobre el botón
+      <para lang="es">Puedes añadir una estanterías haciendo clic sobre el botón
       <emphasis>Añadir una estantería</emphasis>.</para>
 
-      <para>Para editar una estantería existente, haz clic sobre la línea
+      <para lang="es">Para editar una estantería existente, haz clic sobre la línea
       correspondiente.</para>
 
-      <para>Una estantería se define por un nombre, un período de validez, su
+      <para lang="es">Una estantería se define por un nombre, un período de validez, su
       visibilidad o no en la página de inicio del OPAC. También se puede
       añadir un comentario. Finalmente cada estantería tiene sus derechos :
       las autorizaciones que permiten a los diversos usuarios editar la
@@ -2566,16 +2566,16 @@ select idsection, section_libelle from docs_section order by section_libelle
     </sect2>
 
     <sect2 id="cat_etg_constit">
-      <title>Creación</title>
+      <title lang="es">Creación</title>
 
-      <para>La pantalla de creación de una estantería virtual permite añadir o
+      <para lang="es">La pantalla de creación de una estantería virtual permite añadir o
       retirar el contenido de una o varias cestas a una de tus estanterías
       virtuales.</para>
 
-      <para>Haz clic sobre la estantería a crear.</para>
+      <para lang="es">Haz clic sobre la estantería a crear.</para>
 
       <figure>
-        <title>Catálogo &gt; Estanterías &gt; Creación</title>
+        <title lang="es">Catálogo &gt; Estanterías &gt; Creación</title>
 
         <mediaobject>
           <imageobject>
@@ -2584,11 +2584,11 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Marca las cestas de registros a añadir a tu estantería
+      <para lang="es">Marca las cestas de registros a añadir a tu estantería
       virtual.</para>
 
       <figure>
-        <title>Catálogo &gt; Estanterías &gt; Creación, añadir cestas a una
+        <title lang="es">Catálogo &gt; Estanterías &gt; Creación, añadir cestas a una
         estantería</title>
 
         <mediaobject>
@@ -2598,23 +2598,23 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Después haz clic sobre <emphasis>Guardar</emphasis> para validar
+      <para lang="es">Después haz clic sobre <emphasis>Guardar</emphasis> para validar
       la creación de tu estantería virtual.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title>Z39.50</title>
+    <title lang="es">Z39.50</title>
 
     <sect2 id="cat_z3950">
-      <title>Búsqueda Z39.50</title>
+      <title lang="es">Búsqueda Z39.50</title>
 
-      <para>La búsqueda Z39.50 permite buscar una obra en el catálogo de otra
+      <para lang="es">La búsqueda Z39.50 permite buscar una obra en el catálogo de otra
       biblioteca, una vez encontrada la puedes copiar directamente a tu
       catálogo generado por PMB, sin tener que volver a hacer el trabajo que
       ya han hecho otras bibliotecas.</para>
 
-      <para><emphasis role="bold">Nota</emphasis> los registros catalogados
+      <para lang="es"><emphasis role="bold">Nota</emphasis> los registros catalogados
       corresponden a un trabajo intelectual y están sometidos a los derechos
       de autor. Los registros de la <emphasis>BnF</emphasis> y los de la
       <emphasis>Biblioteca del Congreso Americano</emphasis> (Library of
@@ -2623,7 +2623,7 @@ select idsection, section_libelle from docs_section order by section_libelle
       sus registros. Informáte en la biblioteca en cuestión.</para>
 
       <figure>
-        <title>Catálogo &gt; Z39.50 &gt; Buscar</title>
+        <title lang="es">Catálogo &gt; Z39.50 &gt; Buscar</title>
 
         <mediaobject>
           <imageobject>
@@ -2632,15 +2632,15 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Hagamos un ejemplo, importemos <emphasis>Germinal</emphasis> de
+      <para lang="es">Hagamos un ejemplo, importemos <emphasis>Germinal</emphasis> de
       <emphasis>Zola</emphasis>. Como criterio de búsqueda, escogemos
       "título", y en la casilla introducimos "Germinal".</para>
 
-      <para>Marcamos una o varias bibliotecas susceptibles de tener la edición
+      <para lang="es">Marcamos una o varias bibliotecas susceptibles de tener la edición
       de <emphasis>Germinal</emphasis> que nosotros queremos catalogar.</para>
 
       <figure>
-        <title>Catálogo &gt; Z39.50 &gt; Buscar, pantalla intermedia que
+        <title lang="es">Catálogo &gt; Z39.50 &gt; Buscar, pantalla intermedia que
         muestra el avance</title>
 
         <mediaobject>
@@ -2650,45 +2650,45 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Al cabo de unos segundos si no una consulta no ha tenido éxito,
+      <para lang="es">Al cabo de unos segundos si no una consulta no ha tenido éxito,
       podemos imaginar que nuestra conexión a internet está saturada, que el
       servidor del otro lado no ha respondido, o que nuestra configuración de
       PMB no es correcta (en caso de que ninguna búsqueda z39.50
       funcione).</para>
 
-      <para>Las líneas que empiezan por "Fallo..." corresponden a un error. En
+      <para lang="es">Las líneas que empiezan por "Fallo..." corresponden a un error. En
       estos casos se muestra un mensaje de error. Aquí hay varios ejemplos
       :</para>
 
       <itemizedlist>
         <listitem>
-          <para>Timeout : el servidor no ha respondido en el tiempo
+          <para lang="es">Timeout : el servidor no ha respondido en el tiempo
           indicado</para>
         </listitem>
 
         <listitem>
-          <para>Connect failed : el servidor ha respondido, pero la conexión
+          <para lang="es">Connect failed : el servidor ha respondido, pero la conexión
           no se ha podido realizar</para>
         </listitem>
 
         <listitem>
-          <para>Malformed query : el perfil z3950 del servidor no es correcto.
+          <para lang="es">Malformed query : el perfil z3950 del servidor no es correcto.
           Verifica el perfil Z39.50 de este servidor a través de su
           administrador</para>
         </listitem>
       </itemizedlist>
 
-      <para>Las línias que empiezan por TERMINADO señalan que la búsqueda ha
+      <para lang="es">Las línias que empiezan por TERMINADO señalan que la búsqueda ha
       tenido éxito. El número de resultados devueltos se muestra bajo la
       frase<emphasis> el servidor ha devuelto X registros de X
       encontrados</emphasis> (limitación a los 100 primeros registros, si
       obtienes más de cien resultados, afina tu búsqueda).</para>
 
-      <para>Una vez la búsqueda ha finalizado, haz clic sobre "Resultados"
+      <para lang="es">Una vez la búsqueda ha finalizado, haz clic sobre "Resultados"
       para ver los resultados obtenidos.</para>
 
       <figure>
-        <title>Catálogo &gt; Z39.50 &gt; Buscar, pantalla de
+        <title lang="es">Catálogo &gt; Z39.50 &gt; Buscar, pantalla de
         resultados</title>
 
         <mediaobject>
@@ -2698,14 +2698,14 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>Se muestra entonces una pantalla con los resultados de la
+      <para lang="es">Se muestra entonces una pantalla con los resultados de la
       búsqueda. La lista de los resultados presenta los registros resumidos en
       formato ISBD. No figuran en esta lista notas eventualmente introducidas,
       así como tampoco otras informaciones menores. Para escoger un registros,
       haz clic sobre su título.</para>
 
       <figure>
-        <title>Catálogo &gt; Z39.50 &gt; Buscar, pantalla de modificación del
+        <title lang="es">Catálogo &gt; Z39.50 &gt; Buscar, pantalla de modificación del
         registro antes de integrarlo</title>
 
         <mediaobject>
@@ -2715,7 +2715,7 @@ select idsection, section_libelle from docs_section order by section_libelle
         </mediaobject>
       </figure>
 
-      <para>El registro obtenido se muestra para modificarlo, la modificación
+      <para lang="es">El registro obtenido se muestra para modificarlo, la modificación
       se realiza con el finde mostrar el registro en detalle y en caso de que
       sea correcto integrarlo al catálogo. Existen algunas diferencias con la
       pantalla habitual de modificación de un registro : los autores y
@@ -2724,13 +2724,13 @@ select idsection, section_libelle from docs_section order by section_libelle
       las eventuales correcciones sólo hace falta validar con el botón
       "integrar el registro".</para>
 
-      <para>La pantalla siguiente permite definir los ejemplares.</para>
+      <para lang="es">La pantalla siguiente permite definir los ejemplares.</para>
 
-      <para>Cataloga entonces el o los ejemplares. Una vez se han introducido
+      <para lang="es">Cataloga entonces el o los ejemplares. Una vez se han introducido
       los ejemplares, haz lic para integrarlos, puedes también volver a la
       lista de resultados para integrar otros resultados de la lista.</para>
 
-      <para>En esta pantalla, en la parte superior figura la información sobre
+      <para lang="es">En esta pantalla, en la parte superior figura la información sobre
       el registro integrafo, con un enlace<emphasis> Verlo en
       catalogación.</emphasis> Este enlace permite mostrar el registro en
       modificación. La pantalla de modificación que se muestra es la misma que
@@ -2738,7 +2738,7 @@ select idsection, section_libelle from docs_section order by section_libelle
       la sección<emphasis> Nuevo registro</emphasis>).</para>
 
       <figure>
-        <title>Catalogación &gt; Z39.50 &gt; Buscar, Registro integrado, verlo
+        <title lang="es">Catalogación &gt; Z39.50 &gt; Buscar, Registro integrado, verlo
         en catalogación</title>
 
         <mediaobject>
@@ -2749,30 +2749,30 @@ select idsection, section_libelle from docs_section order by section_libelle
       </figure>
 
       <sect3>
-        <title>Uso de la búsqueda Z39.50 en el día a día</title>
+        <title lang="es">Uso de la búsqueda Z39.50 en el día a día</title>
 
-        <para>Para las bibliotecas francesas, el principal interés de la
+        <para lang="es">Para las bibliotecas francesas, el principal interés de la
         búsqueda Z39.50 es la búsqueda por ISBN en la BnF. Para las obras de
         tu fondo propio, puedes catalogar fácilmente los libros con la ayuda
         de tu lector de códigos de barras y el código de barras comercial
         (EAN) del documento.</para>
 
-        <para>Para esto,</para>
+        <para lang="es">Para esto,</para>
 
         <itemizedlist>
           <listitem>
-            <para>ve a Catálogo &gt; Z39.50 &gt; Buscar</para>
+            <para lang="es">ve a Catálogo &gt; Z39.50 &gt; Buscar</para>
           </listitem>
 
           <listitem>
-            <para>escoge BnF entre los servidores,</para>
+            <para lang="es">escoge BnF entre los servidores,</para>
           </listitem>
 
           <listitem>
-            <para>verifica que la búsqueda es por Isbn</para>
+            <para lang="es">verifica que la búsqueda es por Isbn</para>
 
             <figure>
-              <title>Catálogo &gt; Z39.50 &gt; Buscar, buscar por ISBN</title>
+              <title lang="es">Catálogo &gt; Z39.50 &gt; Buscar, buscar por ISBN</title>
 
               <mediaobject>
                 <imageobject>
@@ -2783,11 +2783,11 @@ select idsection, section_libelle from docs_section order by section_libelle
           </listitem>
 
           <listitem>
-            <para>lee el código de barras comercial de tu documento.El EAN
+            <para lang="es">lee el código de barras comercial de tu documento.El EAN
             (código comercial) leído PMB lo convertirá en un ISBN.</para>
 
             <figure>
-              <title>Catalogación &gt; Z39.50 &gt; Buscar, buscar por
+              <title lang="es">Catalogación &gt; Z39.50 &gt; Buscar, buscar por
               ISBN</title>
 
               <mediaobject>
@@ -2799,16 +2799,16 @@ select idsection, section_libelle from docs_section order by section_libelle
           </listitem>
 
           <listitem>
-            <para>El resultado de una búsqueda por ISBN normalmente devuelve
+            <para lang="es">El resultado de una búsqueda por ISBN normalmente devuelve
             un único resultado. En teoría, dos obras no pueden llevar el mismo
             ISBN. Dependiendo del servidor, los registros pueden contener más
             o menos información.</para>
           </listitem>
         </itemizedlist>
 
-        <para>Seguidamente puedes añadir un ejemplar a la obra buscada.</para>
+        <para lang="es">Seguidamente puedes añadir un ejemplar a la obra buscada.</para>
 
-        <para><emphasis role="bold">Nota </emphasis>: la BnF mantiene un
+        <para lang="es"><emphasis role="bold">Nota </emphasis>: la BnF mantiene un
         pequeño retraso en catalogación. Las últimas novedades (publicadas
         hace menos de un año) pueden no estar aún catalogadas.</para>
       </sect3>

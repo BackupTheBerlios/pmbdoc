@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="principes">
-  <title>Características generales</title>
+  <title lang="es">Características generales</title>
 
-  <para><emphasis role="bold">Ergonomía asociada a la utilización de una
+  <para lang="es"><emphasis role="bold">Ergonomía asociada a la utilización de una
   aplicación internet</emphasis></para>
 
-  <para>PMB es una aplicación Web, una "WebApp". Funciona sobre un servidor
+  <para lang="es">PMB es una aplicación Web, una "WebApp". Funciona sobre un servidor
   Web (ver la <emphasis>Guía de Instalación PMB</emphasis>, Sección 1,
   <emphasis>Instalación sobre Windows,</emphasis> para más informacion sobre
   Apache), PMB se beneficia de la flexibilidad de las aplicaciones de
   Internet.</para>
 
-  <para><emphasis role="bold">No uses el botón "Página anterior" del
+  <para lang="es"><emphasis role="bold">No uses el botón "Página anterior" del
   navegador.</emphasis></para>
 
-  <para><inlinemediaobject>
+  <para lang="es"><inlinemediaobject>
       <imageobject>
         <imagedata fileref="images/firefox-back.gif" />
       </imageobject>
@@ -25,7 +25,7 @@
     </inlinemediaobject> "página siguiente" permiten desplazarte de una página
   a otra sobre internet, es lo mismo en PMB.</para>
 
-  <para><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
+  <para lang="es"><graphic fileref="images/warning.gif" /><emphasis role=""><emphasis
   role="bold">Atención</emphasis></emphasis> cuando veas en la pantalla un
   mensaje que empieza por <emphasis>Actualización </emphasis>no hagas clic
   sobre la página anterior. Cuando veas este mensaje, es necesario dejar que
@@ -33,18 +33,18 @@
   la página anterior si puedes obtener el mismo resultado haciendo clic en
   alguno de los enlaces de la página.</para>
 
-  <para>El botón Actualizar la página <inlinemediaobject>
+  <para lang="es">El botón Actualizar la página <inlinemediaobject>
       <imageobject>
         <imagedata fileref="images/firefox-reload.gif" />
       </imageobject>
     </inlinemediaobject> de tu navegdor permite volver a cargar una página en
   pantalla.</para>
 
-  <para>Cuando vuelves a cargar una página que es el resultado de un
+  <para lang="es">Cuando vuelves a cargar una página que es el resultado de un
   formulario (por ejemplo de un nuevo registro), los datos vuelven a enviarse
   también al servidor.</para>
 
-  <para>Pasa lo mismo con el botón "Stop" que con el botón "Página precedente"
+  <para lang="es">Pasa lo mismo con el botón "Stop" que con el botón "Página precedente"
   <inlinemediaobject>
       <imageobject>
         <imagedata fileref="images/firefox-stop.gif" />
@@ -52,12 +52,12 @@
     </inlinemediaobject> de tu navegador, el primero permite interrumpir la
   carga de una página.</para>
 
-  <para><emphasis role="bold">Atención</emphasis> Cuando se están realizando
+  <para lang="es"><emphasis role="bold">Atención</emphasis> Cuando se están realizando
   operaciones importantes en la base de datos (añadir, eliminar), no se debe
   parar la carga de una página por que se puede interrumpir el tractamiento de
   los datos, y puede ser que la base de datos sufra un deterioro.</para>
 
-  <para>Sobre todo no hay que presionar el botón "para la carga" cuando se
+  <para lang="es">Sobre todo no hay que presionar el botón "para la carga" cuando se
   esté realizando una restauración de la base de datos, una copia de seguridad
   o se esté optimizando la base de datos.</para>
 </chapter>

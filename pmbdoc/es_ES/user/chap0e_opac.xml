@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="useropac">
-  <title>El módulo OPAC</title>
+  <title lang="es">El módulo OPAC</title>
 
-  <para>OPAC significa <emphasis role="bold">O</emphasis>nline <emphasis
+  <para lang="es">OPAC significa <emphasis role="bold">O</emphasis>nline <emphasis
   role="bold">P</emphasis>ublic <emphasis role="bold">A</emphasis>ccess
   <emphasis role="bold">C</emphasis>atalog. El módulo OPAC permite a los
   usuarios efectuar una búsqueda en el catálogo de la biblioteca.</para>
 
-  <para>De hecho, el módulo OPAC de PMB corresponde a un WebPAC : OPAC
+  <para lang="es">De hecho, el módulo OPAC de PMB corresponde a un WebPAC : OPAC
   accessible vía Web.</para>
 
-  <para>La <emphasis>parametrización</emphasis> del OPAC está descrita en la
+  <para lang="es">La <emphasis>parametrización</emphasis> del OPAC está descrita en la
   <emphasis>Guía del Administrador PMB</emphasis>.</para>
 
-  <para>El OPAC puede separarse de la interficie de gestión de PMB, y situarse
+  <para lang="es">El OPAC puede separarse de la interficie de gestión de PMB, y situarse
   en un servidor separado. Para más información sobre la instalación del OPAC
   consulta la <emphasis>Guía de Instalación PMB</emphasis>.</para>
 
-  <para><emphasis role="bold">Nota</emphasis> este capítulo no es una ayuda
+  <para lang="es"><emphasis role="bold">Nota</emphasis> este capítulo no es una ayuda
   sobre cómo utilizar el OPAC, sino sólo un rápido resumen. Actualmente se
   está preparando una <emphasis>Guía del OPAC de PMB </emphasis>.</para>
 
   <sect1 id="useropac_access">
-    <title>Acceso al OPAC</title>
+    <title lang="es">Acceso al OPAC</title>
 
-    <para>El OPAC del centro de documentación generado por PMB estará
+    <para lang="es">El OPAC del centro de documentación generado por PMB estará
     accesible por defecto en la siguiente dirección de internet :</para>
 
-    <para><emphasis role="bold">[v1.3 a 2.1]</emphasis> <emphasis
+    <para lang="es"><emphasis role="bold">[v1.3 a 2.1]</emphasis> <emphasis
     role="bold">http://localhost/pmb/opac_css</emphasis></para>
 
-    <para><emphasis role="bold">[v1.0 a 1.2]</emphasis>
+    <para lang="es"><emphasis role="bold">[v1.0 a 1.2]</emphasis>
     http://localhost/phpmybibli/opac_css</para>
 
-    <para><emphasis role="bold">[pre-v1]</emphasis>
+    <para lang="es"><emphasis role="bold">[pre-v1]</emphasis>
     http://localhost/phpmybibli/opac</para>
 
-    <para>Es necesario reemplazar el valor <emphasis>localhost</emphasis> por
+    <para lang="es">Es necesario reemplazar el valor <emphasis>localhost</emphasis> por
     el nombre del servidor dónde está instalado PMB.</para>
 
-    <para>Para obtener el nombre del servidor local en Windows, haz clic sobre
+    <para lang="es">Para obtener el nombre del servidor local en Windows, haz clic sobre
     <emphasis>Poste de travail </emphasis>después escoge
     <emphasis>Iidentificación réseau</emphasis>. Obtendrás el nombre del
     ordenador sobre el servidor local.</para>
 
-    <para>El catálogo en línea creado por PMB es dinámico : se actualiza
+    <para lang="es">El catálogo en línea creado por PMB es dinámico : se actualiza
     automáticamente cada vez que se carga una página. Cualquier cambio o
     modificación que se realice en la interficie de gestión (ver siguientes
     secciones) repercute inmediatamente en el OPAC. Una obra catalogada estará
@@ -52,13 +52,13 @@
   </sect1>
 
   <sect1 id="useropac_interface">
-    <title>Interfície del OPAC</title>
+    <title lang="es">Interfície del OPAC</title>
 
-    <para>El OPAC de PMB está formado por 3 zonas principales de
+    <para lang="es">El OPAC de PMB está formado por 3 zonas principales de
     información.</para>
 
     <figure>
-      <title>pantalla de inicio del OPAC</title>
+      <title lang="es">pantalla de inicio del OPAC</title>
 
       <mediaobject>
         <imageobject>
@@ -69,14 +69,14 @@
 
     <itemizedlist>
       <listitem>
-        <para>Una zona de "búsqueda" en la parte superior de la página.</para>
+        <para lang="es">Una zona de "búsqueda" en la parte superior de la página.</para>
 
-        <para><emphasis role="bold">Novedad</emphasis> : a partir de la
+        <para lang="es"><emphasis role="bold">Novedad</emphasis> : a partir de la
         versión 1.3, el OPAC ofrece una opción de búsqueda avanzada.</para>
       </listitem>
 
       <listitem>
-        <para>En la parte inferior derecha se muestran las categorías. Hay más
+        <para lang="es">En la parte inferior derecha se muestran las categorías. Hay más
         bloques de información que pueden mostrarse. El OPAC es totalmente
         configurable. Para más información, consulta la <emphasis> Guía del
         </emphasis><emphasis>Administrador</emphasis> capítulo
@@ -85,7 +85,7 @@
       </listitem>
 
       <listitem>
-        <para>La parte de la derecha (que puede ser desactivada en el apartado
+        <para lang="es">La parte de la derecha (que puede ser desactivada en el apartado
         <emphasis>Administración &gt; Herramientas &gt; Parámetros</emphasis>)
         ofrece la posibilidad de que el usuario se identifique con su número
         de carnet. Este apartado incluye también los datos de la biblioteca o
@@ -99,42 +99,42 @@
   </sect1>
 
   <sect1 id="useropac_keywords">
-    <title>Búsqueda simple</title>
+    <title lang="es">Búsqueda simple</title>
 
-    <para>Si introduces una palabra en la zona de texto de "Búsqueda", el OPAC
+    <para lang="es">Si introduces una palabra en la zona de texto de "Búsqueda", el OPAC
     mostrará el resultado de tu búsqueda. Para afinar el resultado de la
     búsqueda, puedes marcar o desmarcar los campos en dónde se buscará:
     título, autor, colección...</para>
 
-    <para>A partir de la versión 1.3, el OPAC de PMB conserva durante la
+    <para lang="es">A partir de la versión 1.3, el OPAC de PMB conserva durante la
     duración de su sesión (a partir del inicio de conexión, es decir de la
     primera página del OPAC que se abre) las búsquedas que realiza y que se
     encuentran disponibles en el apartado "Historial".</para>
   </sect1>
 
   <sect1 id="useropac_categs">
-    <title>Búsqueda por materias</title>
+    <title lang="es">Búsqueda por materias</title>
 
-    <para>Este apartado permite navegar por entre las categorías o materias
+    <para lang="es">Este apartado permite navegar por entre las categorías o materias
     del catálogo. Estas categorías corresponden a un tesauro jerárquico que
     debe crearse en PMB para poder utilizarlo y mostrarlo.</para>
   </sect1>
 
   <sect1 id="useropac_lecteur">
-    <title>Acceso a la cuenta de usuario desde el OPAC</title>
+    <title lang="es">Acceso a la cuenta de usuario desde el OPAC</title>
 
-    <para>Los usuarios registrados en la interficie de gestión pueden acceder
+    <para lang="es">Los usuarios registrados en la interficie de gestión pueden acceder
     a su cuenta de usuario desde el OPAC. Para acceder a la cuenta es
     necesario el número de carnet de usuario (código de barras) y una
     contraseña.</para>
 
-    <para><emphasis role="bold">Nota</emphasis> : por defecto la contraseña es
+    <para lang="es"><emphasis role="bold">Nota</emphasis> : por defecto la contraseña es
     idéntica al código de barras. Este parámetro puede cambiarse en la
     interficie de gestión, o en cualquier momento por el usuario cuando accede
     a su cuenta de usuario.</para>
 
     <figure>
-      <title>información sobre el usuario desde el OPAC</title>
+      <title lang="es">información sobre el usuario desde el OPAC</title>
 
       <mediaobject>
         <imageobject>

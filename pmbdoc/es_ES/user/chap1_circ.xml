@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="circ">
-  <title>Circulación de los documentos</title>
+  <title lang="es">Circulación de los documentos</title>
 
-  <para>La circulación de los documentos de una biblioteca hace referencia al
+  <para lang="es">La circulación de los documentos de una biblioteca hace referencia al
   control de los ejemplares y a la comunicación que se establece entre la
   biblioteca y sus usuarios. Cuando hablamos de circulación también hablamos
   de préstamo.</para>
 
-  <para>El menú laterial de la pestaña de circulación presenta 4 categorías :
+  <para lang="es">El menú laterial de la pestaña de circulación presenta 4 categorías :
   Circulación, Visualización, Reserva y Renovaciones (éste último sólo se
   muestra si la Gestión Financiera de los usuarios está activada, para más
   información consulta la Guía del Administrador, apartado Gestión
   Financiera).</para>
 
-  <para>En la parte de Circulación puedes crear nuevos usuarios y hacer
+  <para lang="es">En la parte de Circulación puedes crear nuevos usuarios y hacer
   préstamos.</para>
 
-  <para>La parte Visualización muestra información sobre los documentos de la
+  <para lang="es">La parte Visualización muestra información sobre los documentos de la
   biblioteca.</para>
 
-  <para>La parte Reserva sirve para crear y administrar las reservas de
+  <para lang="es">La parte Reserva sirve para crear y administrar las reservas de
   documentos.</para>
 
-  <para>La parte Renovaciones permite administrar las renovaciones de los
+  <para lang="es">La parte Renovaciones permite administrar las renovaciones de los
   usuarios según sus retrasos.</para>
 
   <sect1 id="circ_circ">
-    <title>Circulación</title>
+    <title lang="es">Circulación</title>
 
     <sect2 id="circ_pret">
-      <title>Préstar un documento</title>
+      <title lang="es">Préstar un documento</title>
 
-      <para>Prestar un documento es muy fácil y se puede realizar con la ayuda
+      <para lang="es">Prestar un documento es muy fácil y se puede realizar con la ayuda
       de un lector de códigos de barras. Primero hay que introducir el número
       de carnet del usuario (código de barras), y luego introducir los números
       de los ejemplares que se quieren prestar. El lector de códigos de barras
       lee automáticamente los códigos de barras y los introduce
       directamente.</para>
 
-      <para>Lo único necesario es haber introducido previamente al usuario y
+      <para lang="es">Lo único necesario es haber introducido previamente al usuario y
       los ejemplares para poder realizar el préstamo.</para>
 
       <sect3 id="circ_pret_1">
-        <title>Buscar usuario</title>
+        <title lang="es">Buscar usuario</title>
 
-        <para>La explicación sobre cómo crear un usuario y su carnet se
+        <para lang="es">La explicación sobre cómo crear un usuario y su carnet se
         explica un poco más abajo.</para>
 
         <figure>
-          <title>Circulación &gt; Préstamo de documentos</title>
+          <title lang="es">Circulación &gt; Préstamo de documentos</title>
 
           <mediaobject>
             <imageobject>
@@ -59,22 +59,22 @@
       </sect3>
 
       <sect3 id="circ_pret_2">
-        <title>Resultados de la búsqueda</title>
+        <title lang="es">Resultados de la búsqueda</title>
 
-        <para><emphasis role="bold">Ejemplo</emphasis> prestamos
+        <para lang="es"><emphasis role="bold">Ejemplo</emphasis> prestamos
         <emphasis>Rwanda : un peuple avec une histoire</emphasis>, de
         <emphasis>C. M. Overdulve</emphasis>, a nuestro usuario <emphasis>Luke
         Skywalker </emphasis>(código de barras 100003).</para>
 
-        <para>El código de barras del usuario puede introducirse manualmente o
+        <para lang="es">El código de barras del usuario puede introducirse manualmente o
         con el lector de códigos de barras.</para>
 
-        <para>También se puede introducir parte o todo el apellido del usuario
+        <para lang="es">También se puede introducir parte o todo el apellido del usuario
         para seleccionarlo de una lista. En este ejemplo hemos introducido
         solamente la letra "s" para Skywalker.</para>
 
         <figure>
-          <title>Circulación &gt; Préstamo (resultados de una búsqueda de
+          <title lang="es">Circulación &gt; Préstamo (resultados de una búsqueda de
           usuarios)</title>
 
           <mediaobject>
@@ -84,15 +84,15 @@
           </mediaobject>
         </figure>
 
-        <para>Haz clic en la lista de resultados para seleccionar al usuario
+        <para lang="es">Haz clic en la lista de resultados para seleccionar al usuario
         Skywalker.</para>
       </sect3>
 
       <sect3 id="circ_lecteur">
-        <title>Ficha del usuario</title>
+        <title lang="es">Ficha del usuario</title>
 
         <figure>
-          <title>Circulación &gt; Préstamo (ficha usuario)</title>
+          <title lang="es">Circulación &gt; Préstamo (ficha usuario)</title>
 
           <mediaobject>
             <imageobject>
@@ -101,15 +101,15 @@
           </mediaobject>
         </figure>
 
-        <para>El código de barras del ejemplar de Rwanda es
+        <para lang="es">El código de barras del ejemplar de Rwanda es
         33700003286792.</para>
 
-        <para>Para crear el préstamo, introduce el código de barras en el
+        <para lang="es">Para crear el préstamo, introduce el código de barras en el
         campo "Hacer un préstamo". El préstamo se añadirá a la lista de
         préstamos actuales.</para>
 
         <figure>
-          <title>Circulación &gt; Préstamo, préstamo realizado</title>
+          <title lang="es">Circulación &gt; Préstamo, préstamo realizado</title>
 
           <mediaobject>
             <imageobject>
@@ -118,25 +118,25 @@
           </mediaobject>
         </figure>
 
-        <para>El programa ofrece también la posibilidad de cancelar el
+        <para lang="es">El programa ofrece también la posibilidad de cancelar el
         préstamo (hay que tener en cuenta que en este caso el préstamo no se
         contabiliza en las estadísticas, cosa que no pasa con un préstamo que
         a continuación de prestarse es devuelto).</para>
 
-        <para>El programa permite también imprimir un comprobante de préstamo.
+        <para lang="es">El programa permite también imprimir un comprobante de préstamo.
         En este caso se genera un archivo PDF generado por PMB. Bajo Windows,
         el botón de imprimir el comprobante inicia el pluggin de mostrar al
         usuario el comprobante para poderlo visualizar y imprimir. Para
         imprimirlo hay que hacer clic sobre el icono "imprimir" de
         Acrobat.</para>
 
-        <para>El inicio de Acrobat para visualizar el comprobante de préstamo
+        <para lang="es">El inicio de Acrobat para visualizar el comprobante de préstamo
         puede ser más o menos lento, dependiendo del funcionamiento de tu
         ordenador. En los casos que este proceso sea lento, ten paciencia o
         inicia Acrobat con antelación.</para>
 
         <figure>
-          <title>Ejemplo de un comprobante de préstamo.</title>
+          <title lang="es">Ejemplo de un comprobante de préstamo.</title>
 
           <mediaobject>
             <imageobject>
@@ -145,13 +145,13 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">Nota</emphasis> Si el documento que vas a
+        <para lang="es"><emphasis role="bold">Nota</emphasis> Si el documento que vas a
         prestar tiene algún estado especial que no permite el préstamo, pero
         que sí permite forzar el préstamo, PMB te preguntará si quieres
         realizar el préstamo o no.</para>
 
         <figure>
-          <title>Ejemplar excluído de préstamo : posibilidad de forzar el
+          <title lang="es">Ejemplar excluído de préstamo : posibilidad de forzar el
           préstamo</title>
 
           <mediaobject>
@@ -161,21 +161,21 @@
           </mediaobject>
         </figure>
 
-        <para>En nuestro ejemplo, los datos de la biblioteca (nombre,
+        <para lang="es">En nuestro ejemplo, los datos de la biblioteca (nombre,
         dirección, logo) están configurados para la Bibliothèque de Bueil.
         Estos datos se configuran desde el apartado de administración. Para
         más información, consulta la <emphasis>Guía del Administrador de
         PMB</emphasis>, sección <emphasis>Herramientas</emphasis>.</para>
 
-        <para>En la ficha de usuario se pueden realizar otras
+        <para lang="es">En la ficha de usuario se pueden realizar otras
         operaciones:</para>
 
         <itemizedlist>
           <listitem>
-            <para>Realizar un préstamo rápido</para>
+            <para lang="es">Realizar un préstamo rápido</para>
 
             <figure>
-              <title>Botón Préstamo rápido</title>
+              <title lang="es">Botón Préstamo rápido</title>
 
               <mediaobject>
                 <imageobject>
@@ -184,13 +184,13 @@
               </mediaobject>
             </figure>
 
-            <para>El préstamo rápido permite prestar de forma rápida
+            <para lang="es">El préstamo rápido permite prestar de forma rápida
             documentos que no están catalogados. Haz clic sobre Préstamo
             rápido para introducir los datos necesarios para poder prestar un
             documento no catalogado.</para>
 
             <figure>
-              <title>Préstamo rápido</title>
+              <title lang="es">Préstamo rápido</title>
 
               <mediaobject>
                 <imageobject>
@@ -199,37 +199,37 @@
               </mediaobject>
             </figure>
 
-            <para>Introduce un título y un ISBN. Define un tipo de documento
+            <para lang="es">Introduce un título y un ISBN. Define un tipo de documento
             (para poder aplicar de forma correcta la duración del préstamo y
             otras cuotas eventuales).</para>
 
-            <para>Después lee con el lector de códigos el código de barras, o
+            <para lang="es">Después lee con el lector de códigos el código de barras, o
             introdúcelo manualmente y haz clic sobre Crear registro y
             prestar.</para>
 
-            <para>Posteriormente podrás buscar el documento y completar la
+            <para lang="es">Posteriormente podrás buscar el documento y completar la
             catalogación.</para>
           </listitem>
 
           <listitem>
-            <para>Modificar los datos del usuario (permite también renovar el
+            <para lang="es">Modificar los datos del usuario (permite también renovar el
             abono del usuario), ver crear un usuario un poco más abajo.</para>
 
-            <para>Para modificar los datos del usuario, haz clic sobre
+            <para lang="es">Para modificar los datos del usuario, haz clic sobre
             <emphasis>modificar</emphasis>.</para>
           </listitem>
 
           <listitem>
-            <para>Renovar un préstamo</para>
+            <para lang="es">Renovar un préstamo</para>
 
-            <para>Para renovar un préstamo, haz clic sobre el botón de fecha
+            <para lang="es">Para renovar un préstamo, haz clic sobre el botón de fecha
             de retorno. En el calendario, en forma de popup, que se abrirá
             automáticamente, escoge la nueva fecha de devolución. Utiliza las
             flechas para desplazarte de mes en mes, y las flechas dobles para
             desplazarte de año en año.</para>
 
             <figure>
-              <title>Popup de selección de fecha para renovar un
+              <title lang="es">Popup de selección de fecha para renovar un
               préstamo</title>
 
               <mediaobject>
@@ -241,13 +241,13 @@
           </listitem>
 
           <listitem>
-            <para>Para renovar todos los préstamos, haz clic sobre el botón +
+            <para lang="es">Para renovar todos los préstamos, haz clic sobre el botón +
             para seleccionar todos los documentos, después haz clic sobre el
             botón de la fecha que está al lado de "Renovar el préstamo de las
             obras seleccionadas hasta".</para>
 
             <figure>
-              <title>Renovar todos préstamos</title>
+              <title lang="es">Renovar todos préstamos</title>
 
               <mediaobject>
                 <imageobject>
@@ -258,29 +258,29 @@
           </listitem>
 
           <listitem>
-            <para>Suprimir un usuario : no es posible si el usuario tiene
+            <para lang="es">Suprimir un usuario : no es posible si el usuario tiene
             algún préstamo en curso. Si tiene préstamos en curso, primero
             realiza la devolución.</para>
           </listitem>
 
           <listitem>
-            <para>Imprimir la ficha de préstamos: imprime la lista de
+            <para lang="es">Imprimir la ficha de préstamos: imprime la lista de
             documentos en préstamo y las reservas en curso.</para>
           </listitem>
 
           <listitem>
-            <para>Imprimir el abono de usuario.</para>
+            <para lang="es">Imprimir el abono de usuario.</para>
           </listitem>
 
           <listitem>
-            <para>Crear un nuevo usuario.</para>
+            <para lang="es">Crear un nuevo usuario.</para>
           </listitem>
 
           <listitem>
-            <para>El botón Añadir una reserva permite reservar un
+            <para lang="es">El botón Añadir una reserva permite reservar un
             documento.</para>
 
-            <para>Después de hacer clic sobre Añadir una reserva, realiza una
+            <para lang="es">Después de hacer clic sobre Añadir una reserva, realiza una
             búsqueda para encontrar la obra a reservar, y una vez encontrada,
             haz clic sobre ella. Automáticamente se añadirá a la lista de
             reservas.</para>
@@ -289,12 +289,12 @@
       </sect3>
 
       <sect3>
-        <title>Ficha de usuario con gestión financiera</title>
+        <title lang="es">Ficha de usuario con gestión financiera</title>
 
-        <para>La activación de la gestión financiera muestra el estado de las
+        <para lang="es">La activación de la gestión financiera muestra el estado de las
         cuentas del usuario y su información personal.</para>
 
-        <para><inlinemediaobject>
+        <para lang="es"><inlinemediaobject>
             <imageobject>
               <imagedata fileref="images/warning.gif" />
             </imageobject>
@@ -304,7 +304,7 @@
         financiera de los usuarios.</para>
 
         <figure>
-          <title>Ficha de usuario con la lista de cuentas</title>
+          <title lang="es">Ficha de usuario con la lista de cuentas</title>
 
           <mediaobject>
             <imageobject>
@@ -313,30 +313,30 @@
           </mediaobject>
         </figure>
 
-        <para>Para más información sobre la gestión financiera de los
+        <para lang="es">Para más información sobre la gestión financiera de los
         usuarios, consulta un poc más abajo la sección Préstamo de documentos
         y gestión financiera.</para>
       </sect3>
     </sect2>
 
     <sect2 id="pret_gesfin">
-      <title>Préstamo de documentos y gestión financiera</title>
+      <title lang="es">Préstamo de documentos y gestión financiera</title>
 
-      <para>Para más información sobre la parametrización de la gestión
+      <para lang="es">Para más información sobre la parametrización de la gestión
       financiera de los usuarios en PMB, consulta la Guía del administrador
       PMB, capítulo <emphasis>Gestión financiera</emphasis>.</para>
 
       <sect3>
-        <title>Creación de un usuario y gestión financiera de la cuenta de
+        <title lang="es">Creación de un usuario y gestión financiera de la cuenta de
         usuario</title>
 
-        <para>Si creas un nuevo usuario adulto, por ejemplo Jar-Jar Bings, y
+        <para lang="es">Si creas un nuevo usuario adulto, por ejemplo Jar-Jar Bings, y
         has fijado una tarifa de inicio para el tipo de usuario "adulto",
         cuando crees a este usuario, su cuenta se iniciará debiendo ese
         importe.</para>
 
         <figure>
-          <title>Creación de un nuevo usuario</title>
+          <title lang="es">Creación de un nuevo usuario</title>
 
           <mediaobject>
             <imageobject>
@@ -345,12 +345,12 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">Próximamente</emphasis> Para más
+        <para lang="es"><emphasis role="bold">Próximamente</emphasis> Para más
         información sobre la creación de usuarios, consulta en este capítulo
         la sección<emphasis> Nuevo usuario</emphasis>.</para>
 
         <figure>
-          <title>Ficha usuario</title>
+          <title lang="es">Ficha usuario</title>
 
           <mediaobject>
             <imageobject>
@@ -359,17 +359,17 @@
           </mediaobject>
         </figure>
 
-        <para>La cuenta de usuario se crea debiendo la cantidad del importe
+        <para lang="es">La cuenta de usuario se crea debiendo la cantidad del importe
         inicial. Para realizar el pago, haz clic sobre <emphasis
         role="bold">Saldo abono</emphasis>.</para>
       </sect3>
 
       <sect3 id="solde_abonnement">
-        <title>Saldo abono : realizar el pago por iniciar la cuenta de
+        <title lang="es">Saldo abono : realizar el pago por iniciar la cuenta de
         usuario</title>
 
         <figure>
-          <title>Cuenta del usuario</title>
+          <title lang="es">Cuenta del usuario</title>
 
           <mediaobject>
             <imageobject>
@@ -378,36 +378,36 @@
           </mediaobject>
         </figure>
 
-        <para>Si la cuenta del usuario es negativa, se pueden realizar
+        <para lang="es">Si la cuenta del usuario es negativa, se pueden realizar
         diferentes operaciones :</para>
 
         <itemizedlist>
           <listitem>
-            <para>Cobro rápido : permite introducir rápidamente las normas de
+            <para lang="es">Cobro rápido : permite introducir rápidamente las normas de
             cobro de un lector. Después de un cobro rápido, todas las
             operaciones son automáticamente validadas. Haz clic sobre Cobro
             rápido y introduce la cantadid pagada por el usuario.</para>
           </listitem>
 
           <listitem>
-            <para>Ingresar : permite introducir un pago. La operación no se
+            <para lang="es">Ingresar : permite introducir un pago. La operación no se
             valida automáticamente.</para>
           </listitem>
 
           <listitem>
-            <para>Validar las operaciones marcadas : valida una
+            <para lang="es">Validar las operaciones marcadas : valida una
             operación.</para>
           </listitem>
 
           <listitem>
-            <para>Suprimir les operaciones marcadas</para>
+            <para lang="es">Suprimir les operaciones marcadas</para>
           </listitem>
 
           <listitem>
-            <para>Operación especial</para>
+            <para lang="es">Operación especial</para>
 
             <figure>
-              <title>Operación especial en la gestión financiera.</title>
+              <title lang="es">Operación especial en la gestión financiera.</title>
 
               <mediaobject>
                 <imageobject>
@@ -416,27 +416,27 @@
               </mediaobject>
             </figure>
 
-            <para>Las operaciones especiales permiten :</para>
+            <para lang="es">Las operaciones especiales permiten :</para>
 
             <itemizedlist>
               <listitem>
-                <para>créditer le compte ("cadeau" fait au lecteur) et
+                <para lang="es">créditer le compte ("cadeau" fait au lecteur) et
                 éventuellement de passer le montant en perte. Dans ce dernier
                 cas, le montant est décaissé du compte de la
                 bibliothèque.</para>
               </listitem>
 
               <listitem>
-                <para>débiter le compte ("sanction" faite au lecteur).</para>
+                <para lang="es">débiter le compte ("sanction" faite au lecteur).</para>
               </listitem>
 
               <listitem>
-                <para>créditer le compte et encaisser : saisir un paiement du
+                <para lang="es">créditer le compte et encaisser : saisir un paiement du
                 lecteur</para>
               </listitem>
 
               <listitem>
-                <para>débiter le compte et décaisser : saisir une amende pour
+                <para lang="es">débiter le compte et décaisser : saisir une amende pour
                 le lecteur et éventuellement la passer en perte. Dans ce
                 dernier cas, le montant est décaissé du compte de la
                 bibliothèque. Ceci permet notamment de rendre compte d'une
@@ -446,25 +446,25 @@
           </listitem>
         </itemizedlist>
 
-        <para>En nuestro ejemplo, para introducir el pago de 5 € del usuario
+        <para lang="es">En nuestro ejemplo, para introducir el pago de 5 € del usuario
         Jar-Jar Bings, haz clic en cobro rápido y introduce el total del
         pago.</para>
 
-        <para><emphasis role="bold">Nota</emphasis> : en todo momento puedes
+        <para lang="es"><emphasis role="bold">Nota</emphasis> : en todo momento puedes
         volver a a ficha del usuario haciendo clic en <emphasis
         role="bold">Volver a la ficha de usuario</emphasis>.</para>
       </sect3>
 
       <sect3>
-        <title>Préstamo de documentos y descuento de la cuenta del usuario del
+        <title lang="es">Préstamo de documentos y descuento de la cuenta del usuario del
         coste del préstamo</title>
 
-        <para>Si el precio del préstamo de un DVD es de 3 €, cuando efectuemos
+        <para lang="es">Si el precio del préstamo de un DVD es de 3 €, cuando efectuemos
         el préstamo a nuestro usuario su cuenta deberá la cantidad
         correspondiente.</para>
 
         <figure>
-          <title>Préstamo de un documento al usuario</title>
+          <title lang="es">Préstamo de un documento al usuario</title>
 
           <mediaobject>
             <imageobject>
@@ -473,44 +473,44 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">Nota</emphasis> para más información sobre
+        <para lang="es"><emphasis role="bold">Nota</emphasis> para más información sobre
         el préstamo de documentos, consulta en este capítulo la sección
         <emphasis>Préstamo de documentos</emphasis>.</para>
       </sect3>
 
       <sect3>
-        <title>Pago de los préstamos : introducir el pago de un préstamo de un
+        <title lang="es">Pago de los préstamos : introducir el pago de un préstamo de un
         documento</title>
 
-        <para>Los precios de los préstamos están siempre fijados y no han de
+        <para lang="es">Los precios de los préstamos están siempre fijados y no han de
         ser validados. Para validar una operación, haz clic en <emphasis
         role="bold">Pago de los préstamos</emphasis>. Puedes validar o
         suprimir la operación marcando la casilla y escogiendo la acción
         apropiada.</para>
 
-        <para>Para más información sobre las diferentes acciones (cobro, pago
+        <para lang="es">Para más información sobre las diferentes acciones (cobro, pago
         ...) consulta un poco más arriba <link
         linkend="solde_abonnement"><emphasis>Saldo del
         abono</emphasis></link>.</para>
       </sect3>
 
       <sect3>
-        <title>Devolución de un documento con retraso: bloqueo del préstamo y
+        <title lang="es">Devolución de un documento con retraso: bloqueo del préstamo y
         multas</title>
 
-        <para>Al devolver un documento con retraso, según los parámetros
+        <para lang="es">Al devolver un documento con retraso, según los parámetros
         introducidos en la pestaña Administración, el usuario puede quedar
         automáticamente bloqueado. Dependiendo también de los parámetros
         introducidos, pueden activarse las multas.</para>
 
-        <para>El pago se realiza como el resto de transacciones, a través de
+        <para lang="es">El pago se realiza como el resto de transacciones, a través de
         la ficha de usuario.</para>
       </sect3>
 
       <sect3>
-        <title>Cobro de multas : generar los pagos de las multas</title>
+        <title lang="es">Cobro de multas : generar los pagos de las multas</title>
 
-        <para>Para más información sobre las diferentes posibilidades de
+        <para lang="es">Para más información sobre las diferentes posibilidades de
         acciones (cobro, pago, ...) consulta un poco más arriba la sección
         <link linkend="solde_abonnement"><emphasis>Saldo del
         abono</emphasis></link>.</para>
@@ -518,13 +518,13 @@
     </sect2>
 
     <sect2 id="circ_retour">
-      <title>Devolución de un documento</title>
+      <title lang="es">Devolución de un documento</title>
 
-      <para>Para hacer la devolución de un libro sólo es necesario introducir
+      <para lang="es">Para hacer la devolución de un libro sólo es necesario introducir
       el código de barras. No se necesita el carné de usuario. .</para>
 
       <figure>
-        <title>Circulación &gt; Devolución de documentos</title>
+        <title lang="es">Circulación &gt; Devolución de documentos</title>
 
         <mediaobject>
           <imageobject>
@@ -533,13 +533,13 @@
         </mediaobject>
       </figure>
 
-      <para>Cuando se realiza una devolución, se muestra un mensaje de
+      <para lang="es">Cuando se realiza una devolución, se muestra un mensaje de
       confirmación para verificar que la devolución se ha hecho de forma
       correcta y que el código de barras introducido corresponde a la obra en
       cuestión.</para>
 
       <figure>
-        <title>Circulación &gt; Devolución de documentos, confirmación
+        <title lang="es">Circulación &gt; Devolución de documentos, confirmación
         realizada</title>
 
         <mediaobject>
@@ -549,57 +549,57 @@
         </mediaobject>
       </figure>
 
-      <para>Esta pantalla muestra el nombre del usuario que ha devuelto el
+      <para lang="es">Esta pantalla muestra el nombre del usuario que ha devuelto el
       documento. Desde aquí se puede acceder directamente a la la ficha del
       usuario. Ésto es útil cuando después de devolver libros, el usuario
       quiere volver a coger libros en préstamo.</para>
 
-      <para>También se muestran :</para>
+      <para lang="es">También se muestran :</para>
 
       <itemizedlist>
         <listitem>
-          <para>el tipo de ejemplar, la localización, la sección y la
+          <para lang="es">el tipo de ejemplar, la localización, la sección y la
           signatura del ejemplar</para>
         </listitem>
 
         <listitem>
-          <para>si la devolución se ha hecho con retraso, el número de días de
+          <para lang="es">si la devolución se ha hecho con retraso, el número de días de
           retraso</para>
         </listitem>
 
         <listitem>
-          <para>el nombre del usuario anterior que cogió el documento en
+          <para lang="es">el nombre del usuario anterior que cogió el documento en
           préstamo</para>
         </listitem>
 
         <listitem>
-          <para>el mensaje de ejemplar, en caso que tenga</para>
+          <para lang="es">el mensaje de ejemplar, en caso que tenga</para>
         </listitem>
 
         <listitem>
-          <para>si tiene reservas</para>
+          <para lang="es">si tiene reservas</para>
         </listitem>
       </itemizedlist>
 
-      <para>La ficha de usuario también se muestra y permite realizar algunas
+      <para lang="es">La ficha de usuario también se muestra y permite realizar algunas
       operaciones: renovar un préstamo o realizar una reserva por ejemplo.
       Para más información, consulta la sección Ficha de usuario un poco más
       arriba.</para>
 
-      <para>Pueden también gestionarse las multas económicas y la suspensión o
+      <para lang="es">Pueden también gestionarse las multas económicas y la suspensión o
       bloqueo del préstamo. Para más información, consulta la Guía de
       administración de PMB, capítulo Gestión económica de los
       usuarios.</para>
     </sect2>
 
     <sect2 id="circ_groups">
-      <title>Grupos de usuario</title>
+      <title lang="es">Grupos de usuario</title>
 
-      <para>La función <emphasis>Grupos de usuario</emphasis> permite la
+      <para lang="es">La función <emphasis>Grupos de usuario</emphasis> permite la
       gestión de los usuarios por grupos : clases, familias, etc.</para>
 
       <figure>
-        <title>Circulación &gt; Grupos de usuario</title>
+        <title lang="es">Circulación &gt; Grupos de usuario</title>
 
         <mediaobject>
           <imageobject>
@@ -610,37 +610,37 @@
     </sect2>
 
     <sect2 id="circ_emprcreate">
-      <title>Nuevo usuario</title>
+      <title lang="es">Nuevo usuario</title>
 
       <sect3 id="circ_emprcreate_1">
-        <title>Código de barras para el nuevo usuario</title>
+        <title lang="es">Código de barras para el nuevo usuario</title>
 
-        <para>Para crear a un usuario, debes introducir su código de barras.
+        <para lang="es">Para crear a un usuario, debes introducir su código de barras.
         Si el parámetro <emphasis>pmb.num_carte_auto</emphasis> está activado
         (valor 1), PMB te propondrá un código de barras para ese nuevo usuario
         que será equivalente al código de barras más grande introducido en la
         base +1.</para>
 
-        <para>Para más información sobre los parámetros de PMB, consulta la
+        <para lang="es">Para más información sobre los parámetros de PMB, consulta la
         <emphasis>Guía del Administrador de PMB</emphasis>, sección
         Herramientas.</para>
 
-        <para>Una vez el número del abono del usuario está definido, haz clic
+        <para lang="es">Una vez el número del abono del usuario está definido, haz clic
         en siguiente y se mostrará la pantalla dónde introducir los datos del
         usuario.</para>
 
-        <para>Observación : la validación (clic sobre el botón siguiente) es
+        <para lang="es">Observación : la validación (clic sobre el botón siguiente) es
         automática con un lector de códigos de barras.</para>
       </sect3>
 
       <sect3 id="circ_emprcreate_2">
-        <title>Introducción de los datos del usuario</title>
+        <title lang="es">Introducción de los datos del usuario</title>
 
-        <para>En esta pantalla puedes introducir los datos personales de un
+        <para lang="es">En esta pantalla puedes introducir los datos personales de un
         usuario.</para>
 
         <figure>
-          <title>Circulación &gt; Nuevo usuario</title>
+          <title lang="es">Circulación &gt; Nuevo usuario</title>
 
           <mediaobject>
             <imageobject>
@@ -649,7 +649,7 @@
           </mediaobject>
         </figure>
 
-        <para>Si hay campos personalizados definidos en
+        <para lang="es">Si hay campos personalizados definidos en
         <emphasis>Administración &gt; Usuarios &gt; Parámetros
         Personalizados</emphasis>, estos serán visibles en la parte inferior
         de la ficha del usuario. En la pantalla de ejemplo, puedes observar el
@@ -657,22 +657,22 @@
         haz clic sobre el campo y introduce o lee con el lector de códigos el
         nuevo número.</para>
 
-        <para>Si al introducir un código, éste ya se utiliza en la base de
+        <para lang="es">Si al introducir un código, éste ya se utiliza en la base de
         datos, PMB dará un mensaje de error.</para>
 
-        <para>A tener en cuenta :</para>
+        <para lang="es">A tener en cuenta :</para>
 
         <itemizedlist>
           <listitem>
-            <para>Se debe introducir como mínimo un apellido</para>
+            <para lang="es">Se debe introducir como mínimo un apellido</para>
           </listitem>
 
           <listitem>
-            <para>El nombre también debería introducirse</para>
+            <para lang="es">El nombre también debería introducirse</para>
           </listitem>
 
           <listitem>
-            <para>La fecha de nacimiento sirve para realizar estadísticas.
+            <para lang="es">La fecha de nacimiento sirve para realizar estadísticas.
             Debe introducirse si el parámetro empr.birthdate_optional está
             activado (valor 1). Para más información, consulta la
             <emphasis>Guía del Administrador PMB</emphasis>, capítulo
@@ -681,7 +681,7 @@
           </listitem>
 
           <listitem>
-            <para>los campos <emphasis>identificador OPAC</emphasis> y
+            <para lang="es">los campos <emphasis>identificador OPAC</emphasis> y
             <emphasis>Contraseña OPAC</emphasis> definen los identificadores
             de usuario dentro del OPAC (para el formulario de conexión situado
             generalmente en la parte izquierda de la pantalla). Si estos
@@ -690,19 +690,19 @@
 
             <itemizedlist>
               <listitem>
-                <para>para el identificador : primera letra del nombre +
+                <para lang="es">para el identificador : primera letra del nombre +
                 apellido.</para>
               </listitem>
 
               <listitem>
-                <para>para la contraseña : año de nacimiento (aaaa) si está
+                <para lang="es">para la contraseña : año de nacimiento (aaaa) si está
                 introducido, sino 0.</para>
               </listitem>
             </itemizedlist>
           </listitem>
 
           <listitem>
-            <para>los posibles campos personalizados se muestran en la parte
+            <para lang="es">los posibles campos personalizados se muestran en la parte
             inferior de la ficha de usuario. Estos campos permiten añadir
             cualquier tipo de información sobre los usuarios. Para más
             información, consulta la <emphasis>Guía del Administrador de
@@ -714,16 +714,16 @@
   </sect1>
 
   <sect1 id="circ_visu">
-    <title>Mostrar</title>
+    <title lang="es">Mostrar</title>
 
     <sect2 id="circ_visu_ex">
-      <title>Ejemplar por código de barras</title>
+      <title lang="es">Ejemplar por código de barras</title>
 
-      <para>Introduce un código de barras para ver la información sobre ese
+      <para lang="es">Introduce un código de barras para ver la información sobre ese
       ejemplar.</para>
 
       <figure>
-        <title>Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
+        <title lang="es">Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
         primera pantalla</title>
 
         <mediaobject>
@@ -734,7 +734,7 @@
       </figure>
 
       <figure>
-        <title>Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
+        <title lang="es">Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
         pantalla de resultados</title>
 
         <mediaobject>
@@ -746,23 +746,23 @@
     </sect2>
 
     <sect2 id="circ_visu_rech">
-      <title>Documento por autor/título</title>
+      <title lang="es">Documento por autor/título</title>
 
-      <para>Aquí se muestra una pantalla que funciona como la pantalla de
+      <para lang="es">Aquí se muestra una pantalla que funciona como la pantalla de
       búsqueda de catalogación. (Ver un poco más abajo el capítulo
       <emphasis>Catalogación</emphasis>). Puedes introducir un autor o un
       título como punto de partida de tu búsqueda.</para>
 
-      <para>Los truncamientos y los operadores booleanos también se pueden
+      <para lang="es">Los truncamientos y los operadores booleanos también se pueden
       usar aquí. Para ver más información sobre estos operadores, haz clic
       sobre <emphasis>"operadores de búsqueda"</emphasis>.</para>
 
-      <para>En este apartado puedes buscar un documento también por su ISBN,
+      <para lang="es">En este apartado puedes buscar un documento también por su ISBN,
       su depósito legal (DL), o, como anteriormente, por número de
       ejemplar.</para>
 
       <figure>
-        <title>Circulación &gt; Mostrar &gt; Documentos por
+        <title lang="es">Circulación &gt; Mostrar &gt; Documentos por
         autor/título</title>
 
         <mediaobject>
@@ -775,25 +775,25 @@
   </sect1>
 
   <sect1 id="circ_resa">
-    <title>Reservas</title>
+    <title lang="es">Reservas</title>
 
-    <para>PMB permite reservar documentos para un usuario. Las reservas están
+    <para lang="es">PMB permite reservar documentos para un usuario. Las reservas están
     accesibles en la pestaña circulación, dentro de cada ficha de usuario
     (préstamo de documentos) y, según los parámetros, en el OPAC, dentro de la
     ficha de usuario. (Para más información sobre los parámetros del OPAC,
     consulta la <emphasis>Guía del Administrador PMB</emphasis>.)</para>
 
-    <para>La gestión avanzada de las reservas está disponible a partir de la
+    <para lang="es">La gestión avanzada de las reservas está disponible a partir de la
     versión 1.3 de PMB.</para>
 
     <sect2 id="circ_resa_encours">
-      <title>Actuales</title>
+      <title lang="es">Actuales</title>
 
-      <para>En esta pantalla, se muestran las reservas en curso. El lugar en
+      <para lang="es">En esta pantalla, se muestran las reservas en curso. El lugar en
       la cola se especifica en el caso de que varios usuarios hayan reservado
       la misma obra.</para>
 
-      <para>Las reservas se introducen en estado no validadas. Cuando se añade
+      <para lang="es">Las reservas se introducen en estado no validadas. Cuando se añade
       una reserva es añadida, la persona responsable de las reservas la separa
       de los estantes y la reserva (es decir, la aparta). Para editar una
       lista de los ejemplares a apartar, en la pestaña
@@ -801,15 +801,15 @@
       <emphasis> a procesar</emphasis>. (Para más información, ver <xref
       linkend="edit" />).</para>
 
-      <para>Una vez apartados los documentos, se introducen los códigos de
+      <para lang="es">Una vez apartados los documentos, se introducen los códigos de
       barras con el lector de códigos de barras, de forma que las reservas
       quedan "validadas".</para>
 
-      <para>Si quieres suprimir una reserva, haz clic en suprimir y después
+      <para lang="es">Si quieres suprimir una reserva, haz clic en suprimir y después
       haz clic en Validar las reservas suprimidas.</para>
 
       <figure>
-        <title>Circulación &gt; Reservas &gt; Actuales</title>
+        <title lang="es">Circulación &gt; Reservas &gt; Actuales</title>
 
         <mediaobject>
           <imageobject>
@@ -818,26 +818,26 @@
         </mediaobject>
       </figure>
 
-      <para>Para imprimir las las cartas de confirmación de las reservas, haz
+      <para lang="es">Para imprimir las las cartas de confirmación de las reservas, haz
       lic en <emphasis>Cartas de confirmación</emphasis></para>
     </sect2>
 
     <sect2 id="circ_resa_depassee">
-      <title>Reservas pasadas</title>
+      <title lang="es">Reservas pasadas</title>
 
-      <para>La pantalla de reservas pasadas muestra las reservas que no han
+      <para lang="es">La pantalla de reservas pasadas muestra las reservas que no han
       sido anuladas y que los usuarios no han pasado a buscar y, por tanto, se
       ha pasado el tiempo de reserva. En estos casos puedes suprimirlas. Para
       suprimir una reserva, selecciona la reserva y haz clic en Suprimir la
       selección, después haz clic en <emphasis>Validar las reservas
       suprimidas</emphasis>.</para>
 
-      <para>También puedes dejar pasar un tiempo suplementario a las reservas
+      <para lang="es">También puedes dejar pasar un tiempo suplementario a las reservas
       pasadas. En este caso no suprimas las reservas antes de que haya pasado
       este período suplementario..</para>
 
       <figure>
-        <title>Circulación &gt; reservas &gt; pasadas</title>
+        <title lang="es">Circulación &gt; reservas &gt; pasadas</title>
 
         <mediaobject>
           <imageobject>
@@ -848,16 +848,16 @@
     </sect2>
 
     <sect2 id="circ_resa_docranger">
-      <title>Doc. a colocar</title>
+      <title lang="es">Doc. a colocar</title>
 
-      <para>La lista de documentos a colocar muestra los documentos
+      <para lang="es">La lista de documentos a colocar muestra los documentos
       reservados, que están apartados, pero que la reserva ha sido suprimida.
       Esta lista permite volver a poner en las estanterías los documentos que
       no han venido a buscar los usuarios, o aquellos en que directamente la
       reserva se ha suprimido.</para>
 
       <figure>
-        <title>Circulación &gt; reservas &gt; a colocar</title>
+        <title lang="es">Circulación &gt; reservas &gt; a colocar</title>
 
         <mediaobject>
           <imageobject>
@@ -869,22 +869,22 @@
   </sect1>
 
   <sect1 id="relances">
-    <title>Reclamaciones</title>
+    <title lang="es">Reclamaciones</title>
 
-    <para>La gestión avanzada de las reclamaciones está asociada al uso de la
+    <para lang="es">La gestión avanzada de las reclamaciones está asociada al uso de la
     gestión financera de los usuarios. Para más información sobre cómo activar
     la gestión financiera de los usuarios, consulta la <emphasis>Guía del
     Administrador PMB</emphasis>, capítulo Gestión financiera de los
     usuarios.</para>
 
     <sect2 id="relances_todo">
-      <title>Reclamaciones a realizar</title>
+      <title lang="es">Reclamaciones a realizar</title>
 
-      <para>En esta pantalla, tú puedes consultar la lista de las
+      <para lang="es">En esta pantalla, tú puedes consultar la lista de las
       reclamaciones a usuarios que puedes realizar.</para>
 
       <figure>
-        <title>Reclamaciones a realizar</title>
+        <title lang="es">Reclamaciones a realizar</title>
 
         <mediaobject>
           <imageobject>
@@ -893,53 +893,53 @@
         </mediaobject>
       </figure>
 
-      <para>Puedes imprimir las cartas de reclamaciones para cada uno de los
+      <para lang="es">Puedes imprimir las cartas de reclamaciones para cada uno de los
       usuarios. El contenido de estas cartas varía dependiendo del nivel de
       reclamación. En el nivel 2, el contenido de la carta es más suave que en
       niveles más altos, cuando el retraso de los documentos es más
       largo.</para>
 
-      <para>Una vez has enviado la carta al usuario, puedes cambiar el nivel
+      <para lang="es">Una vez has enviado la carta al usuario, puedes cambiar el nivel
       de retraso del usuario.</para>
 
-      <para>Para cada usuario, puedes :</para>
+      <para lang="es">Para cada usuario, puedes :</para>
 
       <itemizedlist>
         <listitem>
-          <para>ver el código de barras del usuario, su nombre, el número de
+          <para lang="es">ver el código de barras del usuario, su nombre, el número de
           libros que tiene en retraso</para>
         </listitem>
 
         <listitem>
-          <para>ver el último nivel de retraso validado (corresponde a la
+          <para lang="es">ver el último nivel de retraso validado (corresponde a la
           carta de reclamación de más nivel)</para>
         </listitem>
 
         <listitem>
-          <para>ver la fecha de la última validación (corresponde al último
+          <para lang="es">ver la fecha de la última validación (corresponde al último
           envío de una reclamación)</para>
         </listitem>
 
         <listitem>
-          <para>ver el nivel supuesto : es el nivel que PMB propone en función
+          <para lang="es">ver el nivel supuesto : es el nivel que PMB propone en función
           del retraso de los diferentes documentos</para>
         </listitem>
 
         <listitem>
-          <para>realizar un cambio de nivel y, cuando proceda, pasar a
+          <para lang="es">realizar un cambio de nivel y, cuando proceda, pasar a
           cobrar.</para>
         </listitem>
       </itemizedlist>
     </sect2>
 
     <sect2 id="relances_recouvr">
-      <title>Cobros</title>
+      <title lang="es">Cobros</title>
 
-      <para>El apartado de cobros sirve para transmitir el estado de cuentas
+      <para lang="es">El apartado de cobros sirve para transmitir el estado de cuentas
       de un usuario a una institución que será la que se encargue de realizar
       la recuperación y el cobro de las multas.</para>
 
-      <para>Esta pantalla es ante todo una forma de consulta. Una vez los
+      <para lang="es">Esta pantalla es ante todo una forma de consulta. Una vez los
       datos del estado de cuentas de un usuario son transmitidos para el
       cobro, ya no constán más en la base de datos de la biblioteca, ni en el
       funcionamiento de la misma (pasan a formar parte del ayuntamiento o del

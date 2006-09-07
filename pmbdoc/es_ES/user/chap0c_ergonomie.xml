@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="ergo" lang="fr">
-  <title>Ergonomía de la interficie de gestión</title>
+  <title lang="es">Ergonomía de la interficie de gestión</title>
 
-  <para>Esta es una pantalla de la interficie de gestión de PMB. La pantalla
+  <para lang="es">Esta es una pantalla de la interficie de gestión de PMB. La pantalla
   está dividida en tres partes.</para>
 
   <figure>
-    <title>interficie de gestión</title>
+    <title lang="es">interficie de gestión</title>
 
     <mediaobject>
       <imageobject>
@@ -15,17 +15,17 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">La barra de navegación
+  <para lang="es"><emphasis role="bold">La barra de navegación
   superior</emphasis></para>
 
-  <para>Permite ir cambiando entre los diferentes módulos de la interficie de
+  <para lang="es">Permite ir cambiando entre los diferentes módulos de la interficie de
   gestión en cualquier momento.</para>
 
-  <para>Solamente se visualizarán los módulos a los cuales el usuario tenga
+  <para lang="es">Solamente se visualizarán los módulos a los cuales el usuario tenga
   acceso (según sus privilegios de usuario).</para>
 
   <figure>
-    <title>Barra de navegación superior</title>
+    <title lang="es">Barra de navegación superior</title>
 
     <mediaobject>
       <imageobject>
@@ -34,42 +34,42 @@
     </mediaobject>
   </figure>
 
-  <para>A la derecha de la barra de navegación, y al mismo nivel que las
+  <para lang="es">A la derecha de la barra de navegación, y al mismo nivel que las
   pestañas de los módulos, se encuentran otros enlaces :
   <emphasis>historial</emphasis>,<emphasis>?</emphasis>,
   <emphasis>pref</emphasis>. , <emphasis>opac</emphasis> y
   <emphasis>salir</emphasis>.</para>
 
-  <para><emphasis>historial</emphasis> abre en un popup un histórico de las
+  <para lang="es"><emphasis>historial</emphasis> abre en un popup un histórico de las
   búsquedas realizadas en la interficie de gestión de PMB. Este enlace sólo se
   muestra si el usuario dispone de los privilegios de acceso a la
   catalogación. Para más información sobre las búsquedas, ver <xref
   linkend="cat_search" /> ; para más información sobre el historial de
   búsquedas, ver <xref linkend="search_history" />.</para>
 
-  <para><emphasis>?</emphasis> permite acceder a la ayuda contextual de PMB.
+  <para lang="es"><emphasis>?</emphasis> permite acceder a la ayuda contextual de PMB.
   Para más información, consulta el capítulo <xref
   linkend="aide_contextuelle" />. La visualización o no de la ayuda contextual
   puede configurarse. Para más información, consulta la <emphasis>Guía del
   Administrador de PMB</emphasis>, capítulo <emphasis>Herramientas</emphasis>,
   sección <emphasis>Parámetros</emphasis>.</para>
 
-  <para><emphasis>pref</emphasis>. permite acceder a las preferencias u
+  <para lang="es"><emphasis>pref</emphasis>. permite acceder a las preferencias u
   opciones del usuario conectado a PMB</para>
 
-  <para><emphasis>opac</emphasis> abre una nueva ventana del navegador que
+  <para lang="es"><emphasis>opac</emphasis> abre una nueva ventana del navegador que
   muestra el OPAC</para>
 
-  <para><emphasis>salir</emphasis> desconecta al usuario en curso y reenvía a
+  <para lang="es"><emphasis>salir</emphasis> desconecta al usuario en curso y reenvía a
   la página inicial de conexión</para>
 
-  <para><emphasis role="bold">El menú lateral</emphasis></para>
+  <para lang="es"><emphasis role="bold">El menú lateral</emphasis></para>
 
-  <para>Permite acceder a las diferentes funciones de cada uno de los
+  <para lang="es">Permite acceder a las diferentes funciones de cada uno de los
   módulos.</para>
 
   <figure>
-    <title>Menu lateral</title>
+    <title lang="es">Menu lateral</title>
 
     <mediaobject>
       <imageobject>
@@ -78,13 +78,13 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">La interficie central</emphasis></para>
+  <para lang="es"><emphasis role="bold">La interficie central</emphasis></para>
 
-  <para>La interficie central es la parte de PMB en la que puedes introducir o
+  <para lang="es">La interficie central es la parte de PMB en la que puedes introducir o
   editar datos, ejecutar funciones, validar los cambios, etc.</para>
 
   <figure>
-    <title>interficie central</title>
+    <title lang="es">interficie central</title>
 
     <mediaobject>
       <imageobject>
@@ -93,30 +93,30 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Las alertas</emphasis></para>
+  <para lang="es"><emphasis role="bold">Las alertas</emphasis></para>
 
-  <para>Las alertas se visualizan a la derecha debajo del menú :</para>
+  <para lang="es">Las alertas se visualizan a la derecha debajo del menú :</para>
 
   <itemizedlist>
     <listitem>
-      <para>si hay reservas añadidas</para>
+      <para lang="es">si hay reservas añadidas</para>
     </listitem>
 
     <listitem>
-      <para>si hay documentos a colocar por reservas anuladas</para>
+      <para lang="es">si hay documentos a colocar por reservas anuladas</para>
     </listitem>
 
     <listitem>
-      <para>si hay usuarios que su abono finaliza pronto</para>
+      <para lang="es">si hay usuarios que su abono finaliza pronto</para>
     </listitem>
 
     <listitem>
-      <para>si hay usuarios cuyo abono ha finalizado</para>
+      <para lang="es">si hay usuarios cuyo abono ha finalizado</para>
     </listitem>
   </itemizedlist>
 
   <figure>
-    <title>alertas</title>
+    <title lang="es">alertas</title>
 
     <mediaobject>
       <imageobject>
@@ -125,14 +125,14 @@
     </mediaobject>
   </figure>
 
-  <para><emphasis role="bold">Los resultados de la búsqueda</emphasis></para>
+  <para lang="es"><emphasis role="bold">Los resultados de la búsqueda</emphasis></para>
 
-  <para>Los resultados de las búsquedas en la interficie de PMB se presentan
+  <para lang="es">Los resultados de las búsquedas en la interficie de PMB se presentan
   con los números de páginas de resultados clicables en la parte inferior de
   la pantalla : esto permite pasar de una página de resultados a otra de forma
   ágil.</para>
 
-  <para>Si has realizado una búsqueda y lo que quieres es pasar directamente a
+  <para lang="es">Si has realizado una búsqueda y lo que quieres es pasar directamente a
   los resultados del 11 al 20 de esa búsqueda, haz clic en la página número 2
   para ir de forma directa. También puedes utilizar los iconos de página
   anterior y página siguiente de la pantalla (triángulos azules).</para>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="aide_contextuelle" lang="fr">
-  <title>Ayuda contextual</title>
+  <title lang="es">Ayuda contextual</title>
 
-  <para>A través de los enlaces situados en la parte superior izquierda de la interficie de gestión 
+  <para lang="es">A través de los enlaces situados en la parte superior izquierda de la interficie de gestión 
   de PMB, y haciendo clic sobre el signo de interrogación "?", se puede ver la ayuda contextual de
   PMB.</para>
 
   <figure>
-    <title>Enlaces de navegación</title>
+    <title lang="es">Enlaces de navegación</title>
 
     <mediaobject>
       <imageobject>
@@ -16,16 +16,16 @@
     </mediaobject>
   </figure>
 
-  <para>La ayuda contextual puede ser activada o desactivada a través del parámetro 
+  <para lang="es">La ayuda contextual puede ser activada o desactivada a través del parámetro 
   pmb <emphasis>show_help</emphasis>. Para más información, consulta la <emphasis>Guía del 
   Administrador PMB</emphasis>.</para>
 
   <sect1>
-    <title>Disponibilidad de la ayuda contextual</title>
+    <title lang="es">Disponibilidad de la ayuda contextual</title>
 
-    <para>La ayuda contextual está solamente disponible en francés actualmente.</para>
+    <para lang="es">La ayuda contextual está solamente disponible en francés actualmente.</para>
 
-    <para>Para la versión 2.1, las traducciones en inglés y en italiano están en 
+    <para lang="es">Para la versión 2.1, las traducciones en inglés y en italiano están en 
 	fase de realización. Para más información, no dudes en emviar tus dudas sobre esas
 	versiones de la documentación en las listas de distribución de los usuarios de pmb: 
 	pmb.user@sigb.net (para subscribirte envía un correo electrónico con el asunto
@@ -33,13 +33,13 @@
   </sect1>
 
   <sect1>
-    <title>Funcionamiento de a ayuda contextual</title>
+    <title lang="es">Funcionamiento de a ayuda contextual</title>
 
-    <para>La ayuda contextual se muestra en un popup. La ayuda que se muestra 
+    <para lang="es">La ayuda contextual se muestra en un popup. La ayuda que se muestra 
 	corresponde a la pantalla en la cual tú estás.</para>
 
     <figure>
-      <title>Ayuda contextual, popup</title>
+      <title lang="es">Ayuda contextual, popup</title>
 
       <mediaobject>
         <imageobject>
@@ -48,29 +48,29 @@
       </mediaobject>
     </figure>
 
-    <para>La ayuda contextual permite integrar en PMB la Guía del 
+    <para lang="es">La ayuda contextual permite integrar en PMB la Guía del 
 	usuario PMB, la Guía del Administrador PMB y la Guía de 
 	Instalación PMB.</para>
 
-    <para>En la parte superior de cada página dispones de diferentes elementos :</para>
+    <para lang="es">En la parte superior de cada página dispones de diferentes elementos :</para>
 
     <itemizedlist>
       <listitem>
-        <para>el título del capítulo que se muestra</para>
+        <para lang="es">el título del capítulo que se muestra</para>
       </listitem>
 
       <listitem>
-        <para>el título de la sección del capítulo que se muestra</para>
+        <para lang="es">el título de la sección del capítulo que se muestra</para>
       </listitem>
 
       <listitem>
-        <para>las flechas de navegación permiten desplazarse de una página a otra para 
+        <para lang="es">las flechas de navegación permiten desplazarse de una página a otra para 
 		poder navegar por la ayuda.</para>
       </listitem>
     </itemizedlist>
 
     <figure>
-      <title>Ayuda contextual, elementos en la parte superior de la página</title>
+      <title lang="es">Ayuda contextual, elementos en la parte superior de la página</title>
 
       <mediaobject>
         <imageobject>
@@ -79,11 +79,11 @@
       </mediaobject>
     </figure>
 
-    <para>En la parte inferior de cada página, encontrarás diferentes iconos de
+    <para lang="es">En la parte inferior de cada página, encontrarás diferentes iconos de
     navegación.</para>
 
     <figure>
-      <title>Ayuda contextual, iconos de navegación en la parte inferior de la página</title>
+      <title lang="es">Ayuda contextual, iconos de navegación en la parte inferior de la página</title>
 
       <mediaobject>
         <imageobject>
@@ -92,32 +92,32 @@
       </mediaobject>
     </figure>
 
-    <para>Las flechas de izquierda y derecha permiten desplazarse de una página a otra
+    <para lang="es">Las flechas de izquierda y derecha permiten desplazarse de una página a otra
 	para navegar a través de la ayuda.</para>
 
-    <para>La flecha hacia arriba es un enlace hacia el sumario del capítulo que 
+    <para lang="es">La flecha hacia arriba es un enlace hacia el sumario del capítulo que 
 	se muestra. Entre los títulos del capítulo de la Guía del usuario, podemos ver
 	por ejemplo las diferentes pestañas Circulación, Catálogo, Autoridades y Informes.</para>
 
-    <para>El icono de casa es un enlace hacia el sumario de la Guía que se muestra : Guía del 
+    <para lang="es">El icono de casa es un enlace hacia el sumario de la Guía que se muestra : Guía del 
 	usuario, Guía del Administrador, Guía de Instalación.</para>
   </sect1>
 
   <sect1>
-    <title>Funcionamiento por defecto</title>
+    <title lang="es">Funcionamiento por defecto</title>
 
-    <para>La instalación de la ayuda contextual se hace integrando un 
+    <para lang="es">La instalación de la ayuda contextual se hace integrando un 
 	archivo descomprimido que contiene el conjunto de la documentación y que está
 	disponible en <ulink
     url="http://www.sigb.net/documentation.zip">www.sigb.net</ulink> dentro
 	del apartado "PMB le logiciel", y haciendo clic sobre "télécharger".</para>
 
-    <para>Si el administrador de PMB no ha instalado correctamente la
+    <para lang="es">Si el administrador de PMB no ha instalado correctamente la
 	documentación de la ayuda contextual por defecto, el enlace hacia la ayuda
 	"?" reenviará hacia los archivos asociados a la instalación 
 	y a la parametrización dentro del directorio doc de tu instalación de PMB.</para>
 
-    <para>En este caso, contacta con tu administrador informátcio o lee 
+    <para lang="es">En este caso, contacta con tu administrador informátcio o lee 
 	atentamente el procedimiento de instalación que se muestra en el popup
 	y sigue las instrucciones para instalar la ayuda de PMB.</para>
   </sect1>

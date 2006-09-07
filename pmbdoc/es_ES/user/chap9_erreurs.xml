@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Mensajes de error, problemas y FAQ</title>
+  <title lang="es">Mensajes de error, problemas y FAQ</title>
 
   <sect1>
-    <title>Identificación incorrecta</title>
+    <title lang="es">Identificación incorrecta</title>
 
-    <para>Esta pantalla aparece cuando el nombre de usuario o la contraseña
+    <para lang="es">Esta pantalla aparece cuando el nombre de usuario o la contraseña
     son incorrectas. Este mensaje de error corresponde también a un usuario
     inválido.</para>
 
-    <para><emphasis role="bold">Solución</emphasis> : verifica el nombre de
+    <para lang="es"><emphasis role="bold">Solución</emphasis> : verifica el nombre de
     usuario y la contraseña introducidos.</para>
 
     <figure>
-      <title>Identificación incorrecta</title>
+      <title lang="es">Identificación incorrecta</title>
 
       <mediaobject>
         <imageobject>
@@ -24,14 +24,14 @@
   </sect1>
 
   <sect1>
-    <title>No tienes acceso a esta funcionalidad</title>
+    <title lang="es">No tienes acceso a esta funcionalidad</title>
 
-    <para>Esta pantalla aparece cuando un usaurio intenta acceder a una
+    <para lang="es">Esta pantalla aparece cuando un usaurio intenta acceder a una
     función a la cual no tiene acceso. Este mensaje de error puede también
     aparecer cuando una sesión ha finalizado (por estar inactiva durante mucho
     rato), en estos casos es necesario volverse a conectar.</para>
 
-    <para><emphasis role="bold">Solución</emphasis> : volver a la pantalla de
+    <para lang="es"><emphasis role="bold">Solución</emphasis> : volver a la pantalla de
     inicio y volver a conectarse. Verifica los derechos de acceso a las
     diferentes funciones del programa y<emphasis>endo a
     Administración</emphasis> &gt; <emphasis>Usuarios</emphasis>. Para más
@@ -39,7 +39,7 @@
     PMB</emphasis>.</para>
 
     <figure>
-      <title>No tienes acceso a esta funcionalidad</title>
+      <title lang="es">No tienes acceso a esta funcionalidad</title>
 
       <mediaobject>
         <imageobject>
@@ -50,17 +50,17 @@
   </sect1>
 
   <sect1>
-    <title>Ninguna sesión iniciada</title>
+    <title lang="es">Ninguna sesión iniciada</title>
 
-    <para>Esta pantalla aparece cuando un usuario intenta acceder directamente
+    <para lang="es">Esta pantalla aparece cuando un usuario intenta acceder directamente
     a una de las pestañas de pmb por su dirección : pmb/circ.php ;
     pmb/catalog.php... sin haber iniciado una sesión antes.</para>
 
-    <para><emphasis role="bold">Solución</emphasis> : haz clic en el OK y
+    <para lang="es"><emphasis role="bold">Solución</emphasis> : haz clic en el OK y
     introduce un nombre de usuario y una contraseña válidas.</para>
 
     <figure>
-      <title>Ninguna sesión abierta</title>
+      <title lang="es">Ninguna sesión abierta</title>
 
       <mediaobject>
         <imageobject>

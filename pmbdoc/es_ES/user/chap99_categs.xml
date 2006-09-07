@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="categ">
-  <title>Tesauro y categorías en PMB</title>
+  <title lang="es">Tesauro y categorías en PMB</title>
 
-  <para>PMB dispone de tres tesauros que pueden cargarse durante la
+  <para lang="es">PMB dispone de tres tesauros que pueden cargarse durante la
   instalación. Un tesauro es un conjunto de descriptores, de
   "categorías".</para>
 
-  <para>También puedes cargar una clasificación decimal, como la validada de
+  <para lang="es">También puedes cargar una clasificación decimal, como la validada de
   la BM de Chambéry, o una clasificación estilo Dewey. Estas clasificaciones
   definen la materia de un registro, y pueden utilizarse a la hora de definir
   la signatura. La signatura define la localización física, dónde se encuentra
   el ejemplar en la biblioteca, por ejemplo "848 MAR".</para>
 
-  <para>A partir de la versión 2.2 de PMB, puedes utilizar simultáneamente
+  <para lang="es">A partir de la versión 2.2 de PMB, puedes utilizar simultáneamente
   diferentes tesauros en PMB : es la gestión multi-tesauros. Cada uno de estos
   tesauros puede ser traducido a diferentes lenguas. Un usuario podrá
   consultar un tesauro en su idioma de uso : multi-tesaurus
   multilingüe.</para>
 
   <sect1 id="categ_intro">
-    <title>Introducción</title>
+    <title lang="es">Introducción</title>
 
     <sect2 id="categ_intro_voca">
-      <title>Un poco de vocabulario</title>
+      <title lang="es">Un poco de vocabulario</title>
 
-      <para><emphasis role="bold">Tesauro </emphasis>: a veces también puede
+      <para lang="es"><emphasis role="bold">Tesauro </emphasis>: a veces también puede
       encontrarse bajo su forma original latina : sing. thesaurus, pl.
       thesauri.</para>
 
-      <para><emphasis role="bold">Categoría</emphasis> : término de un tesauro
+      <para lang="es"><emphasis role="bold">Categoría</emphasis> : término de un tesauro
       en PMB. La gestión de las categorías corresponde a la filosofía de uso
       de un tesauro.</para>
 
-      <para><emphasis role="bold">Descriptor del tesauros</emphasis> :
+      <para lang="es"><emphasis role="bold">Descriptor del tesauros</emphasis> :
       sinónimo de categoría en PMB.</para>
 
-      <para><emphasis role="bold">Descriptor</emphasis> = término del
+      <para lang="es"><emphasis role="bold">Descriptor</emphasis> = término del
       tesauro.</para>
     </sect2>
 
     <sect2 id="categ_redac">
-      <title>Creación de un tesauro</title>
+      <title lang="es">Creación de un tesauro</title>
 
-      <para>Esta introducción es una adapatación de un artículo de Wikipédia,
+      <para lang="es">Esta introducción es una adapatación de un artículo de Wikipédia,
       la enciclopedia libre y gratuita (<ulink
       url="http://fr.wikipedia.org/wiki/Thesaurus">http://es.wikipedia.org/wiki/Tesauro</ulink>).</para>
 
       <epigraph>
-        <para><emphasis role="bold">referencia</emphasis> Colaboradores de
+        <para lang="es"><emphasis role="bold">referencia</emphasis> Colaboradores de
         Wikipédia, "Tesauro," <emphasis>Wikipedia, la enciclopedia
         libre</emphasis>, <ulink
         url="http://es.wikipedia.org/wiki/Tesauro">http://es.wikipedia.org/wiki/Tesauro</ulink>
         (Página consultada el 4 de julio de 2006).</para>
       </epigraph>
 
-      <para>Un <emphasis role="bold">tesauros</emphasis> es una especie de
+      <para lang="es">Un <emphasis role="bold">tesauros</emphasis> es una especie de
       diccionario jerarquizado&nbsp;; un vocabulario normalizado en base a
       términos genéricos y términos específicos sobre un tema. Las
       definiciones no suelen incluirse, ya que son las relaciones de los
       términos y su uso lo importante, y por tanto no su significado.</para>
 
       <sect3 id="categ_redac_indexation">
-        <title>Herramienta de indexación y herramienta para buscar</title>
+        <title lang="es">Herramienta de indexación y herramienta para buscar</title>
 
-        <para>Un <emphasis>tesauro</emphasis> es un conjunto estructurado de
+        <para lang="es">Un <emphasis>tesauro</emphasis> es un conjunto estructurado de
         palabras escogidas por su capacidad de facilitar la descrispción sobre
         un tema y de homogeneizar la comunicación y el tratamiento de la
         información de este tema. Cada término llamado descriptor
@@ -73,13 +73,13 @@
         reenvían «&nbsp;veir&nbsp;» hacia la categoría correcta], disponen de
         todas las relaciones necesarias.</para>
 
-        <para>A la práctica, el <emphasis>tesauro</emphasis> es una
+        <para lang="es">A la práctica, el <emphasis>tesauro</emphasis> es una
         herramienta documental de indexación. Usando un tesauro pertinente, es
         posible representar cualquier documento con una selección rigurosa de
         palabras clave. De esta forma se puede garantizar una correcta gestión
         de la colección.</para>
 
-        <para>En el catálogo público [<emphasis>OPAC</emphasis>], el tesauro
+        <para lang="es">En el catálogo público [<emphasis>OPAC</emphasis>], el tesauro
         se transforma en un intrumento para buscar &nbsp;: disponiendo de un
         vocabulario y de las reglas de indexación, el usuario puede optimizar
         sus búsquedas. El usuario también puede explorar de forma intuitiva el
@@ -88,9 +88,9 @@
       </sect3>
 
       <sect3 id="categ_redac_constitution">
-        <title>Constitución de un tesauro</title>
+        <title lang="es">Constitución de un tesauro</title>
 
-        <para>Un <emphasis>tesauro</emphasis> se elebora como un conjunto de
+        <para lang="es">Un <emphasis>tesauro</emphasis> se elebora como un conjunto de
         vocabulario usual (lenguaje natural) y un conjunto de vocabulario
         escecializado. Se trata de un vocabulario controlado resultante de un
         largo proceso de selección de palabras, nombre y expresiones usadas de
@@ -100,7 +100,7 @@
         fase de validación de la comunidada a la cual afecta.</para>
 
         <epigraph>
-          <para>Para mejorar este proceso, los términos sos inventariados,
+          <para lang="es">Para mejorar este proceso, los términos sos inventariados,
           comparados, relacionados y finalmente jerarquizados para describir
           las caracterísicas esenciales del campo seleccionado. Esta jerarquía
           se basa en una tipología&nbsp;: cada término pertenece a una
@@ -110,7 +110,7 @@
           de los términos.</para>
         </epigraph>
 
-        <para>Finalmente y hablando de niveles, el más alto corresponde al
+        <para lang="es">Finalmente y hablando de niveles, el más alto corresponde al
         tema del tesauro, por debajo encontramos las subdivisiones más
         importantes, representando las áreas del tema - subdivisiones a menudo
         llamadas <emphasis>microtesauros</emphasis>, ya que cada subdivisión
@@ -118,24 +118,24 @@
         referencia también a varios temas.</para>
 
         <epigraph>
-          <para>Aunque haya siempre un factor arbitrario en la elección de la
+          <para lang="es">Aunque haya siempre un factor arbitrario en la elección de la
           jerarquía de un tesauro, o en la elección de los descriptores, hay
           unas normas para la elaboración de tesauros&nbsp;:</para>
 
-          <para><emphasis role="bold">Norma ISO 2788-1986&nbsp;:</emphasis>
+          <para lang="es"><emphasis role="bold">Norma ISO 2788-1986&nbsp;:</emphasis>
           Directrices para la elaboración y el desarrollo de tesauros
           monolingües.</para>
 
-          <para><emphasis role="bold">Norma ISO 5964-1985&nbsp;:</emphasis>
+          <para lang="es"><emphasis role="bold">Norma ISO 5964-1985&nbsp;:</emphasis>
           Directrices para la elaboración y el desarrollo de tesauros
           multilingües.</para>
         </epigraph>
       </sect3>
 
       <sect3 id="categ_redac_relations">
-        <title>Las relaciones jerárquicas</title>
+        <title lang="es">Las relaciones jerárquicas</title>
 
-        <para>Los términos de un tesauro se organizan jerárquicamente (en un
+        <para lang="es">Los términos de un tesauro se organizan jerárquicamente (en un
         microtesauros suelen estar ordenados alfabéticamente). Esta jerarquía
         permite normalizar la indexación o la interrogación. La indexación se
         apoya en lo posible en la identificación de los términos específicos
@@ -143,43 +143,43 @@
         para hacer aparecer los términos generales para aumentar el número de
         respuestas.</para>
 
-        <para>Las relaciones entre los términos son de tres
+        <para lang="es">Las relaciones entre los términos son de tres
         tipos&nbsp;:</para>
 
         <itemizedlist>
           <listitem>
-            <para>relación jerárquica stricto sensu (entre descriptores), base
+            <para lang="es">relación jerárquica stricto sensu (entre descriptores), base
             de la jerarquía del tesauro =&gt; general ;</para>
           </listitem>
 
           <listitem>
-            <para>relación de equivalencia (entre descriptores y
+            <para lang="es">relación de equivalencia (entre descriptores y
             no-descriptores), base de la univocidad =&gt; reenvío
             «&nbsp;ver&nbsp;» ;</para>
           </listitem>
 
           <listitem>
-            <para>relación de asociación (entre descriptores), enriquecimiento
+            <para lang="es">relación de asociación (entre descriptores), enriquecimiento
             semántico&nbsp;; materias relacionadas =&gt; reenvío «&nbsp;ver
             también&nbsp;».</para>
           </listitem>
         </itemizedlist>
 
-        <para>Todo tesauro comporta como mínimo tres categorías de
+        <para lang="es">Todo tesauro comporta como mínimo tres categorías de
         términos&nbsp;: los términos generales y los términos específicos que
         deben usarse como descripotres&nbsp;; los términos equivalente que se
         consideran como no-descriptores según el tesauro.</para>
 
         <itemizedlist>
           <listitem>
-            <para>Los <emphasis>términos genéricos</emphasis> se identifican
+            <para lang="es">Los <emphasis>términos genéricos</emphasis> se identifican
             con las siglas <emphasis role="bold">TG</emphasis>&nbsp;; designan
             las entidades o los conceptos principales en relación a otros
             términos y al tema considerado&nbsp;;</para>
           </listitem>
 
           <listitem>
-            <para>Los <emphasis>términos específicos</emphasis> se identifican
+            <para lang="es">Los <emphasis>términos específicos</emphasis> se identifican
             con las siglas <emphasis role="bold">TE</emphasis>&nbsp;; precisan
             e identifican las entidades o conceptos particulares dentro del
             campo semántico del término general al cual
@@ -187,7 +187,7 @@
           </listitem>
 
           <listitem>
-            <para>Les <emphasis>termes équivalents</emphasis> se identifican
+            <para lang="es">Les <emphasis>termes équivalents</emphasis> se identifican
             con las siglas <emphasis role="bold">UP</emphasis> como
             abreviatura de Usado Por&nbsp;; son las variantes de los términos
             específicos (sinonímia o casi-sinonímia). Son términos
@@ -198,14 +198,14 @@
           </listitem>
         </itemizedlist>
 
-        <para>También encontramos términos asociados identificados por
+        <para lang="es">También encontramos términos asociados identificados por
         <emphasis role="bold">TR</emphasis> (relación de asociación&nbsp;:
         causalidad, localización, relaciones de naturaleza temporal,
         composición, etc). Estos términos son también descriptores, gracias a
         sus conexiones permiten especificar las búsquedas o irlas enfocando
         sin tener que recurrir a los términos generales.</para>
 
-        <para>Se pueden encontrar otros tipos de relaciones y asociaciones
+        <para lang="es">Se pueden encontrar otros tipos de relaciones y asociaciones
         asociados a esta estructura que sirven para enriquecer el tesauro o
         mejorar su uso. También se pueden preveer equivalencias lingüísticas
         en caso de tesauros multilingües así como crear pasarelas a otros
@@ -213,14 +213,14 @@
       </sect3>
 
       <sect3 id="categ_redac_exemple">
-        <title>Ejemplo de tesauro básico</title>
+        <title lang="es">Ejemplo de tesauro básico</title>
 
-        <para>Partimos de los conceptos principales de un microtesauro sobre
+        <para lang="es">Partimos de los conceptos principales de un microtesauro sobre
         un sistema informático colaborativo (por ejemplo wikipedia) :
         <emphasis role="bold">Individuos &gt; Programario &gt; Red &gt;
         Recoursos</emphasis>.</para>
 
-        <para>El concepto <emphasis role="bold">Individuos</emphasis> se
+        <para lang="es">El concepto <emphasis role="bold">Individuos</emphasis> se
         compondrá por ejemplo de&nbsp;: <emphasis
         role="bold">Usuario</emphasis> (TG)&nbsp;; <emphasis
         role="bold">Participante</emphasis> (TG)&nbsp;; <emphasis
@@ -242,34 +242,34 @@
         role="bold">Internauta</emphasis> (<emphasis>impreciso&nbsp;: a
         eliminar</emphasis>).</para>
 
-        <para>El responsable de toda contribución (todo redactor) podrá ser
+        <para lang="es">El responsable de toda contribución (todo redactor) podrá ser
         especificado por alguno de los términos descriptivos escogido de entre
         los cinco términos específicos o de entre los tres témrinos generales,
         según convenga.</para>
 
-        <para>Los términos (UP) serán por principio evitados en la
+        <para lang="es">Los términos (UP) serán por principio evitados en la
         indexación.</para>
       </sect3>
     </sect2>
 
     <sect2 id="categ_pmb">
-      <title>Tesauro y categorías de PMB</title>
+      <title lang="es">Tesauro y categorías de PMB</title>
 
-      <para>El uso de la palabra «&nbsp;categorías&nbsp;» en lugar de
+      <para lang="es">El uso de la palabra «&nbsp;categorías&nbsp;» en lugar de
       «&nbsp;tesauro&nbsp;» en PMB corresponde a un deseo de los
       desarrolladores. Un tesauro respetanto todas las normas de creación,
       puede disponer en todos los niveles de su jerarquía de un número de
       términos elevado.</para>
 
-      <para>Con las categorías, y intentando crear un tesauro muy jerárquico,
+      <para lang="es">Con las categorías, y intentando crear un tesauro muy jerárquico,
       se puede presentar un OPAC «&nbsp;a la yahoo&nbsp;».</para>
 
-      <para>Este OPAC «&nbsp;a la Yahoo&nbsp;» ofrece la posibilidad al
+      <para lang="es">Este OPAC «&nbsp;a la Yahoo&nbsp;» ofrece la posibilidad al
       usuario de la biblioteca o del centro de documentación de explorar
       interlectualmente el fondo documental, de forma que pueda iniciar luego
       su búsqueda.</para>
 
-      <para>Si todos los tesauros amigables poseyeran este aspecto jerárquico
+      <para lang="es">Si todos los tesauros amigables poseyeran este aspecto jerárquico
       avanzado, los que tienen muchos términios a un mismo nivel serían muy
       complicados para navegar por ellos directamente. En este caso deberíamos
       desactivar del OPAC de PMB la navegación por categorías. Las categorías
@@ -278,23 +278,23 @@
       Herramientas, sección Parámetros.</para>
 
       <sect3 id="categ_pmb_exemple">
-        <title>Introducción del ejemplo de tesauro elemental de PMB</title>
+        <title lang="es">Introducción del ejemplo de tesauro elemental de PMB</title>
 
-        <para>Para escoger un tesauro, debes ir a Autoridades &gt; Categorías
+        <para lang="es">Para escoger un tesauro, debes ir a Autoridades &gt; Categorías
         en PMB. Otra posibilidad es preparar tu tesauro en una tabla (excel,
         OpenOffice Calc) y importalo con PhpMyAdmin.</para>
 
         <epigraph>
-          <para><emphasis role="bold">Nota</emphasis> : Esta técnica más
+          <para lang="es"><emphasis role="bold">Nota</emphasis> : Esta técnica más
           avanzada no será descrita aquí. Aquí encontrarás como introducir un
           tesauro.</para>
         </epigraph>
 
-        <para>Ejemplo de cómo introducir datos para la categoría Individuos en
+        <para lang="es">Ejemplo de cómo introducir datos para la categoría Individuos en
         Autoridades &gt; Categoría</para>
 
         <figure>
-          <title>Pantalla de catalogación, Catálogo &gt; Nueva, ajustar
+          <title lang="es">Pantalla de catalogación, Catálogo &gt; Nueva, ajustar
           indexación</title>
 
           <mediaobject>
@@ -305,82 +305,82 @@
         </figure>
 
         <epigraph>
-          <para>Para una lectura rápida, la presentación será la
+          <para lang="es">Para una lectura rápida, la presentación será la
           siguiente&nbsp;:</para>
 
-          <para><emphasis role="bold">etiqueta
+          <para lang="es"><emphasis role="bold">etiqueta
           </emphasis><emphasis>[comentario]</emphasis> &lt; categoría general,
           ver, ver también .Individuos</para>
         </epigraph>
 
-        <para><emphasis role="bold">Individuos</emphasis></para>
+        <para lang="es"><emphasis role="bold">Individuos</emphasis></para>
 
-        <para><emphasis role="bold">Programario</emphasis></para>
+        <para lang="es"><emphasis role="bold">Programario</emphasis></para>
 
-        <para><emphasis role="bold">Red</emphasis></para>
+        <para lang="es"><emphasis role="bold">Red</emphasis></para>
 
-        <para><emphasis role="bold">Recursos</emphasis></para>
+        <para lang="es"><emphasis role="bold">Recursos</emphasis></para>
 
-        <para><emphasis role="bold">@términos huérfanos</emphasis> [colocad
+        <para lang="es"><emphasis role="bold">@términos huérfanos</emphasis> [colocad
         aquí los términos UP que no serán visibles en la exploración de las
         categorías, pero que serán útiles a la hora de realizar las
         búsquedas]</para>
 
-        <para><emphasis role="bold">Usuario</emphasis> &lt; Individuos</para>
+        <para lang="es"><emphasis role="bold">Usuario</emphasis> &lt; Individuos</para>
 
-        <para><emphasis role="bold">Participante</emphasis> &lt;
+        <para lang="es"><emphasis role="bold">Participante</emphasis> &lt;
         Individuos</para>
 
-        <para><emphasis role="bold">Autor</emphasis> &lt; @términos huérfanos,
+        <para lang="es"><emphasis role="bold">Autor</emphasis> &lt; @términos huérfanos,
         ver Participante</para>
 
-        <para><emphasis role="bold">Colaborador</emphasis> &lt; @términos
+        <para lang="es"><emphasis role="bold">Colaborador</emphasis> &lt; @términos
         huérfanos, ver Participante</para>
 
-        <para><emphasis role="bold">Editor no registrado</emphasis> &lt;
+        <para lang="es"><emphasis role="bold">Editor no registrado</emphasis> &lt;
         Participante</para>
 
-        <para><emphasis role="bold">Anónimo</emphasis> &lt; @términos
+        <para lang="es"><emphasis role="bold">Anónimo</emphasis> &lt; @términos
         huérfanos, ver Editor no registrado</para>
 
-        <para><emphasis role="bold">Dirección IP</emphasis> [forma metafórica
+        <para lang="es"><emphasis role="bold">Dirección IP</emphasis> [forma metafórica
         a evitar] &lt; @términos huérfanos, ver Editor no registrador</para>
 
-        <para><emphasis role="bold">Editor registrado</emphasis> &lt;
+        <para lang="es"><emphasis role="bold">Editor registrado</emphasis> &lt;
         Participante</para>
 
-        <para><emphasis role="bold">Participante escogido</emphasis> &lt;
+        <para lang="es"><emphasis role="bold">Participante escogido</emphasis> &lt;
         Individuos</para>
 
-        <para><emphasis role="bold">Administrador</emphasis> &lt; Participante
+        <para lang="es"><emphasis role="bold">Administrador</emphasis> &lt; Participante
         escogido</para>
 
-        <para><emphasis role="bold">Sysop</emphasis> [término usual en la
+        <para lang="es"><emphasis role="bold">Sysop</emphasis> [término usual en la
         comunidad] &lt; @términos huérfanos, ver Administrador</para>
 
-        <para><emphasis role="bold">Gestionador</emphasis> &lt; Participante
+        <para lang="es"><emphasis role="bold">Gestionador</emphasis> &lt; Participante
         escogido</para>
 
-        <para><emphasis role="bold">Representante</emphasis> [Encargado de las
+        <para lang="es"><emphasis role="bold">Representante</emphasis> [Encargado de las
         relaciones externas] &lt; Participante escogido</para>
 
-        <para><emphasis role="bold">Usuario</emphasis> [Término impreciso, a
+        <para lang="es"><emphasis role="bold">Usuario</emphasis> [Término impreciso, a
         eliminar] &lt; @términos huérfanos, ver también Usuario, ver también
         Participante, ver también Participante escogido</para>
       </sect3>
     </sect2>
 
     <sect2 id="categ_search">
-      <title>Utilización del tesauro en las búsquedas</title>
+      <title lang="es">Utilización del tesauro en las búsquedas</title>
 
       <sect3 id="categ_search_hierar">
          
 
-        <title>Búsqueda jerárquica</title>
+        <title lang="es">Búsqueda jerárquica</title>
 
          
 
-        <para>La búsqueda jerárquica consiste en navegar por un tesauro
+        <para lang="es">La búsqueda jerárquica consiste en navegar por un tesauro
         siguiendo su estructura de árbol : a partir del tronco ir hacia las
         ramas y luego hacia las hojas, que corresponden a la parte más
         específica de un tesauro. Pantalla de catalogación, Catálogo &gt;
@@ -389,7 +389,7 @@
          
 
         <figure>
-          <title>Popup de selección de una categoría</title>
+          <title lang="es">Popup de selección de una categoría</title>
 
           <mediaobject>
             <imageobject>
@@ -401,7 +401,7 @@
          Al hacer clic sobre el icono, el popup de seleccción de una categoría se abre por defecto en búsqueda jerárquica. 
 
         <figure>
-          <title>icono carpeta</title>
+          <title lang="es">icono carpeta</title>
 
           <mediaobject>
             <imageobject>
@@ -413,7 +413,7 @@
          Para navegar por la búsqueda jerárquica, haz clic en una categoría (en el icono de carpeta) para desarrollarla. Verás entonces las subcategorías que incluye. Una vez llegas al nivel más bajo de la indexación que te interesa, haz clic sobre el nombre de la categoría para seleccionarla. Nota : : desarrollar la categoría : seleccionar la categoría Ventajas e inconvenientes de la búsqueda jerárquica en PMB La navegación jerárquica es simple y rapida de controlar. Cuando navegas por las categorías de forma jerárquica, visualizas el nombre de la categoría general en lo alto del popup y al lado el nombre de la subcategoría. 
 
         <figure>
-          <title>Popup de selección de una categoría, navegación
+          <title lang="es">Popup de selección de una categoría, navegación
           jerárquica</title>
 
           <mediaobject>
@@ -426,7 +426,7 @@
          Si realizas una búsqueda por término exacto, por ejemplo «&nbsp;usuario&nbsp;», no visualizas la categoría que contiene este término. 
 
         <figure>
-          <title>Popup de selección de una categoría, navegación jerárquica,
+          <title lang="es">Popup de selección de una categoría, navegación jerárquica,
           navegación jerárquica, buscar una categoría</title>
 
           <mediaobject>
@@ -439,7 +439,7 @@
          Si un mismo término está presente en diferentes lugares de tu tesauro, por ejemplo «&nbsp;país vasco&nbsp;» que se encontrará a la vez dentro de Francia y dentro de España, verás dos veces País Vasco si saber a cual corresponde cual. La búsqueda por términos recherche par termes atenúa este inconveniente. Búsqueda por términos La búsqueda por términos es lo contrario de la búsqueda jerárquica en las categorías. En lugar de partir de un tronco de árbol, para navegar en dirección de las hojas (los descriptores más específicos del tesauro), la búsqueda por términos permite partir de los términos (todos los descriptores) para descubrir sus relaciones. 
 
         <figure>
-          <title>Popup de selección de una categoría, buscar por
+          <title lang="es">Popup de selección de una categoría, buscar por
           términos</title>
 
           <mediaobject>
@@ -451,13 +451,13 @@
 
          
 
-        <para>Para activar la búsqueda por términos, haz clic en el botón
+        <para lang="es">Para activar la búsqueda por términos, haz clic en el botón
         anterior «&nbsp;buscar por términos&nbsp;» en el popup de la selección
         de las categorías</para>
 
          
 
-        <para>La pantalla de popup se dividirá en tres partes, en la parte de
+        <para lang="es">La pantalla de popup se dividirá en tres partes, en la parte de
         arriba, en pequeño, se puede lanzar una búsqueda o volver de nuevo a
         la búsqueda jerárquica. La parte superior muestra los términos
         correspondientes a la expresión buscada. Si no se ha introducido nada
@@ -469,7 +469,7 @@
          
 
         <figure>
-          <title>Popup de selección de una categoría, búsqueda por términos
+          <title lang="es">Popup de selección de una categoría, búsqueda por términos
           (2)</title>
 
           <mediaobject>
@@ -481,7 +481,7 @@
 
          
 
-        <para>Si se seleccion de nuestro tesauro de ejemplo el término
+        <para lang="es">Si se seleccion de nuestro tesauro de ejemplo el término
         <emphasis role="bold">Dirección IP</emphasis>, la parte inferior de la
         pantalla muestra su situación dentro del árbol : Dirección IP tiene
         por categoría general <emphasis role="bold">@términos
@@ -489,7 +489,7 @@
 
          
 
-        <para>Puedes igualmente ver hacia dónde reenvía un término : en este
+        <para lang="es">Puedes igualmente ver hacia dónde reenvía un término : en este
         caso un <emphasis>«&nbsp;ver&nbsp;»</emphasis> <emphasis
         role="bold">Editor no registrado</emphasis>.</para>
 
@@ -508,15 +508,15 @@
          . 
 
         <epigraph>
-          <para>
+          <para lang="es">
             <emphasis role="bold">Importante</emphasis>
           </para>
 
-          <para>Para seleccionar Dirección IP y escogerla como selección, por
+          <para lang="es">Para seleccionar Dirección IP y escogerla como selección, por
           ejemplo al registro que estamos catalogando, debes hacer clic sobre
           el + situado al incio de la línea.</para>
 
-          <para>Para escoger otro término del tesauro, haz clic sobre el
+          <para lang="es">Para escoger otro término del tesauro, haz clic sobre el
           enlace que lleva al término.</para>
         </epigraph>
 
@@ -524,27 +524,27 @@
       </sect3>
 
       <sect3 id="categ_search_terms">
-        <title>Ventajas e inconvenientes de la búsqueda por término en
+        <title lang="es">Ventajas e inconvenientes de la búsqueda por término en
         PMB</title>
 
-        <para>La búsqueda por términos es más rápida y más potente que la
+        <para lang="es">La búsqueda por términos es más rápida y más potente que la
         búsqueda jerárquica de PMB. Dependiendo de su uso, necesita una corta
         fase de adaptación.</para>
 
-        <para>El hecho de seguir y de enlazar los diferentes enlaces puede
+        <para lang="es">El hecho de seguir y de enlazar los diferentes enlaces puede
         desorientar al catalogador que puede tener la impresión de no saber
         dónde está en relación al tesauro.</para>
 
-        <para>Sin embargo, con el uso, ganarás rapidez a la hora de catalogar
+        <para lang="es">Sin embargo, con el uso, ganarás rapidez a la hora de catalogar
         utilizando este método.</para>
 
-        <para>La búsqueda por términos está también accesible en el OPAC, pero
+        <para lang="es">La búsqueda por términos está también accesible en el OPAC, pero
         puede ser desactivada. Para más información sobre la configuración del
         OPAC, consulta la Guía del Administrador de PMB, capítulo
         Herramientas, sección Parámetros.</para>
 
         <figure>
-          <title>Catálogo &gt; Búsqueda : términos del tesauro</title>
+          <title lang="es">Catálogo &gt; Búsqueda : términos del tesauro</title>
 
           <mediaobject>
             <imageobject>
@@ -553,14 +553,14 @@
           </mediaobject>
         </figure>
 
-        <para>La búsqueda por términos que se muestra arriba hace referencia
+        <para lang="es">La búsqueda por términos que se muestra arriba hace referencia
         al tesauro de "administración" y al término "química". La parte
         superior de la pantalla presernta diferentes categorías que contienen
         como mínimo una vez la expresión "química". En este tipo de búsqueda
         también puedes utilizar operadores expresiones booleanos
         (truncamientos "*", operadores "+" o "-"...)</para>
 
-        <para>La parte inferior de la pantalla muestra la categoría "sector
+        <para lang="es">La parte inferior de la pantalla muestra la categoría "sector
         quimica" con más detalle. Puedes seleccionarlo haciendo clic sobre el
         icono "lupa" al inicio de la línea. También puedes enlazar hacia una
         subcategoría (un término específico) de "química" como "sector
@@ -568,9 +568,9 @@
       </sect3>
 
       <sect3 id="categ_search_popup">
-        <title>Particularidades del popup de selección de categoría</title>
+        <title lang="es">Particularidades del popup de selección de categoría</title>
 
-        <para>El popup de selección de categoría en PMB no se cierra
+        <para lang="es">El popup de selección de categoría en PMB no se cierra
         «&nbsp;solo&nbsp;». Contrariamente a otros popup de selección de PMB
         asociados a autoridades, el popup de selección de categorías queda
         abierto, permitiendo seleccionar una segunda categoría a incluir en el
@@ -583,16 +583,16 @@
 
         <sect3>Escoger una estructura de árbol : algunos consejos</sect3>
 
-        <para>Preparad la creación de vuestro tesauro con anterioridad, sobre
+        <para lang="es">Preparad la creación de vuestro tesauro con anterioridad, sobre
         papel. Para empezar de forma fácil, escoged una estructura simple, con
         diez o veinte términos como máximo por nivel.</para>
 
-        <para>Una vez creado este primer mapa, preveed su enriquecimiento :
+        <para lang="es">Una vez creado este primer mapa, preveed su enriquecimiento :
         imaginad las relaciones «&nbsp;con puntitos&nbsp;» que pueden existir
         entre dos categorías, y reprensetadlas por medio de los «&nbsp;ver
         también&nbsp;» recíprocos.</para>
 
-        <para>A medida que se vaya usando, enriqueced vuestro tesauros creando
+        <para lang="es">A medida que se vaya usando, enriqueced vuestro tesauros creando
         términos huérfanos, que corresponderan al vocabulario usado por
         vuestros usuarios en sus búsquedas : en una categoría de primer nivel,
         que empieza por un «&nbsp;@&nbsp;» (esto permite ocultarlo en el
@@ -601,85 +601,85 @@
         marítima &gt; corsarios.</para>
 
         <sect2>
-          <title>Lógica multi-tesauros</title>
+          <title lang="es">Lógica multi-tesauros</title>
 
-          <para>PMB permite a partir de la versión 2.2 una gestión
+          <para lang="es">PMB permite a partir de la versión 2.2 una gestión
           multi-tesauros. Podéis crear diferentes tesauros, por ejemplo
           tesauros que pueden servir para un centro de temática asociada al
           arte :</para>
 
           <epigraph>
-            <para>
+            <para lang="es">
               <emphasis roloe="bold">Localización</emphasis>
             </para>
 
-            <para>esta gran categoría contendrá las subdivisiones por
+            <para lang="es">esta gran categoría contendrá las subdivisiones por
             continente, después por país, finalmente por región, y algunas
             ciudades importantes en último nivel</para>
 
-            <para><emphasis>Si una obra compara la arquitectura romana en
+            <para lang="es"><emphasis>Si una obra compara la arquitectura romana en
             Francia y en Italia , seleccionaremos </emphasis> Localización :
             Europa : Francia <emphasis>y</emphasis> Localización : Europa :
             Italia</para>
 
-            <para>
+            <para lang="es">
               <emphasis role="bold">Historia</emphasis>
             </para>
 
-            <para>esta gran categoría incluirá las subdivisiones por período
+            <para lang="es">esta gran categoría incluirá las subdivisiones por período
             histórico</para>
 
-            <para><emphasis>Si una obra está dedicada a la arquitectura romana
+            <para lang="es"><emphasis>Si una obra está dedicada a la arquitectura romana
             del s. IX al s. XI, seleccionaremos </emphasis> Historia : Edad
             Media : s. IX ; Historia : Edada Media : s. X <emphasis>y así con
             los siguiente</emphasis>.</para>
 
-            <para>
+            <para lang="es">
               <emphasis role="bold">Movimientos artísticos</emphasis>
             </para>
 
-            <para>
+            <para lang="es">
               <emphasis role="bold">Arte</emphasis>
             </para>
 
-            <para>esta gran categoría presentará las diferentes artes
+            <para lang="es">esta gran categoría presentará las diferentes artes
             incluidos en el fondo documental : escultura, arquitectura,
             pintura (al óleo, acuarela, frescos)...</para>
           </epigraph>
 
-          <para>Para más información, consulta un poco más abajo el capítulo
+          <para lang="es">Para más información, consulta un poco más abajo el capítulo
           <xref linkend="multitesauros" /></para>
         </sect2>
 
         <sect2>
-          <title>Modificación de un tesauro existente</title>
+          <title lang="es">Modificación de un tesauro existente</title>
 
-          <para>Todas las modificaciones de un tesauros se realizan en PMB vía
+          <para lang="es">Todas las modificaciones de un tesauros se realizan en PMB vía
           la pestaña Autoridades, haciendo clic sobre Categorías del menú
           lateral, a la izquierda de la pantalla.</para>
 
           <sect3>
-            <title>Dificultades de reindexación al modificar el
+            <title lang="es">Dificultades de reindexación al modificar el
             tesauro</title>
 
-            <para>Una vez dispones de un fondo documental ya catalogado, toda
+            <para lang="es">Una vez dispones de un fondo documental ya catalogado, toda
             modificación en el tesuaro puede tener repercusiones sobre la
             catalogación ya realizada.</para>
 
-            <para>La <emphasis>introducción de un nuevo descriptor</emphasis>
+            <para lang="es">La <emphasis>introducción de un nuevo descriptor</emphasis>
             que precise una nueva categoría en vuestro tesauro tendrá
             consecuencias limitadas : será necesario verificar la catalogación
             ya realizada por si en alguno de los registros puede aplicarse
             también el nuevo o nuevos términos nuevos introducidos.</para>
 
-            <para>La <emphasis>eliminación de un descriptor
+            <para lang="es">La <emphasis>eliminación de un descriptor
             específico</emphasis> tendrá igualmente repercusiones limitadas :
             será necesario retomar todos los registros afectados para
             recatalogarlos a «&nbsp;otro nivel&nbsp;» es decir, cambiar cada
             uno de los registros para introducir el descripotr superior al
             eliminado.</para>
 
-            <para>El <emphasis>reemplazamiento de un término por
+            <para lang="es">El <emphasis>reemplazamiento de un término por
             otro</emphasis> puede tener repercusiones sobre los registros a
             catalogar y también sobre los registros ya catalogados con
             términos específicos del reemplazado. Puede ser que al reemplazar
@@ -688,30 +688,30 @@
             que no sean adecuadas, y será necesario, por tanto, volver a
             recatalogar parte de lo ya catalogado.</para>
 
-            <para>Para todo cambio y antes que nada, es necesario
+            <para lang="es">Para todo cambio y antes que nada, es necesario
             <emphasis>realizar una auditoria</emphasis> de la base de datos
             para medir la repercusión de los cambios que pueda prodicir la
             modificación de un descriptor.</para>
 
-            <para>Interesemonos en primer lugar por las herramientas a nuestra
+            <para lang="es">Interesemonos en primer lugar por las herramientas a nuestra
             disposición para realizar una auditoría de este tipo en PMB.
             Mencionaremos a continuación las distintas modiciaciones posibles
             y enumeraremos sus repercusiones.</para>
           </sect3>
 
           <sect3>
-            <title>Auditoría del uso de un descriptor en un tesauro en los
+            <title lang="es">Auditoría del uso de un descriptor en un tesauro en los
             registros</title>
 
-            <para>Antes de cualquier modificación en el tesauro, es necesario
+            <para lang="es">Antes de cualquier modificación en el tesauro, es necesario
             auditar el fondo documental para conocer las repercusiones que
             tendrá realizar esas modificaciones.</para>
 
-            <para>Para realizar esto :</para>
+            <para lang="es">Para realizar esto :</para>
 
             <itemizedlist>
               <listitem>
-                <para>puedes ir a <emphasis>Autoridades &gt;
+                <para lang="es">puedes ir a <emphasis>Autoridades &gt;
                 Categorías</emphasis>, navegar por el tesauro y escoger un
                 descriptor, hacer clic sobre el descriptor para seleccionarlo
                 y modificarlo, haz clic sobre el botón "Uso" para ver qué
@@ -719,7 +719,7 @@
                 seleccionado.</para>
 
                 <figure>
-                  <title>Autoridades &gt; Categorías, selección de una
+                  <title lang="es">Autoridades &gt; Categorías, selección de una
                   categoría para modificarla</title>
 
                   <mediaobject>
@@ -730,7 +730,7 @@
                 </figure>
 
                 <figure>
-                  <title>Autoridades &gt; Categorías, modificación de una
+                  <title lang="es">Autoridades &gt; Categorías, modificación de una
                   categoría, botón Uso</title>
 
                   <mediaobject>
@@ -741,7 +741,7 @@
                 </figure>
 
                 <figure>
-                  <title>Catálogo &gt; Buscar por categoría/materia, resultado
+                  <title lang="es">Catálogo &gt; Buscar por categoría/materia, resultado
                   de la búsqueda</title>
 
                   <mediaobject>
@@ -752,7 +752,7 @@
                 </figure>
 
                 <figure>
-                  <title>Catálogo &gt; Buscar por categoría/materia</title>
+                  <title lang="es">Catálogo &gt; Buscar por categoría/materia</title>
 
                   <mediaobject>
                     <imageobject>
@@ -763,11 +763,11 @@
               </listitem>
 
               <listitem>
-                <para>puedes iniciar una búsqueda por categoría/materia o
+                <para lang="es">puedes iniciar una búsqueda por categoría/materia o
                 buscar por términos en Catálogo &gt; Buscar</para>
 
                 <figure>
-                  <title>Catálogo &gt; Buscar por categoría/materia, resultado
+                  <title lang="es">Catálogo &gt; Buscar por categoría/materia, resultado
                   de la búsqueda</title>
 
                   <mediaobject>
@@ -778,7 +778,7 @@
                 </figure>
 
                 <figure>
-                  <title>Detalle de subcategoría de una categoría
+                  <title lang="es">Detalle de subcategoría de una categoría
                   general</title>
 
                   <mediaobject>
@@ -793,26 +793,26 @@
               corresponda a la categoría seleccionada</listitem>
             </itemizedlist>
 
-            <para>Una vez se haya obtenido el listado de registros
+            <para lang="es">Una vez se haya obtenido el listado de registros
             correspondiente, deberás comprobar que no haya nada en los
             registros que os impida realizar las modificaciones sobre el
             tesauro.</para>
 
-            <para>Por ejemplo, al suprimir un descriptor, deberás editar los
+            <para lang="es">Por ejemplo, al suprimir un descriptor, deberás editar los
             registros uno a uno para cambiar la categoría usada. Examinad las
             diferentes situaciones posibles.</para>
           </sect3>
 
           <sect3>
-            <title>Añadir un nuevo descriptor</title>
+            <title lang="es">Añadir un nuevo descriptor</title>
 
-            <para>Para añadir un nuevo descriptor, se debe auditar la
+            <para lang="es">Para añadir un nuevo descriptor, se debe auditar la
             catalogación ya existente.</para>
 
-            <para>Aquí hay una parte de nuestro tesauro de ejemplo :</para>
+            <para lang="es">Aquí hay una parte de nuestro tesauro de ejemplo :</para>
 
             <figure>
-              <title>Botón Añadir una categoría</title>
+              <title lang="es">Botón Añadir una categoría</title>
 
               <mediaobject>
                 <imageobject>
@@ -821,14 +821,14 @@
               </mediaobject>
             </figure>
 
-            <para>Si queremos añadir el descriptor <emphasis>Fuentes de
+            <para lang="es">Si queremos añadir el descriptor <emphasis>Fuentes de
             información institucionales</emphasis> en la categoría
             <emphasis>Participantes</emphasis>, se añadirá haciendo
             simplemente <emphasis>Autoridades &gt;
             Categorías</emphasis>.</para>
 
             <figure>
-              <title>Autoridades &gt; Categorías, crear una nueva
+              <title lang="es">Autoridades &gt; Categorías, crear una nueva
               categoría</title>
 
               <mediaobject>
@@ -838,16 +838,16 @@
               </mediaobject>
             </figure>
 
-            <para>Haz clic sobre el botón "Añadir una categoría".</para>
+            <para lang="es">Haz clic sobre el botón "Añadir una categoría".</para>
 
-            <para>En este caso hay que precisar la categoría superior.</para>
+            <para lang="es">En este caso hay que precisar la categoría superior.</para>
           </sect3>
 
           <sect3>
-            <title>Consecuencias de añadir un nuevo descriptor : revisar la
+            <title lang="es">Consecuencias de añadir un nuevo descriptor : revisar la
             catalogación</title>
 
-            <para>Si se aprovó añadir <emphasis>Fuentes de información
+            <para lang="es">Si se aprovó añadir <emphasis>Fuentes de información
             institucionales</emphasis> en nuestro tesauro para un documeno,
             puede ser que haya documentos ya introducidos en nuestro catálogo
             a los que también se pueda aplicar este nuevo descriptor. Si el
@@ -855,7 +855,7 @@
             registros para ver a cuáles se puede aplicar el nuevo
             descriptor.</para>
 
-            <para>Es posible que haya documentos que necesitaban una categoría
+            <para lang="es">Es posible que haya documentos que necesitaban una categoría
             específica que no era <emphasis>Editor registrado</emphasis> y
             <emphasis>Editor no registrado</emphasis> dentro de la categoría
             Participante, y que por eso se crea nuestro nuevo descriptor :
@@ -867,7 +867,7 @@
           </sect3>
 
           <sect3>
-            <title>Resumen de las acciones :</title>
+            <title lang="es">Resumen de las acciones :</title>
 
             <itemizedlist>
               <listitem>1.añaidr la categoría Participante &gt; Fuentes de
@@ -888,9 +888,9 @@
           </sect3>
 
           <sect3>
-            <title>Supresión de un descriptor del tesauro</title>
+            <title lang="es">Supresión de un descriptor del tesauro</title>
 
-            <para>Para suprimir un descriptor del tesauro, es necesario
+            <para lang="es">Para suprimir un descriptor del tesauro, es necesario
             :</para>
 
             <itemizedlist>
@@ -901,35 +901,35 @@
           </sect3>
 
           <sect3>
-            <title>Suprimir las subcategorías</title>
+            <title lang="es">Suprimir las subcategorías</title>
 
-            <para>Las subcategorías de un descriptor que se quiere eliminar
+            <para lang="es">Las subcategorías de un descriptor que se quiere eliminar
             deben ser eliminadas también.</para>
 
-            <para>Será necesario comprobar el uso de cada una de ellas antes
+            <para lang="es">Será necesario comprobar el uso de cada una de ellas antes
             de eliminarlas. Para más información, consulta un poco más arriba
             la sección «&nbsp;Auditoría de un descriptor del
             tesuaro...&nbsp;»</para>
           </sect3>
 
           <sect3>
-            <title>Acciones para la recatalogación de registros que utilicen
+            <title lang="es">Acciones para la recatalogación de registros que utilicen
             un descirptor</title>
 
-            <para>Iniciar una búsqueda utilizando el descriptor, o en
+            <para lang="es">Iniciar una búsqueda utilizando el descriptor, o en
             Autoridades &gt; Categorías, hacer clic sobre el descriptor y
             luego sobre el botón Uso, o en el Catálogo &gt; Buscar &gt;
             Categoría/materia o Buscar por descriptores.</para>
 
-            <para>Recatalogar cada uno de los registros en la categoría
+            <para lang="es">Recatalogar cada uno de los registros en la categoría
             superior del término a eliminar.</para>
           </sect3>
 
           <sect3>
-            <title>Ejemplo de eliminación</title>
+            <title lang="es">Ejemplo de eliminación</title>
 
             <figure>
-              <title>Autoritdades &gt; Categorías, visualización de una
+              <title lang="es">Autoritdades &gt; Categorías, visualización de una
               categoría en la navegación jerárquica</title>
 
               <mediaobject>
@@ -939,15 +939,15 @@
               </mediaobject>
             </figure>
 
-            <para>Suprimimos <emphasis>Fuentes de datos
+            <para lang="es">Suprimimos <emphasis>Fuentes de datos
             oficiales</emphasis>.</para>
 
-            <para>En la captura de la pantalla, el icono que precede a Fuentes
+            <para lang="es">En la captura de la pantalla, el icono que precede a Fuentes
             de datos oficiales es una carpeta. Esta categoría contiene
             subcategorías, que será necesario eliminar.</para>
 
             <figure>
-              <title>Autorités &gt; Catégories, visualización de una categoría
+              <title lang="es">Autorités &gt; Catégories, visualización de una categoría
               en la navegación jerárquica</title>
 
               <mediaobject>
@@ -957,13 +957,13 @@
               </mediaobject>
             </figure>
 
-            <para>Fuentes de datos oficiales contiene Gobierno francés y
+            <para lang="es">Fuentes de datos oficiales contiene Gobierno francés y
             INSEE. Es necesario suprimirlas. Antes de cualquier eliminación es
             necesario verificar el uso de los descriptores en nuestros
             registros :</para>
 
             <figure>
-              <title>Autoridades &gt; Categorías, modificación de una
+              <title lang="es">Autoridades &gt; Categorías, modificación de una
               categoría, botón Uso</title>
 
               <mediaobject>
@@ -974,7 +974,7 @@
             </figure>
 
             <figure>
-              <title>Catálogo &gt; Buscar : categoría/materia, ningún
+              <title lang="es">Catálogo &gt; Buscar : categoría/materia, ningún
               resultado</title>
 
               <mediaobject>
@@ -984,12 +984,12 @@
               </mediaobject>
             </figure>
 
-            <para>Por gobierno francés, no se ha encontrado ningún registro
+            <para lang="es">Por gobierno francés, no se ha encontrado ningún registro
             indexado con esta categoría. Esto quiere decir que la podemos
             suprimir.</para>
 
             <figure>
-              <title>Autoridades &gt; Categorías, modificación de una
+              <title lang="es">Autoridades &gt; Categorías, modificación de una
               categoría, botón Uso</title>
 
               <mediaobject>
@@ -1000,7 +1000,7 @@
             </figure>
 
             <figure>
-              <title>Catálogo &gt; Buscar : categoría/materia, un resultado
+              <title lang="es">Catálogo &gt; Buscar : categoría/materia, un resultado
               obtenido</title>
 
               <mediaobject>
@@ -1010,12 +1010,12 @@
               </mediaobject>
             </figure>
 
-            <para>Hay un registro catalogado con la categoría INSEE. Será
+            <para lang="es">Hay un registro catalogado con la categoría INSEE. Será
             necesario modicarlo. Para modificarlo, hacemos clic en el título
             :</para>
 
             <figure>
-              <title>Catálogo &gt; Buscar, botón Modificar de un
+              <title lang="es">Catálogo &gt; Buscar, botón Modificar de un
               registro</title>
 
               <mediaobject>
@@ -1025,11 +1025,11 @@
               </mediaobject>
             </figure>
 
-            <para>Será necesario modificar el registro. Hacer clic sobre el
+            <para lang="es">Será necesario modificar el registro. Hacer clic sobre el
             botón "Modificar".</para>
 
             <figure>
-              <title>Modificar un registro, zona de la indexación, categoría
+              <title lang="es">Modificar un registro, zona de la indexación, categoría
               usada</title>
 
               <mediaobject>
@@ -1039,14 +1039,14 @@
               </mediaobject>
             </figure>
 
-            <para>Hacer clic sobre el botón "..." para abrir el popup y
+            <para lang="es">Hacer clic sobre el botón "..." para abrir el popup y
             seleccionar el último nivel que corresponderá a nuestras
             categorías modificadas. Nosotros suprimiremos INSEE y Fuentes de
             datos oficiales. Cambiaremos la indexación. Navega hacia
             <emphasis>Individuos &gt; Participantes</emphasis>.</para>
 
             <figure>
-              <title>Modificación de un registro, zona de la indexación,
+              <title lang="es">Modificación de un registro, zona de la indexación,
               eliminar la categoría usada</title>
 
               <mediaobject>
@@ -1056,11 +1056,11 @@
               </mediaobject>
             </figure>
 
-            <para>Si hacemos una búsqueda por la categoría INSEE, veremos que
+            <para lang="es">Si hacemos una búsqueda por la categoría INSEE, veremos que
             ya no hay ningún registro que use esta categoría.</para>
 
             <figure>
-              <title>Autoridades &gt; Categorías, modificación de un registro,
+              <title lang="es">Autoridades &gt; Categorías, modificación de un registro,
               botón Uso</title>
 
               <mediaobject>
@@ -1070,12 +1070,12 @@
               </mediaobject>
             </figure>
 
-            <para>Para eliminar las categorías ve del nivel inferior hacia
+            <para lang="es">Para eliminar las categorías ve del nivel inferior hacia
             niveles superiores: primero INSEE y Gobierno francés, después
             Fuentes de datos oficiales.</para>
 
             <figure>
-              <title>Tesauro al final de nuestras modificaciones</title>
+              <title lang="es">Tesauro al final de nuestras modificaciones</title>
 
               <mediaobject>
                 <imageobject>
@@ -1084,14 +1084,14 @@
               </mediaobject>
             </figure>
 
-            <para>Después de las supresiones, sólo quedará Editor registrado y
+            <para lang="es">Después de las supresiones, sólo quedará Editor registrado y
             Editor no registrado en nuestro tesauro.</para>
           </sect3>
 
           <sect3>
-            <title>Reemplazar un descriptor por un nuevo descriptor</title>
+            <title lang="es">Reemplazar un descriptor por un nuevo descriptor</title>
 
-            <para>Puedes reemplazar un descriptor por otro simplemente
+            <para lang="es">Puedes reemplazar un descriptor por otro simplemente
             renombrando su etiqueta. Verifica que cada uno de los registros
             indexados con el descriptor a eliminar correspondan al nuevo
             descriptor.</para>
@@ -1099,24 +1099,24 @@
         </sect2>
 
         <sect2>
-          <title>Enriquecimiento de un tesauro</title>
+          <title lang="es">Enriquecimiento de un tesauro</title>
 
           <sect3>
-            <title>Reenvío «&nbsp;ver&nbsp;»</title>
+            <title lang="es">Reenvío «&nbsp;ver&nbsp;»</title>
 
-            <para>Los reenvíos «&nbsp;ver&nbsp;» constituyen una de las
+            <para lang="es">Los reenvíos «&nbsp;ver&nbsp;» constituyen una de las
             riquezas de los tesauros. Es necesario tener en cuenta el camino
             que usará un usuario para buscar algo en la biblioteca o centro de
             documentación.</para>
 
-            <para>Por ejemplo, un niño quiere un libro sobre piratas. Si
+            <para lang="es">Por ejemplo, un niño quiere un libro sobre piratas. Si
             nuesto tesauro contiene únicamente la palabra corsario, el niño no
             encontrará aquello que busca. En este caso, es necesario crear al
             mismo nivel el descriptor «&nbsp;pirata&nbsp;» que enviará hacia «
             corsario ».</para>
 
             <figure>
-              <title>"Ver" en un tesauro</title>
+              <title lang="es">"Ver" en un tesauro</title>
 
               <mediaobject>
                 <imageobject>
@@ -1127,20 +1127,20 @@
           </sect3>
 
           <sect3>
-            <title>Reenvío «&nbsp;ver&nbsp;» y descriptores huérfanos</title>
+            <title lang="es">Reenvío «&nbsp;ver&nbsp;» y descriptores huérfanos</title>
 
-            <para>Si, para reducir nuestro tesauro, no queremos mostrar
+            <para lang="es">Si, para reducir nuestro tesauro, no queremos mostrar
             algunos descriptores, PMB ofrece la posibilidad de crear una
             categoría de primer nivel que será invisible en el OPAC.</para>
 
-            <para>Es suficiente con crear una categoría cuya etiqueta empiece
+            <para lang="es">Es suficiente con crear una categoría cuya etiqueta empiece
             por una @, por ejemplo, @descriptores huérfanos.</para>
 
-            <para>Sitúa dentro de esta categoría todos los descriptores
+            <para lang="es">Sitúa dentro de esta categoría todos los descriptores
             huérfanos.</para>
 
             <figure>
-              <title>"Ver" y descriptores huérfanos</title>
+              <title lang="es">"Ver" y descriptores huérfanos</title>
 
               <mediaobject>
                 <imageobject>
@@ -1151,30 +1151,30 @@
           </sect3>
 
           <sect3>
-            <title>Reenvíos "ver también"</title>
+            <title lang="es">Reenvíos "ver también"</title>
 
-            <para>Las formas «&nbsp;ver también&nbsp;» constituyen el último
+            <para lang="es">Las formas «&nbsp;ver también&nbsp;» constituyen el último
             nivel de mejora de un tesauro. Permiten relacionar dos categorías
             cercanas. Estas formas «&nbsp;ver también&nbsp;» pueden ser
             recíprocas o no.</para>
 
-            <para>Por ejemplo,</para>
+            <para lang="es">Por ejemplo,</para>
 
-            <para>Geografía : Europa : Bélgica <emphasis>ver también
+            <para lang="es">Geografía : Europa : Bélgica <emphasis>ver también
             </emphasis>Uniones economicas y/o políticas : Benelux.</para>
 
-            <para>Igualmente podrá haber</para>
+            <para lang="es">Igualmente podrá haber</para>
 
-            <para>Uniones económicas y/o políticas : Unión Europea : zona Euro
+            <para lang="es">Uniones económicas y/o políticas : Unión Europea : zona Euro
             <emphasis>ver también </emphasis>Francia ; Benelux ; Alemania ;
             ...</para>
 
-            <para>Siguiendo con nuestro tesauro de ejemplo, podemos por
+            <para lang="es">Siguiendo con nuestro tesauro de ejemplo, podemos por
             ejemplo hacer un reenvío tipo ver también entre Editor no
             registrado y usuario.</para>
 
             <figure>
-              <title>Reenvío "Ver también"</title>
+              <title lang="es">Reenvío "Ver también"</title>
 
               <mediaobject>
                 <imageobject>
@@ -1189,116 +1189,116 @@
   </sect1>
 
   <sect1 id="categ_incluses">
-    <title>Categorías instaladas con PMB</title>
+    <title lang="es">Categorías instaladas con PMB</title>
 
     <sect2 id="categ_incluses_unesco">
-      <title>Tesauro de la UNESCO</title>
+      <title lang="es">Tesauro de la UNESCO</title>
 
-      <para>Este tesauro, muy amplio, es un tesauro con varias entradas, que
+      <para lang="es">Este tesauro, muy amplio, es un tesauro con varias entradas, que
       puede ser útil a una biblioteca que necesite un tesauro muy preciso, o a
       un laboratirio de investigación en ciencias humanas.</para>
 
-      <para><emphasis role="bold">Tesuaro de la UNESCO </emphasis>copyright
+      <para lang="es"><emphasis role="bold">Tesuaro de la UNESCO </emphasis>copyright
       ediciones de la UNESCO. El grupo de desarrolladores de PMB ha obtenido
       la autorización para reproducir gratuitamente el tesauro. Para más
       información, consultad www.sigb.net</para>
     </sect2>
 
     <sect2 id="categ_incluses_agneaux">
-      <title>Tesarauro Mediateca de Agneaux</title>
+      <title lang="es">Tesarauro Mediateca de Agneaux</title>
 
-      <para>Este tesauro ha estado presente desde los inicios de PMB. Se trata
+      <para lang="es">Este tesauro ha estado presente desde los inicios de PMB. Se trata
       de una contribución de François Lemarchand
       (http://balno.free.fr).</para>
 
-      <para>Este tesuaro ligero, no se ve fijado por su jerarquía, y debe
+      <para lang="es">Este tesuaro ligero, no se ve fijado por su jerarquía, y debe
       verse como un punto de partida para realizar un tesauro simple pero
       adaptado a las necesidades de vuestro centro.</para>
     </sect2>
 
     <sect2 id="categ_incluses_environnement">
-      <title>Tesauro medio ambiente</title>
+      <title lang="es">Tesauro medio ambiente</title>
 
-      <para>Tesauro no dipositado, adaptado a un centro de documentación
+      <para lang="es">Tesauro no dipositado, adaptado a un centro de documentación
       asociado al medio ambiente.</para>
 
-      <para>Es un buen ejemplo para crear un tesauro especializado.</para>
+      <para lang="es">Es un buen ejemplo para crear un tesauro especializado.</para>
     </sect2>
   </sect1>
 
   <sect1 id="categ_indexint-incluses">
-    <title>Clasificaciones decimales instaladas con PMB</title>
+    <title lang="es">Clasificaciones decimales instaladas con PMB</title>
 
-    <para>PMB incluye una autoridad que corresponde a una indexación decimal.
+    <para lang="es">PMB incluye una autoridad que corresponde a una indexación decimal.
     Esta indexación decimal puede servir para guardar vuestra indexación Dewey
     por ejemplo.</para>
 
-    <para>La clasificación Dewey es un sistema de indexación decimal, parte de
+    <para lang="es">La clasificación Dewey es un sistema de indexación decimal, parte de
     10 clases numeradas del 0 al 9, cada una posee 10 subclases, etc.. La
     indexación se prensenta siempre con un mínimo de tres cifras (ejemplo :
     470). Después de las tres primeras cifras hay una separación, marcada por
     un punto.</para>
 
-    <para>Normalmente las signaturas de los libros se crean con la ayuda de
+    <para lang="es">Normalmente las signaturas de los libros se crean con la ayuda de
     una indexación DEWEY a la cual se añaden las tres primeras letras del
     apellido del autor del documento.</para>
 
-    <para>Existen otras posibilidades de clasificación, con el mismo sistema
+    <para lang="es">Existen otras posibilidades de clasificación, con el mismo sistema
     de cifras y/o letras, como por ejemplo la Clasificación Decimal Universal
     (CDU).</para>
 
-    <para>Igual que para la selección de categorías a cargar durante la
+    <para lang="es">Igual que para la selección de categorías a cargar durante la
     instalación de PMB, es necesario también escoger un sistema de indexación
     decimal adaptado al funcionamiento del centro.</para>
 
     <sect2 id="categ_indexint-incluses_chambery">
-      <title>BM de Chambéry</title>
+      <title lang="es">BM de Chambéry</title>
 
-      <para>La Bibliothèque Municipale de Chambéry ha desarrolado un manual de
+      <para lang="es">La Bibliothèque Municipale de Chambéry ha desarrolado un manual de
       clasificación, disponible en su <ulink
       url="http://www.bm-chambery.fr/institution/organisation/index.htm">página
       web</ulink> en internet. Se trata de una clasificación decimal, basada
       en Dewey, con las entradas válidas especializadas en música.</para>
 
-      <para>Muy bien concebida, esta clasificación puede ser excesiva para una
+      <para lang="es">Muy bien concebida, esta clasificación puede ser excesiva para una
       biblioteca pequeña.</para>
     </sect2>
 
     <sect2 id="categ_indexint-incluses_dewey">
-      <title>Tipo Dewey</title>
+      <title lang="es">Tipo Dewey</title>
 
-      <para>Una indexación derivada de la de Dewey.</para>
+      <para lang="es">Una indexación derivada de la de Dewey.</para>
     </sect2>
 
     <sect2 id="categ_indexint-incluses_100cases">
-      <title>100 casos del saber o Margarita de los colores</title>
+      <title lang="es">100 casos del saber o Margarita de los colores</title>
 
-      <para>La tabla de los 100 casos del saber igual que la Margarita de los
+      <para lang="es">La tabla de los 100 casos del saber igual que la Margarita de los
       colores son representaciones visuales de las indexaciones, que pueden
       mostrarse en el OPAC, y están adaptadas para el uso de categorías por
       alumnos de ensenyamientos de primaria y secundaria.</para>
 
-      <para>Se basan en una indexación de tipo Dewey de 000 a 990, donde la
+      <para lang="es">Se basan en una indexación de tipo Dewey de 000 a 990, donde la
       última cifra siempre es . Hay 100 indexaciones numeradas del 00 al 99
       con la última cifra como 0.</para>
     </sect2>
   </sect1>
 
   <sect1 id="multithesaurus">
-    <title>La gestión multi-tesauro multi-lingüe</title>
+    <title lang="es">La gestión multi-tesauro multi-lingüe</title>
 
     <sect2 id="categs_multithes">
-      <title>Multi-tesauro</title>
+      <title lang="es">Multi-tesauro</title>
 
-      <para>Para activar la gestión multi-tesauro en PMB, hace falta activar
+      <para lang="es">Para activar la gestión multi-tesauro en PMB, hace falta activar
       el parámetro mode_pmb en el tipo de Tesauros dentro de la pestaña
       Administración.</para>
 
       <sect3 id="categs_multithes_activ">
-        <title>Activar la gestión multi-tesauro</title>
+        <title lang="es">Activar la gestión multi-tesauro</title>
 
         <figure>
-          <title>Administración &gt; Herramientas &gt; Parámetros, conjunto de
+          <title lang="es">Administración &gt; Herramientas &gt; Parámetros, conjunto de
           parámetros Tesauros ampliado en pantalla</title>
 
           <mediaobject>
@@ -1308,11 +1308,11 @@
           </mediaobject>
         </figure>
 
-        <para>En Administración &gt; Herramientas &gt; Parámetros, en el
+        <para lang="es">En Administración &gt; Herramientas &gt; Parámetros, en el
         apartado Tesauro poned el parámetro mode_pmb a 1.</para>
 
         <figure>
-          <title>Autoridades &gt; Categorías, buscar en todos los
+          <title lang="es">Autoridades &gt; Categorías, buscar en todos los
           tesauros</title>
 
           <mediaobject>
@@ -1324,20 +1324,20 @@
       </sect3>
 
       <sect3 id="categ_multi_create">
-        <title>Crear o modificar los tesauros</title>
+        <title lang="es">Crear o modificar los tesauros</title>
 
         <sect4 id="categ_multi_create_search">
-          <title>Buscar en el(los) tesauros</title>
+          <title lang="es">Buscar en el(los) tesauros</title>
 
-          <para>En Autoridades &gt; Categorías, puedes hacer una búsqueda en
+          <para lang="es">En Autoridades &gt; Categorías, puedes hacer una búsqueda en
           el conjunto de tesauros. Para esto, seleccionad "todos" dentro del
           menú desplegable.</para>
 
-          <para>Puedes igualmente iniciar una búsqueda en todas las lenguas de
+          <para lang="es">Puedes igualmente iniciar una búsqueda en todas las lenguas de
           vuestro o vuestros tesauros.</para>
 
           <figure>
-            <title>Autoridades &gt; Categorías, buscar en un tesauro</title>
+            <title lang="es">Autoridades &gt; Categorías, buscar en un tesauro</title>
 
             <mediaobject>
               <imageobject>
@@ -1348,18 +1348,18 @@
         </sect4>
 
         <sect4 id="categ_multi_search-results">
-          <title>Resultados de buscar dentro del (los) tesauro(s)</title>
+          <title lang="es">Resultados de buscar dentro del (los) tesauro(s)</title>
 
-          <para>Si seleccionáis un tesauro del menú desplegable, puedes
+          <para lang="es">Si seleccionáis un tesauro del menú desplegable, puedes
           consultar el conjunto de descriptores de primer nivel de ese
           tesauro.</para>
 
-          <para>Cada una de las categorías (descriptores) que contenga
+          <para lang="es">Cada una de las categorías (descriptores) que contenga
           sub-categorías (descripotres específicos) viene precedida por un
           icono de carpeta.</para>
 
           <figure>
-            <title>Autoridades &gt; Categorías, navegando por una categoría
+            <title lang="es">Autoridades &gt; Categorías, navegando por una categoría
             general</title>
 
             <mediaobject>
@@ -1369,19 +1369,19 @@
             </mediaobject>
           </figure>
 
-          <para>Haciendo clic sobre el icono de la "carpeta" situado delante
+          <para lang="es">Haciendo clic sobre el icono de la "carpeta" situado delante
           de una de las categorías, en el ejemplo "Sector química", puedes
           consultar el conjunto de sub-categorías correspondiente.</para>
 
-          <para>Si una categoría no tiene ninguna sub-categoría, el símbolo
+          <para lang="es">Si una categoría no tiene ninguna sub-categoría, el símbolo
           que se muestra delante es una página en blanco.</para>
         </sect4>
 
         <sect4 id="categ_multi_create_modif">
-          <title>Modificación de una categoría</title>
+          <title lang="es">Modificación de una categoría</title>
 
           <figure>
-            <title>Autoridades &gt; Categorías, modificación de una
+            <title lang="es">Autoridades &gt; Categorías, modificación de una
             categoría</title>
 
             <mediaobject>
@@ -1391,46 +1391,46 @@
             </mediaobject>
           </figure>
 
-          <para>Para modificar una categoría, haz clic sobre el nombre de la
+          <para lang="es">Para modificar una categoría, haz clic sobre el nombre de la
           categoría.</para>
 
-          <para>La pantalla se dividirá en tres zonas :</para>
+          <para lang="es">La pantalla se dividirá en tres zonas :</para>
 
           <itemizedlist>
             <listitem>
-              <para>en la parte superior podréis modificar la etiqueta de la
+              <para lang="es">en la parte superior podréis modificar la etiqueta de la
               categoría. Haciendo clic sobre el botón Traducciones, podréis
               ver las traducciones de la etiqueta a otras lenguas.</para>
             </listitem>
 
             <listitem>
-              <para>en el medio de la pantalla podréis especificar un
+              <para lang="es">en el medio de la pantalla podréis especificar un
               comentario. Haciendo clic sobre Traducciones, se mostrarán las
               traducciones del comentario a las otras lenguas
               disponibles.</para>
             </listitem>
 
             <listitem>
-              <para>en la parte inferior de la pantalla, puedes</para>
+              <para lang="es">en la parte inferior de la pantalla, puedes</para>
 
               <itemizedlist>
                 <listitem>
-                  <para>definir una categoría superior</para>
+                  <para lang="es">definir una categoría superior</para>
                 </listitem>
 
                 <listitem>
-                  <para>definir un reenvío ver</para>
+                  <para lang="es">definir un reenvío ver</para>
                 </listitem>
 
                 <listitem>
-                  <para>definir un reenvío o más "ver también"</para>
+                  <para lang="es">definir un reenvío o más "ver también"</para>
                 </listitem>
               </itemizedlist>
             </listitem>
           </itemizedlist>
 
           <figure>
-            <title>Popup de selección de categoría, para incluir una categoría
+            <title lang="es">Popup de selección de categoría, para incluir una categoría
             superior</title>
 
             <mediaobject>
@@ -1440,29 +1440,29 @@
             </mediaobject>
           </figure>
 
-          <para>Haciendo clic sobre el icono "..." abriréis un popup para
+          <para lang="es">Haciendo clic sobre el icono "..." abriréis un popup para
           poder seleccionar una categoría. Podréis seleccionar una categoría
           haciendo clic sobre su nombre, para navegar por estructura de
           descriptores, haced clic sobre el icono de "carpeta" situado delante
           de cada categoría.</para>
 
-          <para>La elección de un tesauro marca las relaciones : los reenvíos,
+          <para lang="es">La elección de un tesauro marca las relaciones : los reenvíos,
           al igual que las categorías superiores deben seleccionarse del
           tesauro que contiene vuestro descriptor.</para>
 
           <itemizedlist>
             <listitem>
-              <para>Puedes añadir un descriptor haciendo clic sobre Añadir
+              <para lang="es">Puedes añadir un descriptor haciendo clic sobre Añadir
               situado en la parte superior derecha de la pantalla.</para>
             </listitem>
 
             <listitem>
-              <para>Puedes también volver al inicio de la estructura haciendo
+              <para lang="es">Puedes también volver al inicio de la estructura haciendo
               clic sobre el botón "Top".</para>
             </listitem>
 
             <listitem>
-              <para>Puedes usar tanto la búsqueda jerárquica (estructura de
+              <para lang="es">Puedes usar tanto la búsqueda jerárquica (estructura de
               árbol) como la búsqueda por descriptores (navegación
               hipertextual) utilizando el selector situado en la parte
               superior de la pantalla.</para>
@@ -1471,15 +1471,15 @@
         </sect4>
 
         <sect4 id="categ_multi_create_edit">
-          <title>Editar los tesauros</title>
+          <title lang="es">Editar los tesauros</title>
 
-          <para>Vía <emphasis>Autoridades &gt; Categorías</emphasis>, puedes
+          <para lang="es">Vía <emphasis>Autoridades &gt; Categorías</emphasis>, puedes
           igualmente modificar los tesuaros. Para esto, haz clic sobre el
           enlace<emphasis role="bold"> Modificar los tesauros</emphasis> a la
           derecha de la pantalla.</para>
 
           <figure>
-            <title>Autoridades &gt; Categorías, editar los tesauros</title>
+            <title lang="es">Autoridades &gt; Categorías, editar los tesauros</title>
 
             <mediaobject>
               <imageobject>
@@ -1488,17 +1488,17 @@
             </mediaobject>
           </figure>
 
-          <para>La lista de tesauros disponible en PMB se muestra en la
+          <para lang="es">La lista de tesauros disponible en PMB se muestra en la
           pantalla.</para>
 
-          <para>Para modificar un tesauro, haz clic sobre el nombre del
+          <para lang="es">Para modificar un tesauro, haz clic sobre el nombre del
           tesauro.</para>
 
-          <para>Puedes también añadir un tesauro haciendo clic sobre <emphasis
+          <para lang="es">Puedes también añadir un tesauro haciendo clic sobre <emphasis
           role="bold">Añadir un tesauro</emphasis>.</para>
 
           <figure>
-            <title>Autoridades &gt; Categorías, editar los tesauros, añadir un
+            <title lang="es">Autoridades &gt; Categorías, editar los tesauros, añadir un
             nuevo tesauro</title>
 
             <mediaobject>
@@ -1508,36 +1508,36 @@
             </mediaobject>
           </figure>
 
-          <para>Para añadir un nuevo tesauro debes definir :</para>
+          <para lang="es">Para añadir un nuevo tesauro debes definir :</para>
 
           <itemizedlist>
             <listitem>
-              <para>su etiqueta</para>
+              <para lang="es">su etiqueta</para>
             </listitem>
 
             <listitem>
-              <para>la lengua por defecto de uso del tesauro</para>
+              <para lang="es">la lengua por defecto de uso del tesauro</para>
             </listitem>
           </itemizedlist>
 
-          <para>Atención : la lengua por defecto de uso del tesauro será
+          <para lang="es">Atención : la lengua por defecto de uso del tesauro será
           aquella usada para mostrar una categoría que no se ha
           traducido.</para>
 
-          <para>Por ejemplo, en un tesauro, Environment (inglés) es la
+          <para lang="es">Por ejemplo, en un tesauro, Environment (inglés) es la
           traducción de Medio ambiente (español). Si Naturaleza (Español) no
           se ha traducido, será Naturaleza lo que se muestre en los registros
           aunque la lengua seleccionada sea el inglés.</para>
 
-          <para>Para cambiar la lengua de uso de la interficie del
+          <para lang="es">Para cambiar la lengua de uso de la interficie del
           bibliotecario/documentalista, consulta la Guía del Usuario, capítulo
           Parámetros del usuario.</para>
 
-          <para>Para cambiar la lengua del OPAC, utiliza el selector de
+          <para lang="es">Para cambiar la lengua del OPAC, utiliza el selector de
           idiomas del menú lateral.</para>
 
           <figure>
-            <title>Autoridades &gt; Categorías, editar los tesauros, modificar
+            <title lang="es">Autoridades &gt; Categorías, editar los tesauros, modificar
             un tesauro</title>
 
             <mediaobject>
@@ -1547,12 +1547,12 @@
             </mediaobject>
           </figure>
 
-          <para>Las informaciones que se muestran al modificar un tesauro son
+          <para lang="es">Las informaciones que se muestran al modificar un tesauro son
           varias :</para>
 
           <itemizedlist>
             <listitem>
-              <para>puedes consultar (aunque no modificar) el número
+              <para lang="es">puedes consultar (aunque no modificar) el número
               identificador del tesauro. Este número es necesario para poder
               definir un tesauro por defecto en la parte de gestión o en el
               OPAC de PMB. Para más información, consulta la Guía del
@@ -1560,11 +1560,11 @@
             </listitem>
 
             <listitem>
-              <para>puedes modificar la etiqueta del tesauro</para>
+              <para lang="es">puedes modificar la etiqueta del tesauro</para>
             </listitem>
 
             <listitem>
-              <para>puedes consultar (aunque no modificar) la lengua por
+              <para lang="es">puedes consultar (aunque no modificar) la lengua por
               defecto del tesauro.</para>
             </listitem>
           </itemizedlist>
@@ -1572,10 +1572,10 @@
       </sect3>
 
       <sect3 id="categ_multi_use">
-        <title>Catalogar y buscar con diferentes tesauros</title>
+        <title lang="es">Catalogar y buscar con diferentes tesauros</title>
 
         <figure>
-          <title>Catálogo &gt; Buscar : categoría/materia</title>
+          <title lang="es">Catálogo &gt; Buscar : categoría/materia</title>
 
           <mediaobject>
             <imageobject>
@@ -1584,11 +1584,11 @@
           </mediaobject>
         </figure>
 
-        <para>Al buscar por Categoría/materia, puedes seleccionar un tesauro
+        <para lang="es">Al buscar por Categoría/materia, puedes seleccionar un tesauro
         específico para iniciar vuestra búsqueda.</para>
 
         <figure>
-          <title>Catalogue &gt; Recherche, affichage d'une notice indexée dans
+          <title lang="es">Catalogue &gt; Recherche, affichage d'une notice indexée dans
           différents thésaurus</title>
 
           <mediaobject>
@@ -1598,12 +1598,12 @@
           </mediaobject>
         </figure>
 
-        <para>Cada descriptor seleccionado se muestra en el registro precedido
+        <para lang="es">Cada descriptor seleccionado se muestra en el registro precedido
         por el nombre del tesauro al cual corresponde. La visualización se
         ordena por tesauros.</para>
 
         <figure>
-          <title>Catálogo &gt; Buscar, modificación de un registro, zona de la
+          <title lang="es">Catálogo &gt; Buscar, modificación de un registro, zona de la
           indexación</title>
 
           <mediaobject>
@@ -1613,20 +1613,20 @@
           </mediaobject>
         </figure>
 
-        <para>En el registro catalogado, para cada categoría seleccionada, se
+        <para lang="es">En el registro catalogado, para cada categoría seleccionada, se
         muestra delante el tesauro al cual corresponde.</para>
 
-        <para>Puedes aquí seleccionar una categoría con la ayuda del botón :
+        <para lang="es">Puedes aquí seleccionar una categoría con la ayuda del botón :
         "..." o eliminar una categoría haciendo clic sobre el icono
         "X".</para>
 
-        <para><emphasis role="bold">Nota</emphasis> haciendo clic sobre el
+        <para lang="es"><emphasis role="bold">Nota</emphasis> haciendo clic sobre el
         icono "X" suprimes la categoría seleccionada del registro. La línea
         correspondiente se mostrará vacía, después de guardar el registro, las
         líneas vacías se ignorarán.</para>
 
         <figure>
-          <title>Catálogo &gt; Buscar, modificar un registro, zona de la
+          <title lang="es">Catálogo &gt; Buscar, modificar un registro, zona de la
           indexación : popup de selección de una categoría</title>
 
           <mediaobject>
@@ -1636,7 +1636,7 @@
           </mediaobject>
         </figure>
 
-        <para>El popup de selección de una nueva categoría permite escoger
+        <para lang="es">El popup de selección de una nueva categoría permite escoger
         entre los tesauros disponibles. La búsqueda jerárquica y la búsqueda
         por descriptores están disponibles. Para más información sobre las
         diferentes ventajas de estos tipos de búsquedas, consulta la Guía del
@@ -1645,20 +1645,20 @@
       </sect3>
 
       <sect3 id="categ_multi_opac">
-        <title>OPAC</title>
+        <title lang="es">OPAC</title>
 
-        <para>El OPAC de PMB permite una navegación simple para el usuario a
+        <para lang="es">El OPAC de PMB permite una navegación simple para el usuario a
         través de los diferentes tesauros configurados en PMB para la
         catalogación.</para>
 
-        <para>La activación de la gestión multi-tesauro modifica diferentes
+        <para lang="es">La activación de la gestión multi-tesauro modifica diferentes
         pantallas en la búsqueda del OPAC.</para>
 
         <sect4 id="categ_multi_opac_navig">
-          <title>Navegación por categorías</title>
+          <title lang="es">Navegación por categorías</title>
 
           <figure>
-            <title>OPAC, visualización de las categorías en la página de
+            <title lang="es">OPAC, visualización de las categorías en la página de
             inicio : visualización del tesauro en la lengua del usuario
             (español)</title>
 
@@ -1670,7 +1670,7 @@
           </figure>
 
           <figure>
-            <title>OPAC, visualización de las categorías en la página de
+            <title lang="es">OPAC, visualización de las categorías en la página de
             inicio : visualización del tesauro en la lengua del
             usuarioaffichage du (inglés)</title>
 
@@ -1681,19 +1681,19 @@
             </mediaobject>
           </figure>
 
-          <para>Si has activado la navegación por categorías del OPAC, los
+          <para lang="es">Si has activado la navegación por categorías del OPAC, los
           diferentes tesauros se mostrarán en la página de inicio. Para más
           información sobre cómo activar la navegación por categorías en el
           OPAC, consulta la Guía del administrador PMB, capítulo Herramientas,
           sección Parámetros.</para>
 
-          <para>Solamente el tesauro por defecto es visible en la página de
+          <para lang="es">Solamente el tesauro por defecto es visible en la página de
           incio. Puedes acceder a los otros tesauros haciendo clic sobre la
           pestaña correspondiente. Por ejemplo, en la pantalla de ejemplo,
           puedes ver el tesauro de Medipo ambiente o el tesauro
           Agneaux.</para>
 
-          <para>Según la lengua escogida por el usuario (ver la pantalla de
+          <para lang="es">Según la lengua escogida por el usuario (ver la pantalla de
           ejemplo para inglés o español), las categorías del tesauro se
           muestran en la lengua correspondiente. Si el tesauro está
           parcialmente o no está traducido, las categorías no traducidas se
@@ -1703,10 +1703,10 @@
         </sect4>
 
         <sect4 id="categ_multi_opac_simple">
-          <title>Búsqueda simple</title>
+          <title lang="es">Búsqueda simple</title>
 
           <figure>
-            <title>OPAC, búsqueda simple en las categorías : visualización de
+            <title lang="es">OPAC, búsqueda simple en las categorías : visualización de
             los resultados de la búsqueda en el tesauro</title>
 
             <mediaobject>
@@ -1716,27 +1716,27 @@
             </mediaobject>
           </figure>
 
-          <para>La búsqueda simple del OPAC permite buscar en las categorías
+          <para lang="es">La búsqueda simple del OPAC permite buscar en las categorías
           de forma simple y rápida para los usuarios.</para>
 
-          <para>Los resultado se muestran a la vez</para>
+          <para lang="es">Los resultado se muestran a la vez</para>
 
           <itemizedlist>
             <listitem>
-              <para>de manera global : puedes consultar el conjunto de las
+              <para lang="es">de manera global : puedes consultar el conjunto de las
               categorías correspondientes a la búsqueda y que "contienen" en
               los registros</para>
             </listitem>
 
             <listitem>
-              <para>de manera precisa : para cada tesuaro, puedes consultar el
+              <para lang="es">de manera precisa : para cada tesuaro, puedes consultar el
               número de resultados correspondientes a la búsqueda y que
               "contienten" en los registros</para>
             </listitem>
           </itemizedlist>
 
           <figure>
-            <title>OPAC, búsqueda simple en las categorías : visualización de
+            <title lang="es">OPAC, búsqueda simple en las categorías : visualización de
             los resultados de un tesauro</title>
 
             <mediaobject>
@@ -1746,16 +1746,16 @@
             </mediaobject>
           </figure>
 
-          <para>Puedes ver en la pantalla de ejemplo la información de las
+          <para lang="es">Puedes ver en la pantalla de ejemplo la información de las
           categorías mostradas para un tesauro. A este nivel también se
           muestran las formas de reenvíos.</para>
         </sect4>
 
         <sect4 id="categ_multi_opac_terms">
-          <title>Buscar por descriptores</title>
+          <title lang="es">Buscar por descriptores</title>
 
           <figure>
-            <title>OPAC, buscar por descriptores, buscar un tesauro (pantalla
+            <title lang="es">OPAC, buscar por descriptores, buscar un tesauro (pantalla
             1) : visualización de las categorías correspondientes al
             descriptor buscado</title>
 
@@ -1766,25 +1766,25 @@
             </mediaobject>
           </figure>
 
-          <para>Para poder buscar por descriptores recherche hay que
+          <para lang="es">Para poder buscar por descriptores recherche hay que
           seleccionar un tesauro sobre el cual efectuar la búsqueda.</para>
 
-          <para>El tesauro por defecto es aquel que está definido en los
+          <para lang="es">El tesauro por defecto es aquel que está definido en los
           parámetros de PMB. Para más información sobre los parámetros,
           consulta la Guía del Administrador de PMB, capítulo Herramientas,
           sección Parámetros.</para>
 
-          <para>La parte superior de la pantalla muestra las categorías
+          <para lang="es">La parte superior de la pantalla muestra las categorías
           correspondientes a la expresión buscada, en este caso
           "química".</para>
 
-          <para>Hay 5 descriptores que contienen "química" en los ejemplos :
+          <para lang="es">Hay 5 descriptores que contienen "química" en los ejemplos :
           "química", "sector química mineral", "sector química orgánica" y
           finalmente dos categorías que tienen exactamente el mismo título
           "sector química".</para>
 
           <figure>
-            <title>OPAC, buscar por descriptores, buscar en un tesauro
+            <title lang="es">OPAC, buscar por descriptores, buscar en un tesauro
             (pantalla 2) : desarrollo de la categoría seleccionada</title>
 
             <mediaobject>
@@ -1794,7 +1794,7 @@
             </mediaobject>
           </figure>
 
-          <para>Haciendo clic sobre "sector química" en la parte superior de
+          <para lang="es">Haciendo clic sobre "sector química" en la parte superior de
           la pantalla, podrás ver las categorías las categorías
           correspondientes en la parte inferior de la pantalla. Las dos
           categorías homonímas "sector química" contienen subcategorías que
@@ -1802,7 +1802,7 @@
           búsqueda.</para>
 
           <figure>
-            <title>OPAC, buscar por descriptores : buscar en todos los
+            <title lang="es">OPAC, buscar por descriptores : buscar en todos los
             tesauros</title>
 
             <mediaobject>
@@ -1812,17 +1812,17 @@
             </mediaobject>
           </figure>
 
-          <para>La búsqueda por descriptores del OPAC permite buscar en todos
+          <para lang="es">La búsqueda por descriptores del OPAC permite buscar en todos
           los tesauros. Las categorías correspondientes a la expresión buscada
           vienen precedidas por el nombre del tesauro al cual
           corresponden.</para>
         </sect4>
 
         <sect4 id="categ_multi_opac_multicrit">
-          <title>Búsqueda avanzada</title>
+          <title lang="es">Búsqueda avanzada</title>
 
           <figure>
-            <title>OPAC, búsqueda avanzada, buscar por materia</title>
+            <title lang="es">OPAC, búsqueda avanzada, buscar por materia</title>
 
             <mediaobject>
               <imageobject>
@@ -1831,10 +1831,10 @@
             </mediaobject>
           </figure>
 
-          <para>El OPAC de PMB permite buscar en uno o en diferentes
+          <para lang="es">El OPAC de PMB permite buscar en uno o en diferentes
           tesauros.</para>
 
-          <para>La búsqueda avanzada permite también seleccionar el tesauro
+          <para lang="es">La búsqueda avanzada permite también seleccionar el tesauro
           sobre el cual iniciar la búsqueda.</para>
         </sect4>
       </sect3>

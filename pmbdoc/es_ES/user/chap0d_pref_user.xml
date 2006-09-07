@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="prefs" lang="fr">
-  <title>Preferencias de los usuarios</title>
+  <title lang="es">Preferencias de los usuarios</title>
 
-  <para>Cada vez que se quiere iniciar PMB se debe introducir un nombre de
+  <para lang="es">Cada vez que se quiere iniciar PMB se debe introducir un nombre de
   usuario y una contraseña. Esto permite a PMB identificar a los usuarios y
   establecer cuales son los derechos y privilegios que cada usuario tiene en
   la aplicación (circulación, catalogación, administración,...). La dualidad
@@ -10,7 +10,7 @@
   parámetros que permitirán tener una ergonomía personalizada como por ejemplo
   visualizar unos colores personalizados.</para>
 
-  <para>Resumiendo, las preferencias de los usuarios son una serie de
+  <para lang="es">Resumiendo, las preferencias de los usuarios son una serie de
   parámetros memorizados para cada usuario. Estas preferencias están asociadas
   a un nombre de usuario introducido en la pantalla de inicio de conexión.
   Para consultar las preferencias, haz clic en el enlace
@@ -18,7 +18,7 @@
   lado de <emphasis>salir</emphasis>.</para>
 
   <figure>
-    <title>preferencias usuarios</title>
+    <title lang="es">preferencias usuarios</title>
 
     <mediaobject>
       <imageobject>
@@ -28,18 +28,18 @@
   </figure>
 
   <sect1 id="prefs_pass">
-    <title>Contraseña, idioma, estilo</title>
+    <title lang="es">Contraseña, idioma, estilo</title>
 
-    <para>En este apartado puedes cambiar tu contraseña. Si introduces una
+    <para lang="es">En este apartado puedes cambiar tu contraseña. Si introduces una
     <emphasis>Nueva contraseña</emphasis>, debes volver a introducirla en el
     campo <emphasis>Confirmar</emphasis>.</para>
 
-    <para>También puedes seleccionar otro <emphasis>Idioma</emphasis>.
+    <para lang="es">También puedes seleccionar otro <emphasis>Idioma</emphasis>.
     Atención, algunos idiomas necesitan un estilo particular para ser
     visualizados de forma óptima.</para>
 
     <table>
-      <title>Idomas y estilos de visualización adaptados</title>
+      <title lang="es">Idomas y estilos de visualización adaptados</title>
 
       <tgroup cols="2">
         <thead>
@@ -84,11 +84,11 @@
       </tgroup>
     </table>
 
-    <para>También puedes cambiar el estilo de visualización :
+    <para lang="es">También puedes cambiar el estilo de visualización :
     <emphasis>Estilo/tema</emphasis>.</para>
 
     <table>
-      <title>Estilos disponibles para la interficie de gestión de PMB</title>
+      <title lang="es">Estilos disponibles para la interficie de gestión de PMB</title>
 
       <tgroup cols="2">
         <thead>
@@ -168,102 +168,102 @@
   </sect1>
 
   <sect1 id="prefs_page">
-    <title>Número de registros por página</title>
+    <title lang="es">Número de registros por página</title>
 
-    <para>El <emphasis>Número de registros que se muestran por página
+    <para lang="es">El <emphasis>Número de registros que se muestran por página
     </emphasis> se puede personalizar en los siguientes apartados :</para>
 
     <itemizedlist>
       <listitem>
-        <para>Resultados de búsquedas (20 por defecto)</para>
+        <para lang="es">Resultados de búsquedas (20 por defecto)</para>
       </listitem>
 
       <listitem>
-        <para>Selección de autoridades (20 por defecto)</para>
+        <para lang="es">Selección de autoridades (20 por defecto)</para>
       </listitem>
 
       <listitem>
-        <para>Gestión de autoridades (40 por defecto).</para>
+        <para lang="es">Gestión de autoridades (40 por defecto).</para>
       </listitem>
     </itemizedlist>
 
-    <para>Cuanto más alto sea el número, más grandes serán los resultados por
+    <para lang="es">Cuanto más alto sea el número, más grandes serán los resultados por
     pagína, y más larga será la página. Si prefieres páginas cortas, debes
     reducir estos valores ; si prefieres que se muestren el máximo de
     resultados, puedes aumentar los valores.</para>
 
-    <para>Las opciones por defecto son las opciones de los desarrolladores y
+    <para lang="es">Las opciones por defecto son las opciones de los desarrolladores y
     permiten una visualización óptima en sistemas de 1024x768.</para>
   </sect1>
 
   <sect1 id="prefs_appli">
-    <title>Parámetros de funcionamiento de la aplicación</title>
+    <title lang="es">Parámetros de funcionamiento de la aplicación</title>
 
-    <para><emphasis>Popup automático del tíquet de préstamo </emphasis>:
+    <para lang="es"><emphasis>Popup automático del tíquet de préstamo </emphasis>:
     muestra sistemáticamente el tíquet de préstamo después de validar un
     préstamo.</para>
 
-    <para><emphasis>Activar las alertas sonoras</emphasis> : señal sonoro que
+    <para lang="es"><emphasis>Activar las alertas sonoras</emphasis> : señal sonoro que
     se reproduce cuando se genera algun error o alguna acción.</para>
   </sect1>
 
   <sect1 id="prefs_licence">
-    <title>He leído y aceptado las condiciones de la licencia de uso de
+    <title lang="es">He leído y aceptado las condiciones de la licencia de uso de
     PMB</title>
 
-    <para>Con la versión 1.3 PMB se aplica una nueva licencia : la licencia
+    <para lang="es">Con la versión 1.3 PMB se aplica una nueva licencia : la licencia
     CECILL. Esta licencia es compatible con la GNU/GPL. Para más información,
     consulta <ulink
     url="http://www.cecill.info">http://www.cecill.info</ulink></para>
 
-    <para>Esta nueva licencia se muestra al iniciarse PMB, después de
+    <para lang="es">Esta nueva licencia se muestra al iniciarse PMB, después de
     introducir el nombre de usuario y la contraseña para conectarse.</para>
 
-    <para>Para no visualizar la licencia cada vez que se inicia una sesión,
+    <para lang="es">Para no visualizar la licencia cada vez que se inicia una sesión,
     marca <emphasis>No ver mostrar más la licencia al iniciar
     sesión</emphasis>.</para>
   </sect1>
 
   <sect1 id="prefs_valeurs">
-    <title>Valores por defecto de la aplicación</title>
+    <title lang="es">Valores por defecto de la aplicación</title>
 
-    <para>Esta parte de la pantalla permite especificar algunos valores por
+    <para lang="es">Esta parte de la pantalla permite especificar algunos valores por
     defecto que se aplican al crear un ejemplar&nbsp;:</para>
 
     <itemizedlist>
       <listitem>
-        <para>Tipo de documento</para>
+        <para lang="es">Tipo de documento</para>
       </listitem>
 
       <listitem>
-        <para>Propietario</para>
+        <para lang="es">Propietario</para>
       </listitem>
 
       <listitem>
-        <para>Estado del documento</para>
+        <para lang="es">Estado del documento</para>
       </listitem>
 
       <listitem>
-        <para>Código estadístico del documento</para>
+        <para lang="es">Código estadístico del documento</para>
       </listitem>
 
       <listitem>
-        <para>Localización del documento</para>
+        <para lang="es">Localización del documento</para>
       </listitem>
 
       <listitem>
-        <para>Sección del documento</para>
+        <para lang="es">Sección del documento</para>
       </listitem>
     </itemizedlist>
 
-    <para>Estos valores permiten ganar tiempo a la hora de catalogar.</para>
+    <para lang="es">Estos valores permiten ganar tiempo a la hora de catalogar.</para>
 
-    <para>También se pueden especificar algunos valores por defecto que se
+    <para lang="es">También se pueden especificar algunos valores por defecto que se
     aplican al crear un registro nuevo :</para>
 
     <itemizedlist>
       <listitem>
-        <para>idioma. Por defecto está especificado el valor <emphasis
+        <para lang="es">idioma. Por defecto está especificado el valor <emphasis
         role="bold">fre</emphasis>, para <emphasis
         role="bold">Francés</emphasis>. Los códigos de idiomas están fijados
         según la norma UNIMARC. Puedes consultar la lista de idiomas y sus
@@ -272,7 +272,7 @@
       </listitem>
 
       <listitem>
-        <para>función autor. Por defecto está especificado el valor <emphasis
+        <para lang="es">función autor. Por defecto está especificado el valor <emphasis
         role="bold">70</emphasis> para <emphasis role="bold">autor</emphasis>.
         La función de un autor puede variar según la obra : director de escena
         para un video o dvd de una obra de teatro, fotógrafo para una
