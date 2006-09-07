@@ -518,15 +518,33 @@
       <para lang='fr'>Les catégories sont un moyen de ranger dans la base les ouvrages
       et d'organiser les informations pour faciliter la recherche notamment
       pour les utilisateurs via l'OPAC.</para>
+	  
+      <para lang='es'>Las categorías son una forma de ordenar dentro de la base de datos
+	  los documentos y organizar la información para facilitar su búsqueda a 
+	  través del OPAC.</para>
+	  
+	  	  
 
       <para lang='fr'>Le but est de regrouper les ouvrages dans une arborescence de
       catégories et de sous-catégories. PMB vous est fourni avec une liste de
       catégories qui s'avérera efficace dans le cas d'un centre documentaire
       généraliste.</para>
+	  
+      <para lang='es'>El objectivo es agrupar las obras en una estructura de categorías
+	  y subcategorías. PMB viene con una lista de categorías que será eficaz
+	  en el caso de un centro de documentación de tipo general.</para>
+	  
+	  	  
 
       <para lang='fr'>Si vous gérez des ressources spécialisées, il vous faudra adapter
       ces catégories à votre usage, par exemple à votre thésaurus
       utilisé.</para>
+	  
+      <para lang='es'>Si tu centro es de tipo especializado, será necesario adaptar
+	  estas materías a las necesidades de tu centro, por ejemplo a tu
+	  tesauro.</para>
+	  
+	  	  
 
       <para lang='fr'><figure>
           <title lang='fr'>Autorités &gt; Catégories</title>
@@ -540,19 +558,45 @@
       dossiers pour les ouvrir. Un clic sur le nom de la catégorie entraîne sa
       sélection et donc l'ouverture d'un écran permettant la modification des
       informations.</para>
+	  
+	 <para lang='es'><figure>
+          <title lang='es'>Autoridades &gt; Categorías</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/aut_categ.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>Para navegar por esta estructura arbórea, haz clic sobre los 
+		iconos de las carpetas para abrirlas. Un clic en el nombre de la categoría
+		la selecciona para poderla modificar.</para>
+
+	  
 
       <para lang='fr'>Vous pouvez spécifier différentes informations pour une catégorie
       :</para>
+	  
+      <para lang='es'>Para cada categoría, puedes introducir diferentes datos 
+      :</para>
+
+	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>le <emphasis role="bold">libellé</emphasis> est
           obligatoire</para>
+		  
+          <para lang='es'>la <emphasis role="bold">etiqueta o nombre</emphasis> es
+          obligatoria</para>
+		  		  
         </listitem>
 
         <listitem>
           <para lang='fr'>un <emphasis role="bold">commentaire</emphasis> peut être
           ajouté</para>
+		  
+          <para lang='es'>se puede añadir un <emphasis role="bold">comentario</emphasis> </para>
+		  		  
         </listitem>
 
         <listitem>
@@ -561,6 +605,13 @@
           l'aide du bouton "..." la catégorie parente de cette sous-catégorie.
           Pour effacer une catégorie parente sélectionnée, cliquez sur le
           bouton "X"</para>
+		  
+          <para lang='es'>si la categoría es una término específico, el campo <emphasis
+          role="bold">término general </emphasis>permite seleccionar con la ayuda
+		  del botón "..." el término general de este término específico.
+          Para eliminar un término general seleccionado, haz clic sobre el botón "X"</para>
+		  
+		  		  
         </listitem>
 
         <listitem>
@@ -571,6 +622,14 @@
           <emphasis>Europe</emphasis>, la sous-catégorie
           <emphasis>France</emphasis>, et dans <emphasis>OTAN</emphasis>, la
           sous-catégorie <emphasis>France</emphasis>.</para>
+		  
+          <para lang='es'><emphasis role="bold">Ver </emphasis>permite
+          establecer una lógica por ejemplo entre dos términos específicos que 
+		  lleven la misma etiqueta, pero situados en lugares diferentes de la estructura, por ejemplo
+		  dentro de <emphasis>Europa</emphasis>, el término específico 
+		  <emphasis>Francia</emphasis>, y dentro de <emphasis>OTAN</emphasis>, el término específico 
+		  <emphasis>Francia</para>
+		  		  
         </listitem>
 
         <listitem>
@@ -580,6 +639,14 @@
           renvoyer sur <emphasis>voix</emphasis> <emphasis>romaine.</emphasis>
           Contrairement au renvoi voir, il ne s'agit pas d'un renvoi entre
           termes identiques.</para>
+		  
+          <para lang='es'>ver también </emphasis>(novedad 
+		  en la versión 1.3) permite enriquecer las categorías a través de una aproximación
+		  de conceptos. Por ejemplo, <emphasis>Roma</emphasis> puede enlazarse
+		  con<emphasis>ver también</emphasis> <emphasis>romano.</emphasis>
+          Contrariamente al Ver, no se trata de usarlo entre términos iguales, sino entre 
+		  conceptos similares.</para>
+		  		  
         </listitem>
       </itemizedlist>
 
@@ -587,39 +654,72 @@
       catégorie. <emphasis role="bold">Attention</emphasis> une catégorie ne
       peut être supprimée que si elle n'est utilisée dans aucune
       notice.</para>
+	  
+      <para lang='es'><emphasis role="bold">Suprimir</emphasis> permite eliminar una categoría.
+	  <emphasis role="bold">Atención</emphasis> una categoría no puede ser eliminada
+	  si se usa en algún registro.</para>
+	  	  
 
       <para lang='fr'>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
       savoir dans quels ouvrages est mentionnée la catégorie. Il lance une
       recherche dans l'onglet catalogue pour la catégorie correspondante. Ceci
       permet notamment de savoir pourquoi la suppression de cette catégorie
       est impossible.</para>
+	  
+      <para lang='es'>El botón <emphasis role="bold">Uso</emphasis> permite saber
+      en qué obras se usa esta categoría. Inicia una búsqueda en la pestaña
+      catálogo para la categoría seleccionada. Es útil para saber porqué
+	  no se puede eliminar una categoría.</para>
+
+	  
 
       <para lang='fr'><emphasis role="bold">Note</emphasis> : les boutons
       <emphasis>Supprimer</emphasis> et <emphasis>Utilisation</emphasis> ne
       sont pas visibles lors de la création d'une catégorie, mais uniquement
       lors de sa modification.</para>
+	  
+      <para lang='es'><emphasis role="bold">Nota</emphasis> : los botones 
+	  <emphasis>Suprimir</emphasis> y <emphasis>Uso</emphasis> no
+	  son visibles cuando se crea una categoría, sólo cuando se
+	  modifica.</para>	  
     </sect2>
   </sect1>
 
   <sect1 id="autorites_editeurs">
     <title lang='fr'>Éditeurs</title>
+    <title lang='es'>Editoriales</title>	
 
     <sect2>
       <title lang='fr'>Rechercher et modifier un éditeur</title>
+      <title lang='es'>Buscar y modificar una editorial</title>	  
 
       <para lang='fr'>L'écran Éditeurs fonctionne avec la même logique que celui des
       Auteurs.</para>
 
+      <para lang='es'>La pantalla Editoriales funciona de la misma forma que la de Autores.</para>
+
       <para lang='fr'>Pour rechercher un éditeur, saisissez une expression à rechercher
       puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
       affiche par défaut l'ensemble des éditeurs de la base.</para>
+	  
+      <para lang='es'>Para buscar una editorial, introduce alguna palabra a buscar 
+	  y haz clic sobre <emphasis role="bold">Buscar</emphasis>. Por defecto, se muestran
+	  todas las editoriales introducidas en la base de datos.</para>
+	  	  
 
       <para lang='fr'>Vous pouvez également cliquer sur le lien <emphasis
       role="bold">Voir les derniers éditeurs créés</emphasis> pour afficher
       les dix derniers éditeurs ajoutés dans la base.</para>
+	  
+      <para lang='es'>Puedes igualmente hacer clic sobre el enlace <emphasis
+      role="bold">Ver las últimas editoriales creadas</emphasis> para visualizar
+	  las diez últimas editoriales añadidas a la base de datos.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Autorités &gt; Éditeurs</title>
+        <title lang='es'>Autoridades &gt; Editoriales</title>		
+		
 
         <mediaobject>
           <imageobject>
@@ -630,6 +730,7 @@
 
       <figure>
         <title lang='fr'>Autorités &gt; Éditeurs, édition d'un éditeur</title>
+        <title lang='es'>Autoridades &gt; Editoriales, crear una editorial</title>		
 
         <mediaobject>
           <imageobject>
@@ -639,10 +740,12 @@
       </figure>
 
       <para lang='fr'>Différentes données peuvent être saisies pour un éditeur :</para>
+      <para lang='es'>Se pueden introducir diferentes informaciones para una editorial :</para>	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>le nom de l'éditeur</para>
+          <para lang='es'>el nombre de la editorial</para>		  
         </listitem>
 
         <listitem>
@@ -650,10 +753,17 @@
           pays. La ville d'édition est un élément souvent présent dans les
           bibliographies des publications. Précisez le pour chaque éditeur, si
           possible.</para>
+		  
+          <para lang='es'>su dirección en dos línias, su código postal, la población y 
+		  el país. La población de edición es un elemento presente habitualmente en las 
+		  bibliografías de las publicaciones. Es importante introducirlo para cada editorial,
+		  siempre que sea posible.</para>
+		  		  
         </listitem>
 
         <listitem>
           <para lang='fr'>le site web de l'éditeur</para>
+          <para lang='es'>la págia web de la editorial</para>		  
         </listitem>
       </itemizedlist>
 
@@ -661,57 +771,115 @@
       éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
       être supprimé que s'il n'est utilisé dans aucune notice.</para>
 
+      <para lang='es'><emphasis role="bold">Suprimir</emphasis> permite eliminar una editorial.
+	  <emphasis role="bold">Atención</emphasis> no se puede eliminar una
+	  editorial que se use en algún registro.</para>
+	  	  
+
       <para lang='fr'>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
       savoir dans quels ouvrages est mentionné l'éditeur. Il lance une
       recherche dans l'onglet catalogue pour l'éditeur correspondant. Ceci
       permet notamment de savoir pourquoi la suppression de cet éditeur est
       impossible.</para>
+      
+	  <para lang='es'>El botón <emphasis role="bold">Uso</emphasis> permite saber
+	  en qué obras se usa esta editorial. Inicia una búsqueda en la pestaña 
+	  catálogo para la editorial seleccionada. Esto permite saber porqué
+	  no se puede eliminar una editorial.</para>
+	  	  
 
       <para lang='fr'>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
       remplacer un éditeur par un autre, pour éliminer des doublons mals
       orthographiés par exemple.</para>
+	  
+      <para lang='es'>El botón <emphasis role="bold">Reemplazar por</emphasis> permite 
+	  reemplazar una editorial por otra, para eliminar duplicados mal
+	  entrados, con errores ortográficos, por ejemplo.</para>
+	  	  
 
       <para lang='fr'><emphasis role="bold">Note</emphasis> : les boutons
       <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
       <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
       création d'un éditeur, mais uniquement lors de sa modification.</para>
+	  
+      <para lang='es'><emphasis role="bold">Nota</emphasis> : los botoneses boutons
+      <emphasis>Suprimir</emphasis>, <emphasis>Uso</emphasis> y
+      <emphasis>Reemplazar por</emphasis> solo están visibles cuando se 
+	  modifica una editorial, no cuando se crea nueva.</para>
+	  	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Faciliter le catalogage : normaliser la saisie des
       éditeurs</title>
+	  
+      <title lang='es'>Facilitar la catalogación : normalizar la introducción de las
+	  eidtoriales</title>	  
+
 
       <para lang='fr'>S'il s'agit d'un nom tiré d'un nom de famille, lien de parenté
       etc. éliminer les mentions relatives à cette parenté.</para>
+	  
+      <para lang='es'>Si se trata de un nombre extraído de un apellido, parentesco etc 
+	  eliminar las menciones relativas a esta relación.</para>
+	  	  
 
       <para lang='fr'>Si un sigle est utilisé, il faut le développer.</para>
+      <para lang='es'>Si se usa una sigla, ésta debe desarrollarse.</para>	  
 
       <para lang='fr'><emphasis role="bold">Exemple</emphasis> PUL sera saisi Presses
       Universitaires Lyonnaises.</para>
+	  
+      <para lang='es'><emphasis role="bold">Ejemplo</emphasis> PUL se introducirá 
+	  como Presses Universitaires Lyonnaises.</para>
+	  
 
       <para lang='fr'>Pour faciliter la recherche vous pouvez accoler le sigle entre
       parenthèses au sigle développé, cependant ceci ne correspond pas aux
       normes AFNOR. Pour notre exemple, on obtient alors : Presses
       Universitaires Lyonnaises (PUL).</para>
+	  
+      <para lang='es'>Para facilitar la búsqueda, puedes incluir las siglas entre 
+	  paréntesis, al lado de la forma desarrollada, aunque esto no esté 
+	  aceptado por las normas AFNOR. Para nuestro ejemplo, introduciríamos : Presses
+      Universitaires Lyonnaises (PUL).</para>
+	  	  
     </sect2>
   </sect1>
 
   <sect1 id="autorites_coll">
     <title lang='fr'>Collections</title>
+    <title lang='es'>Colecciones</title>	
 
     <para lang='fr'>Une collection est un ensemble d'ouvrages édités par un même
     éditeur, dont l'auteur peut être différent ou identique, et rassemblés
     sous un même nom de collection.</para>
+	
+    <para lang='es'>Una colección es un conjunto de obras editadas por una misma 
+	editorial, dónde el autor puede ser diferente o igual, y unidas por
+	un mismo nombre de colección.</para>
+		
 
     <para lang='fr'>Vous pouvez cliquer sur le lien <emphasis role="bold">Voir les
     dernières collections créées</emphasis> pour afficher les dix dernières
     collections ajoutées dans la base.</para>
+	
+    <para lang='es'>Puedes hacer clic sobre el enlace<emphasis role="bold"> Ver las
+	últimas colecciones creadas</emphasis> para ver las diez últimas
+	colecciones añadidas a la base de datos.</para>
+	
+		
 
     <para lang='fr'>Dans PMB, vous aurez toujours besoin d'un éditeur saisi en tant
     qu'autorité pour définir une collection.</para>
+	
+    <para lang='es'>Para introducir una colección, necesitarás siempre introducir
+	una editorial.</para>
+		
 
     <figure>
       <title lang='fr'>Autorités &gt; Collections</title>
+      <title lang='es'>Autoridades &gt; Colecciones</title>	  
 
       <mediaobject>
         <imageobject>
@@ -722,6 +890,7 @@
 
     <figure>
       <title lang='fr'>Autorités &gt; Collections, édition d'une collection</title>
+      <title lang='es'>Autoridades &gt; Colecciones, edición de una colección</title>	  
 
       <mediaobject>
         <imageobject>
@@ -732,15 +901,24 @@
 
     <para lang='fr'>Différentes données peuvent être saisies pour une collection
     :</para>
+	
+    <para lang='es'>Una colección puede incluir diferentes datos :</para>
+		
 
     <itemizedlist>
       <listitem>
         <para lang='fr'>le <emphasis role="bold">nom</emphasis> de la collection</para>
+		<para lang='es'>el <emphasis role="bold">nombre</emphasis> de la colección</para>		
       </listitem>
+	  
 
       <listitem>
         <para lang='fr'>un <emphasis role="bold">ISSN</emphasis>, si la collection a un
         ISSN attribué</para>
+		
+        <para lang='es'>un <emphasis role="bold">ISSN</emphasis>, si la colección tiene
+		ISSN</para>
+				
       </listitem>
 
       <listitem>
@@ -749,47 +927,99 @@
         un éditeur, cliquez sur le bouton "..." et choisissez un éditeur dans
         le popup. Pour effacer un éditeur déjà attribué, cliquez sur le bouton
         "X".</para>
+		
+        <para lang='es'>todas las colecciones deben incluir una <emphasis
+        role="bold">editorial</emphasis>. Para seleccionar una
+		editorial, haz clic sobre el botón "..." y escoge una editorial del popup. 
+		Para eliminar una editorial ya introducida, haz clic sobre el botón "X".</para>
+				
       </listitem>
     </itemizedlist>
 
     <para lang='fr'><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
     éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
     être supprimé que s'il n'est utilisé dans aucune notice.</para>
+	
+    <para lang='es'><emphasis role="bold">Suprimir</emphasis> permite suprimir una editorial. 
+	<emphasis role="bold">Atención</emphasis> no se puede eliminar una editorial 
+	que se use en algún registro.</para>
+	
+		
 
     <para lang='fr'>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
     savoir dans quels ouvrages est mentionné l'éditeur. Il lance une recherche
     dans l'onglet catalogue pour l'éditeur correspondant. Ceci permet
     notamment de savoir pourquoi la suppression de cet éditeur est
     impossible.</para>
+	
+    <para lang='es'>El botón <emphasis role="bold">Uso</emphasis> permite saber
+	dentro de qué obras se usa la editorial seleccionada. Inicia una búsqueda
+	en la pestaña catálogo para la editorial seleccionada. Es útil para
+	saber porqué una editorial no puede eliminarse.</para>
+	
+		
 
     <para lang='fr'>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer un éditeur par un autre, pour éliminer des doublons mals
     orthographiés par exemple.</para>
+	
+    <para lang='es'>El botón <emphasis role="bold">Reemplazar por</emphasis> permite reemplazar
+	una editorial por otra, es útil para eliminar duplicados creados por 
+	errores ortográficos, por ejemplo.</para>
+	
+		
 
     <para lang='fr'><emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
     <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
     création d'une collection, mais uniquement lors de sa modification.</para>
+	
+    <para lang='es'><emphasis role="bold">Nota</emphasis> : los botones
+	<emphasis>Suprimir</emphasis>, <emphasis>Uso </emphasis> y
+    <emphasis>Reemplazar por</emphasis> sólo son visibles cuando se 
+	modifica una colección, no cuando se crea.</para>
+	
+		
   </sect1>
 
   <sect1 id="autorites_subcoll">
     <title lang='fr'>Sous-collections</title>
+    <title lang='es'>Subcolecciones</title>	
 
     <para lang='fr'>Une sous-collection est une sous-division d'une collection.</para>
+    <para lang='es'>Una subcolección es una subdivisión de una colección.</para>	
+
 
     <para lang='fr'>Depuis cet écran vous pouvez rechercher une collection en saisissant
     une expression puis en cliquant sur
     <emphasis>Rechercher</emphasis>.</para>
+	
+    <para lang='es'>En esta pantalla puedes buscar una colección introduciendo algunas
+	palabras y haciendo clic sobre <emphasis>Buscar</emphasis>.</para>
+	
+		
 
     <para lang='fr'>Vous pouvez également parcourir les collections. L'ensemble des
     collections est affiché par défaut sur cet écran.</para>
+	
+    <para lang='es'>Puedes igualmente navegar por entre las colecciones. 
+	En esta pantalla se muestra el total de las colecciones.</para>
+	
+		
 
     <para lang='fr'>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
     les dernières sous-collections créées</emphasis> pour afficher les dix
     dernières sous-collections ajoutées dans la base.</para>
+	
+    <para lang='es'>Puedes igualmente hacer clic en el enlace <emphasis role="bold">Ver 
+	las últimas subcolecciones creads</emphasis> para ver las últimas
+	diez colecciones creadas en la base de datos.</para>
+	
+		
 
     <figure>
       <title lang='fr'>Autorités &gt; Sous-collections</title>
+      <title lang='es'>Autoridades &gt; Subcolecciones</title>	  
 
       <mediaobject>
         <imageobject>
@@ -800,10 +1030,18 @@
 
     <para lang='fr'>Le résultat affiché présente d'abord le nom de la sous-collection,
     puis entre parenthèses le nom de la collection "mère" et l'éditeur.</para>
+	
+    <para lang='es'>El resultado se muestra por orden alfabético de subcolección, y 
+	entre paréntesis el nombre de la colección a la que pertenece y la editorial.</para>
+		
 
     <figure>
       <title lang='fr'>Autorités &gt; Sous-collections, édition d'une
       sous-collection</title>
+	  
+      <title lang='es'>Autoridades &gt; Subcolecciones, edición de un 
+	  subcolección</title>
+	  	  
 
       <mediaobject>
         <imageobject>
@@ -814,16 +1052,24 @@
 
     <para lang='fr'>Différentes données peuvent être saisies pour une sous-collection
     :</para>
+    <para lang='es'>Una subcolección puede incluir diferentes datos :</para>	
 
     <itemizedlist>
       <listitem>
         <para lang='fr'>le <emphasis role="bold">nom</emphasis> de la
         sous-collection</para>
+		
+        <para lang='es'>el <emphasis role="bold">nombre</emphasis> de la
+        subcolección</para>		
       </listitem>
 
       <listitem>
         <para lang='fr'>un <emphasis role="bold">ISSN</emphasis>, si la sous-collection
         a un ISSN attribué</para>
+		
+        <para lang='es'>un <emphasis role="bold">ISSN</emphasis>, si la subcolección tiene
+		 un ISSN</para>
+				
       </listitem>
 
       <listitem>
@@ -832,6 +1078,14 @@
         sélectionner une collection, cliquez sur le bouton "..." et choisissez
         une collection dans le popup. Pour effacer une collection déjà
         attribuée, cliquez sur le bouton "X".</para>
+		
+        <para lang='es'>toda subcolección debe tener una colección "madre" (<emphasis
+        role="bold">subcolección de...</emphasis>) que debe introducirse. Para
+        seleccionar una colección, haz clic sobre el botón "..." y escoge 
+		una colección del popu. Para una colección ya introducida,
+		haz clic sobre el botón "X".</para>
+
+		
       </listitem>
 
       <listitem>
@@ -839,32 +1093,67 @@
         de la collection "mère". Ce champ n'est pas modifiable. Pour changer
         l'éditeur d'une collection, passez par Autorités &gt;
         Collections.</para>
+		
+        <para lang='es'>puedes consultar <emphasis role="bold">la editorial</emphasis>
+        de la colección "madre". Este campo no se puede modificar. Para cambiar la
+		editorial de una colección, ve a Autoridades &gt;
+        Colecciones.</para>
+
+		
       </listitem>
     </itemizedlist>
 
     <para lang='fr'><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
     éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
     être supprimé que s'il n'est utilisé dans aucune notice.</para>
+	
+    <para lang='es'><emphasis role="bold">Suprimir</emphasis> permite eliminar una 
+	editorial. <emphasis role="bold">Atención</emphasis> una editorial no se puede
+	eliminar si se usa en algún registro.</para>
+
+	
 
     <para lang='fr'>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
     savoir dans quels ouvrages est mentionné l'éditeur. Il lance une recherche
     dans l'onglet catalogue pour l'éditeur correspondant. Ceci permet
     notamment de savoir pourquoi la suppression de cet éditeur est
     impossible.</para>
+	
+    <para lang='es'>El botón <emphasis role="bold">Uso</emphasis> permite saber
+	en qué registros se ha usado una editorial. Inicia una búsqueda 
+	en la pestaña catálogo por la editorial seleccionada. Esta función 
+	permite saber porqué una editorial no se puede eliminar.</para>
+		
+
 
     <para lang='fr'>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer un éditeur par un autre, pour éliminer des doublons mals
     orthographiés par exemple.</para>
+	
+    <para lang='es'>Le bouton <emphasis role="bold">Reemplazar por</emphasis> permite 
+	reemplazar una editorial por otra, para poder eliminar duplicados creados por
+	faltas ortográficas por ejemplo.</para>
+	
+		
 
     <para lang='fr'><emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
     <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
     création d'une sous-collection, mais uniquement lors de sa
     modification.</para>
+	
+    <para lang='es'><emphasis role="bold">Nota</emphasis> : los botones
+	<emphasis>Suprimir</emphasis>, <emphasis>Uso</emphasis> y
+    <emphasis>Reemplazar por</emphasis> sólo están visibles cuando 
+	se modifica una subcolección, no cuando se crea.8765</para>
+
+
+	
   </sect1>
 
   <sect1 id="autorites_series">
     <title lang='fr'>Titres de série</title>
+    <title lang='es'>Título de serie</title>	
 
     <para lang='fr'>Un <emphasis role="bold">titre de série</emphasis> désigne un
     ensemble d'ouvrages distincts d'un même auteur, par exemple <emphasis
@@ -872,16 +1161,37 @@
     d'informations, consulter la Section 6 : Catalogage, rubrique : normaliser
     le catalogage.</para>
 
+    <para lang='es'>Un <emphasis role="bold">título de serie</emphasis> designa un
+    conjunto de obras diferentes de un mismo autor, por ejemplo <emphasis
+    role="bold">Las aventuras de Tintín</emphasis> de Hergé. Para más 
+	información, consulta la Sección 6 : Catálogo, apartado : normalizar 
+	la catalogación.</para>	
+
+
     <para lang='fr'>Pour rechercher un éditeur, saisissez une expression à rechercher
     puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
     affiche par défaut l'ensemble des éditeurs de la base.</para>
+	
+    <para lang='es'>Para buscar una editorial, introduce algunas palabras a buscar
+	y después haz clic en <emphasis role="bold">Buscar</emphasis>. La pantalla
+	inicial que se muestra es el conjunto de editoriales creadas en la base de
+	datos.</para>
+	
+		
 
     <para lang='fr'>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
     les derniers titres de série créés</emphasis> pour afficher les dix
     derniers titres de séries ajoutés dans la base.</para>
+	
+    <para lang='es'>Puedes igualmente hacer clic sobre el enlace <emphasis role="bold">Ver
+    los últimos títulos de serie creados</emphasis> para ver los últimos diez
+	títulos de seie añadidos al catálogo.</para>
+	
+		
 
     <figure>
       <title lang='fr'>Autorités &gt; Titres de Séries</title>
+      <title lang='es'>Autoridades &gt; Títulos de serie</title>	  
 
       <mediaobject>
         <imageobject>
@@ -893,6 +1203,10 @@
     <figure>
       <title lang='fr'>Autorités &gt; Titres de Séries, édition d'un titre de
       série</title>
+	  
+      <title lang='es'>Autoridades &gt; Títulos de serie, edición de un título de 
+	  serie</title>
+	  	  
 
       <mediaobject>
         <imageobject>
@@ -903,43 +1217,86 @@
 
     <para lang='fr'>Les titres de séries ne possèdent qu'un champ éditable : le
     titre.</para>
+	
+    <para lang='es'>Los títulos de serie sólo tienen un campo : el
+	título.</para>	
+
 
     <para lang='fr'><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
     titre de série. <emphasis role="bold">Attention</emphasis> un titre de
     série ne peut être supprimé que s'il n'est utilisé dans aucune
     notice.</para>
+	
+    <para lang='es'><emphasis role="bold">Suprimir</emphasis> permite eliminar un
+	título de serie. <emphasis role="bold">Atención</emphasis> un título de 
+	serie no puede elimarse si se utiliza en algún registro.</para>
+		
+		
 
     <para lang='fr'>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer un titre de série par un autre, pour éliminer des doublons mals
     orthographiés par exemple.</para>
+	
+    <para lang='es'>El botón <emphasis role="bold">Reemplazar por</emphasis> permite 
+	reemplazar un título de serie por otro, para eliminar posibles duplicados 
+	debidos a errores ortográficos por ejemplo.</para>
+		
 
     <para lang='fr'><emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis> et <emphasis>Remplacer par</emphasis> ne
     sont pas visibles lors de la création d'un titre de série, mais uniquement
     lors de sa modification.</para>
+	
+    <para lang='es'><emphasis role="bold">Nota</emphasis> : los botones
+	<emphasis> Suprimir</emphasis> y <emphasis>Remplazar por</emphasis> sólo
+	son visibles cuando se modifica un título, no cuando se crea.</para>
+
+	
   </sect1>
 
   <sect1 id="autorites_indexint">
     <title lang='fr'>Index. décimale</title>
+    <title lang='es'>Clasificación</title>	
 
     <para lang='fr'>PMB gère des indexations décimales qui vous permettent de
     personnaliser l'indexation de vos ouvrages. Pour plus d'informations sur
     les indexations décimales fournies avec PMB, consulter le Chapitre
     <emphasis>Catégories et classifications préinstallées avec
     PMB</emphasis>.</para>
+	
+    <para lang='es'>PMB genera clasificaciones decimales que permiten 
+	personalizar la clasificación en vuestros documentos. Para más información sobre
+	las clasificaciones decimales incluidas con PMB, consulta el capítulo
+    <emphasis>Categorías y clasificaciones preinstaladas con PMB</emphasis>.</para>
+	
+		
 
     <para lang='fr'>Pour rechercher une indexation, saisissez une expression à
     rechercher puis cliquez sur <emphasis role="bold">Rechercher</emphasis>.
     L'écran affiche par défaut l'ensemble des indexations de la base. Cette
     recherche porte à la fois sur l'indexation (110) et son intitulé
     (Métaphysique)</para>
+	
+    <para lang='es'>Para buscar una clasificación, introduce una expresión a buscar y después
+	haz clic sobre <emphasis role="bold">Buscar</emphasis>.
+    La pantalla que se muestra por defecto es el conjunto de clasificaciones incluidas 
+	en la base de datos. Ésta búsqueda muestra a la vez la clasificación (110) y su nombre
+	(Metafísica)</para>
+	
+		
 
     <para lang='fr'>Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
     les dernières indexations créées</emphasis> pour afficher les dix
     dernières indexations ajoutées dans la base.</para>
+	
+    <para lang='es'>Puedes también hacer clic sobre el enlace <emphasis role="bold">Ver 
+	las últimas clasificaciones creadas</emphasis> para ver las últimas
+	diez clasificaciones añadidas a la base de datos.</para>
+		
 
     <figure>
       <title lang='fr'>Autorités &gt; Indexations</title>
+      <title lang='es'>Autoridades &gt; Clasificaciones</title>	  
 
       <mediaobject>
         <imageobject>
@@ -950,6 +1307,9 @@
 
     <figure>
       <title lang='fr'>Autorités &gt; Indexations, édition d'une indexation</title>
+	  
+      <title lang='es'>Autoridades &gt; Clasificaciones, edición de una clasificación</title>
+	  
 
       <mediaobject>
         <imageobject>
@@ -959,32 +1319,59 @@
     </figure>
 
     <para lang='fr'>Pour une indexation vous pouvez définir :</para>
+    <para lang='es'>Para una clasificación debes introducir :</para>	
 
     <itemizedlist>
       <listitem>
         <para lang='fr'>un nom (obligatoire)</para>
+        <para lang='es'>un número (obligatorio)</para>		
       </listitem>
 
       <listitem>
         <para lang='fr'>un commentaire</para>
+        <para lang='es'>un comentario</para>		
       </listitem>
     </itemizedlist>
 
     <para lang='fr'><emphasis role="bold">Supprimer</emphasis> permet de supprimer une
     indexation. <emphasis role="bold">Attention</emphasis> une indexation ne
     peut être supprimée que si elle n'est utilisée dans aucune notice.</para>
+	
+    <para lang='es'><emphasis role="bold">Suprimir</emphasis> permite suprimir una 
+	clasificación. <emphasis role="bold">Atención</emphasis> una clasificación no 
+	puede eliminarse si se usa en algún registro.</para>
+	
+		
 
     <para lang='fr'>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
     savoir dans quels ouvrages est mentionné l'indexation. Il lance une
     recherche dans l'onglet catalogue pour l'indexation correspondante. Ceci
     permet notamment de savoir pourquoi sa suppression est impossible.</para>
+	
+    <para lang='es'>El botón <emphasis role="bold">Uso</emphasis> permite saber dentro
+	de qué obras se usa la clasificación seleccionada. Inicia una búsqueda
+	en la pestaña catálogo de la clasificación seleccionada. Esto permite por ejemplo
+	saber porqué una clasificación no se puede eliminar.</para>
+	
+		
 
     <para lang='fr'>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer une indexation par une autre.</para>
+	
+    <para lang='es'>El botón <emphasis role="bold">Reemplazar por</emphasis> permite reeemplazar
+	una clasificación por otra.</para>
+
+	
 
     <para lang='fr'><emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
     <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
     création d'une indexation, mais uniquement lors de sa modification.</para>
+	
+    <para lang='es'><emphasis role="bold">Nota</emphasis> : los botones
+	<emphasis> Suprimir</emphasis>, <emphasis>Uso</emphasis> y
+	<emphasis> Reemplazar por</emphasis> sólo son visibles cuando se modifica
+	una clasificación, no cuando se crea.</para>
+		
   </sect1>
 </chapter>
