@@ -1,38 +1,74 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="autorites">
   <title lang='fr'>Autorités</title>
+  <title lang='es'>Autoridades</title>  
 
   <sect1 id="autorites_auteurs">
     <title lang='fr'>Auteurs</title>
-
+    <title lang='es'>Autores</title>
+	
+	
     <para lang='fr'>Les auteurs gérés par PMB correspondent à des mentions de
     responsabilités : ainsi un film sur cassette vidéo aura un réalisateur
     mais pas d'auteur au sens propre du terme. Lorsque vous saisissez une
     nouvelle notice vous saisissez un auteur et sa fonction par rapport à
     l'ouvrage.</para>
+	
+    <para lang='es'>Los autores generados por PMB corresponden a las menciones de
+	responsabilidad : un film en cinta de vídeo tendrá un realizador
+	pero no un autor en sí mismo. Cuando introduces un nuevo registro, 
+	introduces también un autor y su función.</para>
+
+	
 
     <sect2>
       <title lang='fr'>Rechercher et éditer un auteur</title>
+      <title lang='es'>Buscar y editar un autor</title>	  
 
       <para lang='fr'>Dans l'écran <emphasis>Autorités/Auteurs</emphasis>, vous pouvez
       rechercher un auteur existant, ou créer un nouvel auteur. Vous pouvez
       ainsi ajouter de nouvelles informations à un auteur, comme sa date de
       naissance et sa date de décès.</para>
+	  
+      <para lang='es'>En la pantalla <emphasis>Autoridades/Autores</emphasis>, puedes 
+	  buscar un autor que ya exista, o crear un nuevo autor. Puedes también
+	  añadir nuevas informaciones sobre un autor, como su fecha de nacimiento
+	  o de su muerte.</para>
+	  
+	  	  
 
       <para lang='fr'>L'écran Autorités/Auteurs présente par défaut les résultats d'une
       recherche portant sur tous les auteurs.</para>
+	  
+      <para lang='es'>La pantalla Autoridades/Autores presenta por defecto los resultados de una búsqueda
+	  que incluye a todos los autores.</para>
+
+	  
 
       <para lang='fr'>Vous pouvez également cliquer sur le lien <emphasis
       role="bold">Voir les derniers auteurs créés </emphasis> pour afficher
       les dix derniers auteurs ajoutés dans la base.</para>
+	  
+      <para lang='es'>Puedes igualmente hacer clic sobre el enlace <emphasis
+      role="bold">Ver los últimos autores creados </emphasis> para ver los 
+	  últimos diez autores creados en la base de datos.</para>
+	  
+	  	  
 
       <para lang='fr'>Si un auteur a écrit sous un pseudonyme vous pouvez saisir un
       renvoi vers un autre auteur, qui sera le vrai nom de cette personne. De
       même pour une femme mariée, vous pouvez souhaiter faire un renvoi de son
       nom de jeune fille vers son nom d'usage.</para>
+	  
+      <para lang='es'>Si un autor ha escrito bajo un pseudónimo puedes introducir la opción "ver" 
+	  para poderlo reenviar hacia otro nombre, que será el verdadero, o al revés.
+	  Lo mismo puede hacerse con una mujer que al casarse cambia su apellido, y que por tanto
+	  necesitamos encontrar las dos formas y enlazarlas.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Autorités &gt; Auteurs</title>
+        <title lang='es'>Autoridades &gt; Autores</title>		
 
         <mediaobject>
           <imageobject>
@@ -45,10 +81,19 @@
         <para lang='fr'>Pour afficher les informations d'un auteur, saisissez une partie
         de son nom et cliquez sur Rechercher. Sélectionnez le ensuite parmi
         les résultats possibles.</para>
+		
+        <para lang='es'>Para ver la información de un autor, introduce algunos caracteres 
+		de su nombre y haz clic en Buscar. Selecciónalo de entre los resultados.</para>
+		
+				
 
         <para lang='fr'>Vous pouvez également directement sélectionner un auteur parmi
         la liste des derniers auteurs, ou parmi la liste alphabétique proposée
         par défaut.</para>
+		
+        <para lang='es'>También puedes seleccionarlo directamente de entre los últimos
+		autores creados, o a través de la lista alfabética que viene al inicio por defecto.</para>
+				
       </sect3>
 
       <sect3 id="autorites_modification_auteur">
@@ -57,6 +102,7 @@
 
         <figure>
           <title lang='fr'>Autorités &gt; Auteurs, édition d'un auteur</title>
+          <title lang='es'>Autoridades &gt; Autores, editar un autor</title>		  
 
           <mediaobject>
             <imageobject>
@@ -66,6 +112,7 @@
         </figure>
 
         <para lang='fr'>Différentes données peuvent être saisies pour un auteur :</para>
+        <para lang='es'>Se pueden introducir varios datos para un autor :</para>		
 
         <itemizedlist>
           <listitem>
@@ -73,22 +120,37 @@
             <emphasis>personne</emphasis> <emphasis>physique</emphasis> ou
             <emphasis>collectivité</emphasis>. Une collectivité peut être une
             association, une entreprise...</para>
+			
+            <para lang='es'><emphasis role="bold">tipo</emphasis> :
+            <emphasis>persona</emphasis> <emphasis>física</emphasis> o
+            <emphasis>entidad</emphasis>. Una entidad puede ser una
+			asociación, empresa...</para>
+						
           </listitem>
 
           <listitem>
             <para lang='fr'><emphasis role="bold">élément d'entrée</emphasis> : le nom
             pour une personne physique ou pour une collectivité</para>
+            <para lang='es'><emphasis role="bold">elemento principal</emphasis> : el apellido 
+			para una persona física o el nommbre para una entidad</para>			
           </listitem>
 
           <listitem>
             <para lang='fr'><emphasis role="bold">élément rejeté </emphasis>: le prénom
             pour une personne physique</para>
+			
+            <para lang='es'><emphasis role="bold">elemento secundario </emphasis>: el nombre
+			para una persona física</para>			
           </listitem>
 
           <listitem>
             <para lang='fr'><emphasis role="bold">dates</emphasis> : date de naissance
             et de mort pour une personne physique, date de création et de fin
             d'existence pour une collectivité</para>
+			
+            <para lang='es'><emphasis role="bold">fechas</emphasis> : fecha de nacimiento
+			y de muerte para una persona física, fecha de creación y de fin para una 
+			entidad</para>			
           </listitem>
 
           <listitem>
@@ -96,6 +158,12 @@
             renvoi entre deux auteurs. Cliquez sur le bouton "..." pour ouvrir
             un popup et cliquer sur le nom d'un auteur pour créer le renvoi.
             Pour effacer un renvoi saisi, cliquez sur le bouton "X"</para>
+			
+            <para lang='es'><emphasis role="bold">forma no correcta</emphasis> : sistema de reenvío
+			entre dos formas de autores. Haz clic en el botón "..." para abrir un 
+			popup y haz clic sobre el nombre de un autor para creear el "ver ... ".
+            Para eliminar una etiqueta "ver...", haz clic sobre el botón "X"</para>
+						
           </listitem>
 
           <listitem>
@@ -103,29 +171,52 @@
             personnel de la personne physique ou en rapport avec elle
             (biographie par exemple), site web de la collectivité le cas
             échéant.</para>
+			
+            <para lang='es'><emphasis role="bold">Pàgina web </emphasis>: la página web 
+			personal de la persona física o algún enlace a información sobre ella
+			(su biografía por ejemplo), página web de la entidad.</para>
+						
           </listitem>
         </itemizedlist>
 
         <para lang='fr'><emphasis role="bold">Supprimer</emphasis> permet de supprimer
         un auteur. <emphasis role="bold">Attention</emphasis> un auteur ne
         peut être supprimé que s'il n'est utilisé dans aucune notice.</para>
+		
+        <para lang='es'><emphasis role="bold">Suprimir</emphasis> permite suprimir 
+        un autor. <emphasis role="bold">Atención</emphasis> un autor no 
+        puede ser eliminado si se usa en algún registro.</para>
+				
 
         <para lang='fr'>Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
         savoir dans quels ouvrages est mentionné l'auteur. Il lance une
         recherche dans l'onglet catalogue pour l'auteur correspondant. Ceci
         permet notamment de savoir pourquoi la suppression de cet auteur est
         impossible.</para>
+		
+        <para lang='es'>El botón <emphasis role="bold">Uso</emphasis> permite saber
+        en qué obras se ha usado a este autor. Inicia una búsqueda en la 
+		pestaña catálogo sobre el autor correspondiente. 
+		Permite saber porqué un autor no se puede eliminar.</para>
+				
 
         <para lang='fr'>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet
         de remplacer un auteur par un autre, pour éliminer des doublons mals
         orthographiés par exemple.</para>
+		
+        <para lang='es'>El botón <emphasis role="bold">Reemplazar por</emphasis> permite
+		reemplazar un autor por otro, para eliminar duplicados de entradas
+		incorrectas por errores ortográficos, por ejemplo.</para>
+				
       </sect3>
 
       <sect3 id="autorites_ajout_auteur">
         <title lang='fr'>Ajouter un auteur</title>
+        <title lang='es'>Añadir un autor</title>		
 
         <figure>
           <title lang='fr'>Autorités &gt; Auteurs, ajout d'un auteur</title>
+          <title lang='es'>Autoridades &gt; Autores, añadir un autor</title>		  
 
           <mediaobject>
             <imageobject>
@@ -137,38 +228,76 @@
         <para lang='fr'>L'ajout d'un auteur est identique à l'édition. Pour plus
         d'informations, consulter plus haut la section <xref
         linkend="autorites_modification_auteur" /></para>
+		
+        <para lang='es'>Añadir un autor es igual que editarlo. 
+		Para más información, consulta un poco más arriba la sección <xref
+        linkend="autorites_modification_auteur" /></para>
+				
       </sect3>
     </sect2>
 
     <sect2>
       <title lang='fr'>Faciliter le catalogage : normaliser la saisie des
       auteurs</title>
+	  
+      <title lang='es'>Facilitar la catalogación : normaliza la entrada de los 
+	  autores</title>
+	  	  
 
       <para lang='fr'>Saisir le nom comme le prénom avec une majuscule initiale, le
       reste en minuscules.</para>
+	  
+      <para lang='es'>Introducir tanto el apellido como el nombre con una mayúscula
+	  inicial, el resto en minúsculas.</para>
+	  
+	  	  
 
       <para lang='fr'>Le nom est l'élément d'entrée, le prénom est l'élément
       rejeté.</para>
+	  
+      <para lang='es'>El apellido es el elemento de entrada, el nombre es el 
+	  elemento secundario.</para>
+	  
+	  	  
 
       <para lang='fr'>Dans les cas particuliers, en cas de doute, ne rien saisir en
       élément rejeté.</para>
+	  
+      <para lang='es'>En casos particulares, y en caso de duda, no introducir 
+	  el elemento secundario.</para>
+	  
+	  	  
 
       <para lang='fr'>Pour les particules françaises (noblesse), les "de", "des", "du"
       sont rejetés. Les éléments de noms ne sont pas rejetés (La Fontaine par
       exemple).</para>
+	  
+      <para lang='es'>Las partículas que unen nombres, los "de", "de los", "de"
+      forman parte del elemento secundario. Sin embargo los que forman parte del apellido 
+	  son parte del elemento de entrada (La Fontaine por ejemplo).</para>
+	  	  
 
       <para lang='fr'>Les tirets sont conservés.</para>
+      <para lang='es'>Los guiones se conservan.</para>	  
 
       <para lang='fr'>Pour les noms composés de femmes, saisir trois auteurs : un avec
       le nom composé, un au nom patronymique, un au nom d'usage ; en prévoyant
       les renvois (zone forme retenue sous PMB) vers la forme retenue par
       l'auteur dans l'ouvrage.</para>
+	  
+      <para lang='es'>Para los nombres compuestos de mujeres, introducir tres autores : uno con el 
+	  nombre compuesto, otro con el nombre patronímico, y uno con el nombre usual; de esta forma
+	  podrás hacer los reenvíos de las formas incorrectas hacia la correcta.</para>	  
 
       <para lang='fr'>Voici quelques exemples :</para>
+      <para lang='es'>Aquí hay algunos ejemplos :</para>	  
 
       <table>
         <title lang='fr'>Exemples de saisies d'auteur : éléments d'entrée, éléments
         rejetés</title>
+		
+        <title lang='es'>Ejemplos de introducción de un autor : elementos principales, elementos 
+		secundarios</title>		
 
         <tgroup cols="4">
           <thead>
@@ -291,14 +420,27 @@
 
       <para lang='fr'>En cas de rejet, le préfixe est rejeté après la virgule (ex : La
       Fontaine, Jean de).</para>
+	  
+      <para lang='es'>En caso de prefijo, éste se coloca junto al elemento secundario (ej : La
+      Fontaine, Jean de).</para>	  
 
       <para lang='fr'>Le rejet des préfixes des noms dépend de la nationalité des
       auteurs. Ainsi le rejet de la particule "de" dépend de la nationalité de
       l'auteur.</para>
+	  
+      <para lang='es'>La colocación de los prefijos depende de la nacionalidad de los
+	  autores. Por ejemplo la colocación de la particula "de" depende de la
+	  nacionalidad del autor.</para>
+	  	  
 
       <table>
         <title lang='fr'>Exemples de rejets de préfixe selon les nationalités des
         auteurs</title>
+
+        <title lang='es'>Ejemplos de orden del prefijo dependiendo de la nacionalidad de los
+		autores</title>
+		
+		
 
         <tgroup cols="3">
           <tbody>
@@ -350,19 +492,28 @@
 
   <sect1 id="autorites_categ">
     <title lang='fr'>Catégories</title>
+    <title lang='es'>Categorías</title>	
 
     <sect2>
       <title lang='fr'>Préambule</title>
+      <title lang='es'>Preámbulo</title>	  
 
       <para lang='fr'>Les catégories ne sont pas des vedettes Rameau : leur choix doit
       permettre une exploration par une arborescence concentrée et structurée.
       Ce choix des développeurs de PMB est davantage à rapprocher d'une sorte
       de classification thématique à la logique arborescente proches de la CDU
       ou DEWEY.</para>
+
+      <para lang='es'>Las categorías no es son una clasificación tipo Rameau : su uso debe permitir 
+	  una exploración arbórea concentrada y estructurada.
+      Esta elección de los desarrolladores intenta acercar PMB hacia una clasificación
+	  temática de estructura arbórea como la CDU o DEWEY.</para>
+	  	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Parcours et édition des catégories</title>
+      <title lang='es'>Edición de las categorías</title>	  
 
       <para lang='fr'>Les catégories sont un moyen de ranger dans la base les ouvrages
       et d'organiser les informations pour faciliter la recherche notamment
