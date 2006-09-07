@@ -1,37 +1,55 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="aide_contextuelle" lang="fr">
   <title lang='fr'>Aide contextuelle</title>
+  <title lang="es">Ayuda contextual</title>
 
   <para lang='fr'>Parmi les liens situés en haut à gauche des écrans de l'interface de
   gestion de PMB, le point d'interrogation "?" permet d'afficher l'aide
   contextuelle de PMB.</para>
+  <para lang="es">A través de los enlaces situados en la parte superior izquierda de la interficie de gestión 
+  de PMB, y haciendo clic sobre el signo de interrogación "?", se puede ver la ayuda contextual de
+  PMB.</para>
 
   <para lang='fr'>L'aide contextuelle peut être activée ou désactivée à l'aide du
   paramètre pmb dont le sous-type est <emphasis>show_help</emphasis>. Pour
   plus d'informations, consultez le <emphasis>Guide de l'Administrateur
   PMB</emphasis>.</para>
+  <para lang="es">La ayuda contextual puede ser activada o desactivada a través del parámetro 
+  pmb <emphasis>show_help</emphasis>. Para más información, consulta la <emphasis>Guía del 
+  Administrador PMB</emphasis>.</para>
 
   <sect1>
     <title lang='fr'>Disponibilité de l'aide contextuelle</title>
+    <title lang="es">Enlaces de navegación</title>
 
     <para lang='fr'>L'aide contextuelle est uniquement disponible en français à ce
     jour.</para>
+    <para lang="es">La ayuda contextual está solamente disponible en francés actualmente.</para>
 
     <para lang='fr'>Pour la version 2.1, des traductions en anglais et en italien sont
     actuellement en cours de réalisation. Pour plus d'informations, n'hésitez
     pas à poser vos question sur ces versions de la documentation sur la liste
     de discussion des utilisateurs : pmb.user@sigb.net (pour s'abonner envoyez
     un mail avec pour sujet SUBSCRIBE à pmb.user_request@sigb.net).</para>
+    <para lang="es">Para la versión 2.1, las traducciones en inglés y en italiano están en 
+	fase de realización. Para más información, no dudes en emviar tus dudas sobre esas
+	versiones de la documentación en las listas de distribución de los usuarios de pmb: 
+	pmb.user@sigb.net (para subscribirte envía un correo electrónico con el asunto
+	SUBSCRIBE a pmb.user_request@sigb.net).</para>
   </sect1>
 
   <sect1>
     <title lang='fr'>Fonctionnement de l'aide contextuelle</title>
+    <title lang="es">Funcionamiento de a ayuda contextual</title>
 
     <para lang='fr'>L'aide contextuelle est affichée dans un popup. L'aide affichée
     correspond à l'écran où vous étiez dans l'interface de gestion.</para>
+    <para lang="es">La ayuda contextual se muestra en un popup. La ayuda que se muestra 
+	corresponde a la pantalla en la cual tú estás.</para>
 
     <figure>
       <title lang='fr'>Aide contextuelle, popup</title>
+      <title lang="es">Ayuda contextual, popup</title>
 
       <mediaobject>
         <imageobject>
@@ -43,26 +61,35 @@
     <para lang='fr'>L'aide contextuelle permet d'intégrer à PMB le Guide de
     l'utilisateur PMB, le Guide de l'administrateur PMB et le Guide
     d'Installation PMB.</para>
+    <para lang="es">La ayuda contextual permite integrar en PMB la Guía del 
+	usuario PMB, la Guía del Administrador PMB y la Guía de 
+	Instalación PMB.</para>
 
     <para lang='fr'>En haut de chaque page vous disposez de différents éléments :</para>
+    <para lang="es">En la parte superior de cada página dispones de diferentes elementos :</para>
 
     <itemizedlist>
       <listitem>
         <para lang='fr'>le titre du chapitre affiché</para>
+        <para lang="es">el título del capítulo que se muestra</para>
       </listitem>
 
       <listitem>
         <para lang='fr'>le titre de la section du chapitre affichée</para>
+        <para lang="es">el título de la sección del capítulo que se muestra</para>
       </listitem>
 
       <listitem>
         <para lang='fr'>des flèches de navigation permettant de vous déplacer d'une page
         à l'autre pour parcourir l'aide.</para>
+        <para lang="es">las flechas de navegación permiten desplazarse de una página a otra para 
+		poder navegar por la ayuda.</para>
       </listitem>
     </itemizedlist>
 
     <figure>
       <title lang='fr'>Aide contextuelle, éléments en haut de page</title>
+      <title lang="es">Ayuda contextual, elementos en la parte superior de la página</title>
 
       <mediaobject>
         <imageobject>
@@ -73,9 +100,12 @@
 
     <para lang='fr'>En bas de chaque page, vous trouvez différentes icones de
     navigation.</para>
+    <para lang="es">En la parte inferior de cada página, encontrarás diferentes iconos de
+    navegación.</para>
 
     <figure>
       <title lang='fr'>Aide contextuelle, icônes de navigation en bas de page</title>
+      <title lang="es">Ayuda contextual, iconos de navegación en la parte inferior de la página</title>
 
       <mediaobject>
         <imageobject>
@@ -86,33 +116,53 @@
 
     <para lang='fr'>Les flèches gauche et droite vous permettent de vous déplacer d'une
     page à l'autre pour parcourir l'aide.</para>
+    <para lang="es">Las flechas de izquierda y derecha permiten desplazarse de una página a otra
+	para navegar a través de la ayuda.</para>
 
     <para lang='fr'>La flèche vers le haut est un lien vers le sommaire du chapitre
     affiché. Parmi les titres de chapitre du Guide de l'Utilisateur, on peut
     noter par exemple les différents onglets Circulation, Catalogage,
     Autorités et Editions.</para>
+    <para lang="es">La flecha hacia arriba es un enlace hacia el sumario del capítulo que 
+	se muestra. Entre los títulos del capítulo de la Guía del usuario, podemos ver
+	por ejemplo las diferentes pestañas Circulación, Catálogo, Autoridades y Informes.</para>
 
     <para lang='fr'>L'icône maison est un lien vers le sommaire du Guide affiché : Guide
     de l'utilisateur, Guide de l'administrateur, Guide d'Installation.</para>
+    <para lang="es">El icono de casa es un enlace hacia el sumario de la Guía que se muestra : Guía del 
+	usuario, Guía del Administrador, Guía de Instalación.</para>
   </sect1>
 
   <sect1>
     <title lang='fr'>Fonctionnement par défaut</title>
+    <title lang="es">Funcionamiento por defecto</title>
 
     <para lang='fr'>L'installation de l'aide contextuelle se fait par l'intégration d'un
     fichier compressé comprenant l'ensemble de la documentation et disponible
     sur <ulink
     url="http://www.sigb.net/documentation.zip">www.sigb.net</ulink> onglet
     "PMB le logiciel", puis "télécharger".</para>
+    <para lang="es">La instalación de la ayuda contextual se hace integrando un 
+	archivo descomprimido que contiene el conjunto de la documentación y que está
+	disponible en <ulink
+    url="http://www.sigb.net/documentation.zip">www.sigb.net</ulink> dentro
+	del apartado "PMB le logiciel", y haciendo clic sobre "télécharger".</para>
 
     <para lang='fr'>Si l' administrateur de PMB n'a pas correctement installé la
     documentation contextuelle par défaut, le lien vers l'aide contextuelle
     "?" renverra vers les fichiers liés à l'installation et au paramétrage
     contenus dans le répertoire doc de votre installation de PMB.</para>
+    <para lang="es">Si el administrador de PMB no ha instalado correctamente la
+	documentación de la ayuda contextual por defecto, el enlace hacia la ayuda
+	"?" reenviará hacia los archivos asociados a la instalación 
+	y a la parametrización dentro del directorio doc de tu instalación de PMB.</para>
 
     <para lang='fr'>Dans ce cas, contactez votre administrateur informatique ou lisez
     attentivement la procédure d'installation affichée dans le popup en
     dessous des liens vers les fichiers de documentation sur l'installation de
     PMB.</para>
+    <para lang="es">En este caso, contacta con tu administrador informátcio o lee 
+	atentamente el procedimiento de instalación que se muestra en el popup
+	y sigue las instrucciones para instalar la ayuda de PMB.</para>
   </sect1>
 </chapter>
