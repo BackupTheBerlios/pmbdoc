@@ -1,18 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="acquis">
   <title lang='fr'>Acquisitions</title>
+  <title lang='es'>Acquisitions</title>
 
   <para lang='fr'>L'onglet <emphasis>acquisitions</emphasis> de PMB vous permet de
+  préparer, puis de réaliser vos commandes. Vous pouvez également affecter les
+  documents commandés à des lignes budgétaires pour pouvoir suivre votre
+  budget.</para>
+  <para lang='es'>L'onglet <emphasis>acquisitions</emphasis> de PMB vous permet de
   préparer, puis de réaliser vos commandes. Vous pouvez également affecter les
   documents commandés à des lignes budgétaires pour pouvoir suivre votre
   budget.</para>
 
   <para lang='fr'><emphasis role="bold">Attention</emphasis> l'onglet acquisitions
   nécessite pour être visible que</para>
+  <para lang='es'><emphasis role="bold">Attention</emphasis> l'onglet acquisitions
+  nécessite pour être visible que</para>
 
   <itemizedlist>
     <listitem>
       <para lang='fr'>le paramètre de type <emphasis>acquisitions</emphasis>, sous-type
+      <emphasis>active</emphasis> ait la valeur 1. Pour plus d'informations,
+      consulter le <emphasis>Guide de l'administrateur PMB, chapitre Outils,
+      section Paramètres</emphasis>.</para>
+      <para lang='es'>le paramètre de type <emphasis>acquisitions</emphasis>, sous-type
       <emphasis>active</emphasis> ait la valeur 1. Pour plus d'informations,
       consulter le <emphasis>Guide de l'administrateur PMB, chapitre Outils,
       section Paramètres</emphasis>.</para>
@@ -22,6 +33,9 @@
       <para lang='fr'>l'utilisateur en cours ait le droit d'utiliser l'onglet
       acquisitions. Pour plus d'informations, consulter le <emphasis>Guide de
       l'administrateur PMB, chapitre Utilisateurs</emphasis>.</para>
+      <para lang='es'>l'utilisateur en cours ait le droit d'utiliser l'onglet
+      acquisitions. Pour plus d'informations, consulter le <emphasis>Guide de
+      l'administrateur PMB, chapitre Utilisateurs</emphasis>.</para>
     </listitem>
   </itemizedlist>
 
@@ -29,65 +43,97 @@
   acquisitions nécessite d'avoir défini différents paramètres : établissement,
   exercice, budget... Pour plus d'informations, consulter le <emphasis>Guide
   de l'administrateur PMB, chapitre Acquisitions</emphasis>.</para>
+  <para lang='es'><emphasis role="bold">Prérequis</emphasis> l'utilisation de l'onglet
+  acquisitions nécessite d'avoir défini différents paramètres : établissement,
+  exercice, budget... Pour plus d'informations, consulter le <emphasis>Guide
+  de l'administrateur PMB, chapitre Acquisitions</emphasis>.</para>
 
   <para lang='fr'>Les suggestions d'acquisitions des lecteurs ou des bibliothécaires
+  sont également accessibles depuis l'onglet
+  <emphasis>acquisitions</emphasis>.</para>
+  <para lang='es'>Les suggestions d'acquisitions des lecteurs ou des bibliothécaires
   sont également accessibles depuis l'onglet
   <emphasis>acquisitions</emphasis>.</para>
 
   <sect1 id="acquis_achats">
     <title lang='fr'>Achats</title>
+    <title lang='es'>Achats</title>
 
     <sect2 id="acquis_achats_commandes">
       <title lang='fr'>Commandes</title>
+     <title lang='es'>Commandes</title>
 
-      <remark><emphasis role="bold">Pré-requis </emphasis>Avant de pouvoir
+      <remark lang="fr"><emphasis role="bold">Pré-requis </emphasis>Avant de pouvoir
+      créer une commande, vous devez avoir créé au moins un fournisseur. Pour
+      plus d'informations, consulter plus loin la section
+      Fournisseurs.</remark>
+      <remark lang="es"><emphasis role="bold">Pré-requis </emphasis>Avant de pouvoir
       créer une commande, vous devez avoir créé au moins un fournisseur. Pour
       plus d'informations, consulter plus loin la section
       Fournisseurs.</remark>
 
       <para lang='fr'>Vous pouvez créer une commande ou rechercher puis modifier une
       commande existante.</para>
+      <para lang='es'>Vous pouvez créer une commande ou rechercher puis modifier une
+      commande existante.</para>
 
       <para lang='fr'>Les commandes peuvent avoir quatre statuts différents, accessibles
+      par la liste déroulante :</para>
+      <para lang='es'>Les commandes peuvent avoir quatre statuts différents, accessibles
       par la liste déroulante :</para>
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>tous : affiche toutes les commandes</para>
+          <para lang='es'>tous : affiche toutes les commandes</para>
         </listitem>
 
         <listitem>
           <para lang='fr'>à valider</para>
+          <para lang='es'>à valider</para>
         </listitem>
 
         <listitem>
           <para lang='fr'>en cours</para>
+          <para lang='es'>en cours</para>
         </listitem>
 
         <listitem>
           <para lang='fr'>soldé</para>
+          <para lang='es'>soldé</para>
         </listitem>
 
         <listitem>
           <para lang='fr'>archivé</para>
+          <para lang='es'>archivé</para>
         </listitem>
       </itemizedlist>
 
       <para lang='fr'>Pour créer une commande, cliquez sur le bouton <emphasis
       role="bold">Création de commande</emphasis>.</para>
+      <para lang='es'>Pour créer une commande, cliquez sur le bouton <emphasis
+      role="bold">Création de commande</emphasis>.</para>
 
-      <remark>Si vous avez créé au moins deux établissements, choisissez
+      <remark lang="fr">Si vous avez créé au moins deux établissements, choisissez
+      l'établissement concerné par la commande.</remark>
+      <remark lang="es">Si vous avez créé au moins deux établissements, choisissez
       l'établissement concerné par la commande.</remark>
 
       <para lang='fr'>Pour modifier une commande, recherchez la commande retenue puis
+      cliquez sur nom pour la modifier.</para>
+      <para lang='es'>Pour modifier une commande, recherchez la commande retenue puis
       cliquez sur nom pour la modifier.</para>
 
       <para lang='fr'>Vous pouvez également imprimer une commande en cliquant sur
       l'icône <emphasis>Imprimante</emphasis> depuis la liste des
       commandes.</para>
+      <para lang='es'>Vous pouvez également imprimer une commande en cliquant sur
+      l'icône <emphasis>Imprimante</emphasis> depuis la liste des
+      commandes.</para>
 
       <figure>
         <title lang='fr'>Acquisitions &gt; Commandes, liste des commandes</title>
+        <title lang='es'>Acquisitions &gt; Commandes, liste des commandes</title>
 
         <mediaobject>
           <imageobject>
@@ -98,11 +144,11 @@
 
       <sect3 id="acquis_achats_commandes_infos">
         <title lang='fr'>Informations générales</title>
-
-        <para lang='fr'></para>
+        <title lang='es'>Informations générales</title>
 
         <figure>
           <title lang='fr'>Acquisitions &gt; Commandes, choix d'un fournisseur</title>
+          <title lang='es'>Acquisitions &gt; Commandes, choix d'un fournisseur</title>
 
           <mediaobject>
             <imageobject>
@@ -117,13 +163,29 @@
         coordonnées sont affichées sous son nom. Pour les consulter, cliquez
         sur l'icône <emphasis role="bold">+</emphasis> devant <emphasis
         role="bold">Adresse principale</emphasis>.</para>
+        <para lang='es'>Pour le <emphasis role="bold">fournisseur</emphasis>, cliquez
+        sur le bouton "<emphasis role="bold">...</emphasis>" pour sélectionner
+        le fournisseur dans le popup. Une fois le fournisseur sélectionné, ses
+        coordonnées sont affichées sous son nom. Pour les consulter, cliquez
+        sur l'icône <emphasis role="bold">+</emphasis> devant <emphasis
+        role="bold">Adresse principale</emphasis>.</para>
 
         <para lang='fr'>L'<emphasis role="bold">adresse de livraison</emphasis> et
         l'<emphasis role="bold">adresse de facturation</emphasis> de
         l'établissement concerné par votre commande sont rappelés dans cet
         écran.</para>
+        <para lang='es'>L'<emphasis role="bold">adresse de livraison</emphasis> et
+        l'<emphasis role="bold">adresse de facturation</emphasis> de
+        l'établissement concerné par votre commande sont rappelés dans cet
+        écran.</para>
 
         <para lang='fr'>Vous pouvez spécifier des <emphasis
+        role="bold">commentaires</emphasis>. Ces commentaires ne seront pas
+        imprimés lors de l'impression de la commande, mais uniquement
+        consultable à l'écran. Vous pouvez par exemple vous en servir pour
+        transmettre des informations à vos collègues qui consulteront cette
+        commande.</para>
+        <para lang='es'>Vous pouvez spécifier des <emphasis
         role="bold">commentaires</emphasis>. Ces commentaires ne seront pas
         imprimés lors de l'impression de la commande, mais uniquement
         consultable à l'écran. Vous pouvez par exemple vous en servir pour
@@ -135,8 +197,18 @@
         de l'impression de la commande, vous pouvez par exemple vous en servir
         pour transmettre des informations complémentaires à votre
         fournisseur.</para>
+        <para lang='es'>Vous pouvez spécifier des <emphasis role="bold">commentaires
+        imprimés</emphasis>. Ces deuxièmes commentaires seront imprimés lors
+        de l'impression de la commande, vous pouvez par exemple vous en servir
+        pour transmettre des informations complémentaires à votre
+        fournisseur.</para>
 
         <para lang='fr'>Vous pouvez lors de la création ou lors des modifications
+        ultérieures définir un <emphasis role="bold">numéro de devis
+        fournisseur</emphasis>, une <emphasis role="bold">date de
+        paiement</emphasis> ainsi qu'un <emphasis role="bold">numéro de
+        paiement</emphasis>.</para>
+        <para lang='es'>Vous pouvez lors de la création ou lors des modifications
         ultérieures définir un <emphasis role="bold">numéro de devis
         fournisseur</emphasis>, une <emphasis role="bold">date de
         paiement</emphasis> ainsi qu'un <emphasis role="bold">numéro de
@@ -148,13 +220,21 @@
         généraux</emphasis>. Pour plus d'informations, consulter le
         <emphasis>Guide de l'administrateur PMB, chapitre Outils, section
         Paramètres</emphasis>.</para>
+        <para lang='es'>La <emphasis role="bold">devise utilisée</emphasis> (par exemple
+        €) correspond par défaut au paramètre
+        <emphasis>gestion_devise</emphasis> parmi les <emphasis>paramètres
+        généraux</emphasis>. Pour plus d'informations, consulter le
+        <emphasis>Guide de l'administrateur PMB, chapitre Outils, section
+        Paramètres</emphasis>.</para>
       </sect3>
 
       <sect3 id="acquis_achats_commandes_lignes">
         <title lang='fr'>Ajouter ou modifier une ligne de commande</title>
+        <title lang='es'>Ajouter ou modifier une ligne de commande</title>
 
         <figure>
           <title lang='fr'>Ajout d'une ligne de commande</title>
+          <title lang='es'>Ajout d'une ligne de commande</title>
 
           <mediaobject>
             <imageobject>
@@ -204,6 +284,7 @@
 
       <sect3 id="acquis_achats_commandes_etat">
         <title lang='fr'>Enregistrer, supprimer ou changer d'état une commande</title>
+        <title lang='es'>Enregistrer, supprimer ou changer d'état une commande</title>
 
         <para lang='fr'>Pour enregistrer votre commande, cliquez sur le bouton <emphasis
         role="bold">Enregistrer</emphasis> en bas de l'écran lors de l'ajout
@@ -219,6 +300,8 @@
 
         <figure>
           <title lang='fr'>Une fois une commande fixée, elle n'est plus
+          modifiable</title>
+          <title lang='es'>Une fois une commande fixée, elle n'est plus
           modifiable</title>
 
           <mediaobject>
@@ -240,6 +323,7 @@
 
     <sect2 id="acquis_achats_livraisons">
       <title lang='fr'>Livraisons</title>
+      <title lang='es'>Livraisons</title>
 
       <para lang='fr'>Pour créer un bon de livraison, affichez une commande validée en
       modification et cliquez sur le bouton Réception.</para>
@@ -257,6 +341,7 @@
 
       <figure>
         <title lang='fr'>Acquisitions &gt; Livraisons</title>
+        <title lang='es'>Acquisitions &gt; Livraisons</title>
 
         <mediaobject>
           <imageobject>
@@ -274,6 +359,7 @@
 
       <figure>
         <title lang='fr'>Acquisitions &gt; Livraisons</title>
+        <title lang='es'>Acquisitions &gt; Livraisons</title>
 
         <mediaobject>
           <imageobject>
@@ -289,6 +375,7 @@
 
     <sect2 id="acquis_achats_factures">
       <title lang='fr'>Factures</title>
+      <title lang='es'>Factures</title>
 
       <para lang='fr'>Pour enregistrer une facture, affichez une commande validée en
       modification et cliquez sur le bouton <emphasis
@@ -296,6 +383,8 @@
 
       <figure>
         <title lang='fr'>Acquisitions &gt; Commandes, affichage d'une commande en
+        modification pour la passer en facturation</title>
+        <title lang='es'>Acquisitions &gt; Commandes, affichage d'une commande en
         modification pour la passer en facturation</title>
 
         <mediaobject>
@@ -320,6 +409,7 @@
 
     <sect2 id="acquis_achats_fournisseurs">
       <title lang='fr'>Fournisseurs</title>
+      <title lang='es'>Fournisseurs</title>
 
       <para lang='fr'>Vous devez créer au moins un fournisseur avant de pouvoir créer
       une commande.</para>
@@ -358,6 +448,7 @@
 
     <sect2 id="acquis_achats_devis">
       <title lang='fr'>Devis</title>
+      <title lang='es'>Devis</title>
 
       <para lang='fr'>Pour créer préparer un devis, cliquez sur <emphasis
       role="bold">Demande de devis</emphasis>.</para>
@@ -382,9 +473,11 @@
 
   <sect1 id="acquis_sugg">
     <title lang='fr'>Suggestions</title>
+    <title lang='es'>Suggestions</title>
 
     <sect2 id="acquis_sugg_atraiter">
       <title lang='fr'>A traiter</title>
+      <title lang='es'>A traiter</title>
 
       <para lang='fr'>Vous pouvez consulter les différentes suggestions pour les traiter
       ou créer une nouvelle suggestion en cliquant sur le bouton
@@ -392,6 +485,7 @@
 
       <sect3 id="acquis_sugg_rechercher">
         <title lang='fr'>Rechercher et traiter une suggestion</title>
+        <title lang='es'>Rechercher et traiter une suggestion</title>
 
         <para lang='fr'>Vous pouvez fusionner des transactions, les imprimer.</para>
 
@@ -467,9 +561,12 @@
 
       <sect3 id="acquis_sugg_create">
         <title lang='fr'>Créer une suggestion</title>
+       <title lang='es'>Créer une suggestion</title>
 
         <figure>
           <title lang='fr'>Acquisitions &gt; Suggestion : à traiter, Création d'une
+          suggestion</title>
+          <title lang='es'>Acquisitions &gt; Suggestion : à traiter, Création d'une
           suggestion</title>
 
           <mediaobject>
@@ -549,6 +646,7 @@
 
     <sect2 id="acquis_sugg_etats">
       <title lang='fr'>Liste des états des suggestions</title>
+      <title lang='es'>Liste des états des suggestions</title>
 
       <para lang='fr'>Voici la liste des états que peut prendre une suggestion, avec la
       liste des étapes ayant amené la suggestion à cette étape : </para>
