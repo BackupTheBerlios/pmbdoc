@@ -59,20 +59,42 @@
       <para lang='fr'><emphasis role="bold">Catégorie</emphasis> : terme d'un thésaurus
       dans PMB. La gestion des catégories correspond également à une
       philosophie de l'utilisation d'un thésaurus.</para>
+	  
+      <para lang='es'><emphasis role="bold">Categoría</emphasis> : término de un tesauro
+      en PMB. La gestión de las categorías corresponde a la filosofía de uso
+      de un tesauro.</para>
+
+	  
 
       <para lang='fr'><emphasis role="bold">Terme du thesaurus</emphasis> : synonyme de
       catégorie dans PMB.</para>
+	  
+      <para lang='es'><emphasis role="bold">Descriptor del tesauro</emphasis> : sinónimo de 
+	  categoría en PMB.</para>
+	  
+	  	  
 
       <para lang='fr'><emphasis role="bold">Descripteur</emphasis> = terme du
       thesaurus.</para>
+	  
+      <para lang='es'><emphasis role="bold">Descriptor</emphasis> = término del
+      tesauro.</para>
+	  	  
     </sect2>
 
     <sect2 id="categ_redac">
       <title lang='fr'>Rédaction d'un thesaurus</title>
+      <title lang='es'>Creación de un tesauro</title>
+	  
 
       <para lang='fr'>Cette introduction est une adaptation d'un article de Wikipédia,
       l'encyclopédie libre et gratuite (<ulink
       url="http://fr.wikipedia.org/wiki/Thesaurus">http://fr.wikipedia.org/wiki/Thesaurus</ulink>).</para>
+	  
+      <para lang='es'>Esta introducción es una adapatación de un artículo de Wikipédia,
+      la enciclopedia libre y gratuita (<ulink
+      url="http://es.wikipedia.org/wiki/Tesauro">http://es.wikipedia.org/wiki/Tesauro</ulink>).</para>
+	  
 
       <epigraph>
         <para lang='fr'><emphasis role="bold">référence</emphasis> Contributeurs à
@@ -80,6 +102,13 @@
         libre</emphasis>, <ulink
         url="http://fr.wikipedia.org/w/index.php?title=Thesaurus&amp;oldid=5041972">http://fr.wikipedia.org/wiki/Thesaurus</ulink>
         (Page consultée le mars 13, 2006).</para>
+		
+        <para lang='es'><emphasis role="bold">referencia</emphasis> Colaboradores de
+        Wikipédia, "Tesauro," <emphasis>Wikipedia, la enciclopedia
+        libre</emphasis>, <ulink
+        url="http://es.wikipedia.org/wiki/Tesauro">http://es.wikipedia.org/wiki/Tesauro</ulink>
+        (Página consultada el 4 de julio de 2006).</para>
+		
       </epigraph>
 
       <para lang='fr'>Un <emphasis role="bold">thesaurus</emphasis> est une sorte de
@@ -87,9 +116,19 @@
       termes génériques et de termes spécifiques à un domaine. Il ne fournit
       qu'accessoirement des définitions, les relations des termes et leur
       choix l'emportant sur les significations.</para>
+	  
+      <para lang='es'>Un <emphasis role="bold">tesauro</emphasis> es una especie de
+      diccionario jerarquizado&nbsp;; un vocabulario normalizado en base a
+      términos genéricos y términos específicos sobre un tema. Las
+      definiciones no suelen incluirse, ya que son las relaciones de los
+      términos y su uso lo importante, y por tanto no su significado.</para>
+
+	  
 
       <sect3 id="categ_redac_indexation">
         <title lang='fr'>Outil d'indexation et outil de recherche</title>
+        <title lang="es">Herramienta de indexación y herramienta para buscar</title>
+		
 
         <para lang='fr'>Un <emphasis>thesaurus</emphasis> est un ensemble structuré de
         termes choisis pour leur capacité à faciliter la description d'un
@@ -100,6 +139,17 @@
         synonymes, les non-descripteurs [également catégorie dans PMB, mais
         possédant un renvoi « voir » vers une autre catégorie], pour
         tous les échanges significatifs.</para>
+		
+		<para lang='es'>Un <emphasis>tesauro</emphasis> es un conjunto estructurado de
+        palabras escogidas por su capacidad de facilitar la descrispción sobre
+        un tema y de homogeneizar la comunicación y el tratamiento de la
+        información de este tema. Cada término llamado descriptor
+        [<emphasis>categoría en PMB</emphasis>] es el menos ambiguo posible y
+        es escogido de entre sus términos vecinos (casi-sinonímia) o
+        sinónimos, los no-descriptores [también llamados categoría en PMB,
+        reenvían «&nbsp;veir&nbsp;» hacia la categoría correcta], disponen de
+        todas las relaciones necesarias.</para>
+
 
         <para lang='fr'>En pratique, le <emphasis>thesaurus</emphasis> est un outil
         documentaire d'indexation. Guidé par un thesaurus pertinent, il est
@@ -107,16 +157,33 @@
         mots précis. Il sera ensuite aisé d'en assurer une forme quelconque de
         gestion documentaire.</para>
 
+        <para lang='es'>A la práctica, el <emphasis>tesauro</emphasis> es una
+        herramienta documental de indexación. Usando un tesauro pertinente, es
+        posible representar cualquier documento con una selección rigurosa de
+        palabras clave. De esta forma se puede garantizar una correcta gestión
+        de la colección.</para>
+
+
         <para lang='fr'>Dans le catalogue public [<emphasis>OPAC</emphasis>], le
         thesaurus devient un instrument de recherche : disposant des
         vocabulaire et règles de l'indexation, l'utilisateur peut optimiser
         ses requêtes. L'utilisateur peut également dans certains cas explorer
         par une navigation intuitive le thesaurus, il s'agit de ce qu'on
         qualifie d'OPAC <emphasis>« à la yahoo »</emphasis>.</para>
+		
+		
+        <para lang='es'>En el catálogo público [<emphasis>OPAC</emphasis>], el tesauro
+        se transforma en un intrumento para buscar &nbsp;: disponiendo de un
+        vocabulario y de las reglas de indexación, el usuario puede optimizar
+        sus búsquedas. El usuario también puede explorar de forma intuitiva el
+        tesauro, se crea así lo que nosotros llamamos un OPAC
+        <emphasis>«&nbsp;a lo yahoo&nbsp;»</emphasis>.</para>
+		
       </sect3>
 
       <sect3 id="categ_redac_constitution">
-        <title lang='fr'>Constitution d'un thesaurus</title>
+        <title lang="fr">Constitution du thesaurus</title>
+        <title lang="es">Constitución de un tesauro</title>
 
         <para lang='fr'>Un <emphasis>thesaurus</emphasis> s'élabore comme un
         sous-ensemble du vocabulaire usuel et d'au moins un vocabulaire
@@ -128,6 +195,16 @@
         généralement subir une phase de validation par la communauté
         concernée.</para>
 
+        <para lang="es">Un <emphasis>tesauro</emphasis> se elebora como un conjunto de
+        vocabulario usual (lenguaje natural) y un conjunto de vocabulario
+        escecializado. Se trata de un vocabulario controlado resultante de un
+        largo proceso de selección de palabras, nombre y expresiones usadas de
+        forma informal en un campo específico. Se trata de un planteamiento
+        pragmático y continuo de racionalización de términos descriptivos. Un
+        tesuaro nuevo o una nueva versión suele pasar generalmente por una
+        fase de validación de la comunidada a la cual afecta.</para>
+
+
         <epigraph>
           <para lang='fr'>En vue de la meilleure adéquation au domaine considéré, les
           termes sont inventoriés, comparés, mis en relation et finalement
@@ -138,6 +215,17 @@
           d'emploi. La hiérarchie des termes peut tout-à-fait être différente
           d'un thesaurus à un autre et même sous réserve d'incohérence dans un
           usage ou un autre du même thesaurus.</para>
+		  
+          <para lang="es">Para mejorar este proceso, los términos sos inventariados,
+          comparados, relacionados y finalmente jerarquizados para describir
+          las caracterísicas esenciales del campo seleccionado. Esta jerarquía
+          se basa en una tipología&nbsp;: cada término pertenece a una
+          categoría que lo relaciona con los demás términos no aceptados, y
+          que a la vez marca su uso. La jerarquía de los términos puede ser
+          diferente de un tesauro a otro, también puede ser diferente el uso
+          de los términos.</para>
+		  
+		  
         </epigraph>
 
         <para lang='fr'>Finalement en partant du niveau le plus haut et correspondant au
@@ -146,6 +234,14 @@
         <emphasis>microthesaurus</emphasis>, puis pour chaque subdivision, la
         hiérarchie propre aux descripteurs. Un thesaurus peut aussi concerner
         plusieurs domaines.</para>
+		
+        <para lang="es">Finalmente y hablando de niveles, el más alto corresponde al
+        tema del tesauro, por debajo encontramos las subdivisiones más
+        importantes, representando las áreas del tema - subdivisiones a menudo
+        llamadas <emphasis>microtesauros</emphasis>, ya que cada subdivisión
+        tiene su jerarquía propia de descriptores. Un tesauro puede hacer
+        referencia también a varios temas.</para>
+
 
         <epigraph>
           <para lang='fr'>Il demeure toujours une dimension arbitraire dans la
@@ -153,18 +249,36 @@
           leur position hiérarchique. Il existe des normes pour l'élaboration
           des thesaurus :</para>
 
+          <para lang="es">Aunque haya siempre un factor arbitrario en la elección de la
+          jerarquía de un tesauro, o en la elección de los descriptores, hay
+          unas normas para la elaboración de tesauros&nbsp;:</para>
+
+
           <para lang='fr'><emphasis role="bold">Norme ISO 2788-1986 :</emphasis>
           Principes directeurs pour l'établissement et le développement des
           thesaurus monolingues.</para>
 
+          <para lang="es"><emphasis role="bold">Norma ISO 2788-1986&nbsp;:</emphasis>
+          Directrices para la elaboración y el desarrollo de tesauros
+          monolingües.</para>
+
+
+
           <para lang='fr'><emphasis role="bold">Norme ISO 5964-1985 :</emphasis>
           Principes directeurs pour l'établissement et le développement des
           thesaurus multilingues.</para>
+		  
+          <para lang="es"><emphasis role="bold">Norma ISO 5964-1985&nbsp;:</emphasis>
+          Directrices para la elaboración y el desarrollo de tesauros
+          multilingües.</para>
+		  
         </epigraph>
       </sect3>
 
       <sect3 id="categ_redac_relations">
         <title lang='fr'>Les relations hiérarchiques</title>
+        <title lang="es">Las relaciones jerárquicas</title>
+		
 
         <para lang='fr'>Les termes d'un thesaurus sont organisés hiérarchiquement (à
         l'intérieur de microthesaurus souvent classés alphabétiquement). Cette
@@ -174,24 +288,52 @@
         possible), alors que la recherche selon les cas pourra faire appel aux
         termes génériques pour augmenter le nombre de réponses.</para>
 
+
+        <para lang="es">Los términos de un tesauro se organizan jerárquicamente (en un
+        microtesauros suelen estar ordenados alfabéticamente). Esta jerarquía
+        permite normalizar la indexación o la interrogación. La indexación se
+        apoya en lo posible en la identificación de los términos específicos
+        (nivel más bajo posible), a la vez que en la búsqueda según el caso
+        para hacer aparecer los términos generales para aumentar el número de
+        respuestas.</para>
+
+
         <para lang='fr'>Les relations des termes sont de trois types :</para>
+
+
+        <para lang="es">Las relaciones entre los términos son de tres tipos :</para>
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>relation hiérarchique stricto sensu (entre descripteurs),
             base de la hiérarchie du thesaurus =&gt; parenté ;</para>
+			
+            <para lang="es">relación jerárquica stricto sensu (entre descriptores), base
+            de la jerarquía del tesauro =&gt; general ;</para>
+			
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>relation d'équivalence (entre descripteurs et
             non-descripteurs), base de l'univocité =&gt; renvoi
             « voir » ;</para>
+			
+            <para lang="es">relación de equivalencia (entre descriptores y
+            no-descriptores), base de la univocidad =&gt; reenvío
+            «&nbsp;ver&nbsp;» ;</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>relation d'association (entre descripteurs), enrichissement
             sémantique ; sujets connexes =&gt; renvoi « voir
             aussi ».</para>
+			
+            <para lang="es">relación de asociación (entre descriptores), enriquecimiento
+            semántico&nbsp;; materias relacionadas =&gt; reenvío «&nbsp;ver
+            también&nbsp;».</para>
+			
           </listitem>
         </itemizedlist>
 
@@ -200,6 +342,12 @@
         doivent être utilisés comme descripteurs ; les termes équivalents
         qui sont considérés comme non-descripteurs selon les conventions du
         thesaurus.</para>
+		
+        <para lang="es">Todo tesauro comporta como mínimo tres categorías de
+        términos&nbsp;: los términos generales y los términos específicos que
+        deben usarse como descripotres&nbsp;; los términos equivalente que se
+        consideran como no-descriptores según el tesauro.</para>
+		
 
         <itemizedlist>
           <listitem>
@@ -208,6 +356,12 @@
             role="bold">TG</emphasis> ; ils désignent les entités ou
             concepts principaux en référence aux autres termes et au domaine
             considéré ;</para>
+			
+            <para lang="es">Los <emphasis>términos genéricos</emphasis> se identifican
+            con las siglas <emphasis role="bold">TG</emphasis>&nbsp;; designan
+            las entidades o los conceptos principales en relación a otros
+            términos y al tema considerado&nbsp;;</para>
+			
           </listitem>
 
           <listitem>
@@ -216,6 +370,13 @@
             role="bold">TS</emphasis> ; ils précisent et identifient les
             entités ou concepts particuliers à l'intérieur du champ sémantique
             d'un terme générique donné ;</para>
+			
+            <para lang="es">Los <emphasis>términos específicos</emphasis> se identifican
+            con las siglas <emphasis role="bold">TE</emphasis>&nbsp;; precisan
+            e identifican las entidades o conceptos particulares dentro del
+            campo semántico del término general al cual
+            pertenece&nbsp;;</para>
+			
           </listitem>
 
           <listitem>
@@ -228,6 +389,17 @@
             Pour est indiqué par le symbole <emphasis
             role="bold">EM</emphasis> ou <emphasis role="bold">EMP</emphasis>
             comme abréviation de Employer.</para>
+			
+            <para lang="es">Les <emphasis>termes équivalents</emphasis> se identifican
+            con las siglas <emphasis role="bold">UP</emphasis> como
+            abreviatura de Usado Por&nbsp;; son las variantes de los términos
+            específicos (sinonímia o casi-sinonímia). Son términos
+            equivalentes en el lenguaje normal, pero dados como no correctos
+            para su usuo en el tesauro. El término a escoger en relación con
+            el término Usado Por se indica con la sigla <emphasis
+            role="bold">U </emphasis>como abreviatura de Usar.</para>
+
+			
           </listitem>
         </itemizedlist>
 
@@ -237,6 +409,15 @@
         etc). Étant eux-mêmes des descripteurs, ces termes connexes permettent
         au chercheur de modifier progressivement son interrogation ou de
         l'élargir sans faire appel aux termes génériques.</para>
+		
+        <para lang="es">También encontramos términos asociados identificados por
+        <emphasis role="bold">TR</emphasis> (relación de asociación&nbsp;:
+        causalidad, localización, relaciones de naturaleza temporal,
+        composición, etc). Estos términos son también descriptores, gracias a
+        sus conexiones permiten especificar las búsquedas o irlas enfocando
+        sin tener que recurrir a los términos generales.</para>
+
+		
 
         <para lang='fr'>Divers types de relations et rubriques complémentaires peuvent
         être adjoints à cette structure de base pour enrichir le thesaurus ou
@@ -244,15 +425,30 @@
         linguistiques pour des thesaurus multilingues ainsi que des
         passerelles avec d'autres thesaurus du même domaine ou de domaines
         différents.</para>
+		
+        <para lang="es">Se pueden encontrar otros tipos de relaciones y asociaciones
+        asociados a esta estructura que sirven para enriquecer el tesauro o
+        mejorar su uso. También se pueden preveer equivalencias lingüísticas
+        en caso de tesauros multilingües así como crear pasarelas a otros
+        tesuaros con la misma temática o diferente.</para>
+		
       </sect3>
 
       <sect3 id="categ_redac_exemple">
         <title lang='fr'>Exemple de thesaurus élémentaire</title>
+        <title lang="es">Ejemplo de tesauro básico</title>
+		
 
         <para lang='fr'>Soient les rubriques principales d'un micro-thesaurus sur un
         système informatique collaboratif (par exemple la wikipédia) :
         <emphasis role="bold">Individus &gt; Logiciel &gt; Réseau &gt;
         Ressources</emphasis>.</para>
+		
+        <para lang="es">Partimos de los conceptos principales de un microtesauro sobre
+        un sistema informático colaborativo (por ejemplo wikipedia) :
+        <emphasis role="bold">Individuos &gt; Programario &gt; Red &gt;
+        Recoursos</emphasis>.</para>
+		
 
         <para lang='fr'>La rubrique <emphasis role="bold">Individus</emphasis> se
         composerait par exemple de : <emphasis
@@ -275,34 +471,89 @@
         proscrire</emphasis>) ; <emphasis
         role="bold">Internaute</emphasis> (<emphasis>imprécis : à
         proscrire</emphasis>). </para>
+		
+		
+        <para lang="es">El concepto <emphasis role="bold">Individuos</emphasis> se
+        compondrá por ejemplo de&nbsp;: <emphasis
+        role="bold">Usuario</emphasis> (TG)&nbsp;; <emphasis
+        role="bold">Participante</emphasis> (TG)&nbsp;; <emphasis
+        role="bold">Autor</emphasis> (UP)&nbsp;; <emphasis
+        role="bold">Colaborador</emphasis> (UP)&nbsp;; <emphasis
+        role="bold">Editor no registrado</emphasis> (TE) &nbsp;;
+        <firstterm><emphasis role="bold">Anónimo</emphasis></firstterm>
+        (UP)&nbsp;; <emphasis role="bold">Dirección IP</emphasis> (forma
+        metafórica a evitar)&nbsp;; <emphasis role="bold">Editor
+        registrado</emphasis> (TE)&nbsp;; <emphasis role="bold">Participante
+        escogido</emphasis> (TG)&nbsp;; <emphasis
+        role="bold">Administrador</emphasis> (TE)&nbsp;; <emphasis
+        role="bold">Sysop</emphasis> (término usual dentro de la comunidad)
+        <emphasis role="bold">Gestionador</emphasis> (TE)&nbsp;; <emphasis
+        role="bold">Representante</emphasis> (TE) (<emphasis>encargado de
+        relaciones externas</emphasis>)&nbsp;; <emphasis
+        role="bold">Usuario</emphasis> (<emphasis>término impreciso&nbsp;: a
+        eliminar</emphasis>)&nbsp;; <emphasis
+        role="bold">Internauta</emphasis> (<emphasis>impreciso&nbsp;: a
+        eliminar</emphasis>).</para>
+		
 
         <para lang='fr'>Le responsable de toute contribution (tout rédacteur) pourrait
         ainsi être spécifié par au moins un terme descriptif choisi parmi les
         cinq termes spécifiques ou parmi les trois termes génériques, selon
         les besoins. </para>
+		
+        <para lang="es">El responsable de toda contribución (todo redactor) podrá ser
+        especificado por alguno de los términos descriptivos escogido de entre
+        los cinco términos específicos o de entre los tres témrinos generales,
+        según convenga.</para>
+		
 
         <para lang='fr'>Les termes (EP) seront par principe évités dans
         l'indexation.</para>
+		
+        <para lang="es">Los términos (UP) serán por principio evitados en la
+        indexación.</para>
+		
       </sect3>
     </sect2>
 
     <sect2 id="categ_pmb">
       <title lang='fr'>Thesauri et catégories de PMB</title>
+      <title lang="es">Tesauro y categorías de PMB</title>
+
 
       <para lang='fr'>L'utilisation du mot « catégories » en lieu et place de
       « thesaurus » dans PMB correspond à une volonté des
       développeurs. En effet, un thésaurus, même respectant toute les normes
       de création, peut disposer à tout niveau de sa hiérarchie d'un nombre de
       termes élevé.</para>
+	  
+      <para lang="es">El uso de la palabra «&nbsp;categorías&nbsp;» en lugar de
+      «&nbsp;tesauro&nbsp;» en PMB corresponde a un deseo de los
+      desarrolladores. Un tesauro respetanto todas las normas de creación,
+      puede disponer en todos los niveles de su jerarquía de un número de
+      términos elevado.</para>
+
+	  
 
       <para lang='fr'>Avec les catégories, et en s'efforçant de promouvoir des thesauri
       très hiérarchisé affirmée, on peut présenter un OPAC « à la
       yahoo ».</para>
+	  
+      <para lang="es">Con las categorías, y intentando crear un tesauro muy jerárquico,
+      se puede presentar un OPAC «&nbsp;a la yahoo&nbsp;».</para>
+	  
 
       <para lang='fr'>Cet OPAC « à la Yahoo » offre la possibilité à l'usager
       de la bibliothèque ou du centre de documentation d'explorer
       intellectuellement le fond documentaire de la structure, ceci sans même
       lancer de recherche.</para>
+	  
+      <para lang="es">Este OPAC «a la Yahoo» ofrece la posibilidad al
+      usuario de la biblioteca o del centro de documentación de explorar
+      interlectualmente el fondo documental, de forma que pueda iniciar luego
+      su búsqueda.</para>
+
+	  
 
       <para lang='fr'>Si tous les thesauri agréables à utiliser possèdent cet aspect
       hiérarchique avancé, ceux qui présentent trop de termes à un même niveau
@@ -312,27 +563,56 @@
       consulter le Guide de l'Administrateur PMB, chapitre Outils, section
       Paramètres.</para>
 
+      <para lang="es">Si todos los tesauros amigables poseyeran este aspecto jerárquico
+      avanzado, los que tienen muchos términios a un mismo nivel serían muy
+      complicados para navegar por ellos directamente. En este caso deberíamos
+      desactivar del OPAC de PMB la navegación por categorías. Las categorías
+      estarán igualmente accesibles pero sólo en la búsqueda. Para más
+      información, consulta la Guía del Administrador PMB, capítulo
+      Herramientas, sección Parámetros.</para>
+	  
+
       <sect3 id="categ_pmb_exemple">
         <title lang='fr'>Saisie de l'exemple de thésaurus élementaire dans PMB</title>
+		
+        <title lang="es">Introducción del ejemplo de tesauro elemental de PMB</title>
+		
 
         <para lang='fr'>Pour saisir un thésaurus, vous pouvez utiliser Autorités &gt;
         Catégories dans PMB. Une autre possibilité est de préparer votre
         thésaurus dans un tableau (excel, OpenOffice Calc) et de l'importer
         dans PhpMyAdmin.</para>
+		
+        <para lang="es">Para escoger un tesauro, debes ir a Autoridades &gt; Categorías
+        en PMB. Otra posibilidad es preparar tu tesauro en una tabla (excel,
+        OpenOffice Calc) y importalo con PhpMyAdmin.</para>
+		
 
         <epigraph>
           <para lang='fr'><emphasis role="bold">Note</emphasis> : Cette technique très
           avancée ne sera pas décrite ici. Voici le mode de saisie qui
           permettrait l'exploitation dans PMB du thesaurus présenté plus
           haut.</para>
+		  
+          <para lang="es"><emphasis role="bold">Nota</emphasis> : Esta técnica más
+          avanzada no será descrita aquí. Aquí encontrarás como introducir un
+          tesauro.</para>
+		  
         </epigraph>
 
         <para lang='fr'>Exemple de saisie pour la catégorie Individus dans Autorités
         &gt; Catégorie</para>
+		
+        <para lang="es">Ejemplo de cómo introducir datos para la categoría Individuos en
+        Autoridades &gt; Categoría</para>
+		
 
         <figure>
           <title lang='fr'>Ecran de catalogage, Catalogue &gt; Nouvelle, pavé
           d'indexation</title>
+          <title lang="es">Pantalla de catalogación, Catálogo &gt; Nueva, ajustar
+          indexación</title>
+		  
 
           <mediaobject>
             <imageobject>
@@ -344,76 +624,156 @@
         <epigraph>
           <para lang='fr'>Pour une lecture plus rapide, la présentation ici sera la
           suivante :</para>
+		  
+          <para lang="es">Para una lectura rápida, la presentación será la
+          siguiente :</para>
+
+		  
 
           <para lang='fr'><emphasis role="bold">libellé
           </emphasis><emphasis>[commentaire]</emphasis> &lt; catégorie
           parente, voir renvoi voir, voir aussi renvoi voir
           aussi.Individus</para>
+		  
+          <para lang="es"><emphasis role="bold">etiqueta
+          </emphasis><emphasis>[comentario]</emphasis> &lt; categoría general,
+          ver, ver también .Individuos</para>
+		  
         </epigraph>
 
         <para lang='fr'><emphasis role="bold">Individus</emphasis></para>
+        <para lang="es"><emphasis role="bold">Individuos</emphasis></para>
+		
 
         <para lang='fr'><emphasis role="bold">Logiciel</emphasis></para>
+        <para lang="es"><emphasis role="bold">Programario</emphasis></para>
+
 
         <para lang='fr'><emphasis role="bold">Réseau</emphasis></para>
+        <para lang="es"><emphasis role="bold">Red</emphasis></para>
+		
 
         <para lang='fr'><emphasis role="bold">Ressources</emphasis></para>
+        <para lang="es"><emphasis role="bold">Recursos</emphasis></para>
+		
 
         <para lang='fr'><emphasis role="bold">@termes orphelins</emphasis> [placer ici
         les termes EP qui ne seront pas visibles lors de l'exploration des
         catégories, mais qui seront utilisés lors des recherches]</para>
+		
+        <para lang="es"><emphasis role="bold">@términos huérfanos</emphasis> [colocad
+        aquí los términos UP que no serán visibles en la exploración de las
+        categorías, pero que serán útiles a la hora de realizar las
+        búsquedas]</para>
+		
 
         <para lang='fr'><emphasis role="bold">Lecteur</emphasis> &lt; Individus</para>
+        <para lang="es"><emphasis role="bold">Usuario</emphasis> &lt; Individuos</para>
+		
 
         <para lang='fr'><emphasis role="bold">Participant</emphasis> &lt;
         Individus</para>
+        <para lang="es"><emphasis role="bold">Participante</emphasis> &lt;
+        Individuos</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Auteur</emphasis> &lt; @termes orphelins,
         voir Participant</para>
+        <para lang="es"><emphasis role="bold">Autor</emphasis> &lt; @términos huérfanos,
+        ver Participante</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Contributeur</emphasis> &lt; @termes
         orphelins, voir Participant</para>
+        <para lang="es"><emphasis role="bold">Colaborador</emphasis> &lt; @términos
+        huérfanos, ver Participante</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Editeur non-inscrit</emphasis> &lt;
         Participant</para>
+        <para lang="es"><emphasis role="bold">Editor no registrado</emphasis> &lt;
+        Participante</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Anonyme</emphasis> &lt; @termes orphelins,
         voir Editeur non-inscrit</para>
+        <para lang="es"><emphasis role="bold">Anónimo</emphasis> &lt; @términos
+        huérfanos, ver Editor no registrado</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Adresse IP</emphasis> [forme métaphorique
         à éviter] &lt; @termes orphelins, voir Editeur non-inscrit</para>
+        <para lang="es"><emphasis role="bold">Dirección IP</emphasis> [forma metafórica
+        a evitar] &lt; @términos huérfanos, ver Editor no registrador</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Editeur inscrit</emphasis> &lt;
         Participant</para>
+        <para lang="es"><emphasis role="bold">Editor registrado</emphasis> &lt;
+        Participante</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Participant mandaté</emphasis> &lt;
         Individus</para>
+        <para lang="es"><emphasis role="bold">Participante escogido</emphasis> &lt;
+        Individuos</para>
+		
 
         <para lang='fr'><emphasis role="bold">Administrateur</emphasis> &lt; Participant
         mandaté</para>
+        <para lang="es"><emphasis role="bold">Administrador</emphasis> &lt; Participante
+        escogido</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Sysop</emphasis> [terme usuel dans la
         communauté] &lt; @termes orphelins, voir Administrateur</para>
+        <para lang="es"><emphasis role="bold">Sysop</emphasis> [término usual en la
+        comunidad] &lt; @términos huérfanos, ver Administrador</para>
+		
 
         <para lang='fr'><emphasis role="bold">Gestionnaire</emphasis> &lt; Participant
         mandaté</para>
+        <para lang="es"><emphasis role="bold">Gestionador</emphasis> &lt; Participante
+        escogido</para>
+		
 
         <para lang='fr'><emphasis role="bold">Représentant</emphasis> [Chargé des
         relations extérieures] &lt; Participant mandaté</para>
+        <para lang="es"><emphasis role="bold">Representante</emphasis> [Encargado de las
+        relaciones externas] &lt; Participante escogido</para>
+		
+		
 
         <para lang='fr'><emphasis role="bold">Utilisateur</emphasis> [terme imprécis, à
         proscrire] &lt; @termes orphelins, voir aussi Lecteur, voir aussi
         Participant, voir aussi Participant mandaté</para>
+		
+        <para lang="es"><emphasis role="bold">Usuario</emphasis> [Término impreciso, a
+        eliminar] &lt; @términos huérfanos, ver también Usuario, ver también
+        Participante, ver también Participante escogido</para>
+		
       </sect3>
     </sect2>
 
     <sect2 id="categ_search">
       <title lang='fr'>Utilisation du thesaurus dans les recherches</title>
+      <title lang="es">Utilización del tesauro en las búsquedas</title>
+	  
 
       <sect3 id="categ_search_hierar">
          
 
         <title lang='fr'>Recherche hiérarchique</title>
+        <title lang="es">Búsqueda jerárquica</title>
+		
 
          
 
@@ -422,11 +782,20 @@
         branches puis les feuilles, qui correspondent au degré de finesse le
         plus fin du thésaurus. Ecran de catalogage, Catalogue &gt; Nouvelle,
         pavé d'indexation</para>
+		
+        <para lang="es">La búsqueda jerárquica consiste en navegar por un tesauro
+        siguiendo su estructura de árbol : a partir del tronco ir hacia las
+        ramas y luego hacia las hojas, que corresponden a la parte más
+        específica de un tesauro. Pantalla de catalogación, Catálogo &gt;
+        Nueva, reajuste de una indexación</para>
+		
 
          
 
         <figure>
           <title lang='fr'>Popup de sélection d'une catégorie</title>
+          <title lang="es">Popup de selección de una categoría</title>
+		  
 
           <mediaobject>
             <imageobject>
@@ -436,9 +805,13 @@
         </figure>
 
          En cliquant sur l'icone , le popup de sélection d'une catégorie s'ouvre par défaut dans la recherche hiérarchique. 
+         Al hacer clic sobre el icono, el popup de seleccción de una categoría se abre por defecto en búsqueda jerárquica. 
+
 
         <figure>
           <title lang='fr'>icône dossier</title>
+          <title lang="es">icono carpeta</title>
+
 
           <mediaobject>
             <imageobject>
@@ -448,10 +821,14 @@
         </figure>
 
          Pour naviguer dans la recherche hiérarchique, vous pouvez développer une catégorie en cliquant sur l'icone dossier . Vous découvrirez alors les sous-catégories qu'elle possède. Une fois arrivé au niveau de finesse dans l'indexation qui vous intéresse, cliquez alors sur le nom de la catégorie pour le sélectionner. Rappel : : développer la catégorie catégorie : sélectionner la catégorie Avantages et inconvénients de la recherche hiérarchique dans PMB La navigation hiérarchique est simple et rapide à maîtriser. Lorsque vous naviguez dans les catégories de manière hiérarchique, vous visualisez le nom de la catégorie parente en haut du popup et nom à côté de la sous-catégorie. 
-
+		 Para navegar por la búsqueda jerárquica, haz clic en una categoría (en el icono de carpeta) para desarrollarla. Verás entonces las subcategorías que incluye. Una vez llegas al nivel más bajo de la indexación que te interesa, haz clic sobre el nombre de la categoría para seleccionarla. Nota : : desarrollar la categoría : seleccionar la categoría Ventajas e inconvenientes de la búsqueda jerárquica en PMB La navegación jerárquica es simple y rapida de controlar. Cuando navegas por las categorías de forma jerárquica, visualizas el nombre de la categoría general en lo alto del popup y al lado el nombre de la subcategoría. 
+		 
         <figure>
           <title lang='fr'>Popup de sélection d'une catégorie, navigation
           hiérarchique</title>
+          <title lang="es">Popup de selección de una categoría, navegación
+          jerárquica</title>
+		  
 
           <mediaobject>
             <imageobject>
