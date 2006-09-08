@@ -404,13 +404,19 @@
 
     <sect2 id="edit_empr_encours">
       <title lang='fr'>Lecteurs en cours</title>
+      <title lang='es'>Usuarios actuales</title>	  
 
       <para lang='fr'>Cet écran vous permet de faire une recherche de lecteurs. Par
       défaut le résultat d'une recherche portant sur tous les lecteurs est
       affichée.</para>
+	  
+      <para lang='es'>Esta pantalla permite hacer una búsqueda de usuarios. Por defecto 
+	  se muestra el resultado de una búsqueda con todos los usuarios.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Éditions &gt; Lecteurs &gt; Lecteurs en cours</title>
+        <title lang='es'>Informes &gt; Usuarios &gt; Usuarios actuales</title>		
 
         <mediaobject>
           <imageobject>
@@ -421,23 +427,44 @@
 
       <para lang='fr'>Pour chercher un lecteur, saisissez son nom ou le début de son nom
       puis cliquez sur OK.</para>
+	  
+      <para lang='es'>Para buscar a un usuario, introduce su apellido o el inicio de su
+	  apellido y haz clic en OK.</para>
+	  	  
 
       <para lang='fr'>Cliquer sur un des lecteurs dans les résultats de la recherche
       vous affiche sa fiche dans l'onglet
       <emphasis>Circulation</emphasis>.</para>
+	  
+      <para lang='es'>Haz clic sobre uno de los usuarios de entre los resultados de la
+	  búsqueda para poder ver su ficha que se mostrará en la pestaña 
+	   <emphasis>Circulación</emphasis>.</para>
+	  	  
 
       <para lang='fr'>En bas de la page, vous pouvez modifier le nombre de résultats
       affichés par page. Après avoir modifié ce nombre, cliquez sur Recharger
       pour appliquer les changements. Vous pouvez également exporter vers
       Excel (icône de gauche) ou vers un tableur au format HTML pour
       OpenOffice (icône de droite).</para>
+	  
+      <para lang='es'>En la parte inferior de la página, puedes modificar el número de
+	  resultados por página. Después de modificar el número, haz clic sobre 
+	  Actualizar para aplicar los cambios. Puedes igualmente exportar los 
+	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla en
+	  formatos HTML de OpenOffice (icono de la derecha).</para>
+	  
+	  	  
     </sect2>
 
     <sect2 id="edit_empr_limite">
       <title lang='fr'>Lecteurs : abonnement bientôt expiré</title>
+      <title lang='es'>Usuarios : el abono caducará próximamente</title>	  
 
       <para lang='fr'>Vous pouvez également afficher les lecteurs avec une fin
       d'abonnement proche, où dont l'abonnement est déjà expiré.</para>
+      <para lang='es'>Puedes también ver los usuarios que tienen el abono a punto
+	  de caducar, o los usuarios que tienen el abono ya caducado.</para>
+	  	  
 
       <para lang='fr'>PMB considère les lecteurs comme ayant un abonnement bientôt
       expiré par rapport à la lettre de relance pour l'abonnement. Ce délai
@@ -445,9 +472,18 @@
       consultez le <emphasis>Guide de l'Administrateur de PMB</emphasis>,
       chapitre <emphasis>Outils</emphasis>, section
       <emphasis>Paramètres</emphasis>.</para>
+	  
+      <para lang='es'>PMB relaciona a los usuarios que tienen un abono próximo a 
+	  expirar con una carta de reactivación del abono. Esta relación
+	  se configura en los parámetros de PMB, ya que se puede parametrizar el 
+	  número de días en que es necesario avisar antes de que se caduque el abono. 
+	  Para más información, consulta la <emphasis>Guía del Administrador de PMB</emphasis>,
+      capítulo <emphasis>Herramientas</emphasis>, sección <emphasis>Parámetros</para>
+	  	  
 
       <figure>
         <title lang='fr'>Éditions &gt; Lecteurs, fin d'abonnement proche</title>
+        <title lang='es'>Informes &gt; Usuarios, el abono caducará próximamente</title>		
 
         <mediaobject>
           <imageobject>
@@ -458,29 +494,55 @@
 
       <para lang='fr'>Pour chercher un lecteur ayant un abonnement bientôt expiré,
       saisissez son nom ou le début de son nom puis cliquez sur OK.</para>
+	  
+      <para lang='es'>Para buscar un usuario con un abono ya caducado, introduce su apellido
+	  o el inicio de su apellido y después haz clic en OK.</para>
+	  	  
 
       <para lang='fr'>Cliquer sur un des lecteurs dans les résultats de la recherche
       vous affiche sa fiche dans l'onglet
       <emphasis>Circulation</emphasis>.</para>
+
+      <para lang='es'>Haz clic en uno de los usuarios en los resultados de la búsqueda
+	  para ver su ficha que se mostrará en la pestaña <emphasis>Circulación</emphasis>.</para>
+	  
 
       <para lang='fr'>En bas de la page, vous pouvez modifier le nombre de résultats
       affichés par page. Après avoir modifié ce nombre, cliquez sur <emphasis
       role="bold">Recharger</emphasis> pour appliquer les changements. Vous
       pouvez également exporter vers Excel (icône de gauche) ou vers un
       tableur au format HTML pour OpenOffice (icône de droite).</para>
+	  
+      <para lang='es'>En la parte inferior de la página, puedes modificar el número de resultados
+	  que se mostrarán por página. Después de haber modificado este número, haz clic sobre <emphasis
+      role="bold">Actualizar</emphasis> para aplicar los cambios. Puedes también exportar los
+	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla de formato HTML para OpenOffice
+	   (icono de la derecha).</para>
+	  	  
+	  
+	  
     </sect2>
 
     <sect2 id="edit_empr_depasse">
       <title lang='fr'>Lecteurs : abonnement expiré</title>
+      <title lang='es'>Usuarios : abono caducado</title>	  
 
       <para lang='fr'>Les lecteurs ayant un abonnement expiré ne sont pas affichés parmi
       les lecteurs en cours.</para>
+	  
+      <para lang='es'>Los usuarios con un abono caducado no se muestran como usuarios
+	  actuales.</para>
+	  	  
 
       <para lang='fr'>Vous pouvez ici afficher les lecteurs ayant un abonnement
       expiré.</para>
+	  
+      <para lang='es'>Aquí se mostrarán los usuarios que tengan un abono que haya expirados.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Éditions &gt; Lecteurs, abonnement expiré</title>
+        <title lang='es'>Informes &gt; Usuarios, abono caducado</title>		
 
         <mediaobject>
           <imageobject>
@@ -491,27 +553,46 @@
 
       <para lang='fr'>Pour chercher un lecteur ayant un abonnement expiré, saisissez son
       nom ou le début de son nom puis cliquez sur OK.</para>
+	  
+      <para lang='es'>Para buscar un usuario con un abono caducado, introduce su apellido o
+	  el inicio de su apellido y después haz clic sobre OK.</para>
+	  	  
 
       <para lang='fr'>Cliquer sur un des lecteurs dans les résultats de la recherche
       vous affiche sa fiche dans l'onglet
       <emphasis>Circulation</emphasis>.</para>
+	  
+      <para lang='es'>Haz clic sobre uno de los usuarios de entre los resultados de la búsqueda
+	  para ver su ficha que se mostrará en la pestaña <emphasis>Circulación</emphasis>.</para>
+	  	  
 
       <para lang='fr'>En bas de la page, vous pouvez modifier le nombre de résultats
       affichés par page. Après avoir modifié ce nombre, cliquez sur
       <emphasis>Recharger</emphasis> pour appliquer les changements. Vous
       pouvez également exporter vers Excel (icône de gauche) ou vers un
       tableur au format HTML pour OpenOffice (icône de droite).</para>
+	  
+      <para lang='es'>En la parte inferior de la página, puedes modificar el número de resultados
+	  que se mostrarán por página. Después de haber modificado este número, haz clic sobre <emphasis
+      role="bold">Actualizar</emphasis> para aplicar los cambios. Puedes también exportar los
+	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla de formato HTML para OpenOffice
+	   (icono de la derecha).</para>
+	  	  
     </sect2>
   </sect1>
 
   <sect1 id="edit_serials">
     <title lang='fr'>Périodiques</title>
+    <title lang='es'>Publicaciones periódicas</title>	
 
     <sect2>
       <title lang='fr'>État des collections</title>
+	  
+      <title lang='es'>Estado de las colecciones</title>	  
 
       <figure>
         <title lang='fr'>Éditions &gt; Périodiques &gt; Etat des collections</title>
+        <title lang='es'>Informes &gt; P. periódicas &gt; Estado de las colecciones</title>		
 
         <mediaobject>
           <imageobject>
@@ -522,41 +603,77 @@
 
       <para lang='fr'>Cet écran affiche pour chaque notice mère de périodique le nombre
       d'exemplaires par numéro.</para>
+	  
+      <para lang='es'>Esta pantalla muestra para cada registro principal de publicación periódica, el total de ejemplares para cada
+	  número.</para>
+
+	  
 
       <para lang='fr'>Ceci permet notamment de vérifier s'il y a un numéro manquant dans
       la collection.</para>
+	  
+      <para lang='es'>Esto permite verificar si falta algún número en la colección.</para>
+	  	  
 
       <para lang='fr'>La première colonne indique le numéro du périodique (bulletin), la
       deuxième la date de publication renseignée, enfin le nombre
       d'exemplaires catalogués.</para>
+	  
+      <para lang='es'>La primera columna indica el número de la revista, la segunda columna
+	  la fecha de publicación, finalmente el número de ejemplares introducidos en la 
+	  base de datos.</para>
+
+	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>États</title>
+    <title lang='es'>Estadísticas</title>	
 
     <sect2 id="edit_procs">
       <title lang='fr'>États personnalisables</title>
+      <title lang='es'>Estadísticas personalizables</title>	  
 
       <para lang='fr'>Cette fonction de l'onglet <emphasis>Editions</emphasis> permet
       d'afficher à l'écran l'édition de résultats de procédures stockées,
       personnalisables dans l'onglet administration. Ces procédures sont
       rédigées en langage SQL et seront interprétées par le SGBD fonctionnant
       avec PHP sur lequel tourne votre serveur.</para>
+	  
+      <para lang='es'>Esta función de la pestaña <emphasis>Informes</emphasis> permite
+      ver los resultados de unas consultas guardadas, personalizables en la pestaña
+	  administración. Estas consultas o procedimientos se crean en lenguaje SQL y la
+	  base de datos los interpreta gracias al lenguaje PHP sobre el cual trabaja
+	  vuestro servidor.</para>
+	  	  
 
       <para lang='fr'>Si vous avez chargé le jeu de test opérationnel (data_test.sql,
       pour plus d'informations consultez le <emphasis>Guide de
       l'Administrateur PMB</emphasis>, chapitre <emphasis>Données
       minimum</emphasis>), vous disposez de différents états
       personnalisables.</para>
+	  
+      <para lang='es'>Si al instalar PMB lo has hecho con los datos para probar PMB (data_test.sql,
+      para más información consulta la <emphasis>Guía del Administrador PMB</emphasis>, capítulo 
+	  <emphasis>Datos mímimos</emphasis>), dispones de diferentes estadísicas personalizadas ya 
+	  introducidas.</para>
+
+	  
 
       <para lang='fr'>Un certain nombre de procédures sont d'emblée accessibles. Leurs
       noms sont normalement suffisamment évocateurs. En cas de doute, lancez
       la procédure et examinez son résultat pour en comprendre le
       fonctionnement.</para>
+	  
+      <para lang='es'>Los nombres de éstos procedimientos suelen ser bastante evocadores para saber 
+	  para qué sirven. En caso de duda, inicia el procedimiento y examina el resultado obtenido 
+	  para comprender su funcionamiento.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Éditions &gt; États &gt; Personnalisables</title>
+        <title lang='es'>Informes &gt; Estadísticas &gt; Personalizables</title>		
 
         <mediaobject>
           <imageobject>
@@ -568,10 +685,17 @@
       <para lang='fr'>Pour lancer un état personnalisable, cliquez sur le libellé de
       l'état. Si des paramètres sont à spécifier, un écran intermédiaire est
       affiché.</para>
+	  
+      <para lang='es'>Para iniciar una estadístca personalizable, haz clic sobre la etiqueda del 
+	  procedimiento que quieras. Si hay parámetros a especificar, se mostrará una pantalla
+	  intermedia para poder especificar algunos datos.</para>
+	  	  
 
       <figure>
         <title lang='fr'>Éditions &gt; États &gt; Personnalisables, choix des
         paramètres</title>
+		
+        <title lang='es'>Informes &gt; Estadísicas &gt; Personalizables, definir parámetros</title>		
 
         <mediaobject>
           <imageobject>
@@ -583,6 +707,8 @@
       <figure>
         <title lang='fr'>Éditions &gt; États &gt; Personnalisables, affichage des
         résultats d'un état personnalisable</title>
+        <title lang='es'>Informes &gt; Estadíst &gt; Personalizables, visualización de
+		los resultados de un procedimiento</title>		
 
         <mediaobject>
           <imageobject>
@@ -596,20 +722,33 @@
       role="">Recharger</emphasis> pour appliquer les changements. Vous pouvez
       également exporter vers Excel (icône de gauche) ou vers un tableur au
       format HTML pour OpenOffice (icône de droite).</para>
+	  
+      <para lang='es'>En la parte inferior de la página, puedes modificar el número de resultados
+	  que se mostrarán por página. Después de haber modificado este número, haz clic sobre <emphasis
+      role="bold">Actualizar</emphasis> para aplicar los cambios. Puedes también exportar los
+	  datos a un archivo Excel (icono de la izquierda) o hacia una tabla de formato HTML para OpenOffice
+	   (icono de la derecha).</para>
+	  	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Codes barres</title>
+    <title lang='es'>Códigos de barras</title>	
 
     <sect2 id="edit_cbgen">
       <title lang='fr'>Génération libre</title>
+      <title lang='es'>Generación libre</title>	  
 
       <para lang='fr'>Cet outil permet d'éditer des pages de code barre, imprimables sur
       des feuillets d'étiquettes.</para>
+	  
+      <para lang='es'>Esta utilidad permite crear páginas de códigos de barras, y imprimirlas
+	  sobre hojas de etiquetas.</para>	  
 
       <figure>
         <title lang='fr'>Éditions &gt; Codes barres &gt; Génération libre</title>
+        <title lang='es'>Informes &gt; Códigos de barras &gt; Generación libre</title>		
 
         <mediaobject>
           <imageobject>
@@ -621,21 +760,45 @@
       <para lang='fr'>Pour modifier la <emphasis>mise en page </emphasis>des étiquettes
       cliquez sur <emphasis role="bold">Afficher</emphasis> puis adaptez les
       paramètres à vos besoins.</para>
+	  
+      <para lang='es'>Para modificar el <emphasis>formato de página </emphasis>de las etiquetas
+	   haz clic sobre <emphasis role="bold">Visualizar</emphasis> y adapta los parámetro 
+	   a tu necesidades.</para>
+	  	  
 
       <para lang='fr'>Choisissez des étiquettes de bonne qualité et imprimez les avec
       une imprimante laser pour en améliorer la longévité. Les imprimantes jet
       d'encre de basse qualité ont une encre qui s'efface plus rapidement, et
       dont la définition est trop faible pour une lecture rapide du
       code-barres.</para>
+	  
+      <para lang='es'>Escoge etiquetas de buena calidad y imprímelas con una impresora
+	  láser para asegurar que duren. Con las impresora de tinta se obtienen 
+	  etiquetas de menor calidad y el código de barras de estropea rápidament, 
+	  además la definición de los códigos también es pobre, y esto hace que a algunos
+	  lectores de códigos de barras les cueste más leer los códigos.</para>
+
+	  
 
       <para lang='fr'>Vous pouvez vous servir d'un fichier texte contenant les numéros à
       imprimer, personnaliser le nom de votre centre documentaire, etc</para>
+	  
+      <para lang='es'>Puedes utilizar un archivo de texto que contenga los números a imprimir,
+	  y personalizar el nombre de tu centro de documentación o biblioteca.</para>
+	  	  
 
       <para lang='fr'>Le résultat est ensuite affiché dans une fenêtre Acrobat (fichier
       PDF généré par PMB).</para>
 
+      <para lang='es'>El resultado se muestra en una ventana de Acrobat (archivo PDF generado por PMB).</para>
+	  	  
+
       <para lang='fr'>Vous pouvez contrôler visuellement le résultat, éventuellement le
       sauvegarder et imprimer.</para>
+	  
+      <para lang='es'>De esta forma puedes controlar que todo esté correcto, guardar el resultado 
+	  y imprimirlo.</para>
+	  	  
     </sect2>
   </sect1>
 </chapter>
