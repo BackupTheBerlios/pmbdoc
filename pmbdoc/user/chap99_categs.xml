@@ -1,32 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="categ">
   <title lang='fr'>Thésaurus et catégories dans PMB</title>
+  <title lang='es'>Tesauros y categorías en PMB</title>  
 
   <para lang='fr'>PMB dispose de trois thésaurus qui peuvent être chargés lors de
   l'installation. Un thésaurus est un répertoire de termes, des
   "catégories".</para>
+  
+  <para lang='es'>PMB dispone de tres tesauros que pueden cargarse durante la
+  instalación. Un tesauro es un conjunto de descriptores, de
+  "categorías".</para>  
 
   <para lang='fr'>Vous pouvez également charger une indexation décimale, comme les
   indexations décimales validées de la BM de Chambéry, ou une indexation style
   Dewey. Ces indexations définissent le sujet d'une notice, et peuvent être
   utilisées pour définir une cote. La cote définit l'emplacement physique, le
   rangement de l'ouvrage dans la bibliothèque, par exemple "848 MAR".</para>
+  
+  <para lang='es'>También puedes cargar una clasificación decimal, como la validada de
+  la BM de Chambéry, o una clasificación estilo Dewey. Estas clasificaciones
+  definen la materia de un registro, y pueden utilizarse a la hora de definir
+  la signatura. La signatura define la localización física, dónde se encuentra
+  el ejemplar en la biblioteca, por ejemplo "848 MAR".</para>
+
+  
 
   <para lang='fr'>Depuis la version 2.2 de PMB, vous pouvez utiliser simultanément
   différents thésaurus dans PMB : c'est la gestion multi-thésaurus. Chacun de
   ces thésaurus peut être traduit dans différentes langues. Un lecteur
   pourrait donc consulter un thésaurus dans sa langue d'utilisation :
   multi-thésaurus multi-lingue.</para>
+  
+  <para lang='es'>A partir de la versión 2.2 de PMB, puedes utilizar simultáneamente
+  diferentes tesauros en PMB : es la gestión multi-tesauros. Cada uno de estos
+  tesauros puede ser traducido a diferentes lenguas. Un usuario podrá
+  consultar un tesauro en su idioma de uso : multi-tesaurus
+  multilingüe.</para>
+  
 
   <sect1 id="categ_intro">
     <title lang='fr'>Introduction</title>
+    <title lang='es'>Introducción</title>	
 
     <sect2 id="categ_intro_voca">
       <title lang='fr'>Un peu de vocabulaire</title>
+      <title lang='es'>Un poco de vocabulario</title>	  
 
       <para lang='fr'><emphasis role="bold">Thesaurus </emphasis>: peut s'écrire soit
       selon le terme latin : sing. thesaurus, pl. thesauri ; soit en
       françisant le terme : sing. thésaurus, pl. thésaurus.</para>
+	  
+      <para lang='es'><emphasis role="bold">Tesauro </emphasis>: a veces también puede
+      encontrarse bajo su forma original latina : sing. thesaurus, pl.
+      thesauri.</para>
+
+	  
 
       <para lang='fr'><emphasis role="bold">Catégorie</emphasis> : terme d'un thésaurus
       dans PMB. La gestion des catégories correspond également à une
