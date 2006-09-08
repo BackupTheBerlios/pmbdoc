@@ -1,13 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="search_history" lang="fr">
   <title lang='fr'>Historique des recherches</title>
+  <title lang='es'>Historial de las búsquedas</title>  
 
   <para lang='fr'>Le lien "historique" en haut à droite de l'écran affiche l'historique
   des recherches faites dans l'interface de gestion dans un iframe (bloc de
   l'écran).</para>
+  
+  <para lang='es'>El enlace "historial" en la parte superior derecha de la pantalla muestra
+  el historial de búsquedas realizadas en la interficie de gestión, éstas se muestran en 
+  un iframe (marco de pantalla).</para>
+    
 
   <figure>
     <title lang='fr'>Lien historique</title>
+    <title lang='es'>Enlace historial</title>	
 
     <mediaobject>
       <imageobject>
@@ -18,14 +25,20 @@
 
   <sect1>
     <title lang='fr'>Affichage de l'historique des recherches</title>
+    <title lang='es'>Visualización del historial de búsquedas</title>	
 
     <para lang='fr'>L'historique affiche les recherches réalisées par l'utilisateur en
     ordre chronologique inverse. Les dernières recherches réalisées sont
     affichées en haut de l'écran.</para>
+	
+    <para lang='es'>El historial muestra las búsquedas realizadas por un usuario 
+	ordenadas por orden cronológico inverso. Las últimas búsquedas realizadas se muestran 
+	en lo alto de la pantalla.</para>	
 
     <figure>
       <title lang='fr'>Affichage de l'historique des recherches à gauche de
       l'écran</title>
+      <title lang='es'>Visualización del historial de búsquedas a la izquierda de la pantalla</title>	  
 
       <mediaobject>
         <imageobject>
@@ -36,9 +49,13 @@
 
     <para lang='fr'>Vous avez la possibilité d'imprimer les résultats d'une recherche à
     l'aide de l'icône imprimer.</para>
+	
+    <para lang='es'>Tienes la posibilidad de imprimir los resultados de una búsqueda con 
+	la ayuda del icono imprimir.</para>	
 
     <figure>
       <title lang='fr'>Icône imprimer</title>
+      <title lang='es'>Icono imprimir</title>	  
 
       <mediaobject>
         <imageobject>
@@ -49,25 +66,42 @@
 
     <para lang='fr'>L'ensemble des résultats d'une recherche peut être placé directement
     dans un panier.</para>
+	
+    <para lang='es'>El conjunto de resultados de una búsqueda se puede incluir directamente
+	en una cesta.</para>
+		
 
     <para lang='fr'>L'ensemble des résultats d'une recherche peut également être envoyé
     par e-mail.</para>
+	
+    <para lang='es'>El conjunto de resultados de una búsqueda puede también igualmente enviarse por 
+	correo electrónico.</para>	
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Mémorisation de l'historique des recherches</title>
+    <title lang='es'>Guardar el historial de búsquedas</title>	
 
     <para lang='fr'>L'historique des recherches est sauvegardé dans la session
     utilisateur. Ceci vous permet de retrouver l'historique de vos recherches
     après une déconnexion, ou une fois déconnecté de votre ordinateur de
     travail et reconnecté sur un autre.</para>
+	
+    <para lang='es'>El historial de búsquedas se guarda en la sesión de usuario. 
+	Esto permite reecontrar el historial de tus búsquedas después de una 
+	desconexión, o una vez desconectado de tu ordenador de tabajo y reconectado
+	en otro.</para>
+		
   </sect1>
 
   <sect1>
     <title lang='fr'>Vidage de l'historique des recherches</title>
+    <title lang='es'>Vaciar el historial de búsquedas</title>	
 
     <figure>
       <title lang='fr'>Icône vider l'historique</title>
+      <title lang='es'>Icono vaciar el historial</title>	  
 
       <mediaobject>
         <imageobject>
@@ -78,6 +112,7 @@
 
     <figure>
       <title lang='fr'>Icône supprimer les recherches cochées</title>
+      <title lang='es'>Icono suprimir las búsquedas marcadas</title>	  
 
       <mediaobject>
         <imageobject>
@@ -88,6 +123,10 @@
 
     <para lang='fr'>L'icône <emphasis role="bold">vider l'historique </emphasis>supprime
     l'ensemble des recherches de l'historique.</para>
+	
+    <para lang='es'>El icono <emphasis role="bold">vaciar el historial </emphasis>suprime
+    el conjunto de búsquedas del historial.</para>
+		
 
     <para lang='fr'>L'icône <emphasis role="bold">supprimer les recherches cochées
     </emphasis>permet de "faire le ménage" parmi les recherches. Pour
@@ -95,13 +134,23 @@
     ligne. Répétez cette étape pour l'ensemble des recherches à supprimer.
     Cliquez enfin sur l'icône <emphasis role="bold">supprimer les recherches
     cochées</emphasis>.</para>
+	
+    <para lang='es'>El icono <emphasis role="bold">suprimir las búsquedas marcadas 
+	</emphasis>permite "hacer limpieza" entre las búsquedas. Para suprimir
+	una o más búsquedas, marca la casilla situada al inicio de la
+	línea. Repite este proceso para el resto de búsquedas a eliminar.
+    Haz clic sobre el icono <emphasis role="bold">suprimir las búsquedas 
+	marcadas</emphasis>.</para>
+		
   </sect1>
 
   <sect1>
     <title lang='fr'>Sauvegarde de l'historique des recherches</title>
+    <title lang='es'>Copia del historial de búsquedas</title>	
 
     <figure>
       <title lang='fr'>Icône sauvegarder</title>
+      <title lang='es'>Icono guardar</title>	  
 
       <mediaobject>
         <imageobject>
@@ -115,22 +164,42 @@
     Attention, ceci ne correspond pas à l'export d'un fichier historique. Pour
     plus d'informations sur les imports et exports d'historiques de
     recherches, consultez la section <xref linkend="history_import" /></para>
+	
+    <para lang='es'>El botón "<emphasis role="bold">Guardar el 
+	historial</emphasis>" guarda el historial de búsquedas en curso.
+    Atención, esto no corresponde a la función exportar un archivo del historial. Para
+	más información sobre las importaciones y las exportaciones de historiales
+	de búsquedas, consulta la sección <xref linkend="history_import" /></para>
+		
   </sect1>
 
   <sect1 id="history_import">
     <title lang='fr'>Import/Export des recherches</title>
+    <title lang='es'>Importar/Exportar las búsquedas</title>	
 
     <para lang='fr'>L'historique des recherches peut être exporté dans un fichier. De
     même un tel fichier peut ensuite être réimporté dans PMB.</para>
+	
+    <para lang='es'>El historial de búsquedas puede exportarse a un archivo. De
+    la misma forma, un archivo puede reimportarse en PMB.</para>
+		
 
     <para lang='fr'>Cette opération est réalisée à l'aide des icônes <emphasis
     role="bold">exporter</emphasis> et <emphasis
     role="bold">importer</emphasis> situées en haut de la fenêtre
     <emphasis>historique des recherches</emphasis>.</para>
+	
+    <para lang='es'>Esta operación se realiza con la ayuda de los iconos <emphasis
+    role="bold">exportar</emphasis> y <emphasis
+    role="bold">importar</emphasis> situados en la parte superior de la ventana 
+    <emphasis>historial de búsquedas</emphasis>.</para>
+		
 
     <figure>
       <title lang='fr'>Icône exporter (les données vont de la liste vers la
       disquette)</title>
+	  
+      <title lang='es'>Icono exportar (los datos irán hacia un disquet)</title>	  
 
       <mediaobject>
         <imageobject>
@@ -142,6 +211,8 @@
     <figure>
       <title lang='fr'>Icône importer (les données vont de la disquette vers la
       liste)</title>
+	  
+      <title lang='es'>Icono importar (los datos irán del disquet a la lista)</title>	  
 
       <mediaobject>
         <imageobject>
@@ -153,8 +224,17 @@
     <para lang='fr'>L'historique des recherches est exporté dans un fichier
     <emphasis>search.rsh. </emphasis>Vous pouvez stocker ce fichier s'il
     correspond à une suite de recherches que vous souhaitez mémoriser.</para>
+	
+    <para lang='es'>El historial de búsquedas se exportará a un archivo 
+    <emphasis>search.rsh. </emphasis>Puedes guardar este archivo para realizar una serie de búsquedas 
+	que necesites guardar o ir realizando periódicamente.</para>
+
+	
 
     <para lang='fr'>Lorsque vous aurez besoin de relancer ces recherches, vous
     disposerez alors d'un fichier préétabli.</para>
+	
+    <para lang='es'>De esta forma, tendrás un archivo con búsquedas preestablecidas.</para>
+		
   </sect1>
 </chapter>
