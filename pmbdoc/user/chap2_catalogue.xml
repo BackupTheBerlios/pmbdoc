@@ -455,23 +455,27 @@
             moins des mots", "contient tous les mots", "commence par", "finit
             par" ou "exactement comme". Ce type de recherche varie selon le
             champs concerné<figure>
-			
-            <para lang='es'>escoge después un tipo de búsqueda para el campo
-            seleccionado, por ejemplo, para un campo de título puedes escoger
-            entre "contiene alguna de las palabras", "contiene todas las
-            palabras", "empieza por", "acaba por" o "exactamente como". Este
-            tipo de búsqueda varía según el campo escogido<figure>
-			
-						
                 <title lang='fr'>Types de recherche pour le champs Titre</title>
-				<title lang='es'>Tipos de búsqueda para el campo título</title>				
-			<figure>
                 <mediaobject>
                   <imageobject>
                     <imagedata fileref="images/multicrit_4.gif" />
                   </imageobject>
                 </mediaobject>
-              </figure>
+            </figure></para>
+			
+            <para lang='es'>escoge un tipo de búsqueda para el campo 
+            escogido, para un campo título puedes escoger entre "alguna
+			de las palabras", "todas las palabras", "empieza por", "acaba por" 
+			o "exactamente como". Este tipo de búsqueda varía según el campo
+			seleccionado<figure>
+                <title lang='es'>Tipos de búsqueda para los campos Título</title>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/multicrit_4.gif" />
+                  </imageobject>
+                </mediaobject>
+            </figure></para>
+			
           </listitem>
 
           <listitem>
@@ -2424,7 +2428,7 @@
           <emphasis>Guide de l'Administrateur de PMB</emphasis>, chapitre
           <emphasis>Exemplaires</emphasis>.</para>
 		  
-          <para lang='es'>Debajo del precio </emphasis>figuran los <emphasis
+          <para lang='es'><emphasis>Debajo del precio </emphasis>figuran los <emphasis
           role="bold">campos personalizados </emphasis>del ejemplar. Se
           mostrarán todos los datos suplementarios que hayas definido o que
           definas en <emphasis>Administración &gt; Ejemplares &gt;
@@ -2547,7 +2551,7 @@
           sobre <emphasis>Guardar</emphasis> o bien
           <emphasis>Cancelar</emphasis>. Si tienes abierto un documento
           electrónico para modificarlo, también lo puedes
-          <emphasis>Eliminar</para>		  
+          <emphasis>Eliminar</emphasis></para>		  
         </sect4>
 
         <sect4 id="cat_edit_expl">
@@ -4021,13 +4025,8 @@
 
         <para lang='fr'>Cliquez sur le nom du panier dont vous voulez pointer les
         éléments.<figure>
-		
-        <para lang='es'>Haz clic sobre el nombre de la cesta de la cual quieres marcar
-        elementos.<figure>
-		
             <title lang='fr'>Catalogage &gt; Paniers &gt; Pointage &gt; Par
             douchette</title>
-            <title lang='es'>Catálogo &gt; Cestas &gt; Marcar &gt; Con lector</title>			
 
             <mediaobject>
               <imageobject>
@@ -4035,6 +4034,19 @@
               </imageobject>
             </mediaobject>
           </figure></para>
+		  
+        <para lang='es'>Haz clic sobre el nombre de la cesta de la cual quieres marcar
+        elementos.<figure>
+            <title lang='es'>Catálogo &gt; Cestas &gt; Marcar &gt; Con lector</title>			
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/cat_paniers_collecte_douchett2.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure></para>
+		  
+		  
+		  
       </sect3>
 
       <sect3 id="cat_caddie_pointage_sélection">
@@ -4889,7 +4901,15 @@ order by section_libelle</programlisting>
             <figure>
               <title lang='fr'>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
               sur l'ISBD</title>
-			  
+		  
+	          <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_z39_search_isbn.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+			
+			
             <figure>
               <title lang='es'>Catálogo &gt; Z39.50 &gt; Buscar, buscar por ISBN</title>			  
 
@@ -4899,6 +4919,7 @@ order by section_libelle</programlisting>
                 </imageobject>
               </mediaobject>
             </figure>
+			
           </listitem>
 
           <listitem>
@@ -4906,14 +4927,21 @@ order by section_libelle</programlisting>
             champ de saisie. L'EAN (code commercial) douchetté sera converti
             par PMB en ISBN.</para>
 			
-          <listitem>
-            <para lang='es'>lee el código de barras comercial de tu documento.El EAN
-            (código comercial) leído PMB lo convertirá en un ISBN.</para>			
-
             <figure>
               <title lang='fr'>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
               sur l'ISBN</title>
 
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="images/cat_z39_results_isbn.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
+			
+            <para lang='es'>lee el código de barras comercial de tu documento.El EAN
+            (código comercial) leído PMB lo convertirá en un ISBN.</para>			
+			
+            <figure>
               <title lang='es'>Catalogación &gt; Z39.50 &gt; Buscar, buscar por
               ISBN</title>			  
 
@@ -4923,6 +4951,8 @@ order by section_libelle</programlisting>
                 </imageobject>
               </mediaobject>
             </figure>
+
+			
           </listitem>
 
           <listitem>
