@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="circ">
-  <title>Circulation des ouvrages</title>
+  <title lang="es">Circulation des ouvrages</title>
 
   <para>La circulation des ouvrages dans une bibliothèques désigne la gestion
   des exemplaires que possède la bibliothèque et leur communication aux
@@ -13,10 +13,10 @@
   enfin, sert à gérer les réservations que font les lecteurs.</para>
 
   <sect1 id="circ_circ">
-    <title>Circulation</title>
+    <title lang="es">Circulation</title>
 
     <sect2 id="circ_pret">
-      <title>Prêt de document</title>
+      <title lang="es">Prêt de document</title>
 
       <para>Le prêt de document est très simple et peut être intégralement
       réalisé à l'aide d'une douchette. Il suffit de saisir d'abord le code
@@ -29,12 +29,12 @@
 
 
 	<sect3 id="circ_pret_1">
-		<title>Recherche d'emprunteur</title>
+		<title lang="es">Recherche d'emprunteur</title>
       <para>La création de lecteur et de leur carte est expliquée plus
       loin.</para>
 
       <figure>
-        <title>Circulation &gt; Prêt de documents</title>
+        <title lang="es">Circulation &gt; Prêt de documents</title>
 
         <mediaobject>
           <imageobject>
@@ -45,7 +45,7 @@
 
 	</sect3>
 	<sect3 id="circ_pret_2">
-		<title>Résultat de recherche</title>
+		<title lang="es">Résultat de recherche</title>
       <para><emphasis role="bold">Exemple</emphasis> prêtons <emphasis>Rwanda
       : un peuple avec une histoire</emphasis>, par <emphasis>C. M.
       Overdulve</emphasis>, à notre lecteur <emphasis>Luke Skywalker
@@ -59,7 +59,7 @@
       pour Skywalker.</para>
 
       <figure>
-        <title>Circulation &gt; Prêt (résultats d'une recherche de
+        <title lang="es">Circulation &gt; Prêt (résultats d'une recherche de
         lecteurs)</title>
 
         <mediaobject>
@@ -73,9 +73,9 @@
       Skywalker.</para>
 	</sect3>
 	<sect3 id="circ_lecteur">
-		<title>Fiche lecteur</title>
+		<title lang="es">Fiche lecteur</title>
       <figure>
-        <title>Circulation &gt; Prêt (fiche lecteur)</title>
+        <title lang="es">Circulation &gt; Prêt (fiche lecteur)</title>
 
         <mediaobject>
           <imageobject>
@@ -91,7 +91,7 @@
       alors ajouté dans la liste des prêts en cours.</para>
 
       <figure>
-        <title>Circulation &gt; Prêt, prêt ajouté</title>
+        <title lang="es">Circulation &gt; Prêt, prêt ajouté</title>
 
         <mediaobject>
           <imageobject>
@@ -116,7 +116,7 @@
       patience ou lancez Acrobat à l'avance.</para>
 
       <figure>
-        <title>Exemple d'un ticket de prêt.</title>
+        <title lang="es">Exemple d'un ticket de prêt.</title>
 
         <mediaobject>
           <imageobject>
@@ -131,7 +131,7 @@
       non.</para>
 
       <figure>
-        <title>Exemplaire exclu du pret : possibilité de forcer le
+        <title lang="es">Exemplaire exclu du pret : possibilité de forcer le
         prêt</title>
 
         <mediaobject>
@@ -168,7 +168,7 @@
           d'un an.</para>
 
           <figure>
-            <title>Popup de sélection de date pour prolongation d'un
+            <title lang="es">Popup de sélection de date pour prolongation d'un
             prêt</title>
 
             <mediaobject>
@@ -213,13 +213,13 @@
     </sect2>
 
     <sect2 id="circ_retour">
-      <title>Retour de document</title>
+      <title lang="es">Retour de document</title>
 
       <para>Douchetter le code barre du document retourné. La carte de lecteur
       n'est pas nécessaire.</para>
 
       <figure>
-        <title>Circulation &gt; Retour de documents</title>
+        <title lang="es">Circulation &gt; Retour de documents</title>
 
          
 
@@ -243,7 +243,7 @@
       rendu.</para>
 
       <figure>
-        <title>Circulation &gt; Retour de documents, confirmation d'un retour
+        <title lang="es">Circulation &gt; Retour de documents, confirmation d'un retour
         effectué</title>
 
          
@@ -323,14 +323,14 @@
     </sect2>
 
     <sect2 id="circ_groups">
-      <title>Groupes de lecteurs</title>
+      <title lang="es">Groupes de lecteurs</title>
 
       <para>La fonctionnalité <emphasis>Groupes de lecteurs</emphasis> permet
       à PMB de satisfaire aux gestionnaires documentaires qui veulent gérer
       leurs lecteurs par groupes : classes, familles, etc.</para>
 
       <figure>
-        <title>Circulation &gt; Groupe de lecteurs</title>
+        <title lang="es">Circulation &gt; Groupe de lecteurs</title>
 
          
 
@@ -351,10 +351,10 @@
     </sect2>
 
     <sect2 id="circ_emprcreate">
-      <title>Nouveau lecteur</title>
+      <title lang="es">Nouveau lecteur</title>
 
       <sect3 id="circ_emprcreate_1">
-        <title>Code barre pour le nouveau lecteur</title>
+        <title lang="es">Code barre pour le nouveau lecteur</title>
 
         <para>Un code barre de lecteur est demandé lorsque vous demandez la
         création d'un nouveau lecteur. Si le paramètre
@@ -375,13 +375,13 @@
       </sect3>
 
       <sect3 id="circ_emprcreate_2">
-        <title>Saisie des données du lecteur</title>
+        <title lang="es">Saisie des données du lecteur</title>
 
         <para>Vous pouvez saisir les données personnelles du lecteur depuis
         cet écran.</para>
 
         <figure>
-          <title>Circulation &gt; Nouveau lecteur</title>
+          <title lang="es">Circulation &gt; Nouveau lecteur</title>
 
            
 
@@ -503,16 +503,16 @@
   </sect1>
 
   <sect1 id="circ_visu">
-    <title>Visualiser</title>
+    <title lang="es">Visualiser</title>
 
     <sect2 id="circ_visu_ex">
-      <title>Exemplaire par code barre</title>
+      <title lang="es">Exemplaire par code barre</title>
 
       <para>Saisissez un code barre pour afficher des informations sur
       l'exemplaire correspondant.</para>
 
       <figure>
-        <title>Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
+        <title lang="es">Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
         premier écran</title>
 
          
@@ -533,7 +533,7 @@
       </figure>
 
       <figure>
-        <title>Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
+        <title lang="es">Circulation &gt; Visualiser &gt; Exemplaire par code barre ;
         écran de résultat</title>
 
          
@@ -555,7 +555,7 @@
     </sect2>
 
     <sect2 id="circ_visu_rech">
-      <title>Document par auteur/titre</title>
+      <title lang="es">Document par auteur/titre</title>
 
       <para>Vous accédez ici à un écran fonctionnant comme la partie recherche
       en catalogage. (Voir plus loin le chapitre
@@ -571,7 +571,7 @@
       d'exemplaire.</para>
 
       <figure>
-        <title>Circulation &gt; Visualiser &gt; Document par
+        <title lang="es">Circulation &gt; Visualiser &gt; Document par
         auteur/titre</title>
 
          
@@ -594,7 +594,7 @@
   </sect1>
 
   <sect1 id="circ_resa">
-    <title>Réservations</title>
+    <title lang="es">Réservations</title>
 
     <para>PMB permet de réserver des documents pour un lecteur. Les
     réservations sont accessibles dans l'onglet circulation en fiche lecteur
@@ -606,7 +606,7 @@
     PMB.</para>
 
     <sect2 id="circ_resa_encours">
-      <title>en cours</title>
+      <title lang="es">en cours</title>
 
       <para>Dans cet écran, les réservations en cours sont affichées. La place
       dans la file d'attente est spécifiée si plusieurs lecteurs ont réservé
@@ -628,7 +628,7 @@
       <emphasis>Valider les suppressions</emphasis>.</para>
 
       <figure>
-        <title>Circulation &gt; Réservations &gt; En cours</title>
+        <title lang="es">Circulation &gt; Réservations &gt; En cours</title>
 
          
 
@@ -652,7 +652,7 @@
     </sect2>
 
     <sect2 id="circ_resa_depassee">
-      <title>dépassées</title>
+      <title lang="es">dépassées</title>
 
       <para>L'écran des réservations dépassées liste les réservations qui
       n'ont pas été annulées et ont une date de validité dépassée. Vous devrez
@@ -665,7 +665,7 @@
       réservations dépassées avant la fin de ce délai.</para>
 
       <figure>
-        <title>Circulation &gt; réservations &gt; dépassées</title>
+        <title lang="es">Circulation &gt; réservations &gt; dépassées</title>
 
          
 
@@ -686,7 +686,7 @@
     </sect2>
 
     <sect2 id="circ_resa_docranger">
-      <title>doc. à ranger</title>
+      <title lang="es">doc. à ranger</title>
 
       <para>La liste des documents à ranger présente les documents réservés,
       qui ont normalement été sortis des rayons et réservés avec le nom du
@@ -696,7 +696,7 @@
       rejoindre les rayons.</para>
 
       <figure>
-        <title>Circulation &gt; réservations &gt; à ranger</title>
+        <title lang="es">Circulation &gt; réservations &gt; à ranger</title>
 
          
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Windows</title>
+  <title lang="es">Windows</title>
 
   <sect1>
-    <title>Fichier d'auto-installation : setup.exe</title>
+    <title lang="es">Fichier d'auto-installation : setup.exe</title>
 
     <para>PMB a été diffusé de la version 1.1 à la version 1.2 avec un
     installateur automatique (setup.exe) qui installait automatiquement PMB et
@@ -16,10 +16,10 @@
   </sect1>
 
   <sect1>
-    <title>Installation manuelle</title>
+    <title lang="es">Installation manuelle</title>
 
     <sect2>
-      <title>Avec EasyPHP</title>
+      <title lang="es">Avec EasyPHP</title>
 
       <para>Ce tutoriel décrit l'installation de PMB sur les plate-formes
       Windows (95/98/XP/NT/ 2000). PMB est une application qui s'exécute sur
@@ -30,7 +30,7 @@
       nous baserons donc sur l'une d'entre elles : EasyPHP.</para>
 
       <sect3>
-        <title>Ce dont nous avons besoin</title>
+        <title lang="es">Ce dont nous avons besoin</title>
 
         <para>Vous devez télécharger deux choses.</para>
 
@@ -48,7 +48,7 @@
             Windows, téléchargez le fichier avec l'extension .ZIP.</para>
 
             <figure>
-              <title>Fichier ZIP PMB</title>
+              <title lang="es">Fichier ZIP PMB</title>
 
               <mediaobject>
                 <imageobject>
@@ -67,7 +67,7 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP</title>
+        <title lang="es">Installation d'EasyPHP</title>
 
         <para>Nous allons commencer par installer EasyPHP, qui comprend le
         serveur Web Apache, La base de données MySQL, le langage PHP et
@@ -79,7 +79,7 @@
         confirmation, d'afficher ce qui suit :</para>
 
         <figure>
-          <title>Premier écran, setup d'EasyPHP</title>
+          <title lang="es">Premier écran, setup d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -93,14 +93,14 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPhp (2)</title>
+        <title lang="es">Installation d'EasyPhp (2)</title>
 
         <para>Le programme d'installation d'EasyPhp affiche l'écran vous
         permettant de confirmer votre acceptation de sa licence de diffusion
         :</para>
 
         <figure>
-          <title>Deuxième écran, setup d'EasyPHP</title>
+          <title lang="es">Deuxième écran, setup d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -114,11 +114,11 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (3)</title>
+        <title lang="es">Installation d'EasyPHP (3)</title>
 
         <para>L'écran suivant affiche quelques informations notamment sur la
         mise à jour depuis une version précédente d'EasyPHP.<figure>
-            <title>Troisième écran, setup d'EasyPHP</title>
+            <title lang="es">Troisième écran, setup d'EasyPHP</title>
 
             <mediaobject>
               <imageobject>
@@ -129,13 +129,13 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (4)</title>
+        <title lang="es">Installation d'EasyPHP (4)</title>
 
         <para>La boîte de dialogue suivante permet de définir l'emplacement où
         seront installés les composants d'EasyPHP.</para>
 
         <figure>
-          <title>Quatrième écran, setup d'EasyPHP</title>
+          <title lang="es">Quatrième écran, setup d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -149,13 +149,13 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (5)</title>
+        <title lang="es">Installation d'EasyPHP (5)</title>
 
         <para>Le dialogue suivant vous permet, quant à lui de définir où
         seront placés les raccourcis du programme.</para>
 
         <figure>
-          <title>Cinquième écran, setup d'EasyPHP</title>
+          <title lang="es">Cinquième écran, setup d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -169,13 +169,13 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPHP (6)</title>
+        <title lang="es">Installation d'EasyPHP (6)</title>
 
         <para>Le programme d'installation affiche ensuite un écran
         récapitulant les choix précédents :</para>
 
         <figure>
-          <title>Sixième écran, setup d'EasyPHP</title>
+          <title lang="es">Sixième écran, setup d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -189,10 +189,10 @@
       </sect3>
 
       <sect3>
-        <title>Installation d'EasyPhp (7)</title>
+        <title lang="es">Installation d'EasyPhp (7)</title>
 
         <figure>
-          <title>Septième écran, setup d'EasyPHP</title>
+          <title lang="es">Septième écran, setup d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -206,7 +206,7 @@
         depuis la version précédente de PHP :</para>
 
         <figure>
-          <title>Huitième écran, setup d'EasyPHP</title>
+          <title lang="es">Huitième écran, setup d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -222,7 +222,7 @@
         même préférable.</para>
 
         <figure>
-          <title>Neuvième écran</title>
+          <title lang="es">Neuvième écran</title>
 
           <mediaobject>
             <imageobject>
@@ -233,13 +233,13 @@
       </sect3>
 
       <sect3>
-        <title>Utilisation d'EasyPHP</title>
+        <title lang="es">Utilisation d'EasyPHP</title>
 
         <para>Le menu 'démarrer' comprend maintenant une nouvelle entrée pour
         EasyPhp :</para>
 
         <figure>
-          <title>Menu démarrer avec EasyPHP</title>
+          <title lang="es">Menu démarrer avec EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -253,13 +253,13 @@
       </sect3>
 
       <sect3>
-        <title>Utilisation d'EasyPHP (2)</title>
+        <title lang="es">Utilisation d'EasyPHP (2)</title>
 
         <para>Vous savez que le serveur Web tourne en regardant la barre des
         tâches :</para>
 
         <figure>
-          <title>icône d'EasyPHP à coté de l'horloge</title>
+          <title lang="es">icône d'EasyPHP à coté de l'horloge</title>
 
           <mediaobject>
             <imageobject>
@@ -275,7 +275,7 @@
         contextuel :</para>
 
         <figure>
-          <title>menu contextuel EasyPHP</title>
+          <title lang="es">menu contextuel EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -291,7 +291,7 @@
         les paramètres de l'application :</para>
 
         <figure>
-          <title>Configuration d'EasyPHP</title>
+          <title lang="es">Configuration d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -312,13 +312,13 @@
       </sect3>
 
       <sect3>
-        <title>Installation des fichiers de PMB</title>
+        <title lang="es">Installation des fichiers de PMB</title>
 
         <para>Retrouvez maintenant le fichier ZIP contenant l'archive de PMB
         :</para>
 
         <figure>
-          <title>Archive ZIP contenant les fichiers de PMB</title>
+          <title lang="es">Archive ZIP contenant les fichiers de PMB</title>
 
           <mediaobject>
             <imageobject>
@@ -336,7 +336,7 @@
         PowerArchiver,...). De façon à obtenir ceci :</para>
 
         <figure>
-          <title>Contenu de l'archive PMB</title>
+          <title lang="es">Contenu de l'archive PMB</title>
 
           <mediaobject>
             <imageobject>
@@ -355,7 +355,7 @@
       </sect3>
 
       <sect3>
-        <title>Accéder à la page de configuration des serveurs</title>
+        <title lang="es">Accéder à la page de configuration des serveurs</title>
 
         <para>Nous partons du principe que vous avez copié les fichiers de
         l'application PMB dans le dossier 'c:\pmb' et que le serveur Web
@@ -366,7 +366,7 @@
         tâches et sélectionnez l'entrée 'Administration' :</para>
 
         <figure>
-          <title>menu contextuel d'EasyPHP</title>
+          <title lang="es">menu contextuel d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -378,7 +378,7 @@
         <para>Le navigateur Internet s'ouvre sur cette page :</para>
 
         <figure>
-          <title>écran d'administration d'EasyPHP</title>
+          <title lang="es">écran d'administration d'EasyPHP</title>
 
           <mediaobject>
             <imageobject>
@@ -392,7 +392,7 @@
       </sect3>
 
       <sect3>
-        <title>Création de l'alias PMB</title>
+        <title lang="es">Création de l'alias PMB</title>
 
         <para>Cliquez sur le lien 'ajouter' à droite de la mention 'Vos alias'
         de la page d'administration d'EasyPHP.</para>
@@ -400,7 +400,7 @@
         <para>Vous voyez s'afficher le formulaire suivant :</para>
 
         <figure>
-          <title>écran d'administration d'EasyPHP, création d'un alias</title>
+          <title lang="es">écran d'administration d'EasyPHP, création d'un alias</title>
 
           <mediaobject>
             <imageobject>
@@ -424,13 +424,13 @@
       </sect3>
 
       <sect3>
-        <title>Première connexion à PMB</title>
+        <title lang="es">Première connexion à PMB</title>
 
         <para>Après validation du formulaire de création de l'alias, vous
         verrez s'afficher la page suivante :</para>
 
         <figure>
-          <title>écran d'administration d'EasyPHP, avec l'alias PMB</title>
+          <title lang="es">écran d'administration d'EasyPHP, avec l'alias PMB</title>
 
           <mediaobject>
             <imageobject>
@@ -454,7 +454,7 @@
         de connexion de PMB :</para>
 
         <figure>
-          <title>écran de login de PMB</title>
+          <title lang="es">écran de login de PMB</title>
 
           <mediaobject>
             <imageobject>
@@ -485,7 +485,7 @@
     </sect2>
 
     <sect2>
-      <title>Installation avec PHP, MySQL, PhpMyAdmin</title>
+      <title lang="es">Installation avec PHP, MySQL, PhpMyAdmin</title>
 
       <para>Vous trouverez un mode d'emploi pour installer PHP et MySQL sous
       Windows (indépendants, sans EasyPHP) à l'adresse suivante : <ulink
@@ -493,14 +493,14 @@
     </sect2>
 
     <sect2>
-      <title>Avec IIS</title>
+      <title lang="es">Avec IIS</title>
 
       <para>Internet Information Server (IIS) est le serveur web http
       professionnel de Microsoft, il est livré notamment avec les produits
       Windows 2000 Server ou Windows XP Server.</para>
 
       <sect3>
-        <title>Installer PHP sous IIS</title>
+        <title lang="es">Installer PHP sous IIS</title>
 
         <para>L'installeur Windows de PHP disponible depuis les pages de
         <ulink
@@ -520,7 +520,7 @@
       </sect3>
 
       <sect3>
-        <title>Installer MySQL sous IIS</title>
+        <title lang="es">Installer MySQL sous IIS</title>
 
         <para>Vous trouverez un didacticiel à l'adresse <ulink
         url="http://www.asp-php.net/tutorial/asp-php/iis_et_mysql.php">http://www.asp-php.net/tutorial/asp-php/iis_et_mysql.php</ulink>.</para>
@@ -529,10 +529,10 @@
   </sect1>
 
   <sect1 id="install_parametrer_base_donnees">
-    <title>Paramétrer la base de données de PMB</title>
+    <title lang="es">Paramétrer la base de données de PMB</title>
 
     <sect2>
-      <title>Installation simplifiée :
+      <title lang="es">Installation simplifiée :
       http://localhost/pmb/tables/install.php</title>
 
       <para>A l'adresse http://localhost/pmb/tables/install.php
@@ -540,7 +540,7 @@
       PMB.</para>
 
       <sect3>
-        <title>Installation de la base MySQL 'PMB'</title>
+        <title lang="es">Installation de la base MySQL 'PMB'</title>
 
         <para>Il s'agit de la page d'accueil de l'application. Pour installer
         la base utilisée par celle-ci, vous devez accéder à la page 
@@ -552,7 +552,7 @@
         cette page s'afficher :</para>
 
         <figure>
-          <title>écran de création des tables MySQL de PMB</title>
+          <title lang="es">écran de création des tables MySQL de PMB</title>
 
           <mediaobject>
             <imageobject>
@@ -574,14 +574,14 @@
       </sect3>
 
       <sect3>
-        <title>Fin de l'installation et première utilisation du
+        <title lang="es">Fin de l'installation et première utilisation du
         logiciel</title>
 
         <para>La création de la base PMB est très rapide. A son issue, vous
         devez voir s'afficher la page suivante :</para>
 
         <figure>
-          <title>second écran de création des tables (confirmation) MySQL de
+          <title lang="es">second écran de création des tables (confirmation) MySQL de
           PMB</title>
 
           <mediaobject>
@@ -623,7 +623,7 @@
     </sect2>
 
     <sect2>
-      <title>Installation avancée : fichiers SQL</title>
+      <title lang="es">Installation avancée : fichiers SQL</title>
 
       <para>Lorsque vous installez une version de PMB, pour pouvoir tester PMB
       vous pouvez vous servir des données de test. Ces données sont également
@@ -696,7 +696,7 @@
     </sect2>
 
     <sect2>
-      <title>Liste des tables remplies par les fichiers SQL</title>
+      <title lang="es">Liste des tables remplies par les fichiers SQL</title>
 
       <para>Vous trouverez ici une liste des données chargées par ces
       différents fichiers SQL. Pour charger en ligne de commande sous MySQL un
@@ -782,7 +782,7 @@
   </sect1>
 
   <sect1>
-    <title>Que faire si vous n'y arrivez pas ?</title>
+    <title lang="es">Que faire si vous n'y arrivez pas ?</title>
 
     <para>Vous pouvez tout d'abord consulter le site <ulink
     url="http://www.sigb.net/communaute">http://www.sigb.net/communaute</ulink>,

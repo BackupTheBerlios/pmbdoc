@@ -2,7 +2,7 @@
 <chapter>
   <anchor id="admin_expl"></anchor>
 
-  <title>Exemplaires</title>
+  <title lang="es">Exemplaires</title>
 
   <para><emphasis>Administration</emphasis> &gt;
   <emphasis>Exemplaires</emphasis> vous permet de personnaliser le catalogage
@@ -11,7 +11,7 @@
   propriétaires et enfin ajouter des champs personnalisables à vos
   exemplaires.</para>
 
-  <sect1 id="admin_expl_typdoc"><title>Types de document</title>
+  <sect1 id="admin_expl_typdoc"><title lang="es">Types de document</title>
   <para><emphasis role="bold">Types de documents</emphasis> permet de
   paramétrer les différents supports des exemplaires et pour chacun d'eux la
   durée du prêt en jours.</para> <para>Attention, il s'agit ici des types de
@@ -33,13 +33,13 @@
   informations recueillies lors de l'import d'exemplaires UNIMARC pour pouvoir
   faire le lien avec un type de document déjà défini. Voir le chapitre
   <emphasis>Définitions</emphasis> pour plus d'informations.</para> <figure>
-  <title>Exemplaires &gt; types de document</title> <mediaobject>
+  <title lang="es">Exemplaires &gt; types de document</title> <mediaobject>
   <imageobject> <imagedata fileref="images/admin_cat_doctypes.gif"></imagedata>
   </imageobject> </mediaobject> </figure></sect1>
 
-  <sect1 id="admin_expl_codstat"><title>Codes statistiques</title> <para>Le
+  <sect1 id="admin_expl_codstat"><title lang="es">Codes statistiques</title> <para>Le
   code statistique est utilisé pour la constitution des statistiques de prêt
-  et sur les fonds de la médiathèque.</para> <figure> <title>Exemplaires &gt;
+  et sur les fonds de la médiathèque.</para> <figure> <title lang="es">Exemplaires &gt;
   codes statistiques</title> <mediaobject> <imageobject> <imagedata
   fileref="images/admin_cat_codstat.gif"></imagedata> </imageobject> </mediaobject>
   </figure> <para>Les deux colonnes <emphasis role="">propriétaire de
@@ -49,12 +49,12 @@
   document déjà défini. Voir le chapitre <emphasis>Définitions</emphasis> pour
   plus d'informations.</para></sect1>
 
-  <sect1 id="admin_expl_section"><title>Sections</title> <para>La section est
+  <sect1 id="admin_expl_section"><title lang="es">Sections</title> <para>La section est
   le secteur de la médiathèque dont dépend le document (secteur adulte,
   jeunesse, discothèque...). Ce code est par exemple pris en compte dans la
   constitution des statistiques des BDP.</para> <para>Ce secteur peut
   correspondre à une partie physique de la médiathèque aussi grande qu'une
-  salle ou aussi petite qu'un rayonnage.</para> <figure> <title>Exemplaires
+  salle ou aussi petite qu'un rayonnage.</para> <figure> <title lang="es">Exemplaires
   &gt; sections</title> <mediaobject> <imageobject> <imagedata
   fileref="images/admin_cat_sections.gif"></imagedata> </imageobject> </mediaobject>
   </figure> <para>Les deux colonnes <emphasis role="">propriétaire de
@@ -64,9 +64,9 @@
   déjà définie. Voir le chapitre <emphasis>Définitions</emphasis> pour plus
   d'informations.</para></sect1>
 
-  <sect1 id="admin_expl_statut"><title>Statuts</title> <para>La notion de
+  <sect1 id="admin_expl_statut"><title lang="es">Statuts</title> <para>La notion de
   statut est utilisée pour spécifier si le document est empruntable ou
-  non.</para> <figure> <title>Exemplaires &gt; statuts</title> <mediaobject>
+  non.</para> <figure> <title lang="es">Exemplaires &gt; statuts</title> <mediaobject>
   <imageobject> <imagedata fileref="images/admin_cat_status.gif"></imagedata>
   </imageobject> </mediaobject> </figure> <para>Ce statut concerne
   généralement un état physique (détérioré, bon état, perdu) ou une position
@@ -79,9 +79,9 @@
   statut déjà défini. Voir le chapitre <emphasis>Définitions</emphasis> pour
   plus d'informations.</para></sect1>
 
-  <sect1 id="admin_expl_location"><title>Localisations</title> <para>La
+  <sect1 id="admin_expl_location"><title lang="es">Localisations</title> <para>La
   localisation peut être utilisée pour attacher le document à un emplacement
-  particulier (exemple : en réserve).</para> <figure> <title>Exemplaires &gt;
+  particulier (exemple : en réserve).</para> <figure> <title lang="es">Exemplaires &gt;
   localisations</title><mediaobject><imageobject><imagedata
   fileref="images/admin_cat_loc.gif"></imagedata> </imageobject> </mediaobject>
   </figure> <para>Cette notion de localisation est très importante pour les
@@ -100,7 +100,7 @@
   </emphasis>correspondent à la gestion des informations recueillies lors de
   l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un type de
   document déjà défini. Voir le chapitre <emphasis>Définitions</emphasis> pour
-  plus d'informations.</para><figure><title>Exemplaires &gt; localisations,
+  plus d'informations.</para><figure><title lang="es">Exemplaires &gt; localisations,
   modifier la localisation</title><mediaobject><imageobject><imagedata
   fileref="images/admin_expl_loc_modifier.gif"></imagedata></imageobject></mediaobject></figure><para>Vous
   pouvez définir pour chaque localisation différents paramètres. Ces
@@ -109,20 +109,20 @@
   PMB vient chercher la valeur qui correspond à sa
   localisation.</para></sect1>
 
-  <sect1 id="admin_expl_lenders"><title>Propriétaires</title> <para>Vous
+  <sect1 id="admin_expl_lenders"><title lang="es">Propriétaires</title> <para>Vous
   trouverez ici la liste des propriétaires des exemplaires gérés dans le
   catalogue. Vous pouvez ici mentionner le dépôt de votre BDP, une collection
   issue d'un legs, d'un don ou d'une dation que vous souhaitez
-  identifier...</para> <figure> <title>Exemplaires &gt; propriétaires</title>
+  identifier...</para> <figure> <title lang="es">Exemplaires &gt; propriétaires</title>
   <mediaobject> <imageobject> <imagedata
   fileref="images/admin_expl_propr.jpg"></imagedata> </imageobject> </mediaobject>
   </figure></sect1>
 
-  <sect1 id="admin_expl_perso"><title>Personnalisables</title> <para>Il s'agit
+  <sect1 id="admin_expl_perso"><title lang="es">Personnalisables</title> <para>Il s'agit
   ici des informations propres à votre bibliothèque sur les exemplaires. Ceci
   vous permet de spécifier des données propres à votre gestion : origine du
   don ou du financement de l'acquisition, ...</para> <figure>
-  <title>Exemplaires &gt; Personnalisables</title> <mediaobject> <imageobject>
+  <title lang="es">Exemplaires &gt; Personnalisables</title> <mediaobject> <imageobject>
   <imagedata fileref="images/admin_expl_perso.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Prenons un exemple. Ajoutons un champs
   intitulé <emphasis>Type de couverture </emphasis>qui nous permettra de
@@ -131,7 +131,7 @@
   correspondent pas forcément à des livres, on ajoutera donc un autre choix :
   non concerné.</para> <para>Cliquez sur <emphasis>nouveau champ</emphasis>
   <graphic fileref="images/nouveau_champ.gif"></graphic></para> <para>L'écran suivant
-  est affiché :</para> <figure> <title>Exemplaires &gt; Personnalisables,
+  est affiché :</para> <figure> <title lang="es">Exemplaires &gt; Personnalisables,
   nouveau champ</title> <mediaobject> <imageobject> <imagedata
   fileref="images/admin_expl_nouveau_champ.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Dans nom du champ, saisir
@@ -139,7 +139,7 @@
   ponctuation dans un nom de champs), dans titre à l'affichage saisir
   <emphasis>Type de couverture</emphasis>.</para> <para>Choisissez pour type
   de saisie une <emphasis>liste de choix</emphasis>. Puis cliquer sur
-  <emphasis>Options</emphasis>.</para> <figure> <title>Options du type liste
+  <emphasis>Options</emphasis>.</para> <figure> <title lang="es">Options du type liste
   de choix</title> <mediaobject> <imageobject> <imagedata
   fileref="images/chp_perso_options_liste.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Cliquer sur <emphasis>Ajouter</emphasis> 4
@@ -154,10 +154,10 @@
   de l'utilisateur de PMB</emphasis>.</para> <para>Dans catalogage &gt;
   ouvrage &gt; nouvelle notice, après avoir défini une nouvelle notice, vous
   pouvez ajouter un exemplaire. Vous verrez alors votre nouveau champs
-  personnalisé.</para> <figure> <title>Édition d'un exemplaire, le champs
+  personnalisé.</para> <figure> <title lang="es">Édition d'un exemplaire, le champs
   personnalisé Type de Couverture a été ajouté</title> <mediaobject>
   <imageobject> <imagedata fileref="images/chp_perso_expl.gif"></imagedata>
-  </imageobject> </mediaobject> </figure> <sect2> <title>Types de saisie des
+  </imageobject> </mediaobject> </figure> <sect2> <title lang="es">Types de saisie des
   champs personnalisés</title> <para>Il existe d'autres types de saisie pour
   un champs personnalisé que liste de choix.</para> <para>Les champs
   personnalisés peuvent être de cinq types :</para> <itemizedlist> <listitem>
@@ -167,19 +167,19 @@
   <listitem> <para>zone de commentaire</para> </listitem> </itemizedlist>
   <para>Chacun de ces types possède différentes options. Cliquez sur
   <emphasis>options </emphasis>pour spécifier les paramètres de ces
-  champs.</para> <sect3> <title>Type texte</title> <figure> <title>Options du
+  champs.</para> <sect3> <title lang="es">Type texte</title> <figure> <title lang="es">Options du
   type texte</title> <mediaobject> <imageobject> <imagedata
   fileref="images/chp_perso_options_texte.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Vous pouvez spécifier pour un champ de type
   texte sa taille à l'écran. Vous pouvez aussi spécifier le nombre maximum de
   caractères à saisir (si ce dernier est plus grand que la taille affichée à
   l'écran, vous pourrez continuer à saisir même arrivé au bout de la case de
-  saisie).</para> </sect3> <sect3> <title>Type liste de choix</title>
+  saisie).</para> </sect3> <sect3> <title lang="es">Type liste de choix</title>
   <para><emphasis role="bold">Attention</emphasis> on ne peut pas créer des
   options de choix tant que le champ n'a pas été enregistré. Depuis l'écran
   d'ajout d'un paramètre, enregistrer le champ personnalisé. Cliquer ensuite
   sur son nom pour le modifier et spécifier des options.</para> <figure>
-  <title>Options du type liste de choix</title> <mediaobject> <imageobject>
+  <title lang="es">Options du type liste de choix</title> <mediaobject> <imageobject>
   <imagedata fileref="images/chp_perso_options_liste.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Vous pouvez spécifier pour une liste de choix
   :</para> <itemizedlist> <listitem> <para>si la liste est à choix multiple
@@ -198,8 +198,8 @@
   choix que vous avez coché en cliquant sur la case à cocher en début de
   chacune des lignes correspondantes</para> </listitem> <listitem>
   <para>enregistrer vos changements</para> </listitem> </itemizedlist>
-  </sect3> <sect3> <title>Type liste de choix à partir d'une requête</title>
-  <figure> <title>Options du type liste de choix à partir d'une
+  </sect3> <sect3> <title lang="es">Type liste de choix à partir d'une requête</title>
+  <figure> <title lang="es">Options du type liste de choix à partir d'une
   requête</title> <mediaobject> <imageobject> <imagedata
   fileref="images/chp_perso_options_liste_req.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Vous pouvez spécifier pour une liste de choix
@@ -215,19 +215,19 @@
   requête sont alors affichés sous le bouton. Ceci vous permet de vérifier la
   validité de votre requête.</para> </listitem> <listitem> <para>enregistrer
   vos changements</para> </listitem> </itemizedlist> </sect3> <sect3>
-  <title>Type date</title> <figure> <title>Options du type sélection d'une
+  <title lang="es">Type date</title> <figure> <title lang="es">Options du type sélection d'une
   date</title> <mediaobject> <imageobject> <imagedata
   fileref="images/chp_perso_options_date.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Il n'y a pas d'options particulières pour les
   champs personnalisés de type date. Un clic sur le bouton Options affiche
-  uniquement le message ci-dessus.</para> </sect3> <sect3> <title>Type zone de
-  commentaire</title> <figure> <title>Options du type zone de
+  uniquement le message ci-dessus.</para> </sect3> <sect3> <title lang="es">Type zone de
+  commentaire</title> <figure> <title lang="es">Options du type zone de
   commentaire</title> <mediaobject> <imageobject> <imagedata
   fileref="images/chp_perso_options_comm.gif"></imagedata> </imageobject>
   </mediaobject> </figure> <para>Les champs de type zone de commentaire
   fonctionnent de la même manière que les champs texte. On peut préciser de
   plus un nombre de lignes du champs commentaire.</para> </sect3> </sect2>
-  <sect2> <title>Types de données, visible dans l'OPAC, obligatoire</title>
+  <sect2> <title lang="es">Types de données, visible dans l'OPAC, obligatoire</title>
   <para>Cinq types de données peuvent être stockées en base dans PMB : texte,
   texte large, entier, date, nombre à virgule.</para> <para><emphasis>Visible
   dans l'OPAC</emphasis> permet de choisir si ce champs sera visible par les
@@ -236,7 +236,7 @@
   ...</para> <para><emphasis>Obligatoire</emphasis> spécifie que le champs
   devra être rempli. Si ce champs n'est pas rempli lors de la saisie ou de la
   modification d'un exemplaire, un message d'erreur est affiché.</para>
-  <figure> <title>Alerte pour un champs obligatoire non rempli</title>
+  <figure> <title lang="es">Alerte pour un champs obligatoire non rempli</title>
   <mediaobject> <imageobject> <imagedata
   fileref="images/alerte_champs.gif"></imagedata> </imageobject> </mediaobject>
   </figure> </sect2></sect1>

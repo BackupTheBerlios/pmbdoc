@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="cat">
-  <title>Catalogage</title>
+  <title lang="es">Catalogage</title>
 
   <para>Le catalogage désigne l'ensemble des techniques de constitution d'un
   catalogue de documents de la bibliothèque qui va permettre de faire des
@@ -13,10 +13,10 @@
   voir <xref linkend="cat_caddies" />.</para>
 
   <sect1 id="cat_ouvrages">
-    <title>Ouvrages</title>
+    <title lang="es">Ouvrages</title>
 
     <sect2 id="cat_search">
-      <title>Recherche</title>
+      <title lang="es">Recherche</title>
 
       <para>La recherche porte sur l'ensemble des notices de PMB :
       monographies, notices mère de périodique, notices des articles.</para>
@@ -26,10 +26,10 @@
       linkend="exp_bool" />.</para>
 
       <sect3 id="cat_search_tit">
-        <title>Auteur/titre</title>
+        <title lang="es">Auteur/titre</title>
 
         <sect4>
-          <title>Recherche par titre</title>
+          <title lang="es">Recherche par titre</title>
 
           <para>Voici l'écran qui vous apparaît lorsque vous cliquez sur
           l'onglet catalogage. Il permet d'effectuer une recherche et est
@@ -37,7 +37,7 @@
           latéral sur "rechercher".</para>
 
           <figure>
-            <title>catalogage &gt; ouvrages &gt; recherche par titre</title>
+            <title lang="es">catalogage &gt; ouvrages &gt; recherche par titre</title>
 
             <mediaobject>
               <imageobject>
@@ -53,7 +53,7 @@
           Herzhaft</emphasis>, qui est renvoyé.</para>
 
           <figure>
-            <title>Résultat d'une recherche</title>
+            <title lang="es">Résultat d'une recherche</title>
 
             <mediaobject>
               <imageobject>
@@ -72,7 +72,7 @@
           l'ouvrage.</para>
 
           <figure>
-            <title>Liste des exemplaires d'un ouvrage</title>
+            <title lang="es">Liste des exemplaires d'un ouvrage</title>
 
             <mediaobject>
               <imageobject>
@@ -97,7 +97,7 @@
         </sect4>
 
         <sect4>
-          <title>Recherche par auteur, par ISBN, EAN ou numéro
+          <title lang="es">Recherche par auteur, par ISBN, EAN ou numéro
           d'exemplaire</title>
 
           <para>La <emphasis role="bold">Recherche par auteur</emphasis>
@@ -113,7 +113,7 @@
       </sect3>
 
       <sect3 id="cat_search_categ">
-        <title>Catégorie/Sujet</title>
+        <title lang="es">Catégorie/Sujet</title>
 
         <para>Les catégories disponibles sont affichées (elles sont
         modifiables dans l'onglet autorités).</para>
@@ -125,7 +125,7 @@
         cliquez sur son nom pour afficher les résultats.</para>
 
         <figure>
-          <title>catalogage &gt; ouvrages &gt; recherche par
+          <title lang="es">catalogage &gt; ouvrages &gt; recherche par
           catégorie/sujet</title>
 
           <mediaobject>
@@ -137,13 +137,13 @@
       </sect3>
 
       <sect3 id="cat_search_terms">
-        <title>Termes du thésaurus</title>
+        <title lang="es">Termes du thésaurus</title>
 
         <para>La recherche par termes du thésaurus permet de naviguer entre
         les renvois du thésaurus.</para>
 
         <para><figure>
-            <title>catalogage &gt; ouvrages &gt; recherche par termes du
+            <title lang="es">catalogage &gt; ouvrages &gt; recherche par termes du
             thésaurus</title>
 
             <mediaobject>
@@ -170,14 +170,14 @@
       </sect3>
 
       <sect3 id="cat_search_publisher">
-        <title>Editeur/Collection</title>
+        <title lang="es">Editeur/Collection</title>
 
         <para>La recherche Editeur/Collection affiche une liste des éditeurs
         et collections de la même manière que les recherches sur les
         catégories.</para>
 
         <figure>
-          <title>catalogage &gt; ouvrages &gt; recherche par
+          <title lang="es">catalogage &gt; ouvrages &gt; recherche par
           éditeur/collection</title>
 
           <mediaobject>
@@ -189,7 +189,7 @@
       </sect3>
 
       <sect3 id="cat_search_caddie">
-        <title>Paniers de notices</title>
+        <title lang="es">Paniers de notices</title>
 
         <para><emphasis>Recherche</emphasis> &gt; <emphasis>Paniers de
         notices</emphasis> permet d'afficher le contenu d'un panier de notices
@@ -197,7 +197,7 @@
         de notices, de bulletins ou d'exemplaires.</para>
 
         <figure>
-          <title>catalogage &gt; ouvrages &gt; recherche par paniers de
+          <title lang="es">catalogage &gt; ouvrages &gt; recherche par paniers de
           notices</title>
 
           <mediaobject>
@@ -209,14 +209,14 @@
       </sect3>
 
       <sect3 id="cat_search_multi">
-        <title>Multi-critères</title>
+        <title lang="es">Multi-critères</title>
 
         <para>La recherche multi-critères est une recherche combinatoire. Vous
         pouvez sélectionner des champs de recherches&nbsp;: titre, auteur,
         champs personnalisés...</para>
 
         <figure>
-          <title>Ouvrages &gt; Recherche &gt; Multi-critères</title>
+          <title lang="es">Ouvrages &gt; Recherche &gt; Multi-critères</title>
 
           <mediaobject>
             <imageobject>
@@ -236,7 +236,7 @@
             des exemplaires et aux champs personnalisés.</para>
 
             <para><figure>
-                <title>Champs de recherche possible</title>
+                <title lang="es">Champs de recherche possible</title>
 
                 <mediaobject>
                   <imageobject>
@@ -252,7 +252,7 @@
             au moins des mots", "contient tous les mots", "commence par",
             "fini par" ou "exactement comme". Ce type de recherche varie selon
             le champs concerné<figure>
-                <title>Types de recherche pour le champs Titre</title>
+                <title lang="es">Types de recherche pour le champs Titre</title>
 
                 <mediaobject>
                   <imageobject>
@@ -285,7 +285,7 @@
         dans PMB avec la version 2.0.</para>
 
         <sect4>
-          <title>Recherche simple</title>
+          <title lang="es">Recherche simple</title>
 
           <para>Par défaut, le moteur cherche les éléments qui contiennent
           <emphasis role="bold">au moins</emphasis> (OU implicite) un des mots
@@ -312,7 +312,7 @@
         </sect4>
 
         <sect4>
-          <title>Cas du tiret</title>
+          <title lang="es">Cas du tiret</title>
 
           <para>Le tiret est considéré comme un opérateur entre deux mots
           (voir plus bas le chapitre : Opérateurs logiques entre deux mots).
@@ -322,7 +322,7 @@
         </sect4>
 
         <sect4>
-          <title>Troncature</title>
+          <title lang="es">Troncature</title>
 
           <para>Les mots peuvent être tronqués à gauche, droite ou
           partiellement par le caractère *</para>
@@ -343,7 +343,7 @@
         </sect4>
 
         <sect4 id="cat_recherche_termesexacts">
-          <title>Recherche avec des termes exacts</title>
+          <title lang="es">Recherche avec des termes exacts</title>
 
           <para>Un terme exact est défini par un texte entouré de guillemets.
           Si le moteur de recherche rencontre un terme exact, il cherche les
@@ -374,7 +374,7 @@
         </sect4>
 
         <sect4>
-          <title>Négation</title>
+          <title lang="es">Négation</title>
 
           <para>Le symbole ~ devant un terme représente un négation de ce
           terme. Cela signifie la recherche de tous les éléments ne contenant
@@ -386,7 +386,7 @@
         </sect4>
 
         <sect4>
-          <title>Opérateurs logiques entre deux mots</title>
+          <title lang="es">Opérateurs logiques entre deux mots</title>
 
           <para>Des opérateurs logiques peuvent être utilisés entre les mots
           :</para>
@@ -423,7 +423,7 @@
         </sect4>
 
         <sect4>
-          <title>Regroupements</title>
+          <title lang="es">Regroupements</title>
 
           <para>Une expression peut-être regroupée pour devenir un terme. Ce
           regroupement se fait avec les parenthèses. Cela permet de changer
@@ -461,7 +461,7 @@
         </sect4>
 
         <sect4>
-          <title>Pertinence</title>
+          <title lang="es">Pertinence</title>
 
           <para>Les résultats sont trié par ordre de pertinence puis par ordre
           alphabétique. La pertinence est calculée simplement par le nombre
@@ -489,10 +489,10 @@
     </sect2>
 
     <sect2>
-      <title>Nouvelle notice</title>
+      <title lang="es">Nouvelle notice</title>
 
       <sect3>
-        <title>Saisie d'une nouvelle notice</title>
+        <title lang="es">Saisie d'une nouvelle notice</title>
 
         <para>La saisie d'une nouvelle notice se fait en deux écrans : un
         numéro d'identification (ISBN) est d'abord demandé mais il n'est pas
@@ -500,7 +500,7 @@
         en ISBN.</para>
 
         <sect4 id="cat_create">
-          <title>Saisie de l'ISBN, de l'EAN ou d'un numéro commercial</title>
+          <title lang="es">Saisie de l'ISBN, de l'EAN ou d'un numéro commercial</title>
 
           <para>Si le numéro d'identification saisi correspond à un ouvrage
           déjà saisi en base, la notice est alors directement ouverte en
@@ -508,7 +508,7 @@
           catalogage.</para>
 
           <figure>
-            <title>Ouvrages &gt; Nouvelle notice</title>
+            <title lang="es">Ouvrages &gt; Nouvelle notice</title>
 
             <mediaobject>
               <imageobject>
@@ -522,13 +522,13 @@
         </sect4>
 
         <sect4 id="cat_create_form">
-          <title>Saisies des données de la notice</title>
+          <title lang="es">Saisies des données de la notice</title>
 
-          <figure><title>Ouvrages &gt; Nouvelle notice (écran
+          <figure><title lang="es">Ouvrages &gt; Nouvelle notice (écran
           2)</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_2.jpg"></imagedata></imageobject></mediaobject></figure>
 
-          <sect5><title>Choix d'un support de document</title><para>Dans la
+          <sect5><title lang="es">Choix d'un support de document</title><para>Dans la
           liste déroulante située en haut du formulaire, vous pouvez choisir
           entre différents types de support
           :</para><itemizedlist><listitem><para>texte
@@ -550,7 +550,7 @@
           pas confondre avec type de document, qui correspond à
           l'exemplaire.</para></sect5>
 
-          <sect5><title>Titre</title><para>Le titre propre est le titre
+          <sect5><title lang="es">Titre</title><para>Le titre propre est le titre
           principal d'un ouvrage.</para><para>Même si le titre est
           généralement présent sur la couverture ou la tranche de l'ouvrage,
           il faut le lire sur la page de titre car il est parfois différent du
@@ -564,10 +564,10 @@
           même auteur. Par exemple <emphasis>Les aventures de
           Tintin</emphasis> de <emphasis>Hergé</emphasis>. Le champs "Partie
           de" est différent des champs de titre. Pour spécifier un titre de
-          série, cliquez sur le bouton "..."</para><figure><title>Définir un
+          série, cliquez sur le bouton "..."</para><figure><title lang="es">Définir un
           titre de série</title><mediaobject><imageobject><imagedata
           fileref="images/titres_serie.gif"></imagedata></imageobject></mediaobject></figure><para>Choisissez
-          ensuite un titre de série dans le popup.</para><figure><title>Popup
+          ensuite un titre de série dans le popup.</para><figure><title lang="es">Popup
           de sélection de titre de
           série</title><mediaobject><imageobject><imagedata
           fileref="images/popup-serie.gif"></imagedata></imageobject></mediaobject></figure><para>Si
@@ -581,7 +581,7 @@
           Titres de série</emphasis>. Pour plus d'informations, voir <xref
           linkend="autorites"></xref>.</para><para>Le titre de série
           sélectionné est ensuite affiché dans le formulaire de la
-          notice.</para><figure><title>La saisie d'un auteur se fait soit lors
+          notice.</para><figure><title lang="es">La saisie d'un auteur se fait soit lors
           du catalogage, soit avec l'onglet "autorités" Le titre de série
           sélectionné est affiché</title><mediaobject><imageobject><imagedata
           fileref="images/titres_serie2.gif"></imagedata></imageobject></mediaobject></figure><para>Pour
@@ -590,8 +590,8 @@
           partie</emphasis>. Par exemple, <emphasis>Les aventures de
           Tintin</emphasis>, n° <emphasis>11</emphasis>.</para></sect5>
 
-          <sect5><title>Saisie d'un auteur (mention de
-          responsabilité)</title><figure><title>Catalogue &gt; Nouvelle
+          <sect5><title lang="es">Saisie d'un auteur (mention de
+          responsabilité)</title><figure><title lang="es">Catalogue &gt; Nouvelle
           notice, sélection des
           auteurs</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_resp.gif"></imagedata></imageobject></mediaobject></figure><para>Pour
@@ -599,20 +599,20 @@
           sélectionnez l'auteur dans le popup de recherche d'auteur. Pour
           rechercher un auteur, tapez quelques lettres de son nom puis cliquez
           sur <emphasis>Rechercher</emphasis>. Les résultats de la recherche
-          sont alors affichés.</para><figure><title>Catalogue &gt; Nouvelle
+          sont alors affichés.</para><figure><title lang="es">Catalogue &gt; Nouvelle
           notice, popup de sélection d'un
           auteur</title><mediaobject><imageobject><imagedata
           fileref="images/popup_authors.gif"></imagedata></imageobject></mediaobject></figure><para>Si
           l'auteur de l'ouvrage que vous souhaitez cataloguer n'est pas déjà
           enregistré, ajoutez le en cliquant sur le bouton <emphasis>Ajouter
-          un auteur</emphasis>.</para><figure><title>Catalogue &gt; Nouvelle
+          un auteur</emphasis>.</para><figure><title lang="es">Catalogue &gt; Nouvelle
           notice, ajout d'un auteur depuis le
           popup</title><mediaobject><imageobject><imagedata
           fileref="images/popup-new-author.gif"></imagedata></imageobject></mediaobject></figure><para>La
           saisie d'un auteur se fait soit lors du catalogage, soit avec
           l'onglet "autorités". Pour plus d'informations sur la création d'un
           auteur, voir <xref
-          linkend="autorites_ajout_auteur"></xref>.</para><figure><title>Catalogue
+          linkend="autorites_ajout_auteur"></xref>.</para><figure><title lang="es">Catalogue
           &gt; Nouvelle notice, auteur
           sélectionné</title><mediaobject><imageobject><imagedata
           fileref="images/cat-new-resp-filled.gif"></imagedata></imageobject></mediaobject></figure><para>Si
@@ -621,7 +621,7 @@
           davantage d'un metteur en scène. Il s'agit alors de la fonction de
           l'auteur par rapport à l'ouvrage dont il le responsable. Puis
           sélectionner une fonction (non obligatoire), cliquer sur le bouton
-          "...".</para><figure><title>Popup de sélection d'une fonction pour
+          "...".</para><figure><title lang="es">Popup de sélection d'une fonction pour
           l'auteur</title><mediaobject><imageobject><imagedata
           fileref="images/popup-fonction.gif"></imagedata></imageobject></mediaobject></figure><para>Quelques
           remarques :</para><itemizedlist><listitem><para>il ne peut y avoir
@@ -634,8 +634,8 @@
           ou une fonction sélectionné, cliquez sur le bouton
           "X"</para></listitem></itemizedlist></sect5>
 
-          <sect5><title>Saisie d'un éditeur, des collections, sous-collection
-          et titres de série</title><figure><title>Catalogue &gt; Nouvelle
+          <sect5><title lang="es">Saisie d'un éditeur, des collections, sous-collection
+          et titres de série</title><figure><title lang="es">Catalogue &gt; Nouvelle
           notice, pavé Éditeurs,
           collection</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_publisher.gif"></imagedata></imageobject></mediaobject></figure><para>La
@@ -678,35 +678,35 @@
           numéro de partie comme le titre de propre sont à saisir lors de la
           rédaction de la notice d'ouvrage.</para></sect5>
 
-          <sect5><title>ISBN, EAN ou no. commercial</title><para>L'ISBN, qui a
+          <sect5><title lang="es">ISBN, EAN ou no. commercial</title><para>L'ISBN, qui a
           été demandé dans le premier écran lors d'une création de notice, est
           affiché ici. Cliquez sur le bouton "..." pour ouvrir un popup et
           pouvoir douchetter l'EAN de l'ouvrage, ou saisir son ISBN. Cette
           saisie se fait dans un popup pour éviter que la validation qui suit
           une lecture de code-barres ne ferme la notice en cours
           d'édition.</para><para>PMB convertit les EAN saisis (code-barres
-          commercial) automatiquement en ISBN.</para><figure><title>Catalogue
+          commercial) automatiquement en ISBN.</para><figure><title lang="es">Catalogue
           &gt; Nouvelle notice, pavé ISBN</title>
           <mediaobject><imageobject><imagedata
           fileref="images/cat_new_isbn.gif"></imagedata></imageobject></mediaobject></figure></sect5>
 
-          <sect5><title>Collation</title><para>La collation précise
+          <sect5><title lang="es">Collation</title><para>La collation précise
           différentes informations liées à l'aspect physique du document :
           importance matérielle, illustrations, format, prix, matériel
-          d'accompagnement.</para><figure><title>Catalogue &gt; Nouvelle
+          d'accompagnement.</para><figure><title lang="es">Catalogue &gt; Nouvelle
           notice, pavé Collation</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_collation.gif"></imagedata></imageobject></mediaobject></figure></sect5>
 
-          <sect5><title>Notes</title><para>Les notes sont de trois types :
+          <sect5><title lang="es">Notes</title><para>Les notes sont de trois types :
           <emphasis>générale</emphasis>, liée au <emphasis>contenu</emphasis>
           (appréciation, critique), ou <emphasis>un résumé, un extrait
           </emphasis>du document (par exemple le résumé d'un roman en
-          quatrième de couverture).</para><figure><title>Catalogue &gt;
+          quatrième de couverture).</para><figure><title lang="es">Catalogue &gt;
           Nouvelle notice, pavé
           Notes</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_notes.gif"></imagedata></imageobject></mediaobject></figure></sect5>
 
-          <sect5><title>Indexation</title><para>Le pavé d'indexation est
+          <sect5><title lang="es">Indexation</title><para>Le pavé d'indexation est
           composé de trois indexations différentes
           :</para><itemizedlist><listitem><para><emphasis
           role="bold">Catégories</emphasis> : ajout d'une catégorie du
@@ -724,35 +724,35 @@
           des mots clés librement, séparés par des espaces. Vous pouvez par
           exemple spécifier des mots clés, ou une indexation libre d'un
           thésaurus non intégré à PMB (vedettes Blanc-Montmayeur par
-          exemple).</para></listitem></itemizedlist><figure><title>Catalogue
+          exemple).</para></listitem></itemizedlist><figure><title lang="es">Catalogue
           &gt; Nouvelle notice, pavé
           Indexation</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_indexation.gif"></imagedata></imageobject></mediaobject></figure></sect5>
 
-          <sect5><title>Langue de la publication</title><para>Vous pouvez ici
+          <sect5><title lang="es">Langue de la publication</title><para>Vous pouvez ici
           spécifier une langue d'origine de la publication, celle-ci est
           définie par défaut dans les préférences de l'utilisateur. Pour plus
           d'informations, consulter le chapitre <emphasis>Préférences
           utilisateurs</emphasis>.</para><para>Les codes langues sont définis
           par la norme UNIMARC.</para><para>Vous pouvez également définir une
           langue originale, si l'ouvrage décrit est une
-          traduction.</para><figure><title>Catalogue &gt; Nouvelle notice,
+          traduction.</para><figure><title lang="es">Catalogue &gt; Nouvelle notice,
           pavé Langues</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_langue.gif"></imagedata></imageobject></mediaobject></figure></sect5>
 
-          <sect5><title>Liens (ressources électroniques)</title><para>L'URL
+          <sect5><title lang="es">Liens (ressources électroniques)</title><para>L'URL
           associée doit être saisie dans son intégralité de préférence (y
           compris le http://) pour être sur du fonctionnement des liens, quel
           que soit le navigateur internet de l'utilisateur.</para><para>Le
           format électronique de la ressource est laissé à la discrétion du
           catalogueur. Préférer un début de champ tel que "fichier", par
           exemple "fichier PDF" ou "fichier Acrobat", et des mentions
-          génériques : "site internet".</para><figure><title>Catalogue &gt;
+          génériques : "site internet".</para><figure><title lang="es">Catalogue &gt;
           Nouvelle notice, pavé
           Liens</title><mediaobject><imageobject><imagedata
           fileref="images/cat_new_liens.gif"></imagedata></imageobject></mediaobject></figure></sect5>
 
-          <sect5><title>Champs personnalisés</title><para>Enfin, le cas
+          <sect5><title lang="es">Champs personnalisés</title><para>Enfin, le cas
           échéant, en bas de la notice, vous pouvez définir les valeurs de vos
           champs personnalisés.</para><para>Les champs personnalisables des
           notices sont des informations supplémentaires, vous pouvez les créer
@@ -762,7 +762,7 @@
           consulter le <emphasis>Guide de l'Administrateur</emphasis>,
           chapitre <emphasis>Notices</emphasis>.</para><para>Si aucun champs
           personnalisé n'est défini, ce pavé n'est pas
-          affiché.</para><figure><title>Catalogue &gt; Nouvelle notice, pavé
+          affiché.</para><figure><title lang="es">Catalogue &gt; Nouvelle notice, pavé
           Champs personnalisables</title> <mediaobject><imageobject><imagedata
           fileref="images/cat_new_perso.gif"></imagedata></imageobject></mediaobject></figure></sect5>
 
@@ -773,13 +773,13 @@
       </sect3>
 
       <sect3 id="cat_isdbd">
-        <title>Liste des exemplaires d'un ouvrage</title>
+        <title lang="es">Liste des exemplaires d'un ouvrage</title>
 
         <para>l'écran suivant présente la notice au format ISBD et les
         éventuels exemplaires qui lui correspondent.</para>
 
         <figure>
-          <title>catalogue &gt; ouvrages, liste des exemplaires d'un
+          <title lang="es">catalogue &gt; ouvrages, liste des exemplaires d'un
           ouvrage</title>
 
           <mediaobject>
@@ -811,7 +811,7 @@
         sur son titre.</para>
 
         <sect4 id="cat_expl_create">
-          <title>Ajout d'un exemplaire</title>
+          <title lang="es">Ajout d'un exemplaire</title>
 
           <para>Pour modifier un des exemplaires de l'ouvrage, cliquez sur son
           code barre. Pour ajouter un exemplaire, saisissez le <emphasis>N° de
@@ -819,7 +819,7 @@
           exemplaire</emphasis>.</para>
 
           <figure>
-            <title>Ajout d'un exemplaire : saisie du no d'exemplaire</title>
+            <title lang="es">Ajout d'un exemplaire : saisie du no d'exemplaire</title>
 
             <mediaobject>
               <imageobject>
@@ -834,7 +834,7 @@
           exemplaires de votre bibliothèque (numéro d'inventaire).</para>
 
           <figure>
-            <title>Ajouter un exemplaire</title>
+            <title lang="es">Ajouter un exemplaire</title>
 
             <mediaobject>
               <imageobject>
@@ -946,7 +946,7 @@
         </sect4>
 
         <sect4 id="cat_explnum_create">
-          <title>Ajout d'un exemplaire numérique</title>
+          <title lang="es">Ajout d'un exemplaire numérique</title>
 
           <para>Les exemplaires numériques ne sont pas des liens, mais des
           documents numériques directement intégrés dans votre catalogue sous
@@ -956,7 +956,7 @@
           votre tableur, des images...</para>
 
           <figure>
-            <title>Saisie d'un exemplaire numérique</title>
+            <title lang="es">Saisie d'un exemplaire numérique</title>
 
             <mediaobject>
               <imageobject>
@@ -1007,14 +1007,14 @@
         </sect4>
 
         <sect4 id="cat_edit_expl">
-          <title>Modifier un exemplaire</title>
+          <title lang="es">Modifier un exemplaire</title>
 
           <para>L'écran de modification est identique à celui d'ajout d'un
           exemplaire.</para>
         </sect4>
 
         <sect4>
-          <title>Modifier un exemplaire numérique</title>
+          <title lang="es">Modifier un exemplaire numérique</title>
 
           <para>L'écran de modification d'un exemplaire numérique est
           identique à celui d'ajout d'un exemplaire numérique.</para>
@@ -1023,13 +1023,13 @@
     </sect2>
 
     <sect2 id="cat_last_records">
-      <title>Dernières notices</title>
+      <title lang="es">Dernières notices</title>
 
       <para>Cet élément du menu permet d'accéder aux dernières notices
       saisies.</para>
 
       <figure>
-        <title>Catalogage &gt; Ouvrages &gt; Dernières notices</title>
+        <title lang="es">Catalogage &gt; Ouvrages &gt; Dernières notices</title>
 
         <mediaobject>
           <imageobject>
@@ -1045,7 +1045,7 @@
   </sect1>
 
   <sect1 id="cat_serial">
-    <title>Périodiques</title>
+    <title lang="es">Périodiques</title>
 
     <para>PMB permet de saisir des informations générales liées au périodique
     ; des informations liées au numéro tel que sorti en kiosque par exemple ;
@@ -1053,7 +1053,7 @@
     numéro.</para>
 
     <sect2 id="cat_serial_vocabulary">
-      <title>Un peu de vocabulaire</title>
+      <title lang="es">Un peu de vocabulaire</title>
 
       <para>On désigne sous le terme de périodique toute publication en série
       (y compris non-imprimée) dont la parution se fait à intervalles plus ou
@@ -1119,7 +1119,7 @@
       (exemplarisation), le catalogage de l'article (dépouillement).</para>
 
       <figure>
-        <title>Navigation dans les écrans d'affichage des périodiques</title>
+        <title lang="es">Navigation dans les écrans d'affichage des périodiques</title>
 
         <mediaobject>
           <imageobject>
@@ -1137,7 +1137,7 @@
     </sect2>
 
     <sect2 id="cat_serial_search">
-      <title>Recherche de périodiques</title>
+      <title lang="es">Recherche de périodiques</title>
 
       <para>La recherche d'ouvrages permet de rechercher dans l'ensemble du
       catalogue, y compris articles et périodiques.</para>
@@ -1148,7 +1148,7 @@
       dépouiller les articles d'un numéro.</para>
 
       <figure>
-        <title>Catalogue &gt; Périodiques &gt; Recherche</title>
+        <title lang="es">Catalogue &gt; Périodiques &gt; Recherche</title>
 
         <mediaobject>
           <imageobject>
@@ -1162,7 +1162,7 @@
       linkend="exp_bool" />.</para>
 
       <figure>
-        <title>Catalogue &gt; Périodiques &gt; Recherche, résultats d'une
+        <title lang="es">Catalogue &gt; Périodiques &gt; Recherche, résultats d'une
         recherche</title>
 
         <mediaobject>
@@ -1189,10 +1189,10 @@
     </sect2>
 
     <sect2 id="cat_serial_form">
-      <title>Nouveau périodique</title>
+      <title lang="es">Nouveau périodique</title>
 
       <figure>
-        <title>Catalogage &gt; Périodiques &gt; Nouveau périodique</title>
+        <title lang="es">Catalogage &gt; Périodiques &gt; Nouveau périodique</title>
 
         <mediaobject>
           <imageobject>
@@ -1202,14 +1202,14 @@
       </figure>
 
       <sect3 id="cat_serial_add">
-        <title>Création d'un périodique</title>
+        <title lang="es">Création d'un périodique</title>
 
         <para>Commençons par détailler la création d'un périodique. Pour créer
         un périodique, dans l'onglet <emphasis>Catalogue</emphasis>, cliquez
         sur <emphasis>Nouveau périodique</emphasis> dans le menu.</para>
 
         <sect4>
-          <title>Support</title>
+          <title lang="es">Support</title>
 
           <para>PMB peut gérer des périodiques de différentes formes. Si les
           périodiques imprimées (journaux, magazines, revues) sont les plus
@@ -1275,7 +1275,7 @@
         </sect4>
 
         <sect4>
-          <title>Autres champs de saisie</title>
+          <title lang="es">Autres champs de saisie</title>
 
           <para>Les autres champs de saisie d'un périodique correspondent à
           ceux d'un ouvrage. Voir plus haut la section 1.2.1 <emphasis>Saisie
@@ -1293,10 +1293,10 @@
       </sect3>
 
       <sect3 id="cat_serial_view">
-        <title>Visualiser un périodique</title>
+        <title lang="es">Visualiser un périodique</title>
 
         <figure>
-          <title>Visualiser un périodique</title>
+          <title lang="es">Visualiser un périodique</title>
 
           <mediaobject>
             <imageobject>
@@ -1330,7 +1330,7 @@
         <emphasis>Bulletinage</emphasis>.</para>
 
         <sect4 id="cat_serial_bul">
-          <title>Ajouter un numéro ou un élément (bulletin)</title>
+          <title lang="es">Ajouter un numéro ou un élément (bulletin)</title>
 
           <para>Différentes informations seulement sont nécessaires : la
           mention de numérotation (n° 32478), le code barre du numéro, le
@@ -1363,7 +1363,7 @@
           climatiques</emphasis>.</para>
 
           <figure>
-            <title>Création d'un bulletin</title>
+            <title lang="es">Création d'un bulletin</title>
 
             <mediaobject>
               <imageobject>
@@ -1374,10 +1374,10 @@
         </sect4>
 
         <sect4>
-          <title>Bulletinage</title>
+          <title lang="es">Bulletinage</title>
 
           <figure>
-            <title>Bulletinage</title>
+            <title lang="es">Bulletinage</title>
 
             <mediaobject>
               <imageobject>
@@ -1435,7 +1435,7 @@
           </emphasis>qui figure dans le détail de l'article.</para>
 
           <sect5 id="cat_serial_expl">
-            <title>Ajouter un exemplaire à un élément</title>
+            <title lang="es">Ajouter un exemplaire à un élément</title>
 
             <para>Voir précédemment la procédure de création d'exemplaire d'un
             ouvrage section 1.2.2.1 <emphasis>Ajout d'un
@@ -1444,7 +1444,7 @@
           </sect5>
 
           <sect5 id="cat_serial_explnum">
-            <title>Ajouter un exemplaire numérique à un élement</title>
+            <title lang="es">Ajouter un exemplaire numérique à un élement</title>
 
             <para>Voir précédemment la procédure de création d'exemplaire
             numérique d'un ouvrage section 1.2.2.2 <emphasis>Ajout d'un
@@ -1453,7 +1453,7 @@
           </sect5>
 
           <sect5 id="cat_serial_analysis">
-            <title>Ajouter un dépouillement (article)</title>
+            <title lang="es">Ajouter un dépouillement (article)</title>
 
             <para>La notice d'un article correspond à une notice standard avec
             pour particularité la possibilité de spécifier une
@@ -1493,7 +1493,7 @@
   </sect1>
 
   <sect1 id="cat_caddies">
-    <title>Paniers</title>
+    <title lang="es">Paniers</title>
 
     <para>Les paniers sont des espaces de stockages : au sein de PMB, on va
     pouvoir y placer des notices, des bulletins (numéros d'un périodique), des
@@ -1514,17 +1514,17 @@
     des codes barres à la main.</para>
 
     <sect2 id="cat_caddie_gestion">
-      <title>gestion</title>
+      <title lang="es">gestion</title>
 
       <para>Par défaut, en partie Paniers/Gestion, c'est la gestion des
       paniers qui est affichée. Vous pouvez afficher la gestion des procédures
       à l'aide du lien Gestion des procédures.</para>
 
       <sect3 id="cat_caddie_gestion_caddie">
-        <title>Gestion des paniers</title>
+        <title lang="es">Gestion des paniers</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
+          <title lang="es">Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
           paniers</title>
 
           <mediaobject>
@@ -1540,13 +1540,13 @@
         sur Ajouter un panier vous pouvez définir un nouveau panier.</para>
 
         <sect4>
-          <title>Contenu d'un panier</title>
+          <title lang="es">Contenu d'un panier</title>
 
           <para>En cliquant sur le nom d'un panier, vous pouvez consulter le
           contenu d'un panier.</para>
 
           <figure>
-            <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
+            <title lang="es">Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
             paniers, contenu d'un panier</title>
 
             <mediaobject>
@@ -1564,7 +1564,7 @@
           exemplaires ou bulletins catalogués dans PMB) :</para>
 
           <figure>
-            <title>Elément du fond</title>
+            <title lang="es">Elément du fond</title>
 
             <mediaobject>
               <imageobject>
@@ -1586,7 +1586,7 @@
           contenir des éléments inconnus :</para>
 
           <figure>
-            <title>Elément inconnu</title>
+            <title lang="es">Elément inconnu</title>
 
             <mediaobject>
               <imageobject>
@@ -1601,7 +1601,7 @@
           la section <xref linkend="cat_caddie_pointage" />.</para>
 
           <figure>
-            <title>Elément pointé</title>
+            <title lang="es">Elément pointé</title>
 
             <mediaobject>
               <imageobject>
@@ -1619,7 +1619,7 @@
           Éditer à droite de l'écran.</para>
 
           <figure>
-            <title>Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
+            <title lang="es">Catalogage &gt; Paniers &gt; Gestion &gt; Gestion des
             paniers</title>
 
             <mediaobject>
@@ -1648,7 +1648,7 @@
         </sect4>
 
         <sect4>
-          <title>Ajouter un panier</title>
+          <title lang="es">Ajouter un panier</title>
 
           <para>L'écran d'ajout d'un panier est identique à celui d'Editer un
           panier. Seul le bouton Supprimer n'y figure pas. Pour plus
@@ -1657,7 +1657,7 @@
         </sect4>
 
         <sect4>
-          <title>Paniers installés par défaut lors de l'installation de
+          <title lang="es">Paniers installés par défaut lors de l'installation de
           PMB</title>
 
           <para>Si votre administrateur informatique a installé PMB avec les
@@ -1693,7 +1693,7 @@
       </sect3>
 
       <sect3 id="cat_caddie_gestion_procs">
-        <title>Gestion des procédures</title>
+        <title lang="es">Gestion des procédures</title>
 
         <para>Cet écran affiche les différentes procédures associées aux
         paniers. Vous pouvez définir des procédures qui vous serviront à
@@ -1706,7 +1706,7 @@
         d'utilisation des paniers</emphasis>.</para>
 
         <sect4>
-          <title>Procédures installés par défaut lors de l'installation de
+          <title lang="es">Procédures installés par défaut lors de l'installation de
           PMB</title>
 
           <para>Si votre administrateur informatique a installé PMB avec les
@@ -1744,10 +1744,10 @@
     </sect2>
 
     <sect2 id="cat_caddie_collecte">
-      <title>collecte</title>
+      <title lang="es">collecte</title>
 
       <figure>
-        <title>Catalogage &gt; Paniers &gt; Collecte</title>
+        <title lang="es">Catalogage &gt; Paniers &gt; Collecte</title>
 
         <mediaobject>
           <imageobject>
@@ -1770,7 +1770,7 @@
       fileref="images/basket_small.gif" /></para>
 
       <sect3>
-        <title>subtilités des ajouts dans un panier</title>
+        <title lang="es">subtilités des ajouts dans un panier</title>
 
         <para>La gestion de l'ajout d'un élément dans un panier correspond aux
         divers fonctionnements possibles :</para>
@@ -1806,17 +1806,17 @@
     </sect2>
 
     <sect2 id="cat_caddie_pointage">
-      <title>Pointage</title>
+      <title lang="es">Pointage</title>
 
       <para>Le pointage des paniers permet de comparer le contenu d'un panier
       avec d'autres éléments, soit en pointant manuellement (en douchettant)
       ou en effectuant une procédure de sélection dans PMB.</para>
 
       <sect3 id="cat_caddie_pointage_douchette">
-        <title>Pointage par douchette</title>
+        <title lang="es">Pointage par douchette</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Par douchette</title>
+          <title lang="es">Catalogage &gt; Paniers &gt; Par douchette</title>
 
           <mediaobject>
             <imageobject>
@@ -1827,7 +1827,7 @@
 
         <para>Cliquez sur le nom du panier dont vous voulez pointer les
         éléments.<figure>
-            <title>Catalogage &gt; Paniers &gt; Pointage &gt; Par
+            <title lang="es">Catalogage &gt; Paniers &gt; Pointage &gt; Par
             douchette</title>
 
             <mediaobject>
@@ -1839,13 +1839,13 @@
       </sect3>
 
       <sect3 id="cat_caddie_pointage_sélection">
-        <title>Pointage par sélection</title>
+        <title lang="es">Pointage par sélection</title>
 
         <para>Pour pointer un panier par sélection, cliquez sur le panier à
         pointer.</para>
 
         <figure>
-          <title>Catalogue &gt; Paniers &gt; Pointage &gt; Par
+          <title lang="es">Catalogue &gt; Paniers &gt; Pointage &gt; Par
           sélection</title>
 
           <mediaobject>
@@ -1858,7 +1858,7 @@
         <para>Cliquez ensuite sur la procédure à utiliser.</para>
 
         <figure>
-          <title>Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
+          <title lang="es">Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
           choix de la procédure de pointage</title>
 
           <mediaobject>
@@ -1871,7 +1871,7 @@
         <para>Veillez à compléter les éventuels paramètres demandés.</para>
 
         <figure>
-          <title>Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
+          <title lang="es">Catalogue &gt; Paniers &gt; Pointage &gt; Par sélection,
           pointage terminé</title>
 
           <mediaobject>
@@ -1890,10 +1890,10 @@
     </sect2>
 
     <sect2 id="cat_caddie_actions">
-      <title>actions</title>
+      <title lang="es">actions</title>
 
       <figure>
-        <title>Catalogage &gt; Paniers &gt; Actions</title>
+        <title lang="es">Catalogage &gt; Paniers &gt; Actions</title>
 
         <mediaobject>
           <imageobject>
@@ -1937,10 +1937,10 @@
       panier sur lequel l'action doit être réalisée.</para>
 
       <sect3>
-        <title>Éditions</title>
+        <title lang="es">Éditions</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Actions &gt; Éditions</title>
+          <title lang="es">Catalogage &gt; Paniers &gt; Actions &gt; Éditions</title>
 
           <mediaobject>
             <imageobject>
@@ -1959,10 +1959,10 @@
       </sect3>
 
       <sect3>
-        <title>Vider du panier</title>
+        <title lang="es">Vider du panier</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Actions &gt; Vider du
+          <title lang="es">Catalogage &gt; Paniers &gt; Actions &gt; Vider du
           panier</title>
 
           <mediaobject>
@@ -1980,10 +1980,10 @@
       </sect3>
 
       <sect3>
-        <title>Supprimer de la base</title>
+        <title lang="es">Supprimer de la base</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Actions &gt; Supprimer de la
+          <title lang="es">Catalogage &gt; Paniers &gt; Actions &gt; Supprimer de la
           base</title>
 
           <mediaobject>
@@ -2005,10 +2005,10 @@
       </sect3>
 
       <sect3>
-        <title>Export</title>
+        <title lang="es">Export</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Actions &gt; Export</title>
+          <title lang="es">Catalogage &gt; Paniers &gt; Actions &gt; Export</title>
 
           <mediaobject>
             <imageobject>
@@ -2024,10 +2024,10 @@
       </sect3>
 
       <sect3>
-        <title>Transfert</title>
+        <title lang="es">Transfert</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Actions &gt; Transfert</title>
+          <title lang="es">Catalogage &gt; Paniers &gt; Actions &gt; Transfert</title>
 
           <mediaobject>
             <imageobject>
@@ -2041,10 +2041,10 @@
       </sect3>
 
       <sect3>
-        <title>Par requête</title>
+        <title lang="es">Par requête</title>
 
         <figure>
-          <title>Catalogage &gt; Paniers &gt; Actions &gt; Par requête</title>
+          <title lang="es">Catalogage &gt; Paniers &gt; Actions &gt; Par requête</title>
 
           <mediaobject>
             <imageobject>
@@ -2062,14 +2062,14 @@
     </sect2>
 
     <sect2>
-      <title>exemples d'utilisation des paniers</title>
+      <title lang="es">exemples d'utilisation des paniers</title>
 
       <para>Voici quelques exemples d'utilisation des paniers. Ceux-ci vous
       permettront de mieux appréhender l'utilisation des paniers de PMB ainsi
       que la puissance de leurs fonctionnalités, grâce aux requêtes.</para>
 
       <sect3>
-        <title>Placer dans un panier les ouvrages sans exemplaires</title>
+        <title lang="es">Placer dans un panier les ouvrages sans exemplaires</title>
 
         <itemizedlist>
           <listitem>
@@ -2093,7 +2093,7 @@
   </sect1>
 
   <sect1 id="cat_etg">
-    <title>Étagères</title>
+    <title lang="es">Étagères</title>
 
     <para>Les étagères virtuelles sont un regroupement de paniers de notices
     qui peuvent contenir ou non des notices. Les étagères virtuelles
@@ -2103,13 +2103,13 @@
     bibliothèque, la sélection d'un club de lecteurs, etc...</para>
 
     <sect2 id="cat_etg_gestion">
-      <title>Gestion</title>
+      <title lang="es">Gestion</title>
 
       <para>La gestion des étagères affiche une liste des étagères
       existantes.</para>
 
       <figure>
-        <title>Catalogue &gt; Étagères &gt; Gestion</title>
+        <title lang="es">Catalogue &gt; Étagères &gt; Gestion</title>
 
         <mediaobject>
           <imageobject>
@@ -2132,7 +2132,7 @@
     </sect2>
 
     <sect2 id="cat_etg_constit">
-      <title>Constitution</title>
+      <title lang="es">Constitution</title>
 
       <para>L'écran de constitution d'une étagère permet d'ajouter ou de
       retirer le contenu d'un ou plusieurs paniers à une de vos étagères
@@ -2141,7 +2141,7 @@
       <para>Cliquez sur l'étagère à constituer.</para>
 
       <figure>
-        <title>Catalogue &gt; Étagères &gt; Constitution</title>
+        <title lang="es">Catalogue &gt; Étagères &gt; Constitution</title>
 
         <mediaobject>
           <imageobject>
@@ -2154,7 +2154,7 @@
       virtuelle.</para>
 
       <figure>
-        <title>Catalogue &gt; Étagères &gt; Constitution, ajout de paniers à
+        <title lang="es">Catalogue &gt; Étagères &gt; Constitution, ajout de paniers à
         une étagère</title>
 
         <mediaobject>
@@ -2170,10 +2170,10 @@
   </sect1>
 
   <sect1>
-    <title>Z39.50</title>
+    <title lang="es">Z39.50</title>
 
     <sect2 id="cat_z3950">
-      <title>recherche Z39.50</title>
+      <title lang="es">recherche Z39.50</title>
 
       <para>La recherche Z39.50 permet de rechercher un ouvrage dans le
       catalogue d'une autre bibliothèque, ce qui permettra de l'insérer
@@ -2190,7 +2190,7 @@
       la bibliothèque concernée.</para>
 
       <figure>
-        <title>Catalogage &gt; Z39.50 &gt; Recherche</title>
+        <title lang="es">Catalogage &gt; Z39.50 &gt; Recherche</title>
 
         <mediaobject>
           <imageobject>
@@ -2208,7 +2208,7 @@
       cataloguer.</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran intermédiaire
+        <title lang="es">Catalogue &gt; Z39.50 &gt; Recherche, écran intermédiaire
         montrant l'avancement</title>
 
         <mediaobject>
@@ -2257,7 +2257,7 @@
       afficher les résultats obtenus.</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran des résultats de
+        <title lang="es">Catalogue &gt; Z39.50 &gt; Recherche, écran des résultats de
         recherche</title>
 
         <mediaobject>
@@ -2274,7 +2274,7 @@
       titre.</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran de modification de
+        <title lang="es">Catalogue &gt; Z39.50 &gt; Recherche, écran de modification de
         la notice avant intégration</title>
 
         <mediaobject>
@@ -2295,7 +2295,7 @@
       <para>Un écran suivant permet de définir alors des exemplaires.</para>
 
       <figure>
-        <title>Catalogue &gt; Z39.50 &gt; Recherche, écran de saisie des
+        <title lang="es">Catalogue &gt; Z39.50 &gt; Recherche, écran de saisie des
         exemplaires</title>
 
         <mediaobject>
@@ -2317,7 +2317,7 @@
       notice</emphasis>).</para>
 
       <sect3>
-        <title>Utilisation de la recherche Z39.50 au quotidien</title>
+        <title lang="es">Utilisation de la recherche Z39.50 au quotidien</title>
 
         <para>Pour les bibliothèques française, le principal intérêt de la
         recherche Z39.50 est la recherche par ISBN depuis la BnF. Pour les
@@ -2342,7 +2342,7 @@
 
           <listitem>
             <figure>
-              <title>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
+              <title lang="es">Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
               sur l'ISBN</title>
 
               <mediaobject>
@@ -2359,7 +2359,7 @@
 
           <listitem>
             <figure>
-              <title>Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
+              <title lang="es">Catalogage &gt; Z39.50 &gt; Recherche, recherche portant
               sur l'ISBN</title>
 
               <mediaobject>

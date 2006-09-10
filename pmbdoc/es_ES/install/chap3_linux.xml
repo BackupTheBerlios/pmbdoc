@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>PC Sous Linux</title>
+  <title lang="es">PC Sous Linux</title>
 
   <para>Linux est un système d'exploitation libre, puissant et rapide, surtout
   si le serveur sur lequel vous installez PMB est un serveur dédié,
@@ -14,13 +14,13 @@
   sur les listes de discussion de PMB ou sur le site internet.</para>
 
   <sect1>
-    <title>Mandrake</title>
+    <title lang="es">Mandrake</title>
 
     <para>Installation de PMB avec Linux Mandrake 9.2 par Bruno Desroches, 05
     Avril 2004</para>
 
     <sect2>
-      <title>Introduction</title>
+      <title lang="es">Introduction</title>
 
       <para>L'idée de départ m'est venue quand je me suis décidé à installer
       moi-même PMB. Je reconnais, maintenant, que tous les éléments étaient
@@ -31,7 +31,7 @@
     </sect2>
 
     <sect2>
-      <title>La mise en place</title>
+      <title lang="es">La mise en place</title>
 
       <para>Après avoir téléchargé le fichier PMB.tar.gz sur le site
       http://www.sigb.net/download.html dans /home/toto, il faut décompresser
@@ -75,7 +75,7 @@ chown -R apache.apache pmb</programlisting>
     </sect2>
 
     <sect2>
-      <title>Les pré-requis</title>
+      <title lang="es">Les pré-requis</title>
 
       <para>Vérifier pour :</para>
 
@@ -116,7 +116,7 @@ chown -R apache.apache pmb</programlisting>
     </sect2>
 
     <sect2>
-      <title>Installation</title>
+      <title lang="es">Installation</title>
 
       <para>Vous devrez d'abord vous rendre à l'adresse
       http://monsite/pmb/tables/install.php afin de lier l'application PMB à
@@ -133,14 +133,14 @@ chown -R apache.apache pmb</programlisting>
   </sect1>
 
   <sect1>
-    <title>RedHat</title>
+    <title lang="es">RedHat</title>
 
     <para>Pas de documentation pour l'instant pour une installation sous
     RedHat.</para>
   </sect1>
 
   <sect1>
-    <title>Debian</title>
+    <title lang="es">Debian</title>
 
     <para>Installation décrite par Stef sur un forum de <ulink
     url="http://www.sigb.net/communaute">www.sigb.net/communaute/</ulink>, 29
@@ -149,13 +149,13 @@ chown -R apache.apache pmb</programlisting>
     <para>Voir également votre_rep_pmb/doc/installation_debian.pdf</para>
 
     <sect2>
-      <title>Pré-requis</title>
+      <title lang="es">Pré-requis</title>
 
       <para>Apache doit être installé et le serveur httpd lancé.</para>
     </sect2>
 
     <sect2>
-      <title>Installation</title>
+      <title lang="es">Installation</title>
 
       <para>Sur une Debian par exemple, l'installation se déroule comme ça
       :</para>
@@ -194,10 +194,10 @@ chown -R apache.apache pmb</programlisting>
   </sect1>
 
   <sect1>
-    <title>Slackware</title>
+    <title lang="es">Slackware</title>
 
     <sect2>
-      <title>A propos</title>
+      <title lang="es">A propos</title>
 
       <para>Installation d’un serveur Apache sur Linux avec les extensions
       utilisées par PMB</para>
@@ -206,7 +206,7 @@ chown -R apache.apache pmb</programlisting>
     </sect2>
 
     <sect2>
-      <title>Sources</title>
+      <title lang="es">Sources</title>
 
       <para>Les fichiers d’aide à l’installation de www.indexdata.dk/phpyaz et
       le chapitre Installation apache de www.php.net, rubrique
@@ -214,7 +214,7 @@ chown -R apache.apache pmb</programlisting>
     </sect2>
 
     <sect2>
-      <title>Préambule</title>
+      <title lang="es">Préambule</title>
 
       <para>L’installation décrite ci-dessous a été réalisée sur un P4-2,6GHz,
       slackware 9.1, kernel 2.4.24 . Les fichiers utilisés sont ceux
@@ -223,7 +223,7 @@ chown -R apache.apache pmb</programlisting>
     </sect2>
 
     <sect2>
-      <title>Téléchargements</title>
+      <title lang="es">Téléchargements</title>
 
       <para><emphasis role="bold">YAZ</emphasis> : sur le site
       www.indexdata.dk/yaz/</para>
@@ -240,7 +240,7 @@ chown -R apache.apache pmb</programlisting>
     </sect2>
 
     <sect2>
-      <title>Installation</title>
+      <title lang="es">Installation</title>
 
       <para><emphasis role="bold">Préparation de l’installation
       </emphasis>:</para>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Sauvegarde</title>
+  <title lang="es">Sauvegarde</title>
 
   <para>PMB fonctionnant sur un modèle de client/serveur, vous n'avez pas
   forcément accès au serveur depuis votre console de catalogage et
@@ -17,14 +17,14 @@
   mensuelle ou ponctuelle.</para>
 
   <sect1 id="admin_sauv_lieux">
-    <title>Lieux de sauvegarde</title>
+    <title lang="es">Lieux de sauvegarde</title>
 
     <para>Un lieu de sauvegarde est un emplacement informatique sur votre
     ordinateur ou à distance ou le fichier doit être sauvegardé. Le serveur
     doit avoir la possibilité d'écriture directe à cet endroit.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Lieux de sauvegarde</title>
+      <title lang="es">Sauvegarde &gt; Lieux de sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -35,7 +35,7 @@
   </sect1>
 
   <sect1 id="admin_sauv_tables">
-    <title>Groupes de tables</title>
+    <title lang="es">Groupes de tables</title>
 
     <para>Il s'agit de la constitution de groupes de tables qui seront
     sauvegardées simultanément. Vous n'avez pas forcément besoin de
@@ -45,7 +45,7 @@
     prêts.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Groupes de tables</title>
+      <title lang="es">Sauvegarde &gt; Groupes de tables</title>
 
       <mediaobject>
         <imageobject>
@@ -62,7 +62,7 @@
     le jeu de test opérationnel.</para>
 
     <table>
-      <title>Groupes de tables chargés par feed_essential.sql</title>
+      <title lang="es">Groupes de tables chargés par feed_essential.sql</title>
 
       <tgroup cols="3">
         <thead>
@@ -168,7 +168,7 @@
     correspondent à votre jeu.</para>
 
     <figure>
-      <title>Sauvegarde : édition d'un jeu de tables</title>
+      <title lang="es">Sauvegarde : édition d'un jeu de tables</title>
 
       <mediaobject>
         <imageobject>
@@ -179,7 +179,7 @@
   </sect1>
 
   <sect1 id="admin_sauv_gestsauv">
-    <title>Jeux de sauvegardes</title>
+    <title lang="es">Jeux de sauvegardes</title>
 
     <para>Un jeu de sauvegarde constitue un groupe jeu de table/lieu de
     sauvegarde.</para>
@@ -189,7 +189,7 @@
     valide.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Jeux de sauvegarde</title>
+      <title lang="es">Sauvegarde &gt; Jeux de sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -199,7 +199,7 @@
     </figure>
 
     <figure>
-      <title>Sauvegarde &gt; Jeux de sauvegarde, édition d'un jeu de
+      <title lang="es">Sauvegarde &gt; Jeux de sauvegarde, édition d'un jeu de
       sauvegarde</title>
 
       <mediaobject>
@@ -211,14 +211,14 @@
   </sect1>
 
   <sect1 id="admin_sauv_launch">
-    <title>Lancement sauvegarde</title>
+    <title lang="es">Lancement sauvegarde</title>
 
     <para>Quand un jeu de sauvegarde est constitué, il n'y a plus qu'à lancer
     la sauvegarde. Vous pouvez ici tester le bon fonctionnement de vos
     paramètres.</para>
 
     <figure>
-      <title>Sauvegarde &gt; Lancement sauvegarde</title>
+      <title lang="es">Sauvegarde &gt; Lancement sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -232,7 +232,7 @@
     en haut à droit de l'écran de PMB.</para>
 
     <figure>
-      <title>Popup de sauvegarde</title>
+      <title lang="es">Popup de sauvegarde</title>
 
       <mediaobject>
         <imageobject>
@@ -243,7 +243,7 @@
   </sect1>
 
   <sect1 id="admin_sauv_list">
-    <title>Sauvegardes faites</title>
+    <title lang="es">Sauvegardes faites</title>
 
     <para>Depuis cet écran vous pouvez consulter les sauvegardes qui ont été
     réalisées, afficher le cas échéant les erreurs rencontrées lors de la
@@ -251,7 +251,7 @@
     choix (par exemple les plus anciennes).</para>
 
     <figure>
-      <title>Sauvegarde &gt; Sauvegardes faites</title>
+      <title lang="es">Sauvegarde &gt; Sauvegardes faites</title>
 
       <mediaobject>
         <imageobject>
@@ -262,7 +262,7 @@
   </sect1>
 
   <sect1>
-    <title>Restaurer une sauvegarde faite sur une autre installation de
+    <title lang="es">Restaurer une sauvegarde faite sur une autre installation de
     PMB</title>
 
     <para>PMB dispose d'un module caché de restauration de sauvegardes
@@ -274,7 +274,7 @@
     de php.ini) et hop !</para>
 
     <figure>
-      <title>Module de restauration d'urgence</title>
+      <title lang="es">Module de restauration d'urgence</title>
 
       <mediaobject>
         <imageobject>

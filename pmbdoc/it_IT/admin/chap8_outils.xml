@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_misc">
-  <title>Outils</title>
+  <title lang="es">Outils</title>
 
   <para>La partie <emphasis>Outils</emphasis> de l'onglet
   <emphasis>Administration</emphasis> est un réservoir d'outils nécessaires à
   une administration régulière de PMB.</para>
 
   <figure>
-    <title>Outils</title>
+    <title lang="es">Outils</title>
 
     <mediaobject>
       <imageobject>
@@ -17,7 +17,7 @@
   </figure>
 
   <sect1 id="admin_netbase">
-    <title>Nettoyage de base</title>
+    <title lang="es">Nettoyage de base</title>
 
     <para>Le nettoyage de base vous permet de nettoyer votre base en
     supprimant des données redondantes ou inutilisées, en purgeant votre base
@@ -30,7 +30,7 @@
     serveur de données.</para>
 
     <figure>
-      <title>Outils &gt; Nettoyage de base</title>
+      <title lang="es">Outils &gt; Nettoyage de base</title>
 
       <mediaobject>
         <imageobject>
@@ -46,7 +46,7 @@
   </sect1>
 
   <sect1 id="admin_misc_proc">
-    <title>Actions personnalisables</title>
+    <title lang="es">Actions personnalisables</title>
 
     <para>Les actions personnalisables désignent des lignes de commandes SQL
     saisies en base de données.</para>
@@ -90,7 +90,7 @@
     SVP</emphasis>.</para>
 
     <figure>
-      <title>Outils &gt; Actions personnalisables</title>
+      <title lang="es">Outils &gt; Actions personnalisables</title>
 
       <mediaobject>
         <imageobject>
@@ -107,7 +107,7 @@
     propriétaires.</para>
 
     <sect2>
-      <title>Exemples d'utilisation des actions personnalisables</title>
+      <title lang="es">Exemples d'utilisation des actions personnalisables</title>
 
       <para>Pour connaître le nom des champs à utiliser dans vos requêtes,
       consultez la documentation du noyau de PMB qui décrit l'ensemble des
@@ -117,7 +117,7 @@
       <para><emphasis role="bold">pmb/doc/noyau</emphasis></para>
 
       <sect3>
-        <title>Actions personnalisables : création d'un état statistique selon
+        <title lang="es">Actions personnalisables : création d'un état statistique selon
         l' "état" des exemplaires</title>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat, 
@@ -130,7 +130,7 @@ expl_statut='!!statut!!' group by idcode, codestat_libelle order by idcode</prog
       </sect3>
 
       <sect3>
-        <title>Utilisation des champs personnalisés dans les requêtes</title>
+        <title lang="es">Utilisation des champs personnalisés dans les requêtes</title>
 
         <para><emphasis>J'ai créer un champ Annee_achat de type texte dans les
         champs personnalisables de Exemplaires. Je voudrais m'en servir pour
@@ -195,7 +195,7 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_alter">
-    <title>M. à J. base</title>
+    <title lang="es">M. à J. base</title>
 
     <para>Si vous mettez à jour PMB, vous remplacez les fichiers de PMB par
     une nouvelle version téléchargée depuis www.sigb.net. Mais cette mise à
@@ -209,7 +209,7 @@ order by idcode</programlisting>
     PMB.</remark>
 
     <figure>
-      <title>Outils &gt; Mise à Jour de la Base</title>
+      <title lang="es">Outils &gt; Mise à Jour de la Base</title>
 
       <mediaobject>
         <imageobject>
@@ -223,7 +223,7 @@ order by idcode</programlisting>
     jour.</para>
 
     <figure>
-      <title>Aucune mise à jour à effectuer</title>
+      <title lang="es">Aucune mise à jour à effectuer</title>
 
       <mediaobject>
         <imageobject>
@@ -233,7 +233,7 @@ order by idcode</programlisting>
     </figure>
 
     <figure>
-      <title>Des mises à jour sont à effectuer</title>
+      <title lang="es">Des mises à jour sont à effectuer</title>
 
       <mediaobject>
         <imageobject>
@@ -247,7 +247,7 @@ order by idcode</programlisting>
     Cliquez ici pour poursuivre</emphasis>.</para>
 
     <figure>
-      <title>Un tableau présentant les différentes actions des mises à jour,
+      <title lang="es">Un tableau présentant les différentes actions des mises à jour,
       et leur résultat</title>
 
       <mediaobject>
@@ -265,7 +265,7 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_misc_tables">
-    <title>Description des tables</title>
+    <title lang="es">Description des tables</title>
 
     <para>Cette description des tables correspond aux informations basiques
     concernant les tables de données gérées par MySQL. Une documentation
@@ -278,7 +278,7 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_misc_mysql">
-    <title>Maintenance MySQL</title>
+    <title lang="es">Maintenance MySQL</title>
 
     <para>Vous trouverez ici une interface aux principaux outils de
     maintenance de MySQL : vérification des tables, analyse et réparation de
@@ -312,7 +312,7 @@ order by idcode</programlisting>
     </itemizedlist>
 
     <figure>
-      <title>Outils &gt; Maintenance MySQL</title>
+      <title lang="es">Outils &gt; Maintenance MySQL</title>
 
       <mediaobject>
         <imageobject>
@@ -323,7 +323,7 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_outils_parametres">
-    <title>Paramètres</title>
+    <title lang="es">Paramètres</title>
 
     <para>Dans cet outil, vous trouverez l'accès à de nombreux paramètres
     allant du nom de votre bibliothèque, qui sera réutilisé sur tous les
@@ -381,7 +381,7 @@ order by idcode</programlisting>
     linkend="admin_outils_parametres_z3950">z3950</link></para>
 
     <sect2 id="admin_outils_parametres_biblio">
-      <title>biblio</title>
+      <title lang="es">biblio</title>
 
       <para><emphasis>Obsolète</emphasis>.</para>
 
@@ -391,13 +391,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_categories">
-      <title>Categories</title>
+      <title lang="es">Categories</title>
 
       <para>Le type <emphasis>Categories</emphasis> (categories) correspond
       aux paramètres des catégories (thésaurus intégré) de PMB.</para>
 
       <table>
-        <title>Type categories</title>
+        <title lang="es">Type categories</title>
 
         <tgroup cols="3">
           <thead>
@@ -444,13 +444,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_empr">
-      <title>Emprunteurs</title>
+      <title lang="es">Emprunteurs</title>
 
       <para>Le type <emphasis>Emprunteurs</emphasis> (empr) désigne les
       informations liés aux emprunteurs.</para>
 
       <table>
-        <title>Type empr</title>
+        <title lang="es">Type empr</title>
 
         <tgroup cols="3">
           <thead>
@@ -487,7 +487,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2>
-      <title>LDAP</title>
+      <title lang="es">LDAP</title>
 
       <para>Le type <emphasis>LDAP</emphasis> (ldap) désigne le paramétrage de
       la connectivité LDAP pour permettre l'authentification automatique. Avec
@@ -495,7 +495,7 @@ order by idcode</programlisting>
       automatiquement identifié dans PMB.</para>
 
       <para><table>
-          <title>Type ldap</title>
+          <title lang="es">Type ldap</title>
 
           <tgroup cols="3">
             <thead>
@@ -596,14 +596,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailrelanceadhesion">
-      <title>Mail de relance d'adhésion</title>
+      <title lang="es">Mail de relance d'adhésion</title>
 
       <para>Le type <emphasis>Mail de relance d'adhésion</emphasis>
       (mailrelanceadhesion) correspond au paramétrage des mails de relance
       pour proposer de renouveler une adhésion bientôt expirée.</para>
 
       <table>
-        <title>Type mailrelanceadhesion</title>
+        <title lang="es">Type mailrelanceadhesion</title>
 
         <tgroup cols="3">
           <thead>
@@ -659,14 +659,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailretard">
-      <title>Mail de retard</title>
+      <title lang="es">Mail de retard</title>
 
       <para>Le type <emphasis>Mail de retard</emphasis> (mailretard) indique
       les paramètres des emails de contact pour un ouvrage dont le retour est
       en retard.</para>
 
       <table>
-        <title>Type mailretard</title>
+        <title lang="es">Type mailretard</title>
 
         <tgroup cols="3">
           <thead>
@@ -732,7 +732,7 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_opac">
-      <title>OPAC</title>
+      <title lang="es">OPAC</title>
 
       <para>Le type <emphasis>opac</emphasis> correspond au paramétrage de
       l'OPAC. L'OPAC est hautement configurable et possède à ce titre de
@@ -740,7 +740,7 @@ order by idcode</programlisting>
 
       <para>Pour plus de facilité de lecture, ces paramètres ont été regroupés
       par fonctionnalité au sein de l'OPAC.<table>
-          <title>Options générales de fonctionnement de l'OPAC</title>
+          <title lang="es">Options générales de fonctionnement de l'OPAC</title>
 
           <tgroup cols="3">
             <thead>
@@ -814,7 +814,7 @@ order by idcode</programlisting>
         </table></para>
 
       <table>
-        <title>Informations de la bibliothèque</title>
+        <title lang="es">Informations de la bibliothèque</title>
 
         <tgroup cols="3">
           <thead>
@@ -995,7 +995,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options pour les recherches dans l'OPAC</title>
+        <title lang="es">Options pour les recherches dans l'OPAC</title>
 
         <tgroup cols="3">
           <thead>
@@ -1153,7 +1153,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options d'affichage des résultats de recherche</title>
+        <title lang="es">Options d'affichage des résultats de recherche</title>
 
         <tgroup cols="3">
           <thead>
@@ -1206,7 +1206,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Affichage des notices</title>
+        <title lang="es">Affichage des notices</title>
 
         <tgroup cols="3">
           <thead>
@@ -1294,7 +1294,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Modules affichés dans l'OPAC</title>
+        <title lang="es">Modules affichés dans l'OPAC</title>
 
         <tgroup cols="3">
           <thead>
@@ -1439,7 +1439,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options concernant le panier</title>
+        <title lang="es">Options concernant le panier</title>
 
         <tgroup cols="3">
           <thead>
@@ -1478,7 +1478,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options pour l'affichage et la navigation dans les
+        <title lang="es">Options pour l'affichage et la navigation dans les
         catégories</title>
 
         <tgroup cols="3">
@@ -1589,7 +1589,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options concernant les étagères</title>
+        <title lang="es">Options concernant les étagères</title>
 
         <tgroup cols="3">
           <thead>
@@ -1628,7 +1628,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Options concernant la navigation par sections</title>
+        <title lang="es">Options concernant la navigation par sections</title>
 
         <tgroup cols="3">
           <thead>
@@ -1666,7 +1666,7 @@ order by idcode</programlisting>
       </table>
 
       <table>
-        <title>Inutilisé</title>
+        <title lang="es">Inutilisé</title>
 
         <tgroup cols="3">
           <thead>
@@ -1723,14 +1723,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdfcartelecteur">
-      <title>Carte lecteur</title>
+      <title lang="es">Carte lecteur</title>
 
       <para>Les paramètres <emphasis>Carte lecteur</emphasis>
       (pdfcartelecteur) correspondent au paramétrage de l'impression d'une
       carte de lecteur.</para>
 
       <table>
-        <title>Type pdfcartelecteur</title>
+        <title lang="es">Type pdfcartelecteur</title>
 
         <tgroup cols="3">
           <thead>
@@ -1813,14 +1813,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreadhesion">
-      <title>Lettre de relance d'adhésion</title>
+      <title lang="es">Lettre de relance d'adhésion</title>
 
       <para>Les paramètres <emphasis>Lettre de relance d'adhésion</emphasis>
       (pdflettreadhesion) correspondent au paramétrage des lettres de relance
       pour une adhésion bientôt expirée.</para>
 
       <table>
-        <title>Type pdflettreadhesion</title>
+        <title lang="es">Type pdflettreadhesion</title>
 
         <tgroup cols="3">
           <thead>
@@ -1910,14 +1910,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreadhesion">
-      <title>Lettre de confirmation de réservation</title>
+      <title lang="es">Lettre de confirmation de réservation</title>
 
       <para>Les paramètres <emphasis>Lettre de confirmation de
       réservation</emphasis> (pdflettreresa) correspondent au paramétrage des
       lettres de confirmation des réservations.</para>
 
       <table>
-        <title>Type pdflettreresa</title>
+        <title lang="es">Type pdflettreresa</title>
 
         <tgroup cols="3">
           <thead>
@@ -2086,14 +2086,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreretard">
-      <title>Lettre de retard</title>
+      <title lang="es">Lettre de retard</title>
 
       <para>Le type <emphasis>Lettre de retard</emphasis> (pdflettreretard)
       désigne les paramètres de la lettre de rappel pour un prêt en
       retard.</para>
 
       <table>
-        <title>Type pdflettreretard</title>
+        <title lang="es">Type pdflettreretard</title>
 
         <tgroup cols="3">
           <thead>
@@ -2254,13 +2254,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pmb">
-      <title>Paramètres généraux</title>
+      <title lang="es">Paramètres généraux</title>
 
       <para>Les paramètres de type <emphasis>Paramètres généraux</emphasis>
       (pmb) sont les paramètres généraux de l'application</para>
 
       <table>
-        <title>Type pmb</title>
+        <title lang="es">Type pmb</title>
 
         <tgroup cols="3">
           <thead>
@@ -2513,13 +2513,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_sauvegarde">
-      <title>sauvegarde</title>
+      <title lang="es">sauvegarde</title>
 
       <para>Les paramètres de type <emphasis>sauvegarde</emphasis> concernent
       le fonctionnement des sauvegardes de PMB.</para>
 
       <table>
-        <title>Type sauvegarde</title>
+        <title lang="es">Type sauvegarde</title>
 
         <tgroup cols="3">
           <thead>
@@ -2556,13 +2556,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_z3950">
-      <title>Options Z3950</title>
+      <title lang="es">Options Z3950</title>
 
       <para>Les paramètres <emphasis>Options Z3950</emphasis> (z3950) sont
       ceux de la recherche z3950 dans l'onglet catalogage.</para>
 
       <table>
-        <title>Type z3950</title>
+        <title lang="es">Type z3950</title>
 
         <tgroup cols="3">
           <thead>

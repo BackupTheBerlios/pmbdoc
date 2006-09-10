@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Personnaliser PMB</title>
+  <title lang="es">Personnaliser PMB</title>
 
   <para>Il existe différentes façons de personnaliser PMB.</para>
 
   <sect1>
-    <title>Adapter les fichiers de langue</title>
+    <title lang="es">Adapter les fichiers de langue</title>
 
     <para>PMB utilise des fichiers de langue pour l'affichage. Ces fichiers de
     langue sont situés dans le répertoire <emphasis
@@ -28,7 +28,7 @@
 &lt;!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd"&gt;
 
 &lt;!-- messages localisés en français pour PMB
-$Id: chap6_personnaliser.xml,v 1.1 2006/03/31 13:07:29 gautier Exp $ --&gt;
+$Id: chap6_personnaliser.xml,v 1.2 2006/09/10 19:14:19 gautier Exp $ --&gt;
 
 &lt;XMLlist&gt;
 &lt;entry code="1000"&gt;Identifiez vous&lt;/entry&gt;
@@ -40,7 +40,7 @@ $Id: chap6_personnaliser.xml,v 1.1 2006/03/31 13:07:29 gautier Exp $ --&gt;
   </sect1>
 
   <sect1>
-    <title>Feuilles de style et CSS</title>
+    <title lang="es">Feuilles de style et CSS</title>
 
     <para>Vous pouvez créer votre propre feuille de style pour l'OPAC et/ou
     l'interface de gestion. Prenez pour modèle un des différents répertoires

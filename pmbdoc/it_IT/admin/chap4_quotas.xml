@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_quotas">
-  <title>Quotas</title>
+  <title lang="es">Quotas</title>
 
   <para>Il existe dans PMB deux gestions possibles des quotas. La gestion
   avancée des quotas est activée si le paramètre
@@ -15,7 +15,7 @@
   <emphasis>Circulation</emphasis>.</para>
 
   <sect1>
-    <title>Si la gestion des quotas avancés n'est pas activée</title>
+    <title lang="es">Si la gestion des quotas avancés n'est pas activée</title>
 
     <para><graphic fileref="images/warning.gif" />Si la gestion des quotas avancés
     n'est pas activée, vous ne verrez pas "quotas" dans le menu.</para>
@@ -26,14 +26,14 @@
   </sect1>
 
   <sect1>
-    <title>Quotas : durée, nombre et types de quotas</title>
+    <title lang="es">Quotas : durée, nombre et types de quotas</title>
 
     <para>Dans PMB, il existe deux types de quotas, ils correspondent soit à
     une durée, soit à un nombre d'éléments. Les quotas peuvent être affectés
     selon plusieurs types.</para>
 
     <sect2>
-      <title>Durée</title>
+      <title lang="es">Durée</title>
 
       <para>Les quotas liés à la durée fonctionnent tous de manière identique
       : une valeur par défaut (14 ci dessus) est utilisée si aucune valeur
@@ -47,7 +47,7 @@
       Lundi sera donc compté comme un jour, de même que Dimanche.</para>
 
       <figure>
-        <title>Quotas : valeurs par défaut pour un quota de durée dans
+        <title lang="es">Quotas : valeurs par défaut pour un quota de durée dans
         PMB</title>
 
         <mediaobject>
@@ -59,7 +59,7 @@
     </sect2>
 
     <sect2>
-      <title>Nombre</title>
+      <title lang="es">Nombre</title>
 
       <para>Les quotas liés à un nombre fonctionnent tous de manière identique
       : une valeur par défaut est utilisée si aucune valeur particulière
@@ -78,7 +78,7 @@
       5 cédéroms maximum ou 5 livres maximum.</para>
 
       <figure>
-        <title>Quotas : valeurs par défaut pour un quota de nombre dans
+        <title lang="es">Quotas : valeurs par défaut pour un quota de nombre dans
         PMB</title>
 
         <mediaobject>
@@ -90,7 +90,7 @@
     </sect2>
 
     <sect2>
-      <title>Types de quotas</title>
+      <title lang="es">Types de quotas</title>
 
       <para>Il existe cinq types de quotas par nombres ou par durée :</para>
 
@@ -110,7 +110,7 @@
           c'est à dire forcer le prêt.</para>
 
           <para><figure>
-              <title>Quotas par catégories de lecteurs</title>
+              <title lang="es">Quotas par catégories de lecteurs</title>
 
               <mediaobject>
                 <imageobject>
@@ -126,7 +126,7 @@
           <para>Pour chaque type d'exemplaires un quota peut être défini. Le
           fonctionnement est similaire aux quotas par catégories de lecteurs
           <figure>
-              <title>Quotas par types d'exemplaires</title>
+              <title lang="es">Quotas par types d'exemplaires</title>
 
               <mediaobject>
                 <imageobject>
@@ -143,7 +143,7 @@
           d'exemplaires pour affiner votre politique de prêt. Les quotas sont
           affichés sous la forme d'un tableau reprenant pour chaque catégorie
           de lecteur l'ensemble des types d'exemplaires.<figure>
-              <title>Quotas par catégories de lecteurs et par types
+              <title lang="es">Quotas par catégories de lecteurs et par types
               d'exemplaires</title>
 
               <mediaobject>
@@ -160,7 +160,7 @@
           <para>Même fonctionnement que pour les catégories de lecteurs, mais
           de façon unique pour chacun des lecteurs de votre
           bibliothèque.<figure>
-              <title>Quotas par lecteurs individuels</title>
+              <title lang="es">Quotas par lecteurs individuels</title>
 
               <mediaobject>
                 <imageobject>
@@ -176,7 +176,7 @@
           <para>Même fonctionnement que pour les quotas par Catégories de
           lecteurs et par Types d'exemplaires, mais de façon unique pour
           chacun des lecteurs de votre bibliothèque.<figure>
-              <title>Quotas par lecteurs individuels et par types
+              <title lang="es">Quotas par lecteurs individuels et par types
               d'exemplaires</title>
 
               <mediaobject>
@@ -196,17 +196,17 @@
   </sect1>
 
   <sect1>
-    <title>Les différents quotas</title>
+    <title lang="es">Les différents quotas</title>
 
     <sect2>
-      <title>nombre de documents</title>
+      <title lang="es">nombre de documents</title>
 
       <para>Il s'agit ici de la gestion du nombre de documents empruntables
       simultanément.</para>
     </sect2>
 
     <sect2>
-      <title>durée d'emprunt</title>
+      <title lang="es">durée d'emprunt</title>
 
       <para>C'est la gestion avancée de la durée de prêt des ouvrages.</para>
 
@@ -217,28 +217,28 @@
     </sect2>
 
     <sect2>
-      <title>nombre de réservations</title>
+      <title lang="es">nombre de réservations</title>
 
       <para>Ceci désigne la gestion du nombre de documents (hors périodiques)
       réservables simultanément.</para>
     </sect2>
 
     <sect2>
-      <title>durée de réservation</title>
+      <title lang="es">durée de réservation</title>
 
       <para>C'est la gestion avancée de la durée de réservation de documents
       (hors périodiques).</para>
     </sect2>
 
     <sect2>
-      <title>nombre de réservations des périodiques</title>
+      <title lang="es">nombre de réservations des périodiques</title>
 
       <para>Ceci désigne la gestion du nombre de documents (périodiques
       uniquement) réservables simultanément.</para>
     </sect2>
 
     <sect2>
-      <title>durée de réservation des périodiques</title>
+      <title lang="es">durée de réservation des périodiques</title>
 
       <para>C'est la gestion avancée de la durée de réservation des
       périodiques.</para>
@@ -246,7 +246,7 @@
   </sect1>
 
   <sect1>
-    <title>En cas de conflit</title>
+    <title lang="es">En cas de conflit</title>
 
     <para>En plus de la définition des valeurs par défaut (voir plus haut
     Quotas : durée, nombre et types de quotas), les paramètres généraux
@@ -268,7 +268,7 @@
     priorité.</para>
 
     <figure>
-      <title>Quotas : en cas de conflit</title>
+      <title lang="es">Quotas : en cas de conflit</title>
 
       <mediaobject>
         <imageobject>
@@ -283,7 +283,7 @@
   </sect1>
 
   <sect1>
-    <title>Définir un quota</title>
+    <title lang="es">Définir un quota</title>
 
     <para>Prenons un exemple. Dans notre bibliothèque, les enfants peuvent
     emprunter trois documents parmi lesquels au plus deux livres, deux

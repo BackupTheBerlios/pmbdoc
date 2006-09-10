@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="edit">
-  <title>Éditions</title>
+  <title lang="es">Éditions</title>
 
   <para>Six types d'éditions (ou de rapports) sont à votre disposition avec
   cet onglet. Les résultats sont affichés sous la forme de tableaux dans
   l'interface centrale de l'application.</para>
 
   <figure>
-    <title>Éditions, menu latéral</title>
+    <title lang="es">Éditions, menu latéral</title>
 
     <mediaobject>
       <imageobject>
@@ -17,7 +17,7 @@
   </figure>
 
   <sect1>
-    <title>Exemplaires</title>
+    <title lang="es">Exemplaires</title>
 
     <para>Cette partie du menu vous permet d'accéder à des informations sur
     les exemplaires présents dans votre bibliothèques. Vous pouvez afficher
@@ -40,14 +40,14 @@
 
     <sect2 id="edit_expl_encours">
 
-      <title>Prêts en cours</title>
+      <title lang="es">Prêts en cours</title>
 
       <para><emphasis>Prêts en cours </emphasis>liste tous les prêts en cours
       et offre la possibilité d'imprimer des lettres de relance ou d'expédier
       des mails de relance.</para>
 
       <figure>
-        <title>Éditions &gt; Exemplaires &gt; Prêts en cours</title>
+        <title lang="es">Éditions &gt; Exemplaires &gt; Prêts en cours</title>
 
         <mediaobject>
           <imageobject>
@@ -72,7 +72,7 @@
     </sect2>
 
     <sect2 id="edit_expl_retard">
-      <title>Exemplaires en retard</title>
+      <title lang="es">Exemplaires en retard</title>
 
       <para>Liste les prêts en retard et permet d'imprimer une lettre de
       relance personnalisée.</para>
@@ -81,7 +81,7 @@
       un contrôle visuel ainsi que l'impression.</para>
 
       <figure>
-        <title>Éditions &gt; Exemplaires &gt; Exemplaires en retard</title>
+        <title lang="es">Éditions &gt; Exemplaires &gt; Exemplaires en retard</title>
 
         <mediaobject>
           <imageobject>
@@ -96,13 +96,13 @@
     </sect2>
 
     <sect2 id="edit_expl_pargroupe">
-      <title>Prêts par groupes</title>
+      <title lang="es">Prêts par groupes</title>
 
       <para>Même logique que pour les éditions sur les exemplaires mais regroupement selon les
       groupes. Pour plus d'information, voir <xref linkend="edit_expl_encours" /></para>
 
       <figure>
-        <title>Éditions &gt; Exemplaires &gt; Prêts par groupes</title>
+        <title lang="es">Éditions &gt; Exemplaires &gt; Prêts par groupes</title>
 
         <mediaobject>
           <imageobject>
@@ -114,7 +114,7 @@
   </sect1>
 
   <sect1>
-    <title>Réservations</title>
+    <title lang="es">Réservations</title>
 
     <para>Les réservations sont gérées depuis l'onglet
     <emphasis>Circulation</emphasis>. Dans la partie de l'écran consacrée à
@@ -130,12 +130,12 @@
     compte.</para>
 
     <sect2 id="edit_resa">
-      <title>Réservations</title>
+      <title lang="es">Réservations</title>
 
       <para>Affiche la liste des réservations en cours.</para>
 
       <figure>
-        <title>Editions &gt; Réservations &gt; Réservations</title>
+        <title lang="es">Editions &gt; Réservations &gt; Réservations</title>
 
         <mediaobject>
           <imageobject>
@@ -197,13 +197,13 @@
     </sect2>
 
     <sect2 id="edit_resa_a_traiter">
-      <title>réservations à traiter</title>
+      <title lang="es">réservations à traiter</title>
 
       <para>Affiche la liste des réservations qui n'ont pas été encore prises
       en compte par le personnel en charge.</para>
 
       <figure>
-        <title>Editions &gt; Réservations &gt; à traiter</title>
+        <title lang="es">Editions &gt; Réservations &gt; à traiter</title>
 
         <mediaobject>
           <imageobject>
@@ -230,17 +230,17 @@
   </sect1>
 
   <sect1 id="edit_empr">
-    <title>Lecteurs</title>
+    <title lang="es">Lecteurs</title>
 
     <sect2 id="edit_empr_encours">
-      <title>Lecteurs en cours</title>
+      <title lang="es">Lecteurs en cours</title>
 
       <para>Cet écran vous permet de faire une recherche de lecteurs. Par
       défaut le résultat d'une recherche portant sur tous les lecteurs est
       affichée.</para>
 
       <figure>
-        <title>Éditions &gt; Lecteurs &gt; Lecteurs en cours</title>
+        <title lang="es">Éditions &gt; Lecteurs &gt; Lecteurs en cours</title>
 
         <mediaobject>
           <imageobject>
@@ -264,7 +264,7 @@
     </sect2>
 
     <sect2 id="edit_empr_limite">
-      <title>Lecteurs : abonnement bientôt expiré</title>
+      <title lang="es">Lecteurs : abonnement bientôt expiré</title>
 
       <para>Vous pouvez également afficher les lecteurs avec une fin
       d'abonnement proche, où dont l'abonnement est déjà expiré.</para>
@@ -277,7 +277,7 @@
       <emphasis>Paramètres</emphasis>.</para>
 
       <figure>
-        <title>Éditions &gt; Lecteurs, fin d'abonnement proche</title>
+        <title lang="es">Éditions &gt; Lecteurs, fin d'abonnement proche</title>
 
         <mediaobject>
           <imageobject>
@@ -301,7 +301,7 @@
     </sect2>
 
     <sect2 id="edit_empr_depasse">
-      <title>Lecteurs : abonnement expiré</title>
+      <title lang="es">Lecteurs : abonnement expiré</title>
 
       <para>Les lecteurs ayant un abonnement expiré ne sont pas affichés parmi
       les lecteurs en cours.</para>
@@ -310,7 +310,7 @@
       expiré.</para>
 
       <figure>
-        <title>Éditions &gt; Lecteurs, abonnement expiré</title>
+        <title lang="es">Éditions &gt; Lecteurs, abonnement expiré</title>
 
         <mediaobject>
           <imageobject>
@@ -335,13 +335,13 @@
   </sect1>
 
   <sect1 id="edit_serials">
-    <title>Périodiques</title>
+    <title lang="es">Périodiques</title>
 
     <sect2>
-      <title>État des collections</title>
+      <title lang="es">État des collections</title>
 
      <figure>
-        <title>Éditions &gt; Périodiques &gt; Etat des collections</title>
+        <title lang="es">Éditions &gt; Périodiques &gt; Etat des collections</title>
 
         <mediaobject>
           <imageobject>
@@ -363,10 +363,10 @@
   </sect1>
 
   <sect1>
-    <title>États</title>
+    <title lang="es">États</title>
 
     <sect2 id="edit_procs">
-      <title>États personnalisables</title>
+      <title lang="es">États personnalisables</title>
 
       <para>Cette fonction de l'onglet <emphasis>Editions</emphasis> permet
       d'afficher à l'écran l'édition de résultats de procédures stockées,
@@ -386,7 +386,7 @@
       fonctionnement.</para>
 
       <figure>
-        <title>Éditions &gt; États &gt; Personnalisables</title>
+        <title lang="es">Éditions &gt; États &gt; Personnalisables</title>
 
         <mediaobject>
           <imageobject>
@@ -400,7 +400,7 @@
       affiché.</para>
 
       <figure>
-        <title>Éditions &gt; États &gt; Personnalisables, choix des
+        <title lang="es">Éditions &gt; États &gt; Personnalisables, choix des
         paramètres</title>
 
         <mediaobject>
@@ -411,7 +411,7 @@
       </figure>
 
       <figure>
-        <title>Éditions &gt; États &gt; Personnalisables, affichage des
+        <title lang="es">Éditions &gt; États &gt; Personnalisables, affichage des
         résultats d'un état personnalisable</title>
 
         <mediaobject>
@@ -430,16 +430,16 @@
   </sect1>
 
   <sect1>
-    <title>Codes barres</title>
+    <title lang="es">Codes barres</title>
 
     <sect2 id="edit_cbgen">
-      <title>Génération libre</title>
+      <title lang="es">Génération libre</title>
 
       <para>Cet outil permet d'éditer des pages de code barre, imprimables sur
       des feuillets d'étiquettes.</para>
 
       <figure>
-        <title>Éditions &gt; Codes barres &gt; Génération libre</title>
+        <title lang="es">Éditions &gt; Codes barres &gt; Génération libre</title>
 
         <mediaobject>
           <imageobject>

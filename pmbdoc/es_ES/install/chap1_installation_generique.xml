@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Instalación genérica</title>
+  <title lang="es">Instalación genérica</title>
 
   <para>PMB es una aplicación web que necesita un servidor web configurado con
   PHP y el acceso a una base de datos MySQL. Si bien las intalaciones difieren
@@ -8,14 +8,14 @@
   de puntos en común.</para>
 
   <sect1>
-    <title>Requisitos previos</title>
+    <title lang="es">Requisitos previos</title>
 
     <para>Ver más arriba, capítulo 2, sección 3 : Requisitos previos de
     instalación</para>
   </sect1>
 
   <sect1>
-    <title>Instalación</title>
+    <title lang="es">Instalación</title>
 
     <para>Descargar la última versión de la página web de PMB
     [http://www.sigb.net].</para>
@@ -29,7 +29,7 @@
     un servidor Web en la máquina "monserveur".</para>
 
     <sect2>
-      <title>Creación de la base de datos e inicio de la aplicación</title>
+      <title lang="es">Creación de la base de datos e inicio de la aplicación</title>
 
       <para>A partir del lugar donde habéis extraído el archivo, ve a buscar
       la página <emphasis role="bold">tables/install.php</emphasis> (en
@@ -41,7 +41,7 @@
       cuenta.</para>
 
       <figure>
-        <title>Selección de la lengua de instalación</title>
+        <title lang="es">Selección de la lengua de instalación</title>
 
         <mediaobject>
           <imageobject>
@@ -61,7 +61,7 @@
       SEGURIDAD EVIDENTE.</para>
 
       <figure>
-        <title>Informaciones de instalación, definición de los parámetros en
+        <title lang="es">Informaciones de instalación, definición de los parámetros en
         medio de la página (baja la pantalla hacia abajo)</title>
 
         <mediaobject>
@@ -72,7 +72,7 @@
       </figure>
 
       <sect3>
-        <title>Parámetros del sistema</title>
+        <title lang="es">Parámetros del sistema</title>
 
         <para>Son los parámetros del servidor MySQL que se usarán para crear
         la base de datos. Es obligatorio que el usuario MySQL tenga los
@@ -83,7 +83,7 @@
       </sect3>
 
       <sect3>
-        <title>Parámetros PMB</title>
+        <title lang="es">Parámetros PMB</title>
 
         <para>Son los parámetros que el script script usará para crear la base
         de datos de PMB y el usuario MySQL correspondiente :</para>
@@ -113,7 +113,7 @@
     </sect2>
 
     <sect2>
-      <title>Archivos de configuración de conexión a la base de datos</title>
+      <title lang="es">Archivos de configuración de conexión a la base de datos</title>
 
       <para>Una vez la base de ha creado, verifica los archivos de conexión de
       PMB a la base de datos. Edita el archivo
@@ -154,7 +154,7 @@
     </sect2>
 
     <sect2>
-      <title>Primera conexión</title>
+      <title lang="es">Primera conexión</title>
 
       <para>Una vez todas las operaciones anteriores se han realizado, puedes
       comprovar la conexión a la aplicación PMB. Introduce la dirección de tu
@@ -183,7 +183,7 @@
     </sect2>
 
     <sect2>
-      <title>Creación de parámetros y actualización de la base</title>
+      <title lang="es">Creación de parámetros y actualización de la base</title>
 
       <para>Con el fin de mantener la base de datos al día, después de cada
       instalación o actualización :</para>
@@ -203,7 +203,7 @@
   </sect1>
 
   <sect1>
-    <title>Cambio de la contraseña del administrador</title>
+    <title lang="es">Cambio de la contraseña del administrador</title>
 
     <para>No explicaremos en este documento la gestión de los derechos y los
     diferentes parámetros posibles de PMB. Para esto ve a la Guía del
@@ -238,7 +238,7 @@
   </sect1>
 
   <sect1>
-    <title>Configuraciones provadas</title>
+    <title lang="es">Configuraciones provadas</title>
 
     <para>El programa PMB ha sido provado en las plataformas siguientes
     :</para>

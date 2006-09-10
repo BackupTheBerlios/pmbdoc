@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_import">
-  <title>Imports</title>
+  <title lang="es">Imports</title>
 
   <para>L'import permet d'éviter de cataloguer des ouvrages déjà catalogués :
   soit par une BDP qui dépose des ouvrages dans une bibliothèque de son
@@ -8,7 +8,7 @@
   internet...)..</para>
 
   <sect1 id="admin_import_import">
-    <title>Notices UNIMARC</title>
+    <title lang="es">Notices UNIMARC</title>
 
     <para>L'import de notices UNIMARC vous permet de charger en base des
     notices au format UNIMARC sans exemplaires associés. Ceci vous permettra
@@ -17,7 +17,7 @@
     bibliographiques.</para>
 
     <figure>
-      <title>Imports &gt; Notices UNIMARC</title>
+      <title lang="es">Imports &gt; Notices UNIMARC</title>
 
       <mediaobject>
         <imageobject>
@@ -33,7 +33,7 @@
   </sect1>
 
   <sect1 id="admin_import_import_expl">
-    <title>Exemplaires UNIMARC</title>
+    <title lang="es">Exemplaires UNIMARC</title>
 
     <para>L'import d'exemplaires UNIMARC va importer, outre les notices, les
     exemplaires associés. Cette fonction correspond typiquement à un transfert
@@ -41,7 +41,7 @@
     communale) ou d'un SIGB à un autre.</para>
 
     <figure>
-      <title>Imports &gt; Exemplaires UNIMARC</title>
+      <title lang="es">Imports &gt; Exemplaires UNIMARC</title>
 
       <mediaobject>
         <imageobject>
@@ -67,12 +67,12 @@
     pour plus d'informations consulter le Guide d'installation PMB)</para>
 
     <sect2>
-      <title>Transfert du fichier par la fonction "télécharger"</title>
+      <title lang="es">Transfert du fichier par la fonction "télécharger"</title>
 
       <para>Cliquez sur Commencer : télécharger votre fichier.</para>
 
       <figure>
-        <title>Imports &gt; Exemplaires UNIMARC, deuxième écran</title>
+        <title lang="es">Imports &gt; Exemplaires UNIMARC, deuxième écran</title>
 
         <mediaobject>
           <imageobject>
@@ -171,7 +171,7 @@
       traiter.</para>
 
       <figure>
-        <title>Imports &gt; Exemplaires UNIMARC , écran de déroulement du
+        <title lang="es">Imports &gt; Exemplaires UNIMARC , écran de déroulement du
         transfert</title>
 
         <mediaobject>
@@ -192,7 +192,7 @@
     </sect2>
 
     <sect2>
-      <title>Transfert du fichier par FTP</title>
+      <title lang="es">Transfert du fichier par FTP</title>
 
       <para>Si vous avez transféré votre fichier d'exemplaires directement sur
       le serveur par FTP, votre fichier est déjà existant sur le serveur sous
@@ -201,7 +201,7 @@
       télécharger.</para>
 
       <figure>
-        <title>Imports &gt; Exemplaires UNIMARC, fichier unimarc.fic sur le
+        <title lang="es">Imports &gt; Exemplaires UNIMARC, fichier unimarc.fic sur le
         serveur, deuxième écran</title>
 
         <mediaobject>
@@ -218,13 +218,13 @@
     </sect2>
 
     <sect2>
-      <title>Chargement des notices et des exemplaires</title>
+      <title lang="es">Chargement des notices et des exemplaires</title>
 
       <para>Vous pouvez suivre le déroulement de l'import grace à l'affichage
       du nombre de notices restant à traiter.</para>
 
       <figure>
-        <title>Imports &gt; Exemplaires UNIMARC, écran de déroulement de
+        <title lang="es">Imports &gt; Exemplaires UNIMARC, écran de déroulement de
         l'import</title>
 
         <mediaobject>
@@ -240,7 +240,7 @@
   </sect1>
 
   <sect1 id="admin_import_pointage_expl">
-    <title>Pointage des importés</title>
+    <title lang="es">Pointage des importés</title>
 
     <para>Le pointage des exemplaires importés permet de vérifier manuellement
     la correspondance de la réalité physique du transfert de ressources
@@ -282,7 +282,7 @@
     </itemizedlist>
 
     <figure>
-      <title>Imports &gt; Pointage des importés</title>
+      <title lang="es">Imports &gt; Pointage des importés</title>
 
       <mediaobject>
         <imageobject>
@@ -314,7 +314,7 @@
   </sect1>
 
   <sect1>
-    <title>Références pour l'import UNIMARC</title>
+    <title lang="es">Références pour l'import UNIMARC</title>
 
     <para>Les références ci-dessous sont tirées du fichier
     PMB/doc/import_unimarc.txt</para>

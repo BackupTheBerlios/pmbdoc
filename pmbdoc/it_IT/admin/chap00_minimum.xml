@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="donnees_minimum">
-  <title>Données minimum</title>
+  <title lang="es">Données minimum</title>
 
   <para>PMB repose sur un ensemble de fichier (scripts PHP, XML,...) et une
   base de données. Pour pouvoir fonctionner, PMB nécessite qu'un jeu de
@@ -20,7 +20,7 @@
   PMB.</para>
 
   <sect1>
-    <title>Structure de la base</title>
+    <title lang="es">Structure de la base</title>
 
     <para>Le fichier <emphasis role="bold">bibli.sql</emphasis> contient les
     informations sur la structure de la base de PMB et doit être
@@ -28,7 +28,7 @@
   </sect1>
 
   <sect1>
-    <title>Données minimum pour lancer PMB</title>
+    <title lang="es">Données minimum pour lancer PMB</title>
 
     <para>Pour lancer PMB vous devez avoir chargé en base au moins le fichier
     <emphasis role="bold">minimum.sql</emphasis>, ce fichier définit :</para>
@@ -54,7 +54,7 @@
   </sect1>
 
   <sect1>
-    <title>Données pour lancer PMB en mode quick-start</title>
+    <title lang="es">Données pour lancer PMB en mode quick-start</title>
 
     <para>Pour lancer PMB en mode quick-start (pouvoir cataloguer
     immédiatement), il faut charger en plus des fichiers bibli.sql et
@@ -77,7 +77,7 @@
   </sect1>
 
   <sect1>
-    <title>Une sélection de données de notices, lecteurs, afin de pouvoir
+    <title lang="es">Une sélection de données de notices, lecteurs, afin de pouvoir
     tester de suite PMB</title>
 
     <para>Pour pouvoir tester PMB, chargez le en plus de bibli.sql,
@@ -120,7 +120,7 @@
   </sect1>
 
   <sect1>
-    <title>Thésaurus et indexations internes</title>
+    <title lang="es">Thésaurus et indexations internes</title>
 
     <para>PMB vous offre aussi la possibilité de charger un thésaurus
     (remplissage des catégories de PMB) et une indexation interne.</para>
@@ -171,14 +171,14 @@
   </sect1>
 
   <sect1>
-    <title>Effacer le jeu de données de test</title>
+    <title lang="es">Effacer le jeu de données de test</title>
 
     <para>Le jeu de données de test que vous pouvez avoir chargé pour tester
     PMB n'est pas utile pour l'utilisation quotidienne de PMB et peut
     parasiter votre base de données.</para>
 
     <sect2>
-      <title>Sous Windows</title>
+      <title lang="es">Sous Windows</title>
 
       <para>Pour effacer le jeu de test de la base, vous disposez sous Windows
       du fichier empty_example_set.ba t</para>
@@ -246,7 +246,7 @@ q) Quitter
     </sect2>
 
     <sect2>
-      <title>Sous Linux</title>
+      <title lang="es">Sous Linux</title>
 
       <para>Pour effacer le jeu de test de la base, vous disposez sous Linux
       du fichier empty_example_set.cmd ; son fonctionnement est identique à
@@ -259,7 +259,7 @@ q) Quitter
   </sect1>
 
   <sect1>
-    <title>Plus d'informations</title>
+    <title lang="es">Plus d'informations</title>
 
     <para>Si vous désirez plus d'informations sur les thésaurus et les
     indexations internes fournies avec PMB consulter le <emphasis>Guide de

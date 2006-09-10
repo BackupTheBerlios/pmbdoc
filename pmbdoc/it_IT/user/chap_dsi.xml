@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Diffusion sélective de l'information (DSI)</title>
+  <title lang="es">Diffusion sélective de l'information (DSI)</title>
 
   <para>La diffusion sélective de l'information (DSI) est un outil de veille
   documentaire.</para>
 
   <sect1>
-    <title>Introduction</title>
+    <title lang="es">Introduction</title>
 
     <sect2>
-      <title>Définition</title>
+      <title lang="es">Définition</title>
 
       <para>La <emphasis role="bold">diffusion sélective de
       l’information</emphasis> est un service qui consiste à diffuser aux
@@ -23,7 +23,7 @@
     </sect2>
 
     <sect2>
-      <title>DSI privée et publique</title>
+      <title lang="es">DSI privée et publique</title>
 
       <para>La diffusion sélective de l'information permet d'alerter les
       utilisateurs de la parution récente de documents, d'informations
@@ -55,10 +55,10 @@
   </sect1>
 
   <sect1>
-    <title>Activer la DSI</title>
+    <title lang="es">Activer la DSI</title>
 
     <sect2>
-      <title>Afficher l'onglet DSI</title>
+      <title lang="es">Afficher l'onglet DSI</title>
 
       <para><inlinemediaobject>
           <imageobject>
@@ -79,7 +79,7 @@
       DSI, voici ici la liste des paramètres concernés :</para>
 
       <table>
-        <title>Administration &gt; Outils &gt; Paramètres, type Diffusion
+        <title lang="es">Administration &gt; Outils &gt; Paramètres, type Diffusion
         Sélective de l'information (dsi)</title>
 
         <tgroup cols="3">
@@ -124,7 +124,7 @@
     </sect2>
 
     <sect2>
-      <title>DSI et OPAC</title>
+      <title lang="es">DSI et OPAC</title>
 
       <para>La DSI sera également visible dans l'OPAC pour le lecteur qui se
       sera identifié. Pour activer la DSI dans l'OPAC, modifier les paramètres
@@ -134,7 +134,7 @@
   </sect1>
 
   <sect1>
-    <title>Diffusion</title>
+    <title lang="es">Diffusion</title>
 
     <para>La diffusion est la dernière étape de la DSI. Une fois une ou des
     bannettes créées, et que des équations y aient été attribuées, vous pouvez
@@ -142,14 +142,14 @@
   </sect1>
 
   <sect1>
-    <title>Bannettes</title>
+    <title lang="es">Bannettes</title>
 
     <para>Permet de créer des utilisateurs en leur donnant noms et mots de
     passes, ainsi que le droit d'accéder ou non aux différents onglets.</para>
   </sect1>
 
   <sect1>
-    <title>Equations</title>
+    <title lang="es">Equations</title>
 
     <para>Cette partie de l'onglet administration contient des outils de
     maintenance pour la base de données MySQL, le système de mise à jour de la
@@ -162,7 +162,7 @@
   </sect1>
 
   <sect1>
-    <title>Options</title>
+    <title lang="es">Options</title>
 
     <para>Cette partie de l'onglet administration contient des outils de
     maintenance pour la base de données MySQL, le système de mise à jour de la
@@ -175,13 +175,13 @@
   </sect1>
 
   <sect1>
-    <title>Exemple d'utilisation pas à pas de la DSI</title>
+    <title lang="es">Exemple d'utilisation pas à pas de la DSI</title>
 
     <para>Onglet DSI : - Equations, gestion, cliquez sur ajouter pour créer
     une équation de recherche.</para>
 
     <figure>
-      <title>Rechercher ou ajouter une bannette</title>
+      <title lang="es">Rechercher ou ajouter une bannette</title>
 
       <mediaobject>
         <imageobject>
@@ -193,7 +193,7 @@
     <para>et lancer la recherche, par exemple :</para>
 
     <figure>
-      <title>Recherche multi-critères</title>
+      <title lang="es">Recherche multi-critères</title>
 
       <mediaobject>
         <imageobject>
@@ -203,7 +203,7 @@
     </figure>
 
     <figure>
-      <title>Résultat de la recherche multi-critères</title>
+      <title lang="es">Résultat de la recherche multi-critères</title>
 
       <mediaobject>
         <imageobject>
@@ -218,7 +218,7 @@
     <para>Donner un nom à l'équation puis Enregistrer</para>
 
     <figure>
-      <title>Création d'une équation</title>
+      <title lang="es">Création d'une équation</title>
 
       <mediaobject>
         <imageobject>
@@ -234,7 +234,7 @@
     modifier.</para>
 
     <figure>
-      <title>Affichage de la liste des équations disponibles</title>
+      <title lang="es">Affichage de la liste des équations disponibles</title>
 
       <mediaobject>
         <imageobject>
@@ -244,7 +244,7 @@
     </figure>
 
     <figure>
-      <title>Modification d'une équation</title>
+      <title lang="es">Modification d'une équation</title>
 
       <mediaobject>
         <imageobject>
@@ -259,7 +259,7 @@
     Enregistrer</para>
 
     <figure>
-      <title>Création d'une bannette</title>
+      <title lang="es">Création d'une bannette</title>
 
       <mediaobject>
         <imageobject>
@@ -273,7 +273,7 @@
     immédiatement les abonnements de lecteurs.</para>
 
     <figure>
-      <title>Alerte javascript</title>
+      <title lang="es">Alerte javascript</title>
 
       <mediaobject>
         <imageobject>
@@ -283,7 +283,7 @@
     </figure>
 
     <figure>
-      <title>Liste des bannettes</title>
+      <title lang="es">Liste des bannettes</title>
 
       <mediaobject>
         <imageobject>
@@ -296,7 +296,7 @@
     affecter une ou plusieurs Equations à la bannette.</para>
 
     <figure>
-      <title>Association des équations à la bannette</title>
+      <title lang="es">Association des équations à la bannette</title>
 
       <mediaobject>
         <imageobject>
@@ -309,7 +309,7 @@
     enregistrer.</para>
 
     <figure>
-      <title>Affection aux abonnés d'une bannette</title>
+      <title lang="es">Affection aux abonnés d'une bannette</title>
 
       <mediaobject>
         <imageobject>
@@ -322,7 +322,7 @@
     sélectionnez les et cliquez sur Enregistrer.</para>
 
     <figure>
-      <title>Liste des bannettes après association d'équation et
+      <title lang="es">Liste des bannettes après association d'équation et
       d'abonnés</title>
 
       <mediaobject>
@@ -341,7 +341,7 @@
     <para></para>
 
     <figure>
-      <title>Liste des bannettes pour réaliser une action</title>
+      <title lang="es">Liste des bannettes pour réaliser une action</title>
 
       <mediaobject>
         <imageobject>
@@ -353,7 +353,7 @@
     <para>Vous pouvez alors diffuser.</para>
 
     <figure>
-      <title>Résultat d'une action réalisée</title>
+      <title lang="es">Résultat d'une action réalisée</title>
 
       <mediaobject>
         <imageobject>
@@ -370,7 +370,7 @@
     serveur SMTP dans votre configuration php doit être défini.</para>
 
     <figure>
-      <title>Envoi du contenu d'une bannette aux lecteurs abonnés</title>
+      <title lang="es">Envoi du contenu d'une bannette aux lecteurs abonnés</title>
 
       <mediaobject>
         <imageobject>
@@ -383,7 +383,7 @@
     bannette après s'être connecté.</para>
 
     <para><figure>
-        <title>Affichage du compte lecteur dans l'OPAC</title>
+        <title lang="es">Affichage du compte lecteur dans l'OPAC</title>
 
         <mediaobject>
           <imageobject>
@@ -394,7 +394,7 @@
     pouvez voir les bannettes auxquelles vous êtes abonnés.</para>
 
     <figure>
-      <title>Ecran des informations du lecteur dans l'OPAC, après avoir cliqué
+      <title lang="es">Ecran des informations du lecteur dans l'OPAC, après avoir cliqué
       sur Accéder à votre information personnalisée</title>
 
       <mediaobject>
@@ -411,7 +411,7 @@
     PMB.</para>
 
     <figure>
-      <title>Affichage d'une notice dans l'OPAC</title>
+      <title lang="es">Affichage d'une notice dans l'OPAC</title>
 
       <mediaobject>
         <imageobject>

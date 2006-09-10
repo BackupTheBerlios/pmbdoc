@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title>Installation générique</title>
+  <title lang="es">Installation générique</title>
 
   <para>PMB est une application web qui nécessite un serveur web configuré
   avec PHP et l'accès à une base de données MySQL. Si les installations
@@ -8,14 +8,14 @@
   certain nombre de points communs.</para>
 
   <sect1>
-    <title>Pré-requis</title>
+    <title lang="es">Pré-requis</title>
 
     <para>Voir ci-dessus, chapitre 2, section 3 : Pré-requis
     d'installation</para>
   </sect1>
 
   <sect1>
-    <title>Installation</title>
+    <title lang="es">Installation</title>
 
     <para>Téléchargez la dernière version sur le site de PMB
     [http://www.sigb.net].</para>
@@ -30,7 +30,7 @@
     machine "monserveur".</para>
 
     <sect2>
-      <title>Création de la base de données et initialisation de
+      <title lang="es">Création de la base de données et initialisation de
       l'application</title>
 
       <para>A partir de l'endroit où vous avez extrait l'archive, appelez la
@@ -47,7 +47,7 @@
       TROU DE SÉCURITÉ ÉVIDENT.</para>
 
       <sect3>
-        <title>Paramètres système</title>
+        <title lang="es">Paramètres système</title>
 
         <para>Ce sont les paramètres du serveur MySQL qui seront utilisés pour
         créer la base de données. Il est impératif que l'utilisateur MySQL ait
@@ -59,7 +59,7 @@
       </sect3>
 
       <sect3>
-        <title>Paramètres PMB</title>
+        <title lang="es">Paramètres PMB</title>
 
         <para>Ce sont ces paramètres que le script utilisera pour créer la
         base PMB et l'utilisateur MySQL correspondant :</para>
@@ -89,7 +89,7 @@
     </sect2>
 
     <sect2>
-      <title>Fichiers de configuration de connexion à la base de
+      <title lang="es">Fichiers de configuration de connexion à la base de
       données</title>
 
       <para>Une fois la base créée, vérifiez les fichiers de configuration de
@@ -131,7 +131,7 @@
     </sect2>
 
     <sect2>
-      <title>Première connexion</title>
+      <title lang="es">Première connexion</title>
 
       <para>Une fois toutes les opérations précédentes effectuées, vous pouvez
       tester la connexion à l'application PMB. Tapez l'adresse de votre
@@ -159,7 +159,7 @@
     </sect2>
 
     <sect2>
-      <title>Création du paramétrage et mise à niveau de la base</title>
+      <title lang="es">Création du paramétrage et mise à niveau de la base</title>
 
       <para>Afin de conserver la base à jour, après chaque installation ou
       mise à jour :</para>
@@ -178,7 +178,7 @@
   </sect1>
 
   <sect1>
-    <title>Changement du mot de passe administrateur</title>
+    <title lang="es">Changement du mot de passe administrateur</title>
 
     <para>Nous n'aborderons pas dans ce document la gestion des droits et les
     différents paramétrages possibles de PMB. Pour cela reportez vous au Guide
@@ -213,7 +213,7 @@
   </sect1>
 
   <sect1>
-    <title>Configurations testées</title>
+    <title lang="es">Configurations testées</title>
 
     <para>Le logiciel PMB a été testé sur les plate-formes suivantes :</para>
 
@@ -229,10 +229,10 @@
   </sect1>
 
   <sect1>
-    <title>Remarques sur l'installation générique</title>
+    <title lang="es">Remarques sur l'installation générique</title>
 
     <sect2>
-      <title>Droits sur le serveur :</title>
+      <title lang="es">Droits sur le serveur :</title>
 
       <para>Afin d'utiliser la possibilité de chargement de fiches UNIMARC à
       partir de l'administration, il faut que le service http de votre
