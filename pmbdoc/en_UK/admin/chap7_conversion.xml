@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_convert">
-  <title lang='en'>Conversions/exporting</title>
+  <title lang='en'>Conversions/export</title>
 
-  <para lang='en'>The conversions allows you to transform the format of a bibliographic
-  file to another. The exporting process allows you to export all of a part of
+  <para lang='en'>Conversions enable you to transform the format of a bibliographic
+  file into another. The exporting process allows you to export all or part of
   the PMB database</para>
 
   <figure>
@@ -22,13 +22,12 @@
     <para lang='en'>PMB is able to convert or export to and from various file
     formats.</para>
 
-    <para lang='en'><emphasis role="bold">marc iso 2709</emphasis> : notices encoded in
-    one of the MARC formats according to the ISO standard, this includes
+    <para lang='en'><emphasis role="bold">marc iso 2709</emphasis> : records in
+    a MARC format under the ISO standard, this includes
     UNIMARC ISO 2709 files but also files in MARC21, USMARC ... This file
-    format is not editable with a standard text editor.</para>
+    format cannot be edited with a standard text editor.</para>
 
-    <para lang='en'><emphasis role="bold">html marc</emphasis> : notices in one of the
-    MARC formats translated in HTML to be displayed on a web browser.</para>
+    <para lang='en'><emphasis role="bold">html marc</emphasis> : records in a MARC format translated in HTML for display using a web browser.</para>
 
     <figure>
       <title lang='en'>html marc</title>
@@ -40,10 +39,7 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'><emphasis role="bold">pmb xml marc</emphasis> : notices in one of
-    the MARC formats translated in XML, according to PMB DTD, this includes
-    the Unimarc files in PMB XML but also the files in MARC21,
-    USMARC...</para>
+    <para lang='en'><emphasis role="bold">pmb xml marc</emphasis> : records in a MARC format translated in XML according to PMB DTD; this includes the Unimarc files in PMB XML but also the files in MARC21, USMARC...</para>
 
     <figure>
       <title lang='en'>pmb xml marc</title>
@@ -55,14 +51,13 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'><emphasis role="bold">text</emphasis> : notices that you can edit
+    <para lang='en'><emphasis role="bold">text</emphasis> : records that you can edit
     with a standard text editor.</para>
 
-    <para lang='en'><emphasis role="bold">Memo notices BCDI</emphasis> : notices coming
-    from a BCDI export.</para>
+    <para lang='en'><emphasis role="bold">Memo BCDI records</emphasis> : records from a BCDI export.</para>
 
-    <para lang='en'><emphasis role="bold">RTF</emphasis> : notices list in Rich Text
-    Format. It's a list of book and their authors. This allows for example to
+    <para lang='en'><emphasis role="bold">RTF</emphasis> : records list in Rich Text
+    Format. This is list of books and their authors. This allows for instance to
     edit a new book list.</para>
 
     <figure>
@@ -77,7 +72,7 @@
   </sect1>
 
   <sect1 id="admin_convert_import">
-    <title lang='en'>External files conversion</title>
+    <title lang='en'>Converting external files</title>
 
     <figure>
       <title lang='en'>Conversions &gt; External files conversion</title>
@@ -89,7 +84,7 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>PMB allows you to convert bibliographic files.</para>
+    <para lang='en'>PMB allows bibliographic files conversion.</para>
 
     <para lang='en'>To select a file :</para>
 
@@ -101,13 +96,13 @@
       </listitem>
 
       <listitem>
-        <para lang='en'>You can also upload yourself the file on the server. You must
-        then put it in the <emphasis role="bold">temp</emphasis> directory and
+        <para lang='en'>You can also preload the file on the server. You will 
+        then have to place it in the <emphasis role="bold">temp</emphasis> directory and
         give it the name <emphasis role="bold">convert.fic</emphasis></para>
       </listitem>
     </itemizedlist>
 
-    <para lang='en'>You must afterwards choose the conversion type :</para>
+    <para lang='en'>Then choose the conversion type :</para>
 
     <itemizedlist>
       <listitem>
@@ -155,14 +150,12 @@
       </listitem>
     </itemizedlist>
 
-    <para lang='en'>For more informations, see <xref
+    <para lang='en'>For more details, see <xref
     linkend="formats_fichiers" />.</para>
 
-    <para lang='en'>Once the conversion is started, a progress bar shows the degree of
-    achievement of the conversion process.</para>
+    <para lang='en'>Once the conversion process is started, a progress bar is displayed.</para>
 
-    <para lang='en'>When the conversion ends, the file created by the conversion process
-    is prompted for download.</para>
+    <para lang='en'>Once the conversion process is completed, the file created is prompted for download.</para>
 
     <figure>
       <title lang='en'>Successful conversion</title>
@@ -178,9 +171,9 @@
   <sect1 id="admin_convert_export">
     <title lang='en'>PMB database export</title>
 
-    <para lang='en'>This feature allows you to export all of a part of your data in
-    various formats. Exporting data in UNIMARC format enables you to reuse the
-    PMB data in another program.</para>
+    <para lang='en'>This feature enables you to export all or part of your data in
+    various formats. Exporting data in UNIMARC format enables you to re-use the
+    PMB data in another application.</para>
 
     <figure>
       <title lang='en'>Conversions &gt; PMB database export</title>
@@ -194,32 +187,28 @@
 
     <procedure>
       <step>
-        <para lang='en'>Select the file format. For more details, see <xref
+        <para lang='en'>Select a file format. For more details, see <xref
         linkend="formats_fichiers" />.</para>
       </step>
 
       <step>
-        <para lang='en'>Then select the owner of the items to be exported. This allows,
-        for a city library for example, to export a file in RTF format of all
-        items in the Regional library fund.</para>
+        <para lang='en'>Next select an owner for the items for export. This enables a public library, for instance, to export a file in RTF format of all items in the Regional library depot.</para>
       </step>
 
       <step>
-        <para lang='en'>Afterwards select on or more document types corresponding to the
-        exported items. By default, no document type is selected, to select
-        one, click on a document type. To select several document types, press
-        the Cttrl key and click on the various documents types.</para>
+        <para lang='en'>Then select one or more media types corresponding to the
+        exported items. By default, no media type is selected, to select
+        one, click on a media type. To select several media types, hold the Ctrl key down while you click on the various media types.</para>
       </step>
 
       <step>
         <para lang='en'>Finally, select one or more status. To select several status,
-        press the Ctrl key and click on the various status.</para>
+        hold the Ctrl key down while you click on the various status.</para>
       </step>
 
       <step>
-        <para lang='en'>If you wan preserve your items informations, for example, if you
-        transfer your fund to another site, if you make a donation after a
-        sort, click on preserve items informations in 995 label.</para>
+        <para lang='en'>If you wish to retain items related data, for instance, if you
+        transfer your holdings to another site, if you make a donation after weeding, click on retain items data in Zone 995.</para>
       </step>
     </procedure>
   </sect1>

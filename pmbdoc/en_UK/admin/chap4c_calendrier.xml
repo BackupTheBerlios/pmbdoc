@@ -8,7 +8,7 @@
   of opening days of the library and not on the 7-day week.</para>
 
   <para lang='en'>Important : The calendar will be used for return dates or holds
-  available. The first day of opening following or falling on the expected
+  available. The first day of opening following or falling on the scheduled
   date will be the one retained.</para>
 
   <sect1>
@@ -71,15 +71,14 @@
 
     <para lang='en'>Reminder : The calendar will be used to calculate return dates or
     holds available. The first day of opening following or falling on the
-    expected date will be the one retained.</para>
+    scheduled date will be the one retained.</para>
 
     <para lang='en'>Example : the return date of an item falls during Christmas
     holidays, the return date is therefore automatically reset at 06/01/2007
-    (or failing opening on that day on the next opening day).</para>
+    (if closed on that day, then on the next opening day).</para>
 
     <para lang='en'>Note : you have to write a note linked with your action : "Great,
     it's Christmas" or "Closed exceptionally". To edit a note for a particular
-    day, click on the month, a form showing all the days of the month is
-    displayed along with the corresponding notes.</para>
+    day, click on the month, a form is displayed showing all the days of the month along with the corresponding notes.</para>
   </sect1>
 </chapter>

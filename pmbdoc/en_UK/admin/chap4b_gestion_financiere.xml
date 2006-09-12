@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_gestion_financiere">
-  <title lang="es">Financial management</title>
+  <title lang="en">Financial management</title>
 
-  <para lang="en">The financial management module enables you to monitor financial transactions relating to the library's readership. These may be of different types :</para>
+  <para lang="en">The financial management module enables you to monitor financial transactions relating to the library's readership. These may be of various types :</para>
 
   <itemizedlist>
     <listitem>
@@ -18,7 +18,7 @@
 
   <itemizedlist>
     <listitem>
-      <para lang="en">dues on loans relating to one or more types of documents (for
+      <para lang="en">dues on loans relating to one or more media types (for
       example, DVD), either as a whole, or based on the loan period...</para>
 
       <para lang="en"><figure>
@@ -38,11 +38,11 @@
     <title lang="en">Basic factors</title>
 
     <para lang="en">How the financial management module functions in PMB rests on a
-    number of factors of which you need a very good understanding to be able
+    number of factors which you need to understand fully to be able
     to use the module.</para>
 
     <sect2>
-      <title lang="en">Types of readers accounts</title>
+      <title lang="en">Types of readers' accounts</title>
 
       <para lang="en">There are three types of accounts for each reader :</para>
 
@@ -88,7 +88,7 @@
           <imagedata fileref="images/warning.gif" />
         </imageobject>
       </inlinemediaobject> 
-		It's about the advanced management of subscriptions. If this entry is not visible, the management of subscriptions is accessible in Administration &gt; Readers &gt; Categories de readers.</para>
+		This refers to the advanced management of subscriptions. If this entry is not visible, the management of subscriptions is accessible in Administration &gt; Readers &gt; Readers' categories</para>
 
     <para lang="en">If not, then Subscription management was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis> in this guide.</para>
 
@@ -146,7 +146,7 @@
       <para lang="en">Upon validation, your new subscription appears in the list.</para>
 
       <figure>
-        <title lang="en">Subscription management</title>
+        <title lang="en">Subscriptions management</title>
 
         <mediaobject>
           <imageobject>
@@ -164,7 +164,7 @@
         <imageobject>
           <imagedata fileref="images/warning.gif" />
         </imageobject>
-      </inlinemediaobject> It's about the advanced management of loans. If this entry is not visible, the management of loans rates is accessible in Administration &gt; Copies &gt; Media types.</para>
+      </inlinemediaobject> This refers to the advanced management of loans. If this entry is not visible, the management of loans rates is accessible in Administration &gt; Copies &gt; Media types.</para>
 
     <para lang="en">If not, then the management of laons rates was not enabled. For more information, refer to the chapter titled <emphasis>Tools</emphasis>, section <emphasis>Parameters</emphasis>, item <emphasis>General Parameters</emphasis>.</para>
 
@@ -178,28 +178,20 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">La partie sup�rieure de l'�cran liste les diff�rents types de tarifs
-    de pr�ts possibles. Cliquez sur un de ces types pour d�finir vos tarifs
-    correspondants.</para>
+    <para lang="en">The upper part of the screen displays the various types of possible loans rates. Click on one of these to define your corresponding rates.</para>
 
-    <para lang="en">Les param�tres g�n�raux occupent la partie inf�rieure de l'�cran. On
-    peut d�finir une valeur par d�faut ainsi que d�finir une politique pour la
-    r�solution des conflits (si deux tarifs de pr�ts correspondants ont �t�
-    sp�cifi�s et sont contradictoires).</para>
+    <para lang="en">The overall settings are found on the bottom half of the screen. You can define a default value as well as a directive to resolve conflicts (if two specified loans rates clash).</para>
 
-    <para lang="en">L'ergonomie de la gestion des tarifs de pr�ts est la m�me que celle
-    utilis�e dans la gestion des quotas.</para>
+    <para lang="en">The ergonomics of loans rates management is the same as the one used in quota management.</para>
 
-    <para lang="en">Pour plus d'informations sur l'ergonomie des tarifs de pr�ts,
-    consultez dans ce Guide le chapitre Quotas avanc�s.</para>
+    <para lang="en">For more details on the ergonomics of loans rates management, refer to the chapter Advanced quotas in this guide.</para>
   </sect1>
 
   <sect1>
     <title lang="en">Managing fines</title>
 
     <figure>
-      <title lang="en">Administration &gt; Gestion financi�re &gt; Gestion des
-      amendes</title>
+      <title lang="en">Administration &gt; Financial management &gt; Fines management</title>
 
       <mediaobject>
         <imageobject>
@@ -208,13 +200,11 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">Dans <emphasis>Gestion des amendes</emphasis>, vous pouvez modifier
-    les param�tres des amendes qui seront utilis�s. Pour ce faire, cliquez sur
-    le bouton <emphasis role="bold">Modifier les param�tres</emphasis>.</para>
+    <para lang="en">In <emphasis>Fines management</emphasis>, you can modify the settings regarding fines. To do this, click on the button <emphasis role="bold">Edit parameters</emphasis>.</para>
 
     <figure>
-      <title lang="en">Administration &gt; Gestion financi�re &gt; Gestion des amendes,
-      modification des param�tres</title>
+      <title lang="en">Administration &gt; Financial management &gt; Fines management,
+      modifying parameters</title>
 
       <mediaobject>
         <imageobject>
@@ -223,53 +213,31 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">Vous pouvez sp�cifier des valeurs pour les param�tres suivants
-    :</para>
+    <para lang="en">You can define values for the following parameters:</para>
 
-    <para lang="en"><emphasis role="bold">Montant de l'amende par jour et par exemplaire
-    </emphasis>: idem. <inlinemediaobject>
+    <para lang="en"><emphasis role="bold">Fine per day and per copy</emphasis>: idem. <inlinemediaobject>
         <imageobject>
           <imagedata fileref="images/warning.gif" />
         </imageobject>
-      </inlinemediaobject> La valeur donn�e peut �tre d�cimale, mais vous
-    devrez utiliser un point "." � la place de la virgule.</para>
+      </inlinemediaobject> You may give a decimal value; use a dot "." instead of a comma.</para>
 
-    <para lang="en"><emphasis role="bold">D�lai avant comptabilisation de
-    l'amende</emphasis> : m�me si l'amende court depuis le premier jour de
-    retard, on peut consid�rer que le lecteur est exon�r� de paiement s'il
-    rend l'ouvrage rapidement, � la fin de ce d�lai sera g�n�r� la premi�re
-    lettre de relance.</para>
+    <para lang="en"><emphasis role="bold">Grace period</emphasis>: even if the fine starts running from the very first day, the reader is deemed to be exempt from payment if he returns the work rapidly; it is only at the end of this period that will be generated the first overdue notice.</para>
 
-    <para lang="en"><emphasis role="bold">D�lai entre la 1�re et la 2�me relance :
-    </emphasis>apr�s une premi�re relance, g�n�ralement tr�s courtoise, le ton
-    retenu par la 2�me relance peut �tre plus vif.</para>
+    <para lang="en"><emphasis role="bold">Delay before 2nd reminder:</emphasis>after the first overdue notice, usually very polite, a rather blunt tone can be used in the 2nd reminder.</para>
 
-    <para lang="en"><emphasis role="bold">D�lai entre la 2�me et la 3�me
-    relance</emphasis> : apr�s cette deuxi�me relance, une troisi�me relance
-    plus exp�ditive peut �tre envoy�e.</para>
+    <para lang="en"><emphasis role="bold">Delay before the 3rd reminder</emphasis> : after the 2nd reminder, a third one abrupt can be despatched.</para>
 
-    <para lang="en"><emphasis role="bold">D�lai entre la 3�me relance et le passage en
-    recouvrement</emphasis> : apr�s une 3�me relance infructueuse, les
-    informations sont transmises pour recouvrement � une autre structure
-    responsable du recouvrement (il s'agira de la mairie pour une biblioth�que
-    municipale, du service comptabilit� pour un centre de documentation,
-    etc.)</para>
+    <para lang="en"><emphasis role="bold">Delay before recovery</emphasis>: after a 3rd reminder without effect, the file is passed on to another structure responsible for recoveries (the Town Hall for a public library, the Accounts Department for a documentation centre, etc.)</para>
 
-    <para lang="en"><emphasis role="bold">Montant maximum d'une amende par
-    exemplaire</emphasis> : montant auquel s'arr�tera de courir
-    l'amende.</para>
+    <para lang="en"><emphasis role="bold">Maximum fine</emphasis> per copy: amount at which the fine will stop accumulating.</para>
 
-    <para lang="en">Avec les param�tres en exemple, le jour de la transmission en
-    recouvrement, l'amende vaudra : (15 + 15 + 15 + 7) x 0,15 soit 52 �
-    auxquels viendront se rajouter des frais pour les relances
-    r�alis�es.</para>
+    <para lang="en">With the settings given in example, on the date of transmission for recovery the total fine due will be: (15 + 15 + 15 + 7) x 0,15 or 52 € to which shall be added the costs of the reminders.</para>
   </sect1>
 
   <sect1>
     <title lang="en">Managing fines : reminders</title>
 
-    <para lang="en">Dans cet �cran vous pourrez sp�cifier les frais de relances suite �
-    des retards dans le retour de pr�t.</para>
+    <para lang="en">On this screen you will be able to specify the costs of reminders for overdue loans.</para>
 
     <figure>
       <title lang="en">Managing fines : reminders</title>
@@ -281,8 +249,7 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">Pour modifier les param�tres des frais li�s aux relances, cliquez
-    sur <emphasis role="bold">Modifier les param�tres</emphasis>.</para>
+    <para lang="en">To modify settings regarding the costs of reminders, click on <emphasis role="bold">Modify parameters</emphasis>.</para>
 
     <figure>
       <title lang="en">Managing fines : reminders, modifying settings</title>
@@ -294,32 +261,26 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">Vous pouvez modifier les param�tres suivants :</para>
+    <para lang="en">You can modify the following settings :</para>
 
-    <para lang="en"><emphasis role="bold">Frais de la premi�re relance </emphasis>:
-    correspond aux frais factur�s pour l'envoi de la premi�re relance, dans
-    cet exemple ils sont bas�s sur les frais postaux d'envoi d'un
-    courrier.</para>
+    <para lang="en"><emphasis role="bold">Costs of the 1st reminder </emphasis>:
+    refer to expenses incurred for sending the first reminder, in this case, they are based on postal rates for an ordinary mail.</para>
 
-    <para lang="en"><emphasis role="bold">Frais de la deuxi�me relance</emphasis></para>
+    <para lang="en"><emphasis role="bold">Costs of the 2nd reminder</emphasis></para>
 
-    <para lang="en"><emphasis role="bold">Frais de la troisi�me relance</emphasis> :
-    celle-ci sera g�n�ralement envoy�e en recommand� avec accus� de r�ception,
-    ce qui explique un montant plus �lev�.</para>
+    <para lang="en"><emphasis role="bold">Costs of the 3rd reminder</emphasis>:
+    this reminder is usually sent by registered post with acknowledgement of receipt,
+    which explains why the superior is higher.</para>
 
-    <para lang="en"><emphasis role="bold">Statut perdu des ouvrages non rendus
-    </emphasis>: lorsque l'amende est transmise pour recouvrement au service
-    concern�, on consid�re g�n�ralement que l'ouvrage est, sauf exception,
-    d�finitivement perdu pour la biblioth�que. Dans ce cas, on peut affecter
-    un statut � l'exemplaire concern�, tel que "perdu" ou "manquant
-    inventaire".</para>
+    <para lang="en"><emphasis role="bold">Lost status for unreturned items
+    </emphasis>: when the fine is transmitted for recovery to the relevant service, the item is generally deemed as definitely lost for the library; in which case the status "lost" or "missing" can be assigned to the item.</para>
   </sect1>
 
   <sect1>
-    <title lang="en">Blocage des pr�ts</title>
+    <title lang="en">Suspension of loans</title>
 
     <figure>
-      <title lang="en">Blocage des pr�ts</title>
+      <title lang="en">Suspension of loans</title>
 
       <mediaobject>
         <imageobject>
@@ -328,11 +289,10 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">Pour modifier les param�tres de blocage des pr�ts, cliquez sur le
-    bouton <emphasis role="bold">Modifier les param�tres</emphasis>.</para>
+    <para lang="en">To modify the settings of loans suspension, click on the button<emphasis role="bold">Edit parameters</emphasis>.</para>
 
     <figure>
-      <title lang="en">Blocage des pr�ts, modification des param�tres</title>
+      <title lang="en">Suspension of loans, editing parameters</title>
 
       <mediaobject>
         <imageobject>
@@ -341,19 +301,19 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">Vous pouvez alors :</para>
+    <para lang="en">You can:</para>
 
     <itemizedlist>
       <listitem>
-        <para lang="en">bloquer les pr�ts si le compte abonnement est d�biteur</para>
+        <para lang="en">suspend loans if the subscription account is outstanding</para>
       </listitem>
 
       <listitem>
-        <para lang="en">bloquer les pr�ts si le compte pr�t est d�biteur</para>
+        <para lang="en">suspend loans if the loans account is outstanding</para>
       </listitem>
 
       <listitem>
-        <para lang="en">bloquer les pr�ts si le compte amende est d�biteur</para>
+        <para lang="en">suspend loans if the fines account is outstanding</para>
       </listitem>
     </itemizedlist>
   </sect1>

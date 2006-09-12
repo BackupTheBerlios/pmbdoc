@@ -2,18 +2,104 @@
 <chapter id="admin_import">
   <title lang="en">Importing</title>
 
-  <para lang="en">Inporting allows you to avoid cataloguing books already
-  catalogued : either by a library that make available all hits books to
-  library network, or by bibliographic repositories (CD-ROMs, websites,
-  ...)</para>
+  <para lang="en">Importing avoids you having to catalogue works already catalogued
+  either by a regional library service that make its works available to
+  libraries within its network or by bibliographic repositories (CD-ROMs,
+  websites, ...)</para>
 
-  <sect1 id="admin_import_import">
+  <para lang="en">The processes are effected in stages : </para>
+
+  <itemizedlist>
+    <listitem>
+      <para lang="en">Definition of import parameters :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang="en">For records :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para lang="en">ISBN mandatory</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Verification of doubles on ISBN (if yes, new entries will
+              not be created for existing records)</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Updating records (on identical ISBN)</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Ignoring ISSN (for serials)</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Status of records (to allow for the identification of
+              imported records specifically)</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+
+      <itemizedlist>
+        <listitem>
+          <para lang="en">For copies</para>
+
+          <itemizedlist>
+            <listitem>
+              <para lang="en">Lender (ex : Municipal Library)</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Status of items (ex : "being imported")</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Location of items</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Classmark mandatory</para>
+            </listitem>
+
+            <listitem>
+              <para lang="en">Conformity between Code 995 and your library collections
+              as regards media types, statistical codes and
+              section</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <listitem>
+      <para lang="en">File download,</para>
+    </listitem>
+
+    <listitem>
+      <para lang="en">Importing records or copies,</para>
+    </listitem>
+
+    <listitem>
+      <para lang="en">for copies of documents, tagging the imports to check
+      listing against copies actually received.</para>
+
+      <para lang="en">You can perform the last verification process very
+      rapidly if you have a barcode scanner.</para>
+    </listitem>
+  </itemizedlist>
+
+    <sect1 id="admin_import_import">
     <title lang="en">UNIMARC records</title>
 
-    <para lang="en">UNIMARC notices import allows you to load in the database
-    notices without the associated items. This make the cataloguing porcess
-    easier by importing notices files from ELECTRE for example, or data from
-    other bibliograpics products.</para>
+    <para lang="en">Importing UNIMARC records enables you to load bibliographic records
+    into the database but without any associated copies. Importing records
+    from ELECTRE for example, or from other bibliographic products facilitates
+    the cataloguing process.</para>
 
     <figure>
       <title lang="en">Import &gt; UNIMARC records</title>
@@ -25,17 +111,50 @@
       </mediaobject>
     </figure>
 
-    <para lang="en"><emphasis role="bold">Remark</emphasis> : if a UNIMARC
-    file can't be imported, you can check its validity by performing an
-    export. For more details, see <xref linkend="admin_convert" />.</para>
+    <para><emphasis role="bold">Remark. </emphasis>If you can't import a
+    UNIMARC file, check its validity by performing an export. For more
+    details, see <xref linkend="admin_convert" />.</para>
+
+    <para lang='en'>Click on <emphasis role="bold">Step 1 : Upload</emphasis>to start the import process.</para>
+
+    <figure>
+      <title lang='en'>Import &gt; UNIMARC Records, Screen 2</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_imp_notices2.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+    
+    <para lang="en">Decide whether imported records must always contain an ISBN (this may not always be the case, be careful when dealing with audio CD, CD-ROM and DVD as well as grey or unpublished literature).</para>
+
+    <para lang="en">If ISBN is present, PMB can check for doubles : no two
+    records with the same ISBN will be imported. In this case only the record
+    with an ISBN occurring first will be imported from your file.</para>
+
+    <para lang="en">You can also choose a status for the records; this
+    offers the option of whether to display the records in the OPAC. For more information, refer to chapter <emphasis>Records</emphasis>, section <emphasis>Status</emphasis> in this guide.</para>
+
+    <para lang="en">Finally, choose the file to import by clicking on Browse.
+    Note. This button may have a different name depending on your internet
+    browser.</para>
+
+    <para lang="en">Once you have chosen the file, click on Next.</para>
+
+    <para lang="en">Wait until this message appears on screen "There were x
+    record(s) to load, all were processed."</para>
+
+    <para lang="en">The records are then loaded into the PMB database.</para>
   </sect1>
 
   <sect1 id="admin_import_import_expl">
     <title lang="en">UNIMARC items</title>
 
-    <para lang="en">UNIMARC items import allows you to load in the database
-    notices with the associated items. This feature correspond tipically to a
-    book transfer, from a library to another or from an ILS to another.</para>
+    <para lang="en">Importing UNIMARC items enables you to load bibliographic records
+    into the database together with the associated copies. Typically this
+    feature corresponds to the transfer of a work from one library to another
+    or from an ILS to another.</para>
 
     <figure>
       <title lang="en">Import &gt; UNIMARC items</title>
@@ -47,35 +166,34 @@
       </mediaobject>
     </figure>
 
-    <para lang="en"><emphasis role="bold"><emphasis
-    role="bold">Remark</emphasis> : if a UNIMARC file can't be imported, you
-    can check its validity by performing an export. For more details, see
-    </emphasis><xref linkend="admin_convert" />.</para>
+    <para lang="en"><emphasis role="bold">Remark</emphasis>. If you cannot import a
+    UNIMARC file, check its validity by performing an export. For more
+    details, see <xref linkend="admin_convert" />.</para>
 
     <para lang="en">The file to be imported can be sent to PMB in two ways
     :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang="en">either you select the "Upload" feature to transfer
+        <para lang="en">either you use the "Upload" function to transfer
         your file.</para>
       </listitem>
 
       <listitem>
-        <para lang="en">or you send your file by FTP. This allows you to
-        upload files of more than 2 Mb (indicative size, this limit is set by
-        your server configuration, in php.ini file, for more details see the
-        PMB installation guide)</para>
+        <para lang="en">or you transfer your file by FTP. This enables you to upload
+        files with sizes greater than 2 Mb (size is indicative, this limit is set by your
+        server configuration, in php.ini file, for more details see the PMB
+        installation guide)</para>
       </listitem>
     </itemizedlist>
 
     <sect2>
-      <title lang="en">File Transfer with the "upload" feature</title>
+      <title lang="en">File Transfer using the "upload" feature</title>
 
       <para lang="en">Click on "Step 1 : Upload".</para>
 
       <figure>
-        <title lang="en">Import &gt; UNIMARC items, second screen</title>
+        <title lang="en">Import &gt; UNIMARC items, Screen 2</title>
 
         <mediaobject>
           <imageobject>
@@ -84,87 +202,75 @@
         </mediaobject>
       </figure>
 
-      <para lang="en">The screen allows you to customize the import process of
+      <para lang="en">This screen enables you to customize the import process of
       your items :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang="en">First, select an owner and a status for the items
-          you are about to import. For example, the owner may be a regional
-          library, or yourself if you are migrating your items from your old
-          ILS.</para>
+          <para lang="en">First, Check 'yes' under ISBN if mandatory for imported
+          records (No by default) and whether splitting on ISBN must be effected.</para>
 
-          <para lang="en">For the status, we recommend to select "importing
-          document". You will change it afterwards when checking imported
-          items. See below the "Check imported items" section.</para>
+         <para lang="en">Splitting records on ISBN allows you to group
+          items of one and same work under one bibliographical entry, for example if each
+          item was added separately or if a record appears more than
+          once in the file to import.</para>
         </listitem>
 
         <listitem>
-          <para lang="en">Check 'yes' under ISBN if mandatory for imported
-          notices (by default no) and if spliting on ISBN must be done.</para>
+        <para lang="en">Select a <emphasis role="bold">status for the imported records</emphasis>. This will enable you to manage the display of these records in your OPAC, for instance. For more information, refer to the chapter Records, Status section in the Administrator's Guide.</para>
+        </listitem>
 
-          <para lang="en">Spliting notices on ISBN allows you to reassemble
-          items of a unique book under the same notice, for example if each
-          item was created separately or if a same notice appears more than
-          once in the imported file.</para>
+        <listitem>        
+          <para lang="en">Next choose an <emphasis role="bold">owner</emphasis> and a <emphasis role="bold">status</emphasis> for the <emphasis role="bold">copies</emphasis> you are about to import. For example, the owner may be a regional library, or yourself if you are migrating your items from your old ILS.</para>
+          
+        <para lang="en">For status, we recommend using "import in progress". You
+          will change it afterwards when checking the imported items. See
+          below the "Check imported items" section.</para>
+        
+        <para lang="en">Select also a <emphasis role="bold">location</emphasis> for the imported works. If you are using various locations, this will enable you right at the import stage to decide exact locations for the imported copies.</para>
         </listitem>
 
         <listitem>
-          <para lang="en"><emphasis role="bold">Mandatory code</emphasis> :
-          Yes or No (No by default). In PMB (in accordance with the rule),
-          each item must have at least a barcode and a code. However, the
-          import process allows to insert items with no code.</para>
+          <para lang="en"><emphasis role="bold">Classmark mandatory</emphasis>:
+          Yes or No (No by default). In PMB (in accordance with standards),
+          each item must have at least a barcode and a classmark. However the
+          import process allows for the insertion of items without a classmark.</para>
         </listitem>
 
         <listitem>
-          <para lang="en"><emphasis role="bold">Materials / Statistical codes
-          / Sections / Location</emphasis> : for each of those informations,
-          you may specify if the file information must be imported, or if it's
-          your own classification that must used to make the correspondance
-          with the file.</para>
+          <para lang="en"><emphasis role="bold">Media types / Statistical codes / Sections / Location</emphasis> : for each of these, you may specify if they need to be imported, or if preference is to be given to your own coding to relate with the file.</para>
 
-          <para lang="en">You can edit your preferences for materials,
-          statisical codes, sections and locations by clicking on the
+          <para lang="en">You can edit the coding for media types,
+          statistical codes, sections and locations by clicking on the
           <emphasis role="bold">Administration &gt; Items<emphasis>
-          links.</emphasis></emphasis></para>
+          link.</emphasis></emphasis></para>
 
-          <para lang="en">For each of those data, PMB will check the imported
-          notices. According to the selected owner for the imported documents,
-          a correspondance will be established with the value of the 995
-          UNIMARC label and the coding defined in PMB ( see below "References
-          for the UNIMARC import about the 995 label)</para>
+          <para lang="en">For each of these, PMB will check the imported
+          records. Depending on the owner indicated for the imported documents,
+          a relation will be established with the value contained in zone 995
+          of the UNIMARC file and the coding defined in PMB (see below "References
+          for the UNIMARC import" about Zone 995)</para>
 
-          <para lang="en">So, to import an item of a Regional library which
-          statistical code value is "a", the correspondance will be done
-          according to item statistical code table (Administration &gt; items
-          &gt; Statistical code). If in your table, there is a code with a "a"
-          value owned by the Regional Library and with the label "Adult
-          Regional Library", then your imported item will have the statistic
-          code "Adult Regional Library"</para>
+          <para lang="en">Thus, for an item (for import) of a Regional Library with statistical code "a", a corresponding code from the statistical codes table for items (Administration &gt; items &gt; Statistical codes) will serve as relation. If in your table, there is a code with a "a" value owned by the Regional Library with the label "Adult Regional Library", then your imported item will bear the statistical code "Adult Regional Library"</para>
 
-          <para lang="en">The same thing is true for materials, sections and
+          <para lang="en">The same applies for media types, sections and
           locations.</para>
         </listitem>
 
         <listitem>
-          <para lang="en">Click then on <emphasis
-          role="bold">Browse</emphasis> to select the file that PMB will
-          import. <emphasis>Reminder</emphasis> : there can be a size limit
-          for the file upload. For more details on the php.ini customization
-          of your server, ask your network administrator or read the PMB
-          installation guide.</para>
+          <para lang="en">Next click on <emphasis role="bold">Browse</emphasis> to locate on your computer the file that PMB is to import. <emphasis>Reminder</emphasis>: there can be a size limit on your server for file uploads. For more details on configuring the php.ini file of your server, ask your network administrator or read the PMB installation guide.</para>
         </listitem>
       </itemizedlist>
 
-      <para lang="en">Once the parameters are set, click on Next to launch the
+      <para lang="en">Once you've set your parameters, click on Next to launch the
       file upload.</para>
 
-      <para lang="en">The item importation begin with the upload of your file
-      on the server. You may follow the transfer progress thanks to the
-      display of the remaining characters number to be processed.</para>
+      <para lang="en">The import process of items starts with the upload of your file
+      on the server. You will be able to follow the transfer progress thanks to the
+      display on screen of the number of characters in the file remaining to be processed.</para>
 
       <figure>
-        <title lang="en">Import &gt; UNIMARC items , upload progress
+        <title lang="en">Import &gt; UNIMARC items, Upload progress
         screen</title>
 
         <mediaobject>
@@ -174,28 +280,19 @@
         </mediaobject>
       </figure>
 
-      <para lang="en">The file is uploaded by packets. The size of thoses
-      packet is customizable in Administrations &gt; Tools &gt; Parameters,
-      with the paramters "import_limit_read_file" and
-      "import_limit_record_load". For more details on the parameters
-      customization, see section <xref
-      linkend="admin_outils_parametres" />.</para>
+      <para lang="en">The file is uploaded in packets. Packet sizes can be set in Administration &gt; Tools &gt; Parameters, through the parameters "import_limit_read_file" and "import_limit_record_load". For more details on configuring the parameters, see section <xref linkend="admin_outils_parametres" />.</para>
 
-      <para lang="en">Once, the file upload is done, the import process
-      starts.</para>
+      <para lang="en">The import process starts immediately the file upload is completed. For more details on the next steps in the import process, go to the section <emphasis role="bold">Records and copies upload</emphasis></para>
     </sect2>
-
+    
     <sect2>
-      <title lang="en">File transfer with FTP</title>
+      <title lang="en">FTP File transfer</title>
 
-      <para lang="en">If you have uploaded your items file directly on the
-      server with FTP, your file is already on the server with the name
-      unimarc.fic. The second import customization screen doesn't include the
-      browse button to select the file to be uploaded.</para>
+      <para lang="en">If you have uploaded your items file directly on the server using FTP, it is already there with the name unimarc.fic. Screen 2 for customizing the import process has no file upload options.</para>
 
       <figure>
         <title lang="en">Import &gt; UNIMARC items, unimarc.fic file on the
-        server, second screen</title>
+        server, Screen 2</title>
 
         <mediaobject>
           <imageobject>
@@ -204,19 +301,18 @@
         </mediaobject>
       </figure>
 
-      <para lang="en">For more details on the import customization, see above
-      the <emphasis>File Transfer with the "upload" feature</emphasis>
-      section. This sections explain all the customization avialable.</para>
+      <para lang="en">For more details on customizing the import process, see above the <emphasis>File Transfer with the "upload" feature</emphasis>section. This section details the options available.</para>
+
+      <para lang='en'>For more details on the next steps in the import process, go to the section <emphasis role="bold">Records and copies upload</emphasis></para>
     </sect2>
-
+    
     <sect2>
-      <title lang="en">Upload of notices and items</title>
+      <title lang="en">Records and copies upload</title>
 
-      <para lang="en">You can follow the import progress thanks to the display
-      of remaining notices number to be processed.</para>
+      <para lang="en">You can follow the import progress thanks to the display of the number of records remaining to be processed.</para>
 
       <figure>
-        <title lang="en">Import &gt; UNIMARC items , import progress
+        <title lang="en">Import &gt; UNIMARC items, import progress
         screen</title>
 
         <mediaobject>
@@ -226,48 +322,42 @@
         </mediaobject>
       </figure>
 
-      <para lang="en">A the end of the items import, a screen shows you the
-      import results.</para>
+      <para lang="en">At the end of the items import, a new screen displays the import results.</para>
     </sect2>
   </sect1>
 
   <sect1 id="admin_import_pointage_expl">
     <title lang="en">Checking imported items</title>
 
-    <para lang="en">Checking imported items allows you to verify the
-    correspondance between physical reality of resources transfer (items, book
-    materials) to the computer reality (data base). The items barcodes are
-    read and compare to the database.</para>
+    <para lang="en">Checking imported items allows you to verify the actual documents (physical items) against the computer reality (data base). The items barcodes are scanned and compared with the database entries.</para>
 
     <para lang="en">This allows you to detect :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang="en">existing books not encoded the database.</para>
+        <para lang="en">works physically present but not entered in the database.</para>
       </listitem>
 
       <listitem>
-        <para lang="en">books encoded in the database but not existing (lost
+        <para lang="en">works entered in the database but not physically present (lost
         or missing)</para>
       </listitem>
 
       <listitem>
-        <para lang="en">you can finally change the status, section an location
-        of books and made then avialable for lending.</para>
+        <para lang="en">you can finally change the status, section and location
+        of works on the fly to make them available for lending.</para>
       </listitem>
     </itemizedlist>
 
-    <para lang="en">This items checking allows you moreover of those
-    verifications :</para>
+    <para lang="en">Moreover items' checking allows you:</para>
 
     <itemizedlist>
       <listitem>
-        <para lang="en">to check a book selection that you want to move into
-        your shelves</para>
+        <para lang="en">to set aside a selection of works that you want to move onto your shelves</para>
       </listitem>
 
       <listitem>
-        <para lang="en">to change the section of one or more books.</para>
+        <para lang="en">to change the section of one or more works.</para>
       </listitem>
     </itemizedlist>
 
@@ -283,10 +373,7 @@
 
     <procedure>
       <step>
-        <para lang="en">Select a status, for exemple <emphasis>???document en
-        bon état </emphasis>; a section, for exemple ???<emphasis>romans et
-        romans étrangers, <emphasis>a location, for exemple</emphasis> main
-        library.</emphasis></para>
+        <para lang="en">Choose a status, for instance <emphasis>in good condition</emphasis>; a section, let's say,<emphasis>fiction, <emphasis>a location, for example</emphasis> central library.</emphasis></para>
 
         <graphic fileref="images/pointage1.gif" />
       </step>
@@ -296,7 +383,7 @@
       </step>
 
       <step>
-        <para lang="en">Then read the items barcodes one by one</para>
+        <para lang="en">Then read the items' barcodes one by one</para>
       </step>
     </procedure>
 
@@ -304,9 +391,9 @@
   </sect1>
 
   <sect1>
-    <title lang="en">References for the UNIMARC import</title>
+    <title lang="en">References for UNIMARC import</title>
 
-    <para lang="en">The references abose are extracted from the
+    <para lang="en">The references hereunder have been taken from the
     PMB/doc/import_unimarc.txt file.</para>
 
     <para lang="en"><programlisting>
@@ -330,12 +417,12 @@
 215 $a number of pages &gt;&gt; notices.npages
 215 $c illustration &gt;&gt; notices.ill
 215 $d size &gt;&gt; notices.size
-215 $a accompagning material &gt;&gt; notices.accomp
+215 $a accompanying material &gt;&gt; notices.accomp
 
-225 $a collection name &gt;&gt; collections.collection_name
-225 $x collection ISSN &gt;&gt; collections.collection_issn
-225 $i subcollection name &gt;&gt; sub_collections.sub_coll_name
-225 $x subcollection number &gt;&gt; notices.nocoll
+225 $a series title &gt;&gt; collections.collection_name
+225 $x series ISSN &gt;&gt; collections.collection_issn
+225 $i sub-series title &gt;&gt; sub_collections.sub_coll_name
+225 $x sub-series number &gt;&gt; notices.nocoll
  
 300 $a general notes &gt;&gt; notices.n_gen
 327 $a content notes &gt;&gt; notices.n_contenu
@@ -343,11 +430,11 @@
 
 345 $b EAN &gt;&gt; notices.code (ISBN) si ISBN absent
 
-410 $t collection, used instead of 225 if 225 is empty
-411 $t subcollection, used instead of 225 if 225 is empty
+410 $t series, used instead of 225 if 225 is empty
+411 $t sub-series, used instead of 225 if 225 is empty
 
-461 $t serie name &gt;&gt; serie.serie_name
-461 $v serie number &gt;&gt; notices.tnvol
+461 $t title of collection &gt;&gt; serie.serie_name
+461 $v collection number &gt;&gt; notices.tnvol
 
 610 $a keywords &gt;&gt; notices.index_l
 
@@ -358,14 +445,14 @@
     $b rejected authority &gt;&gt; authors.author_rejete
     $4 function &gt;&gt; responsability.responsability_fonction
 
-801 $a country origin of the notice &gt;&gt; origine_notice.orinot_pays 
-801 $b Organization origin of the notice &gt;&gt; origine_notice.orinot_nom 
+801 $a country origin of the record &gt;&gt; origine_notice.orinot_pays 
+801 $b Organization origin of the record &gt;&gt; origine_notice.orinot_nom 
 
 856 $u electronic resource &gt;&gt; notices.lien 
 
 995 $f barcode &gt;&gt; exemplaires.expl_cb
 995 $k code &gt;&gt; exemplaires.expl_cote
-995 $q Targeted public &gt;&gt; docs_section.sdoc_codage_import 
+995 $q Intended audience &gt;&gt; docs_section.sdoc_codage_import 
                       then docs_section.idsection &gt;&gt; exemplaires.expl_section
                    &gt;&gt; docs_codestat.sdoc_codage_import 
                       then docs_codestat.idcode &gt;&gt; exemplaires.expl_codestat

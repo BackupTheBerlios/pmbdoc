@@ -5,32 +5,32 @@
   <para lang="en">In PMB, the <emphasis>user</emphasis> denomination refers to the
   application users and not the library users, that is readers or borrowers. A
   user is for example : a library assistant at the issue counter, a librarian,
-  a software administrator, ...</para>
+  a network administrator, ...</para>
 
   <sect1>
     <title lang="en">Managing users</title>
 
-    <para lang="en">The PMB users managment section will allow you to create users
+    <para lang="en">The PMB users managment section will allow you to create users'
     profiles. For each user account, a username and a password is created. PMB
-    needs at least an administrator account (Super User). This account can't
-    be erased from within PMB.</para>
+    needs at least an administrator account (Super User). This account cannot
+    be removed from within PMB.</para>
 
-    <para lang="en">If you have uploaded the operational test data set of PMB, you have
-    moreover three additionnal accounts : librarian (user :
-    <emphasis>bib</emphasis>, password : <emphasis>bib</emphasis>),
-    cataloguing agent (<emphasis>cat</emphasis> ; <emphasis>cat</emphasis>)
-    and lending agent (<emphasis>circ</emphasis>:
-    <emphasis>circ</emphasis>)</para>
+    <para lang="en">If you have loaded the PMB test data set, you also have three
+    additional accounts : librarian (user : <emphasis>bib</emphasis>, password
+    : <emphasis>bib</emphasis>), cataloguer (<emphasis>cat</emphasis> ;
+    <emphasis>cat</emphasis>) and library assistant
+    (<emphasis>circ</emphasis>: <emphasis>circ</emphasis>)</para>
 
-    <para lang="en">Access rights to the various part of the software depends on the
-    tabs. According to the access right granted (open padlock) of not (closed
-    padlock), the corresponding tab will be shown or not. Only one exception
-    to this rule : the backup feature is not displayed as a tab.</para>
+    <para lang="en">Access privileges to the various parts of the software are managed
+    by enabling the tabs. Depending on whether access is granted (open
+    padlock) or not (closed padlock), the corresponding tab will be displayed
+    or not on the management interface. With one exception to the rule : the
+    backup feature is not displayed as a tab.</para>
 
-    <para lang="en">You can here change an user and change his password. This last
-    feature is usefull when someone moves to another job, or when the password
-    is lost. The user may freely change his password witthout asking the
-    administrator to do it, by clicking on the user preferences (preferences
+    <para lang="en">Here you can edit a user's account and change his password. This last
+    feature is useful when a user takes up another job or when a password
+    is lost. The user may change his password on his own without having to ask the
+    network administrator to do it, by clicking on user preferences (preferences
     link on the top right of the screen).</para>
 
     <figure>
@@ -43,9 +43,6 @@
       </mediaobject>
     </figure>
 
-    <para lang="en">The preferences of an user, accessible by clicking on the modify
-    button, corresponds to the user preferences accessible from the
-    <emphasis>edit your account</emphasis> link next to the
-    <emphasis>logout</emphasis> link.</para>
+    <para lang="en">A user's account, accessible by clicking on the edit button, refer to users' preferences accessible from the <emphasis>edit user's parameters</emphasis> link next to the <emphasis>logout</emphasis> link.</para>
   </sect1>
 </chapter>
