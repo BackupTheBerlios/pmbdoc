@@ -1,19 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title lang='fr'>Messages d'erreurs, problèmes et FAQ</title>
+  <title lang="es">Mensajes de error, problemas y PMF</title>
+  
 
   <sect1>
     <title lang='fr'>Identification incorrecte</title>
+    <title lang="es">Identificación incorrecta</title>
+	
 
     <para lang='fr'>Cet écran apparaît lorsque le nom d'utilisateur ou le mot de passe
     est incorrect. Ce message d'erreur peut aussi correspondre à un
     utilisateur invalide.</para>
+	
+    <para lang="es">Esta pantalla aparece cuando el nombre de usuario o la contraseña
+    son incorrectas. Este mensaje de error corresponde también a un usuario
+    inválido.</para>
+	
 
     <para lang='fr'><emphasis role="bold">Solution</emphasis> : vérifiez le nom
     d'utilisateur et le mot de passe saisis.</para>
+	
+    <para lang="es"><emphasis role="bold">Solución</emphasis> : verifica el nombre de
+    usuario y la contraseña introducidos.</para>
+	
 
     <figure>
       <title lang='fr'>Identification incorrecte</title>
+      <title lang="es">Identificación incorrecta</title>
+	  
 
       <mediaobject>
         <imageobject>
@@ -25,11 +40,20 @@
 
   <sect1>
     <title lang='fr'>Vous n'avez pas accès à cette fonctionnalité</title>
+    <title lang="es">No tienes acceso a esta funcionalidad</title>
+	
 
     <para lang='fr'>Cet écran apparaît lorsqu'un utilisateur essaie d'accéder à une
     fonction à laquelle il n'a pas accès. Ce message d'erreur peut également
     survenir lorsque la session a été terminée par le programme (délai
     d'inactivité atteint), une reconnexion est alors nécessaire.</para>
+
+    <para lang="es">Esta pantalla aparece cuando un usaurio intenta acceder a una
+    función a la cual no tiene acceso. Este mensaje de error puede también
+    aparecer cuando una sesión ha finalizado (por estar inactiva durante mucho
+    rato), en estos casos es necesario volverse a conectar.</para>
+
+	
 
     <para lang='fr'><emphasis role="bold">Solution</emphasis> : retourner à l'écran
     d'accueil et se reconnecter. Vérifiez les droits d'accès aux différentes
@@ -37,9 +61,19 @@
     <emphasis>Administration</emphasis> &gt;
     <emphasis>Utilisateurs</emphasis>. Pour plus d'informations, consultez le
     <emphasis>Guide de l'Administrateur PMB</emphasis>.</para>
+	
+    <para lang="es"><emphasis role="bold">Solución</emphasis> : volver a la pantalla de
+    inicio y volver a conectarse. Verifica los derechos de acceso a las
+    diferentes funciones del programa y<emphasis>endo a
+    Administración</emphasis> &gt; <emphasis>Usuarios</emphasis>. Para más
+    información, consulta la <emphasis>Guía del Administrador de
+    PMB</emphasis>.</para>
+	
 
     <figure>
       <title lang='fr'>Vous n'avez pas accès à cette fonctionnalité</title>
+      <title lang="es">No tienes acceso a esta funcionalidad</title>
+	  
 
       <mediaobject>
         <imageobject>
@@ -51,16 +85,29 @@
 
   <sect1>
     <title lang='fr'>Pas de session ouverte</title>
+    <title lang="es">Ninguna sesión iniciada</title>
+	
 
     <para lang='fr'>Cet écran apparaît lorsqu'un utilisateur essaie d'accéder
     directement à un des onglets de pmb par son adresse : pmb/circ.php ;
     pmb/catalog.php... alors qu'il n'est pas connecté.</para>
+	
+    <para lang="es">Esta pantalla aparece cuando un usuario intenta acceder directamente
+    a una de las pestañas de pmb por su dirección : pmb/circ.php ;
+    pmb/catalog.php... sin haber iniciado una sesión antes.</para>
+	
 
     <para lang='fr'><emphasis role="bold">Solution</emphasis> : cliquer sur OK et saisir
     un nom d'utilisateur et un mot de passe valides.</para>
+	
+    <para lang="es"><emphasis role="bold">Solución</emphasis> : haz clic en el OK y
+    introduce un nombre de usuario y una contraseña válidas.</para>
+	
 
     <figure>
       <title lang='fr'>Pas de session ouverte</title>
+      <title lang="es">Ninguna sesión abierta</title>
+	  
 
       <mediaobject>
         <imageobject>
