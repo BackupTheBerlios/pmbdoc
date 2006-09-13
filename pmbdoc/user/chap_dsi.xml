@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dsi">
   <title lang='fr'>Diffusion sélective de l'information (DSI)</title>
+  <title lang="es">Difusión selectiva de la información (DSI)</title>
+  
 
   <para lang='fr'>La diffusion sélective de l'information (DSI) est un outil de veille
   documentaire.</para>
+  
+  <para lang="es">La difusión selectiva de la información (DSI) es una herramienta
+  novedosa en la documentación.</para>
+  
 
   <sect1 id="dsi_intro">
     <title lang='fr'>Introduction</title>
+    <title lang="es">Introducción</title>
+	
 
     <sect2>
       <title lang='fr'>Définition</title>
+      <title lang="es">Definición</title>
+	  
 
       <para lang='fr'>La <emphasis role="bold">diffusion sélective de
       l’information</emphasis> est un service qui consiste à diffuser aux
@@ -17,13 +27,27 @@
       de recherche personnalisé. Il s'agit d'un outil de veille documentaire.
       La DSI permet de communiquer les nouveautés du fond documentaire sur un
       sujet ou dans un domaine précis.</para>
+	  
+      <para lang="es">La <emphasis role="bold">difusión selectiva de la
+      información</emphasis> es un servicio que consiste en hacer llegar a los
+      usuarios, de forma regular, los resultados de un perfil de búsqueda
+      personalizada. Se trata de un servicio novedoso. La DSI permite
+      comunicar las novedades del fondo documental sobre una materia o tema
+      concreto.</para>
+	  
 
       <para lang='fr'>On peut également parler de "profil documentaire" ou "profil
       personnalisé" ou "profil de recherche".</para>
+	  
+      <para lang="es">Se puede hablar igualmente de "perfil documental" o "perfil
+      personalizado" o "perfil de búsqueda".</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>DSI privée et publique</title>
+      <title lang="es">DSI privada y pública</title>
+	  
 
       <para lang='fr'>La diffusion sélective de l'information permet d'alerter les
       utilisateurs de la parution récente de documents, d'informations
@@ -32,6 +56,15 @@
       d'un utilisateur ou d'un groupe d'utilisateurs. Cette mise à jour est
       réalisée grâce à l'envoi régulier des références les plus récentes. On
       distingue donc deux types de diffusion sélective d'information :</para>
+	  
+      <para lang="es">La difusión selectiva de la información permite alertar a los
+      usuarios de la aparición reciente de documentos, de informacions sobre
+      el área temática que les interesa y matenerlos, por tanto, al día. La
+      DSI es una actualización perpetua de los conocimientos de un usuario o
+      de un grupo de usuario. Esta actualización se realiza gracias al envío
+      regular de las referencias bibliográficas más recientes. Distinguimos
+      entre dos tipos de difusión selectiva de la información :</para>
+	  
 
       <itemizedlist>
         <listitem>
@@ -40,6 +73,12 @@
           diffusion est alors strictement " individuelle ", on parle de "
           profil personnalisé ". Ce seront les <emphasis role="bold">bannettes
           privées de PMB</emphasis>.</para>
+		  
+          <para lang="es">una corresponde a un conjunto de referencias que responden a
+          un perfil de un solo usuario : la difusión es estrictamente "
+          individual ", y hablamos de un " perfil personalizado". Son las
+          <emphasis role="bold">cestas privadas de PMB</emphasis>.</para>
+		  
         </listitem>
 
         <listitem>
@@ -49,6 +88,13 @@
           généralement par une proposition de différents " profils standards "
           Ce seront les <emphasis role="bold">bannettes publiques de
           PMB</emphasis>.</para>
+		  
+          <para lang="es">la otra corresponde al conjunto de listas bibliogràficas más
+          largas que corresponden al perfil de interés de un grupo homogéneo
+          de usuarios. Es un " perfil de grupo" que se traduce generalmente
+          por un conjunto de diferentes " perfiles estándares " Son las
+          <emphasis role="bold">cestas públicas de PMB</emphasis>.</para>
+		  
         </listitem>
       </itemizedlist>
     </sect2>
@@ -56,9 +102,13 @@
 
   <sect1 id="dsi_activer">
     <title lang='fr'>Activer la DSI</title>
+    <title lang="es">Activar la DSI</title>
+	
 
     <sect2>
       <title lang='fr'>Afficher l'onglet DSI</title>
+      <title lang="es">Ver la pestaña de DSI</title>
+	  
 
       <para lang='fr'><inlinemediaobject>
           <imageobject>
@@ -69,55 +119,104 @@
       Outils, Paramètres, Diffusion Sélective de l'Information, et activez la
       DSI.</para>
 
+      <para lang="es"><inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="images/warning.gif" />
+          </imageobject>
+        </inlinemediaobject> Si la DSI no está activa, no verás la pestaña DSI
+      de PMB. Para activar la DSI, ve a Administración, Herramientas,
+      Parámetros, Difusión Selectiva de la Información y activa la DSI.</para>
+
+
       <para lang='fr'><emphasis role="bold">Attention</emphasis> l'utilisateur de PMB
       doit avoir le droit d'accéder à l'onglet DSI. Dans Administration,
       Utilisateurs, cliquez pour un utilisateur sur le bouton Modifier et
       cochez DSI pour un ou plusieurs utilisateurs.</para>
+	  
+      <para lang="es"><emphasis role="bold">Atención</emphasis> el usuario de PMB debe
+      tener los derechos de acceder a esta función. En Administración,
+      Usuarios, haz clic sobre un usuario y sobre el botón Modificar y marca
+      la opción DSI para ese usuario.</para>
+
+	  
 
       <para lang='fr'>Pour plus d'information sur le paramétrage de PMB, consulter le
       <emphasis role="bold">Guide de l'Administrateur PMB</emphasis>. Afin de
       faciliter le paramétrage de la DSI, voici ici la liste des paramètres
       concernés :</para>
+	  
+      <para lang="es">Para más información sobre la parametrización de PMB, consulta la
+      <emphasis role="bold">Guía del Administrador PMB</emphasis>. Con el fin
+      de facilitar la parametrización de la DSI, aquí están los parámetros
+      :</para>
+	  
 
       <table>
         <title lang='fr'>Administration &gt; Outils &gt; Paramètres, type Diffusion
         Sélective de l'information (dsi)</title>
+        <title lang="es">Administración &gt; Herramientas &gt; Parámetros, apartado
+        Difusión Selectiva de la Información (dsi)</title>
+		
 
         <tgroup cols="3">
           <thead>
             <row>
               <entry lang="fr">sous-type</entry>
+              <entry lang="es">sub-tipo</entry>
+			  
 
               <entry lang="fr">valeur par défaut</entry>
+              <entry lang="es">valor por defecto</entry>
+			  
 
               <entry lang="fr">commentaire</entry>
+              <entry lang="es">comentario</entry>
+			  
             </row>
           </thead>
 
           <tbody>
             <row>
               <entry lang="fr">active</entry>
+              <entry lang="es">activa</entry>
+			  
 
               <entry lang="fr">0</entry>
+              <entry lang="es">0</entry>
+			  
 
               <entry lang="fr">D.S.I activée ? 0: Non 1: Oui</entry>
+              <entry lang="es">D.S.I activada ? 0: No 1: Sí</entry>
+			  
             </row>
 
             <row>
               <entry lang="fr">auto</entry>
+              <entry lang="es">auto</entry>
+			  
 
               <entry lang="fr">0</entry>
+              <entry lang="es">0</entry>
+			  
 
               <entry lang="fr">D.S.I automatique activée ? 0: Non 1: Oui</entry>
+              <entry lang="es">D.S.I automática activada ? 0: No 1: Sí</entry>
+			  
             </row>
 
             <row>
               <entry lang="fr">insc_categ</entry>
+              <entry lang="es">insc_categ</entry>
+			  
 
               <entry lang="fr">0</entry>
+              <entry lang="es">0</entry>
 
               <entry lang="fr">Inscription automatique dans les bannettes de la
               catégorie du lecteur en création ? 0: Non 1: Ouixs</entry>
+              <entry lang="es">Inscripción automática en las cestas de la categoría del
+              lector al crearlo ? 0: No 1: Sí</entry>
+			  
             </row>
           </tbody>
         </tgroup>
@@ -126,30 +225,51 @@
 
     <sect2>
       <title lang='fr'>DSI et OPAC</title>
+      <title lang="es">DSI y OPAC</title>
+	  
 
       <para lang='fr'>La DSI sera également visible dans l'OPAC pour le lecteur qui se
       sera identifié. Pour activer la DSI dans l'OPAC, modifier les paramètres
       dans Administration &gt; Outils &gt; Paramètres, type OPAC, section
       Options concernant la DSI.</para>
+	  
+      <para lang="es">La DSI estará también visible en el OPAC cuando un usuario se
+      identifique. Para activar la DSI en el OPAC, modifica los parámetros en
+      Administracióntion &gt; Herramientas &gt; Parámetros, apartado OPAC,
+      sección Opciones referentes a la DSI.</para>
+	  
     </sect2>
   </sect1>
 
   <sect1 id="dsi_publique">
     <title lang='fr'>DSI publique</title>
+    <title lang="es">DSI pública</title>
+	
 
     <sect2 id="dsi_diffusion">
       <title lang='fr'>Diffusion</title>
+      <title lang="es">Uso</title>
+	  
 
       <para lang='fr'>La diffusion est la dernière étape de la DSI. Une fois une ou des
       bannettes créées, et que des équations y aient été attribuées, vous
       pouvez diffuser l'information.</para>
+      <para lang="es">La difusión es la última etapa de la DSI. Una vez se han creado
+      una o más cestas, y que las ecuaciones se hayan asignado, puedes
+      difundir la información.</para>
+	  
 
       <para lang='fr'>La diffusion automatique présente à la fois les banettes de
       diffusion publique et celles de diffusion privée.</para>
+      <para lang="es">La difusión automática muestra a la vez las cestas públicas y las
+      privadas.</para>
+	  
     </sect2>
 
     <sect2 id="diffusion">
       <title lang='fr'>Bannettes</title>
+      <title lang="es">Cestas</title>
+	  
 
       <para lang='fr'>Vous pouvez ici gérer vos bannettes de diffusion. Les bannettes
       sont des réservoirs de nouveautés. C'est le contenu de ces bannettes qui
@@ -157,30 +277,55 @@
       modifier ou supprimer une bannette. Vous pouvez également affecter des
       équations pour remplir la bannette et des lecteurs destinataires de ces
       listes de nouveautés.</para>
+	  
+      <para lang="es">En este apartado puedes generar las cestas de difusión. En las
+      cestas se juntan las novedades. Es el contenido de estas cestas lo que
+      se enviará a los subscritos cuando se difundan. Puedes crear, modificar
+      o suprimir una cesta. También puedes eliminar las ecuaciones para volver
+      a llenar la cesta y asociarla con los usuarios a los cuales va destinada
+      la cesta de novedades.</para>
+	  
     </sect2>
 
     <sect2 id="dsi_equations">
       <title lang='fr'>Equations</title>
+      <title lang="es">Ecuaciones</title>
+	  
 
       <para lang='fr'>Les équations sont des recherches multicritères sélectionnées qui
       vont permettre le remplissage des bannettes.</para>
+      <para lang="es">Las ecuaciones son las búsquedas avanzadas seleccionadas que
+      permiten llenar las cestas.</para>
+	  
     </sect2>
 
     <sect2 id="dsi_options">
       <title lang='fr'>Options</title>
+      <title lang="es">Opciones</title>
+	  
 
       <para lang='fr'>Vous pouvez ici définir des classements pour vous permettre
       d'organiser vos bannettes et vos équations.</para>
+      <para lang="es">Puedes definir las relaciones que te permitarán organizar las
+      cestas y las ecuaciones.</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Exemple d'utilisation pas à pas de la DSI</title>
+      <title lang="es">Ejemplo de uso paso a paso de la DSI</title>
+	  
 
       <para lang='fr'>Onglet DSI : - Equations, gestion, cliquez sur ajouter pour créer
       une équation de recherche.</para>
+      <para lang="es">Pestaña DSI : - Ecuaciones, gestión, haz clic sobre añadir para
+      crear una ecuación de búsqueda.</para>
+	  
 
       <figure>
         <title lang='fr'>Rechercher ou ajouter une bannette</title>
+        <title lang="es">Buscar o añadir un cesta</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -190,9 +335,13 @@
       </figure>
 
       <para lang='fr'>et lancer la recherche, par exemple :</para>
+      <para lang="es">y iniciar una búsqueda, por ejemplo :</para>
+	  
 
       <figure>
         <title lang='fr'>Recherche multi-critères</title>
+        <title lang="es">Búsqueda avanzada</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -203,6 +352,8 @@
 
       <figure>
         <title lang='fr'>Résultat de la recherche multi-critères</title>
+        <title lang="es">Resultado de la búsqueda avanzada</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -213,11 +364,18 @@
 
       <para lang='fr'>A l'affichage des résultats, il est possible de cliquer sur
       "Transformer en équation DSI"</para>
+      <para lang="es">Cuando se muestran los resultados, se puede hacer clic sobre
+      "Transformar en ecuación DSI"</para>
+	  
 
       <para lang='fr'>Donner un nom à l'équation puis Enregistrer</para>
+      <para lang="es">Da un nombre a la ecuación y haz clic en Guardar</para>
+	  
 
       <figure>
         <title lang='fr'>Création d'une équation</title>
+        <title lang="es">Creación de una ecuación</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -231,9 +389,17 @@
       ajouter ou retirer des critères à l'équation de recherche. Affichez les
       différentes équations de recherche et cliquez sur une Equation pour la
       modifier.</para>
+	  
+      <para lang="es"><emphasis role="bold">Nota </emphasis>: podrás en todo momento
+      modificar una ecuación de búsqueda, añadiendo o variando los criterios
+      de la búsqueda. Visualiza las diferentes ecuaciones de búsqueda y haz
+      clic sobre una Ecuación para modificarla.</para>
+	  
 
       <figure>
         <title lang='fr'>Affichage de la liste des équations disponibles</title>
+        <title lang="es">Visualización de la lista de ecuaciones disponibles</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -244,6 +410,8 @@
 
       <figure>
         <title lang='fr'>Modification d'une équation</title>
+        <title lang="es">Modificación de una ecuación</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -256,9 +424,16 @@
       cochez bannette automatique, périodicité (1 par ex.), nombre de notices
       (50 par ex.), choisissez une catégorie de lecteurs et cochez diffusion
       par email. Enregistrez ensuite.</para>
+      <para lang="es">Cestas, públicas, añadir : da un nombre a la cesta, escoge cesta
+      automática, periodicidad (1 por ej.), número de registros (50 por ej.),
+      escoge una categoría de usuarios y difusión por correo electrónico.
+      Guarda.</para>
+	  
 
       <figure>
         <title lang='fr'>Création d'une bannette</title>
+        <title lang="es">Creación de una cesta</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -270,9 +445,15 @@
       <para lang='fr'>Lorsque vous changez la catégorie de lecteurs concernée, une
       alerte javascript s'ouvre à l'écran. Cette alerte vous permet de mettre
       à jour immédiatement les abonnements de lecteurs.</para>
+      <para lang="es">Cuando cambias la categoría de usuarios a los que afecta, se abre
+      una alerta javascript en pantalla. Esta alerta permite de actualizar
+      directamente la subscripción de los usuarios.</para>
+	  
 
       <figure>
         <title lang='fr'>Alerte javascript</title>
+        <title lang="es">Alerta javascript</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -283,6 +464,8 @@
 
       <figure>
         <title lang='fr'>Liste des bannettes</title>
+        <title lang="es">Lista de cestas</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -293,9 +476,14 @@
 
       <para lang='fr'>Cliquez sur la bannette, dans la colonne Equations associées pour
       affecter une ou plusieurs Equations à la bannette.</para>
+      <para lang="es">Haz clic sobre la cesta, en la columna Ecuaciones asociadas para
+      relacionar una o más Ecuaciones a la cesta.</para>
+	  
 
       <figure>
         <title lang='fr'>Association des équations à la bannette</title>
+        <title lang="es">Asociación de ecuaciones a la cesta</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -306,9 +494,14 @@
 
       <para lang='fr'>Association des équations à la bannette : cochez l'équation et
       enregistrez.</para>
+      <para lang="es">Asociación de ecuaciones a la cesta : marca la ecuación y
+      guarda.</para>
+	  
 
       <figure>
         <title lang='fr'>Affection aux abonnés d'une bannette</title>
+        <title lang="es">Subscribir usuarios a una cesta</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -319,10 +512,16 @@
 
       <para lang='fr'>En cliquant sur Abonnés vous pouvez choisir les lecteurs,
       sélectionnez les et cliquez sur Enregistrer.</para>
+      <para lang="es">Haciendo clic sobre Subscriptores podrás escoger a los usuarios,
+      selecciónalos haciendo clic en Guardar.</para>
+	  
 
       <figure>
         <title lang='fr'>Liste des bannettes après association d'équation et
         d'abonnés</title>
+        <title lang="es">Lista de cestas después de relacionar ecuaciones y
+        subscriptores</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -334,11 +533,19 @@
       <para lang='fr'>Allez ensuite modifier une notice correspondant à votre équation
       de recherche : DSI, Diffusion, Automatique, Suivant : cochez votre
       bannette, cliquez sur remplir. Le nombre de notices change.</para>
+      <para lang="es">Ve entonces a modificar los registros que corresponden a tu
+      ecuación de búsqueda : DSI, Difusión, Automática, Siguiente : escoge tu
+      cesta, haz clic en llenar. El número de registros cambiará.</para>
+	  
 
       <para lang='fr'></para>
+      <para lang="es"></para>
+	  
 
       <figure>
         <title lang='fr'>Liste des bannettes pour réaliser une action</title>
+        <title lang="es">Lista de cestas para realizar una acción</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -348,9 +555,13 @@
       </figure>
 
       <para lang='fr'>Vous pouvez alors diffuser.</para>
+      <para lang="es">Ahora la puedes difundir.</para>
+	  
 
       <figure>
         <title lang='fr'>Résultat d'une action réalisée</title>
+        <title lang="es">Resultado de una acción realizada</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -362,12 +573,22 @@
       <para lang='fr'>Il faut bien sûr que vos lecteurs aient une adresse email pour
       qu'ils reçoivent le contenu de la bannette par mail. Le mail qui sera
       envoyé est ouvert à l'écran dans un popup.</para>
+      <para lang="es">Es necesario, por supuesto, que los usuarios tengan una dirección
+      de correo electrónico donde enviarles el mensaje con el contenido de la
+      cesta. El mail que se manda se muestra en un popup en pantalla.</para>
+	  
 
       <para lang='fr'><emphasis role="bold">Attention</emphasis> l'adresse de votre
       serveur SMTP dans votre configuration php doit être défini.</para>
+      <para lang="es"><emphasis role="bold">Atención</emphasis> la dirección de tu
+      servidor SMTP dentro de tu configuración php debe estar definida.</para>
+	  
 
       <figure>
         <title lang='fr'>Envoi du contenu d'une bannette aux lecteurs abonnés</title>
+        <title lang="es">Envío del contenido de una cesta a los usuarios
+        subscritos</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -378,9 +599,13 @@
 
       <para lang='fr'>Si le lecteur se connecte dans l'OPAC, il peut voir le contenu de
       la bannette après s'être connecté.</para>
+      <para lang="es">Si el usuario se conecta al OPAC, podrá ver el contenido de la
+      cesta después de conectarse.</para>
+	  
 
       <para lang='fr'><figure>
           <title lang='fr'>Affichage du compte lecteur dans l'OPAC</title>
+  
 
           <mediaobject>
             <imageobject>
@@ -390,9 +615,24 @@
         </figure>En cliquant sur Accéder à votre information personnalisée,
       vous pouvez voir les bannettes auxquelles vous êtes abonnés.</para>
 
+      <para lang="es"><figure>
+          <title lang="es">Visualización de una cuenta de usuario en el OPAC</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/dsi_perso_opac.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>Haciendo clic sobre Acceder a tu información personalizada,
+      podrás ver las cestas a las cuales estás subscrito.</para>
+
+
       <figure>
         <title lang='fr'>Ecran des informations du lecteur dans l'OPAC, après avoir
         cliqué sur Accéder à votre information personnalisée</title>
+        <title lang="es">Pantalla de informacion del usuario en el OPAC, después de
+        haber hecho clic sobre Acceder a tu información personal</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -406,9 +646,18 @@
       Vos possibilités dépendent du paramètre de l'OPAC
       bannette_notices_depliables. Pour plus d'information, consultez le Guide
       de l'Administrateur PMB.</para>
+	  
+      <para lang="es">Como en cualquier registro del OPAC, puedes ampliar la información
+      haciendo clic sobre el botón + que aparece al hacer clic sobre un
+      título. Tus posibilidades dependen del parámetro del OPAC
+      bannette_notices_depliables. Para más información, consulta la Guía del
+      Administrador PMB.</para>
+	  
 
       <figure>
         <title lang='fr'>Affichage d'une notice dans l'OPAC</title>
+        <title lang="es">Visualización de un registro en el OPAC</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -421,34 +670,62 @@
 
   <sect1 id="dsi_privee">
     <title lang='fr'>DSI privée</title>
+    <title lang="es">DSI privada</title>
+	
 
     <para lang='fr'>La DSI privée est disponible depuis la version stable de PMB
     2.1.</para>
+    <para lang="es">La DSI privada está disponible a partir de la versión estable de PMB
+    2.1.</para>
+	
 
     <para lang='fr'>Elle permet à chaque lecteur identifié de concevoir un "profil
     documentaire" lui permettant de connaître les nouveautés de la
     bibliothèque ou du centre de documentation correspondant à ses centres
     d'intérêts.</para>
+    <para lang="es">Permite a cada usuario identificado crear un "perfil documental" que
+    le permita conocer las novedades de la biblioteca o del centro de
+    documentación que corresponden a sus intereses.</para>
+	
+	
 
     <para lang='fr'><emphasis role="bold">attention</emphasis> les DSI personnalisées
     configurées dans l'OPAC ne sont visibles qu'à un endroit dans l'interface
     de gestion de PMB : DSI &gt; bannettes &gt; privées</para>
+    <para lang="es"><emphasis role="bold">atención</emphasis> las DSI personalizadas
+    configuradas en el OPAC solo están visibles en la interficie de gestión en
+    un apartado : DSI &gt; cestas &gt; privadas</para>
+	
 
     <para lang='fr'>Les bannettes de DSI privées sont <emphasis role="bold">non
     classées</emphasis>.</para>
+    <para lang="es">Las cestas de DSI privadas son <emphasis role="bold">no
+    clasificadas</emphasis>.</para>
+	
 
     <para lang='fr'>La <emphasis role="bold">diffusion </emphasis>de la DSI privée est
     <emphasis role="bold">obligatoirement automatique</emphasis>.</para>
+    <para lang="es">La <emphasis role="bold">difusión </emphasis>de la DSI privada es
+    <emphasis role="bold">obligatorioamente automática</emphasis>.</para>
+	
 
     <para lang='fr'>Les équations privées ne sont pas gérables dans l'onglet DSI de
     PMB.</para>
+    <para lang="es">Las ecuaciones privadas no se pueden generar des de la pestaña DSI
+    de PMB.</para>
+	
 
     <para lang='fr'>La DSI privée est organisée de la manière suivante :</para>
+    <para lang="es">La DSI privada se organiza de la manera siguiente :</para>
+	
 
     <itemizedlist>
       <listitem>
         <para lang='fr'>un lecteur se constitue une banette privée (pas de
         catégorisation possible)</para>
+        <para lang="es">un usuario se crea una cesta privada (sin categorización
+        posible)</para>
+		
       </listitem>
 
       <listitem>
@@ -456,33 +733,53 @@
         recherche (pas de possibilité d'affecter plusieurs équations de
         recherche à une seule banette privée, il faut réaliser différentes
         banettes)</para>
+        <para lang="es">él relaciona a esta cesta una y sólo una ecuación de búsqueda
+        (no hay posibilidad de relacionar diferentes ecuaciones de búsqueda a
+        una sola cesta privada, para esto es necesario crear diferentes
+        cestas)</para>
+		
       </listitem>
 
       <listitem>
         <para lang='fr'>la banette sera réservée pour ce seul lecteur et n'est pas
         diffusable</para>
+        <para lang="es">la cesta estará sólo destinada a este usuario, y no se puede
+        difundir</para>
+		
       </listitem>
     </itemizedlist>
 
     <sect2>
       <title lang='fr'>Diffusion</title>
+      <title lang="es">Difusión</title>
+	  
 
       <para lang='fr'>La diffusion est la dernière étape de la DSI. Dès qu'une bannette
       est créée et qu'une ou plusieurs équations y sont attribuées, vous
       pouvez diffuser l'information.</para>
+      <para lang="es">La difusión es la última etapa de la DSI. Después de que se ha
+      creado una cesta y se ha relacionado con una o más ecuaciones, es cuando
+      puedes hacer difusión de la información que la cesta contiene.</para>
+	  
 
       <para lang='fr'>La diffusion automatique présente à la fois les bannettes de
       diffusion publique et celles de diffusion privée.</para>
+      <para lang="es">La difusión automática presenta a la vez las cestas de difusión
+      pública y las de difusión privada.</para>
+	  
     </sect2>
   </sect1>
 
   <sect1 id="dsi_rss">
     <title lang='fr'>Flux RSS</title>
+    <title lang='es'>Fuente RSS</title>	
 
     <sect2 id="dsi_rss_def">
       <title lang='fr'>Définition</title>
+      <title lang='es'>Definición</title>	  
 
       <para lang='fr'></para>
+      <para lang='es'></para>	  
     </sect2>
   </sect1>
 </chapter>
