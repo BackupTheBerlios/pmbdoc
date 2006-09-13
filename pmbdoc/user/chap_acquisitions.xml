@@ -370,23 +370,44 @@
         <para lang='fr'>Pour signaler la réception d'une commande et préparer un bon de
         livraison, cliquez sur le bouton <emphasis
         role="bold">Réception</emphasis> depuis une commande validée.</para>
+		
+        <para lang='es'>Para indicar la llegada de un pedido y preparar un albarán 
+		de entrega, haz clic sobre el botón <emphasis
+        role="bold">Entregas</emphasis> desde un pedido validado.</para>
+
 
         <para lang='fr'>Pour signaler la facturation d'une commande, cliquez sur le
         bouton <emphasis role="bold">Facturation </emphasis>depuis une
         commande validée.</para>
+		
+        <para lang='es'>Para indicar la facturación de un pedido, haz clic sobre el 
+		botón <emphasis role="bold">Facturación </emphasis>desde un pedido
+		validado.</para>
+
+		
       </sect3>
     </sect2>
 
     <sect2 id="acquis_achats_livraisons">
       <title lang='fr'>Livraisons</title>
-      <title lang='es'>Livraisons</title>
+      <title lang='es'>Entregas</title>
 
       <para lang='fr'>Pour créer un bon de livraison, affichez une commande validée en
       modification et cliquez sur le bouton Réception.</para>
+	  
+      <para lang='es'>Para crear una orden de entrega, visualiza un pedido validado y en modo 
+	  modificación haz clic sobre el botón Recepción.</para>
+
+	  
 
       <para lang='fr'>Pour signaler la réception d'une commande, affichez la commande en
       modification puis cliquez sur <emphasis
       role="bold">Livraison</emphasis>.</para>
+	  
+      <para lang='es'>Para indicar la recepción de un pedido, visualiza la comanda en 
+	  modificación y después haz clic sobre <emphasis
+      role="bold">Entrega</emphasis>.</para>
+	  
 
       <para lang='fr'>En cliquant sur Livraison, vous créez un nouveau bon de livraison.
       Vous pouvez rechercher un code dans la liste, ce qui vous permet ensuite
@@ -394,10 +415,17 @@
       la case "<emphasis role="bold">auto</emphasis>" qui vous permet
       d'augmenter la quantité reçue pour une ligne de commande
       automatiquement.</para>
+	  
+      <para lang='es'>Al hacer sobre Entregas, creas una nueva orden de entrega. 
+      Puedes buscar un código en la lista, lo que permite modificar manualmente 
+	  la cantidad recbicida. También puedes marcar la casilla 
+	  "<emphasis role="bold">auto</emphasis>" que te permitirá aumentar la
+	  cantidada recibida pàra una línea de pedido automáticamente.</para>
+	  
 
       <figure>
         <title lang='fr'>Acquisitions &gt; Livraisons</title>
-        <title lang='es'>Acquisitions &gt; Livraisons</title>
+        <title lang='es'>Adquisiciones &gt; Entregas</title>
 
         <mediaobject>
           <imageobject>
@@ -412,10 +440,17 @@
       réception. Cliquez ensuite sur <emphasis
       role="bold">Enregistrer</emphasis> pour créer un bon de
       livraison.</para>
+	  
+      <para lang='es'>Por ejemplo, si pides tres ejemplares de La Terre
+      vue du Ciel de Yann Arthus-Bertrand, marcando la casilla, escanea 
+	  los tres códigos de barras comerciales a la vez que los vas recibiendo.
+	  Haz clic luego sobre <emphasis role="bold">Guardar</emphasis> 
+	  para crear una órden de entrega.</para>
+	  
 
       <figure>
         <title lang='fr'>Acquisitions &gt; Livraisons</title>
-        <title lang='es'>Acquisitions &gt; Livraisons</title>
+        <title lang='es'>Adquisiciones &gt; Entregas</title>
 
         <mediaobject>
           <imageobject>
@@ -427,21 +462,29 @@
       <para lang='fr'>Vous pouvez également imprimer un bon de livraison en cliquant sur
       l'icône <emphasis>Imprimante</emphasis> depuis la liste des
       livraisons.</para>
+	  
+      <para lang='es'>Puedes también imprimir una órden de entrega haciendo clic sobre 
+      el icono <emphasis>Imprimir</emphasis> desde la lista de entregas.</para>
+	  
     </sect2>
 
     <sect2 id="acquis_achats_factures">
       <title lang='fr'>Factures</title>
-      <title lang='es'>Factures</title>
+      <title lang='es'>Facturas</title>
 
       <para lang='fr'>Pour enregistrer une facture, affichez une commande validée en
       modification et cliquez sur le bouton <emphasis
       role="bold">Facturation</emphasis>.</para>
+	  
+      <para lang='es'>Para guardar una factura, visualiza la comanda validada en modo
+	  modificación y haz clic sobre el botón <emphasis
+      role="bold">Facturación</emphasis>.</para>	  
 
       <figure>
         <title lang='fr'>Acquisitions &gt; Commandes, affichage d'une commande en
         modification pour la passer en facturation</title>
-        <title lang='es'>Acquisitions &gt; Commandes, affichage d'une commande en
-        modification pour la passer en facturation</title>
+        <title lang='es'>Adquisiciones &gt; Pedidos, visualización de un pedido en
+		modo modificación para pasar a facturación</title>
 
         <mediaobject>
           <imageobject>
@@ -452,23 +495,44 @@
 
       <para lang='fr'>Vous pouvez rechercher un code dans la liste, ce qui vous permet
       ensuite de modifier manuellement la quantité facturée.</para>
+	  
+      <para lang='es'>Puedes buscar un código de la lista, esto permite modificar manualmente
+	  la cantidad facturada.</para>
+	  
 
       <para lang='fr'>Vous pouvez saisir le paiement d'une facture en affichant une
       facture en modification et en cliquant sur <emphasis
       role="bold">Payer</emphasis>. Attention, une fois une facture payée,
       elle ne peut plus être supprimée ou modifée.</para>
+	  
+      <para lang='es'>Puedes introducir el pago de una factura visualizando una 
+	  factura en modo modificación y haciendo clic sobre <emphasis
+      role="bold">Pagar</emphasis>. Atención, una vez una factura esté pagada, 
+	  no podrá ser eliminada ni modificada.</para>
+	  
 
       <para lang='fr'>Vous pouvez également imprimer le suivi d'une facture en cliquant
       sur l'icône <emphasis>Imprimante</emphasis> depuis la liste des
       factures.</para>
+	  
+      <para lang='es'>También puedes imprimir el seguimiento de una factura haciendo clic
+	  sobre el icono <emphasis>Imprimir</emphasis> desde la lista de 
+	  facturas.</para>
+
+	  
     </sect2>
 
     <sect2 id="acquis_achats_fournisseurs">
       <title lang='fr'>Fournisseurs</title>
-      <title lang='es'>Fournisseurs</title>
+      <title lang='es'>Proveedores</title>
 
       <para lang='fr'>Vous devez créer au moins un fournisseur avant de pouvoir créer
       une commande.</para>
+	  
+      <para lang='es'>Deves crear como mínimo un proveedor antes de poder crear un 
+	  pedido.</para>
+
+	  
 
       <para lang='fr'>Pour créer un fournisseur, cliquez sur <emphasis
       role="bold">Ajouter un fournisseur</emphasis>. Vous pouvez définir un
@@ -480,150 +544,246 @@
       un code <emphasis role="bold">NAF</emphasis>, un numéro de <emphasis
       role="bold">TVA</emphasis>, un <emphasis role="bold">site
       internet</emphasis>.</para>
+	  
+      <para lang='es'>Para crear un proveedor, haz clic sobre <emphasis
+      role="bold">Añadir un proveedor</emphasis>. Puedes introducir un 
+	  nombre o una razón social, un número de cuenta cliente así como 
+	  una dirección principal y direcciones complementarias (Añadir una
+	  dirección). Puedes incluir también <emphasis
+      role="bold">comentarios</emphasis>, un <emphasis
+      role="bold">SIRET</emphasis>, un <emphasis role="bold">RCS</emphasis>,
+      un code <emphasis role="bold">NAF</emphasis>, un número de <emphasis
+      role="bold">TVA</emphasis>, una <emphasis role="bold">página web </emphasis>.</para>
+
+	  
 
       <para lang='fr'>Pour un fournisseur, vous pouvez également définir des <emphasis
       role="bold">Conditions de vente</emphasis>.</para>
+	  
+      <para lang='es'>Para cada proveedor, puedes también definir las <emphasis
+      role="bold">Condiciones de venta</emphasis>.</para>
+
+	  
 
       <para lang='fr'>Les <emphasis role="bold">conditions de vente</emphasis> se
       composent de :</para>
+	  
+      <para lang='es'>Las <emphasis role="bold">condiciones de venta</emphasis> se
+      componen de :</para>
+	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>de conditions de paiement : vous pouvez choisir dans la liste
           déroulante un des <emphasis>modes de paiements</emphasis> définis
           via <emphasis>Administration &gt; Acquisitions</emphasis>.</para>
+		  
+          <para lang='es'>las condiciones de pago : puedes escoger del menú desplegable 
+		  uno de los <emphasis>modos de pago</emphasis> definidos en  
+		  <emphasis>Administración &gt; Adquisiciones</emphasis>.</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>des remises par type de produit : vous pouvez définir une
           remise pour chacun des types de produits définis via
           <emphasis>Administration &gt; Acquisitions</emphasis>.</para>
+		  
+          <para lang='es'>los remises por tipo de producto : puedes definir una 
+		  remisa para cada uno de los tipos de productos definidos via 
+          <emphasis>Administración &gt; Adquisiciones</emphasis>.</para>
+		  
         </listitem>
       </itemizedlist>
     </sect2>
 
     <sect2 id="acquis_achats_devis">
       <title lang='fr'>Devis</title>
-      <title lang='es'>Devis</title>
+      <title lang='es'>Presupuesto</title>
 
       <para lang='fr'>Pour créer préparer un devis, cliquez sur <emphasis
       role="bold">Demande de devis</emphasis>.</para>
-
+	  
+      <para lang='es'>Para crear y preparar un presupuesto, haz clic sobre <emphasis
+      role="bold">Petición de presupuesto</emphasis>.</para>
+	  
+	  
       <para lang='fr'>La réalisation d'un devis est destinée à vous permettre de
       contrôler auprès de votre fournisseur à la fois la disponibilité et le
       prix des documents à acquérir.</para>
 
+      <para lang='fr'>Un presupuesto se crea para poder controlar 
+	  tanto los precios de los documentos como su disponibilidad en cuanto a tu proveedor.</para>
+	  
+	  
       <para lang='fr'>L'ajout d'une ligne à un devis est identique à l'ajout d'une ligne
       dans une commande. Pour plus d'informations, consulter <xref
       linkend="acquis_achats_commandes_lignes" />.</para>
+	  
+      <para lang='es'>Añadir una línea a un presupuesto en lo mismo que añadir una línea
+	  a un pedido. Para más información, consulta <xref
+      linkend="acquis_achats_commandes_lignes" />.</para>
+
 
       <para lang='fr'>Vous pouvez passer en commande un <emphasis role="bold">devis
       enregistré</emphasis>.</para>
+	  
+      <para lang='es'>Puedes pasar a pedido un <emphasis role="bold">presupuesto 
+	  guardado</emphasis>.</para>
+	  
 
       <para lang='fr'>Vous pouvez également à l'aide de la liste déroulante changer le
       statut d'un devis : <emphasis role="bold">en cours</emphasis>, <emphasis
       role="bold">reçu</emphasis>, <emphasis
       role="bold">archivé</emphasis>.</para>
+	  
+      <para lang='es'>Puedes también con la ayuda del menú desplegable cambiar el 
+	  estado de un presupuesto : <emphasis role="bold">en curso</emphasis>, <emphasis
+      role="bold">recibido</emphasis>, <emphasis
+      role="bold">archivado</emphasis>.</para>
+	  
     </sect2>
   </sect1>
 
   <sect1 id="acquis_sugg">
     <title lang='fr'>Suggestions</title>
-    <title lang='es'>Suggestions</title>
+    <title lang='es'>Sugerencias</title>
 
     <sect2 id="acquis_sugg_atraiter">
       <title lang='fr'>A traiter</title>
-      <title lang='es'>A traiter</title>
+      <title lang='es'>A tratar</title>
 
       <para lang='fr'>Vous pouvez consulter les différentes suggestions pour les traiter
       ou créer une nouvelle suggestion en cliquant sur le bouton
       <emphasis>Créer une suggestion</emphasis>.</para>
+	  
+      <para lang='es'>Puedes consultar las diferentes sugerencias de compra para gestionarlas
+	   o crear una nueva sugerencia haciendo clic sobre el botón 
+      <emphasis>Crear una sugerencia</emphasis>.</para>
+	  
 
       <sect3 id="acquis_sugg_rechercher">
         <title lang='fr'>Rechercher et traiter une suggestion</title>
-        <title lang='es'>Rechercher et traiter une suggestion</title>
+        <title lang='es'>Buscar y tratar una sugerencia</title>
 
         <para lang='fr'>Vous pouvez fusionner des transactions, les imprimer.</para>
+		
+        <para lang='es'>Puedes fusionar las sugerencias y imprimirlas</para>
+
+		
 
         <para lang='fr'>Pour les transactions en cours, vous pouvez</para>
+        <para lang='es'>Para las sugerencias en curso, puedes </para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>Imprimer</para>
+            <para lang='es'>Imprimir</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Fusionner</para>
+            <para lang='es'>Fusionar</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Valider</para>
+            <para lang='es'>Validar</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Rejeter</para>
+            <para lang='es'>Rechazar</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Supprimer</para>
+            <para lang='es'>Suprimir</para>
+
           </listitem>
         </itemizedlist>
 
         <para lang='fr'>Pour les transactions rejetées ou abandonnées, vous
         pouvez</para>
+        <para lang='es'>Para las sugerencias rechazadas o abandonadas, 
+		puedes </para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>Imprimer</para>
+            <para lang='es'>Imprimir</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Archiver</para>
+            <para lang='es'>Archivar</para>
+			
           </listitem>
         </itemizedlist>
 
         <para lang='fr'>Pour les transactions validées, vous pouvez</para>
+        <para lang='es'>Para las sugerencias validadas, puedes</para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>Imprimer</para>
+            <para lang='es'>Imprimir</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Fusionner</para>
+            <para lang='es'>Fusionar</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Confirmer</para>
+            <para lang='es'>Confirmar</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Abandonner</para>
+            <para lang='es'>Abandonar</para>
+			
           </listitem>
         </itemizedlist>
 
         <para lang='fr'>Pour les transactions confirmées, vous pouvez</para>
+        <para lang='es'>Para las sugerencias confirmadas, puedes </para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>Imprimer</para>
+            <para lang='es'>Imprimir</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Commander</para>
+            <para lang='es'>Pedir</para>			
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3 id="acquis_sugg_create">
         <title lang='fr'>Créer une suggestion</title>
-       <title lang='es'>Créer une suggestion</title>
+        <title lang='es'>Crear una sugerencia</title>
 
         <figure>
           <title lang='fr'>Acquisitions &gt; Suggestion : à traiter, Création d'une
           suggestion</title>
-          <title lang='es'>Acquisitions &gt; Suggestion : à traiter, Création d'une
-          suggestion</title>
+          <title lang='es'>Adquisiciones &gt; Sugerencias : a tratar, Crear una sugerencia</title>
 
           <mediaobject>
             <imageobject>
@@ -634,17 +794,28 @@
 
         <para lang='fr'>L'écran de création d'une suggestion est divisée en deux
         partie.</para>
+		
+        <para lang='es'>La pantalla de creación de una sugerencia se divide en dos partes.</para>
+		
 
         <para lang='fr'>Les informations en haut de l'écran sont non modifiables et
         indiquent :</para>
+		
+        <para lang='es'>Las informaciones en la parte superior de la pantalla no se pueden 
+		modificar e indican :</para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>la date de création</para>
+            <para lang='es'>la fecha de creación</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>le login de l'utilisateur qui crée la suggestion</para>
+            <para lang='es'>el login del administrador que crea la sugerencia</para>
+			
           </listitem>
 
           <listitem>
@@ -654,62 +825,101 @@
             Pour plus d'informations, consulter le <emphasis>Guide de
             l'administrateur PMB, chapitre Outils, section
             Paramètres</emphasis>.</para>
+			
+            <para lang='es'>una valoración en función del tipo de usuario. La
+            valoración de las sugerencias está en función del parámetro 
+            <emphasis>Adquisiciones</emphasis> <emphasis>poids_sugg</emphasis>.
+            Para más información, consulta la <emphasis>Guía del administrador 
+			PMB, capítulo Herramientas, sección 
+            Parámetros</emphasis>.</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>un état. Pour plus d'informations, consulter plus loin <xref
             linkend="acquis_sugg_etats" />.</para>
+			
+            <para lang='es'>un estado. Para más informació, consulta un poco más abajo <xref
+            linkend="acquis_sugg_etats" />.</para>
+			
           </listitem>
         </itemizedlist>
 
         <para lang='fr'>Dans le formulaire de création de suggestion, vous pouvez
         définir :</para>
+		
+        <para lang='es'>El formulario de creación de una sugerencia de compra permite incluir :</para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>un titre</para>
+            <para lang='es'>un título</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>un éditeur</para>
+            <para lang='es'>una editorial</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>un auteur</para>
+            <para lang='es'>un autor</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>un ISBN</para>
+            <para lang='es'>un ISBN</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>un prix</para>
+            <para lang='es'>un precio</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>une URL associée</para>
+            <para lang='es'>una URL asociada</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>des commentaires</para>
+            <para lang='es'>comentarios</para>
+			
           </listitem>
         </itemizedlist>
 
         <para lang='fr'>Vous devez renseigner au moins un titre ainsi qu'un auteur ou un
         titre ainsi qu'un éditeur. Les autres champs sont facultatifs.</para>
+		
+        <para lang='es'>Debes incluir como mínimo un título y un autor o un título y 
+		una editorial. Los otros campos son optativos.</para>
+		
       </sect3>
     </sect2>
 
     <sect2 id="acquis_sugg_etats">
       <title lang='fr'>Liste des états des suggestions</title>
-      <title lang='es'>Liste des états des suggestions</title>
+      <title lang='es'>Lista de estados de las sugerencias</title>
 
       <para lang='fr'>Voici la liste des états que peut prendre une suggestion, avec la
       liste des étapes ayant amené la suggestion à cette étape : </para>
+	  
+      <para lang='es'>Aquí se encuentran la lista de estados que puede tener una sugerencia, con las diferentes
+	  etapas para cada sugerencia : </para>
+	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'><emphasis role="bold">en cours</emphasis></para>
+          <para lang='es'><emphasis role="bold">en curso</emphasis></para>
+		  
         </listitem>
 
         <listitem>
@@ -719,18 +929,35 @@
           demandé. A cette étape, on ne prend pas en compte le fait d'être
           d'accord ou non avec la suggestion, il s'agit juste d'un contrôle de
           validité.</para>
+		  
+          <para lang='es'>en curso &gt; <emphasis role="bold">validada</emphasis> : la
+          sugerencia de compra se ha validado. Las informaciones que se han introducido 
+		  son suficientes para empezar a buscar el documento pedido. 
+		  En esta etapa aún no se ha decidido si se va a adquirir o no, solamente 
+		  es un control de que hay datos suficientes para seguir adelante y que éstos
+		  son correctos.</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>en cours &gt; <emphasis role="bold">rejeté</emphasis> :
           suggestion invalide ou trop incomplète pour réaliser la moindre
           recherche</para>
+		  
+          <para lang='es'>en curso &gt; <emphasis role="bold">rechazada</emphasis> :
+          sugerencia no válida o con pocos datos para realizar su búsqueda</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>en cours &gt; validé &gt; <emphasis
           role="bold">confirmé</emphasis> : la suggestion valide est retenue
           pour une prochaine commande</para>
+		  
+          <para lang='es'>en curso &gt; validada &gt; <emphasis
+          role="bold">confirmada</emphasis> : la sugerencia validada se guarda
+		  para el próximo pedido</para>
+		  
         </listitem>
 
         <listitem>
@@ -738,18 +965,32 @@
           role="bold">abandonné</emphasis> : la suggestion valide ne
           correspond pas aux critères de choix ou au budget par exemple. La
           suggestion ne sera pas commandée.</para>
+		  
+          <para lang='es'>en curso &gt; validada &gt; <emphasis
+          role="bold">no aceptada</emphasis> : la sugerencia validada no 
+		  corresponde a los criterios de compra o al presupuesto. La
+          sugerencia no será pedida.</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>en cours &gt; validé &gt; confirmé &gt; <emphasis
           role="bold">commandé</emphasis> : la suggestion valide a été retenue
           puis commandée</para>
+		  
+          <para lang='es'>en curso &gt; validada &gt; confirmada &gt; <emphasis
+          role="bold">pedida</emphasis> : la sugerencia validada ya se ha pedido</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>en cours &gt; validé &gt; confirmé &gt; commandé &gt;
           <emphasis role="bold">reçu</emphasis> : la suggestion commandée est
           reçue</para>
+		  
+          <para lang='es'>en curso &gt; validada &gt; confirmada &gt; pedida &gt;
+          <emphasis role="bold">recibida</emphasis> : la sugerencia pedida ha llegado</para>
+		  
         </listitem>
       </itemizedlist>
     </sect2>
