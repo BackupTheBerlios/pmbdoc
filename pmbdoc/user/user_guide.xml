@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 <!ENTITY __chap0a_introduction SYSTEM "chap0a_introduction.xml">
@@ -22,6 +22,7 @@
 ]>
 <book>
   <title lang='fr'>PMB : Guide de l'utilisateur</title>
+  <title lang='en'>PMB : User Guide</title>
 
   <bookinfo>
     <date>2006</date>
@@ -32,19 +33,30 @@
       opensource. Les utilisateurs auxquels est destiné ce guide sont les
       membres de l'équipe de la bibliothèque, et non les usagers de celle-ci,
       les emprunteurs.</para>
+      <para lang='en'>This guide is the PMB user manual, a computerized library
+	  management system with a free and opensource PHP/MySQL interface.
+	  This guide is intended to the library personel but not to the library users,
+	  the borrowers.</para>
 
       <para lang='fr'>Pour plus d'informations, consulter www.sigb.net</para>
     </abstract>
+      <para lang='en'>For more information, refer to www.sigb.net</para>
+    </abstract>
 
-    <releaseinfo>Version de PMB correspondante à ce guide : v2.2</releaseinfo>
+    <releaseinfo lang='fr'>Version de PMB correspondante à ce guide : v2.2</releaseinfo>
+    <releaseinfo lang='en'>PMB version of this guide: : v2.1</releaseinfo>
 
-    <copyright>
+    <copyright lang='fr'>
       <year>2004-2006</year>
-
       <holder>Groupe de développeurs PMB</holder>
     </copyright>
 
-    <legalnotice>
+    <copyright lang='en'>
+      <year>2004-2006</year>
+      <holder>PMB development group</holder>
+    </copyright>
+
+	      <legalnotice>
       <para lang='fr'>Ce manuel est la propriété intellectuelle de PMB Services SARL et
       des contributeurs (leurs noms sont mentionnés dans leurs
       contributions).</para>
@@ -70,9 +82,32 @@
       <para lang='fr'><literal>http://www.sigb.net</literal></para>
 
       <para lang='fr'><literal>Copyright © 2006 PMB Services SARL</literal></para>
-    </legalnotice>
+      <para>This manual is the intellectual property of PMB Services SARL and
+	  of its contributors (their names appear with their contributions).</para>
 
-    <othercredit>
+      <para lang='en'>HTML Version: authorized free distribution, Creative Commons 2.0 license,
+	  (Authorship, No commercial use). For more information refer to :
+      http://creativecommons.org/licenses/by-nc/2.0/fr/</para>
+
+      <para lang='en'>Printed, XML and other formats version : forbidden distribution,
+	  modifications authorized for PMB developers and documentation registered
+	  contributors (CVS access). For any questions regarding other versions
+	  of the PMB documentation, please send an email to pmb@sigb.net</para>
+
+      <para lang='en'>Cover page Text :</para>
+
+      <para lang='en'><literal>PMB Services SARL, August 2004</literal></para>
+
+      <para lang='en'><literal>PMB is a opensource application (GNU/GPL compliant CECILL License)
+	  for media libraries.</literal></para>
+
+      <para lang='en'><literal>http://www.sigb.net</literal></para>
+
+      <para lang='en'><literal>Copyright © 2004 PMB Services SARL</literal></para>
+
+			      </legalnotice>
+
+    <othercredit lang='fr'>
       <surname>Ce manuel a été rédigé avec la grammaire XML DocBook. Les
       fichiers source XML ont été édités soit dans un éditeur de texte, soit
       dans XML Mind XML editor (version standard) puis formatés avec l'aide
@@ -81,7 +116,17 @@
       Windows avec PrtScr puis GIMP ou sous MacOS X.3, puis éditées et
       converties avec GIMP.</surname>
     </othercredit>
-  </bookinfo>
+ 
+    <othercredit lang='en'>
+      <surname>This manual was produced with the Docbook XML grammar.
+	  XML source files have been edited either with a text editor, or with
+	  XMLMind XML editor (standard version) then formatted with Norman Walsh
+	  customized styles with XFC standard version. Screen captures were performed
+	  under Linux with GIMP, under Windows with PrtScr then GIMP or under MacOS X.3,
+	  then edited and converted with GIMP.</surname>
+    </othercredit>
+	  
+	   </bookinfo>
 
   &__chap0a_introduction;
 
