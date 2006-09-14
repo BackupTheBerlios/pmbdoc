@@ -1,78 +1,135 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter lang="fr" id="introduction">
   <title lang='fr'>Introduction</title>
+  <title lang="es">Introducción</title>
+  
 
   <sect1>
     <title lang='fr'>Où trouver des informations sur PMB</title>
+    <title lang="es">Dónde encontrar información sobre PMB</title>
+	
 
     <para lang='fr'>Sur le site de PMB : www.sigb.net</para>
+    <para lang="es">En la página web de PMB : www.sigb.net</para>
+	
 
     <para lang='fr'>Sur le site de la communauté des utilisateurs :
     www.sigb.net/communaute</para>
+    <para lang="es">En la página de la comunidad de usuarios :
+    www.sigb.net/communaute</para>
+	
 
     <para lang='fr'>Sur la mailing liste des utilisateurs : pmb.user@sigb.net
     (inscription libre en envoyant un mail avec pour sujet SUBSCRIBE à
     pmb.user_request@sigb.net)</para>
+    <para lang="es">En la lista de distribución de usuarios : pmb.user@sigb.net
+    (inscripción libre enviando un correo electrónico con el asunto SUBSCRIBE
+    a pmb.user_request@sigb.net)</para>
+	
 
     <para lang='fr'>Sur la mailing liste des traducteurs, des développeurs, du support
     de l'unicode (alphabets non européens). Pour plus de renseignements sur
     ces listes, consulter www.sigb.net</para>
+	<para lang="es">En la lista de de distribución de traductores, de desarrolladores,
+    de soporte a unicode (alfabetos no europeos). Para más información sobre
+    estas listas, consulta www.sigb.net</para>
+
 
     <para lang='fr'>Cette documentation est consultable en ligne sur www.sigb.net/doc,
     elle est disponible aux formats XML (format de rédaction), HTML, RTF et
     PDF.</para>
+    <para lang="es">Esta documentación es consultable en línea en www.sigb.net/doc, está
+    disponible en formato XML (formato de redacción), HTML, RTF y PDF.</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Mise à jour d'une installation existante</title>
+    <title lang="es">Actualización de una instalación existente</title>
+	
 
     <para lang='fr'>
       <emphasis>ATTENTION</emphasis>
     </para>
+    <para lang="es">
+	  <emphasis>ATENCIÓN</emphasis>
+	</para>
+	
 
     <para lang='fr'>Si vous faites une mise-à-jour à partir d'une version existante en
     décompressant l'archive :</para>
+    <para lang="es">Si realizas una actualización a partir de una versión anterior,
+    después de descomprimir el archivo y cargarlo al servidor debes :</para>
+	
 
     <para lang='fr'>Allez en <emphasis role="bold">Administration</emphasis>; Rubrique
     <emphasis role="bold">Outils</emphasis> ; Choisissez l'option <emphasis
     role="bold">M.à.J. base</emphasis> afin de mettre à jour le noyau de votre
     base de données. Vous n'avez pas besoin de réinstaller la base de données,
     vos données actuelles seront conservées sans aucune perte.</para>
+    <para lang="es">Ir a <emphasis role="bold">Administración</emphasis>; Apartado
+    <emphasis role="bold">Herramientas</emphasis>; Escoger la opción <emphasis
+    role="bold">Act. base</emphasis> para actualizar la base de datos a los
+    nuevos cambios o funcionalidades. No es necesario que reinstales toda la
+    base de datos, ya que tus datos actuales se conservarán sin perderse
+    nada.</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Pré-requis d'installation</title>
+    <title lang="es">Requisitos previos a la instalación</title>
+	
 
     <para lang='fr'>PMB est une application 3 tiers basé sur un environnement Web
     classique. Pour fonctionner elle nécessite :</para>
+    <para lang="es">PMB es una aplicación de 3 aplicaciones bajo un sistema Web clásico.
+    Para funcionar necesita. :</para>
+	
 
     <itemizedlist>
       <listitem>
         <para lang='fr'>Coté serveur :</para>
+        <para lang="es">De la parte del servidor :</para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>Un serveur Web quelconque capable d'intégrer le langage
             PHP</para>
+            <para lang="es">Un servidor Web capaz de integrar el lenguaje PHP</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Le langage PHP pour exécuter les scripts. Spécificités du
             langage PHP requises :</para>
+            <para lang="es">El lenguaje PHP para ejecutar los scripts. Especificaciones
+            del lenguaje PHP requeridas :</para>
+			
 
             <itemizedlist>
               <listitem>
                 <para lang='fr'>Version supérieure ou égale à 4.2</para>
+                <para lang="es">Versión superior o igual a 4.2</para>
+ 				
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>Modules impératifs : MySQL, GD, XSLT</para>
+                <para lang="es">Módulos obligatorios : MySQL, GD, XSLT</para>
+				
               </listitem>
 
               <listitem>
                 <para lang='fr'>Modules optionnels pour activer certaines
                 fonctionnalités : YAZ pour la recherche z3950, bz2 pour la
                 compression, directe des sauvegardes.</para>
+                <para lang="es">Módulos opcionales para activar ciertas funcionalidades
+                : YAZ para la búsqueda Z3950, bz2 para la compresión directa
+                de las copias de seguridad</para>
+				
               </listitem>
             </itemizedlist>
           </listitem>
@@ -80,6 +137,9 @@
           <listitem>
             <para lang='fr'>Un serveur de base de données MySQL de version supérieure ou
             égale à 3.23</para>
+            <para lang="es">Un servidor de base de datos MySQL de versión superior o 
+			igual a 3.23</para>
+			
           </listitem>
         </itemizedlist>
       </listitem>
@@ -88,12 +148,18 @@
     <itemizedlist>
       <listitem>
         <para lang='fr'>Coté client :</para>
+        <para lang="es">De la parte del cliente:</para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>Un navigateur Web de génération récente (MS I.E. 6, Netscape
             7, ...) quelque soit la plate-forme : Windows, Linux, MacOS, UNIX,
             Solaris, BeOS...</para>
+            <para lang="es">Un navigador Web de generación reciente (Internet Explorer
+            6, Netscape 7, ...) en cualquier plataforma: Windows, Linux,
+            MacOS, UNIX, Solaris, BeOS...</para>
+			
           </listitem>
         </itemizedlist>
       </listitem>
@@ -104,25 +170,49 @@
     réseau du serveur sera http://localhost/ ou avec l'adresse IP
     http://127.0.0.1/ ces deux adresses renvoient à l'hôte local, soit pour
     l'ordinateur client "soi-même".</para>
+    <para lang="es">Es posible hacer funcionar PMB en local. En este caso, el servidor y
+    el cliente son la misma máquina. En este caso la dirección real del
+    servidor será http://localhost/ o la dirección IP http://127.0.0.1/, estas
+    dos direcciones envían hacia el servidor local, que será el mismo
+    ordenador cliente.</para>
+
 
     <para lang='fr'>De même client et serveur peuvent être distincts, soit sur le réseau
     local de la bibliothèque, soit via internet. Il est possible également de
     séparer le serveur MySQL hébergeant le donner.</para>
+    <para lang="es">De la misma forma el cliente y el servidor pueden ser distintos, o
+    en la red local de la biblioteca o en internet. Es posible también separar
+    el servidor MySQL que guarda los datos..</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Configurer son serveur avant d'installer PMB</title>
+    <title lang="es">Configurar el servidor antes de instalar PMB</title>
+	
 
     <para lang='fr'>Ces informations sont disponibles dans le fichier
     <emphasis>votre_rep_pmb/doc/pre_requisite.txt</emphasis></para>
+    <para lang="es">Estas informaciones están disponibles en el archivo de
+    <emphasis>vuestro_directorio_pmb/doc/pre_requisite.txt</emphasis></para>
 
     <para lang='fr'>Version de pre_requisite.txt reprise ici
     <emphasis>pre_requisite.txt,v 1.4 2004/08/08 17:38:52
     touraine37</emphasis></para>
+    <para lang="es">Versión de pre_requisite.txt expuesta aquí
+    <emphasis>pre_requisite.txt,v 1.4 2004/08/08 17:38:52
+    touraine37</emphasis></para>
+	
 
     <para lang='fr'>
       <emphasis role="bold">Configuration de PHP : php.ini</emphasis>
-    </para>
+	</para>
+    <para lang="es">
+	  <emphasis role="bold">Configuración de PHP : php.ini</emphasis>
+	</para>
+	
+	
+	
 
     <para lang='fr'>Position de ce fichier avec une installation sur Windows :</para>
 
