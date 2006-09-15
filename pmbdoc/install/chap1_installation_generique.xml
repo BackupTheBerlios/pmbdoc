@@ -1,24 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title lang='fr'>Installation générique</title>
+  <title lang="es">Instalación genérica</title>
+  
 
   <para lang='fr'>PMB est une application web qui nécessite un serveur web configuré
   avec PHP et l'accès à une base de données MySQL. Si les installations
   diffèrent au niveau des procédures à suivre selon les OS, il existe un
   certain nombre de points communs.</para>
+  <para lang="es">PMB es una aplicación web que necesita un servidor web configurado con
+  PHP y el acceso a una base de datos MySQL. Si bien las intalaciones difieren
+  en los procedimientos a seguir según el Sistema Operativo, existe una serie
+  de puntos en común.</para>
+
 
   <sect1>
     <title lang='fr'>Pré-requis</title>
+    <title lang="es">Requisitos previos</title>
+	
 
     <para lang='fr'>Voir ci-dessus, chapitre 2, section 3 : Pré-requis
     d'installation</para>
+    <para lang="es">Ver más arriba, capítulo 2, sección 3 : Requisitos previos de
+    instalación</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Installation</title>
+    <title lang="es">Instalación</title>
+	
 
     <para lang='fr'>Téléchargez la dernière version sur le site de PMB
     [http://www.sigb.net].</para>
+    <para lang="es">Descargar la última versión de la página web de PMB
+    [http://www.sigb.net].</para>
+	
 
     <para lang='fr'>Vous pouvez choisir entre les deux formats d'archive zip (pour
     Windows) ou tar.gz (pour Linux). Les deux archives contiennent les mêmes
@@ -28,10 +45,20 @@
     suite du document, nous prendrons comme exemple une extraction dans le
     sous répertoire PMB du répertoire racine de votre serveur Web sur la
     machine "monserveur".</para>
+    <para lang="es">Puedes escoger entre dos formatos de archivo, zip (para Windows) o
+    tar.gz (para Linux). Los dos archivos contienen los mismos archivos.
+    Extraer el archivo en el directorio de vuestro servidor web donde quereis
+    instalar PMB (Para los archivos tar.gz, copiad el archivo en el directorio
+    de instalación y teclea tar xzf PMB.tar.gz.). Para este documento, hemos
+    tomado como ejemplo una extracción al directorio PMB de un directorio de
+    un servidor Web en la máquina "monserveur".</para>
+
 
     <sect2>
       <title lang='fr'>Création de la base de données et initialisation de
       l'application</title>
+      <title lang="es">Creación de la base de datos e inicio de la aplicación</title>
+	  
 
       <para lang='fr'>A partir de l'endroit où vous avez extrait l'archive, appelez la
       page <emphasis role="bold">tables/install.php</emphasis> (dans notre
@@ -41,9 +68,20 @@
       remplit avec le minimum requis pour le fonctionnement de PMB et de créer
       l'utilisateur administrateur de PMB. Deux zones sont à
       renseigner.</para>
+      <para lang="es">A partir del lugar donde habéis extraído el archivo, ve a buscar
+      la página <emphasis role="bold">tables/install.php</emphasis> (en
+      nuestro ejemplo con el navegador introduce el URL <emphasis
+      role="bold">http://monserveur/pmb/tables/install.php</emphasis>). Esta
+      página os permitirá crear la base de datos en el servidor MySQL, la
+      llenará con los requisitos mínimos para el funcionamiento de PMB y
+      creará al usuario administrador de PMB. Hay dos zonas a tener en
+      cuenta.</para>
+
 
       <figure>
         <title lang='fr'>Choix de la langue d'installation</title>
+        <title lang="es">Selección de la lengua de instalación</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -56,16 +94,29 @@
       installer PMB : ceci correspond aux données chargées en base. La langue
       de l'interface peut à tout moment être changée dans les préférences de
       l'utilisateur</para>
+      <para lang="es">Escoge la lengua en la cual quieres instalar PMB : corresponde a
+      los datos cargados en la base de datos. El idioma de la interficie puede
+      cambiarse en todo momento en las preferencias del usuario</para>
+	  
 
       <para lang='fr'><emphasis role="bold">Attention : </emphasis>SI VOUS N'UTILISEZ
       PAS CETTE PROCÉDURE, PENSEZ A SUPPRIMER LES DEUX FICHIERS INSTALL.PHP et
       INSTALL_REP.PHP. EN PLUS : PENSEZ A CHANGER LE MOT DE PASSE DE
       L'UTILISATEUR ROOT DE MySQL IL EST VIDE PAR DÉFAUT, CE QUI CONSTITUE UN
       TROU DE SÉCURITÉ ÉVIDENT.</para>
+      <para lang="es"><emphasis role="bold">Atención : </emphasis>SI NO UTILIZAS ESTE
+      PROCEDIMIENTO, PIENSA EN ELIMINAR LOS DOS ARCHIVOS INSTALL.PHP y
+      INSTALL_REP.PHP. ADEMÁS : PIENSA EN CAMBIAR LA CONTRASEÑA DEL USUARIO
+      ROOT DE MySQL ESTÁ VACÍA POR DEFECTO, LO QUE CONSTITUYE UN AGUJERO DE
+      SEGURIDAD EVIDENTE.</para>
+	  
 
       <figure>
         <title lang='fr'>Informations d'installation, définition des paramètres en
         milieu de page (faites défiler l'écran vers le bas)</title>
+        <title lang="es">Informaciones de instalación, definición de los parámetros en
+        medio de la página (baja la pantalla hacia abajo)</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -76,6 +127,8 @@
 
       <sect3>
         <title lang='fr'>Paramètres système</title>
+        <title lang="es">Parámetros del sistema</title>
+		
 
         <para lang='fr'>Ce sont les paramètres du serveur MySQL qui seront utilisés pour
         créer la base de données. Il est impératif que l'utilisateur MySQL ait
@@ -84,23 +137,41 @@
         permet d'indiquer le nom de la machine hébergeant le serveur MySQL (il
         peut bien sûr être différent de la machine hébergeant le serveur
         Web).</para>
+		<para lang="es">Son los parámetros del servidor MySQL que se usarán para crear
+        la base de datos. Es obligatorio que el usuario MySQL tenga los
+        derechos de administración del servidor para poder crear la base de
+        PMB y crear el usuario MySQL de esta base. El campo Servidor permite
+        indicar el nombre de la máquina que aloja al servidor MySQL (puede ser
+        diferente de la máquina que aloja al servidor Web).</para>
+
       </sect3>
 
       <sect3>
         <title lang='fr'>Paramètres PMB</title>
+        <title lang="es">Parámetros PMB</title>
+		
 
         <para lang='fr'>Ce sont ces paramètres que le script utilisera pour créer la
         base PMB et l'utilisateur MySQL correspondant :</para>
+        <para lang="es">Son los parámetros que el script script usará para crear la base
+        de datos de PMB y el usuario MySQL correspondiente :</para>
+		
 
         <itemizedlist>
           <listitem>
             <para lang='fr'>Utilisateur PMB/Mot de passe : utilisateur MySQL qui sera
             créé pour accéder à la base de PMB</para>
+            <para lang="es">Usuario PMB/Contraseña : usuario MySQL que será creado para
+            acceder a la base de datos de PMB</para>
+			
           </listitem>
 
           <listitem>
             <para lang='fr'>Base de données PMB : nom de la base de données qui sera
             créée.</para>
+            <para lang="es">Base de datos PMB : nombre de la base de datos que se
+            creará.</para>
+			
           </listitem>
 
           <listitem>
@@ -108,152 +179,291 @@
             cette case, la base sera remplie avec un jeu d'exemple de notices
             et d'autorités ce qui peut vous permettre de tester
             l'application.</para>
+            <para lang="es">Llenar las tablas con los ejemplos para provar la base de
+            datos : si escoges esta opción, la base se llenará con un juego de
+            ejemplos de registros y autoridades que te permitirán provar la
+            aplicación.</para>
+			
           </listitem>
         </itemizedlist>
 
         <para lang='fr'>Une fois les paramètres remplis, cliquez sur le bouton
         <emphasis>Créer la base</emphasis>.</para>
+        <para lang="es">Una vez introducidos los parámetros, haz clic sobre
+        el botón <emphasis>Crear la base</emphasis>.</para>
+		
       </sect3>
     </sect2>
 
     <sect2>
       <title lang='fr'>Fichiers de configuration de connexion à la base de
       données</title>
+      <title lang="es">Archivos de configuración de conexión a la base 
+	  de datos</title>
+	  
 
       <para lang='fr'>Une fois la base créée, vérifiez les fichiers de configuration de
       connexion de PMB à la base de données. Éditer le fichier
       <emphasis>db_param.inc.php</emphasis> dans le sous répertoire
       <emphasis>includes</emphasis> du répertoire d'installation.</para>
+      <para lang="es">Una vez la base de ha creado, verifica los archivos de conexión de
+      PMB a la base de datos. Edita el archivo
+      <emphasis>db_param.inc.php</emphasis> del directorio
+      <emphasis>includes</emphasis> de la carpeta de instalación.</para>
+	  
 
       <para lang='fr'>Vérifiez la ligne :</para>
+      <para lang="es">Comprueba la línea :</para>
+	  
 
       <para lang='fr'><literal>define('LOCATION','nom_de_votre_base');</literal></para>
+      <para lang="es"><literal>define('LOCATION','nom_de_votre_base');</literal></para>
+	  
 
       <para lang='fr'>(nom_de_votre_base est le nom saisi dans le champ Base de données
       PMB de la page d'installation. Si vous avez laissé les paramètres par
       défaut : bibli),</para>
+      <para lang="es">(nom_de_votre_base es el nombre introducido en el campo Base de
+      datos PMB de la página de instalación. Si has dejado los parámetros por
+      defecto : bibli),</para>
+	  
 
       <para lang='fr'>Vérifiez que les paramètres de la section nom_de_votre_base
       correspondent aux paramètres de connexion de l'installation :</para>
+      <para lang="es">Verifica que los parámetros de la sección nom_de_votre_base
+      correspondenden a los parámetros de conexión de la instalación :</para>
+	  
 
       <para lang='fr'><literal>nom_de_votre_base: // valeurs pour l'accès
       local</literal></para>
+      <para lang="es"><literal>nom_de_votre_base: // valores para el acceso
+      local</literal></para>
+	  
 
       <para lang='fr'><literal> define('SQL_SERVER', 'chemin_du_serveur'); //nom du
       serveur</literal></para>
+      <para lang="es"><literal> define('SQL_SERVER', 'chemin_du_serveur'); //nombre del
+      servidor</literal></para>
+	  
 
       <para lang='fr'><literal> define('USER_NAME', 'utilisateur_pmb'); //nom
       utilisateur</literal></para>
+      <para lang="es"><literal> define('USER_NAME', 'utilisateur_pmb'); //nombre del
+      usuario</literal></para>
+	  
 
       <para lang='fr'><literal> define('USER_PASS', 'mot_de_passe'); //mot de
       passe</literal></para>
+      <para lang="es"><literal> define('USER_PASS', 'mot_de_passe');
+      //contraseña</literal></para>
+	  
 
       <para lang='fr'><literal> define('DATA_BASE', 'nom_de_votre_base'); //nom base de
       données</literal></para>
+      <para lang="es"><literal> define('DATA_BASE', 'nom_de_votre_base'); //nombre de la
+      base de datos</literal></para>
+	  
 
       <para lang='fr'><literal> break;</literal></para>
+      <para lang="es"><literal> break;</literal></para>
+	  
 
       <para lang='fr'>Faites la même vérification avec le fichier
       <emphasis>opac_db_param.incp.php</emphasis> dans
       <emphasis>opac_css/includes</emphasis>.</para>
+      <para lang="es">Haz la misma comprovación con el archivo
+      <emphasis>opac_db_param.incp.php</emphasis> en
+      <emphasis>opac_css/includes</emphasis>.</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Première connexion</title>
+      <title lang="es">Primera conexión</title>
+	  
 
       <para lang='fr'>Une fois toutes les opérations précédentes effectuées, vous pouvez
       tester la connexion à l'application PMB. Tapez l'adresse de votre
       installation dans votre navigateur http://monserveur/pmb</para>
+      <para lang="es">Una vez todas las operaciones anteriores se han realizado, puedes
+      comprovar la conexión a la aplicación PMB. Introduce la dirección de tu
+      instalación en tu navegador http://monserveur/pmb</para>
+	  
 
       <para lang='fr'>Dans la page de connexion, connectez vous avec :</para>
+      <para lang="es">En la página de conexión, conéctate como :</para>
+	  
 
       <para lang='fr'><emphasis role="bold">Utilisateur</emphasis> : admin</para>
+      <para lang="es"><emphasis role="bold">Utilisateur</emphasis> : admin</para>
+	  
 
       <para lang='fr'><emphasis role="bold">Mot de passe</emphasis> : admin</para>
+      <para lang="es"><emphasis role="bold">Mot de passe</emphasis> : admin</para>
+	  
 
       <para lang='fr'>Si tout s'est bien passé, vous devez avoir la première page de PMB
       à l'écran, avec en haut 5 onglets dont l'onglet circulation activé. Au
       centre de la page, vous trouverez un champ de saisie du code barres d'un
       lecteur</para>
+      <para lang="es">Si todo ha ido bien, debes ver la primera página de PMB en
+      pantalla, en la parte superior habrá 5 pestañas y la pestaña circulación
+      estará activada. En el centro de la página verás un campo para
+      introducir el el código de barras de un usuario</para>
+	  
 
       <para lang='fr'><emphasis>Remarque</emphasis> : Lors de la création de la base de
       données, un seul utilisateur ayant tous les droits d'administration est
       créé. Cet utilisateur a pour nom Super User, pour login admin et comme
       mot de passe admin</para>
+      <para lang="es"><emphasis>Nota</emphasis> Después de haver creado la base de
+      datos, sólo habrá un usuario con los derechos de administración creado.
+      Este usuario es el Super User, para conectarse usuario admin y
+      contraseña admin</para>
+	  
 
       <para lang='fr'><emphasis role="bold">Attention : </emphasis>PENSEZ A CHANGER LE
       MOT DE PASSE DE L'UTILISATEUR ADMIN DE PMB, FIXE PAR DEFAUT A "ADMIN",
       CETTE VALEUR PAR DEFAUT EST CONNUE DE TOUS LES UTILISATEURS DE
       PMB</para>
+      <para lang="es"><emphasis role="bold">Atención : </emphasis>ACUÉRDATE DE CAMBIAR
+      LA CONTRASEÑA DEL USUARIO ADMIN DE PMB, CREADA POR DEFECTO COMO "ADMIN",
+      ESTE VALOR POR DEFECTO ES COMÚN A TODOS LOS ADMINISTRADORES DE
+      PMB</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Création du paramétrage et mise à niveau de la base</title>
+      <title lang="es">Creación de parámetros y actualización de la base</title>
+	  
 
       <para lang='fr'>Afin de conserver la base à jour, après chaque installation ou
       mise à jour :</para>
+      <para lang="es">Con el fin de mantener la base de datos al día, después de cada
+      instalación o actualización :</para>
+	  
 
       <para lang='fr'>* Cliquez sur l'onglet 'Administration'</para>
+      <para lang="es">* Haz clic en la pestaña 'Administración'</para>
+	  
 
       <para lang='fr'>* dans le menu à gauche de l'écran d'administration, cliquez sur
       Outils puis sur le lien 'M.à J. base' en haut de l'écran</para>
+      <para lang="es">* en el menú de la derecha de la pantalla de administración, haz
+      clic sobre Herramientas y luego sobre el enlace 'Act. base' en la parte
+      superior de la pantalla</para>
+	  
 
       <para lang='fr'>* Cliquez sur le lien 'cliquez ici pour commencer la mise à
       jour'</para>
+      <para lang="es">* Haz clic sobre el enlace 'haz clic aquí para empezar la
+      actualización'</para>
+	  
 
       <para lang='fr'>* Cliquez sur poursuivre jusqu'au message 'Votre base est à jour
       en version v. xxx !'</para>
+      <para lang="es">* Haz clic sobre siguiente hasta que aparezca el mensaje 'Tu base
+      de datos está al día con la versión v. xxx !'</para>
+	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Changement du mot de passe administrateur</title>
+    <title lang="es">Cambio de la contraseña del administrador</title>
+	
 
     <para lang='fr'>Nous n'aborderons pas dans ce document la gestion des droits et les
     différents paramétrages possibles de PMB. Pour cela reportez vous au Guide
     de l'administrateur.</para>
+    <para lang="es">No explicaremos en este documento la gestión de los derechos y los
+    diferentes parámetros posibles de PMB. Para esto ve a la Guía del
+    administrador.</para>
+	
 
     <para lang='fr'>Afin de sécuriser l'accès à PMB, la deuxième chose à faire après
     l'installation est de modifier le mot de passe de l'utilisateur
     admin.</para>
+    <para lang="es">Con el fin de mejorar la seguridad de PMB, la segunda cosa que debes
+    hacer después de la instalación es cambiar la contraseña del usuario
+    admin.</para>
+	
 
     <para lang='fr'>Cet utilisateur dispose de tous les droits dans PMB et il porte pour
     cela le nom par défaut "Super User". Il n'est pas possible de supprimer
     cet utilisateur.</para>
+    <para lang="es">Este usuario dispone de todos los derechos en PMB y por eso lleva el
+    nombre por defecto de "Super User". NO es posible eliminar a este
+    usuario.</para>
+	
 
     <para lang='fr'>Pour modifier le mot de passe :</para>
+    <para lang="es">Para modificar la contraseña :</para>
+	
 
     <para lang='fr'>1. Cliquez sur l'onglet 'Administration'</para>
+	<para lang="es">1. Haz clic sobre la pestaña 'Administración'</para>
+
 
     <para lang='fr'>2. Dans le menu à gauche de l'écran d'administration, cliquez sur le
     lien 'utilisateurs'</para>
+    <para lang="es">2. En el menú de la derecha de la pantalla administración, haz clic
+    sobre el enlace 'administradores'</para>
+	
 
     <para lang='fr'>3. Dans la page de gestion des utilisateurs, cliquez sur le lien
     [mot de passe] de l'utilisateur Super User.</para>
+    <para lang="es">3. En la página de gestión de los administradores, haz clic sobre el
+    enlace [contraseña] del usuario Super User.</para>
+	
 
     <para lang='fr'>4. Saisissez deux fois le nouveau mot de passe que vous souhaitez
     utiliser dans les cases nouveau mot de passe et confirmation</para>
+    <para lang="es">4. Introduce dos veces la nueva contraseña que has escogido en los
+    campos nueva contraseña y confirma</para>
+	
 
     <para lang='fr'>5. Enfin cliquez sur le bouton Enregistrer</para>
+    <para lang="es">5. Para finalizar haz clic en el botón Guardar</para>
+	
 
     <para lang='fr'>Vous pouvez aussi modifier le login admin et le nom Super User en
     cliquant sur le lien admin de l'utilisateur Super User dans la page de
     gestion des utilisateurs.</para>
+    <para lang="es">Puedes también modificar el usuario admin y el nombre Super User
+    haciendo clic sobre el enlace admin del usuario Super User en la página de
+    gestión de los administradores.</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Configurations testées</title>
+    <title lang="es">Configuraciones provadas</title>
+	
 
     <para lang='fr'>Le logiciel PMB a été testé sur les plate-formes suivantes :</para>
+    <para lang="es">El programa PMB ha sido provado en las plataformas siguientes :</para>
+	
 
     <para lang='fr'>* Windows XP avec EasyPHP 1.6 et 1.7</para>
+    <para lang="es">* Windows XP con EasyPHP 1.6 y 1.7</para>
+	
 
     <para lang='fr'>* Windows 98 avec EasyPHP 1.6 et 1.7</para>
+    <para lang="es">* Windows 98 con EasyPHP 1.6 y 1.7</para>
+	
 
     <para lang='fr'>* Windows 2000 server avec IIS/MySQL 3.23</para>
+    <para lang="es">* Windows 2000 server con IIS/MySQL 3.23</para>
+	
 
     <para lang='fr'>* Linux Mandrake 8.2 avec Apache 1.3.23/ MySQL 3.23</para>
+    <para lang="es">* Linux Mandrake 8.2 con Apache 1.3.23/ MySQL 3.23</para>
+	
 
     <para lang='fr'>* MacOS X avec Apache/MySQL</para>
+    <para lang="es">* MacOS X con Apache/MySQL</para>
+	
   </sect1>
 </chapter>
