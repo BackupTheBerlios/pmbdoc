@@ -215,108 +215,213 @@
 	
 
     <para lang='fr'>Position de ce fichier avec une installation sur Windows :</para>
+    <para lang="es">Este archivo se encuentra en una instalación Windows en :</para>
+	
+	
 
     <para lang='fr'>\windows\</para>
+    <para lang="es">\windows\</para>
+	
 
     <para lang='fr'>ou :</para>
+    <para lang="es">o :</para>
+	
 
     <para lang='fr'>\rep_install_apache\apache\</para>
+    <para lang="es">\rep_install_apache\apache\</para>
+	
 
     <para lang='fr'>
       <emphasis>Que faut-il vérifier :</emphasis>
     </para>
+    <para lang="es">
+	  <emphasis>Que hace falta comprobar :</emphasis>
+	</para>
+	
 
     <para lang='fr'>Librairie GD : vérifier qu'elle est disponible et activée
     (génération de code-barre)</para>
+    <para lang="es">Librería : verificar que está disponible y activada
+    (generación de códigos de barras)</para>
+	
 
     <para lang='fr'>Librairie PHP_YAZ : vérifier qu'elle est disponible et activée
     (recherche z3950)</para>
+    <para lang="es">Librería PHP_YAZ : verificar que está disponible y activada
+    (búsqueda z3950)</para>
+	
 
     <para lang='fr'>Librairie PHP_BZ2 : vérifier qu'elle est disponible et activée
     (sauvegardes de la base)</para>
+    <para lang="es">Librería PHP_BZ2 : verificar que está disponible y activada (copias
+    de seguridad de la base de datos)</para>
+	
 
     <para lang='fr'>Librairie PHP_XSLT : vérifier qu'elle est disponible et activée
     (sauvegardes de la base)</para>
+	<para lang="es">Librería PHP_XSLT : verificar que está disponible y activada (copias
+    de seguridad de la base)</para>
+
 
     <para lang='fr'>
       <emphasis>Ce qu'il faut modifier dans le fichier php.ini :</emphasis>
     </para>
+    <para lang="es">
+	  <emphasis>Qué hace falta modificar en el archivo php.ini :</emphasis>
+	</para>
+	
 
     <para lang='fr'>
       <literal>;;;;;;;;;;;;;;;;;;;</literal>
     </para>
+    <para lang='es'>
+      <literal>;;;;;;;;;;;;;;;;;;;</literal>
+    </para>
+	
 
     <para lang='fr'>
       <literal>Resource Limits ;</literal>
     </para>
+    <para lang="es">
+	  <literal>Resource Limits ;</literal>
+	</para>
+	
 
     <para lang='fr'>
       <literal>;;;;;;;;;;;;;;;;;;;</literal>
     </para>
+    <para lang='es'>
+      <literal>;;;;;;;;;;;;;;;;;;;</literal>
+    </para>
+	
 
     <para lang='fr'><literal>max_execution_time = 120 ; </literal>Maximum execution time
     of each script, in seconds</para>
+    <para lang="es"><literal>max_execution_time = 120 ; </literal>Maximum execution time
+    of each script, in seconds</para>
+	
 
     <para lang='fr'>à pousser à 120 secondes</para>
+    <para lang="es">poner 120 segundos</para>
+	
 
     <para lang='fr'>Extensions :</para>
+    <para lang="es">Extensiones :</para>
+	
 
     <para lang='fr'>
       <literal>extension=php_bz2.dll</literal>
     </para>
+    <para lang="es">
+	  <literal>extension=php_bz2.dll</literal>
+	</para>
+	
 
     <para lang='fr'><literal>extension=php_gd.dll</literal> ou
     extension=php_gd2.dll</para>
+    <para lang="es"><literal>extension=php_gd.dll</literal> o
+    extension=php_gd2.dll</para>
+	
 
     <para lang='fr'>
       <literal>extension=php_yaz.dll</literal>
     </para>
+    <para lang="es">
+	  <literal>extension=php_yaz.dll</literal>
+	</para>
+	
 
     <para lang='fr'>
       <literal>extension=php_xslt.dll</literal>
     </para>
+    <para lang="es">
+	  <literal>extension=php_xslt.dll</literal>
+	</para>
+	
 
     <para lang='fr'>Les DLL correspondantes doivent être copiées dans \windows\system32,
     attention, bien prendre les dll fournies avec votre distribution de php,
     question de compatibilité de compilation.</para>
+    <para lang="es">Las DLL correspondientes deben copiarse en \windows\system32,
+    atención, copia las dll distribuidas con tu versión de php, es una
+    cuestión de compatibilidad y compilación.</para>
+	
 
     <para lang='fr'>Ces DLL doivent être disponibles dans le répertoire de PHP ou
     php\dlls pour une installation de php indépendante ou EasyPHP\php pour une
     installation avec EasyPHP Les DLL sont les suivantes : expat.dll,
     iconv.dll, sablot.dll, yaz.dll</para>
+    <para lang="es">Estas DLL deben estar disponibles en el directorio de php o php\dlls
+    para una instalación de php independiente o EasyPHP\php para una
+    instalación con EasyPHP Las DLL son las siguientes : expat.dll, iconv.dll,
+    sablot.dll, yaz.dll</para>
+	
 
     <para lang='fr'>Afin de pouvoir charger des fichiers de taille importante dans les
     documents numériques attachés, il faut agmenter la taille du max upload
     :</para>
+    <para lang="es">Con el fin de poder cargar archivos de tamaño importante como
+    documentos electrónicos adjuntos, es necesario aumentar el tamaño de max
+    upload :</para>
+	
 
     <para lang='fr'>
       <literal>Maximum allowed size for uploaded files.</literal>
     </para>
+    <para lang="es">
+	   <literal>Maximum allowed size for uploaded files.</literal>
+	</para>
+	
 
     <para lang='fr'>
       <literal>upload_max_filesize = 16M</literal>
     </para>
+    <para lang="es">
+	   <literal>upload_max_filesize = 16M</literal>
+	</para>
+	
 
     <para lang='fr'>Cas particulier :</para>
+    <para lang="es">Caso particular :</para>
+	
 
     <para lang='fr'>
       <literal>extension=php_mime_magic.dll</literal>
     </para>
+    <para lang="es">
+	   <literal>extension=php_mime_magic.dll</literal>
+	</para>
+	
 
     <para lang='fr'>
       <literal>mime_magic.magicfile = "c:\easyphp\php\magic.mime"</literal>
     </para>
+    <para lang="es">
+	   <literal>mime_magic.magicfile = "c:\easyphp\php\magic.mime"</literal>
+	</para>
+	
 
     <para lang='fr'>Cette extension, facultative, permet de récupérer les types de
     fichier des documents numériques de façon propre. A défaut, PMB utilisera
     l'extension de fichier pour retrouver ses petits. Pensez à renseigner
     (voire à créer) la ligne</para>
+    <para lang="es">Esta extensión, opcional, permite recuperar los tipos de arvhivo de
+    los documentos electrónicos automáticamente. Por defecto, PMB usará la
+    extensión del archivo para encontrar su imagen. Piensa en incluir (o
+    incluso crear) la línea</para>
+	
 
     <para lang='fr'>
       <literal>mime_magic.magicfile = "c:\easyphp\php\magic.mime"</literal>
     </para>
+    <para lang="es">
+	   <literal>mime_magic.magicfile = "c:\easyphp\php\magic.mime"</literal>
+	</para>
+	
 
     <para lang='fr'>en donnant le bon chemin d'accès au fichier magic.mime.</para>
+    <para lang="es">dando el camino correcto de acceso al archivo magic.mime.</para>
+	
 
     <para lang='fr'>Pour une installation sous Linux, les paramètres de php.ini sont les
     mêmes mis à part les extensions qui sont des ".so" et qui vous obligeront
@@ -324,38 +429,76 @@
     dernières versions à jour. Par chance, certaines distributions incluent
     ces packages compilés, ou téléchargeables sur le web sans nécessiter de
     compilation.</para>
+    <para lang="es">Para una instalación bajo Linux, los parámetros de php.ini son los
+    mismos excepto que las extensiones son ".so" y que os obligarán a
+    recopilar las últimas versiones si no están todas al día. En cambio,
+    ciertas distribuciones que incluyen los paquetes compilados, o
+    descargables en la página web sin necesidad de compilar.</para>
+	
 
     <para lang='fr'>Consulter à ce sujet la partie dédiée à votre système d'exploitation
     dans ce <emphasis>Guide d'Installation PMB</emphasis>.</para>
+    <para lang="es">Consulta sobre este tema la parte dedicada a tu sistema de la
+    <emphasis>Guía de instalación PMB</emphasis>.</para>
+	
 
     <para lang='fr'>
       <emphasis role="bold">Installation de la librairie
       php_xslt.dll</emphasis>
     </para>
+    <para lang="es">
+	   <emphasis role="bold">Instalación de la librería
+       php_xslt.dll</emphasis>
+	</para>
+	
 
     <para lang='fr'>Sous Windows et EasyPHP, il faut activer la librairie php_xslt.dll
     dans le fichier php.ini et copier les dlls expat.dll, iconv.dll,
     sablot.dll du répertoire EasyPHP\php dans Windows\System.</para>
+    <para lang="es">Bajo Windows y EasyPHP, es necesario activar la libraría
+    php_xslt.dll del arvhivo php.ini y copiar las dlls expat.dll, iconv.dll,
+    sablot.dll del directorio EasyPHP\php en Windows\System.</para>
+	
 
     <para lang='fr'>
       <emphasis role="bold">Configuration particulière de MySQL</emphasis>
     </para>
+    <para lang="es">
+	   <emphasis role="bold">Configuración particular de MySQL</emphasis>
+	</para>
+	
 
     <para lang='fr'>Afin de pouvoir charger des documents numériques de taille
     importante, il faut augmenter la taille des paquets de MySQL. Recherchez
     le fichier my.ini ou équivalent, recherchez la ligne :</para>
+    <para lang="es">Con el fin de poder cargar los documentos electrónicos de tamaño
+    grande, es necesario aumentar el tamaño de los paquetes de MySQL. Buscar
+    el archivo my.ini o equivalente, buscar la línea :</para>
+	
 
     <para lang='fr'>
       <literal>set-variable = max_allowed_packet=1M</literal>
     </para>
+    <para lang='es'>
+      <literal>set-variable = max_allowed_packet=1M</literal>
+    </para>
+	
 
     <para lang='fr'>et fixez-la à</para>
+    <para lang="es">y cambiarla a</para>
+	
 
     <para lang='fr'>
       <literal>set-variable= max_allowed_packet=16M</literal>
     </para>
+    <para lang='es'>
+      <literal>set-variable= max_allowed_packet=16M</literal>
+    </para>
+	
 
     <para lang='fr'>Notez le 16M qui vous donne droit à stocker des fichiers jusqu'à 16
     Mo</para>
+    <para lang="es">Los 16Mb dan derecho a guardar archvios de hasta 16 Mb</para>
+	
   </sect1>
 </chapter>
