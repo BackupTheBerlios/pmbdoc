@@ -1,51 +1,86 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title lang='fr'>Mise à jour de PMB</title>
+  <title lang="es">Actualización de PMB</title>
+  
 
   <para lang='fr'>Mise à jour d'une base existante :</para>
+  <para lang="es">Actualización de una base de datos existente :</para>
+  
 
   <para lang='fr'>La mise à jour d'une version de PMB se fait en remplaçant les fichiers
   de votre installation par ceux contenus dans l'archive ZIP de la nouvelle
   version.</para>
+  <para lang="es">La actualización de una versión de PMB se hace reemplazando los
+  archivos de vuestra instalación por los nuevos que están en el archivo ZIP
+  de la nueva versión.</para>
+  
 
   <para lang='fr'><emphasis role="bold">Attention</emphasis> Suite à chaque installation
   ou mise à jour de l'application, quand vous installez une nouvelle version
   sur une version précédente, vous devez impérativement, après la copie des
   fichiers contenus dans cette archive sur le serveur Web :</para>
+  <para lang="es"><emphasis role="bold">Atención</emphasis> Después de cada instalación
+  o actualitzación de la aplicación, cuando instalas una nueva versión sobre
+  una versión anterior, debes obligatoriamente, después de copiar los archivos
+  inluidos en el archivo zip al servidor web :</para>
+  
 
   <para lang='fr'><emphasis role="bold">vérifiez que les paramètres contenus
   dans</emphasis></para>
+  <para lang="es"><emphasis role="bold">comprobar que los parámetros incluidos en
+  </emphasis></para>
+  
 
   <itemizedlist>
     <listitem>
       <para lang='fr'>./includes/db_param.inc.php</para>
+      <para lang="es">./includes/db_param.inc.php</para>
+	  
     </listitem>
   </itemizedlist>
 
   <itemizedlist>
     <listitem>
       <para lang='fr'>./opac_css/includes/opac_db_param.inc.php</para>
+      <para lang="es">./opac_css/includes/opac_db_param.inc.php</para>
+	  
     </listitem>
   </itemizedlist>
 
   <para lang='fr'><emphasis role="bold">correspondent à votre
   configuratio</emphasis><emphasis role="bold">n</emphasis> (faites une
   sauvegarde avant !)</para>
+  <para lang="es"><emphasis role="bold">corresponden a vuestra configuración</emphasis>
+  (haz una copia de seguridad antes !)</para>
+
 
   <para lang='fr'>En outre :</para>
+  <para lang="es">y además :</para>
+
 
   <para lang='fr'><emphasis role="bold">Vous devez faire la mise à jour du noyau de la
   base de données.</emphasis></para>
+  <para lang="es"><emphasis role="bold">Debes actualizar de nuevo la base de
+  datos.</emphasis></para>
+
 
   <para lang='fr'><emphasis>Rien ne sera perdu</emphasis>.</para>
+  <para lang="es"><emphasis>No se perderá nada</emphasis>.</para>
+  
 
   <para lang='fr'>Pour réaliser cette mise à jour :</para>
+  <para lang="es">Para realizar la actualización :</para>
+  
 
   <orderedlist>
     <listitem>
       <para lang='fr'>Connectez-vous de manière habituelle à PMB, le style graphique
       peut être différent, voire absent (affichage assez décousu sans couleur
       ni images)</para>
+      <para lang="es">Conectate como siempre a PMB, el estilo gráfico puede ser
+      diferente, o inluso ausente (visualización sin ningún color ni
+      imagen)</para>
     </listitem>
 
     <listitem>
@@ -54,9 +89,19 @@
       indiquera les mises à jour successives, poursuivez la mise à jour de la
       base par le lien en bas de page jusqu'à voir s'afficher 'Votre base est
       à jour en version...'</para>
+      <para lang="es">Ve a Administración &gt; Herramientas &gt; Act. de la base para
+      poner al día la base de datos. Una serie de mensajes te irán indicando
+      las actualizaciones que se realizan, continúa la actualización haciendo
+      clic en el enlace "siguiente" situado en la parte inferior de la página
+      hasta que aparezca 'Tu base de datos está al día con la
+      versión...'</para>
+	  
 
       <figure>
         <title lang='fr'>Administration &gt; Outils &gt; Mise à jour de la base</title>
+        <title lang="es">Administración &gt; Herramientas &gt; Actualización de la base
+        de datos</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -70,9 +115,16 @@
       <para lang='fr'><emphasis role="bold">si besoin</emphasis>, vous pouvez alors
       éditer votre compte pour modifier éventuellement vos préférences,
       notamment le style d'affichage.</para>
+      <para lang="es"><emphasis role="bold">si es necesario</emphasis>, puedes editar tu
+      cuenta de usuario para modificar tus preferencias, por ejemplo, el
+      estilo a visualizar.</para>
+	  
     </listitem>
   </orderedlist>
 
   <para lang='fr'>N'hésitez pas à nous faire part de vos problèmes ou idées par mail :
   pmb@sigb.net</para>
+  <para lang="es">No dudes en ponerte en contacto con nostros si tienes problemas, dudas
+  o sugerencias por correo electrónico : pmb@sigb.net</para>
+  
 </chapter>
