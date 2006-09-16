@@ -23,6 +23,7 @@
 <book>
   <title lang='fr'>PMB : Guide de l'utilisateur</title>
   <title lang='en'>PMB : User Guide</title>
+  <title lang="es">PMB : Guía del usuario</title>
 
   <bookinfo>
     <date>2006</date>
@@ -37,14 +38,21 @@
 	  management system with a free and opensource PHP/MySQL interface.
 	  This guide is intended to the library personel but not to the library users,
 	  the borrowers.</para>
+      <para lang="es">Esta guía es la documentación de usuario de PMB, sistema
+      informatizado de gestión de bibliotecas, interficie PHP/MySQL libre y de
+      código abierto. Los usuarios a los cuales está destinada esta guía son
+      los miembros del equipo de la biblioteca, no los usuarios
+      finales.</para>
 
       <para lang='fr'>Pour plus d'informations, consulter www.sigb.net</para>
-    </abstract>
+      <para lang="es">Para más información, consulta www.sigb.net</para>
       <para lang='en'>For more information, refer to www.sigb.net</para>
     </abstract>
 
     <releaseinfo lang='fr'>Version de PMB correspondante à ce guide : v2.2</releaseinfo>
-    <releaseinfo lang='en'>PMB version of this guide: : v2.1</releaseinfo>
+    <releaseinfo lang='en'>PMB version of this guide: : v2.2</releaseinfo>
+    <releaseinfo lang='es'>Versión de PMB correspondiente a esta guía :
+    v2.2</releaseinfo>
 
     <copyright lang='fr'>
       <year>2004-2006</year>
@@ -56,56 +64,66 @@
       <holder>PMB development group</holder>
     </copyright>
 
-	      <legalnotice>
+    <copyright lang='es'>
+      <year>2004-2006</year>
+      <holder>Grupo de desarroladores PMB</holder>
+    </copyright>
+
+    <legalnotice>
       <para lang='fr'>Ce manuel est la propriété intellectuelle de PMB Services SARL et
       des contributeurs (leurs noms sont mentionnés dans leurs
       contributions).</para>
+	  <para lang='en'>This manual is the intellectual property of PMB Services SARL and
+	  of its contributors (their names appear with their contributions).</para>
+      <para lang="es">Este manual es propiedad intelectual de PMB Services SARL y de los
+      colaboradores (sus nombre aparecen mencionados en sus
+      contribuciones).</para>
 
       <para lang='fr'>Version HTML : diffusion libre autorisée, licence Creative Commons
       2.0, (Paternité, Pas d'utilisation commerciale). Pour plus
       d'informations, consulter :
       http://creativecommons.org/licenses/by-nc/2.0/fr/</para>
+      <para lang='en'>HTML Version: authorized free distribution, Creative Commons 2.0 license,
+	  (Authorship, No commercial use). For more information refer to :
+      http://creativecommons.org/licenses/by-nc/2.0/fr/</para>
+      <para lang="es">Versión HTML : difusión libre autorizada, licencia Creative
+      Commons 2.0, (Paternidad, No uso comercial). Para más información,
+      consultar : http://creativecommons.org/licenses/by-nc/2.0/fr/</para>
 
       <para lang='fr'>Version imprimée, XML et autres formats : diffusion interdite,
       modifications autorisées par les développeurs de PMB et les
       contributeurs enregistrés de la documentation (accès au CVS). Pour toute
       question sur les autres versions de la documentation de PMB, vous pouvez
       envoyer un mail à pmb@sigb.net</para>
-
-      <para lang='fr'>Textes de couverture :</para>
-
-      <para lang='fr'><literal>PMB Services SARL, 2004-2006</literal></para>
-
-      <para lang='fr'><literal>PMB est une solution opensource (licence CECILL
-      compatible GNU/GPL) pour la médiathèque.</literal></para>
-
-      <para lang='fr'><literal>http://www.sigb.net</literal></para>
-
-      <para lang='fr'><literal>Copyright © 2006 PMB Services SARL</literal></para>
-      <para>This manual is the intellectual property of PMB Services SARL and
-	  of its contributors (their names appear with their contributions).</para>
-
-      <para lang='en'>HTML Version: authorized free distribution, Creative Commons 2.0 license,
-	  (Authorship, No commercial use). For more information refer to :
-      http://creativecommons.org/licenses/by-nc/2.0/fr/</para>
-
       <para lang='en'>Printed, XML and other formats version : forbidden distribution,
 	  modifications authorized for PMB developers and documentation registered
 	  contributors (CVS access). For any questions regarding other versions
 	  of the PMB documentation, please send an email to pmb@sigb.net</para>
+      <para lang="es">Versión impresa, XML y otros formatos : difusión prohibida,
+      modificaciones autorizadas por los desarrolladores de PMB y los
+      colaboradores registrados de la documentación (acceso al CVS). Para
+      culaquier cuestión sobre las otras versiones de la documentación de PMB,
+      puedes enviar un correo electrónico a pmb@sigb.net</para>
 
+      <para lang='fr'>Textes de couverture :</para>
       <para lang='en'>Cover page Text :</para>
+      <para lang="es">Textos de referencia :</para>
 
-      <para lang='en'><literal>PMB Services SARL, August 2004</literal></para>
+      <para><literal>PMB Services SARL, 2004-2006</literal></para>
 
+      <para lang='fr'><literal>PMB est une solution opensource (licence CECILL
+      compatible GNU/GPL) pour la médiathèque.</literal></para>
       <para lang='en'><literal>PMB is a opensource application (GNU/GPL compliant CECILL License)
 	  for media libraries.</literal></para>
+      <para lang="es"><literal>PMB es una solución de código libre (licencia CECILL
+      compatible GNU/GPL) para la mediateca.</literal></para>
 
+      <para lang='fr'><literal>http://www.sigb.net</literal></para>
       <para lang='en'><literal>http://www.sigb.net</literal></para>
+      <para lang='es'><literal>http://www.sigb.net</literal></para>
 
-      <para lang='en'><literal>Copyright © 2004 PMB Services SARL</literal></para>
-
-			      </legalnotice>
+      <para><literal>Copyright © 2006 PMB Services SARL</literal></para>
+    </legalnotice>
 
     <othercredit lang='fr'>
       <surname>Ce manuel a été rédigé avec la grammaire XML DocBook. Les
@@ -124,6 +142,16 @@
 	  customized styles with XFC standard version. Screen captures were performed
 	  under Linux with GIMP, under Windows with PrtScr then GIMP or under MacOS X.3,
 	  then edited and converted with GIMP.</surname>
+    </othercredit>
+
+	<othercredit lang='es'>
+      <surname>Este manual ha sido creado con la grámatica XML DocBook. Los
+      archivos fuente XML han sido editados con un editor de texto, con XML
+      Mind XML editor (versión estándar) y después formateados con la ayuda de
+      las hojas de estilo personalizadas de Norman Walsh bajo XFC versión
+      estándar. Las capturas de pantalla han sido creadas bajo Linux con GIMP,
+      bajo Windows con PrtScr y GIMP o bajo MacOS X.3, y luego editadas y
+      convertidas con GIMP.</surname>
     </othercredit>
 	  
 	   </bookinfo>
