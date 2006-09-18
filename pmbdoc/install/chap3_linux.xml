@@ -1,26 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title lang='fr'>PC Sous Linux</title>
+  <title lang='es'>PC Bajo Linux</title>
 
   <para lang='fr'>Linux est un système d'exploitation libre, puissant et rapide, surtout
   si le serveur sur lequel vous installez PMB est un serveur dédié,
   fonctionnant en mode texte. Dans ce cadre d'utilisation, nous vous
   recommandons d'utiliser Linux sur vos serveurs.</para>
+  
+  <para lang='es'>Linux es un sistema de operativo libre, potente y rápido, sobretodo 
+  si el servidor sobre el cual instalas PMB es un servidor dedicado,
+  funcionando en modo texto. Para este tipo de uso, nosotros recomendamos 
+  usar Linux sobre vuestros servidores.</para>
+  
 
   <para lang='fr'>Les informations présentées ici reprennent des informations données
   par les utilisateurs sur la procédure qu'ils ont utilisée pour installer PMB
   sur leur distribution. Les distributions présentées ici sont les plus
   fréquentes distributions. En cas de doute, n'hésitez pas à vous renseigner
   sur les listes de discussion de PMB ou sur le site internet.</para>
+  <para lang='es'>Las informaciones aquí incluidas reanudan la información dada 
+  por los usuarios sobre el procedimiento que ellos han usado para instalar PMB
+  según su distribución de Linux. Las distribuciones presentadas aquí son las más 
+  frecuentes. En caso de duda, manda tu consulta a las listas de distribución de PMB 
+  o contacta con nosotros.</para>
+  
 
   <sect1>
     <title lang='fr'>Mandrake</title>
+    <title lang='es'>Mandrake</title>
+	
 
     <para lang='fr'>Installation de PMB avec Linux Mandrake 9.2 par Bruno Desroches, 05
     Avril 2004</para>
+    <para lang='es'>Instalación de PMB con Linux Mandrake 9.2 por Bruno Desroches, 05
+    abril 2004</para>
+	
 
     <sect2>
       <title lang='fr'>Introduction</title>
+      <title lang='es'>Introducción</title>
+	  
 
       <para lang='fr'>L'idée de départ m'est venue quand je me suis décidé à installer
       moi-même PMB. Je reconnais, maintenant, que tous les éléments étaient
@@ -28,112 +48,180 @@
       obligé à pas mal galérer. Ensuite, étant moi-même un utilisateur de base
       de Linux, j'ai pensé que mon expérience pourrait servir à d'autres
       !</para>
+      <para lang='es'>La idea partida me vino cuando me decidí a instalar 
+	  yo mismo PMB. Y a pesar de que todo estaba "en su sitio" y en órden, tuve 
+	  problemas, y es por eso que pensé que mi 
+	  experiencia podría ser útil a otros usuarios de Linux!
+      !</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>La mise en place</title>
+      <title lang='es'>Antes de instalar</title>
+	  
 
       <para lang='fr'>Après avoir téléchargé le fichier PMB.tar.gz sur le site
       http://www.sigb.net/download.html dans /home/toto, il faut décompresser
       ce fichier.</para>
+      <para lang='es'>Después de haber descargado el archivo PMB.tar.gz de la página 
+      http://www.sigb.net/download.html a /home/toto, hace falta descomprimir 
+	  este archivo.</para>
+	  
 
       <para lang='fr'>Mais où le décompresser ? Je suppose alors que vous avez déjà
       installé Apache et que votre service httpd tourne. Vous disposez alors
       d'un répertoire /var/www/html qui est la racine de votre site. Créez un
       répertoire pmb par exemple et nous installerons les fichiers ici.</para>
+      <para lang='es'>Pero... dónde hay que descomprimirlo ? Yo supongo que 
+	  vosotros ya habréis instalado Apache y que vuestro servicio httpd esté activo. Disponéis entonces
+	  de un directorio /var/www/html que está en la raiz de vuestro servidor. Cread un 
+	  directorio pmb por ejemplo e instalaremos los archivos ahí.</para>
+	  
 
       <programlisting>tar -xzvf PMB.tar.gz</programlisting>
 
       <para lang='fr'>Tous les fichiers et répertoires vont se décompresser dans le
       répertoire /home/toto/PMB.</para>
+      <para lang='es'>Todos los archivos y directorios serán descomprimidos en el directorio /home/toto/PMB.</para>
+	  
 
       <para lang='fr'>Déplacez alors tous ces fichiers vers /var/www/html/pmb avec la
       commande suivante :</para>
+      <para lang='es'>Mueve todos esos archivos hacia /var/www/html/pmb con el 
+	  comando siguiente :</para>
+	  
 
       <programlisting>mv PMB/* /var/www/html/pmb/</programlisting>
 
       <para lang='fr'>Il faut maintenant s'occuper des droits de ces fichiers</para>
+      <para lang='es'>Ahora será necesario ocuparse de los derechos de esos archivos</para>
+	  
 
       <programlisting>cd /var/www/html</programlisting>
 
       <para lang='fr'>passer en root avec <keycode>su</keycode></para>
+      <para lang='es'>pasa a root con <keycode>su</keycode></para>
+	  
 
-      <programlisting>chmod -R 777 pmb
-chown -R apache.apache pmb</programlisting>
+      <programlisting>chmod -R 777 pmb chown -R apache.apache pmb</programlisting>
 
       <para lang='fr'>Il va falloir vous assurer de la présence d'un certain nombre de
       paquetages nécessaires au fonctionnement de Pmb.</para>
+      <para lang='es'>Es necesario garantizar la presencia de algunos 
+	  paquetes necesarios para el funcionamiento de Pmb.</para>
+	  
 
       <para lang='fr'>Pour vérifier rapidement si un paquetage est installé, vous
       disposez de deux méthodes :</para>
+      <para lang='es'>Para verificar rápidamente si un paquete está instalado, dispones
+	  de dos métodos :</para>
+	  
 
       <programlisting>rpm -q nomdupaquetage</programlisting>
 
       <para lang='fr'>ou</para>
+      <para lang='es'>o</para>
+	  
 
       <programlisting>urpmi nomdupaquetage</programlisting>
     </sect2>
 
     <sect2>
       <title lang='fr'>Les pré-requis</title>
+      <title lang='es'>Los requisitos</title>
+	  
 
       <para lang='fr'>Vérifier pour :</para>
+      <para lang='es'>Comprobar para :</para>
+	  
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>php-xml</para>
+          <para lang='es'>php-xml</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>php-devel</para>
+          <para lang='es'>php-devel</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>php-bz2</para>
+          <para lang='es'>php-bz2</para>
         </listitem>
 
         <listitem>
           <para lang='fr'>php-xslt</para>
+          <para lang='es'>php-xslt</para>
         </listitem>
       </itemizedlist>
 
       <para lang='fr'>Tout doit être installé.</para>
+      <para lang='es'>Todo debe estar instalado.</para>
 
       <para lang='fr'>Il faut également installer :</para>
+      <para lang='es'>Hace falta también instalar :</para>
 
       <itemizedlist>
         <listitem>
           <para lang='fr'>libyaz</para>
+          <para lang='es'>libyaz</para>
+		  
         </listitem>
 
         <listitem>
           <para lang='fr'>yaz</para>
+          <para lang='es'>yaz</para>
+		  
         </listitem>
       </itemizedlist>
 
       <para lang='fr'>On trouve ces deux paquetages sur http://www.rpmfind.net pour
       Mandrake</para>
+      <para lang='es'>Encontramos estos dos paquetes en http://www.rpmfind.net para 
+      Mandrake</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Installation</title>
+      <title lang='es'>Instalación</title>
+	  
 
       <para lang='fr'>Vous devrez d'abord vous rendre à l'adresse
       http://monsite/pmb/tables/install.php afin de lier l'application PMB à
       une table MySQL. On peut ici reprendre tous les conseils donnés pour
       l'installation sous Windows, c'est en tout point identique.</para>
+      <para lang='es'>Primero deberéis ir a la dirección 
+	  http://misitio/pmb/tables/install.php para asociar la aplicación 
+	  PMB a una tabla MySQL. En este apartado se pueden retomar todos
+	  los consejos dados para una instalación bajo Windows, ya que son idénticas.</para>
+	  
 
       <para lang='fr'>Vous pouvez également paramétrer vous même l'application en
       éditant le fichier /var/www/html/pmb/includes/config.inc.php.</para>
+      <para lang='es'>También puedes configurar tu mismo la aplicación 
+	  editando el archivo /var/www/html/pmb/includes/config.inc.php.</para>
+	  
 
       <para lang='fr'>Ensuite, il vous restera à entrer ou à importer vos données. Notez
       que la version de Pmb installée comporte déjà des fiches et que vous
       aurez sans doute à les détruire !</para>
+      <para lang='es'>Finalmente, sólo os faltará introducir o importar 
+	  vuestros datos. Ten en cuenta que la versión de PMB instalada puede incluir 
+	  registros que deberás eliminar o modificar antes de introducir ningún dato !</para>
+	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>RedHat</title>
+    <title lang='es'>RedHat</title>
+	
 
     <para lang='fr'>Pas de documentation pour l'instant pour une installation sous
     RedHat.</para>
