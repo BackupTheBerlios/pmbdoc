@@ -1229,130 +1229,206 @@
 	  
 
       <para lang='fr'><emphasis>3 thésaurus vous sont proposés</emphasis></para>
-      <para lang="es"><emphasis>se os proponen 3 tesauros</emphasis></para>
+      <para lang="es"><emphasis>se os proponen 3 tesauros (en francés)</emphasis></para>
 	  
 
       <para lang='fr'><emphasis>unesco_fr.sql</emphasis> : thésaurus hiérarchisé de
       l'UNESCO, assez important et bien fait.</para>
       <para lang='es'><emphasis>unesco_fr.sql</emphasis> : tesauro jerárquico de la
-	  UNESCO, importante y bien hecho.</para>
+	  UNESCO, importante y bien construído.</para>
 	  
 	  
 
       <para lang='fr'><emphasis>agneaux.sql</emphasis> : plus petit, plus simple mais
       bien fait aussi.</para>
+      <para lang='es'><emphasis>agneaux.sql</emphasis> : más pequeño, más simple pero 
+	  también bien construído.</para>	  
 
       <para lang='fr'><emphasis>environnement</emphasis> : un thésaurus possible pour un
       fonds documentaire axé Environnement.</para>
+      <para lang='es'><emphasis>medio ambiente</emphasis> : un posible tesauro para un 
+	  fondo documental especializado en medio ambiente.</para>	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Liste des tables remplies par les fichiers SQL</title>
+      <title lang='es'>Listado de tablas llenadas por los archivos SQL</title>
+	  
 
       <para lang='fr'>Vous trouverez ici une liste des données chargées par ces
       différents fichiers SQL. Pour charger en ligne de commande sous MySQL un
       fichier SQLreportez vous à la documentation de MySQL.</para>
+      <para lang='es'>Aquí encontrarás una lista de los datos cargados por 
+	  los diferentes archivos SQL. Para cargar con MySQL directamente a partir de una 
+	  consulta MySQL, consulta la documentación de MySQL.</para>
+	  
 
       <para lang='fr'><emphasis role="bold">minimum.sql</emphasis></para>
+      <para lang='es'><emphasis role="bold">minimum.sql</emphasis></para>
+	  
 
       <para lang='fr'>Contenu de la table `paramètres'</para>
+      <para lang='es'>Contenido de la tabla `paramètres'</para>
+	  
 
       <para lang='fr'>Contenu de la table `users` : utilisateur admin/admin</para>
+      <para lang='es'>Contenido de la tabla `users` : usuario admin/admin</para>
+	  
 
       <para lang='fr'><emphasis role="bold">feed_essential.sql</emphasis></para>
+      <para lang='es'><emphasis role="bold">feed_essential.sql</emphasis></para>	  
 
       <para lang='fr'><emphasis>idem que minimum.sql avec en plus</emphasis></para>
+      <para lang='es'><emphasis>idem que minimum.sql y además</emphasis></para>
 
       <para lang='fr'>Contenu de la table `docs_codestat'</para>
+      <para lang='es'>Contenido de la tabla `docs_codestat'</para>
 
       <para lang='fr'>Contenu de la table `docs_location`</para>
+      <para lang='es'>Contenido de la tabla `docs_location`</para>
 
       <para lang='fr'>Contenu de la table `docs_section`</para>
+      <para lang='es'>Contenido de la tabla `docs_section`</para>
 
       <para lang='fr'>Contenu de la table `docs_statut`</para>
+      <para lang='es'>Contenido de la tabla `docs_statut`</para>
 
       <para lang='fr'>Contenu de la table `docs_type`</para>
+      <para lang='es'>Contenido de la tabla `docs_type`</para>
 
       <para lang='fr'>Contenu de la table `empr_categ`</para>
+      <para lang='es'>Contenido de la tabla `empr_categ`</para>
 
       <para lang='fr'>Contenu de la table `empr_codestat`</para>
+      <para lang='es'>Contenido de la tabla `empr_codestat`</para>
 
       <para lang='fr'>Contenu de la table `lenders`</para>
+      <para lang='es'>Contenido de la tabla `lenders`</para>
 
       <para lang='fr'>Contenu de la table `sauv_lieux`</para>
+      <para lang='es'>Contenido de la tabla `sauv_lieux`</para>
 
       <para lang='fr'>Contenu de la table `sauv_sauvegardes`</para>
+      <para lang='es'>Contenido de la tabla `sauv_sauvegardes`</para>
 
       <para lang='fr'>Contenu de la table `sauv_tables`</para>
+      <para lang='es'>Contenido de la tabla `sauv_tables`</para>
 
       <para lang='fr'>Contenu de la table `z_attr`</para>
+      <para lang='es'>Contenido de la tabla `z_attr`</para>
 
       <para lang='fr'>Contenu de la table `z_bib`</para>
+      <para lang='es'>Contenido de la tabla `z_bib`</para>
 
       <para lang='fr'><emphasis role="bold">data_test.sql</emphasis></para>
+      <para lang='es'><emphasis role="bold">data_test.sql</emphasis></para>
 
       <para lang='fr'><emphasis>idem que feed_essential.sql avec en
       plus</emphasis></para>
+      <para lang='es'><emphasis>idem que feed_essential.sql y 
+	  además</emphasis></para>
+	  
 
       <para lang='fr'>Contenu de la table `users` : Utilisateurs supplémentaires</para>
+      <para lang='es'>Contenido de la tabla `users` : Administradores suplementarios</para>
 
       <para lang='fr'>Contenu de la table `empr`</para>
+      <para lang='es'>Contenido de la tabla `empr`</para>
 
       <para lang='fr'>Contenu de la table `empr_groupe`</para>
+      <para lang='es'>Contenido de la tabla `empr_groupe`</para>
 
       <para lang='fr'>Contenu de la table `groupe`</para>
+      <para lang='es'>Contenido de la tabla `groupe`</para>
 
       <para lang='fr'>Contenu de la table `notices`</para>
+      <para lang='es'>Contenido de la tabla `notices`</para>
 
       <para lang='fr'>Contenu de la table `exemplaires`</para>
+      <para lang='es'>Contenido de la tabla `exemplaires`</para>
 
       <para lang='fr'>Contenu de la table `authors`</para>
+      <para lang='es'>Contenido de la tabla `authors`</para>
 
       <para lang='fr'>Contenu de la table `publishers`</para>
+      <para lang='es'>Contenido de la tabla `publishers`</para>
 
       <para lang='fr'>Contenu de la table `collections`</para>
+      <para lang='es'>Contenido de la tabla `collections`</para>
 
       <para lang='fr'>Contenu de la table `sub_collections`</para>
+      <para lang='es'>Contenido de la tabla `sub_collections`</para>
 
       <para lang='fr'>Contenu de la table `responsability`</para>
+      <para lang='es'>Contenido de la tabla `responsability`</para>
 
       <para lang='fr'>Contenu de la table `bulletins`</para>
+      <para lang='es'>Contenido de la tabla `bulletins`</para>
 
       <para lang='fr'>Contenu de la table `analysis`</para>
+      <para lang='es'>Contenido de la tabla `analysis`</para>
 
       <para lang='fr'>Contenu de la table `notices_categories`</para>
+      <para lang='es'>Contenido de la tabla `notices_categories`</para>
 
       <para lang='fr'><emphasis role="bold">agneaux.sql</emphasis> ou <emphasis
       role="bold">unesco_fr.sql</emphasis> ou <emphasis
       role="bold">environnement.sql</emphasis></para>
+      <para lang='es'><emphasis role="bold">agneaux.sql</emphasis> o <emphasis
+      role="bold">unesco_fr.sql</emphasis> o <emphasis
+      role="bold">environnement.sql</emphasis></para>
 
       <para lang='fr'>Contenu de la table `categories`</para>
+      <para lang='es'>Contenido de la tabla `categories`</para>
 
       <para lang='fr'>Contenu de la table `categ_assoc`</para>
+      <para lang='es'>Contenido de la tabla `categ_assoc`</para>
+	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Que faire si vous n'y arrivez pas ?</title>
+    <title lang='es'>Qué hacer si no llegas hasta aquí ?</title>
+	
 
     <para lang='fr'>Vous pouvez tout d'abord consulter le site <ulink
     url="http://www.sigb.net/communaute">http://www.sigb.net/communaute</ulink>,
     vous y trouverez des informations mais aussi des forums de discussion ou
     vous pouvez déposer vos questions.</para>
+    <para lang='es'>En primer lugar puedes consultar el espacio de la comunidad de usuarios de pmb, <ulink
+    url="http://www.sigb.net/communaute">http://www.sigb.net/communaute</ulink>,
+    dónde encontrarás información y también foros de discusión y 
+	listas de distribución dónde formular tus dudas.</para>
+	
 
     <para lang='fr'>Vous pouvez aussi vous abonner à la liste des utilisateurs de PMB :
     pour vous abonner envoyez un mail avec pour sujet
     <emphasis>SUBSCRIBE</emphasis> à l'adresse <ulink
     url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>.</para>
+    <para lang='es'>Puedes subscribirte a la lista de usuarios de PMB :
+    envía un correo electrónico con el asunto <emphasis>SUBSCRIBE</emphasis> a la dirección <ulink
+    url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>.</para>
+	
 
     <para lang='fr'>En outre, nous serions heureux de vous compter parmi nos
     utilisateurs et quelques chiffres tels que nombre de lecteurs, d'ouvrages,
     de CD... avec les coordonnées de votre établissement (ou à titre
     particulier) nous suffiront pour mieux vous connaître.</para>
+    <para lang='es'>Además nos gustaría contar con vosotros como usuarios
+	de pmb, y que nos enviárais algunos datos como por ejemplo el número de
+	usuarios, de obras, de cd's, junto con la dirección de vuestro centro 
+	(o a título particular) para así poderos conocer mejor.</para>
+	
 
     <para lang='fr'>Plus d'informations dans le répertoire ./doc ou bien sur notre site
     <ulink url="http://www.sigb.net">http://www.sigb.net</ulink></para>
+    <para lang='es'>Encontrarás más información en el directorio ./doc o bien en nuestra página 
+	web <ulink url="http://www.sigb.net">http://www.sigb.net</ulink></para>
+	
 
     <para lang='fr'>L'équipe des développeurs.</para>
+    <para lang='es'>El equipo de desarroladores.</para>
+	
   </sect1>
 </chapter>
