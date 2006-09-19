@@ -1,41 +1,71 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title lang='fr'>Mac OS X, FreeBSD, autres systèmes UNIX</title>
+  <title lang='es'>Mac OS X, FreeBSD, otros sistemas UNIX</title>
+  
 
   <sect1>
     <title lang='fr'>FreeBSD</title>
+    <title lang='es'>FreeBSD</title>
+	
 
     <para lang='fr'>Nous n'avons aucun retour d'utilisateur utilisant un système
     FreeBSD. N'hésitez pas à nous contacter pour nous transmettre des
     informations.</para>
+    <para lang='es'>No tenemos noticias de ningún usuario que utilice un sistema 
+	FreeBSD. No dudéis en conctactar con nosotros para enviarnos cualquier 
+	información.</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Unix</title>
+    <title lang='es'>Unix</title>
+	
 
     <para lang='fr'>Nous n'avons aucun retour d'utilisateur utilisant un système Unix
     (autre que Linux). N'hésitez pas à nous contacter pour nous
     transmettre des informations.</para>
+    <para lang='es'>No tenemos noticias de ningún usuario que use un sistema Unix
+    (otro que no sea Linux). No dudes en contactar con nosotros para 
+	enviarnos cualquier información.</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Mac OS X</title>
+    <title lang='es'>Mac OS X</title>
+	
 
     <para lang='fr'>Linux n'est pas le seul système d'exploitation basé sur un noyau
     libre de la famille des Unix. MacOS X est le dernier système de la marque
     à la pomme et repose en partie sur des fondements Unix.</para>
+    <para lang='es'>Linux no es el único sistema operativo basado en Unix. 
+	MacOS X es el último sistema de la marca de la manzana y se basa en parte 
+	en Unix.</para>
+
 
     <sect2>
       <title lang='fr'>Utiliser MAMP</title>
+      <title lang='es'>Utilizar MAMP</title>
+	  
 
       <para lang='fr'>MAMP est un package Apache 2, PHP, MySQL dispo sur <ulink
       url="http://www.mamp.info">www.mamp.info</ulink></para>
+      <para lang='es'>MAMP es un paquete Apache 2, PHP, MySQL disponible en <ulink
+      url="http://www.mamp.info">www.mamp.info</ulink></para>
+	  
 
       <para lang='fr'>Pour installer PMB sous MAMP, décompressez le zip de PMB dans
       Applications/MAMP/htdocs.</para>
+      <para lang='es'>Para instalar PMB bajo MAMP, descomprime el zip de PMB en 
+	  Applications/MAMP/htdocs.</para>
+	  
 
       <figure>
         <title lang='fr'>Paramètres systèmes PMB pour MAMP</title>
+        <title lang='es'>Parámetros de PMB para MAMP</title>
+		
 
         <mediaobject>
           <imageobject>
@@ -45,48 +75,87 @@
       </figure>
 
       <para lang='fr'>Lors de l'installation de la base de données, spécifiez :</para>
+      <para lang='es'>Al instalar la de datos, especifica :</para>
+	  
 
       <para lang='fr'><emphasis role="bold">utilisateur mysql</emphasis> : root</para>
+      <para lang='es'><emphasis role="bold">usuario mysql</emphasis> : root</para>
+	  
 
       <para lang='fr'><emphasis role="bold">mot de passe </emphasis>: root</para>
+      <para lang='es'><emphasis role="bold">contraseña </emphasis>: root</para>
+	  
 
       <para lang='fr'><emphasis role="bold">serveur </emphasis>: 127.0.0.1:8889</para>
+      <para lang='es'><emphasis role="bold">servidor </emphasis>: 127.0.0.1:8889</para>
+	  
 
       <para lang='fr'><emphasis role="bold">base de données</emphasis> : bibli</para>
+      <para lang='fr'><emphasis role="bold">base de datos</emphasis> : bibli</para>
+	  
 
       <para lang='fr'>Pour le reste de l'information, consultez les informations
       générales d'installation.</para>
+      <para lang='es'>Para el resto de la información, consulta la información general 
+	  de instalación.</para>
+	  
 
       <para lang='fr'><emphasis role="bold">Note</emphasis> : MAMP est diffusé avec
       l'extension YAZ (z39.50) pour Mac activée sous PHP4. Le catalogage par
       z39.50 est donc immédiatement disponible pour les utilisateurs de PMB
       sous MAMP, sans rien avoir à configurer.</para>
+      <para lang='es'><emphasis role="bold">Nota</emphasis> : MAMP se distribuye 
+	  con la extensión YAZ (z39.50) para Mac activada para PHP4. La catalogación 
+	  vía z39.50 está por tanto, inmediatamente disponible para los usuarios de PMB
+      bajo MAMP, sin tener que configurar nada.</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Utiliser Apache et PHP fourni avec Mac OS X</title>
+      <title lang='es'>Usar Apache y PHP proporcionados con Mac OS X</title>
+	  
 
       <para lang='fr'>Allez dans les Préférences Systèmes, puis Partage, et activez le
       partage Web. Les fichiers situés dans /Library/Webserver/Documents
       correspondent aux fichiers accessibles par PMB : vous devez donc y
       décompresser l'archive de PMB téléchargée sur <ulink
       url="http://www.sigb.net">www.sigb.net</ulink>.</para>
+      <para lang='es'>Ir a las Preferencias del Sistema, luego Partición, y activar la 
+	  partición Web. Los archivos situados en /Library/Webserver/Documents
+      corresponden a los archivos accesibles para PMB : debes descomprimir ahí 
+	  el archivo de PMB descargado de  <ulink
+      url="http://www.sigb.net">www.sigb.net</ulink>.</para>
+	  
 
       <para lang='fr'>MySQL n'est pas fourni avec Mac OS X. Vous trouverez une version
       de MySQL sur le site <ulink
       url="http://www.mysql.com">www.mysql.com</ulink>.</para>
+      <para lang='es'>MySQL no se distribuye junto con Mac OS X. Encontrarás una versión 
+	  de MySQL en la página <ulink
+      url="http://www.mysql.com">www.mysql.com</ulink>.</para>
+	  
 
       <para lang='fr'>Une fois PMB décompressé il faut configurer la base de PMB. Pour
       cela, ouvrez un navigateur, par exemple Safari, et allez à l'adresse
       <emphasis
       role="bold">http://localhost/pmb/tables/install.php</emphasis></para>
+      <para lang='es'>Una vez PMB esté descomprimido es necesario configurar la base de PMB. Para 
+	  esto, abre un navegador, por ejemplo Safari, y ve a la dirección 
+      <emphasis role="bold">http://localhost/pmb/tables/install.php</emphasis></para>
+	  
 
       <para lang='fr'>PMB est désormais accessible à l'adresse <emphasis
       role="bold">http://localhost/pmb</emphasis></para>
+      <para lang='es'>PMB estará accesible siempre en la dirección <emphasis
+      role="bold">http://localhost/pmb</emphasis></para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Activer YAZ sous MacOS X</title>
+      <title lang='es'>Activar YAZ bajo MacOS X</title>
+	  
 
       <para lang='fr'>Vous pouvez télécharger le fichier yaz.so disponible sur <ulink
       url="http://http://www.sigb.net/mac/">http://www.sigb.net/mac</ulink> et
@@ -95,6 +164,14 @@
       extension=yaz.so et redémarrez votre serveur Apache pour l'activer. Pour
       cela allez dans les Préférences systèmes, dans Partage ; désactiver le
       partage Web puis le réactiver.</para>
+      <para lang='es'>Puedes descargar el archivo yaz.so de <ulink
+      url="http://http://www.sigb.net/mac/">http://www.sigb.net/mac</ulink> y 
+	  instalarlo en el directorio de PHP de tu ordenador. En tu 
+	  php.ini, en la sección de extensiones, añade la línea
+	  extension=yaz.so y reinicía tu servidor Apache para activarla. Para esto
+	  ve a Preferencias del sistema, en Partición ; desactivar la partición 
+	  Web y luego reactivarla.</para>
+	  
     </sect2>
   </sect1>
 </chapter>
