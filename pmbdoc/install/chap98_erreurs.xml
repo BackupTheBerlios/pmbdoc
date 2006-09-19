@@ -1,29 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter lang="fr">
   <title lang='fr'>Messages d'erreurs résultant d'un problème d'installation ou de configuration</title>
+  <title lang='es'>Mensajes de error resultado de un problema en la instalación o de configuración</title>
+  
 
   <para lang='fr'>Différents messages d'erreur signalent un problème d'installation de PMB. 
   Il s'agit par exemple des messages d'erreur "Call to undefined function".</para>
+  <para lang='es'>Diferentes mensajes de error pueden señalar un problema de PMB. 
+  Podemos encontrar, por ejemplo, los mensajes de error tipo "Call to undefined function".</para>
+  
   
   <para lang='fr'>PMB nécessite un certain nombre de pré-requis : pour plus d'informations sur ces 
   pré-requis, voir <xref linkend="install_informations_importantes" /> et/ou le fichier 
   VOTRE_REP_PMB/doc/pre_requisite.txt</para>
+  <para lang='es'>PMB necesita un cierto número de pre-requisitos : para más información 
+  sobre los pre-requisitos, ver <xref linkend="install_informations_importantes" /> y/o el archivo 
+  TU_DIR_PMB/doc/pre_requisite.txt</para>
+  
 
   <sect1>
     <title lang='fr'>Call to undefined function : xslt_create() in ...</title>
+    <title lang='es'>Call to undefined function : xslt_create() in ...</title>
+	
 
     <para lang='fr'>Ce message d'erreur montre que la librairie <emphasis>PHP_XSLT</emphasis> n'est pas correctement installée.</para>
+    <para lang='es'>Este mensaje de error se muestra porque la librería <emphasis>PHP_XSLT</emphasis> no está correctamente instalada.</para>
+	
     
     <para lang='fr'>Utilisé dans : sauvegardes, conversion</para>
+    <para lang='es'>Se usa en : copias de seguridad, conversiones</para>
+	
 
     <para lang='fr'>Solution : activez la librairie PHP_XSLT dans votre configuration de PHP. Reportez vous à l'installation correspondant à votre système ainsi qu'au chapitre installation générique.</para>
+    <para lang='es'>Solución : activa la librería PHP_XSLT en tu configuración de PHP. Ve a la la instalación correpondiente a tu sistema en el capítulo de instalación genérica.</para>
+	
   </sect1>
-	<sect1><title lang='fr'>Call to undefined function: imagecreate() in ...</title>
+	<sect1>
+	<title lang='fr'>Call to undefined function: imagecreate() in ...</title>
+	<title lang='es'>Call to undefined function: imagecreate() in ...</title>	
 
     <para lang='fr'>Ce message d'erreur montre que la librairie <emphasis>PHP_GD</emphasis> n'est pas correctement installée.</para>
+    <para lang='es'>Este mensaje de error se muestra porque la librería <emphasis>PHP_GD</emphasis> no está correctamente instalada.</para>
+	
     
     <para lang='fr'>Utilisé dans : génération de codes-barres</para>
+    <para lang='es'>Se usa en : generación de códigos de barras</para>
+	
 
     <para lang='fr'>Solution : activez la librairie PHP_GD dans votre configuration de PHP. Reportez vous à l'installation correspondant à votre système ainsi qu'au chapitre installation générique.</para>
-  </sect1>
+    <para lang='es'>Solución : activa la librería PHP_GD dans votre configuration de PHP. en tu configuración de PHP. Ve a la la instalación correpondiente a tu sistema en el capítulo de instalación genérica.</para>
+	
+  </sect1>	
+
 </chapter>
