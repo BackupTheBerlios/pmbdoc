@@ -225,124 +225,222 @@
 
     <para lang='fr'>Pas de documentation pour l'instant pour une installation sous
     RedHat.</para>
+    <para lang='es'>No hay documentación sobre la instalación con RedHat.</para>
+	
   </sect1>
 
   <sect1>
     <title lang='fr'>Debian</title>
+    <title lang='es'>Debian</title>
+	
 
     <para lang='fr'>Installation décrite par Stef sur un forum de <ulink
     url="http://www.sigb.net/communaute">www.sigb.net/communaute/</ulink>, 29
     mars 2004</para>
+    <para lang='es'>Instalación descrita por Stef en un forum de <ulink
+    url="http://www.sigb.net/communaute">www.sigb.net/communaute/</ulink>, el 29
+    de marzo de 2004</para>
+	
 
     <para lang='fr'>Voir également votre_rep_pmb/doc/installation_debian.pdf</para>
+    <para lang='es'>Ver igualmente vuestro_dir_pmb/doc/installation_debian.pdf</para>
+	
 
     <sect2>
       <title lang='fr'>Pré-requis</title>
+      <title lang='es'>Pre-requisitos</title>
+	  
 
       <para lang='fr'>Apache doit être installé et le serveur httpd lancé.</para>
+      <para lang='es'>Apache debe estar instalado y el servidor httpd iniciado.</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Installation</title>
+      <title lang='es'>Instalación</title>
+	  
 
       <para lang='fr'>Sur une Debian par exemple, l'installation se déroule comme ça
       :</para>
+      <para lang='es'>Bajo Debian por ejemplo, la instalación se desarrolla así :</para>
+	  
 
       <para lang='fr'><literal>tar xvzf &lt;archive.tar.gz&gt;</literal></para>
+      <para lang='es'><literal>tar xvzf &lt;archive.tar.gz&gt;</literal></para>
+	  
 
       <para lang='fr'>Vous déplacez tout dans le répertoire du serveur dans lequel vous
       allez (cd /var/www)</para>
+      <para lang='es'>Desplazaréis todo al directorio del servidor al cual vais (cd /var/www)</para>
+	  
 
       <para lang='fr'>Vous positionnez les droits :</para>
+      <para lang='es'>Estableces los derechos :</para>
+	  
 
       <para lang='fr'><literal>chown -R www-data.www.data * ; chmod -R 0640 * ; find
       -type d -exec chmod 0777 \;</literal></para>
+      <para lang='es'><literal>chown -R www-data.www.data * ; chmod -R 0640 * ; find
+      -type d -exec chmod 0777 \;</literal></para>
+	  
 
       <para lang='fr'>[NDLR : à partir de cette étape, vous pouvez utiliser le
       paramétrage simplifié de la base, décrit plus haut dans ce guide :
       <emphasis>Paramétrer la base de données PMB</emphasis>]</para>
+      <para lang='es'>[NDLR : a partir de esta etapa, puedes usar la configuración  
+      simple de la base, descrita más arriba en esta guía :
+      <emphasis>Configuración de la base de datos PMB</emphasis>]</para>
+	  
 
       <para lang='fr'>Vous créez la base</para>
+      <para lang='es'>Debes crear la base</para>
+	  
 
       <para lang='fr'><literal>mysql</literal></para>
+      <para lang='es'><literal>mysql</literal></para>
+	  
 
       <para lang='fr'><literal>create database &lt;labase&gt; ;</literal></para>
+      <para lang='es'><literal>create database &lt;labase&gt; ;</literal></para>
+	  
 
       <para lang='fr'>Vous déclarez un user dédié (fortement recommandé et à adapter à
       votre cas)</para>
+      <para lang='es'>Debes definir un usuario dedicado (muy recomendable y a adaptar a vuestro caso)</para>
+	  
 
       <para lang='fr'><literal>GRANT ALL ON PMB.* TO 'admin'@'localhost' IDENTIFIED BY
       'motdepasse';</literal></para>
+      <para lang='es'><literal>GRANT ALL ON PMB.* TO 'admin'@'localhost' IDENTIFIED BY
+      'motdepasse';</literal></para>
+	  
 
       <para lang='fr'><literal>flush privileges ;</literal></para>
+      <para lang='es'><literal>flush privileges ;</literal></para>
+	  
 
       <para lang='fr'>Et vous lancez l'installation comme indiqué dans la
       documentation.</para>
+      <para lang='es'>E iniciar la instalación como se indica en la documentación.</para>
+	  
     </sect2>
   </sect1>
 
   <sect1>
     <title lang='fr'>Slackware</title>
+    <title lang='es'>Slackware</title>
+	
 
     <sect2>
       <title lang='fr'>A propos</title>
+      <title lang='es'>A propósito</title>
+	  
 
       <para lang='fr'>Installation d’un serveur Apache sur Linux avec les extensions
       utilisées par PMB</para>
+      <para lang='es'>Instalación de un servidor Apache bajo Linux con las extensiones
+	  usadas por PMB</para>
+	  
 
       <para lang='fr'>Auteur : Francois NIGON – linux@nigon.net</para>
+      <para lang='es'>Autor : Francois NIGON – linux@nigon.net</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Sources</title>
+      <title lang='es'>Fuentes</title>
+	  
 
       <para lang='fr'>Les fichiers d’aide à l’installation de www.indexdata.dk/phpyaz et
       le chapitre Installation apache de www.php.net, rubrique
       documentation</para>
+      <para lang='es'>Los archivos de ayuda a la instalación de www.indexdata.dk/phpyaz y 
+	  el capítulo Instalación apache de www.php.net, apartado documentación</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Préambule</title>
+      <title lang='es'>Preámbulo</title>
+	  
 
       <para lang='fr'>L’installation décrite ci-dessous a été réalisée sur un P4-2,6GHz,
       slackware 9.1, kernel 2.4.24 . Les fichiers utilisés sont ceux
       téléchargés sur le net. Je suppose que l’installation doit se passer de
       la même façon avec n’importe quelle distribution...</para>
+      <para lang='es'>La instalación descrita aquí se realiza en un P4-2,6GHz,
+      slackware 9.1, kernel 2.4.24 . Los archivos usados son los 
+	  descargados de la red. Yo supongo que la instalación debe funcionar 
+	  igual sin importar qué disitrución sea...</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Téléchargements</title>
+      <title lang='es'>Descargas</title>
+	  
 
       <para lang='fr'><emphasis role="bold">YAZ</emphasis> : sur le site
       www.indexdata.dk/yaz/</para>
+      <para lang='es'><emphasis role="bold">YAZ</emphasis> : de la página 
+	  www.indexdata.dk/yaz/</para>
+	  
 
       <para lang='fr'>téléchargement du fichier
       http://ftp.indexdata.dk/pub/yaz/yaz-2.0.9.tar.gz</para>
+      <para lang='es'>descarga del archivo 
+	  http://ftp.indexdata.dk/pub/yaz/yaz-2.0.9.tar.gz</para>
+	  
 
       <para lang='fr'><emphasis role="bold">PHP</emphasis> : sur le site www.php.net,
       rubrique downloads téléchargement de php-4.3.4.tar.gz</para>
+      <para lang='es'><emphasis role="bold">PHP</emphasis> : de la página www.php.net,
+      apartado downloads descargar php-4.3.4.tar.gz</para>
+	  
 
       <para lang='fr'><emphasis role="bold">Apache</emphasis> : sur le site
       httpd.apache.org, rubrique Download from a mirror téléchargement de
       apache_1.3.29.tar.gz</para>
+      <para lang='es'><emphasis role="bold">Apache</emphasis> : de la página 
+	  httpd.apache.org, apartado Download de un mirror descargar 
+	  apache_1.3.29.tar.gz</para>
+	  
     </sect2>
 
     <sect2>
       <title lang='fr'>Installation</title>
+      <title lang='es'>Instalación</title>
+	  
 
       <para lang='fr'><emphasis role="bold">Préparation de l’installation
       </emphasis>:</para>
+      <para lang='es'><emphasis role="bold">Preparación de la instalación 
+	  </emphasis>:</para>
+	  
 
       <para lang='fr'><literal>mkdir /root/php cd /root/php </literal></para>
+      <para lang='es'><literal>mkdir /root/php cd /root/php </literal></para>
+	  
 
       <para lang='fr'><literal>tar -zvxf /root/mes_telechargements/yaz-2.0.9.tar.gz
       </literal></para>
+      <para lang='es'><literal>tar -zvxf /root/mes_telechargements/yaz-2.0.9.tar.gz
+      </literal></para>
+	  
 
       <para lang='fr'><literal>tar -zvxf /root/mes_telechargements/php-4.3.4.tar.gz
       </literal></para>
+      <para lang='es'><literal>tar -zvxf /root/mes_telechargements/php-4.3.4.tar.gz
+      </literal></para>
+	  
 
       <para lang='fr'><literal>tar -zvxf /root/mes_telechargements/apache_1.3.29.tar.gz
       </literal></para>
+      <para lang='es'><literal>tar -zvxf /root/mes_telechargements/apache_1.3.29.tar.gz
+      </literal></para>
+	  
 
       <para lang='fr'>Fermez la porte de votre bureau, débranchez le téléphone... bref,
       créez une atmosphère propice à une installation en toute sérénité. Dans
@@ -351,58 +449,114 @@
       solution est de supprimer la version d’apache existante SANS OUBLIER UN
       SEUL FICHIER, puis de l’installer dans /usr/local/apache. Bon
       courage.</para>
+      <para lang='es'>Cierra la puerta de tu despacho, descuelga el teléfono... o sea,
+      crea una atmósfera propicia para una instalación que necesita tranquilidad. En 
+	  el ejemplo aquí expuesto, el servidor Web y las extensiones se instalan en /www, 
+	  esto puede chocar a un linuxero experto, pero la otra opción sólo es
+	  suprimir la versión de apache existante SIN OLVIDAR UN SOLO
+	  ARCHIVO, luego de instalar en /usr/local/apache. Buena suerte.</para>
+	  
 
       <para lang='fr'><emphasis role="bold">YAZ</emphasis> : <literal>cd
       yaz-2.0.9</literal></para>
+      <para lang='es'><emphasis role="bold">YAZ</emphasis> : <literal>cd
+      yaz-2.0.9</literal></para>
+	  
 
       <para lang='fr'><literal>./configure --prefix=/usr</literal></para>
+      <para lang='es'><literal>./configure --prefix=/usr</literal></para>
+	  
 
       <para lang='fr'><literal>make</literal></para>
+      <para lang='es'><literal>make</literal></para>
+	  
 
       <para lang='fr'><literal>make install </literal></para>
+      <para lang='es'><literal>make install </literal></para>
+	  
 
       <para lang='fr'><emphasis role="bold">Apache</emphasis> : <literal>cd
       ../apache_1.3.29</literal></para>
+      <para lang='es'><emphasis role="bold">Apache</emphasis> : <literal>cd
+      ../apache_1.3.29</literal></para>
+	  
 
       <para lang='fr'><literal>./configure --prefix=/www
       --enable-module=so</literal></para>
+      <para lang='es'><literal>./configure --prefix=/www
+      --enable-module=so</literal></para>
+	  
 
       <para lang='fr'><literal>make</literal></para>
+      <para lang='es'><literal>make</literal></para>
+	  
 
       <para lang='fr'><literal>make install</literal></para>
+      <para lang='es'><literal>make install</literal></para>
+	  
 
       <para lang='fr'><emphasis role="bold">PHP</emphasis> : <literal>cd ../php-4.3.4
       </literal></para>
+      <para lang='es'><emphasis role="bold">PHP</emphasis> : <literal>cd ../php-4.3.4
+      </literal></para>
+	  
 
       <para lang='fr'><literal>./configure --with-mysql --with-gd
       --with-apxs=/www/bin/apxs --with-yaz=/usr/bin --with-zlib-dir
       --with-bz2</literal></para>
+      <para lang='es'><literal>./configure --with-mysql --with-gd
+      --with-apxs=/www/bin/apxs --with-yaz=/usr/bin --with-zlib-dir
+      --with-bz2</literal></para>
+	  
 
       <para lang='fr'><literal>make</literal></para>
+      <para lang='es'><literal>make</literal></para>
+	  
 
       <para lang='fr'><literal>make install </literal></para>
+      <para lang='es'><literal>make install </literal></para>
+	  
 
       <para lang='fr'><literal>cp php.ini-dist /usr/local/lib/php.ini</literal></para>
+      <para lang='es'><literal>cp php.ini-dist /usr/local/lib/php.ini</literal></para>
 
       <para lang='fr'><emphasis role="bold">Configuration : </emphasis>Editer le fichier
+      /www/conf/httpd.conf</para>
+      <para lang='es'><emphasis role="bold">Configuración : </emphasis>Edita el archivo 
       /www/conf/httpd.conf</para>
 
       <para lang='fr'>Vérifier que la ligne Loadmodule php4_module libexec/libphp4.so
       est présente (et sans #)</para>
+      <para lang='es'>Verifica que línea Loadmodule php4_module libexec/libphp4.so
+      esté presente (y sin #)</para>
+	  
 
       <para lang='fr'>Ajouter <literal>AddType application/x-httpd-php .php .php3
       .php4</literal></para>
+      <para lang='es'>Añadir<literal>AddType application/x-httpd-php .php .php3
+      .php4</literal></para>
+	  
 
       <para lang='fr'>Ajouter <literal>index.php index.php4 index.php3</literal> à la
       ligne DirectoryIndex</para>
+      <para lang='es'>Añadir <literal>index.php index.php4 index.php3</literal> a la 
+	  línea DirectoryIndex</para>
 
       <para lang='fr'>Démarrer apache :<literal> /www/bin/apachectl
       start</literal></para>
+      <para lang='es'>Iniciar apache :<literal> /www/bin/apachectl
+      start</literal></para>
+	  
 
       <para lang='fr'>Supprimer les autres binaires apachectl existants (<literal>find /
       -name apachectl</literal> pour les rechercher)</para>
+      <para lang='es'>Suprimir los otros binarios apachectl existentes (<literal>find /
+      -name apachectl</literal> para buscarlos)</para>
+	  
 
       <para lang='fr'>Les fichiers publiés par apache sont dans /www/htdocs</para>
+      <para lang='es'>Los archivos publicados por apache están en /www/htdocs</para>
+	  
     </sect2>
   </sect1>
 </chapter>
