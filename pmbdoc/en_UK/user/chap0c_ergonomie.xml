@@ -17,7 +17,7 @@
 
   <para lang='en'><emphasis role="bold">The main navigation bar</emphasis></para>
 
-  <para lang='en'>The navigation bar enables you to switch between the various
+  <para lang='en'>The navigation bar enables you to toggle between the various
   management interface modules at any time.</para>
 
   <para lang='en'>Only the modules to which the user has access are displayed.</para>
@@ -46,7 +46,7 @@
 
   <para lang='en'><emphasis>?</emphasis> gives access to PMB's contextual help. For more
   information, read the chapter <xref linkend="aide_contextuelle"
-  xreflabel="" />. The displaying or not of contextual help is parametrised.
+  xreflabel="" />. Contextual help display can be set.
   For more information, consult the <emphasis>PMB Administrator
   Guide</emphasis>, chapter <emphasis>Utils</emphasis>, section
   <emphasis>Parameters</emphasis>.</para>
@@ -100,7 +100,7 @@
     </listitem>
 
     <listitem>
-      <para lang='en'>if items are to be processed following the cancellation of
+      <para lang='en'>if items are to be shelved following the cancellation of
       holds</para>
     </listitem>
 
@@ -125,8 +125,7 @@
 
   <para lang='en'><emphasis role="bold">Search results</emphasis></para>
 
-  <para lang='en'>Search results are displayed on the interface along with pages numbers
-  to click at the bottom of the screen, enabling you to load a specific result
+  <para lang='en'>Search results are displayed on the interface along with clickable pages numbers at the bottom of the screen; this enables you to load a specific results
   page at once.</para>
 
   <para lang='en'>By default PMB will display 10 search results on a page; therefore if
