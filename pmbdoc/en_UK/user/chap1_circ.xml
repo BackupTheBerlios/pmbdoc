@@ -1,63 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="circ">
-  <title lang="es">Circulation</title>
+  <title lang="en">Circulation</title>
 
-  <para>The circulation system of a library means the management of the
+  <para lang='en'>The circulation system of a library is about the management of the
   library's holdings in terms of copies of documents and making them available
   to the readers. We often refer to the latter as the charging system.</para>
 
-  <para>The side menu of the circulation tab shows 5 headings : Circulation,
-  Display items, Holds, Reminders and Suggestions.</para>
+  <para lang='en'>The side menu of the circulation tab shows 5 headings : Circulation, Display items, Holds, Reminders and Suggestions.</para>
 
-  <para><emphasis>Circulation</emphasis> is for managing readers and
+  <para lang='en'><emphasis>Circulation</emphasis> is for managing readers and
   loans.</para>
 
-  <para><emphasis>Display</emphasis> retrieves information about the library
+  <para lang='en'><emphasis>Display</emphasis> retrieves information about the library
   collection.</para>
 
-  <para><emphasis>Holds</emphasis> allows you to manage holds placed on works
+  <para lang='en'><emphasis>Holds</emphasis> enables you to manage holds placed on works
   available in the library by readers.</para>
 
-  <para><emphasis>Reminders</emphasis> corresponds to sending overdue notices
-  to readers for items unreturned by the due date and the recoveries to
-  effect. This sub-menu is available only if the financial management of
-  readers is enabled, for more details consult the Administrator's guide,
-  section Financial management.</para>
+  <para lang='en'><emphasis>Reminders</emphasis> corresponds to overdue notices to be sent readers for unreturned items and to the recoveries to be effected. This sub-menu is available only if the Financial Management module is enabled. For more details consult the PMB Administrator's Guide, Financial management.</para>
 
-  <para><emphasis>Suggestions</emphasis> orders to offer staff and readers the
-  possibility to make suggestions for acquisition.</para>
+  <para lang='en'><emphasis>Suggestions</emphasis> offers staff and readers alike the possibility to make suggestions for acquisition.</para>
 
   <sect1 id="circ_circ">
-    <title lang="es">Circulation</title>
+    <title lang="en">Circulation</title>
 
     <sect2 id="circ_pret">
-      <title lang="es">Loans</title>
+      <title lang="en">Loans</title>
 
-      <para>Lending out items to borrowers is very simple : you only have to
+      <para lang='en'>Lending out items to borrowers is very simple : you only have to
       enter the barcode of the reader from his membership card followed by the
       item barcode or accession number. Of course the same transaction can be
       carried out fully using a barcode reader which very conveniently
       replaces the manual entry of the barcode and "enter" on the
       keyboard.</para>
 
-      <para>Obviously there must already be some items and borrowers present
+      <para lang='en'>Obviously there must already be some items and borrowers present
       in the database to allow for issues to be effected.</para>
 
       <sect3 id="circ_pret_1">
-        <title lang="es">Borrower Search</title>
+        <title lang="en">Borrower Search</title>
 
-        <para>A borrower search works like this: whenever you click on the
+        <para lang='en'>A borrower search works like this: whenever you click on the
         Circulation tab the following screen appears. Enter the full name of
         the borrower or part of it in the text box and press Enter. Of course
         you can also read his barcode ID on his borrower's card with your
         scanner to display his file.</para>
 
-        <para>To display the complete list of borrowers leave the text box
+        <para lang='en'>To display the complete list of borrowers leave the text box
         empty and press Enter. From there you can pick and choose any
         particular user.</para>
 
         <figure>
-          <title lang="es">Circulation &gt; Loan Items</title>
+          <title lang="en">Circulation &gt; Loan Items</title>
 
           <mediaobject>
             <imageobject>
@@ -68,22 +62,22 @@
       </sect3>
 
       <sect3 id="circ_pret_2">
-        <title lang="es">Search results</title>
+        <title lang="en">Search results</title>
 
-        <para><emphasis role="bold">Example</emphasis>. Let's lend out
+        <para lang='en'><emphasis role="bold">Example</emphasis>. Let's lend out
         <emphasis>Rwanda : a people with a history</emphasis>, by <emphasis>C.
         M. Overdulve</emphasis>, to our borrower <emphasis>Luke Skywalker
         </emphasis>(with barcode n° 100003).</para>
 
-        <para>His barcode is entered or read by the barcode reader to identify
-        the borrower.</para>
+        <para lang='en'>His barcode is entered or read by the barcode reader to identify
+        him.</para>
 
-        <para>We can also enter all or part of the borrower's name in order to
+        <para lang='en'>We can also enter all or part of the borrower's name in order to
         select him from a list. For now we will enter the letter "s" for
         Skywalker.</para>
 
         <figure>
-          <title lang="es">Circulation &gt; Loan (results of a borrower search)</title>
+          <title lang="en">Circulation &gt; Loan (results of a borrower search)</title>
 
           <mediaobject>
             <imageobject>
@@ -92,14 +86,14 @@
           </mediaobject>
         </figure>
 
-        <para>Click on borrower Skywalker in the search results list.</para>
+        <para lang='en'>Click on borrower Skywalker in the search results list.</para>
       </sect3>
 
       <sect3 id="circ_lecteur">
-        <title lang="es">Borrower's card</title>
+        <title lang="en">Borrower's card</title>
 
         <figure>
-          <title lang="es">Circulation &gt; Loan (borower card)</title>
+          <title lang="en">Circulation &gt; Loan (borower card)</title>
 
           <mediaobject>
             <imageobject>
@@ -108,15 +102,15 @@
           </mediaobject>
         </figure>
 
-        <para>The barcode of a copy of the Rwanda title is
+        <para lang='en'>The barcode of a copy of the Rwanda title is
         33700003286792.</para>
 
-        <para>Just enter this barcode in the "new loan" field to effect the
+        <para lang='en'>Just enter this barcode in the "new loan" field to effect the
         loan issue. Press Enter to validate the issue. The loan has been added
         to the list of current loans.</para>
 
         <figure>
-          <title lang="es">Circulation &gt; Loan, loan added</title>
+          <title lang="en">Circulation &gt; Loan, loan added</title>
 
           <mediaobject>
             <imageobject>
@@ -125,24 +119,24 @@
           </mediaobject>
         </figure>
 
-        <para>You can then cancel the loan on the fly by clicking on cancel
+        <para lang='en'>You can then cancel the loan on the fly by clicking on cancel
         (in this case, the loan is not taken into account for the statistics
         contrary to a validated loan issue immediately followed by a
         return).</para>
 
-        <para>You can also print a loan ticket. It takes the form of a PDF
+        <para lang='en'>You can also print a loan ticket. It takes the form of a PDF
         file generated by PMB. On Windows the "print loan ticket" button calls
         the Acrobat reader plugin and displays a loan ticket ready to print
         detailing the borrower, the item loaned and the date of return. You
         only have to click on the Acrobat print icon to print the loan
         ticket.</para>
 
-        <para>Starting the Acrobat reader to view the loan ticket can
+        <para lang='en'>Starting the Acrobat reader to view the loan ticket can
         sometimes take rather long depending on your computer. In this case
         either be patient or start Acrobat well in advance.</para>
 
         <figure>
-          <title lang="es">Example of a loan ticket.</title>
+          <title lang="en">Example of a loan ticket.</title>
 
           <mediaobject>
             <imageobject>
@@ -151,13 +145,13 @@
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">Note.</emphasis> If your item has a
+        <para lang='en'><emphasis role="bold">Note.</emphasis> If your item has a
         particular status that does not allow lending, but this rule can be
         overridden, PMB will ask you if you want to force the loan or
         not.</para>
 
         <figure>
-          <title lang="es">Item is excluded from loan: option to force the loan</title>
+          <title lang="en">Item is excluded from loan: option to force the loan</title>
 
           <mediaobject>
             <imageobject>
@@ -166,33 +160,33 @@
           </mediaobject>
         </figure>
 
-        <para>In our example, the library parameters (name, address, logo) are
+        <para lang='en'>In our example, the library parameters (name, address, logo) are
         those of the Bueil Library. These parameters can be customized in the
         administration tab. For more information, consult the <emphasis>PMB
         Administrator's Guide</emphasis>, <emphasis>Tools</emphasis>
         section.</para>
 
-        <para>Other available functions from the reader's file:</para>
+        <para lang='en'>Other available functions from the reader's fiche:</para>
 
         <itemizedlist>
           <listitem>
-            <para>Effecting an express loan</para>
+            <para lang='en'>Effecting a fast loan</para>
 
-            <para><figure>
-                <title lang="es">Express loan button</title>
+            <para lang='en'><figure>
+                <title lang="en">Fast loan button</title>
 
                 <mediaobject>
                   <imageobject>
                     <imagedata fileref="images/prolonger_pret_popup.gif" />
                   </imageobject>
                 </mediaobject>
-              </figure>The express loan enables you to loan items that are
-            still in cataloguing. Click on "express loan" to enter the
+              </figure>Fast loan enables you to loan items that are
+            still in cataloguing. Click on "fast loan" to enter the
             information necessary to issue an item that has not yet been
             catalogued.</para>
 
-            <para><figure>
-                <title lang="es">Express loan</title>
+            <para lang='en'><figure>
+                <title lang="en">Fast loan</title>
 
                 <mediaobject>
                   <imageobject>
@@ -202,31 +196,30 @@
               </figure>Enter Title and ISBN. Indicate a media type (to be able
             to manage loan periods and quotas consequently).</para>
 
-            <para>Then scan your item barcode, or enter it and
+            <para lang='en'>Then scan your item barcode, or enter it and
             validate.</para>
 
-            <para>You may afterwards recall the record to complete its
-            cataloguing.</para>
+            <para lang='en'>You may afterwards recall the record to complete the cataloguing process.</para>
           </listitem>
 
           <listitem>
-            <para>Updating borrower data (including membership renewal), see
+            <para lang='en'>Updating borrower data (including membership renewal), see
             Adding a borrower, later in this document.</para>
 
-            <para>To update borrower data, click on the
+            <para lang='en'>To update borrower data, click on the
             <emphasis>Edit</emphasis> button.</para>
           </listitem>
 
           <listitem>
-            <para>Extending an existing loan</para>
+            <para lang='en'>Extending an existing loan</para>
 
-            <para>To extend a loan, click on the <emphasis>Due</emphasis>
+            <para lang='en'>To extend a loan, click on the <emphasis>Due</emphasis>
             button. In the calendar popup, select the new due date. In this
             popup, use the arrows to move forward or backward for months, and
             the double arrows for years.</para>
 
             <figure>
-              <title lang="es">Date selection Popup for extending a loan</title>
+              <title lang="en">Date selection Popup for extending a loan</title>
 
               <mediaobject>
                 <imageobject>
@@ -237,12 +230,12 @@
           </listitem>
 
           <listitem>
-            <para>Extending all loans on the fly. Click on the button + to
+            <para lang='en'>Extending all loans on the fly. Click on the button + to
             select all, then click on the date button "Extend loans of checked
             items until".</para>
 
             <figure>
-              <title lang="es">Extending loans on the fly</title>
+              <title lang="en">Extending loans on the fly</title>
 
               <mediaobject>
                 <imageobject>
@@ -253,31 +246,31 @@
           </listitem>
 
           <listitem>
-            <para>Deleting a borrower: possible only if the borrower has no
+            <para lang='en'>Deleting a borrower: possible only if the borrower has no
             current loans. If there are current loans, the items must be
             returned first.</para>
           </listitem>
 
           <listitem>
-            <para>Printing the loans records: Click on
+            <para lang='en'>Printing the loans records: Click on
             <emphasis>Print</emphasis> to print the list of borrowed items and
             current holds, click on <emphasis>Loans list</emphasis> to print
             the current loans for borrower.</para>
           </listitem>
 
           <listitem>
-            <para>Printing the borrower's card</para>
+            <para lang='en'>Printing the borrower's card</para>
           </listitem>
 
           <listitem>
-            <para>Adding a new borrower</para>
+            <para lang='en'>Adding a new borrower</para>
           </listitem>
 
           <listitem>
-            <para>The <emphasis>add</emphasis> button next to Holds at the
-            bottom allows reserve an item.</para>
+            <para lang='en'>The <emphasis>add</emphasis> button next to Holds at the
+            bottom allows you to place an item on hold.</para>
 
-            <para>After clicking on <emphasis>Add</emphasis>, carry out a
+            <para lang='en'>After clicking on <emphasis>Add</emphasis>, carry out a
             search. When the item to be placed on hold is found, click on its
             title to insert it into the list of holds.</para>
           </listitem>
@@ -285,18 +278,18 @@
       </sect3>
 
       <sect3>
-        <title lang="es">Borrower's file with Financial management enabled</title>
+        <title lang="en">Borrower's file with Financial management enabled</title>
 
-        <para>Enabling financial management displays the borrower's library
+        <para lang='en'>Enabling financial management displays the borrower's library
         accounts (membership, loans and fines) underneath his personal
         data.</para>
 
-        <para>If you don't see these three accounts it means financial
+        <para lang='en'>If you don't see these three accounts it means financial
         management of readers has not been enabled. For more details, consult
-        the Administrator's Guide of PMB, chapter Financial management.</para>
+        the PMB Administrator's Guide, chapter Financial management.</para>
 
-        <para><figure>
-            <title lang="es">Reader's file showing the membership, loans and fines
+        <para lang='en'><figure>
+            <title lang="en">reader's fiche showing the membership, loans and fines
             accounts</title>
 
             <mediaobject>
@@ -304,77 +297,179 @@
                 <imagedata fileref="images/prolonger_pret_popup.gif" />
               </imageobject>
             </mediaobject>
-          </figure>For more details on the financial management of readers, go
-        to the section Loans and financial management further down.</para>
+          </figure>
+          
+        <para lang='en'> For more details on the financial management of readers, go
+        to the next section on Loans and financial management.</para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title lang="es">Loans and financial management</title>
+      <title lang="en">Loans and financial management</title>
 
-      <para>Fro more details on enabling the financial management of readers
-      in PMB, refer to the Administrator's Guide, chapter Financial
-      management.</para>
+      <para lang='en'>For more details on enabling the financial management of readers
+      in PMB, consult the chapter Financial management of the Administrator's Guide.</para>
 
       <sect3>
-        <title lang="es"></title>
+        <title lang="en">Adding a new reader and debiting the reader's account with the
+		subscription dues</title>
 
-        <para></para>
+        <para lang='en'>When you add a new adult reader, for instance, Jar-Jar Bings, and you have already set the subscription dues for "adult readers", then his account will automatically be debited with the corresponding amount.</para>
+        
+        <figure>
+          <title lang='en'>Adding a new reader</title>
+          
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_nouveau_fin.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+        
+       <para lang='en' lang='en'><emphasis role="bold">In short</emphasis>, for more details on adding new readers, consult the section <emphasis>New reader</emphasis>in this chapter.</para>
+        
+       <figure>
+          <title lang='en'>The reader's fiche</title>
+		  
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_lecteur_fin2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+       
+        <para lang='en' lang='en'>Pour saisir le paiement de l'adh�sion, cliquez sur
+        <emphasis role="bold">Solde abonnement</emphasis>. 
+        The membership account of the new reader is debited with the subscription dues. To enter the amount payable, click on <emphasis role="bold">subscription balance</emphasis>.</para>
+           
       </sect3>
 
-      <sect3>
-        <title lang="es"></title>
+      <sect3 id="solde_abonnement">
+        <title lang='en'>Subscription balance : enter the subscription amount</title>
 
-        <para></para>
-      </sect3>
+      <figure>
+          <title lang='en'>Reader's membership account</title>
+          
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_lecteur_fin_3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-      <sect3>
-        <title lang="es">Prêt de document et débit du compte du lecteur du montant d'un
-        prêt</title>
+        <para lang='en' lang='en'>If the reader's account is negative, several operations are possible :</para>
+        
+        <itemizedlist>
+          <listitem>
+            <para lang='en' lang='en'>Fast Cash in : makes it possible to settle a reader's account quickly. With Fast cash in, all transactions are automatically validated. Click on Fast Cash in and enter the amount paid by the reader.</para>
+          </listitem>
 
-        <para></para>
+          <listitem>
+            <para lang='en' lang='en'>Cash in : makes it possible to enter a payment, but the transaction is not automatically validated.</para>
+          </listitem>
 
-        <para><figure>
-            <title lang="es">Circulation &gt; Return items</title>
+          <listitem>
+            <para lang='en' lang='en'>Validate the checked transactions : it validates a transaction!</para>
+          </listitem>
 
+          <listitem>
+            <para lang='en' lang='en'>Delete checked transactions</para>
+          </listitem>
+
+          <listitem>
+            <para lang='en' lang='en'>Special transactions</para>
+            
+            <figure>
+              <title lang='en'>Financial transaction - special transaction.</title>
             <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/circ_retour.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure></para>
+                <imageobject>
+                  <imagedata fileref="images/circ_lecteur_fin_specops.gif" />
+                </imageobject>
+              </mediaobject>
+            </figure>
 
-        <para></para>
+            <para lang='en' lang='en'>Special transactions make it possible to :</para>
+            
+            <itemizedlist>
+              <listitem>
+                <para lang='en' lang='en'>credit the account ("gift" to the reader) eventually to record the amount in bad debts. In this case, the amount is written off from the library's account.</para>								
+              </listitem>
+
+              <listitem>
+                <para lang='en' lang='en'>debit the account ("penalty" for the reader).</para>
+              </listitem>
+
+              <listitem>
+                <para lang='en' lang='en'>credit the account and cash in: enter a reader's payment</para>
+              </listitem>
+
+              <listitem>
+                <para lang='en' lang='en'>debit the account and write off : enter a fine for
+				the reader and eventually record it in bad debts. In this case,
+				the amount is written off from the library's account. In particular this
+				makes it possible to record a fine for damaging an item.</para>				
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+
+        <para lang='en' lang='en'>In our example, to record the payment of the 5 � subscription dues of Jar-Jar Bings, click on Fast Cash in and enter the amount.</para>
+        
+        <para lang='en' lang='en'><emphasis role="bold">Note</emphasis> : you can always go back to the reader's fiche by clicking on the link <emphasis role="bold">Go back to the reader's fiche</emphasis>.</para>
+		
       </sect3>
 
       <sect3>
-        <title lang="es">Solde prêt : saisir le paiement du prêt de document</title>
+        <title lang='en'>Lend out an item and debit the reader's account with the respective amount</title>
 
-        <para></para>
+        <para lang='en' lang='en'>If the amount due for a DVD loan is $3, the reader's account will be debited accordingly when the loan is validated.</para>
+		
+        <figure>
+          <title lang='en'>Loans to a reader</title>
+          
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/circ_lecteur_fin_4_pret.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang='en' lang='en'><emphasis role="bold">Note</emphasis>. For more details about loans, consult the section <emphasis>Loans</emphasis> in this chapter.</para> 
+		
+      </sect3>
+      
+      <title>Loan settlement : enter the amount payable for the loan</title>
+
+        <para lang='en'>Loans dues are always recorded but not validated automatically. To validate the transaction, click on <emphasis role="bold">Loans cleared</emphasis>. You can either validate the transaction or delete it by checking the selection box and choosing the appropriate action.</para>
+
+        <para lang='en'>For more information about the various possibilities (cash-in, write-off, ...) consult the above section <link linkend="solde_abonnement"><emphasis>Subscription balance</emphasis></link>.</para>
       </sect3>
 
       <sect3>
-        <title lang="es">Retour de document en retard : blocage de prêt et
-        amendes</title>
+        <title>Overdue loans : loan suspension and fines</title>
 
-        <para></para>
+        <para lang='en'>In the case of late returns, subject to the loans parameters defined in the Administration tab, the reader can be fined and/or subjected to a loans suspension.</para>
+
+        <para lang='en'>All settlements are made from the reader's fiche like for all transactions.</para>
       </sect3>
 
       <sect3>
-        <title lang="es">Solde amendes : gérer le paiement des amendes</title>
+        <title>Fines clearance : fines management</title>
 
-        <para></para>
+        <para lang='en'>For more information about the various possibilities
+		(cash-in, write-off, ...) consult above the section
+		 <link linkend="solde_abonnement"><emphasis>Subscription
+        balance</emphasis></link>.</para>
       </sect3>
     </sect2>
 
     <sect2 id="circ_retour">
-      <title lang="es">Return items</title>
+      <title>Return items</title>
 
-      <para>Scan the barcode of the item being returned. The borrower card is
-      not required.</para>
+      <para lang='en'>Scan the item barcode only, the reader's card is not necessary.</para>
 
       <figure>
-        <title lang="es">Circulation &gt; Return items</title>
+        <title>Circulation &gt; Return items</title>
 
         <mediaobject>
           <imageobject>
@@ -383,12 +478,10 @@
         </mediaobject>
       </figure>
 
-      <para>A confirmation message is displayed to allow you to check that the
-      barcode does correspond to the item being returned.</para>
+      <para lang='en'>A confirmation message is displayed enabling you to check whether the barcode corresponds to the document returned.</para>
 
       <figure>
-        <title lang="es">Circulation &gt; Return items, confirmation of a processed
-        return</title>
+        <title>Circulation &gt; Return items, confirmation</title>
 
         <mediaobject>
           <imageobject>
@@ -397,45 +490,47 @@
         </mediaobject>
       </figure>
 
-      <para>This display gives the borrower name that returned the item.
-      Following this is a link which allows access to the relevant borrower
-      file, which can be used, for example, to issue new loans.</para>
+      <para lang='en'>This area shows the name of the reader returning the volume. It is a link to the reader's fiche, for example, to record new loans.</para>
 
-      <para>Also displayed are:</para>
+      <para lang='en'>Are also displayed :</para>
 
       <itemizedlist>
         <listitem>
-          <para>the item type, location, class mark and other copy
-          details</para>
+          <para lang='en'>the media type, the location, the section and the classmark of the item</para>
         </listitem>
 
         <listitem>
-          <para>If the return is overdue, the number of days late</para>
+          <para lang='en'>If the item is overdue, the number of days</para>
         </listitem>
 
         <listitem>
-          <para>The name of the borrower who had the item on loan</para>
+          <para lang='en'>The previous borrower's name</para>
         </listitem>
 
         <listitem>
-          <para>If entered, any message associated with the item</para>
+          <para lang='en'>the copy message, if any</para>
         </listitem>
 
         <listitem>
-          <para>Any pending holds</para>
+          <para lang='en'>any outstanding holds</para>
         </listitem>
       </itemizedlist>
+
+      <para lang='en'>The reader's fiche is also displayed and allows on the fly operations :
+	   you can extend a loan or place an item on hold for example. For more information,
+	   consult the section "reader's fiche" above.</para>
+
+      <para lang='en'>Fines and suspensions can be inflicted on readers. For more information,
+	  consult the PMB Administrator's Guide, financial management.</para>
     </sect2>
 
     <sect2 id="circ_groups">
-      <title lang="es">Borrower Groups</title>
+      <title lang="en">Borrowers Groups</title>
 
-      <para>The <emphasis>Borrower groups </emphasis>functionality allows PMB
-      to be used by librarians who wish to manage their borrowers by groups:
-      classes, familles, etc.</para>
+      <para lang='en'>The <emphasis>Borrowers groups </emphasis>feature enables PMB librarians to organize their readership in groups : classes, families, etc.</para>
 
       <figure>
-        <title lang="es">Circulation &gt; Borrower Groups</title>
+        <title lang="en">Circulation &gt; Borrowers Groups</title>
 
         <mediaobject>
           <imageobject>
@@ -446,34 +541,29 @@
     </sect2>
 
     <sect2 id="circ_emprcreate">
-      <title lang="es">New Borrower</title>
+      <title lang="en">New Borrower</title>
 
       <sect3 id="circ_emprcreate_1">
-        <title lang="es">Barcode for the new borrower</title>
+        <title lang="en">Barcode for the new borrower</title>
 
-        <para>A borrower barcode is required whenever you want to create a new
-        borrower. I<emphasis>f the pmb.num_carte_auto</emphasis> parameter is
-        active (has a value of 1), PMB will suggest a new borrower barcode
-        equivalant to the highest barcode in the database +1.</para>
+        <para lang='en'>A borrower barcode is required whenever you want to add a new borrower. If the <emphasis>pmb.num_carte_auto</emphasis> parameter is active (value = 1), PMB will suggest a new borrower barcode equivalent to the highest barcode +1 in the database.</para>
 
-        <para>For more information about the PMB parameters, consult the
-        <emphasis>PMB Administrator's Guide</emphasis>, Utils section.</para>
+        <para lang='en'>For more details on PMB parameters, consult the
+        <emphasis>PMB Administrator's Guide</emphasis>, Tools.</para>
 
-        <para>Once a borrower card number has been defined, click to reach the
-        data entry screen for new borrower information.</para>
+        <para lang='en'>Once a borrower card number has been defined, click on the Next button to display the New borrower data entry screen.</para>
 
-        <para>Note: Validation (Click on the next button) is automatic with a
-        barcode reader.</para>
+        <para lang='en'>Note: Validation (Click on the next button) is automatic with a barcode reader.</para>
       </sect3>
 
       <sect3 id="circ_emprcreate_2">
-        <title lang="es">Enter the borrower data</title>
+        <title lang="en">Enter the borrower's data</title>
 
-        <para>You can enter the personal information about the borrower on
+        <para lang='en'>You can enter the borrower's personal data on
         this screen.</para>
 
         <figure>
-          <title lang="es">Circulation &gt; New Borrower</title>
+          <title lang="en">Circulation &gt; New Borrower</title>
 
           <mediaobject>
             <imageobject>
@@ -482,60 +572,43 @@
           </mediaobject>
         </figure>
 
-        <para>If personnalisable fields were defined in
-        <emphasis>Administration &gt; Bororwers &gt; Personalisable
-        Parameters</emphasis>, they will be visible at the bottom of the
-        borrower file. On the following screen, you can complete the required
-        personalisable parameters. To enter a different barcode, replace with
-        the barcode of your choice or rescan the new barcode.</para>
+        <para lang='en'>If new fields were defined in <emphasis>Administration &gt; Borrowers &gt; Customizable fields</emphasis>, they will be visible at the bottom of the borrower's fiche. On the above screen, you will notice the new field "Corporate Name". To enter a different barcode, replace the entry with a barcode of your choice or scan the new barcode.</para>
 
-        <para>If you enter a barcode which is already allocated, PMB will give
-        you an error message.</para>
+        <para lang='en'>If you enter a barcode that is already allocated, PMB will display an error message.</para>
 
-        <para>To ntoe :</para>
+        <para lang='en'>Note :</para>
 
         <itemizedlist>
           <listitem>
-            <para>A surname must always be entered</para>
+            <para lang='en'>A last name must always be entered</para>
           </listitem>
 
           <listitem>
-            <para>A forename must always be entered</para>
+            <para lang='en'>A first name must always be entered</para>
           </listitem>
 
           <listitem>
-            <para>The date of birth is not mandatory if the parameter
-            empr.birthdate_optional is selected (has a value of 1). For more
-            information, consult the <emphasis>PMB Administrator's
-            Guide</emphasis>, <emphasis>Utils</emphasis> chapter,
-            <emphasis>Parameters</emphasis> section.</para>
+            <para lang='en'>The date of birth is among the statistical data required by regional library services for libraries within their networks. It is mandatory unless the parameter empr.birthdate_optional has been set to 1. For more information, consult the <emphasis>PMB Administrator's Guide, Tools, Parameters</emphasis>.</para>
           </listitem>
 
           <listitem>
-            <para>The fields <emphasis>OPAC ID</emphasis> and <emphasis>OPAC
-            password</emphasis> define the login ID the borrower can use in
-            the OPAC (normally situated at the left of the screen). If these
-            fields are not edited before creation of the borrower, they
-            willhave the following values by default :</para>
+            <para lang='en'>The fields <emphasis>OPAC Login ID</emphasis> and <emphasis>OPAC password</emphasis> define the login ID of the borrower in the OPAC (usually situated in the left column). If these fields are not filled in when adding a new reader they will have the following values by default :</para>
 
             <itemizedlist>
               <listitem>
-                <para>for the ID : First letter of forename + surname.</para>
+                <para lang='en'>for the Login ID : First letter of first name + last name.</para>
               </listitem>
 
               <listitem>
-                <para>for the password: year of birth (yyyy) if it is entered,
+                <para lang='en'>for the password: year of birth (yyyy) if it is entered,
                 otherwise 0.</para>
               </listitem>
             </itemizedlist>
           </listitem>
 
           <listitem>
-            <para>the possible personalised fields are displayed at the end of
-            the borrower file. They allow you to add all types of information
-            to a borrower file. For more information, consult the
-            <emphasis>PMB Administrator's Guide</emphasis>,
-            <emphasis>Borrowers</emphasis> chapter.</para>
+            <para lang='en'>new fields, if any, are displayed at the bottom of the borrower's fiche. They enable you to add all types of data to a borrower's fiche. For more information, consult the <emphasis>PMB Administrator's Guide</emphasis>,
+            <emphasis>Borrowers</emphasis>.</para>
           </listitem>
         </itemizedlist>
       </sect3>
@@ -543,16 +616,15 @@
   </sect1>
 
   <sect1 id="circ_visu">
-    <title lang="es">Display</title>
+    <title lang="en">Display items</title>
 
     <sect2 id="circ_visu_ex">
-      <title lang="es">Copy by barcode</title>
+      <title lang="en">by barcode</title>
 
-      <para>Enter a barcode to display the information about the corresponding
-      copy.</para>
+      <para lang='en'>Enter a barcode to display the corresponding item entry.</para>
 
       <figure>
-        <title lang="es">Circulation &gt; Display &gt; Copy by barcode; first
+        <title lang="en">Circulation &gt; Display items &gt; by barcode; first
         screen</title>
 
         <mediaobject>
@@ -563,7 +635,7 @@
       </figure>
 
       <figure>
-        <title lang="es">Circulation &gt; Display &gt; Copy by barcode ; results
+        <title lang="en">Circulation &gt; Display items &gt; by barcode ; results
         screen</title>
 
         <mediaobject>
@@ -575,22 +647,16 @@
     </sect2>
 
     <sect2 id="circ_visu_rech">
-      <title lang="es">Item by author/title</title>
+      <title lang="en">Item by author/title</title>
 
-      <para>You will see here a screen which works like the search section in
-      the catalogue. (See later on the <emphasis>Catalogue</emphasis>
-      chapter). You can enter a title or an author as the starting point of
-      your search.</para>
+      <para lang='en'>Here you get a screen which works like the search section in catalogue. (See <emphasis>Catalogue</emphasis> later on). You can enter a title or an author as the starting point of your search.</para>
 
-      <para>Truncations are usable here, using regular expressions. To obtain
-      more information about this subject, click on the link
-      <emphasis>"regular expressions"</emphasis>.</para>
+      <para lang='en'>You can use truncations here with regular expressions. To find more about this subject, click on the link <emphasis>"regular expressions"</emphasis>.</para>
 
-      <para>You can also search for an item by it's ISBN, it's commerce number
-      (EAN), or as above, by it's copy number.</para>
+      <para lang='en'>You can also search by ISBN, commercial number (EAN), or as above, by accessions number (barcode).</para>
 
       <figure>
-        <title lang="es">Circulation &gt; Display &gt; Item by author/title</title>
+        <title lang="en">Circulation &gt; Display items &gt; by author/title</title>
 
         <mediaobject>
           <imageobject>
@@ -602,40 +668,28 @@
   </sect1>
 
   <sect1 id="circ_resa">
-    <title lang="es">Holds</title>
+    <title lang="en">Holds</title>
 
-    <para>PMB allows the placing of hold requests on items for a borrower.
-    Holds are available in the circulation tab in a borrower file (item loans)
-    and, depending on the parameterisation, within the OPAC, from the borrower
-    file. (For more information about parameterising the OPAC, consult the
-    <emphasis>PMB Administrator's Guide</emphasis>.)</para>
+    <para lang='en'>PMB allows you to place holds on items for borrowers. Holds are accessible in the Circulation tab in a borrower's fiche (loan items) and, depending on the settings, from borrower's fiche in the OPAC. (For more information about configuring the OPAC, consult the <emphasis>PMB Administrator's Guide</emphasis>.)</para>
 
-    <para>Advanced hold management is available from PMB version 1.3
-    onwards.</para>
+    <para lang='en'>From version 1.3 onwards, PMB has an Advanced hold management feature.</para>
 
     <sect2 id="circ_resa_encours">
-      <title lang="es">in progress</title>
+      <title lang="en">Outstanding</title>
 
-      <para>In this screen, current holds are displayed. The rank within the
-      file is specified if many borrowers have held the same item.</para>
+      <para lang='en'>This screen displays current holds. A waiting list in order of ranking is displayed if many borrowers have placed the same item on hold.</para>
 
-      <para>The holds are inserted as unvalidated. Once a hold has been added,
-      the person responsible for the holds finds the corresponding items on
-      the shelves, and holds (that is puts aside) these items. To edit the
-      list of items to retrieve from the shelves, in the
-      <emphasis>Editions</emphasis> tab, click on the menu item
-      holds<emphasis> to process</emphasis>. (For more information, see <xref
-      linkend="edit" />).</para>
+      <para lang='en'>Holds are displayed as unconfirmed. As soon as a hold is added, the officer in charge of holds retrieves the corresponding items on the shelves, and puts them aside. To edit the list of items to retrieve from the shelves, click on the tab<emphasis>Management</emphasis>, menu <emphasis>Process items on hold</emphasis>. (For more information, see <xref linkend="edit" />).</para>
 
-      <para>The barcodes of the items which then put aside are scanned. The
+      <para lang='en'>The barcodes of the items which then put aside are scanned. The
       holds are then "validated".</para>
 
-      <para>If you wish to delete a hold, Click the
+      <para lang='en'>If you wish to delete a hold, Click the
       <emphasis>Delete</emphasis> option, then click on the button<emphasis>
       Validate the deletions</emphasis>.</para>
 
       <figure>
-        <title lang="es">Circulation &gt; Holds &gt; In progress</title>
+        <title lang="en">Circulation &gt; Holds &gt; In progress</title>
 
         <mediaobject>
           <imageobject>
@@ -644,25 +698,25 @@
         </mediaobject>
       </figure>
 
-      <para>You can print the relevant hold confirmation letters. To do this,
+      <para lang='en'>You can print the relevant hold confirmation letters. To do this,
       click on the button <emphasis>Confirmation Letters</emphasis></para>
     </sect2>
 
     <sect2 id="circ_resa_depassee">
-      <title lang="es">Expired</title>
+      <title lang="en">Expired</title>
 
-      <para>The screen of expired holds lists the holds which were not
+      <para lang='en'>The screen of expired holds lists the holds which were not
       cancelled and for which the valid until date is past. You must therefore
       delete them. To delete a hold, select the <emphasis>Delete</emphasis>
       option then click on the button<emphasis> Validate the
       deletions</emphasis>.</para>
 
-      <para>You can, if you wish, leave additional time even with expired
+      <para lang='en'>You can, if you wish, leave additional time even with expired
       holds. In this case, do not delete the expired holds, until after the
       end of the extra time.</para>
 
       <figure>
-        <title lang="es">Circulation &gt; holds &gt; expired</title>
+        <title lang="en">Circulation &gt; holds &gt; expired</title>
 
         <mediaobject>
           <imageobject>
@@ -673,16 +727,16 @@
     </sect2>
 
     <sect2 id="circ_resa_docranger">
-      <title lang="es">Items to shelve</title>
+      <title lang="en">Items to shelve</title>
 
-      <para>The list of items to shelve contains held documents, which have
+      <para lang='en'>The list of items to shelve contains held documents, which have
       normally been removed from the shelves and held with the borrower name,
       and then the hold was deleted. The holds are placed, in most cases, at
       the library reception counter; "items to shelve" allows you to take
       stock of the times which must be reshelved.</para>
 
       <figure>
-        <title lang="es">Circulation &gt; holds &gt; to shelve</title>
+        <title lang="en">Circulation &gt; holds &gt; to shelve</title>
 
         <mediaobject>
           <imageobject>

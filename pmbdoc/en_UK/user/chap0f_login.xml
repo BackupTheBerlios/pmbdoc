@@ -3,18 +3,18 @@
   <title id="login">The Home page</title>
 
   <sect1 id="gestion_login">
-    <title lang="es">Identification, username and password</title>
+    <title lang="en">Identification, username and password</title>
 
-    <para>Whenever you launch PMB you will be presented with a screen whch
-    asks for a username and password.</para>
+    <para lang="en">Whenever you launch PMB a login screen is displayed asking for a
+    username and password.</para>
 
-    <para>This username and password were given to you by your administrator.
+    <para lang="en">This username and password were given to you by your administrator.
     If you are the library IT administrator who installed PMB, consult the
     chapter on <emphasis>Users </emphasis>in the <emphasis>PMB Administrator's
     Guide</emphasis>.</para>
 
     <figure>
-      <title lang="es">login screen</title>
+      <title lang="en">login screen</title>
 
       <mediaobject>
         <imageobject>
@@ -23,15 +23,15 @@
       </mediaobject>
     </figure>
 
-    <para>By default, if no user accounts have been created, connect with
+    <para lang="en">By default, if no user accounts have been created, connect with
     username <emphasis>admin</emphasis> and password
     <emphasis>admin</emphasis>.</para>
 
-    <para>At the top left are two tabs: Management and OPAC. If you click on
+    <para lang="en">At the top left are two tabs: Management and OPAC. If you click on
     OPAC, the OPAC will be displayed.</para>
 
     <figure>
-      <title lang="es">licence screen</title>
+      <title lang="en">licence screen</title>
 
       <mediaobject>
         <imageobject>
@@ -40,23 +40,15 @@
       </mediaobject>
     </figure>
 
-    <para>Once connected, the PMB user licence (CeCILL licence) is
+    <para lang="en">As soon as connected, the PMB user licence (CeCILL licence) is
     displayed.</para>
   </sect1>
 
   <sect1 id="gestion_changepass">
-    <title lang="es">Changing your password</title>
+    <title lang="en">Changing your password</title>
 
-    <para>The <emphasis role="bold">user preferences</emphasis> are accessible
-    at any time from the link <emphasis role="bold">edit your
-    account</emphasis>, to be found at the top right of the screen (note: the
-    user identified here is the "librarian" with access privileges to the PMB
-    management interface). For more information see <xref
-    linkend="prefs" />.</para>
+    <para lang="en">The <emphasis role="bold">user preferences</emphasis> are accessible at any time from the link <emphasis role="bold">edit your account</emphasis>, to be found at the top right of the screen (note: the user identified here is the "librarian" with access privileges to the PMB management interface). For more information see <xref linkend="prefs" />.</para>
 
-    <para>You can edit your password from the user preferences, or ask your
-    PMB administrator to change it for you. For more information on user
-    administration options, consult the <emphasis>PMB Administrator's
-    Guide</emphasis>.</para>
+    <para lang="en">You can edit your password from the user preferences, or ask your PMB administrator to change it for you. For more information on user administration options, consult the <emphasis>PMB Administrator's Guide</emphasis>.</para>
   </sect1>
 </chapter>
