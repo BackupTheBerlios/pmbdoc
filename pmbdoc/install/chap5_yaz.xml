@@ -1,63 +1,110 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <title lang='fr'>Compiler YAZ pour activer le client z39.50</title>
+  <title lang='es'>Compilar YAZ para activar el cliente z39.50</title>
+  
 
   <para lang='fr'>YAZ est une bibliothèque libre de fonctions pour PHP éditée par
   IndexData au Danemark. Cette bibliothèque de fonctions est nécessaire pour
   activer l'import z39.50 dans PMB (pour plus d'infos, consulter le <emphasis>Guide de
   l'Utilisateur</emphasis> dans la section <emphasis>Catalogage</emphasis>).</para>
+  <para lang='es'>YAZ es una biblioteca libre de funciones para PHP editada por 
+  IndexData en Dinamarca. Esta biblioteca de funciones es necesaria para 
+  activar la importación z39.50 en PMB (para más información, consulta la <emphasis>Guía del
+  Usuario </emphasis> en la sección <emphasis>Catalogación</emphasis>).</para>
+  
 
   <para lang='fr'>Sous EasyPHP (donc sous Windows) YAZ est facilement accessible et
   nécessite le plus souvent de cocher une seule case dans l'interface
   d'EasyPHP (chercher Extensions PHP). Sous Linux ce n'est pas souvent aussi
   simple. Voici quelques conseils pour compiler YAZ et activer l'import z39.50
   dans votre machine.</para>
+  <para lang='es'>Bajo EasyPHP (es decir en Windows) YAZ está fácilmente accesible y 
+  necesita, en la mayoría de los casos, tan solo marcar una casilla de la 
+  interfície de EasyPHP (buscar Extensiones PHP), para activarla. Bajo Linux no es tan amenudo 
+  así de simple. Aquí encontrarás algunos consejos para compilar YAZ y activar la importación z39.50
+  en tu ordenador.</para>
+
 
   <para lang='fr'>Compilation de la librairie PHP/YAZ sous Mandrake Linux 8.2</para>
+  <para lang='es'>Compilación de la librería PHP/YAZ bajo Mandrake Linux 8.2</para>
+  
 
   <orderedlist>
     <listitem>
       <para lang='fr'>Installer le package rpm php-devel (téléchargeable sur
       fr.rpmfind.net ou sur mandrake.com)</para>
+      <para lang='es'>Instalar el paquete rpm php-devel (descargable en 
+	  fr.rpmfind.net o en mandrake.com)</para>
+	  
     </listitem>
 
     <listitem>
       <para lang='fr'>Télécharger le source de YAZ sur le site
       http://www.indexdata.dk/yaz à'adresse
       http://ftp.indexdata.dk/pub/yaz/yaz-2.0.9.tar.gz</para>
+      <para lang='es'>Descargar la fuente YAZ de la página 
+      http://www.indexdata.dk/yaz à'adresse
+      http://ftp.indexdata.dk/pub/yaz/yaz-2.0.9.tar.gz</para>
+	  
     </listitem>
 
     <listitem>
       <para lang='fr'>Décompresser le fichier yaz-2.0.9.tar.gz</para>
+      <para lang='es'>Descomprime el archivo yaz-2.0.9.tar.gz</para>
 
       <para lang='fr'><literal>tar xvzf yaz-2.0.9.tar.gz</literal></para>
+      <para lang='es'><literal>tar xvzf yaz-2.0.9.tar.gz</literal></para>
+	  
     </listitem>
 
     <listitem>
       <para lang='fr'>Compiler yaz : se placer dans le répertoire yaz-2.0.9 (cd
       yaz-2.0.9) et taper successivement les commandes :</para>
+      <para lang='es'>Compila yaz : colocarlo en el directorio yaz-2.0.9 (cd
+      yaz-2.0.9) y introducir sucesivamente los comandos :</para>
 
       <para lang='fr'><literal>./configure make make install</literal></para>
+      <para lang='es'><literal>./configure make make install</literal></para>
+	  
     </listitem>
 
     <listitem>
       <para lang='fr'>Aller dans le répertoire /usr/src/php-devel/extensions/yaz</para>
+      <para lang='es'>Ve al directorio /usr/src/php-devel/extensions/yaz</para>
+	  
 
       <para lang='fr'><literal>cd /usr/src/php-devel/extensions/yaz</literal></para>
+      <para lang='es'><literal>cd /usr/src/php-devel/extensions/yaz</literal></para>
+	  
 
       <para lang='fr'>et taper les commandes :</para>
+      <para lang='es'>y introduce los comandos :</para>
+	  
 
       <para lang='fr'><literal>phpize ./configure --with-yaz=/usr/local/bin
       </literal></para>
+      <para lang='es'><literal>phpize ./configure --with-yaz=/usr/local/bin
+      </literal></para>
+	  
 
       <para lang='fr'>repérer le répertoire des extensions php dans l'affichage qui suit
       la commande ./configure :</para>
+      <para lang='es'>situar el directorio de las extensiones php visualizándolo con 
+	  el comando ./configure :</para>
+	  
 
       <para lang='fr'><literal>checking for PHP extension directory...
       /usr/lib/php/xxxxxx</literal> ou xxxxxx dépend de votre version de
       php</para>
+      <para lang='es'><literal>checking for PHP extension directory...
+      /usr/lib/php/xxxxxx</literal> o xxxxxx dependiendo de vuestra versión 
+	  de php</para>
+	  
 
       <para lang='fr'><literal>make make install</literal></para>
+      <para lang='es'><literal>make make install</literal></para>
+	  
     </listitem>
 
     <listitem>
@@ -65,6 +112,11 @@
       répertoire des extensions php : /usr/lib/php/extensions (cp
       /usr/lib/php/xxxxxx/yaz.so /usr/lib/php/extensions) et ajouter la ligne
       extension = yaz.so dans le fichier /etc/php.ini</para>
+      <para lang='es'>Copiar después el archivo /usr/lib/php/xxxxxx/yaz.so en el 
+	  directorio de extensiones php : /usr/lib/php/extensions (cp
+      /usr/lib/php/xxxxxx/yaz.so /usr/lib/php/extensions) y añade la línea 
+	  extension = yaz.so en el archivo /etc/php.ini</para>
+	  
     </listitem>
   </orderedlist>
 </chapter>
