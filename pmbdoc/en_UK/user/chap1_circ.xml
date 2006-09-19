@@ -6,7 +6,7 @@
   library's holdings in terms of copies of documents and making them available
   to the readers. We often refer to the latter as the charging system.</para>
 
-  <para lang='en'>The side menu of the circulation tab shows 5 headings : Circulation, Display items, Holds, Reminders and Suggestions.</para>
+  <para lang='en'>The side menu of the circulation tab shows 5 headings : Circulation, Display items, Holds, Overdue notices and Suggestions.</para>
 
   <para lang='en'><emphasis>Circulation</emphasis> is for managing readers and
   loans.</para>
@@ -17,7 +17,7 @@
   <para lang='en'><emphasis>Holds</emphasis> enables you to manage holds placed on works
   available in the library by readers.</para>
 
-  <para lang='en'><emphasis>Reminders</emphasis> corresponds to overdue notices to be sent readers for unreturned items and to the recoveries to be effected. This sub-menu is available only if the Financial Management module is enabled. For more details consult the PMB Administrator's Guide, Financial management.</para>
+  <para lang='en'><emphasis>Overdue notices</emphasis> corresponds to overdue notices to be sent readers for unreturned items and to the recoveries to be effected. This sub-menu is available only if the Financial Management module is enabled. For more details consult the PMB Administrator's Guide, Financial management.</para>
 
   <para lang='en'><emphasis>Suggestions</emphasis> offers staff and readers alike the possibility to make suggestions for acquisition.</para>
 
@@ -647,7 +647,7 @@
     </sect2>
 
     <sect2 id="circ_visu_rech">
-      <title lang="en">Item by author/title</title>
+      <title lang="en">by author/title</title>
 
       <para lang='en'>Here you get a screen which works like the search section in catalogue. (See <emphasis>Catalogue</emphasis> later on). You can enter a title or an author as the starting point of your search.</para>
 
@@ -679,14 +679,14 @@
 
       <para lang='en'>This screen displays current holds. A waiting list in order of ranking is displayed if many borrowers have placed the same item on hold.</para>
 
-      <para lang='en'>Holds are displayed as unconfirmed. As soon as a hold is added, the officer in charge of holds retrieves the corresponding items on the shelves, and puts them aside. To edit the list of items to retrieve from the shelves, click on the tab<emphasis>Management</emphasis>, menu <emphasis>Process items on hold</emphasis>. (For more information, see <xref linkend="edit" />).</para>
+      <para lang='en'>Holds are displayed as unconfirmed. As soon as a hold is added, the officer in charge of holds retrieves the corresponding items from the shelves, and puts them aside. To edit the list of items to retrieve from the shelves, click on the tab<emphasis>Management</emphasis>, menu <emphasis>Process items on hold</emphasis>. (For more information, see <xref linkend="edit" />).</para>
 
-      <para lang='en'>The barcodes of the items which then put aside are scanned. The
+      <para lang='en'>Next the barcodes of the items put aside are scanned. The
       holds are then "validated".</para>
 
       <para lang='en'>If you wish to delete a hold, Click the
       <emphasis>Delete</emphasis> option, then click on the button<emphasis>
-      Validate the deletions</emphasis>.</para>
+      Validate deletions</emphasis>.</para>
 
       <figure>
         <title lang="en">Circulation &gt; Holds &gt; In progress</title>
@@ -705,15 +705,9 @@
     <sect2 id="circ_resa_depassee">
       <title lang="en">Expired</title>
 
-      <para lang='en'>The screen of expired holds lists the holds which were not
-      cancelled and for which the valid until date is past. You must therefore
-      delete them. To delete a hold, select the <emphasis>Delete</emphasis>
-      option then click on the button<emphasis> Validate the
-      deletions</emphasis>.</para>
+      <para lang='en'>The screen of expired holds lists the holds that were not cancelled and for which the valid date is past. You must therefore delete them. To delete a hold, select the <emphasis>Delete</emphasis> option then click on the button<emphasis> Validate deletions</emphasis>.</para>
 
-      <para lang='en'>You can, if you wish, leave additional time even with expired
-      holds. In this case, do not delete the expired holds, until after the
-      end of the extra time.</para>
+      <para lang='en'>You can, if you wish, give additional time to holds already expired. In this case, do not delete the expired holds until after the new extension period.</para>
 
       <figure>
         <title lang="en">Circulation &gt; holds &gt; expired</title>
@@ -729,11 +723,7 @@
     <sect2 id="circ_resa_docranger">
       <title lang="en">Items to shelve</title>
 
-      <para lang='en'>The list of items to shelve contains held documents, which have
-      normally been removed from the shelves and held with the borrower name,
-      and then the hold was deleted. The holds are placed, in most cases, at
-      the library reception counter; "items to shelve" allows you to take
-      stock of the times which must be reshelved.</para>
+      <para lang='en'>The list of items to shelve contains documents placed on hold that were normally removed from the shelves and held under borrowers' names, and the holds were subsequently deleted. Held items are usually kept at the library issue counter; "items to shelve" allows you to take stock of items that must be reshelved.</para>
 
       <figure>
         <title lang="en">Circulation &gt; holds &gt; to shelve</title>
@@ -744,6 +734,77 @@
           </imageobject>
         </mediaobject>
       </figure>
+    </sect2>
+  </sect1>
+  
+  <sect1 id="relances">
+    <title lang='en'>Overdue notices</title>
+    
+    <para lang='en'>Overdue notices advanced management is related to financial management. For more information about enabling the financial management feature, consult the <emphasis>PMB Administrator's Guide</emphasis>, Financial management.</para>
+	
+    <sect2 id="relances_todo">
+      <title lang='en'>to do</title>
+
+      <para lang='en'>On this screen, you can consult the list of readers whom to send overdue notices to for late returns.</para>
+
+      <figure>
+        <title lang='en'>Overdue notices to do</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/circ_relances_1.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>You can print overdue notices for every reader. These reminders vary in content depending on the overdue level. Level 2 is the lowest (slightly late).</para>
+	  
+      <para lang='en'>When the overdue notice has been sent out, you can change your reader's overdue level.</para>
+	  
+      <para lang='en'>For every reader, you can :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang='en'>see his/her barcode, name, number of late items</para>
+        </listitem>
+
+        <listitem>
+          <para lang='en'>see the last validated overdue level (corresponds to the overdue notice of the highest level, i.e., the smallest number)</para>
+        </listitem>
+
+        <listitem>
+          <para lang='en'>see the date of the last validation (corresponds to the 
+		  last overdue notice sent out)</para>
+        </listitem>
+
+        <listitem>
+          <para lang='en'>see the actual overdue level : it is the overdue level rendered by PMB in relation to the degree of lateness on documents on loan</para>
+	    </listitem>
+
+        <listitem>
+          <para lang='en'>change the overdue level, and if necessary, go to recoveries</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <sect2 id="relances_recouvr">
+      <title lang='en'>Recoveries</title>
+	  
+      <para lang='en'>Going to recoveries means transmitting a reader's accounts to a body/institution responsible for recoveries, for instance, collecting any unpaid fines.</para>
+	        
+      <para lang='en'>This screen is mainly for reference. Indeed, when a reader's account is transferred to Recoveries, they are not anymore the responsibility of the library or documentation centre.</para>
+	</sect2>
+  </sect1>
+
+  <sect1>
+    <title lang='en'>Suggestions</title>
+    
+    <para lang='en'>This feature enables you to make suggestions regarding works for acquisitions to the library or resource centre authorities.</para>
+	
+    <sect2>
+      <title lang='en'>Make a suggestion</title>
+      
+      <para lang='en'>For more information on adding a new suggestion, refer to the chapter <emphasis>Acquistions</emphasis> : <xref linkend="acquis_sugg_create" />in this guide.</para>
+	  
     </sect2>
   </sect1>
 </chapter>
