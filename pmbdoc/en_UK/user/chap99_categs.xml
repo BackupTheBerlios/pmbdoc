@@ -1,105 +1,70 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title lang='en'>Thesauri and classification schemes pre-loaded with PMB</title>
+  <title lang='en'>PMB pre-installed thesauri and classification schemes</title>
 
-  <para lang='en'>PMB dispose de trois thésaurus qui peuvent être chargés lors de
-  l'installation.</para>
+  <para lang='en'>PMB has three thesauri that can be loaded when installing the application.</para>
 
   <sect1>
-    <title lang='en'>Catégories installées avec PMB</title>
+    <title lang='en'>Thesauri installed with PMB</title>
 
     <sect2>
-      <title lang='en'>Thésaurus de l'UNESCO</title>
+      <title lang='en'>The UNESCO Thesaurus</title>
 
-      <para lang='en'>Ce thésaurus, très vaste, est un thésaurus à différentes entrées,
-      qui peut convenir à une bibliothèque ayant besoin d'un thésaurus assez
-      précis, ou à un laboratoire de recherches en sciences humaines.</para>
+      <para lang='en'>The thesaurus, fairly large, is a multi-faceted thesaurus, suitable for libraries looking for a minute subject index, or social sciences research laboratories.</para>
 
-      <para lang='en'><emphasis role="bold">Thésaurus de l'UNESCO </emphasis>copyright
-      éditions de l'UNESCO. Le groupe de développeurs de PMB a obtenu
-      l'autorisation de reproduire gratuitement le thésaurus. Pour plus
-      d'informations, consulter www.sigb.net</para>
+      <para lang='en'><emphasis role="bold">The UNESCO Thesaurus</emphasis>copyright UNESCO Publications. The PMB developers team has obtained permission to reproduce the UNESCO thesaurus on a free basis. For more information go to www.sigb.net.</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>Thésaurus Médiathèque d'Agneaux</title>
+      <title lang='en'>Agneaux Media Library Thesaurus</title>
 
-      <para lang='en'>Ce thésaurus était présent dès les débuts de PMB. Il s'agit d'une
-      contribution de François Lemarchand (http://balno.free.fr).</para>
+      <para lang='en'>This thesaurus was introduced since the early beginnings of PMB. It is a contribution of François Lemarchand (http://balno.free.fr).</para>
 
-      <para lang='en'>Ce thésaurus léger ne se veut pas fixé dans sa hiérarchie mais
-      plutôt un point de départ pour réaliser un thésaurus maison simple mais
-      adapté à vos besoins.</para>
+      <para lang='en'>This small thesaurus is not meant to remain fixed in its hierarchical structure, but rather to be a starting point towards the elaboration of a simple "home-thesaurus" well adapted to one's needs.</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>Thésaurus environnement</title>
+      <title lang='en'>Environment Thesaurus</title>
 
-      <para lang='en'>Thésaurus non déposé, adapté à un centre de documentation lié à
-      l'environnement.</para>
+      <para lang='en'>A non copyrighted thesaurus, well adapted to documentation centers specializing in environmental issues.</para>
 
-      <para lang='en'>Il s'agit d'un bon exemple pour constituer un thésaurus "maison"
-      spécialisé.</para>
+      <para lang='en'>It is a good starting point towards the elaboration of an in-house special thesaurus.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Classifications décimales installées avec PMB</title>
+    <title lang='en'>Decimal classifications installed with PMB</title>
 
-    <para lang='en'>PMB intègre une autorité correspondant à une indexation décimale.
-    Cette indexation décimale peut être l'endroit où stocker votre indexation
-    Dewey par exemple.</para>
+    <para lang='en'>Integrated in PMB is an authority file corresponding to a decimal classification. This classification can be the place where to store your Dewey classification, for instance.</para>
 
-    <para lang='en'>La classification Dewey est un système d'indexation décimale,
-    partant de 10 classes numérotées de 0 à 9, chacune possédant 10
-    sous-classes, et ainsi de suite. L'indexation se présente toujours au
-    moins sur trois chiffres (exemple : 470). Au delà des trois premiers
-    chiffres on place une séparation, marquée par un point.</para>
+    <para lang='en'>The Dewey classification is a decimal classification system, starting with ten main classes numbered from 0 to 9, each main class having ten divisions, and each division having ten sections, etc ... A classmark is represented by three digits at the base (example : 470). After the first three digits, a decimal point is used as the starting point towards minute sub-divisions.</para>
 
-    <para lang='en'>C'est à l'aide d'une indexation DEWEY à laquelle on rajoute les
-    trois premières lettres de l'auteur que sont créées le plus souvent les
-    cotes des livres dans les bibliothèques municipales.</para>
+    <para lang='en'>Dewey classications are often prefixed with the first three letters of an author's name to make up classmarks of books in public libraries.</para>
 
-    <para lang='en'>Il existe d'autres possibilités d'indexation interne, à l'aide de
-    chiffres et/ou de lettres. De même certaines listes d'indexation
-    ressemblent à la DEWEY, comme la Classification Décimale Universelle ou la
-    CDU.</para>
+    <para lang='en'>Other alpha-numeric classification systems exist with structures like the DDC, for instance, the Universal Decimal Classification (UDC).</para>
 
-    <para lang='en'>Comme pour le choix de catégories à précharger lors de
-    l'installation de PMB, il faut faire attention à choisir un système
-    d'indexation interne adapté à son fonctionnement.</para>
+    <para lang='en'>Just like for the choice of a subject index preloaded when installing PMB, it is necessary to make sure you choose a classification system adapted to it.</para>
 
     <sect2>
-      <title lang='en'>BM de Chambéry</title>
+      <title lang='en'>Chambéry Public Library</title>
 
-      <para lang='en'>La Bibliothèque Municipale de Chambéry a développé un manuel de
-      cotation, disponible depuis son <ulink
-      url="http://www.bm-chambery.fr/institution/organisation/index.htm">site</ulink>
-      sur internet. Il s'agit d'une indexation décimale, sur le principe de la
-      Dewey, avec des indices validés, notamment pour la musique.</para>
+      <para lang='en'>The Public Library of ChambÃ©ry has developed a special classification, available at <ulink url="http://www.bm-chambery.fr/institution/organisation/index.htm">site</ulink> on internet. It is a decimal system, based on the Dewey, with classmarks for music notably.</para>
 
-      <para lang='en'>Très bien conçue, cette liste d'indexation peut être cependant
-      trop fournie pour une petite bibliothèque.</para>
+      <para lang='en'>Very well designed, this classification may however be too detailed for a small library.</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>Style Dewey</title>
+      <title lang='en'>Dewey style</title>
 
-      <para lang='en'>Une indexation dérivée de la Dewey.</para>
+      <para lang='en'>A classification derived from the Dewey.</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>100 cases du savoir ou Marguerite des couleurs</title>
+      <title lang='en'>100 knowledge boxes or Colour wheel</title>
 
-      <para lang='en'>Le tableau des 100 cases du savoir ainsi que la Marguerite des
-      couleurs sont des représentations visuelles des indexations, qui peuvent
-      être affichées dans l'OPAC, et sont adaptés à l'utilisation de
-      catégories par des élèves de l'enseignement primaire et
-      secondaire.</para>
+      <para lang='en'>The table of the 100 knowledge boxes as well as the Colour wheel are the visual representations of classifications, which can be displayed in the OPAC. They are suitable for use in primary and secondary schools.</para>
 
-      <para lang='en'>Il s'agit d'une indexation style Dewey de 000 à 990, dont le
-      dernier chiffre reste 0. Il y a bien 100 indexations numérotées 00 à 99
-      avec pour troisième chiffre un 0 accolé.</para>
+      <para lang='en'>It is a Dewey style classification using only the Dewey one hundred divisions table ranging from 000 to 990.</para>
     </sect2>
   </sect1>
 </chapter>

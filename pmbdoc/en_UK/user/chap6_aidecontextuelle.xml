@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<chapter id="aide_contextuelle" lang="fr">
+<chapter id="aide_contextuelle">
   <title lang='en'>Contextual help</title>
 
-  <para lang='en'>Parmi les liens situés en haut à gauche des écrans de l'interface de
-  gestion de PMB, le point d'interrogation "?" permet d'afficher l'aide
-  contextuelle de PMB.</para>
+  <para lang='en'>Among the links located on the top right of the PMB  management interface, the question mark "?" allows the display of PMB contextual help.</para>
 
   <figure>
-    <title lang='en'>liens de navigation</title>
+    <title lang='en'>Navigation links</title>
 
     <mediaobject>
       <imageobject>
@@ -16,26 +14,21 @@
     </mediaobject>
   </figure>
 
-  <para lang='en'>L'aide contextuelle peut être activée ou désactivée à l'aide du
-  paramètre pmb dont le sous-type est <emphasis>show_help</emphasis>. Pour
-  plus d'informations, consulter le <emphasis>Guide de l'Administrateur
-  PMB</emphasis>.</para>
+  <para lang='en'>The contextual help can be enabled or disabled by setting the PMB parameter with sub-type <emphasis>show_help</emphasis>. For more information, consult the <emphasis>PMB Administrator's Guide</emphasis>.</para>
 
   <sect1>
-    <title lang='en'>Disponibilité de l'aide contextuelle</title>
+    <title lang='en'>Availability of the contextual help</title>
 
-    <para lang='en'>L'aide contextuelle est uniquement disponible en français à ce
-    jour.</para>
+    <para lang='en'>The contextual help is available in French only at the moment. English, Italian and Spanish translations are in preparation. For more information, do not hesitate to ask about these versions, go to our news list: pmb.user@sigb.net (to subscribe send an e-mail to pmb.user_request@sigb.net with SUBSCRIBE in the subjectline.</para>
   </sect1>
 
   <sect1>
-    <title lang='en'>Fonctionnement de l'aide contextuelle</title>
+    <title lang='en'>How the contextual help works</title>
 
-    <para lang='en'>L'aide contextuelle est affichée dans un popup. L'aide affichée
-    correspond à l'écran où vous étiez dans l'interface de gestion.</para>
+    <para lang='en'>The contextual help is displayed in a pop-up. The help displayed corresponds to your management interface screen.</para>
 
     <figure>
-      <title lang='en'>Aide contextuelle, popup</title>
+      <title lang='en'>The contextual help pop-up</title>
 
       <mediaobject>
         <imageobject>
@@ -44,29 +37,27 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>L'aide contextuelle permet d'intégrer à PMB le Guide de
-    l'utilisateur PMB, le Guide de l'administrateur PMB et le Guide
-    d'Installation PMB.</para>
+    <para lang='en'>The contextual help integrates the Administrator's Guide, the User's Guide and the Installation Guide within PMB.</para>
 
-    <para lang='en'>En haut de chaque page vous disposez de différents éléments :</para>
+    <para lang='en'>On top of every page, you have several elements :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>le titre du chapitre affiché</para>
+        <para lang='en'>the title of the chapter on screen</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>le titre de la section du chapitre affichée</para>
+        <para lang='en'>the section's title of the chapter on screen</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>des flèches de navigation permettant de vous déplacer d'une page
-        à l'autre pour parcourir l'aide.</para>
+        <para lang='en'>navigation arrows enabling you to go from one page to another
+		to browse the help.</para>
       </listitem>
     </itemizedlist>
 
     <figure>
-      <title lang='en'>Aide contextuelle, éléments en haut de page</title>
+      <title lang='en'>Contextual help, top page elements</title>
 
       <mediaobject>
         <imageobject>
@@ -75,11 +66,10 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>En bas de chaque page, vous trouvez différentes icones de
-    navigation.</para>
+    <para lang='en'>At the bottom of each page, you will find various navigation icons.</para>
 
     <figure>
-      <title lang='en'>Aide contextuelle, icones de navigation en bas de page</title>
+      <title lang='en'>Contextual help, bottom page navigation icons</title>
 
       <mediaobject>
         <imageobject>
@@ -88,34 +78,25 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>Les flèches gauche et droite vous permettent de vous déplacer d'une
-    page à l'autre pour parcourir l'aide.</para>
+    <para lang='en'>The left and right arrows enable you to browse the help by moving from one
+	page to another.</para>
 
-    <para lang='en'>La flèche vers le haut est un lien vers le sommaire du chapitre
-    affiché. Parmi les titres de chapitre du Guide de l'Utilisateur, on peut
-    noter par exemple les différents onglets Circulation, Catalogage,
-    Autorités et Editions.</para>
+    <para lang='en'>The top arrow is a link to the summary of the chapter on screen. Among the chapter titles of the User Guide, you can find the tabs Circulation, Catalogue, Authorities and Management.</para>
 
-    <para lang='en'>L'icône maison est un lien vers le sommaire du Guide affiché : Guide
-    de l'utilisateur, Guide de l'administrateur, Guide d'Installation.</para>
+    <para lang='en'>The "home" icon is a link to the summary of the currently displayed guide : the Administrator's Guide, the User's Guide and the Installation Guide.</para>
   </sect1>
 
   <sect1>
-    <title lang='en'>Fonctionnement par défaut</title>
+    <title lang='en'>Default operation</title>
 
-    <para lang='en'>L'installation de l'aide contextuelle se fait par l'intégration d'un
-    fichier compressé comprenant l'ensemble de la documentation et disponible
-    sur <ulink
-    url="http://www.sigb.net/documentation.zip">www.sigb.net/documentation.zip</ulink></para>
+    <para lang='en'>Installing the contextual help is done by integrating a zip archive containing all of the documentation into the PMB install directory. It is available at <ulink url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para lang='en'>Si l' administrateur de PMB n'a pas correctement installé la
-    documentation contextuelle par défaut, le lien vers l'aide contextuelle
-    "?" renverra vers les fichiers liés à l'installation et au paramétrage
-    contenus dans le répertoire doc de votre installation de PMB.</para>
+    <para lang='en'>If the PMB administrator has not correctly installed the default contextual help, the link to the contextual help "?" will redirect you to the install files and to the settings found in the doc sub-folder of your PMB installation.</para>
 
     <para lang='en'>Dans ce cas, contactez votre administrateur informatique ou lisez
     attentivement la procédure d'installation affichée dans le popup en
     dessous des liens vers les fichiers de documentation sur l'installation de
-    PMB.</para>
+    PMB.
+    In this case, contact your administrator or read carefully the installation procedure. The latter is displayed in the pop-up under the links to the documentation files of the PMB installation.</para>
   </sect1>
 </chapter>

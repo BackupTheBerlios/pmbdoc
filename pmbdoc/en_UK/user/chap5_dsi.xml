@@ -2,90 +2,394 @@
 <chapter>
   <title lang='en'>Selective Dissemination of Information</title>
 
-  <para lang='en'>La diffusion sélective de l'information (DSI) est un outil de veille
-  documentaire.</para>
+  <para lang='en'>Selective Dissemination of Information (SDI) is a documentation watch tool.</para>
 
   <para lang='en'></para>
 
   <sect1>
     <title lang='en'>Introduction</title>
 
-    <para lang='en'></para>
-
     <sect2>
       <title lang='en'>Definition</title>
 
-      <para lang='en'></para>
+      <para lang='en'><emphasis role="bold">Selective Dissemination of Information</emphasis> is a service that consists in routing to readers, on a regular basis, news alerts corresponding to their readers' profiles. It is a documentation watch tool. SDI makes it possible to inform readers of new acquisitions on particular subjects or issues.</para>
+	  
+	  <para lang='en'>One can equally refer to it as a "documentation profile" or a "personalized profile" or even a "search profile".</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>S.D.I. Private and Public</title>
+      <title lang='en'>SDI Private and Public</title>
 
-      <para lang='en'></para>
-    </sect2>
-  </sect1>
+      <para lang='en'>Selective Dissemination of Information makes it possible to alert readers about new publications or news relative to their fields of interest, enabling them to stay current. SDI allows the constant knowledge update of a user or user group. The update is carried out by routing the most recent references on a regular basis. There are two types of Selective Dissemination of Information :</para>
+	   
+      <itemizedlist>
+        <listitem>
+          <para lang='en'>one is the supply of bibliographical references corresponding to the profile of only one user: the service is then strictly "individual", that is, a "personalized profile". They are the <emphasis role="bold">private inboxes of PMB</emphasis>.</para>
+        </listitem>
 
-  <sect1>
-    <title lang='en'>Enabling S.D.I.</title>
-
-    <sect2>
-      <title lang='en'>Displaying the S.D.I. tab</title>
-
-      <para lang='en'></para>
-    </sect2>
-
-    <sect2>
-      <title lang='en'>S.D.I. and OPAC</title>
-
-      <para lang='en'></para>
+        <listitem>
+          <para lang='en'>the other is the supply of bibliographical lists of a more general coverage corresponding to the fields of interests of a homogeneous group of users. This is a "group profile" which generally triggers various "standard profiles" to be put forward. They are the <emphasis role="bold">public inboxes of PMB</emphasis>.</para>
+        </listitem>
+      </itemizedlist>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Public S.D.I.</title>
-
-    <para lang='en'></para>
+    <title>SDI Activation</title>
 
     <sect2>
-      <title lang='en'>Routing</title>
+      <title>Displaying the SDI tab</title>
 
-      <para lang='en'></para>
+      <para lang='en'><inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="images/warning.gif" />
+          </imageobject>
+        </inlinemediaobject> If SDI is not activated, you will not see the SDI tab of PMB. To activate, in Administration, Tools, Parameters, Selective Dissemination of Information, set active to 1.</para>
+
+      <para lang='en'><emphasis role="bold">Warning</emphasis> the user of PMB must have the proper access privileges to access the SDI tab. In Administration, Users, Edit, check SDI for one or more users.</para>
+
+      <para lang='en'>For more information on configuring PMB, consult the <emphasis role="bold">PMB Administrator's Guide</emphasis>. In order to help you set the SDI, here is the list of the related parameters :</para>
+
+      <table>
+        <title>Administration &gt; Tools &gt; Parameters, Selective Dissemination of Information type (sdi)</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>sub-type</entry>
+
+              <entry>value</entry>
+
+              <entry>explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>active</entry>
+
+              <entry>0</entry>
+
+              <entry>SDI activated ? 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>auto</entry>
+
+              <entry>0</entry>
+
+              <entry>SDI automatic activation ? 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry>categ_insc</entry>
+
+              <entry>0</entry>
+
+              <entry>Automatic entry in inboxes when adding new readers' categories? 0 : No 1 : Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
     </sect2>
 
     <sect2>
-      <title lang='en'>Inboxes</title>
+      <title>SDI and OPAC</title>
 
-      <para lang='en'></para>
-    </sect2>
-
-    <sect2>
-      <title lang='en'>Equations</title>
-
-      <para lang='en'></para>
-    </sect2>
-
-    <sect2>
-      <title lang='en'>Options</title>
-
-      <para lang='en'></para>
-    </sect2>
-
-    <sect2>
-      <title lang='en'>S.D.I. step-by-step how-to</title>
-
-      <para lang='en'></para>
+      <para lang='en'>Authenticated readers will be able to see SDI in the OPAC. To activate SDI in the OPAC, modify the parameter values in Administration &gt; Tools &gt; Parameters, OPAC type, section Options relating to SDI.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Private S.D.I.</title>
+    <title>Public SDI</title>
 
-    <para lang='en'></para>
+    <sect2 id="dsi_diffusion">
+      <title>Routing</title>
+
+      <para lang='en'>Routing is the last stage of SDI. Once one or more baskets are created, 	  and equations are placed in them, you can route alerts.</para>
+
+      <para lang='en'>Automatic routing displays both public and private inboxes at the same time.</para>
+    </sect2>
+
+    <sect2 id="diffusion">
+      <title>Inboxes</title>
+
+      <para lang='en'>You can manage your inboxes here. Inboxes are reservoirs of new materials. It is their contents that will be routed to readers. Here you can add, edit or delete an inbox. You can also create equations for supplying the inbox and add readers to whom new acquisitions lists are destined.</para>
+    </sect2>
+
+    <sect2 id="dsi_equations">
+      <title>Equations</title>
+
+      <para lang='en'>Equations are in fact selected advanced search strategies used for filling up inboxes</para>
+    </sect2>
+
+    <sect2 id="dsi_options">
+      <title>Options</title>
+
+      <para lang='en'>Define here filing systems for your equations and inboxes.</para>
+    </sect2>
 
     <sect2>
-      <title lang='en'>Routing</title>
+      <title>SDI : step-by-step use</title>
+
+      <para lang='en'>SDI tab : - Equations, management, click on Add to create a search equation.</para>
+
+      <figure>
+        <title>Searching or adding an inbox</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_rechercher_bannette.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>and start a search, for example :</para>
+
+      <figure>
+        <title>Advanced search</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_recherche_multicritere_.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Advanced search results</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_recherche_multicritere.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>When the results are displayed, click on "Transform into SDI equation"</para>
+
+      <para lang='en'>Give a name to the equation then Save it</para>
+
+      <figure>
+        <title>Adding a new equation</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_creation_equation_2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'><emphasis role="bold">Note </emphasis>: at any time you will be able to modify a search equation, making it possible to modify, add or remore search criteria to the equation. Display the various search equations and click on an equation to modify it.</para>
+
+      <figure>
+        <title>List of available equations display</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_rechercher_bannette_res.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>Modifying an equation</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_modification_equation.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>Inboxes, public, add : give a name to the inbox, check automatic inbox, frequency (1 e.g.), number of records (50 e.g.), choose a category of readers and check routing by email. Save</para>
+
+      <figure>
+        <title>Adding an inbox</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_creation_bannette.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>When you change a category of readers, a Javascript alert opens on the screen. This alert enables you to immediately update readers' subscriptions.</para>
+
+      <figure>
+        <title>Javascript alert</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_alerte_javascript.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title>List of inboxes</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_liste_bannette_2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>Click on the inbox, in the column "related equations" to assign one or more equations to the inbox.</para>
+
+      <figure>
+        <title>Assigning equations to an inbox</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_associer_equations_bann.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>Assigning equations to an inbox : check the equation,
+      save.</para>
+
+      <figure>
+        <title>Assigning an inbox to subscribers</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_affectation_bannette_ab.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>Click on Subscribers to choose any and Save.</para>
+
+      <figure>
+        <title>List of inboxes after assigning equations and subscribers</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_liste_bannette.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>Then procedd to edit a record corresponding to your search equation -</para>
+
+      <para lang='en'>SDI, Routing, Automatic, Next : check your inbox, click on fill. The number of records has changed.</para>
 
       <para lang='en'></para>
+
+      <figure>
+        <title>List of inboxes to carry out an action</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_liste_bannette_pour_act.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>You can then route.</para>
+
+      <figure>
+        <title>Result of an action carried out</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_vidage_remplissage_envo.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>Obviously your readers must have an email address to receive the contents of the inbox by mail. The email opens on the screen in a popup.</para>
+
+      <para lang='en'><emphasis role="bold">Warning</emphasis> the address of your SMTP server must be defined in your PHP configuration.</para>
+
+      <figure>
+        <title>Sending the contents of an inbox to subscribers</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_bannette_envoyee.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>Readers can see the inbox contents as they connect to the OPAC.</para>
+
+      <para lang='en'><figure>
+          <title>Reader's fiche display in the OPAC</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/dsi_perso_opac.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>When you click on "Access your customized information", you can see
+		the inboxes to which you subscribe.</para>
+
+      <figure>
+        <title>Reader's fiche in the OPAC, after clicking on "Access your customized information"</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_banettes_opac.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>As with any record in the OPAC, you can either expand it by clicking on the button "+" or display it by clicking on its title. Possibilities depend on the parameters of the OPAC bannette_notices_depliables. For more information, consult the PMB Administrator's Guide.</para>
+
+      <figure>
+        <title>Display of a record in the OPAC</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_notice_opac.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Private SDI</title>
+
+    <para lang='en'>Private SDI is available with PMB 2.1 stable release.
+    </para>
+
+    <para lang='en'>It allows any authenticated reader to create a personal "documentation profile". The profile enables him/her to stay current with new acquisitions of the library or resource centre corresponding to his/her fields of interest.</para>
+
+    <para lang='en'><emphasis role="bold">Caution </emphasis>Personalized SDIs created in the OPAC are visible at one place only in the PMB management interface: DSI &gt; Inboxes &gt; private</para>
+
+    <para lang='en'>Private SDI inboxes are <emphasis role="bold">not listed</emphasis>.</para>
+
+    <para lang='en'>The <emphasis role="bold">routing </emphasis>of private SDIs are <emphasis role="bold">necessarily automatic</emphasis>.</para>
+
+    <para lang='en'>Private equations are not managed from the PMB SDI tab.</para>
+
+    <para lang='en'>Private SDIs are organized as follows :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='en'>a reader creates a private inbox (no classification possible)</para>
+      </listitem>
+
+      <listitem>
+        <para lang='en'>the reader can assign only one search equation to the inbox (assigning several search equations to one private basket is not possible, different inboxes must be created)</para>
+      </listitem>
+
+      <listitem>
+        <para lang='en'>the inbox will be reserved for this reader only and cannot be routed</para>
+      </listitem>
+    </itemizedlist>
+
+    <sect2>
+      <title>Routing</title>
+
+      <para lang='en'>Routing is the last stage of SDI. Once one or more baskets are created, 	  and equations are placed in them, you can route alerts.</para>
+
+      <para lang='en'>Automatic routing displays both public and private inboxes at the same time.</para>
     </sect2>
   </sect1>
 </chapter>

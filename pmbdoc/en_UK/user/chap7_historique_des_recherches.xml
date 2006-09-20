@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<chapter id="search_history" lang="fr">
+<chapter id="search_history">
   <title lang='en'>Search history</title>
 
-  <para lang='en'>Le lien "historique" en haut à droite de l'écran affiche l'historique
-  des recherches faites dans l'interface de gestion dans un iframe (bloc de
-  l'écran).</para>
+  <para lang='en'>The "History" link at the top right of the screen displays the search history made in the management interface in an iframe (a screen block).</para>
 
   <figure>
-    <title lang='en'>Lien historique</title>
+    <title lang='en'>History link</title>
 
     <mediaobject>
       <imageobject>
@@ -17,15 +15,12 @@
   </figure>
 
   <sect1>
-    <title lang='en'>Affichage de l'historique des recherches</title>
+    <title lang='en'>Displaying the search history</title>
 
-    <para lang='en'>L'historique affiche les recherches réalisées par l'utilisateur en
-    ordre chronologique inverse. Les dernières recherches réalisées sont
-    affichées en haut de l'écran.</para>
+    <para lang='en'>The history shows the searches undertaken by the user in reverse chronological order. The latest searches are displayed on top.</para>
 
     <figure>
-      <title lang='en'>Affichage de l'historique des recherches à gauche de
-      l'écran</title>
+      <title lang='en'>Search history display to the left of the screen</title>
 
       <mediaobject>
         <imageobject>
@@ -34,11 +29,10 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>Vous avez la possibilité d'imprimer les résultats d'une recherche à
-    l'aide de l'icône imprimer.</para>
+    <para lang='en'>You can print the search results with the "Print" icon.</para>
 
     <figure>
-      <title lang='en'>Icône imprimer</title>
+      <title lang='en'>The "Print" icon</title>
 
       <mediaobject>
         <imageobject>
@@ -47,27 +41,22 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>L'ensemble des résultats d'une recherche peut être placé directement
-    dans un panier.</para>
+    <para lang='en'>All the search results can be placed directly into a basket.</para>
 
-    <para lang='en'>L'ensemble des résultats d'une recherche peut également être envoyé
-    par e-mail.</para>
+    <para lang='en'>All the search results can also be sent by e-mail.</para>
   </sect1>
 
   <sect1>
-    <title lang='en'>Mémorisation de l'historique des recherches</title>
+    <title lang='en'>Memorizing the search history</title>
 
-    <para lang='en'>L'historique des recherches est sauvegardé dans la session
-    utilisateur. Ceci vous permet de retrouver l'historique de vos recherches
-    après une déconnexion, ou une fois déconnecté de votre ordinateur de
-    travail et reconnecté sur un autre.</para>
+    <para lang='en'>The search history is memorized in the user session. You will be able to retrieve this history subsequently after a disconnection, or after logging out from your computer and connecting anew on another computer.</para>
   </sect1>
 
   <sect1>
-    <title lang='en'>Vidage de l'historique des recherches</title>
+    <title lang='en'>Clearing the search history</title>
 
     <figure>
-      <title lang='en'>Icone vider l'historique</title>
+      <title lang='en'>The "Clear history" icon </title>
 
       <mediaobject>
         <imageobject>
@@ -77,7 +66,7 @@
     </figure>
 
     <figure>
-      <title lang='en'>Icone supprimer les recherches cochées</title>
+      <title lang='en'>The "Clear checked searches" icon</title>
 
       <mediaobject>
         <imageobject>
@@ -86,22 +75,16 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>L'icone <emphasis role="bold">vider l'historique </emphasis>supprime
-    l'ensemble des recherches de l'historique.</para>
+    <para lang='en'>The icon <emphasis role="bold">Clear history </emphasis>deletes the search history entirely.</para>
 
-    <para lang='en'>L'icone <emphasis role="bold">supprimer les recherches cochées
-    </emphasis>permet de "faire le ménage" parmi les recherches. Pour
-    supprimer une ou plusieurs recherches, cochez la case située en début de
-    ligne. Répétez cette étape pour l'ensemble des recherches à supprimer.
-    Cliquez enfin sur l'icone <emphasis role="bold">supprimer les recherches
-    cochées</emphasis>.</para>
+    <para lang='en'>The icon <emphasis role="bold">Clear checked searches</emphasis> enables selective cleanups. To clear one or more searches, check the box at the beginning of the line. Repeat the operation for all the searches you wish to delete. Finally click on the icon <emphasis role="bold">Clear checked searches</emphasis>.</para>
   </sect1>
 
   <sect1>
-    <title lang='en'>Sauvegarde de l'historique des recherches</title>
+    <title lang='en'>Saving the search history</title>
 
     <figure>
-      <title lang='en'>Icône sauvegarder</title>
+      <title lang='en'>The "Save" icon</title>
 
       <mediaobject>
         <imageobject>
@@ -110,27 +93,18 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>Le bouton "<emphasis role="bold">Sauvegarder
-    l'historique</emphasis>" sauvegarde l'historique des recherches en cours.
-    Attention, ceci ne correspond pas à l'export d'un fichier historique. Pour
-    plus d'informations sur les imports et exports d'historiques de
-    recherches, consulter la section</para>
+    <para lang='en'>The icon "<emphasis role="bold">Save history</emphasis>" saves the current search history. Warning, this does not correspond to exporting a history file. For more information on search history import/export, consult the section</para>
   </sect1>
 
   <sect1 id="history_import">
-    <title lang='en'>Import/Export des recherches</title>
+    <title lang='en'>Search history Import/Export</title>
 
-    <para lang='en'>L'historique des recherches peut être exporté dans un fichier. De
-    même un tel fichier peut ensuite être réimporté dans PMB.</para>
+    <para lang='en'>A search history can be exported into a file. Conversely this file can be re-imported into PMB.</para>
 
-    <para lang='en'>Cette opération est réalisée à l'aide des icônes <emphasis
-    role="bold">exporter</emphasis> et <emphasis
-    role="bold">importer</emphasis> situées en haut de la fenêtre
-    <emphasis>historique des recherches</emphasis>.</para>
+    <para lang='en'>This operation is carried out with the icons <emphasis role="bold">export</emphasis> and <emphasis role="bold">import</emphasis> located at the top of the window <emphasis>search history</emphasis>.</para>
 
     <figure>
-      <title lang='en'>Icône exporter (les données vont de la liste vers la
-      disquette)</title>
+      <title lang='en'>The "Export" icon (the data is copied from the list into the storage disk)</title>
 
       <mediaobject>
         <imageobject>
@@ -140,8 +114,7 @@
     </figure>
 
     <figure>
-      <title lang='en'>Icône importer (les données vont de la disquette vers la
-      liste)</title>
+      <title lang='en'>The "import" icon (the data is copied from the storage disk into the list)</title>
 
       <mediaobject>
         <imageobject>
@@ -150,11 +123,10 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>L'historique des recherches est exporté dans un fichier
-    <emphasis>search.rsh. </emphasis>Vous pouvez stocker ce fichier s'il
-    correspond à une suite de recherches que vous souhaitez mémoriser.</para>
+    <para lang='en'>The search history is exported into a file <emphasis>search.rsh. </emphasis>You can save this file if it corresponds to searches you wish to keep.</para>
 
     <para lang='en'>Lorsque vous aurez besoin de relancer ces recherches, vous
-    disposerez alors d'un fichier préétabli.</para>
+    disposerez alors d'un fichier préétabli.
+    Should you need these search results later, you will have at your disposal a ready-made file.</para>
   </sect1>
 </chapter>
