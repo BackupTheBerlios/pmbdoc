@@ -1,76 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title lang='en'>Updating PMB</title>
+  <title lang="en">Updating PMB</title>
 
-  <para lang='en'>Updating an existing version of the database :</para>
+  <para lang="en">Updating an existing version of the database :</para>
 
-  <para lang='en'>Updating a version of PMB is done by replacing your installation files
-  with those contained in the ZIP archive of the new version.</para>
+  <para lang="en">Updating a version of PMB is done by replacing your
+  installation files with those contained in the ZIP archive of the new
+  version.</para>
 
-  <para lang='en'><emphasis role="bold">Caution<emphasis> :</emphasis></emphasis> After
-  every installation or version update when you install a new version over an
-  existing one, after extracting the files contained in the archive on to your
-  Web server, you imperatively have to :</para>
+  <para lang="en"><emphasis role="bold">Caution<emphasis>
+  :</emphasis></emphasis> After every installation or version update when you
+  install a new version over an existing one, after extracting the files
+  contained in the archive on to your Web server, you imperatively have to
+  :</para>
 
-  <para lang='en'><emphasis role="bold">check whether the parameters
+  <para lang="en"><emphasis role="bold">check whether the parameters
   in</emphasis></para>
 
   <itemizedlist>
     <listitem>
-      <para lang='en'>./includes/db_param.inc.php</para>
+      <para lang="en">./includes/db_param.inc.php</para>
     </listitem>
   </itemizedlist>
 
   <itemizedlist>
     <listitem>
-      <para lang='en'>./opac_css/includes/opac_db_param.inc.php</para>
+      <para lang="en">./opac_css/includes/opac_db_param.inc.php</para>
     </listitem>
   </itemizedlist>
 
-  <para lang='en'><emphasis role="bold">correspond to your configuration <emphasis>(make
-  a backup beforehand !)</emphasis></emphasis></para>
+  <para lang="en"><emphasis role="bold">correspond to your configuration
+  <emphasis>(make a backup beforehand !)</emphasis></emphasis></para>
 
-  <para lang='en'>In addition :</para>
+  <para lang="en">In addition :</para>
 
-  <para lang='en'><emphasis role="bold">You have to update the heart of your very
-  database.</emphasis></para>
+  <para lang="en"><emphasis role="bold">You have to update the heart of your
+  very database.</emphasis></para>
 
-  <para lang='en'><emphasis>Nothing will be lost</emphasis>.</para>
+  <para lang="en"><emphasis>Nothing will be lost</emphasis>.</para>
 
-  <para lang='en'>To effect this update :</para>
+  <para lang="en">To effect this update :</para>
 
   <orderedlist>
     <listitem>
-      <para lang='en'>Login as usual to PMB, the graphical style could be different,
-      there may not even be one (a rather disorderly screen display with no
-      colour or images)</para>
+      <para lang="en">Login as usual to PMB, the graphical style could be
+      different, there may not even be one (a rather disorderly screen display
+      with no colour or images)</para>
     </listitem>
 
     <listitem>
-      <para lang='en'>Go to Administration &gt; Tools &gt; Database update to update the
-      heart of your database. A series of messages will indicate to you the
-      successive updates, continue the database update with the link displayed
-      at bottom of page until you see on your screen 'Your database is
-      up-to-date in version ...'</para>
+      <para lang="en">Go to Administration &gt; Tools &gt; Database update to
+      update the heart of your database. A series of messages will indicate to
+      you the successive updates, continue the database update with the link
+      displayed at bottom of page until you see on your screen 'Your database
+      is up-to-date in version ...'</para>
 
       <figure>
-        <title lang='en'>Administration &gt; Tools &gt; Database update</title>
+        <title lang="en">Administration &gt; Tools &gt; Database
+        update</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../../../../../pmb/doc/documentation/en_UK/html-install/images/pmb_admin_outils_maj.gif" />
+            <imagedata fileref="images/pmb_admin_outils_maj.gif" />
           </imageobject>
         </mediaobject>
       </figure>
     </listitem>
 
     <listitem>
-      <para lang='en'><emphasis role="bold">if necessary,</emphasis><emphasis><emphasis
-      role="bold"> </emphasis></emphasis>you can then edit your account to
-      change your preferences, namely the display style.</para>
+      <para lang="en"><emphasis role="bold">if
+      necessary,</emphasis><emphasis><emphasis role="bold">
+      </emphasis></emphasis>you can then edit your account to change your
+      preferences, namely the display style.</para>
     </listitem>
   </orderedlist>
 
-  <para lang='en'>Do not hesitate to contact us if you run into difficulties or if you
-  have any ideas you wish to share by sending us a mail at pmb@sigb.net</para>
+  <para lang="en">Do not hesitate to contact us if you run into difficulties
+  or if you have any ideas you wish to share by sending us a mail at
+  pmb@sigb.net</para>
 </chapter>
