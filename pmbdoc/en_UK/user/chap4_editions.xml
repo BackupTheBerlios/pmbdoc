@@ -1,52 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="edit">
-  <title lang='en'>Management</title>
+  <title lang='en'>Reporting</title>
 
-  <para lang='en'>Six types d'éditions (ou de rapports) sont à votre disposition avec
-  cet onglet. Les résultats sont affichés sous la forme de tableaux dans
-  l'interface centrale de l'application.</para>
+  <para lang='en'>The Reporting tab offers six types of reports. The results are formatted as tables in the application central interface.</para>
 
   <figure>
-    <title lang='en'>Éditions, menu latéral</title>
+    <title lang='en'>Reporting information, side menu</title>
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="images/editions_menu.jpg" />
+        <imagedata fileref="images/editions_menu.gif" />
       </imageobject>
     </mediaobject>
   </figure>
 
   <sect1>
-    <title lang='en'>Exemplaires</title>
+    <title lang='en'>Loans</title>
 
-    <para lang='en'>Cette partie du menu vous permet d'accéder à des informations sur
-    les exemplaires présents dans votre bibliothèque. Vous pouvez afficher
-    :</para>
+    <para lang='en'>The Loans sub-menu enables you to access data about your library's collection. You can display :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>la liste des prêts en cours</para>
+        <para lang='en'>the list of current loans</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>la liste des exemplaires dont la date de retour prévu est
-        dépassée (retards)</para>
+        <para lang='en'>the list of items on loan with due dates expired (overdues)</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>les prêts par groupe</para>
+        <para lang='en'>loans by groups of readers</para>
       </listitem>
     </itemizedlist>
 
     <sect2 id="edit_expl_encours">
-      <title lang='en'>Prêts en cours</title>
+      <title lang='en'>Current loans</title>
 
-      <para lang='en'><emphasis>Prêts en cours </emphasis>liste tous les prêts en cours
-      et offre la possibilité d'imprimer des lettres de relance ou d'expédier
-      des mails de relance.</para>
+      <para lang='en'><emphasis>Current loans </emphasis> lists all items out on loan and enables you to print overdue notices or send overdue emails.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; Exemplaires &gt; Prêts en cours</title>
+        <title lang='en'>Reporting &gt; Loans &gt; current loans</title>
 
         <mediaobject>
           <imageobject>
@@ -55,58 +48,64 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>En dessous des résultats, vous pouvez modifier le nombre de
-      résultats de la recherche qui seront affichés sur une seule page. Pour
-      modifier ce chiffre, effacer le et remplacez le par la valeur désirée
-      puis cliquez sur <emphasis role="bold">Actualiser</emphasis>.</para>
+      <para lang='en'>Below the results page, you can modify the number of search results to display on a page. To change it, just replace the default value with your own and click on <emphasis role="bold">Update</emphasis>.</para>
 
-      <para lang='en'>Le mail ou la lettre de relance sont paramétrables en partie
-      Administration (voir le Guide de l'Administration PMB).</para>
+      <para lang='en'>You can customize the overdue email and the overdue notice in Administration (see the PMB Administrator's Guide).</para>
 
-      <para lang='en'>Pour expédier un mail de relance à un lecteur pour un exemplaire
-      en retard, cliquez sur l'icône (l'icône n'est pas visible si l'adresse
-      mail du lecteur n'est pas renseignée). <graphic
-      fileref="images/mail.jpg" /> Pour afficher une lettre de relance prête à
-      imprimer cliquez sur l'icône<graphic fileref="images/new.gif" /></para>
+      <para lang='en'>To send an overdue email to a reader for a late return, click on the icon (not visible if the reader has no email address or the email address was not entered) <graphic fileref="images/mail.jpg" />. To display a print preview of an overdue notice, click on the icon<graphic fileref="images/new.gif" />.</para>
     </sect2>
 
     <sect2 id="edit_expl_retard">
-      <title lang='en'>Exemplaires en retard</title>
+      <title lang='en'>Overdue items</title>
 
-      <para lang='en'>Liste les prêts en retard et permet d'imprimer une lettre de
-      relance personnalisée.</para>
-
-      <para lang='en'>La lettre est affichée dans une fenêtre popup Acrobat qui permet
-      un contrôle visuel ainsi que l'impression.</para>
+      <para lang='en'><emphasis>Overdue items </emphasis>lists late returns sorted by readers and enables the printing of a customized overdue notice.</para>
+      
+      <para lang='en'>The letter is displayed in print preview in a pop-up window before printing.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; Exemplaires &gt; Exemplaires en retard</title>
+        <title lang='en'>Reporting &gt; Loans &gt; overdue items</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/editions_expl_retard.jpg" />
+            <imagedata fileref="images/edit_retard_lecteur.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para lang='en'>Vous pouvez également imprimer d'un clic toutes les lettres, pour
-      cela cliquez sur <emphasis>Imprimer toutes les lettres de
-      relance</emphasis>.</para>
+      <para lang='en'>You can also print all the overdue notices at once by clicking on
+	   <emphasis>Print all overdue notices</emphasis>.</para>
     </sect2>
 
-    <sect2 id="edit_expl_pargroupe">
-      <title lang='en'>Prêts par groupes</title>
+    <sect2 id="edit_expl_retard_date">
+      <title lang='en'>Overdues by date</title>
 
-      <para lang='en'>Même logique que pour les éditions sur les exemplaires mais
-      regroupement selon les groupes. Pour plus d'information, voir <xref
-      linkend="edit_expl_encours" /></para>
+      <para lang='en'><emphasis>Overdue items by date</emphasis> lists all items overdue sorted by due date in ascending order, and enables the printing of a customized overdue notice. Earlier loans top the list.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; Exemplaires &gt; Prêts par groupes</title>
+        <title lang='en'>Reporting &gt; Loans &gt; overdues by date</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/editions_expl_groupes.jpg" />
+            <imagedata fileref="images/edit_retards_date.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='en'>You can also print all the overdue notices at once by clicking on
+	   <emphasis>Print all overdue notices</emphasis>.</para>
+    </sect2>
+
+    <sect2 id="edit_expl_pargroupe">
+      <title lang='en'>Loans by group</title>
+
+      <para lang='en'>Applies the same logic used for current loans, but here with groups of readers. For more information, see <xref linkend="edit_expl_encours" /></para>
+
+      <figure>
+        <title lang='en'>Reporting &gt; Loans &gt; loans by group</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/editions_expl_groupes.gif" />
           </imageobject>
         </mediaobject>
       </figure>
@@ -114,28 +113,20 @@
   </sect1>
 
   <sect1>
-    <title lang='en'>Réservations</title>
+    <title lang='en'>Holds</title>
 
-    <para lang='en'>Les réservations sont gérées depuis l'onglet
-    <emphasis>Circulation</emphasis>. Dans la partie de l'écran consacrée à
-    l'affichage des alertes, en bas à gauche de l'écran, apparaissent des
-    messages qui vous avertissent des nouvelles réservations placées par des
-    lecteurs, par l'OPAC, ou par des bibliothécaires.</para>
+    <para lang='en'>Holds are managed from the
+    <emphasis> Circulation</emphasis> tab. In the alert zone,	bottom of screen, on the left, you will see messages alerting you of new holds placed by readers via the OPAC or by librarians.</para>
 
-    <para lang='en'>Les états, que vous pouvez consulter dans l'onglet
-    <emphasis>Éditions</emphasis>, permettent d'aller chercher dans les rayons
-    les ouvrages qui sont réservés. Une fois mis de coté, vous pouvez alors
-    pointer dans l'onglet <emphasis>Circulation</emphasis> les ouvrages qui
-    correspondent à des réservations qui viennent d'être prises en
-    compte.</para>
+    <para lang='en'>The various status that you can consult in the <emphasis>Reporting</emphasis> tab, allows you to retrieve the works held from the shelves. Once they have been put aside, you can check in the <emphasis>Circulation</emphasis> tab the works corresponding to holds that you have just processed.</para>
 
     <sect2 id="edit_resa">
-      <title lang='en'>Réservations</title>
+      <title lang='en'>Holds</title>
 
-      <para lang='en'>Affiche la liste des réservations en cours.</para>
+      <para lang='en'>Displays the list of the works on which holds have been placed.</para>
 
       <figure>
-        <title lang='en'>Editions &gt; Réservations &gt; Réservations</title>
+        <title lang='en'>Reporting &gt; Holds &gt; current</title>
 
         <mediaobject>
           <imageobject>
@@ -144,66 +135,42 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Vous pouvez lire les informations suivantes :</para>
+      <para lang='en'>You can read the following information :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'><emphasis role="bold">Titre</emphasis> : titre principal de
-          l'ouvrage réservé. Le titre est un lien qui affiche la notice
-          correspondante avec la liste de ses exemplaires dans l'onglet
-          Catalogue. Pour plus d'informations sur l'affichage des notices,
-          consulter le Chapitre <emphasis>Catalogue</emphasis>.</para>
+          <para lang='en'><emphasis role="bold">Title</emphasis> : the main title of the work held. The title is a link displaying the corresponding record together with the list of copies in the Catalogue tab. For more information on displaying records, consult the chapter <emphasis>Catalogue</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Emprunteur</emphasis> : le lecteur qui a
-          réservé l'ouvrage. L'emprunteur est un lien qui affiche la fiche
-          lecteur dans l'onglet Circulation. Pour plus d'information sur
-          l'affichage d'une fiche lecteur, consulter le chapitre
-          <emphasis>Circulation</emphasis>, section <emphasis>Prêt de
-          documents</emphasis>.</para>
+          <para lang='en'><emphasis role="bold">Borrower</emphasis> : displays the name of the reader who placed the hold. The borrower is a link displaying the reader's fiche in the Circulation tab. For more information on displaying a reader's fiche, 		  consult <emphasis>Circulation </emphasis>, <emphasis>Loan items</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Rang</emphasis> : position dans la file
-          d'attente.</para>
+          <para lang='en'><emphasis role="bold">Rank</emphasis> : position in the queue.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Date de la réservation</emphasis></para>
+          <para lang='en'><emphasis role="bold">Hold date</emphasis></para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Retour</emphasis> : date de retour prévu
-          ou <emphasis role="bold">disponible</emphasis> si au moins un des
-          exemplaires de l'ouvrage réservé est disponible dans la
-          bibliothèque. Dans ce cas, consulter plus loin Editions &gt;
-          Réservations &gt; à traiter pour éditer une liste des exemplaires à
-          sortir des rayons pour satisfaire les réservations.</para>
+          <para lang='en'><emphasis role="bold">Return</emphasis> : scheduled due date or <emphasis role="bold">condition</emphasis> if at least one copy of the held document is available in the library. In this case, see below Reporting &gt; Holds &gt; to process, for a list of works held to be retrieved from the shelves.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Validité</emphasis> : date de fin de
-          validité de la réservation, définie dans Administration &gt; Quotas
-          si les quotas avancés ont été activés ; sinon dans Administration
-          &gt; Exemplaires &gt; Types de document. Pour plus d'informations
-          sur les quotas avancés, consulter le <emphasis>Guide de
-          l'Administrateur PMB</emphasis>, chapitre
-          <emphasis>Quotas</emphasis>, sinon consulter le <emphasis>Guide de
-          l'Administrateur PMB</emphasis>, chapitre
-          <emphasis>Exemplaires</emphasis>.</para>
+          <para lang='en'><emphasis role="bold">Validity</emphasis> : the expiry date of the hold, as defined in Administration &gt; Quotas if advanced quotas were defined; or in Administration &gt; Items &gt; media types. For more information on 		  advanced quotas, consult the <emphasis>PMB Administrator's Guide, Quotas</emphasis>, or <emphasis>Items</emphasis>.</para>
         </listitem>
       </itemizedlist>
     </sect2>
 
     <sect2 id="edit_resa_a_traiter">
-      <title lang='en'>réservations à traiter</title>
+      <title lang='en'>Holds to process</title>
 
-      <para lang='en'>Affiche la liste des réservations qui n'ont pas été encore prises
-      en compte par le personnel en charge.</para>
+      <para lang='en'>Displays the list of the holds remaining to be processes by the staff in charge.</para>
 
       <figure>
-        <title lang='en'>Editions &gt; Réservations &gt; à traiter</title>
+        <title lang='en'>Reporting &gt; Holds &gt; to process</title>
 
         <mediaobject>
           <imageobject>
@@ -212,136 +179,97 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Pour une réservation non pointée, les références d'un exemplaire
-      disponible correspondant à la réservation sont affichées. Si plusieurs
-      réservations portent sur un même ouvrage et que plusieurs exemplaires
-      sont disponibles, la liste présente chacune des réservations qui peuvent
-      être satisfaites.</para>
+      <para lang='en'>For any unchecked hold : the references of available copies corresponding to the hold are displayed. If several holds were placed on a work and several copies are available, then the list displays all the holds that can be satisfied.
+	   </para>
 
-      <para lang='en'>Si aucun exemplaire n'est disponible, la réservation est listée,
-      mais sans référence d'un exemplaire correspondant.</para>
+      <para lang='en'>If no copy is available, the hold is displayed but without any reference to a corresponding copy.</para>
 
-      <para lang='en'>A l'aide des références des réservations à traiter, déplacez vous
-      dans les rayons et sortez les exemplaires, puis pointer les en
-      Circulation &gt; Réservations &gt; En cours. Pour plus d'informations
-      sur le pointage, consultez le chapitre <emphasis>Circulation</emphasis>,
-      section <emphasis>Réservations</emphasis>.</para>
+      <para lang='en'>With the list of holds to process in hand, walk through the shelves and remove the items from the shelves. Then check them in Circulation &gt; Holds &gt; current. For more information, consult the chapter <emphasis>Circulation, Holds</emphasis>.</para>
     </sect2>
   </sect1>
 
   <sect1 id="edit_empr">
-    <title lang='en'>Lecteurs</title>
+    <title lang='en'>Borrowers</title>
 
     <sect2 id="edit_empr_encours">
-      <title lang='en'>Lecteurs en cours</title>
+      <title lang='en'>Current borrowers</title>
 
-      <para lang='en'>Cet écran vous permet de faire une recherche de lecteurs. Par
-      défaut le résultat d'une recherche portant sur tous les lecteurs est
-      affichée.</para>
+      <para lang='en'>This screen allows you to start a borrower's search. By default the search displays all the borrowers.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; Lecteurs &gt; Lecteurs en cours</title>
+        <title lang='en'>Reporting &gt; Borrowers &gt; Current borrowers</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/editions_lecteurs_encours.jpg" />
+            <imagedata fileref="images/editions_lecteurs_encours.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para lang='en'>Pour chercher un lecteur, saisissez son nom ou le début de son nom
-      puis cliquez sur OK.</para>
+      <para lang='en'>To search for a reader, enter his/her name or the first letters of his/her name and click on OK.</para>
 
-      <para lang='en'>Cliquer sur un des lecteurs dans les résultats de la recherche
-      vous affiche sa fiche dans l'onglet
-      <emphasis>Circulation</emphasis>.</para>
+      <para lang='en'>Clicking on one of the readers in the search results displays his/her fiche in the <emphasis>Circulation</emphasis>tab.</para>
 
-      <para lang='en'>En bas de la page, vous pouvez modifier le nombre de résultats
-      affichés par page. Après avoir modifié ce nombre, cliquez sur Recharger
-      pour appliquer les changements. Vous pouvez également exporter vers
-      Excel (icône de gauche) ou vers un tableur au format HTML pour
-      OpenOffice (icône de droite).</para>
+      <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML table format for OpenOffice (right icon).</para>
     </sect2>
 
     <sect2 id="edit_empr_limite">
-      <title lang='en'>Lecteurs : abonnement bientôt expiré</title>
+      <title lang='en'>Borrowers : subscription near expiry</title>
 
-      <para lang='en'>Vous pouvez également afficher les lecteurs avec une fin
-      d'abonnement proche, où dont l'abonnement est déjà expiré.</para>
+      <para lang='en'>You can also display the borrowers whose subscription is about to lapse and the ones whose subscription has already expired.</para>
 
-      <para lang='en'>PMB considère les lecteurs comme ayant un abonnement bientôt
-      expiré par rapport à la lettre de relance pour l'abonnement. Ce délai
-      est configuré dans les paramètres de PMB. Pour plus d'informations,
-      consulter le <emphasis>Guide de l'Administrateur de PMB</emphasis>,
-      chapitre <emphasis>Outils</emphasis>, section
-      <emphasis>Paramètres</emphasis>.</para>
+      <para lang='en'>PMB regards readers as having a subscription near expiry in relation to the renewal of membership letter. The delay is set in the PMB parameters. For more information, consult the <emphasis>PMB Administrator's Guide, Tools, Parameters</emphasis>.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; Lecteurs, fin d'abonnement proche</title>
+        <title lang='en'>Reporting &gt; Borrowers, subscription near expiry</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/editions_lecteurs_finabo.jpg" />
+            <imagedata fileref="images/editions_lecteurs_finabo.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para lang='en'>Pour chercher un lecteur ayant un abonnement bientôt expiré,
-      saisissez son nom ou le début de son nom puis cliquez sur OK.</para>
+      <para lang='en'>To find a particular borrower with a subscription about to lapse, click on <emphasis>Reporting, Borrowers, subscription near expiry</emphasis>.</para>
 
-      <para lang='en'>Cliquer sur un des lecteurs dans les résultats de la recherche
-      vous affiche sa fiche dans l'onglet
-      <emphasis>Circulation</emphasis>.</para>
+      <para lang='en'>Then in the search results click on the borrower to display his/her fiche in the <emphasis>Circulation</emphasis> tab.</para>
 
-      <para lang='en'>En bas de la page, vous pouvez modifier le nombre de résultats
-      affichés par page. Après avoir modifié ce nombre, cliquez sur <emphasis
-      role="bold">Recharger</emphasis> pour appliquer les changements. Vous
-      pouvez également exporter vers Excel (icône de gauche) ou vers un
-      tableur au format HTML pour OpenOffice (icône de droite).</para>
+      <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML table format for OpenOffice (right icon).</para>
     </sect2>
 
     <sect2 id="edit_empr_depasse">
-      <title lang='en'>Lecteurs : abonnement expiré</title>
+      <title lang='en'>Borrowers : subscription expired</title>
 
-      <para lang='en'>Les lecteurs ayant un abonnement expiré ne sont pas affichés parmi
-      les lecteurs en cours.</para>
+      <para lang='en'>Borrowers whose subscription has expired are not displayed in the current readers list.</para>
 
-      <para lang='en'>Vous pouvez ici afficher les lecteurs ayant un abonnement
-      expiré.</para>
+      <para lang='en'>You can display here the readers whose subscription has expired.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; Lecteurs, abonnement expiré</title>
+        <title lang='en'>Reporting &gt; Borrowers, subscription expired</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/editions_lecteurs_aboexpi.jpg" />
+            <imagedata fileref="images/editions_lecteurs_aboexpi.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para lang='en'>Pour chercher un lecteur ayant un abonnement expiré, saisissez son
-      nom ou le début de son nom puis cliquez sur OK.</para>
+      <para lang='en'>To find a borrower whose subscription has expired, click on <emphasis>Reporting, Borrowers, subscription expired</emphasis>.</para>
 
-      <para lang='en'>Cliquer sur un des lecteurs dans les résultats de la recherche
-      vous affiche sa fiche dans l'onglet
-      <emphasis>Circulation</emphasis>.</para>
-
-      <para lang='en'>En bas de la page, vous pouvez modifier le nombre de résultats
-      affichés par page. Après avoir modifié ce nombre, cliquez sur
-      <emphasis>Recharger</emphasis> pour appliquer les changements. Vous
-      pouvez également exporter vers Excel (icône de gauche) ou vers un
-      tableur au format HTML pour OpenOffice (icône de droite).</para>
+      <para lang='en'>Then in the search results click on the borrower to display his/her fiche in the <emphasis>Circulation</emphasis> tab.</para>
+	  
+	  <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML table format for OpenOffice (right icon).</para>
     </sect2>
   </sect1>
 
   <sect1 id="edit_serials">
-    <title lang='en'>Périodiques</title>
+    <title lang='en'>Serials</title>
 
     <sect2>
-      <title lang='en'>État des collections</title>
+      <title lang='en'>Serials list</title>
 
       <figure>
-        <title lang='en'>Éditions &gt; Périodiques &gt; Etat des collections</title>
+        <title lang='en'>Reporting &gt; Serials &gt; Serials list</title>
 
         <mediaobject>
           <imageobject>
@@ -350,58 +278,40 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Cet écran affiche pour chaque notice mère de périodique le nombre
-      d'exemplaires par numéro.</para>
+      <para lang='en'>This screen displays the number of copies per issue for each "parent" serial's record.</para>
 
-      <para lang='en'>Ceci permet notamment de vérifier s'il y a un numéro manquant dans
-      la collection.</para>
+      <para lang='en'>It enables you to check missing issues, for instance.</para>
 
-      <para lang='en'>La première colonne indique le numéro du périodique (bulletin), la
-      deuxième la date de publication renseignée, enfin le nombre
-      d'exemplaires catalogués.</para>
+      <para lang='en'>The first column indicates the issue number of the periodical (bulletin), the second one the publication date, and finally the number of copies in the catalogue.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>États</title>
+    <title lang='en'>Reports</title>
 
     <sect2 id="edit_procs">
-      <title lang='en'>États personnalisables</title>
+      <title lang='en'>Customized reports</title>
 
-      <para lang='en'>Cette fonction de l'onglet <emphasis>Editions</emphasis> permet
-      d'afficher à l'écran l'édition de résultats de procédures stockées,
-      personnalisables dans l'onglet administration. Ces procédures sont
-      rédigées en langage SQL et seront interprétées par le SGBD fonctionnant
-      avec PHP sur lequel tourne votre serveur.</para>
+      <para lang='en'>This function of the <emphasis>Reporting</emphasis> tab enables you to display the results of stored procedures. These procedures are customizable in the Administration tab. They are written in SQL language and are processed by the ILS using PHP on which your server operates.</para>
 
-      <para lang='en'>Si vous avez chargé le jeu de test opérationnel (data_test.sql,
-      pour plus d'informations consulter le <emphasis>Guide de
-      l'Administrateur PMB</emphasis>, chapitre <emphasis>Données
-      minimum</emphasis>), vous disposez de différents états
-      personnalisables.</para>
+      <para lang='en'>If you have loaded the test data set (data_test.sql, for more information, consult the <emphasis>PMB Administrator's Guide</emphasis>, chapter <emphasis>Minimum data</emphasis>), you already have several customized reports at your disposal.</para>
 
-      <para lang='en'>Un certain nombre de procédures sont d'emblée accessibles. Leurs
-      noms sont normalement suffisamment évocateurs. En cas de doute, lancez
-      la procédure et examinez son résultat pour en comprendre le
-      fonctionnement.</para>
+      <para lang='en'>Several stored procedures are readily available. Their names are normally quite evocative. In case of doubt, run the procedure and look at the results to understand how it works.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; États &gt; Personnalisables</title>
+        <title lang='en'>Reporting &gt; Reports &gt; customized</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/editions_etats_perso.jpg" />
+            <imagedata fileref="images/editions_etats_perso.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para lang='en'>Pour lancer un état personnalisable, cliquez sur le libellé de
-      l'état. Si des paramètres sont à spécifier, un écran intermédiaire est
-      affiché.</para>
+      <para lang='en'>To run a customized report, click on the report description. Whenever parameter values have to be specified, an intermediate screen will open.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; États &gt; Personnalisables, choix des
-        paramètres</title>
+        <title lang='en'>Reporting &gt; Reports &gt; customized, selecting parameters</title>
 
         <mediaobject>
           <imageobject>
@@ -411,8 +321,7 @@
       </figure>
 
       <figure>
-        <title lang='en'>Éditions &gt; États &gt; Personnalisables, affichage des
-        résultats d'un état personnalisable</title>
+        <title lang='en'>Reporting &gt; Reports &gt; customized, displaying the results of a customized report</title>
 
         <mediaobject>
           <imageobject>
@@ -421,51 +330,37 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>En bas de la page, vous pouvez modifier le nombre de résultats
-      affichés par page. Après avoir modifié ce nombre, cliquez sur <emphasis
-      role="">Recharger</emphasis> pour appliquer les changements. Vous pouvez
-      également exporter vers Excel (icône de gauche) ou vers un tableur au
-      format HTML pour OpenOffice (icône de droite).</para>
+     <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML table format for OpenOffice (right icon).</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Codes barres</title>
+    <title lang='en'>Barcodes</title>
 
     <sect2 id="edit_cbgen">
-      <title lang='en'>Génération libre</title>
+      <title lang='en'>Auto creation</title>
 
-      <para lang='en'>Cet outil permet d'éditer des pages de code barre, imprimables sur
-      des feuillets d'étiquettes.</para>
+      <para lang='en'>This tool allows you to generate barcodes for printing on labels leaflets.</para>
 
       <figure>
-        <title lang='en'>Éditions &gt; Codes barres &gt; Génération libre</title>
+        <title lang='en'>Reporting &gt; Barcodes &gt; auto creation</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/editions_barcodes.jpg" />
+            <imagedata fileref="images/editions_barcodes.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para lang='en'>Pour modifier la <emphasis>mise en page </emphasis>des étiquettes
-      cliquez sur <emphasis role="bold">Afficher</emphasis> puis adaptez les
-      paramètres à vos besoins.</para>
+      <para lang='en'>To modify the labels <emphasis>layout </emphasis> click on <emphasis role="bold">Display</emphasis> then adjust the settings to suit your needs.</para>
 
-      <para lang='en'>Choisissez des étiquettes de bonne qualité et imprimez les avec
-      une imprimante laser pour en améliorer la longévité. Les imprimantes jet
-      d'encre de basse qualité ont une encre qui s'efface plus rapidement, et
-      dont la définition est trop faible pour une lecture rapide du
-      code-barres.</para>
+      <para lang='en'>Choose high-quality labels and use a laserjet printer to improve their lifetime. Low-cost ink-jet printers use an ink that fades away quickly, and produce a print definition that is rather pale for barcode readers.</para>
 
-      <para lang='en'>Vous pouvez vous servir d'un fichier texte contenant les numéros à
-      imprimer, personnaliser le nom de votre centre documentaire, etc</para>
+      <para lang='en'>You can use a text file for the numbers you wish to print, personalize the name of your documentation center, etc.</para>
 
-      <para lang='en'>Le résultat est ensuite affiché dans un fenêtre Acrobat (fichier
-      PDF généré par PMB).</para>
+      <para lang='en'>The result is then displayed in an Acrobat window (PDF file generated by PMB).</para>
 
-      <para lang='en'>Vous pouvez contrôler visuellement le résultat, éventuellement le
-      sauvegarder et imprimer.</para>
+      <para lang='en'>You can preview the result, subsequently save it and print it.</para>
     </sect2>
   </sect1>
 </chapter>
