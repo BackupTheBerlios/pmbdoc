@@ -371,7 +371,7 @@
 
       <itemizedlist>
         <listitem>
-          <para lang='en'>the <emphasis role="bold">heading</emphasis> is mandatory</para>
+          <para lang='en'>the <emphasis role="bold">subject</emphasis> is mandatory</para>
         </listitem>
 
         <listitem>
@@ -379,11 +379,11 @@
         </listitem>
 
         <listitem>
-          <para lang='en'>if the subject is a sub-heading, the field <emphasis role="bold">generic term </emphasis> enables you to select the parent subject via the "..." button. To remove a selected parent subject, click on the "X" button</para>
+          <para lang='en'>if the subject is a sub-class, the field <emphasis role="bold">broader term </emphasis> enables you to select the main subject heading via the "..." button. To remove a selected broader term, click on the "X" button</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>the <emphasis role="bold">"See" reference </emphasis>allows you to establish cross-references between two sub-headings having the same description, for instance, but located at two different positions in the tree structure. For example under <emphasis>Europe</emphasis>, the sub-heading <emphasis>France</emphasis> , and under <emphasis>NATO</emphasis>, the sub-heading <emphasis>France</emphasis>.</para>
+          <para lang='en'>the <emphasis role="bold">"See" reference </emphasis>allows you to create a cross-reference between two sub-classes having the same description, for instance, but located at two different positions in the tree structure. For example under <emphasis>Europe</emphasis>, the sub-heading <emphasis>France</emphasis>, and under <emphasis>NATO</emphasis>, the sub-heading <emphasis>France</emphasis>.</para>
         </listitem>
 
         <listitem>
@@ -393,7 +393,7 @@
 
       <para lang='en'><emphasis role="bold">Delete</emphasis> enables you to delete a subject. <emphasis role="bold">Caution</emphasis> a subject cannot be deleted if it is used in a record.</para>
 
-      <para lang='en'>The <emphasis role="bold">Used in </emphasis>button enables you to identify the works classed under the subject. It starts a search by the subject in the cataloguing tab. This allows you to know why the subject cannot be deleted.</para>
+      <para lang='en'>The <emphasis role="bold">Used in </emphasis>button enables you to identify the works classified under the subject. It starts a search by the subject in the cataloguing tab. This allows you to know why the subject cannot be deleted.</para>
 
       <para lang='en'><emphasis role="bold">Comment</emphasis> : the <emphasis>Delete</emphasis> and <emphasis>Used in </emphasis>buttons are not visible when adding a new subject, but only when modifying it.</para>
     </sect2>
@@ -628,12 +628,12 @@
 
     <para lang='en'>PMB manages decimal classifications allowing you to personalize the indexing of your library collection. For more information about PMB decimal classifications, read the chapter <emphasis>PMB pre-installed thesauri and classification schemes</emphasis>.</para>
 
-    <para lang='en'>To look up a classmark, enter a search expression and click on <emphasis role="bold">Search</emphasis>. By default the screen displays all the classmarks in the database. This search is carried out on both the classmark (110) and its subject description (Metaphysics)</para>
+    <para lang='en'>To look up a class number, enter a search expression and click on <emphasis role="bold">Search</emphasis>. By default the screen displays all the class numbers in the database. This search is carried out on both the class number (110) and its subject description (Metaphysics)</para>
 
-    <para lang='en'>You can also click on <emphasis role="bold">See recently added indexes</emphasis> link to display the last ten classmarks added in the database.</para>
+    <para lang='en'>You can also click on <emphasis role="bold">See recently added class numbers</emphasis> link to display the last ten class numbers added in the database.</para>
 
     <figure>
-      <title lang='en'>Authority &gt; Classmarks</title>
+      <title lang='en'>Authority &gt; Class numbers</title>
 
       <mediaobject>
         <imageobject>
@@ -643,7 +643,7 @@
     </figure>
 
     <figure>
-      <title lang='en'>Authority &gt; Classmarks, modifying a classmark</title>
+      <title lang='en'>Authority &gt; Class numbers, modifying a class number</title>
 
       <mediaobject>
         <imageobject>
@@ -652,11 +652,11 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>You can define the following for a classmark :</para>
+    <para lang='en'>You can define the following for a class number :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>a label (mandatory)</para>
+        <para lang='en'>a notation (mandatory)</para>
       </listitem>
 
       <listitem>
@@ -664,12 +664,12 @@
       </listitem>
     </itemizedlist>
 
-     <para lang='en'><emphasis role="bold">Delete</emphasis> allows you to remove a classmark. <emphasis role="bold">Caution</emphasis> a classmark cannot be deleted if it is used in a record.</para>
+     <para lang='en'><emphasis role="bold">Delete</emphasis> allows you to remove a class number. <emphasis role="bold">Caution</emphasis> a class number cannot be deleted if it is used in a record.</para>
 
-    <para lang='en'>The <emphasis role="bold">Used in</emphasis> button allows you to identify all works with the same classmarks. This button starts a search for the classmark in the cataloguing tab. It allows you to know why a classmark cannot be deleted.</para>
+    <para lang='en'>The <emphasis role="bold">Used in</emphasis> button allows you to identify all works with the same class numbers. This button starts a search for the class number in the cataloguing tab. It allows you to know why a class number cannot be deleted.</para>
 	
-    <para lang='en'>The <emphasis role="bold">Replace with</emphasis> button allows you to replace a classmark with another one.</para>
+    <para lang='en'>The <emphasis role="bold">Replace with</emphasis> button allows you to replace a class number with another one.</para>
     
-    <para lang='en'><emphasis role="bold">Note</emphasis> : the <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and <emphasis>Replace with</emphasis> buttons are not visible when adding a new classmark, but only when modifying it.</para>
+    <para lang='en'><emphasis role="bold">Note</emphasis> : the <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and <emphasis>Replace with</emphasis> buttons are not visible when adding a new class number, but only when modifying it.</para>
   </sect1>
 </chapter>
