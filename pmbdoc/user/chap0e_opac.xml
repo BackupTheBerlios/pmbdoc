@@ -2,7 +2,7 @@
 <chapter id="useropac">
   <title lang='fr'>Le module OPAC</title>
   <title lang='es'>El módulo OPAC</title>  
-
+  <title lang="en">The OPAC module</title>
 
   <para lang='fr'>OPAC signifie <emphasis role="bold">O</emphasis>nline <emphasis
   role="bold">P</emphasis>ublic <emphasis role="bold">A</emphasis>ccess
@@ -14,6 +14,10 @@
   <emphasis role="bold">C</emphasis>atalog. El módulo OPAC permite a los
   usuarios efectuar una búsqueda en el catálogo de la biblioteca.</para>  
 
+  <para lang="en">OPAC stands for <emphasis role="bold">O</emphasis>nline <emphasis
+  role="bold">P</emphasis>ublic <emphasis role="bold">A</emphasis>ccess
+  <emphasis role="bold">C</emphasis>atalogue. The OPAC module allows readers
+  to carry out a search in the library catalogue.</para>
 
   <para lang='fr'>En fait, le module OPAC de PMB correspond à un WebPAC : OPAC
   accessible via le Web.</para>
@@ -21,14 +25,25 @@
   <para lang='es'>De hecho, el módulo OPAC de PMB corresponde a un WebPAC : OPAC
   accessible vía Web.</para>  
   
+  <para lang="en">The PMB OPAC module is in fact a WebPAC : an OPAC accessible via the
+  Web.</para>
 
   <para lang='fr'>Le <emphasis>paramétrage</emphasis> de l'OPAC est décrit dans le
   <emphasis>Guide de l'Administrateur PMB</emphasis>.</para>
   
   <para lang='es'>La <emphasis>parametrización</emphasis> del OPAC está descrita en la
   <emphasis>Guía del Administrador PMB</emphasis>.</para>
-  
-    
+
+  <para lang="en"><emphasis>How to configure</emphasis> the OPAC is described in the
+  <emphasis>PMB Administrator's Guide</emphasis>.</para>
+
+  <para lang="en">The OPAC can be separate from the PMB management interface, it can be placed
+  on a separate server. For more information about installing the OPAC consult
+  the <emphasis>PMB Installation Guide</emphasis>.</para>
+
+  <para lang="en"><emphasis role="bold">Note</emphasis> this chapter is not the OPAC
+  help, but only a quick aide-memoire. A <emphasis>Guide to the PMB OPAC
+  </emphasis>is currently in preparation.</para>
 
   <para lang='fr'>L'OPAC peut être séparé de l'interface de gestion de PMB, et placé sur
   un serveur séparé. Pour plus d'informations sur l'installation de l'OPAC
@@ -38,7 +53,12 @@
   en un servidor separado. Para más información sobre la instalación del OPAC
   consulta la <emphasis>Guía de Instalación PMB</emphasis>.</para>
   
-    
+  <para lang="en"><emphasis>How to configure</emphasis> the OPAC is described in the
+  <emphasis>PMB Administrator's Guide</emphasis>.</para>
+
+  <para lang="en">The OPAC can be separate from the PMB management interface, it can be placed
+  on a separate server. For more information about installing the OPAC consult
+  the <emphasis>PMB Installation Guide</emphasis>.</para>
 
   <para lang='fr'><emphasis role="bold">Note</emphasis> ce chapitre ne constitue pas
   l'aide de l'OPAC, mais uniquement un rapide aide-mémoire. Un <emphasis>Guide
@@ -48,12 +68,14 @@
   sobre cómo utilizar el OPAC, sino sólo un rápido resumen. Actualmente se
   está preparando una <emphasis>Guía del OPAC de PMB</emphasis>.</para>
   
-    
+  <para lang="en"><emphasis role="bold">Note</emphasis> this chapter is not the OPAC
+  help, but only a quick aide-memoire. A <emphasis>Guide to the PMB OPAC
+  </emphasis>is currently in preparation.</para>
 
   <sect1 id="useropac_access">
     <title lang='fr'>Accès à l'OPAC</title>
     <title lang='es'>Acceso al OPAC</title>
-		
+    <title lang="es">Accessing the OPAC</title>
 
     <para lang='fr'>Le catalogue OPAC du centre documentaire géré par PMB sera
     accessible par défaut à l'adresse internet suivante :</para>
@@ -61,7 +83,8 @@
     <para lang='es'>El OPAC del centro de documentación generado por PMB estará
     accesible por defecto en la siguiente dirección de internet :</para>
 	
-		
+    <para lang="en">The OPAC catalogue of the PMB-managed library will be accessible by
+    default at the following internet address :</para>
 
     <para lang='fr'><emphasis role="bold">[v1.3 à 2.2]</emphasis> <emphasis
     role="bold">http://localhost/pmb/opac_css</emphasis></para>
@@ -69,7 +92,8 @@
     <para lang='es'><emphasis role="bold">[v1.3 a 2.2]</emphasis> <emphasis
     role="bold">http://localhost/pmb/opac_css</emphasis></para>
 	
-	
+    <para lang="en"><emphasis role="bold">[v1.3 to 2.2]</emphasis> <emphasis
+    role="bold">http://localhost/pmb/opac_css</emphasis></para>	
 
     <para lang='fr'><emphasis role="bold">[v1.0 à 1.2]</emphasis>
     http://localhost/phpmybibli/opac_css</para>
@@ -77,7 +101,8 @@
     <para lang='es'><emphasis role="bold">[v1.0 a 1.2]</emphasis>
     http://localhost/phpmybibli/opac_css</para>
 	
-		
+    <para lang="en"><emphasis role="bold">[v1.0 to 1.2]</emphasis>
+    http://localhost/phpmybibli/opac_css</para>
 
     <para lang='fr'><emphasis role="bold">[pre-v1]</emphasis>
     http://localhost/phpmybibli/opac</para>
@@ -85,7 +110,8 @@
     <para lang='es'><emphasis role="bold">[pre-v1]</emphasis>
     http://localhost/phpmybibli/opac</para>
 	
-		
+    <para lang="en"><emphasis role="bold">[pre-v1]</emphasis>
+    http://localhost/phpmybibli/opac</para>		
 
     <para lang='fr'>Cependant, pour les autres postes connectés en réseau local, il
     faudra remplacer <emphasis>localhost</emphasis> par le nom réseau du
@@ -95,7 +121,9 @@
 	reemplazar el valor <emphasis>localhost</emphasis> por
     el nombre del servidor dónde está instalado PMB.</para>
 	
-		
+    <para lang="en">However, for the other workstations on a local network, you need to
+    replace <emphasis>localhost</emphasis> by the network name of the PMB
+    server.</para>		
 
     <para lang='fr'>Pour obtenir ce nom sous Windows, cliquez droit sur <emphasis>Poste
     de travail </emphasis>puis choisissez <emphasis>Identification
@@ -107,7 +135,9 @@
     <emphasis>Iidentificación réseau</emphasis>. Obtendrás el nombre del
     ordenador sobre el servidor local.</para>	
 	
-	
+    <para lang="en">To obtain this name under Windows, right-click on <emphasis>My
+    Computer</emphasis> then select <emphasis>Network ID</emphasis>. You will
+    then be shown the name of the machine on the local network.</para>	
 
     <para lang='fr'>Le catalogue en ligne produit par PMB est dynamique : il est
     automatiquement mis à jour à chaque chargement de page. Ainsi une
@@ -120,12 +150,29 @@
     modificación que se realice en la interfaz de gestión (ver siguientes
     secciones) repercute inmediatamente en el OPAC. Una obra catalogada estará
     accessible inmediatamente a través del OPAC.</para>
+
+    <para lang="en">The online catalogue produced by PMB is dynamic: It is automatically
+    updated at each reload of the page. Therefore an update made in the
+    management interface (see following sections) is reflected immediately. A
+    newly catalogued item is also accessible immediately in the OPAC.</para>
 		
   </sect1>
 
   <sect1 id="useropac_interface">
     <title lang='fr'>Interface de l'OPAC</title>
     <title lang='es'>Interfaz del OPAC</title>	
+    <title lang="es">The OPAC Interface</title>
+
+    <itemizedlist>
+      <listitem>
+      </listitem>
+
+      <listitem>
+      </listitem>
+
+      <listitem>
+      </listitem>
+    </itemizedlist>
 
     <para lang='fr'>L'OPAC de PMB affiche 3 zones principales d'informations à
     l'écran.</para>
@@ -133,11 +180,13 @@
     <para lang='es'>El OPAC de PMB está formado por 3 zonas principales de
     información.</para>	
 	
-	
+    <para lang="en">The PMB OPAC displays 3 main areas of information on the
+	screen</para>
 
     <figure>
       <title lang='fr'>écran d'accueil de l'OPAC</title>
       <title lang='es'>pantalla de inicio del OPAC</title>	  
+      <title lang="es">OPAC welcome screen</title>
 
       <mediaobject>
         <imageobject>
@@ -153,6 +202,9 @@
 		
         <para lang='es'>Una zona de "búsqueda" en la parte superior de la 
 		página.</para>		
+
+        <para lang="en">A "search" dialogue area is found at the top of the page.</para>
+
       </listitem>
 
       <listitem>
@@ -169,6 +221,12 @@
         </emphasis><emphasis>Administrador</emphasis> capítulo
         <emphasis>Herramientas</emphasis> sección
         <emphasis>Parámetros</emphasis>.</para>		
+
+        <para lang="en">Subject headings are presented in the bottom right area. Other
+        blocks can also be displayed. The OPAC is highly customizable. For
+        more information, consult the<emphasis> Administrator's Guide
+        ,</emphasis> <emphasis>Tools</emphasis> chapter,
+        <emphasis>Parameters</emphasis> section.</para>
       </listitem>
 
       <listitem>
@@ -192,6 +250,12 @@
         (Para más información consulta la Guía del Administrador PMB, capítulo
         Herramientas.</para>
 
+        <para lang="en">The left column (which can be disabled from <emphasis>Administration 
+        &gt; Tools &gt; Parameters</emphasis>) offers the reader the possibility to identify 
+        himself by entering his barcode on his reader's card and displays the address of the 
+        library. The library's address can be configured in<emphasis> Administration</emphasis> 
+        &gt; <emphasis>Tools</emphasis> &gt; <emphasis>Parameters</emphasis> (For more 
+        information consult the PMB Administrator's Guide, Tools chapter).</para>
 		
       </listitem>
     </itemizedlist>
@@ -200,6 +264,7 @@
   <sect1 id="useropac_keywords">
     <title lang='fr'>Recherche par mots-clés</title>
     <title lang='es'>Búsqueda simple</title>	
+    <title lang="en">Quick search</title>
 
     <para lang='fr'>Si vous saisissez un terme dans la zone de texte "Rechercher",
     l'OPAC affichera le résultat de votre recherche.Vous pouvez éventuellement
@@ -211,6 +276,10 @@
     búsqueda, puedes marcar o desmarcar los campos en dónde se buscará:
     título, autor, colección...</para>
 	
+    <para lang="en">If you enter a term in the "Search" textbox, the OPAC will display
+    the results of your search. You can further refine your search by checking
+    or unchecking the boxes which correspond to the elements to query : title,
+    author, series...</para>
 
     <para lang='fr'>L'OPAC de PMB conserve durant toute la durée de votre session
     (depuis le début de votre connexion, c'est à dire la première fenêtre de
@@ -221,12 +290,15 @@
     primera página del OPAC que se abre) las búsquedas que realizas y que se
     encuentran disponibles en el apartado "Historial".</para>
 
+    <para lang="en">The PMB OPAC stores all your search history throughout the duration of 
+    your session (as from connection, that is, the first OPAC window opened by you).</para>
 	
   </sect1>
 
   <sect1 id="useropac_categs">
     <title lang='fr'>Parcours des catégories</title>
     <title lang='es'>Exploración de las categorías</title>	
+    <title lang="es">Browsing the subject index</title>
 
     <para lang='fr'>Conçues pour permettre une exploration facilitée des ressources
     documentaires, les catégories correspondent à un thésaurus hiérarchisé qui
@@ -235,13 +307,16 @@
     <para lang='es'>Este apartado permite navegar por entre las categorías o materias
     del catálogo. Estas categorías corresponden a un tesauro jerárquico que
     debe crearse en PMB para poder utilizarlo y mostrarlo.</para>
+
+    <para lang="en">Designed to facilitate the exploration of resources, the subject index corresponds to a hierarchically organized thesaurus that need to be loaded with subject terms to be usable in PMB.</para>
 	
   </sect1>
 
   <sect1 id="useropac_lecteur">
     <title lang='fr'>Accès au compte lecteur depuis l'OPAC</title>
 	<title lang='es'>Acceso a la cuenta de usuario desde el OPAC</title>	
-
+    <title lang="es">Accessing readers' accounts from the OPAC</title>
+    
     <para lang='fr'>Les lecteurs enregistrés dans l'interface de gestion peuvent accéder
     à leur compte depuis l'OPAC. Ils ont besoin pour cela de leur code barre
     lecteur, qui figure sur leur carte, ainsi que de leur mot de passe.</para>
@@ -250,6 +325,10 @@
     a su cuenta de usuario desde el OPAC. Para acceder a la cuenta es
     necesario el número de carnet de usuario (código de barras) y una
     contraseña.</para>	
+
+    <para lang="en">Readers registered in the management interface can access their account 
+    from the OPAC. For that, they need their reader's barcode (or identifier) to be found on 
+    their library card, and their password as well.</para>
 
     <para lang='fr'><emphasis role="bold">Note</emphasis> : par défaut ce mot de passe
     est identique au code barre lecteur. Il peut être changé par l'interface
@@ -261,9 +340,15 @@
     interficie de gestión, o en cualquier momento por el usuario cuando accede
     a su cuenta de usuario.</para>
 
+    <para lang="en"><emphasis role="bold">Note</emphasis> : by default this password is
+    identical to the reader's barcode. It can be changed in the management
+    interface, or at any time by the reader himself by accessing his account in the
+    OPAC.</para>
+
     <figure>
       <title lang='fr'>fiche lecteur dans l'OPAC</title>
       <title lang='es'>información sobre el usuario desde el OPAC</title>	  
+      <title lang="en">OPAC reader file</title>
 
       <mediaobject>
         <imageobject>
