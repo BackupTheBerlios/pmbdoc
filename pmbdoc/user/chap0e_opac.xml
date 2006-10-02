@@ -230,7 +230,7 @@
       </listitem>
 
       <listitem>
-        <para lang='fr'>Le bandeau de gauche (il peut être désactivé depuis
+        <para lang='fr_prior_version'>Le bandeau de gauche (il peut être désactivé depuis
         <emphasis>Administration &gt; Outils &gt; Paramètres</emphasis>) offre
         la possibilité de s'identifier par le code barre de la carte de
         lecteur. Vous y trouverez aussi les coordonnées de votre bibliothèque
@@ -240,6 +240,20 @@
         plus d'informations consulter le Guide de l'Administrateur PMB,
         chapitre Outils).</para>
 		
+        <para lang='fr'>Le bandeau de gauche (il peut être désactivé depuis
+        <emphasis>Administration &gt; Outils &gt; Paramètres</emphasis>) offre
+        la possibilité au lecteur de s'identifier par un login et un mot de passe. 
+        Lors de l'enregistrement d'un nouveau lecteur dans l'onglet Circulation,
+        le login est créé automatiquement de la manière suivante : initiale du prénom suivie
+        du nom de famille (les accents sont retirés). S'il y a un homonyme, un numéro est ajouté
+        à la fin du login. Le mot de passe est fixé par défaut à l'année de naissance du lecteur.
+        Vous y trouverez aussi les coordonnées de votre bibliothèque
+        ou de votre centre de documentation. Ces coordonnées sont
+        paramétrables dans <emphasis>Administration</emphasis> &gt;
+        <emphasis>Outils</emphasis> &gt; <emphasis>Paramètres</emphasis> (Pour
+        plus d'informations consulter le Guide de l'Administrateur PMB,
+        chapitre Outils).</para>
+
         <para lang='es'>La parte de la derecha (que puede ser desactivada en el apartado
         <emphasis>Administración &gt; Herramientas &gt; Parámetros</emphasis>)
         ofrece la posibilidad de que el usuario se identifique con su número
@@ -262,12 +276,12 @@
   </sect1>
 
   <sect1 id="useropac_keywords">
-    <title lang='fr'>Recherche par mots-clés</title>
+    <title lang='fr'>Recherche simple</title>
     <title lang='es'>Búsqueda simple</title>	
     <title lang="en">Quick search</title>
 
     <para lang='fr'>Si vous saisissez un terme dans la zone de texte "Rechercher",
-    l'OPAC affichera le résultat de votre recherche.Vous pouvez éventuellement
+    l'OPAC affichera le résultat de votre recherche. Vous pouvez éventuellement
     affiner votre recherche en cochant ou non les cases qui se rapportent aux
     éléments qui seront interrogés : titre, auteur, collection...</para>
 	
@@ -282,8 +296,8 @@
     author, series...</para>
 
     <para lang='fr'>L'OPAC de PMB conserve durant toute la durée de votre session
-    (depuis le début de votre connexion, c'est à dire la première fenêtre de
-    l'OPAC que vous avez ouverte) les recherches que vous avez faites.</para>
+	les recherches que vous avez faites (depuis le début de votre connexion, c'est 
+	à dire la première fenêtre de l'OPAC que vous avez ouverte).</para>
 	
     <para lang='es'>El OPAC de PMB conserva durante la
     duración de la sesión (a partir del inicio de conexión, es decir de la
@@ -292,7 +306,10 @@
 
     <para lang="en">The PMB OPAC stores all your search history throughout the duration of 
     your session (as from connection, that is, the first OPAC window opened by you).</para>
-	
+
+	<para lang="fr">Vous pouvez utiliser le caractère étoile "*" pour utiliser une troncature.
+	dis* renverra les résultats correspondants à discipline, discrétion, discret, disparition...
+	</para>
   </sect1>
 
   <sect1 id="useropac_categs">
