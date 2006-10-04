@@ -335,8 +335,7 @@
     <title lang="es">Accessing readers' accounts from the OPAC</title>
     
     <para lang='fr'>Les lecteurs enregistrés dans l'interface de gestion peuvent accéder
-    à leur compte depuis l'OPAC. Ils ont besoin pour cela de leur code barre
-    lecteur, qui figure sur leur carte, ainsi que de leur mot de passe.</para>
+    à leur compte depuis l'OPAC. Ils ont besoin pour cela de leur identifiant ainsi que de leur mot de passe.</para>
 	
     <para lang='es'>Los usuarios registrados en la interfaz de gestión pueden acceder
     a su cuenta de usuario desde el OPAC. Para acceder a la cuenta es
@@ -347,8 +346,9 @@
     from the OPAC. For that, they need their reader's barcode (or identifier) to be found on 
     their library card, and their password as well.</para>
 
-    <para lang='fr'><emphasis role="bold">Note</emphasis> : par défaut ce mot de passe
-    est identique au code barre lecteur. Il peut être changé par l'interface
+    <para lang='fr'><emphasis role="bold">Note</emphasis> : par défaut le login est composé
+    de l'initiale du prénom du lecteur ainsi que de son nom de famille ; le mot de passe
+    est égal par défaut à l'année de naissance du lecteur. Il peut être changé par l'interface
     de gestion, ou à tout moment par le lecteur en passant par son compte
     lecteur dans l'OPAC.</para>
 
