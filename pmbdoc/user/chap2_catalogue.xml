@@ -4339,6 +4339,37 @@
 		
         <para lang='es'>La transferencia permite transferir los elementos de una cesta
         (elementos marcados i/o no marcados) de una cesta a otra cesta.</para>		
+        
+        <para lang='fr'>
+           Ajout de notices dans un panier de notices : évident
+   idem bulletin
+   idem exemplaires
+
+   Ajout d'exemplaires :
+       -de monographies dans un panier de notices : ajout des notices des
+exemplaires
+       -de monographies dans un panier de bulletin : rien, incohérent
+       -de bulletin dans un panier de bulletin, ajout des bulletins des
+exemplaires
+       -de bulletins dans un panier de notices : rien, incohérent
+
+   Ajout de notices :
+       -de monographies dans un panier de bulletins : rien, incohérent
+       -de monographies dans un panier d'exemplaires : sélection des
+exemplaires attachés aux notices
+       -de dépouillement dans un panier de bulletin : sélection des
+bulletins qui contiennent les dépouillements
+       -de dépouillement dans un panier d'exemplaires : sélection des
+exemplaires attachés aux bulletins qui contiennent les dépouillements
+
+   Ajout de bulletins :
+       -à un panier d'exemplaires : sélection des exemplaires attachés à
+ces bulletins
+       -à un panier de notices : rien, je ne savais pas s'il était
+préférable de prendre la notice chapeau du bulletin ou les dépouillements du
+bulletin, je n'ai rien pris.
+        </para>
+        
       </sect3>
 
       <sect3>
