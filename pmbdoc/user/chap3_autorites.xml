@@ -416,25 +416,10 @@
             </row>
           </tbody>
         </tgroup>
-      </table>
-
-      <para lang='fr'>En cas de rejet, le préfixe est rejeté après la virgule (ex : La
-      Fontaine, Jean de).</para>
-	  
-      <para lang='es'>En caso de prefijo, éste se coloca junto al elemento secundario (ej : La
-      Fontaine, Jean de).</para>	  
-
-      <para lang='fr'>Le rejet des préfixes des noms dépend de la nationalité des
-      auteurs. Ainsi le rejet de la particule "de" dépend de la nationalité de
-      l'auteur.</para>
-	  
-      <para lang='es'>La colocación de los prefijos depende de la nacionalidad de los
-	  autores. Por ejemplo la colocación de la particula "de" depende de la
-	  nacionalidad del autor.</para>
-	  	  
+      </table>	  	  
 
       <table>
-        <title lang='fr'>Exemples de rejets de préfixe selon les nationalités des
+        <title lang='fr'>Exemples de rejets de préfixe ou particule selon les nationalités des
         auteurs</title>
 
         <title lang='es'>Ejemplos de orden del prefijo dependiendo de la nacionalidad de los
@@ -633,8 +618,8 @@
         </listitem>
 
         <listitem>
-          <para lang='fr'>le <emphasis role="bold">renvoi voir aussi </emphasis>(nouveau
-          dans la version 1.3) permet d'enrichir les catégories par une notion
+          <para lang='fr'>le <emphasis role="bold">renvoi voir aussi </emphasis> 
+          permet d'enrichir les catégories par une notion
           d'enchaînement d'idées. Par exemple, <emphasis>Rome</emphasis> peut
           renvoyer sur <emphasis>voix</emphasis> <emphasis>romaine.</emphasis>
           Contrairement au renvoi voir, il ne s'agit pas d'un renvoi entre
@@ -1074,7 +1059,7 @@
 
       <listitem>
         <para lang='fr'>pour toute sous-collection, une collection "mère" (<emphasis
-        role="bold">sous-collection de...</emphasis>)doit être spécifiée. Pour
+        role="bold">sous-collection de...</emphasis>) doit être spécifiée. Pour
         sélectionner une collection, cliquez sur le bouton "..." et choisissez
         une collection dans le popup. Pour effacer une collection déjà
         attribuée, cliquez sur le bouton "X".</para>
@@ -1168,11 +1153,11 @@
 	la catalogación.</para>	
 
 
-    <para lang='fr'>Pour rechercher un éditeur, saisissez une expression à rechercher
+    <para lang='fr'>Pour rechercher un titre de série, saisissez une expression à rechercher
     puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
     affiche par défaut l'ensemble des éditeurs de la base.</para>
 	
-    <para lang='es'>Para buscar una editorial, introduce algunas palabras a buscar
+    <para lang='es'>Para buscar un título de serie, introduce algunas palabras a buscar
 	y después haz clic en <emphasis role="bold">Buscar</emphasis>. La pantalla
 	inicial que se muestra es el conjunto de editoriales creadas en la base de
 	datos.</para>
@@ -1215,13 +1200,6 @@
       </mediaobject>
     </figure>
 
-    <para lang='fr'>Les titres de séries ne possèdent qu'un champ éditable : le
-    titre.</para>
-	
-    <para lang='es'>Los títulos de serie sólo tienen un campo : el
-	título.</para>	
-
-
     <para lang='fr'><emphasis role="bold">Supprimer</emphasis> permet de supprimer un
     titre de série. <emphasis role="bold">Attention</emphasis> un titre de
     série ne peut être supprimé que s'il n'est utilisé dans aucune
@@ -1231,8 +1209,6 @@
 	título de serie. <emphasis role="bold">Atención</emphasis> un título de 
 	serie no puede elimarse si se utiliza en algún registro.</para>
 		
-		
-
     <para lang='fr'>Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer un titre de série par un autre, pour éliminer des doublons mals
     orthographiés par exemple.</para>
