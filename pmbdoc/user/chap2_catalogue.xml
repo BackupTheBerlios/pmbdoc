@@ -3436,7 +3436,7 @@ L'EAN est le code-barres commercial du document.</para>
     <title lang='es'>Cestas</title>	
 	
 
-    <para lang='fr'>Les paniers sont des espaces de stockages : au sein de PMB, on va
+    <para lang='fr'>Les paniers sont des listes : au sein de PMB, on va
     pouvoir y placer des notices, des bulletins (numéros d'un périodique), des
     exemplaires.</para>
 	
@@ -3447,7 +3447,7 @@ L'EAN est le code-barres commercial du document.</para>
 
     <para lang='fr'>Les paniers dans PMB vont notamment permettre le récolement du fonds
     : il s'agit d'un terme technique en bibliothéconomie pour désigner
-    l'inventaire des collections. On peut également s'en servir pour faire un
+    une vérification de l'inventaire. On peut également s'en servir pour faire un
     désherbage : il s'agit alors de supprimer du fonds les ouvrages périmés ou
     trop détériorés.</para>
 	
@@ -3459,7 +3459,7 @@ L'EAN est le code-barres commercial du document.</para>
 	
 		
 
-    <para lang='fr'>Les paniers sont le moyen de stocker une bibliographie : les
+    <para lang='fr'>Les paniers sont le moyen de préparer une bibliographie : les
     résultats de différentes recherches pour préparer une publication, un
     catalogue thématique,...</para>
 	
@@ -3469,10 +3469,10 @@ L'EAN est le code-barres commercial du document.</para>
 	
 		
 
-    <para lang='fr'>Il y a deux moyens de remplir un panier : soit en y plaçant des
+    <para lang='fr'>Il y a différents moyens de remplir un panier : soit en y plaçant des
     éléments manuellement (repérer l'icône en forme de panier lors des
     différents affichages), soit en pointant à la douchette ou en saisissant
-    des codes barres à la main.</para>
+    des codes barres à la main, ou encore en exécutant des procédures de sélection.</para>
 	
     <para lang='es'>Hay dos formas de llenar una cesta : colocando los elementos
     manualmente (en todos los registros hay un icono de una cesta), o leyendo
@@ -3481,7 +3481,7 @@ L'EAN est le code-barres commercial du document.</para>
 		
 
     <sect2 id="cat_caddie_gestion">
-      <title lang='fr'>Gestion</title>
+      <title lang='fr'>Gestion des paniers et des procédures</title>
       <title lang='es'>Gestión</title>	  
 
       <para lang='fr'>Par défaut, en partie Paniers/Gestion, c'est la gestion des
@@ -3575,8 +3575,8 @@ L'EAN est le code-barres commercial du document.</para>
             </mediaobject>
           </figure>
 
-          <para lang='fr'>Si vous développez la notice en cliquant sur le + situé devant
-          l'élément, vous pourrez consulter sa notice au format ISBD ainsi la
+          <para lang='fr'>Si vous développez la notice en cliquant sur le + 
+          situé en face de son titre, vous pourrez consulter sa notice au format ISBD ainsi la
           liste des exemplaires et des documents numériques. L'affichage de
           la notice est identique à celui que vous pouvez avoir en résultat
           d'une recherche (Catalogage &gt; Recherche).</para>
@@ -3589,8 +3589,9 @@ L'EAN est le code-barres commercial du document.</para>
 		  		  
 
           <para lang='fr'>Cependant, lors de la collecte du panier, vous pouvez avoir
-          douchetté un élément inconnu du fonds (par exemple, un livre de la
-          BDP qui n'a pas été importé dans PMB). Pour vous permettre de
+          doucheté ou saisi le code-barres d'un élément inconnu du fonds. 
+          Il peut s'agir d'un document qui ne vous appartient pas, d'un document non catalogué...
+          Pour vous permettre de
           conserver la trace de ces éléments, un panier peut également
           contenir des éléments inconnus :</para>
 		  
@@ -3657,7 +3658,7 @@ L'EAN est le code-barres commercial du document.</para>
             </mediaobject>
           </figure>
 
-          <para lang='fr'>L'écran Éditer un panier vous permet de modifier le nom, le
+          <para lang='fr'><emphasis>Éditer un panier</emphasis> vous permet de modifier le nom, le
           commentaire d'un panier, et les droits des utilisateurs sur ce
           panier.</para>
 		  
@@ -3669,7 +3670,7 @@ L'EAN est le code-barres commercial du document.</para>
 
           <para lang='fr'>Vous pouvez voir le type de panier : Panier de notices, Panier
           de bulletins, Panier d'exemplaires. Vous ne pouvez pas changer le
-          type d'un panier existant. Si vous vous êtes trompés dans la
+          type d'un panier existant. Si vous vous êtes trompé dans la
           création d'un panier, supprimez le et créez en un nouveau.</para>
 		  
           <para lang='es'>También puedes ver el tipo de cesta: Cesta de registros, Cesta
@@ -3704,8 +3705,8 @@ L'EAN est le code-barres commercial du document.</para>
           <title lang='fr'>Ajouter un panier</title>
           <title lang='es'>Añadir una cesta</title>		  
 
-          <para lang='fr'>L'écran d'ajout d'un panier est identique à celui d'Editer un
-          panier. Seul le bouton Supprimer n'y figure pas. Pour plus
+          <para lang='fr'>L'écran d'ajout d'un panier est identique à celui d'<emphasis>Editer un
+          panier</emphasis>. Seul le bouton Supprimer n'y figure pas. Pour plus
           d'informations, consulter plus haut la section <xref
           linkend="catalogue_panier_editer_un_panier" />.</para>
 		  
@@ -3716,83 +3717,6 @@ L'EAN est le code-barres commercial du document.</para>
 		  		  
         </sect4>
 
-        <sect4>
-          <title lang='fr'>Paniers installés par défaut lors de l'installation de
-          PMB</title>
-		  
-          <title lang='es'>Cestas instaladas por defecto en PMB</title>		  
-
-          <para lang='fr'>Si votre administrateur informatique a installé PMB avec les
-          "données essentielles pour démarrer rapidement" (feed_essential.sql,
-          pour plus d'informations, consulter le Guide d'Installation PMB), un
-          certain nombre de paniers ont été créés, soit à titre d'exemple,
-          soit pour faciliter la gestion de la bibliothèque.</para>
-		  
-          <para lang='es'>Si tu administrador informático ha instalado PMB con los
-          "datos esenciales para un inicio rápido" (feed_essential.sql, para
-          más información, consulta la Guía de Instalación PMB), se habrán
-          creado algunas cestas, para facilitar la gestión de la
-          biblioteca.</para>
-		  		  
-
-          <para lang='fr'><emphasis>Notices pour exposition</emphasis> panier de notices
-          exemple. Destiné à recevoir les notices d'une petite exposition, qui
-          peut ensuite être mis en avant grâce aux étagères virtuelles de
-          l'OPAC, pour plus d'informations consulter <xref
-          linkend="cat_etg" /></para>
-		  
-          <para lang='es'><emphasis>Registros para exposición</emphasis> cesta de
-          registros de ejemplo. Destinada a recibir los registros de una
-          pequeña exposición, que puede exponerse a través de las estanterías
-          virtuales del l'OPAC, para más información consulta <xref
-          linkend="cat_etg" /></para>
-
-
-		  
-
-          <para lang='fr'><emphasis>Notices pour retour BDP</emphasis> panier de notices
-          pour faciliter la gestion. Destiné à recevoir les notices des
-          exemplaires à retourner à une Bibliothèque Départementale de Prêt,
-          pour nettoyer la base après retour.</para>
-		  
-          <para lang='es'><emphasis>Registros para devolver a otra biblioteca</emphasis>
-          cestas de registros para facilitar la gestión. Destinada a recibir
-          los registros de los ejemplares a devolver a otra biblioteca, para
-          poder limpiar la base de datos después de su devolución.</para>
-		  
-		  		  
-
-          <para lang='fr'><emphasis>Exemplaires pour retour BDP</emphasis> panier
-          d'exemplaires pour faciliter la gestion. Destiné à recevoir les
-          exemplaires à retourner à une Bibliothèque Départementale de Prêt,
-          pour les sortir du prêt puis nettoyer la base après retour.</para>
-		  
-          <para lang='es'><emphasis>Ejemplares para devolver a otra
-          biblioteca</emphasis> cesta de ejemplares para facilitar la gestión.
-          Destinada a guardar los ejemplares a devolver a otra biblioteca,
-          para borrar los ejemplares después de la devolución.</para>
-		  
-		  		  
-
-          <para lang='fr'><emphasis>Notices en doublon sur titre</emphasis> panier de
-          notices pour faciliter la gestion. Destiné à recevoir les notices en
-          doublon, afin de nettoyer la base.</para>
-		  
-          <para lang='es'><emphasis>Registros duplicados</emphasis> cesta de registros
-          para facilitar la gestión. Destinada a recibir los registros
-          duplicados para posteriormente limpiar la base de datos.</para>
-		  
-		  		  
-
-          <para lang='fr'><emphasis>Jamais prêtés</emphasis> panier d'exemplaires pour
-          faciliter la gestion. Destiné à recevoir les exemplaires qui n'ont
-          jamais été prêtés.</para>
-		  
-          <para lang='es'><emphasis>Nunca prestados</emphasis> cesta de ejemplares para
-          facilitar la gestión. Destinada a recibir los ejemplares que no se
-          han prestado nunca.</para>
-		  		  
-        </sect4>
       </sect3>
 
       <sect3 id="cat_caddie_gestion_procs">
@@ -3821,86 +3745,6 @@ L'EAN est le code-barres commercial du document.</para>
         de uso de las cestas</emphasis>.</para>
 				
 
-        <sect4>
-          <title lang='fr'>Procédures installés par défaut lors de l'installation de
-          PMB</title>
-		  
-          <title lang='es'>Procedimientos instalados por defecto en PMB</title>		  
-
-          <para lang='fr'>Si votre administrateur informatique a installé PMB avec les
-          "données essentielles pour démarrer rapidement" (feed_essential.sql,
-          pour plus d'informations, consulter le Guide d'Installation PMB), un
-          certain nombre de procédures ont été créées, soit à titre d'exemple,
-          soit pour faciliter la gestion de la bibliothèque.</para>
-		  
-          <para lang='es'>Si tu administrador informático ha instalado PMB con los
-          "dotos esenciales para un inicio rápido" (feed_essential.sql, para
-          más información, consulta la Guía de Instalación PMB), se habrán
-          creado algunos procedimientos, para facilitar la gestión de la
-          biblioteca.</para>
-		  		  
-
-          <para lang='fr'><emphasis>EXPL par section / propriétaire</emphasis> procédure
-          de sélection suivant une ou plusieurs sections pour un ou plusieurs
-          propriétaires.</para>
-		  
-          <para lang='es'><emphasis>EJEMP por sección / propietario</emphasis>
-          procedimiento de selección escogiendo una o varias secciones para
-          uno o más propietarios.</para>
-		  		  
-
-          <para lang='fr'><emphasis>EXPL où cote commence par</emphasis> procédure de
-          sélection suivant les caractères de début d'une cote. Utile pour le
-          récolement notamment (vérification périodique de l'inventaire
-          réalisée par une bibliothèque).</para>
-		  
-          <para lang='es'><emphasis>EJEMP cuya signatura empieza por</emphasis>
-          procedimiento de selección escogiendo los caracteres de inicio de
-          una signatura. Útil para reunir documentos (para el inventario
-          periódico a realizar en una biblioteca).</para>
-
-		  
-
-          <para lang='fr'><emphasis>Retour BDP des exemplaires</emphasis> procédure
-          d'action permettant un changement de statut à l'ensemble des
-          exemplaires d'un panier.</para>
-		  
-          <para lang='es'><emphasis>Devolución la biblioteca X de sus
-          ejemplares</emphasis> procedimiento de acción que permite cambiar el
-          estado a todo un conjunto de ejemplares de una cesta.</para>
-		  
-		  		  
-
-          <para lang='fr'><emphasis>Notices par auteur</emphasis> procédure de sélection
-          de notices suivant un ou des auteurs.</para>
-		  
-          <para lang='es'><emphasis>Registros de un autor</emphasis> procedimiento de
-          selección de registros escogiendo los de un autor o varios autores
-          en concreto.</para>
-		  		  
-
-          <para lang='fr'><emphasis>Notices en doublons</emphasis> procédure de
-          sélection des notices doublons ayant un titre identique.</para>
-		  
-          <para lang='es'><emphasis>Registros duplicados</emphasis> procedimiento de
-          selección de registros que tengan un título idéntico.</para>
-		  
-		  		  
-
-          <para lang='fr'><emphasis>Notices sans exemplaires</emphasis> procédure de
-          sélection des notices n'ayant aucun exemplaire attaché.</para>
-		  
-          <para lang='es'><emphasis>Registros sin ejemplar</emphasis> procedimiento de
-          selección de registros que no tengan ningún ejemplar.</para>
-		  		  
-
-          <para lang='fr'><emphasis>Jamais prêtés</emphasis> procédure de sélection des
-          exemplaires qui n'ont jamais été prêtés.</para>
-		  
-          <para lang='es'><emphasis>Nunca prestados</emphasis> procedimiento de
-          selección de ejemplares que nunca se han prestado.</para>
-		  		  
-        </sect4>
       </sect3>
     </sect2>
 
@@ -4028,31 +3872,15 @@ L'EAN est le code-barres commercial du document.</para>
         <title lang='fr'>Pointage par douchette</title>
         <title lang='es'>Seleccionar con el lector de códigos de barras</title>		
 
-        <figure>
-          <title lang='fr'>Catalogage &gt; Paniers &gt; Par douchette</title>
-          <title lang='es'>Catalogación &gt; Cestas &gt; Con lector</title>		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/cat_paniers_collecte_douchett.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
         <para lang='fr'>Cliquez sur le nom du panier dont vous voulez pointer les
-        éléments.<figure>
+        éléments.</para>
+		
+		<para lang='es'>Haz clic sobre el nombre de la cesta de la cual quieres marcar
+        elementos.</para>
+        
+        <figure>
             <title lang='fr'>Catalogage &gt; Paniers &gt; Pointage &gt; Par
             douchette</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/cat_paniers_collecte_douchett2.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure></para>
-		  
-        <para lang='es'>Haz clic sobre el nombre de la cesta de la cual quieres marcar
-        elementos.<figure>
             <title lang='es'>Catálogo &gt; Cestas &gt; Marcar &gt; Con lector</title>			
             <mediaobject>
               <imageobject>
@@ -4060,8 +3888,8 @@ L'EAN est le code-barres commercial du document.</para>
               </imageobject>
             </mediaobject>
           </figure></para>
-		  
-		  
+		<para lang="fr">Doucheter ensuite un par un les exemplaires à pointer. 
+		Vous pouvez également saisir le code-barres de l'exemplaire.</para>
 		  
       </sect3>
 
@@ -4282,7 +4110,7 @@ L'EAN est le code-barres commercial du document.</para>
           </mediaobject>
         </figure>
 
-        <para lang='fr'>Supprimer de la base supprime les éléments contenus dans un
+        <para lang='fr'><emphasis>Supprimer de la base</emphasis> supprime les éléments contenus dans un
         panier (notices, bulletins ou exemplaires) de la base de données de la
         bibliothèque.</para>
 		
@@ -4291,8 +4119,8 @@ L'EAN est le code-barres commercial du document.</para>
         la biblioteca.</para>
 				
 
-        <para lang='fr'>A utiliser avec grande prudence, donc, par exemple pour effacer
-        un panier d'exemplaires perdus.</para>
+        <para lang='fr'>Cette fonction est à utiliser avec grande prudence, donc, par exemple pour effacer
+        un panier d'exemplaires perdus ou périmés.</para>
 		
         <para lang='es'>Utiliza esa función con mucho cuidado, para, por ejemplo,
         eliminar una cesta de ejemplares perdidos.</para>
@@ -4310,18 +4138,6 @@ L'EAN est le code-barres commercial du document.</para>
         <title lang='fr'>Export</title>
         <title lang='es'>Exportación</title>		
 
-        <figure>
-          <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Export</title>
-          <title lang='es'>Catalogación &gt; Cestas &gt; Acciones &gt;
-          Exportación</title>		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/cat_paniers_export.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
         <para lang='fr'>L'export va permettre d'exporter le contenu d'un panier.</para>
         <para lang='es'>La exportación permite exportar el contenido de una
         cesta.</para>		
@@ -4331,6 +4147,31 @@ L'EAN est le code-barres commercial du document.</para>
 
         <para lang='es'>Escoge los elementos del panel afectado : elementos marcados o
         no marcados.</para>		
+
+        <para lang='fr'>Vous pouvez exporter vos données dans les formats suivants :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para lang='fr'>unimarc pmb xml</para>
+          </listitem>  
+          <listitem>
+            <para lang='fr'>unimarc bretagne</para>
+          </listitem>  
+          <listitem>
+            <para lang='fr'>html marc</para>
+          </listitem>  
+          <listitem>
+            <para lang='fr'>texte marc</para>
+          </listitem>  
+          <listitem>
+            <para lang='fr'>word rtf</para>
+          </listitem>  
+          <listitem>
+            <para lang='fr'>unimarc iso 2709</para>
+          </listitem>  
+		</itemizedlist>
+		
+        <para lang='fr'>Pour conserver les informations des exemplaires dans l'export, cochez <emphasis>Conserver les informations des exemplaires dans la zone 995</emphasis>.</para>
 		
       </sect3>
 
@@ -4356,44 +4197,53 @@ L'EAN est le code-barres commercial du document.</para>
         <para lang='es'>La transferencia permite transferir los elementos de una cesta
         (elementos marcados i/o no marcados) de una cesta a otra cesta.</para>		
         
-        <para lang='fr'>
-           Ajout de notices dans un panier de notices : évident
-   idem bulletin
-   idem exemplaires
+        <para lang='fr'>Vous pouvez transférer le contenu d'un panier d'un type de 
+        contenu vers un autre, par exemple un panier de notices dans un panier d'exemplaires.
+        Voici un récapitulatif du résultat d'un transfert entre deux types de panier différents :</para>
+        
+           <para lang='fr'>Ajout de notices dans un panier de notices : évident</para>
+      <itemizedlist>
+   <listitem><para lang='fr'>idem bulletin</para></listitem>
+   <listitem><para lang='fr'>idem exemplaires</para></listitem>
+      </itemizedlist>
 
-   Ajout d'exemplaires :
-       -de monographies dans un panier de notices : ajout des notices des
-exemplaires
-       -de monographies dans un panier de bulletin : rien, incohérent
-       -de bulletin dans un panier de bulletin, ajout des bulletins des
-exemplaires
-       -de bulletins dans un panier de notices : rien, incohérent
+   <para lang='fr'>Ajout d'exemplaires :</para>
+         <itemizedlist>
+       <listitem><para lang='fr'>de monographies dans un panier de notices : ajout des notices des
+exemplaires</para></listitem>
+       <listitem><para lang='fr'>de monographies dans un panier de bulletin : rien, incohérent</para></listitem>
+       <listitem><para lang='fr'>de bulletin dans un panier de bulletin, ajout des bulletins des
+exemplaires</para></listitem>
+       <listitem><para lang='fr'>de bulletins dans un panier de notices : rien, incohérent</para></listitem>
+      </itemizedlist>
 
-   Ajout de notices :
-       -de monographies dans un panier de bulletins : rien, incohérent
-       -de monographies dans un panier d'exemplaires : sélection des
-exemplaires attachés aux notices
-       -de dépouillement dans un panier de bulletin : sélection des
-bulletins qui contiennent les dépouillements
-       -de dépouillement dans un panier d'exemplaires : sélection des
-exemplaires attachés aux bulletins qui contiennent les dépouillements
+   <para lang='fr'>Ajout de notices :</para>
+      <itemizedlist>
+       <listitem><para lang='fr'>de monographies dans un panier de bulletins : rien, incohérent</para></listitem>
+       <listitem><para lang='fr'>de monographies dans un panier d'exemplaires : sélection des
+exemplaires attachés aux notices</para></listitem>
+       <listitem><para lang='fr'>de dépouillement dans un panier de bulletin : sélection des
+bulletins qui contiennent les dépouillements</para></listitem>
+       <listitem><para lang='fr'>de dépouillement dans un panier d'exemplaires : sélection des
+exemplaires attachés aux bulletins qui contiennent les dépouillements</para></listitem>
+      </itemizedlist>
 
-   Ajout de bulletins :
-       -à un panier d'exemplaires : sélection des exemplaires attachés à
-ces bulletins
-       -à un panier de notices : rien, je ne savais pas s'il était
-préférable de prendre la notice chapeau du bulletin ou les dépouillements du
-bulletin, je n'ai rien pris.
-        </para>
+   <para lang='fr'>Ajout de bulletins :</para>
+      <itemizedlist>
+       <listitem><para lang='fr'>à un panier d'exemplaires : sélection des exemplaires attachés à
+ces bulletins</para></listitem>
+       <listitem><para lang='fr'>à un panier de notices : pour éviter les confusions entre notice chapeau du bulletin et les dépouillements du
+bulletin, rien n'est ajouté.</para></listitem>
+      <itemizedlist>
         
       </sect3>
 
       <sect3>
-        <title lang='fr'>Par requête</title>
+        <title lang='fr'>Par procédures d'action</title>
         <title lang='es'>Por consulta</title>		
 
         <figure>
-          <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Par requête</title>
+          <title lang='fr'>Catalogage &gt; Paniers &gt; Actions &gt; Par procédure d'action</title>
           <title lang='es'>Catálogo &gt; Cestas &gt; Acciones &gt; Por consulta</title>		  
 
           <mediaobject>
@@ -4403,8 +4253,8 @@ bulletin, je n'ai rien pris.
           </mediaobject>
         </figure>
 
-        <para lang='fr'>Vous pouvez également appliquer une requête SQL au contenu d'un
-        panier, par exemple une requête UPDATE pour changer les cotes d'un
+        <para lang='fr'>Vous pouvez également appliquer une procédure d'action au contenu d'un
+        panier, par exemple pour changer les cotes d'un
         ensemble d'ouvrages déplacés ailleurs dans votre bibliothèque. Pour
         plus d'informations sur les requêtes, consultez le <emphasis>Guide de
         l'Administrateur PMB.</emphasis></para>
@@ -4414,7 +4264,8 @@ bulletin, je n'ai rien pris.
         un conjunto de documentos enviados a otra biblioteca. Para más
         información sobre las consultas, consulta la <emphasis>Guía del
         Administrador PMB.</emphasis></para>
-				
+		
+		<para lang='fr'>Vous trouverez sur le wiki différentes procédures prêts à être chargées dans votre PMB.</para>		
       </sect3>
     </sect2>
 
@@ -4424,7 +4275,7 @@ bulletin, je n'ai rien pris.
 
       <para lang='fr'>Voici quelques exemples d'utilisation des paniers. Ceux-ci vous
       permettront de mieux appréhender l'utilisation des paniers de PMB ainsi
-      que la puissance de leurs fonctionnalités, grâce aux requêtes.</para>
+      que la puissance de leurs fonctionnalités.</para>
 	  
       <para lang='es'>Aquí encontrarás varios ejemplos sobre el uso de las cestas. Estos
       ejemplos permiten comprender mejor el uso de las cestas de PMB y sus
@@ -4471,8 +4322,7 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
         donc pensé à créer un paniers avec tous les exemplaires d'une section.
         Je pourrais ainsi pointer les exemplaires physiquement en rayon et
         avec l'action supprimer du panier les éléments pointés retrouver les
-        livres qui sont dans la base mais physiquement perdus, volés...
-        "</para>
+        livres qui sont dans la base mais physiquement perdus, volés..."</para>
 
         <para lang='es'>"Yo quería simplicar mi vida en cuanto a los inventarios, es por esto 
 		que he pensado en crear unas cestas con todos los ejemplares de una sección. Yo 
@@ -4483,8 +4333,7 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
 
 
 
-        <para lang='fr'>"J'ai voulu utilisé une procédure mais je suis vraiment nulle!
-        Dans les PS j'ai un inventaire de tout mes documentaires par exemple mais
+        <para lang='fr'>"Dans les PS j'ai un inventaire de tout mes documentaires par exemple mais
         je ne sais pas comment la transformer pour qu'elle fonctionne dans les
         paniers ? "</para>
 		
@@ -4526,9 +4375,9 @@ order by section_libelle</programlisting>
     <title lang='fr'>Étagères</title>
     <title lang='es'>Estanterías</title>	
 
-    <para lang='fr'>Les étagères virtuelles sont un regroupement de paniers de notices
-    qui peuvent contenir ou non des notices. Les étagères virtuelles
-    permettent d'afficher ces notices dans l'OPAC ou dans votre site internet.
+    <para lang='fr'>Les étagères virtuelles sont un regroupement de paniers de notices. 
+    Les étagères virtuelles
+    permettent d'afficher les notices de ce ou ces paniers dans l'OPAC ou dans votre site internet.
     PMB permet par ce moyen de présenter dans votre site internet une
     exposition virtuelle, la liste des derniers ouvrages acquis par la
     bibliothèque, la sélection d'un club de lecteurs, etc...</para>
@@ -4568,7 +4417,7 @@ order by section_libelle</programlisting>
       <emphasis>Añadir una estantería</emphasis>.</para>
 	  	  
 
-      <para lang='fr'>Pour éditer une étagère existante, cliquez sur la ligne
+      <para lang='fr'>Pour modifier une étagère existante, cliquez sur la ligne
       correspondante.</para>
 	  
       <para lang='es'>Para editar una estantería existente, haz clic sobre la línea
@@ -4698,6 +4547,9 @@ order by section_libelle</programlisting>
         </mediaobject>
       </figure>
 
+      <para lang='fr'>Vous pouvez rechercher la notice d'un ouvrage en lisant à la douchette
+      le code-barres commercial (EAN) dans le champ de recherche ISBN.</para>
+
       <para lang='fr'>Prenons un exemple, importons <emphasis>Germinal</emphasis> de
       <emphasis>Zola</emphasis>. Comme critère de recherche, nous choisissons
       "titre", et dans le champ situé à côté nous spécifions
@@ -4757,29 +4609,29 @@ order by section_libelle</programlisting>
 
       <itemizedlist>
         <listitem>
-          <para lang='fr'>Timeout : le serveur n'a pas répondu dans le délai
+          <para lang='fr'><emphasis>Timeout</emphasis> : le serveur n'a pas répondu dans le délai
           imparti</para>
 		  
-          <para lang='es'>Timeout : el servidor no ha respondido en el tiempo
+          <para lang='es'><emphasis>Timeout</emphasis> : el servidor no ha respondido en el tiempo
           indicado</para>
 		  		  
         </listitem>
 
         <listitem>
-          <para lang='fr'>Connect failed : le serveur a répondu, mais la connexion n'a
+          <para lang='fr'><emphasis>Connect failed</emphasis> : le serveur a répondu, mais la connexion n'a
           pu être réalisée</para>
 		  
-          <para lang='es'>Connect failed : el servidor ha respondido, pero la conexión
+          <para lang='es'><emphasis>Connect failed</emphasis> : el servidor ha respondido, pero la conexión
           no se ha podido realizar</para>
 		  		  
         </listitem>
 
         <listitem>
-          <para lang='fr'>Malformed query : le profil z3950 du serveur n'est pas bon.
+          <para lang='fr'><emphasis>Malformed query</emphasis> : le profil z3950 du serveur n'est pas bon.
           Vérifier le profil Z39.50 de ce serveur auprès de son
           administrateur</para>
 		  
-          <para lang='es'>Malformed query : el perfil z3950 del servidor no es correcto.
+          <para lang='es'><emphasis>Malformed query</emphasis> : el perfil z3950 del servidor no es correcto.
           Verifica el perfil Z39.50 de este servidor a través de su
           administrador</para>
 		  		  
@@ -4853,9 +4705,9 @@ order by section_libelle</programlisting>
       <para lang='fr'>La notice obtenue est alors affichée en modification pour pouvoir
       la consulter en détail, la modifier le cas échéant et enfin l'intégrer
       au catalogue. Il existe quelques différences par rapport à l'écran
-      d'édition habituel d'une notice : les auteurs et éditeurs ont deux
+      d'édition habituel : les auteurs et éditeurs ont deux
       champs de saisies correspondant à élément principal (nom) et élément
-      rejeté (prénom). Une fois les éventuelles corrections faites valider par
+      rejeté (prénom). Une fois les éventuelles corrections faites, valider par
       le bouton "intégrer la notice".</para>
 	  
       <para lang='es'>El registro obtenido se muestra para modificarlo, la modificación
@@ -4868,25 +4720,9 @@ order by section_libelle</programlisting>
       "integrar el registro".</para>
 	  	  
 
-      <para lang='fr'>Un écran suivant permet de définir alors des exemplaires.</para>
-      <para lang='es'>La pantalla siguiente permite definir los ejemplares.</para>	  
-
-
-      <para lang='fr'>Cataloguez ensuite votre ou vos exemplaires. Une fois l'exemplaire
-      défini, cliquer sur intégrer, on peut également revenir à la liste des
-      résultats pour intégrer un des autres résultats de la liste.</para>
-	  
-      <para lang='es'>Cataloga entonces el o los ejemplares. Una vez se han introducido
-      los ejemplares, haz lic para integrarlos, puedes también volver a la
-      lista de resultados para integrar otros resultados de la lista.</para>
-	  	  
-
-      <para lang='fr'>Dans cet écran, en haut de l'écran figure la mention notice
+      <para lang='fr'>Dans l'écran suivant, figure la mention notice
       intégrée, avec un lien<emphasis> La voir en catalogage.</emphasis> Ce
-      lien permet d'afficher la notice en modification. L'écran de
-      modification affiché ensuite est le même que celui de la création de
-      notice (voir plus haut la section<emphasis> Nouvelle
-      notice</emphasis>).</para>
+      lien permet d'afficher la notice et d'ajouter ensuite des exemplaires.</para>
 	  
       <para lang='es'>En esta pantalla, en la parte superior figura la información sobre
       el registro integrafo, con un enlace<emphasis> Verlo en
@@ -4915,7 +4751,10 @@ order by section_libelle</programlisting>
         <title lang='es'>Uso de la búsqueda Z39.50 en el día a día</title>		
 
         <para lang='fr'>Pour les bibliothèques française, le principal intérêt de la
-        recherche Z39.50 est la recherche par ISBN depuis la BnF. Pour les
+        recherche Z39.50 est la recherche par ISBN depuis la BnF. La BnF est la 
+        Bibliothèque Nationale Française, qui contient le catalogue du dépôt légal 
+        français.
+        Pour les
         ouvrages de votre fond propre, vous pouvez facilement cataloguer les
         livres à l'aide de votre douchette et du code barre commercial (EAN)
         de l'ouvrage.</para>
