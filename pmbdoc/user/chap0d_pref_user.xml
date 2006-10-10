@@ -22,7 +22,7 @@
   <para lang='fr'>En somme, les préférences utilisateurs sont un ensemble de paramètres
   mémorisés pour un utilisateur. Ces préférences sont donc liées au nom
   d'utilisateur saisi à l'écran de login. Pour consulter vos préférences,
-  cliquez sur le lien <emphasis>préf</emphasis>. en haut à droite de l'écran,
+  cliquez sur l'icône <emphasis>préférences de l'utilisateur</emphasis> (engrenage) en haut à droite de l'écran,
   à côté de <emphasis>quitter</emphasis>.</para>
 
   <para lang='es'>Resumiendo, las preferencias de los usuarios son una serie de
@@ -65,156 +65,11 @@
     Atención, algunos idiomas necesitan un estilo particular para ser
     visualizados de forma óptima.</para>	
 
-    <table>
-      <title lang='fr'>Langues et styles d'affichage adaptés</title>
-      <title lang='es'>Idomas y estilos de visualización adaptados</title>	  
-
-      <tgroup cols="2">
-        <thead>
-          <row>
-            <entry lang="fr">Langue</entry>
-
-            <entry lang="fr">Styles adaptés</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry lang="fr">català (ca_es)</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">english (en_us)</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">english (en_uk)</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">espanol (es_es</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">français (fr_fr)</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">italiano (it_it)</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">neerlandais (nl_nl)</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">portuguese (pt_pt)</entry>
-
-            <entry lang="fr">tous sauf affichage_arabe</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </table>
-
     <para lang='fr'>Vous pouvez aussi changer le style de votre affichage :
     <emphasis>Style/thème</emphasis>.</para>
 
     <para lang='es'>También puedes cambiar el estilo de visualización :
-    <emphasis>Estilo/tema</emphasis>.</para>	
-	
-    <table>
-      <title lang='fr'>Styles disponibles dans l'interface de gestion de PMB</title>
-      <title lang='es'>Estilos disponibles para la interficie de gestión de PMB</title>
-	  
-      <tgroup cols="2">
-        <thead>
-          <row>
-            <entry lang="fr">Style/thème</entry>
-
-            <entry lang="fr">Descriptif</entry>
-          </row>
-        </thead>
-
-        <tbody>
-          <row>
-            <entry lang="fr">affichage_arabe</entry>
-
-            <entry lang="fr">Affichage simple qui inverse le sens d'affichage
-            (gauche-droite)</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">aqua-green</entry>
-
-            <entry lang="fr">Ancien affichage par défaut de la version 1.1 Esthétique
-            acidulée, boutons stylisés inspirés de MacOS. Couleur dominante
-            verte.</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">couleurs_onglets</entry>
-
-            <entry lang="fr">Couleurs différentes selon les onglets : vert pour
-            circulation, sable pour catalogue, violet pour autorités, jaune
-            pour éditions, rose pour administration.</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">default</entry>
-
-            <entry lang="fr">Affichage par défaut. Esthétique acidulée, boutons stylisés
-            inspirés de MacOS. Couleurs dominantes : orange et bleu.</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">metal</entry>
-
-            <entry lang="fr">Couleurs dorées et argentées. Boutons avec petits
-            boulons.</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">no_style</entry>
-
-            <entry lang="fr">Pas de style, texte renvoyé par PMB sans mise en
-            forme.</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">orange_et_vert</entry>
-
-            <entry lang="fr">Style contrasté sur fond blanc.</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">seabreeze</entry>
-
-            <entry lang="fr">Style simplifié qui n'utilise pas d'images. Affichage
-            rapide.</entry>
-          </row>
-
-          <row>
-            <entry lang="fr">vert_et_parme</entry>
-
-            <entry lang="fr">Style de deux couleurs comme son nom l'indique.</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </table>
+    <emphasis>Estilo/tema</emphasis>.</para>		
 
     <para lang='fr'>Certains styles sont également conservés à titre de compatibilité
     (et parce que leurs concepteurs ne veulent pas qu'on les enlève... ;-) ).
@@ -253,7 +108,7 @@
       </listitem>
     </itemizedlist>
 
-    <para lang='fr'>Plus ce nombre est élevé, plus le nombre de résultat sera grand par
+    <para lang='fr'>Plus ce nombre est élevé, plus le nombre de résultat de recherche sera grand par
     page, plus la page sera longue. Si vous préférez les pages courtes, vous
     pouvez réduire ces valeurs ; si vous préférez afficher un maximum de
     renseignements sur une même page, vous pouvez les augmenter.</para>
@@ -306,7 +161,7 @@
     consulta <ulink
     url="http://www.cecill.info">http://www.cecill.info</ulink></para>	
 
-    <para lang='fr'>Cette nouvelle licence est affichée lors du démarrage de PMB, après
+    <para lang='fr'>Cette licence est affichée lors du démarrage de PMB, après
     que vous vous soyez connecté en ayant saisi votre nom d'utilisateur et
     votre mot de passe.</para>
 
