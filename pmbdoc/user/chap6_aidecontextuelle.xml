@@ -10,20 +10,46 @@
   de PMB, y haciendo clic sobre el signo de interrogación "?", se puede ver la ayuda contextual de
   PMB.</para>
 
-  <para lang='fr'>L'aide est disponible sous la forme d'un fichier zip à décompresser dans 
-  le répertoire <emphasis>doc</emphasis> de PMB.</para>
-  <para lang='fr'>L'aide contextuelle peut être activée ou désactivée à l'aide du
+    <para lang='fr'>L'installation de l'aide contextuelle se fait par l'intégration d'un
+    fichier compressé comprenant l'ensemble de la documentation et disponible
+    sur <ulink
+    url="http://www.sigb.net/documentation.zip">www.sigb.net</ulink> onglet
+    "PMB le logiciel", puis "télécharger".</para>
+    <para lang="es">La instalación de la ayuda contextual se hace integrando un 
+	archivo descomprimido que contiene el conjunto de la documentación y que está
+	disponible en <ulink
+    url="http://www.sigb.net/documentation.zip">www.sigb.net</ulink> dentro
+	del apartado "PMB le logiciel", y haciendo clic sobre "télécharger".</para>
+
+    <para lang='fr'>Si l' administrateur de PMB n'a pas correctement installé la
+    documentation contextuelle par défaut, le lien vers l'aide contextuelle
+    "?" renverra vers les fichiers liés à l'installation et au paramétrage
+    contenus dans le répertoire doc de votre installation de PMB.</para>
+    <para lang="es">Si el administrador de PMB no ha instalado correctamente la
+	documentación de la ayuda contextual por defecto, el enlace hacia la ayuda
+	"?" reenviará hacia los archivos asociados a la instalación 
+	y a la parametrización dentro del directorio doc de tu instalación de PMB.</para>
+
+    <para lang='fr'>Dans ce cas, contactez votre administrateur informatique ou lisez
+    attentivement la procédure d'installation affichée dans le popup en
+    dessous des liens vers les fichiers de documentation sur l'installation de
+    PMB.</para>
+    <para lang="es">En este caso, contacta con tu administrador informático o lee 
+	atentamente el procedimiento de instalación que se muestra en el popup
+	y sigue las instrucciones para instalar la ayuda de PMB.</para>
+ 
+  <sect1>
+    <title lang='fr'>Fonctionnement de l'aide contextuelle</title>
+    <title lang="es">Funcionamiento de la ayuda contextual</title>
+
+   <para lang='fr'>L'aide contextuelle peut être activée ou désactivée à l'aide du
   paramètre pmb dont le sous-type est <emphasis>show_help</emphasis>. Pour
   plus d'informations, consultez le <emphasis>Guide de l'Administrateur
   PMB</emphasis>.</para>
   <para lang="es">La ayuda contextual puede ser activada o desactivada a través del parámetro 
   pmb <emphasis>show_help</emphasis>. Para más información, consulta la <emphasis>Guía del 
   Administrador PMB</emphasis>.</para>
-
-  <sect1>
-    <title lang='fr'>Fonctionnement de l'aide contextuelle</title>
-    <title lang="es">Funcionamiento de la ayuda contextual</title>
-
+ 
     <para lang='fr'>L'aide contextuelle est affichée dans un popup. L'aide affichée
     correspond à l'écran où vous étiez dans l'interface de gestion.</para>
     <para lang="es">La ayuda contextual se muestra en un popup. La ayuda que se muestra 
@@ -104,7 +130,8 @@
     <para lang='fr'>La flèche vers le haut est un lien vers le sommaire du chapitre
     affiché. Parmi les titres de chapitre du Guide de l'Utilisateur, on peut
     noter par exemple les différents onglets Circulation, Catalogage,
-    Autorités et Editions.</para>
+    Autorités et Editions. Vous pouvez rechercher dans l'aide sur la version en ligne de la documentation.
+    Ceci nécessite une connexion internet active.</para>
     <para lang="es">La flecha hacia arriba es un enlace hacia el sumario del capítulo que 
 	se muestra. Entre los títulos del capítulo de la Guía del usuario, podemos ver
 	por ejemplo las diferentes pestañas Circulación, Catálogo, Autoridades y Informes.</para>
@@ -113,38 +140,5 @@
     de l'utilisateur, Guide de l'administrateur, Guide d'Installation.</para>
     <para lang="es">El icono de casa es un enlace hacia el sumario de la Guía que se muestra : Guía del 
 	usuario, Guía del Administrador, Guía de Instalación.</para>
-  </sect1>
-
-  <sect1>
-    <title lang='fr'>Fonctionnement par défaut</title>
-    <title lang="es">Funcionamiento por defecto</title>
-
-    <para lang='fr'>L'installation de l'aide contextuelle se fait par l'intégration d'un
-    fichier compressé comprenant l'ensemble de la documentation et disponible
-    sur <ulink
-    url="http://www.sigb.net/documentation.zip">www.sigb.net</ulink> onglet
-    "PMB le logiciel", puis "télécharger".</para>
-    <para lang="es">La instalación de la ayuda contextual se hace integrando un 
-	archivo descomprimido que contiene el conjunto de la documentación y que está
-	disponible en <ulink
-    url="http://www.sigb.net/documentation.zip">www.sigb.net</ulink> dentro
-	del apartado "PMB le logiciel", y haciendo clic sobre "télécharger".</para>
-
-    <para lang='fr'>Si l' administrateur de PMB n'a pas correctement installé la
-    documentation contextuelle par défaut, le lien vers l'aide contextuelle
-    "?" renverra vers les fichiers liés à l'installation et au paramétrage
-    contenus dans le répertoire doc de votre installation de PMB.</para>
-    <para lang="es">Si el administrador de PMB no ha instalado correctamente la
-	documentación de la ayuda contextual por defecto, el enlace hacia la ayuda
-	"?" reenviará hacia los archivos asociados a la instalación 
-	y a la parametrización dentro del directorio doc de tu instalación de PMB.</para>
-
-    <para lang='fr'>Dans ce cas, contactez votre administrateur informatique ou lisez
-    attentivement la procédure d'installation affichée dans le popup en
-    dessous des liens vers les fichiers de documentation sur l'installation de
-    PMB.</para>
-    <para lang="es">En este caso, contacta con tu administrador informático o lee 
-	atentamente el procedimiento de instalación que se muestra en el popup
-	y sigue las instrucciones para instalar la ayuda de PMB.</para>
   </sect1>
 </chapter>
