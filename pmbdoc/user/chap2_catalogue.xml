@@ -98,8 +98,12 @@
             </mediaobject>
           </figure>
 
-          <para lang='fr'>Tentons une recherche sur le titre "cat''.</para>
-          <para lang='es'>Intentemos una búsqueda del título "cat''.</para>		  
+          <para lang='fr'>Tentons une recherche sur le titre "cat*".</para>
+          <para lang='es'>Intentemos una búsqueda del título "cat*".</para>		  
+
+          <para lang='fr'><emphasis role="bold">note</emphasis> l'étoile "*" est 
+          une troncature. "cat*" renverra les mots "cat", "catastrophe", 
+          "cataclysme"...</para>
 
           <para lang='fr'>Si vous avez installé la base de test, c'est l'ouvrage
           <emphasis>Catfish Blues</emphasis>, de <emphasis>Gérard
@@ -123,7 +127,7 @@
 
           <para lang='fr'>Pour afficher plus d'informations sur un des résultats de la
           recherche, cliquer sur le + pour déplier la notice et lister les
-          exemplaires et exemplaires numériques de l'ouvrage.</para>
+          exemplaires et documents numériques de l'ouvrage.</para>
 		  
           <para lang='es'>Para ver más información sobre los documentos encontrados, haz
           clic sobre el +, se mostrará información ampliada y la lista de
@@ -131,7 +135,8 @@
 
 
           <para lang='fr'>Un clic sur le titre affiche les informations sur l'ouvrage,
-          et permet éventuellement d'apporter les modifications désirées.
+          et permet éventuellement d'apporter les modifications désirées ou d'ajouter
+          un exemplaire ou un document numérique.
           L'écran affiché ensuite est la liste des exemplaires de
           l'ouvrage.</para>
 		  
@@ -160,7 +165,7 @@
           numérique</emphasis>. Pour plus d'informations, voir <xref
           linkend="cat_isbd" />.</para>
 		  
-          <para lang='es'>PPara modificar el registro, haz clic en
+          <para lang='es'>Para modificar el registro, haz clic en
           <emphasis>Modificar</emphasis>. Para modificar alguno de los
           ejemplares del documento, haz clic sobre su código de barras. Para
           añadir un ejemplar, introduce el <emphasis>Nº del
@@ -279,7 +284,7 @@
             </mediaobject>
           </figure>Dans cette recherche, commencez par saisir un ou plusieurs
         termes à chercher, par exemple <emphasis
-        role="bold">histoire</emphasis>. Les résultats de la recherche sont
+        role="bold">politique</emphasis>. Les résultats de la recherche sont
         affichés sous le forme de deux parties. La partie supérieure vous
         renvoie les catégories correspondantes à votre recherche. Un clic sur
         une des catégories de la partie supérieure (par exemple <emphasis
@@ -359,13 +364,13 @@
         <title lang='es'>Cestas de registros</title>		
 
         <para lang='fr'><emphasis>Recherche</emphasis> &gt; <emphasis>Paniers de
-        notices</emphasis> permet d'afficher le contenu d'un panier de notices
-        (également appelé caddie). Les paniers correspondent à des sélections
+        notices</emphasis> permet d'afficher le contenu d'un panier de notices. 
+        Les paniers correspondent à des sélections
         de notices, de bulletins ou d'exemplaires.</para>
 		
         <para lang='es'><emphasis>Buscar</emphasis> &gt; <emphasis>Cestas de
         registros</emphasis> permite ver el contenido de una cesta de
-        registros (también llamadas paneles). Las cestas son selecciones de
+        registros. Las cestas son selecciones de
         registros, números de revistas o ejemplares.</para>		
 
         <figure>
@@ -554,8 +559,9 @@
 
           <para lang='fr'><programlisting>Saint Jean/mer</programlisting>sera analysé
           comme : chercher les <emphasis>éléments qui contiennent
-          saint</emphasis> ou les <emphasis>éléments qui contiennent jean et
-          mer</emphasis> ou les <emphasis>deux</emphasis>.</para>
+          saint</emphasis> ou <emphasis>jean</emphasis> ou
+          <emphasis>mer</emphasis> et renverra en début de liste ceux qui contiennent 
+          les trois mots, puis deux des trois, et enfin un seul des trois mots.</para>
 
           <para lang='es'><programlisting>Saint Jean/mer</programlisting>será analizado
           como: <emphasis>busca los elementos que contengan saint
@@ -683,12 +689,10 @@
 		  		  
 
           <para lang='fr'><programlisting>A.N.P.E.</programlisting> cherche les éléments
-          qui continnent les mots A ou N ou P ou E .</para>
+          qui contiennent les mots A ou N ou P ou E .</para>
 		  
           <para lang='es'><programlisting>A.N.P.E.</programlisting> buscará los
           elementos que contengan las letras A o N o P o E </para>
-		  
-		  		  
 
           <para lang='fr'>Les accents et les majuscules/minuscules ne sont pas pris en
           compte dans un terme exact.</para>
@@ -696,8 +700,6 @@
           <para lang='es'>Los acentos y las mayúsculas/minúsculas non se tienen en
           cuenta en una búsqueda exacta.</para>
 		  
-		  		  
-
           <para lang='fr'>Enfin, les termes exacts peuvent être utilisés dans toutes les
           expressions complexes décrites ci-dessous.</para>
 		  
@@ -719,11 +721,11 @@
           término.</para>		  
 		  
 
-          <para lang='fr'><emphasis>Ex.</emphasis><programlisting>~travail</programlisting>
+          <para lang='fr'><programlisting>~travail</programlisting>
           signifie tous les éléments sauf ceux qui contiennent le mot
           travail</para>
 		  
-          <para lang='es'><emphasis>Ej.</emphasis><programlisting>~trabajo</programlisting>
+          <para lang='es'><programlisting>~trabajo</programlisting>
           se buscarán todos los registros excepto aquellos que incluyan la
           palabra trabajo.</para>
 		  		  
@@ -746,11 +748,11 @@
               <para lang='fr'>+ : opérateur ET</para>
 			  <para lang='es'>+ : operador Y</para>
 
-              <para lang='fr'><emphasis>Ex. </emphasis><programlisting>disque + dur</programlisting>
+              <para lang='fr'><programlisting>disque + dur</programlisting>
               signifie les éléments qui contiennent les mots disque et
               dur.</para>
 			  
-              <para lang='es'><emphasis>Ej. </emphasis><programlisting>disco + duro</programlisting>
+              <para lang='es'><programlisting>disco + duro</programlisting>
               buscará los elementos que contengan las palabras disco y
               duro.</para>
 			  			  
@@ -760,11 +762,11 @@
               <para lang='fr'>- : opérateur SAUF (ET NON)</para>
               <para lang='es'>- : operador EXCEPTO (Y NO)</para>			  
 
-              <para lang='fr'><emphasis>Ex. </emphasis><programlisting>disque - dur</programlisting>
+              <para lang='fr'><programlisting>disque - dur</programlisting>
               signifie les éléments qui contiennent le mot disque, sauf ceux
               qui contiennent aussi le mot dur.</para>
 			  
-              <para lang='es'><emphasis>Ej. </emphasis><programlisting>disco - duro</programlisting>
+              <para lang='es'><programlisting>disco - duro</programlisting>
               buscará los registros que contengan la palabra disco excepto
               aquellos que contenga la palabra duro.</para>
 			  			  
@@ -779,11 +781,11 @@
           búsqueda. Se aplican según su orden, de izquierda a derecha.</para>		  
 
 
-          <para lang='fr'><emphasis>Ex.</emphasis> <programlisting>poésie + français* - romantique*</programlisting>signifie
+          <para lang='fr'><programlisting>poésie + français* - romantique*</programlisting>signifie
           les éléments contenant poésie et français(e)(s) sans
           romantique(s).</para>
 		  
-          <para lang='es'><emphasis>Ej.</emphasis> <programlisting>poesía + frances* - romántica*</programlisting>buscará
+          <para lang='es'><programlisting>poesía + frances* - romántica*</programlisting>buscará
           los elementos que contengan poesia y francés(a)(s) sin
           romántica(s).</para>
 		  
@@ -811,7 +813,7 @@
           <title lang='fr'>Regroupements</title>
           <title lang='es'>Reagrupaciones</title>		  
 
-          <para lang='fr'>Une expression peut-être regroupée pour devenir un terme. Ce
+          <para lang='fr'>Un
           regroupement se fait avec les parenthèses. Cela permet de changer
           l'ordre d'application des opérateurs ou de combiner les résultats
           d'expressions complexes.</para>
@@ -827,7 +829,7 @@
               <para lang='fr'><programlisting>poésie + (française romantique)</programlisting></para>
               <para lang='es'><programlisting>poesía + (francesa romántica)</programlisting></para>			  
 
-              <para lang='fr'>signifie dans tous les éléments qui contiennent francaise
+              <para lang='fr'>signifie parmi tous les éléments qui contiennent francaise
               ou romantique, uniquement ceux qui contiennent poésie.</para>
 			  
               <para lang='es'>buscará de todos los registros que contengan francesa o
@@ -880,8 +882,10 @@
           <title lang='es'>Pertinencia</title>		  
 
           <para lang='fr'>Les résultats sont triés par ordre de pertinence puis par
-          ordre alphabétique. La pertinence est calculée simplement par le
-          nombre total de mots ou de termes exacts trouvés.</para>
+          ordre alphabétique. 
+          Cet ordre alphabétique ne tient pas compte des articles ou des mots vides 
+          (le, la, les, du...).
+          La pertinence correspond au nombre total de mots ou de termes exacts trouvés.</para>
 		  
           <para lang='es'>Los resultados se muestran por orden de pertinencia y por
           orden alfabético. La pertinencia se calcula simplemente por el
@@ -961,6 +965,8 @@
         </mediaobject>
       </figure>
 
+      <para lang='fr'>Vous pouvez utiliser l'étoile "*" pour remplacer un ou plusieurs caractères.</para>
+      
       <para lang='fr'>PMB permet d'utiliser des expressions booléennes comme critères de
       recherche. Pour plus d'informations, voir <xref
       linkend="exp_bool" />.</para>
@@ -1001,10 +1007,10 @@
 
       <para lang='fr'><emphasis role="bold">Note </emphasis>Les résultats de la
       recherche de périodiques sont uniquement des notices mères ou notices
-      chapeau de périodiques : par exemple géo, SVM, Le Monde ; les articles
-      comme les différents numéros du périodiques ne sont pas renvoyés par la
-      recherche de périodiques mais à l'écran <emphasis>Bulletinage</emphasis>
-      voir plus la section 2.3.3 <emphasis>Bulletinage</emphasis>.</para>
+      chapeau de périodiques : par exemple Géo, SVM, Le Monde ; les articles
+      comme les différents numéros du périodiques ne sont pas renvoyés ici.
+      Pour les voir il faut utiliser la recherche "toutes notices".
+      .</para>
 	  
       <para lang='es'><emphasis role="bold">Nota </emphasis>Los resultados de la 
 	  búsqueda de publicaciones periódicas son únicamente los registros principales :
@@ -1068,15 +1074,20 @@
         usual) aunque no es obligatorio introducirlo. Si lo que se introduce
         es un EAN, pmb lo convierte automáticamente en ISBN.</para>		
 
+<para lang='fr'>L'ISBN est le numéro de dépôt légal des livres et se lit à 
+l'intérieur de l'ouvrage, en face de la page qui reprend le titre, l'auteur, etc.
+L'EAN est le code-barres commercial du document.</para>
+
         <sect4 id="cat_create">
           <title lang='fr'>Saisie de l'ISBN, de l'EAN ou d'un numéro commercial</title>
           <title lang='es'>Introducción del ISBN, del EAN o de un numero
           comercial</title>
 
 
-          <para lang='fr'>Si le numéro d'identification saisi correspond à un ouvrage
-          déjà présent en base, la notice est alors directement ouverte en
-          modification. Ceci permet un dédoublonnage de la base dès le
+          <para lang='fr'>Si le numéro saisi correspond à un ouvrage
+          déjà présent en base, la notice est alors affichée, vous pouvez
+          immédiatement y ajouter un exemplaire. 
+          Ceci permet un dédoublonnage de la base dès le
           catalogage.</para>
 		  
           <para lang='es'>Si el número identificador corresponde a un documento que ya
@@ -1462,17 +1473,16 @@
               </mediaobject>
             </figure>
 
-            <para lang='fr'>Si le terme "auteur" est le nom qui convient à l'auteur d'un
-            livre, il n'en est pas de même pour l'auteur d'un film, pour
-            lequel on parlera davantage d'un metteur en scène. Il s'agit alors
+            <para lang='fr'>Si le terme "auteur" convient à l'auteur d'un
+            livre, on parlera davantage d'un metteur en scène pour un film. Il s'agit alors
             de la fonction de l'auteur par rapport à l'ouvrage dont il est le
-            responsable. Puis sélectionner une fonction (non obligatoire),
-            cliquer sur le bouton "...".</para>
+            responsable. Puis sélectionner une fonction,
+            cliquer sur le bouton "...". Vous pouvez effacer la fonction d'un auteur en cliquant sur "X".</para>
 			
             <para lang='es'>Si la palabra "autor" es la función que le corresponde al
             autor de un libro, ésta no es la función para el autor de una
             película, o para una diseñador de una cubierta, ... Para selecciar
-            la función que le corresponde a cada autor (no es obligatorio),
+            la función que le corresponde a cada autor,
             haz clic sobre el botón "...".</para>
 			
 
@@ -1548,6 +1558,14 @@
             Commencez par remplir <emphasis>sous-collection</emphasis> le cas
             échéant, sinon <emphasis>collection</emphasis> ou enfin
             <emphasis>éditeur</emphasis>.</para>
+
+            <para lang='fr'>De manière générale, choisissez l'élément le plus spécifique
+            en premier. Choisissez la sous-collection, puis la collection
+            enfin l'éditeur.</para>
+			
+            <para lang='es'>De forma general, escoge el elementos más específico en
+            primer lugar. Primero la subcolección, luego la colección,
+            finalmente la editorial.</para>
 			
             <para lang='es'>Durante la catalogación se pueden introducir nuevas
             colecciones, subcolecciones o títulos de serie. Empieza por llenar
@@ -1601,18 +1619,8 @@
             subcolección y finalmente guarda la subcolección y
             seleccionala.</para>
 			
-						
-
-            <para lang='fr'>De manière générale, choisissez l'élément le plus spécifique
-            en premier. Choisissez la sous-collection, puis la collection
-            enfin l'éditeur.</para>
-			
-            <para lang='es'>De forma general, escoge el elementos más específico en
-            primer lugar. Primero la subcolección, luego la colección,
-            finalmente la editorial.</para>
-									
-
-            <para lang='fr'>Une collection correspond au choix d'un éditeur :
+            <para lang='fr'>Une collection correspond à un choix éditorial et se
+            caractérise généralement par un format physique commun :
             <emphasis>PUF</emphasis>, collection <emphasis>Que Sais-je
             ?</emphasis></para>
 			
@@ -1629,7 +1637,8 @@
             Université, collection 128, subcolección Histoire.</para>
 						
 
-            <para lang='fr'>Un titre de série correspond à un ouvrage en plusieurs
+            <para lang='fr'><emphasis role="bold">Quelle différence y-a-t-il entre 
+            collection et titre de série ?</emphasis> Un titre de série correspond à un ouvrage en plusieurs
             volumes, chaque volume a un titre propre et l'ensemble des volumes
             en a un autre.</para>
 			
@@ -1642,7 +1651,8 @@
             <emphasis role="bold">Titre de série</emphasis> A la croisée des
             mondes <emphasis role="bold">Numéro de partie</emphasis> Volume 1
             <emphasis role="bold">Titre propre</emphasis> Les royaumes du
-            Nord</para>
+            Nord <emphasis role="bold">Editeur</emphasis> Gallimard 
+            <emphasis role="bold">Collection</emphasis> Folio junior</para>
 			
             <para lang='es'><emphasis role="bold">Ejemplo</emphasis> Pullman, Philip
             <emphasis role="bold">Título de serie</emphasis> A la croisée des
@@ -1666,8 +1676,8 @@
             <title lang='fr'>ISBN, EAN ou no. commercial</title>
             <title lang='es'>ISBN, EAN o nº comercial</title>			
 
-            <para lang='fr'>L'ISBN, qui a été demandé dans le premier écran lors d'une
-            création de notice, est affiché ici. Cliquez sur le bouton "..."
+            <para lang='fr'>L'ISBN, s'il a été saisi avant le reste de la notice, 
+            est affiché ici. Pour le modifier ou le renseigner, cliquez sur le bouton "..."
             pour ouvrir un popup et pouvoir douchetter l'EAN de l'ouvrage, ou
             saisir son ISBN. Cette saisie se fait dans un popup pour éviter
             que la validation qui suit une lecture de code-barres ne ferme la
@@ -1682,7 +1692,7 @@
             barras, el registro se cierre al validar el campo.</para>			
 
 
-            <para lang='fr'>PMB convertit les EAN saisis (code-barres commercial)
+            <para lang='fr'>PMB convertit les EAN saisis (code-barres commerciaux)
             automatiquement en ISBN.</para>
 			
             <para lang='es'>PMB convierte los EAN introducidos (código de barras
@@ -1706,7 +1716,7 @@
 
             <para lang='fr'>La collation précise différentes informations liées à
             l'aspect physique du document : importance matérielle,
-            illustrations, format, prix, matériel d'accompagnement.</para>
+            illustrations, format, prix public de l'éditeur, matériel d'accompagnement.</para>
 			
             <para lang='es'>La colación son las diferentes informaciones asociadas al
             aspecto físico del documento : tamaño, ilustraciones, formato,
@@ -1732,8 +1742,8 @@
 
             <para lang='fr'>Les notes sont de trois types :
             <emphasis>générale</emphasis>, liée au
-            <emphasis>contenu</emphasis> (appréciation, critique), ou
-            <emphasis>un résumé, un extrait </emphasis>du document (par
+            <emphasis>contenu</emphasis> (sommaire du document, appréciation), ou
+            <emphasis>un résumé</emphasis> (par
             exemple le résumé d'un roman en quatrième de couverture).</para>
 			
             <para lang='es'>Las notas pueden ser de tres tipos :
@@ -1921,9 +1931,11 @@
                 </imageobject>
               </mediaobject>
             </figure>
-
-            <para lang='fr'><emphasis role="bold">Aller plus loin : les fils
-            RSS</emphasis> Vous pouvez également associer un fil RSS à une
+			</sect5>
+			
+			<sect5>
+			<title lang='fr'>Aller plus loin : les flux RSS</title>
+            <para lang='fr'>Vous pouvez également associer un fil RSS à une
             notice. Un fil RSS est un flux d'information émis en continu par
             un site internet. Le flux RSS du site lemonde.fr vous renseigne
             sur les principales informations de l'actualité développées sur ce
@@ -2172,7 +2184,10 @@
             exemplaires est affiché. Il va permettre de voir qui a réalisé le
             catalogage d'une notice, et qui a fait des modifications. Les
             informations sont affichées dans un popup et dépendent du type
-            d'audit choisi. Pour plus d'informations, consulter le Guide de
+            d'audit choisi.</para>
+            
+            <para lang='fr'>Pour activer l'audit des notices et des exemplaires, 
+            consulter le Guide de
             l'Administrateur PMB, chapitre Outils, section Paramètres : il
             s'agit du paramètre de type Paramètres généraux intitulé
             type_audit.</para>
@@ -2201,8 +2216,11 @@
             <title lang='fr'>Z39.50</title>
             <title lang='fr'>Z39.50</title>
 
-            <para lang='fr'>Permet de rechercher une notice en Z39.50. Ce bouton relance
+            <para lang='fr'>Permet de remplacer une notice via la recherche Z39.50. 
+            Ce bouton relance
             une recherche correspondant à l'ISBN de la notice affichée.</para>
+            
+            <para lang='fr'>Pour plus d'informations, voir <xref linkend="cat_caddies" />
 			
             <para lang='es'>Permite buscar un registro a través de la pasarela Z39.50.
             Este botón inicia una búsqueda a partir del ISBN del
@@ -2240,7 +2258,7 @@
           ejemplar</emphasis>.</para>		  
 
           <figure>
-            <title lang='fr'>Ajout d'un exemplaire : saisie du num? d'exemplaire</title>
+            <title lang='fr'>Ajout d'un exemplaire : saisie du numéro d'exemplaire</title>
             <title lang='es'>Añadir un ejemplar : introducir el número de
             ejemplar</title>			
 
@@ -2251,9 +2269,9 @@
             </mediaobject>
           </figure>
 
-          <para lang='fr'>Ce <emphasis>n° d'exemplaire </emphasis>est le code barre que
+          <para lang='fr'>Ce <emphasis>numéro d'exemplaire </emphasis>est le code barre que
           vous avez posé en couverture, si vous utilisez une douchette. Dans
-          le cas contraire, il s'agit d'un numéro distinct pour chacun des
+          tous les cas, il s'agit d'un numéro distinct pour chacun des
           exemplaires de votre bibliothèque (numéro d'inventaire).</para>
 		  
           <para lang='es'>El <emphasis>número de ejemplar</emphasis> es el código 
@@ -2403,7 +2421,7 @@
             </listitem>
 
             <listitem>
-              <para lang='fr'>vous pouvez enfin définir un prêt.</para>
+              <para lang='fr'>vous pouvez enfin définir un prix.</para>
               <para lang='es'>también puedes definir un tipo de préstamo.</para>			  
             </listitem>
           </itemizedlist>
@@ -2454,7 +2472,7 @@
 		
 
         <sect4 id="cat_explnum_create">
-          <title lang='fr'>Ajout d'un exemplaire numérique</title>
+          <title lang='fr'>Ajout d'un document numérique</title>
 		  
           <title lang='es'>Añadir un documento electrónico</title>		  
 		  
@@ -2559,8 +2577,8 @@
           <title lang='es'>Modificar un ejemplar</title>		  
 
           <para lang='fr'>L'écran de modification est identique à celui d'ajout d'un
-          exemplaire auquel viennent s'ajouter deux boutons : Hist. et
-          Supprimer.</para>
+          exemplaire auquel viennent s'ajouter deux boutons : <emphasis>Hist.</emphasis> et
+          <emphasis>Supprimer</emphasis>.</para>
 		  
           <para lang='es'>La pantalla de modificación es idéntica a la de crear un
           ejemplar, aunque incluye dos botones más : Hist. y Eliminar.</para>		  
@@ -2574,8 +2592,9 @@
             catalogage d'une notice, et qui a fait des modifications. Les
             informations sont affichées dans un popup et dépendent du type
             d'audit choisi. Pour plus d'informations, consulter le Guide de
-            l'Administrateur PMB, chapitre Outils, section Paramètres : il
-            s'agit du paramètre de type Paramètres généraux intitulé
+            l'<emphasis>Administrateur PMB</emphasis>, chapitre 
+            <emphasis>Outils</emphasis>, section <emphasis>Paramètres</emphasis> : il
+            s'agit du paramètre de type <emphasis>Paramètres généraux</emphasis> intitulé
             type_audit.</para>
 			
             <para lang='es'>Este botón no se muestra si la auditoría de los registros y
@@ -2605,8 +2624,8 @@
           <title lang='es'>Modificar un documento electrónico</title>		  
 
 
-          <para lang='fr'>L'écran de modification d'un exemplaire numérique est
-          identique à celui d'ajout d'un exemplaire numérique.</para>
+          <para lang='fr'>L'écran de modification d'un document numérique est
+          identique à celui d'ajout d'un document numérique.</para>
 		  
           <para lang='es'>La pantalla de modificación de un documento electrónico es
           idéntica a la de crear un documento electrónico.</para>		  
@@ -2754,8 +2773,9 @@
       <title lang='es'>Un poco de vocabulario</title>	  
 
       <para lang='fr'>On désigne sous le terme de périodique toute publication en série
-      (y compris non-imprimée) dont la parution se fait à intervalles plus ou
-      moins réguliers et sous un titre uniforme.</para>
+      dont la parution se fait à intervalles plus ou
+      moins réguliers et sous un titre uniforme. La plupart du temps ce sera une revue
+      imprimée mais vous pouvez aussi cataloguer une revue sur CD audio ou en ligne.</para>
 	  
       <para lang='es'>Utilizamos el término de publicación periódica para toda aquella
       publicación en serie (impresa o no) que aparece con intervalos de
@@ -2791,12 +2811,12 @@
         </listitem>
 
         <listitem>
-          <para lang='fr'><emphasis role="bold">le numéro ou élément</emphasis> (encore
-          appelé <emphasis role="bold">bulletin</emphasis>) désigne par
+          <para lang='fr'><emphasis role="bold">le numéro</emphasis> ou 
+          <emphasis role="bold">bulletin</emphasis> désigne par
           exemple pour <emphasis>le Monde</emphasis> le n°
           <emphasis>32478</emphasis> publié le <emphasis>15 août
           2002</emphasis>, tel qu'il était disponible en kiosque. Décrire un
-          numéro dans le catalogue c'est décrire chacune des unités
+          numéro dans le catalogue c'est décrire chacun des bulletins
           constituant un périodique en vue du prêt d'un de ses exemplaires, ou
           du catalogage de ses articles.</para>
 		  
@@ -2827,7 +2847,8 @@
           <emphasis role="bold">dépouillement</emphasis>) constitue
           l'information de base dont sont constitués les différents numéros
           d'une revue. Ceux ci sont les informations à décrire (dépouillement)
-          et à cataloguer et disposent donc d'une notice. Exemple : cataloguer
+          et à cataloguer et disposent donc d'une notice. Exemple : un dépouillement 
+          décrira
           un article paru à la page 10 du Monde du 18 Juin 2003</para>
 		  
           <para lang='es'><emphasis role="bold">el artículo</emphasis> (o <emphasis
@@ -2946,8 +2967,7 @@
           son los más frecuentes, PMB permite generar también diarios hablados
           para los sordos o ciegos, periódicos electrónicos, etc.</para>		  
 
-          <para lang='fr'>Les 15 supports présents dans le menu déroulant en haut de la
-          fiche correspondent aux dénominations UNIMARC:</para>
+          <para lang='fr'>Les 15 types de document sont :</para>
 		  
           <para lang='es'>Los 15 soportes que hay en el menú desplegable en la parte
           superior del registro corresponden a las denominaciones
@@ -3019,6 +3039,12 @@
               <para lang='es'>objeto tridimensional, aparatos, ...</para>			  
             </listitem>
           </itemizedlist>
+          
+          <para lang="fr">Les types de document qui sont définis ici sont génériques : 
+          <emphasis>document projeté ou vidéo</emphasis> correspondent ainsi à un film
+          super-8, une VHS, un CD vidéo, un DVD ou tout support vidéo à venir. Ces 
+          types de document ne correspondent pas à un support particulier mais à une 
+          forme d'information.</para>
         </sect4>
 
         <sect4>
@@ -3036,7 +3062,7 @@
 		  
 
           <para lang='fr'><emphasis role="bold">A noter</emphasis> On ne peut pas
-          définir d'informations de collation (nb de pages, matériel
+          définir d'informations de collation (nombre de pages, matériel
           d'accompagnement, ...) pour un périodique. De même la notion de
           collection ne s'applique pas à un périodique.</para>
 		  
@@ -3131,7 +3157,8 @@
           <title lang='fr'>Ajouter un numéro ou un élément (bulletin)</title>
           <title lang='es'>Añadir un número o elemento (boletín)</title>		  
 
-          <para lang='fr'>Différentes informations seulement sont nécessaires : la
+          <para lang='fr'>Quelques informations seulement sont nécessaires pour 
+          définir un numéro : la
           mention de numérotation (n° 32478), le code barre du numéro, le
           libellé de période et/ou la date de parution et enfin le titre du
           bulletin.</para>
@@ -3143,7 +3170,7 @@
 		  		  
 
           <para lang='fr'><emphasis role="bold">Numérotation</emphasis> : sert à stocker
-          le numéro du bulletin. Par exemple le numéro
+          le numéro du bulletin (obligatoire). Par exemple le numéro
           <emphasis>153</emphasis> du périodique.</para>
 		  
           <para lang='es'><emphasis role="bold">Numeración</emphasis> : sirve para
@@ -3153,7 +3180,7 @@
 		  		  
 
           <para lang='fr'><emphasis role="bold">Code barre</emphasis> : ceci vous permet
-          d'enregistrer le code barre du numéro du périodique, par exemple
+          d'enregistrer le code-barres commercial du numéro du périodique, par exemple
           <emphasis>3792578022009</emphasis>.</para>
 		  
           <para lang='es'><emphasis role="bold">Código de barras</emphasis> : permite
@@ -3163,11 +3190,9 @@
 		  		  
 
           <para lang='fr'><emphasis role="bold">Date de parution</emphasis> sert à dater
-          au jour près le bulletin (01/06/04). C'est cette date qui sert à
-          classer l'affichage des bulletins. Si cette case n'est pas remplie,
-          soit à la main, soit par le popup calendrier en cliquant sur
-          <emphasis>calendrier,</emphasis> elle sera automatiquement remplie
-          par PMB à la date du jour.</para>
+          au jour près le bulletin, par exemple 01/06/2004 (obligatoire sinon
+          sera fixée au jour de saisie). C'est cette date qui sert à
+          classer l'affichage des bulletins.</para>
 		  
           <para lang='es'><emphasis role="bold">Fecha de aparición</emphasis> sirve para
           seleccionar la fecha del número (01/06/04). Es esta fecha la que
@@ -3239,24 +3264,6 @@
             </listitem>
 
             <listitem>
-              <para lang='fr'>Modifier un exemplaire dans la liste des exemplaires du
-              bulletin en cliquant sur son code-barres</para>
-			  
-              <para lang='es'>Modificar un ejemplar de la lista de ejemplares del número
-              haciendo clic sobre su código de barres</para>			  
-            </listitem>
-
-            <listitem>
-              <para lang='fr'>Afficher un document numérique en cliquant sur son icône,
-              ou modifier le document numérique en cliquant sur son
-              titre</para>
-			  
-              <para lang='es'>Ver un documento electrónico haciendo clic sobre su icono,
-              o modificar un documento electrónico haciendo clic sobre su
-              título</para>			  
-            </listitem>
-
-            <listitem>
               <para lang='fr'>Ajouter un exemplaire en saisissant son n° d'exemplaire
               puis en cliquant sur <emphasis role="bold">Ajouter un
               exemplaire</emphasis></para>
@@ -3275,8 +3282,27 @@
             </listitem>
 
             <listitem>
-              <para lang='fr'><emphasis role="bold">Ajouter un dépouillemen</emphasis>t
-              à ce bulletin (article)</para>
+              <para lang='fr'>Modifier un exemplaire dans la liste des exemplaires du
+              bulletin en cliquant sur son code-barres</para>
+			  
+              <para lang='es'>Modificar un ejemplar de la lista de ejemplares del número
+              haciendo clic sobre su código de barres</para>			  
+            </listitem>
+
+            <listitem>
+              <para lang='fr'>Afficher un document numérique en cliquant sur son icône,
+              ou modifier le document numérique en cliquant sur son
+              titre</para>
+			  
+              <para lang='es'>Ver un documento electrónico haciendo clic sobre su icono,
+              o modificar un documento electrónico haciendo clic sobre su
+              título</para>			  
+            </listitem>
+
+
+            <listitem>
+              <para lang='fr'><emphasis role="bold">Ajouter un dépouillement (article)</emphasis>
+              à ce bulletin </para>
 			  
               <para lang='es'><emphasis role="bold">Añadir un artículo</emphasis> a este
               número</para>			  
@@ -3314,13 +3340,12 @@
 		  
 
           <sect5 id="cat_serial_expl">
-            <title lang='fr'>Ajouter un exemplaire à un élément</title>
+            <title lang='fr'>Ajouter un exemplaire à un bulletin</title>
             <title lang='es'>Añadir un ejemplar a un número</title>			
 
-            <para lang='fr'>Voir précédemment la procédure de création d'exemplaire d'un
-            ouvrage section 1.2.2.1 <emphasis>Ajout d'un
-            exemplaire</emphasis>. L'ajout d'exemplaires à un élément a le
-            même fonctionnement.</para>
+            <para lang='fr'>L'ajout d'un
+            exemplaire à un bulletin a le
+            même fonctionnement que l'ajout d'exmplaires à un document.</para>
 			
             <para lang='es'>Ver anteriormente el procedimiento de crear un ejemplar de
             un documento en la sección 1.2.2.1 <emphasis>Añadir un
@@ -3330,13 +3355,12 @@
           </sect5>
 
           <sect5 id="cat_serial_explnum">
-            <title lang='fr'>Ajouter un exemplaire numérique à un élément</title>
+            <title lang='fr'>Ajouter un document numérique à un élément</title>
             <title lang='es'>Añadir un ejemplar eletrónico a un número</title>			
 
-            <para lang='fr'>Voir précédemment la procédure de création d'exemplaire
-            numérique d'un ouvrage section 1.2.2.2 <emphasis>Ajout d'un
-            exemplaire numérique</emphasis>. L'ajout d'exemplaires numériques
-            à un élément a le même fonctionnement.</para>
+            <para lang='fr'>L'ajout de documents numériques
+            à un bulletin a le même fonctionnement que l'ajout de documents numériques
+            à un document.</para>
 			
             <para lang='es'>Ver anteriormente el procedimiento de creación de ejemplares
             electrónicos en la sección 1.2.2.2 <emphasis>Añadir un ejemplar
@@ -3349,23 +3373,15 @@
             <title lang='fr'>Ajouter un dépouillement (article)</title>
             <title lang='es'>Añadir un artículo</title>			
 
-            <para lang='fr'>La notice d'un article correspond à une notice standard avec
-            pour particularité la possibilité de spécifier une
-            pagination.</para>
+            <para lang='fr'>La notice d'un article a pour seule particularité 
+            la possibilité de spécifier une pagination.</para>
 			
             <para lang='es'>El registro de un artículo corresponde a un registro
             estandar con alguna particularidad como la posibilidad de
             especificar una paginación.</para>
 						
 
-            <para lang='fr'><emphasis role="bold">Remarque</emphasis> : on ne peut pas
-            ajouter de titre propre d'un auteur différent à un article.</para>
-
-            <para lang='es'><emphasis role="bold">Nota</emphasis> : no se puede añadir
-            un título propio de un autor diferente a un artículo.</para>			
-			
-
-            <para lang='fr'>Nous conseillons aux catalogueurs de respecter les
+             <para lang='fr'>Nous conseillons aux catalogueurs de respecter les
             conventions suivantes :</para>
 			
             <para lang='es'>Aconsejamos a los catalogadores respetar las convenciones
@@ -3561,7 +3577,7 @@
 
           <para lang='fr'>Si vous développez la notice en cliquant sur le + situé devant
           l'élément, vous pourrez consulter sa notice au format ISBD ainsi la
-          liste des exemplaires et des exemplaires numériques. L'affichage de
+          liste des exemplaires et des documents numériques. L'affichage de
           la notice est identique à celui que vous pouvez avoir en résultat
           d'une recherche (Catalogage &gt; Recherche).</para>
 		  
@@ -4468,7 +4484,7 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
 
 
         <para lang='fr'>"J'ai voulu utilisé une procédure mais je suis vraiment nulle!
-        Dans les PS j'ai un inventaire de tout mes documentaires par ex. mais
+        Dans les PS j'ai un inventaire de tout mes documentaires par exemple mais
         je ne sais pas comment la transformer pour qu'elle fonctionne dans les
         paniers ? "</para>
 		
