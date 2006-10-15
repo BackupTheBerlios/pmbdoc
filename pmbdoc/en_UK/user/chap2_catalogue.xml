@@ -253,13 +253,13 @@
         <sect4 id="cat_recherche_termesexacts">
           <title lang='en'>Searching exact terms</title>
 
-          <para lang='en'>An exact term is defined as a text enclosed in quotation marks. Whenever the search engine encounters an exact term, it searches for records containing this term.
+          <para lang='en'>An exact term is defined as a text enclosed in quotation marks. Whenever the search engine encounters an exact term, it searches for records containing this term.</para>
           
           <para lang='en'>Truncation can be used within exact terms.</para>
 
           <para lang='en'><emphasis>For example </emphasis><programlisting>"dent"</programlisting>will return all records containing the term dent (dentist, accident, indentation, ...).</para>
 
-          <para lang='en'>Exact term searching is convenient for search expressions containing spaces or punctuation marks. (an acronym for instance).
+          <para lang='en'>Exact term searching is convenient for search expressions containing spaces or punctuation marks. (an acronym for instance).</para>
 
           <para lang='en'><emphasis>For example </emphasis><programlisting>"W.W.F."</programlisting> searches for records containing the text W.W.F.,</para>
 
@@ -636,7 +636,7 @@
 
             <itemizedlist>
               <listitem>
-                <para lang='en'>There can only be one primary author for a work, but there can be coauthors, and/or secondary authors. To select <emphasis>a coauthor<emphasis> or a <emphasis>secondary author</emphasis> click on the corresponding "..." button. To add an additional author, click on the "+" button.</para>
+                <para lang='en'>There can only be one primary author for a work, but there can be coauthors, and/or secondary authors. To select <emphasis>a coauthor</emphasis> or a <emphasis>secondary author</emphasis> click on the corresponding "..." button. To add an additional author, click on the "+" button.</para>
               </listitem>
 
               <listitem>
@@ -1084,7 +1084,7 @@
         <sect4>
           <title lang='en'>Cataloguing a website</title>
 
-          <para lang='en'>To catalogue a website, define the material designation as <emphasis role="bold">electronic document</emphasis>. Enter a title proper for your record. In the <emphasis role="">links (electronic resources)</emphasis> area, enter the associated URL (use the format <emphasis role="bold">http://www.bbc.co.uk< emphasis>). In electronic format for this resource, you can enter <emphasis role="bold">website</emphasis>.</para>
+          <para lang='en'>To catalogue a website, define the material designation as <emphasis role="bold">electronic document</emphasis>. Enter a title proper for your record. In the <emphasis role="bold">links (electronic resources)</emphasis> area, enter the associated URL (use the format <emphasis role="bold">http://www.bbc.co.uk</emphasis>). In electronic format for this resource, you can enter <emphasis role="bold">website</emphasis>.</para>
         </sect4>
 
         <sect4>
@@ -1400,30 +1400,24 @@
     <title lang='en'>Baskets</title>
 
     <para lang='en'>The baskets are PMB storage space : you can fill them with
-	records, bulletins (issues of a periodical), copies.</para>
+	records, periodical issues, copies.</para>
 
-    <para lang='en'>In PMB the baskets permit the checking of the holdings, for inventory
-	purposes. They also allow the clearance of the holdings, when works are
-	too old or too deteriorated.</para>
+    <para lang='en'>In PMB you can use the baskets, for instance, for stocktaking : it is a library term for inventory. Baskets can also be used for weeding : withdrawing from the collection works that are too old or damaged beyond repair.</para>
 
-    <para lang='en'>The baskets permit the storage of a bibliography : the results of multiple
-	searches for a publication, a thematical catalog,...</para>
+    <para lang='en'>You can also use baskets to store bibliographies : results of various searches to be used for a write-up, a subject catalogue,...</para>
 
-    <para lang='en'>There are two ways to fill a basket :  by entering elements manually
-	(look for the basket icon), or by scanning/entering the bar code.</para>
+    <para lang='en'>There are two ways to fill a basket :  by entering elements manually (look for the basket icon), or by scanning/entering the barcode.</para>
 
     <sect2 id="cat_caddie_gestion">
-      <title lang='en'>management</title>
+      <title lang='en'>Management</title>
 
-      <para lang='en'>By default, in the Baskets/Management part, the screen displays the baskets
-	  management. You can display the procedures management via the "Procedures management"
-	  link.</para>
+      <para lang='en'>By default, in the submenu Baskets/Management, the screen displays the manage baskets function. You can display the manage procedures function by clicking on the link provided.</para>
 
       <sect3 id="cat_caddie_gestion_caddie">
-        <title lang='en'>Baskets management</title>
+        <title lang='en'>Managing baskets</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; Management &gt; Baskets management</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Management &gt; Manage baskets</title>
 
           <mediaobject>
             <imageobject>
@@ -1432,19 +1426,15 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>You can see the content of a basket by clicking on its name.
-		By clicking on Modify, you can modify its content : name, format,
-		comment, access rights. Finally, by clicking on Add a basket you
-		can define a new basket.</para>
+        <para lang='en'>Click on the basket name to display its contents. Click on the Edit button to modify the basket : name, type, note, access privileges. And finally click on New basket to add a new basket.</para>
 
         <sect4>
-          <title lang='en'>Basket content</title>
+          <title lang='en'>Baskets contents</title>
 
-          <para lang='en'>You can consult the content of a basket by clicking on its name.</para>
+          <para lang='en'>To consult the contents of a basket click on its name.</para>
 
           <figure>
-            <title lang='en'>cataloguing &gt; Baskets &gt; Management &gt; Basket
-			management, basket content</title>
+            <title lang='en'>Cataloguing &gt; Baskets &gt; Management &gt; Manage baskets, basket contents</title>
 
             <mediaobject>
               <imageobject>
@@ -1453,15 +1443,12 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>You can delete its elements by clicking on its
-		  Delete icon :<graphic
-          fileref="images/basket_del.gif" /></para>
+          <para lang='en'>To remove an element from a basket click on its Remove from basket icon :<graphic fileref="images/basket_del.gif" /></para>
 
-          <para lang='en'>A basket can contain elements from the holdings
-		  (records, PMB cataloged works or bulletins) :</para>
+          <para lang='en'>A basket can contain entries of the holdings (records, copies or periodical issues) :</para>
 
           <figure>
-            <title lang='en'>Holdings elements</title>
+            <title lang='en'>Entries</title>
 
             <mediaobject>
               <imageobject>
@@ -1470,16 +1457,9 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>If you unfold the note by clicking on the "+" sign
-		  located in front of the element, you will be able to consult
-		  the ISBN formatted note as well as the works and digital
-		  copies list. The note display and search results display are
-		  similar (cataloguing &gt; Search).</para>
+          <para lang='en'>Click on the "+" sign in front of a record to expand it. You can now consult the record in ISBD format as well as the list of hardcopies and e-copies. The record is displayed exactly like for search results (Cataloguing &gt; Search).</para>
 
-          <para lang='en'>However, when preparing the basket you may have scanned
-		  an item not belonging to your holdings (for example a book belonging to the
-		  County Public Library, and that was not imported into BMP). To help you keep tracks
-		  of these items, a basket can also contain unknown items :</para>
+          <para lang='en'>However when loading the basket you may have scanned an item not belonging to your library (for instance, a book belonging to the County Public Library, and that was not imported into PMB). To help you keep track of these items, a basket can also contain unknown items :</para>
 
           <figure>
             <title lang='en'>Unknown items</title>
@@ -1491,12 +1471,10 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>In a basket content, the elements already checked
-		 are highlighted by an icon preceding their titles. For more information
-		 about basket items checking, consult the section <xref linkend="cat_caddie_pointage" />.</para>
+          <para lang='en'>In a basket, items that are tagged, are highlighted by an icon preceding their titles. For more information about tagging items, consult the section <xref linkend="cat_caddie_pointage" />.</para>
 
           <figure>
-            <title lang='en'>Checked item</title>
+            <title lang='en'>Tagged items</title>
 
             <mediaobject>
               <imageobject>
@@ -1509,12 +1487,10 @@
         <sect4 id="catalogue_panier_editer_un_panier">
           <title id="catalogue_panier_editer_un_panier.title">Modifying a basket</title>
 
-          <para lang='en'>You can also modify a basket by clicking on the link
-		  Modify on the right side of the screen.</para>
+          <para lang='en'>You can also modify a basket by clicking on the Edit button to the right of the screen.</para>
 
           <figure>
-            <title lang='en'>cataloguing &gt; Baskets &gt; Management &gt;
-			Baskets management</title>
+            <title lang='en'>Cataloguing &gt; Baskets &gt; Management &gt; Manage baskets</title>
 
             <mediaobject>
               <imageobject>
@@ -1523,114 +1499,72 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>The "Modify a basket" screen allows you to modify the name and
-		  comment of a basket as well as the users access rights to this basket.</para>
+          <para lang='en'>The "Edit basket" screen allows you to modify the name and note of a basket as well as users access privileges to the basket.</para>
 
-          <para lang='en'>You can see the basket type : notes basket, bulletins basket,
-		  copies baskets. You cannot change the type of an existing basket. If
-		  you have made a mistake creating it, delete it and create a new one.</para>
+          <para lang='en'>You can see the basket type : records basket, issues basket, copies baskets. You cannot change the type of an existing basket. If you have made a mistake when creating the basket, delete it and create a new one.</para>
 
-          <para lang='en'>Under the "Access granted to" heading, you can see
-		  boxes corresponding to the access rights. The names displayed are 
-		  the PMB authorized users. You cannot cancel the administrator's rights.</para>
+          <para lang='en'>Under "Access granted to" are check boxes corresponding to the access privileges. The names displayed are those of PMB authorized users. A simple user cannot revoke the access privileges of an administrator.</para>
 
-          <para lang='en'>You can thus create a basket which will only be accessible to
-		  you (and the administrator).</para>
+          <para lang='en'>You can thus create a basket which will be accessible only to you (and the administrator).</para>
         </sect4>
 
         <sect4>
           <title lang='en'>Adding a basket</title>
 
-          <para lang='en'>The "Add a basket" screen is identical to the "Modify a basket" screen.
-		  The only difference is the presence of the Delete button. For more information,
-		  consult above the <xref linkend="catalogue_panier_editer_un_panier" />section.</para>
+          <para lang='en'>The "New basket" screen is almost identical to the "Edit a basket" screen with the following difference, the presence of the Delete button. For more information, consult above the section <xref linkend=" catalogue_panier_editer_un_panier" />.</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>The PMB default baskets installed at start-up</title>
+          <title lang='en'>PMB default installed baskets</title>
 
-          <para lang='en'>If your data base administrator has installed PMB with the
-		  "essential data for a quick start" (feed_essential.sql,
-          for more informations, see the PMB Installation Guide), 
-		  a few baskets are already created, they serve as examples or for 
-		  the facilitating of the library management. </para>
+          <para lang='en'>If your systems administrator installed PMB with the "essential data for a quick start" (feed_essential.sql, for more information, see the PMB Installation Guide), then several baskets will have been created to serve as examples or to facilitate the management of the library.</para>
 
-          <para lang='en'><emphasis>Notes for exhibition</emphasis> notes basket
-		  example. It has been designed for receiving the notes for a small exhibition,
-		  which can later be highlighted thanks to the OPAC virtual shelves,
-		  for more informations consult <xref
-          linkend="cat_etg" /></para>
+          <para lang='en'>The <emphasis>For Exhibition</emphasis> records basket, for instance. Destiné à recevoir les notices d'une petite exposition, qui peut ensuite être mis en avant grâce aux étagères virtuelles de l'OPAC. Intended for receiving records for a small exhibition, it can later be highlighted via the virtual shelves in the OPAC. For more information consult <xref linkend="cat_etg" /></para>
 
-          <para lang='en'><emphasis>Notes for return to the County Public Library</emphasis>
-		  Easing management notes basket. It has been designed for receiving the bibliographic
-		  notes of the works returned to the County Public Library ; for
-		  data base clearance purposes after the returns.</para>
+          <para lang='en'>The <emphasis>Return to County Public Library</emphasis> records basket to facilitate management. Intended for receiving the bibliographic records of works to be returned to the County Public Library for databse cleanup after the items have been returned.</para>
 
-          <para lang='en'><emphasis>Copies for return to the County Public Library</emphasis>
-		  Easing management copies basket. It has been designed for receiving the copies
-		  returned to the County Central Library ; you will thus be able
-		  to get them out of the loan and clean your data base.</para>
+          <para lang='en'>The <emphasis>Return to the County Public Library</emphasis> copies basket to facilatate management. Intended for receiving the copies of works to be returned to the County Public Library so as to discharge issues and cleanup the database after the items have been returned.</para>
 
-          <para lang='en'><emphasis>Notes in doubles by title</emphasis> Easing management 
-		  notes basket. It will receive the doubles ; for
-		  data base clearance purposes.</para>
+          <para lang='en'>The <emphasis>Doubles on title</emphasis> records basket to facilatate management. Intended for receiving duplicate entries for database cleanup.</para>
 
-          <para lang='en'><emphasis>Never loaned</emphasis> 
-		  Items basket to facilitate management. It will receive the
-		  items that were never loaned.</para>
+          <para lang='en'>The <emphasis>Never loaned</emphasis> items basket to facilitate management. Intended for receiving items that have never been loaned.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_caddie_gestion_procs">
-        <title lang='en'>Procedures management</title>
+        <title lang='en'>Managing procedures</title>
 
-        <para lang='en'>This screen displays the procedures associated with the baskets.
-		You can define procedures that will fill the  baskets, check those
-		already made up or apply changes to the notes, bulletins or copies
-		stored in the basket.</para>
+        <para lang='en'>This screen displays the procedures associated with baskets. You can define procedures for filling up the baskets, for tagging items in baskets already filled up or for modifying records, periodical issues or copies of works stored in the baskets.</para>
 
-        <para lang='en'>For more information about the procedures (several examples are provided),
-		consult further along the <emphasis>3.5 basket use examples </emphasis>section.</para>
+        <para lang='en'>For more information on procedures (examples are provided ), consult below the section <emphasis>3.5 How to use baskets </emphasis>section.</para>
 
         <sect4>
-          <title lang='en'>By default procedures installed at PMB start-up</title>
+          <title lang='en'>PMB default installed procedures</title>
 
-          <para lang='en'>If your data base administrator has installed PMB with the
-		  "essential data for a quick start" (feed_essential.sql,
-          for more information, see the PMB Installation Guide), then
-		  several procedures are already created. They serve as examples or for 
-		  the facilitating of the library management..</para>
+          <para lang='en'>If your systems administrator installed PMB with the "essential data for a quick start" (feed_essential.sql, for more information, see the PMB Installation Guide), then several procedures are already created to serve as examples or to facilitate the management of the library.</para>
 
-          <para lang='en'><emphasis>EXPL by section / owner</emphasis> selection
-		  procedure by one or more sections for one or more owners.</para>
+          <para lang='en'><emphasis>EXPL by section/owner</emphasis> selection procedure by one or more sections for one or more owners.</para>
 
-          <para lang='en'><emphasis>EXPL where the classification starts with</emphasis>
-		  selection procedure by the first characters of a classification.
-		  Useful for the holdings periodical checking.</para>
+          <para lang='en'><emphasis>EXPL class numbers starts with </emphasis> selection procedure by the first digits of a class number. Useful when making regular stocktakes of holdings by the library.</para>
 
-          <para lang='en'><emphasis>Copies for return to the County Central Library</emphasis>
-		  action procedure allowing a status change for all the copies of a basket.</para>
+          <para lang='en'><emphasis>Copies for return to the County Central Library</emphasis> action procedure allowing a batch status change for all the copies of a basket.</para>
 
-          <para lang='en'><emphasis>Notes by author</emphasis>
-		  notes selection procedure by one or more authors.</para>
+          <para lang='en'><emphasis>Records by author</emphasis> selection procedure by one or more authors.</para>
 
-          <para lang='en'><emphasis>Notes in doubles</emphasis>
-		  selection procedure by doubles according to the title.</para>
+          <para lang='en'><emphasis>Duplicate records</emphasis> selection procedure by title.</para>
 
-          <para lang='en'><emphasis>Notes without works</emphasis> 
-		 selection procedure for notes having no works/items attached.</para>
+          <para lang='en'><emphasis>Records with no copies associated</emphasis> selection procedure.</para>
 
-          <para lang='en'><emphasis>Never loaned</emphasis> 
-		  selection procedure for works never loaned.</para>
+          <para lang='en'><emphasis>Never loaned</emphasis> selection procedure for works never loaned.</para>
         </sect4>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_collecte">
-      <title lang='en'>Basket filling</title>
+      <title lang='en'>Collection</title>
 
       <figure>
-        <title lang='en'>cataloguing &gt; Baskets &gt; Basket filling</title>
+        <title lang='en'>Cataloguing &gt; Baskets &gt; Collection</title>
 
         <mediaobject>
           <imageobject>
@@ -1639,65 +1573,45 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>You can fill a basket via a bar code reader (by scanning
-	  the works bar code). You also can input elements in a basket by
-	  starting a selection procedure.</para>
+      <para lang='en'>Collection here refers to the fill-up of a basket. You can fill a basket using a barcode reader (by scanning the barcodes of works). You can also place items in a basket by starting a selection procedure.</para>
 
-      <para lang='en'>These procedures were defined in Baskets/Management/ Procedures management.</para>
+      <para lang='en'>These procedures were defined in Baskets/Management/Manage procedures.</para>
 
-      <para lang='en'>At any time in the Cataloguing tab, when you see a basket shaped icon,
-	  you can add an element (note, copy, bulletin) to a basket by clicking on
-	  the icon <graphic
-      fileref="images/basket_small.gif" /></para>
-
+      <para lang='en'>At any time in the Cataloguing tab whenever a basket-shaped icon is displayed, you can add an item (record, copy, issue) to a basket by clicking on the icon <graphic fileref="images/basket_small.gif" /></para>
+      
       <sect3>
-        <title lang='en'>subtleties of the additions to a basket</title>
+        <title lang='en'>Basket fill-up niceties</title>
 
-        <para lang='en'>Managing the additions of elements to a basket
-		corresponds to the various operating modes :</para>
+        <para lang='en'>The fill-up functions of baskets correspond to the various possible operations :</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>adding a <emphasis role="bold">note</emphasis> to a
-            <emphasis>copies basket</emphasis> = adding
-            <emphasis>all the note copies</emphasis> to the
-            basket</para>
+            <para lang='en'>adding a <emphasis role="bold">record</emphasis> to a <emphasis>copies basket</emphasis> = adding <emphasis>all the copies associated with the record</emphasis> to the basket</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>adding a <emphasis role="bold">copy</emphasis> to a
-            <emphasis>notes basket</emphasis> = adding the 
-            <emphasis>copy note </emphasis> to the basket</para>
+            <para lang='en'>adding a <emphasis role="bold">copy</emphasis> to a <emphasis>records basket</emphasis> = adding the <emphasis>copy entry</emphasis> to the basket</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>adding an <emphasis role="bold">analytical note
-            </emphasis>to a <emphasis>bulletins basket</emphasis>= adding
-            the <emphasis>corresponding analyzed bulletin</emphasis> to
-			the basket</para>
+            <para lang='en'>adding an <emphasis role="bold">analytical record </emphasis>to an <emphasis>issues basket</emphasis> = adding the <emphasis>corresponding article</emphasis> to the basket</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>Caution : adding a <emphasis
-        role="bold">bulletin</emphasis>to a <emphasis>notes basket
-        </emphasis>will be <emphasis>without effect</emphasis>. Indeed,
-		two types of notes correspond to a bulletin : the periodical mother
-		note and the analytical notes of the bulletin.</para>
+        <para lang='en'>Warning : adding an <emphasis role="bold">issue</emphasis> to a <emphasis>records basket</emphasis>will be <emphasis>without effect</emphasis>. Indeed, two types of notes correspond to an issue : the periodical main entry and the analytical entries of the issue.</para>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_pointage">
-      <title lang='en'>Checking</title>
+      <title lang='en'>Tagging</title>
 
-      <para lang='en'>Basket checking permits the comparison of a basket content with
-	  other elements, either by manual checking (scanning) or by starting
-	  a PMB selection procedure.</para>
+      <para lang='en'>Basket tagging allows you to compare the contents of a basket with other elements, either manually (scanning) or by starting a PMB selection procedure.</para>
 
       <sect3 id="cat_caddie_pointage_douchette">
-        <title lang='en'>Checking with bar code reader</title>
+        <title lang='en'>By scan</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; with bar code reader</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off</title>
 
           <mediaobject>
             <imageobject>
@@ -1706,24 +1620,26 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Click on the name of the basket you want to check.<figure>
-            <title lang='en'>cataloguing &gt; Baskets &gt; Checking &gt; with bar code reader</title>
+        <para lang='en'>Click on the name of the basket of which you want to tag the elements.</para>
+        
+        <figure>
+            <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By scan</title>
 
             <mediaobject>
               <imageobject>
                 <imagedata fileref="images/cat_paniers_collecte_douchett2.gif" />
               </imageobject>
             </mediaobject>
-          </figure></para>
+          </figure>
       </sect3>
 
       <sect3 id="cat_caddie_pointage_sÃ©lection">
-        <title lang='en'>Checking by selection</title>
+        <title lang='en'>By selection</title>
 
-        <para lang='en'>To check a basket, click on it.</para>
+        <para lang='en'>To tag a basket using the select function, click on it.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Checking &gt; By
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By
           selection</title>
 
           <mediaobject>
@@ -1733,11 +1649,10 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Then click on the procedure you want to use.</para>
+        <para lang='en'>Next click on the procedure you want to use.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Checking &gt; By selection,
-          choice of the checking procedure</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By selection, choosing the tagging procedure</title>
 
           <mediaobject>
             <imageobject>
@@ -1746,11 +1661,10 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Do not forget to adjust the values of the parameters, if any.</para>
+        <para lang='en'>Do not forget to adjust parameter values, if any.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Checking &gt; By selection,
-          checking completed</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By selection, tagging completed</title>
 
           <mediaobject>
             <imageobject>
@@ -1759,18 +1673,15 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>The basket elements that were checked are declared as being
-		<emphasis> Checked</emphasis>. The total number of elements in the basket is
-		shown. The elements belonging to the holdings registered in PMB are displayed
-		on the second line of the summary table, bottom of the page.</para>
+        <para lang='en'>The tagged elements of a basket are declared as <emphasis> Tagged</emphasis>. The total number of elements in the basket is shown. The elements belonging to the library registered in PMB are displayed on the second line of the summary table, at the bottom of the page.</para>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_actions">
-      <title lang='en'>actions</title>
+      <title lang='en'>Actions</title>
 
       <figure>
-        <title lang='en'>cataloguing &gt; Baskets &gt; Actions</title>
+        <title lang='en'>Cataloguing &gt; Baskets &gt; Actions</title>
 
         <mediaobject>
           <imageobject>
@@ -1783,40 +1694,37 @@
 
       <itemizedlist>
         <listitem>
-          <para lang='en'>Modify the content (HTML, Excel HTML, Excel
-          XLS formats).</para>
+          <para lang='en'>modify the contents (HTML, Excel HTML, Excel XLS formats).</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>empty the selected basket</para>
+          <para lang='en'>cleanup the selected basket</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>delete the basket elements from the data base</para>
+          <para lang='en'>delete from the database all the elements in the basket</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>export the content of the basket</para>
+          <para lang='en'>export the contents of the basket</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>transfer the content of a basket into another one</para>
+          <para lang='en'>transfer the contents of a basket into another</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>apply an SQL query to the content of a basket</para>
+          <para lang='en'>apply an SQL query to the contents of a basket</para>
         </listitem>
       </itemizedlist>
 
-      <para lang='en'>You can perform these actions by clicking on their corresponding
-	  links in the central interface, then by clicking on the basket name you want
-	  to affect.</para>
+      <para lang='en'>To perform all these operations, click on the corresponding links in the central interface and on a given basket name.</para>
 
       <sect3>
-        <title lang='en'>Editions</title>
+        <title lang='en'>Editing</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; Actions &gt; Editions</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Editing</title>
 
           <mediaobject>
             <imageobject>
@@ -1825,18 +1733,16 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>For more information on the PMB export formats,
-		consult the<emphasis> Administrator Guide</emphasis>, Chapter
-        10 <emphasis>Export</emphasis>, section 1 <emphasis>File formats.</emphasis></para>
+        <para lang='en'>For more information on PMB's export formats, consult the<emphasis> PMB Administrator's Guide</emphasis>, Chapter 10 <emphasis>Export</emphasis>, section 1 <emphasis>File formats.</emphasis></para>
 
-        <para lang='en'>Select then the concerned basket elements : checked or unchecked elements.</para>
+        <para lang='en'>Next select the elements of the basket : tagged or untagged elements.</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>Emptying the basket</title>
+        <title lang='en'>Cleaning up a basket</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; Actions &gt; Emptying the basket</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Basket cleanup</title>
 
           <mediaobject>
             <imageobject>
@@ -1845,16 +1751,16 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'><emphasis>Emptying the basket </emphasis>allows to empty a basket content.</para>
+        <para lang='en'><emphasis>Basket cleanup </emphasis>allows you to clean a basket of its contents.</para>
 
-        <para lang='en'>Select then the concerned basket elements : checked or unchecked elements</para>
+        <para lang='en'>Next select the elements of the basket : tagged or untagged elements</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>Deleting from the data base</title>
+        <title lang='en'>Delete from database</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; Actions &gt; Deleting from the data base</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Deleting from database</title>
 
           <mediaobject>
             <imageobject>
@@ -1863,19 +1769,18 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Deleting from the data base means deleting the selected basket elements
-		(notes, bulletins or copies) from the library data base.</para>
+        <para lang='en'>Delete from database means deleting the elements of the selected basket (records, issues or copies) from the library database.</para>
 
-        <para lang='en'>Use it with extreme caution, for example to delete a lost works basket.</para>
+        <para lang='en'>Use it with extreme care, for instance, to delete works lost.</para>
 
-        <para lang='en'>Select then the concerned basket elements : checked or unchecked elements.</para>
+        <para lang='en'>Next select the elements of the basket : tagged or untagged elements.</para>
       </sect3>
 
       <sect3>
         <title lang='en'>Export</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; Actions &gt; Export</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Export</title>
 
           <mediaobject>
             <imageobject>
@@ -1884,16 +1789,16 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Export allows exporting a basket content.</para>
+        <para lang='en'>Export enables you to export the contents of a basket.</para>
 
-        <para lang='en'>Select the concerned basket elements then: checked or unchecked elements.</para>
+        <para lang='en'>Next select the elements of the basket : tagged or untagged elements.</para>
       </sect3>
 
       <sect3>
         <title lang='en'>Transfer</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; Actions &gt; Transfer</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Transfer</title>
 
           <mediaobject>
             <imageobject>
@@ -1902,15 +1807,14 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Transfer allows transfering basket elements (checked or unchecked)
-		into another basket.</para>
+        <para lang='en'>Transfer enables you to transfer the elements of a basket (tagged or untagged) into another one.</para>
       </sect3>
 
       <sect3>
         <title lang='en'>By query</title>
 
         <figure>
-          <title lang='en'>cataloguing &gt; Baskets &gt; Actions &gt; By query</title>
+          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; By query</title>
 
           <mediaobject>
             <imageobject>
@@ -1919,63 +1823,45 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>You can also apply an SQL query to a basket content ; for
-		example an UPDATE query (for more information about queries,
-		consult the <emphasis>PMB Administrator Guide</emphasis>) will
-		change the classification of a set of books that were
-		displaced in your library.</para>
+        <para lang='en'>You can also apply an SQL query to the contents of a basket, for instance, an UPDATE query to change the call numbers of a set of works that have been moved to another section of your library. For more information about queries, consult the <emphasis>PMB Administrator's Guide</emphasis>).</para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title lang='en'>using baskets examples</title>
+      <title lang='en'>How to use baskets</title>
 
-      <para lang='en'>A few examples on how to use baskets. These examples will allow you
-	  to better comprehend the use of PMB baskets along with their powerful
-	  features via the queries.</para>
+      <para lang='en'>Here are some examples on how to use baskets. They will help you to better comprehend the use of PMB baskets as well as their powerful features via the queries.</para>
 
       <sect3>
-        <title lang='en'>Putting works without any copies into a basket</title>
+        <title lang='en'>Putting works with no copies associated into a basket</title>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>Create a notes basket,</para>
+            <para lang='en'>Create a records basket,</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Create a selection procedure, enter the following
-			code (CAUTION, without any line break) :</para>
+            <para lang='en'>Create a selection procedure, enter the following code (CAUTION, no line break) :</para>
 
             <programlisting>SELECT notice_id as object_id, 'NOTI' as object_type FROM notices left join exemplaires on notice_id=expl_notice WHERE expl_notice is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
           </listitem>
 
           <listitem>
-            <para lang='en'>Go to basket &gt; Basket filling &gt; By selection and fill your basket with
-			this procedure</para>
+            <para lang='en'>Go to the basket &gt; Collection &gt; By selection and fill up your basket using this procedure</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title lang='en'>Inventory management</title>
+        <title lang='en'>Stocktaking</title>
 
-        <para lang='en'>&gt; I would like to simplify my inventory operations,
-		I thus &gt; created a basket with all the copies of a section. I
-		 &gt; will then be able to physically check all the works of a shelf
-		 and with &gt; the "Delete from the basket the checked elements" action I
-		 will be able to find the books &gt; that are in the data base but are
-		 physically lost, stolen... &gt; &gt; I wanted to use a procedure but
-		 I am a real dummy! In the &gt; PS I have the inventory of all my 
-		 documentaries but I don't know &gt; how to transform it so it works
-		 in the baskets &gt; Here is the corrected PS ! select expl_id as object_id, 'EXPL' as
-        object_type from exemplaires, notices, docs_section where idsection in
-        (!!section!!) and expl_notice=notice_id and expl_section=idsection
-        order by section_libelle, expl_cote, expl_cb 
-		All that is left to do is to set a value for the !!section!! parameter : a multiple choice list
-		from a query with : select idsection,
-        section_libelle from docs_section order by section_libelle &gt;
-        Stephanie FORT &gt; Librarian &gt; &gt; CDI - CollÃ¨ge Saint
-        Pierre &gt; Jette (Belgique)</para>
+        <para lang='en'>&gt; I would like to simplify my inventory operations, so I &gt; decided to create a basket to contain all the copies of a given section. I &gt; should then be able to physically check all the works on a shelf and using &gt; the action "Delete from the basket the tagged elements" I should be able to find the books &gt; that are still in the database but are physically lost, stolen... &gt; &gt; I wanted to use a procedure but I am a real dummy! In the &gt; SP I have an inventory of all my non-fiction works, for instance, but I have no idea &gt; how to transform it to make it work in the baskets &gt; Here is the corrected SS ! 
+        
+        select expl_id as object_id, 'EXPL' as object_type from exemplaires, notices, docs_section where idsection in (!!section!!) and expl_notice=notice_id and expl_section=idsection order by section_libelle, expl_cote, expl_cb 
+        
+        All there is to do now is to set a value for the !!section!! parameter : a multiple choice list from a query with : 
+        
+        select idsection, section_libelle from docs_section order by section_libelle &gt; Stephanie FORT &gt; Librarian &gt; &gt; CDI - CollÃ¨ge Saint Pierre &gt; Jette (Belgium)</para>
       </sect3>
     </sect2>
   </sect1>
@@ -1983,16 +1869,12 @@
   <sect1 id="cat_etg">
     <title lang='en'>Shelves</title>
 
-    <para lang='en'>The virtual shelves are a set of notes baskets that may or may not
-	contain notes. The virtual shelves allow you to display these notes in the
-	OPAC or on your web site. Thanks to this feature, PMB permits the display on 
-	your web site, of virtual exhibitions, lists of your latest library
-	purchases, readers club books selection, etc ...</para>
+    <para lang='en'>The virtual shelves are groups of records baskets that may or may not contain records. The virtual shelves allow you to display the records in the OPAC or on your web site. You can use this PMB feature to hold a virtual exhibition on your web site, display your latest acquisitions, a book club selections, etc ...</para>
 
     <sect2 id="cat_etg_gestion">
       <title lang='en'>Management</title>
 
-      <para lang='en'>The shelves management displays a list of all the existing shelves.</para>
+      <para lang='en'>Shelves management displays the list of existing shelves.</para>
 
       <figure>
         <title lang='en'>Cataloguing &gt; Shelves &gt; Management</title>
@@ -2004,28 +1886,22 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>You can add a shelf by clicking on the
-      <emphasis>Add a shelf</emphasis> button.</para>
+      <para lang='en'>To create a new shelf, click on the <emphasis>Add a shelf</emphasis> button.</para>
 
-      <para lang='en'>To modify an existing shelf, click on its
-	  corresponding line.</para>
+      <para lang='en'>To modify an existing shelf, click on its corresponding line.</para>
 
-      <para lang='en'>A shelf is defined by its name, a validity period, and
-	  its visibility on the OPAC home page. A comment can also be added.
-	  Finally each shelf has its own access rights : they allow authorized users
-	  to modify the selected shelf and its content.</para>
+      <para lang='en'>A shelf is defined by its name, a validity period, and its visibility on the OPAC home page. A note can also be added. Finally each shelf has its own access privileges, allowing authorized users to modify the given shelf and its contents.</para>
     </sect2>
 
     <sect2 id="cat_etg_constit">
-      <title lang='en'>Assembling</title>
+      <title lang='en'>Set up</title>
 
-      <para lang='en'>The assembling screen of a shelf makes it possible to add or
-	  remove the content of one or more baskets from one of your virtual shelves.</para>
+      <para lang='en'>The set up screen of a shelf makes it possible to add or remove the contents of one or more baskets from one of your virtual shelves.</para>
 
-      <para lang='en'>Click on the shelf you wish to assemble.</para>
+      <para lang='en'>Click on the shelf you wish to set up .</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Shelves &gt; Assembling</title>
+        <title lang='en'>Cataloguing &gt; Shelves &gt; Set up</title>
 
         <mediaobject>
           <imageobject>
@@ -2034,12 +1910,10 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Then check the notes baskets you wish to add to your virtual
-	  shelf.</para>
+      <para lang='en'>Then check the records baskets you wish to add to your virtual shelf.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Shelves &gt; Assembling, adding baskets to
-		a shelf</title>
+        <title lang='en'>Cataloguing &gt; Shelves &gt; Set up, adding baskets to a shelf</title>
 
         <mediaobject>
           <imageobject>
@@ -2048,8 +1922,7 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Then click on  <emphasis>Save</emphasis> to validate the assembling
-	  of your virtual shelf.</para>
+      <para lang='en'>Next click on <emphasis>Save</emphasis> to validate the set up of your virtual shelf.</para>
     </sect2>
   </sect1>
 
@@ -2059,20 +1932,12 @@
     <sect2 id="cat_z3950">
       <title lang='en'>Z39.50 Search</title>
 
-      <para lang='en'>The Z39.50 search permits searching a work in the
-	  catalog of another library and its direct insertion into the PMB catalog,
-	  without having to repeat the cataloguing operations already done
-	  by the other library.</para>
+      <para lang='en'>The Z39.50 search enables you to search for a work in the catalogue of another library and to integrate the catalogue record directly into the PMB catalogue. It spares you the onus of having to repeat the cataloguing processes already completed by the other library.</para>
 
-      <para lang='en'><emphasis role="bold">Comment</emphasis> the records
-	  represent an intellectual creation and are protected by copyright. The 
-	  records of the <emphasis>Library of Congress</emphasis>
-	  as well as those of the <emphasis>French National Library</emphasis>
-	  are in the public domain : you can freely inport them. Other libraries
-	  may have different policies. Contact them for more information.</para>
+      <para lang='en'><emphasis role="bold">Note</emphasis> Bibliographical records are an intellectual creation and are protected by copyright. The records of the <emphasis>Library of Congress</emphasis> as well as those of the <emphasis>National Library of France</emphasis> are in the public domain : you can freely import them. Other libraries may have their own policies. Contact them for more information.</para>
 
       <figure>
-        <title lang='en'>cataloguing &gt; Z39.50 &gt; Search</title>
+        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search</title>
 
         <mediaobject>
           <imageobject>
@@ -2081,13 +1946,9 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Let's take an example, and import <emphasis>Germinal</emphasis> from
-      <emphasis>Zola</emphasis>. As search criteria, we select "title" and in the 
-	  adjacent field we enter "Germinal".</para>
+      <para lang='en'>Example, let us import <emphasis>Germinal</emphasis> by <emphasis>Zola</emphasis>. As search criteria, select "title" and in the adjacent text box enter "Germinal".</para>
 
-      <para lang='en'>We then select one or more libraries which will possibly
-	  have a copy of <emphasis>Germinal</emphasis>, document we want to add
-	  to our catalog.</para>
+      <para lang='en'>Next select one or more libraries which may possibly have a copy of <emphasis>Germinal</emphasis> so it can be added to the catalogue.</para>
 
       <figure>
         <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, intermediate screen showing
@@ -2100,39 +1961,28 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>When a request has not given any results after a wait period of a dozen of seconds,
-	  we can imagine that our internet connection is saturated, that
-	  the server is too busy to answer, or that our PMB configuration is not
-	  correct (if all of our z39.50 searches have not returned any results so far).</para>
+      <para lang='en'>Whenever a request does not return any results after some ten seconds, we can assume that either our internet connection is saturated or that the host server is too busy to answer, or even that our PMB configuration is incorrect (if ever all of our z39.50 searches have not returned any results by then).</para>
 
-      <para lang='en'>The lines starting with "Failure..." correspond to an error. An
-	  error message is then displayed. Here, a few examples :</para>
+      <para lang='en'>Lines starting with "Failure..." correspond to errors. An error message is then displayed. Here, a few examples :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'>Timeout : the server did not answer before the end of the predetermined
-		  time interval</para>
+          <para lang='en'>Timeout : the server did not answer within the predetermined time interval</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>Connect failed : the server has answered but the connection failed
+          <para lang='en'>Connect failed : the server answered but the connection failed
 		  </para>
         </listitem>
 
         <listitem>
-          <para lang='en'>Malformed query : the z3950 perfil of the server is not correct.
-          Contact your data base administrator about the z3950 perfil</para>
+          <para lang='en'>Malformed query : the z3950 profile of the server is incorrect. Check the z3950 profile of the server with its systems administrator</para>
         </listitem>
       </itemizedlist>
 
-      <para lang='en'>The lines starting with TERMINE indicate that the search
-	  was succesfull. The number of results is indicated in the
-	  <emphasis> the server returned X notes out of Y found </emphasis>
-	  sentence (limitation to the first hundred notes, if you get more
-	  than a hundred results, refine your search).</para>
+      <para lang='en'>Lines starting with COMPLETED indicate that the search was succesful. The number of results is indicated as <emphasis> END : the server returned X titles of Y found</emphasis> (limited to the first one hundred records, if you get more than a hundred results, refine your search).</para>
 
-      <para lang='en'>Once the search is completed, click on "Results" to display 
-	  the corresponding results.</para>
+      <para lang='en'>Once the search is completed, click on "Results" to display the results.</para>
 
       <figure>
         <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, search results screen</title>
@@ -2144,14 +1994,10 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>A screen displays the search results then. The results list
-	  shows summarized notes, ISBD format. Notes that were otherwise
-	  entered and other minor informations do not appear on this list. To select
-	  a note, click on its title.</para>
+      <para lang='en'>A screen then displays the search results. The results list shows records in ISBD format. Notes and other minor details do not appear in this list. To select a record, click on its title.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, notes modification screen before
-		insertion</title>
+        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, records modification screen before insertion</title>
 
         <mediaobject>
           <imageobject>
@@ -2160,14 +2006,9 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>The resulting note is displayed in a "modifying screen" so you can consult
-	  it in details, modify it and insert it into the catalog. There are a few differences
-	  with the regular "Modifying a note" screen : the authors and publishers have 
-	  two entry fields corresponding to the principal element (last name) and the hooked-in
-	  element (first name). Once you have made the modifications, validate
-	  them by clicking on the "insert into the note" button.</para>
+      <para lang='en'>The record is displayed in edit mode so you can consult its details, modify it if necessary and integrate it into the catalogue. The edit screen is slightly different from the regular edit screen : authors and publishers have two entry fields corresponding to the principal element (last name) and the non-indexable element (first name). Once you have made the modifications, validate them by clicking on the "integrate this title" button.</para>
 
-      <para lang='en'>The following screen allows you to define copies then.</para>
+      <para lang='en'>The following screen allows you to define copies.</para>
 
       <figure>
         <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, copies entry screen</title>
@@ -2179,24 +2020,16 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Cataloguing your copies then. Once a copy has been defined, click on
-	  Inserting. You can also return to the results list and insert
-	  an additional result.</para>
+      <para lang='en'>Next catalogue your copies. Once a copy has been defined, click on Integration. You can also return to the results list and integrate an additional title from the results list.</para>
 
-      <para lang='en'>On top of this screen, there is the heading "integrated note",
-	  with a link<emphasis> See it in cataloguing.</emphasis> The note is displayed
-	  in its modification screen. This screen is the same as the  "record
-	  creation" screen (see above the <emphasis>New note</emphasis> section).</para>
+      <para lang='en'>On top of this screen, there is the message "title integrated", with a link<emphasis> View.</emphasis> The record is displayed in edit mode. The screen is the same as the "add record" screen (see above the section<emphasis>New record</emphasis>).</para>
 
       <sect3>
-        <title lang='en'>Daily use of the Z39.50 search</title>
+        <title lang='en'>Regular use of the Z39.50 search</title>
 
-        <para lang='en'>For the French libraries, the Z39.50 search main interest
-		is the ISBN search of the French National Library (BnF). As for
-		the works of your holdings, you can easily catalog/classify them
-		by scanning their commercial bar code (EAN) with your bar code reader.</para>
+        <para lang='en'>For French libraries, the main interest in the Z39.50 search lies in the search by ISBN from the National Library of France (BnF). For your library's holdings, you can easily catalogue/classify them by scanning their commercial barcodes (EAN) with your barcode reader.</para>
 
-        <para lang='en'>To do so,</para>
+        <para lang='en'>How-to</para>
 
         <itemizedlist>
           <listitem>
@@ -2204,7 +2037,7 @@
           </listitem>
 
           <listitem>
-            <para lang='en'>select BnF among the servers,</para>
+            <para lang='en'>select BnF from among the servers,</para>
           </listitem>
 
           <listitem>
@@ -2222,11 +2055,10 @@
           </listitem>
 
           <listitem>
-            <para lang='en'>enter/scan your work bar code into the input field. The scanned EAN
-			(commercial code) will be converted into an ISBN code by PMB.</para>
+            <para lang='en'>enter/scan the barcode of your work in the entry text box. The scanned EAN (commercial code) will be converted into an ISBN by PMB.</para>
 
             <figure>
-              <title lang='en'>cataloguing &gt; Z39.50 &gt; Search, ISBN search</title>
+              <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, ISBN search</title>
 
               <mediaobject>
                 <imageobject>
@@ -2237,17 +2069,13 @@
           </listitem>
 
           <listitem>
-            <para lang='en'>The ISBN search result is normally unique. Theoretically,
-			no two works can have the same ISBN code. However, bibliographic
-			notes can be more or less detailed according to the selected server.</para>
+            <para lang='en'>The search result for an ISBN is normally unique. Theoretically, no two works can have the same ISBN. On the other hand bibliographic records can be more or less detailed according to the selected host server.</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>You can then look for copies of the searched work, and continue.</para>
+        <para lang='en'>You can then make copies for the searched work, and continue.</para>
 
-        <para lang='en'><emphasis role="bold">Comment </emphasis>: the BnF has a turnaround for
-		cataloguing operations. The latest publications (published less than a year ago)
-		may not still be cataloged.</para>
+        <para lang='en'><emphasis role="bold">Note </emphasis>: the BnF has a turnaround for cataloguing operations. Latest publications (published less than a year ago) may not have been cataloged yet.</para>
       </sect3>
     </sect2>
   </sect1>
