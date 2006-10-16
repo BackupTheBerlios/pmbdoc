@@ -1,11 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="edit">
-  <title lang='en'>Reporting</title>
+  <title lang="en">Reporting</title>
 
-  <para lang='en'>The Reporting tab offers six types of reports. The results are formatted as tables in the application central interface.</para>
+  <para lang="en">The <emphasis>Reporting</emphasis> tab offers six types of
+  reports. The results are formatted as tables in the application central
+  interface.</para>
 
   <figure>
-    <title lang='en'>Reporting information, side menu</title>
+    <title lang="en">Reporting information, side menu</title>
 
     <mediaobject>
       <imageobject>
@@ -15,31 +17,35 @@
   </figure>
 
   <sect1>
-    <title lang='en'>Loans</title>
+    <title lang="en">Loans</title>
 
-    <para lang='en'>The Loans sub-menu enables you to access data about your library's collection. You can display :</para>
+    <para lang="en">The Loans sub-menu enables you to access data about your
+    library's collection. You can display :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>the list of current loans</para>
+        <para lang="en">the list of current loans</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>the list of items on loan with due dates expired (overdues)</para>
+        <para lang="en">the list of items on loan with due dates expired
+        (overdues)</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>loans by groups of readers</para>
+        <para lang="en">loans by groups of readers</para>
       </listitem>
     </itemizedlist>
 
     <sect2 id="edit_expl_encours">
-      <title lang='en'>Current loans</title>
+      <title lang="en">Current loans</title>
 
-      <para lang='en'><emphasis>Current loans </emphasis> lists all items out on loan and enables you to print overdue notices or send overdue emails.</para>
+      <para lang="en"><emphasis>Current loans </emphasis> lists all items out
+      on loan and enables you to print overdue notices or send overdue
+      emails.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Loans &gt; current loans</title>
+        <title lang="en">Reporting &gt; Loans &gt; current loans</title>
 
         <mediaobject>
           <imageobject>
@@ -48,22 +54,34 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Below the results page, you can modify the number of search results to display on a page. To change it, just replace the default value with your own and click on <emphasis role="bold">Update</emphasis>.</para>
+      <para lang="en">Below the results page, you can modify the number of
+      search results to display on a page. To change it, just replace the
+      default value with your own and click on <emphasis
+      role="bold">Update</emphasis>.</para>
 
-      <para lang='en'>You can customize the overdue email and the overdue notice in Administration (see the PMB Administrator's Guide).</para>
+      <para lang="en">You can customize the overdue email and the overdue
+      notice in Administration (see the <emphasis>PMB Administrator's
+      Guide</emphasis>).</para>
 
-      <para lang='en'>To send an overdue email to a reader for a late return, click on the icon (not visible if the reader has no email address or the email address was not entered) <graphic fileref="images/mail.jpg" />. To display a print preview of an overdue notice, click on the icon<graphic fileref="images/new.gif" />.</para>
+      <para lang="en">To send an overdue email to a reader for a late return,
+      click on the icon (not visible if the reader has no email address or the
+      email address was not entered) <graphic fileref="images/mail.jpg" />. To
+      display a print preview of an overdue notice, click on the icon<graphic
+      fileref="images/new.gif" />.</para>
     </sect2>
 
     <sect2 id="edit_expl_retard">
-      <title lang='en'>Overdue items</title>
+      <title lang="en">Overdue items</title>
 
-      <para lang='en'><emphasis>Overdue items </emphasis>lists late returns sorted by readers and enables the printing of a customized overdue notice.</para>
-      
-      <para lang='en'>The letter is displayed in print preview in a pop-up window before printing.</para>
+      <para lang="en"><emphasis>Overdue items </emphasis>lists late returns
+      sorted by readers and enables the printing of a customized overdue
+      notice.</para>
+
+      <para lang="en">The letter is displayed in print preview in a pop-up
+      window before printing.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Loans &gt; overdue items</title>
+        <title lang="en">Reporting &gt; Loans &gt; overdue items</title>
 
         <mediaobject>
           <imageobject>
@@ -72,17 +90,20 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>You can also print all the overdue notices at once by clicking on
-	   <emphasis>Print all overdue notices</emphasis>.</para>
+      <para lang="en">You can also print all the overdue notices at once by
+      clicking on <emphasis>Print all overdue notices</emphasis>.</para>
     </sect2>
 
     <sect2 id="edit_expl_retard_date">
-      <title lang='en'>Overdues by date</title>
+      <title lang="en">Overdues by date</title>
 
-      <para lang='en'><emphasis>Overdue items by date</emphasis> lists all items overdue sorted by due date in ascending order, and enables the printing of a customized overdue notice. Earlier loans top the list.</para>
+      <para lang="en"><emphasis>Overdue items by date</emphasis> lists all
+      items overdue sorted by due date in ascending order, and enables the
+      printing of a customized overdue notice. Earlier loans top the
+      list.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Loans &gt; overdues by date</title>
+        <title lang="en">Reporting &gt; Loans &gt; overdues by date</title>
 
         <mediaobject>
           <imageobject>
@@ -91,17 +112,19 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>You can also print all the overdue notices at once by clicking on
-	   <emphasis>Print all overdue notices</emphasis>.</para>
+      <para lang="en">You can also print all the overdue notices at once by
+      clicking on <emphasis>Print all overdue notices</emphasis>.</para>
     </sect2>
 
     <sect2 id="edit_expl_pargroupe">
-      <title lang='en'>Loans by group</title>
+      <title lang="en">Loans by group</title>
 
-      <para lang='en'>Applies the same logic used for current loans, but here with groups of readers. For more information, see <xref linkend="edit_expl_encours" /></para>
+      <para lang="en">Applies the same logic used for current loans, but here
+      with groups of readers. For more information, see <xref
+      linkend="edit_expl_encours" /></para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Loans &gt; loans by group</title>
+        <title lang="en">Reporting &gt; Loans &gt; loans by group</title>
 
         <mediaobject>
           <imageobject>
@@ -113,20 +136,27 @@
   </sect1>
 
   <sect1>
-    <title lang='en'>Holds</title>
+    <title lang="en">Holds</title>
 
-    <para lang='en'>Holds are managed from the
-    <emphasis> Circulation</emphasis> tab. In the alert zone,	bottom of screen, on the left, you will see messages alerting you of new holds placed by readers via the OPAC or by librarians.</para>
+    <para lang="en">Holds are managed from the <emphasis>
+    Circulation</emphasis> tab. In the alert zone, bottom of screen, on the
+    left, you will see messages alerting you of new holds placed by readers
+    via the OPAC or by librarians.</para>
 
-    <para lang='en'>The various status that you can consult in the <emphasis>Reporting</emphasis> tab, allows you to retrieve the works held from the shelves. Once they have been put aside, you can check in the <emphasis>Circulation</emphasis> tab the works corresponding to holds that you have just processed.</para>
+    <para lang="en">The various status that you can consult in the
+    <emphasis>Reporting</emphasis> tab, allows you to retrieve the works held
+    from the shelves. Once they have been put aside, you can check in the
+    <emphasis>Circulation</emphasis> tab the works corresponding to holds that
+    you have just processed.</para>
 
     <sect2 id="edit_resa">
-      <title lang='en'>Holds</title>
+      <title lang="en">Holds</title>
 
-      <para lang='en'>Displays the list of the works on which holds have been placed.</para>
+      <para lang="en">Displays the list of the works on which holds have been
+      placed.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Holds &gt; current</title>
+        <title lang="en">Reporting &gt; Holds &gt; current</title>
 
         <mediaobject>
           <imageobject>
@@ -135,42 +165,65 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>You can read the following information :</para>
+      <para lang="en">You can read the following information :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'><emphasis role="bold">Title</emphasis> : the main title of the work held. The title is a link displaying the corresponding record together with the list of copies in the Catalogue tab. For more information on displaying records, consult the chapter <emphasis>Catalogue</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">Title</emphasis> : the main
+          title of the work held. The title is a link displaying the
+          corresponding record together with the list of copies in the
+          <emphasis>Cataloguing</emphasis> tab. For more information on
+          displaying records, consult the chapter
+          <emphasis>Cataloguing</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Borrower</emphasis> : displays the name of the reader who placed the hold. The borrower is a link displaying the reader's fiche in the Circulation tab. For more information on displaying a reader's fiche, 		  consult <emphasis>Circulation </emphasis>, <emphasis>Loan items</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">Borrower</emphasis> : displays
+          the name of the reader who placed the hold. The borrower is a link
+          displaying the reader's fiche in the
+          <emphasis>Circulation</emphasis> tab. For more information on
+          displaying a reader's fiche, consult <emphasis>Circulation
+          </emphasis>, <emphasis>Loan items</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Rank</emphasis> : position in the queue.</para>
+          <para lang="en"><emphasis role="bold">Rank</emphasis> : position in
+          the queue.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Hold date</emphasis></para>
+          <para lang="en"><emphasis role="bold">Hold date</emphasis></para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Return</emphasis> : scheduled due date or <emphasis role="bold">condition</emphasis> if at least one copy of the held document is available in the library. In this case, see below Reporting &gt; Holds &gt; to process, for a list of works held to be retrieved from the shelves.</para>
+          <para lang="en"><emphasis role="bold">Return</emphasis> : scheduled
+          due date or <emphasis role="bold">condition</emphasis> if at least
+          one copy of the held document is available in the library. In this
+          case, see below <emphasis>Reporting &gt; Holds &gt; to
+          process</emphasis>, for a list of works held to be retrieved from
+          the shelves.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">Validity</emphasis> : the expiry date of the hold, as defined in Administration &gt; Quotas if advanced quotas were defined; or in Administration &gt; Items &gt; media types. For more information on 		  advanced quotas, consult the <emphasis>PMB Administrator's Guide, Quotas</emphasis>, or <emphasis>Items</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">Validity</emphasis> : the
+          expiry date of the hold, as defined in <emphasis>Administration &gt;
+          Quotas</emphasis> if advanced quotas were defined; or in
+          <emphasis>Administration &gt; Items &gt; media types</emphasis>. For
+          more information on advanced quotas, consult the <emphasis>PMB
+          Administrator's Guide, Quotas</emphasis>, or
+          <emphasis>Items</emphasis>.</para>
         </listitem>
       </itemizedlist>
     </sect2>
 
     <sect2 id="edit_resa_a_traiter">
-      <title lang='en'>Holds to process</title>
+      <title lang="en">Holds to process</title>
 
-      <para lang='en'>Displays the list of the holds remaining to be processes by the staff in charge.</para>
+      <para lang="en">Displays the list of the holds remaining to be processes
+      by the staff in charge.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Holds &gt; to process</title>
+        <title lang="en">Reporting &gt; Holds &gt; to process</title>
 
         <mediaobject>
           <imageobject>
@@ -179,25 +232,34 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>For any unchecked hold : the references of available copies corresponding to the hold are displayed. If several holds were placed on a work and several copies are available, then the list displays all the holds that can be satisfied.
-	   </para>
+      <para lang="en">For any unchecked hold : the references of available
+      copies corresponding to the hold are displayed. If several holds were
+      placed on a work and several copies are available, then the list
+      displays all the holds that can be satisfied.</para>
 
-      <para lang='en'>If no copy is available, the hold is displayed but without any reference to a corresponding copy.</para>
+      <para lang="en">If no copy is available, the hold is displayed but
+      without any reference to a corresponding copy.</para>
 
-      <para lang='en'>With the list of holds to process in hand, walk through the shelves and remove the items from the shelves. Then check them in Circulation &gt; Holds &gt; current. For more information, consult the chapter <emphasis>Circulation, Holds</emphasis>.</para>
+      <para lang="en">With the list of holds to process in hand, walk through
+      the shelves and remove the items from the shelves. Then check them in
+      <emphasis>Circulation &gt; Holds &gt; current</emphasis>. For more
+      information, consult the chapter <emphasis>Circulation,
+      Holds</emphasis>.</para>
     </sect2>
   </sect1>
 
   <sect1 id="edit_empr">
-    <title lang='en'>Borrowers</title>
+    <title lang="en">Borrowers</title>
 
     <sect2 id="edit_empr_encours">
-      <title lang='en'>Current borrowers</title>
+      <title lang="en">Current borrowers</title>
 
-      <para lang='en'>This screen allows you to start a borrower's search. By default the search displays all the borrowers.</para>
+      <para lang="en">This screen allows you to start a borrower's search. By
+      default the search displays all the borrowers.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Borrowers &gt; Current borrowers</title>
+        <title lang="en">Reporting &gt; Borrowers &gt; Current
+        borrowers</title>
 
         <mediaobject>
           <imageobject>
@@ -206,22 +268,35 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>To search for a reader, enter his/her name or the first letters of his/her name and click on OK.</para>
+      <para lang="en">To search for a reader, enter his/her name or the first
+      letters of his/her name and click on OK.</para>
 
-      <para lang='en'>Clicking on one of the readers in the search results displays his/her fiche in the <emphasis>Circulation</emphasis>tab.</para>
+      <para lang="en">Clicking on one of the readers in the search results
+      displays his/her fiche in the <emphasis>Circulation</emphasis>
+      tab.</para>
 
-      <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML spreadsheet format for OpenOffice (right icon).</para>
+      <para lang="en">At the bottom of the page, you can modify the number of
+      results displayed per page. After modifying the number, click on Reload
+      to apply the change. You can also export the results to Excel (left
+      icon) or to an HTML spreadsheet format for OpenOffice (right
+      icon).</para>
     </sect2>
 
     <sect2 id="edit_empr_limite">
-      <title lang='en'>Borrowers : subscription near expiry</title>
+      <title lang="en">Borrowers : subscription near expiry</title>
 
-      <para lang='en'>You can also display the borrowers whose subscription is about to lapse and the ones whose subscription has already expired.</para>
+      <para lang="en">You can also display the borrowers whose subscriptions
+      are about to lapse and the ones whose subscriptions have already
+      expired.</para>
 
-      <para lang='en'>PMB regards readers as having a subscription near expiry in relation to the renewal of membership letter. The delay is set in the PMB parameters. For more information, consult the <emphasis>PMB Administrator's Guide, Tools, Parameters</emphasis>.</para>
+      <para lang="en">PMB regards readers as having a subscription near expiry
+      in relation to the renewal of membership letter. The delay is set in the
+      PMB parameters. For more information, consult the <emphasis>PMB
+      Administrator's Guide, Tools, Parameters</emphasis>.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Borrowers, subscription near expiry</title>
+        <title lang="en">Reporting &gt; Borrowers, subscription near
+        expiry</title>
 
         <mediaobject>
           <imageobject>
@@ -230,22 +305,33 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>To find a particular borrower with a subscription about to lapse, click on <emphasis>Reporting, Borrowers, subscription near expiry</emphasis>.</para>
+      <para lang="en">To find a particular borrower with a subscription about
+      to lapse, click on <emphasis>Reporting, Borrowers, subscription near
+      expiry</emphasis>.</para>
 
-      <para lang='en'>Then in the search results click on the borrower to display his/her fiche in the <emphasis>Circulation</emphasis> tab.</para>
+      <para lang="en">Then in the search results click on the borrower to
+      display his/her fiche in the <emphasis>Circulation</emphasis>
+      tab.</para>
 
-      <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML spreadsheet format for OpenOffice (right icon).</para>
+      <para lang="en">At the bottom of the page, you can modify the number of
+      results displayed per page. After modifying the number, click on Reload
+      to apply the change. You can also export the results to Excel (left
+      icon) or to an HTML spreadsheet format for OpenOffice (right
+      icon).</para>
     </sect2>
 
     <sect2 id="edit_empr_depasse">
-      <title lang='en'>Borrowers : subscription expired</title>
+      <title lang="en">Borrowers : subscription expired</title>
 
-      <para lang='en'>Borrowers whose subscription has expired are not displayed in the current readers list.</para>
+      <para lang="en">Borrowers whose subscriptions have expired are not
+      displayed in the current readers list.</para>
 
-      <para lang='en'>You can display here the readers whose subscription has expired.</para>
+      <para lang="en">You can display here the readers whose subscription has
+      expired.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Borrowers, subscription expired</title>
+        <title lang="en">Reporting &gt; Borrowers, subscription
+        expired</title>
 
         <mediaobject>
           <imageobject>
@@ -254,22 +340,30 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>To find a borrower whose subscription has expired, click on <emphasis>Reporting, Borrowers, subscription expired</emphasis>.</para>
+      <para lang="en">To find a borrower whose subscription has expired, click
+      on <emphasis>Reporting, Borrowers, subscription
+      expired</emphasis>.</para>
 
-      <para lang='en'>Then in the search results click on the borrower to display his/her fiche in the <emphasis>Circulation</emphasis> tab.</para>
-	  
-	  <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML spreadsheet format for OpenOffice (right icon).</para>
+      <para lang="en">Then in the search results click on the borrower to
+      display his/her fiche in the <emphasis>Circulation</emphasis>
+      tab.</para>
+
+      <para lang="en">At the bottom of the page, you can modify the number of
+      results displayed per page. After modifying the number, click on Reload
+      to apply the change. You can also export the results to Excel (left
+      icon) or to an HTML spreadsheet format for OpenOffice (right
+      icon).</para>
     </sect2>
   </sect1>
 
   <sect1 id="edit_serials">
-    <title lang='en'>Serials</title>
+    <title lang="en">Serials</title>
 
     <sect2>
-      <title lang='en'>Serials list</title>
+      <title lang="en">Serials list</title>
 
       <figure>
-        <title lang='en'>Reporting &gt; Serials &gt; Serials list</title>
+        <title lang="en">Reporting &gt; Serials &gt; Serials list</title>
 
         <mediaobject>
           <imageobject>
@@ -278,28 +372,41 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>This screen displays the number of copies per issue for each "parent" serial's record.</para>
+      <para lang="en">This screen displays the number of copies per issue for
+      each "parent" serial's record.</para>
 
-      <para lang='en'>It enables you to check missing issues, for instance.</para>
+      <para lang="en">It enables you to check missing issues, for
+      instance.</para>
 
-      <para lang='en'>The first column indicates the issue number of the periodical (bulletin), the second one the publication date, and finally the number of copies in the catalogue.</para>
+      <para lang="en">The first column indicates the issue number of the
+      periodical, the second one the publication date, and finally the number
+      of copies in the catalogue.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Reports</title>
+    <title lang="en">Reports</title>
 
     <sect2 id="edit_procs">
-      <title lang='en'>Customized reports</title>
+      <title lang="en">Custom reports</title>
 
-      <para lang='en'>This function of the <emphasis>Reporting</emphasis> tab enables you to display the results of stored procedures. These procedures are customizable in the Administration tab. They are written in SQL language and are processed by the ILS using PHP on which your server operates.</para>
+      <para lang="en">This function of the <emphasis>Reporting</emphasis> tab
+      enables you to display the results of stored procedures. These
+      procedures are customizable in the Administration tab. They are written
+      in SQL language and are processed by the ILS using PHP on which your
+      server operates.</para>
 
-      <para lang='en'>If you have loaded the test data set (data_test.sql, for more information, consult the <emphasis>PMB Administrator's Guide</emphasis>, chapter <emphasis>Minimum data</emphasis>), you already have several customized reports at your disposal.</para>
+      <para lang="en">If you have loaded the test data set (data_test.sql, for
+      more information, consult the <emphasis>PMB Administrator's
+      Guide</emphasis>, chapter <emphasis>Minimum data</emphasis>), you
+      already have several custom reports at your disposal.</para>
 
-      <para lang='en'>Several stored procedures are readily available. Their names are normally quite evocative. In case of doubt, run the procedure and look at the results to understand how it works.</para>
+      <para lang="en">Several stored procedures are readily available. Their
+      names are normally quite explicit. In case of doubt, run the procedure
+      and look at the results to understand how it works.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Reports &gt; customized</title>
+        <title lang="en">Reporting &gt; Reports &gt; customized</title>
 
         <mediaobject>
           <imageobject>
@@ -308,10 +415,13 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>To run a customized report, click on the report description. Whenever parameter values have to be specified, an intermediate screen will open.</para>
+      <para lang="en">To run a custom report, click on the report description.
+      Whenever parameter values have to be specified, an intermediate screen
+      will open.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Reports &gt; customized, selecting parameters</title>
+        <title lang="en">Reporting &gt; Reports &gt; custom, selecting
+        parameters</title>
 
         <mediaobject>
           <imageobject>
@@ -321,7 +431,8 @@
       </figure>
 
       <figure>
-        <title lang='en'>Reporting &gt; Reports &gt; customized, displaying the results of a customized report</title>
+        <title lang="en">Reporting &gt; Reports &gt; custom, displaying the
+        results of a custom report</title>
 
         <mediaobject>
           <imageobject>
@@ -330,20 +441,25 @@
         </mediaobject>
       </figure>
 
-     <para lang='en'>At the bottom of the page, you can modify the number of results displayed per page. After modifying the number, click on Reload to apply the change. You can also export the results to Excel (left icon) or to an HTML spreadsheet format for OpenOffice (right icon).</para>
+      <para lang="en">At the bottom of the page, you can modify the number of
+      results displayed per page. After modifying the number, click on Reload
+      to apply the change. You can also export the results to Excel (left
+      icon) or to an HTML spreadsheet format for OpenOffice (right
+      icon).</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Barcodes</title>
+    <title lang="en">Barcodes</title>
 
     <sect2 id="edit_cbgen">
-      <title lang='en'>Auto creation</title>
+      <title lang="en">Auto creation</title>
 
-      <para lang='en'>This tool allows you to generate barcodes for printing on labels leaflets.</para>
+      <para lang="en">This tool allows you to generate barcodes for printing
+      on labels leaflets.</para>
 
       <figure>
-        <title lang='en'>Reporting &gt; Barcodes &gt; auto creation</title>
+        <title lang="en">Reporting &gt; Barcodes &gt; auto creation</title>
 
         <mediaobject>
           <imageobject>
@@ -352,15 +468,23 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>To modify the labels <emphasis>layout </emphasis> click on <emphasis role="bold">Display</emphasis> then adjust the settings to suit your needs.</para>
+      <para lang="en">To modify the labels <emphasis>layout </emphasis> click
+      on <emphasis role="bold">Display</emphasis> then adjust the settings to
+      suit your needs.</para>
 
-      <para lang='en'>Choose high-quality labels and use a laserjet printer to improve their lifetime. Low-cost ink-jet printers use an ink that fades away quickly, and produce a print definition that is rather pale for barcode readers.</para>
+      <para lang="en">Choose high-quality labels and use a laserjet printer to
+      improve their lifetime. Low-cost ink-jet printers use an ink that fades
+      away quickly, and produce a print definition that is rather pale for
+      barcode readers.</para>
 
-      <para lang='en'>You can use a text file for the numbers you wish to print, personalize the name of your documentation center, etc.</para>
+      <para lang="en">You can use a text file for the numbers you wish to
+      print, personalize the name of your documentation center, etc.</para>
 
-      <para lang='en'>The result is then displayed in an Acrobat window (PDF file generated by PMB).</para>
+      <para lang="en">The result is then displayed in an Acrobat window (PDF
+      file generated by PMB).</para>
 
-      <para lang='en'>You can preview the result, subsequently save it and print it.</para>
+      <para lang="en">You can preview the result, subsequently save it and
+      print it.</para>
     </sect2>
   </sect1>
 </chapter>

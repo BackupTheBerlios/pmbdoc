@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="prefs" lang="fr">
-  <title lang='en'>User Preferences</title>
+  <title lang="en">User Preferences</title>
 
-  <para lang='en'>Each time you want to launch PMB, you must enter a username and password. This enables PMB to identify you as well as your access privileges within the application (circulation, cataloging, administration...). This username / password combination allows PMB to store a certain number of settings enabling you to have a personalised layout or your own colour scheme.</para>
+  <para lang="en">Each time you want to launch PMB, you must enter a username
+  and password. This enables PMB to identify you as well as your access
+  privileges within the application (circulation, cataloging,
+  administration...). This username / password combination allows PMB to store
+  a certain number of settings enabling you to have a personalised layout or
+  your own colour scheme.</para>
 
-  <para lang='en'>In short, the user preferences are a set of stored parameters for a user. They are therefore linked to the username entered on the login screen. To view your preferences, click on the link <emphasis>pref</emphasis>. at the top right of the screen, next to <emphasis>logout</emphasis>.</para>
+  <para lang="en">In short, the user preferences are a set of stored
+  parameters for a user. They are therefore linked to the username entered on
+  the login screen. To view your preferences, click on the link <emphasis>Edit
+  your account parameters</emphasis> at the top right of the screen, near
+  <emphasis>logout</emphasis>.</para>
 
   <figure>
-    <title lang='en'>user preferences</title>
+    <title lang="en">user preferences</title>
 
     <mediaobject>
       <imageobject>
@@ -17,16 +26,18 @@
   </figure>
 
   <sect1 id="prefs_pass">
-    <title lang='en'>Password, language, style</title>
+    <title lang="en">Password, language, style</title>
 
-    <para lang='en'>Here you can change your password. If you enter a <emphasis>New
-    password</emphasis>, please enter it once again in the <emphasis>Confirmation</emphasis> field.</para>
+    <para lang="en">Here you can change your password. If you enter a
+    <emphasis>New password</emphasis>, please enter it once again in the
+    <emphasis>Confirmation</emphasis> field.</para>
 
-    <para lang='en'>You can also select another <emphasis>Language</emphasis>. Warning,
-    certain languages require a particular style for optimal display.</para>
+    <para lang="en">You can also select another <emphasis>Language</emphasis>.
+    Warning, certain languages require a particular style for optimal
+    display.</para>
 
     <table>
-      <title lang='en'>Languages and display styles</title>
+      <title lang="en">Languages and display styles</title>
 
       <tgroup cols="2">
         <thead>
@@ -41,41 +52,42 @@
           <row>
             <entry lang="en">english (en_us or en_uk)</entry>
 
-            <entry lang="en">all except affichage_arabe</entry>
+            <entry lang="en">all except arabic style</entry>
           </row>
 
           <row>
             <entry lang="en">spanish (es_es)</entry>
 
-            <entry lang="en">all except affichage_arabe</entry>
+            <entry lang="en">all except arabic style</entry>
           </row>
 
           <row>
             <entry lang="en">french (fr_fr)</entry>
 
-            <entry lang="en">all except affichage_arabe</entry>
+            <entry lang="en">all except arabic style</entry>
           </row>
 
           <row>
             <entry lang="en">italian (it_it)</entry>
 
-            <entry lang="en">all except affichage_arabe</entry>
+            <entry lang="en">all except arabic style</entry>
           </row>
 
           <row>
             <entry lang="en">portuguese (pt_pt)</entry>
 
-            <entry lang="en">all except affichage_arabe</entry>
+            <entry lang="en">all except arabic style</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
 
-    <para lang='en'>You can also change your display style :
+    <para lang="en">You can also change your display style :
     <emphasis>Style/theme</emphasis>.</para>
 
     <table>
-      <title lang='en'>Available styles in the PMB management interface</title>
+      <title lang="en">Available styles in the PMB management
+      interface</title>
 
       <tgroup cols="2">
         <thead>
@@ -90,15 +102,16 @@
           <row>
             <entry lang="en">affichage_arabe</entry>
 
-            <entry lang="en">Simple display reversing the display layout (right to
-            left)</entry>
+            <entry lang="en">Simple display reversing the display layout
+            (right to left)</entry>
           </row>
 
           <row>
             <entry lang="en">aqua-green</entry>
 
-            <entry lang="en">Old default display of version 1.1 : Acidic aesthetics, button
-            style inspired from MacOS. Dominant colour: Green.</entry>
+            <entry lang="en">Old default display of version 1.1 : Acidic
+            aesthetics, button style inspired from MacOS. Dominant colour:
+            Green.</entry>
           </row>
 
           <row>
@@ -112,20 +125,22 @@
           <row>
             <entry lang="en">default</entry>
 
-            <entry lang="en">Default display : Acidic aesthetics, button style inspired
-            from MacOS. Dominant colours: orange and blue.</entry>
+            <entry lang="en">Default display : Acidic aesthetics, button style
+            inspired from MacOS. Dominant colours: orange and blue.</entry>
           </row>
 
           <row>
             <entry lang="en">metal</entry>
 
-            <entry lang="en">Colours : Gold and silver. Buttons with small bolts.</entry>
+            <entry lang="en">Colours : Gold and silver. Buttons with small
+            bolts.</entry>
           </row>
 
           <row>
             <entry lang="en">no_style</entry>
 
-            <entry lang="en">No style, unformatted text returned by PMB.</entry>
+            <entry lang="en">No style, unformatted text returned by
+            PMB.</entry>
           </row>
 
           <row>
@@ -148,113 +163,145 @@
         </tbody>
       </tgroup>
     </table>
-    
-    <para lang='en'>Some styles have also been kept for compatibility purposes (and because their designers do not want them removed... ;-) ). We do not advise metal and seabreeze.</para>
-        
+
+    <para lang="en">Some styles have also been kept for compatibility purposes
+    (and because their designers do not want them removed... ;-) ). We do not
+    advise metal and seabreeze.</para>
   </sect1>
 
   <sect1 id="prefs_page">
-    <title lang='en'>Number of records per page</title>
+    <title lang="en">Number of records per page</title>
 
-    <para lang='en'>The <emphasis>Number of records displayed on each page</emphasis> can be set for the following screens :</para>
+    <para lang="en">The <emphasis>Number of records displayed on each
+    page</emphasis> can be set for the following screens :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>Search (20 by default)</para>
+        <para lang="en">Search (20 by default)</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Authorities selection (20 by default)</para>
+        <para lang="en">Authorities selection (20 by default)</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Authorities management (40 by default).</para>
+        <para lang="en">Authorities management (40 by default).</para>
       </listitem>
     </itemizedlist>
 
-    <para lang='en'>The higher this number, the greater in number the results will be per page, consequently the longer the page will be. If you prefer short pages, reduce these values; if you prefer to display the maximum number of records on a single page, increase them.</para>
+    <para lang="en">The higher this number, the greater in number the results
+    will be per page, consequently the longer the page will be. If you prefer
+    short pages, reduce these values; if you prefer to display the maximum
+    number of records on a single page, increase them.</para>
 
-    <para lang='en'>The default choice corresponds to the developers' and a system display resolution of 1024x768.</para>
+    <para lang="en">The default choice corresponds to the developers' and a
+    system display resolution of 1024x768.</para>
   </sect1>
 
   <sect1 id="prefs_appli">
-    <title lang='en'>Application's parameters</title>
+    <title lang="en">Application's parameters</title>
 
-    <para lang='en'><emphasis>Automatic popup of loan ticket</emphasis>: automatically
-    displays the loan ticket when a new loan is validated.</para>
+    <para lang="en"><emphasis>Automatic pop-up of loan ticket</emphasis>:
+    automatically displays the loan ticket when a new loan is
+    validated.</para>
 
-    <para lang='en'><emphasis>Play sound alerts</emphasis>: beep, for instance, when an error message is displayed.</para>
+    <para lang="en"><emphasis>Play sound alerts</emphasis>: beep, for
+    instance, when an error message is displayed.</para>
   </sect1>
 
   <sect1 id="prefs_licence">
-    <title lang='en'>I have read and I accept the terms of the PMB licence</title>
+    <title lang="en">I have read and I accept the terms of the PMB
+    licence</title>
 
-    <para lang='en'>Starting with version 1.3 PMB comes with a new licence : the CeCILL licence. This licence is compatible with GNU/GPL. For more information, see
-    <ulink url="http://www.cecill.info">http://www.cecill.info</ulink></para>
+    <para lang="en">Starting with version 1.3 PMB comes with a new licence :
+    the CeCILL licence. This licence is compatible with GNU/GPL. For more
+    information, see <ulink
+    url="http://www.cecill.info">http://www.cecill.info</ulink></para>
 
-    <para lang='en'>This new licence is displayed when you launch PMB after connection and login (you have entered your username and password.</para>
+    <para lang="en">This new licence is displayed when you launch PMB after
+    connection and login (you have entered your username and password.</para>
 
-    <para lang='en'>In order not to display the licence at login, select<emphasis>Don't show the licence when starting</emphasis>.</para>
+    <para lang="en">If you do not wish to display the licence at login,
+    select<emphasis> Don't show the licence when starting</emphasis>.</para>
   </sect1>
 
   <sect1 id="prefs_valeurs">
-    <title lang='en'>Application's default values</title>
+    <title lang="en">Application's default values</title>
 
-    <para lang='en'>This part of the screen allows you to specify default values for the creation of new copies :</para>
+    <para lang="en">This part of the screen allows you to specify default
+    values for the creation of new copies :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>Media type</para>
+        <para lang="en">Media type</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Ownership</para>
+        <para lang="en">Ownership</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Copy status</para>
+        <para lang="en">Copy status</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Copy statistical code</para>
+        <para lang="en">Copy statistical code</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Copy location</para>
+        <para lang="en">Copy location</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Copy section</para>
+        <para lang="en">Copy section</para>
       </listitem>
-      
+
       <listitem>
-        <para lang='en'>Borrowers default site (useful when managing a multi-site library with PMB : Borrowers and their locations are specifically defined even at registration)</para>
-        </listitem>
-        
+        <para lang="en">Borrowers default site (useful when managing a
+        multi-site library with PMB : Borrowers and their locations are
+        specifically defined even at registration)</para>
+      </listitem>
+
       <listitem>
-        <para lang='en'>Default thesaurus (if multi-thesaurus is enabled) defines the default thesaurus in PMB)</para>
+        <para lang="en">Default thesaurus (if multi-thesaurus is enabled)
+        defines the default thesaurus in PMB)</para>
       </listitem>
     </itemizedlist>
 
-    <para lang='en'>This enables you to save cataloguing time.</para>
+    <para lang="en">This enables you to save cataloguing time.</para>
 
-    <para lang='en'>You can also specify the default values for the creation of new records :</para>
+    <para lang="en">You can also specify the default values for the creation
+    of new records :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>language. By default set to <emphasis role="bold">fre</emphasis>, for <emphasis role="bold">French</emphasis>. Language codes are defined by the UNIMARC standard. To consult the list of languages and their codes, open the file <emphasis>pmb/includes/marc_tables/en_UK/lang.xml</emphasis>with a text editor.</para>  
+        <para lang="en">language. By default set to <emphasis
+        role="bold">fre</emphasis>, for <emphasis
+        role="bold">French</emphasis>. Language codes are defined by the
+        UNIMARC standard. To consult the list of languages and their codes,
+        open the file
+        <emphasis>pmb/includes/marc_tables/en_UK/lang.xml</emphasis>with a
+        text editor.</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Author function. By default set to <emphasis role="bold">70</emphasis> for <emphasis role="bold">author</emphasis>. The function of an author varies according to the type of work : director for a videorecording of a play, photographer for an album, author for a book, ... Author functions are defined by the UNIMARC standard. To consult the list of author functions and their codes, open the file <emphasis> pmb/includes/marc_tables/en_UK/function.xml</emphasis> with a text editor</para>
-      </listitem>
-      
-      <listitem>
-        <para lang='en'>Default PMB module when connecting</para>
+        <para lang="en">Author function. By default set to <emphasis
+        role="bold">70</emphasis> for <emphasis role="bold">author</emphasis>.
+        The function of an author varies according to the type of work :
+        director for a videorecording of a play, photographer for an album,
+        author for a book, ... Author functions are defined by the UNIMARC
+        standard. To consult the list of author functions and their codes,
+        open the file <emphasis>
+        pmb/includes/marc_tables/en_UK/function.xml</emphasis> with a text
+        editor</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>Default classmark prefix</para>
+        <para lang="en">Default PMB module when connecting</para>
+      </listitem>
+
+      <listitem>
+        <para lang="en">Default classmark prefix</para>
       </listitem>
     </itemizedlist>
   </sect1>

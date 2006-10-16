@@ -1,35 +1,49 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="cat">
-  <title lang='en'>Cataloguing</title>
+  <title lang="en">Cataloguing</title>
 
-  <para lang='en'>Cataloguing refers to the processes involved in the creation of a library catalogue, which in turn enables searches, loans management, the compilation of statistics, ...</para>
+  <para lang="en">Cataloguing refers to the processes involved in the creation
+  of a library catalogue, which in turn enables searches, loans management,
+  the compilation of statistics, ...</para>
 
-  <para lang='en'><emphasis role="bold">Note </emphasis>Whenever you see a "basket" icon displayed in the Cataloguing tab, you can add an item (record, copy, bulletin) to a basket by clicking on the icon <graphic fileref="images/basket_small.gif" />.  For more information, see <xref linkend="cat_caddies" />.</para>
+  <para lang="en"><emphasis role="bold">Note </emphasis>Whenever you see a
+  "basket" icon displayed in the Cataloguing tab, you can add an item (record,
+  copy, periodical issue) to a basket by clicking on the icon <graphic
+  fileref="images/basket_small.gif" />For more information, see <xref
+  linkend="cat_caddies" />.</para>
 
   <sect1 id="cat_ouvrages">
-    <title lang='en'>Search</title>
+    <title lang="en">Search</title>
 
     <sect2 id="cat_search">
-      <title lang='en'>All records</title>
+      <title lang="en">All records</title>
 
-      <para lang='en'>Search "all records" includes all PMB records : monographs, serials main entries, analytical entries</para>
+      <para lang="en">Search "all records" includes all PMB records :
+      monographs, serials main entries, analytical entries</para>
 
-      <para lang='en'>Search "serials" is effected only on main entries for serials.</para>
+      <para lang="en">Search "serials" is effected only on main entries for
+      serials.</para>
 
-      <para lang='en'>"Recent additions" allows you to display the latest entries in the database.</para>
-      
-      <para lang='en'>PMB allows the use of boolean operators in search expressions. For more information, see <xref linkend="exp_bool" />.</para>
+      <para lang="en">"Recent additions" allows you to display the latest
+      entries in the database.</para>
+
+      <para lang="en">PMB allows the use of boolean operators in search
+      expressions. For more information, see <xref
+      linkend="exp_bool" />.</para>
 
       <sect3 id="cat_search_tit">
-        <title lang='en'>Author/title</title>
+        <title lang="en">Author/title</title>
 
         <sect4>
-          <title lang='en'>Searching by title</title>
+          <title lang="en">Searching by title</title>
 
-          <para lang='en'>The following screen appears when you click on the cataloguing tab. It allows searching and is always accessible in this module by clicking on "search" in the side menu.</para>
+          <para lang="en">The following screen appears when you click on the
+          cataloguing tab. It allows searching and is always accessible in
+          this module by clicking on "search" in the side menu.</para>
 
           <figure>
-            <title lang='en'>cataloguing &gt; search &gt; search Author/title</title>
+            <title lang="en">cataloguing &gt; search &gt; search
+            Author/title</title>
 
             <mediaobject>
               <imageobject>
@@ -38,12 +52,14 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>Let's search for the title "cat".</para>
+          <para lang="en">Let's search for the title "cat".</para>
 
-          <para lang='en'>If you have installed the test database, the book <emphasis>Catfish Blues</emphasis> by <emphasis>GÃ©rard Herzhaft</emphasis> is returned.</para>
+          <para lang="en">If you have installed the test database, the book
+          <emphasis>Catfish Blues</emphasis> by <emphasis>GÃ©rard
+          Herzhaft</emphasis> is returned.</para>
 
           <figure>
-            <title lang='en'>Search results</title>
+            <title lang="en">Search results</title>
 
             <mediaobject>
               <imageobject>
@@ -52,12 +68,16 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>To display the full bibliographical entry for a work returned by the search, click on "+" to expand the entry and list all the copies (electronic copies as well) of the work.</para>
+          <para lang="en">To display the full bibliographical entry for a work
+          returned by the search, click on "+" to expand the entry and list
+          all the copies (electronic copies as well) of the work.</para>
 
-          <para lang='en'>Click on the title to display the catalogue details of the work, and if necessary to make any desired modifications. The screen display shows the list of all the copies of the work.</para>
+          <para lang="en">Click on the title to display the catalogue details
+          of the work, and if necessary to make any desired modifications. The
+          screen display shows the list of all the copies of the work.</para>
 
           <figure>
-            <title lang='en'>List of copies of a work</title>
+            <title lang="en">List of copies of a work</title>
 
             <mediaobject>
               <imageobject>
@@ -66,33 +86,48 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>To modify a record, click on <emphasis>Edit</emphasis>. To modify one of the copies of the work, click on its barcode. To add a copy, enter the <emphasis>item number </emphasis>then click on <emphasis>Add a copy</emphasis>. To add an electronic copy, click on <emphasis>Add an electronic copy</emphasis>. For more information, see <xref linkend="cat_isbd" />.</para>
+          <para lang="en">To modify a record, click on
+          <emphasis>Edit</emphasis>. To modify one of the copies of the work,
+          click on its barcode. To add a copy, enter the <emphasis>item number
+          </emphasis>then click on <emphasis>Add a copy</emphasis>. To add an
+          electronic copy, click on <emphasis>Add an electronic
+          copy</emphasis>. For more information, see <xref
+          linkend="cat_isbd" />.</para>
 
-          <para lang='en'>The details mentioned at the bottom of the catalogue entry relate to the copies of the work, their availability, etc. Click on a copy barcode to make any modification.</para>
+          <para lang="en">The details mentioned at the bottom of the catalogue
+          entry relate to the copies of the work, their availability, etc.
+          Click on a copy barcode to make any modification.</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>Search by author, ISBN, EAN or item number</title>
+          <title lang="en">Search by author, ISBN, EAN or item number</title>
 
-          <para lang='en'><emphasis role="bold">Search by author</emphasis> works exactly like search by title.</para>
+          <para lang="en"><emphasis role="bold">Search by author</emphasis>
+          works exactly like search by title.</para>
 
-          <para lang='en'>You can also search for a document by its ISBN, commercial barcode (EAN) or item number.</para>
+          <para lang="en">You can also search for a document by its ISBN,
+          commercial barcode (EAN) or item number.</para>
 
-          <para lang='en'>Finally, you can refine your search by limiting it to specific document types.</para>
+          <para lang="en">Finally, you can refine your search by limiting it
+          to specific document types.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_search_categ">
-        <title lang='en'>Subject/Class number</title>
+        <title lang="en">Subject/Class number</title>
 
-        <para lang='en'>The available subject classes are displayed (you can modify them in the authority tab).</para>
+        <para lang="en">The available subject classes are displayed (you can
+        modify them in the <emphasis>Authority</emphasis> tab).</para>
 
-        <para lang='en'>Click on the folder icon to open the subject class and possibly display the sub-classes.</para>
+        <para lang="en">Click on the folder icon to open the subject class and
+        possibly display the sub-classes.</para>
 
-        <para lang='en'>When you have reached the desired class or sub-class, click on its name to display the results.</para>
+        <para lang="en">When you have reached the desired class or sub-class,
+        click on its name to display the results.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; records &gt; search by subject/class number</title>
+          <title lang="en">Cataloguing &gt; records &gt; search by
+          subject/class number</title>
 
           <mediaobject>
             <imageobject>
@@ -103,32 +138,46 @@
       </sect3>
 
       <sect3 id="cat_search_terms">
-        <title lang='en'>Keywords</title>
+        <title lang="en">Keywords</title>
 
-        <para lang='en'>Searching by keywords allows you to navigate amongst the thesaurus terms.</para>
+        <para lang="en">Searching by keywords allows you to navigate amongst
+        the thesaurus terms.</para>
 
-        <para lang='en'><figure>
-            <title lang='en'>Cataloguing &gt; works &gt; search by keywords</title>
+        <para lang="en"><figure>
+            <title lang="en">Cataloguing &gt; works &gt; search by
+            keywords</title>
 
             <mediaobject>
               <imageobject>
                 <imagedata fileref="images/cat_search_terms.gif" />
               </imageobject>
             </mediaobject>
-          </figure>To search by keywords, first enter one or more keywords you want to search, for example, <emphasis role="bold">history</emphasis>. The results are displayed in two areas in the central interface. The upper area displays subjects related to your search. Click on any one of them (for example <emphasis role="bold">political history</emphasis>) to display more details in the bottom area.</para>
+          </figure>To search by keywords, first enter one or more keywords you
+        want to search, for example, <emphasis role="bold">history</emphasis>.
+        The results are displayed in two areas in the central interface. The
+        upper area displays subjects related to your search. Click on any one
+        of them (for example <emphasis role="bold">political
+        history</emphasis>) to display more details in the bottom area.</para>
 
-        <para lang='en'>Click on the links to navigate from subject to subject.</para>
+        <para lang="en">Click on the links to navigate from subject to
+        subject.</para>
 
-        <para lang='en'>To select a subject and display related works, click on the magnifying glass at the beginning of the line <graphic fileref="images/search_terms_select.gif" /> if the database does not contain any works under a keyword, the magnifying glass is not visible.</para>
+        <para lang="en">To select a subject and display related works, click
+        on the magnifying glass at the beginning of the line <graphic
+        fileref="images/search_terms_select.gif" /> if the database does not
+        contain any works under a keyword, the magnifying glass is not
+        visible.</para>
       </sect3>
 
       <sect3 id="cat_search_publisher">
-        <title lang='en'>Publisher/Series</title>
+        <title lang="en">Publisher/Series</title>
 
-        <para lang='en'>The Publisher/series search displays publishers and series exactly like the keywords search.</para>
+        <para lang="en">The Publisher/series search displays publishers and
+        series exactly like the keywords search.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; works &gt; search by publisher/series</title>
+          <title lang="en">Cataloguing &gt; works &gt; search by
+          publisher/series</title>
 
           <mediaobject>
             <imageobject>
@@ -139,12 +188,16 @@
       </sect3>
 
       <sect3 id="cat_search_caddie">
-        <title lang='en'>Baskets</title>
+        <title lang="en">Baskets</title>
 
-        <para lang='en'><emphasis>Search in</emphasis> &gt; <emphasis>Baskets</emphasis> allows to display the contents of a basket (also referred to as a "caddy"). Baskets correspond to a selection of records, bulletins or copies.</para>
+        <para lang="en"><emphasis>Search in</emphasis> &gt;
+        <emphasis>Baskets</emphasis> allows to display the contents of a
+        basket (also referred to as a "caddy"). Baskets correspond to a
+        selection of records, periodical issues or copies.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; works &gt; search in baskets</title>
+          <title lang="en">Cataloguing &gt; works &gt; search in
+          baskets</title>
 
           <mediaobject>
             <imageobject>
@@ -155,12 +208,14 @@
       </sect3>
 
       <sect3 id="cat_search_multi">
-        <title lang='en'>Advanced search</title>
+        <title lang="en">Advanced search</title>
 
-        <para lang='en'>Advanced search offers to search using a combination of various access points. You can select fields to search in &nbsp;: title, author, personalized search fields...</para>
+        <para lang="en">Advanced search offers to search using a combination
+        of various access points. You can select fields to search in &nbsp;:
+        title, author, personalized search fields...</para>
 
         <figure>
-          <title lang='en'>Works &gt; search &gt; advanced search</title>
+          <title lang="en">Works &gt; search &gt; advanced search</title>
 
           <mediaobject>
             <imageobject>
@@ -169,16 +224,18 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>To start an advanced search :</para>
+        <para lang="en">To start an advanced search :</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>Click on <emphasis>Add</emphasis> to define a first search criteria</para>
+            <para lang="en">Click on <emphasis>Add</emphasis> to define a
+            first search criteria</para>
 
-            <para lang='en'>Advanced search applies to access points of records, copies, periodicals and personalized fields.</para>
+            <para lang="en">Advanced search applies to access points of
+            records, copies, periodicals and custom fields.</para>
 
-            <para lang='en'><figure>
-                <title lang='en'>Available access points</title>
+            <para lang="en"><figure>
+                <title lang="en">Available access points</title>
 
                 <mediaobject>
                   <imageobject>
@@ -189,9 +246,12 @@
           </listitem>
 
           <listitem>
-            <para lang='en'>Next select a search type for the desired field, you can choose among "Booleean expression", "Contains one of the words", "Contains all the words", "Starts with", "Ends with", or "Exactly like". This type of search varies depending on the field selected<figure>
-			
-                <title lang='en'>Types of search in Title</title>
+            <para lang="en">Next select a search type for the desired field,
+            you can choose among "Booleean expression", "Contains one of the
+            words", "Contains all the words", "Starts with", "Ends with", or
+            "Exactly like". This type of search varies depending on the field
+            selected<figure>
+                <title lang="en">Types of search in Title</title>
 
                 <mediaobject>
                   <imageobject>
@@ -202,11 +262,15 @@
           </listitem>
 
           <listitem>
-            <para lang='en'>If the field requires a value, enter it into the textbox; if it requires a choice (for example the type of media), click to select one or more options while maintaining the <emphasis>Ctrl</emphasis> key of your keyboard down.</para>
+            <para lang="en">If the field requires a value, enter it into the
+            textbox; if it requires a choice (for example the type of media),
+            click to select one or more options while maintaining the
+            <emphasis>Ctrl</emphasis> key of your keyboard down.</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Finally click on <emphasis>Search</emphasis> to validate</para>
+            <para lang="en">Finally click on <emphasis>Search</emphasis> to
+            validate</para>
           </listitem>
         </itemizedlist>
       </sect3>
@@ -214,136 +278,208 @@
       <sect3>
         <title id="exp_bool">Boolean Expressions</title>
 
-        <para lang='en'>You can use boolean expressions with all the search screens. Boolean expressions were introduced in PMB with version 2.0.</para>
+        <para lang="en">You can use boolean expressions with all the search
+        screens. Boolean expressions were introduced in PMB with version
+        2.0.</para>
 
         <sect4>
-          <title lang='en'>Simple search</title>
+          <title lang="en">Simple search</title>
 
-          <para lang='en'>By default, the engine looks for records containing <emphasis role="bold">at least</emphasis> (OR implicit) one of the words entered. Sorting is done by descending order on the number of word hits then alphabetically.</para>
+          <para lang="en">By default, the engine looks for records containing
+          <emphasis role="bold">at least</emphasis> (OR implicit) one of the
+          words entered. Sorting is done by descending order on the number of
+          word hits then alphabetically.</para>
 
-          <para lang='en'><emphasis>For example </emphasis><programlisting>cheddar cheese </programlisting> returns records containing the words cheddar OR cheese (Cheddar cheese, Red Leicester cheese, The history of the Cheddar region, ...). </para>
+          <para lang="en"><emphasis>For example </emphasis><programlisting>cheddar cheese </programlisting>returns
+          records containing the words cheddar OR cheese (Cheddar cheese, Red
+          Leicester cheese, The history of the Cheddar region, ...).</para>
 
-          <para lang='en'>Accented characters are ignored, uppercase words as well. If two words are separated by another sign other than space, +, or -, both words will appear in the search result.</para>
+          <para lang="en">Accented characters are ignored, uppercase words as
+          well. If two words are separated by another sign other than space,
+          +, or -, both words will appear in the search result.</para>
 
-          <para lang='en'>For example <programlisting>Santa Cruz/sea</programlisting>will be analyzed as : find <emphasis>records containing Santa</emphasis> OR <emphasis>records containing Cruz AND sea</emphasis> OR <emphasis>both</emphasis>.</para>
+          <para lang="en">For example <programlisting>Santa Cruz/sea</programlisting>will
+          be analyzed as : find <emphasis>records containing Santa</emphasis>
+          OR <emphasis>records containing Cruz AND sea</emphasis> OR
+          <emphasis>both</emphasis>.</para>
 
-          <para lang='en'>Some words are ignored because too frequent or having no significant meaning in English (e.g. : a, if, in, of, on, the, that, to, ...). They are referred to as stop words.</para>
+          <para lang="en">Some words are ignored because too frequent or
+          having no significant meaning in English (e.g. : a, if, in, of, on,
+          the, that, to, ...). They are referred to as stop words.</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>The minus sign</title>
+          <title lang="en">The minus sign</title>
 
-          <para lang='en'>The minus sign - is considered as an operator when placed in-between two words (see the chapter : Logical operators in-between words). Hence compound words must be surrounded by quotes for an exact term search, (see further below).</para>
+          <para lang="en">The minus sign - is considered as an operator when
+          placed in-between two words (see the chapter : Logical operators
+          in-between words). Hence compound words must be surrounded by quotes
+          for an exact term search, (see further below).</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>Truncation</title>
+          <title lang="en">Truncation</title>
 
-          <para lang='en'>Words can be truncated to the left, right or partially using the * sign.</para>
+          <para lang="en">Words can be truncated to the left, right or
+          partially using the * sign.</para>
 
-          <para lang='en'><emphasis>For example </emphasis><programlisting>hor* </programlisting>will search for words starting with "hor" (horde, horizon, horse, ...),</para>
+          <para lang="en"><emphasis>For example </emphasis><programlisting>hor* </programlisting>will
+          search for words starting with "hor" (horde, horizon, horse,
+          ...),</para>
 
-          <para lang='en'><programlisting>*logy</programlisting>will search for words ending with "logy" (psychology, theology, trilogy, ...),</para>
+          <para lang="en"><programlisting>*logy</programlisting>will search
+          for words ending with "logy" (psychology, theology, trilogy,
+          ...),</para>
 
-          <para lang='en'><programlisting>p*logy </programlisting>will search for words starting with "p" and ending with "logy" (psychology, paleonthology, pathology, ...).</para>
+          <para lang="en"><programlisting>p*logy </programlisting>will search
+          for words starting with "p" and ending with "logy" (psychology,
+          paleonthology, pathology, ...).</para>
 
-          <para lang='en'>Several truncations can be used within one and same word.</para>
+          <para lang="en">Several truncations can be used within one and same
+          word.</para>
         </sect4>
 
         <sect4 id="cat_recherche_termesexacts">
-          <title lang='en'>Searching exact terms</title>
+          <title lang="en">Searching exact terms</title>
 
-          <para lang='en'>An exact term is defined as a text enclosed in quotation marks. Whenever the search engine encounters an exact term, it searches for records containing this term.</para>
-          
-          <para lang='en'>Truncation can be used within exact terms.</para>
+          <para lang="en">An exact term is defined by a text enclosed in
+          quotation marks. Whenever the search engine encounters an exact
+          term, it searches for records containing this term.</para>
 
-          <para lang='en'><emphasis>For example </emphasis><programlisting>"dent"</programlisting>will return all records containing the term dent (dentist, accident, indentation, ...).</para>
+          <para lang="en">Truncation can be used within exact terms.</para>
 
-          <para lang='en'>Exact term searching is convenient for search expressions containing spaces or punctuation marks. (an acronym for instance).</para>
+          <para lang="en"><emphasis>For example </emphasis><programlisting>"dent"</programlisting>will
+          return all records containing the term dent (dentist, accident,
+          indentation, ...).</para>
 
-          <para lang='en'><emphasis>For example </emphasis><programlisting>"W.W.F."</programlisting> searches for records containing the text W.W.F.,</para>
+          <para lang="en">Exact term searching is convenient for search
+          expressions containing spaces or punctuation marks. (an acronym for
+          instance).</para>
 
-          <para lang='en'><programlisting>W.W.F.</programlisting> searches for records containing the letters W or F.</para>
+          <para lang="en"><emphasis>For example </emphasis><programlisting>"W.W.F."</programlisting>
+          searches for records containing the text W.W.F.,</para>
 
-          <para lang='en'>Accents and uppercase are ignored in an exact term.</para>
+          <para lang="en"><programlisting>W.W.F.</programlisting>searches for
+          records containing the letters W or F.</para>
 
-          <para lang='en'>Finally exact terms can be used in all complex expressions as described further below.</para>
+          <para lang="en">Accents and uppercase are ignored in an exact
+          term.</para>
+
+          <para lang="en">Finally exact terms can be used in all complex
+          expressions as described further below.</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>Negation</title>
+          <title lang="en">Negation</title>
 
-          <para lang='en'>The "~" sign in front of a term represents the negation of the term. It actually means search for all records not containing that term.</para>
+          <para lang="en">The "~" sign in front of a term represents the
+          negation of the term. It actually means search for all records not
+          containing that term.</para>
 
-          <para lang='en'><emphasis>for example </emphasis><programlisting>~work</programlisting> means all records except those containing the word "work"</para>
+          <para lang="en"><emphasis>for example </emphasis><programlisting>~work</programlisting>
+          means all records except those containing the word "work"</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>Logical operators in-between two words</title>
+          <title lang="en">Logical operators in-between two words</title>
 
-          <para lang='en'>Logical operators can be used in-between words :</para>
+          <para lang="en">Logical operators can be used in-between words
+          :</para>
 
           <itemizedlist>
             <listitem>
-              <para lang='en'>+ : AND operator</para>
+              <para lang="en">+ : AND operator</para>
 
-              <para lang='en'><emphasis>For example </emphasis><programlisting>hard + disk</programlisting> means all records containing the words hard AND disk.</para>
+              <para lang="en"><emphasis>For example
+              </emphasis><programlisting>hard + disk</programlisting> means
+              all records containing the words hard AND disk.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>- : NOT operator</para>
+              <para lang="en">- : NOT operator</para>
 
-              <para lang='en'><emphasis>For example </emphasis><programlisting>hard - disk</programlisting> returns records containing the word disk, except those containing also the word hard.</para>
+              <para lang="en"><emphasis>For example
+              </emphasis><programlisting>hard - disk</programlisting> returns
+              records containing the word disk, except those containing also
+              the word hard.</para>
             </listitem>
           </itemizedlist>
 
-          <para lang='en'>Several operators may be chained together in one and same equation or search expression. The precedence order applied is from left to right.</para>
+          <para lang="en">Several operators may be chained together in one and
+          same equation or search expression. The precedence order applied is
+          from left to right.</para>
 
-          <para lang='en'><emphasis>For example</emphasis> <programlisting>poetry + french - romantic*</programlisting> will return records containing poetry AND french NOT romantic(s).</para>
+          <para lang="en"><emphasis>For example</emphasis> <programlisting>poetry + french - romantic*</programlisting>
+          will return records containing poetry AND french NOT
+          romantic(s).</para>
 
-          <para lang='en'><emphasis role="bold">Caution</emphasis>, two operators cannot be placed immediately one after another, a negation cannot be combined with another operator (+~ expresses the same thing as the operator -).</para>
+          <para lang="en"><emphasis role="bold">Caution</emphasis>, two
+          operators cannot be placed immediately one after another, a negation
+          cannot be combined with another operator (+~ expresses the same
+          thing as the operator -).</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>Groupings</title>
+          <title lang="en">Groupings</title>
 
-          <para lang='en'>An expression can be grouped to become a single term. Groupings are made using parentheses. This makes it possible to change the order of precedence in the application of operators or to combine the results of complex search expressions or equations.</para>
+          <para lang="en">An expression can be grouped to become a single
+          term. Groupings are made using parentheses. This makes it possible
+          to change the order of precedence in the application of operators or
+          to combine the results of complex search expressions or
+          equations.</para>
 
           <itemizedlist>
             <listitem>
-              <para lang='en'><programlisting>poetry + (french romantic)</programlisting></para>
+              <para lang="en"><programlisting>poetry + (french romantic)</programlisting></para>
 
-              <para lang='en'>means in all records containing the words french OR romantic, only those containing the word poetry.</para>
+              <para lang="en">means in all records containing the words french
+              OR romantic, only those containing the word poetry.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'><programlisting>(french + poetry) romantic</programlisting>means means all records containing poetry AND french OR all records containing the word romantic</para>
+              <para lang="en"><programlisting>(french + poetry) romantic</programlisting>means
+              means all records containing poetry AND french OR all records
+              containing the word romantic</para>
             </listitem>
 
             <listitem>
-              <para lang='en'><programlisting>~(french + poetry) + (ameri* literature)</programlisting> means all records NOT containing the words poetry AND french AND records containing the words literature OR ameri*. Parentheses Parentheses can be imbricated with one another endlessly.</para>
+              <para lang="en"><programlisting>~(french + poetry) + (ameri* literature)</programlisting>
+              means all records NOT containing the words poetry AND french AND
+              records containing the words literature OR ameri*. Parentheses
+              Parentheses can be imbricated with one another endlessly.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'><programlisting>(poetry + (french romantic)) (literature + XIX)</programlisting>means in all records containing french OR romantic, only those containing poetry OR records containing literature AND XIX</para>
+              <para lang="en"><programlisting>(poetry + (french romantic)) (literature + XIX)</programlisting>means
+              in all records containing french OR romantic, only those
+              containing poetry OR records containing literature AND
+              XIX</para>
             </listitem>
           </itemizedlist>
         </sect4>
 
         <sect4>
-          <title lang='en'>Relevance</title>
+          <title lang="en">Relevance</title>
 
-          <para lang='en'>Results are sorted by relevance and then alphabetically. Relevance is calculated simply on the total number of words or exact terms hits.</para>
+          <para lang="en">Results are sorted by relevance and then
+          alphabetically. Relevance is calculated simply on the total number
+          of words or exact terms hits.</para>
 
-          <para lang='en'>For example :</para>
+          <para lang="en">For example :</para>
 
           <itemizedlist>
             <listitem>
-              <para lang='en'>lobster maine will recall all records containing french OR poetry, those containing both words being displayed on top.</para>
+              <para lang="en">lobster maine will recall all records containing
+              french OR poetry, those containing both words being displayed on
+              top.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>~(french + poetry) (ameri* literature) will recall all records not containing poetry AND french, from these records, those containing literature OR ameri* appearing on top in the results (first literature AND ameri*, then ameri*, and finally literature)</para>
+              <para lang="en">~(french + poetry) (ameri* literature) will
+              recall all records not containing poetry AND french, from these
+              records, those containing literature OR ameri* appearing on top
+              in the results (first literature AND ameri*, then ameri*, and
+              finally literature)</para>
             </listitem>
           </itemizedlist>
         </sect4>
@@ -351,16 +487,20 @@
     </sect2>
 
     <sect2 id="cat_serial_search">
-      <title lang='en'>Serials</title>
+      <title lang="en">Serials</title>
 
-      <para lang='en'>For more details on Serials management, consult the section Serials &gt; New serial.</para>
+      <para lang="en">For more details on Serials management, consult the
+      section Serials &gt; New serial.</para>
 
-      <para lang='en'>Search all records enables you to search the entire catalogue, including articles and serials.</para>
+      <para lang="en">Search all records enables you to search the entire
+      catalogue, including articles and serials.</para>
 
-      <para lang='en'>Search serials allows you to recall a particular periodical entry immediately so you can add a newly received issue for example, or to resume the indexing of articles of a given issue.</para>
+      <para lang="en">Search serials allows you to recall a particular
+      periodical entry immediately so you can add a newly received issue for
+      example, or to resume the indexing of articles of a given issue.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Serials &gt; Search</title>
+        <title lang="en">Cataloguing &gt; Serials &gt; Search</title>
 
         <mediaobject>
           <imageobject>
@@ -369,10 +509,12 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>PMB allows you to use regular expressions as search criterias. For more information, see <xref linkend="exp_bool" />.</para>
+      <para lang="en">PMB allows you to use regular expressions as search
+      criterias. For more information, see <xref linkend="exp_bool" />.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Serials &gt; Searcher, search results</title>
+        <title lang="en">Cataloguing &gt; Serials &gt; Searcher, search
+        results</title>
 
         <mediaobject>
           <imageobject>
@@ -381,20 +523,29 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>For more details on a search result, click on the "+" in front of the title.</para>
+      <para lang="en">For more details on a search result, click on the "+" in
+      front of the title.</para>
 
-      <para lang='en'>To display a given serial, click on its title from among the search results. The serial entry is displayed on screen. For more information, consult the section 2.3.2 <emphasis>Displaying a serial.</emphasis></para>
+      <para lang="en">To display a given serial, click on its title from among
+      the search results. The serial entry is displayed on screen. For more
+      information, consult the section 2.3.2 <emphasis>Displaying a
+      serial.</emphasis></para>
 
-      <para lang='en'><emphasis role="bold">Note </emphasis>Only main entries of serials are displayed in the search results: for example, Newsweek, The Economist, Time; articles as well as the various issues of serials are not returned by a search but on the <emphasis>Issues</emphasis> screen, go to the section 2.3.3 <emphasis>Issues</emphasis>.</para>
+      <para lang="en"><emphasis role="bold">Note </emphasis>Only main entries
+      of serials are displayed in the search results: for example, Newsweek,
+      The Economist, Time; articles as well as the various issues of serials
+      are not returned by a search but on the <emphasis>Issues</emphasis>
+      screen, go to the section 2.3.3 <emphasis>Issues</emphasis>.</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>Recent additions</title>
+      <title lang="en">Recent additions</title>
 
-      <para lang='en'>This element allows you to access the latest entries.</para>
+      <para lang="en">This element allows you to access the latest
+      entries.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Works &gt; recent additions</title>
+        <title lang="en">Cataloguing &gt; Works &gt; recent additions</title>
 
         <mediaobject>
           <imageobject>
@@ -403,28 +554,35 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Recalling recently added records allows the librarian to rapidly find an entry for correction, for entering details not recorded previously...</para>
+      <para lang="en">Recalling recently added records allows the librarian to
+      rapidly find an entry for correction, for entering details not recorded
+      previously...</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Works</title>
-  
+    <title lang="en">Works</title>
+
     <sect2>
-      <title lang='en'>New record</title>
+      <title lang="en">New record</title>
 
       <sect3>
-        <title lang='en'>Adding a new record</title>
+        <title lang="en">Adding a new record</title>
 
-        <para lang='en'>Adding a new record is a two-screen operation : first PMB asks for an identification number (ISBN), but it is not compulsory to enter it. If a EAN is entered, it is converted into an ISBN.</para>
+        <para lang="en">Adding a new record is a two-screen operation : first
+        PMB asks for an identification number (ISBN), but it is not compulsory
+        to enter it. If a EAN is entered, it is converted into an ISBN.</para>
 
         <sect4 id="cat_create">
-          <title lang='en'>Entering ISBN, EAN or commercial number</title>
+          <title lang="en">Entering ISBN, EAN or commercial number</title>
 
-          <para lang='en'>If the identification number entered corresponds to an existing work in the database, the bibliographic record is opened in edit mode directly. This allows you to avoid the duplication of records when cataloguing.</para>
+          <para lang="en">If the identification number entered corresponds to
+          an existing work in the database, the bibliographic record is opened
+          in edit mode directly. This allows you to avoid the duplication of
+          records when cataloguing.</para>
 
           <figure>
-            <title lang='en'>Works &gt; New record</title>
+            <title lang="en">Works &gt; New record</title>
 
             <mediaobject>
               <imageobject>
@@ -433,14 +591,15 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>Then click on <emphasis>Next</emphasis> to continue to the next screen.</para>
+          <para lang="en">Then click on <emphasis>Next</emphasis> to continue
+          to the next screen.</para>
         </sect4>
 
         <sect4 id="cat_create_form">
-          <title lang='en'>Entering data</title>
+          <title lang="en">Entering data</title>
 
           <figure>
-            <title lang='en'>Works &gt; New record (screen 2)</title>
+            <title lang="en">Works &gt; New record (screen 2)</title>
 
             <mediaobject>
               <imageobject>
@@ -450,84 +609,100 @@
           </figure>
 
           <sect5>
-            <title lang='en'>Choosing a material dsignation</title>
+            <title lang="en">Choosing a material dsignation</title>
 
-            <para lang='en'>In the drop down list at the top of the fill-in form, you can choose from among various material designations : </para>
+            <para lang="en">In the drop down list at the top of the fill-in
+            form, you can choose from among various material designations
+            :</para>
 
             <itemizedlist>
               <listitem>
-                <para lang='en'>printed text</para>
+                <para lang="en">printed text</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>manuscript text</para>
+                <para lang="en">manuscript text</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>musical score - printed</para>
+                <para lang="en">musical score - printed</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>musical score - manuscript</para>
+                <para lang="en">musical score - manuscript</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>cartographic document - printed</para>
+                <para lang="en">cartographic document - printed</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>cartographic document - manuscript</para>
+                <para lang="en">cartographic document - manuscript</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>video, projectable document</para>
+                <para lang="en">video, projectable document</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>sound recording - non musical</para>
+                <para lang="en">sound recording - non musical</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>sound recording - musical</para>
+                <para lang="en">sound recording - musical</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>2D graphical document</para>
+                <para lang="en">2D graphical document</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>electronic document</para>
+                <para lang="en">electronic document</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>multimedia document</para>
+                <para lang="en">multimedia document</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>3D object, artifact, ...</para>
+                <para lang="en">3D object, artifact, ...</para>
               </listitem>
             </itemizedlist>
 
-            <para lang='en'>These material designations correspond to UNIMARC standards.</para>
+            <para lang="en">These material designations correspond to UNIMARC
+            standards.</para>
 
-            <para lang='en'><emphasis role="bold">Warning</emphasis> : do not mistake them for media types which correspond to the copy.</para>
+            <para lang="en"><emphasis role="bold">Warning</emphasis> : do not
+            mistake them for media types which correspond to the copy.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>Title entry</title>
+            <title lang="en">Title entry</title>
 
-            <para lang='en'>The title proper is the principal title of a work.</para>
+            <para lang="en">The title proper is the principal title of a
+            work.</para>
 
-            <para lang='en'>Even when the title is printed on the cover or on a section of the work, you must transcribe it from the title page as it is sometimes different from the cover title. In this case the cover title will be indicated elsewhere	(note zone).</para>
+            <para lang="en">Even when the title is printed on the cover or on
+            a section of the work, you must transcribe it from the title page
+            as it is sometimes different from the cover title. In this case
+            the cover title will be indicated elsewhere (note zone).</para>
 
-            <para lang='en'>You can also define the title proper of a different author, a parallel title and other title information.</para>
+            <para lang="en">You can also define the title proper of a
+            different author, a parallel title and other title
+            information.</para>
 
-            <para lang='en'>Parallel titles are, for instance, titles of works in their original language.</para>
+            <para lang="en">Parallel titles are, for instance, titles of works
+            in their original language.</para>
 
-            <para lang='en'>Finally you can define collective titles. A collective title is a title common to various works of the same author. For example <emphasis>The Adventures of Flash Gordon</emphasis> by <emphasis>Alex Raymond</emphasis>. The field "Part of" is different from the "title" fields. To specify a title for a collection, click on the button "..."</para>
+            <para lang="en">Finally you can define collective titles. A
+            collective title is a title common to various works of the same
+            author. For example <emphasis>The Adventures of Flash
+            Gordon</emphasis> by <emphasis>Alex Raymond</emphasis>. The field
+            "Part of" is different from the "title" fields. To specify a title
+            for a collection, click on the button "..."</para>
 
             <figure>
-              <title lang='en'>Defining a collective title</title>
+              <title lang="en">Defining a collective title</title>
 
               <mediaobject>
                 <imageobject>
@@ -536,10 +711,11 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>Next select a title for the collection in the pop-up.</para>
+            <para lang="en">Next select a title for the collection in the
+            pop-up.</para>
 
             <figure>
-              <title lang='en'>Collective title pop-up</title>
+              <title lang="en">Collective title pop-up</title>
 
               <mediaobject>
                 <imageobject>
@@ -548,12 +724,20 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>If the title of your collection is not in the pop-up list, click on<emphasis> Add collection</emphasis>. Next enter the title, click on <emphasis>Save</emphasis> and finally select your collection from the list. You cannot modify or delete a collection in the pop-up. To do so, in the tab <emphasis>Authority</emphasis>, select <emphasis> collection</emphasis> in the menu. For more information, see <xref linkend="autorites" />.</para>
+            <para lang="en">If the title of your collection is not in the
+            pop-up list, click on<emphasis> Add collection</emphasis>. Next
+            enter the title, click on <emphasis>Save</emphasis> and finally
+            select your collection from the list. You cannot modify or delete
+            a collection in the pop-up. To do so, in the tab
+            <emphasis>Authority</emphasis>, select <emphasis>
+            collection</emphasis> in the menu. For more information, see <xref
+            linkend="autorites" />.</para>
 
-            <para lang='en'>The selected collection is then displayed in the record fill-in form.</para>
+            <para lang="en">The selected collection is then displayed in the
+            record fill-in form.</para>
 
-            <figure> 
-              <title lang='en'>The selected collection is displayed</title>
+            <figure>
+              <title lang="en">The selected collection is displayed</title>
 
               <mediaobject>
                 <imageobject>
@@ -562,19 +746,21 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>To remove a selected collective title, click on the
-			"X" button</para>
+            <para lang="en">To remove a selected collective title, click on
+            the "X" button</para>
 
-            <para lang='en'>You can also specify a <emphasis>part number</emphasis>.
-			For instance, <emphasis>The Adventures of Flash Gordon</emphasis>, 
-			number <emphasis>11</emphasis>.</para>
+            <para lang="en">You can also specify a <emphasis>part
+            number</emphasis>. For instance, <emphasis>The Adventures of Flash
+            Gordon</emphasis>, number <emphasis>11</emphasis>.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>Author entry (statement of responsibility)</title>
+            <title lang="en">Author entry (statement of
+            responsibility)</title>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, selecting authors</title>
+              <title lang="en">Cataloguing &gt; New record, selecting
+              authors</title>
 
               <mediaobject>
                 <imageobject>
@@ -583,10 +769,15 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>To select an author, click on the button "..." then select the author in the search author pop-up. To search for an author, enter the first letters of his/her last name and click on  <emphasis>Search</emphasis>. The results of the search are then displayed.</para>
+            <para lang="en">To select an author, click on the button "..."
+            then select the author in the search author pop-up. To search for
+            an author, enter the first letters of his/her last name and click
+            on <emphasis>Search</emphasis>. The results of the search are then
+            displayed.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, select author pop-up</title>
+              <title lang="en">Cataloguing &gt; New record, select author
+              pop-up</title>
 
               <mediaobject>
                 <imageobject>
@@ -595,11 +786,13 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>If the author of a work you are cataloguing is not yet registered,
-			you can add him/her by clicking on the button <emphasis>Add author</emphasis>.</para>
+            <para lang="en">If the author of a work you are cataloguing is not
+            yet registered, you can add him/her by clicking on the button
+            <emphasis>Add author</emphasis>.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, adding an author from the pop-up</title>
+              <title lang="en">Cataloguing &gt; New record, adding an author
+              from the pop-up</title>
 
               <mediaobject>
                 <imageobject>
@@ -608,10 +801,14 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>You can add a new author either during the cataloguing process or in the "authorities" tab. For more information on adding authors, see <xref linkend="autorites_ajout_auteur" />.</para>
+            <para lang="en">You can add a new author either during the
+            cataloguing process or in the "authorities" tab. For more
+            information on adding authors, see <xref
+            linkend="autorites_ajout_auteur" />.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, selected author</title>
+              <title lang="en">Cataloguing &gt; New record, selected
+              author</title>
 
               <mediaobject>
                 <imageobject>
@@ -620,10 +817,15 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>If "author" is the appropriate term for the writer of a book, it is not the same thing for a film when the title of "Director" would be more appropriate. The term used then refers to the function of the author in relation to the type of work. To select a function (not mandatory), click on the button "...".</para>
+            <para lang="en">If "author" is the appropriate term for the writer
+            of a book, it is not the same thing for a film when the title of
+            "Director" would be more appropriate. The term used then refers to
+            the function of the author in relation to the type of work. To
+            select a function (not mandatory), click on the button
+            "...".</para>
 
             <figure>
-              <title lang='en'>Select author function pop-up</title>
+              <title lang="en">Select author function pop-up</title>
 
               <mediaobject>
                 <imageobject>
@@ -632,24 +834,32 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>A few observations :</para>
+            <para lang="en">A few observations :</para>
 
             <itemizedlist>
               <listitem>
-                <para lang='en'>There can only be one primary author for a work, but there can be coauthors, and/or secondary authors. To select <emphasis>a coauthor</emphasis> or a <emphasis>secondary author</emphasis> click on the corresponding "..." button. To add an additional author, click on the "+" button.</para>
+                <para lang="en">There can only be one primary author for a
+                work, but there can be coauthors, and/or secondary authors. To
+                select <emphasis>a coauthor</emphasis> or a
+                <emphasis>secondary author</emphasis> click on the
+                corresponding "..." button. To add an additional author, click
+                on the "+" button.</para>
               </listitem>
 
               <listitem>
-                <para lang='en'>to remove an author or a function, click on the "X" button</para>
+                <para lang="en">to remove an author or a function, click on
+                the "X" button</para>
               </listitem>
             </itemizedlist>
           </sect5>
 
           <sect5>
-            <title lang='en'>Publisher entry, series, sub-series and collective titles</title>
+            <title lang="en">Publisher entry, series, sub-series and
+            collective titles</title>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, Imprint, series</title>
+              <title lang="en">Cataloguing &gt; New record, Imprint,
+              series</title>
 
               <mediaobject>
                 <imageobject>
@@ -658,38 +868,73 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'>Entries for series, sub-series, and collective titles are made when creating or editing records (data entry only), or in the Authority tab. Start with <emphasis>sub-series</emphasis> if necessary, otherwise <emphasis>series</emphasis> or finally<emphasis>publisher</emphasis>.</para>
+            <para lang="en">Entries for series, sub-series, and collective
+            titles are made when creating or editing records (data entry
+            only), or in the Authority tab. Start with
+            <emphasis>sub-series</emphasis> if necessary, otherwise
+            <emphasis>series</emphasis> or
+            finally<emphasis>publisher</emphasis>.</para>
 
-            <para lang='en'>In the select sub-series pop-up, select a sub-series <emphasis>or else</emphasis> click on <emphasis>Add sub-series</emphasis>, fill-in the known fields then click on the select "mother" series button of the sub-series.</para>
+            <para lang="en">In the select sub-series pop-up, select a
+            sub-series <emphasis>or else</emphasis> click on <emphasis>Add
+            sub-series</emphasis>, fill-in the known fields then click on the
+            select "mother" series button of the sub-series.</para>
 
-            <para lang='en'>In the select series pop-up containing our sub-series, select a series <emphasis>or</emphasis> choose <emphasis>Add series</emphasis>, fill-in the known fields except the publisher, then click on the select publisher button.</para>
+            <para lang="en">In the select series pop-up containing our
+            sub-series, select a series <emphasis>or</emphasis> choose
+            <emphasis>Add series</emphasis>, fill-in the known fields except
+            the publisher, then click on the select publisher button.</para>
 
-            <para lang='en'>In the select publisher pop-up, select a publisher <emphasis>or </emphasis>choose <emphasis>Add publisher</emphasis> and complete the entry.</para>
+            <para lang="en">In the select publisher pop-up, select a publisher
+            <emphasis>or </emphasis>choose <emphasis>Add publisher</emphasis>
+            and complete the entry.</para>
 
-            <para lang='en'>Once the entry is completed, select the publisher of the series, then the series containing our sub-series, and finally save the sub-series and select it.</para>
+            <para lang="en">Once the entry is completed, select the publisher
+            of the series, then the series containing our sub-series, and
+            finally save the sub-series and select it.</para>
 
-            <para lang='en'>In general, choose the more specific element first. Choose the sub-series, then the series and in the end the publisher.</para>
+            <para lang="en">In general, choose the more specific element
+            first. Choose the sub-series, then the series and in the end the
+            publisher.</para>
 
-            <para lang='en'>A series corresponds to a publishers' choice : <emphasis>Penguin Books, Rough Guide</emphasis> series</para>
+            <para lang="en">A series corresponds to a publishers' choice :
+            <emphasis>Penguin Books, Rough Guide</emphasis> series</para>
 
-            <para lang='en'>A sub-series answers to the same concern but at a higher level: Oxford University Press, Oxford Handbooks 8, sub-series History.</para>
+            <para lang="en">A sub-series answers to the same concern but at a
+            higher level: Oxford University Press, Oxford Handbooks 8,
+            sub-series History.</para>
 
-            <para lang='en'>A collection is a work published in a set of volumes under a collective title, each volume bearing its own title.</para>
+            <para lang="en">A collection is a work published in a set of
+            volumes under a collective title, each volume bearing its own
+            title.</para>
 
-            <para lang='en'><emphasis role="bold">Example</emphasis> Tolkien, J.R.R. <emphasis role="bold">Collective title</emphasis> The Lord of the Rings <emphasis role="bold">part Number</emphasis> Book III <emphasis role="bold">Title proper</emphasis> The Return of the King</para>
+            <para lang="en"><emphasis role="bold">Example</emphasis> Tolkien,
+            J.R.R. <emphasis role="bold">Collective title</emphasis> The Lord
+            of the Rings <emphasis role="bold">part Number</emphasis> Book III
+            <emphasis role="bold">Title proper</emphasis> The Return of the
+            King</para>
 
-            <para lang='en'>To make this entry, you must first create the collection and the collective title in PMB before selecting them. The part number and the title proper must be entered when creating the record of the work.</para>
+            <para lang="en">To make this entry, you must first create the
+            collection and the collective title in PMB before selecting them.
+            The part number and the title proper must be entered when creating
+            the record of the work.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>ISBN, EAN or commercial number</title>
+            <title lang="en">ISBN, EAN or commercial number</title>
 
-            <para lang='en'>The ISBN, which was asked in the first screen of the new record entry, is displayed here. Click on the "..." button to open a pop-up either for scanning the EAN of the work or for entering its ISBN. The entry is done via a pop-up to avoid closing a new record entry in edit mode after validation of a barcode scan.</para>
+            <para lang="en">The ISBN, which was asked in the first screen of
+            the new record entry, is displayed here. Click on the "..." button
+            to open a pop-up either for scanning the EAN of the work or for
+            entering its ISBN. The entry is done via a pop-up to avoid closing
+            a new record entry in edit mode after validation of a barcode
+            scan.</para>
 
-            <para lang='en'>PMB automatically converts EANs (commercial barcodes) into ISBN.</para>
+            <para lang="en">PMB automatically converts EANs (commercial
+            barcodes) into ISBN.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, ISBN area</title>
+              <title lang="en">Cataloguing &gt; New record, ISBN area</title>
 
               <mediaobject>
                 <imageobject>
@@ -700,12 +945,16 @@
           </sect5>
 
           <sect5>
-            <title lang='en'>Collation</title>
+            <title lang="en">Collation</title>
 
-            <para lang='en'>The collation area details various information related to the physical aspect of the document : extent of item (number of volumes, pagination), illustrations, format, price, accompanying materials.</para>
+            <para lang="en">The collation area details various information
+            related to the physical aspect of the document : extent of item
+            (number of volumes, pagination), illustrations, format, price,
+            accompanying materials.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, Collation area</title>
+              <title lang="en">Cataloguing &gt; New record, Collation
+              area</title>
 
               <mediaobject>
                 <imageobject>
@@ -716,12 +965,16 @@
           </sect5>
 
           <sect5>
-            <title lang='en'>Notes</title>
+            <title lang="en">Notes</title>
 
-            <para lang='en'>There are three types of notes : <emphasis>General</emphasis>, <emphasis>Contents</emphasis>-linked (critical appraisal), and <emphasis>a Summary, an Excerpt </emphasis>of the document (for instance, the summary of a novel on the outside back cover).</para>
+            <para lang="en">There are three types of notes :
+            <emphasis>General</emphasis>, <emphasis>Contents</emphasis>-linked
+            (critical appraisal), and <emphasis>a Summary, an Excerpt
+            </emphasis>of the document (for instance, the summary of a novel
+            on the outside back cover).</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, Notes area</title>
+              <title lang="en">Cataloguing &gt; New record, Notes area</title>
 
               <mediaobject>
                 <imageobject>
@@ -732,20 +985,26 @@
           </sect5>
 
           <sect5>
-            <title lang='en'>Indexing</title>
+            <title lang="en">Indexing</title>
 
-            <para lang='en'>The indexing area is made up of three elements :</para>
+            <para lang="en">The indexing area is made up of three elements
+            :</para>
 
             <itemizedlist>
               <listitem>
-                <para lang='en'><emphasis role="bold">Subject headings</emphasis> : add
-				a subject from the PMB internal thesaurus. For more information about
-				subject headings, see <xref linkend="autorites_categ" /> .</para>
+                <para lang="en"><emphasis role="bold">Subject
+                headings</emphasis> : add a subject from the PMB internal
+                thesaurus. For more information about subject headings, see
+                <xref linkend="autorites_categ" /> .</para>
 
-                <para lang='en'>To select a subject, click on the "..." button. To enter an additional subject, click on the "+" button. To remove a selected subject, click on the "X" button.</para>
+                <para lang="en">To select a subject, click on the "..."
+                button. To enter an additional subject, click on the "+"
+                button. To remove a selected subject, click on the "X"
+                button.</para>
 
                 <figure>
-                  <title lang='en'>Cataloguing &gt; New record, select subject pop-up</title>
+                  <title lang="en">Cataloguing &gt; New record, select subject
+                  pop-up</title>
 
                   <mediaobject>
                     <imageobject>
@@ -754,22 +1013,30 @@
                   </mediaobject>
                 </figure>
 
-                <para lang='en'>To create a subject heading, click on the Add button.</para>
+                <para lang="en">To create a subject heading, click on the Add
+                button.</para>
               </listitem>
 
               <listitem>
-                <para lang='en'><emphasis role="bold">Classification</emphasis> : adding a
-				class number. For more information, consult the chapter <emphasis>Authority</emphasis>, section <emphasis>Classification</emphasis>.</para>
+                <para lang="en"><emphasis
+                role="bold">Classification</emphasis> : adding a class number.
+                For more information, consult the chapter
+                <emphasis>Authority</emphasis>, section
+                <emphasis>Classification</emphasis>.</para>
               </listitem>
 
               <listitem>
-                <para lang='en'><emphasis role="bold">Free indexing</emphasis> : here you can freely enter keywords, separated by spaces. You can, for instance, specify keywords, or use the index a thesaurus not integrated into PMB (Sears subject headings, for example).
-				</para>
+                <para lang="en"><emphasis role="bold">Free indexing</emphasis>
+                : here you can freely enter keywords, separated by spaces. You
+                can, for instance, specify keywords, or use the index a
+                thesaurus not integrated into PMB (Sears subject headings, for
+                example).</para>
               </listitem>
             </itemizedlist>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, Indexing area</title>
+              <title lang="en">Cataloguing &gt; New record, Indexing
+              area</title>
 
               <mediaobject>
                 <imageobject>
@@ -780,16 +1047,22 @@
           </sect5>
 
           <sect5>
-            <title lang='en'>Language of publication</title>
+            <title lang="en">Language of publication</title>
 
-            <para lang='en'>Here you can specify the original language of the publication, defined by default in the user's preferences. For more information, consult the chapter <emphasis>User preferences</emphasis>.</para>
+            <para lang="en">Here you can specify the original language of the
+            publication, defined by default in the user's preferences. For
+            more information, consult the chapter <emphasis>User
+            preferences</emphasis>.</para>
 
-            <para lang='en'>The language codes are defined by the UNIMARC standard.</para>
+            <para lang="en">The language codes are defined by the UNIMARC
+            standard.</para>
 
-            <para lang='en'>If the document is a translation, you can define the original language.</para>
+            <para lang="en">If the document is a translation, you can define
+            the original language.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, Language of publication area</title>
+              <title lang="en">Cataloguing &gt; New record, Language of
+              publication area</title>
 
               <mediaobject>
                 <imageobject>
@@ -800,14 +1073,19 @@
           </sect5>
 
           <sect5>
-            <title lang='en'>Links (electronic ressources)</title>
+            <title lang="en">Links (electronic ressources)</title>
 
-            <para lang='en'>The associated URL must be entered fully (including http://) to ensure that the link will function with any internet browser.</para>
+            <para lang="en">The associated URL must be entered fully
+            (including http://) to ensure that the link will function with any
+            internet browser.</para>
 
-            <para lang='en'>The electronic format can be chosen freely by the cataloguer. Prefer field entries using the term "file", for instance "PDF file" or "Acrobat File", and generic indications such as : "internet site".</para>
+            <para lang="en">The electronic format can be chosen freely by the
+            cataloguer. Prefer field entries using the term "file", for
+            instance "PDF file" or "Acrobat File", and generic indications
+            such as : "internet site".</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, Links area</title>
+              <title lang="en">Cataloguing &gt; New record, Links area</title>
 
               <mediaobject>
                 <imageobject>
@@ -816,22 +1094,45 @@
               </mediaobject>
             </figure>
 
-            <para lang='en'><emphasis role="bold">Advanced : RSS feeds</emphasis>. You can also link an RSS feed to a record. An RSS feed is a round-the-clock information flux broadcasted by an internet site. The RSS feeds of the BBC news site, news.bbc.co.uk, bring you the latest headlines of the site. By tying an RSS feed to an entry describing the BBC news site, you enable the readers of your library or documentation centre to access the latest BBC news from your OPAC.</para>
+            <para lang="en"><emphasis role="bold">Advanced : RSS
+            feeds</emphasis>. You can also link an RSS feed to a record. An
+            RSS feed is a round-the-clock information flux broadcasted by an
+            internet site. The RSS feeds of the BBC news site, news.bbc.co.uk,
+            bring you the latest headlines of the site. By tying an RSS feed
+            to an entry describing the BBC news site, you enable the readers
+            of your library or documentation centre to access the latest BBC
+            news from your OPAC.</para>
 
-            <para lang='en'>To link an RSS feed, enter the corresponding URL (you can easily find the information on the web) into the associated URL field. Enter RSS NN as the electronic format, NN being a number in minutes defining the news refresh rate. For example, if you enter "RSS 30", the corresponding RSS feeds will be refreshed every 30 minutes. These information will be cached, accelerating the PMB OPAC responses for the next 30 minutes.</para>
+            <para lang="en">To link an RSS feed, enter the corresponding URL
+            (you can easily find the information on the web) into the
+            associated URL field. Enter RSS NN as the electronic format, NN
+            being a number in minutes defining the news refresh rate. For
+            example, if you enter "RSS 30", the corresponding RSS feeds will
+            be refreshed every 30 minutes. These information will be cached,
+            accelerating the PMB OPAC responses for the next 30
+            minutes.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>Custom fields</title>
+            <title lang="en">Custom fields</title>
 
-            <para lang='en'>Finally, at the bottom of the record you can define your custom fields.</para>
+            <para lang="en">Finally, at the bottom of the record you can
+            define your custom fields.</para>
 
-            <para lang='en'>The customizable fields of records contain additional information, you can create them in <emphasis>Administration</emphasis> &gt; <emphasis>Records</emphasis> &gt; <emphasis>Customizable</emphasis>. For more information, consult the <emphasis>Administrator's Guide</emphasis>, chapter <emphasis>Records</emphasis>.</para>
+            <para lang="en">The customizable fields of records contain
+            additional information, you can create them in
+            <emphasis>Administration</emphasis> &gt;
+            <emphasis>Records</emphasis> &gt;
+            <emphasis>Customizable</emphasis>. For more information, consult
+            the <emphasis>Administrator's Guide</emphasis>, chapter
+            <emphasis>Records</emphasis>.</para>
 
-            <para lang='en'>If no custom fields were defined, this area will not be displayed.</para>
+            <para lang="en">If no custom fields were defined, this area will
+            not be displayed.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; New record, Custom fields area</title>
+              <title lang="en">Cataloguing &gt; New record, Custom fields
+              area</title>
 
               <mediaobject>
                 <imageobject>
@@ -841,17 +1142,21 @@
             </figure>
           </sect5>
 
-          <para lang='en'>Once the various fields of the record are filled, click on <emphasis>Save</emphasis>. The record is saved, and you come to the list of copies of the document.</para>
+          <para lang="en">Once the various fields of the record are filled,
+          click on <emphasis>Save</emphasis>. The record is saved, and you
+          come to the list of copies of the document.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_isdbd">
-        <title lang='en'>List of copies of a document</title>
+        <title lang="en">List of copies of a document</title>
 
-        <para lang='en'>The next screen shows the ISBN formatted record together with corresponding copies, if any.</para>
+        <para lang="en">The next screen shows the ISBN formatted record
+        together with corresponding copies, if any.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Works, list of copies of a document</title>
+          <title lang="en">Cataloguing &gt; Works, list of copies of a
+          document</title>
 
           <mediaobject>
             <imageobject>
@@ -860,25 +1165,37 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>To modify a record, click on <emphasis>Edit</emphasis>. The modification and creation operations	open the same screen.</para>
+        <para lang="en">To modify a record, click on
+        <emphasis>Edit</emphasis>. The modification and creation operations
+        open the same screen.</para>
 
-        <para lang='en'>You can <emphasis>Add a copy.</emphasis></para>
+        <para lang="en">You can <emphasis>Add a copy.</emphasis></para>
 
-        <para lang='en'>You can also <emphasis>Add an electronic document</emphasis>.</para>
+        <para lang="en">You can also <emphasis>Add an electronic
+        document</emphasis>.</para>
 
-        <para lang='en'>If the record already contains copies, you can edit them by clicking on the copies' number.</para>
+        <para lang="en">If the record already contains copies, you can edit
+        them by clicking on the copies' number.</para>
 
-        <para lang='en'>If the record already contains electronic copies, you can display and modify them. To display e-copies click on the icon, to modify them click on the title.</para>
+        <para lang="en">If the record already contains electronic copies, you
+        can display and modify them. To display e-copies click on the icon, to
+        modify them click on the title.</para>
 
         <sect4>
-          <title lang='en'>Modifying a record</title>
+          <title lang="en">Modifying a record</title>
 
-          <para lang='en'>To modify a record, click on the "Edit" button at the bottom of the entry just above above the associated copies list.</para>
+          <para lang="en">To modify a record, click on the
+          <emphasis>Edit</emphasis> button at the bottom of the entry just
+          above above the associated copies list.</para>
 
-          <para lang='en'>In edit mode a record displays the same fill-in form as a new record's (consult the section 1.2.1.2,  Adding a new record). However you will also find additional buttons at the bottom of the screen.</para>
+          <para lang="en">In edit mode a record displays the same fill-in form
+          as a new record's (consult the section 1.2.1.2, Adding a new
+          record). However you will also find additional buttons at the bottom
+          of the screen.</para>
 
           <figure>
-            <title lang='en'>Buttons available at the bottom of the "Modifying a record" screen</title>
+            <title lang="en">Buttons available at the bottom of the "Modifying
+            a record" screen</title>
 
             <mediaobject>
               <imageobject>
@@ -888,26 +1205,38 @@
           </figure>
 
           <sect5>
-            <title lang='en'>Replace with</title>
+            <title lang="en">Replace with</title>
 
-            <para lang='en'>Makes it possible to replace a record by another, this allows you to remove duplicates and gather copies linked with various double entries.</para>
+            <para lang="en">Makes it possible to replace a record by another,
+            this allows you to remove duplicates and gather copies linked with
+            various double entries.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>Duplicate</title>
+            <title lang="en">Duplicate</title>
 
-            <para lang='en'>Allows the duplication of a record. A new record is displayed, enter changes to be made on the original entry relevant to the document being catalogued and save the new record.</para>
+            <para lang="en">Allows the duplication of a record. A new record
+            is displayed, enter changes to be made on the original entry
+            relevant to the document being catalogued and save the new
+            record.</para>
 
-            <para lang='en'>This function is very useful for cataloguing complete series or collections.</para>
+            <para lang="en">This function is very useful for cataloguing
+            complete series or collections.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>Hist.</title>
+            <title lang="en">Hist.</title>
 
-            <para lang='en'>This button is displayed only when the audit of records and copies is enabled. It makes it possible to see the name of the user who made the catalogue entry, and who made any modifications. The information is displayed in a pop-up and depends on the audit type level. For more information, consult the PMB Administrator's Guide, Tools, Parameters, type_audit in "General Parameters".</para>
+            <para lang="en">This button is displayed only when the audit of
+            records and copies is enabled. It makes it possible to see the
+            name of the user who made the catalogue entry, and who made any
+            modifications. The information is displayed in a pop-up and
+            depends on the audit type level. For more information, consult the
+            <emphasis>PMB Administrator's Guide, Tools, Parameters, type_audit
+            in "General Parameters"</emphasis>.</para>
 
             <figure>
-              <title lang='en'>History</title>
+              <title lang="en">History</title>
 
               <mediaobject>
                 <imageobject>
@@ -918,25 +1247,33 @@
           </sect5>
 
           <sect5>
-            <title lang='en'>Z39.50</title>
+            <title lang="en">Z39.50</title>
 
-            <para lang='en'>Allows you to search for a record using the Z39.50 search function. This button launches a new search on the ISBN of the displayed record.</para>
+            <para lang="en">Allows you to search for a record using the Z39.50
+            search function. This button launches a new search on the ISBN of
+            the displayed record.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>Delete</title>
+            <title lang="en">Delete</title>
 
-            <para lang='en'>Allows you to delete a record. Warning, you	can delete a record only if it does not have any associated copies (hard or electronic).</para>
+            <para lang="en">Allows you to delete a record. Warning, you can
+            delete a record only if it does not have any associated copies
+            (hard or electronic).</para>
           </sect5>
         </sect4>
 
         <sect4 id="cat_expl_create">
-          <title lang='en'>Adding a new copy</title>
+          <title lang="en">Adding a new copy</title>
 
-          <para lang='en'>To modify one of the copies of the document, click on its barcode. To add a copy, enter the <emphasis>item number</emphasis> then click on  <emphasis>Add a copy</emphasis>.</para>
+          <para lang="en">To modify one of the copies of the document, click
+          on its barcode. To add a copy, enter the <emphasis>item
+          number</emphasis> then click on <emphasis>Add a
+          copy</emphasis>.</para>
 
           <figure>
-            <title lang='en'>Adding a new copy : entering the item number</title>
+            <title lang="en">Adding a new copy : entering the item
+            number</title>
 
             <mediaobject>
               <imageobject>
@@ -945,10 +1282,13 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>The <emphasis>item number </emphasis>is the barcode you placed on the cover, if you are using a barcode reader. Else it is then a distinct number given to every item of your library (accession number).</para>
+          <para lang="en">The <emphasis>item number </emphasis>is the barcode
+          you placed on the cover, if you are using a barcode reader. Else it
+          is then a distinct number given to every item of your library
+          (accession number).</para>
 
           <figure>
-            <title lang='en'>Add a copy</title>
+            <title lang="en">Add a copy</title>
 
             <mediaobject>
               <imageobject>
@@ -957,65 +1297,109 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>The "add a copy" screen allows you to enter various data:</para>
+          <para lang="en">The "add a copy" screen allows you to enter various
+          data:</para>
 
           <itemizedlist>
             <listitem>
-              <para lang='en'>the <emphasis role="bold">item number</emphasis> is displayed. This data is <emphasis role="bold">mandatory</emphasis>. To modify it click on the "..." button and scan the barcode number of the copy into the pop-up (or enter a new item number then validate).</para>
+              <para lang="en">the <emphasis role="bold">item number</emphasis>
+              is displayed. This data is <emphasis
+              role="bold">mandatory</emphasis>. To modify it click on the
+              "..." button and scan the barcode number of the copy into the
+              pop-up (or enter a new item number then validate).</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>enter a<emphasis role="bold">call number</emphasis>. This information is <emphasis role="bold">mandatory</emphasis>. The call number is often made up of the decimal notation followed by the first three letters of the author's name.</para>
+              <para lang="en">enter a <emphasis role="bold">call
+              number</emphasis>. This information is <emphasis
+              role="bold">mandatory</emphasis>. The call number is often made
+              up of the decimal notation followed by the first three letters
+              of the author's name.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>select the <emphasis role="bold">media type </emphasis>in the drop-down list. The list of the document types is configurable in <emphasis>Administration &gt; Items &gt; Media types</emphasis>.</para>
+              <para lang="en">select the <emphasis role="bold">media type
+              </emphasis>in the drop-down list. The list of the document types
+              is configurable in <emphasis>Administration &gt; Items &gt;
+              Media types</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>select the <emphasis role="bold">location </emphasis>in the drop-down list. The location list is configurable in <emphasis>Administration &gt; Items &gt; Locations</emphasis>.</para>
+              <para lang="en">select the <emphasis role="bold">location
+              </emphasis>in the drop-down list. The location list is
+              configurable in <emphasis>Administration &gt; Items &gt;
+              Locations</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>select the <emphasis role="bold">section</emphasis> in the drop-down list. The sections list is configurable in <emphasis>Administration &gt; Items &gt; Sections</emphasis>.</para>
+              <para lang="en">select the <emphasis
+              role="bold">section</emphasis> in the drop-down list. The
+              sections list is configurable in <emphasis>Administration &gt;
+              Items &gt; Sections</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>select the<emphasis role="bold">owner</emphasis> of the copy in the drop-down list. The owners list is configurable in <emphasis> Administration &gt; Items &gt; Owners</emphasis>. Generally, it is your library's holdings. However you can have a deposit from your main County Public Library or from another library.</para>
+              <para lang="en">select the<emphasis role="bold">
+              owner</emphasis> of the copy in the drop-down list. The owners'
+              list is configurable in <emphasis> Administration &gt; Items
+              &gt; Owners</emphasis>. Generally, it is your library's
+              holdings. However you can have a deposit from your main County
+              Public Library or from another library.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>select the <emphasis role="bold">status</emphasis> of the copy in the drop-down list. The status list is configurable in <emphasis>Administration &gt; Items &gt; Status </emphasis>.</para>
+              <para lang="en">select the <emphasis
+              role="bold">status</emphasis> of the copy in the drop-down list.
+              The status list is configurable in <emphasis>Administration &gt;
+              Items &gt; Status </emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>select the <emphasis role="bold">statistical code </emphasis>of the copy in the drop-down list.</para>
+              <para lang="en">select the <emphasis role="bold">statistical
+              code </emphasis>of the copy in the drop-down list.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>you can also define for <emphasis role="bold">notes</emphasis> a message related to the copy. This message will be displayed before any loan. For example : "ASSIMIL method, please check that the case contains 3 cds".</para>
+              <para lang="en">you can also define for <emphasis
+              role="bold">notes</emphasis> a message related to the copy. This
+              message will be displayed before any loan. For example :
+              "ASSIMIL method, please check that the case contains 3
+              cds".</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>finally you can define a price.</para>
+              <para lang="en">finally you can define a price.</para>
             </listitem>
           </itemizedlist>
 
-          <para lang='en'>Some of these entry fields can have default values defined in your <emphasis>user preferences</emphasis>. For more information, consult the chapter
-		  <emphasis>User preferences</emphasis>.</para>
+          <para lang="en">Some of these entry fields can have default values
+          defined in your <emphasis>user preferences</emphasis>. For more
+          information, consult the chapter <emphasis>User
+          preferences</emphasis>.</para>
 
-          <para lang='en'><emphasis>Below price </emphasis>are located <emphasis role="bold">the custom fields </emphasis>of the copy. They represent additional data that you can define in <emphasis>Administration &gt; Items &gt; Customization.</emphasis> For more information, consult the <emphasis>PMB administrator's Guide, Copies</emphasis>.</para>
+          <para lang="en">Below <emphasis>price</emphasis> are located the
+          <emphasis role="bold">custom fields </emphasis>of the copy. They
+          represent additional data that you can define in
+          <emphasis>Administration &gt; Items &gt; Custom fields.</emphasis>
+          For more information, consult the <emphasis>PMB Administrator's
+          Guide, Items</emphasis>.</para>
 
-          <para lang='en'>To save your modifications click on <emphasis>Save</emphasis> else <emphasis>Cancel</emphasis>. If you have opened a copy in edit mode you can also <emphasis>Delete </emphasis>it.</para>
+          <para lang="en">To save your modifications click on
+          <emphasis>Save</emphasis> else <emphasis>Cancel</emphasis>. If you
+          have opened a copy in edit mode you can also <emphasis>Delete
+          </emphasis>it.</para>
         </sect4>
 
         <sect4 id="cat_explnum_create">
-          <title lang='en'>Adding an electronic copy</title>
+          <title lang="en">Adding an electronic copy</title>
 
-          <para lang='en'>Electronic copies or e-copies are not links, but actual digital documents directly integrated in your catalogue in PMB. You can thus add to your catalogue as many types of digitized documents : PDF, MP3, text, spreadsheet, pictures...</para>
+          <para lang="en">Electronic copies or e-copies are not links, but
+          actual digital documents directly integrated in your catalogue in
+          PMB. You can thus add to your catalogue as many types of digitized
+          documents : PDF, MP3, text, spreadsheet, pictures...</para>
 
           <figure>
-            <title lang='en'>Adding an e-copy</title>
+            <title lang="en">Adding an e-copy</title>
 
             <mediaobject>
               <imageobject>
@@ -1024,134 +1408,219 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>You can define various information :</para>
+          <para lang="en">You can define various information :</para>
 
           <itemizedlist>
             <listitem>
-              <para lang='en'>the <emphasis role="bold">name</emphasis> of the document</para>
+              <para lang="en">the <emphasis role="bold">name</emphasis> of the
+              document</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>the <emphasis role="bold">file</emphasis> of the digital document. Click on the button <emphasis>Browse</emphasis> and select the file you wish to upload to the server.</para>
+              <para lang="en">the <emphasis role="bold">file</emphasis> of the
+              digital document. Click on the <emphasis>Browse</emphasis>
+              button and select the file you wish to upload to the
+              server.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'><emphasis role="bold">a thumbnail</emphasis> (the image for
-			  the electronic document icon). Click on the button <emphasis>Browse</emphasis> 
-			  and select the file you wish to upload to the server.</para>
+              <para lang="en"><emphasis role="bold">a thumbnail</emphasis>
+              (the image for the electronic document icon). Click on the
+              <emphasis>Browse</emphasis> button and select the file you wish
+              to upload to the server.</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>you can also upload an external file from your intranet or the internet. In this case specify <emphasis role="bold">the URL </emphasis>of the file.</para>
+              <para lang="en">you can also upload an external file from your
+              intranet or the internet. In this case specify the <emphasis
+              role="bold">URL </emphasis>of the file.</para>
             </listitem>
           </itemizedlist>
 
-          <para lang='en'>PMB generates thumbnails automatically from GIF, PDF, JPG and PNG files, and uses the appropriate icons for most of the file formats.</para>
+          <para lang="en">PMB generates thumbnails automatically from GIF,
+          PDF, JPG and PNG files, and uses the appropriate icons for most of
+          the file formats.</para>
 
-          <para lang='en'>To save your modifications click on <emphasis>Save</emphasis> else <emphasis>Delete</emphasis>. If you have opened an e-copy in edit mode, you can also <emphasis>Delete </emphasis>it.</para>
+          <para lang="en">To save your modifications click on
+          <emphasis>Save</emphasis> else <emphasis>Delete</emphasis>. If you
+          have opened an e-copy in edit mode, you can also <emphasis>Delete
+          </emphasis>it.</para>
         </sect4>
 
         <sect4 id="cat_edit_expl">
-          <title lang='en'>Modifying a copy</title>
+          <title lang="en">Modifying a copy</title>
 
-          <para lang='en'>Modification and add screens are almost identical, the former has two additional buttons : Hist. and Delete.</para>
+          <para lang="en">Modification and add screens are almost identical,
+          the former has two additional buttons : <emphasis>Hist</emphasis>.
+          and <emphasis>Delete</emphasis>.</para>
 
           <sect5>
-            <title lang='en'>Hist.</title>
+            <title lang="en">Hist.</title>
 
-            <para lang='en'>This button is displayed only when the audit of records and copies is enabled. It makes it possible to see the name of the user who made the catalogue entry, and who made any modifications. The information is displayed in a pop-up and depends on the audit type level. For more information, consult the PMB Administrator's Guide, Tools, Parameters, type_audit in "General Parameters".</para>
+            <para lang="en">This button is displayed only when the audit of
+            records and copies is enabled. It makes it possible to see the
+            name of the user who made the catalogue entry, and who made any
+            modifications. The information is displayed in a pop-up and
+            depends on the audit type level. For more information, consult the
+            <emphasis>PMB Administrator's Guide, Tools, Parameters, type_audit
+            in "General Parameters"</emphasis>.</para>
           </sect5>
 
           <sect5>
-            <title lang='en'>Delete</title>
+            <title lang="en">Delete</title>
 
-            <para lang='en'>Allows you to delete the displayed copy. Warning, a copy cannot be deleted if it is currently on loan.</para>
+            <para lang="en">Allows you to delete the displayed copy. Warning,
+            a copy cannot be deleted if it is currently on loan.</para>
           </sect5>
         </sect4>
 
         <sect4>
-          <title lang='en'>Modifying an e-copy</title>
+          <title lang="en">Modifying an e-copy</title>
 
-          <para lang='en'>The modification screen of an e-copy is identical to the add an electronic copy screen.</para>
+          <para lang="en">The modification screen of an e-copy is identical to
+          the add an electronic copy screen.</para>
         </sect4>
       </sect3>
-      
-      <sect3>
-        <title lang='en'>Cataloguuing special records</title>
 
-        <para lang='en'>PMB allows you to catalogue not only books and periodicals, but also your multimedia kits, websites, RSS fluxes...</para>
+      <sect3>
+        <title lang="en">Cataloguing special records</title>
+
+        <para lang="en">PMB allows you to catalogue not only books and
+        periodicals, but also your multimedia kits, websites, RSS
+        fluxes...</para>
 
         <sect4>
-          <title lang='en'>Cataloguing a website</title>
+          <title lang="en">Cataloguing a website</title>
 
-          <para lang='en'>To catalogue a website, define the material designation as <emphasis role="bold">electronic document</emphasis>. Enter a title proper for your record. In the <emphasis role="bold">links (electronic resources)</emphasis> area, enter the associated URL (use the format <emphasis role="bold">http://www.bbc.co.uk</emphasis>). In electronic format for this resource, you can enter <emphasis role="bold">website</emphasis>.</para>
+          <para lang="en">To catalogue a website, define the material
+          designation as <emphasis role="bold">electronic document</emphasis>.
+          Enter a title proper for your record. In the <emphasis
+          role="bold">links (electronic resources)</emphasis> area, enter the
+          associated URL (use the format <emphasis
+          role="bold">http://www.bbc.co.uk</emphasis>). In electronic format
+          for this resource, you can enter <emphasis
+          role="bold">website</emphasis>.</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>Cataloguing an RSS flux</title>
+          <title lang="en">Cataloguing an RSS flux</title>
 
-          <para lang='en'><remark><emphasis role="bold">Note</emphasis> PMB can also generate an RSS flux from a basket or a virtual shelf. You can load a basket by means of the Selective Dissemination of Information (SDI). For more details on adding an RSS flux, consult <xref linkend="dsi_rss_def" />.</remark></para>
+          <para lang="en"><remark><emphasis role="bold">Note</emphasis>. PMB
+          can also generate an RSS flux from a basket or a virtual shelf. You
+          can load a basket by means of the Selective Dissemination of
+          Information (SDI). For more details on adding an RSS flux, consult
+          <xref linkend="dsi_rss_def" />.</remark></para>
 
-          <para lang='en'>"<emphasis>An RSS feed, acronym for Really Simple Syndication or Rich Site Summary is a format for syndicating Website contents. The system is used by news-oriented websites and weblogs to publish their headlines and web-contents enabling users to consult them immediately without having to visit the websites themselves</emphasis>" (source : http://http://en.wikipedia.org/wiki/RSS).</para> 
+          <para lang="en">"<emphasis>An RSS feed, acronym for Really Simple
+          Syndication or Rich Site Summary is a format for syndicating Website
+          contents. The system is used by news-oriented websites and weblogs
+          to publish their headlines and web-contents enabling users to
+          consult them immediately without having to visit the websites
+          themselves</emphasis>" (source :
+          http://http://en.wikipedia.org/wiki/RSS).</para>
 
-          <para lang='en'>To catalogue an RSS, enter a title for the RSS feed. In links, copy-paste the URL of the RSS feed. In electronic format for this resource, enter "RSS ### #" with :</para>
+          <para lang="en">To catalogue an RSS, enter a title for the RSS feed.
+          In links, copy-paste the URL of the RSS feed. In electronic format
+          for this resource, enter "RSS ### #" with :</para>
 
           <itemizedlist>
             <listitem>
-              <para lang='en'>RSS : for PMB to display the web-contents of the URL, enter the XML file correctly</para>
+              <para lang="en">RSS : for PMB to display the web-contents of the
+              URL, enter the XML file correctly</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>### : for the cache period, enter 30 for 30 minutes, for instance</para>
+              <para lang="en">### : for the cache period, enter 30 for 30
+              minutes, for instance</para>
             </listitem>
 
             <listitem>
-              <para lang='en'># : 0 or 1 to publish the RSS feed on the Home page or not</para>
+              <para lang="en"># : 0 or 1 to publish the RSS feed on the Home
+              page or not</para>
             </listitem>
           </itemizedlist>
 
-          <para lang='en'>To display RSS feeds on the OPAC Home page, define the parameter <emphasis>opac show_rss_browser</emphasis> 1. For more information on customizing PMB, consult the <emphasis>PMB Administrator's Guide, Tools</emphasis>.</para>
+          <para lang="en">To display RSS feeds on the OPAC Home page, define
+          the parameter <emphasis>opac show_rss_browser</emphasis> 1. For more
+          information on customizing PMB, consult the <emphasis>PMB
+          Administrator's Guide, Tools</emphasis>.</para>
         </sect4>
       </sect3>
     </sect2>
   </sect1>
 
   <sect1 id="cat_serial">
-    <title lang='en'>Serials</title>
+    <title lang="en">Serials</title>
 
-    <para lang='en'>PMB allows the entry of general information about periodicals; for instance, details regarding the most recent issue or articles in the issue.</para>
+    <para lang="en">PMB allows the entry of general information about
+    periodicals; for instance, details regarding the most recent issue or
+    articles in the issue.</para>
 
     <sect2 id="cat_serial_vocabulary">
-      <title lang='en'>Vocabulary</title>
+      <title lang="en">Vocabulary</title>
 
-      <para lang='en'>By serials we mean any publication (including non-print material) generally appearing at regular or irregular intervals under a uniform title.</para>
+      <para lang="en">By serials we mean any publication (including non-print
+      material) generally appearing at regular or irregular intervals under a
+      uniform title.</para>
 
-      <para lang='en'>You need to know the meaning of four terms to understand how PMB manages serials :</para>
+      <para lang="en">You need to know the meaning of four terms to understand
+      how PMB manages serials :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'><emphasis role="bold">the serial </emphasis> is defined in PMB by a record (called <emphasis role="bold">"mother" record </emphasis> or <emphasis role="bold">main entry</emphasis>) establishing the title of the publication, of the magazine, etc. This record describes the serial or periodical on a general level : <emphasis>Le Monde </emphasis>is a daily newspaper, founded by <emphasis>Beuve-MÃ©ry</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">the serial </emphasis> is
+          defined in PMB by a record (called <emphasis role="bold">"mother"
+          record </emphasis> or <emphasis role="bold">main entry</emphasis>)
+          establishing the title of the publication, of the magazine, etc.
+          This record describes the serial or periodical on a general level :
+          <emphasis>Le Monde </emphasis>is a daily newspaper, founded by
+          <emphasis>Beuve-MÃ©ry</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">the issue</emphasis> (also called <emphasis role="bold">bulletin</emphasis>) identifies, for instance, the issue numbered <emphasis>32478</emphasis> dated <emphasis>15 August 2002</emphasis>of <emphasis>Le Monde</emphasis>. Cataloguing a periodical means describing all the individual issues and associated copies so they can be loaned or analytical entries of articles can be made.</para>
+          <para lang="en"><emphasis role="bold">the issue</emphasis>
+          identifies, for instance, the issue numbered
+          <emphasis>32478</emphasis> dated <emphasis>15 August 2002
+          </emphasis>of <emphasis>Le Monde</emphasis>. Cataloguing a
+          periodical means describing all the individual issues and associated
+          copies so they can be loaned or analytical entries of articles can
+          be made.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">the copy</emphasis> corresponds to the physical aspect of an issue. If you have two subscriptions to Le Monde, you'll have in your holdings <emphasis>two copies</emphasis> of the issue numbered<emphasis>32478</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">the copy</emphasis>
+          corresponds to the physical aspect of an issue. If you have two
+          subscriptions to Le Monde, you'll have in your holdings
+          <emphasis>two copies</emphasis> of the issue numbered
+          <emphasis>32478</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'><emphasis role="bold">the article</emphasis> (also called <emphasis role="bold">content</emphasis>) forms the basis of the various issues of a periodical. Articles can be described and catalogued, and therefore can be described in a record. For example : an article published on page 10 of Le Monde, 18 June 2003, can be catalogued.</para>
+          <para lang="en"><emphasis role="bold">the article</emphasis> (also
+          called <emphasis role="bold">content</emphasis>) forms the basis of
+          the various issues of a periodical. Articles can be described and
+          catalogued, and therefore can be described in a record. For example
+          : an article published on page 10 of Le Monde, 18 June 2003, can be
+          catalogued.</para>
         </listitem>
       </itemizedlist>
 
-      <para lang='en'><emphasis role="bold">Let's recap</emphasis> : We subscribe to the daily Le Monde (a <emphasis role="">periodical entry </emphasis>), with an <emphasis>issue</emphasis>) numbered 32478 of which we possess two copies in the library (<emphasis>two items</emphasis> with two distinct barcode numbers for loans). In the issue, there are fifty major articles that the readers and librarians can search independently, each one relating to the corresponding issue and to the availability of the corresponding copies.</para>
+      <para lang="en"><emphasis role="bold">Recap</emphasis> : We subscribe to
+      the daily Le Monde (a <emphasis role="">periodical entry </emphasis>),
+      with an <emphasis>(issue</emphasis>) numbered 32478 of which we possess
+      two copies in the library (<emphasis>two items</emphasis> with two
+      distinct barcode numbers for loans). In the issue, there are fifty major
+      articles that the readers and librarians can search independently, each
+      one relating to the corresponding issue and to the availability of the
+      corresponding copies.</para>
 
-      <para lang='en'>If no entry exists in PMB yet, the periodical article entry is made in a few different steps : add a new periodical entry, list current issues, create copies if any, make an analytical entry for the article.</para>
+      <para lang="en">If no entry exists in PMB yet, the periodical article
+      entry is made in a few different steps : add a new periodical entry,
+      list current issues, create copies if any, make an analytical entry for
+      the article.</para>
 
       <figure>
-        <title lang='en'>Browsing the display screens of periodicals</title>
+        <title lang="en">Browsing the display screens of periodicals</title>
 
         <mediaobject>
           <imageobject>
@@ -1160,14 +1629,19 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>When you display the record entry of a periodical (here <emphasis>GÃ©o</emphasis>), of one of its issues (here issue number<emphasis>278</emphasis>) or of one of the articles of this issue, a navigation bar is appears on top of the screen. This bar allows you to rapidly go to the upper level in the periodical record exploration.</para>
+      <para lang="en">When you display the record entry of a periodical (here
+      <emphasis>GÃ©o</emphasis>), of one of its issues (here issue number
+      <emphasis>278</emphasis>) or of one of the articles of this issue, a
+      navigation bar is appears on top of the screen. This bar allows you to
+      rapidly go to the upper level in the periodical record
+      exploration.</para>
     </sect2>
 
     <sect2 id="cat_serial_form">
-      <title lang='en'>New serial</title>
+      <title lang="en">New serial</title>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Serials &gt; New serial</title>
+        <title lang="en">Cataloguing &gt; Serials &gt; New serial</title>
 
         <mediaobject>
           <imageobject>
@@ -1177,89 +1651,100 @@
       </figure>
 
       <sect3 id="cat_serial_add">
-        <title lang='en'>Adding a serial</title>
+        <title lang="en">Adding a serial</title>
 
-        <para lang='en'>Let's describe in detail how to add a new serial. In the <emphasis>Cataloguing</emphasis> tab, click on <emphasis>New serial</emphasis> in the side menu.</para>
+        <para lang="en">Let's describe in detail how to add a new serial. In
+        the <emphasis>Cataloguing</emphasis> tab, click on <emphasis>New
+        serial</emphasis> in the side menu.</para>
 
         <sect4>
-          <title lang='en'>Material designation</title>
+          <title lang="en">Material designation</title>
 
-          <para lang='en'>PMB can manage various serials formats. The printed form (newspapers, magazines, reviews) is the most common, but PMB can also manage talking newspapers for the blind and visually impaired persons, electronic periodicals, etc.</para>
+          <para lang="en">PMB can manage various serials formats. The printed
+          form (newspapers, magazines, reviews) is the most common, but PMB
+          can also manage talking newspapers for the blind and visually
+          impaired persons, electronic periodicals, etc.</para>
 
-          <para lang='en'>The 13 formats of the drop-down list are normalized to UNIMARC standards :</para>
+          <para lang="en">The 13 formats of the drop-down list are normalized
+          to UNIMARC standards :</para>
 
+          <itemizedlist>
+            <listitem>
+              <para lang="en">printed text</para>
+            </listitem>
 
-                  <itemizedlist>
-              <listitem>
-                <para lang='en'>printed text</para>
-              </listitem>
+            <listitem>
+              <para lang="en">manuscript text</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>manuscript text</para>
-              </listitem>
+            <listitem>
+              <para lang="en">musical score - printed</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>musical score - printed</para>
-              </listitem>
+            <listitem>
+              <para lang="en">musical score - manuscript</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>musical score - manuscript</para>
-              </listitem>
+            <listitem>
+              <para lang="en">cartographic document - printed</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>cartographic document - printed</para>
-              </listitem>
+            <listitem>
+              <para lang="en">cartographic document - manuscript</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>cartographic document - manuscript</para>
-              </listitem>
+            <listitem>
+              <para lang="en">video, projectable document</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>video, projectable document</para>
-              </listitem>
+            <listitem>
+              <para lang="en">sound recording - non musical</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>sound recording - non musical</para>
-              </listitem>
+            <listitem>
+              <para lang="en">sound recording - musical</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>sound recording - musical</para>
-              </listitem>
+            <listitem>
+              <para lang="en">2D graphical document</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>2D graphical document</para>
-              </listitem>
+            <listitem>
+              <para lang="en">electronic document</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>electronic document</para>
-              </listitem>
+            <listitem>
+              <para lang="en">multimedia document</para>
+            </listitem>
 
-              <listitem>
-                <para lang='en'>multimedia document</para>
-              </listitem>
-
-              <listitem>
-                <para lang='en'>3D object, artifact, ...</para>
-              </listitem>
-            </itemizedlist>
+            <listitem>
+              <para lang="en">3D object, artifact, ...</para>
+            </listitem>
+          </itemizedlist>
         </sect4>
 
         <sect4>
-          <title lang='en'>Other entry fields</title>
+          <title lang="en">Other entry fields</title>
 
-          <para lang='en'>The other entry fields for a periodical correspond to those of a work. See above section 1.2.1 <emphasis>Adding a new record</emphasis>.</para>
+          <para lang="en">The other entry fields for a periodical correspond
+          to those of a work. See above section 1.2.1 <emphasis>Adding a new
+          record</emphasis>.</para>
 
-          <para lang='en'><emphasis role="bold">Note</emphasis> It is not possible to define collation (number of pages, accompanying materials, ...) for a periodical. Similarly the notion of series does not apply for periodicals.</para>
+          <para lang="en"><emphasis role="bold">Note</emphasis> It is not
+          possible to define collation (number of pages, accompanying
+          materials, ...) for a periodical. Similarly the notion of series
+          does not apply for periodicals.</para>
 
-          <para lang='en'>After saving your periodical record, you get the screen <emphasis>Serials: Display items</emphasis>.</para>
+          <para lang="en">After saving your periodical record, you get the
+          screen <emphasis>Serials: Display items</emphasis>.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_serial_view">
-        <title lang='en'>Displaying a serial</title>
+        <title lang="en">Displaying a serial</title>
 
         <figure>
-          <title lang='en'>Displaying a serial</title>
+          <title lang="en">Displaying a serial</title>
 
           <mediaobject>
             <imageobject>
@@ -1268,33 +1753,62 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>From this screen you can modify the periodical record by clicking on the <emphasis role="bold">Edit</emphasis> button. Modifying a periodical entry is similar to adding a new periodiacl. See below the section <emphasis>New serial</emphasis>.</para>
+        <para lang="en">From this screen you can modify the periodical record
+        by clicking on the <emphasis role="bold">Edit</emphasis> button.
+        Modifying a periodical entry is similar to adding a new periodiacl.
+        See below the section <emphasis>New serial</emphasis>.</para>
 
-        <para lang='en'>You can <emphasis role="bold">Delete</emphasis> the periodical.</para>
+        <para lang="en">You can <emphasis role="bold">Delete</emphasis> the
+        periodical.</para>
 
-        <para lang='en'>You can <emphasis role="bold">add an issue</emphasis> as well.</para>
+        <para lang="en">You can <emphasis role="bold">add an issue</emphasis>
+        as well.</para>
 
-        <para lang='en'>In the <emphasis>list of issues</emphasis> displayed underneath the main entry in the lower half of the screen, each line shows for a given issue the <emphasis role="bold">Issue number</emphasis>, the <emphasis role="bold">Date of issue or period</emphasis>, the number of articles <emphasis role="bold">Art</emphasis>, the number of <emphasis role="bold">E-copies</emphasis>, and the number of <emphasis role="bold">Hardcopies</emphasis></para>
+        <para lang="en">In the <emphasis>list of issues</emphasis> displayed
+        underneath the main entry in the lower half of the screen, each line
+        shows for a given issue the <emphasis role="bold">Issue
+        number</emphasis>, the <emphasis role="bold">Date of issue or
+        period</emphasis>, the number of articles <emphasis
+        role="bold">Art</emphasis>, the number of <emphasis
+        role="bold">E-copies</emphasis>, and the number of <emphasis
+        role="bold">Hardcopies</emphasis></para>
 
-        <para lang='en'>You can display an issue by clicking on any one line in <emphasis>the list of issues</emphasis>. The issue is then displayed on the screen <emphasis>Serials: issue(s)</emphasis>.</para>
+        <para lang="en">You can display an issue by clicking on any one line
+        in <emphasis>the list of issues</emphasis>. The issue is then
+        displayed on the screen <emphasis>Serials: issue(s)</emphasis>.</para>
 
         <sect4 id="cat_serial_bul">
-          <title lang='en'>Adding a new issue</title>
+          <title lang="en">Adding a new issue</title>
 
-          <para lang='en'>Only the following data are required : the issue number (32478), the issue barcode, the period and/or date of issue, and finally the title of the issue.</para>
+          <para lang="en">Only the following data are required : the issue
+          number (32478), the issue barcode, the period and/or date of issue,
+          and finally the title of the issue.</para>
 
-          <para lang='en'><emphasis role="bold">Numbering</emphasis> : is used to store the issue number. For instance the number <emphasis>153</emphasis> of the periodical.</para>
+          <para lang="en"><emphasis role="bold">Numbering</emphasis> : is used
+          to store the issue number. For instance the number
+          <emphasis>153</emphasis> of the periodical.</para>
 
-          <para lang='en'><emphasis role="bold">Barcode</emphasis> : it allows you to enter the issue barcode, for example <emphasis>3792578022009</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">Barcode</emphasis> : it allows
+          you to enter the issue barcode, for example
+          <emphasis>3792578022009</emphasis>.</para>
 
-          <para lang='en'><emphasis role="bold">Date of issue</emphasis> is used to enter the date of publication of the issue (01/06/04). The date is used as sorting order for the display of issues. If no date is entered, either manually or using the calendar pop-up by clicking on <emphasis>calendar,</emphasis> PMB will automatically fill it with the current date.</para>
+          <para lang="en"><emphasis role="bold">Date of issue</emphasis> is
+          used to enter the date of publication of the issue (01/06/04). The
+          date is used as sorting order for the display of issues. If no date
+          is entered, either manually or using the calendar pop-up by clicking
+          on <emphasis>calendar,</emphasis> PMB will automatically fill it
+          with the current date.</para>
 
-          <para lang='en'><emphasis role="bold">Period entry field</emphasis> : this field is used to enter the publication date as printed on the issue : for example<emphasis> June-July 2006</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">Period entry field</emphasis>
+          : this field is used to enter the publication date as printed on the
+          issue : for example<emphasis> June-July 2006</emphasis>.</para>
 
-          <para lang='en'><emphasis role="bold">Title of issue</emphasis> : it is used to enter the title of a given issue, for example <emphasis> special : climate change</emphasis>.</para>
+          <para lang="en"><emphasis role="bold">Title of issue</emphasis> : it
+          is used to enter the title of a given issue, for example <emphasis>
+          special : climate change</emphasis>.</para>
 
           <figure>
-            <title lang='en'>Adding an issue</title>
+            <title lang="en">Adding an issue</title>
 
             <mediaobject>
               <imageobject>
@@ -1305,10 +1819,10 @@
         </sect4>
 
         <sect4 id="cat_serial_bul_view">
-          <title lang='en'>Managing issues</title>
+          <title lang="en">Managing issues</title>
 
           <figure>
-            <title lang='en'>Managing issues</title>
+            <title lang="en">Managing issues</title>
 
             <mediaobject>
               <imageobject>
@@ -1317,79 +1831,103 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>From this screen you can :</para>
+          <para lang="en">From this screen you can :</para>
 
           <itemizedlist>
             <listitem>
-              <para lang='en'><emphasis role="bold">Modify</emphasis> or <emphasis role="bold">Delete </emphasis> the issue</para>
+              <para lang="en"><emphasis role="bold">Modify</emphasis> or
+              <emphasis role="bold">Delete </emphasis> the issue</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>Modify a copy in the issues' list of copies by clicking on its barcode</para>
+              <para lang="en">Modify a copy in the issues' list of copies by
+              clicking on its barcode</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>Display an e-copy by clicking on its icon, or modify it by clicking on its title</para>
+              <para lang="en">Display an e-copy by clicking on its icon, or
+              modify it by clicking on its title</para>
             </listitem>
 
             <listitem>
-              <para lang='en'>Add a copy by entering its copy number and clicking on <emphasis role="bold">Add a copy</emphasis></para>
+              <para lang="en">Add a copy by entering its copy number and
+              clicking on <emphasis role="bold">Add a copy</emphasis></para>
             </listitem>
 
             <listitem>
-              <para lang='en'><emphasis role="bold">Add an e-copy</emphasis></para>
+              <para lang="en"><emphasis role="bold">Add an
+              e-copy</emphasis></para>
             </listitem>
 
             <listitem>
-              <para lang='en'><emphasis role="bold">Add an article entry</emphasis> to the issue</para>
+              <para lang="en"><emphasis role="bold">Add an article
+              entry</emphasis> to the issue</para>
             </listitem>
           </itemizedlist>
 
-          <para lang='en'>The list of articles is displayed in the lower half the screen.</para>
+          <para lang="en">The list of articles is displayed in the lower half
+          the screen.</para>
 
-          <para lang='en'>For more details, click the "<emphasis role="bold">+</emphasis>" icon at the start of the line.</para>
+          <para lang="en">For more details, click the "<emphasis
+          role="bold">+</emphasis>" icon at the start of the line.</para>
 
-          <para lang='en'>To modify an article entry click on its title.</para>
+          <para lang="en">To modify an article entry click on its
+          title.</para>
 
-          <para lang='en'>To add an electronic document to an article click on the <emphasis role="bold">Add an eletronic document</emphasis> button located in the article details.</para>
+          <para lang="en">To add an electronic document to an article click on
+          the <emphasis role="bold">Add an eletronic document</emphasis>
+          button located in the article details.</para>
 
           <sect5 id="cat_serial_expl">
-            <title lang='en'>Adding a copy to an issue</title>
+            <title lang="en">Adding a copy to an issue</title>
 
-            <para lang='en'>See above the section 1.2.2.1 on how to create a copy of a document <emphasis>Adding a copy </emphasis>. Adding copies to an issue is similar.</para>
+            <para lang="en">See above the section 1.2.2.1 on how to create a
+            copy of a document <emphasis>Adding a copy </emphasis>. Adding
+            copies to an issue is similar.</para>
           </sect5>
 
           <sect5 id="cat_serial_explnum">
-            <title lang='en'>Adding an e-copy to an issue</title>
+            <title lang="en">Adding an e-copy to an issue</title>
 
-            <para lang='en'>See above the section 1.2.2.2 on how to create an electronic document <emphasis>Adding an electronic document</emphasis>. Adding e-copies to an issue is similar.</para>
+            <para lang="en">See above the section 1.2.2.2 on how to create an
+            electronic document <emphasis>Adding an electronic
+            document</emphasis>. Adding e-copies to an issue is
+            similar.</para>
           </sect5>
 
           <sect5 id="cat_serial_analysis">
-            <title lang='en'>Adding articles</title>
+            <title lang="en">Adding articles</title>
 
-            <para lang='en'>The article record corresponds to a standard record but with an additional feature: pagination.</para>
+            <para lang="en">The article record corresponds to a standard
+            record but with an additional feature: pagination.</para>
 
-            <para lang='en'><emphasis role="bold">Note</emphasis> : You cannot add a title proper from another author to an article.</para>
+            <para lang="en"><emphasis role="bold">Note</emphasis> : You cannot
+            add a title proper from another author to an article.</para>
 
-            <para lang='en'>Cataloguers are advised to follow the following conventions :
-			</para>
+            <para lang="en">Cataloguers are advised to follow the following
+            conventions :</para>
 
             <itemizedlist>
               <listitem>
-                <para lang='en'><emphasis role="bold">p. X</emphasis> article on page X</para>
+                <para lang="en"><emphasis role="bold">p. X</emphasis> article
+                on page X</para>
               </listitem>
 
               <listitem>
-                <para lang='en'><emphasis role="bold">pp. X-Y</emphasis> article from pages X to Y</para>
+                <para lang="en"><emphasis role="bold">pp. X-Y</emphasis>
+                article from pages X to Y</para>
               </listitem>
 
               <listitem>
-                <para lang='en'><emphasis role="bold">pp. X-Y, Z, AA-AC</emphasis> article separated in three groups of pages : from pages X to Y, on page Z, from  pages AA to AC</para>
+                <para lang="en"><emphasis role="bold">pp. X-Y, Z,
+                AA-AC</emphasis> article separated in three groups of pages :
+                from pages X to Y, on page Z, from pages AA to AC</para>
               </listitem>
             </itemizedlist>
 
-            <para lang='en'>To these conventions, it is also possible to add column information, generally by specifying col. then a, b or c for the column position.</para>
+            <para lang="en">To these conventions, it is also possible to add
+            column information, generally by specifying col. then a, b or c
+            for the column position.</para>
           </sect5>
         </sect4>
       </sect3>
@@ -1397,27 +1935,37 @@
   </sect1>
 
   <sect1 id="cat_caddies">
-    <title lang='en'>Baskets</title>
+    <title lang="en">Baskets</title>
 
-    <para lang='en'>The baskets are PMB storage space : you can fill them with
-	records, periodical issues, copies.</para>
+    <para lang="en">The baskets are PMB storage areas : you can fill them with
+    records, periodical issues, copies.</para>
 
-    <para lang='en'>In PMB you can use the baskets, for instance, for stocktaking : it is a library term for inventory. Baskets can also be used for weeding : withdrawing from the collection works that are too old or damaged beyond repair.</para>
+    <para lang="en">In PMB you can use the baskets, for instance, for
+    stocktaking : it is a library term for inventory. Baskets can also be used
+    for weeding : withdrawing from the collection works that are too old or
+    damaged beyond repair.</para>
 
-    <para lang='en'>You can also use baskets to store bibliographies : results of various searches to be used for a write-up, a subject catalogue,...</para>
+    <para lang="en">You can also use baskets to store bibliographies : results
+    of various searches to be used for a write-up, a subject
+    catalogue,...</para>
 
-    <para lang='en'>There are two ways to fill a basket :  by entering elements manually (look for the basket icon), or by scanning/entering the barcode.</para>
+    <para lang="en">There are two ways to fill a basket : by entering elements
+    manually (look for the basket icon), or by scanning/entering the
+    barcode.</para>
 
     <sect2 id="cat_caddie_gestion">
-      <title lang='en'>Management</title>
+      <title lang="en">Management</title>
 
-      <para lang='en'>By default, in the submenu Baskets/Management, the screen displays the manage baskets function. You can display the manage procedures function by clicking on the link provided.</para>
+      <para lang="en">By default, in the submenu Baskets &gt; Management, the
+      screen displays the manage baskets function. You can display the manage
+      procedures function by clicking on the link provided.</para>
 
       <sect3 id="cat_caddie_gestion_caddie">
-        <title lang='en'>Managing baskets</title>
+        <title lang="en">Managing baskets</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Management &gt; Manage baskets</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Management &gt;
+          Manage baskets</title>
 
           <mediaobject>
             <imageobject>
@@ -1426,15 +1974,20 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Click on the basket name to display its contents. Click on the Edit button to modify the basket : name, type, note, access privileges. And finally click on New basket to add a new basket.</para>
+        <para lang="en">Click on the basket name to display its contents.
+        Click on the Edit button to modify the basket : name, type, note,
+        access privileges. And finally click on New basket to add a new
+        basket.</para>
 
         <sect4>
-          <title lang='en'>Baskets contents</title>
+          <title lang="en">Baskets contents</title>
 
-          <para lang='en'>To consult the contents of a basket click on its name.</para>
+          <para lang="en">To consult the contents of a basket click on its
+          name.</para>
 
           <figure>
-            <title lang='en'>Cataloguing &gt; Baskets &gt; Management &gt; Manage baskets, basket contents</title>
+            <title lang="en">Cataloguing &gt; Baskets &gt; Management &gt;
+            Manage baskets, basket contents</title>
 
             <mediaobject>
               <imageobject>
@@ -1443,12 +1996,15 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>To remove an element from a basket click on its Remove from basket icon :<graphic fileref="images/basket_del.gif" /></para>
+          <para lang="en">To remove an element from a basket click on its
+          Remove from basket icon :<graphic
+          fileref="images/basket_del.gif" /></para>
 
-          <para lang='en'>A basket can contain entries of the holdings (records, copies or periodical issues) :</para>
+          <para lang="en">A basket can contain entries of the holdings
+          (records, copies or periodical issues) :</para>
 
           <figure>
-            <title lang='en'>Entries</title>
+            <title lang="en">Entries</title>
 
             <mediaobject>
               <imageobject>
@@ -1457,12 +2013,19 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>Click on the "+" sign in front of a record to expand it. You can now consult the record in ISBD format as well as the list of hardcopies and e-copies. The record is displayed exactly like for search results (Cataloguing &gt; Search).</para>
+          <para lang="en">Click on the "+" sign in front of a record to expand
+          it. You can now consult the record in ISBD format as well as the
+          list of hardcopies and e-copies. The record is displayed exactly
+          like for search results (Cataloguing &gt; Search).</para>
 
-          <para lang='en'>However when loading the basket you may have scanned an item not belonging to your library (for instance, a book belonging to the County Public Library, and that was not imported into PMB). To help you keep track of these items, a basket can also contain unknown items :</para>
+          <para lang="en">It may happen when loading baskets that you have
+          scanned one or more items not belonging to your library (for
+          instance, a book belonging to the County Public Library, and that
+          was not imported into PMB). To help you keep track of these items, a
+          basket can also contain unknown items :</para>
 
           <figure>
-            <title lang='en'>Unknown items</title>
+            <title lang="en">Unknown items</title>
 
             <mediaobject>
               <imageobject>
@@ -1471,10 +2034,13 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>In a basket, items that are tagged, are highlighted by an icon preceding their titles. For more information about tagging items, consult the section <xref linkend="cat_caddie_pointage" />.</para>
+          <para lang="en">In a basket, items that are tagged, are highlighted
+          by an icon preceding their titles. For more information about
+          tagging items, consult the section <xref
+          linkend="cat_caddie_pointage" />.</para>
 
           <figure>
-            <title lang='en'>Tagged items</title>
+            <title lang="en">Tagged items</title>
 
             <mediaobject>
               <imageobject>
@@ -1485,12 +2051,15 @@
         </sect4>
 
         <sect4 id="catalogue_panier_editer_un_panier">
-          <title id="catalogue_panier_editer_un_panier.title">Modifying a basket</title>
+          <title id="catalogue_panier_editer_un_panier.title">Modifying a
+          basket</title>
 
-          <para lang='en'>You can also modify a basket by clicking on the Edit button to the right of the screen.</para>
+          <para lang="en">You can also modify a basket by clicking on the Edit
+          button to the right of the screen.</para>
 
           <figure>
-            <title lang='en'>Cataloguing &gt; Baskets &gt; Management &gt; Manage baskets</title>
+            <title lang="en">Cataloguing &gt; Baskets &gt; Management &gt;
+            Manage baskets</title>
 
             <mediaobject>
               <imageobject>
@@ -1499,72 +2068,124 @@
             </mediaobject>
           </figure>
 
-          <para lang='en'>The "Edit basket" screen allows you to modify the name and note of a basket as well as users access privileges to the basket.</para>
+          <para lang="en">The <emphasis>Edit basket</emphasis> screen allows
+          you to modify the name and note of a basket as well as users access
+          privileges to the basket.</para>
 
-          <para lang='en'>You can see the basket type : records basket, issues basket, copies baskets. You cannot change the type of an existing basket. If you have made a mistake when creating the basket, delete it and create a new one.</para>
+          <para lang="en">You can see the basket type : records basket, issues
+          basket, copies baskets. You cannot change the type of an existing
+          basket. If you have made a mistake when creating the basket, delete
+          it and create a new one.</para>
 
-          <para lang='en'>Under "Access granted to" are check boxes corresponding to the access privileges. The names displayed are those of PMB authorized users. A simple user cannot revoke the access privileges of an administrator.</para>
+          <para lang="en">Under <emphasis>Access granted to</emphasis> are
+          check boxes corresponding to the access privileges. The names
+          displayed are those of PMB authorized users. A simple user cannot
+          revoke the access privileges of an administrator.</para>
 
-          <para lang='en'>You can thus create a basket which will be accessible only to you (and the administrator).</para>
+          <para lang="en">You can thus create a basket which will be
+          accessible only to you (and the administrator).</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>Adding a basket</title>
+          <title lang="en">Adding a basket</title>
 
-          <para lang='en'>The "New basket" screen is almost identical to the "Edit a basket" screen with the following difference, the presence of the Delete button. For more information, consult above the section <xref linkend=" catalogue_panier_editer_un_panier" />.</para>
+          <para lang="en">The <emphasis>New basket</emphasis> screen is almost
+          identical to the <emphasis>Edit a basket</emphasis> screen with the
+          following difference, the presence of the
+          <emphasis>Delete</emphasis> button. For more information, consult
+          above the section <xref
+          linkend="catalogue_panier_editer_un_panier" />.</para>
         </sect4>
 
         <sect4>
-          <title lang='en'>PMB default installed baskets</title>
+          <title lang="en">PMB default installed baskets</title>
 
-          <para lang='en'>If your systems administrator installed PMB with the "essential data for a quick start" (feed_essential.sql, for more information, see the PMB Installation Guide), then several baskets will have been created to serve as examples or to facilitate the management of the library.</para>
+          <para lang="en">If your systems administrator installed PMB with the
+          "essential data for a quick start" (feed_essential.sql, for more
+          information, see the <emphasis>PMB Installation Guide</emphasis>),
+          then several baskets will have been created to serve as examples or
+          to facilitate the management of the library.</para>
 
-          <para lang='en'>The <emphasis>For Exhibition</emphasis> records basket, for instance. Destiné à recevoir les notices d'une petite exposition, qui peut ensuite être mis en avant grâce aux étagères virtuelles de l'OPAC. Intended for receiving records for a small exhibition, it can later be highlighted via the virtual shelves in the OPAC. For more information consult <xref linkend="cat_etg" /></para>
+          <para lang="en">The <emphasis>For Exhibition</emphasis> records
+          basket, for instance. Intended for receiving records for a small
+          exhibition, it can later be highlighted via the virtual shelves in
+          the OPAC. For more information consult <xref
+          linkend="cat_etg" /></para>
 
-          <para lang='en'>The <emphasis>Return to County Public Library</emphasis> records basket to facilitate management. Intended for receiving the bibliographic records of works to be returned to the County Public Library for databse cleanup after the items have been returned.</para>
+          <para lang="en">The <emphasis>Return to County Public
+          Library</emphasis> records basket to facilitate management. Intended
+          for receiving the bibliographic records of works to be returned to
+          the County Public Library for database cleanup after the items have
+          been returned.</para>
 
-          <para lang='en'>The <emphasis>Return to the County Public Library</emphasis> copies basket to facilatate management. Intended for receiving the copies of works to be returned to the County Public Library so as to discharge issues and cleanup the database after the items have been returned.</para>
+          <para lang="en">The <emphasis>Return to the County Public
+          Library</emphasis> copies basket to facilitate management. Intended
+          for receiving the copies of works to be returned to the County
+          Public Library so as to discharge issues and cleanup the database
+          after the items have been returned.</para>
 
-          <para lang='en'>The <emphasis>Doubles on title</emphasis> records basket to facilatate management. Intended for receiving duplicate entries for database cleanup.</para>
+          <para lang="en">The <emphasis>Duplicate entries on title</emphasis>
+          records basket to facilitate management. Intended for receiving
+          duplicate entries for database cleanup.</para>
 
-          <para lang='en'>The <emphasis>Never loaned</emphasis> items basket to facilitate management. Intended for receiving items that have never been loaned.</para>
+          <para lang="en">The <emphasis>Never loaned</emphasis> items basket
+          to facilitate management. Intended for receiving items that have
+          never been loaned.</para>
         </sect4>
       </sect3>
 
       <sect3 id="cat_caddie_gestion_procs">
-        <title lang='en'>Managing procedures</title>
+        <title lang="en">Managing procedures</title>
 
-        <para lang='en'>This screen displays the procedures associated with baskets. You can define procedures for filling up the baskets, for tagging items in baskets already filled up or for modifying records, periodical issues or copies of works stored in the baskets.</para>
+        <para lang="en">This screen displays the procedures associated with
+        baskets. You can define procedures for filling up the baskets, for
+        tagging items in baskets already filled up or for modifying records,
+        periodical issues or copies of works stored in the baskets.</para>
 
-        <para lang='en'>For more information on procedures (examples are provided ), consult below the section <emphasis>3.5 How to use baskets </emphasis>section.</para>
+        <para lang="en">For more information on procedures (examples are
+        provided ), consult below the section <emphasis>3.5 How to use baskets
+        </emphasis>section.</para>
 
         <sect4>
-          <title lang='en'>PMB default installed procedures</title>
+          <title lang="en">PMB default installed procedures</title>
 
-          <para lang='en'>If your systems administrator installed PMB with the "essential data for a quick start" (feed_essential.sql, for more information, see the PMB Installation Guide), then several procedures are already created to serve as examples or to facilitate the management of the library.</para>
+          <para lang="en">If your systems administrator installed PMB with the
+          "essential data for a quick start" (feed_essential.sql, for more
+          information, see the <emphasis>PMB Installation Guide</emphasis>),
+          then several procedures are already created to serve as examples or
+          to facilitate the management of the library.</para>
 
-          <para lang='en'><emphasis>EXPL by section/owner</emphasis> selection procedure by one or more sections for one or more owners.</para>
+          <para lang="en"><emphasis>EXPL by section/owner</emphasis> selection
+          procedure by one or more sections for one or more owners.</para>
 
-          <para lang='en'><emphasis>EXPL class numbers starts with </emphasis> selection procedure by the first digits of a class number. Useful when making regular stocktakes of holdings by the library.</para>
+          <para lang="en"><emphasis>EXPL class numbers starts with </emphasis>
+          selection procedure by the first digits of a class number. Useful
+          when making regular stocktakes of holdings by the library.</para>
 
-          <para lang='en'><emphasis>Copies for return to the County Central Library</emphasis> action procedure allowing a batch status change for all the copies of a basket.</para>
+          <para lang="en"><emphasis>Copies for return to the County Central
+          Library</emphasis> action procedure allowing a batch status change
+          for all the copies of a basket.</para>
 
-          <para lang='en'><emphasis>Records by author</emphasis> selection procedure by one or more authors.</para>
+          <para lang="en"><emphasis>Records by author</emphasis> selection
+          procedure by one or more authors.</para>
 
-          <para lang='en'><emphasis>Duplicate records</emphasis> selection procedure by title.</para>
+          <para lang="en"><emphasis>Duplicate records</emphasis> selection
+          procedure by title.</para>
 
-          <para lang='en'><emphasis>Records with no copies associated</emphasis> selection procedure.</para>
+          <para lang="en"><emphasis>Records with no copies
+          associated</emphasis> selection procedure.</para>
 
-          <para lang='en'><emphasis>Never loaned</emphasis> selection procedure for works never loaned.</para>
+          <para lang="en"><emphasis>Never loaned</emphasis> selection
+          procedure for works never loaned.</para>
         </sect4>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_collecte">
-      <title lang='en'>Collection</title>
+      <title lang="en">Collection</title>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Baskets &gt; Collection</title>
+        <title lang="en">Cataloguing &gt; Baskets &gt; Collection</title>
 
         <mediaobject>
           <imageobject>
@@ -1573,45 +2194,65 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Collection here refers to the fill-up of a basket. You can fill a basket using a barcode reader (by scanning the barcodes of works). You can also place items in a basket by starting a selection procedure.</para>
+      <para lang="en">Collection here refers to the fill-up of a basket. You
+      can fill a basket using a barcode reader (by scanning the barcodes of
+      works). You can also place items in a basket by starting a selection
+      procedure.</para>
 
-      <para lang='en'>These procedures were defined in Baskets/Management/Manage procedures.</para>
+      <para lang="en">These procedures were defined in <emphasis>Baskets &gt;
+      Management &gt; Manage procedures</emphasis>.</para>
 
-      <para lang='en'>At any time in the Cataloguing tab whenever a basket-shaped icon is displayed, you can add an item (record, copy, issue) to a basket by clicking on the icon <graphic fileref="images/basket_small.gif" /></para>
-      
+      <para lang="en">At any time in the <emphasis>Cataloguing</emphasis> tab
+      whenever a basket-shaped icon is displayed, you can add an item (record,
+      copy, issue) to a basket by clicking on the icon <graphic
+      fileref="images/basket_small.gif" /></para>
+
       <sect3>
-        <title lang='en'>Basket fill-up niceties</title>
+        <title lang="en">Basket fill-up niceties</title>
 
-        <para lang='en'>The fill-up functions of baskets correspond to the various possible operations :</para>
+        <para lang="en">The fill-up functions of baskets correspond to the
+        various possible operations :</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>adding a <emphasis role="bold">record</emphasis> to a <emphasis>copies basket</emphasis> = adding <emphasis>all the copies associated with the record</emphasis> to the basket</para>
+            <para lang="en">adding a <emphasis role="bold">record</emphasis>
+            to a <emphasis>copies basket</emphasis> = adding <emphasis>all the
+            copies associated with the record</emphasis> to the basket</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>adding a <emphasis role="bold">copy</emphasis> to a <emphasis>records basket</emphasis> = adding the <emphasis>copy entry</emphasis> to the basket</para>
+            <para lang="en">adding a <emphasis role="bold">copy</emphasis> to
+            a <emphasis>records basket</emphasis> = adding the <emphasis>copy
+            entry</emphasis> to the basket</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>adding an <emphasis role="bold">analytical record </emphasis>to an <emphasis>issues basket</emphasis> = adding the <emphasis>corresponding article</emphasis> to the basket</para>
+            <para lang="en">adding an <emphasis role="bold">analytical record
+            </emphasis>to an <emphasis>issues basket</emphasis> = adding the
+            <emphasis>corresponding article</emphasis> to the basket</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>Warning : adding an <emphasis role="bold">issue</emphasis> to a <emphasis>records basket</emphasis>will be <emphasis>without effect</emphasis>. Indeed, two types of notes correspond to an issue : the periodical main entry and the analytical entries of the issue.</para>
+        <para lang="en">Warning : adding an <emphasis
+        role="bold">issue</emphasis> to a <emphasis>records basket</emphasis>
+        will be <emphasis>without effect</emphasis>. Indeed, two types of
+        records correspond to an issue : the periodical main entry and the
+        analytical entries of the issue.</para>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_pointage">
-      <title lang='en'>Tagging</title>
+      <title lang="en">Tagging</title>
 
-      <para lang='en'>Basket tagging allows you to compare the contents of a basket with other elements, either manually (scanning) or by starting a PMB selection procedure.</para>
+      <para lang="en">Basket tagging allows you to compare the contents of a
+      basket with other elements, either manually (scanning) or by starting a
+      PMB selection procedure.</para>
 
       <sect3 id="cat_caddie_pointage_douchette">
-        <title lang='en'>By scan</title>
+        <title lang="en">By scan</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Tag on/off</title>
 
           <mediaobject>
             <imageobject>
@@ -1620,26 +2261,29 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Click on the name of the basket of which you want to tag the elements.</para>
-        
-        <figure>
-            <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By scan</title>
+        <para lang="en">Click on the name of the basket of which you want to
+        tag the elements.</para>
 
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/cat_paniers_collecte_douchett2.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
+        <figure>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Tag on/off &gt; By
+          scan</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/cat_paniers_collecte_douchett2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
       </sect3>
 
-      <sect3 id="cat_caddie_pointage_sÃ©lection">
-        <title lang='en'>By selection</title>
+      <sect3 id="cat_caddie_pointage_selection">
+        <title lang="en">By selection</title>
 
-        <para lang='en'>To tag a basket using the select function, click on it.</para>
+        <para lang="en">To tag a basket using the select function, click on
+        the basket.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By
+          <title lang="en">Cataloguing &gt; Baskets &gt; Tag on/off &gt; By
           selection</title>
 
           <mediaobject>
@@ -1649,10 +2293,11 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Next click on the procedure you want to use.</para>
+        <para lang="en">Next click on the procedure you want to use.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By selection, choosing the tagging procedure</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Tag on/off &gt; By
+          selection, choosing the tagging procedure</title>
 
           <mediaobject>
             <imageobject>
@@ -1661,10 +2306,12 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Do not forget to adjust parameter values, if any.</para>
+        <para lang="en">Do not forget to adjust parameter values, if
+        any.</para>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Tag on/off &gt; By selection, tagging completed</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Tag on/off &gt; By
+          selection, tagging completed</title>
 
           <mediaobject>
             <imageobject>
@@ -1673,15 +2320,19 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>The tagged elements of a basket are declared as <emphasis> Tagged</emphasis>. The total number of elements in the basket is shown. The elements belonging to the library registered in PMB are displayed on the second line of the summary table, at the bottom of the page.</para>
+        <para lang="en">The tagged elements of a basket are declared as
+        <emphasis>Tagged</emphasis>. The total number of elements in the
+        basket is shown. The elements belonging to the library registered in
+        PMB are displayed on the second line of the summary table, at the
+        bottom of the page.</para>
       </sect3>
     </sect2>
 
     <sect2 id="cat_caddie_actions">
-      <title lang='en'>Actions</title>
+      <title lang="en">Actions</title>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Baskets &gt; Actions</title>
+        <title lang="en">Cataloguing &gt; Baskets &gt; Actions</title>
 
         <mediaobject>
           <imageobject>
@@ -1690,41 +2341,48 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>From this screen, you can do the following :</para>
+      <para lang="en">From this screen, you can do the following :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'>modify the contents (HTML, Excel HTML, Excel XLS formats).</para>
+          <para lang="en">modify the contents (HTML, Excel HTML, Excel XLS
+          formats).</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>cleanup the selected basket</para>
+          <para lang="en">cleanup the selected basket</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>delete from the database all the elements in the basket</para>
+          <para lang="en">delete from the database all the elements in the
+          basket</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>export the contents of the basket</para>
+          <para lang="en">export the contents of the basket</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>transfer the contents of a basket into another</para>
+          <para lang="en">transfer the contents of a basket into
+          another</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>apply an SQL query to the contents of a basket</para>
+          <para lang="en">apply an SQL query to the contents of a
+          basket</para>
         </listitem>
       </itemizedlist>
 
-      <para lang='en'>To perform all these operations, click on the corresponding links in the central interface and on a given basket name.</para>
+      <para lang="en">To perform all these operations, click on the
+      corresponding links in the central interface and on a given basket
+      name.</para>
 
       <sect3>
-        <title lang='en'>Editing</title>
+        <title lang="en">Editing</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Editing</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Actions &gt;
+          Editing</title>
 
           <mediaobject>
             <imageobject>
@@ -1733,16 +2391,21 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>For more information on PMB's export formats, consult the<emphasis> PMB Administrator's Guide</emphasis>, Chapter 10 <emphasis>Export</emphasis>, section 1 <emphasis>File formats.</emphasis></para>
+        <para lang="en">For more information on PMB's export formats, consult
+        the<emphasis> PMB Administrator's Guide</emphasis>, Chapter 10
+        <emphasis>Export</emphasis>, section 1 <emphasis>File
+        formats.</emphasis></para>
 
-        <para lang='en'>Next select the elements of the basket : tagged or untagged elements.</para>
+        <para lang="en">Next select the elements of the basket : tagged or
+        untagged elements.</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>Cleaning up a basket</title>
+        <title lang="en">Cleaning up a basket</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Basket cleanup</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Actions &gt; Basket
+          cleanup</title>
 
           <mediaobject>
             <imageobject>
@@ -1751,16 +2414,19 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'><emphasis>Basket cleanup </emphasis>allows you to clean a basket of its contents.</para>
+        <para lang="en"><emphasis>Basket cleanup </emphasis>allows you to
+        clean a basket of its contents.</para>
 
-        <para lang='en'>Next select the elements of the basket : tagged or untagged elements</para>
+        <para lang="en">Next select the elements of the basket : tagged or
+        untagged elements</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>Delete from database</title>
+        <title lang="en">Delete from database</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Deleting from database</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Actions &gt; Deleting
+          from database</title>
 
           <mediaobject>
             <imageobject>
@@ -1769,18 +2435,23 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Delete from database means deleting the elements of the selected basket (records, issues or copies) from the library database.</para>
+        <para lang="en">Delete from database means deleting the elements of
+        the selected basket (records, issues or copies) from the library
+        database.</para>
 
-        <para lang='en'>Use it with extreme care, for instance, to delete works lost.</para>
+        <para lang="en">Use it with extreme care, for instance, to delete
+        works lost.</para>
 
-        <para lang='en'>Next select the elements of the basket : tagged or untagged elements.</para>
+        <para lang="en">Next select the elements of the basket : tagged or
+        untagged elements.</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>Export</title>
+        <title lang="en">Export</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Export</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Actions &gt;
+          Export</title>
 
           <mediaobject>
             <imageobject>
@@ -1789,16 +2460,19 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Export enables you to export the contents of a basket.</para>
+        <para lang="en">Export enables you to export the contents of a
+        basket.</para>
 
-        <para lang='en'>Next select the elements of the basket : tagged or untagged elements.</para>
+        <para lang="en">Next select the elements of the basket : tagged or
+        untagged elements.</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>Transfer</title>
+        <title lang="en">Transfer</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; Transfer</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Actions &gt;
+          Transfer</title>
 
           <mediaobject>
             <imageobject>
@@ -1807,14 +2481,16 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Transfer enables you to transfer the elements of a basket (tagged or untagged) into another one.</para>
+        <para lang="en">Transfer enables you to transfer the elements of a
+        basket (tagged or untagged) into another one.</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>By query</title>
+        <title lang="en">By query</title>
 
         <figure>
-          <title lang='en'>Cataloguing &gt; Baskets &gt; Actions &gt; By query</title>
+          <title lang="en">Cataloguing &gt; Baskets &gt; Actions &gt; By
+          query</title>
 
           <mediaobject>
             <imageobject>
@@ -1823,61 +2499,90 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>You can also apply an SQL query to the contents of a basket, for instance, an UPDATE query to change the call numbers of a set of works that have been moved to another section of your library. For more information about queries, consult the <emphasis>PMB Administrator's Guide</emphasis>).</para>
+        <para lang="en">You can also apply an SQL query to the contents of a
+        basket, for instance, an UPDATE query to change the call numbers of a
+        set of works that have been moved to another section of your library.
+        For more information about queries, consult the <emphasis>PMB
+        Administrator's Guide</emphasis>).</para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title lang='en'>How to use baskets</title>
+      <title lang="en">How to use baskets</title>
 
-      <para lang='en'>Here are some examples on how to use baskets. They will help you to better comprehend the use of PMB baskets as well as their powerful features via the queries.</para>
+      <para lang="en">Here are some examples on how to use baskets. They will
+      help you to better comprehend the use of PMB baskets as well as their
+      powerful features via the queries.</para>
 
       <sect3>
-        <title lang='en'>Putting works with no copies associated into a basket</title>
+        <title lang="en">Putting works with no copies associated into a
+        basket</title>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>Create a records basket,</para>
+            <para lang="en">Create a records basket,</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Create a selection procedure, enter the following code (CAUTION, no line break) :</para>
+            <para lang="en">Create a selection procedure, enter the following
+            code (CAUTION, no line break) :</para>
 
             <programlisting>SELECT notice_id as object_id, 'NOTI' as object_type FROM notices left join exemplaires on notice_id=expl_notice WHERE expl_notice is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
           </listitem>
 
           <listitem>
-            <para lang='en'>Go to the basket &gt; Collection &gt; By selection and fill up your basket using this procedure</para>
+            <para lang="en">Go to the basket &gt; Collection &gt; By selection
+            and fill up your basket using this procedure</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3>
-        <title lang='en'>Stocktaking</title>
+        <title lang="en">Stocktaking</title>
 
-        <para lang='en'>&gt; I would like to simplify my inventory operations, so I &gt; decided to create a basket to contain all the copies of a given section. I &gt; should then be able to physically check all the works on a shelf and using &gt; the action "Delete from the basket the tagged elements" I should be able to find the books &gt; that are still in the database but are physically lost, stolen... &gt; &gt; I wanted to use a procedure but I am a real dummy! In the &gt; SP I have an inventory of all my non-fiction works, for instance, but I have no idea &gt; how to transform it to make it work in the baskets &gt; Here is the corrected SS ! 
-        
-        select expl_id as object_id, 'EXPL' as object_type from exemplaires, notices, docs_section where idsection in (!!section!!) and expl_notice=notice_id and expl_section=idsection order by section_libelle, expl_cote, expl_cb 
-        
-        All there is to do now is to set a value for the !!section!! parameter : a multiple choice list from a query with : 
-        
-        select idsection, section_libelle from docs_section order by section_libelle &gt; Stephanie FORT &gt; Librarian &gt; &gt; CDI - CollÃ¨ge Saint Pierre &gt; Jette (Belgium)</para>
+        <para lang="en">I wanted to simplify my inventory operations, so I
+        decided to create a basket to contain all the copies of a given
+        section. I would then be able to physically check all the works on a
+        shelf and using the action "Delete from the basket the tagged
+        elements" I should be able to find the books that are still in the
+        database but are in effect physically lost, stolen... I wanted to use
+        a procedure but I am a real dummy! In the Stored procedures I have an
+        inventory of all my non-fiction works, for instance, but I have no
+        idea how to transform it to make it work in the baskets. Here is the
+        corrected SP ! </para>
+
+        <para>select expl_id as object_id, 'EXPL' as object_type from
+        exemplaires, notices, docs_section where idsection in (!!section!!)
+        and expl_notice=notice_id and expl_section=idsection order by
+        section_libelle, expl_cote, expl_cb </para>
+
+        <para>All there is to do now is to set a value for the !!section!!
+        parameter : a multiple choice list from a query with : </para>
+
+        <para>select idsection, section_libelle from docs_section order by
+        section_libelle &gt; Stephanie FORT &gt; Librarian &gt; &gt; CDI -
+        CollÃ¨ge Saint Pierre &gt; Jette (Belgium)</para>
       </sect3>
     </sect2>
   </sect1>
 
   <sect1 id="cat_etg">
-    <title lang='en'>Shelves</title>
+    <title lang="en">Shelves</title>
 
-    <para lang='en'>The virtual shelves are groups of records baskets that may or may not contain records. The virtual shelves allow you to display the records in the OPAC or on your web site. You can use this PMB feature to hold a virtual exhibition on your web site, display your latest acquisitions, a book club selections, etc ...</para>
+    <para lang="en">The virtual shelves are groups of records baskets that may
+    or may not contain records. The virtual shelves allow you to display the
+    records in the OPAC or on your web site. You can use this PMB feature to
+    hold a virtual exhibition on your web site, display your latest
+    acquisitions, a book club selections, etc ...</para>
 
     <sect2 id="cat_etg_gestion">
-      <title lang='en'>Management</title>
+      <title lang="en">Management</title>
 
-      <para lang='en'>Shelves management displays the list of existing shelves.</para>
+      <para lang="en">Shelves management displays the list of existing
+      shelves.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Shelves &gt; Management</title>
+        <title lang="en">Cataloguing &gt; Shelves &gt; Management</title>
 
         <mediaobject>
           <imageobject>
@@ -1886,22 +2591,29 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>To create a new shelf, click on the <emphasis>Add a shelf</emphasis> button.</para>
+      <para lang="en">To create a new shelf, click on the <emphasis>Add a
+      shelf</emphasis> button.</para>
 
-      <para lang='en'>To modify an existing shelf, click on its corresponding line.</para>
+      <para lang="en">To modify an existing shelf, click on its corresponding
+      line.</para>
 
-      <para lang='en'>A shelf is defined by its name, a validity period, and its visibility on the OPAC home page. A note can also be added. Finally each shelf has its own access privileges, allowing authorized users to modify the given shelf and its contents.</para>
+      <para lang="en">A shelf is defined by its name, a validity period, and
+      its visibility on the OPAC home page. A note can also be added. Finally
+      each shelf has its own access privileges, allowing authorized users to
+      modify the given shelf and its contents.</para>
     </sect2>
 
     <sect2 id="cat_etg_constit">
-      <title lang='en'>Set up</title>
+      <title lang="en">Set up</title>
 
-      <para lang='en'>The set up screen of a shelf makes it possible to add or remove the contents of one or more baskets from one of your virtual shelves.</para>
+      <para lang="en">The set up screen of a shelf makes it possible to add or
+      remove the contents of one or more baskets from one of your virtual
+      shelves.</para>
 
-      <para lang='en'>Click on the shelf you wish to set up .</para>
+      <para lang="en">Click on the shelf you wish to set up .</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Shelves &gt; Set up</title>
+        <title lang="en">Cataloguing &gt; Shelves &gt; Set up</title>
 
         <mediaobject>
           <imageobject>
@@ -1910,10 +2622,12 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Then check the records baskets you wish to add to your virtual shelf.</para>
+      <para lang="en">Then check the records baskets you wish to add to your
+      virtual shelf.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Shelves &gt; Set up, adding baskets to a shelf</title>
+        <title lang="en">Cataloguing &gt; Shelves &gt; Set up, adding baskets
+        to a shelf</title>
 
         <mediaobject>
           <imageobject>
@@ -1922,22 +2636,32 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Next click on <emphasis>Save</emphasis> to validate the set up of your virtual shelf.</para>
+      <para lang="en">Next click on <emphasis>Save</emphasis> to validate the
+      set up of your virtual shelf.</para>
     </sect2>
   </sect1>
 
   <sect1>
-    <title lang='en'>Z39.50</title>
+    <title lang="en">Z39.50</title>
 
     <sect2 id="cat_z3950">
-      <title lang='en'>Z39.50 Search</title>
+      <title lang="en">Z39.50 Search</title>
 
-      <para lang='en'>The Z39.50 search enables you to search for a work in the catalogue of another library and to integrate the catalogue record directly into the PMB catalogue. It spares you the onus of having to repeat the cataloguing processes already completed by the other library.</para>
+      <para lang="en">The Z39.50 search enables you to search for a work in
+      the catalogue of another library and to integrate the catalogue record
+      directly into the PMB catalogue. It spares you the onus of having to
+      repeat the cataloguing processes already completed by the other
+      library.</para>
 
-      <para lang='en'><emphasis role="bold">Note</emphasis> Bibliographical records are an intellectual creation and are protected by copyright. The records of the <emphasis>Library of Congress</emphasis> as well as those of the <emphasis>National Library of France</emphasis> are in the public domain : you can freely import them. Other libraries may have their own policies. Contact them for more information.</para>
+      <para lang="en"><emphasis role="bold">Note</emphasis> Bibliographical
+      records are intellectual creations and are protected by copyright. The
+      records of the <emphasis>Library of Congress</emphasis> as well as those
+      of the <emphasis>National Library of France</emphasis> are in the public
+      domain : you can freely import them. Other libraries may have their own
+      policies. Contact them for more information.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search</title>
+        <title lang="en">Cataloguing &gt; Z39.50 &gt; Search</title>
 
         <mediaobject>
           <imageobject>
@@ -1946,13 +2670,17 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Example, let us import <emphasis>Germinal</emphasis> by <emphasis>Zola</emphasis>. As search criteria, select "title" and in the adjacent text box enter "Germinal".</para>
+      <para lang="en">Example, let us import <emphasis>Germinal</emphasis> by
+      <emphasis>Zola</emphasis>. As search criteria, select "title" and in the
+      adjacent text box enter "Germinal".</para>
 
-      <para lang='en'>Next select one or more libraries which may possibly have a copy of <emphasis>Germinal</emphasis> so it can be added to the catalogue.</para>
+      <para lang="en">Next select one or more libraries which may possibly
+      have a copy of <emphasis>Germinal</emphasis> so it can be added to the
+      catalogue.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, intermediate screen showing
-		progress</title>
+        <title lang="en">Cataloguing &gt; Z39.50 &gt; Search, intermediate
+        screen showing progress</title>
 
         <mediaobject>
           <imageobject>
@@ -1961,31 +2689,46 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Whenever a request does not return any results after some ten seconds, we can assume that either our internet connection is saturated or that the host server is too busy to answer, or even that our PMB configuration is incorrect (if ever all of our z39.50 searches have not returned any results by then).</para>
+      <para lang="en">Whenever a request does not return any results after
+      some ten seconds, we can assume that either our internet connection is
+      saturated or that the host server is too busy to answer, or even that
+      our PMB configuration is incorrect (if ever all of our z39.50 searches
+      have not returned any results by then!).</para>
 
-      <para lang='en'>Lines starting with "Failure..." correspond to errors. An error message is then displayed. Here, a few examples :</para>
+      <para lang="en">Lines starting with <emphasis>"Failure..."</emphasis>
+      correspond to errors. An error message is then displayed. Here are a few
+      examples :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'>Timeout : the server did not answer within the predetermined time interval</para>
+          <para lang="en">Timeout : the server did not answer within the
+          predetermined time interval</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>Connect failed : the server answered but the connection failed
-		  </para>
+          <para lang="en">Connect failed : the server answered but the
+          connection failed</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>Malformed query : the z3950 profile of the server is incorrect. Check the z3950 profile of the server with its systems administrator</para>
+          <para lang="en">Malformed query : the z3950 profile of the server is
+          incorrect. Check the z3950 profile of the server with its systems
+          administrator</para>
         </listitem>
       </itemizedlist>
 
-      <para lang='en'>Lines starting with COMPLETED indicate that the search was succesful. The number of results is indicated as <emphasis> END : the server returned X titles of Y found</emphasis> (limited to the first one hundred records, if you get more than a hundred results, refine your search).</para>
+      <para lang="en">Lines starting with <emphasis>COMPLETED</emphasis>
+      indicate that the search was successful. The number of results is
+      indicated as <emphasis>END : the server returned X titles of Y
+      found</emphasis> (limited to the first one hundred records, if you get
+      more than a hundred results, refine your search).</para>
 
-      <para lang='en'>Once the search is completed, click on "Results" to display the results.</para>
+      <para lang="en">Once the search is completed, click on
+      <emphasis>Results</emphasis> to display the results.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, search results screen</title>
+        <title lang="en">Cataloguing &gt; Z39.50 &gt; Search, search results
+        screen</title>
 
         <mediaobject>
           <imageobject>
@@ -1994,10 +2737,13 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>A screen then displays the search results. The results list shows records in ISBD format. Notes and other minor details do not appear in this list. To select a record, click on its title.</para>
+      <para lang="en">A screen then displays the search results. The results
+      list shows records in ISBD format. Notes and other minor details do not
+      appear in this list. To select a record, click on its title.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, records modification screen before insertion</title>
+        <title lang="en">Cataloguing &gt; Z39.50 &gt; Search, records
+        modification screen before insertion</title>
 
         <mediaobject>
           <imageobject>
@@ -2006,12 +2752,19 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>The record is displayed in edit mode so you can consult its details, modify it if necessary and integrate it into the catalogue. The edit screen is slightly different from the regular edit screen : authors and publishers have two entry fields corresponding to the principal element (last name) and the non-indexable element (first name). Once you have made the modifications, validate them by clicking on the "integrate this title" button.</para>
+      <para lang="en">The record is displayed in edit mode so you can consult
+      its details, modify it if necessary and integrate it into the catalogue.
+      The edit screen is slightly different from the regular edit screen :
+      authors and publishers have two entry fields corresponding to the
+      principal element (last name) and the non-indexable element (first
+      name). Once you have made the modifications, validate them by clicking
+      on the <emphasis>integrate this title</emphasis> button.</para>
 
-      <para lang='en'>The following screen allows you to define copies.</para>
+      <para lang="en">The following screen allows you to define copies.</para>
 
       <figure>
-        <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, copies entry screen</title>
+        <title lang="en">Cataloguing &gt; Z39.50 &gt; Search, copies entry
+        screen</title>
 
         <mediaobject>
           <imageobject>
@@ -2020,31 +2773,42 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Next catalogue your copies. Once a copy has been defined, click on Integration. You can also return to the results list and integrate an additional title from the results list.</para>
+      <para lang="en">Next catalogue your copies. Once a copy has been
+      defined, click on Integration. You can also return to the results list
+      and integrate an additional title from the results list.</para>
 
-      <para lang='en'>On top of this screen, there is the message "title integrated", with a link<emphasis> View.</emphasis> The record is displayed in edit mode. The screen is the same as the "add record" screen (see above the section<emphasis>New record</emphasis>).</para>
+      <para lang="en">On top of this screen, there is the message
+      <emphasis>title integrated</emphasis>, with a link<emphasis>
+      View.</emphasis> The record is displayed in edit mode. The screen is the
+      same as the <emphasis>add record</emphasis> screen (see above the
+      section<emphasis> New record</emphasis>).</para>
 
       <sect3>
-        <title lang='en'>Regular use of the Z39.50 search</title>
+        <title lang="en">Regular use of the Z39.50 search</title>
 
-        <para lang='en'>For French libraries, the main interest in the Z39.50 search lies in the search by ISBN from the National Library of France (BnF). For your library's holdings, you can easily catalogue/classify them by scanning their commercial barcodes (EAN) with your barcode reader.</para>
+        <para lang="en">For French libraries, the main interest in the Z39.50
+        search lies in the search by ISBN from the National Library of France
+        (BnF). For your library's holdings, you can easily catalogue/classify
+        them by scanning their commercial barcodes (EAN) with your barcode
+        reader.</para>
 
-        <para lang='en'>How-to</para>
+        <para lang="en">How-to</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>go to cataloguing &gt; Z39.50 &gt; Search</para>
+            <para lang="en">go to cataloguing &gt; Z39.50 &gt; Search</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>select BnF from among the servers,</para>
+            <para lang="en">select BnF from among the servers,</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>make sure that the search criteria is ISBN</para>
+            <para lang="en">make sure that the search criteria is ISBN</para>
 
             <figure>
-              <title lang='en'>cataloguing &gt; Z39.50 &gt; Search, ISBN search</title>
+              <title lang="en">cataloguing &gt; Z39.50 &gt; Search, ISBN
+              search</title>
 
               <mediaobject>
                 <imageobject>
@@ -2055,10 +2819,13 @@
           </listitem>
 
           <listitem>
-            <para lang='en'>enter/scan the barcode of your work in the entry text box. The scanned EAN (commercial code) will be converted into an ISBN by PMB.</para>
+            <para lang="en">enter/scan the barcode of your work in the entry
+            text box. The scanned EAN (commercial code) will be converted into
+            an ISBN by PMB.</para>
 
             <figure>
-              <title lang='en'>Cataloguing &gt; Z39.50 &gt; Search, ISBN search</title>
+              <title lang="en">Cataloguing &gt; Z39.50 &gt; Search, ISBN
+              search</title>
 
               <mediaobject>
                 <imageobject>
@@ -2069,13 +2836,19 @@
           </listitem>
 
           <listitem>
-            <para lang='en'>The search result for an ISBN is normally unique. Theoretically, no two works can have the same ISBN. On the other hand bibliographic records can be more or less detailed according to the selected host server.</para>
+            <para lang="en">The search result for an ISBN is normally unique.
+            Theoretically, no two works can have the same ISBN. On the other
+            hand bibliographic records can be more or less detailed according
+            to the selected host server.</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>You can then make copies for the searched work, and continue.</para>
+        <para lang="en">You can then make copies for the searched work, and
+        continue.</para>
 
-        <para lang='en'><emphasis role="bold">Note </emphasis>: the BnF has a turnaround for cataloguing operations. Latest publications (published less than a year ago) may not have been cataloged yet.</para>
+        <para lang="en"><emphasis role="bold">Note </emphasis>: the BnF has a
+        turnaround for cataloguing operations. Latest publications (published
+        less than a year ago) may not have been catalogued yet.</para>
       </sect3>
     </sect2>
   </sect1>

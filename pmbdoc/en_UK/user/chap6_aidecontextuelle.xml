@@ -1,11 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="aide_contextuelle">
-  <title lang='en'>Contextual help</title>
+  <title lang="en">Contextual help</title>
 
-  <para lang='en'>Among the links located on the top right of the PMB  management interface, the question mark "?" allows the display of PMB contextual help.</para>
+  <para lang="en">Among the links located on the top right of the PMB
+  management interface, the question mark "?" allows the display of PMB
+  contextual help.</para>
 
   <figure>
-    <title lang='en'>Navigation links</title>
+    <title lang="en">Navigation links</title>
 
     <mediaobject>
       <imageobject>
@@ -14,21 +16,29 @@
     </mediaobject>
   </figure>
 
-  <para lang='en'>The contextual help can be enabled or disabled by setting the PMB parameter with sub-type <emphasis>show_help</emphasis>. For more information, consult the <emphasis>PMB Administrator's Guide</emphasis>.</para>
+  <para lang="en">The contextual help can be enabled or disabled by setting
+  the PMB parameter with sub-type <emphasis>show_help</emphasis>. For more
+  information, consult the <emphasis>PMB Administrator's
+  Guide</emphasis>.</para>
 
   <sect1>
-    <title lang='en'>Availability of the contextual help</title>
+    <title lang="en">Availability of the contextual help</title>
 
-    <para lang='en'>The contextual help is available in French only at the moment. English, Italian and Spanish translations are in preparation. For more information, do not hesitate to ask about these versions, go to our news list: pmb.user@sigb.net (to subscribe send an e-mail to pmb.user_request@sigb.net with SUBSCRIBE in the subjectline.</para>
+    <para lang="en">The contextual help is available in French only at the
+    moment. English, Italian and Spanish translations are in preparation. For
+    more information, do not hesitate to ask about these versions, go to our
+    news list: pmb.user@sigb.net (to subscribe send an e-mail to
+    pmb.user_request@sigb.net with SUBSCRIBE in the subjectline.</para>
   </sect1>
 
   <sect1>
-    <title lang='en'>How the contextual help works</title>
+    <title lang="en">How the contextual help works</title>
 
-    <para lang='en'>The contextual help is displayed in a pop-up. The help displayed corresponds to your management interface screen.</para>
+    <para lang="en">The contextual help is displayed in a pop-up. The help
+    displayed corresponds to your management interface screen.</para>
 
     <figure>
-      <title lang='en'>The contextual help pop-up</title>
+      <title lang="en">The contextual help pop-up</title>
 
       <mediaobject>
         <imageobject>
@@ -37,27 +47,28 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>The contextual help integrates the Administrator's Guide, the User's Guide and the Installation Guide within PMB.</para>
+    <para lang="en">The contextual help integrates the Administrator's Guide,
+    the User's Guide and the Installation Guide within PMB.</para>
 
-    <para lang='en'>On top of every page, you have several elements :</para>
+    <para lang="en">On top of every page, you have several elements :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>the title of the chapter on screen</para>
+        <para lang="en">the title of the chapter on screen</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>the section's title of the chapter on screen</para>
+        <para lang="en">the section's title of the chapter on screen</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>navigation arrows enabling you to go from one page to another
-		to browse the help.</para>
+        <para lang="en">navigation arrows enabling you to go from one page to
+        another to browse the help.</para>
       </listitem>
     </itemizedlist>
 
     <figure>
-      <title lang='en'>Contextual help, top page elements</title>
+      <title lang="en">Contextual help, top page elements</title>
 
       <mediaobject>
         <imageobject>
@@ -66,10 +77,11 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>At the bottom of each page, you will find various navigation icons.</para>
+    <para lang="en">At the bottom of each page, you will find various
+    navigation icons.</para>
 
     <figure>
-      <title lang='en'>Contextual help, bottom page navigation icons</title>
+      <title lang="en">Contextual help, bottom page navigation icons</title>
 
       <mediaobject>
         <imageobject>
@@ -78,25 +90,34 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>The left and right arrows enable you to browse the help by moving from one
-	page to another.</para>
+    <para lang="en">The left and right arrows enable you to browse the help by
+    moving from one page to another.</para>
 
-    <para lang='en'>The top arrow is a link to the summary of the chapter on screen. Among the chapter titles of the User Guide, you can find the tabs Circulation, Catalogue, Authorities and Management.</para>
+    <para lang="en">The top arrow is a link to the summary of the chapter on
+    screen. Among the chapter titles of the User Guide, you can find the tabs
+    Circulation, Cataloguing, Authority and Reporting.</para>
 
-    <para lang='en'>The "home" icon is a link to the summary of the currently displayed guide : the Administrator's Guide, the User's Guide and the Installation Guide.</para>
+    <para lang="en">The "home" icon is a link to the summary of the currently
+    displayed guide : the Administrator's Guide, the User's Guide and the
+    Installation Guide.</para>
   </sect1>
 
   <sect1>
-    <title lang='en'>Default operation</title>
+    <title lang="en">Default operation</title>
 
-    <para lang='en'>Installing the contextual help is done by integrating a zip archive containing all of the documentation into the PMB install directory. It is available at <ulink url="http://www.sigb.net">www.sigb.net</ulink></para>
+    <para lang="en">Installing the contextual help is done by integrating a
+    zip archive containing all of the documentation into the PMB install
+    directory. It is available at <ulink
+    url="http://www.sigb.net">www.sigb.net</ulink></para>
 
-    <para lang='en'>If the PMB administrator has not correctly installed the default contextual help, the link to the contextual help "?" will redirect you to the install files and to the settings found in the doc sub-folder of your PMB installation.</para>
+    <para lang="en">If the PMB administrator has not correctly installed the
+    default contextual help, the link to the contextual help "?" will redirect
+    you to the install files and to the settings found in the doc sub-folder
+    of your PMB installation.</para>
 
-    <para lang='en'>Dans ce cas, contactez votre administrateur informatique ou lisez
-    attentivement la procédure d'installation affichée dans le popup en
-    dessous des liens vers les fichiers de documentation sur l'installation de
-    PMB.
-    In this case, contact your administrator or read carefully the installation procedure. The latter is displayed in the pop-up under the links to the documentation files of the PMB installation.</para>
+    <para lang="en">In this case, contact your PMB administrator or read
+    carefully the installation procedure. The latter is displayed in the
+    pop-up under the links to the documentation files of the PMB
+    installation.</para>
   </sect1>
 </chapter>

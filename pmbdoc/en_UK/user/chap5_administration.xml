@@ -1,17 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-  <title lang='en'>Administration</title>
+  <title lang="en">Administration</title>
 
-  <para lang='en'>This screen is reserved for network administrators or systems librarians : the options available here are not risk free for your database. However here are some features easily accessible.</para>
+  <para lang="en">This screen is reserved for network administrators or
+  systems librarians : the options available here are not risk free for your
+  database. However here are some features easily accessible.</para>
 
-  <para lang='en'><emphasis role="bold">[Pour plus d'information] </emphasis>consult the PMB Administrator's Guide.</para>
+  <para lang="en">For more information consult the <emphasis>PMB
+  Administrator's Guide</emphasis>.</para>
 
   <sect1>
-    <title lang='en'>Catalogue</title>
+    <title lang="en">Catalogue</title>
 
-    <para lang='en'>Allows the customization of several cataloguing options : media types, status of documents, etc.</para>
+    <para lang="en">Allows the customization of several cataloguing options :
+    media types, status of documents, etc.</para>
 
-    <para lang='en'></para>
+    <para lang="en"></para>
   </sect1>
 
   <sect1>
@@ -19,21 +23,26 @@
 
     <para>Allows borrowers management.</para>
   </sect1>
-  
+
   <sect1>
-    <title lang='en'>Users</title>
+    <title lang="en">Users</title>
 
-    <para lang='en'>Allows user creation, assigning usernames and passwords as well as tabs access privileges.</para>
+    <para lang="en">Allows user creation, assigning usernames and passwords as
+    well as tabs access privileges.</para>
 
-    <para lang='en'></para>
+    <para lang="en"></para>
   </sect1>
 
   <sect1>
-    <title lang='en'>Tools</title>
+    <title lang="en">Tools</title>
 
-    <para lang='en'>This menu in the Administration tab contains maintenance tools for the MySQL database, the database update system used when upgrading to a new PMB version as well as the application parameters.</para>
-    
-	<para lang='en'>You will be able to indicate the name of your library, its opening hours, the OPAC operations... by modifying these parameters.</para>
-    
+    <para lang="en">This menu in the Administration tab contains maintenance
+    tools for the MySQL database, the database update system used when
+    upgrading to a new PMB version as well as the application
+    parameters.</para>
+
+    <para lang="en">You will be able to indicate the name of your library, its
+    opening hours, the OPAC operations... by modifying these
+    parameters.</para>
   </sect1>
 </chapter>

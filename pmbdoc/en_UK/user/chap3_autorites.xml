@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="autorites">
-  <title lang='en'>Authority</title>
+  <title lang="en">Authority</title>
 
   <sect1 id="autorites_auteurs">
-    <title lang='en'>Authors</title>
+    <title lang="en">Authors</title>
 
-    <para lang='en'>Authors in PMB correspond to statements of responsibility : hence a movie on video will have a director and not an author literally speaking. When adding a new bibliographical record, enter the author and his/her function in relation to the work.</para>
+    <para lang="en">Authors in PMB correspond to statements of responsibility
+    : hence a movie on video will have a director and not an author literally
+    speaking. When adding a new bibliographical record, enter the author and
+    his/her function in relation to the work.</para>
 
     <sect2>
-      <title lang='en'>Searching and editing authors</title>
+      <title lang="en">Searching and editing authors</title>
 
-      <para lang='en'>On the <emphasis>Authority/Authors</emphasis> screen, 
-	  you can search an existing author, or add a new one. You can also
-	  add new information about an author, like his birthdate or death.</para>
+      <para lang="en">On the <emphasis>Authority &gt; Authors</emphasis>
+      screen, you can search an existing author, or add a new one. You can
+      also add new information about an author, like his birthdate or
+      death.</para>
 
-      <para lang='en'>By default the Authority/Authors screen shows the results of a search on all authors.</para>
+      <para lang="en">By default the <emphasis>Authority &gt;
+      Authors</emphasis> screen shows the results of a search on all
+      authors.</para>
 
-      <para lang='en'>You can also click on the link <emphasis
-      role="bold">See recently added authors</emphasis> to display the last ten authors.</para>
+      <para lang="en">You can also click on the link <emphasis
+      role="bold">View recently added authors</emphasis> to display the last
+      ten authors.</para>
 
-      <para lang='en'>If an author has a pen name, you can add a SEE reference towards his/her real name. The same applies for a married woman, you may wish to add a SEE reference from her maiden name to her personal name.</para>
+      <para lang="en">If an author has a pen name, you can add a <emphasis
+      role="bold">SEE reference</emphasis> towards his/her real name. The same
+      applies for a married woman, you may wish to add a <emphasis
+      role="bold">SEE reference</emphasis> from her maiden name to her
+      personal name.</para>
 
       <figure>
-        <title lang='en'>Authority &gt; Authors</title>
+        <title lang="en">Authority &gt; Authors</title>
 
         <mediaobject>
           <imageobject>
@@ -32,18 +43,23 @@
       </figure>
 
       <sect3 id="autorites_recherche_auteur">
-        <title id="autorites_recherche_auteur.title">Searching an author</title>
+        <title id="autorites_recherche_auteur.title">Searching an
+        author</title>
 
-        <para lang='en'>To display an author entry, enter a part of his/her last name and click on Search. Select the corresponding name in the search results.</para>
+        <para lang="en">To display an author entry, enter a part of his/her
+        last name and click on Search. Select the corresponding name in the
+        search results.</para>
 
-        <para lang='en'>You can also select an author directly in the list of recently added authors, or in the default alphabetical list.</para>
+        <para lang="en">You can also select an author directly in the list of
+        recently added authors, or in the default alphabetical list.</para>
       </sect3>
 
       <sect3 id="autorites_modification_auteur">
-        <title id="autorites_modification_auteur.title">Editing an author</title>
+        <title id="autorites_modification_auteur.title">Editing an
+        author</title>
 
         <figure>
-          <title lang='en'>Authority &gt; Authors, editing an author</title>
+          <title lang="en">Authority &gt; Authors, editing an author</title>
 
           <mediaobject>
             <imageobject>
@@ -52,58 +68,67 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Various details can be entered for an author :</para>
+        <para lang="en">Various details can be entered for an author :</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'><emphasis role="bold">type</emphasis> :
-            <emphasis>person</emphasis> or
-            <emphasis>corporate body </emphasis>. A corporate body can be an association,
-			a company...</para>
+            <para lang="en"><emphasis role="bold">type</emphasis> :
+            <emphasis>person</emphasis> or <emphasis>corporate body
+            </emphasis>. A corporate body can be an association, a
+            company...</para>
           </listitem>
 
           <listitem>
-            <para lang='en'><emphasis role="bold">Indexable name</emphasis> : a person's last name or a corporate body's name</para>
+            <para lang="en"><emphasis role="bold">Indexable name</emphasis> :
+            a person's last name or a corporate body's name</para>
           </listitem>
 
           <listitem>
-            <para lang='en'><emphasis role="bold">non indexable name </emphasis>: the first name
-			of a person </para>
+            <para lang="en"><emphasis role="bold">non indexable name
+            </emphasis>: the first name of a person</para>
           </listitem>
 
           <listitem>
-            <para lang='en'><emphasis role="bold">dates</emphasis> : birthdate and death for a person, creation and closure for a corporate body</para>
-          </listitem>
-      
-          <listitem>
-            <para lang='en'><emphasis role="bold">retained form (See) </emphasis> : a cross-reference system between two authors. Click on the "..." button to open a pop-up and click on an author's name to create the reference. Click on the "X" button to clear a reference</para>
+            <para lang="en"><emphasis role="bold">dates</emphasis> : birthdate
+            and death for a person, creation and closure for a corporate
+            body</para>
           </listitem>
 
           <listitem>
-            <para lang='en'><emphasis role="bold"> web site </emphasis>: the person's web site 
-            or a closely related site (a biography, for instance), the corporate body's web site if any.</para>
+            <para lang="en"><emphasis role="bold">retained form (See)
+            </emphasis> : a cross-reference system between two authors. Click
+            on the "..." button to open a pop-up and click on an author's name
+            to create the reference. Click on the "X" button to clear a
+            reference</para>
+          </listitem>
+
+          <listitem>
+            <para lang="en"><emphasis role="bold"> web site </emphasis>: the
+            person's web site or a closely related site (a biography, for
+            instance), the corporate body's web site if any.</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'><emphasis role="bold">Delete</emphasis> allows the removal of an
-		author. <emphasis role="bold">Caution</emphasis>: an author cannot be 
-		deleted if he or she is used in a bibliographical record.</para>
+        <para lang="en"><emphasis role="bold">Delete</emphasis> allows the
+        removal of an author. <emphasis role="bold">Caution</emphasis>: an
+        author cannot be deleted if he or she is used in a bibliographical
+        record.</para>
 
-        <para lang='en'>The <emphasis role="bold">Used in </emphasis>button allows the
-		identification of works in which the author is mentioned. It starts a search
-		for the author in the catalogue tab. This allows you to know why the
-		author cannot be deleted, for instance.</para>
+        <para lang="en">The <emphasis role="bold">Used in </emphasis>button
+        allows the identification of works in which the author is mentioned.
+        It starts a search for the author in the catalogue tab. This allows
+        you to know why the author cannot be deleted, for instance.</para>
 
-        <para lang='en'>The <emphasis role="bold">Replace by ...</emphasis> button
-		allows you to replace an author by another, so you can delete
-		misspelt doubles, for instance.</para>
+        <para lang="en">The <emphasis role="bold">Replace by ...</emphasis>
+        button allows you to replace an author by another, so you can delete
+        misspelt doubles, for instance.</para>
       </sect3>
 
       <sect3 id="autorites_ajout_auteur">
-        <title lang='en'>Adding an author</title>
+        <title lang="en">Adding an author</title>
 
         <figure>
-          <title lang='en'>Authority &gt; Authors, adding an author</title>
+          <title lang="en">Authority &gt; Authors, adding an author</title>
 
           <mediaobject>
             <imageobject>
@@ -112,29 +137,42 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>Adding authors is similar to editing. For more information, consult the above section <xref linkend="autorites_modification_auteur" /></para>
+        <para lang="en">Adding authors is similar to editing. For more
+        information, consult the above section <xref
+        linkend="autorites_modification_auteur" /></para>
       </sect3>
     </sect2>
 
     <sect2>
-      <title lang='en'>Facilitate cataloguing : standardizing author's entry</title>
+      <title lang="en">Facilitate cataloguing : standardizing author's
+      entry</title>
 
-      <para lang='en'>Capitalize the first letter in the last and first name, enter the rest in lowercase.</para>
+      <para lang="en">Capitalize the first letter in the last and first name,
+      enter the rest in lowercase.</para>
 
-      <para lang='en'>The last name is the indexable element, the first name is the non indexable element.</para>
+      <para lang="en">The last name is the indexable element, the first name
+      is the non indexable element.</para>
 
-      <para lang='en'>For specific cases, if in doubt, leave the non indexable field empty.</para>
+      <para lang="en">For specific cases, if in doubt, leave the non indexable
+      field empty.</para>
 
-      <para lang='en'>For French names with prefixes (nobility), the "de", "des", "du" are entered in the non indexable field. If the prefix consists of an article (for example, La Fontaine) enter under the prefix.</para>
+      <para lang="en">For French names with prefixes (nobility), the "de",
+      "des", "du" are entered in the non indexable field. If the prefix
+      consists of an article (for example, La Fontaine) enter under the
+      prefix.</para>
 
-      <para lang='en'>Hyphenated names are entered in full.</para>
+      <para lang="en">Hyphenated names are entered in full.</para>
 
-      <para lang='en'>For married women with compound names, make three entries : one under the compound name, another one under her maiden name and a last one under her given name; provide SEE references towards the name form indicated in the work.</para>
+      <para lang="en">For married women with compound names, make three
+      entries : one under the compound name, another one under her maiden name
+      and a last one under her given name; provide SEE references towards the
+      name form indicated in the work.</para>
 
-      <para lang='en'>Here are a few examples :</para>
+      <para lang="en">Here are a few examples :</para>
 
       <table>
-        <title lang='en'>Examples of author entry : indexable element, non indexable element</title>
+        <title lang="en">Examples of author entry : indexable element, non
+        indexable element</title>
 
         <tgroup cols="4">
           <thead>
@@ -255,12 +293,18 @@
         </tgroup>
       </table>
 
-      <para lang='en'>Non indexable prefixed elements are placed after the comma (ex : La Fontaine, Jean de).</para>
+      <para lang="en">Non indexable prefixed elements are placed after the
+      comma (ex : La Fontaine, Jean de).</para>
 
-      <para lang='en'>Names' prefixes are rejected in relation to the language used by or country of residence of the authors. Hence whether the preposition "de" in the last name is retained or not depends on the language or country of residence of the author. For more information consult your AACR2 (Anglo-American Cataloguing Rules 2)</para>
+      <para lang="en">Names' prefixes are rejected in relation to the language
+      used by or country of residence of the authors. Hence whether the
+      preposition "de" in the last name is retained or not depends on the
+      language or country of residence of the author. For more information
+      consult your AACR2 (Anglo-American Cataloguing Rules 2)</para>
 
       <table>
-        <title lang='en'>Examples of names' prefixes treatment by language or country</title>
+        <title lang="en">Examples of names' prefixes treatment by language or
+        country</title>
 
         <tgroup cols="3">
           <tbody>
@@ -301,7 +345,8 @@
 
               <entry></entry>
 
-              <entry>generally retained except for Spanish and Latin-American</entry>
+              <entry>generally retained except for Spanish and
+              Latin-American</entry>
             </row>
           </tbody>
         </tgroup>
@@ -310,35 +355,46 @@
   </sect1>
 
   <sect1 id="autorites_categ">
-    <title lang='en'>Subject headings</title>
+    <title lang="en">Subject headings</title>
 
     <sect2>
-      <title lang='en'>Preamble</title>
+      <title lang="en">Preamble</title>
 
-      <para lang='en'>The PMB Subject Headings are not the Library of Congress Subject Headings : their choice should enable browsing from a hierarchy with a compact structure. The choice of the PMB developers is more of classification thematic like the UDC or Dewey hierarchy.</para>
+      <para lang="en">The PMB Subject Headings are not the Library of Congress
+      Subject Headings : their choice should enable browsing from a hierarchy
+      with a compact structure. The choice of the PMB developers is more of
+      thematic classification like the UDC or Dewey hierarchy.</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>Browsing and modifying subject headings</title>
+      <title lang="en">Browsing and modifying subject headings</title>
 
-      <para lang='en'>Subject headings are used to classify works within the database and to help facilitate information retrieval by readers namely using the OPAC.</para>
+      <para lang="en">Subject headings are used to classify works within the
+      database and to help facilitate information retrieval by readers namely
+      using the OPAC.</para>
 
-      <para lang='en'>The object is to organize hierarchically under subject and sub-headings. PMB comes with a list of subject headings very useful for general documentation centres </para>
+      <para lang="en">The object is to organize hierarchically under subject
+      and sub-headings. PMB comes with a list of subject headings very useful
+      for general documentation centres</para>
 
-      <para lang='en'>If you are running a special library, you will have to adapt the subject headings to suit your needs, for instance, with your thesaurus.</para>
+      <para lang="en">If you are running a special library, you will have to
+      adapt the subject headings to suit your needs, for instance, with your
+      thesaurus.</para>
 
-      <para lang='en'><figure>
-          <title lang='en'>Authority &gt; Subjects</title>
+      <para lang="en"><figure>
+          <title lang="en">Authority &gt; Subjects</title>
 
           <mediaobject>
             <imageobject>
               <imagedata fileref="images/aut_categ.gif" />
             </imageobject>
           </mediaobject>
-        </figure>To browse the tree structure, click on the folders icons to open them. Clicking directly on a subject causes it to be selected and opens a screen allowing you to modify its contents.</para>
+        </figure>To browse the tree structure, click on the folders icons to
+      open them. Clicking directly on a subject causes it to be selected and
+      opens a screen allowing you to modify its contents.</para>
 
       <figure>
-        <title lang='en'>Authority &gt; Subjects, example</title>
+        <title lang="en">Authority &gt; Subjects, example</title>
 
         <mediaobject>
           <imageobject>
@@ -348,7 +404,7 @@
       </figure>
 
       <figure>
-        <title lang='en'>Authority &gt; Subjects, browsing a subject</title>
+        <title lang="en">Authority &gt; Subjects, browsing a subject</title>
 
         <mediaobject>
           <imageobject>
@@ -358,7 +414,7 @@
       </figure>
 
       <figure>
-        <title lang='en'>Authority &gt; Subjects, modifying a subject</title>
+        <title lang="en">Authority &gt; Subjects, modifying a subject</title>
 
         <mediaobject>
           <imageobject>
@@ -367,52 +423,81 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>You can specify various data for a subject :</para>
+      <para lang="en">You can specify various data for a subject :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'>the <emphasis role="bold">subject</emphasis> is mandatory</para>
+          <para lang="en">the <emphasis role="bold">subject</emphasis> is
+          mandatory</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>a <emphasis role="bold">comment</emphasis> can be added</para>
+          <para lang="en">a <emphasis role="bold">comment</emphasis> can be
+          added</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>if the subject is a sub-class, the field <emphasis role="bold">broader term </emphasis> enables you to select the main subject heading via the "..." button. To remove a selected broader term, click on the "X" button</para>
+          <para lang="en">if the subject is a sub-class, the field <emphasis
+          role="bold">broader term </emphasis> enables you to select the main
+          subject heading via the "..." button. To remove a selected broader
+          term, click on the "X" button</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>the <emphasis role="bold">"See" reference </emphasis>allows you to create a cross-reference between two sub-classes having the same description, for instance, but located at two different positions in the tree structure. For example under <emphasis>Europe</emphasis>, the sub-heading <emphasis>France</emphasis>, and under <emphasis>NATO</emphasis>, the sub-heading <emphasis>France</emphasis>.</para>
+          <para lang="en">the <emphasis role="bold">"See" reference
+          </emphasis>allows you to create a cross-reference between two
+          sub-classes having the same description, for instance, but located
+          at two different positions in the tree structure. For example under
+          <emphasis>Europe</emphasis>, the sub-heading
+          <emphasis>France</emphasis>, and under <emphasis>NATO</emphasis>,
+          the sub-heading <emphasis>France</emphasis>.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>the <emphasis role="bold">"See also" reference </emphasis> allows you to enrich the subjects through the concept of association. For example, <emphasis>Rome</emphasis> can refer to the <emphasis>Roman way</emphasis>. Contrary to the "See" reference, the "See also" reference does not operate between identical terms.</para>
+          <para lang="en">the <emphasis role="bold">"See also" reference
+          </emphasis> allows you to enrich the subjects through the concept of
+          association. For example, <emphasis>Rome</emphasis> can refer to the
+          <emphasis>Roman way</emphasis>. Contrary to the "See" reference, the
+          "See also" reference does not operate between identical
+          terms.</para>
         </listitem>
       </itemizedlist>
 
-      <para lang='en'><emphasis role="bold">Delete</emphasis> enables you to delete a subject. <emphasis role="bold">Caution</emphasis> a subject cannot be deleted if it is used in a record.</para>
+      <para lang="en"><emphasis role="bold">Delete</emphasis> enables you to
+      delete a subject. <emphasis role="bold">Caution</emphasis> a subject
+      cannot be deleted if it is used in a record.</para>
 
-      <para lang='en'>The <emphasis role="bold">Used in </emphasis>button enables you to identify the works classified under the subject. It starts a search by the subject in the cataloguing tab. This allows you to know why the subject cannot be deleted.</para>
+      <para lang="en">The <emphasis role="bold">Used in </emphasis>button
+      enables you to identify the works classified under the subject. It
+      starts a search by the subject in the cataloguing tab. This allows you
+      to know why the subject cannot be deleted.</para>
 
-      <para lang='en'><emphasis role="bold">Comment</emphasis> : the <emphasis>Delete</emphasis> and <emphasis>Used in </emphasis>buttons are not visible when adding a new subject, but only when modifying it.</para>
+      <para lang="en"><emphasis role="bold">Comment</emphasis> : the
+      <emphasis>Delete</emphasis> and <emphasis>Used in </emphasis>buttons are
+      not visible when adding a new subject, but only when modifying
+      it.</para>
     </sect2>
   </sect1>
 
   <sect1 id="autorites_editeurs">
-    <title lang='en'>Publishers</title>
+    <title lang="en">Publishers</title>
 
     <sect2>
-      <title lang='en'>Searching and modifying a publisher</title>
+      <title lang="en">Searching and modifying a publisher</title>
 
-      <para lang='en'>The Publishers and Authors screens follow the same logic.</para>
+      <para lang="en">The Publishers and Authors screens follow the same
+      logic.</para>
 
-      <para lang='en'>To search for a publisher, enter your search term and click on <emphasis role="bold">Search</emphasis>. By default the screen displays all the publishers in the data base.</para>
+      <para lang="en">To search for a publisher, enter your search term and
+      click on <emphasis role="bold">Search</emphasis>. By default the screen
+      displays all the publishers in the data base.</para>
 
-      <para lang='en'>You can also click on the <emphasis role="bold">See recently added publishers</emphasis> link to display the last ten publishers added into the database.</para>
+      <para lang="en">You can also click on the <emphasis role="bold">See
+      recently added publishers</emphasis> link to display the last ten
+      publishers added into the database.</para>
 
       <figure>
-        <title lang='en'>Authority &gt; Publishers</title>
+        <title lang="en">Authority &gt; Publishers</title>
 
         <mediaobject>
           <imageobject>
@@ -422,7 +507,8 @@
       </figure>
 
       <figure>
-        <title lang='en'>Authority &gt; Publishers, modifying a publisher</title>
+        <title lang="en">Authority &gt; Publishers, modifying a
+        publisher</title>
 
         <mediaobject>
           <imageobject>
@@ -431,55 +517,79 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>Various data can be entered for a publisher :</para>
+      <para lang="en">Various data can be entered for a publisher :</para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'>the publisher's name</para>
+          <para lang="en">the publisher's name</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>the address on two lines, the zip code, the city and country. Place of publication is an element often mentioned in bibliographical records. Whenever possible, indicate it for all publishers.</para>
+          <para lang="en">the address on two lines, the zip code, the city and
+          country. Place of publication is an element often mentioned in
+          bibliographical records. Whenever possible, indicate it for all
+          publishers.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>the publisher's web site</para>
+          <para lang="en">the publisher's web site</para>
         </listitem>
       </itemizedlist>
 
-      <para lang='en'><emphasis role="bold">Delete</emphasis> enables you to delete a publisher. <emphasis role="bold">Caution</emphasis> a publisher cannot be deleted if it is used in a record.</para>
+      <para lang="en"><emphasis role="bold">Delete</emphasis> enables you to
+      delete a publisher. <emphasis role="bold">Caution</emphasis> a publisher
+      cannot be deleted if it is used in a record.</para>
 
-      <para lang='en'>The <emphasis role="bold">Used in</emphasis> button enables you to identify the works with the publisher's imprint. It starts a search for the publisher in the cataloguing tab. This allows you to know why the publisher cannot be deleted.</para>
+      <para lang="en">The <emphasis role="bold">Used in</emphasis> button
+      enables you to identify the works with the publisher's imprint. It
+      starts a search for the publisher in the
+      <emphasis>Cataloguing</emphasis> tab. This allows you to know why the
+      publisher cannot be deleted.</para>
 
-      <para lang='en'>The <emphasis role="bold">Replace with</emphasis> button allows you to replace a publisher with another, so you can delete misspelt doubles, for instance.</para>
+      <para lang="en">The <emphasis role="bold">Replace with</emphasis> button
+      allows you to replace a publisher with another, so you can delete
+      misspelt doubles, for instance.</para>
 
-      <para lang='en'><emphasis role="bold">Comment</emphasis> : the <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and <emphasis>Replace with </emphasis> buttons are not visible when adding a new publisher, but only when modifying it.</para>
+      <para lang="en"><emphasis role="bold">Comment</emphasis> : the
+      <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and
+      <emphasis>Replace with </emphasis> buttons are not visible when adding a
+      new publisher, but only when modifying it.</para>
     </sect2>
 
     <sect2>
-      <title lang='en'>Facilitate cataloging : standardizing publisher's entry</title>
+      <title lang="en">Facilitate cataloguing : standardizing publisher's
+      entry</title>
 
-      <para lang='en'>If the name bears a family name, kinship reference etc., delete the mentions relating to this kinship.</para>
+      <para lang="en">If the name bears a family name, kinship reference etc.,
+      delete the mentions relating to this kinship.</para>
 
-      <para lang='en'>If an acronym is used, expand it.</para>
+      <para lang="en">If an acronym is used, expand it.</para>
 
-      <para lang='en'><emphasis role="bold">Example</emphasis> OUP will be entered as Oxford University Press.</para>
+      <para lang="en"><emphasis role="bold">Example</emphasis> OUP will be
+      entered as Oxford University Press.</para>
 
-      <para lang='en'>To facilitate the search, you can enter the acronym in brackets after the full name, however this is not in line with the AFNOR standard. In our example we will obtain : Oxford University Press (OUP).</para>
+      <para lang="en">To facilitate the search, you can enter the acronym in
+      brackets after the full name, however this is not in line with the AFNOR
+      standard. In our example we will obtain : Oxford University Press
+      (OUP).</para>
     </sect2>
   </sect1>
 
   <sect1 id="autorites_coll">
-    <title lang='en'>Series</title>
+    <title lang="en">Series</title>
 
-    <para lang='en'>A series is a set of works authored by one or different persons, published by the same publisher under a collective title.</para>
+    <para lang="en">A series is a set of works authored by one or different
+    persons, published by the same publisher under a collective title.</para>
 
-    <para lang='en'>To display the last ten series titles added into the data base, click on the <emphasis role="bold">See recently added series</emphasis> link. </para>
+    <para lang="en">To display the last ten series titles added into the data
+    base, click on the <emphasis role="bold">View recently added
+    series</emphasis> link.</para>
 
-    <para lang='en'>In PMB, you will always need to enter a publisher as authority when adding a new series.</para>
+    <para lang="en">In PMB, you will always need to enter a publisher as
+    authority when adding a new series.</para>
 
     <figure>
-      <title lang='en'>Authority &gt; Series</title>
+      <title lang="en">Authority &gt; Series</title>
 
       <mediaobject>
         <imageobject>
@@ -489,7 +599,7 @@
     </figure>
 
     <figure>
-      <title lang='en'>Authority &gt; Series, modifying a series</title>
+      <title lang="en">Authority &gt; Series, modifying a series</title>
 
       <mediaobject>
         <imageobject>
@@ -498,44 +608,64 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>Various data can be entered for a series :</para>
+    <para lang="en">Various data can be entered for a series :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>the <emphasis role="bold">title</emphasis> of the series</para>
+        <para lang="en">the <emphasis role="bold">title</emphasis> of the
+        series</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>an <emphasis role="bold">ISSN</emphasis>, if the series comes with an ISSN</para>
+        <para lang="en">an <emphasis role="bold">ISSN</emphasis>, if the
+        series comes with an ISSN</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>a <emphasis role="bold">publisher</emphasis> must be entered for any series. To select a publisher, click on the "..." button and choose it in the pop-up. To delete a publisher already entered, click on the "X" button.</para>
+        <para lang="en">a <emphasis role="bold">publisher</emphasis> must be
+        entered for any series. To select a publisher, click on the "..."
+        button and choose it in the pop-up. To delete a publisher already
+        entered, click on the "X" button.</para>
       </listitem>
     </itemizedlist>
 
-    <para lang='en'><emphasis role="bold">Delete</emphasis> allows you to delete a publisher. <emphasis role="bold">Caution</emphasis> a publisher cannot be deleted if it is used in a record.</para>
+    <para lang="en"><emphasis role="bold">Delete</emphasis> allows you to
+    delete a publisher. <emphasis role="bold">Caution</emphasis> a publisher
+    cannot be deleted if it is used in a record.</para>
 
-    <para lang='en'>The <emphasis role="bold">Used in</emphasis> button enables you to identify the works with the publisher's imprint. It starts a search for the publisher in the cataloguing tab. This allows you to know why the publisher cannot be deleted.</para>
+    <para lang="en">The <emphasis role="bold">Used in</emphasis> button
+    enables you to identify the works with the publisher's imprint. It starts
+    a search for the publisher in the cataloguing tab. This allows you to know
+    why the publisher cannot be deleted.</para>
 
-    <para lang='en'>The <emphasis role="bold">Replace with</emphasis> button allows you to replace a publisher with another, so you can delete misspelt doubles, for instance.</para>
+    <para lang="en">The <emphasis role="bold">Replace with</emphasis> button
+    allows you to replace a publisher with another, so you can delete misspelt
+    doubles, for instance.</para>
 
-    <para lang='en'><emphasis role="bold">Comment</emphasis> : the <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and <emphasis>Replace with</emphasis> buttons are not visible when adding a new publisher, but only when modifying it.</para>
+    <para lang="en"><emphasis role="bold">Comment</emphasis> : the
+    <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and
+    <emphasis>Replace with</emphasis> buttons are not visible when adding a
+    new publisher, but only when modifying it.</para>
   </sect1>
 
   <sect1 id="autorites_subcoll">
-    <title lang='en'>Sub-series</title>
+    <title lang="en">Sub-series</title>
 
-    <para lang='en'>A sub-series is a sub-division of a series.</para>
+    <para lang="en">A sub-series is a sub-division of a series.</para>
 
-    <para lang='en'>From this screen you can search for a sub-series by entering a search expression and by clicking on <emphasis>Search</emphasis>.</para>
+    <para lang="en">From this screen you can search for a sub-series by
+    entering a search expression and by clicking on
+    <emphasis>Search</emphasis>.</para>
 
-    <para lang='en'>You can also browse the sub-series. By default all the sub-series are displayed on this screen.</para>
+    <para lang="en">You can also browse the sub-series. By default all the
+    sub-series are displayed on this screen.</para>
 
-    <para lang='en'>To display the last ten sub-series added to the database, click on the <emphasis role="bold">See recently added sub-series</emphasis> link </para>
+    <para lang="en">To display the last ten sub-series added to the database,
+    click on the <emphasis role="bold">View recently added
+    sub-series</emphasis> link</para>
 
     <figure>
-      <title lang='en'>Authority &gt; Sub-series</title>
+      <title lang="en">Authority &gt; Sub-series</title>
 
       <mediaobject>
         <imageobject>
@@ -544,10 +674,12 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>The displayed result first shows the sub-series title, then in brackets the series title and the publisher.</para>
+    <para lang="en">The displayed result first shows the sub-series title,
+    then in brackets the series title and the publisher.</para>
 
     <figure>
-      <title lang='en'>Authority &gt; Sub-series, modifying a sub-series</title>
+      <title lang="en">Authority &gt; Sub-series, modifying a
+      sub-series</title>
 
       <mediaobject>
         <imageobject>
@@ -556,46 +688,72 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>Various data can be entered for a sub-series :</para>
+    <para lang="en">Various data can be entered for a sub-series :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>the <emphasis role="bold">title </emphasis> of the sub-series</para>
+        <para lang="en">the <emphasis role="bold">title </emphasis> of the
+        sub-series</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>an <emphasis role="bold">ISSN</emphasis>, if the sub-series comes with an ISSN</para>
+        <para lang="en">an <emphasis role="bold">ISSN</emphasis>, if the
+        sub-series comes with an ISSN</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>for any sub-series, a series title (<emphasis role="bold">sub-series of...</emphasis>) must be specified. To select a series, click on the "..." button and choose it in the pop-up. To delete a series already entered, click on the "X" button.</para>
+        <para lang="en">for any sub-series, a series title (<emphasis
+        role="bold">sub-series of...</emphasis>) must be specified. To select
+        a series, click on the "..." button and choose it in the pop-up. To
+        delete a series already entered, click on the "X" button.</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>A field is displayed showing the <emphasis role="bold">publisher</emphasis> of the series. But you cannot modify this field. If you want to change the publisher of a series, go through Authority &gt; Series.</para>
+        <para lang="en">A field is displayed showing the <emphasis
+        role="bold">publisher</emphasis> of the series. But you cannot modify
+        this field. If you want to change the publisher of a series, go
+        through <emphasis>Authority &gt; Series</emphasis>.</para>
       </listitem>
     </itemizedlist>
 
-    <para lang='en'><emphasis role="bold">Delete</emphasis> allows you to delete a sub-series. <emphasis role="bold">Caution</emphasis> a sub-series cannot be deleted if it is used in a record.</para>
+    <para lang="en"><emphasis role="bold">Delete</emphasis> allows you to
+    delete a sub-series. <emphasis role="bold">Caution</emphasis> a sub-series
+    cannot be deleted if it is used in a record.</para>
 
-    <para lang='en'>The <emphasis role="bold">Used in</emphasis> button allows you to identify works published under the sub-series. This button starts a search for the sub-series in the cataloguing tab. It allows you to know why a sub-series cannot be deleted.</para>
+    <para lang="en">The <emphasis role="bold">Used in</emphasis> button allows
+    you to identify works published under the sub-series. This button starts a
+    search for the sub-series in the cataloguing tab. It allows you to know
+    why a sub-series cannot be deleted.</para>
 
-    <para lang='en'>The <emphasis role="bold">Replace with</emphasis> button allows you to replace a sub-series with another, so you can delete misspelt doubles, for instance.</para>
+    <para lang="en">The <emphasis role="bold">Replace with</emphasis> button
+    allows you to replace a sub-series with another, so you can delete
+    misspelt doubles, for instance.</para>
 
-    <para lang='en'><emphasis role="bold">Comment</emphasis> : the <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and <emphasis>Replace with</emphasis> buttons are not visible when adding a new sub-series, but only when modifying it.</para>
+    <para lang="en"><emphasis role="bold">Comment</emphasis> : the
+    <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and
+    <emphasis>Replace with</emphasis> buttons are not visible when adding a
+    new sub-series, but only when modifying it.</para>
   </sect1>
 
   <sect1 id="autorites_series">
-    <title lang='en'>Collections</title>
+    <title lang="en">Collections</title>
 
-    <para lang='en'>A <emphasis role="bold">collection</emphasis> is a set of distinct works authored by the same person, for example <emphasis role="bold">The Adventures of Flash Gordon</emphasis> by Alex Raymond. For more information, consult Section 6 : Cataloguing, standardizing cataloguing.</para>
+    <para lang="en">A <emphasis role="bold">collection</emphasis> is a set of
+    distinct works authored by the same person, for example <emphasis
+    role="bold">The Adventures of Flash Gordon</emphasis> by Alex Raymond. For
+    more information, consult Section 6 : Cataloguing, standardizing
+    cataloguing.</para>
 
-    <para lang='en'>To search for a collection, enter a search expression and click on <emphasis role="bold">Search</emphasis>. By default the screen displays all the collections in the base.</para>
+    <para lang="en">To search for a collection, enter a search expression and
+    click on <emphasis role="bold">Search</emphasis>. By default the screen
+    displays all the collections in the base.</para>
 
-    <para lang='en'>You can also click on the <emphasis role="bold">See recently added collections</emphasis> link to display the	last ten collections added to the database.</para>
+    <para lang="en">You can also click on the <emphasis role="bold">View
+    recently added collections</emphasis> link to display the last ten
+    collections added to the database.</para>
 
     <figure>
-      <title lang='en'>Authority &gt; Collections</title>
+      <title lang="en">Authority &gt; Collections</title>
 
       <mediaobject>
         <imageobject>
@@ -605,7 +763,8 @@
     </figure>
 
     <figure>
-      <title lang='en'>Authority &gt; Collections, modifying a collection</title>
+      <title lang="en">Authority &gt; Collections, modifying a
+      collection</title>
 
       <mediaobject>
         <imageobject>
@@ -614,26 +773,42 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>Collections have only one editable field : title.</para>
+    <para lang="en">Collections have only one editable field : title.</para>
 
-     <para lang='en'><emphasis role="bold">Delete</emphasis> allows you to delete a collection.<emphasis role="bold"> Caution</emphasis> a collection cannot be deleted if it is used in a record.</para>
+    <para lang="en"><emphasis role="bold">Delete</emphasis> allows you to
+    delete a collection.<emphasis role="bold"> Caution</emphasis> a collection
+    cannot be deleted if it is used in a record.</para>
 
-    <para lang='en'>The <emphasis role="bold">Replace with</emphasis> button allows you to replace a collection with another, so you can delete misspelt doubles, for instance.</para>
+    <para lang="en">The <emphasis role="bold">Replace with</emphasis> button
+    allows you to replace a collection with another, so you can delete
+    misspelt doubles, for instance.</para>
 
-    <para lang='en'><emphasis role="bold">Comment</emphasis> : the <emphasis>Delete</emphasis> and <emphasis>Replace with</emphasis> buttons are not visible when adding a new collections, but only when modifying it.</para>
+    <para lang="en"><emphasis role="bold">Comment</emphasis> : the
+    <emphasis>Delete</emphasis> and <emphasis>Replace with</emphasis> buttons
+    are not visible when adding a new collections, but only when modifying
+    it.</para>
   </sect1>
 
   <sect1 id="autorites_indexint">
-    <title lang='en'>Classification</title>
+    <title lang="en">Classification</title>
 
-    <para lang='en'>PMB manages decimal classifications allowing you to personalize the indexing of your library collection. For more information about PMB decimal classifications, read the chapter <emphasis>PMB pre-installed thesauri and classification schemes</emphasis>.</para>
+    <para lang="en">PMB integrates decimal classifications allowing you to
+    personalize the indexing of your library collection. For more information
+    about PMB decimal classifications, read the chapter <emphasis>PMB
+    pre-installed thesauri and classification schemes</emphasis>.</para>
 
-    <para lang='en'>To look up a class number, enter a search expression and click on <emphasis role="bold">Search</emphasis>. By default the screen displays all the class numbers in the database. This search is carried out on both the class number (110) and its subject description (Metaphysics)</para>
+    <para lang="en">To look up a class number, enter a search expression and
+    click on <emphasis role="bold">Search</emphasis>. By default the screen
+    displays all the class numbers in the database. This search is carried out
+    on both the class number (110) and its subject description
+    (Metaphysics)</para>
 
-    <para lang='en'>You can also click on <emphasis role="bold">See recently added class numbers</emphasis> link to display the last ten class numbers added in the database.</para>
+    <para lang="en">You can also click on <emphasis role="bold">View recently
+    added class numbers</emphasis> link to display the last ten class numbers
+    added in the database.</para>
 
     <figure>
-      <title lang='en'>Authority &gt; Class numbers</title>
+      <title lang="en">Authority &gt; Class numbers</title>
 
       <mediaobject>
         <imageobject>
@@ -643,7 +818,8 @@
     </figure>
 
     <figure>
-      <title lang='en'>Authority &gt; Class numbers, modifying a class number</title>
+      <title lang="en">Authority &gt; Class numbers, modifying a class
+      number</title>
 
       <mediaobject>
         <imageobject>
@@ -652,24 +828,33 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>You can define the following for a class number :</para>
+    <para lang="en">You can define the following for a class number :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>a notation (mandatory)</para>
+        <para lang="en">a notation (mandatory)</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>a description</para>
+        <para lang="en">a description</para>
       </listitem>
     </itemizedlist>
 
-     <para lang='en'><emphasis role="bold">Delete</emphasis> allows you to remove a class number. <emphasis role="bold">Caution</emphasis> a class number cannot be deleted if it is used in a record.</para>
+    <para lang="en"><emphasis role="bold">Delete</emphasis> allows you to
+    remove a class number. <emphasis role="bold">Caution</emphasis> a class
+    number cannot be deleted if it is used in a record.</para>
 
-    <para lang='en'>The <emphasis role="bold">Used in</emphasis> button allows you to identify all works with the same class numbers. This button starts a search for the class number in the cataloguing tab. It allows you to know why a class number cannot be deleted.</para>
-	
-    <para lang='en'>The <emphasis role="bold">Replace with</emphasis> button allows you to replace a class number with another one.</para>
-    
-    <para lang='en'><emphasis role="bold">Note</emphasis> : the <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and <emphasis>Replace with</emphasis> buttons are not visible when adding a new class number, but only when modifying it.</para>
+    <para lang="en">The <emphasis role="bold">Used in</emphasis> button allows
+    you to identify all works with the same class numbers. This button starts
+    a search for the class number in the cataloguing tab. It allows you to
+    know why a class number cannot be deleted.</para>
+
+    <para lang="en">The <emphasis role="bold">Replace with</emphasis> button
+    allows you to replace a class number with another one.</para>
+
+    <para lang="en"><emphasis role="bold">Note</emphasis> : the
+    <emphasis>Delete</emphasis>, <emphasis>Used in</emphasis> and
+    <emphasis>Replace with</emphasis> buttons are not visible when adding a
+    new class number, but only when modifying it.</para>
   </sect1>
 </chapter>
