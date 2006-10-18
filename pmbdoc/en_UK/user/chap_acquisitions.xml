@@ -2,7 +2,7 @@
 <chapter id="acquis">
   <title lang='en'>Acquisitions</title>
 
-  <para lang='en'>The <emphasis>Acquisitions</emphasis> tab in PMB enables you to prepare, and subsequently place your orders. You can also organize your orders under budgetary lines so you can monitor your budget.</para>
+  <para lang='en'>The <emphasis>Acquisitions</emphasis> tab in PMB enables you to prepare and subsequently place your orders. You can also organize your orders under budgetary lines for monitoring your budget.</para>
 
   <para lang='en'><emphasis role="bold">Warning</emphasis> To display the acquisitions tab you have to </para>
 
@@ -12,7 +12,7 @@
     </listitem>
 
     <listitem>
-      <para lang='en'>grant the appropriate access privileges to the current user for him/her to use the <emphasis>acquisitions</emphasis> tab. For more details, consult the <emphasis>PMB Administrator's Guide, chapter Users</emphasis></para>
+      <para lang='en'>grant the appropriate access privileges to the current user so he can use the <emphasis>acquisitions</emphasis> tab. For more details, consult the <emphasis>PMB Administrator's Guide, chapter Users</emphasis></para>
     </listitem>
   </itemizedlist>
 
@@ -26,7 +26,7 @@
     <sect2 id="acquis_achats_commandes">
       <title lang='en'>Orders</title>
 
-      <remark><emphasis role="bold">Prerequisites </emphasis>Before you can create an order, you need first to define one supplier at least. For more details go to the section <emphasis>Supplier</emphasis> below.</remark>
+      <remark><emphasis role="bold">Prerequisites</emphasis>. Before you can create an order, you need first to define one supplier at least. For more details go to the section <emphasis>Supplier</emphasis> below.</remark>
 
       <para lang='en'>You can create an order, or recall and modify an existing order.</para>
 
@@ -63,7 +63,7 @@
       <para lang='en'>Similarly to print an order, click on the <emphasis>Print</emphasis> icon from the list of orders.</para>
 
       <figure>
-        <title lang='en'>Acquisitions &gt; Orders, Orders list</title>
+        <title lang='en'>Acquisitions &gt; Orders, List of orders</title>
 
         <mediaobject>
           <imageobject>
@@ -73,7 +73,7 @@
       </figure>
 
       <sect3 id="acquis_achats_commandes_infos">
-        <title lang='en'>General informations</title>
+        <title lang='en'>General information</title>
 
         <para lang='en'></para>
 
@@ -87,11 +87,11 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>To select a <emphasis role="bold">supplier</emphasis>, click on the "<emphasis role="bold">...</emphasis>" pop-up button. Once a supplier is selected, click on the <emphasis role="bold">+</emphasis> icon under his name in front of <emphasis role="bold">Main address</emphasis>. to display his business details.</para>
+        <para lang='en'>To select a <emphasis role="bold">supplier</emphasis>, click on the "<emphasis role="bold">...</emphasis>" pop-up button. Once a supplier is selected, click on the <emphasis role="bold">+</emphasis> icon under his name before <emphasis role="bold">Main address</emphasis> to display his business details.</para>
 
         <para lang='en'>The <emphasis role="bold">delivery</emphasis> and <emphasis role="bold">billing</emphasis> addresses of the library concerned by your order are similarly displayed on the screen.</para>
 
-        <para lang='en'>You can define <emphasis role="bold">notes</emphasis>. These will not be printed on the order form, but may only be consulted on screen. You can use them, for instance, to provide your colleagues with any information related to the order.</para>
+        <para lang='en'>You can define <emphasis role="bold">notes</emphasis>. These will not be printed on the order form, but may only be consulted on screen. You can use them, for instance, to apprise your colleagues of any information related to the order.</para>
 
         <para lang='en'>You can also define <emphasis role="bold">notes for print </emphasis> on the purchase order. These notes are addressed to your supplier and may contain any additional instructions regarding the order.</para>
 
@@ -115,17 +115,17 @@
 
         <para lang='en'>A document on order is defined by a <emphasis role="bold">code</emphasis> (ISBN, Barcode, Commercial No). Here you can scan the barcode of the item to order</para>
 
-        <para lang='en'>Next enter <emphasis role="bold">Title/Author/ Publisher/Series</emphasis>. To facilitate reading, you are advised to <emphasis>Enter</emphasis> (carriage return) each detail on a new line. If the item exists already in the database, <emphasis role="bold">Title/Author/ Publisher/Series</emphasis> will be entered automatically.</para>
+        <para lang='en'>Next enter <emphasis role="bold">Title/Author/Publisher/Series</emphasis>. To facilitate reading, you are advised to <emphasis>Enter</emphasis> each detail on a new line (carriage return). If the item exists already in the database, <emphasis role="bold">Title/Author/Publisher/Series</emphasis> will be entered automatically.</para>
 
         <para lang='en'>You can also modify the quantity ordered (<emphasis role="bold">Qty</emphasis>), and definir a <emphasis role="bold">price (tax inclusive)</emphasis>as well.</para>
 
-        <para lang='en'>In the column <emphasis role="bold">Delivery date</emphasis>, define a scheduled delivery date using the format DD/MM/YYYY. For this you can use the date type button under the heading Delivery date. The button dusplays a calendar in a pop-up.</para>
+        <para lang='en'>In the column <emphasis role="bold">Delivery date</emphasis>, define a scheduled delivery date using the format DD/MM/YYYY. For this you can use the date type button under the heading Delivery date. The button displays a calendar in a pop-up.</para>
 
         <para lang='en'>In the column <emphasis role="bold">Material type/VAT/Discount</emphasis>, define a discount and or select a material type. If there is a discount on this type of product by the supplier, the corresponding discount rate will be entered for the item ordered.</para>
 
-        <para lang='en'>In the column <emphasis role="bold">Budget</emphasis>, you can link the item ordered to your budgetar.</para>
+        <para lang='en'>In the column <emphasis role="bold">Budget</emphasis>, you can link the item ordered to your budget.</para>
 
-        <para lang='en'><emphasis role="bold">Warning</emphasis> if your acquisitions budget parameter is set to 1, you must link the item ordered to a budget. For more information, consulter the <emphasis>PMB Administrator's Guide, chapter Tools,section Parameters</emphasis>.</para>
+        <para lang='en'><emphasis role="bold">Warning</emphasis> if your acquisitions budget parameter is set to 1, you must link the item ordered to a budget. For more information, consult the <emphasis>PMB Administrator's Guide, chapter Tools, section Parameters</emphasis>.</para>
       </sect3>
 
       <sect3 id="acquis_achats_commandes_etat">
@@ -133,11 +133,9 @@
 
         <para lang='en'>To save your order, click on the button <emphasis role="bold">Save</emphasis> at bottom of screen for adding or modifying an order.</para>
 
-        <para lang='en'>to delete an order, click on the button <emphasis role="bold">Delete</emphasis> at bottom right of screen as soon as the order is displayed in edit mode.</para>
+        <para lang='en'>To delete an order, click on the button <emphasis role="bold">Delete</emphasis> at bottom right of screen as soon as the order is displayed in edit mode.</para>
 
         <para lang='en'>To confirm an order, click on the button <emphasis role="bold">Validate</emphasis>.</para>
-        
-        <para lang='en'><emphasis role="bold">Warning</emphasis> Once an order is validated, you will not be able to modify it</para>
 
         <figure>
           <title lang='en'>Once confirmed, this order cannot be modified or deleted</title>
@@ -162,7 +160,7 @@
 
       <para lang='en'>To indicate reception of an order, display the order in edit mode, then click on <emphasis role="bold">Received</emphasis>.</para>
 
-      <para lang='en'>By clicking on Received, you create a new delivery note. You can look for a given code in the list. This allows you subsequently to manually modify the quantity received. Similarly you can check the checkbox "<emphasis role="bold">auto</emphasis>". This allows you to increase the quantity received for an order automatically.</para>
+      <para lang='en'>By clicking on <emphasis role="bold">Received</emphasis>, you create a new delivery note. You can look for a given code in the list. This allows you subsequently to manually modify the quantity received. Similarly you can check the checkbox "<emphasis role="bold">auto</emphasis>". This allows you to increase the quantity received for an order automatically.</para>
 
       <figure>
         <title lang='en'>Acquisitions &gt; Deliveries</title>
@@ -174,7 +172,7 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>For example, if you have ordered three copies of <emphasis>Earth from the Air</emphasis> by Yann Arthus-Bertrand, by checking the checkbox, you would be able to read the three barcodes as and when the copies are received. Next click on  <emphasis role="bold">Save</emphasis> to create a delivery note.</para>
+      <para lang='en'>For example, if you have ordered three copies of <emphasis>The Earth from the Air</emphasis> by Yann Arthus-Bertrand, by checking the checkbox, you would be able to read the three barcodes as and when the copies are received. Next click on <emphasis role="bold">Save</emphasis> to create a delivery note.</para>
 
       <figure>
         <title lang='en'>Acquisitions &gt; Deliveries</title>
@@ -204,7 +202,7 @@
         </mediaobject>
       </figure>
 
-      <para lang='en'>You can recall a code from the list. This allows you subsequently to manually modify the number of items invoiced.</para>
+      <para lang='en'>You can recall a code from the list. This allows you later to manually modify the number of items invoiced.</para>
 
       <para lang='en'>You can process the settlement of an invoice in edit mode by clicking on <emphasis role="bold">Pay</emphasis>. Warning, once an invoice has been settled, it cannot be deleted or modified.</para>
 
@@ -216,9 +214,9 @@
 
       <para lang='en'>You need to create one supplier at least to be able to create orders.</para>
 
-      <para lang='en'>To create a supplier, click on  <emphasis role="bold">Add supplier</emphasis>. You can define a name or corporate name, a customer account number as well as a main address and additional addresses (Add address). You can define <emphasis       role="bold">notes</emphasis>, a <emphasis role="bold">SIRET</emphasis>, an <emphasis role="bold">RCS</emphasis>, a code <emphasis role="bold">NAF</emphasis>, a <emphasis       role="bold">TVA</emphasis> account number, a <emphasis role="bold">web site</emphasis>.</para>
+      <para lang='en'>To create a supplier, click on  <emphasis role="bold">Add supplier</emphasis>. You can define a name or corporate name, a customer account number as well as a main address and additional addresses (Add address). You can define <emphasis       role="bold">notes</emphasis>, a <emphasis role="bold">SIRET</emphasis>, an <emphasis role="bold">RCS</emphasis>, a code <emphasis role="bold">NAF</emphasis>, a <emphasis       role="bold">VAT</emphasis> account number, a <emphasis role="bold">web site</emphasis>.</para>
 
-      <para lang='en'>For a supplier, you can also define <emphasis role="bold">Terms of purchase</emphasis>.</para>
+      <para lang='en'>For a supplier, you can also define the <emphasis role="bold">terms of purchase</emphasis>.</para>
 
       <para lang='en'>The <emphasis role="bold">terms of purchase</emphasis> are made up of :</para>
 
@@ -228,7 +226,7 @@
         </listitem>
 
         <listitem>
-          <para lang='en'>discounts by material type : you can define a discount for every one  material type defined via <emphasis>Administration &gt; Acquisitions</emphasis>.</para>
+          <para lang='en'>discounts by material type : you can define a discount for every one of the material types defined via <emphasis>Administration &gt; Acquisitions</emphasis>.</para>
         </listitem>
       </itemizedlist>
     </sect2>
@@ -240,7 +238,7 @@
 
       <para lang='en'>A quotation request will enable you to find out with your supplier the availability and price of documents you wish to purchase.</para>
 
-      <para lang='en'>Adding a new entry to a quotation request is similar to that of an order form. For more information, consult <xref linkend="acquis_achats_commandes_lignes" />.</para>
+      <para lang='en'>Adding a new entry to a quotation request is similar to that of a purchase order. For more information, consult <xref linkend="acquis_achats_commandes_lignes" />.</para>
 
       <para lang='en'>You can use a <emphasis role="bold">confirmed quotation request</emphasis>  to place an order.</para>
 
@@ -254,91 +252,87 @@
     <sect2 id="acquis_sugg_atraiter">
       <title lang='en'>To process</title>
 
-      <para lang='en'>Vous pouvez consulter les différentes suggestions pour les traiter
-      ou créer une nouvelle suggestion en cliquant sur le bouton
-      <emphasis>Créer une suggestion</emphasis>.</para>
+      <para lang='en'>You can consult the various suggestions before processing them or create a new suggestion by clicking on the button <emphasis>Add suggestion</emphasis>.</para>
 
       <sect3 id="acquis_sugg_rechercher">
-        <title lang='en'>Rechercher et traiter une suggestion</title>
+        <title lang='en'>Recalling suggestions for processing</title>
 
-        <para lang='en'>Vous pouvez fusionner des transactions, les imprimer.</para>
+        <para lang='en'>You can combine suggestions, print them.</para>
 
-        <para lang='en'>Pour les transactions en cours, vous pouvez</para>
+        <para lang='en'>For current suggestions, you can</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>Imprimer</para>
+            <para lang='en'>Print</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Fusionner</para>
+            <para lang='en'>Combine</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Valider</para>
+            <para lang='en'>Validate</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Rejeter</para>
+            <para lang='en'>Reject</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Supprimer</para>
+            <para lang='en'>Delete</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>Pour les transactions rejetées ou abandonnées, vous
-        pouvez</para>
+        <para lang='en'>For rejected or dropped suggestions, you can </para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>Imprimer</para>
+            <para lang='en'>Print</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Archiver</para>
+            <para lang='en'>File</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>Pour les transactions validées, vous pouvez</para>
+        <para lang='en'>For confirmed suggestions, you can </para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>Imprimer</para>
+            <para lang='en'>Print</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Fusionner</para>
+            <para lang='en'>Combine</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Confirmer</para>
+            <para lang='en'>Confirm</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Abandonner</para>
+            <para lang='en'>Drop</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>Pour les transactions confirmées, vous pouvez</para>
+        <para lang='en'>For confirmed suggestions, you can </para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>Imprimer</para>
+            <para lang='en'>Print</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>Commander</para>
+            <para lang='en'>Order</para>
           </listitem>
         </itemizedlist>
       </sect3>
 
       <sect3 id="acquis_sugg_create">
-        <title lang='en'>Créer une suggestion</title>
+        <title lang='en'>Making a suggestion</title>
 
         <figure>
-          <title lang='en'>Acquisitions &gt; Suggestion : à traiter, Création d'une
-          suggestion</title>
+          <title lang='en'>Acquisitions &gt; Suggestions : to process, Add suggestion</title>
 
           <mediaobject>
             <imageobject>
@@ -347,123 +341,97 @@
           </mediaobject>
         </figure>
 
-        <para lang='en'>L'écran de création d'une suggestion est divisée en deux
-        partie.</para>
+        <para lang='en'>The <emphasis>New suggestion</emphasis> screen is divided in two parts.</para>
 
-        <para lang='en'>Les informations en haut de l'écran sont non modifiables et
-        indiquent :</para>
+        <para lang='en'>The upper part entries cannot be modified. They display :</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>la date de création</para>
+            <para lang='en'>the date of creation</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>le login de l'utilisateur qui crée la suggestion</para>
+            <para lang='en'>the login of the user making the suggestion</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>une pondération en fonction du type d'utilisateur. La
-            pondération de la suggestion est fonction du paramètre
-            <emphasis>Acquisitions</emphasis> <emphasis>poids_sugg</emphasis>.
-            Pour plus d'informations, consulter le <emphasis>Guide de
-            l'administrateur PMB, chapitre Outils, section
-            Paramètres</emphasis>.</para>
+            <para lang='en'>a weightage, depending on the type of user. The weightage of the sussgestion is returned by the parameter <emphasis>Acquisitions</emphasis> <emphasis>poids_sugg</emphasis>. For more information, consult the <emphasis>PMB Administrator's guide, chapter Tools, section Parameters</emphasis>.</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>un état. Pour plus d'informations, consulter plus loin <xref
-            linkend="acquis_sugg_etats" />.</para>
+            <para lang='en'>a status. For more information, consult below <xref linkend="acquis_sugg_etats" />.</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>Dans le formulaire de création de suggestion, vous pouvez
-        définir :</para>
+        <para lang='en'>The fill-in form of a new suggestion allows you to define :</para>
 
         <itemizedlist>
           <listitem>
-            <para lang='en'>un titre</para>
+            <para lang='en'>a title</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>un éditeur</para>
+            <para lang='en'>a publisher</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>un auteur</para>
+            <para lang='en'>an author</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>un ISBN</para>
+            <para lang='en'>an ISBN</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>un prix</para>
+            <para lang='en'>a price</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>une URL associée</para>
+            <para lang='en'>an associated URL</para>
           </listitem>
 
           <listitem>
-            <para lang='en'>des commentaires</para>
+            <para lang='en'>notes</para>
           </listitem>
         </itemizedlist>
 
-        <para lang='en'>Vous devez renseigner au moins un titre ainsi qu'un auteur ou un
-        titre ainsi qu'un éditeur. Les autres champs sont facultatifs.</para>
+        <para lang='en'>You must enter at least title and author or title and publisher. The other entries are optional.</para>
       </sect3>
     </sect2>
 
     <sect2 id="acquis_sugg_etats">
-      <title lang='en'>Liste des états des suggestions</title>
+      <title lang='en'>Suggestions status list</title>
 
-      <para lang='en'>Voici la liste des états que peut prendre une suggestion, avec la
-      liste des étapes ayant amené la suggestion à cette étape : </para>
+      <para lang='en'>Here is a list of the various status of a suggestion all through the processing stages step-by-step : </para>
 
       <itemizedlist>
         <listitem>
-          <para lang='en'><emphasis role="bold">en cours</emphasis></para>
+          <para lang='en'><emphasis role="bold">processing...</emphasis></para>
         </listitem>
 
         <listitem>
-          <para lang='en'>en cours &gt; <emphasis role="bold">validé</emphasis> : la
-          suggestion est valide. Les informations de la suggestion transmise
-          sont suffisantes pour pouvoir envisager une recherche du document
-          demandé. A cette étape, on ne prend pas en compte le fait d'être
-          d'accord ou non avec la suggestion, il s'agit juste d'un contrôle de
-          validité.</para>
+          <para lang='en'>processing... &gt; <emphasis role="bold">valid</emphasis> : the suggestion is valid. The details of the suggestion are sufficient for envisaging a search for the requested document. At this stage, whether the sugestion is to be accepted or not is not relevant. It is only a validity verification exercise.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>en cours &gt; <emphasis role="bold">rejeté</emphasis> :
-          suggestion invalide ou trop incomplète pour réaliser la moindre
-          recherche</para>
+          <para lang='en'>processing... &gt; <emphasis role="bold">rejected</emphasis> : suggestion invalid or details are insufficient to conduct any search.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>en cours &gt; validé &gt; <emphasis
-          role="bold">confirmé</emphasis> : la suggestion valide est retenue
-          pour une prochaine commande</para>
+          <para lang='en'>processing... &gt; valid &gt; <emphasis role="bold">confirmed</emphasis> : the suggestion is valid and has been retained for a future order.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>en cours &gt; validé &gt; <emphasis
-          role="bold">abandonné</emphasis> : la suggestion valide ne
-          correspond pas aux critères de choix ou au budget par exemple. La
-          suggestion ne sera pas commandée.</para>
+          <para lang='en'>processing... &gt; valid &gt; <emphasis role="bold">dropped</emphasis> : the suggestion is valid, but does not correspond to the library's acquisitions policy or the budget, for instance. The suggestion will not be ordered.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>en cours &gt; validé &gt; confirmé &gt; <emphasis
-          role="bold">commandé</emphasis> : la suggestion valide a été retenue
-          puis commandée</para>
+          <para lang='en'>processing... &gt; valid &gt; confirmed &gt; <emphasis role="bold">ordered</emphasis> : the suggestion is valid and has been retained. An order has been placed for the document.</para>
         </listitem>
 
         <listitem>
-          <para lang='en'>en cours &gt; validé &gt; confirmé &gt; commandé &gt;
-          <emphasis role="bold">reçu</emphasis> : la suggestion commandée est
-          reçue</para>
+          <para lang='en'>processing... &gt; valid &gt; confirmed &gt; ordered &gt;
+          <emphasis role="bold">received</emphasis> : the suggestion for which an order was placed has arrived.</para>
         </listitem>
       </itemizedlist>
     </sect2>
