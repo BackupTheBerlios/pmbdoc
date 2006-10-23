@@ -94,8 +94,8 @@
 
     <para lang='en'>Stored procedures are among the advanced features of PMB. To create
     them you need to have a good knowledge of MySQL syntax, to use them simply
-    access Management &gt; Statistics &gt; SQL Queries. This high degree of
-    statistics customization is rarely directly available to the user in
+    access Reporting &gt; Reports &gt; SQL Queries. This high degree of
+    customization is rarely directly available to the user in
     proprietary softwares.</para>
 
     <sect2>
@@ -121,7 +121,7 @@ expl_statut='!!status!!' group by idcode, codestat_libelle order by idcode</prog
       </sect3>
 
       <sect3>
-        <title lang='en'>Using your own customized fields in queries</title>
+        <title lang='en'>Using your own custom fields in queries</title>
 
         <para lang='en'><emphasis><emphasis>I have created a
         <citetitle>Purchase_year</citetitle> text field for copies in Items
@@ -139,7 +139,7 @@ where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</pr
         display only the items purchased in year <citetitle>y</citetitle>
         ?</emphasis></emphasis></para>
 
-        <para lang='en'>Customized fields do not appear as fields in the database but
+        <para lang='en'>Custom fields do not appear as fields in the database but
         are written within various tables.</para>
 
         <para lang='en'>If it's an items field, you will have to add in the FROM clause
@@ -155,13 +155,12 @@ where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</pr
         <programlisting>texte and name='Purchase_year'</programlisting>
 
         <para lang='en'><emphasis role="bold">EXPLANATION</emphasis>: The name of your
-        customized field</para>
+        custom field</para>
 
         <programlisting>and expl_id=expl_custom_origine</programlisting>
 
         <para lang='en'><emphasis role="bold">EXPLANATION</emphasis>: the jointure
-        between the items table and the one with your items customized
-        data.</para>
+        between the items table and the one with your items custom data.</para>
 
         <programlisting>and expl_custom_champ=idchamp</programlisting>
 
