@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_misc">
-  <title lang='en'>Tools</title>
+  <title lang="en">Tools</title>
 
-  <para lang='en'>The <emphasis>Tools</emphasis> section of the
+  <para lang="en">The <emphasis>Tools</emphasis> section of the
   <emphasis>Administration</emphasis> tab is a tool box useful for the
   day-to-day administration of PMB.</para>
 
   <figure>
-    <title lang='en'>Tools</title>
+    <title lang="en">Tools</title>
 
     <mediaobject>
       <imageobject>
@@ -17,18 +17,18 @@
   </figure>
 
   <sect1 id="admin_netbase">
-    <title lang='en'>Database cleanup</title>
+    <title lang="en">Database cleanup</title>
 
-    <para lang='en'>Database cleanup enables you to remove unused or redundant data, to
-    purge your database of unused authorities.</para>
+    <para lang="en">Database cleanup enables you to remove unused or redundant
+    data, to purge your database of unused authorities.</para>
 
-    <para lang='en'>Here you can also optimize your database by re-indexing it. Removing
-    data from the database, frees more space inside the datafile on the
-    server. This is the only way to maintain a high level of performance from
-    your database server.</para>
+    <para lang="en">Here you can also optimize your database by re-indexing
+    it. Removing data from the database frees more space inside the datafile
+    on the server. This is the only way to maintain a high level of
+    performance from your database server.</para>
 
     <figure>
-      <title lang='en'>Tools &gt; Database cleanup</title>
+      <title lang="en">Tools &gt; Database cleanup</title>
 
       <mediaobject>
         <imageobject>
@@ -37,53 +37,55 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'><emphasis role="bold">Caution</emphasis> : after a database cleanup,
-    always perform a database optimization by clicking on Administration &gt;
-    Tools &gt; MySQL maintenance &gt; Optimize the tables (this will
-    reconstruct the MySQL indexes)</para>
+    <para lang="en"><emphasis role="bold">Caution</emphasis> : after a
+    database cleanup, always perform a database optimization by clicking on
+    Administration &gt; Tools &gt; MySQL maintenance &gt; Optimize the tables
+    (this will reconstruct the MySQL indexes)</para>
   </sect1>
 
   <sect1 id="admin_misc_proc">
-    <title lang='en'>SQL queries</title>
+    <title lang="en">SQL queries</title>
 
-    <para lang='en'>SQL queries are SQL commands lines written in the database.</para>
+    <para lang="en">SQL queries are SQL commands lines written in the
+    database.</para>
 
-    <para lang='en'>These SQL queries are created or updated in the administration tab.
-    They are also enabled for users with access privileges in Management. For
-    more details on the <emphasis>Management</emphasis> tab, please read the
-    <emphasis>Management</emphasis> Chapter in the PMB user's guide.</para>
+    <para lang="en">These SQL queries are created or updated in the
+    <emphasis>Administration</emphasis> tab. They are also enabled for users
+    with access privileges in Reporting. For more details on the
+    <emphasis>Reporting</emphasis> tab, please read the chapter
+    <emphasis>Reporting</emphasis> in the PMB user's guide.</para>
 
-    <para lang='en'>Each stored procedure is shown in an array line. You can edit them
-    by clicking on their title, or execute them by clicking on the button run
-    on the left margin.</para>
+    <para lang="en">Every stored procedure is shown in an array line. You can
+    edit them by clicking on their title, or execute them by clicking on the
+    run button in the left margin.</para>
 
-    <para lang='en'>You can add parameters : this will allow you to run your stored
-    procedures immediately on screen.</para>
+    <para lang="en">You can add parameters : this will allow you to run your
+    stored procedures immediately on screen.</para>
 
-    <para lang='en'>Let's make it simpler.</para>
+    <para lang="en">Let's symplify matters.</para>
 
-    <para lang='en'>Suppose I'm a librarian with no SQL knowledge and I want a query
-    that will get me the total count of current loans to borrowers over 65
-    years old.</para>
+    <para lang="en">Suppose I'm a librarian with no SQL knowledge and I want a
+    query that will get me the total count of current loans to borrowers over
+    65 years old.</para>
 
-    <para lang='en'>I ask my administrator for a stored procedure. He creates a query
-    called "Current loans / &gt; 65 years old" (title example). The SQL code
-    for the query is a simple ""SELECT COUNT (*) FROM empr, prets WHERE
-    pret.empr_id=empr_id AND (2006-empr_year&gt;=65)"</para>
+    <para lang="en">I ask my systems administrator for a stored procedure. He
+    creates a query called "Current loans / &gt; 65 years old" (title
+    example). The SQL code for the query is a simple ""SELECT COUNT (*) FROM
+    empr, prets WHERE pret.empr_id=empr_id AND (2006-empr_year&gt;=65)"</para>
 
-    <para lang='en'>I can access the query created by the administrator from the
-    Management tab. However for my statistics, I need the same information but
-    for borrowers aged 30 to 65 and under 30 years. Furthermore, I must
-    execute my query every year. In 2007 the previous query will not give the
-    correct results.</para>
+    <para lang="en">I can access the query created by the systems
+    administrator from the <emphasis>Reporting</emphasis> tab. However for my
+    statistics, I need the same information but for borrowers aged 30 to 65
+    and under 30 years. Furthermore, I must run my query every year. In 2007
+    the previous query will not give the correct results.</para>
 
-    <para lang='en'>The administrator will then create a query with some parameters
-    enclosed between four exclamation marks like !!current_year!! The
-    parameter title may be something like "Please, enter the current
-    year"</para>
+    <para lang="en">The systems administrator will then create a query with
+    some parameters enclosed between double exclamation marks like
+    !!current_year!! The parameter title may be something like "Please, enter
+    the current year"</para>
 
     <figure>
-      <title lang='en'>Tools &gt; SQL queries</title>
+      <title lang="en">Tools &gt; SQL queries</title>
 
       <mediaobject>
         <imageobject>
@@ -92,82 +94,84 @@
       </mediaobject>
     </figure>
 
-    <para lang='en'>Stored procedures are among the advanced features of PMB. To create
-    them you need to have a good knowledge of MySQL syntax, to use them simply
-    access Reporting &gt; Reports &gt; SQL Queries. This high degree of
-    customization is rarely directly available to the user in
-    proprietary softwares.</para>
+    <para lang="en">Stored procedures are among the advanced features of PMB.
+    To create them you need to have a good knowledge of MySQL syntax, to use
+    them simply access <emphasis>Reporting &gt; Reports &gt; SQL
+    Queries</emphasis>. This high degree of customization is rarely directly
+    available to the user in proprietary softwares.</para>
 
     <sect2>
-      <title lang='en'>Examples of stored procedure usage</title>
+      <title lang="en">Examples of stored procedure usage</title>
 
-      <para lang='en'>To find out the names of fields to use in your queries open the
-      documentation page on the nucleus of PMB. It lists and describes all the
-      tables of the database, the various fields and fields' attributes
-      :</para>
+      <para lang="en">To find out the names of fields to use in your queries
+      open the documentation page on the nucleus of PMB. It lists and
+      describes all the tables of the database, the various fields and their
+      attributes :</para>
 
-      <para lang='en'><emphasis role="bold">pmb/doc/noyau/links.html</emphasis></para>
+      <para lang="en"><emphasis
+      role="bold">pmb/doc/noyau/links.html</emphasis></para>
 
       <sect3>
-        <title lang='en'>Stored procedures : creating a query according to items
-        status</title>
+        <title lang="en">Stored procedures : creating a query according to
+        items status</title>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat, 
 docs_statut where idcode=expl_codestat and expl_section in (!!section!!) and 
 expl_statut='!!status!!' group by idcode, codestat_libelle order by idcode</programlisting>
 
-        <para lang='en'>All you have to do is to enter your settings for !!statut!! and
-        !!section!! by clicking on "Configure parameters".</para>
+        <para lang="en">All you have to do is to enter your settings for
+        !!statut!! and !!section!! by clicking on "Configure
+        parameters".</para>
       </sect3>
 
       <sect3>
-        <title lang='en'>Using your own custom fields in queries</title>
+        <title lang="en">Using your own custom fields in queries</title>
 
-        <para lang='en'><emphasis><emphasis>I have created a
-        <citetitle>Purchase_year</citetitle> text field for copies in Items
-        &gt; new field. I would like to use it for my statistics, but I can't
-        find the field in the tables.</emphasis></emphasis></para>
+        <para lang="en"><emphasis>I have created a Purchase_year text field
+        for copies in Items &gt; new field. I would like to use it for my
+        statistics, but I can't find the field in the
+        tables.</emphasis></para>
 
-        <para lang='en'><emphasis role="bold"><emphasis>Here is the query I have created
-        to get the number of items using the statistical code
-        :</emphasis></emphasis></para>
+        <para><emphasis>Here is the query I have created to get the number of
+        items using the statistical code :</emphasis></para>
 
-        <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat 
-where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</programlisting>
+        <para><programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat 
+where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</programlisting></para>
 
-        <para lang='en'><emphasis><emphasis>What must I do when I execute the query to
-        display only the items purchased in year <citetitle>y</citetitle>
-        ?</emphasis></emphasis></para>
+        <para><emphasis>What must I do when I execute the query to display
+        only the items purchased in year y ?</emphasis></para>
 
-        <para lang='en'>Custom fields do not appear as fields in the database but
-        are written within various tables.</para>
+        <para lang="en"><emphasis role="bold">Custom fields</emphasis> do not
+        appear as fields in the database but are written within various
+        tables.</para>
 
-        <para lang='en'>If it's an items field, you will have to add in the FROM clause
-        of your query : expl_custom_values, expl_custom, and to specify
+        <para lang="en">For an item's field, you will have to add in the FROM
+        clause of your query : expl_custom_values, expl_custom, and to specify
         jointures and condition, the filter in the WHERE clause :</para>
 
-        <para lang='en'><programlisting>expl_custom_small_text='!!purchase_year_param!!'</programlisting></para>
+        <para lang="en"><programlisting>expl_custom_small_text='!!purchase_year_param!!'</programlisting></para>
 
-        <para lang='en'><emphasis role="bold">EXPLANATION</emphasis>: filter : after
-        creating a query parameter, Click on "Configure parameters" to
+        <para lang="en"><emphasis role="bold">EXPLANATION</emphasis>: filter :
+        after creating a query parameter, Click on "Configure parameters" to
         indicate it's a parameter and define input options.</para>
 
         <programlisting>texte and name='Purchase_year'</programlisting>
 
-        <para lang='en'><emphasis role="bold">EXPLANATION</emphasis>: The name of your
-        custom field</para>
+        <para lang="en"><emphasis role="bold">EXPLANATION</emphasis>: The name
+        of your custom field</para>
 
         <programlisting>and expl_id=expl_custom_origine</programlisting>
 
-        <para lang='en'><emphasis role="bold">EXPLANATION</emphasis>: the jointure
-        between the items table and the one with your items custom data.</para>
+        <para lang="en"><emphasis role="bold">EXPLANATION</emphasis>: the
+        jointure between the items table and the one with your items custom
+        data.</para>
 
         <programlisting>and expl_custom_champ=idchamp</programlisting>
 
-        <para lang='en'><emphasis role="bold">EXPLANATION</emphasis>: the jointure
-        between field names table and field values table.</para>
+        <para lang="en"><emphasis role="bold">EXPLANATION</emphasis>: the
+        jointure between field names table and field values table.</para>
 
-        <para lang='en'>The final query looks like this :</para>
+        <para lang="en">The final query looks like this :</para>
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre 
 from exemplaires, expl_custom_values, expl_custom, docs_codestat 
@@ -176,28 +180,39 @@ and name='Purchase_year' and expl_id=expl_custom_origine
 and expl_custom_champ=idchamp group by idcode, codestat_libelle 
 order by idcode</programlisting>
 
-        <para lang='en'><emphasis role="bold">WARNING </emphasis>: Carriage return is
-        not supported in queries.</para>
+        <para lang="en"><emphasis role="bold">WARNING </emphasis>: Carriage
+        return is not supported in queries.</para>
+      </sect3>
+
+      <sect3>
+        <title>Exchanging your stored procedures</title>
+
+        <para>The PMB Users' wiki is a pool where users can freely post their
+        advice for other users.</para>
+
+        <para>Do not hesitate to refer to it : <ulink
+        url="http://www.sigb.net/wiki">http://www.sigb.net/wiki</ulink></para>
       </sect3>
     </sect2>
   </sect1>
 
   <sect1 id="admin_alter">
-    <title lang='en'>Database update</title>
+    <title lang="en">Database update</title>
 
-    <para lang='en'>Whenever you update PMB, you replace all the files in the PMB
-    installation directory with those of a new version downloaded from
+    <para lang="en">Whenever you update PMB, you replace all the files in the
+    PMB installation directory with those of a new version downloaded from
     www.sigb.net. But this update affects PMB only and not your database. To
-    update the structure of your database, use Tools &gt; Database update.
-    This update does not destroy anything. You won't lose any information and
-    while you will benefit from the latest new features of PMB, you have the
-    assurance the integrity of your data will be preserved.</para>
+    update the structure of your database, use <emphasis>Tools &gt; Database
+    update</emphasis>. This update does not destroy anything. You won't lose
+    any information and while you will benefit from the latest new features of
+    PMB, you have the assurance the integrity of your data will be
+    preserved.</para>
 
     <remark>Tools &gt; Database update is a must after updating to a new
     version of PMB.</remark>
 
     <figure>
-      <title lang='en'>Tools &gt; Database update</title>
+      <title lang="en">Tools &gt; Database update</title>
 
       <mediaobject>
         <imageobject>
@@ -206,11 +221,11 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para lang='en'>Click on the message <citetitle>Click here to start the
+    <para lang="en">Click on the message <citetitle>Click here to start
     update</citetitle> to see if your database needs updating.</para>
 
     <figure>
-      <title lang='en'>No database update needed</title>
+      <title lang="en">No database update needed</title>
 
       <mediaobject>
         <imageobject>
@@ -220,7 +235,7 @@ order by idcode</programlisting>
     </figure>
 
     <figure>
-      <title lang='en'>Database updates have to be done</title>
+      <title lang="en">Database updates have to be done</title>
 
       <mediaobject>
         <imageobject>
@@ -229,13 +244,13 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para lang='en'>In all the screens following (the more your PMB version is old, the
-    more the updates will be numerous), Click on the link <emphasis>Click here
-    to continue</emphasis>.</para>
+    <para lang="en">In all the screens following (the more your PMB version is
+    old, the more the updates will be numerous), Click on the link
+    <emphasis>Click here to continue</emphasis>.</para>
 
     <figure>
-      <title lang='en'>A screen capture displaying various update actions and their
-      results</title>
+      <title lang="en">A screen capture displaying various update actions and
+      their results</title>
 
       <mediaobject>
         <imageobject>
@@ -244,18 +259,18 @@ order by idcode</programlisting>
       </mediaobject>
     </figure>
 
-    <para lang='en'>Continue to click on the message <emphasis>Click here to
+    <para lang="en">Continue to click on the message <emphasis>Click here to
     continue</emphasis> until the message "Your database is up to date in
     version X.X appears (this version number is not the same as the PMB
     version number). The database update process is now completed.</para>
   </sect1>
 
   <sect1 id="admin_misc_tables">
-    <title lang='en'>Tables description</title>
+    <title lang="en">Tables description</title>
 
-    <para lang='en'>This tables description corresponds to the basic description of the
-    database MySQL tables. A more detailed documentation is available at
-    http://localhost/pmb/doc/noyau</para>
+    <para lang="en">This tables description corresponds to the basic
+    description of the database MySQL tables. A more detailed documentation is
+    available at http://localhost/pmb/doc/noyau</para>
 
     <remark>"localhost" and "pmb" need to be adapted according to your
     configuration. "localhost" is the address of your computer or the server
@@ -264,39 +279,40 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_misc_mysql">
-    <title lang='en'>MySQL maintenance</title>
+    <title lang="en">MySQL maintenance</title>
 
-    <para lang='en'>You will find here an interface to the main maintenance tools of
-    MySQL : checking, analyzing, repairing and optimizing tables.</para>
+    <para lang="en">You will find here an interface to the main maintenance
+    tools of MySQL : checking, analyzing, repairing and optimizing
+    tables.</para>
 
-    <para lang='en'><emphasis role="bold">Note.</emphasis> Optimising MySQL does not
-    correspond to re-indexing accessible from Database cleanup. PMB manages
-    its own data index.</para>
+    <para lang="en"><emphasis role="bold">Note.</emphasis> Optimising MySQL
+    does not correspond to re-indexing accessible from Database cleanup. PMB
+    manages its own data index.</para>
 
-    <para lang='en'>There are four MySQL maintenance tools :</para>
+    <para lang="en">There are four MySQL maintenance tools :</para>
 
     <itemizedlist>
       <listitem>
-        <para lang='en'>check tables</para>
+        <para lang="en">check tables</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>analyze tables.</para>
+        <para lang="en">analyze tables.</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>repair tables. Allows you to repair the database, if the
-        checking or analysing tools report errors.</para>
+        <para lang="en">repair tables. Allows you to repair the database, if
+        the checking or analysing tools report errors.</para>
       </listitem>
 
       <listitem>
-        <para lang='en'>optimize tables. Optimization allows you to increase the MySQL
-        performance. You should do it regularly.</para>
+        <para lang="en">optimize tables. Optimization allows you to increase
+        the MySQL performance. You should do it regularly.</para>
       </listitem>
     </itemizedlist>
 
     <figure>
-      <title lang='en'>Tools &gt; MySQL maintenance</title>
+      <title lang="en">Tools &gt; MySQL maintenance</title>
 
       <mediaobject>
         <imageobject>
@@ -307,29 +323,29 @@ order by idcode</programlisting>
   </sect1>
 
   <sect1 id="admin_outils_parametres">
-    <title lang='en'>Parameters</title>
+    <title lang="en">Parameters</title>
 
-    <para lang='en'>This tool gives you access various parameters like the name of your
-    library that will be used on all documents created by PMB, displaying the
-    weather in the OPAC, as well as various parameters relating to the
-    ergonomy or even the very structure of the application.</para>
+    <para lang="en">This tool gives you access various parameters like the
+    name of your library that will be used on all documents created by PMB,
+    displaying the weather in the OPAC, as well as various parameters relating
+    to the ergonomy or even the very structure of the application.</para>
 
-    <para lang='en'>Don't change a parameter value unless you know exactly the effect it
-    will generate, make a backup beforehand.</para>
+    <para lang="en">Don't change a parameter value unless you know exactly the
+    effect it will generate, make a backup beforehand.</para>
 
-    <para lang='en'>The parameters types are listed on the screen. To display the
-    various parameters corresponding to a given type, click on the + icon to
-    expand it. Equally, you can use the - icon to collapse the expanded type
-    shown on the screen.</para>
+    <para lang="en">The parameters types are listed on the screen. To display
+    the various parameters corresponding to a given type, click on the + icon
+    to expand it. Similarly, you can use the - icon to collapse the expanded
+    type shown on the screen.</para>
 
-    <para lang='en'>To change a parameter value, click on the line corresponding to the
-    parameter.</para>
+    <para lang="en">To change a parameter value, click on the line
+    corresponding to the parameter.</para>
 
-    <para lang='en'>Once you have saved the changes to your parameter value, the
-    parameter list is displayed again at the same place where you left it. The
-    last changed parameter is highlighted with another colour.</para>
+    <para lang="en">Once you have saved the changes to your parameter value,
+    the parameter list is displayed again at the same place where you left it.
+    The last changed parameter is highlighted with another colour.</para>
 
-    <para lang='en'>There are various parameters types : <link
+    <para lang="en">There are various parameters types : <link
     linkend="admin_outils_parametres_acquisitions">acquisitions</link> ; <link
     linkend="admin_outils_parametres_categories">subjects</link> ; <link
     linkend="admin_outils_parametres_dsi">selective dissemination of
@@ -351,26 +367,32 @@ order by idcode</programlisting>
     linkend="admin_outils_parametres_thesaurus">thesaurus</link> and <link
     linkend="admin_outils_parametres_z3950">Z39.50 options</link></para>
 
-    <para lang='en'><emphasis role="bold">Important</emphasis> : You can use one
-    parameter value in another parameter. For example : if you wish to use the
-    parameter value of type <citetitle>borrowers card</citetitle> sub-type
-    <citetitle>biblio_name</citetitle> in type <citetitle>membership reminder
-    notice</citetitle> sub-type <citetitle>fdp</citetitle> , enter <emphasis
-    role="bold">$borrowers card_biblio_name :</emphasis> in
-    <citetitle>fdp</citetitle>, and you'll get this as result "The officer in
-    charge of <emphasis role="bold">$borrowers card_biblio_name"</emphasis>.
-    The syntax is as follows $typeparam_sstypeparam. To retrieve this
-    information click on a parameter, the first two lines indicate the
-    parameter type and sub-type respectively.</para>
+    <sect2>
+      <title>Retrieving the values of a parameter within another
+      parameter</title>
+
+      <para><emphasis role="bold">Important</emphasis> : You can use one
+      parameter value in another parameter. For example : if you wish to use
+      the parameter value of type <citetitle>borrowers card</citetitle>
+      sub-type <citetitle>biblio_name</citetitle> in type
+      <citetitle>membership reminder notice</citetitle> sub-type
+      <citetitle>fdp</citetitle> , enter <emphasis role="bold">$borrowers
+      card_biblio_name :</emphasis> in <citetitle>fdp</citetitle>, and you'll
+      get this as result "The officer in charge of <emphasis
+      role="bold">$borrowers card_biblio_name"</emphasis>. The syntax is as
+      follows $typeparam_sstypeparam. To retrieve this information click on a
+      parameter, the first two lines indicate the parameter type and sub-type
+      respectively.</para>
+    </sect2>
 
     <sect2 id="admin_outils_parametres_acquisitions">
-      <title lang='en'>Acquisitions</title>
+      <title lang="en">Acquisitions</title>
 
-      <para lang='en'><emphasis><emphasis>The acquisitions module of PMB
-      offers...</emphasis></emphasis></para>
+      <para lang="en">The <emphasis>acquisitions</emphasis> type relates to
+      the acquisitions module of PMB</para>
 
       <table>
-        <title lang='en'>Acquisitions type</title>
+        <title lang="en">Overall settings for Acquisitions</title>
 
         <tgroup cols="3">
           <thead>
@@ -389,7 +411,8 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Acquisitions module enabled. 0= No. 1= Yes</entry>
+              <entry lang="en">Acquisitions module enabled. 0= No. 1=
+              Yes</entry>
             </row>
 
             <row>
@@ -397,7 +420,8 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Use budget for orders. 0= Optional. 1= Mandatory.</entry>
+              <entry lang="en">Use budget for orders. 0= Optional. 1=
+              Mandatory.</entry>
             </row>
 
             <row>
@@ -405,17 +429,17 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Monitoring the evolution of suggestions by email. 0= No.
-              1= Yes</entry>
+              <entry lang="en">Monitoring the evolution of suggestions by
+              email. 0= No. 1= Yes</entry>
             </row>
 
             <row>
               <entry lang="en">format</entry>
 
-              <entry lang="en">4,PO, QUO, CN, INV</entry>
+              <entry lang="en">8,PO, QUO, CN, INV</entry>
 
-              <entry lang="en">No of digits and prefixes to be used in purchase
-              documents. ex : 4,PO, QUO, CN, INV 4= Prefix + 4 Digits
+              <entry lang="en">No of digits and prefixes to be used in
+              purchase documents. ex : 8,PO, QUO, CN, INV 8= Prefix + 8 Digits
               PO=Purchase Order, QUO=Quotation, CN=Consignment Note,
               INV=Invoice</entry>
             </row>
@@ -433,24 +457,34 @@ order by idcode</programlisting>
 
               <entry lang="en">U=1.00,R=0.70,V=0.20</entry>
 
-              <entry lang="en">Suggestions weightage default percentage. U=Users,
-              R=Readers, V=Visitors. ex : U=1.00,R=0.70,V=0.20</entry>
+              <entry lang="en">Suggestions weightage default percentage.
+              U=Users, R=Readers, V=Visitors. ex :
+              U=1.00,R=0.70,V=0.20</entry>
             </row>
           </tbody>
         </tgroup>
       </table>
 
-      <para lang='en'><emphasis><emphasis role="bold">Layout options for suggestions by
-      email</emphasis></emphasis></para>
+      <table>
+        <title lang="en">Layout options of suggestions emails</title>
 
-      <informaltable>
         <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
           <tbody>
             <row>
               <entry lang="en">mel_aba_cor</entry>
 
-              <entry lang="en">Your suggestion dated !!date!! has not been retained or
-              it is not available.</entry>
+              <entry lang="en">Your suggestion dated !!date!! has not been
+              retained or it is not available.</entry>
 
               <entry lang="en">Bodytext of mail : suggestion dropped</entry>
             </row>
@@ -466,8 +500,8 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">mel_cde_cor</entry>
 
-              <entry lang="en">An order has been placed for your suggestion dated
-              !!date!!.</entry>
+              <entry lang="en">An order has been placed for your suggestion
+              dated !!date!!.</entry>
 
               <entry lang="en">Bodytest of mail : suggestion ordered</entry>
             </row>
@@ -477,14 +511,14 @@ order by idcode</programlisting>
 
               <entry lang="en">Suggestion on order</entry>
 
-              <entry lang="en">Subject du mail de commande de suggestion</entry>
+              <entry lang="en">Subject of mail - suggestion on order</entry>
             </row>
 
             <row>
               <entry lang="en">mel_con_cor</entry>
 
-              <entry lang="en">Yotre suggestion dated !!date!! has been retained for a
-              future order.</entry>
+              <entry lang="en">Your suggestion dated !!date!! has been
+              retained for a future order.</entry>
 
               <entry lang="en">Bodytext of mail : suggestion confirmed</entry>
             </row>
@@ -494,14 +528,16 @@ order by idcode</programlisting>
 
               <entry lang="en">Confirmation of suggestion</entry>
 
-              <entry lang="en">Subject du mail de conf de suggestion</entry>
+              <entry lang="en">Subject of mail - confirmation of
+              suggestion</entry>
             </row>
 
             <row>
               <entry lang="en">mel_rec_cor</entry>
 
-              <entry lang="en">We have just received your suggestion dated !!date!! from
-              our supplier. It will be available very soon.</entry>
+              <entry lang="en">We have just received your suggestion dated
+              !!date!! from our supplier. It will be available very
+              soon.</entry>
 
               <entry lang="en">Bodytext of mail : suggestion received</entry>
             </row>
@@ -511,13 +547,14 @@ order by idcode</programlisting>
 
               <entry lang="en">Suggestion received</entry>
 
-              <entry lang="en">Subject du mail de recep de suggestion</entry>
+              <entry lang="en">Subject of mail - suggestion received</entry>
             </row>
 
             <row>
               <entry lang="en">mel_reg_cor</entry>
 
-              <entry lang="en">Your suggestion dated !!date!! has been rejected.</entry>
+              <entry lang="en">Your suggestion dated !!date!! has been
+              rejected.</entry>
 
               <entry lang="en">Bodytext of mail : suggestion rejected</entry>
             </row>
@@ -527,17 +564,26 @@ order by idcode</programlisting>
 
               <entry lang="en">Suggestion rejected</entry>
 
-              <entry lang="en">Subject du mail de reject de suggestion</entry>
+              <entry lang="en">Subject of mail - suggestion rejected</entry>
             </row>
           </tbody>
         </tgroup>
-      </informaltable>
+      </table>
 
-      <para lang='en'><emphasis><emphasis role="bold">Layout options for
-      orders</emphasis></emphasis></para>
+      <table>
+        <title lang="en">Layout options for orders</title>
 
-      <informaltable>
         <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
           <tbody>
             <row>
               <entry lang="en">pdfcde_format_page</entry>
@@ -560,7 +606,7 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Orientation: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
@@ -595,8 +641,8 @@ order by idcode</programlisting>
 
               <entry lang="en">150,10,0,6,8</entry>
 
-              <entry lang="en">Position Date: Distance from left border,Distance from
-              right border,Width,Height,Font size</entry>
+              <entry lang="en">Position Date: Distance from left
+              border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
@@ -604,8 +650,8 @@ order by idcode</programlisting>
 
               <entry lang="en">15,8</entry>
 
-              <entry lang="en">Position bottom of page: Distance from bottom of page,
-              Font size</entry>
+              <entry lang="en">Position bottom of page: Distance from bottom
+              of page, Font size</entry>
             </row>
 
             <row>
@@ -613,8 +659,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,10,20,20</entry>
 
-              <entry lang="en">Position of logo: Distance from left border,Distance from
-              top of page,Width,Height</entry>
+              <entry lang="en">Position of logo: Distance from left
+              border,Distance from top of page,Width,Height</entry>
             </row>
 
             <row>
@@ -622,8 +668,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,110,0,10,16</entry>
 
-              <entry lang="en">Position Order No.: Distance from left border,Distance
-              from top of page,Width ,Height,Font size</entry>
+              <entry lang="en">Position Order No.: Distance from left
+              border,Distance from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
@@ -640,8 +686,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,60,5,10</entry>
 
-              <entry lang="en">Position signature: Distance from left border,Width,Line
-              height,Font size</entry>
+              <entry lang="en">Position signature: Distance from left
+              border,Width,Line height,Font size</entry>
             </row>
 
             <row>
@@ -694,13 +740,22 @@ order by idcode</programlisting>
             </row>
           </tbody>
         </tgroup>
-      </informaltable>
+      </table>
 
-      <para lang='en'><emphasis><emphasis role="bold">Layout options for quotation
-      requests </emphasis></emphasis></para>
+      <table>
+        <title lang="en">Layout options for quotation requests</title>
 
-      <informaltable>
         <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
           <tbody>
             <row>
               <entry lang="en">pdfdev_comment</entry>
@@ -731,7 +786,7 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Orientation: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
@@ -766,8 +821,8 @@ order by idcode</programlisting>
 
               <entry lang="en">150,10,0,6,8</entry>
 
-              <entry lang="en">Position Date: Distance from left border,Distance from
-              right border,Width,Height,Font size</entry>
+              <entry lang="en">Position Date: Distance from left
+              border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
@@ -775,8 +830,8 @@ order by idcode</programlisting>
 
               <entry lang="en">15,8</entry>
 
-              <entry lang="en">Position bottom of page: Distance from bottom of page,
-              Font size</entry>
+              <entry lang="en">Position bottom of page: Distance from bottom
+              of page, Font size</entry>
             </row>
 
             <row>
@@ -784,8 +839,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,10,20,20</entry>
 
-              <entry lang="en">Position of logo: Distance from left border,Distance from
-              top of page,Width,Height</entry>
+              <entry lang="en">Position of logo: Distance from left
+              border,Distance from top of page,Width,Height</entry>
             </row>
 
             <row>
@@ -793,8 +848,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,110,0,10,16</entry>
 
-              <entry lang="en">Position Order No.: Distance from left border,Distance
-              from top of page,Width ,Height,Font size</entry>
+              <entry lang="en">Position Order No.: Distance from left
+              border,Distance from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
@@ -811,8 +866,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,60,5,10</entry>
 
-              <entry lang="en">Position signature: Distance from left border,Width,Line
-              height,Font size</entry>
+              <entry lang="en">Position signature: Distance from left
+              border,Width,Line height,Font size</entry>
             </row>
 
             <row>
@@ -865,13 +920,22 @@ order by idcode</programlisting>
             </row>
           </tbody>
         </tgroup>
-      </informaltable>
+      </table>
 
-      <para lang='en'><emphasis><emphasis role="bold">Layout options for
-      invoices</emphasis></emphasis></para>
+      <table>
+        <title lang="en">Layout options for invoices</title>
 
-      <informaltable>
         <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
           <tbody>
             <row>
               <entry lang="en">pdffac_format_page</entry>
@@ -894,7 +958,7 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Orientation: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
@@ -920,8 +984,8 @@ order by idcode</programlisting>
 
               <entry lang="en">170,10,0,6,8</entry>
 
-              <entry lang="en">Position Date: Distance from left border,Distance from
-              right border,Width,Height,Font size</entry>
+              <entry lang="en">Position Date: Distance from left
+              border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
@@ -929,8 +993,8 @@ order by idcode</programlisting>
 
               <entry lang="en">15,8</entry>
 
-              <entry lang="en">Position bottom of page: Distance from bottom of page,
-              Font size</entry>
+              <entry lang="en">Position bottom of page: Distance from bottom
+              of page, Font size</entry>
             </row>
 
             <row>
@@ -938,8 +1002,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,60,0,6,14</entry>
 
-              <entry lang="en">Position Order No.: Distance from left border,Distance
-              from top of page,Width ,Height,Font size</entry>
+              <entry lang="en">Position Order No.: Distance from left
+              border,Distance from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
@@ -977,13 +1041,22 @@ order by idcode</programlisting>
             </row>
           </tbody>
         </tgroup>
-      </informaltable>
+      </table>
 
-      <para lang='en'><emphasis><emphasis role="bold">Layout options for consignment
-      notes</emphasis></emphasis></para>
+      <table>
+        <title lang="en">Layout options for consignment notes</title>
 
-      <informaltable>
         <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
           <tbody>
             <row>
               <entry lang="en">pdfliv_format_page</entry>
@@ -1006,7 +1079,7 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Orientation: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
@@ -1023,8 +1096,8 @@ order by idcode</programlisting>
 
               <entry lang="en">170,10,0,6,8</entry>
 
-              <entry lang="en">Position Date: Distance from left border,Distance from
-              right border,Width,Height,Font size</entry>
+              <entry lang="en">Position Date: Distance from left
+              border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
@@ -1032,8 +1105,8 @@ order by idcode</programlisting>
 
               <entry lang="en">15,8</entry>
 
-              <entry lang="en">Position bottom of page: Distance from bottom of page,
-              Font size</entry>
+              <entry lang="en">Position bottom of page: Distance from bottom
+              of page, Font size</entry>
             </row>
 
             <row>
@@ -1041,8 +1114,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,60,0,6,14</entry>
 
-              <entry lang="en">Position Order No.: Distance from left border,Distance
-              from top of page,Width ,Height,Font size</entry>
+              <entry lang="en">Position Order No.: Distance from left
+              border,Distance from top of page,Width ,Height,Font size</entry>
             </row>
 
             <row>
@@ -1080,13 +1153,22 @@ order by idcode</programlisting>
             </row>
           </tbody>
         </tgroup>
-      </informaltable>
+      </table>
 
-      <para lang='en'><emphasis><emphasis role="bold">Layout options for suggestions
-      lists</emphasis></emphasis></para>
+      <table>
+        <title lang="en">Layout options for suggestions lists</title>
 
-      <informaltable>
         <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
           <tbody>
             <row>
               <entry lang="en">pdfsug_format_page</entry>
@@ -1109,7 +1191,7 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">Page layout: P=Portrait, L=Landscape</entry>
+              <entry lang="en">Orientation: P=Portrait, L=Landscape</entry>
             </row>
 
             <row>
@@ -1117,8 +1199,8 @@ order by idcode</programlisting>
 
               <entry lang="en">170,10,0,6,8</entry>
 
-              <entry lang="en">Position Date: Distance from left border,Distance from
-              right border,Width,Height,Font size</entry>
+              <entry lang="en">Position Date: Distance from left
+              border,Distance from right border,Width,Height,Font size</entry>
             </row>
 
             <row>
@@ -1126,8 +1208,8 @@ order by idcode</programlisting>
 
               <entry lang="en">15,8</entry>
 
-              <entry lang="en">Position bottom of page: Distance from bottom of page,
-              Font size</entry>
+              <entry lang="en">Position bottom of page: Distance from bottom
+              of page, Font size</entry>
             </row>
 
             <row>
@@ -1135,8 +1217,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10,10,100,10,16</entry>
 
-              <entry lang="en">Position Title: Distance from left border,Distance from
-              top of page,Width,Height,Font size</entry>
+              <entry lang="en">Position Title: Distance from left
+              border,Distance from top of page,Width,Height,Font size</entry>
             </row>
 
             <row>
@@ -1152,23 +1234,31 @@ order by idcode</programlisting>
 
               <entry lang="en">10</entry>
 
-              <entry lang="en">Font size text</entry>
+              <entry lang="en">Font size</entry>
             </row>
           </tbody>
         </tgroup>
-      </informaltable>
+      </table>
+    </sect2>
 
-      <para lang='en'><emphasis><emphasis></emphasis></emphasis></para>
+    <sect2 id="admin_outils_parametres_biblio">
+      <title lang="en">Biblio</title>
+
+      <para lang="en"><emphasis>Obsolete</emphasis></para>
+
+      <para lang="en">The <emphasis>Biblio type</emphasis> was replaced in
+      version 2.0 with data related to the location of copies of works. For
+      more details, consult the section Copies, Locations.</para>
     </sect2>
 
     <sect2 id="admin_outils_parametres_categories">
-      <title lang='en'>Subject headings</title>
+      <title lang="en">Subject headings</title>
 
-      <para lang='en'>The <emphasis>subjects</emphasis> type correspond to the PMB
-      subject headings (integrated thesaurus).</para>
+      <para lang="en">The <emphasis>subjects</emphasis> type corresponds to
+      the PMB subject headings (integrated thesaurus).</para>
 
       <table>
-        <title lang='en'>Subjects type</title>
+        <title lang="en">Subjects type</title>
 
         <tgroup cols="3">
           <thead>
@@ -1187,8 +1277,8 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Display subject headings with no records : 0= No. 1=
-              Yes</entry>
+              <entry lang="en">Display subject headings with no records : 0=
+              No. 1= Yes</entry>
             </row>
 
             <row>
@@ -1196,8 +1286,8 @@ order by idcode</programlisting>
 
               <entry lang="en">0</entry>
 
-              <entry lang="en">In a record : 0= Display all. 1= Display only the last
-              sub-heading in Subject tree</entry>
+              <entry lang="en">In a record : 0= Display all. 1= Display only
+              the last sub-heading in Subject tree</entry>
             </row>
 
             <row>
@@ -1205,8 +1295,8 @@ order by idcode</programlisting>
 
               <entry lang="en">50</entry>
 
-              <entry lang="en">Number of items displayed per page when searching by term
-              in Subject headings</entry>
+              <entry lang="en">Number of terms displayed per page in the term
+              search</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1214,13 +1304,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_dsi">
-      <title lang='en'>Selective Dissemination of Information</title>
+      <title lang="en">Selective Dissemination of Information</title>
 
-      <para lang='en'>The <citetitle>S.D.I.</citetitle> type relates to readers'
-      profiles.</para>
+      <para lang="en">The <citetitle>S.D.I.</citetitle> type relates to
+      readers' profiles.</para>
 
       <table>
-        <title lang='en'>S.D.I. type</title>
+        <title lang="en">S.D.I. type</title>
 
         <tgroup cols="3">
           <thead>
@@ -1247,7 +1337,8 @@ order by idcode</programlisting>
 
               <entry lang="en">0</entry>
 
-              <entry lang="en">S.D.I. enabled automatically ? 0= No. 1= Yes</entry>
+              <entry lang="en">S.D.I. enabled automatically ? 0= No. 1=
+              Yes</entry>
             </row>
 
             <row>
@@ -1255,8 +1346,8 @@ order by idcode</programlisting>
 
               <entry lang="en">0</entry>
 
-              <entry lang="en">Automatically set in inboxes when creating a category of
-              readers ? 0= No. 1= Yes</entry>
+              <entry lang="en">Automatically set in inboxes when creating a
+              category of readers ? 0= No. 1= Yes</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1264,13 +1355,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_empr">
-      <title lang='en'>Borrowers</title>
+      <title lang="en">Borrowers</title>
 
-      <para lang='en'>The <citetitle>borrowers</citetitle> type relates to
+      <para lang="en">The <emphasis>borrowers</emphasis> type relates to
       borrowers.</para>
 
       <table>
-        <title lang='en'>Borrowers type</title>
+        <title lang="en">Borrowers type</title>
 
         <tgroup cols="3">
           <thead>
@@ -1289,8 +1380,8 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Birth year (optional) : 0= No, it is mandatory. 1=
-              Yes</entry>
+              <entry lang="en">Birth year (optional) : 0= No, it is mandatory.
+              1= Yes</entry>
             </row>
 
             <row>
@@ -1298,8 +1389,8 @@ order by idcode</programlisting>
 
               <entry lang="en"></entry>
 
-              <entry lang="en">Columns/Fields table for the import of readers from an
-              ASCII file</entry>
+              <entry lang="en">Columns/Fields table for the import of readers
+              from an ASCII file</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1307,15 +1398,15 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_ldap">
-      <title lang='en'>LDAP</title>
+      <title lang="en">LDAP</title>
 
-      <para lang='en'>The <citetitle>ldap</citetitle> type refers to the setting of an
-      LDAP connection to enable an automatic identification. Using an LDAP
-      directory, you can customize PMB so that a user is immediately
+      <para lang="en">The <emphasis>ldap</emphasis> type refers to the setting
+      of an LDAP connection to enable an automatic identification. Using an
+      LDAP directory, you can customize PMB so that a user is immediately
       identified.</para>
 
       <table>
-        <title lang='en'>ldap type</title>
+        <title lang="en">ldap type</title>
 
         <tgroup cols="3">
           <thead>
@@ -1350,8 +1441,8 @@ order by idcode</programlisting>
 
               <entry lang="en"></entry>
 
-              <entry lang="en">Description of link : building the binddn chain to bind
-              LDAP server authentication in the OPAC</entry>
+              <entry lang="en">Description of link : building the binddn chain
+              to bind LDAP server authentication in the OPAC</entry>
             </row>
 
             <row>
@@ -1415,14 +1506,14 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailrelanceadhesion">
-      <title lang='en'>Membership reminder email</title>
+      <title lang="en">Membership reminder email</title>
 
-      <para lang='en'>The <emphasis>Membership reminder email</emphasis> type
+      <para lang="en">The <emphasis>Membership reminder email</emphasis> type
       corresponds to email customization inviting readers to renew their
       membership with the library due to lapse shortly.</para>
 
       <table>
-        <title lang='en'>Membership reminder email</title>
+        <title lang="en">Membership reminder email</title>
 
         <tgroup cols="3">
           <thead>
@@ -1463,12 +1554,12 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">texte</entry>
 
-              <entry lang="en">Votre membership will lapse on !!date_fin_adhesion!!.
-              Thank you for sparing some time to renew it on your next visit.
-              Yours faithfully</entry>
+              <entry lang="en">Your membership will lapse on
+              !!date_fin_adhesion!!. Thank you for sparing some time to renew
+              it on your next visit. Yours faithfully</entry>
 
-              <entry lang="en">Bodytext of email : !!date_fin_adhesion!! will be
-              replaced with membership expiry date when printing</entry>
+              <entry lang="en">Bodytext of email : !!date_fin_adhesion!! will
+              be replaced with membership expiry date when printing</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1476,13 +1567,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_mailretard">
-      <title lang='en'>Overdue email</title>
+      <title lang="en">Overdue email</title>
 
-      <para lang='en'>The <emphasis>overdue mail</emphasis> type corresponds parameters
-      for an overdue notice by email for unreturned items.</para>
+      <para lang="en">The <emphasis>overdue mail</emphasis> type corresponds
+      parameters for an overdue notice by email for unreturned items.</para>
 
       <table>
-        <title lang='en'>Overdue mail type</title>
+        <title lang="en">Overdue mail type</title>
 
         <tgroup cols="3">
           <thead>
@@ -1499,28 +1590,30 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">1after_list</entry>
 
-              <entry lang="en">Nous vous remercions de prendre rapidement contact par
-              téléphone au 00 00 00 00 00 ou de nous répondre par mail à
-              mail@mail.mail pour étudier la possibilité de prolonger ces
-              prêts ou de ramener les ouvrages concernés.</entry>
+              <entry lang="en">Thank you for getting rapidly in touch with us
+              on the telephone at 00 00 00 00 00 or sending us an email at
+              mail@mail.mail regarding a possible extension of the loans or
+              the return of the the works listed.</entry>
 
-              <entry lang="en">Bodytext printed after list of overdue items</entry>
+              <entry lang="en">Bodytext printed after list of overdue
+              items</entry>
             </row>
 
             <row>
               <entry lang="en">1before_list</entry>
 
-              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
-              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
-              est aujourd'hui dépassée :</entry>
+              <entry lang="en">According to our records, you still have in
+              your possession the following item(s) for which the return date
+              is now overdue:</entry>
 
-              <entry lang="en">Bodytext printed before list of overdue items</entry>
+              <entry lang="en">Bodytext printed before list of overdue
+              items</entry>
             </row>
 
             <row>
               <entry lang="en">1fdp</entry>
 
-              <entry lang="en">Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="en">The Librarian $biblio_name.</entry>
 
               <entry lang="en">Signature</entry>
             </row>
@@ -1528,7 +1621,7 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">1madame_monsieur</entry>
 
-              <entry lang="en">Madame, Monsieur</entry>
+              <entry lang="en">Dear Sir or Madam</entry>
 
               <entry lang="en">Email header</entry>
             </row>
@@ -1536,7 +1629,7 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">1objet</entry>
 
-              <entry lang="en">Documents en retard</entry>
+              <entry lang="en">Overdue items</entry>
 
               <entry lang="en">Subject of email : Overdue items</entry>
             </row>
@@ -1544,28 +1637,30 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">2after_list</entry>
 
-              <entry lang="en">Nous vous remercions de prendre rapidement contact par
-              téléphone au 00 00 00 00 00 ou de nous répondre par mail à
-              mail@mail.mail pour étudier la possibilité de prolonger ces
-              prêts ou de ramener les ouvrages concernés.</entry>
+              <entry lang="en">Thank you for getting rapidly in touch with us
+              on the telephone at 00 00 00 00 00 or sending us an email at
+              mail@mail.mail regarding a possible extension of the loans or
+              the return of the the works listed.</entry>
 
-              <entry lang="en">Bodytext printed after list of overdue items</entry>
+              <entry lang="en">Bodytext printed after list of overdue
+              items</entry>
             </row>
 
             <row>
               <entry lang="en">2before_list</entry>
 
-              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
-              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
-              est aujourd'hui dépassée :</entry>
+              <entry lang="en">According to our records, you still have in
+              your possession the following item(s) for which the return date
+              is now overdue:</entry>
 
-              <entry lang="en">Bodytext printed before list of overdue items</entry>
+              <entry lang="en">Bodytext printed before list of overdue
+              items</entry>
             </row>
 
             <row>
               <entry lang="en">2fdp</entry>
 
-              <entry lang="en">Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="en">The Librarian $biblio_name.</entry>
 
               <entry lang="en">Signature</entry>
             </row>
@@ -1573,7 +1668,7 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">2madame_monsieur</entry>
 
-              <entry lang="en">Madame, Monsieur</entry>
+              <entry lang="en">Dear Sir or Madam</entry>
 
               <entry lang="en">Email header</entry>
             </row>
@@ -1581,7 +1676,7 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">2objet</entry>
 
-              <entry lang="en">Documents en retard</entry>
+              <entry lang="en">Overdue items</entry>
 
               <entry lang="en">Subject of email : Overdue items</entry>
             </row>
@@ -1589,28 +1684,30 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">3after_list</entry>
 
-              <entry lang="en">Nous vous remercions de prendre rapidement contact par
-              téléphone au 00 00 00 00 00 ou de nous répondre par mail à
-              mail@mail.mail pour étudier la possibilité de prolonger ces
-              prêts ou de ramener les ouvrages concernés.</entry>
+              <entry lang="en">Thank you for getting rapidly in touch with us
+              on the telephone at 00 00 00 00 00 or sending us an email at
+              mail@mail.mail regarding a possible extension of the loans or
+              the return of the the works listed.</entry>
 
-              <entry lang="en">Bodytext printed after list of overdue items</entry>
+              <entry lang="en">Bodytext printed after list of overdue
+              items</entry>
             </row>
 
             <row>
               <entry lang="en">3before_list</entry>
 
-              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
-              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
-              est aujourd'hui dépassée :</entry>
+              <entry lang="en">According to our records, you still have in
+              your possession the following item(s) for which the return date
+              is now overdue:</entry>
 
-              <entry lang="en">Bodytext printed before list of overdue items</entry>
+              <entry lang="en">Bodytext printed before list of overdue
+              items</entry>
             </row>
 
             <row>
               <entry lang="en">3fdp</entry>
 
-              <entry lang="en">Le responsable de la Bibliothèque $biblio_name.</entry>
+              <entry lang="en">The Librarian $biblio_name.</entry>
 
               <entry lang="en">Signature</entry>
             </row>
@@ -1618,7 +1715,7 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">3madame_monsieur</entry>
 
-              <entry lang="en">Madame, Monsieur</entry>
+              <entry lang="en">Dear Sir or Madam</entry>
 
               <entry lang="en">Email header</entry>
             </row>
@@ -1626,7 +1723,7 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">3objet</entry>
 
-              <entry lang="en">Documents en retard</entry>
+              <entry lang="en">Overdue items</entry>
 
               <entry lang="en">Subject of email : Overdue items</entry>
             </row>
@@ -1636,8 +1733,9 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Overdue reminders priorities : 0 = Printed notification,
-              1 = Email, 2 = Email AND Printed notification</entry>
+              <entry lang="en">Overdue reminders priorities : 0 = Printed
+              notification, 1 = Email, 2 = Email AND Printed
+              notification</entry>
             </row>
           </tbody>
         </tgroup>
@@ -1645,17 +1743,17 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_opac">
-      <title lang='en'>OPAC</title>
+      <title lang="en">OPAC</title>
 
-      <para lang='en'>The <emphasis>opac</emphasis> type correspond to customization of
-      the OPAC module. The OPAC is highly customizable and therefore has many
-      parameters.</para>
+      <para lang="en">The <emphasis>opac</emphasis> type correspond to
+      customization of the OPAC module. The OPAC is highly customizable and
+      therefore has many parameters.</para>
 
-      <para lang='en'>In a bid to make parameter setting more user-friendly, we have
-      grouped the parameters feature-wise.</para>
+      <para lang="en">In a bid to make parameter setting more user-friendly,
+      we have grouped the parameters feature-wise.</para>
 
       <table>
-        <title lang='en'>Opac type</title>
+        <title lang="en">OPAC overall settings</title>
 
         <tgroup cols="3">
           <thead>
@@ -1672,59 +1770,148 @@ order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry lang="en">authors_aut_rec_per_page</entry>
+              <entry lang="en">default_lang</entry>
+
+              <entry lang="en">fr_FR</entry>
+
+              <entry lang="en">OPAC language: fr_FR, en_US, es_ES, ar</entry>
+            </row>
+
+            <row>
+              <entry lang="en">default_style</entry>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Number of authors displayed per page</entry>
+              <entry lang="en">OPAC graphic style, 1 default style, nomargin :
+              without displaying the left frame</entry>
             </row>
 
             <row>
-              <entry lang="en">authors_aut_sort_records</entry>
+              <entry lang="en">duration_session_auth</entry>
 
-              <entry lang="en">index_serie, tnvol, index_sew</entry>
+              <entry lang="en">1200</entry>
 
-              <entry lang="en">Authors display : notices sort order</entry>
+              <entry lang="en">OPAC reader session timeout in seconds</entry>
             </row>
 
             <row>
-              <entry lang="en">allow_extended_search</entry>
+              <entry lang="en">mail_methode</entry>
+
+              <entry lang="en">php</entry>
+
+              <entry lang="en">Mail method : php : php mail() function.
+              smtp,host:port,auth,user,pass : in smtp, enter O or 1 for
+              authentication...</entry>
+            </row>
+
+            <row>
+              <entry lang="en">max_resa</entry>
+
+              <entry lang="en">5</entry>
+
+              <entry lang="en">Maximum number of holds on a document : 5 by
+              default, 0 for unlimited</entry>
+            </row>
+
+            <row>
+              <entry lang="en">resa</entry>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Allow extended search in the OPAC 0: No 1: Yes</entry>
+              <entry lang="en">Enable holds in the OPAC 1: Yes or 0:
+              No</entry>
             </row>
 
             <row>
-              <entry lang="en">allow_term_search</entry>
+              <entry lang="en">resa_contact</entry>
+
+              <entry lang="en">&lt;a
+              href='mailto:pmb@sigb.net'&gt;pmb@sigb.net&lt;/a&gt;</entry>
+
+              <entry lang="en">HTML code of contact in case of problems
+              regarding holds.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">resa_dispo</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">Enable holds for available documents in the
+              OPAC 1: Yes or 0: No</entry>
+            </row>
+
+            <row>
+              <entry lang="en">resa_planning</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Use a planner for holds ? 0: No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">resa_popup</entry>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Allow search by terms in the OPAC 0: No 1: Yes</entry>
+              <entry lang="en">Connect using pop-up ?</entry>
             </row>
 
             <row>
-              <entry lang="en">authors_aut_rec_per_page</entry>
+              <entry lang="en">show_languages</entry>
 
-              <entry lang="en">1</entry>
+              <entry lang="en">1 fr_FR,it_IT,en_UK,nl_NL,oc_FR</entry>
 
-              <entry lang="en">Number of authors displayed per page</entry>
+              <entry lang="en">Display the select language drop down list ? 0
+              : No 1 : Yes Use a space followed by possible language codes
+              separated by commas : fr_FR,it_IT,en_UK,nl_NL,oc_FR</entry>
             </row>
 
             <row>
-              <entry lang="en">authors_aut_sort_records</entry>
+              <entry lang="en">thesaurus</entry>
 
-              <entry lang="en">index_serie, index_tit1</entry>
+              <entry lang="en">0</entry>
 
-              <entry lang="en">Authors display : notices sort order</entry>
+              <entry lang="en">Thesaurus use level. 0 : Only one thesaurus by
+              default. 1 : Choose among thesauri.</entry>
             </row>
 
+            <row>
+              <entry lang="en">url_base</entry>
+
+              <entry lang="en">./opac_css/</entry>
+
+              <entry lang="en">OPAC URL : use the web public url
+              http://mysite/opac/ do not forget the / at the end</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Library or Media Centre information</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="en">biblio_adr1</entry>
 
               <entry lang="en">Le Gué Luneau</entry>
 
-              <entry lang="en">First part of the Library address in the OPAC</entry>
+              <entry lang="en">First part of the Library address in the
+              OPAC</entry>
             </row>
 
             <row>
@@ -1732,7 +1919,7 @@ order by idcode</programlisting>
 
               <entry lang="en">France</entry>
 
-              <entry lang="en">Library country in the OPAC</entry>
+              <entry lang="en">Country mention in the OPAC</entry>
             </row>
 
             <row>
@@ -1740,7 +1927,7 @@ order by idcode</programlisting>
 
               <entry lang="en">37370</entry>
 
-              <entry lang="en">Library zip code in the OPAC</entry>
+              <entry lang="en">Zip code mention in the OPAC</entry>
             </row>
 
             <row>
@@ -1748,7 +1935,8 @@ order by idcode</programlisting>
 
               <entry lang="en">37</entry>
 
-              <entry lang="en">Library State in the OPAC for weather forecast</entry>
+              <entry lang="en">State/County/Department mention in the OPAC for
+              weather forecast</entry>
             </row>
 
             <row>
@@ -1764,8 +1952,8 @@ order by idcode</programlisting>
 
               <entry lang="en"></entry>
 
-              <entry lang="en">First part of library important information, is hidden by
-              default in the CSS, see id important.p1</entry>
+              <entry lang="en">First part of library important information, is
+              hidden by default in the CSS, see id important.p1</entry>
             </row>
 
             <row>
@@ -1773,14 +1961,14 @@ order by idcode</programlisting>
 
               <entry lang="en"></entry>
 
-              <entry lang="en">Second part of library important information, is hidden
-              by default in the CSS, see id important.p2</entry>
+              <entry lang="en">Second part of library important information,
+              is hidden by default in the CSS, see id important.p2</entry>
             </row>
 
             <row>
               <entry lang="en">biblio_name</entry>
 
-              <entry lang="en">Bibliothèque PMB Services</entry>
+              <entry lang="en">PMB Library Services</entry>
 
               <entry lang="en">Library name in the OPAC</entry>
             </row>
@@ -1796,41 +1984,23 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">biblio_preamble_p1</entry>
 
-              <entry lang="en">La bibliothèque de test de PMB vous propose près de 60
-              ouvrages pour tester l'application. Cet écran vous présente de
-              nombreuses possibilités de recherche et de navigation, celles-ci
-              sont grandement paramétrables.</entry>
+              <entry lang="en">The PMB test library offers you some 60 titles
+              for testing the application. This screen displays a number of
+              options for searching and browsing; all are
+              customizable.</entry>
 
-              <entry lang="en">First part of library preamble information (for example,
-              description of catalographic funds)</entry>
+              <entry lang="en">First part of library preamble information (for
+              example, description of library holdings)</entry>
             </row>
 
             <row>
               <entry lang="en">biblio_preamble_p2</entry>
 
-              <entry lang="en">PMB Services est à votre disposition pour vous aider à
-              paramétrer ou adapter votre PMB.</entry>
+              <entry lang="en">PMB Services is at your service to help you
+              customize PMB or adapt it to your needs.</entry>
 
-              <entry lang="en">Second part of library preamble information : public
-              welcome message.</entry>
-            </row>
-
-            <row>
-              <entry lang="en">biblio_quicksummary_p1</entry>
-
-              <entry lang="en"></entry>
-
-              <entry lang="en">First part of library summary, is hidden by default in
-              the CSS, see id quickSummary.p1</entry>
-            </row>
-
-            <row>
-              <entry lang="en">biblio_quicksummary_p2</entry>
-
-              <entry lang="en"></entry>
-
-              <entry lang="en">Second part of library summary, is hidden by default in
-              the CSS, see id quickSummary.p1</entry>
+              <entry lang="en">Second part of library preamble information :
+              public welcome message.</entry>
             </row>
 
             <row>
@@ -1838,7 +2008,7 @@ order by idcode</programlisting>
 
               <entry lang="en">BUEIL EN TOURAINE</entry>
 
-              <entry lang="en">Library city in the OPAC</entry>
+              <entry lang="en">Library address in the OPAC</entry>
             </row>
 
             <row>
@@ -1850,153 +2020,23 @@ order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="en">cart_allow</entry>
+              <entry lang="en">lien_bas_supplementaire</entry>
 
-              <entry lang="en">1</entry>
+              <entry lang="en">&lt;a href='http://www.sigb.net/'
+              target=_blank&gt;Link towards another site&lt;/a&gt;</entry>
 
-              <entry lang="en">Basket available in the PMB OPAC 1: Yes 0 : No</entry>
+              <entry lang="en">Additional link bottom of home page, to
+              complete : a href= lien /a</entry>
             </row>
 
             <row>
-              <entry lang="en">cart_only_for_subscriber</entry>
+              <entry lang="en">lien_moteur_recherche</entry>
 
-              <entry lang="en">1</entry>
+              <entry lang="en">&lt;a href=http://www.google.fr
+              target=_blank&gt;Search on Google&lt;/a&gt;</entry>
 
-              <entry lang="en">Basket only available for library borrowers 1: Yes 0 :
-              No, authorized for all web surfer</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_categ_path_sep</entry>
-
-              <entry lang="en">&gt;</entry>
-
-              <entry lang="en">Category divider</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_categ_rec_per_page</entry>
-
-              <entry lang="en">6</entry>
-
-              <entry lang="en">Number of notices to display per page in the category
-              exploration.</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_categ_sort_records</entry>
-
-              <entry lang="en">index_serie, tnvol, index_sew</entry>
-
-              <entry lang="en">Categories explorer : notice sort order : index_serie,
-              tnvol, index_sew &gt; sorted by serials title, per number in the
-              serial and by title index; rand() random.</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_columns</entry>
-
-              <entry lang="en">3</entry>
-
-              <entry lang="en">Number of columns in the general categories
-              summary</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_max_display</entry>
-
-              <entry lang="en">200</entry>
-
-              <entry lang="en">For the home page, maximum number of main categories
-              displayed</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_nb_col_subcat</entry>
-
-              <entry lang="en">3</entry>
-
-              <entry lang="en">Number of subcategories columns when browsing the
-              categories</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_sub_display</entry>
-
-              <entry lang="en">3</entry>
-
-              <entry lang="en">Number of subcategories on the first page</entry>
-            </row>
-
-            <row>
-              <entry lang="en">categories_sub_mode</entry>
-
-              <entry lang="en">categ_libelle</entry>
-
-              <entry lang="en">Subcategories display mode : rand() &gt; random;
-              cated_libelle &gt; alphabetic order</entry>
-            </row>
-
-            <row>
-              <entry lang="en">default_lang</entry>
-
-              <entry lang="en">fr_FR</entry>
-
-              <entry lang="en">OPAC language: fr_FR, en_US, es_ES, ar</entry>
-            </row>
-
-            <row>
-              <entry lang="en">default_style</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">OPAC graphic style, 1 default style, nomargin : without
-              displaying the left frame</entry>
-            </row>
-
-            <row>
-              <entry lang="en">duration_session_auth</entry>
-
-              <entry lang="en">1200</entry>
-
-              <entry lang="en">OPAC reader session timeout in seconds</entry>
-            </row>
-
-            <row>
-              <entry lang="en">etagere_nbnotices_accueil</entry>
-
-              <entry lang="en">5</entry>
-
-              <entry lang="en">Number of notices displayed in the shelves on the home
-              page 0 : All ; -1 : None ; x : maximum x notices
-              displayed.</entry>
-            </row>
-
-            <row>
-              <entry lang="en">etagere_notices_depliables</entry>
-
-              <entry lang="en">0</entry>
-
-              <entry lang="en">Expandable notices display in the home page shelves 0 :
-              No 1 : Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">etagere_notices_format</entry>
-
-              <entry lang="en">8</entry>
-
-              <entry lang="en">Notices display format in the home page shelves 1 : ISBD
-              only 2 : Public only 4 : ISBD et Public 8 : Subset
-              (title+authors) only</entry>
-            </row>
-
-            <row>
-              <entry lang="en">etagere_notices_order</entry>
-
-              <entry lang="en">index_serie, tnvol, index_sew</entry>
-
-              <entry lang="en">Notices display order in the OPAC shelves</entry>
+              <entry lang="en">Additional link bottom of home page, to
+              complete : a href= lien /a</entry>
             </row>
 
             <row>
@@ -2006,13 +2046,51 @@ order by idcode</programlisting>
 
               <entry lang="en">Small logo file name</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Search options in the OPAC</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry lang="en">max_cart_items</entry>
+              <entry lang="en">Sub-type</entry>
 
-              <entry lang="en">200</entry>
+              <entry lang="en">Value</entry>
 
-              <entry lang="en">Maximum number of notices in a user basket</entry>
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">allow_extended_search</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Allow extended search in the OPAC 0: No 1:
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">allow_term_search</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Allow search by terms in the OPAC 0: No 1:
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">default_operator</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Default operator. 0 : OR, 1 : AND.</entry>
             </row>
 
             <row>
@@ -2020,7 +2098,17 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Search in the abstract search</entry>
+              <entry lang="en">Simple search on summary : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
+            </row>
+
+            <row>
+              <entry lang="en">modules_search_all</entry>
+
+              <entry lang="en">2</entry>
+
+              <entry lang="en">Simple search on All fields : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
@@ -2028,8 +2116,8 @@ order by idcode</programlisting>
 
               <entry lang="en">2</entry>
 
-              <entry lang="en">Simple search on authors : 0 : forbidden 1 : authorized 2
-              : authorized and validated by default</entry>
+              <entry lang="en">Simple search on authors : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
@@ -2037,7 +2125,7 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Simple search on categories : 0 : forbidden 1 :
+              <entry lang="en">Simple search on subjects : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
@@ -2046,8 +2134,8 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Simple search on collections : 0 : forbidden 1 :
-              authorized 2 : authorized and validated by default</entry>
+              <entry lang="en">Simple search on collections : 0 : forbidden 1
+              : authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
@@ -2055,7 +2143,7 @@ order by idcode</programlisting>
 
               <entry lang="en">0</entry>
 
-              <entry lang="en">Simple search on abstract field : 0 : forbidden 1 :
+              <entry lang="en">Simple search on contents : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default. Not used
               now</entry>
             </row>
@@ -2065,8 +2153,9 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Simple search on internal indexations : 0 : forbidden 1 :
-              authorized 2 : authorized and validated by default</entry>
+              <entry lang="en">Simple search on internal indexes : 0 :
+              forbidden 1 : authorized 2 : authorized and validated by
+              default</entry>
             </row>
 
             <row>
@@ -2074,7 +2163,7 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Simple search on free indexations : 0 : forbidden 1 :
+              <entry lang="en">Simple search on keywords : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
@@ -2092,7 +2181,7 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Simple search on sub collections : 0 : forbidden 1 :
+              <entry lang="en">Simple search on sub-series : 0 : forbidden 1 :
               authorized 2 : authorized and validated by default</entry>
             </row>
 
@@ -2101,82 +2190,8 @@ order by idcode</programlisting>
 
               <entry lang="en">2</entry>
 
-              <entry lang="en">Simple search on titles : 0 : forbidden 1 : authorized 2
-              : authorized and validated by default</entry>
-            </row>
-
-            <row>
-              <entry lang="en">nb_localisations_per_line</entry>
-
-              <entry lang="en">6</entry>
-
-              <entry lang="en">Number of locations displayed per line on the home page
-              (if show_section_browser=1)</entry>
-            </row>
-
-            <row>
-              <entry lang="en">nb_sections_per_line</entry>
-
-              <entry lang="en">6</entry>
-
-              <entry lang="en">Number of sections displayed per line on the home page
-              (if show_section_browser=1)</entry>
-            </row>
-
-            <row>
-              <entry lang="en">notices_depliable</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Expandable display of notices in search results 0: No 1:
-              Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">notices_format</entry>
-
-              <entry lang="en">4</entry>
-
-              <entry lang="en">Notices display format in search results 1 : ISBD only 2
-              : Public only 4 : ISBD and Public 8 : only a subset
-              (title+authors)</entry>
-            </row>
-
-            <row>
-              <entry lang="en">onlynotice_reduit_format</entry>
-
-              <entry lang="en">0</entry>
-
-              <entry lang="en">???Format d'affichage des réduits des notices : 0 normal
-              = titre+auteurs principaux P 1,2,3: Perso. : tit+aut+champs
-              persos id 1 2 3 E 1,2,3: Perso. : tit+aut+édit+champs persos id
-              1 2 3</entry>
-            </row>
-
-            <row>
-              <entry lang="en">nb_aut_rec_per_page</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">???Réservations possibles par l'OPAC 1: oui ou 0:
-              No</entry>
-            </row>
-
-            <row>
-              <entry lang="en">resa</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Enable holds in the OPAC 1: Yes or 0: No</entry>
-            </row>
-
-            <row>
-              <entry lang="en">resa_dispo</entry>
-
-              <entry lang="en"></entry>
-
-              <entry lang="en">Enable holds for available documents in the OPAC 1: Yes
-              or 0: No</entry>
+              <entry lang="en">Simple search on titles : 0 : forbidden 1 :
+              authorized 2 : authorized and validated by default</entry>
             </row>
 
             <row>
@@ -2184,136 +2199,17 @@ order by idcode</programlisting>
 
               <entry lang="en"></entry>
 
-              <entry lang="en">Auxiliary function for searching on home pages</entry>
+              <entry lang="en">Auxiliary function for searching on the home
+              page</entry>
             </row>
 
             <row>
-              <entry lang="en">search_results_per_page</entry>
-
-              <entry lang="en">10</entry>
-
-              <entry lang="en">Number of search results displayed on the following
-              pages</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_100cases_browser</entry>
-
-              <entry lang="en"></entry>
-
-              <entry lang="en">100 Categories display : 0 : No 1 : Yes
-              categories</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_bandeaugauche</entry>
+              <entry lang="en">search_show_typdoc</entry>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Show left frame ? 0 : No 1 : Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_book_pics</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Show book cover thumbnail in the notices : 0 : No 1 :
-              Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_categ_browser</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Show categories on the OPAC home page 1: Yes or 0:
-              No</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_dernieresnotices</entry>
-
-              <entry lang="en">0</entry>
-
-              <entry lang="en">Show last created notices in the page trailer ? 0 : No 1
-              : Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_etageres_accueil</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Show shelves in the home page trailer ? 0: No 1:
-              Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_exemplaires</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Show items in the OPAC 1 Yes, 0 : No</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_help</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Show online help in the PMB OPAC 1: Yes 0: No</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_homeontop</entry>
-
-              <entry lang="en">0</entry>
-
-              <entry lang="en">Show home link under the library name (needed if the left
-              frame is hidden) ? 0 : No 1 : Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_liensbas</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Show links (pmb, google, library) on the page trailer ? 0
-              : No 1 : Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_loginform</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Display borrower user id in the OPAC ? 0 : No 1 :
-              Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_marguerite_browser</entry>
-
-              <entry lang="en">0</entry>
-
-              <entry lang="en">Show categories daisy ? 0 : No or 1 : Yes</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_meteo</entry>
-
-              <entry lang="en">0</entry>
-
-              <entry lang="en">Show weather forecast in the OPAC 1: Yes or 0: No</entry>
-            </row>
-
-            <row>
-              <entry lang="en">show_section_browser</entry>
-
-              <entry lang="en">1</entry>
-
-              <entry lang="en">Show section and location browser ? 0: No 1: Yes</entry>
+              <entry lang="en">Display select type of document when searching
+              on the home page</entry>
             </row>
 
             <row>
@@ -2321,8 +2217,8 @@ order by idcode</programlisting>
 
               <entry lang="en">350</entry>
 
-              <entry lang="en">Pixel height of the search terms frame (if not specified
-              or zero : 200 pixels by default)</entry>
+              <entry lang="en">Pixel height of the search terms frame (if not
+              specified or zero : 200 pixels by default)</entry>
             </row>
 
             <row>
@@ -2330,22 +2226,69 @@ order by idcode</programlisting>
 
               <entry lang="en">50</entry>
 
-              <entry lang="en">Number of terms displayed per age in the term
-              search</entry>
+              <entry lang="en">Number of keywords displayed when searching by
+              keywords</entry>
             </row>
           </tbody>
         </tgroup>
       </table>
-    </sect2>
-
-    <sect2 id="admin_outils_parametres_pdfcartelecteur">
-      <title lang='en'>Borrower's card</title>
-
-      <para lang='en'>The <emphasis>pdfcartelecteur</emphasis> parameters correspond to
-      the printing parameters of a borrower card.</para>
 
       <table>
-        <title lang='en'>Pdfcartelecteur type</title>
+        <title lang="en">Display options for search results</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Valeur</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">authors_aut_rec_per_page</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Number of authors displayed per page</entry>
+            </row>
+
+            <row>
+              <entry lang="en">authors_aut_sort_records</entry>
+
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
+
+              <entry lang="en">Authors display : notices sort order</entry>
+            </row>
+
+            <row>
+              <entry lang="en">nb_aut_rec_per_page</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Number of records displayed per
+              authority</entry>
+            </row>
+
+            <row>
+              <entry lang="en">search_results_per_page</entry>
+
+              <entry lang="en">10</entry>
+
+              <entry lang="en">Number of search results displayed on the
+              following pages</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Records display</title>
 
         <tgroup cols="3">
           <thead>
@@ -2362,13 +2305,680 @@ order by idcode</programlisting>
 
           <tbody>
             <row>
+              <entry lang="en">book_pics_url</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">URL of records thumbnails, in the path entered,
+              !!isbn!! will be replaced by the ISBN or EAN code of the record
+              without dots and dashes. For example :
+              http://www.mysite/opac/images/thumbnails/!!isbn!!.jpg</entry>
+            </row>
+
+            <row>
+              <entry lang="en">notices_depliable</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Expandable records display in search results 0:
+              No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">notices_format</entry>
+
+              <entry lang="en">4</entry>
+
+              <entry lang="en">Records display format in search results 1 :
+              ISBD only 2 : Public only 4 : ISBD and Public 8 : only a subset
+              (title+authors)</entry>
+            </row>
+
+            <row>
+              <entry lang="en">notice_affichage_class</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">Name of display class to customize the display
+              of records</entry>
+            </row>
+
+            <row>
+              <entry lang="en">notice_reduit_format</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Records display - reduced format : 0 normal =
+              title+main authors P 1,2,3: Perso. : tit+aut+persos fileds id 1
+              2 3 E 1,2,3: Perso. : tit+aut+publ+persos fileds id 1 2
+              3</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_book_pics</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show book cover thumbnail in the records : 0 :
+              No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_exemplaires</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show copies in the OPAC 1 Yes, 0 : No</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Modules displayed in the OPAC</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Default value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">cart_allow</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Basket available in the PMB OPAC. 1: Yes 0 :
+              No</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_100cases_browser</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">100 Classes display : 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_bandeaugauche</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show left frame. 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_categ_browser</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show subject classes on the OPAC home page. 0 :
+              No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_dernieresnotices</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Show recently added records on the home page. 0
+              : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_dernieresnotices_nb</entry>
+
+              <entry lang="en">10</entry>
+
+              <entry lang="en">Number of recently added records displayed in
+              Cataloguing - Recent additions</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_etageres_accueil</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show shelves on the home page. 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_help</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show online help in the PMB OPAC. 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_homeontop</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Show home link under the library name (required
+              if the left frame is hidden). 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_liensbas</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show links (pmb, google, library) bottom of
+              home page. 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_loginform</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Display borrower ID in the OPAC. 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_marguerite_browser</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Show colour wheel. 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_meteo</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Show weather forecast in the OPAC. 0 : No 1:
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_meteo_url</entry>
+
+              <entry lang="en">&lt;img
+              src="http://perso0.free.fr/cgi-bin/meteo.pl?dep=37" alt=""
+              border="0" hspace=0&gt;</entry>
+
+              <entry lang="en">Display weather URL</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_rss_browser</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Display RSS flux of catalogue on the OPAC home
+              page. 0 : No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_section_browser</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Show section and location browser. 0 : No 1 :
+              Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_suggest</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Allow make suggestions in the OPAC. 0 : No. 1 :
+              Yes, authentication mandatory. 2 : Yes, authentication not
+              required.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Options for baskets</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">cart_only_for_subscriber</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Basket only available for library borrowers 1:
+              Yes 0 : No, authorized for all web surfers</entry>
+            </row>
+
+            <row>
+              <entry lang="en">max_cart_items</entry>
+
+              <entry lang="en">200</entry>
+
+              <entry lang="en">Maximum number of records in a user
+              basket</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Display options and subject browsing</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">categories_categ_path_sep</entry>
+
+              <entry lang="en">&gt;</entry>
+
+              <entry lang="en">Subject divider</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_categ_rec_per_page</entry>
+
+              <entry lang="en">6</entry>
+
+              <entry lang="en">Number of records to display per page when
+              browsing subject.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_categ_sort_records</entry>
+
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
+
+              <entry lang="en">Subjects explorer : notice sort order :
+              index_serie, tnvol, index_sew &gt; sorted by serials title, per
+              number in the serial and by title index; rand() random.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_columns</entry>
+
+              <entry lang="en">3</entry>
+
+              <entry lang="en">Number of columns in the classes
+              summary</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_max_display</entry>
+
+              <entry lang="en">200</entry>
+
+              <entry lang="en">For the home page, maximum number of main
+              classes displayed</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_nb_col_subcat</entry>
+
+              <entry lang="en">3</entry>
+
+              <entry lang="en">Number of sub-classes columns when browsing
+              subject</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_show_only_last</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">In a record entry : 0 Display all 1 : Display
+              only the final sub-heading of a subject class</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_sub_display</entry>
+
+              <entry lang="en">3</entry>
+
+              <entry lang="en">Number of sub-classes on the first page</entry>
+            </row>
+
+            <row>
+              <entry lang="en">categories_sub_mode</entry>
+
+              <entry lang="en">categ_libelle</entry>
+
+              <entry lang="en">Sub-classes display mode : rand() &gt; random;
+              cated_libelle &gt; alphabetic order</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_empty_categ</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Display subject headings with no records : 0=
+              No. 1= Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Virtual shelves options</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">etagere_nbnotices_accueil</entry>
+
+              <entry lang="en">5</entry>
+
+              <entry lang="en">Number of records displayed on the shelves on
+              the home page 0 : All ; -1 : None ; x : maximum x records
+              displayed.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">etagere_notices_depliables</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Expandable records display on the home page
+              shelves 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">etagere_notices_format</entry>
+
+              <entry lang="en">8</entry>
+
+              <entry lang="en">Records display format on the home page shelves
+              1 : ISBD only 2 : Public only 4 : ISBD et Public 8 : Subset
+              (title+authors) only</entry>
+            </row>
+
+            <row>
+              <entry lang="en">etagere_notices_order</entry>
+
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
+
+              <entry lang="en">Records display order in the OPAC
+              shelves</entry>
+            </row>
+
+            <row>
+              <entry lang="en">etagere_notices_order</entry>
+
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
+
+              <entry lang="en">Sort order display of records on the shelves in
+              the OPAC index_serie, tit1 : sort by collective title and title
+              rand() : random</entry>
+            </row>
+
+            <row>
+              <entry lang="en">etagere_order</entry>
+
+              <entry lang="en">name</entry>
+
+              <entry lang="en">Sorting of virtual shelves on the home page.
+              name = by name. name DESC = by name descending order</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">Options for section browsing</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">nb_localisations_per_line</entry>
+
+              <entry lang="en">6</entry>
+
+              <entry lang="en">Number of locations displayed per line on the
+              home page (if show_section_browser=1)</entry>
+            </row>
+
+            <row>
+              <entry lang="en">nb_sections_per_line</entry>
+
+              <entry lang="en">6</entry>
+
+              <entry lang="en">Number of sections displayed per line on the
+              home page (if show_section_browser=1)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="en">S.D.I. options</title>
+
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry lang="en">allow_bannette_priv</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Allow readers to create or modify their private
+              inboxes 0 : No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">allow_resiliation</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Allow readers to close their inbox
+              subscriptions 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">bannette_nb_liste</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Number of records per inbox when displaying
+              list of inboxes. 0 : All N : maxi N -1 : none</entry>
+            </row>
+
+            <row>
+              <entry lang="en">bannette_notices_depliables</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Expandable display of records in the inboxes 0
+              : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">bannette_notices_format</entry>
+
+              <entry lang="en">8</entry>
+
+              <entry lang="en">Display format of records in the inboxes 1 :
+              ISBD only 2 : Public only 4 : ISBD and Public 8 : Reduced
+              (title+authors) only</entry>
+            </row>
+
+            <row>
+              <entry lang="en">bannette_notices_order</entry>
+
+              <entry lang="en">index_serie, tnvol, index_sew</entry>
+
+              <entry lang="en">Sort order display of records in the inboxes in
+              the OPAC. index_serie, tnvol, index_sew : sort by collective
+              title and title rand() : random</entry>
+            </row>
+
+            <row>
+              <entry lang="en">dsi_active</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">SDI, inboxes accessible via the OPAC. 0 : No 1
+              : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">show_categ_bannette</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Display inboxes by reader category and allow
+              readers to subscribe. 0 : No 1 : Yes</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <para>The following parameters are the Unused parameters of the OPAC.
+      They may have been used in previous versions of PMB, but they are now
+      obsolete. For the moment they are not in use.</para>
+
+      <table>
+        <title lang="en">Unused</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">biblio_quicksummary_p1</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">First part of library summary, is hidden by
+              default in the CSS, see id quickSummary.p1</entry>
+            </row>
+
+            <row>
+              <entry lang="en">biblio_quicksummary_p2</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">Second part of library summary, is hidden by
+              default in the CSS, see id quickSummary.p1</entry>
+            </row>
+
+            <row>
+              <entry lang="en">logo</entry>
+
+              <entry lang="en">logo_default.jpg</entry>
+
+              <entry lang="en">Filename of logo image</entry>
+            </row>
+
+            <row>
+              <entry lang="en">search_results_first_level</entry>
+
+              <entry lang="en">4</entry>
+
+              <entry lang="en">Number of de results displayed on the first
+              pageaffichés sur la première page</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_pdfcartelecteur">
+      <title lang="en">Borrower's card</title>
+
+      <para lang="en">The <emphasis>pdfcartelecteur</emphasis> parameters
+      correspond to the printing parameters of a borrower card.</para>
+
+      <table>
+        <title lang="en">Pdfcartelecteur type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
               <entry lang="en">biblio_name</entry>
 
               <entry lang="en">$biblio_name</entry>
 
-              <entry lang="en">Library name printed on the borrower card. You can set it
-              to any value or to $biblio_name to have the same value as for
-              the biblio_name parameter.</entry>
+              <entry lang="en">Library name printed on the borrower card. You
+              can set it to any value or to $biblio_name to have the same
+              value as for the biblio_name parameter.</entry>
             </row>
 
             <row>
@@ -2384,7 +2994,8 @@ order by idcode</programlisting>
 
               <entry lang="en">80</entry>
 
-              <entry lang="en">Borrower name length printed on the card in mm</entry>
+              <entry lang="en">Borrower name length printed on the card in
+              mm</entry>
             </row>
 
             <row>
@@ -2406,17 +3017,18 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">valableau</entry>
 
-              <entry lang="en">au</entry>
+              <entry lang="en">to</entry>
 
-              <entry lang="en">'to' in "valid from ##/##/#### TO ##/##/####"</entry>
+              <entry lang="en">'valid to' in "VALID FROM ##/##/#### TO
+              ##/##/####"</entry>
             </row>
 
             <row>
               <entry lang="en">valabledu</entry>
 
-              <entry lang="en">Valable du</entry>
+              <entry lang="en">Valid from</entry>
 
-              <entry lang="en">'Valid from' in "VALID FROM ##/##/#### to
+              <entry lang="en">'valid from' in "VALID FROM ##/##/#### to
               ##/##/####"</entry>
             </row>
           </tbody>
@@ -2425,18 +3037,17 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreadhesion">
-      <title lang='en'>Membership reminder notice</title>
+      <title lang="en">Membership reminder notice</title>
 
-      <para lang='en'>The <emphasis>pdflettreadhesion</emphasis> parameters correspond
-      to the parameters printing of almost expired adhesion letters.</para>
+      <para lang="en">The <emphasis>pdflettreadhesion</emphasis> parameters
+      correspond to the print settings of membership letters for memberships
+      about to lapse.</para>
 
       <table>
-        <title lang='en'>Pdflettreadhesion type</title>
+        <title lang="en">Pdflettreadhesion type</title>
 
         <tgroup cols="3">
           <thead>
-            <colspec />
-
             <row>
               <entry lang="en">Sub-type</entry>
 
@@ -2450,9 +3061,9 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">fdp</entry>
 
-              <entry lang="en">Le responsable de la Bibliothèque.</entry>
+              <entry lang="en">The Librarian.</entry>
 
-              <entry lang="en">Trailer formulate courtesy.</entry>
+              <entry lang="en">Signature.</entry>
             </row>
 
             <row>
@@ -2460,7 +3071,8 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">P for Portrait, L for Landscape.</entry>
+              <entry lang="en">Orientation: P = Portrait, L =
+              Landscape.</entry>
             </row>
 
             <row>
@@ -2482,9 +3094,9 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">madame_monsieur</entry>
 
-              <entry lang="en">Madame, Monsieur,</entry>
+              <entry lang="en">Dear Sir or Madam,</entry>
 
-              <entry lang="en">Recipient salutation</entry>
+              <entry lang="en">Greeting formula</entry>
             </row>
 
             <row>
@@ -2506,13 +3118,11 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">texte</entry>
 
-              <entry lang="en">Votre abonnement à la bibliothèque municipale arrive à
-              échéance le !!date_fin_adhesion!!. Nous vous remercions de
-              penser à le renouveler lors de votre prochaine visite. Nous vous
-              prions de recevoir, Madame, Monsieur, l'expression de nos
-              meilleures salutations.</entry>
+              <entry lang="en">You membership will lapse on
+              !!date_fin_adhesion!!. Thank you for sparing some time to renew
+              it on your next visit. Yours faithfully</entry>
 
-              <entry lang="en">Introduction phrase for adhesion expiration</entry>
+              <entry lang="en">Membership expiry - introductory phrase</entry>
             </row>
           </tbody>
         </tgroup>
@@ -2520,19 +3130,16 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreresa">
-      <title lang='en'>Holds confirmation notice</title>
+      <title lang="en">Holds confirmation notice</title>
 
-      <para lang='en'>The <emphasis>pdflettreresa<emphasis> parameters correspond to
-      printing parameters of holds confirmation
-      letters</emphasis></emphasis>.</para>
+      <para lang="en">The <emphasis>pdflettreresa</emphasis> parameters
+      correspond to print settings of holds confirmation letters.</para>
 
       <table>
-        <title lang='en'>Pdflettreresa Type</title>
+        <title lang="en">Pdflettreresa Type</title>
 
         <tgroup cols="3">
           <thead>
-            <colspec />
-
             <row>
               <entry lang="en">Sub-type</entry>
 
@@ -2546,9 +3153,9 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">after_list</entry>
 
-              <entry lang="en">Passé le délai de réservation, ces ouvrages seront remis
-              en circulation, nous vous prions de les retirer dans les
-              meilleurs délais.</entry>
+              <entry lang="en">Beyond the given period, the works will be put
+              back on the shelves, you are advised to collect them at the
+              earliest.</entry>
 
               <entry lang="en">Text shown after the hold items list</entry>
             </row>
@@ -2556,9 +3163,8 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">before_list</entry>
 
-              <entry lang="en">Suite à votre demande de réservation, nous vous informons
-              que le ou les ouvrages ci-dessous sont à votre disposition à la
-              bibliothèque.</entry>
+              <entry lang="en">You are hereby advised that the works which you
+              have placed on hold are now available at the library.</entry>
 
               <entry lang="en">Text shown before the hold items list</entry>
             </row>
@@ -2568,9 +3174,9 @@ order by idcode</programlisting>
 
               <entry lang="en">160</entry>
 
-              <entry lang="en">Item list starting position in mm from the top of the
-              first page. Must be set according to the length of the text
-              before the item list.</entry>
+              <entry lang="en">Item list starting position in mm from the top
+              of the first page. Must be set according to the length of the
+              text before the item list.</entry>
             </row>
 
             <row>
@@ -2578,17 +3184,17 @@ order by idcode</programlisting>
 
               <entry lang="en">15</entry>
 
-              <entry lang="en">Item list starting position in mm from the top of the
-              next page.</entry>
+              <entry lang="en">Item list starting position in mm from the top
+              of the next page.</entry>
             </row>
 
             <row>
               <entry lang="en">fdp</entry>
 
-              <entry lang="en">Le responsable de la $biblio_name.</entry>
+              <entry lang="en">The Librarian, $biblio_name.</entry>
 
-              <entry lang="en">Letter signature. You may use $biblio_name to use the
-              value of the "biblio name" parameter.</entry>
+              <entry lang="en">Signature. Add $biblio_name to use the value of
+              the "biblio name" parameter.</entry>
             </row>
 
             <row>
@@ -2596,7 +3202,8 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">Page format : P : Portrait L : Landscape</entry>
+              <entry lang="en">Orientation : P : Portrait L :
+              Landscape</entry>
             </row>
 
             <row>
@@ -2620,15 +3227,15 @@ order by idcode</programlisting>
 
               <entry lang="en">270</entry>
 
-              <entry lang="en">Item list ending position in mm. If during printing this
-              limit is reached, the item will be printed on the next
-              page.</entry>
+              <entry lang="en">Item list ending position in mm. If during
+              printing this limit is reached, the item will be printed on the
+              next page.</entry>
             </row>
 
             <row>
               <entry lang="en">madame_monsieur</entry>
 
-              <entry lang="en">Madame, Monsieur,</entry>
+              <entry lang="en">Dear Sir or Madam,</entry>
 
               <entry lang="en">Recipient salutation.</entry>
             </row>
@@ -2654,7 +3261,8 @@ order by idcode</programlisting>
 
               <entry lang="en">5</entry>
 
-              <entry lang="en">Number of hold items printed on the first page</entry>
+              <entry lang="en">Number of hold items printed on the first
+              page</entry>
             </row>
 
             <row>
@@ -2671,8 +3279,8 @@ order by idcode</programlisting>
 
               <entry lang="en">20</entry>
 
-              <entry lang="en">Hold items bloc size (2 lines). The start of each hold
-              item will be spaced according to this value</entry>
+              <entry lang="en">Hold items bloc size (2 lines). The line start
+              of each item held will be spaced according to this value</entry>
             </row>
           </tbody>
         </tgroup>
@@ -2680,19 +3288,17 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pdflettreretard">
-      <title lang='en'>Overdue notice</title>
+      <title lang="en">Overdue notice</title>
 
-      <para lang='en'>The <emphasis>overdue notice</emphasis> type corresponds
+      <para lang="en">The <emphasis>overdue notice</emphasis> type corresponds
       parameters for an overdue notice in print format for unreturned
       items.</para>
 
       <table>
-        <title lang='en'>Overdue notice type</title>
+        <title lang="en">Overdue notice type</title>
 
         <tgroup cols="3">
           <thead>
-            <colspec />
-
             <row>
               <entry lang="en">Sub-type</entry>
 
@@ -2706,10 +3312,10 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">1after_list</entry>
 
-              <entry lang="en">Nous vous remercions de prendre rapidement contact par
-              téléphone au $biblio_phone ou par mail à $biblio_email pour
-              étudier la possibilité de prolonger ces prêts ou de ramener les
-              ouvrages concernés.</entry>
+              <entry lang="en">Thank you for getting rapidly in touch with us
+              on the telephone at 00 00 00 00 00 or sending us an email at
+              mail@mail.mail regarding a possible extension of the loans or
+              the return of the the works listed.</entry>
 
               <entry lang="en">Text shown after the overdue items list</entry>
             </row>
@@ -2717,11 +3323,12 @@ order by idcode</programlisting>
             <row>
               <entry lang="en">1before_list</entry>
 
-              <entry lang="en">Sauf erreur de notre part, vous avez toujours en votre
-              possession le ou les ouvrage(s) suivant(s) dont la durée de prêt
-              est aujourd'hui dépassée :</entry>
+              <entry lang="en">According to our records, you still have in
+              your possession the following item(s) for which the return date
+              is now overdue:</entry>
 
-              <entry lang="en">Text shown before the overdue items list</entry>
+              <entry lang="en">Text shown before the overdue items
+              list</entry>
             </row>
 
             <row>
@@ -2729,9 +3336,9 @@ order by idcode</programlisting>
 
               <entry lang="en">160</entry>
 
-              <entry lang="en">Item list starting position in mm from the top of the
-              first page. Must be set according to the length of the text
-              before the item list..</entry>
+              <entry lang="en">Item list starting position in mm from the top
+              of the first page. Must be set according to the length of the
+              text before the item list..</entry>
             </row>
 
             <row>
@@ -2739,17 +3346,17 @@ order by idcode</programlisting>
 
               <entry lang="en">15</entry>
 
-              <entry lang="en">Item list starting position in mm from the top of the
-              next page.</entry>
+              <entry lang="en">Item list starting position in mm from the top
+              of the next page.</entry>
             </row>
 
             <row>
               <entry lang="en">1fdp</entry>
 
-              <entry lang="en">Le responsable de la $biblio_name.</entry>
+              <entry lang="en">The Librarian, $biblio_name.</entry>
 
-              <entry lang="en">Letter signature. You may use $biblio_name to use the
-              value of the "biblio name" parameter.</entry>
+              <entry lang="en">Signature. Add $biblio_name to use the value of
+              the "biblio name" parameter.</entry>
             </row>
 
             <row>
@@ -2757,7 +3364,8 @@ order by idcode</programlisting>
 
               <entry lang="en">P</entry>
 
-              <entry lang="en">Page format : P : Portrait L : Landscape</entry>
+              <entry lang="en">Orientation : P : Portrait. L :
+              Landscape</entry>
             </row>
 
             <row>
@@ -2781,15 +3389,15 @@ order by idcode</programlisting>
 
               <entry lang="en">70</entry>
 
-              <entry lang="en">Item list ending position in mm from bottom of page. If
-              during printing this limit is reached, the item will be printed
-              on the next page</entry>
+              <entry lang="en">Item list ending position in mm from bottom of
+              page. If during printing this limit is reached, the item will be
+              printed on the next page</entry>
             </row>
 
             <row>
               <entry lang="en">1madame_monsieur</entry>
 
-              <entry lang="en">Madame, Monsieur,</entry>
+              <entry lang="en">Dear Sir or Madam,</entry>
 
               <entry lang="en">Recipient salutation</entry>
             </row>
@@ -2815,7 +3423,8 @@ order by idcode</programlisting>
 
               <entry lang="en">5</entry>
 
-              <entry lang="en">Number of overdue items printed on the first page</entry>
+              <entry lang="en">Number of overdue items printed on the first
+              page</entry>
             </row>
 
             <row>
@@ -2823,8 +3432,8 @@ order by idcode</programlisting>
 
               <entry lang="en">7</entry>
 
-              <entry lang="en">Number of overdue items printed on the following
-              pages.</entry>
+              <entry lang="en">Number of overdue items printed on the
+              following pages.</entry>
             </row>
 
             <row>
@@ -2832,8 +3441,283 @@ order by idcode</programlisting>
 
               <entry lang="en">20</entry>
 
-              <entry lang="en">Hold items bloc size (2 lines). The start of each hold
-              item will be spaced according to this value</entry>
+              <entry lang="en">Overdue items bloc size (2 lines). The next
+              entry line of each overdue item will be spaced according to this
+              value</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2after_list</entry>
+
+              <entry lang="en">Thank you for getting rapidly in touch with us
+              on the telephone at 00 00 00 00 00 or sending us an email at
+              mail@mail.mail regarding a possible extension of the loans or
+              the return of the the works listed.</entry>
+
+              <entry lang="en">Text shown after the overdue items list</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2before_list</entry>
+
+              <entry lang="en">According to our records, you still have in
+              your possession the following item(s) for which the return date
+              is now overdue:</entry>
+
+              <entry lang="en">Text shown before the overdue items
+              list</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2debut_expl_1er_page</entry>
+
+              <entry lang="en">160</entry>
+
+              <entry lang="en">Item list starting position in mm from the top
+              of the first page. Must be set according to the length of the
+              text before the item list..</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2debut_expl_page</entry>
+
+              <entry lang="en">15</entry>
+
+              <entry lang="en">Item list starting position in mm from the top
+              of the next page.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2fdp</entry>
+
+              <entry lang="en">The Librarian, $biblio_name.</entry>
+
+              <entry lang="en">Signature. Add $biblio_name to use the value of
+              the "biblio name" parameter.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2format_page</entry>
+
+              <entry lang="en">P</entry>
+
+              <entry lang="en">Orientation : P : Portrait. L :
+              Landscape</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2hauteur_page</entry>
+
+              <entry lang="en">297</entry>
+
+              <entry lang="en">Page height in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2largeur_page</entry>
+
+              <entry lang="en">210</entry>
+
+              <entry lang="en">Page width in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2limite_after_list</entry>
+
+              <entry lang="en">70</entry>
+
+              <entry lang="en">Item list ending position in mm from bottom of
+              page. If during printing this limit is reached, the item will be
+              printed on the next page</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2madame_monsieur</entry>
+
+              <entry lang="en">Dear Sir or Madam,</entry>
+
+              <entry lang="en">Recipient salutation</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2marge_page_droite</entry>
+
+              <entry lang="en">10</entry>
+
+              <entry lang="en">Right margin in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2marge_page_gauche</entry>
+
+              <entry lang="en">10</entry>
+
+              <entry lang="en">Left margin in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2nb_1ere_page</entry>
+
+              <entry lang="en">5</entry>
+
+              <entry lang="en">Number of overdue items printed on the first
+              page</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2nb_par_page</entry>
+
+              <entry lang="en">7</entry>
+
+              <entry lang="en">Number of overdue items printed on the
+              following pages.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">2taille_bloc_expl</entry>
+
+              <entry lang="en">20</entry>
+
+              <entry lang="en">Overdue items bloc size (2 lines). The next
+              entry line of each overdue item will be spaced according to this
+              value</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3after_list</entry>
+
+              <entry lang="en">Thank you for getting rapidly in touch with us
+              on the telephone at 00 00 00 00 00 or sending us an email at
+              mail@mail.mail regarding a possible extension of the loans or
+              the return of the the works listed.</entry>
+
+              <entry lang="en">Text shown after the overdue items list</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3before_list</entry>
+
+              <entry lang="en">According to our records, you still have in
+              your possession the following item(s) for which the return date
+              is now overdue:</entry>
+
+              <entry lang="en">Text shown before the overdue items
+              list</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3debut_expl_1er_page</entry>
+
+              <entry lang="en">160</entry>
+
+              <entry lang="en">Item list starting position in mm from the top
+              of the first page. Must be set according to the length of the
+              text before the item list..</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3debut_expl_page</entry>
+
+              <entry lang="en">15</entry>
+
+              <entry lang="en">Item list starting position in mm from the top
+              of the next page.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3fdp</entry>
+
+              <entry lang="en">The Librarian, $biblio_name.</entry>
+
+              <entry lang="en">Signature. Add $biblio_name to use the value of
+              the "biblio name" parameter.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3format_page</entry>
+
+              <entry lang="en">P</entry>
+
+              <entry lang="en">Orientation : P : Portrait. L :
+              Landscape</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3hauteur_page</entry>
+
+              <entry lang="en">297</entry>
+
+              <entry lang="en">Page height in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3largeur_page</entry>
+
+              <entry lang="en">210</entry>
+
+              <entry lang="en">Page width in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3limite_after_list</entry>
+
+              <entry lang="en">70</entry>
+
+              <entry lang="en">Item list ending position in mm from bottom of
+              page. If during printing this limit is reached, the item will be
+              printed on the next page</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3madame_monsieur</entry>
+
+              <entry lang="en">Dear Sir or Madam,</entry>
+
+              <entry lang="en">Recipient salutation</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3marge_page_droite</entry>
+
+              <entry lang="en">10</entry>
+
+              <entry lang="en">Right margin in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3marge_page_gauche</entry>
+
+              <entry lang="en">10</entry>
+
+              <entry lang="en">Left margin in mm</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3nb_1ere_page</entry>
+
+              <entry lang="en">5</entry>
+
+              <entry lang="en">Number of overdue items printed on the first
+              page</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3nb_par_page</entry>
+
+              <entry lang="en">7</entry>
+
+              <entry lang="en">Number of overdue items printed on the
+              following pages.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">3taille_bloc_expl</entry>
+
+              <entry lang="en">20</entry>
+
+              <entry lang="en">Overdue items bloc size (2 lines). The next
+              entry line of each overdue item will be spaced according to this
+              value</entry>
             </row>
           </tbody>
         </tgroup>
@@ -2841,13 +3725,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_pmb">
-      <title lang='en'>General parameters</title>
+      <title lang="en">General parameters</title>
 
-      <para lang='en'>The <emphasis>pmb</emphasis> parameters are general application
-      parameters</para>
+      <para lang="en">The <emphasis>pmb</emphasis> parameters are the overall
+      settingsof the application.</para>
 
       <table>
-        <title lang='en'>Pmb Type</title>
+        <title lang="en">Pmb Type</title>
 
         <tgroup cols="3">
           <thead>
@@ -2868,10 +3752,137 @@ order by idcode</programlisting>
 
               <entry lang="en">v2.08</entry>
 
-              <entry lang="en">Database kernel version. Change it only with a lower
-              version number if somethng goes wrong during the database
-              update. Restart the database update after. If needed, contact
+              <entry lang="en">Database kernel version. Change it only with a
+              lower version number if somethng goes wrong during the database
+              update. Restart the database update after. If necessary, contact
               the mailing list pmb.user@sigb.net</entry>
+            </row>
+
+            <row>
+              <entry lang="en">blocage_coef</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Proportionality constant of lateness (in days)
+              for loan suspension</entry>
+            </row>
+
+            <row>
+              <entry lang="en">blocage_delai</entry>
+
+              <entry lang="en">7</entry>
+
+              <entry lang="en">Grace period</entry>
+            </row>
+
+            <row>
+              <entry lang="en">blocage_max</entry>
+
+              <entry lang="en">60</entry>
+
+              <entry lang="en">Maximum suspension (in days) (0 = no
+              limit)</entry>
+            </row>
+
+            <row>
+              <entry lang="en">blocage_retard</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Suspend loan for a period equivalent to the
+              number of days late? 0=No, 1=Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">blocage_retard_force</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">1 = The loan can be forced even when account is
+              suspended, 2 = Forcing not allowed</entry>
+            </row>
+
+            <row>
+              <entry lang="en">book_pics_show</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Show book covers in the management interface
+              1=Yes 0=No</entry>
+            </row>
+
+            <row>
+              <entry lang="en">book_pics_url</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">URL of records thumbnails, in the path entered,
+              !!isbn!! will be replaced by the ISBN or EAN code of the record
+              without dots and dashes. For example :
+              http://www.mysite/opac/images/thumbnails/!!isbn!!.jpg</entry>
+            </row>
+
+            <row>
+              <entry lang="en">confirm_retour</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Confirm return of documents? 0 : No, read the
+              barcodes one after the other 1 : Yes, validate all returns for
+              every barcode</entry>
+            </row>
+
+            <row>
+              <entry lang="en">default_operator</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Default operator. 0 : OR, 1 : AND.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">gestion_abonnement</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Enable the management of subscriptions? 0 : No
+              1 : Yes, simplified management, 2 : Yes, advanced
+              management</entry>
+            </row>
+
+            <row>
+              <entry lang="en">gestion_amende</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Enable fines management? 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">gestion_devise</entry>
+
+              <entry lang="en">€</entry>
+
+              <entry lang="en">Currency in financial management, to be
+              displayed in HTML code</entry>
+            </row>
+
+            <row>
+              <entry lang="en">gestion_financiere</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Enable the financial management module ? 0 : No
+              1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">gestion_tarifs_prets</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Enable loans rates management ? 0 : No 1 : Yes,
+              simplified management, 2 : Yes, Advanced management</entry>
             </row>
 
             <row>
@@ -2879,9 +3890,9 @@ order by idcode</programlisting>
 
               <entry lang="en">100</entry>
 
-              <entry lang="en">Read size limit of the imported file. In general, 100 or
-              200 should be OK. If you encounter timeoit problems, set it for
-              exemple to 50</entry>
+              <entry lang="en">Read size limit of file import. In general, 100
+              or 200 should be OK. If you encounter timeout problems, set it
+              to 50, for instance. </entry>
             </row>
 
             <row>
@@ -2889,9 +3900,9 @@ order by idcode</programlisting>
 
               <entry lang="en">100</entry>
 
-              <entry lang="en">Process size limit of the imported file. In general, 100
-              or 200 should be OK. If you encounter timeoit problems, set it
-              for exemple to 50</entry>
+              <entry lang="en">Process size limit of file import. In general,
+              100 or 200 should be OK. If you encounter timeout problems, set
+              it to 50, for instance. </entry>
             </row>
 
             <row>
@@ -2899,7 +3910,16 @@ order by idcode</programlisting>
 
               <entry lang="en">func_bdp.inc.php</entry>
 
-              <entry lang="en">Name of the script file used to customise import.</entry>
+              <entry lang="en">Script filename used to customize
+              import.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">import_modele_lecteur</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">Readers import model</entry>
             </row>
 
             <row>
@@ -2907,8 +3927,36 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">0 ou 1 : internal indexation is a Dewey like
+              <entry lang="en">0 or 1 : internal indexing is a Dewey like
               classification</entry>
+            </row>
+
+            <row>
+              <entry lang="en">lecteurs_localises</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Use location for readers? 0: No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">limitation_dewey</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Maximum number of digits for Dewey notations
+              (676) for imports : 0 = no limit. 3 = limited from 000 to 999. 5
+              (example) limitation 000.0</entry>
+            </row>
+
+            <row>
+              <entry lang="en">mail_methode</entry>
+
+              <entry lang="en">php</entry>
+
+              <entry lang="en">Send email method : php : php mail() function
+              smtp,host:port,auth,user,pass : in smtp, use O or 1 for
+              authentication...</entry>
             </row>
 
             <row>
@@ -2916,8 +3964,8 @@ order by idcode</programlisting>
 
               <entry lang="en">10</entry>
 
-              <entry lang="en">Number of last authorities displayed in the authorities
-              managment</entry>
+              <entry lang="en">Number of recently added authorities displayed
+              in authority managment</entry>
             </row>
 
             <row>
@@ -2925,8 +3973,43 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Automatic borrower card number ? 1 : Yes 0 : No (if using
-              pre-printed cards)</entry>
+              <entry lang="en">Automatic borrower card number ? 1 : Yes 0 : No
+              (if using pre-printed cards)</entry>
+            </row>
+
+            <row>
+              <entry lang="en">opac_url</entry>
+
+              <entry lang="en">./opac_css/</entry>
+
+              <entry lang="en">OPAC URL from the management interface, bu
+              default ./opac_css/</entry>
+            </row>
+
+            <row>
+              <entry lang="en">pdf_font</entry>
+
+              <entry lang="en">Helvetica</entry>
+
+              <entry lang="en">Variable font width for pdf reports -
+              Arial</entry>
+            </row>
+
+            <row>
+              <entry lang="en">pdf_font_fixed</entry>
+
+              <entry lang="en">Courier</entry>
+
+              <entry lang="en">Fixed font width for pdf reports -
+              Courier</entry>
+            </row>
+
+            <row>
+              <entry lang="en">prefill_cote</entry>
+
+              <entry lang="en">custom_cote_02.inc.php</entry>
+
+              <entry lang="en">Custom script for the copy call number</entry>
             </row>
 
             <row>
@@ -2934,8 +4017,17 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Lend if adhesion ending date is reached : 0 Strictly
-              forbidden, 1 POSSIBLE</entry>
+              <entry lang="en">Lend if membership has already lapsed. 0 =
+              Strictly forbidden, 1 = ALLOWED</entry>
+            </row>
+
+            <row>
+              <entry lang="en">pret_express_statut</entry>
+
+              <entry lang="en">2</entry>
+
+              <entry lang="en">Record status for new copies when using fast
+              loans</entry>
             </row>
 
             <row>
@@ -2943,7 +4035,17 @@ order by idcode</programlisting>
 
               <entry lang="en">0</entry>
 
-              <entry lang="en">Advanced lending quotas ? 0 : No 1 : Yes</entry>
+              <entry lang="en">Advanced loan quotas ? 0 : No 1 : Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">recouvrement_auto</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Go to recovery by default in overdue notices if
+              level=3 and should be in 4. 1= Yes, go to recovery by default.
+              0=Do not do anything by default</entry>
             </row>
 
             <row>
@@ -2951,8 +4053,8 @@ order by idcode</programlisting>
 
               <entry lang="en">31</entry>
 
-              <entry lang="en">Number of days before expired adhesion for renewal
-              letters</entry>
+              <entry lang="en">Delay (in days) before renewal letters are
+              issued for memberships about to lapse</entry>
             </row>
 
             <row>
@@ -2960,7 +4062,7 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Avialable documents holding enabled ? 0 : No 1 :
+              <entry lang="en">Enable holds on available documents? 0 = No 1 =
               Yes</entry>
             </row>
 
@@ -2969,8 +4071,8 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Holding avialable even if the lending quota is reached ?
-              0 : No 1 : Yes</entry>
+              <entry lang="en">Allow hold even if the loan quota is reached ?
+              0 = No. 1 = Yes</entry>
             </row>
 
             <row>
@@ -2978,9 +4080,8 @@ order by idcode</programlisting>
 
               <entry lang="en">0</entry>
 
-              <entry lang="en">???Préremplissage du lien des dépouillements avec le lien
-              de la notice mère en catalogage des périodiques ? 0 : No 1 :
-              Yes</entry>
+              <entry lang="en">Prefill analytical entry links with the main
+              entry link when cataloguing serials? 0 : No 1 : Yes</entry>
             </row>
 
             <row>
@@ -2988,8 +4089,62 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Display contextual help in managment part of PMB 1: Yes 0
-              : No</entry>
+              <entry lang="en">Display contextual help in managment interface.
+              1= Yes 0 = No</entry>
+            </row>
+
+            <row>
+              <entry lang="en">type_audit</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Manage/display creation/modification dates of
+              records. 0 = No 1= Creation and latest modification dates 2:
+              Creation and all modification dates</entry>
+            </row>
+
+            <row>
+              <entry lang="en">utiliser_calendrier</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Enable calendar? 1 = Yes 0 = No</entry>
+            </row>
+
+            <row>
+              <entry lang="en">verif_on_line</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">In Administration &gt; Tools &gt; Update
+              database : Check for a more recent version of PMB on line? 0 =
+              No : if you are not connected to the internet 1 = Oui : if you
+              are connected to the internet</entry>
+            </row>
+
+            <row>
+              <entry lang="en">vignette_imagemagick</entry>
+
+              <entry lang="en"></entry>
+
+              <entry lang="en">Path of the ImageMagick exe file
+              (/usr/bin/imagemagick for instance)</entry>
+            </row>
+
+            <row>
+              <entry lang="en">vignette_x</entry>
+
+              <entry lang="en">100</entry>
+
+              <entry lang="en">Width of thumbnail for an e-copy image</entry>
+            </row>
+
+            <row>
+              <entry lang="en">vignette_y</entry>
+
+              <entry lang="en">100</entry>
+
+              <entry lang="en">Height of thumbnail for an e-copy image</entry>
             </row>
           </tbody>
         </tgroup>
@@ -2997,13 +4152,13 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_sauvegarde">
-      <title lang='en'>Backup</title>
+      <title lang="en">Backup</title>
 
-      <para lang='en'>The <emphasis>sauvegarde</emphasis> parameters correspond to the
-      PMB backup procedures.</para>
+      <para lang="en">The <emphasis>sauvegarde</emphasis> parameters
+      correspond to the PMB backup procedures.</para>
 
       <table>
-        <title lang='en'>Sauvegarde type</title>
+        <title lang="en">Backup type</title>
 
         <tgroup cols="3">
           <thead>
@@ -3040,19 +4195,66 @@ order by idcode</programlisting>
     </sect2>
 
     <sect2 id="admin_outils_parametres_thesaurus">
-      <title lang='en'>Thesaurus</title>
+      <title lang="en">Thesaurus</title>
 
-      <para lang='en'></para>
+      <para lang="en">Les paramètres de type <emphasis>thesaurus</emphasis>
+      concernent la gestion multi-thésaurus de PMB.</para>
+
+      <table>
+        <title lang="en">Thesaurus type</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
+
+            <row>
+              <entry lang="en">Sub-type</entry>
+
+              <entry lang="en">Value</entry>
+
+              <entry lang="en">Explanation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry lang="en">defaut</entry>
+
+              <entry lang="en">1</entry>
+
+              <entry lang="en">Default thesaurus ID.</entry>
+            </row>
+
+            <row>
+              <entry lang="en">liste_trad</entry>
+
+              <entry lang="en">fr_FR</entry>
+
+              <entry lang="en">List of languages diaplayed in the thesauri.
+              (ex : fr_FR,en_UK,...,ar).</entry>
+            </row>
+
+            <row>
+              <entry lang="en">mode_pmb</entry>
+
+              <entry lang="en">O</entry>
+
+              <entry lang="en">Thesaurus use level. 0 : Only one thesaurus by
+              default. 1 : Choose among thesauri.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
     </sect2>
 
     <sect2 id="admin_outils_parametres_z3950">
-      <title lang='en'>Z39.50 options</title>
+      <title lang="en">Z39.50 options</title>
 
-      <para lang='en'>The <emphasis>z3950</emphasis> are for z3950 search in the
-      cataloging tab.</para>
+      <para lang="en">The <emphasis>z3950</emphasis> are for z3950 search in
+      the cataloging tab.</para>
 
       <table>
-        <title lang='en'>Z39.50 type</title>
+        <title lang="en">Z39.50 type</title>
 
         <tgroup cols="3">
           <thead>
@@ -3073,8 +4275,26 @@ order by idcode</programlisting>
 
               <entry lang="en">1</entry>
 
-              <entry lang="en">Z39.50 accessible ? 0 : No 1 : Yes, PHP_YAZ module is
-              activated, z3950 search is possible</entry>
+              <entry lang="en">Z39.50 accessible ? 0 : No 1 : Yes, PHP_YAZ
+              module is activated, z3950 search is possible</entry>
+            </row>
+
+            <row>
+              <entry lang="en">debug</entry>
+
+              <entry lang="en">0</entry>
+
+              <entry lang="en">Debug (export file) of records read in Z3950 0:
+              No 1: Yes</entry>
+            </row>
+
+            <row>
+              <entry lang="en">import_modele</entry>
+
+              <entry lang="en">func_other.inc.php</entry>
+
+              <entry lang="en">Function script for imports to use for
+              customizing import with z3950?</entry>
             </row>
           </tbody>
         </tgroup>
