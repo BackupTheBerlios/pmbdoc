@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_misc">
   <chapterinfo>
-	 <releaseinfo>$Id: chap8_outils.xml,v 1.4 2006/09/07 19:05:46 gautier Exp $</releaseinfo> 
+	 <releaseinfo>$Id: chap8_outils.xml,v 1.5 2006/11/02 11:00:07 pickles_1955 Exp $</releaseinfo> 
   </chapterinfo>	
 
   <title lang='fr'>Outils</title>
@@ -1828,7 +1828,9 @@ order by idcode</programlisting>
       nombreux paramètres.</para>
 
       <para lang='fr'>Pour plus de facilité de lecture, ces paramètres ont été regroupés
-      par fonctionnalité au sein de l'OPAC.<table>
+      par fonctionnalité au sein de l'OPAC.</para>
+      
+      <table>
           <title lang='fr'>Options générales de fonctionnement de l'OPAC</title>
 
           <tgroup cols="3">
@@ -1967,7 +1969,7 @@ order by idcode</programlisting>
               </row>
             </tbody>
           </tgroup>
-        </table></para>
+        </table>
 
       <table>
         <title lang='fr'>Informations de la bibliothèque ou du centre de
