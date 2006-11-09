@@ -1,1594 +1,1856 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0'?>
 <chapter id="circ">
-  <title lang='fr'>Circulation des ouvrages</title>
-  <title lang='es'>Circulación de los documentos</title>  
 
-  <para lang='fr'>La circulation des ouvrages dans une bibliothèques désigne la gestion
-  des exemplaires que possède la bibliothèque et leur communication aux
-  lecteurs. On parle souvent également d'opérations de prêt.</para>
-  
-  <para lang='es'>La circulación de los documentos de una biblioteca hace referencia al
-  control de los ejemplares y a la comunicación que se establece entre la
-  biblioteca y sus usuarios. Cuando hablamos de circulación también hablamos
-  de préstamo.</para>  
+  <title lang="fr">Circulation des ouvrages</title>
 
+  <title lang="es">Circulación de los documentos</title>
 
-  <para lang='fr'>Le menu latéral de l'onglet circulation présente 4 rubriques :
-  Circulation, Visualisation, Réservation et Relances (cette dernière
-  uniquement si la Gestion Financière des lecteurs est activée, pour plus
-  d'infos consulter le <emphasis>Guide de l'Administrateur</emphasis>, rubrique <emphasis>Gestion
+  <para lang="fr">La circulation des ouvrages dans une bibliothèques 
+  désigne la gestion des exemplaires que possède la bibliothèque et 
+  leur communication aux lecteurs. On parle souvent également 
+  d&apos;opérations de prêt.</para>
+
+  <para lang="es">La circulación de los documentos de una biblioteca 
+  hace referencia al control de los ejemplares y a la comunicación que 
+  se establece entre la biblioteca y sus usuarios. Cuando hablamos de 
+  circulación también hablamos de préstamo.</para>
+
+  <para lang="fr">Le menu latéral de l&apos;onglet circulation présente 
+  4 rubriques : Circulation, Visualisation, Réservation et Relances 
+  (cette dernière uniquement si la Gestion Financière des lecteurs est 
+  activée, pour plus d&apos;infos consulter le <emphasis>Guide de 
+  l&apos;Administrateur</emphasis>, rubrique <emphasis>Gestion 
   Financière</emphasis>).</para>
-  
-  <para lang='es'>El menú laterial de la pestaña de circulación presenta 4 categorías :
-  Circulación, Visualización, Reserva y Reclamaciones (éste último sólo se
-  muestra si la Gestión Financiera de los usuarios está activada, para más
-  información consulta la Guía del Administrador, apartado Gestión
-  Financiera).</para>
-  
-    
 
-  <para lang='fr'>Dans la partie Circulation vous pouvez gérer les lecteurs et les
-  prêts.</para>
-  
-  <para lang='es'>En la parte de Circulación puedes crear nuevos usuarios y hacer
-  préstamos.</para>
-  
-    
+  <para lang="es">El menú laterial de la pestaña de circulación 
+  presenta 4 categorías : Circulación, Visualización, Reserva y 
+  Reclamaciones (éste último sólo se muestra si la Gestión Financiera 
+  de los usuarios está activada, para más información consulta la Guía 
+  del Administrador, apartado Gestión Financiera).</para>
 
-  <para lang='fr'>La partie Visualisation affiche des informations sur les documents de
-  la bibliothèque.</para>
-  
-  <para lang='es'>La parte Visualización muestra información sobre los documentos de la
-  biblioteca.</para>  
-  
-  
-  
-  <para lang='fr'>La partie Réservation sert à gérer les réservations que font les
-  lecteurs.</para>
-  
-  <para lang='es'>La parte Reserva sirve para crear y administrar las reservas de
-  documentos.</para>  
+  <para lang="fr">Dans la partie Circulation vous pouvez gérer les 
+  lecteurs et les prêts.</para>
 
+  <para lang="es">En la parte de Circulación puedes crear nuevos 
+  usuarios y hacer préstamos.</para>
 
+  <para lang="fr">La partie Visualisation affiche des informations sur 
+  les documents de la bibliothèque.</para>
 
-  <para lang='fr'>La partie Relances vous permet de gérer le niveau de relances de vos
-  lecteurs pour leurs retards.</para>
-  
-  <para lang='es'>La parte Reclamaciones permite administrar las reclamaciones de los
-  usuarios según sus retrasos.</para>  
+  <para lang="es">La parte Visualización muestra información sobre los 
+  documentos de la biblioteca.</para>
 
+  <para lang="fr">La partie Réservation sert à gérer les réservations 
+  que font les lecteurs.</para>
 
+  <para lang="es">La parte Reserva sirve para crear y administrar las 
+  reservas de documentos.</para>
+
+  <para lang="fr">La partie Relances vous permet de gérer le niveau de 
+  relances de vos lecteurs pour leurs retards.</para>
+
+  <para lang="es">La parte Reclamaciones permite administrar las 
+  reclamaciones de los usuarios según sus retrasos.</para>
 
   <sect1 id="circ_circ">
-    <title lang='fr'>Circulation</title>
-    <title lang='es'>Circulación</title>	
+
+    <title lang="fr">Circulation</title>
+
+    <title lang="es">Circulación</title>
 
     <sect2 id="circ_pret">
-      <title lang='fr'>Prêt de document</title>
-      <title lang='es'>Préstar un documento</title>	  
 
-      <para lang='fr'>Le prêt de document est très simple et peut être intégralement
-      réalisé à l'aide d'une douchette. Il suffit de doucheter d'abord le code
-      barre de la carte du lecteur, puis celui des ouvrages empruntés. La
-      douchette remplace la saisie du code barre et la frappe sur la touche
-      "entrée" du clavier.</para>
-	  
-      <para lang='es'>Prestar un documento es muy fácil y se puede realizar con la ayuda
-      de un lector de códigos de barras. Primero hay que introducir el número
-      de carnet del usuario (código de barras), y luego introducir los números
-      de los ejemplares que se quieren prestar. El lector de códigos de barras
-      lee automáticamente los códigos de barras y los introduce
-      directamente.</para>	  
-	  
-      <para lang='fr'>Il faut naturellement avoir déjà des ouvrages et des lecteurs
-      saisis dans la base pour permettre le prêt.</para>
-	  
-      <para lang='es'>Lo único necesario es haber introducido previamente al usuario y
-      los ejemplares para poder realizar el préstamo.</para>	  
+      <title lang="fr">Prêt de document</title>
 
+      <title lang="es">Préstar un documento</title>
+
+      <para lang="fr">Le prêt de document est très simple et peut être 
+      intégralement réalisé à l&apos;aide d&apos;une douchette. Il 
+      suffit de doucheter d&apos;abord le code barre de la carte du 
+      lecteur, puis celui des ouvrages empruntés. La douchette remplace 
+      la saisie du code barre et la frappe sur la touche 
+      &quot;entrée&quot; du clavier.</para>
+
+      <para lang="es">Prestar un documento es muy fácil y se puede 
+      realizar con la ayuda de un lector de códigos de barras. Primero 
+      hay que introducir el número de carnet del usuario (código de 
+      barras), y luego introducir los números de los ejemplares que se 
+      quieren prestar. El lector de códigos de barras lee 
+      automáticamente los códigos de barras y los introduce 
+      directamente.</para>
+
+      <para lang="fr">Il faut naturellement avoir déjà des ouvrages et 
+      des lecteurs saisis dans la base pour permettre le prêt.</para>
+
+      <para lang="es">Lo único necesario es haber introducido 
+      previamente al usuario y los ejemplares para poder realizar el 
+      préstamo.</para>
 
       <sect3 id="circ_pret_1">
-        <title lang='fr'>Recherche d'emprunteur</title>
-        <title lang='es'>Buscar usuario</title>		
 
-        <para lang='fr'>La création des lecteurs et de leurs cartes est expliquée plus
-        loin.</para>
-		
-        <para lang='es'>La explicación sobre cómo crear un usuario y su carnet se
-        explica un poco más abajo.</para>		
+        <title lang="fr">Recherche d&apos;emprunteur</title>
 
+        <title lang="es">Buscar usuario</title>
+
+        <para lang="fr">La création des lecteurs et de leurs cartes est 
+        expliquée plus loin.</para>
+
+        <para lang="es">La explicación sobre cómo crear un usuario y su 
+        carnet se explica un poco más abajo.</para>
 
         <figure>
-          <title lang='fr'>Circulation &gt; Prêt de documents</title>
-          <title lang='es'>Circulación &gt; Préstamo de documentos</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_pret.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Circulation &gt; Prêt de documents</title>
+
+          <title lang="es">Circulación &gt; Préstamo de 
+          documentos</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_pret.gif"/></imageobject></mediaobject>
         </figure>
+
       </sect3>
 
       <sect3 id="circ_pret_2">
-        <title lang='fr'>Résultat de recherche</title>
-        <title lang='es'>Resultados de una búsqueda</title>		
 
-        <para lang='fr'><emphasis role="bold">Exemple</emphasis> prêtons
-        <emphasis>Bac en poche</emphasis> à notre lecteur <emphasis>Chewbacca</emphasis>(code barre de la carte de lecteur
-        100003).</para>
-		
-        <para lang='es'><emphasis role="bold">Ejemplo</emphasis> prestamos 
-        <emphasis>Rwanda : un peuple avec une histoire</emphasis>, de
-        <emphasis>C. M. Overdulve</emphasis>, a nuestro usuario <emphasis>Luke
-        Skywalker </emphasis>(código de barras de carnet de usuario 
-        100003).</para>		
+        <title lang="fr">Résultat de recherche</title>
 
+        <title lang="es">Resultados de una búsqueda</title>
 
-        <para lang='fr'>Son code barre est saisi ou lu par la douchette pour identifier
-        l'emprunteur.</para>
+        <para lang="fr"><emphasis role="bold">Exemple</emphasis> 
+        prêtons <emphasis>Bac en poche</emphasis> à notre lecteur 
+        <emphasis>Chewbacca</emphasis>(code barre de la carte de 
+        lecteur 100003).</para>
 
-        <para lang='es'>El código de barras del usuario puede introducirse manualmente o
-        con el lector de códigos de barras.</para>		
-		
-		
+        <para lang="es"><emphasis role="bold">Ejemplo</emphasis> 
+        prestamos <emphasis>Rwanda : un peuple avec une 
+        histoire</emphasis>, de <emphasis>C. M. Overdulve</emphasis>, a 
+        nuestro usuario <emphasis>Luke Skywalker</emphasis>(código de 
+        barras de carnet de usuario 100003).</para>
 
-        <para lang='fr'>On peut également saisir tout ou partie du nom du lecteur pour
-        le sélectionner dans une liste. Ici contentons nous de saisir la
-        lettre "c" pour Chewbacca.</para>
-		
-        <para lang='es'>También se puede introducir parte o todo el apellido del usuario
-        para seleccionarlo de una lista. En este ejemplo hemos introducido
-        solamente la letra "s" para Skywalker.</para>		
+        <para lang="fr">Son code barre est saisi ou lu par la douchette 
+        pour identifier l&apos;emprunteur.</para>
+
+        <para lang="es">El código de barras del usuario puede 
+        introducirse manualmente o con el lector de códigos de 
+        barras.</para>
+
+        <para lang="fr">On peut également saisir tout ou partie du nom 
+        du lecteur pour le sélectionner dans une liste. Ici contentons 
+        nous de saisir la lettre &quot;c&quot; pour Chewbacca.</para>
+
+        <para lang="es">También se puede introducir parte o todo el 
+        apellido del usuario para seleccionarlo de una lista. En este 
+        ejemplo hemos introducido solamente la letra &quot;s&quot; para 
+        Skywalker.</para>
 
         <figure>
-          <title lang='fr'>Circulation &gt; Prêt (résultats d'une recherche de
-          lecteurs)</title>
-		  
-          <title lang='es'>Circulación &gt; Préstamo (resultados de una búsqueda de
-          usuarios)</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_pret_2.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Circulation &gt; Prêt (résultats d&apos;une 
+          recherche de lecteurs)</title>
+
+          <title lang="es">Circulación &gt; Préstamo (resultados de una 
+          búsqueda de usuarios)</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_pret_2.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'>Cliquez dans la liste des résultats de la recherche sur le
-        lecteur Skywalker.</para>
-		
-        <para lang='es'>Haz clic en la lista de resultados para seleccionar al usuario
-        Skywalker.</para>
-				
+        <para lang="fr">Cliquez dans la liste des résultats de la 
+        recherche sur le lecteur Skywalker.</para>
+
+        <para lang="es">Haz clic en la lista de resultados para 
+        seleccionar al usuario Skywalker.</para>
+
       </sect3>
 
       <sect3 id="circ_lecteur">
-        <title lang='fr'>Fiche lecteur</title>
-        <title lang='es'>Ficha del usuario</title>		
+
+        <title lang="fr">Fiche lecteur</title>
+
+        <title lang="es">Ficha del usuario</title>
 
         <figure>
-          <title lang='fr'>Circulation &gt; Prêt (fiche lecteur)</title>
-		  <title lang='es'>Circulación &gt; Préstamo (ficha usuario)</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_pret_3.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Circulation &gt; Prêt (fiche lecteur)</title>
+
+          <title lang="es">Circulación &gt; Préstamo (ficha 
+          usuario)</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_pret_3.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'>Le code barre d'un exemplaire de <emphasis>Bac en poche</emphasis> est
-        100003.</para>
+        <para lang="fr">Le code barre d&apos;un exemplaire de 
+        <emphasis>Bac en poche</emphasis> est 100003.</para>
 
-        <para lang='es'>El código de barras del ejemplar de Rwanda es
-        33700003286792.</para>		
-		
-		
+        <para lang="es">El código de barras del ejemplar de Rwanda es 
+        33700003286792.</para>
 
-        <para lang='fr'>Il suffit de saisir ce code barre dans le champ "nouveau prêt"
-        pour effectuer le prêt. Saisissez le code barre et validez. Le prêt
-        est alors ajouté dans la liste des prêts en cours.</para>
-		
-        <para lang='es'>Para crear el préstamo, introduce el código de barras en el
-        campo "Hacer un préstamo". El préstamo se añadirá a la lista de
-        préstamos actuales.</para>		
+        <para lang="fr">Il suffit de saisir ce code barre dans le champ 
+        &quot;nouveau prêt&quot; pour effectuer le prêt. Saisissez le 
+        code barre et validez. Le prêt est alors ajouté dans la liste 
+        des prêts en cours.</para>
+
+        <para lang="es">Para crear el préstamo, introduce el código de 
+        barras en el campo &quot;Hacer un préstamo&quot;. El préstamo 
+        se añadirá a la lista de préstamos actuales.</para>
 
         <figure>
-          <title lang='fr'>Circulation &gt; Prêt, prêt ajouté</title>
-		  <title lang='es'>Circulación &gt; Préstamo, préstamo realizado</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_pret_4.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Circulation &gt; Prêt, prêt ajouté</title>
+
+          <title lang="es">Circulación &gt; Préstamo, préstamo 
+          realizado</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_pret_4.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'>Vous pouvez alors annuler le prêt à la volée (dans ce cas, le
-        prêt n'est pas comptabilisé en statistiques, contrairement à un prêt
-        suivi d'un retour même immédiat).</para>
-		
-        <para lang='es'>El programa ofrece también la posibilidad de cancelar el
-        préstamo (hay que tener en cuenta que en este caso el préstamo no se
-        contabiliza en las estadísticas, cosa que no pasa con un préstamo que
-        a continuación de prestarse es devuelto).</para>		
-		
-		
+        <para lang="fr">Vous pouvez alors annuler le prêt à la volée 
+        (dans ce cas, le prêt n&apos;est pas comptabilisé en 
+        statistiques, contrairement à un prêt suivi d&apos;un retour 
+        même immédiat).</para>
 
-        <para lang='fr'>Vous pouvez également imprimer un ticket de prêt. Il s'agit d'un
-        fichier PDF généré par PMB. Sous Windows, le bouton imprimer le ticket
-        de prêt lance le plugin d'affichage Acrobat et affiche un ticket de
-        prêt imprimable mentionnant le lecteur, l'exemplaire emprunté et la
-        date de retour prévue. Il suffit alors de cliquer sur l'icône
-        "imprimer" d'Acrobat pour imprimer ce ticket de prêt.</para>
-		
-        <para lang='es'>El programa permite también imprimir un comprobante de préstamo.
-        En este caso se genera un archivo PDF generado por PMB. Bajo Windows,
-        el botón de imprimir el comprobante inicia el pluggin de mostrar al
-        usuario el comprobante para poderlo visualizar y imprimir. Para
-        imprimirlo hay que hacer clic sobre el icono "imprimir" de
+        <para lang="es">El programa ofrece también la posibilidad de 
+        cancelar el préstamo (hay que tener en cuenta que en este caso 
+        el préstamo no se contabiliza en las estadísticas, cosa que no 
+        pasa con un préstamo que a continuación de prestarse es 
+        devuelto).</para>
+
+        <para lang="fr">Vous pouvez également imprimer un ticket de 
+        prêt. Il s&apos;agit d&apos;un fichier PDF généré par PMB. Sous 
+        Windows, le bouton imprimer le ticket de prêt lance le plugin 
+        d&apos;affichage Acrobat et affiche un ticket de prêt 
+        imprimable mentionnant le lecteur, l&apos;exemplaire emprunté 
+        et la date de retour prévue. Il suffit alors de cliquer sur 
+        l&apos;icône &quot;imprimer&quot; d&apos;Acrobat pour imprimer 
+        ce ticket de prêt.</para>
+
+        <para lang="es">El programa permite también imprimir un 
+        comprobante de préstamo. En este caso se genera un archivo PDF 
+        generado por PMB. Bajo Windows, el botón de imprimir el 
+        comprobante inicia el pluggin de mostrar al usuario el 
+        comprobante para poderlo visualizar y imprimir. Para imprimirlo 
+        hay que hacer clic sobre el icono &quot;imprimir&quot; de 
         Acrobat.</para>
-		
-				
 
-        <para lang='fr'>Le lancement d'Acrobat pour visionner le ticket de prêt peut
-        être parfois lent selon votre machine. Dans ce cas, prenez votre mal
-        en patience ou lancez Acrobat à l'avance.</para>
-		
-        <para lang='es'>El inicio de Acrobat para visualizar el comprobante de préstamo
-        puede ser más o menos lento, dependiendo del funcionamiento de tu
-        ordenador. En los casos que este proceso sea lento, ten paciencia o
-        inicia Acrobat con antelación.</para>
-				
-        <para lang='fr'><emphasis role="bold">Note</emphasis> Si votre ouvrage possède
-        un statut particulier interdisant le prêt, mais que cette interdiction
-        peut être levée, PMB vous demande alors si vous voulez forcer le prêt
-        ou non.</para>
-		
-        <para lang='es'><emphasis role="bold">Nota</emphasis> Si el documento que vas a
-        prestar tiene algún estado especial que no permite el préstamo, pero
-        que sí permite forzar el préstamo, PMB te preguntará si quieres
-        realizar el préstamo o no.</para>
-		
+        <para lang="fr">Le lancement d&apos;Acrobat pour visionner le 
+        ticket de prêt peut être parfois lent selon votre machine. Dans 
+        ce cas, prenez votre mal en patience ou lancez Acrobat à 
+        l&apos;avance.</para>
+
+        <para lang="es">El inicio de Acrobat para visualizar el 
+        comprobante de préstamo puede ser más o menos lento, 
+        dependiendo del funcionamiento de tu ordenador. En los casos 
+        que este proceso sea lento, ten paciencia o inicia Acrobat con 
+        antelación.</para>
+
+        <para lang="fr"><emphasis role="bold">Note</emphasis> Si votre 
+        ouvrage possède un statut particulier interdisant le prêt, mais 
+        que cette interdiction peut être levée, PMB vous demande alors 
+        si vous voulez forcer le prêt ou non.</para>
+
+        <para lang="es"><emphasis role="bold">Nota</emphasis> Si el 
+        documento que vas a prestar tiene algún estado especial que no 
+        permite el préstamo, pero que sí permite forzar el préstamo, 
+        PMB te preguntará si quieres realizar el préstamo o no.</para>
 
         <figure>
-          <title lang='fr'>Exemplaire exclu du pret : possibilité de forcer le
-          prêt</title>
-		  
-          <title lang='es'>Ejemplar excluído de préstamo : posibilidad de forzar el
-          préstamo</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/pret_exclu.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Exemplaire exclu du pret : possibilité de 
+          forcer le prêt</title>
+
+          <title lang="es">Ejemplar excluído de préstamo : posibilidad 
+          de forzar el préstamo</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/pret_exclu.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'>Dans notre exemple, les paramètres de la bibliothèque (nom,
-        adresse, logo) sont configurés pour PMB Services. Ces
-        paramètres sont configurables dans l'onglet administration. Pour plus
-        d'informations, consulter le <emphasis>Guide de l'Administrateur de
-        PMB</emphasis>, section <emphasis>Outils</emphasis>.</para>
-		
-        <para lang='es'>En nuestro ejemplo, los datos de la biblioteca (nombre,
-        dirección, logo) están configurados para PMB Services.
-        Estos datos se configuran desde el apartado de administración. Para
-        más información, consulta la <emphasis>Guía del Administrador de
-        PMB</emphasis>, sección <emphasis>Herramientas</emphasis>.</para>		
+        <para lang="fr">Dans notre exemple, les paramètres de la 
+        bibliothèque (nom, adresse, logo) sont configurés pour PMB 
+        Services. Ces paramètres sont configurables dans l&apos;onglet 
+        administration. Pour plus d&apos;informations, consulter le 
+        <emphasis>Guide de l&apos;Administrateur de PMB</emphasis>, 
+        section <emphasis>Outils</emphasis>.</para>
 
+        <para lang="es">En nuestro ejemplo, los datos de la biblioteca 
+        (nombre, dirección, logo) están configurados para PMB Services. 
+        Estos datos se configuran desde el apartado de administración. 
+        Para más información, consulta la <emphasis>Guía del 
+        Administrador de PMB</emphasis>, sección 
+        <emphasis>Herramientas</emphasis>.</para>
 
-        <para lang='fr'>Autres opérations réalisables depuis la fiche lecteur :</para>
-        <para lang='es'>En la ficha de usuario se pueden realizar otras operaciones :</para>		
+        <para lang="fr">Autres opérations réalisables depuis la fiche 
+        lecteur :</para>
+
+        <para lang="es">En la ficha de usuario se pueden realizar otras 
+        operaciones :</para>
 
         <itemizedlist>
+
           <listitem>
-            <para lang='fr'>Réaliser un prêt express</para>
-            <para lang='es'>Realizar un préstamo rápido</para>			
+
+            <para lang="fr">Réaliser un prêt express</para>
+
+            <para lang="es">Realizar un préstamo rápido</para>
 
             <figure>
-              <title lang='fr'>Bouton Prêt express</title>
-              <title lang='es'>Botón Préstamo rápido</title>			  
 
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/circ_bouton_pret_express.gif" />
-                </imageobject>
-              </mediaobject>
+              <title lang="fr">Bouton Prêt express</title>
+
+              <title lang="es">Botón Préstamo rápido</title>
+
+              <mediaobject><imageobject>
+              <imagedata fileref="images/circ_bouton_pret_express.gif"/></imageobject></mediaobject>
             </figure>
 
-            <para lang='fr'>Le prêt express permet de prêter des ouvrages non
-            catalogués. Cliquez sur Prêt express pour saisir les informations
-            nécessaires au prêt d'un ouvrage non catalogué.</para>
-			
-            <para lang='es'>El préstamo rápido permite prestar de forma rápida
-            documentos que no están catalogados. Haz clic sobre Préstamo
-            rápido para introducir los datos necesarios para poder prestar un
-            documento no catalogado.</para>
-			
-						
+            <para lang="fr">Le prêt express permet de prêter des 
+            ouvrages non catalogués. Cliquez sur Prêt express pour 
+            saisir les informations nécessaires au prêt d&apos;un 
+            ouvrage non catalogué.</para>
+
+            <para lang="es">El préstamo rápido permite prestar de forma 
+            rápida documentos que no están catalogados. Haz clic sobre 
+            Préstamo rápido para introducir los datos necesarios para 
+            poder prestar un documento no catalogado.</para>
 
             <figure>
-              <title lang='fr'>Prêt express</title>
-              <title lang='es'>Préstamo rápido</title>			  
 
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/circ_pret_express.gif" />
-                </imageobject>
-              </mediaobject>
+              <title lang="fr">Prêt express</title>
+
+              <title lang="es">Préstamo rápido</title>
+
+              <mediaobject><imageobject>
+              <imagedata fileref="images/circ_pret_express.gif"/></imageobject></mediaobject>
             </figure>
 
-            <para lang='fr'>Saisissez un titre et un ISBN. Définissez un type de
-            document (pour pouvoir gérer les durées de prêt et les éventuels
-            quotas).</para>
-			
-            <para lang='es'>Introduce un título y un ISBN. Define un tipo de documento
-            (para poder aplicar de forma correcta la duración del préstamo y
-            otras cuotas eventuales).</para>			
+            <para lang="fr">Saisissez un titre et un ISBN. Définissez 
+            un type de document (pour pouvoir gérer les durées de prêt 
+            et les éventuels quotas).</para>
 
+            <para lang="es">Introduce un título y un ISBN. Define un 
+            tipo de documento (para poder aplicar de forma correcta la 
+            duración del préstamo y otras cuotas eventuales).</para>
 
-            <para lang='fr'>Ensuite douchettez votre code barre d'exemplaire, ou
-            saisissez le et validez.</para>
-			
-            <para lang='es'>Después lee con el lector de códigos el código de barras, o
-            introdúcelo manualmente y haz clic sobre Crear registro y
-            prestar.</para>			
+            <para lang="fr">Ensuite douchettez votre code barre 
+            d&apos;exemplaire, ou saisissez le et validez.</para>
 
+            <para lang="es">Después lee con el lector de códigos el 
+            código de barras, o introdúcelo manualmente y haz clic 
+            sobre Crear registro y prestar.</para>
 
-            <para lang='fr'>Vous pourrez ensuite rechercher cet ouvrage et en compléter
-            le catalogage.</para>
-			
-            <para lang='es'>Posteriormente podrás buscar el documento y completar la
-            catalogación.</para>
-			
-						
+            <para lang="fr">Vous pourrez ensuite rechercher cet ouvrage 
+            et en compléter le catalogage.</para>
+
+            <para lang="es">Posteriormente podrás buscar el documento y 
+            completar la catalogación.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Modifier les données du lecteur (permet également de
-            renouveler l'inscription), voir créer un lecteur plus loin.</para>
-			
-            <para lang='es'>Modificar los datos del usuario (permite también renovar el
-            abono del usuario), ver crear un usuario un poco más abajo.</para>			
-			
-			
 
-            <para lang='fr'>Pour modifier les données du lecteur, cliquez sur le bouton
-            <emphasis>modifier</emphasis>.</para>
-			
-            <para lang='es'>Para modificar los datos del usuario, haz clic sobre
-            <emphasis>modificar</emphasis>.</para>
-						
+            <para lang="fr">Modifier les données du lecteur (permet 
+            également de renouveler l&apos;inscription), voir créer un 
+            lecteur plus loin.</para>
+
+            <para lang="es">Modificar los datos del usuario (permite 
+            también renovar el abono del usuario), ver crear un usuario 
+            un poco más abajo.</para>
+
+            <para lang="fr">Pour modifier les données du lecteur, 
+            cliquez sur le bouton <emphasis>modifier</emphasis>.</para>
+
+            <para lang="es">Para modificar los datos del usuario, haz 
+            clic sobre <emphasis>modificar</emphasis>.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Prolonger un prêt existant</para>
-            <para lang='es'>Renovar un préstamo existente</para>			
 
-            <para lang='fr'>Pour prolonger un prêt, cliquez sur le bouton de la date de
-            retour. Dans le popup calendrier qui est ensuite ouvert, choisir
-            la nouvelle date de retour. Dans ce popup, utilisez les flèches
-            pour vous déplacer d'un mois, et les doubles flèches pour vous
-            déplacer d'un an.</para>
+            <para lang="fr">Prolonger un prêt existant</para>
 
-            <para lang='es'>Para renovar un préstamo, haz clic sobre el botón de fecha
-            de retorno. En el calendario, en forma de popup, que se abrirá
-            automáticamente, escoge la nueva fecha de devolución. Utiliza las
-            flechas para desplazarte de mes en mes, y las flechas dobles para
-            desplazarte de año en año.</para>
-			
+            <para lang="es">Renovar un préstamo existente</para>
+
+            <para lang="fr">Pour prolonger un prêt, cliquez sur le 
+            bouton de la date de retour. Dans le popup calendrier qui 
+            est ensuite ouvert, choisir la nouvelle date de retour. 
+            Dans ce popup, utilisez les flèches pour vous déplacer 
+            d&apos;un mois, et les doubles flèches pour vous déplacer 
+            d&apos;un an.</para>
+
+            <para lang="es">Para renovar un préstamo, haz clic sobre el 
+            botón de fecha de retorno. En el calendario, en forma de 
+            popup, que se abrirá automáticamente, escoge la nueva fecha 
+            de devolución. Utiliza las flechas para desplazarte de mes 
+            en mes, y las flechas dobles para desplazarte de año en 
+            año.</para>
 
             <figure>
-              <title lang='fr'>Popup de sélection de date pour prolongation d'un
-              prêt</title>
-			  
-              <title lang='es'>Popup de selección de fecha para renovar un
-              préstamo</title>			  
 
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/prolonger_pret_popup.gif" />
-                </imageobject>
-              </mediaobject>
+              <title lang="fr">Popup de sélection de date pour 
+              prolongation d&apos;un prêt</title>
+
+              <title lang="es">Popup de selección de fecha para renovar 
+              un préstamo</title>
+
+              <mediaobject><imageobject>
+              <imagedata fileref="images/prolonger_pret_popup.gif"/></imageobject></mediaobject>
             </figure>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Prolonger à la volée l'ensemble des prêts. Pour prolonger
-            les prêts, cliquez sur le bouton + pour tout sélectionner, puis
-            cliquez sur le bouton de date "Prolonger le prêt des ouvrages
-            cochés jusqu'au".</para>
-			
-            <para lang='es'>Para renovar todos los préstamos, haz clic sobre el botón +
-            para seleccionar todos los documentos, después haz clic sobre el
-            botón de la fecha que está al lado de "Renovar el préstamo de las
-            obras seleccionadas hasta".</para>			
+
+            <para lang="fr">Prolonger à la volée l&apos;ensemble des 
+            prêts. Pour prolonger les prêts, cliquez sur le bouton + 
+            pour tout sélectionner, puis cliquez sur le bouton de date 
+            &quot;Prolonger le prêt des ouvrages cochés 
+            jusqu&apos;au&quot;.</para>
+
+            <para lang="es">Para renovar todos los préstamos, haz clic 
+            sobre el botón + para seleccionar todos los documentos, 
+            después haz clic sobre el botón de la fecha que está al 
+            lado de &quot;Renovar el préstamo de las obras 
+            seleccionadas hasta&quot;.</para>
 
             <figure>
-              <title lang='fr'>Prolongation des prêts à la volée</title>
-              <title lang='es'>Renovar todos los préstamos a la vez</title>			  
 
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/circ_pret_prolonger.gif" />
-                </imageobject>
-              </mediaobject>
+              <title lang="fr">Prolongation des prêts à la volée</title>
+
+              <title lang="es">Renovar todos los préstamos a la 
+              vez</title>
+
+              <mediaobject><imageobject>
+              <imagedata fileref="images/circ_pret_prolonger.gif"/></imageobject></mediaobject>
             </figure>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Supprimer le lecteur : n'est possible que si le lecteur n'a
-            plus de prêt en cours. Si des prêts sont en cours, leurs retours
-            doivent être effectués avant.</para>
-			
-            <para lang='es'>Suprimir un usuario : no es posible si el usuario tiene
-            algún préstamo en curso. Si tiene préstamos en curso, primero
-            realiza la devolución.</para>
-						
+
+            <para lang="fr">Supprimer le lecteur : n&apos;est possible 
+            que si le lecteur n&apos;a plus de prêt en cours. Si des 
+            prêts sont en cours, leurs retours doivent être effectués 
+            avant.</para>
+
+            <para lang="es">Suprimir un usuario : no es posible si el 
+            usuario tiene algún préstamo en curso. Si tiene préstamos 
+            en curso, primero realiza la devolución.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Imprimer la fiche de prêt : imprime la liste des exemplaires
-            empruntés et les réservations en cours. Pour imprimer la fiche de
-            prêt,</para>
-			
-            <para lang='es'>Imprimir la ficha de préstamos: imprime la lista de
-            documentos en préstamo y las reservas en curso.</para>
-						
+
+            <para lang="fr">Imprimer la fiche de prêt : imprime la 
+            liste des exemplaires empruntés et les réservations en 
+            cours. Pour imprimer la fiche de prêt,</para>
+
+            <para lang="es">Imprimir la ficha de préstamos: imprime la 
+            lista de documentos en préstamo y las reservas en 
+            curso.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Imprimer la carte de lecteur.</para>
-			
-            <para lang='es'>Imprimir el abono de usuario.</para>
-						
+
+            <para lang="fr">Imprimer la carte de lecteur.</para>
+
+            <para lang="es">Imprimir el abono de usuario.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Créer un nouveau lecteur.</para>
-            <para lang='es'>Crear un nuevo usuario.</para>
-						
+
+            <para lang="fr">Créer un nouveau lecteur.</para>
+
+            <para lang="es">Crear un nuevo usuario.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Le bouton Ajouter une réservation permet de réserver un
-            ouvrage.</para>
-			
-            <para lang='es'>El botón Añadir una reserva permite reservar un
-            documento.</para>			
 
-            <para lang='fr'>Après avoir cliqué sur Ajouter une réservation, vous pouvez
-            effectuer une recherche. Une fois l'ouvrage à réserver trouvé,
-            cliquer sur son titre l'insère dans la liste des
-            réservations.</para>
-			
-            <para lang='es'>Después de hacer clic sobre Añadir una reserva, realiza una
-            búsqueda para encontrar la obra a reservar, y una vez encontrada,
-            haz clic sobre ella. Automáticamente se añadirá a la lista de
-            reservas.</para>
-						
+            <para lang="fr">Le bouton Ajouter une réservation permet de 
+            réserver un ouvrage.</para>
+
+            <para lang="es">El botón Añadir una reserva permite 
+            reservar un documento.</para>
+
+            <para lang="fr">Après avoir cliqué sur Ajouter une 
+            réservation, vous pouvez effectuer une recherche. Une fois 
+            l&apos;ouvrage à réserver trouvé, cliquer sur son titre 
+            l&apos;insère dans la liste des réservations.</para>
+
+            <para lang="es">Después de hacer clic sobre Añadir una 
+            reserva, realiza una búsqueda para encontrar la obra a 
+            reservar, y una vez encontrada, haz clic sobre ella. 
+            Automáticamente se añadirá a la lista de reservas.</para>
+
           </listitem>
+
         </itemizedlist>
+
       </sect3>
 
       <sect3>
-        <title lang='fr'>Fiche lecteur avec la gestion financière</title>
-        <title lang='es'>Ficha de usuario con gestión financiera</title>		
 
+        <title lang="fr">Fiche lecteur avec la gestion 
+        financière</title>
 
-        <para lang='fr'>L'activation de la gestion financière affiche l'état des comptes
-        du lecteur sous ses informations personnelles.</para>
-		
-        <para lang='es'>La activación de la gestión financiera muestra el estado de las
-        cuentas del usuario y su información personal.</para>
-				
+        <title lang="es">Ficha de usuario con gestión financiera</title>
 
-        <para lang='fr'><inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="images/warning.gif" />
-            </imageobject>
-          </inlinemediaobject> Si vous ne voyez pas la liste des trois
-        comptes, la gestion financière des lecteurs n'a pas été activée. Pour
-        plus d'informations, consulter le <emphasis>Guide de l'Administrateur PMB</emphasis>,
-        chapitre <emphasis>Gestion financière des lecteurs</emphasis>.</para>
-		
-        <para lang='es'><inlinemediaobject>
-            <imageobject>
-              <imagedata fileref="images/warning.gif" />
-            </imageobject>
-          </inlinemediaobject> Si no ves la lista de las tres cuentas, es que
-        la gestión financiera de los usuarios no está activada. Para más
-        información, consulta la Guía del administrador PMB, capítulo Gestión
-        financiera de los usuarios.</para>
-		
+        <para lang="fr">L&apos;activation de la gestion financière 
+        affiche l&apos;état des comptes du lecteur sous ses 
+        informations personnelles.</para>
+
+        <para lang="es">La activación de la gestión financiera muestra 
+        el estado de las cuentas del usuario y su información 
+        personal.</para>
+
+        <para lang="fr"><inlinemediaobject><imageobject>
+        <imagedata fileref="images/warning.gif"/></imageobject></inlinemediaobject> 
+        Si vous ne voyez pas la liste des trois comptes, la gestion 
+        financière des lecteurs n&apos;a pas été activée. Pour plus 
+        d&apos;informations, consulter le <emphasis>Guide de 
+        l&apos;Administrateur PMB</emphasis>, chapitre 
+        <emphasis>Gestion financière des lecteurs</emphasis>.</para>
+
+        <para lang="es"><inlinemediaobject><imageobject>
+        <imagedata fileref="images/warning.gif"/></imageobject></inlinemediaobject> 
+        Si no ves la lista de las tres cuentas, es que la gestión 
+        financiera de los usuarios no está activada. Para más 
+        información, consulta la Guía del administrador PMB, capítulo 
+        Gestión financiera de los usuarios.</para>
 
         <figure>
-          <title lang='fr'>Fiche lecteur avec la liste des comptes</title>
-          <title lang='es'>Ficha de usuario con la lista de cuentas</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_lecteur_fin_1.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Fiche lecteur avec la liste des 
+          comptes</title>
+
+          <title lang="es">Ficha de usuario con la lista de 
+          cuentas</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_lecteur_fin_1.gif"/></imageobject></mediaobject>
         </figure>
-				
+
       </sect3>
+
     </sect2>
 
     <sect2 id="pret_gesfin">
-      <title lang='fr'>Prêt de documents et gestion financière</title>
-      <title lang='es'>Préstamo de documentos y gestión financiera</title>	  
 
+      <title lang="fr">Prêt de documents et gestion financière</title>
 
-      <para lang='fr'>Le paramétrage de la gestion
-      financière des lecteurs dans PMB se fait dans l'onglet Administration, via Outils > Paramètres.
-      Seule son utilisation au quotidien est décrite ici.</para>
-	  
-      <para lang='es'>Para más información sobre la parametrización de la gestión
-      financiera de los usuarios en PMB, consulta la Guía del administrador
-      PMB, capítulo <emphasis>Gestión financiera</emphasis>.</para>	  
+      <title lang="es">Préstamo de documentos y gestión 
+      financiera</title>
+
+      <para lang="fr">Le paramétrage de la gestion financière des 
+      lecteurs dans PMB se fait dans l&apos;onglet Administration, via 
+      Outils &gt; Paramètres. Seule son utilisation au quotidien est 
+      décrite ici.</para>
+
+      <para lang="es">Para más información sobre la parametrización de 
+      la gestión financiera de los usuarios en PMB, consulta la Guía 
+      del administrador PMB, capítulo <emphasis>Gestión 
+      financiera</emphasis>.</para>
 
       <sect3>
-        <title lang='fr'>Création d'un lecteur et débit du compte du lecteur du montant
-        de l'abonnement</title>
-		
-        <title lang='es'>Creación de un usuario y gestión financiera de la cuenta de
-        usuario</title>		
 
+        <title lang="fr">Création d&apos;un lecteur et débit du compte 
+        du lecteur du montant de l&apos;abonnement</title>
 
-        <para lang='fr'>Si vous créez un nouveau lecteur adulte, par exemple Jar-Jar
-        Bings, et que vous avez fixé un tarif d'adhésion pour le type de
-        lecteur "adulte", à la création de ce lecteur, son compte adhésion
-        sera débité du montant correspondant.</para>
-		
-        <para lang='es'>Si creas un nuevo usuario adulto, por ejemplo Jar-Jar Bings, y
-        has fijado una tarifa de inicio para el tipo de usuario "adulto",
-        cuando crees a este usuario, su cuenta se iniciará debiendo ese
-        importe.</para>
-		
+        <title lang="es">Creación de un usuario y gestión financiera de 
+        la cuenta de usuario</title>
 
-        <figure>
-          <title lang='fr'>Création d'un nouveau lecteur</title>
-          <title lang='es'>Creación de un nuevo usuario</title>		  
+        <para lang="fr">Si vous créez un nouveau lecteur adulte, par 
+        exemple Jar-Jar Bings, et que vous avez fixé un tarif 
+        d&apos;adhésion pour le type de lecteur &quot;adulte&quot;, à 
+        la création de ce lecteur, son compte adhésion sera débité du 
+        montant correspondant.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_nouveau_fin.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para lang='fr'><emphasis role="bold">En bref</emphasis> Pour plus
-        d'informations sur la création des lecteurs, consulter dans ce
-        chapitre la section <emphasis>Nouveau lecteur</emphasis>.</para>
-		
-        <para lang='es'><emphasis role="bold">Próximamente</emphasis> Para más
-        información sobre la creación de usuarios, consulta en este capítulo
-        la sección<emphasis> Nuevo usuario</emphasis>.</para>		
+        <para lang="es">Si creas un nuevo usuario adulto, por ejemplo 
+        Jar-Jar Bings, y has fijado una tarifa de inicio para el tipo 
+        de usuario &quot;adulto&quot;, cuando crees a este usuario, su 
+        cuenta se iniciará debiendo ese importe.</para>
 
         <figure>
-          <title lang='fr'>Fiche lecteur</title>
-          <title lang='es'>Ficha usuario</title>
-		  		  
-		  
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_lecteur_fin2.gif" />
-            </imageobject>
-          </mediaobject>
+
+          <title lang="fr">Création d&apos;un nouveau lecteur</title>
+
+          <title lang="es">Creación de un nuevo usuario</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_nouveau_fin.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'>Le compte abonnement du lecteur créé est débité du montant de
-        l'adhésion. Pour saisir le paiement de l'adhésion, cliquez sur
-        <emphasis role="bold">Solde abonnement</emphasis>.</para>
-		
-        <para lang='es'>LLa cuenta de usuario se crea debiendo la cantidad del importe
-        inicial. Para realizar el pago, haz clic sobre <emphasis
-        role="bold">Saldo abono</emphasis>.</para>
-				
+        <para lang="fr"><emphasis role="bold">En bref</emphasis> Pour 
+        plus d&apos;informations sur la création des lecteurs, 
+        consulter dans ce chapitre la section <emphasis>Nouveau 
+        lecteur</emphasis>.</para>
+
+        <para lang="es"><emphasis role="bold">Próximamente</emphasis> 
+        Para más información sobre la creación de usuarios, consulta en 
+        este capítulo la sección<emphasis>Nuevo 
+        usuario</emphasis>.</para>
+
+        <figure>
+
+          <title lang="fr">Fiche lecteur</title>
+
+          <title lang="es">Ficha usuario</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_lecteur_fin2.gif"/></imageobject></mediaobject>
+        </figure>
+
+        <para lang="fr">Le compte abonnement du lecteur créé est débité 
+        du montant de l&apos;adhésion. Pour saisir le paiement de 
+        l&apos;adhésion, cliquez sur <emphasis role="bold">Solde 
+        abonnement</emphasis>.</para>
+
+        <para lang="es">LLa cuenta de usuario se crea debiendo la 
+        cantidad del importe inicial. Para realizar el pago, haz clic 
+        sobre <emphasis role="bold">Saldo abono</emphasis>.</para>
+
       </sect3>
 
       <sect3 id="solde_abonnement">
-        <title lang='fr'>Solde abonnement : saisir le paiement de l'abonnement</title>
-        <title lang='es'>Saldo abono : realizar el pago por iniciar la cuenta de
-        usuario</title>		
+
+        <title lang="fr">Solde abonnement : saisir le paiement de 
+        l&apos;abonnement</title>
+
+        <title lang="es">Saldo abono : realizar el pago por iniciar la 
+        cuenta de usuario</title>
 
         <figure>
-          <title lang='fr'>Compte abonnement du lecteur</title>
-          <title lang='es'>Cuenta del usuario</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_lecteur_fin_3.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Compte abonnement du lecteur</title>
+
+          <title lang="es">Cuenta del usuario</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_lecteur_fin_3.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'>Si le compte du lecteur est négatif, différentes opérations sont
-        réalisables :</para>
-		
-        <para lang='es'>Si la cuenta del usuario es negativa, se pueden realizar
-        diferentes operaciones :</para>		
+        <para lang="fr">Si le compte du lecteur est négatif, 
+        différentes opérations sont réalisables :</para>
+
+        <para lang="es">Si la cuenta del usuario es negativa, se pueden 
+        realizar diferentes operaciones :</para>
 
         <itemizedlist>
+
           <listitem>
-            <para lang='fr'>Encaissement rapide : permet de saisir rapidement le
-            règlement d'un lecteur. Lors de l'encaissement rapide, toutes les
-            transactions sont automatiquement validées. Cliquez sur
-            Encaissement rapide et saisissez le montant payé par le
-            lecteur.</para>
-			
-            <para lang='es'>Cobro rápido : permite introducir rápidamente las normas de
-            cobro de un lector. Después de un cobro rápido, todas las
-            operaciones son automáticamente validadas. Haz clic sobre Cobro
-            rápido y introduce la cantadid pagada por el usuario.</para>
-						
+
+            <para lang="fr">Encaissement rapide : permet de saisir 
+            rapidement le règlement d&apos;un lecteur. Lors de 
+            l&apos;encaissement rapide, toutes les transactions sont 
+            automatiquement validées. Cliquez sur Encaissement rapide 
+            et saisissez le montant payé par le lecteur.</para>
+
+            <para lang="es">Cobro rápido : permite introducir 
+            rápidamente las normas de cobro de un lector. Después de un 
+            cobro rápido, todas las operaciones son automáticamente 
+            validadas. Haz clic sobre Cobro rápido y introduce la 
+            cantadid pagada por el usuario.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Encaisser : permet de saisir un paiement. La transaction
-            n'est pas validée automatiquement.</para>
-			
-            <para lang='es'>Ingresar : permite introducir un pago. La operación no se
-            valida automáticamente.</para>
-									
+
+            <para lang="fr">Encaisser : permet de saisir un paiement. 
+            La transaction n&apos;est pas validée 
+            automatiquement.</para>
+
+            <para lang="es">Ingresar : permite introducir un pago. La 
+            operación no se valida automáticamente.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Valider les transactions cochées : valide une
-            transaction.</para>
-			
-            <para lang='es'>Validar las operaciones seleccionadas : valida una
-            operación.</para>
-						
+
+            <para lang="fr">Valider les transactions cochées : valide 
+            une transaction.</para>
+
+            <para lang="es">Validar las operaciones seleccionadas : 
+            valida una operación.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Supprimer les transactions cochées</para>
-            <para lang='es'>Suprimir las operaciones seleccionadas</para>			
-			
+
+            <para lang="fr">Supprimer les transactions cochées</para>
+
+            <para lang="es">Suprimir las operaciones 
+            seleccionadas</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>Opération spéciale</para>
-            <para lang='es'>Operación especial</para>			
+
+            <para lang="fr">Opération spéciale</para>
+
+            <para lang="es">Operación especial</para>
 
             <figure>
-              <title lang='fr'>Opération spéciale en gestion financière.</title>
-              <title lang='es'>Operación especial en la gestión financiera.</title>			  
 
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/circ_lecteur_fin_specops.gif" />
-                </imageobject>
-              </mediaobject>
+              <title lang="fr">Opération spéciale en gestion 
+              financière.</title>
+
+              <title lang="es">Operación especial en la gestión 
+              financiera.</title>
+
+              <mediaobject><imageobject>
+              <imagedata fileref="images/circ_lecteur_fin_specops.gif"/></imageobject></mediaobject>
             </figure>
 
-            <para lang='fr'>Les opérations spéciales permettent notamment de :</para>
-            <para lang='es'>Las operaciones especiales permiten :</para>			
+            <para lang="fr">Les opérations spéciales permettent 
+            notamment de :</para>
+
+            <para lang="es">Las operaciones especiales permiten :</para>
 
             <itemizedlist>
+
               <listitem>
-                <para lang='fr'>créditer le compte ("cadeau" fait au lecteur) et
-                éventuellement de passer le montant en perte. Dans ce dernier
-                cas, le montant est décaissé du compte de la
-                bibliothèque.</para>
-				
-                <para lang='es'>créditer le compte ("cadeau" fait au lecteur) et
-                éventuellement de passer le montant en perte. Dans ce dernier
-                cas, le montant est décaissé du compte de la
-                bibliothèque.</para>
-								
+
+                <para lang="fr">créditer le compte (&quot;cadeau&quot; 
+                fait au lecteur) et éventuellement de passer le montant 
+                en perte. Dans ce dernier cas, le montant est décaissé 
+                du compte de la bibliothèque.</para>
+
+                <para lang="es">créditer le compte (&quot;cadeau&quot; 
+                fait au lecteur) et éventuellement de passer le montant 
+                en perte. Dans ce dernier cas, le montant est décaissé 
+                du compte de la bibliothèque.</para>
+
               </listitem>
 
               <listitem>
-                <para lang='fr'>débiter le compte ("sanction" faite au lecteur).</para>
-                <para lang='es'>débiter le compte ("sanction" faite au lecteur).</para>				
+
+                <para lang="fr">débiter le compte (&quot;sanction&quot; 
+                faite au lecteur).</para>
+
+                <para lang="es">débiter le compte (&quot;sanction&quot; 
+                faite au lecteur).</para>
+
               </listitem>
 
               <listitem>
-                <para lang='fr'>créditer le compte et encaisser : saisir un paiement du
-                lecteur</para>
-                <para lang='es'>créditer le compte et encaisser : saisir un paiement du
-                lecteur</para>				
+
+                <para lang="fr">créditer le compte et encaisser : 
+                saisir un paiement du lecteur</para>
+
+                <para lang="es">créditer le compte et encaisser : 
+                saisir un paiement du lecteur</para>
+
               </listitem>
 
               <listitem>
-                <para lang='fr'>débiter le compte et décaisser : saisir une amende pour
-                le lecteur et éventuellement la passer en perte. Dans ce
-                dernier cas, le montant est décaissé du compte de la
-                bibliothèque. Ceci permet notamment de rendre compte d'une
-                amende pour détérioration d'un ouvrage.</para>
-				
-                <para lang='es'>débiter le compte et décaisser : saisir une amende pour
-                le lecteur et éventuellement la passer en perte. Dans ce
-                dernier cas, le montant est décaissé du compte de la
-                bibliothèque. Ceci permet notamment de rendre compte d'une
-                amende pour détérioration d'un ouvrage.</para>				
+
+                <para lang="fr">débiter le compte et décaisser : saisir 
+                une amende pour le lecteur et éventuellement la passer 
+                en perte. Dans ce dernier cas, le montant est décaissé 
+                du compte de la bibliothèque. Ceci permet notamment de 
+                rendre compte d&apos;une amende pour détérioration 
+                d&apos;un ouvrage.</para>
+
+                <para lang="es">débiter le compte et décaisser : saisir 
+                une amende pour le lecteur et éventuellement la passer 
+                en perte. Dans ce dernier cas, le montant est décaissé 
+                du compte de la bibliothèque. Ceci permet notamment de 
+                rendre compte d&apos;une amende pour détérioration 
+                d&apos;un ouvrage.</para>
+
               </listitem>
+
             </itemizedlist>
+
           </listitem>
+
         </itemizedlist>
 
-        <para lang='fr'>Dans notre exemple, pour saisir le paiement de la cotisation de
-        5 € du lecteur Jar-Jar Bings, cliquez sur Encaissement rapide et
-        saisissez le montant du paiement.</para>
-		
-        <para lang='es'>En nuestro ejemplo, para introducir el pago de 5 € del usuario
-        Jar-Jar Bings, haz clic en Cobro rápido y introduce el total del
-        pago.</para>		
+        <para lang="fr">Dans notre exemple, pour saisir le paiement de 
+        la cotisation de 5 € du lecteur Jar-Jar Bings, cliquez sur 
+        Encaissement rapide et saisissez le montant du paiement.</para>
 
+        <para lang="es">En nuestro ejemplo, para introducir el pago de 
+        5 € del usuario Jar-Jar Bings, haz clic en Cobro rápido y 
+        introduce el total del pago.</para>
 
-        <para lang='fr'><emphasis role="bold">Note</emphasis> : vous pouvez à tout
-        moment revenir sur la fiche du lecteur en cliquant sur le lien
-        <emphasis role="bold">Retourner à la fiche du
-        lecteur</emphasis>.</para>
-		
-        <para lang='es'><emphasis role="bold">Nota</emphasis> : en todo momento puedes
-        volver a a ficha del usuario haciendo clic en <emphasis
-        role="bold">Volver a la ficha de usuario</emphasis>.</para>
-		
+        <para lang="fr"><emphasis role="bold">Note</emphasis> : vous 
+        pouvez à tout moment revenir sur la fiche du lecteur en 
+        cliquant sur le lien <emphasis role="bold">Retourner à la fiche 
+        du lecteur</emphasis>.</para>
+
+        <para lang="es"><emphasis role="bold">Nota</emphasis> : en todo 
+        momento puedes volver a a ficha del usuario haciendo clic en 
+        <emphasis role="bold">Volver a la ficha de 
+        usuario</emphasis>.</para>
+
       </sect3>
 
       <sect3>
-        <title lang='fr'>Prêt de document et débit du compte du lecteur du montant d'un
-        prêt</title>
-        <title lang='es'>Préstamo de documentos y descuento de la cuenta del usuario del
-        coste del préstamo</title>		
 
+        <title lang="fr">Prêt de document et débit du compte du lecteur 
+        du montant d&apos;un prêt</title>
 
-        <para lang='fr'>Si coût du prêt d'un DVD est fixé à 3 €, lors du prêt d'un DVD à
-        notre lecteur, son compte prêts sera débité du montant
-        correspondant.</para>
-		
-        <para lang='es'>Si el precio del préstamo de un DVD es de 3 €, cuando efectuemos
-        el préstamo a nuestro usuario su cuenta deberá la cantidad
-        correspondiente.</para>		
+        <title lang="es">Préstamo de documentos y descuento de la 
+        cuenta del usuario del coste del préstamo</title>
+
+        <para lang="fr">Si coût du prêt d&apos;un DVD est fixé à 3 €, 
+        lors du prêt d&apos;un DVD à notre lecteur, son compte prêts 
+        sera débité du montant correspondant.</para>
+
+        <para lang="es">Si el precio del préstamo de un DVD es de 3 €, 
+        cuando efectuemos el préstamo a nuestro usuario su cuenta 
+        deberá la cantidad correspondiente.</para>
 
         <figure>
-          <title lang='fr'>Prêt d'un document au lecteur</title>
-          <title lang='es'>Préstamo de un documento al usuario</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_lecteur_fin_4_pret.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Prêt d&apos;un document au lecteur</title>
+
+          <title lang="es">Préstamo de un documento al usuario</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_lecteur_fin_4_pret.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'><emphasis role="bold">Note</emphasis> pour plus d'information
-        sur le prêt de documents, consulter dans ce chapitre la section
-        <emphasis>Prêt de documents</emphasis>.</para>
-		
-        <para lang='es'><emphasis role="bold">Nota</emphasis> para más información sobre
-        el préstamo de documentos, consulta en este capítulo la sección
-        <emphasis>Préstamo de documentos</emphasis>.</para>		
+        <para lang="fr"><emphasis role="bold">Note</emphasis> pour plus 
+        d&apos;information sur le prêt de documents, consulter dans ce 
+        chapitre la section <emphasis>Prêt de 
+        documents</emphasis>.</para>
+
+        <para lang="es"><emphasis role="bold">Nota</emphasis> para más 
+        información sobre el préstamo de documentos, consulta en este 
+        capítulo la sección <emphasis>Préstamo de 
+        documentos</emphasis>.</para>
+
       </sect3>
 
       <sect3>
-        <title lang='fr'>Solde prêt : saisir le paiement du prêt de document</title>
-        <title lang='es'>Pago de los préstamos : introducir el pago de un préstamo de un
-        documento</title>		
 
+        <title lang="fr">Solde prêt : saisir le paiement du prêt de 
+        document</title>
 
-        <para lang='fr'>Les prix des prêts sont toujours fixés sans être validés. Pour
-        valider la transaction, cliquez sur <emphasis role="bold">Solde prêt
-        de documents</emphasis>. Vous pouvez la valider ou la supprimer en
-        cochant la case de sélection et en choisissant l'action
-        appropriée.</para>
-		
-        <para lang='es'>Los precios de los préstamos están siempre fijados y no han de
-        ser validados. Para validar una operación, haz clic en <emphasis
-        role="bold">Pago de los préstamos</emphasis>. Puedes validar o
-        suprimir la operación marcando la casilla y escogiendo la acción
-        apropiada.</para>		
+        <title lang="es">Pago de los préstamos : introducir el pago de 
+        un préstamo de un documento</title>
 
+        <para lang="fr">Les prix des prêts sont toujours fixés sans 
+        être validés. Pour valider la transaction, cliquez sur 
+        <emphasis role="bold">Solde prêt de documents</emphasis>. Vous 
+        pouvez la valider ou la supprimer en cochant la case de 
+        sélection et en choisissant l&apos;action appropriée.</para>
 
-        <para lang='fr'>Pour plus d'informations sur les différentes possibilités
-        d'actions (encaissement, décaissement, ...) consulter plus haut la
-        section <link linkend="solde_abonnement"><emphasis>Solde
+        <para lang="es">Los precios de los préstamos están siempre 
+        fijados y no han de ser validados. Para validar una operación, 
+        haz clic en <emphasis role="bold">Pago de los 
+        préstamos</emphasis>. Puedes validar o suprimir la operación 
+        marcando la casilla y escogiendo la acción apropiada.</para>
+
+        <para lang="fr">Pour plus d&apos;informations sur les 
+        différentes possibilités d&apos;actions (encaissement, 
+        décaissement, ...) consulter plus haut la section 
+        <link linkend="solde_abonnement"><emphasis>Solde 
         abonnement</emphasis></link>.</para>
-		
-        <para lang='es'>Para más información sobre las diferentes acciones (cobro, pago
-        ...) consulta un poco más arriba <link
-        linkend="solde_abonnement"><emphasis>Saldo del
+
+        <para lang="es">Para más información sobre las diferentes 
+        acciones (cobro, pago ...) consulta un poco más arriba 
+        <link linkend="solde_abonnement"><emphasis>Saldo del 
         abono</emphasis></link>.</para>
-				
+
       </sect3>
 
       <sect3>
-        <title lang='fr'>Retour de document en retard : blocage de prêt et
+
+        <title lang="fr">Retour de document en retard : blocage de prêt 
+        et amendes</title>
+
+        <title lang="es">Devolución de un documento con retraso: 
+        bloqueo del préstamo y multas</title>
+
+        <para lang="fr">Lors du retour d&apos;un document en retard, 
+        selon le paramétrage réalisé dans l&apos;onglet Administration, 
+        un blocage du prêt pour le lecteur peut être réalisé. De même 
+        selon vos paramètres, des amendes peuvent être octroyées.</para>
+
+        <para lang="es">Al devolver un documento con retraso, según los 
+        parámetros introducidos en la pestaña Administración, el 
+        usuario puede quedar automáticamente bloqueado. Dependiendo 
+        también de los parámetros introducidos, pueden activarse las 
+        multas.</para>
+
+        <para lang="fr">Le paiement se gère comme pour toutes les 
+        autres transactions depuis la fiche du lecteur.</para>
+
+        <para lang="es">El pago se realiza como el resto de 
+        transacciones, a través de la ficha de usuario.</para>
+
+      </sect3>
+
+      <sect3>
+
+        <title lang="fr">Solde amendes : gérer le paiement des 
         amendes</title>
-		
-        <title lang='es'>Devolución de un documento con retraso: bloqueo del préstamo y
-        multas</title>		
 
+        <title lang="es">Cobro de multas : generar los pagos de las 
+        multas</title>
 
-        <para lang='fr'>Lors du retour d'un document en retard, selon le paramétrage
-        réalisé dans l'onglet Administration, un blocage du prêt pour le
-        lecteur peut être réalisé. De même selon vos paramètres, des amendes
-        peuvent être octroyées.</para>
-		
-        <para lang='es'>Al devolver un documento con retraso, según los parámetros
-        introducidos en la pestaña Administración, el usuario puede quedar
-        automáticamente bloqueado. Dependiendo también de los parámetros
-        introducidos, pueden activarse las multas.</para>		
-
-
-        <para lang='fr'>Le paiement se gère comme pour toutes les autres transactions
-        depuis la fiche du lecteur.</para>
-		
-        <para lang='es'>El pago se realiza como el resto de transacciones, a través de
-        la ficha de usuario.</para>		
-		
-      </sect3>
-
-      <sect3>
-        <title lang='fr'>Solde amendes : gérer le paiement des amendes</title>
-        <title lang='es'>Cobro de multas : generar los pagos de las multas</title>		
-
-        <para lang='fr'>Pour plus d'informations sur les différentes possibilités
-        d'actions (encaissement, décaissement, ...) consulter plus haut la
-        section <link linkend="solde_abonnement"><emphasis>Solde
+        <para lang="fr">Pour plus d&apos;informations sur les 
+        différentes possibilités d&apos;actions (encaissement, 
+        décaissement, ...) consulter plus haut la section 
+        <link linkend="solde_abonnement"><emphasis>Solde 
         abonnement</emphasis></link>.</para>
-		
-        <para lang='es'>Para más información sobre las diferentes posibilidades de
-        acciones (cobro, pago, ...) consulta un poco más arriba la sección
-        <link linkend="solde_abonnement"><emphasis>Saldo del
-        abono</emphasis></link>.</para>
-				
+
+        <para lang="es">Para más información sobre las diferentes 
+        posibilidades de acciones (cobro, pago, ...) consulta un poco 
+        más arriba la sección <link linkend="solde_abonnement">
+        <emphasis>Saldo del abono</emphasis></link>.</para>
+
       </sect3>
+
     </sect2>
 
     <sect2 id="circ_retour">
-      <title lang='fr'>Retour de document</title>
-      <title lang='es'>Devolución de un documento</title>	  
 
-      <para lang='fr'>Pour enregistrer le retour d'un document, vous devez 
-      douchetter le code barre du document retourné ou le saisir et cliquer sur suivant. 
-      La carte de lecteur
-      n'est pas nécessaire.</para>
-	  
-      <para lang='es'>Para hacer la devolución de un libro sólo es necesario introducir
-      el código de barras. No se necesita el carné de usuario.</para>	  
+      <title lang="fr">Retour de document</title>
 
+      <title lang="es">Devolución de un documento</title>
 
-      <figure>
-        <title lang='fr'>Circulation &gt; Retour de documents</title>
-        <title lang='es'>Circulación &gt; Devolución de documentos</title>		
+      <para lang="fr">Pour enregistrer le retour d&apos;un document, 
+      vous devez douchetter le code barre du document retourné ou le 
+      saisir et cliquer sur suivant. La carte de lecteur n&apos;est pas 
+      nécessaire.</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_retour.gif" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para lang='fr'>Un message de confirmation est affiché pour permettre de vérifier
-      éventuellement que le code barre correspond bien à l'ouvrage
-      rendu.</para>
-	  
-      <para lang='es'>Cuando se realiza una devolución, se muestra un mensaje de
-      confirmación para verificar que la devolución se ha hecho de forma
-      correcta y que el código de barras introducido corresponde a la obra en
-      cuestión.</para>	  
+      <para lang="es">Para hacer la devolución de un libro sólo es 
+      necesario introducir el código de barras. No se necesita el carné 
+      de usuario.</para>
 
       <figure>
-        <title lang='fr'>Circulation &gt; Retour de documents, confirmation d'un retour
-        effectué</title>
-		
-        <title lang='es'>Circulación &gt; Devolución de documentos, confirmación
-        realizada</title>		
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_retour2.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Circulation &gt; Retour de documents</title>
+
+        <title lang="es">Circulación &gt; Devolución de 
+        documentos</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_retour.gif"/></imageobject></mediaobject>
       </figure>
 
-      <para lang='fr'>Cet affichage donne le nom du lecteur qui a rendu l'ouvrage.
-      Le bouton "voir" permet d'accéder à sa fiche lecteur. Par
-      exemple pour ensuite saisir ses prêts.</para>
-	  
-      <para lang='es'>Esta pantalla muestra el nombre del usuario que ha devuelto el
-      documento. Desde aquí se puede acceder directamente a la la ficha del
-      usuario. Ésto es útil cuando después de devolver libros, el usuario
-      quiere volver a coger libros en préstamo.</para>	  
+      <para lang="fr">Un message de confirmation est affiché pour 
+      permettre de vérifier éventuellement que le code barre correspond 
+      bien à l&apos;ouvrage rendu.</para>
 
-      <para lang='fr'>Sont également affichés :</para>
-      <para lang='es'>También se muestran :</para>	  
+      <para lang="es">Cuando se realiza una devolución, se muestra un 
+      mensaje de confirmación para verificar que la devolución se ha 
+      hecho de forma correcta y que el código de barras introducido 
+      corresponde a la obra en cuestión.</para>
+
+      <figure>
+
+        <title lang="fr">Circulation &gt; Retour de documents, 
+        confirmation d&apos;un retour effectué</title>
+
+        <title lang="es">Circulación &gt; Devolución de documentos, 
+        confirmación realizada</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_retour2.gif"/></imageobject></mediaobject>
+      </figure>
+
+      <para lang="fr">Cet affichage donne le nom du lecteur qui a rendu 
+      l&apos;ouvrage. Le bouton &quot;voir&quot; permet d&apos;accéder 
+      à sa fiche lecteur. Par exemple pour ensuite saisir ses 
+      prêts.</para>
+
+      <para lang="es">Esta pantalla muestra el nombre del usuario que 
+      ha devuelto el documento. Desde aquí se puede acceder 
+      directamente a la la ficha del usuario. Ésto es útil cuando 
+      después de devolver libros, el usuario quiere volver a coger 
+      libros en préstamo.</para>
+
+      <para lang="fr">Sont également affichés :</para>
+
+      <para lang="es">También se muestran :</para>
 
       <itemizedlist>
+
         <listitem>
-          <para lang='fr'>le type d'exemplaire, la localisation, la section et la cote
-          de l'exemplaire rendu.</para>
-		  
-          <para lang='es'>el tipo de ejemplar, la localización, la sección y la
-          signatura del ejemplar</para>
-		  		  
+
+          <para lang="fr">le type d&apos;exemplaire, la localisation, 
+          la section et la cote de l&apos;exemplaire rendu.</para>
+
+          <para lang="es">el tipo de ejemplar, la localización, la 
+          sección y la signatura del ejemplar</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>si le retour est en retard, le nombre de jours de
-          retard</para>
-		  
-          <para lang='es'>si la devolución se ha hecho con retraso, el número de días de
-          retraso</para>
-		  		  
+
+          <para lang="fr">si le retour est en retard, le nombre de 
+          jours de retard</para>
+
+          <para lang="es">si la devolución se ha hecho con retraso, el 
+          número de días de retraso</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>si l'ouvrage est réservé, le message "Réservé pour le lecteur..."</para>
-		  		  		  
+
+          <para lang="fr">si l&apos;ouvrage est réservé, le message 
+          &quot;Réservé pour le lecteur...&quot;</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>le nom de l'emprunteur précédent de l'ouvrage</para>
-          <para lang='es'>el nombre del usuario anterior que cogió el documento en
-          préstamo</para>		  
+
+          <para lang="fr">le nom de l&apos;emprunteur précédent de 
+          l&apos;ouvrage</para>
+
+          <para lang="es">el nombre del usuario anterior que cogió el 
+          documento en préstamo</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>le message de l'exemplaire, le cas échéant</para>
-          <para lang='es'>el mensaje de ejemplar, en caso que tenga</para>
-		  		  
+
+          <para lang="fr">le message de l&apos;exemplaire, le cas 
+          échéant</para>
+
+          <para lang="es">el mensaje de ejemplar, en caso que 
+          tenga</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>les réservations éventuelles</para>
-          <para lang='es'>si tiene reservas</para>		  
+
+          <para lang="fr">les réservations éventuelles</para>
+
+          <para lang="es">si tiene reservas</para>
+
         </listitem>
+
       </itemizedlist>
 
-      <para lang='fr'>La fiche de lecteur est également affichée et permet de réaliser à
-      la volée un certain nombre d'opérations : prolonger un prêt ou placer
-      une réservation par exemple. Pour plus d'informations, consulter la
-      section Fiche de lecteur plus haut.</para>
-	  
-      <para lang='es'>La ficha de usuario también se muestra y permite realizar algunas
-      operaciones: renovar un préstamo o realizar una reserva por ejemplo.
-      Para más información, consulta la sección Ficha de usuario un poco más
-      arriba.</para>
-	  	  
+      <para lang="fr">La fiche de lecteur est également affichée et 
+      permet de réaliser à la volée un certain nombre d&apos;opérations 
+      : prolonger un prêt ou placer une réservation par exemple. Pour 
+      plus d&apos;informations, consulter la section Fiche de lecteur 
+      plus haut.</para>
 
-      <para lang='fr'>Des amendes financières ainsi que des suspensions de prêts peuvent
-      être octroyées à des lecteurs. Pour plus d'informations, consulter le
-      Guide de l'Administration de PMB, chapitre Gestion financière des
-      lecteurs.</para>
-	  
-      <para lang='es'>Pueden también gestionarse las multas económicas y la suspensión o
-      bloqueo del préstamo. Para más información, consulta la Guía de
-      administración de PMB, capítulo Gestión económica de los
-      usuarios.</para>
-	  	  
+      <para lang="es">La ficha de usuario también se muestra y permite 
+      realizar algunas operaciones: renovar un préstamo o realizar una 
+      reserva por ejemplo. Para más información, consulta la sección 
+      Ficha de usuario un poco más arriba.</para>
+
+      <para lang="fr">Des amendes financières ainsi que des suspensions 
+      de prêts peuvent être octroyées à des lecteurs. Pour plus 
+      d&apos;informations, consulter le Guide de l&apos;Administration 
+      de PMB, chapitre Gestion financière des lecteurs.</para>
+
+      <para lang="es">Pueden también gestionarse las multas económicas 
+      y la suspensión o bloqueo del préstamo. Para más información, 
+      consulta la Guía de administración de PMB, capítulo Gestión 
+      económica de los usuarios.</para>
+
     </sect2>
 
     <sect2 id="circ_groups">
-      <title lang='fr'>Groupes de lecteurs</title>
-      <title lang='es'>Grupos de usuario</title>	  
 
-      <para lang='fr'>La fonctionnalité <emphasis>Groupes de lecteurs</emphasis> permet
-      à PMB de satisfaire aux gestionnaires documentaires qui veulent gérer
-      leurs lecteurs par groupes : classes, familles, etc.</para>
-	  
-      <para lang='es'>La función <emphasis>Grupos de usuario</emphasis> permite la
-      gestión de los usuarios por grupos : clases, familias, etc.</para>	  
+      <title lang="fr">Groupes de lecteurs</title>
+
+      <title lang="es">Grupos de usuario</title>
+
+      <para lang="fr">La fonctionnalité <emphasis>Groupes de 
+      lecteurs</emphasis> permet à PMB de satisfaire aux gestionnaires 
+      documentaires qui veulent gérer leurs lecteurs par groupes : 
+      classes, familles, etc.</para>
+
+      <para lang="es">La función <emphasis>Grupos de usuario</emphasis> 
+      permite la gestión de los usuarios por grupos : clases, familias, 
+      etc.</para>
 
       <figure>
-        <title lang='fr'>Circulation &gt; Groupe de lecteurs</title>
-        <title lang='es'>Circulación &gt; Grupos de usuario</title>		
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_groupes.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Circulation &gt; Groupe de lecteurs</title>
+
+        <title lang="es">Circulación &gt; Grupos de usuario</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_groupes.gif"/></imageobject></mediaobject>
       </figure>
+
     </sect2>
 
     <sect2 id="circ_emprcreate">
-      <title lang='fr'>Nouveau lecteur</title>
-      <title lang='es'>Nuevo usuario</title>	  
+
+      <title lang="fr">Nouveau lecteur</title>
+
+      <title lang="es">Nuevo usuario</title>
 
       <sect3 id="circ_emprcreate_1">
-        <title lang='fr'>Code barre pour le nouveau lecteur</title>
-        <title lang='es'>Código de barras para el nuevo usuario</title>		
 
+        <title lang="fr">Code barre pour le nouveau lecteur</title>
 
-        <para lang='fr'>
-Chacun des lecteurs doit avoir un numéro unique dans PMB (code-barres).
-Suivant votre paramétrage, PMB vous propose d'affecter au nouveau lecteur un
-        code équivalent au plus grand code barre dans la base +1.</para>
-		
-        <para lang='es'>Para crear a un usuario, debes introducir su código de barras.
-        Si el parámetro <emphasis>pmb.num_carte_auto</emphasis> está activado
-        (valor 1), PMB te propondrá un código de barras para ese nuevo usuario
-        que será equivalente al código de barras más grande introducido en la
-        base +1.</para>		
+        <title lang="es">Código de barras para el nuevo usuario</title>
 
+        <para lang="fr">Chacun des lecteurs doit avoir un numéro unique 
+        dans PMB (code-barres). Suivant votre paramétrage, PMB vous 
+        propose d&apos;affecter au nouveau lecteur un code équivalent 
+        au plus grand code barre dans la base +1.</para>
 
-        <para lang='fr'>Pour plus d'informations sur le paramétrage de PMB, consulter le
-        <emphasis>Guide de l'Administrateur de PMB</emphasis>, section
-        Outils.</para>
-		
-        <para lang='es'>Para más información sobre los parámetros de PMB, consulta la
-        <emphasis>Guía del Administrador de PMB</emphasis>, sección
-        Herramientas.</para>
-		
-				
+        <para lang="es">Para crear a un usuario, debes introducir su 
+        código de barras. Si el parámetro 
+        <emphasis>pmb.num_carte_auto</emphasis> está activado (valor 
+        1), PMB te propondrá un código de barras para ese nuevo usuario 
+        que será equivalente al código de barras más grande introducido 
+        en la base +1.</para>
 
-        <para lang='fr'>Une fois le numéro de carte du lecteur défini, cliquer sur
-        suivant vous amène à l'écran de saisie des informations du nouveau
-        lecteur.</para>
-		
-        <para lang='es'>Una vez el número del abono del usuario está definido, haz clic
-        en siguiente y se mostrará la pantalla dónde introducir los datos del
-        usuario.</para>
-		
-				
+        <para lang="fr">Pour plus d&apos;informations sur le 
+        paramétrage de PMB, consulter le <emphasis>Guide de 
+        l&apos;Administrateur de PMB</emphasis>, section Outils.</para>
 
-        <para lang='fr'><emphasis role="bold">Remarque</emphasis> : la validation (clic sur le bouton suivant) est
-        automatique avec une douchette.</para>
-		
-        <para lang='es'><emphasis role="bold">Observación</emphasis> : la validación (clic sobre el botón siguiente) es
-        automática con un lector de códigos de barras.</para>		
-		
+        <para lang="es">Para más información sobre los parámetros de 
+        PMB, consulta la <emphasis>Guía del Administrador de 
+        PMB</emphasis>, sección Herramientas.</para>
+
+        <para lang="fr">Une fois le numéro de carte du lecteur défini, 
+        cliquer sur suivant vous amène à l&apos;écran de saisie des 
+        informations du nouveau lecteur.</para>
+
+        <para lang="es">Una vez el número del abono del usuario está 
+        definido, haz clic en siguiente y se mostrará la pantalla dónde 
+        introducir los datos del usuario.</para>
+
+        <para lang="fr"><emphasis role="bold">Remarque</emphasis> : la 
+        validation (clic sur le bouton suivant) est automatique avec 
+        une douchette.</para>
+
+        <para lang="es"><emphasis role="bold">Observación</emphasis> : 
+        la validación (clic sobre el botón siguiente) es automática con 
+        un lector de códigos de barras.</para>
+
       </sect3>
 
       <sect3 id="circ_emprcreate_2">
-        <title lang='fr'>Saisie des données du lecteur</title>
-        <title lang='es'>Introducción de los datos del usuario</title>		
-		
 
-        <para lang='fr'>Vous pouvez saisir les données personnelles du lecteur depuis
-        cet écran.</para>
-		
-        <para lang='es'>En esta pantalla puedes introducir los datos personales de un
-        usuario.</para>		
+        <title lang="fr">Saisie des données du lecteur</title>
+
+        <title lang="es">Introducción de los datos del usuario</title>
+
+        <para lang="fr">Vous pouvez saisir les données personnelles du 
+        lecteur depuis cet écran.</para>
+
+        <para lang="es">En esta pantalla puedes introducir los datos 
+        personales de un usuario.</para>
 
         <figure>
-          <title lang='fr'>Circulation &gt; Nouveau lecteur</title>
-          <title lang='es'>Circulación &gt; Nuevo usuario</title>		  
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/circ_nouveau.gif" />
-            </imageobject>
-          </mediaobject>
+          <title lang="fr">Circulation &gt; Nouveau lecteur</title>
+
+          <title lang="es">Circulación &gt; Nuevo usuario</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/circ_nouveau.gif"/></imageobject></mediaobject>
         </figure>
 
-        <para lang='fr'>Si des champs personnalisables ont été définis dans
-        <emphasis>Administration &gt; Lecteurs &gt; Personnalisés</emphasis>, ils sont visibles en bas de la fiche
-        lecteur. Sur l'écran ci-dessus, vous pouvez remarquer le paramètre
-        personnalisé entreprise. Pour saisir un autre code barre, remplacez
-        cette proposition par le code de votre choix ou douchettez le code
-        barre à affecter.</para>
-		
-        <para lang='es'>Si hay campos personalizados definidos en
-        <emphasis>Administración &gt; Usuarios &gt; Personalizados</emphasis>, estos serán visibles en la parte inferior
-        de la ficha del usuario. En la pantalla de ejemplo, puedes observar el
-        campo personalizado entreprise. Para introducir otro código de barras,
-        haz clic sobre el campo y introduce o lee con el lector de códigos el
-        nuevo número.</para>		
+        <para lang="fr">Si des champs personnalisables ont été définis 
+        dans <emphasis>Administration &gt; Lecteurs &gt; 
+        Personnalisés</emphasis>, ils sont visibles en bas de la fiche 
+        lecteur. Sur l&apos;écran ci-dessus, vous pouvez remarquer le 
+        paramètre personnalisé entreprise. Pour saisir un autre code 
+        barre, remplacez cette proposition par le code de votre choix 
+        ou douchettez le code barre à affecter.</para>
 
+        <para lang="es">Si hay campos personalizados definidos en 
+        <emphasis>Administración &gt; Usuarios &gt; 
+        Personalizados</emphasis>, estos serán visibles en la parte 
+        inferior de la ficha del usuario. En la pantalla de ejemplo, 
+        puedes observar el campo personalizado entreprise. Para 
+        introducir otro código de barras, haz clic sobre el campo y 
+        introduce o lee con el lector de códigos el nuevo número.</para>
 
-        <para lang='fr'>Si vous saisissez un code barre déjà affecté, PMB vous renverra
-        un message d'erreur.</para>
-		
-        <para lang='es'>Si al introducir un código, éste ya se utiliza en la base de
-        datos, PMB dará un mensaje de error.</para>		
+        <para lang="fr">Si vous saisissez un code barre déjà affecté, 
+        PMB vous renverra un message d&apos;erreur.</para>
 
-        <para lang='fr'>A noter :</para>
-        <para lang='es'>A tener en cuenta :</para>		
+        <para lang="es">Si al introducir un código, éste ya se utiliza 
+        en la base de datos, PMB dará un mensaje de error.</para>
+
+        <para lang="fr">A noter :</para>
+
+        <para lang="es">A tener en cuenta :</para>
 
         <itemizedlist>
+
           <listitem>
-            <para lang='fr'>Un nom et un prénom doivent toujours être saisi</para>
-            <para lang='es'>Un apellido debe introducirse siempre</para>			
+
+            <para lang="fr">Un nom et un prénom doivent toujours être 
+            saisi</para>
+
+            <para lang="es">Un apellido debe introducirse siempre</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>La date de naissance fait partie des statistiques
-            obligatoires demandées par les BDP aux bibliothèques de leur
-            réseau. Elle doit être saisie si le paramètre
-            empr.birthdate_optional est activé (valeur 1). Pour plus
-            d'informations, consulter le <emphasis>Guide de l'Administrateur
-            PMB</emphasis>, chapitre <emphasis>Outils</emphasis>, section
+
+            <para lang="fr">La date de naissance fait partie des 
+            statistiques obligatoires demandées par les BDP aux 
+            bibliothèques de leur réseau. Elle doit être saisie si le 
+            paramètre empr.birthdate_optional est activé (valeur 1). 
+            Pour plus d&apos;informations, consulter le <emphasis>Guide 
+            de l&apos;Administrateur PMB</emphasis>, chapitre 
+            <emphasis>Outils</emphasis>, section 
             <emphasis>Paramètres</emphasis>.</para>
-			
-            <para lang='es'>La fecha de nacimiento sirve para realizar estadísticas.
-            Debe introducirse si el parámetro empr.birthdate_optional está
-            activado (valor 1). Para más información, consulta la
-            <emphasis>Guía del Administrador PMB</emphasis>, capítulo
-            <emphasis>Herramientas</emphasis>, sección
-            <emphasis>Parámetros</emphasis>.</para>
-						
+
+            <para lang="es">La fecha de nacimiento sirve para realizar 
+            estadísticas. Debe introducirse si el parámetro 
+            empr.birthdate_optional está activado (valor 1). Para más 
+            información, consulta la <emphasis>Guía del Administrador 
+            PMB</emphasis>, capítulo <emphasis>Herramientas</emphasis>, 
+            sección <emphasis>Parámetros</emphasis>.</para>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>les champs <emphasis>identifiant OPAC</emphasis> et
-            <emphasis>Mot de passe OPAC</emphasis> définissent les
-            identifiants du lecteur dans l'OPAC (par le formulaire de
-            connexion situé généralement à gauche de l'écran). Si ces champs
-            ne sont pas renseignés lors de la création du lecteur, ils auront
-            par défaut les valeurs suivantes :</para>
-			
-            <para lang='es'>los campos <emphasis>identificador OPAC</emphasis> y
-            <emphasis>Contraseña OPAC</emphasis> definen los identificadores
-            de usuario dentro del OPAC (para el formulario de conexión situado
-            generalmente en la parte izquierda de la pantalla). Si estos
-            campos no se llenan con algún valor específico, automáticamente se
-            les asignará los siguiente valores :</para>
-			
+
+            <para lang="fr">les champs <emphasis>identifiant 
+            OPAC</emphasis> et <emphasis>Mot de passe OPAC</emphasis> 
+            définissent les identifiants du lecteur dans l&apos;OPAC 
+            (par le formulaire de connexion situé généralement à gauche 
+            de l&apos;écran). Si ces champs ne sont pas renseignés lors 
+            de la création du lecteur, ils auront par défaut les 
+            valeurs suivantes :</para>
+
+            <para lang="es">los campos <emphasis>identificador 
+            OPAC</emphasis> y <emphasis>Contraseña OPAC</emphasis> 
+            definen los identificadores de usuario dentro del OPAC 
+            (para el formulario de conexión situado generalmente en la 
+            parte izquierda de la pantalla). Si estos campos no se 
+            llenan con algún valor específico, automáticamente se les 
+            asignará los siguiente valores :</para>
 
             <itemizedlist>
+
               <listitem>
-                <para lang='fr'>pour l'identifiant : première lettre du prénom +
-                nom.</para>
-                <para lang='es'>para el identificador : primera letra del nombre +
-                apellido.</para>				
+
+                <para lang="fr">pour l&apos;identifiant : première 
+                lettre du prénom + nom.</para>
+
+                <para lang="es">para el identificador : primera letra 
+                del nombre + apellido.</para>
+
               </listitem>
 
               <listitem>
-                <para lang='fr'>pour le mot de passe : année de naissance (AAAA) si elle
-                est renseignée, sinon 0.</para>
-				
-                <para lang='es'>para la contraseña : año de nacimiento (AAAA) si está
-                introducido, sino 0.</para>				
-				
+
+                <para lang="fr">pour le mot de passe : année de 
+                naissance (AAAA) si elle est renseignée, sinon 0.</para>
+
+                <para lang="es">para la contraseña : año de nacimiento 
+                (AAAA) si está introducido, sino 0.</para>
+
               </listitem>
+
             </itemizedlist>
+
           </listitem>
 
           <listitem>
-            <para lang='fr'>les éventuels champs personnalisés sont affichés en bas de
-            la fiche lecteur. Ils vous permettent d'ajouter des informations
-            de tout type à une fiche lecteur. Pour plus d'informations,
-            consulter le <emphasis>Guide de l'Administrateur de
-            PMB</emphasis>, chapitre <emphasis>Lecteurs</emphasis>.</para>
-			
-            <para lang='es'>los posibles campos personalizados se muestran en la parte
-            inferior de la ficha de usuario. Estos campos permiten añadir
-            cualquier tipo de información sobre los usuarios. Para más
-            información, consulta la <emphasis>Guía del Administrador de
-            PMB</emphasis>, capítulo <emphasis>Usuarios</emphasis>.</para>
-						
+
+            <para lang="fr">les éventuels champs personnalisés sont 
+            affichés en bas de la fiche lecteur. Ils vous permettent 
+            d&apos;ajouter des informations de tout type à une fiche 
+            lecteur. Pour plus d&apos;informations, consulter le 
+            <emphasis>Guide de l&apos;Administrateur de PMB</emphasis>, 
+            chapitre <emphasis>Lecteurs</emphasis>.</para>
+
+            <para lang="es">los posibles campos personalizados se 
+            muestran en la parte inferior de la ficha de usuario. Estos 
+            campos permiten añadir cualquier tipo de información sobre 
+            los usuarios. Para más información, consulta la 
+            <emphasis>Guía del Administrador de PMB</emphasis>, 
+            capítulo <emphasis>Usuarios</emphasis>.</para>
+
           </listitem>
+
         </itemizedlist>
+
       </sect3>
+
     </sect2>
+
   </sect1>
 
   <sect1 id="circ_visu">
-    <title lang='fr'>Visualiser</title>
-    <title lang='es'>Visualizar</title>
-	
+
+    <title lang="fr">Visualiser</title>
+
+    <title lang="es">Visualizar</title>
 
     <sect2 id="circ_visu_ex">
-      <title lang='fr'>Exemplaire par code-barres</title>
-      <title lang='es'>Ejemplar por código de barras</title>
 
-      <para lang='fr'>Saisissez un code-barres pour afficher des informations sur
-      l'exemplaire correspondant.</para>
-	  
-      <para lang='es'>Introduce un código de barras para ver la información sobre ese
-      ejemplar.</para>
-	  	  
+      <title lang="fr">Exemplaire par code-barres</title>
+
+      <title lang="es">Ejemplar por código de barras</title>
+
+      <para lang="fr">Saisissez un code-barres pour afficher des 
+      informations sur l&apos;exemplaire correspondant.</para>
+
+      <para lang="es">Introduce un código de barras para ver la 
+      información sobre ese ejemplar.</para>
 
       <figure>
-        <title lang='fr'>Circulation &gt; Visualiser &gt; Exemplaire par code-barres ;
-        premier écran</title>
-		
-        <title lang='es'>Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
-        primera pantalla</title>
-				
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_visu_ex1.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Circulation &gt; Visualiser &gt; Exemplaire 
+        par code-barres ; premier écran</title>
+
+        <title lang="es">Circulación &gt; Mostrar &gt; Ejemplar por 
+        código de barras ; primera pantalla</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_visu_ex1.gif"/></imageobject></mediaobject>
       </figure>
 
       <figure>
-        <title lang='fr'>Circulation &gt; Visualiser &gt; Exemplaire par code-barres ;
-        écran de résultat</title>
 
-        <title lang='es'>Circulación &gt; Mostrar &gt; Ejemplar por código de barras ;
-        pantalla de resultados</title>		
+        <title lang="fr">Circulation &gt; Visualiser &gt; Exemplaire 
+        par code-barres ; écran de résultat</title>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_visu_ex2.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="es">Circulación &gt; Mostrar &gt; Ejemplar por 
+        código de barras ; pantalla de resultados</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_visu_ex2.gif"/></imageobject></mediaobject>
       </figure>
+
     </sect2>
 
     <sect2 id="circ_visu_rech">
-      <title lang='fr'>Document par auteur/titre</title>
-      <title lang='es'>Documento por autor/título</title>	  
 
-      <para lang='fr'>Vous accédez ici à un écran fonctionnant comme la partie recherche
-      en catalogage. (Voir plus loin le chapitre
-      <emphasis>Catalogue</emphasis>). Vous pouvez saisir un titre ou un
-      auteur comme point de départ de votre recherche.</para>
-	  
-      <para lang='es'>Aquí se muestra una pantalla que funciona como la pantalla de
-      búsqueda de catalogación. (Ver un poco más abajo el capítulo
-      <emphasis>Catalogación</emphasis>). Puedes introducir un autor o un
-      título como punto de partida de tu búsqueda.</para>
-	  
-	  	  
+      <title lang="fr">Document par auteur/titre</title>
 
-      <para lang='fr'>Des troncatures sont utilisables ici en utilisant les expressions
-      booléennes. Pour obtenir plus d'informations à ce sujet, cliquez sur le
-      lien <emphasis>"expression booléennes"</emphasis> dans l'écran Catalogue > Recherche 
-      : Toutes notices > Par Auteur/Titre.</para>
-	  
-      <para lang='es'>Los truncamientos y los operadores booleanos también se pueden
-      usar aquí. Para ver más información sobre estos operadores, haz clic
-      sobre <emphasis>"operadores de búsqueda"</emphasis>.</para>	  
-	  
-	  
+      <title lang="es">Documento por autor/título</title>
 
-      <para lang='fr'>Vous pouvez également rechercher un ouvrage par son ISBN, son
-      numéro commercial (EAN), ou comme précédemment par son numéro
-      d'exemplaire.</para>
-	  
-      <para lang='es'>En este apartado puedes buscar un documento también por su ISBN,
-      su número comercial (EAN), o, como anteriormente, por número de
-      ejemplar.</para>	  
+      <para lang="fr">Vous accédez ici à un écran fonctionnant comme la 
+      partie recherche en catalogage. (Voir plus loin le chapitre 
+      <emphasis>Catalogue</emphasis>). Vous pouvez saisir un titre ou 
+      un auteur comme point de départ de votre recherche.</para>
+
+      <para lang="es">Aquí se muestra una pantalla que funciona como la 
+      pantalla de búsqueda de catalogación. (Ver un poco más abajo el 
+      capítulo <emphasis>Catalogación</emphasis>). Puedes introducir un 
+      autor o un título como punto de partida de tu búsqueda.</para>
+
+      <para lang="fr">Des troncatures sont utilisables ici en utilisant 
+      les expressions booléennes. Pour obtenir plus d&apos;informations 
+      à ce sujet, cliquez sur le lien <emphasis>&quot;expression 
+      booléennes&quot;</emphasis> dans l&apos;écran Catalogue &gt; 
+      Recherche : Toutes notices &gt; Par Auteur/Titre.</para>
+
+      <para lang="es">Los truncamientos y los operadores booleanos 
+      también se pueden usar aquí. Para ver más información sobre estos 
+      operadores, haz clic sobre <emphasis>&quot;operadores de 
+      búsqueda&quot;</emphasis>.</para>
+
+      <para lang="fr">Vous pouvez également rechercher un ouvrage par 
+      son ISBN, son numéro commercial (EAN), ou comme précédemment par 
+      son numéro d&apos;exemplaire.</para>
+
+      <para lang="es">En este apartado puedes buscar un documento 
+      también por su ISBN, su número comercial (EAN), o, como 
+      anteriormente, por número de ejemplar.</para>
 
       <figure>
-        <title lang='fr'>Circulation &gt; Visualiser &gt; Document par
-        auteur/titre</title>
-		
-        <title lang='es'>Circulación &gt; Mostrar &gt; Documentos por
-        autor/título</title>		
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_visu_doc.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Circulation &gt; Visualiser &gt; Document par 
+        auteur/titre</title>
+
+        <title lang="es">Circulación &gt; Mostrar &gt; Documentos por 
+        autor/título</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_visu_doc.gif"/></imageobject></mediaobject>
       </figure>
+
     </sect2>
+
   </sect1>
 
   <sect1 id="circ_resa">
-    <title lang='fr'>Réservations</title>
-    <title lang='es'>Reservas</title>	
 
-    <para lang='fr'>PMB permet de réserver des documents pour un lecteur. Les
-    réservations sont accessibles dans l'onglet circulation en fiche lecteur
-    (prêt de documents) et, suivant le paramétrage, dans l'OPAC, depuis la
-    fiche lecteur. (Pour plus d'informations sur le paramétrage de l'OPAC,
-    consulter le <emphasis>Guide de l'Administrateur PMB</emphasis>.)</para>
-	
-    <para lang='es'>PMB permite reservar documentos para un usuario. Las reservas están
-    accesibles en la pestaña circulación, dentro de cada ficha de usuario
-    (préstamo de documentos) y, según los parámetros, en el OPAC, dentro de la
-    ficha de usuario. (Para más información sobre los parámetros del OPAC,
-    consulta la <emphasis>Guía del Administrador PMB</emphasis>.)</para>	
-	
+    <title lang="fr">Réservations</title>
+
+    <title lang="es">Reservas</title>
+
+    <para lang="fr">PMB permet de réserver des documents pour un 
+    lecteur. Les réservations sont accessibles dans l&apos;onglet 
+    circulation en fiche lecteur (prêt de documents) et, suivant le 
+    paramétrage, dans l&apos;OPAC, depuis la fiche lecteur. (Pour plus 
+    d&apos;informations sur le paramétrage de l&apos;OPAC, consulter le 
+    <emphasis>Guide de l&apos;Administrateur PMB</emphasis>.)</para>
+
+    <para lang="es">PMB permite reservar documentos para un usuario. 
+    Las reservas están accesibles en la pestaña circulación, dentro de 
+    cada ficha de usuario (préstamo de documentos) y, según los 
+    parámetros, en el OPAC, dentro de la ficha de usuario. (Para más 
+    información sobre los parámetros del OPAC, consulta la 
+    <emphasis>Guía del Administrador PMB</emphasis>.)</para>
+
     <sect2 id="circ_resa_encours">
-      <title lang='fr'>En cours</title>
-      <title lang='es'>Actuales</title>	  
 
-      <para lang='fr'>Dans cet écran, les réservations en cours sont affichées. La place
-      dans la file d'attente est spécifiée si plusieurs lecteurs ont réservé
-      le même ouvrage.</para>
-	  
-      <para lang='es'>En esta pantalla, se muestran las reservas en curso. El lugar en
-      la cola se especifica en el caso de que varios usuarios hayan reservado
-      la misma obra.</para>	  
+      <title lang="fr">En cours</title>
 
+      <title lang="es">Actuales</title>
 
-      <para lang='fr'>Les réservations de documents disponibles sont insérées comme 
-      étant non validées. Une fois
-      une réservation ajoutée, la personne responsable des réservations sort
-      les ouvrages correspondant des rayons et réserve (c'est à dire met de
-      côté) ces ouvrages. Pour éditer une liste des exemplaires à sortir des
-      rayons, dans l'onglet <emphasis>Editions</emphasis>, cliquez dans le
-      menu sur réservations<emphasis> à traiter</emphasis>. (Pour plus
-      d'informations, voir <xref linkend="edit" />).</para>
-	  
-	  <para lang='fr'>
-	  Le retour d'un document réservé valide automatiquement la réservation du lecteur.
-	  </para>
-      
-      <para lang='es'>Las reservas se introducen en estado no validadas. Cuando se añade
-      una reserva, la persona responsable de las reservas la separa
-      de los estantes y la reserva (es decir, la aparta). Para editar una
-      lista de los ejemplares a apartar, en la pestaña
-      <emphasis>Préstamos</emphasis>, haz clic en el menú sobre reservas
-      <emphasis> a procesar</emphasis>. (Para más información, ver <xref linkend="edit" />).</para>
-	  
-	  	  
+      <para lang="fr">Dans cet écran, les réservations en cours sont 
+      affichées. La place dans la file d&apos;attente est spécifiée si 
+      plusieurs lecteurs ont réservé le même ouvrage.</para>
 
-      <para lang='fr'>Un pointage est ensuite fait à la douchette des nouveaux
-      exemplaires mis de côté. Les réservations sont alors "validées".</para>
-	  
-      <para lang='es'>Una vez apartados los documentos, se introducen los códigos de
-      barras con el lector de códigos de barras, de forma que las reservas
-      quedan "validadas".</para>	  
+      <para lang="es">En esta pantalla, se muestran las reservas en 
+      curso. El lugar en la cola se especifica en el caso de que varios 
+      usuarios hayan reservado la misma obra.</para>
 
+      <para lang="fr">Les réservations de documents disponibles sont 
+      insérées comme étant non validées. Une fois une réservation 
+      ajoutée, la personne responsable des réservations sort les 
+      ouvrages correspondant des rayons et réserve (c&apos;est à dire 
+      met de côté) ces ouvrages. Pour éditer une liste des exemplaires 
+      à sortir des rayons, dans l&apos;onglet 
+      <emphasis>Editions</emphasis>, cliquez dans le menu sur 
+      réservations<emphasis>à traiter</emphasis>. (Pour plus 
+      d&apos;informations, voir <xref linkend="edit"/>).</para>
 
-      <para lang='fr'>Si vous voulez supprimer une réservation, cochez la case
-      <emphasis>Supprimer</emphasis> puis cliquez sur le bouton
+      <para lang="fr">Le retour d&apos;un document réservé valide 
+      automatiquement la réservation du lecteur.</para>
+
+      <para lang="es">Las reservas se introducen en estado no 
+      validadas. Cuando se añade una reserva, la persona responsable de 
+      las reservas la separa de los estantes y la reserva (es decir, la 
+      aparta). Para editar una lista de los ejemplares a apartar, en la 
+      pestaña <emphasis>Préstamos</emphasis>, haz clic en el menú sobre 
+      reservas <emphasis>a procesar</emphasis>. (Para más información, 
+      ver <xref linkend="edit"/>).</para>
+
+      <para lang="fr">Un pointage est ensuite fait à la douchette des 
+      nouveaux exemplaires mis de côté. Les réservations sont alors 
+      &quot;validées&quot;.</para>
+
+      <para lang="es">Una vez apartados los documentos, se introducen 
+      los códigos de barras con el lector de códigos de barras, de 
+      forma que las reservas quedan &quot;validadas&quot;.</para>
+
+      <para lang="fr">Si vous voulez supprimer une réservation, cochez 
+      la case <emphasis>Supprimer</emphasis> puis cliquez sur le bouton 
       <emphasis>Valider les suppressions</emphasis>.</para>
-	  
-      <para lang='es'>Si quieres suprimir una reserva, haz clic 
-	  en <emphasis>Suprimir</emphasis> y después haz clic en 
-	  <emphasis>Validar las reservas suprimidas.</emphasis>.</para>
-	  
-	  	  
 
-      <para lang='fr'>Vous pouvez également supprimer une réservation directement depuis
-      la fiche du lecteur.</para>
-	  
-      <para lang='es'>También puedes eliminar una reserva directamente desde 
-	  la ficha del usuario.</para>
-	  	  
+      <para lang="es">Si quieres suprimir una reserva, haz clic en 
+      <emphasis>Suprimir</emphasis> y después haz clic en 
+      <emphasis>Validar las reservas suprimidas.</emphasis>.</para>
+
+      <para lang="fr">Vous pouvez également supprimer une réservation 
+      directement depuis la fiche du lecteur.</para>
+
+      <para lang="es">También puedes eliminar una reserva directamente 
+      desde la ficha del usuario.</para>
 
       <figure>
-        <title lang='fr'>Circulation &gt; Réservations &gt; En cours</title>
-        <title lang='es'>Circulación &gt; Reservas &gt; Actuales</title>		
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_resa_encours.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Circulation &gt; Réservations &gt; En 
+        cours</title>
+
+        <title lang="es">Circulación &gt; Reservas &gt; Actuales</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_resa_encours.gif"/></imageobject></mediaobject>
       </figure>
 
-      <para lang='fr'>Vous pouvez imprimer des lettres de confirmation des réservations
-      prises en compte. Pour cela, cliquez sur le bouton <emphasis>Lettres de
-      confirmation</emphasis></para>
-	  
-      <para lang='es'>ara imprimir las las cartas de confirmación de las reservas, haz
-      lic en <emphasis>Cartas de confirmación</emphasis></para>
-	  
-	  	  
+      <para lang="fr">Vous pouvez imprimer des lettres de confirmation 
+      des réservations prises en compte. Pour cela, cliquez sur le 
+      bouton <emphasis>Lettres de confirmation</emphasis></para>
+
+      <para lang="es">ara imprimir las las cartas de confirmación de 
+      las reservas, haz lic en <emphasis>Cartas de 
+      confirmación</emphasis></para>
+
     </sect2>
 
     <sect2 id="circ_resa_depassee">
-      <title lang='fr'>Dépassées</title>
-	  <title lang='es'>Reservas pasadas</title>	  
 
-      <para lang='fr'>L'écran des réservations dépassées liste les réservations qui
-      n'ont pas été annulées et ont une date de validité dépassée. Vous devrez
-      alors les supprimer. Pour supprimer une réservation, cochez la case
-      <emphasis>Supprimer</emphasis> puis cliquez sur le bouton
+      <title lang="fr">Dépassées</title>
+
+      <title lang="es">Reservas pasadas</title>
+
+      <para lang="fr">L&apos;écran des réservations dépassées liste les 
+      réservations qui n&apos;ont pas été annulées et ont une date de 
+      validité dépassée. Vous devrez alors les supprimer. Pour 
+      supprimer une réservation, cochez la case 
+      <emphasis>Supprimer</emphasis> puis cliquez sur le bouton 
       <emphasis>Valider les suppressions</emphasis>.</para>
-	  
-      <para lang='es'>La pantalla de reservas pasadas muestra las reservas que no han
-      sido anuladas y que los usuarios no han pasado a buscar y, por tanto, se
-      ha pasado el tiempo de reserva. En estos casos puedes suprimirlas. Para
-      suprimir una reserva, selecciona la reserva y haz clic en Suprimir la
-      selección, después haz clic en <emphasis>Validar las reservas
-      suprimidas</emphasis>.</para>
-	  
-	  	  
 
-      <para lang='fr'>Vous pouvez souhaiter laisser un délai supplémentaire aux
-      réservations même dépassées. Dans ce cas, ne supprimez pas les
-      réservations dépassées avant la fin de ce délai.</para>
-	  
-      <para lang='es'>También puedes dejar pasar un tiempo suplementario a las reservas
-      pasadas. En este caso no suprimas las reservas antes de que haya pasado
-      este período suplementario..</para>
-	  
-	  	  
+      <para lang="es">La pantalla de reservas pasadas muestra las 
+      reservas que no han sido anuladas y que los usuarios no han 
+      pasado a buscar y, por tanto, se ha pasado el tiempo de reserva. 
+      En estos casos puedes suprimirlas. Para suprimir una reserva, 
+      selecciona la reserva y haz clic en Suprimir la selección, 
+      después haz clic en <emphasis>Validar las reservas 
+      suprimidas</emphasis>.</para>
+
+      <para lang="fr">Vous pouvez souhaiter laisser un délai 
+      supplémentaire aux réservations même dépassées. Dans ce cas, ne 
+      supprimez pas les réservations dépassées avant la fin de ce 
+      délai.</para>
+
+      <para lang="es">También puedes dejar pasar un tiempo 
+      suplementario a las reservas pasadas. En este caso no suprimas 
+      las reservas antes de que haya pasado este período 
+      suplementario..</para>
 
       <figure>
-        <title lang='fr'>Circulation &gt; réservations &gt; dépassées</title>
-        <title lang='es'>Circulación &gt; reservas &gt; pasadas</title>		
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_resa_depassees.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Circulation &gt; réservations &gt; 
+        dépassées</title>
+
+        <title lang="es">Circulación &gt; reservas &gt; pasadas</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_resa_depassees.gif"/></imageobject></mediaobject>
       </figure>
+
     </sect2>
 
     <sect2 id="circ_resa_docranger">
-      <title lang='fr'>Doc. à ranger</title>
-      <title lang='es'>Doc. a colocar</title>	  
 
-      <para lang='fr'>La liste des documents à ranger présente les documents réservés,
-      qui ont normalement été sortis des rayons et réservés avec le nom du
-      lecteur, et dont la réservation a été supprimée. Les réservations sont
-      placées dans la majorité des cas au guichet d'accueil de la bibliothèque
-      ; "doc. à ranger" permet de faire le point sur les documents qui doivent
-      rejoindre les rayons.</para>
-	  
-      <para lang='es'>La lista de documentos a colocar muestra los documentos
-      reservados, que están apartados, pero que la reserva ha sido suprimida.
-      Esta lista permite volver a poner en las estanterías los documentos que
-      no han venido a buscar los usuarios, o aquellos en que directamente la
-      reserva se ha suprimido.</para>	  
+      <title lang="fr">Doc. à ranger</title>
+
+      <title lang="es">Doc. a colocar</title>
+
+      <para lang="fr">La liste des documents à ranger présente les 
+      documents réservés, qui ont normalement été sortis des rayons et 
+      réservés avec le nom du lecteur, et dont la réservation a été 
+      supprimée. Les réservations sont placées dans la majorité des cas 
+      au guichet d&apos;accueil de la bibliothèque ; &quot;doc. à 
+      ranger&quot; permet de faire le point sur les documents qui 
+      doivent rejoindre les rayons.</para>
+
+      <para lang="es">La lista de documentos a colocar muestra los 
+      documentos reservados, que están apartados, pero que la reserva 
+      ha sido suprimida. Esta lista permite volver a poner en las 
+      estanterías los documentos que no han venido a buscar los 
+      usuarios, o aquellos en que directamente la reserva se ha 
+      suprimido.</para>
 
       <figure>
-        <title lang='fr'>Circulation &gt; réservations &gt; à ranger</title>
-        <title lang='es'>Circulación &gt; reservas &gt; a colocar</title>		
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_resa_aranger.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Circulation &gt; réservations &gt; à 
+        ranger</title>
+
+        <title lang="es">Circulación &gt; reservas &gt; a 
+        colocar</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_resa_aranger.gif"/></imageobject></mediaobject>
       </figure>
+
     </sect2>
+
   </sect1>
 
   <sect1 id="relances">
-    <title lang='fr'>Relances</title>
-    <title lang='es'>Reclamaciones</title>	
 
-    <para lang='fr'>La gestion avancées des relances est liée à l'utilisation de la
-    gestion financière des lecteurs. Pour activer la gestion des relances, via 
-    Administration > Outils > Paramètres, développez Paramètres généraux et fixez 
-    les paramètres <emphasis>gestion_financiere</emphasis> et 
+    <title lang="fr">Relances</title>
+
+    <title lang="es">Reclamaciones</title>
+
+    <para lang="fr">La gestion avancées des relances est liée à 
+    l&apos;utilisation de la gestion financière des lecteurs. Pour 
+    activer la gestion des relances, via Administration &gt; Outils 
+    &gt; Paramètres, développez Paramètres généraux et fixez les 
+    paramètres <emphasis>gestion_financiere</emphasis> et 
     <emphasis>gestion_amendes</emphasis> à 1.</para>
-	
-    <para lang='es'>La gestión avanzada de las reclamaciones está asociada al uso de la
-    gestión financera de los usuarios. Para más información sobre cómo activar
-    la gestión financiera de los usuarios, consulta la <emphasis>Guía del
-    Administrador PMB</emphasis>, capítulo Gestión financiera de los
-    usuarios.</para>	
+
+    <para lang="es">La gestión avanzada de las reclamaciones está 
+    asociada al uso de la gestión financera de los usuarios. Para más 
+    información sobre cómo activar la gestión financiera de los 
+    usuarios, consulta la <emphasis>Guía del Administrador 
+    PMB</emphasis>, capítulo Gestión financiera de los usuarios.</para>
 
     <sect2 id="relances_todo">
-      <title lang='fr'>Relances à faire</title>
-      <title lang='es'>Reclamaciones a realizar</title>	  
 
-      <para lang='fr'>Dans cet écran, vous pourrez consulter la liste des relances
-      lecteurs qui peuvent être faites.</para>
-	  
-      <para lang='es'>En esta pantalla, puedes consultar la lista de las
-      reclamaciones a usuarios que puedes realizar.</para>
-	  
-	  	  
+      <title lang="fr">Relances à faire</title>
+
+      <title lang="es">Reclamaciones a realizar</title>
+
+      <para lang="fr">Dans cet écran, vous pourrez consulter la liste 
+      des relances lecteurs qui peuvent être faites.</para>
+
+      <para lang="es">En esta pantalla, puedes consultar la lista de 
+      las reclamaciones a usuarios que puedes realizar.</para>
 
       <figure>
-        <title lang='fr'>Relances à faire</title>
-        <title lang='es'>Reclamaciones a realizar</title>		
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/circ_relances_1.gif" />
-          </imageobject>
-        </mediaobject>
+        <title lang="fr">Relances à faire</title>
+
+        <title lang="es">Reclamaciones a realizar</title>
+
+        <mediaobject><imageobject>
+        <imagedata fileref="images/circ_relances_1.gif"/></imageobject></mediaobject>
       </figure>
 
-      <para lang='fr'>Vous pouvez imprimer les lettres de relances pour chacun des
-      lecteurs. Ces lettres ont un contenu variable suivant le niveau de
-      relance. Le niveau 1 est le plus faible niveau de relance (retard
-      léger).</para>
-	  
-      <para lang='es'>Puedes imprimir las cartas de reclamaciones para cada uno de los
-      usuarios. El contenido de estas cartas varía dependiendo del nivel de
-      reclamación. En el nivel 1, el contenido de la carta es más suave que en
-      niveles más altos, cuando el retraso de los documentos es más
-      largo.</para>
-	  
-	  	  
+      <para lang="fr">Vous pouvez imprimer les lettres de relances pour 
+      chacun des lecteurs. Ces lettres ont un contenu variable suivant 
+      le niveau de relance. Le niveau 1 est le plus faible niveau de 
+      relance (retard léger).</para>
 
-      <para lang='fr'>Lorsque l'envoi de la lettre de relance a été réalisé pour le
-      lecteur, vous pouvez changer le niveau de retard du lecteur.</para>
-	  
-      <para lang='es'>Una vez has enviado la carta al usuario, puedes cambiar el nivel
-      de retraso del usuario.</para>
-	  
-	  	  
+      <para lang="es">Puedes imprimir las cartas de reclamaciones para 
+      cada uno de los usuarios. El contenido de estas cartas varía 
+      dependiendo del nivel de reclamación. En el nivel 1, el contenido 
+      de la carta es más suave que en niveles más altos, cuando el 
+      retraso de los documentos es más largo.</para>
 
-      <para lang='fr'>Pour chaque lecteur, vous pouvez :</para>
-      <para lang='es'>Para cada usuario, puedes :</para>	  
+      <para lang="fr">Lorsque l&apos;envoi de la lettre de relance a 
+      été réalisé pour le lecteur, vous pouvez changer le niveau de 
+      retard du lecteur.</para>
+
+      <para lang="es">Una vez has enviado la carta al usuario, puedes 
+      cambiar el nivel de retraso del usuario.</para>
+
+      <para lang="fr">Pour chaque lecteur, vous pouvez :</para>
+
+      <para lang="es">Para cada usuario, puedes :</para>
 
       <itemizedlist>
+
         <listitem>
-          <para lang='fr'>voir le code barre du lecteur, son nom, le nombre de livres en
-          retard</para>
-		  
-          <para lang='es'>ver el código de barras del usuario, su nombre, el número de
-          libros que tiene en retraso</para>
-		  		  
+
+          <para lang="fr">voir le code barre du lecteur, son nom, le 
+          nombre de livres en retard</para>
+
+          <para lang="es">ver el código de barras del usuario, su 
+          nombre, el número de libros que tiene en retraso</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>voir le dernier niveau de retard validé</para>
-		  
-          <para lang='es'>ver el último nivel de retraso validado</para>
-		  		  
+
+          <para lang="fr">voir le dernier niveau de retard validé</para>
+
+          <para lang="es">ver el último nivel de retraso validado</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>voir la date de dernière validation (correspond au dernier
-          envoi d'une relance)</para>
-		  
-         <para lang='es'>ver la fecha de la última validación (corresponde al último
-          envío de una reclamación)</para>		  
+
+          <para lang="fr">voir la date de dernière validation 
+          (correspond au dernier envoi d&apos;une relance)</para>
+
+          <para lang="es">ver la fecha de la última validación 
+          (corresponde al último envío de una reclamación)</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>voir le niveau supposé : il s'agit du niveau de relance que
-          PMB propose en fonction du retard des différents ouvrages</para>
-		  
-          <para lang='es'>ver el nivel supuesto : es el nivel que PMB propone en función
-          del retraso de los diferentes documentos</para>
-		  		  		  
+
+          <para lang="fr">voir le niveau supposé : il s&apos;agit du 
+          niveau de relance que PMB propose en fonction du retard des 
+          différents ouvrages</para>
+
+          <para lang="es">ver el nivel supuesto : es el nivel que PMB 
+          propone en función del retraso de los diferentes 
+          documentos</para>
+
         </listitem>
 
         <listitem>
-          <para lang='fr'>réaliser un changement de niveau et, le cas échéant, passer en
-          recouvrement</para>
-		  
-          <para lang='es'>realizar un cambio de nivel y, cuando proceda, pasar a
-          cobrar.</para>
-		  		  
+
+          <para lang="fr">réaliser un changement de niveau et, le cas 
+          échéant, passer en recouvrement</para>
+
+          <para lang="es">realizar un cambio de nivel y, cuando 
+          proceda, pasar a cobrar.</para>
+
         </listitem>
+
       </itemizedlist>
+
     </sect2>
 
     <sect2 id="relances_recouvr">
-      <title lang='fr'>Recouvrement</title>
-	  <title lang='es'>Cobros</title>	  
 
+      <title lang="fr">Recouvrement</title>
 
-      <para lang='fr'>Le passage en recouvrement signifie transmettre le dossier des
-      comptes à une institution qui sera chargée de la récupération, du
-      recouvrement des amendes notamment : par exemple, la trésorerie pour une commune, 
-      le service comptabilité de votre structure...</para>
-	  
-      <para lang='es'>El apartado de cobros sirve para transmitir el estado de cuentas
-      de un usuario a una institución que será la que se encargue de realizar
-      la recuperación y el cobro de las multas.</para>	  
+      <title lang="es">Cobros</title>
 
+      <para lang="fr">Le passage en recouvrement signifie transmettre 
+      le dossier des comptes à une institution qui sera chargée de la 
+      récupération, du recouvrement des amendes notamment : par 
+      exemple, la trésorerie pour une commune, le service comptabilité 
+      de votre structure...</para>
 
-      <para lang='fr'>Cet écran est avant tout un moyen de consultation. En effet,
-      lorsque les comptes sont transmis pour recouvrement celles ci ne
-      relèvent plus du fonctionnement de la bibliothèque ou du centre de
-      documentation (transmission à la mairie pour une bibliothèque publique,
-      au service comptable pour un centre de documentation, ...).</para>
-	  
-      <para lang='es'>Esta pantalla es ante todo una forma de consulta. Una vez los
-      datos del estado de cuentas de un usuario son transmitidos para el
-      cobro, ya no constán más en la base de datos de la biblioteca, ni en el
-      funcionamiento de la misma (pasan a formar parte del ayuntamiento o del
-      departamento contable, ...).</para>	  
+      <para lang="es">El apartado de cobros sirve para transmitir el 
+      estado de cuentas de un usuario a una institución que será la que 
+      se encargue de realizar la recuperación y el cobro de las 
+      multas.</para>
+
+      <para lang="fr">Cet écran est avant tout un moyen de 
+      consultation. En effet, lorsque les comptes sont transmis pour 
+      recouvrement celles ci ne relèvent plus du fonctionnement de la 
+      bibliothèque ou du centre de documentation (transmission à la 
+      mairie pour une bibliothèque publique, au service comptable pour 
+      un centre de documentation, ...).</para>
+
+      <para lang="es">Esta pantalla es ante todo una forma de consulta. 
+      Una vez los datos del estado de cuentas de un usuario son 
+      transmitidos para el cobro, ya no constán más en la base de datos 
+      de la biblioteca, ni en el funcionamiento de la misma (pasan a 
+      formar parte del ayuntamiento o del departamento contable, 
+      ...).</para>
+
     </sect2>
+
   </sect1>
 
   <sect1>
-    <title lang='fr'>Suggestion</title>
-    <title lang='es'>Sugerencias</title>	
 
-    <para lang='fr'>Cette partie du menu vous permet de créer une suggestion
-    d'acquistion pour la bibliothèque ou le centre de ressources.</para>
-	
-    <para lang='es'>Este apartado del menú permite crear una sugerencia de compra o desiderata 
-	para la biblioteca o el centro de recursos.</para>	
+    <title lang="fr">Suggestion</title>
+
+    <title lang="es">Sugerencias</title>
+
+    <para lang="fr">Cette partie du menu vous permet de créer une 
+    suggestion d&apos;acquistion pour la bibliothèque ou le centre de 
+    ressources.</para>
+
+    <para lang="es">Este apartado del menú permite crear una sugerencia 
+    de compra o desiderata para la biblioteca o el centro de 
+    recursos.</para>
 
     <sect2>
-      <title lang='fr'>Faire une suggestion</title>
-      <title lang='es'>Hacer una sugerencia de compra</title>
 
-      <para lang='fr'>Pour plus d'informations sur l'ajout d'une suggestion, consulter
-      plus loin dans ce <emphasis>Guide de l'utilisateur</emphasis>, le
-      chapitre <emphasis>Acquistions</emphasis> : <xref
-      linkend="acquis_sugg_create" />.</para>
-	  
-      <para lang='es'>Para más información sobre cómo añadir una sugerencia de compra, consulta 
-      un poco más abajo ce esta <emphasis>Guía del usuario</emphasis>, el
-      capítulo <emphasis>Compras</emphasis> : <xref
-      linkend="acquis_sugg_create" />.</para>
-	  	  
+      <title lang="fr">Faire une suggestion</title>
+
+      <title lang="es">Hacer una sugerencia de compra</title>
+
+      <para lang="fr">Pour plus d&apos;informations sur l&apos;ajout 
+      d&apos;une suggestion, consulter plus loin dans ce 
+      <emphasis>Guide de l&apos;utilisateur</emphasis>, le chapitre 
+      <emphasis>Acquistions</emphasis> : 
+      <xref linkend="acquis_sugg_create"/>.</para>
+
+      <para lang="es">Para más información sobre cómo añadir una 
+      sugerencia de compra, consulta un poco más abajo ce esta 
+      <emphasis>Guía del usuario</emphasis>, el capítulo 
+      <emphasis>Compras</emphasis> : 
+      <xref linkend="acquis_sugg_create"/>.</para>
+
     </sect2>
+
   </sect1>
+
+  <sect1 id="pret_secouru">
+
+    <title lang="fr">Prêt secouru</title>
+
+    <para lang="fr">PMB est une application Web. En cas de rupture de 
+    réseau entre votre poste de travail et le serveur qui héberge PMB, 
+    vous pouvez continuer à réaliser des opérations simples de 
+    prêt.</para>
+
+    <para>Le prêt secouru permet de faire des prêts et des retours à 
+    l&apos;aide d&apos;un simple éditeur de texte, comme le bloc-notes 
+    de Windows, Kwrite sous Linux... Le prêt secouru est géré dans PMB 
+    en deux phases : création d&apos;un fichier de codes-barres (ou 
+    plusieurs) ; chargement de ce fichier dans PMB.</para>
+
+    <sect2>
+
+      <title>Créer un fichier de codes-barres</title>
+
+      <para>Pour enregistrer les prêts et les retours de documents, 
+      lancez votre éditeur de texte.</para>
+
+      <para>Sous Windows, cliquez sur Démarrer &gt; Tous les programmes 
+      &gt; Accessoires &gt; Bloc-notes.</para>
+
+      <para>Sous Linux Mandriva, dans le menu étoile, cliquez sur 
+      Autres Applications &gt; Éditeurs de texte &gt; Kwrite.</para>
+
+      <sect3>
+
+        <title>Enregistrer les prêts</title>
+
+        <para>Douchetez le code-barres Prêt secouru ou saisissez au 
+        clavier « PRET SECOURU » [entrée] (sans les guillemets).</para>
+
+        <para>Douchetez la carte du lecteur ou saisissez au clavier le 
+        code-barres du lecteur puis [entrée]. Vous ne pouvez pas 
+        utiliser le nom du lecteur, il faut connaître son 
+        code-barres.</para>
+
+        <para>Douchetez un par un les exemplaires prêtés au 
+        lecteur.</para>
+
+        <para>Enregistrez fréquemment votre fichier, par exemple sur le 
+        bureau. </para>
+
+        <para>Vous pouvez réaliser différents fichiers. Attention, si 
+        vous mêlez des retours et des prêts, il faudra impérativement 
+        pouvoir les importer dans l&apos;ordre réel. Pour plus de 
+        facilité, évitez de reprêter en prêt secouru des ouvrages qui 
+        viennent d&apos;être rendus.</para>
+
+      </sect3>
+
+      <sect3>
+
+        <title>Enregistrer les retours</title>
+
+        <para>Douchetez le code-barres Retour secouru ou saisissez au 
+        clavier « RETOUR SECOURU » [entrée] (sans les 
+        guillemets).</para>
+
+        <para>Douchetez les codes-barres des exemplaires retournés un 
+        par un.</para>
+
+        <para>Enregistrez fréquemment votre fichier, par exemple sur le 
+        bureau. </para>
+
+      </sect3>
+
+    </sect2>
+
+    <sect2>
+
+      <title>Import du fichier de codes-barres dans PMB</title>
+
+      <para>La liaison avec votre serveur hébergeant PMB doit être 
+      rétablie au préalable. Avant toute autre opération dans PMB, vous 
+      devez traiter les fichiers du prêt et des retours secourus.</para>
+
+      <para>Connectez vous à PMB dans l&apos;interface de 
+      gestion.</para>
+
+      <para>Cliquez sur l&apos;onglet circulation.</para>
+
+      <para>Dans la barre d&apos;adresse de votre navigateur, complétez 
+      au clavier l&apos;adresse .../circ.php?categ= pour qu&apos;elle 
+      devienne</para>
+
+      <programlisting>../circ.php?categ=retour_secour</programlisting>
+      <para>Cliquez sur parcourir et sélectionnez le premier des 
+      fichiers réalisé pour des prêts et/ou des retours.</para>
+
+      <para>Cliquez sur Envoyer le fichier.</para>
+
+      <para>Une fois le fichier traité, recommencez pour chacun des 
+      autres fichiers le cas échéant via</para>
+
+      <programlisting>.../circ.php?categ=retour_secouru</programlisting>
+      <para>Une fois l&apos;ensemble des fichiers importés, vous pouvez 
+      revenir à votre utilisation normale de PMB.</para>
+
+    </sect2>
+
+  </sect1>
+
 </chapter>
+
