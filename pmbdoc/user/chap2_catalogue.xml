@@ -3416,6 +3416,158 @@
 
     </sect2>
 
+    <sect2>
+
+      <title lang="fr">Avis des lecteurs</title>
+
+      <para lang="fr">Les lecteurs peuvent proposer des avis depuis 
+      l&apos;OPAC. Les avis doivent ensuite être validés avant 
+      d&apos;être publiés dans l&apos;OPAC.</para>
+
+      <sect3>
+
+        <title>Ajouter un avis dans l&apos;OPAC</title>
+
+        <para><emphasis>Paramètre</emphasis> dans Administration &gt; 
+        Outils &gt; Paramètres &gt; OPAC, si avis_allow vaut 1, les 
+        lecteurs peuvent voir les avis, les lecteurs authentifiés 
+        peuvent en ajouter. Si avis_allow vaut 2, seuls les lecteurs 
+        authentifiés peuvent voir et ajouter des avis.</para>
+
+        <para>Pour afficher les avis des lecteurs depuis l&apos;OPAC, 
+        cliquez sur l&apos;icône <emphasis>avis</emphasis>.</para>
+
+        <para>Cliquez sur Ajouter votre avis pour ajouter un 
+        avis.</para>
+
+        <para>Pour un avis, vous pouvez définir :</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para>une note de 1 à 5 (de mauvais à excellent)</para>
+
+            <para>Cette note est obligatoire, sa valeur par défaut est 
+            3 (moyen).</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para>un sujet</para>
+
+            <para>Il s&apos;agit d&apos;une sorte de titre à votre 
+            avis.</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para>un avis</para>
+
+            <para>Il s&apos;agit du texte de votre avis.</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+      </sect3>
+
+      <sect3>
+
+        <title>Gérer les avis</title>
+
+        <para><emphasis>Info</emphasis> si au moins un avis à valider 
+        est ajouté, vous voyez apparaître dans la zone de notification 
+        un lien Avis à valider.</para>
+
+        <para>Pour valider un avis et le publier ensuite dans 
+        l&apos;OPAC, allez dans la partie gestion de PMB dans Catalogue 
+        &gt; Documents &gt; Gestion des avis.</para>
+
+        <para>Vous pouvez afficher à l&apos;aide du sélecteur les 
+        différents avis :</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para>Avis en suspend</para>
+
+            <para>Ce sont les avis soumis par les lecteurs qui 
+            n&apos;ont pas été validés ou supprimés.</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para>Avis validés</para>
+
+            <para>Ce sont les avis publiés dans l&apos;OPAC. Vous 
+            pouvez invalider ces avis ou les supprimer.</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+      </sect3>
+
+    </sect2>
+
+    <sect2>
+
+      <title lang="fr">Tags</title>
+
+      <para lang="fr">L&apos;ajout de tag offre la possibilité au 
+      lecteur de proposer ses propres mots-clés pour des notices du 
+      catalogue. Les tags doivent être validés par un bibliothécaire ou 
+      documentaliste avant d&apos;être visible dans l&apos;OPAC.</para>
+
+      <sect3>
+
+        <title>Ajouter un tag dans l&apos;OPAC</title>
+
+        <para><emphasis>Paramètre</emphasis> dans Administration &gt; 
+        Outils &gt; Paramètres &gt; OPAC, si allow_add_tag vaut 1, les 
+        lecteurs peuvent ajouter des tags aux notices, si allow_add_tag 
+        vaut 2, seuls les lecteurs authentifiés peuvent ajouter des 
+        tags.</para>
+
+        <para>L&apos;ajout de tag se fait dans l&apos;OPAC à 
+        l&apos;aide de l&apos;icône icône tag</para>
+
+        <para>Choisissez un tag existant : dans la liste déroulante, 
+        vous pouvez choisir un des tags déjà affectés, ou en saisir un 
+        nouveau dans le champ Tapez en un nouveau. Cliquez sur Ajouter 
+        pour enregistrer votre ajout de Tag.</para>
+
+      </sect3>
+
+      <sect3>
+
+        <title>Valider une proposition de tag</title>
+
+        <para>Info si au moins un tag à valider est ajouté, vous voyez 
+        apparaître dans la zone de notification un lien Tag à 
+        valider.</para>
+
+        <para>Dans l&apos;interface de gestion, cliquez sur Catalogue 
+        &gt; Documents &gt; Gestion des tags, pour valider un tag, 
+        cochez à droite de l&apos;écran la suggestion de tag et cliquez 
+        sur le bouton Valider.</para>
+
+        <para>Une fois un tag validé, il est enregistré dans le champ 
+        Mots-clés de la notice.</para>
+
+        <para>Pour supprimer un tag validé par erreur, vous pouvez 
+        chercher la notice via Catalogue &gt; Recherche &gt; Toutes 
+        notices et la modifier.</para>
+
+      </sect3>
+
+    </sect2>
+
   </sect1>
 
   <sect1 id="cat_serial">
