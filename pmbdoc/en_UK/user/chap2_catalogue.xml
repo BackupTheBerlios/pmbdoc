@@ -609,7 +609,7 @@
           </figure>
 
           <sect5>
-            <title lang="en">Choosing a material dsignation</title>
+            <title lang="en">Choosing a material designation</title>
 
             <para lang="en">In the drop down list at the top of the fill-in
             form, you can choose from among various material designations
@@ -1119,12 +1119,12 @@
             <para lang="en">Finally, at the bottom of the record you can
             define your custom fields.</para>
 
-            <para lang="en">The custom fields of records contain
-            additional information, you can create them in
+            <para lang="en">The custom fields of records contain additional
+            information, you can create them in
             <emphasis>Administration</emphasis> &gt;
-            <emphasis>Records</emphasis> &gt;
-            <emphasis>Custom field</emphasis>. For more information, consult
-            the <emphasis>Administrator's Guide</emphasis>, chapter
+            <emphasis>Records</emphasis> &gt; <emphasis>Custom
+            field</emphasis>. For more information, consult the
+            <emphasis>Administrator's Guide</emphasis>, chapter
             <emphasis>Records</emphasis>.</para>
 
             <para lang="en">If no custom fields were defined, this area will
@@ -2549,15 +2549,15 @@
         a procedure but I am a real dummy! In the Stored procedures I have an
         inventory of all my non-fiction works, for instance, but I have no
         idea how to transform it to make it work in the baskets. Here is the
-        corrected SP ! </para>
+        corrected SP !</para>
 
         <para>select expl_id as object_id, 'EXPL' as object_type from
         exemplaires, notices, docs_section where idsection in (!!section!!)
         and expl_notice=notice_id and expl_section=idsection order by
-        section_libelle, expl_cote, expl_cb </para>
+        section_libelle, expl_cote, expl_cb</para>
 
         <para>All there is to do now is to set a value for the !!section!!
-        parameter : a multiple choice list from a query with : </para>
+        parameter : a multiple choice list from a query with :</para>
 
         <para>select idsection, section_libelle from docs_section order by
         section_libelle &gt; Stephanie FORT &gt; Librarian &gt; &gt; CDI -
