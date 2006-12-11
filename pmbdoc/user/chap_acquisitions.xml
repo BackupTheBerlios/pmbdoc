@@ -1,5 +1,4 @@
-<?xml version='1.0'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.oasis-open.org/docbook/xml/4.3b2/docbookx.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="acquis">
 
   <title lang="fr">Acquisitions</title>
@@ -732,322 +731,11 @@
 
   </sect1>
 
-  <sect1 id="acquis_sugg" lang="es">
-
-    <title lang="es">Sugerencias</title>
-
-    <sect2 id="acquis_sugg_atraiter">
-
-      <title lang="es">A tratar</title>
-
-      <para lang="es">Puedes consultar las diferentes sugerencias de 
-      compra para gestionarlas o crear una nueva sugerencia haciendo 
-      clic sobre el botón <emphasis>Crear una 
-      sugerencia</emphasis>.</para>
-
-      <sect3 id="acquis_sugg_rechercher">
-
-        <title lang="es">Buscar y tratar una sugerencia</title>
-
-        <para lang="es">Puedes fusionar las sugerencias y 
-        imprimirlas</para>
-
-        <para lang="es">Para las sugerencias en curso, puedes</para>
-
-        <itemizedlist>
-
-          <listitem>
-
-            <para lang="es">Imprimir</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Fusionar</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Validar</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Rechazar</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Suprimir</para>
-
-          </listitem>
-
-        </itemizedlist>
-
-        <para lang="es">Para las sugerencias rechazadas o abandonadas, 
-        puedes</para>
-
-        <itemizedlist>
-
-          <listitem>
-
-            <para lang="es">Imprimir</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Archivar</para>
-
-          </listitem>
-
-        </itemizedlist>
-
-        <para lang="es">Para las sugerencias validadas, puedes</para>
-
-        <itemizedlist>
-
-          <listitem>
-
-            <para lang="es">Imprimir</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Fusionar</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Confirmar</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Abandonar</para>
-
-          </listitem>
-
-        </itemizedlist>
-
-        <para lang="es">Para las sugerencias confirmadas, puedes</para>
-
-        <itemizedlist>
-
-          <listitem>
-
-            <para lang="es">Imprimir</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">Pedir</para>
-
-          </listitem>
-
-        </itemizedlist>
-
-      </sect3>
-
-      <sect3 id="acquis_sugg_create">
-
-        <title lang="es">Crear una sugerencia</title>
-
-        <figure>
-
-          <title lang="es">Adquisiciones &gt; Sugerencias : a tratar, 
-          Crear una sugerencia</title>
-
-          <mediaobject><imageobject>
-          <imagedata fileref="images/creation-suggestion.gif"/></imageobject></mediaobject>
-        </figure>
-
-        <para lang="es">La pantalla de creación de una sugerencia se 
-        divide en dos partes.</para>
-
-        <para lang="es">Las informaciones en la parte superior de la 
-        pantalla no se pueden modificar e indican :</para>
-
-        <itemizedlist>
-
-          <listitem>
-
-            <para lang="es">la fecha de creación</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">el login del administrador que crea la 
-            sugerencia</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">una valoración en función del tipo de 
-            usuario. La valoración de las sugerencias está en función 
-            del parámetro <emphasis>Adquisiciones</emphasis> 
-            <emphasis>poids_sugg</emphasis>. Para más información, 
-            consulta la <emphasis>Guía del administrador PMB, capítulo 
-            Herramientas, sección Parámetros</emphasis>.</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">un estado. Para más informació, consulta un 
-            poco más abajo <xref linkend="acquis_sugg_etats"/>.</para>
-
-          </listitem>
-
-        </itemizedlist>
-
-        <para lang="es">El formulario de creación de una sugerencia de 
-        compra permite incluir :</para>
-
-        <itemizedlist>
-
-          <listitem>
-
-            <para lang="es">un título</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">una editorial</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">un autor</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">un ISBN</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">un precio</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">una URL asociada</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="es">comentarios</para>
-
-          </listitem>
-
-        </itemizedlist>
-
-        <para lang="es">Debes incluir como mínimo un título y un autor 
-        o un título y una editorial. Los otros campos son 
-        optativos.</para>
-
-      </sect3>
-
-    </sect2>
-
-    <sect2 id="acquis_sugg_etats">
-
-      <title lang="es">Lista de estados de las sugerencias</title>
-
-      <para lang="es">Aquí se encuentran la lista de estados que puede 
-      tener una sugerencia, con las diferentes etapas para cada 
-      sugerencia :</para>
-
-      <itemizedlist>
-
-        <listitem>
-
-          <para lang="es"><emphasis role="bold">en 
-          curso</emphasis></para>
-
-        </listitem>
-
-        <listitem>
-
-          <para lang="es">en curso &gt; <emphasis role="bold">
-          validada</emphasis> : la sugerencia de compra se ha validado. 
-          Las informaciones que se han introducido son suficientes para 
-          empezar a buscar el documento pedido. En esta etapa aún no se 
-          ha decidido si se va a adquirir o no, solamente es un control 
-          de que hay datos suficientes para seguir adelante y que éstos 
-          son correctos.</para>
-
-        </listitem>
-
-        <listitem>
-
-          <para lang="es">en curso &gt; <emphasis role="bold">
-          rechazada</emphasis> : sugerencia no válida o con pocos datos 
-          para realizar su búsqueda</para>
-
-        </listitem>
-
-        <listitem>
-
-          <para lang="es">en curso &gt; validada &gt; 
-          <emphasis role="bold">confirmada</emphasis> : la sugerencia 
-          validada se guarda para el próximo pedido</para>
-
-        </listitem>
-
-        <listitem>
-
-          <para lang="es">en curso &gt; validada &gt; 
-          <emphasis role="bold">no aceptada</emphasis> : la sugerencia 
-          validada no corresponde a los criterios de compra o al 
-          presupuesto. La sugerencia no será pedida.</para>
-
-        </listitem>
-
-        <listitem>
-
-          <para lang="es">en curso &gt; validada &gt; confirmada &gt; 
-          <emphasis role="bold">pedida</emphasis> : la sugerencia 
-          validada ya se ha pedido</para>
-
-        </listitem>
-
-        <listitem>
-
-          <para lang="es">en curso &gt; validada &gt; confirmada &gt; 
-          pedida &gt; <emphasis role="bold">recibida</emphasis> : la 
-          sugerencia pedida ha llegado</para>
-
-        </listitem>
-
-      </itemizedlist>
-
-    </sect2>
-
-  </sect1>
-
   <sect1 id="acquis_sugg" lang="fr">
 
     <title lang="fr">Suggestions</title>
-
+    <title lang="es">Sugerencias</title>
+	
     <para lang="fr">Les suggestions d&apos;acquisition sont les 
     demandes des usagers, des bibliothécaires ou des documentalistes. 
     Ces demandes peuvent être émises depuis différentes parties de PMB 
@@ -1494,5 +1182,311 @@
 
   </sect1>
 
+  <sect1 id="acquis_sugg_old" lang="es">
+
+
+
+    <sect2 id="acquis_sugg_atraiter_old">
+
+
+      <sect3 id="acquis_sugg_rechercher_old">
+
+        <title lang="es">Buscar y tratar una sugerencia</title>
+
+        <para lang="es">Puedes fusionar las sugerencias y 
+        imprimirlas</para>
+
+        <para lang="es">Para las sugerencias en curso, puedes</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para lang="es">Imprimir</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Fusionar</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Validar</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Rechazar</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Suprimir</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+        <para lang="es">Para las sugerencias rechazadas o abandonadas, 
+        puedes</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para lang="es">Imprimir</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Archivar</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+        <para lang="es">Para las sugerencias validadas, puedes</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para lang="es">Imprimir</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Fusionar</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Confirmar</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Abandonar</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+        <para lang="es">Para las sugerencias confirmadas, puedes</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para lang="es">Imprimir</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">Pedir</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+      </sect3>
+
+      <sect3 id="acquis_sugg_create_old">
+
+        <title lang="es">Crear una sugerencia</title>
+
+        <figure>
+
+          <title lang="es">Adquisiciones &gt; Sugerencias : a tratar, 
+          Crear una sugerencia</title>
+
+          <mediaobject><imageobject>
+          <imagedata fileref="images/creation-suggestion.gif"/></imageobject></mediaobject>
+        </figure>
+
+        <para lang="es">La pantalla de creación de una sugerencia se 
+        divide en dos partes.</para>
+
+        <para lang="es">Las informaciones en la parte superior de la 
+        pantalla no se pueden modificar e indican :</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para lang="es">la fecha de creación</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">el login del administrador que crea la 
+            sugerencia</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">una valoración en función del tipo de 
+            usuario. La valoración de las sugerencias está en función 
+            del parámetro <emphasis>Adquisiciones</emphasis> 
+            <emphasis>poids_sugg</emphasis>. Para más información, 
+            consulta la <emphasis>Guía del administrador PMB, capítulo 
+            Herramientas, sección Parámetros</emphasis>.</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">un estado. Para más informació, consulta un 
+            poco más abajo <xref linkend="acquis_sugg_etats"/>.</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+        <para lang="es">El formulario de creación de una sugerencia de 
+        compra permite incluir :</para>
+
+        <itemizedlist>
+
+          <listitem>
+
+            <para lang="es">un título</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">una editorial</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">un autor</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">un ISBN</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">un precio</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">una URL asociada</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para lang="es">comentarios</para>
+
+          </listitem>
+
+        </itemizedlist>
+
+        <para lang="es">Debes incluir como mínimo un título y un autor 
+        o un título y una editorial. Los otros campos son 
+        optativos.</para>
+
+      </sect3>
+
+    </sect2>
+
+    <sect2 id="acquis_sugg_etats_old">
+
+      <title lang="es">Lista de estados de las sugerencias</title>
+
+      <para lang="es">Aquí se encuentran la lista de estados que puede 
+      tener una sugerencia, con las diferentes etapas para cada 
+      sugerencia :</para>
+
+      <itemizedlist>
+
+        <listitem>
+
+          <para lang="es"><emphasis role="bold">en 
+          curso</emphasis></para>
+
+        </listitem>
+
+        <listitem>
+
+          <para lang="es">en curso &gt; <emphasis role="bold">
+          validada</emphasis> : la sugerencia de compra se ha validado. 
+          Las informaciones que se han introducido son suficientes para 
+          empezar a buscar el documento pedido. En esta etapa aún no se 
+          ha decidido si se va a adquirir o no, solamente es un control 
+          de que hay datos suficientes para seguir adelante y que éstos 
+          son correctos.</para>
+
+        </listitem>
+
+        <listitem>
+
+          <para lang="es">en curso &gt; <emphasis role="bold">
+          rechazada</emphasis> : sugerencia no válida o con pocos datos 
+          para realizar su búsqueda</para>
+
+        </listitem>
+
+        <listitem>
+
+          <para lang="es">en curso &gt; validada &gt; 
+          <emphasis role="bold">confirmada</emphasis> : la sugerencia 
+          validada se guarda para el próximo pedido</para>
+
+        </listitem>
+
+        <listitem>
+
+          <para lang="es">en curso &gt; validada &gt; 
+          <emphasis role="bold">no aceptada</emphasis> : la sugerencia 
+          validada no corresponde a los criterios de compra o al 
+          presupuesto. La sugerencia no será pedida.</para>
+
+        </listitem>
+
+        <listitem>
+
+          <para lang="es">en curso &gt; validada &gt; confirmada &gt; 
+          <emphasis role="bold">pedida</emphasis> : la sugerencia 
+          validada ya se ha pedido</para>
+
+        </listitem>
+
+        <listitem>
+
+          <para lang="es">en curso &gt; validada &gt; confirmada &gt; 
+          pedida &gt; <emphasis role="bold">recibida</emphasis> : la 
+          sugerencia pedida ha llegado</para>
+
+        </listitem>
+
+      </itemizedlist>
+
+    </sect2>
+
+  </sect1>
+-->
 </chapter>
 
