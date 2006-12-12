@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter>
   <chapterinfo>
-	 <releaseinfo>$Id: chap0_introduction.xml,v 1.4 2006/12/12 07:13:57 gautier Exp $</releaseinfo> 
+	 <releaseinfo>$Id: chap0_introduction.xml,v 1.5 2006/12/12 07:45:51 gautier Exp $</releaseinfo> 
   </chapterinfo>	
 
 	  <title lang="fr">Introduction</title>
@@ -130,20 +130,10 @@
 
     <figure>
       <title lang="fr">Bande de liens en haut de l'écran</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/lien_haut.gif" />
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <figure>
       <title lang="en">Links bar on top of the screen</title>
-
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/lien_haut.gif" />
+          <imagedata fileref="images/lien_haut.gif" width="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -162,7 +152,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_menu.gif" />
+          <imagedata fileref="images/admin_menu.gif" width="4cm" />
         </imageobject>
       </mediaobject>
     </figure>
