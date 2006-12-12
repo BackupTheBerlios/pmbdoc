@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_acquis">
   <chapterinfo>
-    <releaseinfo>$Id: chap11_acquisitions.xml,v 1.3 2006/09/07 19:30:53
-    gautier Exp $</releaseinfo>
+    <!-- <releaseinfo>$Id: chap11_acquisitions.xml,v 1.3 2006/09/07 19:30:53
+    gautier Exp $</releaseinfo>  -->
   </chapterinfo>
 
   <title lang="fr">Acquisitions</title>
@@ -61,7 +61,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="" />
+          <imagedata fileref="images/admin-acquis-home.gif" width="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -72,9 +72,29 @@
 
     <title lang="en">Name and Address</title>
 
+    <figure>
+      <title lang="fr">Acquisitions &gt; Coordonnées</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin-acquis-coord.gif" width="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
     <para lang="fr">Pour définir les coordonnées d'un établissement, cliquez
     sur <emphasis role="bold">Ajouter les coordonnées d'un
     établissement</emphasis>.</para>
+
+    <figure>
+      <title lang="fr">Acquisitions &gt; Coordonnées</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin-acquis-coord-modify.png" width="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
 
     <para lang="en">To define the name and address of an organization, click
     on <emphasis role="bold">Add name and address of
@@ -182,6 +202,16 @@
     <para lang="en">You can also close or delete an active financial year.
     Once a financial year is closed, you cannot make any modifications to
     it.</para>
+
+    <figure>
+      <title lang="fr">Exercices comptables</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin-acquis-exer-modify.gif" width="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
   </sect1>
 
   <sect1 id="admin_acquis_produits">
@@ -195,12 +225,33 @@
 
     <para lang="en">You can define several types of materials for acquisition
     (books, CD, DVD, ...) and assign an account number to each type.</para>
+
+    <figure>
+      <title lang="fr">Types de produits</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin-acquis-produit-modify.gif" width="5cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
   </sect1>
 
   <sect1 id="admin_acquis_frais">
     <title lang="fr">Frais annexes</title>
 
     <title lang="en">Additional expenditure</title>
+
+    <figure>
+      <title lang="fr">Frais annexes</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin-acquis-frais.gif" width="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
 
     <para lang="fr">Il s'agit des frais annexes qui peuvent s'appliquer à une
     commande. Vous pouvez par exemple préciser des frais de livraisons
@@ -249,6 +300,17 @@
         of your structure (mention not compulsory)</para>
       </listitem>
     </itemizedlist>
+
+    <figure>
+      <title lang="fr">Frais</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin-acquis-frais-modify.gif" width="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
   </sect1>
 
   <sect1 id="admin_acquis_paiements">
@@ -263,6 +325,16 @@
     <para lang="en">You can define a payment method (for example, cheque,
     or bank transfer). A payment method is defined by a description to
     which notes can be attached.</para>
+
+    <figure>
+      <title lang="fr">Modes de paiement</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin-acquis-paiement-modify.gif" width="7cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
   </sect1>
 
   <sect1 id="admin_acquis_budgets">

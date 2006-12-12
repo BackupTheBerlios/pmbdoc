@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_notices">
   <chapterinfo>
-	 <releaseinfo>$Id: chap2_notices.xml,v 1.3 2006/09/06 21:04:11 gautier Exp $</releaseinfo> 
+	 <!-- <releaseinfo>$Id: chap2_notices.xml,v 1.4 2006/12/12 22:38:20 gautier Exp $</releaseinfo>  --> 
   </chapterinfo>	
 
   <title lang='fr'>Notices</title>
@@ -37,12 +37,6 @@
     with the latest publications. This CD-Rom is not free, and each one of its
     bibliographical records are copyrighted.</para>
 
-    <para lang='fr'>PMB gère depuis sa version 1.3 un suivi des origines des
-    notices.</para>
-
-    <para lang="en">Since version 1.3, PMB keeps track of sources of
-    bibliographical records.</para>
-
     <para lang='fr'>La fonction d'administration des origines des notices permet de
     prédéfinir des origines de notices. Elle permet aussi d'éditer les
     origines de notices importées.</para>
@@ -57,7 +51,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_cat_notices.gif" />
+          <imagedata fileref="images/admin_cat_notices.gif" width="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -82,7 +76,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_notices_statut.gif" />
+          <imagedata fileref="images/admin_notices_statut.gif" width="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -159,7 +153,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_notices_statut2.gif" />
+          <imagedata fileref="images/admin_notices_statut2.gif" width="8cm"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -199,7 +193,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_cat_perso_notice.gif" />
+          <imagedata fileref="images/admin_cat_perso_notice.gif" width="10cm"/>
         </imageobject>
       </mediaobject>
     </figure>

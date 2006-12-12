@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_misc">
   <chapterinfo>
-	 <releaseinfo>$Id: chap8_outils.xml,v 1.6 2006/12/12 07:39:34 gautier Exp $</releaseinfo> 
+	 <!-- <releaseinfo>$Id: chap8_outils.xml,v 1.7 2006/12/12 22:38:20 gautier Exp $</releaseinfo>  --> 
   </chapterinfo>	
 
   <title lang='fr'>Outils</title>
@@ -124,9 +124,10 @@
         <title lang='fr'>Actions personnalisables : création d'un état statistique selon
         l' "état" des exemplaires</title>
 
-        <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat, 
-docs_statut where idcode=expl_codestat and expl_section in (!!section!!) and 
-expl_statut='!!statut!!' group by idcode, codestat_libelle order by idcode</programlisting>
+        <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, 
+docs_codestat, docs_statut where idcode=expl_codestat and expl_section 
+in (!!section!!) and expl_statut='!!statut!!' group by idcode, 
+codestat_libelle order by idcode</programlisting>
 
         <para lang='fr'>Il ne reste plus qu'à renseigner vos paramètres
         <emphasis>!!statut!!</emphasis> et <emphasis>!!section!!</emphasis> en
@@ -144,8 +145,9 @@ expl_statut='!!statut!!' group by idcode, codestat_libelle order by idcode</prog
         <para lang='fr'><emphasis>Voici la requête que j'ai réalisé pour avoir le nombre
         d'exemplaires par code statistique :</emphasis></para>
 
-        <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, docs_codestat 
-where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</programlisting>
+        <programlisting>select idcode, codestat_libelle, count(*) as Nombre from exemplaires, 
+docs_codestat where idcode=expl_codestat group by idcode, 
+codestat_libelle order by idcode</programlisting>
 
         <para lang='fr'><emphasis>Que dois je modifier pour ne faire apparaître à
         l'issue de la requête que les exemplaires achetés dans l'année N
@@ -188,10 +190,10 @@ where idcode=expl_codestat group by idcode, codestat_libelle order by idcode</pr
 
         <programlisting>select idcode, codestat_libelle, count(*) as Nombre 
 from exemplaires, expl_custom_values, expl_custom, docs_codestat 
-where idcode=expl_codestat and expl_custom_small_text='!!param_annee_achat!!' 
-and name='Annee_achat' and expl_id=expl_custom_origine 
-and expl_custom_champ=idchamp group by idcode, codestat_libelle 
-order by idcode</programlisting>
+where idcode=expl_codestat and expl_custom_small_text=
+'!!param_annee_achat!!'  and name='Annee_achat' and 
+expl_id=expl_custom_origine and expl_custom_champ=idchamp group 
+by idcode, codestat_libelle order by idcode</programlisting>
 
         <para lang='fr'><emphasis role="bold">ATTENTION </emphasis>: les requêtes ne
         contiennent pas de saut de ligne.</para>
