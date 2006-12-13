@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
-<!ENTITY __chap0a_introduction SYSTEM "../../admin/chap0a_introduction.xml">
-<!ENTITY __chap0b_principes_g SYSTEM "../../admin/chap0b_principes_generaux.xml">
-<!ENTITY __chap0c_ergonomie SYSTEM "../../admin/chap0c_ergonomie.xml">
-<!ENTITY __chap0e_opac SYSTEM "../../admin/chap0e_opac.xml">
-<!ENTITY __chap0f_login SYSTEM "../../admin/chap0f_login.xml">
-<!ENTITY __chap0d_pref_user SYSTEM "../../admin/chap0d_pref_user.xml">
-<!ENTITY __chap1_circ SYSTEM "../../admin/chap1_circ.xml">
-<!ENTITY __chap2_catalogue SYSTEM "../../admin/chap2_catalogue.xml">
-<!ENTITY __chap3_autorites SYSTEM "../../admin/chap3_autorites.xml">
-<!ENTITY __chap4_editions SYSTEM "../../admin/chap4_editions.xml">
-<!ENTITY __chap_dsi SYSTEM "../../admin/chap_dsi.xml">
-<!ENTITY __chap_acquisitions SYSTEM "../../admin/chap_acquisitions.xml">
-<!ENTITY __chap5_administration SYSTEM "../../admin/chap5_administration.xml">
-<!ENTITY __chap6_aidecontextuelle SYSTEM "../../admin/chap6_aidecontextuelle.xml">
-<!ENTITY __chap7_historique_des_recherches SYSTEM "../../admin/chap7_historique_des_recherches.xml">
-<!ENTITY __chap9_erreurs SYSTEM "../../admin/chap9_erreurs.xml">
-<!ENTITY __chap99_categs SYSTEM "../../admin/chap99_categs.xml">
-<!ENTITY __chap999_postface SYSTEM "../../admin/chap999_postface.xml">
+<!ENTITY __chap0a_introduction SYSTEM "../../user/chap0a_introduction.xml">
+<!ENTITY __chap0b_principes_g SYSTEM "../../user/chap0b_principes_generaux.xml">
+<!ENTITY __chap0c_ergonomie SYSTEM "../../user/chap0c_ergonomie.xml">
+<!ENTITY __chap0e_opac SYSTEM "../../user/chap0e_opac.xml">
+<!ENTITY __chap0f_login SYSTEM "../../user/chap0f_login.xml">
+<!ENTITY __chap0d_pref_user SYSTEM "../../user/chap0d_pref_user.xml">
+<!ENTITY __chap1_circ SYSTEM "../../user/chap1_circ.xml">
+<!ENTITY __chap2_catalogue SYSTEM "../../user/chap2_catalogue.xml">
+<!ENTITY __chap3_autorites SYSTEM "../../user/chap3_autorites.xml">
+<!ENTITY __chap4_editions SYSTEM "../../user/chap4_editions.xml">
+<!ENTITY __chap_dsi SYSTEM "../../user/chap_dsi.xml">
+<!ENTITY __chap_acquisitions SYSTEM "../../user/chap_acquisitions.xml">
+<!ENTITY __chap5_administration SYSTEM "../../user/chap5_administration.xml">
+<!ENTITY __chap6_aidecontextuelle SYSTEM "../../user/chap6_aidecontextuelle.xml">
+<!ENTITY __chap7_historique_des_recherches SYSTEM "../../user/chap7_historique_des_recherches.xml">
+<!ENTITY __chap9_erreurs SYSTEM "../../user/chap9_erreurs.xml">
+<!ENTITY __chap99_categs SYSTEM "../../user/chap99_categs.xml">
+<!ENTITY __chap999_postface SYSTEM "../../user/chap999_postface.xml">
 ]>
 <book>
   <title lang='fr'>PMB : Guide de l'utilisateur</title>
@@ -46,10 +46,10 @@
       <para lang='en'>For more information, refer to www.sigb.net</para>
     </abstract>
 
-    <releaseinfo lang='fr'>Version de PMB correspondante à ce guide : voir couverture</releaseinfo>
-    <releaseinfo lang='en'>PMB version of this guide: : (see on cover)</releaseinfo>
+    <releaseinfo lang='fr'>Version de PMB correspondante à ce guide : voir couverture</releaseinfo>  -->
+    <releaseinfo lang='en'>PMB version of this guide: : (see on cover)</releaseinfo>  -->
     <releaseinfo lang='es'>Versión de PMB correspondiente a esta guía :
-    (see on cover)</releaseinfo>
+    (see on cover)</releaseinfo>  -->
 
     <copyright lang='fr'>
       <year>2004-2006</year>

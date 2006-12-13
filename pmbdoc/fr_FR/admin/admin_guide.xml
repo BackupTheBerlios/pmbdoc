@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
-"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+"http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" [
 <!ENTITY __chap0_introduction SYSTEM "../../admin/chap0_introduction.xml">
 <!ENTITY __chap00_minimum SYSTEM "../../admin/chap00_minimum.xml">
 <!ENTITY __chap000_definitions SYSTEM "../../admin/chap000_definitions.xml">
@@ -46,9 +46,9 @@
     </abstract>
 
     <releaseinfo lang='fr'>Version de PMB correspondante à ce guide :
-    voir couverture.</releaseinfo>
+    voir couverture.</releaseinfo>  -->
 
-    <releaseinfo lang='en'>PMB version of this guide: see on cover.</releaseinfo>
+    <releaseinfo lang='en'>PMB version of this guide: see on cover.</releaseinfo>  -->
 
     <copyright>
       <year>2004-2005</year>
@@ -154,9 +154,9 @@
 
   &__chap6_imports;
 
-<!--  &__chap7_conversion; -->
+  &__chap7_conversion;
 
-<!--  &__chap8_outils; -->
+  &__chap8_outils;
 
   &__chap9_z3950;
 
