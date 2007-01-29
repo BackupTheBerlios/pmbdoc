@@ -762,7 +762,7 @@
 	  
     </sect2>
   </sect1>
-<!--
+
   <sect1 id="dsi_rss">
     <title lang='fr'>Flux RSS</title>
     <title lang='es'>Fuente RSS</title>	
@@ -771,8 +771,53 @@
       <title lang='fr'>Définition</title>
       <title lang='es'>Definición</title>	  
 
-      <para lang='fr'></para>
+      <para lang='fr'>Les flux RSS (Really Simple Syndication) sont des fils de nouveautés émis par un site internet. Le Monde diffuse par exemple des fils d'acutalités thématiques (La Une, International, Société, Sciences...). Ces flux peuvent être lus par des logiciels spécifiques, par les navigateurs internet ou directement intégrés à votre catalogue dans PMB.</para>
       <para lang='es'></para>	  
     </sect2>
-  </sect1> -->
+    
+    <sect2 id="dsi_rss_cat">
+      <title lang='fr'>Cataloguer un fil RSS</title>  
+
+      <para lang='fr'>Vous pouvez cataloguer un fil RSS dans PMB.</para>
+
+      <para lang='fr'>Voici comment enregistrer un fil RSS en quelques étapes :</para>    
+
+      <itemizedlist>
+        <listitem>      
+      		<para lang='fr'>1: créer un statut de notice dont seules les notices sont visibles (pas les
+exemplaire), appelez-le au hasard "flux RSS"</para>
+		</listitem>
+		<listitem>
+			<para lang='fr'>2: créer une notice ayant</para>
+      		<itemizedlist>
+        		<listitem>      
+    				<para lang='fr'>pour statut : flux RSS</para>
+        		</listitem>      
+        		<listitem>      
+    				<para lang='fr'>pour type : document électronique (pas obligatoire)</para>
+        		</listitem>      
+        		<listitem>      
+    				<para lang='fr'>pour lien : l'url du fichier XML du flux RSS</para>
+        		</listitem>      
+        		<listitem>      
+    				<para lang='fr'>pour format électronique de la ressource : 
+    				"RSS ### #" </para>
+    				<para lang='fr'>où ### représente
+					le temps de mise en cache en minutes. Mettre 0 si vous ne voulez pas de mise
+					en cache ; </para>
+					<para lang='fr'>où si # vaut 1 : affichage en page d'accueil si l'affichage des RSS en page 
+					d'accueil est activé ; si # vaut 0 : ne pas afficher sur la page d'accueil.</para>
+        		</listitem>      
+      		</itemizedlist>
+		</listitem>
+		<listitem>
+			<para lang='fr'>3: option : afficher ces flux en page d'accueil : paramètre
+opac show_rss_browser à mettre à 1
+		</listitem>
+		<listitem>
+			<para lang='fr'>4: option : créer une étagère virtuelle de ces flux
+		</listitem>
+      </itemizedlist>
+
+  </sect1> 
 </chapter>
