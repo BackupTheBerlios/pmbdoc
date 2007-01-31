@@ -2264,56 +2264,6 @@
 
           <sect5>
 
-            <title lang="fr">Aller plus loin : les flux RSS</title>
-
-            <para lang="fr">Vous pouvez également associer un fil RSS à 
-            une notice. Un fil RSS est un flux d&apos;information émis 
-            en continu par un site internet. Le flux RSS du site 
-            lemonde.fr vous renseigne sur les principales informations 
-            de l&apos;actualité développées sur ce site. En associant 
-            le fil RSS de ce site à une notice décrivant lemonde.fr, 
-            les lecteurs de votre bibliothèque ou de votre centre de 
-            documentation peuvent consulter les dernières informations 
-            de ce site depuis votre opac.</para>
-
-            <para lang="es"><emphasis role="bold">Ir un poco más allá : 
-            las fuentes RSS</emphasis> Puedes asociar una fuente RSS a 
-            un registro. Una fuente RSS es un flujo de información que 
-            emitido continuamente por una página web de internet. La 
-            fuente RSS del web lemonde.fr te informa sobre las 
-            principales noticias de actualidad que se incluyen en su 
-            página. Asociando esa fuente RSS de ese web a un registro 
-            que describa lemonde.fr, puedes hacer que tus usuario 
-            puedan consultar las últimas noticias de lemonde a través 
-            de tu opac.</para>
-
-            <para lang="fr">Pour associer un fil RSS saisissez 
-            l&apos;URL correspondante (il est facile de trouver ces 
-            informations sur le Web) dans le champ URL associée. 
-            Saisissez pour format électronique RSS NN où NN est un 
-            nombre en minutes définissant le délai de rafraichissement 
-            de l&apos;information depuis le fil RSS. Par exemple, si 
-            vous saisissez &quot;RSS 30&quot;, le fil RSS correspondant 
-            sera rechargé toutes les 30 minutes depuis le site web 
-            d&apos;origine. Ces informations seront mises en cache pour 
-            accélérer les réponses de l&apos;OPAC de PMB pendant les 
-            trentes prochaines minutes.</para>
-
-            <para lang="es">Para asociar una fuente RSS introduce la 
-            URL correspondiente (la dirección es fácil de encontrar en 
-            el web) en el campo URL asociado. Introduce como formato 
-            electrónico RSS NN donde NN es el número en minutos para 
-            actualizar la información de la fuente RSS. Por ejemplo, si 
-            introduces &quot;RSS 30&quot;, la fuente RSS 
-            correspondiente se actualizará cada 30 minutos con la 
-            información del sitio web original. Estas informaciones se 
-            irán almacenando en cache para acelerar las respuestas del 
-            OPAC de PMB durante los treinta minutos siguientes.</para>
-
-          </sect5>
-
-          <sect5>
-
             <title lang="fr">Champs personnalisés</title>
 
             <title lang="es">Campos personalizados</title>
@@ -2447,7 +2397,7 @@
         que lo identifica. Para modificarlo, haz clic sobre su 
         título.</para>
 
-        <sect4>
+        <sect4 id="cat_notice_modification">
 
           <title lang="fr">Modification d&apos;une notice</title>
 
@@ -3058,7 +3008,7 @@
 
         </sect4>
 
-        <sect4>
+        <sect4 id="cat_explnum_modification">
 
           <title lang="fr">Modifier un exemplaire numérique</title>
 
@@ -3090,7 +3040,7 @@
         publicaciones periódicas, también documentos multimedias, 
         páginas web, RSS...</para>
 
-        <sect4>
+        <sect4 id="cat_notice_website">
 
           <title lang="fr">Cataloguer un site web</title>
 
@@ -3118,7 +3068,7 @@
 
         </sect4>
 
-        <sect4>
+        <sect4 id="cat_notice_rss">
 
           <title lang="fr">Cataloguer un flux RSS</title>
 
@@ -3216,6 +3166,19 @@
           del Administrador PMB</emphasis>, capítulo 
           <emphasis>Utilidades</emphasis>.</para>
 
+      <figure>
+        <title lang='fr'>Flux RSS affiché dans l'OPAC</title>
+		
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/cat_notices_rss.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+			<para lang="fr">Attention, les flux RSS ne sont affichés que dans l'OPAC, pas
+			en partie gestion.</para>
         </sect4>
 
       </sect3>

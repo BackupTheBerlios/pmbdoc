@@ -767,11 +767,14 @@
     <title lang='fr'>Flux RSS</title>
     <title lang='es'>Fuente RSS</title>	
 
-    <sect2 id="dsi_rss_def">
+    <sect2 id="dsi_rss_definition">
       <title lang='fr'>Définition</title>
       <title lang='es'>Definición</title>	  
 
-      <para lang='fr'>Les flux RSS (Really Simple Syndication) sont des fils de nouveautés émis par un site internet. Le Monde diffuse par exemple des fils d'acutalités thématiques (La Une, International, Société, Sciences...). Ces flux peuvent être lus par des logiciels spécifiques, par les navigateurs internet ou directement intégrés à votre catalogue dans PMB.</para>
+      <para lang='fr'>Les flux RSS (Really Simple Syndication) sont des fils de nouveautés 
+      émis par un site internet. Le Monde diffuse par exemple des fils d'acutalités thématiques 
+      (La Une, International, Société, Sciences...). Ces flux peuvent être lus par des logiciels 
+      spécifiques, par les navigateurs internet ou directement intégrés à votre catalogue dans PMB.</para>
       <para lang='es'></para>	  
     </sect2>
     
@@ -820,6 +823,41 @@ opac show_rss_browser à mettre à 1</para>
       </itemizedlist>
       
       <para lang='fr'>Pour plus d'informations sur le catalogage, consultez le chapitre 
+      <xref linkend="cat"/>.</para>
+
+      <para lang='fr'>Pour des informations plus détaillées sur le catalogage de flux RSS, 
+      consultez le chapitre <xref linkend="cat_notice_rss"/>.</para>
+      
+    <sect2 id="dsi_rss_def">
+      <title lang='fr'>Définition</title>
+      <title lang='es'>Definición</title>	  
+      
+      <para lang='fr'>PMB permet de créer des flux RSS qui sont alors accessibles depuis la page 
+      d'accueil de l'opac, soit par le lien RSS en bas de page soit dans votre navigateur
+      à l'aide d'une icône signalant la présence d'un flux RSS sur l'OPAC.</para>
+      
+      <figure>
+        <title lang='fr'>Lien vers les flux RSS en page d'accueil de l'OPAC</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/opac_rss.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+      
+      <figure>
+        <title lang='fr'>Firefox : affichage de flux RSS</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/opac_rss.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+      
+      
+      <para lang='fr'></para>
 
   </sect1> 
 </chapter>
