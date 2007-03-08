@@ -266,7 +266,7 @@
 	  
     </sect2>
 
-    <sect2 id="diffusion">
+    <sect2 id="dsi_banettes">
       <title lang='fr'>Bannettes</title>
       <title lang="es">Cestas</title>
 	  
@@ -285,6 +285,26 @@
       a llenar la cesta y asociarla con los usuarios a los cuales va destinada
       la cesta de novedades.</para>
 	  
+	<sect3 id="dsi_banettes_cumulatives">
+		<title lang="fr">Banettes cumulatives</title>
+		
+		 <para lang='fr'>voici le fonctionnement d'une bannette cumulative en nb (##) de notices:</para>
+		 <para lang='fr'>Le bouton "remplir"</para>
+		 <para lang='fr'>-sélectionne toutes les nouveautés depuis le dernier envoi et les ajoute
+à la bannette.</para>
+		 <para lang='fr'>-purge le contenu afin de limiter au nombre fixé avec une limite: si
+plus de ## notices étaient nouvelles, elles ont été ajoutées. Nous pouvons alors considérer qu'elles sont bien valables et méritent d'être
+diffusées. Elles seront purgées dès que leur présence dans la bannette sera supérieure à 1 jour.</para>
+
+<para lang='fr'>Il en ressort que : les bannettes cumulatives ne sont pas limitées au nombre
+## de notices pour ceux qui cataloguent beaucoup de nouveautés en
+permanence, en revanche, pour ceux qui cataloguent un nombre inférieur à ##
+notices entre deux diffusions, ils sont assurés d'avoir toujours les ##
+dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...</para>
+
+<para lang='fr'>Attention, si vous cataloguez beaucoup, diffusez tous les jours, les notices avant le jour j-1 seront effectivement purgées de la banette même cumulative.</para>
+			
+			</sect3>	
     </sect2>
 
     <sect2 id="dsi_equations">
