@@ -240,12 +240,7 @@
     </sect2>
   </sect1>
 
-  <sect1 id="dsi_publique">
-    <title lang='fr'>DSI publique</title>
-    <title lang="es">DSI pública</title>
-	
-
-    <sect2 id="dsi_diffusion">
+    <sect1 id="dsi_diffusion">
       <title lang='fr'>Diffusion</title>
       <title lang="es">Uso</title>
 	  
@@ -262,10 +257,49 @@
       diffusion publique et celles de diffusion privée.</para>
       <para lang="es">La difusión automática muestra a la vez las cestas públicas y las
       privadas.</para>
-	  
-    </sect2>
+		
+	  <sect2 id="dsi_diffusion_diffuser">
+		  <title lang="fr">Diffuser</title>
+		  <para>Diffuser permet de diffuser les banettes arrivées à échéances.</para>
+		  <para>Les banettes visibles dans Diffusion &gt; Diffuser sont donc uniquement des banettes
+		  automatiques (avec une périodicité définie), dont le contenu est prêt à être diffusé.
+			  Si une banette est créée avec une périodicité de 30 jours, au bout du 30e jour elle est
+		  donc visible ici.</para>
+		  <para>Les banettes sont automatiquement toutes cochées. Pour en expédier le contenu, cliquez sur le
+		  bouton <emphasis role="bold">Vider, remplir et diffuser</emphasis>. Si vous souhaitez
+		  réaliser le processus étape par étape, vous pouvez les boutons Vider, Remplir, Visualiser et
+		  enfin Diffuser. Le bouton Exporter sert à prévisualiser le contenu du mail qui sera envoyé
+		  aux destinataires de la DSI ou à réaliser une diffusion papier en l'imprimant.</para>
+		  <para>Attention, le bouton Vider vide réellement la banette de <emphasis role="bold">tout</emphasis>
+		  son contenu, y compris d'un éventuel cumul si la banette est cumulative (voir plus loin).</para>
+	  </sect2>
+		
+	  <sect2 id="dsi_diffusion_automatiques">
+		  <title lang="fr">Automatiques</title>
+		  <para>Cette option du menu permet de diffuser des banettes automatiques (avec une périodicité définie, 
+		  par exemple 30 jours) à tout moment, qu'elles soient au terme de leur période (j+30) ou avant
+		  terme (j+21 par exemple).</para>
+		  <para>Les banettes visibles dans Diffusion &gt; Diffuser ne sont pas cochées par défaut.</para>
+		  <para>Pour en expédier le contenu, cliquez sur le
+		  bouton <emphasis role="bold">Vider, remplir et diffuser</emphasis>. Si vous souhaitez
+		  réaliser le processus étape par étape, vous pouvez les boutons Vider, Remplir, Visualiser et
+		  enfin Diffuser. Le bouton Exporter sert à prévisualiser le contenu du mail qui sera envoyé
+		  aux destinataires de la DSI ou à réaliser une diffusion papier en l'imprimant.</para>
+		  <para>Attention, le bouton Vider vide réellement la banette de <emphasis role="bold">tout</emphasis>
+		  son contenu, y compris d'un éventuel cumul si la banette est cumulative (voir plus loin).</para>
+	  </sect2>
+		
+		<sect2 id="dsi_diffusion_manuelles">
+			<title lang="fr">Manuelles</title>
+			<para>La diffusion des banettes manuelles permet de diffuser des banettes qui n'ont aucune périodicité
+			de définie.</para>
+			<para>Pour diffuser une banette manuelle, cochez la banette et cliquez sur Vider, remplir et diffuser.</para>
+			<para>Les boutons Vider, Remplir, Visualiser, Diffuser et Exporter ont le même fonctionnement que dans 
+				DSI &gt; Diffusion &gt; Automatiques. Pour plus d'informations, consulter plus haut le chapitre correspondant.</para>
+		</sect2>
+	</sect1>  
 
-    <sect2 id="dsi_banettes">
+    <sect1 id="dsi_banettes">
       <title lang='fr'>Bannettes</title>
       <title lang="es">Cestas</title>
 	  
@@ -284,9 +318,46 @@
       a llenar la cesta y asociarla con los usuarios a los cuales va destinada
       la cesta de novedades.</para>
 		
+	<sect2 id="dsi_banettes_publiques">
+	  <title lang="fr">Banettes publiques</title>
+		
+	<sect3 id="dsi_banettes_publiques_chercher">
+		<title lang="fr">Afficher les banettes</title>
+		<para lang="fr">Pour afficher une banette, saisissez son nom ou une partie de son nom suivie d'une * (par exemple "nouveaut*").
+			Pour afficher toutes les banettes, cliquez sur Rechercher.</para>
+		<para lang="fr">Vous pouvez affiner votre recherche en utilisant le sélecteur de classement à droite de l'écran.</para>
+		<para lang="fr">Pour créer une banette publique, cliquez sur Ajouter.</para>
+	</sect3>	
+	<sect3 id="dsi_banettes_publiques_ajouter">
+		<title lang="fr">Créer une banette publique</title>
+		<para lang="fr">La banette publique est un conteneur qui est défini par un nom, une diffusion soit manuelle, 
+			soit automatique tous les X jours. A ce conteneur seront associées une ou plusieurs équations de recherche,
+		un ou des lecteurs et/ou une catégorie complète de lecteurs.</para>
+		
+	<figure>
+        <title lang='fr'>Créer une banette publique</title>		
 
-	  
-	<sect3 id="dsi_banettes_cumulatives">
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_banette_creer_ex_bd1.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>			
+		<para lang="fr">Dans la case Nom, saisissez un nom qui vous permettra d'identifier cette banette. Dans commentaire
+		en gestion définissez un commentaire à destination des autres bibliothécaires/documentalistes ou, à défaut, recopiez
+		le nom de la banette.</para>
+		<para lang="fr">Vous pouvez définir un classement pour organiser plus facilement vos banettes.</para>
+		<para lang="fr">Dans Entête du mail, vous pouvez définir un texte qui précédera la liste des notices dans le mail
+		de diffusion. Dans cet entête, vous pouvez utiliser du code HTML pour mettre en forme votre texte. Voici quelques 
+			exemples de balises HTML employables. Certaines doivent entourer le texte à mettre en forme.</para>
+		<para lang="fr"><emphasis role="bold">&lt;br&gt;</emphasis> insère un saut de ligne (passage en ligne)</para>
+		<para lang="fr"><emphasis role="bold">&lt;p&gt;paragraphe&lt;/p&gt;</emphasis> insère une interligne avant le paragraphe et une interligne après le paragraphe</para>
+		<para lang="fr"><emphasis role="bold">&lt;i&gt;italique&lt;/i&gt;</emphasis> met en italique le texte "italique"</para>
+		<para lang="fr"><emphasis role="bold">&lt;b&gt;gras&lt;/b&gt;</emphasis> met en gras le texte "gras"</para>
+		<para lang="fr"></para>
+		</sect3>
+		
+			<sect3 id="dsi_banettes_cumulatives">
 		<title lang="fr">Banettes cumulatives</title>
 		
 		 <para lang='fr'>voici le fonctionnement d'une bannette cumulative en nb (##) de notices:</para>
@@ -304,9 +375,10 @@ notices entre deux diffusions, ils sont assurés d'avoir toujours les ##
 dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...</para>
 
 <para lang='fr'>Attention, si vous cataloguez beaucoup, diffusez tous les jours, les notices avant le jour j-1 seront effectivement purgées de la banette même cumulative.</para>
-			
-			</sect3>	
-    </sect2>
+
+			</sect3>
+			</sect2>	
+    </sect1>
 
     <sect2 id="dsi_equations">
       <title lang='fr'>Equations</title>
