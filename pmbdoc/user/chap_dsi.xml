@@ -284,6 +284,8 @@
       o suprimir una cesta. También puedes eliminar las ecuaciones para volver
       a llenar la cesta y asociarla con los usuarios a los cuales va destinada
       la cesta de novedades.</para>
+		
+
 	  
 	<sect3 id="dsi_banettes_cumulatives">
 		<title lang="fr">Banettes cumulatives</title>
@@ -329,6 +331,21 @@ dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...
       <para lang="es">Puedes definir las relaciones que te permitarán organizar las
       cestas y las ecuaciones.</para>
 	  
+		<sect3 lang="fr" id="dsi_options_classements">
+			<title lang='fr'>Classements</title>
+			<para lang="fr">Au delà d'une certaine quantité de banettes créées, il faut organiser ses banettes et équations en les classant.
+			</para>
+			<para lang="fr">Les classements se définissent en donnant un nom et en choisissant un type : soit classement de banettes, soit classement d'équations.</para>
+      <figure>
+        <title lang='fr'>Ajout d'un classement</title>		
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_classements_ajouter.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>			
+		</sect3>
     </sect2>
 
     <sect2>
