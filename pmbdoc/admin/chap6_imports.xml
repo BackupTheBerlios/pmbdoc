@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_import">
   <chapterinfo>
-	 <!-- <releaseinfo>$Id: chap6_imports.xml,v 1.4 2006/12/12 22:38:20 gautier Exp $</releaseinfo>  --> 
+	 <!-- <releaseinfo>$Id: chap6_imports.xml,v 1.5 2007/03/17 15:20:29 gautier Exp $</releaseinfo>  --> 
   </chapterinfo>	
 
   <title lang='fr'>Imports</title>
@@ -503,7 +503,8 @@
 
 610 $a mots clés &gt;&gt; notices.index_l
 
-676 $a dewey &gt;&gt; créée dans indexint.indexint_name puis indexint.indexint_id &gt;&gt; notices.indexint
+676 $a dewey &gt;&gt; créée dans indexint.indexint_name
+    puis indexint.indexint_id &gt;&gt; notices.indexint
 
 700 701 702 710 711 712 responsabilités 
     $a nom de l'autorité &gt;&gt; authors.author_name
@@ -518,11 +519,11 @@
 995 $f code-barre &gt;&gt; exemplaires.expl_cb
 995 $k cote &gt;&gt; exemplaires.expl_cote
 995 $q public visé &gt;&gt; docs_section.sdoc_codage_import 
-                      puis docs_section.idsection &gt;&gt; exemplaires.expl_section
-                   &gt;&gt; docs_codestat.sdoc_codage_import 
-                      puis docs_codestat.idcode &gt;&gt; exemplaires.expl_codestat
+    puis docs_section.idsection &gt;&gt; exemplaires.expl_section
+    &gt;&gt; docs_codestat.sdoc_codage_import 
+    puis docs_codestat.idcode &gt;&gt; exemplaires.expl_codestat
 995 $r type de document &gt;&gt; docs_type.tdoc_codage_import 
-                           puis docs_type.idtyp_doc &gt;&gt; exemplaires.expl_typdoc
+    puis docs_type.idtyp_doc &gt;&gt; exemplaires.expl_typdoc
 995 $u notes &gt;&gt; exemplaires.expl_note
     </programlisting></para>
   </sect1>

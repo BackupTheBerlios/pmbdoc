@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="definitions">
   <chapterinfo>
-	 <!-- <releaseinfo>$Id: chap000_definitions.xml,v 1.6 2006/12/12 22:38:20 gautier Exp $</releaseinfo>  --> 
   </chapterinfo>	
 
   <title lang="fr">Quelques définitions</title>
@@ -101,21 +100,22 @@
   followed by a letter.</para> <para lang="fr">Voici un exemple de fichier
   UNIMARC correspondant à un exemplaire de code barre 5777008954 de :</para>
   <para lang="en">Here is an example of a UNIMARC file for a copy with barcode
-  5777008954 of:</para> <address>Les Champignons / Jean C. Keller. - Paris : le Livre de poche, 1983 - 127 p. : ill. ; 17 cm. - (Le Livre de poche&nbsp;; 7847).</address>
+  5777008954 of:</para> <para>Les Champignons / Jean C. Keller. - Paris : 
+  le Livre de poche, 1983 - 127 p. : ill. ; 17 cm. - (Le Livre de poche; 7847).</para>
   <programlisting>*****cam**22002411**450*                       [Données codées]
 010 ** $a 2-253-03268-9 $b Br. $d 24 F         [ISBN, reliure, prix]
 100 ** $a 19840104d1983****m**y0frey0103****ba [Données codées]
-101 ** $a fre                                  [Code de langue et numéros]
-102 ** $a FR                                   [Code de pays d'identifications]
+101 ** $a fre                                  [Code de langue]
+102 ** $a FR                                   [Code de pays]
 105 ** $a aay**zz**00|z|                       [Données codées]
 106 ** $a r                                    [Données codées]
-200 1* $a Les Champignons $f Jean C. Keller    [Titre et responsabilité]
-210 *0 $a Paris $c le Livre de poche $d 1983   [Adresse bibliographique]
+200 1* $a Les Champignons $f Jean C. Keller    [Titre, auteur]
+210 *0 $a Paris $c le Livre de poche $d 1983   [Edition]
 215 ** $a 127 p. $c ill. $d 17 cm              [Collation]
 225 2* $a Le Livre de poche $v 7847            [Collection]
 606 ** $3 $a Champignons                       [Vedette matière]
 676 ** $a 589.2                                [Indice Dewey]
-700 1* $a Keller $b Jean                       [Vedette auteur principal]
+700 1* $a Keller $b Jean                       [Vedette auteur]
 995 ** $f 5777008954 $k 589.2 KEL
 </programlisting> <para lang="fr">(1) les * correspondent à des blancs ou à
   des positions non renseignées</para> <para lang="fr">(2) les mentions entre

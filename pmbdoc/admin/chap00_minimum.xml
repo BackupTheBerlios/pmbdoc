@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="donnees_minimum">
   <chapterinfo>
-	 <!-- <releaseinfo>$Id: chap00_minimum.xml,v 1.6 2006/12/12 22:38:20 gautier Exp $</releaseinfo>  --> 
+	 <!-- <releaseinfo>$Id: chap00_minimum.xml,v 1.7 2007/03/17 15:20:09 gautier Exp $</releaseinfo>  --> 
   </chapterinfo>	
 
   <title lang='fr'>Données minimums</title>
@@ -362,8 +362,8 @@
       </para><para>
         <programlisting>Si vous avez charge les donnees de test de PMB (data_test.sql),
 vous disposez d'un jeu de notices et d'exemplaires pour tester PMB.
-Ce script vous propose de vider ces tables d'exemple de votre application
-afin de repartir d'une base PMB vierge :
+Ce script vous propose de vider ces tables d'exemple de votre 
+application afin de repartir d'une base PMB vierge :
 ------------------------------------------
     table des emprunteurs              
     table des groupes d'emprunteurs
