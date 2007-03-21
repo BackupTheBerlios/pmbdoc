@@ -354,7 +354,22 @@
 		<para lang="fr"><emphasis role="bold">&lt;p&gt;paragraphe&lt;/p&gt;</emphasis> insère une interligne avant le paragraphe et une interligne après le paragraphe</para>
 		<para lang="fr"><emphasis role="bold">&lt;i&gt;italique&lt;/i&gt;</emphasis> met en italique le texte "italique"</para>
 		<para lang="fr"><emphasis role="bold">&lt;b&gt;gras&lt;/b&gt;</emphasis> met en gras le texte "gras"</para>
-		<para lang="fr"></para>
+		<para lang="fr"><emphasis>Date de dernier remplissage</emphasis> il n'y a pas de date de dernier remplissage puisque la banette n'a pas encore été créée.
+		Si vous modifiez une banette, vous pourrez modifier la date de dernier remplissage à l'aide d'un bouton calendrier.</para>
+		<para lang="fr"><emphasis>Date de dernier envoi</emphasis> correspond lors de la création à la date du jour. 
+			La sélection des nouvelles notices correspondant à votre équation se fera depuis cette date. Modifiez cette date pour
+		pouvoir réaliser une DSI dès la création de la banette.</para>
+		<para lang="fr"><emphasis>Propriétaire</emphasis> doit indiquer <emphasis>Aucun : banette publique</emphasis>.</para>
+		<para lang="fr"><emphasis>Banette automatique</emphasis> est à cocher si vous voulez diffuser cette banette à intervalle régulier, que 
+			vous devez définir dans <emphasis>Périodicité</emphasis> en jours (sous la forme <emphasis>30</emphasis>).</para>
+		<para lang="fr"><emphasis>Diffusion par mail</emphasis> et <emphasis>Nombre de notices à diffuser par mail</emphasis> sont à compléter.</para>
+		<para lang="fr">Pour abonner l'ensemble des lecteurs d'une catégorie, choisissez une catégorie dans <emphasis>Catégorie de lecteurs concernés</emphasis>. 
+			Vous pourrez également abonner individuellement des lecteurs, cette sélection se fait ultérieurement.</para>
+		<para lang="fr">En choisissant un panier dans <emphasis>Diffuser dans un panier</emphasis>, votre banette remplira à chaque diffusion le panier choisi.
+		Ceci permet par exemple d'utiliser la DSI pour alimenter un panier qui est repris dans une étagère virtuelle.
+		De cette façon, vous pouvez mettre automatiquement en page d'accueil de votre OPAC une liste de nouveautés thématique.</para>
+		<para lang="fr">Le fonction du <emphasis>cumul</emphasis> pour les banettes est décrit plus loin dans ce chapitre. Reportez vous 
+			à la partie correspondante pour plus d'informations.</para>
 		</sect3>
 		
 			<sect3 id="dsi_banettes_cumulatives">
