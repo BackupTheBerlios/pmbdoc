@@ -392,6 +392,59 @@ dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...
 <para lang='fr'>Attention, si vous cataloguez beaucoup, diffusez tous les jours, les notices avant le jour j-1 seront effectivement purgées de la banette même cumulative.</para>
 
 			</sect3>
+		<sect3 id="dsi_banettes_affecter_equations">
+			<title lang="fr">Affecter une ou des équations à une banette</title>
+			
+			<para lang="fr">Depuis la liste des banettes, cliquez sur la ligne correspondant à votre banette dans la colonne Equations associées.</para>
+			<para lang="fr">Cochez ensuite la ou les banettes correspondantes puis cliquez sur Enregistrer.
+			Attention, il ne suffit pas de sélectionner une équation pour l'affecter. 
+				Lorsque vous sélectionnez une autre catégorie dans la liste en haut de l'écran, votre sélection n'est pas conservée.
+			Lorsque vous faites une recherche à droite de l'écran, votre sélection n'est pas conservée. 
+				Lorsque vous devez sélectionner des équations parmi un grand nombre, l'affectation des équations par simple sélection est risque d'erreur. Pour cette raison,
+				vous devez valider votre sélection en cliquant sur Enregistrer.</para>
+			<para lang="fr">Pour ne plus affecter une équation précédemment sélectionnée, choisissez "équations affectées" dans la liste 
+				des catégories en haut de l'écran.</para>
+			<para lang="fr">Vous pouvez ensuite cliquer sur Retour pour afficher la liste des banettes ou cliquer sur le bouton Abonnés 
+				à droite de l'écran pour affecter un ou plusieurs lecteurs à votre banette.</para>
+		</sect3>
+		<sect3 id="dsi_banettes_affecter_lecteurs">
+			<title lang="fr">Affecter des lecteurs individuels à une banette</title>
+			<para lang="fr">Dans DSI >  Banettes, lancez une recherche pour afficher votre banette.</para>
+
+		<figure>
+        <title lang='fr'>Liste des banettes</title>		
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_banette_rechercher.gif" />
+          </imageobject>
+        </mediaobject>
+		</figure>			
+
+			<para lang="fr">Depuis la liste des banettes, cliquez sur la ligne correspondant à votre banette dans la colonne Nbre d'abonnés.</para>
+	  
+		<figure>
+        <title lang='fr'>Liste des lecteurs affectables à une banette</title>		
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/dsi_banette_lecteurs.gif" />
+          </imageobject>
+        </mediaobject>
+		</figure>			
+			
+			<para lang="fr">Pour affecter un des lecteurs, cochez la case précédant son nom puis cliquez sur <emphasis>Enregistrer</emphasis>.
+			Attention, il ne suffit pas de sélectionner un lecteur pour l'affecter. 
+				Lorsque vous sélectionnez une autre catégorie dans la liste en haut de l'écran, votre sélection n'est pas conservée.
+			Lorsque vous faites une autre recherche, votre sélection n'est pas conservée. Lorsque vous devez sélectionner une certaine
+				quantité de lecteurs, l'affectation des lecteurs par simple sélection est risque d'erreur. Pour cette raison,
+				vous devez valider votre sélection en cliquant sur Enregistrer.</para>
+			<para lang="fr">Pour ne plus affecter un lecteur précédemment sélectionné, choisissez "lecteurs affectés" dans la liste 
+				des catégories en haut de l'écran.</para>
+			<para lang="fr">Vous pouvez ensuite cliquer sur Retour pour afficher la liste des banettes ou cliquer sur le bouton Equations 
+				à droite de l'écran pour affecter une ou des équations à votre banette.</para>
+			
+		</sect3>
 			</sect2>
 
     <sect2 id="dsi_equations">
@@ -403,6 +456,21 @@ dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...
       vont permettre le remplissage des bannettes.</para>
       <para lang="es">Las ecuaciones son las búsquedas avanzadas seleccionadas que
       permiten llenar las cestas.</para>
+		
+		<sect3 id="dsi_equations_rechercher">
+			<title lang="fr">Rechercher une équation</title>
+			<para lang="fr">Pour chercher une équation, saisissez son nom entier ou en partie dans la case de recherche en haut de l'écran.
+			Vous pouvez utiliser le caractère étoile "*" comme troncature (par exemple philo* pour remplacer philosophe ou philosophie).</para>
+			
+		</sect3>
+	  
+		<sect3 id="dsi_equations_ajouter">
+			<title lang="fr">Créer une équation</title>
+			<para lang="fr">Pour créer une nouvelle équation, cliquez sur le bouton Ajouter.</para>
+			<para lang="fr">Vous êtes alors directement redirigé dans l'onglet Catalogue, en recherche multi-critères. 
+				Une équation de recherche est une recherche multi-critères, identifiée par un nom et éventuellement par un classement.</para>
+			
+		</sect3>
 	  
     </sect2>
 
