@@ -71,9 +71,7 @@
         <title lang='es'>Autoridades &gt; Autores</title>		
 
         <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/aut_auteurs.gif" />
-          </imageobject>
+          <imageobject><imagedata fileref="images/aut_auteurs.gif" contentwidth="10cm"/></imageobject>
         </mediaobject>
       </figure>
 
@@ -105,9 +103,7 @@
           <title lang='es'>Autoridades &gt; Autores, editar un autor</title>		  
 
           <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/aut_auteurs_edit.gif" />
-            </imageobject>
+            <imageobject><imagedata fileref="images/aut_auteurs_edit.gif" contentwidth="10cm"/></imageobject>
           </mediaobject>
         </figure>
 
@@ -136,10 +132,10 @@
           </listitem>
 
           <listitem>
-            <para lang='fr'><emphasis role="bold">élément rejeté </emphasis>: le prénom
+            <para lang='fr'><emphasis role="bold">élément rejeté </emphasis> : le prénom
             pour une personne physique</para>
 			
-            <para lang='es'><emphasis role="bold">elemento secundario </emphasis>: el nombre
+            <para lang='es'><emphasis role="bold">elemento secundario </emphasis> : el nombre
 			para una persona física</para>			
           </listitem>
 
@@ -167,12 +163,12 @@
           </listitem>
 
           <listitem>
-            <para lang='fr'><emphasis role="bold">site web </emphasis>: site web
+            <para lang='fr'><emphasis role="bold">site web </emphasis> : site web
             personnel de la personne physique ou en rapport avec elle
             (biographie par exemple), site web de la collectivité le cas
             échéant.</para>
 			
-            <para lang='es'><emphasis role="bold">Pàgina web </emphasis>: la página web 
+            <para lang='es'><emphasis role="bold">Pàgina web </emphasis> : la página web 
 			personal de la persona física o algún enlace a información sobre ella
 			(su biografía por ejemplo), página web de la entidad.</para>
 						
@@ -219,9 +215,7 @@
           <title lang='es'>Autoridades &gt; Autores, añadir un autor</title>		  
 
           <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/aut_auteurs_ajout.gif" />
-            </imageobject>
+            <imageobject><imagedata fileref="images/aut_auteurs_ajout.gif" contentwidth="10cm"/></imageobject>
           </mediaobject>
         </figure>
 
@@ -400,7 +394,7 @@
 
               <entry lang="fr">Françoise</entry>
 
-              <entry lang="fr">Ducrocq, Françoise <emphasis>renvoi vers</emphasis>
+              <entry lang="fr">Ducrocq, Françoise <emphasis>renvoi vers</emphasis> 
               Barret-Ducrocq, Françoise</entry>
             </row>
 
@@ -411,7 +405,7 @@
 
               <entry lang="fr">Françoise</entry>
 
-              <entry lang="fr">Barret, Françoise <emphasis>renvoi vers</emphasis>
+              <entry lang="fr">Barret, Françoise <emphasis>renvoi vers</emphasis> 
               Barret-Ducrocq, Françoise</entry>
             </row>
           </tbody>
@@ -535,9 +529,7 @@
           <title lang='fr'>Autorités &gt; Catégories</title>
 
           <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/aut_categ.gif" />
-            </imageobject>
+            <imageobject><imagedata fileref="images/aut_categ.gif" contentwidth="10cm"/></imageobject>
           </mediaobject>
         </figure>Pour parcourir cette arborescence, cliquez sur les icônes des
       dossiers pour les ouvrir. Un clic sur le nom de la catégorie entraîne sa
@@ -548,9 +540,7 @@
           <title lang='es'>Autoridades &gt; Categorías</title>
 
           <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/aut_categ.gif" />
-            </imageobject>
+            <imageobject><imagedata fileref="images/aut_categ.gif" contentwidth="10cm"/></imageobject>
           </mediaobject>
         </figure>Para navegar por esta estructura arbórea, haz clic sobre los 
 		iconos de las carpetas para abrirlas. Un clic en el nombre de la categoría
@@ -586,13 +576,13 @@
 
         <listitem>
           <para lang='fr'>si la catégorie est une sous-catégorie, le champ <emphasis
-          role="bold">catégorie parente </emphasis>permet de sélectionner à
+          role="bold">catégorie parente </emphasis> permet de sélectionner à
           l'aide du bouton "..." la catégorie parente de cette sous-catégorie.
           Pour effacer une catégorie parente sélectionnée, cliquez sur le
           bouton "X"</para>
 		  
           <para lang='es'>si la categoría es una término específico, el campo <emphasis
-          role="bold">término general </emphasis>permite seleccionar con la ayuda
+          role="bold">término general </emphasis> permite seleccionar con la ayuda
 		  del botón "..." el término general de este término específico.
           Para eliminar un término general seleccionado, haz clic sobre el botón "X"</para>
 		  
@@ -600,7 +590,7 @@
         </listitem>
 
         <listitem>
-          <para lang='fr'>le <emphasis role="bold">renvoi voir </emphasis>permet
+          <para lang='fr'>le <emphasis role="bold">renvoi voir </emphasis> permet
           d'établir une logique de renvoi par exemple entre deux
           sous-catégories portant le même libellé mais situées à différents
           endroits de l'arborescence, par exemple dans
@@ -608,12 +598,12 @@
           <emphasis>France</emphasis>, et dans <emphasis>OTAN</emphasis>, la
           sous-catégorie <emphasis>France</emphasis>.</para>
 		  
-          <para lang='es'><emphasis role="bold">Ver </emphasis>permite
+          <para lang='es'><emphasis role="bold">Ver </emphasis> permite
           establecer una lógica por ejemplo entre dos términos específicos que 
 		  lleven la misma etiqueta, pero situados en lugares diferentes de la estructura, por ejemplo
 		  dentro de <emphasis>Europa</emphasis>, el término específico 
 		  <emphasis>Francia</emphasis>, y dentro de <emphasis>OTAN</emphasis>, el término específico 
-		  <emphasis>Francia</emphasis></para>
+		  <emphasis>Francia</emphasis> </para>
 		  		  
         </listitem>
 
@@ -621,14 +611,14 @@
           <para lang='fr'>le <emphasis role="bold">renvoi voir aussi </emphasis> 
           permet d'enrichir les catégories par une notion
           d'enchaînement d'idées. Par exemple, <emphasis>Rome</emphasis> peut
-          renvoyer sur <emphasis>voix</emphasis> <emphasis>romaine.</emphasis>
+          renvoyer sur <emphasis>voix</emphasis> <emphasis>romaine.</emphasis> 
           Contrairement au renvoi voir, il ne s'agit pas d'un renvoi entre
           termes identiques.</para>
 		  
-          <para lang='es'><emphasis>ver también </emphasis>(novedad 
+          <para lang='es'><emphasis>ver también </emphasis> (novedad 
 		  en la versión 1.3) permite enriquecer las categorías a través de una aproximación
 		  de conceptos. Por ejemplo, <emphasis>Roma</emphasis> puede enlazarse
-		  con<emphasis>ver también</emphasis> <emphasis>romano.</emphasis>
+		  con<emphasis>ver también</emphasis> <emphasis>romano.</emphasis> 
           Contrariamente al Ver, no se trata de usarlo entre términos iguales, sino entre 
 		  conceptos similares.</para>
 		  		  
@@ -707,9 +697,7 @@
 		
 
         <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/autorites_editeurs.gif" />
-          </imageobject>
+          <imageobject><imagedata fileref="images/autorites_editeurs.gif" contentwidth="10cm"/></imageobject>
         </mediaobject>
       </figure>
 
@@ -718,9 +706,7 @@
         <title lang='es'>Autoridades &gt; Editoriales, crear una editorial</title>		
 
         <mediaobject>
-          <imageobject>
-            <imagedata fileref="images/autorites_editeurs_edit.gif" />
-          </imageobject>
+          <imageobject><imagedata fileref="images/autorites_editeurs_edit.gif" contentwidth="10cm"/></imageobject>
         </mediaobject>
       </figure>
 
@@ -867,9 +853,7 @@
       <title lang='es'>Autoridades &gt; Colecciones</title>	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/aut_coll.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/aut_coll.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 
@@ -878,9 +862,7 @@
       <title lang='es'>Autoridades &gt; Colecciones, edición de una colección</title>	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/autorites_collections_edit.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/autorites_collections_edit.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 
@@ -1007,9 +989,7 @@
       <title lang='es'>Autoridades &gt; Subcolecciones</title>	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/aut_subcoll.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/aut_subcoll.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 
@@ -1029,9 +1009,7 @@
 	  	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/aut_subcoll_edit.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/aut_subcoll_edit.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 
@@ -1074,12 +1052,12 @@
       </listitem>
 
       <listitem>
-        <para lang='fr'>vous pouvez consulter <emphasis role="bold">l'éditeur</emphasis>
+        <para lang='fr'>vous pouvez consulter <emphasis role="bold">l'éditeur</emphasis> 
         de la collection "mère". Ce champ n'est pas modifiable. Pour changer
         l'éditeur d'une collection, passez par Autorités &gt;
         Collections.</para>
 		
-        <para lang='es'>puedes consultar <emphasis role="bold">la editorial</emphasis>
+        <para lang='es'>puedes consultar <emphasis role="bold">la editorial</emphasis> 
         de la colección "madre". Este campo no se puede modificar. Para cambiar la
 		editorial de una colección, ve a Autoridades &gt;
         Colecciones.</para>
@@ -1179,9 +1157,7 @@
       <title lang='es'>Autoridades &gt; Títulos de serie</title>	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/aut_series.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/aut_series.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 
@@ -1194,9 +1170,7 @@
 	  	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/aut_series_edit.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/aut_series_edit.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 
@@ -1275,9 +1249,7 @@
       <title lang='es'>Autoridades &gt; Clasificaciones</title>	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/aut_index.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/aut_index.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 
@@ -1288,9 +1260,7 @@
 	  
 
       <mediaobject>
-        <imageobject>
-          <imagedata fileref="images/aut_index_edit.gif" />
-        </imageobject>
+        <imageobject><imagedata fileref="images/aut_index_edit.gif" contentwidth="10cm"/></imageobject>
       </mediaobject>
     </figure>
 

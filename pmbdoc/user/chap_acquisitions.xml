@@ -5,7 +5,7 @@
 
   <title lang="es">Adquisiciones</title>
 
-  <para lang="fr">L'onglet <emphasis>acquisitions</emphasis> de 
+  <para lang="fr">L'onglet <emphasis>acquisitions</emphasis>  de 
   PMB vous permet de préparer, puis de réaliser vos commandes. Vous 
   pouvez également affecter les documents commandés à des lignes 
   budgétaires pour pouvoir suivre votre budget.</para>
@@ -89,12 +89,12 @@
       <title lang="es">Pedidos</title>
 
       <remark lang="fr"><emphasis role="bold">
-      Pré-requis</emphasis>Avant de pouvoir créer une commande, vous 
+      Pré-requis</emphasis> Avant de pouvoir créer une commande, vous 
       devez avoir créé au moins un fournisseur. Pour plus 
       d'informations, consulter plus loin la section 
       Fournisseurs.</remark>
       <remark lang="es"><emphasis role="bold">
-      Pre-requisitos</emphasis>Antes de poder crear un pedido, debes 
+      Pre-requisitos</emphasis> Antes de poder crear un pedido, debes 
       crear como mínimo un proveedor. Para más información, consulta un 
       poco más abajo la sección Proveedores.</remark>
       <para lang="fr">Vous pouvez créer une commande ou rechercher puis 
@@ -186,7 +186,7 @@
         pedidos</title>
 
         <mediaobject><imageobject>
-        <imagedata fileref="images/acquisition-liste-commandes.gif"/></imageobject></mediaobject>
+        <imagedata fileref="images/acquisition-liste-commandes.gif" contentwidth="10cm"/></imageobject></mediaobject>
       </figure>
 
       <sect3 id="acquis_achats_commandes_infos">
@@ -204,12 +204,12 @@
           proveedor</title>
 
           <mediaobject><imageobject>
-          <imagedata fileref="images/acquistions-choix-fournisseur.gif"/></imageobject></mediaobject>
+          <imagedata fileref="images/acquistions-choix-fournisseur.gif" contentwidth="10cm"/></imageobject></mediaobject>
         </figure>
 
         <para lang="fr">Pour le <emphasis role="bold">
         fournisseur</emphasis>, cliquez sur le bouton &quot; 
-        <emphasis role="bold">...</emphasis>&quot; pour sélectionner le 
+        <emphasis role="bold">...</emphasis> &quot; pour sélectionner le 
         fournisseur dans le popup. Une fois le fournisseur sélectionné, 
         ses coordonnées sont affichées sous son nom. Pour les 
         consulter, cliquez sur l'icône <emphasis role="bold">
@@ -218,7 +218,7 @@
 
         <para lang="es">Para seleccionar el <emphasis role="bold">
         proveedor</emphasis>, haz clic sobre el botón &quot; 
-        <emphasis role="bold">...</emphasis>&quot; y escógelo del popup 
+        <emphasis role="bold">...</emphasis> &quot; y escógelo del popup 
         . Una vez esté seleccionado, sus datos aparacerán bajo su 
         nombre. Para consultar los datos, haz clic sobre el icono 
         <emphasis role="bold">+</emphasis> delante de 
@@ -303,7 +303,7 @@
           <title lang="es">Añadir una línea de pedido</title>
 
           <mediaobject><imageobject>
-          <imagedata fileref="images/acquisition-commande-nouvelle-ligne2.gif"/></imageobject></mediaobject>
+          <imagedata fileref="images/acquisition-commande-nouvelle-ligne2.gif" contentwidth="10cm"/></imageobject></mediaobject>
         </figure>
 
         <para lang="fr">Un document commandé est défini par un 
@@ -438,7 +438,7 @@
           podrá modificar</title>
 
           <mediaobject><imageobject>
-          <imagedata fileref="images/acquisition-alerte-validation-commande.gif"/></imageobject></mediaobject>
+          <imagedata fileref="images/acquisition-alerte-validation-commande.gif" contentwidth="10cm"/></imageobject></mediaobject>
         </figure>
 
         <para lang="fr">Pour signaler la réception d'une commande 
@@ -453,11 +453,11 @@
 
         <para lang="fr">Pour signaler la facturation d'une 
         commande, cliquez sur le bouton <emphasis role="bold">
-        Facturation</emphasis>depuis une commande validée.</para>
+        Facturation</emphasis> depuis une commande validée.</para>
 
         <para lang="es">Para indicar la facturación de un pedido, haz 
         clic sobre el botón <emphasis role="bold">
-        Facturación</emphasis>desde un pedido validado.</para>
+        Facturación</emphasis> desde un pedido validado.</para>
 
       </sect3>
 
@@ -489,7 +489,7 @@
       bon de livraison. Vous pouvez rechercher un code dans la liste, 
       ce qui vous permet ensuite de modifier manuellement la quantité 
       reçue. Vous pouvez également cocher la case &quot; 
-      <emphasis role="bold">auto</emphasis>&quot; qui vous permet 
+      <emphasis role="bold">auto</emphasis> &quot; qui vous permet 
       d'augmenter la quantité reçue pour une ligne de commande 
       automatiquement.</para>
 
@@ -497,7 +497,7 @@
       entrega. Puedes buscar un código en la lista, lo que permite 
       modificar manualmente la cantidad recbicida. También puedes 
       marcar la casilla &quot; <emphasis role="bold">
-      auto</emphasis>&quot; que te permitirá aumentar la cantidada 
+      auto</emphasis> &quot; que te permitirá aumentar la cantidada 
       recibida pàra una línea de pedido automáticamente.</para>
 
       <figure>
@@ -507,7 +507,7 @@
         <title lang="es">Adquisiciones &gt; Entregas</title>
 
         <mediaobject><imageobject>
-        <imagedata fileref="images/acquisition-livraison2.gif"/></imageobject></mediaobject>
+        <imagedata fileref="images/acquisition-livraison2.gif" contentwidth="10cm"/></imageobject></mediaobject>
       </figure>
 
       <para lang="fr">Par exemple, si vous avez commandé trois 
@@ -530,7 +530,7 @@
         <title lang="es">Adquisiciones &gt; Entregas</title>
 
         <mediaobject><imageobject>
-        <imagedata fileref="images/acquisition-livraison-recue.gif"/></imageobject></mediaobject>
+        <imagedata fileref="images/acquisition-livraison-recue.gif" contentwidth="10cm"/></imageobject></mediaobject>
       </figure>
 
       <para lang="fr">Vous pouvez également imprimer un bon de 
@@ -568,7 +568,7 @@
         un pedido en modo modificación para pasar a facturación</title>
 
         <mediaobject><imageobject>
-        <imagedata fileref="images/acquisition-livraison-a-facturer.gif"/></imageobject></mediaobject>
+        <imagedata fileref="images/acquisition-livraison-a-facturer.gif" contentwidth="10cm"/></imageobject></mediaobject>
       </figure>
 
       <para lang="fr">Vous pouvez rechercher un code dans la liste, ce 
@@ -1425,7 +1425,7 @@
         <listitem>
 
           <para lang="es"><emphasis role="bold">en 
-          curso</emphasis></para>
+          curso</emphasis> </para>
 
         </listitem>
 

@@ -441,7 +441,7 @@
 
         <para lang='fr'>Soient les rubriques principales d'un micro-thesaurus sur un
         système informatique collaboratif (par exemple la wikipédia) :
-        <emphasis role="bold">Individus &gt; Logiciel &gt; Réseau &gt;
+        <emphasis role="bold">Individus ; Logiciel ; Réseau ;
         Ressources</emphasis>.</para>
 		
         <para lang="es">Partimos de los conceptos principales de un microtesauro sobre
@@ -513,6 +513,7 @@
         <para lang="es">Los términos (UP) serán por principio evitados en la
         indexación.</para>
 		
+        <para lang="fr"><emphasis>Fin de l'introduction Rédaction d'un thesaurus adaptée de Wikipédia.</emphasis></para>		  
       </sect3>
     </sect2>
 
@@ -533,7 +534,7 @@
       puede disponer en todos los niveles de su jerarquía de un número de
       términos elevado.</para>
 
-	  
+	 
 
       <para lang='fr'>Avec les catégories, et en s'efforçant de promouvoir des thesauri
       très hiérarchisé affirmée, on peut présenter un OPAC « à la
@@ -577,18 +578,10 @@
 		
         <title lang="es">Introducción del ejemplo de tesauro elemental de PMB</title>
 		
-
-        <para lang='fr'>Pour saisir un thésaurus, vous pouvez utiliser Autorités &gt;
-        Catégories dans PMB. Une autre possibilité est de préparer votre
-        thésaurus dans un tableau (excel, OpenOffice Calc) et de l'importer
-        dans PhpMyAdmin.</para>
-		
         <para lang="es">Para escoger un tesauro, debes ir a Autoridades &gt; Categorías
         en PMB. Otra posibilidad es preparar tu tesauro en una tabla (excel,
-        OpenOffice Calc) y importalo con PhpMyAdmin.</para>
-		
+        OpenOffice Calc) y importalo con PhpMyAdmin.</para>		
 
-        <epigraph>
           <para lang='fr'><emphasis role="bold">Note</emphasis> : Cette technique très
           avancée ne sera pas décrite ici. Voici le mode de saisie qui
           permettrait l'exploitation dans PMB du thesaurus présenté plus
@@ -598,8 +591,6 @@
           avanzada no será descrita aquí. Aquí encontrarás como introducir un
           tesauro.</para>
 		  
-        </epigraph>
-
         <para lang='fr'>Exemple de saisie pour la catégorie Individus dans Autorités
         &gt; Catégorie</para>
 		
@@ -608,7 +599,7 @@
 		
 
         <figure>
-          <title lang='fr'>Ecran de catalogage, Catalogue &gt; Nouvelle, pavé
+          <title lang='fr'>Ecran de catalogage, Catalogue &gt; Nouvelle notice, pavé
           d'indexation</title>
           <title lang="es">Pantalla de catalogación, Catálogo &gt; Nueva, ajustar
           indexación</title>
@@ -616,7 +607,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/categ_example_1.gif" />
+              <imagedata fileref="images/categ_example_1.gif" contentwidth="10cm"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -799,13 +790,13 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/categ_example_2.gif" />
+              <imagedata fileref="images/categ_example_2.gif" contentwidth="10cm"/>
             </imageobject>
           </mediaobject>
         </figure>
 
-         En cliquant sur l'icone , le popup de sélection d'une catégorie s'ouvre par défaut dans la recherche hiérarchique. 
-         Al hacer clic sobre el icono, el popup de seleccción de una categoría se abre por defecto en búsqueda jerárquica. 
+         <para lang="fr">En cliquant sur l'icone , le popup de sélection d'une catégorie s'ouvre par défaut dans la recherche hiérarchique. </para>
+         <para lang="es">Al hacer clic sobre el icono, el popup de seleccción de una categoría se abre por defecto en búsqueda jerárquica. </para>
 
 
         <figure>
@@ -815,13 +806,19 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/categ_example_3.gif" />
+              <imagedata fileref="images/folder.gif" />
             </imageobject>
           </mediaobject>
         </figure>
 
-         Pour naviguer dans la recherche hiérarchique, vous pouvez développer une catégorie en cliquant sur l'icone dossier . Vous découvrirez alors les sous-catégories qu'elle possède. Une fois arrivé au niveau de finesse dans l'indexation qui vous intéresse, cliquez alors sur le nom de la catégorie pour le sélectionner. Rappel : : développer la catégorie catégorie : sélectionner la catégorie Avantages et inconvénients de la recherche hiérarchique dans PMB La navigation hiérarchique est simple et rapide à maîtriser. Lorsque vous naviguez dans les catégories de manière hiérarchique, vous visualisez le nom de la catégorie parente en haut du popup et nom à côté de la sous-catégorie. 
-		 Para navegar por la búsqueda jerárquica, haz clic en una categoría (en el icono de carpeta) para desarrollarla. Verás entonces las subcategorías que incluye. Una vez llegas al nivel más bajo de la indexación que te interesa, haz clic sobre el nombre de la categoría para seleccionarla. Nota : : desarrollar la categoría : seleccionar la categoría Ventajas e inconvenientes de la búsqueda jerárquica en PMB La navegación jerárquica es simple y rapida de controlar. Cuando navegas por las categorías de forma jerárquica, visualizas el nombre de la categoría general en lo alto del popup y al lado el nombre de la subcategoría. 
+         <para lang="fr">Pour naviguer dans la recherche hiérarchique, vous pouvez développer une catégorie en cliquant sur l'icone dossier . Vous découvrirez alors les sous-catégories qu'elle possède. Une fois arrivé au niveau de finesse dans l'indexation qui vous intéresse, cliquez alors sur le nom de la catégorie pour le sélectionner. </para>
+		  <para lang="fr"><emphasis role="bold">Rappel</emphasis> pour développer la catégorie catégorie : cliquez sur le dossier sans cliquer sur le nom de la catégorie</para>
+		</sect3>
+		
+		<sect3 id="categ_hierar_avantages">
+			<title lang="fr">Avantages et inconvénients de la recherche hiérarchique dans PMB</title>
+		<para lang="fr">La navigation hiérarchique est simple et rapide à maîtriser. Lorsque vous naviguez dans les catégories de manière hiérarchique, vous visualisez le nom de la catégorie parente en haut du popup et nom à côté de la sous-catégorie.</para>
+		 <para lang="es">Para navegar por la búsqueda jerárquica, haz clic en una categoría (en el icono de carpeta) para desarrollarla. Verás entonces las subcategorías que incluye. Una vez llegas al nivel más bajo de la indexación que te interesa, haz clic sobre el nombre de la categoría para seleccionarla. Nota : : desarrollar la categoría : seleccionar la categoría Ventajas e inconvenientes de la búsqueda jerárquica en PMB La navegación jerárquica es simple y rapida de controlar. Cuando navegas por las categorías de forma jerárquica, visualizas el nombre de la categoría general en lo alto del popup y al lado el nombre de la subcategoría. </para>
 		 
         <figure>
           <title lang='fr'>Popup de sélection d'une catégorie, navigation
@@ -832,13 +829,13 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/categ_example_4.gif" />
+              <imagedata fileref="images/categ_example_4.gif" contentwidth="10cm"/>
             </imageobject>
           </mediaobject>
         </figure>
 
-         Si vous faites une recherche sur un terme précis, par exemple « lecteur », vous ne visualiserez par la catégorie qui contient ce terme. 
-         Si realizas una búsqueda por término exacto, por ejemplo « usuario », no visualizas la categoría que contiene este término. 		 
+         <para lang="fr">Si vous faites une recherche sur un terme précis, par exemple « architectes », vous ne visualiserez par la catégorie qui contient ce terme. </para>
+         <para lang="es">Si realizas una búsqueda por término exacto, por ejemplo « usuario », no visualizas la categoría que contiene este término.</para>
 
         <figure>
           <title lang='fr'>Popup de sélection d'une catégorie, navigation hiérarchique,
@@ -849,13 +846,19 @@
 		  
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/categ_example_5.gif" />
+              <imagedata fileref="images/categ_example_5.gif" contentwidth="10cm"/>
             </imageobject>
           </mediaobject>
         </figure>
 
-         Si un même terme est présent à différents endroits de votre thésaurus, par exemple « pays basque » qui se trouverait à la fois dans France et dans Espagne, vous verriez alors deux fois Pays Basque sans savoir lequel correspond à votre besoin. La recherche par termes pallie à cet inconvénient. Recherche par termes La recherche par termes est le contre-pied de la recherche hiérarchique dans les catégories. Au lieu de partir du tronc de l'arborescence, pour parcourir en direction des feuilles (les descripteurs les plus spécifiques du thesaurus), la recherche par termes permet de partir des termes (tous les descripteurs) pour parcourir les embranchements. 
-         Si un mismo término está presente en diferentes lugares de tu tesauro, por ejemplo « país vasco » que se encontrará a la vez dentro de Francia y dentro de España, verás dos veces País Vasco sin saber a cual corresponde cual. La búsqueda por términos atenúa este inconveniente. Búsqueda por términos La búsqueda por términos es lo contrario de la búsqueda jerárquica en las categorías. En lugar de partir de un tronco de árbol, para navegar en dirección de las hojas (los descriptores más específicos del tesauro), la búsqueda por términos permite partir de los términos (todos los descriptores) para descubrir sus relaciones. 
+         <para lang="fr">Si un même terme est présent à différents endroits de votre thésaurus, par exemple « Asie » qui se trouverait à la fois dans "Zones géographiques" et dans "Vie pratique > Cuisine > Géographie", vous verriez alors deux fois Asie sans savoir lequel correspond à votre besoin. La recherche par termes pallie à cet inconvénient. </para>
+		</sect3>	 
+		<sect3>
+			<title lang="fr">Recherche par termes</title>
+		
+		<para lang="fr">La recherche par termes est le contre-pied de la recherche hiérarchique dans les catégories. Au lieu de partir du tronc de l'arborescence, pour parcourir en direction des feuilles (les descripteurs les plus spécifiques du thesaurus), la recherche par termes permet de partir des termes (tous les descripteurs) pour parcourir les embranchements. </para>
+		 
+         <para lang="es">Si un mismo término está presente en diferentes lugares de tu tesauro, por ejemplo « país vasco » que se encontrará a la vez dentro de Francia y dentro de España, verás dos veces País Vasco sin saber a cual corresponde cual. La búsqueda por términos atenúa este inconveniente. Búsqueda por términos La búsqueda por términos es lo contrario de la búsqueda jerárquica en las categorías. En lugar de partir de un tronco de árbol, para navegar en dirección de las hojas (los descriptores más específicos del tesauro), la búsqueda por términos permite partir de los términos (todos los descriptores) para descubrir sus relaciones. </para>
 		 
 		 
         <figure>
@@ -868,7 +871,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/categ_example_6.gif" />
+              <imagedata fileref="images/categ_example_6.gif" contentwidth="10cm"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -886,11 +889,13 @@
 
         <para lang='fr'>L'écran du popup est alors divisé en trois la partie tout en
         haut, réduite, permet de lancer une recherche ou de revenir en
-        recherche hiérarchique. La partie supérieure affiche les termes
-        correspondant à l'expression recherchée. Si aucun critère de recherche
+        recherche hiérarchique.</para>
+		  <para lang="fr">La partie supérieure affiche les termes
+        correspondant à l'expression recherchée.Si aucun critère de recherche
         n'a été saisi, tous les termes du thesaurus sont alors affichés. Ces
         termes sont affichés par ordre alphabétique, sans aucune relation
-        directement visible. La partie inférieure affiche plus d'informations
+        directement visible.</para>
+		  <para lang="fr">La partie inférieure affiche plus d'informations
         sur un terme sélectionné dans la partie supérieure.</para>
 		
         <para lang="es">La pantalla de popup se dividirá en tres partes, en la parte de
@@ -901,24 +906,6 @@
         muestran por orden alfabético, sin ninguna relación visible. La parte
         inferior muestra más información sobre un término seleccionado en la
         parte superior.</para>
-		
-
-        <figure>
-          <title lang='fr'>Popup de sélection d'une catégorie, recherche par termes
-          (2)</title>
-		  
-          <title lang="es">Popup de selección de una categoría, búsqueda por términos
-          (2)</title>
-		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/categ_example_7.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-         
 
         <para lang='fr'>Si l'on sélectionne dans notre thesaurus exemple le terme
         <emphasis role="bold">Adresse IP</emphasis>, la partie inférieure de
@@ -1034,7 +1021,7 @@
 		
 
         <para lang='fr'>La recherche par termes est également accessible dans l'OPAC,
-        mais peut être désactiver. Pour plus d'informations sur le paramétrage
+        mais peut être désactivée. Pour plus d'informations sur le paramétrage
         de l'OPAC, consulter le Guide de l'Administrateur de PMB, chapitre
         Outils, section Paramètres.</para>
 		
@@ -1051,7 +1038,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/multi_catalog_terms_1.gif" />
+              <imagedata fileref="images/multi_catalog_terms_1.gif" contentwidth="10cm"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -1090,12 +1077,14 @@
         <title lang="es">Particularidades del popup de selección de categoría</title>
 		
 
-        <para lang='fr'>Le popup de sélection de catégorie dans PMB ne se ferme pas
-        « tout seul ». Contrairement aux autres popup de sélection
+        <para lang='fr'><emphasis role="bold">Le popup de sélection de catégorie dans PMB ne se ferme pas
+        « tout seul ».</emphasis></para>
+		  <para lang="fr">Contrairement aux autres popup de sélection
         dans PMB liés aux autorités, le popup de sélection des catégories
         reste ouvert, permettant de sélectionner une seconde catégorie à
         affecter à une notice par exemple, sans nécessité de reparcourir
-        l'intégralité de l'arborescence. Ce choix de développement, qui peut
+        l'intégralité de l'arborescence.</para>
+			  <para lang="fr">Ce choix de développement, qui peut
         surprendre dans les débuts de l'utilisation de PMB pour le catalogage,
         se révèle très rapide et efficace en peu de temps pour le
         catalogueur.</para>
@@ -1407,6 +1396,8 @@
                 registros se han indexado con el descriptor
                 seleccionado.</para>
 				
+              </listitem>
+              <listitem>
 
                 <figure>
                   <title lang='fr'>Autorités &gt; Catégories, sélection d'une catégorie
@@ -1417,11 +1408,13 @@
 
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/categ_example_8.gif" />
+                      <imagedata fileref="images/categ_example_8.gif" contentwidth="10cm"/>
                     </imageobject>
                   </mediaobject>
                 </figure>
-
+              </listitem>
+				
+              <listitem>
                 <figure>
                   <title lang='fr'>Autorités &gt; Catégories, modification d'une
                   catégorie, bouton Utilisation</title>
@@ -1431,11 +1424,13 @@
 
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/categ_example_9.gif" />
+                      <imagedata fileref="images/categ_example_9.gif"/>
                     </imageobject>
                   </mediaobject>
                 </figure>
+              </listitem>
 
+              <listitem>
                 <figure>
                   <title lang='fr'>Catalogue &gt; Recherche par catégorie/sujet,
                   résultat de la recherche</title>
@@ -1445,19 +1440,7 @@
 
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/categ_example_10.gif" />
-                    </imageobject>
-                  </mediaobject>
-                </figure>
-
-                <figure>
-                  <title lang='fr'>Catalogue &gt; Recherche par catégorie/sujet</title>
-                  <title lang="es">Catálogo &gt; Buscar por categoría/materia</title>
-				  
-
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/categ_example_11.gif" />
+                      <imagedata fileref="images/categ_example_10.gif" contentwidth="10cm"/>
                     </imageobject>
                   </mediaobject>
                 </figure>
@@ -1471,7 +1454,7 @@
 				
 
                 <figure>
-                  <title lang='fr'>Catalogue &gt; Recherche par catégorie/sujet,
+                  <title lang='fr'>Catalogue &gt; Recherche par termes,
                   résultat de la recherche</title>
                   <title lang="es">Catálogo &gt; Buscar por categoría/materia, resultado
                   de la búsqueda</title>
@@ -1479,24 +1462,11 @@
 
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/categ_example_12.gif" />
+                      <imagedata fileref="images/categ_example_12.gif" contentwidth="10cm"/>
                     </imageobject>
                   </mediaobject>
                 </figure>
 
-                <figure>
-                  <title lang='fr'>Détail des sous-catégorie d'une catégorie
-                  parente</title>
-                  <title lang="es">Detalle de subcategoría de una categoría
-                  general</title>
-				  
-
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/categ_example_13.gif" />
-                    </imageobject>
-                  </mediaobject>
-                </figure>
               </listitem>
 
               <listitem>vous pouvez lancer une recherche multicritères dont un
@@ -1541,13 +1511,13 @@
 			
 
             <figure>
-              <title lang='fr'>Bouton Ajouter une catégorie</title>
+              <title lang='fr'>Thésaurus exemple</title>
               <title lang="es">Botón Añadir una categoría</title>
 			  
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="images/categ_example_14.gif" />
+                  <imagedata fileref="images/categ_example_14.gif" contentwidth="10cm"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -1574,18 +1544,11 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="images/categ_example_15.gif" />
+                  <imagedata fileref="images/categ_example_15.gif" contentwidth="10cm"/>
                 </imageobject>
               </mediaobject>
             </figure>
 
-            <para lang='fr'>Cliquez sur le bouton "Ajouter une catégorie".</para>
-            <para lang="es">Haz clic sobre el botón "Añadir una categoría".</para>
-			
-
-            <para lang='fr'>Précisez le cas échéant la catégorie parente.</para>
-            <para lang="es">En este caso hay que precisar la categoría superior.</para>
-			
           </sect3>
 
           <sect3>
@@ -1731,21 +1694,6 @@
           <sect3>
             <title lang='fr'>Exemple d'une suppression</title>
             <title lang="es">Ejemplo de eliminación</title>
-			
-
-            <figure>
-              <title lang='fr'>Autorités &gt; Catégories, affichage d'une catégorie dans
-              la navigation hiérarchique</title>
-              <title lang="es">Autoritdades &gt; Categorías, visualización de una
-              categoría en la navegación jerárquica</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_16.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
 
             <para lang='fr'>Supprimons <emphasis>Sources de données
             officielles</emphasis>.</para>
@@ -1771,7 +1719,7 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="images/categ_example_17.gif" />
+                  <imagedata fileref="images/categ_example_17.gif" contentwidth="10cm"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -1796,7 +1744,7 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="images/categ_example_18.gif" />
+                  <imagedata fileref="images/categ_example_9.gif"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -1810,7 +1758,7 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="images/categ_example_19.gif" />
+                  <imagedata fileref="images/categ_example_19.gif" contentwidth="10cm"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -1821,22 +1769,6 @@
             <para lang="es">Por gobierno francés, no se ha encontrado ningún registro
             indexado con esta categoría. Esto quiere decir que la podemos
             suprimir.</para>
-			
-
-            <figure>
-              <title lang='fr'>Autorités &gt; Catégories, modification d'une catégorie,
-              bouton Utilisation</title>
-			  
-              <title lang="es">Autoridades &gt; Categorías, modificación de una
-              categoría, botón Uso</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_20.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
 
             <figure>
               <title lang='fr'>Catalogue &gt; Recherche : catégorie/sujet, un résultat
@@ -1848,57 +1780,25 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="images/categ_example_21.gif" />
+                  <imagedata fileref="images/categ_example_21.gif" contentwidth="10cm"/>
                 </imageobject>
               </mediaobject>
             </figure>
 
             <para lang='fr'>Une notice a été cataloguée avec INSEE. Il faut la modifier.
-            Pour la modifier, cliquons sur son titre :</para>
+            Pour la sélectionner, cliquez sur son titre.</para>
 			
             <para lang="es">Hay un registro catalogado con la categoría INSEE. Será
             necesario modificarlo. Para modificarlo, hacemos clic en el título
             :</para>
 			
-
-            <figure>
-              <title lang='fr'>Catalogue &gt; Recherche, bouton Modifier sur une notice
-              affichée</title>
-			  
-              <title lang="es">Catálogo &gt; Buscar, botón Modificar de un
-              registro</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_22.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
             <para lang='fr'>Il faut modifier la notice. Pour cela, cliquer sur le bouton
             "Modifier".</para>
 			
             <para lang="es">Será necesario modificar el registro. Hacer clic sobre el
             botón "Modificar".</para>
 			
-
-            <figure>
-              <title lang='fr'>Modification d'une notice, zone d'indexation, catégorie
-              utilisée</title>
-			  
-              <title lang="es">Modificar un registro, zona de la indexación, categoría
-              usada</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_23.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
-            <para lang='fr'>Cliquer sur le bouton "..." pour ouvrir le popup et
+            <para lang='fr'>Dans la zone Indexation, cliquez sur le bouton "..." pour ouvrir le popup et
             sélectionner le dernier niveau qui correspondra à nos catégories
             modifiées. Nous allons supprimer INSEE et Sources de données
             officielles. Il faut donc changer l'indexation. Naviguez jusqu'à
@@ -1910,43 +1810,12 @@
             datos oficiales. Es necesario cambiar la indexación. Navega hacia
             <emphasis>Individuos &gt; Participantes</emphasis>.</para>
 			
-
-            <figure>
-              <title lang='fr'>Modification d'une notice, zone d'indexation, retrait de
-              la catégorie utilisée</title>
-
-              <title lang="es">Modificación de un registro, zona de la indexación,
-              eliminar la categoría usada</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_24.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
             <para lang='fr'>Si on relance une recherche sur la catégorie INSEE, on voit
             maintenant qu'il ne reste aucune notice correspondante.</para>
 			
             <para lang="es">Si hacemos una búsqueda por la categoría INSEE, veremos que
             ya no hay ningún registro que use esta categoría.</para>
 			
-
-            <figure>
-              <title lang='fr'>Autorités &gt; Catégories, modification d'une catégorie,
-              bouton Utilisation</title>
-              <title lang="es">Autoridades &gt; Categorías, modificación de un registro,
-              botón Uso</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_25.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
             <para lang='fr'>Vous pouvez supprimer les catégories en partant du niveau le
             plus fin de votre thésaurus : INSEE et Gouvernement français, puis
             à un niveau supérieur : Sources de données officielles.</para>
@@ -1955,22 +1824,6 @@
             niveles superiores: primero INSEE y Gobierno francés, después
             Fuentes de datos oficiales.</para>
 			
-
-            <figure>
-              <title lang='fr'>Thésaurus résultant à l'issue de nos
-              modifications</title>
-			  
-              <title lang="es">Tesauro al final de nuestras 
-			  modificaciones</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_26.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
-
             <para lang='fr'>Après nos suppressions, il ne reste plus qu'Editeur inscrit
             et Editeur non-inscrit dans notre thésaurus.</para>
 			
@@ -1980,11 +1833,11 @@
           </sect3>
 
           <sect3>
-            <title lang='fr'>Remplacement d'un terme par un nouveau terme</title>
+            <title lang='fr'>Renommer un terme</title>
             <title lang="es">Reemplazar un descriptor por un nuevo descriptor</title>
 			
 
-            <para lang='fr'>Vous pouvez remplacer un terme par un autre simplement en
+            <para lang='fr'>Vous pouvez renommer un terme simplement en
             renommant son libellé. Vérifiez cependant que chacune des notices
             indexée à l'aide du terme retenu correspond bien à votre nouveau
             terme.</para>
@@ -2030,18 +1883,6 @@
             mismo nivel el descriptor « pirata » que enviará hacia «
             corsario ».</para>
 			
-
-            <figure>
-              <title lang='fr'>"Renvoi voir" dans un thésaurus</title>
-              <title lang="es">"Ver" en un tesauro</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_27.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
           </sect3>
 
           <sect3>
@@ -2070,18 +1911,6 @@
             <para lang="es">Sitúa dentro de esta categoría todos los descriptores
             huérfanos.</para>
 			
-
-            <figure>
-              <title lang='fr'>"Renvoi voir" et termes orphelins</title>
-              <title lang="es">"Ver" y descriptores huérfanos</title>
-			  
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_28.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
           </sect3>
 
           <sect3>
@@ -2131,18 +1960,6 @@
             ejemplo hacer un reenvío tipo ver también entre Editor no
             registrado y usuario.</para>
 
-
-            <figure>
-              <title lang='fr'>Renvoi "Voir aussi"</title>
-              <title lang="es">Reenvío "Ver también"</title>
-
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/categ_example_29.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
           </sect3>
         </sect2>
   </sect1>
@@ -2360,42 +2177,12 @@
         <title lang='fr'>Activer la gestion multi-thésaurus</title>
         <title lang="es">Activar la gestión multi-tesauro</title>
 		
-
-        <figure>
-          <title lang='fr'>Administration &gt; Outils &gt; Paramètres, groupe de
-          paramètres Thésaurus développé à l'écran</title>
-          <title lang="es">Administración &gt; Herramientas &gt; Parámetros, conjunto de
-          parámetros Tesauros ampliado en pantalla</title>
-		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/multi_admin_outils_params_t.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
         <para lang='fr'>Dans Administration &gt; Outils &gt; Paramètres, dans la
         rubrique Thésaurus passez le paramètre mode_pmb à 1.</para>
 
         <para lang="es">En Administración &gt; Herramientas &gt; Parámetros, en el
         apartado Tesauro poned el parámetro mode_pmb a 1.</para>
 		
-
-        <figure>
-          <title lang='fr'>Autorités &gt; Catégories, recherche dans tous les
-          thésaurus</title>
-		  
-          <title lang="es">Autoridades &gt; Categorías, buscar en todos los
-          tesauros</title>
-		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/multi_autorites_categ_all.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
       </sect3>
 
       <sect3 id="categ_multi_create">
@@ -2423,20 +2210,6 @@
           <para lang="es">Puedes igualmente iniciar una búsqueda en todas las lenguas de
           vuestro o vuestros tesauros.</para>
 		  
-
-          <figure>
-            <title lang='fr'>Autorités &gt; Catégories, recherche dans un des
-            thésaurus</title>
-			
-            <title lang="es">Autoridades &gt; Categorías, buscar en un tesauro</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_autorites_categ_brow2.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
         </sect4>
 
         <sect4 id="categ_multi_search-results">
@@ -2461,22 +2234,6 @@
           sub-categorías (descriptores específicos) viene precedida por un
           icono de carpeta.</para>
 		  
-
-          <figure>
-            <title lang='fr'>Autorités &gt; Catégories, parcours d'une catégorie
-            parente</title>
-			
-            <title lang="es">Autoridades &gt; Categorías, navegando por una categoría
-            general</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_autorites_categ_brows.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>En cliquant sur l'icône "dossier" devant une des catégories,
           ci-dessus "Chimie secteur", vous pouvez consulter l'ensemble des
           sous-catégories correspondantes.</para>
@@ -2498,21 +2255,6 @@
           <title lang='fr'>Modification d'une catégorie</title>
           <title lang="es">Modificación de una categoría</title>
 		  
-
-          <figure>
-            <title lang='fr'>Autorités &gt; Catégories, modification d'une
-            catégorie</title>
-            <title lang="es">Autoridades &gt; Categorías, modificación de una
-            categoría</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_autorites_categ_edit_.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>Pour modifier une catégorie, cliquez sur le nom de la
           catégorie.</para>
           <para lang="es">Para modificar una categoría, haz clic sobre el nombre de la
@@ -2574,20 +2316,6 @@
               </itemizedlist>
             </listitem>
           </itemizedlist>
-
-          <figure>
-            <title lang='fr'>Popup de sélection de catégorie, parcours d'une catégorie
-            parente</title>
-            <title lang="es">Popup de selección de categoría, para incluir una categoría
-            superior</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_autorites_categ_paren.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
 
           <para lang='fr'>En cliquant sur l'icône "..." vous ouvrez dans un popup le
           sélecteur de catégorie. Vous pouvez y sélectionner une catégorie en
@@ -2658,19 +2386,6 @@
           enlace<emphasis role="bold"> Modificar los tesauros</emphasis> a la
           derecha de la pantalla.</para>
 		  
-
-          <figure>
-            <title lang='fr'>Autorités &gt; Catégories, éditer les thésaurus</title>
-            <title lang="es">Autoridades &gt; Categorías, editar los tesauros</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_autorites_thes_browse.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>La liste des thésaurus disponible dans PMB est affichée à
           l'écran.</para>
           <para lang="es">La lista de tesauros disponible en PMB se muestra en la
@@ -2690,22 +2405,6 @@
           <para lang="es">Puedes también añadir un tesauro haciendo clic sobre <emphasis
           role="bold">Añadir un tesauro</emphasis>.</para>
 		  
-
-          <figure>
-            <title lang='fr'>Autorités &gt; Catégories, éditer les thésaurus, ajouter un
-            nouveau thésaurus</title>
-			
-            <title lang="es">Autoridades &gt; Categorías, editar los tesauros, añadir un
-            nuevo tesauro</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_autorites_thes_creat.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>Vous pouvez définir pour un nouveau thésaurus :</para>
           <para lang="es">Para añadir un nuevo tesauro debes definir :</para>
 		  
@@ -2759,21 +2458,6 @@
           <para lang="es">Para cambiar la lengua del OPAC, utiliza el selector de
           idiomas del menú lateral.</para>
 		  
-
-          <figure>
-            <title lang='fr'>Autorités &gt; Catégories, éditer les thésaurus, modifer un
-            thésaurus</title>
-            <title lang="es">Autoridades &gt; Categorías, editar los tesauros, modificar
-            un tesauro</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_autorites_thes_modify.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>Les informations disponibles en modification d'un thésaurus
           sont différentes :</para>
           <para lang="es">Las informaciones que se muestran al modificar un tesauro son
@@ -2818,42 +2502,12 @@
         <title lang='fr'>Cataloguer et rechercher avec différents thésaurus</title>
         <title lang="es">Catalogar y buscar con diferentes tesauros</title>
 		
-		
-
-        <figure>
-          <title lang='fr'>Catalogue &gt; Recherche : catégorie/sujet</title>
-          <title lang="es">Catálogo &gt; Buscar : categoría/materia</title>
-		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/multi_catalog_categ_sujet_1.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
         <para lang='fr'>En recherche par Catégorie/sujet, vous pouvez sélectionner un
         thésaurus pour lancer votre recherche.</para>
 		
         <para lang="es">Al buscar por Categoría/materia, puedes seleccionar un tesauro
         específico para iniciar vuestra búsqueda.</para>
 		
-
-        <figure>
-          <title lang='fr'>Catalogue &gt; Recherche, affichage d'une notice indexée dans
-          différents thésaurus</title>
-		  
-          <title lang="es">Catalogue &gt; Recherche, affichage d'une notice indexée dans
-          différents thésaurus</title>
-		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/multi_catalog_notice_displa.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
         <para lang='fr'>Chaque terme sélectionné est affiché dans la notice précédé du
         nom du thésaurus correspondant. L'affichage est groupé par
         thésaurus.</para>
@@ -2862,21 +2516,6 @@
         por el nombre del tesauro al cual corresponde. La visualización se
         ordena por tesauros.</para>
 		
-
-        <figure>
-          <title lang='fr'>Catalogue &gt; Recherche, modification d'une notice, zone
-          d'indexation</title>
-		  
-          <title lang="es">Catálogo &gt; Buscar, modificación de un registro, zona de la
-          indexación</title>
-		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/multi_catalog_notice_edit.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
 
         <para lang='fr'>Dans la notice cataloguée, pour chaque catégorie sélectionnée,
         le thésaurus correspondant est affiché en début de ligne.</para>
@@ -2906,22 +2545,6 @@
         correspondiente se mostrará vacía, después de guardar el registro, las
         líneas vacías se ignorarán.</para>
 		
-
-        <figure>
-          <title lang='fr'>Catalogue &gt; Recherche, modification d'une notice, zone
-          d'indexation : popup de sélection d'une catégorie</title>
-		  
-          <title lang="es">Catálogo &gt; Buscar, modificar un registro, zona de la
-          indexación : popup de selección de una categoría</title>
-		  
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/multi_catalog_popup_categ.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
         <para lang='fr'>Le popup de sélection d'une nouvelle catégorie vous permet de
         choisir un des thésaurus disponible. La recherche hiérarchique et la
         recherche par termes sont disponibles. Pour plus d'informations sur
@@ -2963,41 +2586,6 @@
           <title lang='fr'>Navigateur par catégories</title>
           <title lang="es">Navegación por categorías</title>
 		  
-
-          <figure>
-            <title lang='fr'>OPAC, affichage des catégories en page d'accueil :
-            affichage du thésaurus dans la langue de l'utilisateur
-            (français)</title>
-			
-            <title lang="es">OPAC, visualización de las categorías en la página de
-            inicio : visualización del tesauro en la lengua del usuario
-            (español)</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_show_categ_browser2.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <figure>
-            <title lang='fr'>OPAC, affichage des catégories en page d'accueil :
-            affichage du thésaurus dans la langue de l'utilisateur
-            (anglais)</title>
-			
-            <title lang="es">OPAC, visualización de las categorías en la página de
-            inicio : visualización del tesauro en la lengua del
-            usuario (inglés)</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_show_categ_browser.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>Si vous avez activé le navigateur par catégories de l'OPAC,
           vos différents thésaurus sont affichés en page d'accueil. Pour plus
           d'informations sur l'activation du navigateur par catégories de
@@ -3046,23 +2634,6 @@
           <title lang='fr'>Recherche simple</title>
           <title lang="es">Búsqueda simple</title>
 		  
-
-          <figure>
-            <title lang='fr'>OPAC, recherche simple dans les catégories : affichage des
-            catégories correspondantes à la recherche dans les
-            thésaurus</title>
-			
-            <title lang="es">OPAC, búsqueda simple en las categorías : visualización de
-            los resultados de la búsqueda en el tesauro</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_simple_search_categ_1.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>La recherche simple de l'OPAC permet de chercher dans les
           catégories de manière simple et rapide pour les lecteurs.</para>
 		  
@@ -3098,21 +2669,6 @@
             </listitem>
           </itemizedlist>
 
-          <figure>
-            <title lang='fr'>OPAC, recherche simple dans les catégories : affichage des
-            résultats d'un thésaurus</title>
-			
-            <title lang="es">OPAC, búsqueda simple en las categorías : visualización de
-            los resultados de un tesauro</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_simple_search_categ.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>Vous pouvez voir ci-dessus le détail des catégories affichées
           pour un thésaurus. A ce niveau les éventuels renvois sont également
           affichés.</para>
@@ -3127,24 +2683,6 @@
           <title lang='fr'>Recherche par termes</title>
           <title lang="es">Buscar por descriptores</title>
 		  
-
-          <figure>
-            <title lang='fr'>OPAC, recherche par termes, recherche dans un thésaurus
-            (écran 1) : affichage des catégories correspondant au terme
-            recherché</title>
-			
-            <title lang="es">OPAC, buscar por descriptores, buscar un tesauro (pantalla
-            1) : visualización de las categorías correspondientes al
-            descriptor buscado</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_search_terms_1.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>La recherche par termes nécessite de sélectionner le thésaurus
           dans lequel portera la recherche.</para>
 		  
@@ -3181,21 +2719,6 @@
           finalmente dos categorías que tienen exactamente el mismo título
           "sector química".</para>
 		  
-
-          <figure>
-            <title lang='fr'>OPAC, recherche par termes, recherche dans un thésaurus
-            (écran 2) : développement de la catégorie sélectionnée</title>
-            <title lang="es">OPAC, buscar por descriptores, buscar en un tesauro
-            (pantalla 2) : desarrollo de la categoría seleccionada</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_search_terms_2.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>En cliquant sur "chimie secteur" dans la partie supérieure de
           l'écran vous affichez les catégories correspondantes dans la partie
           inférieure de l'écran. Les deux catégories homonymes "chimie
@@ -3209,21 +2732,6 @@
           también se muestran, para que puedas especificar más tu
           búsqueda.</para>
 		  
-
-          <figure>
-            <title lang='fr'>OPAC, recherche par termes : recherche dans tous les
-            thésaurus</title>
-            <title lang="es">OPAC, buscar por descriptores : buscar en todos los
-            tesauros</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_search_terms_3.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>La recherche par termes de l'OPAC permet de rechercher dans
           tous les thésaurus. Les catégories correspondantes à l'expression
           recherchée sont affichées, chacune précédée du nom du thésaurus
@@ -3240,20 +2748,6 @@
           <title lang='fr'>Recherche multi-critères</title>
           <title lang="es">Búsqueda avanzada</title>
 		  
-
-          <figure>
-            <title lang='fr'>OPAC, recherche multi-critères, recherche portant le
-            sujet</title>
-            <title lang="es">OPAC, búsqueda avanzada, buscar por materia</title>
-			
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/multi_opac_multicrit_subjec.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
           <para lang='fr'>L'OPAC de PMB permet de rechercher dans un ou plusieurs des
           différents thésaurus.</para>
 		  
