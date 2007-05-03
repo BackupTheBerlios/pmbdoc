@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_notices">
   <chapterinfo>
-	 <!-- <releaseinfo>$Id: chap2_notices.xml,v 1.4 2006/12/12 22:38:20 gautier Exp $</releaseinfo>  --> 
+	 <!-- <releaseinfo>$Id: chap2_notices.xml,v 1.5 2007/05/03 14:02:16 gautier Exp $</releaseinfo>  --> 
   </chapterinfo>	
 
   <title lang='fr'>Notices</title>
@@ -51,7 +51,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_cat_notices.gif" width="10cm" />
+          <imagedata fileref="images/admin_cat_notices.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -76,7 +76,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_notices_statut.gif" width="10cm" />
+          <imagedata fileref="images/admin_notices_statut.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -153,7 +153,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_notices_statut2.gif" width="8cm"/>
+          <imagedata fileref="images/admin_notices_statut2.gif" contentwidth="8cm"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -193,20 +193,11 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_cat_perso_notice.gif" width="10cm"/>
+          <imagedata fileref="images/admin_cat_perso_notice.gif" contentwidth="10cm"/>
         </imageobject>
       </mediaobject>
     </figure>
 
-    <figure>
-      <title lang='fr'></title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="???" />
-        </imageobject>
-      </mediaobject>
-    </figure>
 
     <para lang='fr'>Le fonctionnement des champs personnalisables pour les notices est
     identique à celui des exemplaires. Pour plus d'information, voir <xref

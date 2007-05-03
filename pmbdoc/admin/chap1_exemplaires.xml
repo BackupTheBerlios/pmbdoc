@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_expl">
   <chapterinfo>
-	 <!-- <releaseinfo>$Id: chap1_exemplaires.xml,v 1.8 2006/12/12 22:38:20 gautier Exp $</releaseinfo>  --> 
+	 <!-- <releaseinfo>$Id: chap1_exemplaires.xml,v 1.9 2007/05/03 14:02:16 gautier Exp $</releaseinfo>  --> 
   </chapterinfo>	
 
   <title lang='fr'>Exemplaires</title>
@@ -88,7 +88,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_cat_doctypes.gif" width="10cm" />
+          <imagedata fileref="images/admin_cat_doctypes.gif"  contentwidth="10cm"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -112,7 +112,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/admin_cat_codstat.gif" width="10cm" />
+		<imagedata fileref="images/admin_cat_codstat.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -159,7 +159,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/admin_cat_sections.gif" width="10cm" />
+		<imagedata fileref="images/admin_cat_sections.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -194,7 +194,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/admin_cat_status.gif" width="10cm" />
+		<imagedata fileref="images/admin_cat_status.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -241,7 +241,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/admin_cat_loc.gif" width="10cm" />
+		<imagedata fileref="images/admin_cat_loc.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -318,7 +318,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/admin_expl_propr.gif" width="10cm" />
+          <imagedata fileref="images/admin_expl_propr.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -345,7 +345,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/admin_expl_perso.gif" width="10cm" />
+		<imagedata fileref="images/admin_expl_perso.gif" contentwidth="10cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -381,7 +381,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/admin_expl_nouveau_champ.gif" width="7cm" />
+		<imagedata fileref="images/admin_expl_nouveau_champ.gif" contentwidth="7cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -412,7 +412,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/chp_perso_options_liste.gif" width="7cm" />
+		<imagedata fileref="images/chp_perso_options_liste.gif" contentwidth="7cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -459,7 +459,7 @@
 
       <mediaobject>
         <imageobject>
-		<imagedata fileref="images/chp_perso_expl.gif" width="7cm" />
+		<imagedata fileref="images/chp_perso_expl.gif" contentwidth="7cm" />
         </imageobject>
       </mediaobject>
     </figure>
@@ -532,7 +532,7 @@
 
           <mediaobject>
             <imageobject>
-		    <imagedata fileref="images/chp_perso_options_texte.gif" width="7cm" />
+		    <imagedata fileref="images/chp_perso_options_texte.gif" contentwidth="7cm" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -572,7 +572,7 @@
 
           <mediaobject>
             <imageobject>
-		    <imagedata fileref="images/chp_perso_options_liste.gif" width="5cm" />
+		    <imagedata fileref="images/chp_perso_options_liste.gif" contentwidth="5cm" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -659,7 +659,7 @@
 
           <mediaobject>
             <imageobject>
-		    <imagedata fileref="images/chp_perso_options_liste_req.gif" width="5cm" />
+		    <imagedata fileref="images/chp_perso_options_liste_req.gif" contentwidth="5cm" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -733,7 +733,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/chp_perso_options_date.gif" width="7cm" />
+              <imagedata fileref="images/chp_perso_options_date.gif" contentwidth="7cm" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -759,7 +759,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/chp_perso_options_comm.gif" width="7cm" />
+              <imagedata fileref="images/chp_perso_options_comm.gif" contentwidth="7cm" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -811,7 +811,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/alerte_champs.gif" width="7cm" />
+            <imagedata fileref="images/alerte_champs.gif" contentwidth="7cm" />
           </imageobject>
         </mediaobject>
       </figure>
