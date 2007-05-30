@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title lang='fr'>Catégories</title>
+
+  <para lang='fr'>Les catégories de PMB correspondent à un regroupement thématique des
+  ouvrages. Les catégories de PMB correspondent à un thésaurus arborescent
+  avec des renvois.</para>
+
+  <para lang='fr'>Les catégories peuvent être ou non affichées sur la page d'accueil de
+  l'OPAC en fonction de votre bibliothèque.</para>
+
+  <para lang='fr'>Les catégories que vous pouvez parcourir dans PMB correspondent à un
+  choix de votre bibliothèque.</para>
+
+  <section id="opac_categ_browser">
+    <title lang='fr'>Exploration des catégories</title>
+
+    <figure>
+      <title lang='fr'>Affichage des catégories sur la page d'accueil de l'OPAC</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/categs_home.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Les catégories de l'OPAC permettent de parcourir les rayons virtuels
+    d'une bibliothèque à la manière de Yahoo.</para>
+
+    <para lang='fr'>La page d'accueil de l'OPAC affiche (selon la configuration de votre
+    bibliothèque) le navigateur des catégories. Pour chacune des grandes
+    catégories (ici Art et culture, Jeunesse ou Société par exemple), vous
+    pouvez voir sous son nom les premières sous-catégories qu'elle
+    contient.</para>
+
+    <para lang='fr'>Une catégorie peut contenir zéro, une ou plusieurs sous-catégories.
+    A cette catégorie peuvent correspondre zéro, un ou des ouvrages de la
+    bibliothèque. Une catégorie peut renvoyer directement et obligatoirement à
+    une autre catégorie (renvoi "voir". Une catégorie peut contenir une
+    suggestion de consultation d'une autre catégorie (renvoi "voir
+    aussi").</para>
+
+    <figure>
+      <title lang='fr'>Détails d'une catégorie</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/categ_detail.jpg" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </section>
+
+  <section>
+    <title lang='fr'>Recherche simple parmi les catégories</title>
+
+    <para lang='fr'>Saisissez un ou plusieurs mots-clés, cochez Catégories pour que la
+    recherche porte sur les Catégories, puis validez en cliquant sur
+    Rechercher.</para>
+
+    <figure>
+      <title lang='fr'>Recherche simple parmi les catégories</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/categs_search_1.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <figure>
+      <title lang='fr'>Nombre de résultats pour une recherche simple</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/categs_search_2.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </section>
+
+  <section>
+    <title lang='fr'>Recherche par termes parmi les catégories</title>
+
+    <para lang='fr'>La recherche par termes permet de naviguer, de "surfer" entre les
+    catégories. Une zone de l'écran est divisée en deux pour permettre la
+    navigation entre les catégories.</para>
+
+    <figure>
+      <title lang='fr'>Recherche par termes dans les catégories</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/images/categs_terms.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Pour plus d'informations, voir <xref linkend="opac_search_terms" /></para>
+  </section>
+</chapter>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+<!ENTITY __chap1_introduction SYSTEM "chap1_introduction.xml">
+<!ENTITY __chap2_categs SYSTEM "chap2_categs.xml">
+<!ENTITY __chap3_recherche_simple SYSTEM "chap3_recherche_simple.xml">
+<!ENTITY __chap4_recherche_multicritere SYSTEM "chap4_recherche_multicritere.xml">
+<!ENTITY __chap5_recherche_terme SYSTEM "chap5_recherche_terme.xml">
+<!ENTITY __chap6_compte_lecteur_et_reservations SYSTEM "chap6_compte_lecteur_et_reservations.xml">]
+>
+<book>
+  <title lang='fr'>PMB : guide de l'OPAC (catalogue public)</title>
+
+  <bookinfo>
+    <date>15 octobre 2004</date>
+
+    <abstract>
+      <para lang='fr'>Ce guide détaille le fonctionnement de l'OPAC de PMB, système
+      informatisé de gestion de bibliothèques, interface PHP/MySQL libre et
+      opensource.</para>
+
+      <para lang='fr'>Pour plus d'informations, consulter <ulink url="http://www.sigb.net">www.sigb.netw</ulink></para>
+    </abstract>
+
+    <!-- <releaseinfo>Version de PMB correspondante à ce guide : v1.3</releaseinfo>  -->
+
+    <editor>
+      <lineage>Gautier MICHELIN, Eric ROBERT, Florent TETART</lineage>
+    </editor>
+
+    <copyright>
+      <year>2004</year>
+
+      <holder>PMB Services SARL et leurs auteurs respectifs pour les
+      installations sur les plateformes spécifiques</holder>
+    </copyright>
+
+    <legalnotice>
+      <para lang='fr'>Ce manuel est la propriété intellectuelle de PMB Services SARL
+      pour la compilation et les chapitres dont les auteurs ne sont pas
+      mentionnés. Les contributions pour les installations sur les plateformes
+      spécifiques sont la propriété intellectuelle de leurs auteurs
+      respectifs. Il peut être librement copié, distribué et/ou modifié selon
+      les termes de la Licence GNU Free Documentation License, Version 1.1 ou
+      ultérieure publiée par la Free Software Foundation ; avec la section
+      inaltérable la section intitulée “Au sujet de PMB” ; les textes de
+      couverture, cités ci-dessous, et sans texte de quatrième de couverture.
+      Une copie complète de la licence se trouve sur le <ulink
+      url="http://www.gnu.org/licenses/fdl.html">site de GNU</ulink>.</para>
+
+      <para lang='fr'>Textes de couverture :</para>
+
+      <para lang='fr'><literal>PMB Services SARL, octobre 2004</literal></para>
+
+      <para lang='fr'><literal>PMB est une solution opensource (licence CECILL compatible GNU/GPL) pour la
+      médiathèque.</literal></para>
+
+      <para lang='fr'><literal>http://www.sigb.net</literal></para>
+
+      <para lang='fr'><literal>Copyright © 2004 PMB Services SARL</literal></para>
+    </legalnotice>
+
+    <othercredit>
+      <surname>Ce manuel a été rédigé avec la grammaire XML DocBook. Les
+      fichiers source XML ont été édités soit dans un éditeur de texte, soit
+      dans XML Mind XML editor (version standard) puis formatés avec l'aide
+      des feuilles de style personnalisées de Norman Walsh sous XFC version
+      standard. Les captures d'écran ont été prises sous Linux avec GIMP, sous
+      Windows avec PrtScr puis GIMP ou sous MacOS X.3, puis éditées et
+      converties avec GIMP.</surname>
+    </othercredit>
+  </bookinfo>
+
+ &__chap1_introduction;
+
+ &__chap2_categs;
+
+ &__chap3_recherche_simple;
+
+ &__chap4_recherche_multicritere;
+
+ &__chap5_recherche_terme;
+
+ &__chap6_compte_lecteur_et_reservations;
+
+</book>
