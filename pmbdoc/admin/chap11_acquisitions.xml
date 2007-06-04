@@ -13,7 +13,7 @@
   n'avez pas forcément accès au serveur depuis votre console de catalogage et
   d'administration PMB.</para>
 
-  <para lang="en">The acquisitions module ...</para>
+  <para lang="en">Because PMB functions on a client/server model, you may not necessarily have access to the server from your PMB cataloguing and administration console.</para>
 
   <sect1 id="admin_acquis_prerequis">
     <title lang="fr">Pré-requis d'utilisation du module d'acquisition</title>
@@ -74,6 +74,8 @@
 
     <figure>
       <title lang="fr">Acquisitions &gt; Coordonnées</title>
+
+      <title lang="en">Acquisitions &gt; Name and Address</title>
 
       <mediaobject>
         <imageobject>
@@ -156,7 +158,7 @@
     partagez une même installation et une même base dans PMB pour différentes
     structures.</para>
 
-    <para lang="en">You can define several organizations' names and addresses si you are serving various structures on the same PMB installation and database.</para>
+    <para lang="en">You can define several organizations' names and addresses if you are serving various structures on the same PMB installation and database.</para>
   </sect1>
 
   <sect1 id="admin_acquis_exercices">
@@ -168,7 +170,7 @@
     un établissement. Vous ne pouvez avoir qu'un exercice comptable actif par
     établissement.</para>
 
-    <para lang="en">In PMB, a financial year has to be linked with an organization. And you can only have one active financial year for an organization.</para>
+    <para lang="en">In PMB, a financial year is necessarily linked with an organization. And you can only have one active financial year for an organization.</para>
 
     <para lang="fr">Pour créer un exercice comptable, vous devez
     définir</para>
