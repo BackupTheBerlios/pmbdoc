@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="acquis">
+
+     <title lang="fr">Acquisitions</title>
+
+  
+
+     <para lang="fr">L'onglet <emphasis>acquisitions</emphasis>  de 
+  PMB vous permet de préparer, puis de réaliser vos commandes. Vous 
+  pouvez également affecter les documents commandés à des lignes 
+  budgétaires pour pouvoir suivre votre budget.</para>
+
+  
+
+     <para lang="fr">
+      <emphasis role="bold">Attention</emphasis> 
+  l'onglet acquisitions nécessite pour être visible que</para>
+
+  
+
+     <itemizedlist>
+
+          <listitem>
+
+               <para lang="fr">le paramètre de type 
+      <emphasis>acquisitions</emphasis>, sous-type 
+      <emphasis>active</emphasis> ait la valeur 1. Pour plus 
+      d'informations, consulter le <emphasis>Guide de 
+      l'administrateur PMB, chapitre Outils, section 
+      Paramètres</emphasis>.</para>
+
+      
+
+          </listitem>
+
+          <listitem>
+
+               <para lang="fr">l'utilisateur en cours ait le droit 
+      d'utiliser l'onglet acquisitions. Pour plus 
+      d'informations, consulter le <emphasis>Guide de 
+      l'administrateur PMB, chapitre 
+      Utilisateurs</emphasis>.</para>
+
+      
+
+          </listitem>
+
+     </itemizedlist>
+
+     <para lang="fr">
+      <emphasis role="bold">Prérequis</emphasis> 
+  l'utilisation de l'onglet acquisitions nécessite 
+  d'avoir défini différents paramètres : établissement, exercice, 
+  budget... Pour plus d'informations, consulter le <emphasis>Guide 
+  de l'administrateur PMB, chapitre Acquisitions</emphasis>.</para>
+
+  
+
+     <para lang="fr">Les suggestions d'acquisitions des lecteurs ou 
+  des bibliothécaires sont également accessibles depuis l'onglet 
+  <emphasis>acquisitions</emphasis>.</para>
+
+  
+
+     <sect1 id="acquis_achats">
+
+          <title lang="fr">Achats</title>
+
+    
+
+          <sect2 id="acquis_achats_commandes">
+
+               <title lang="fr">Commandes</title>
+
+      
+
+               <remark lang="fr">
+            <emphasis role="bold">
+      Pré-requis</emphasis> Avant de pouvoir créer une commande, vous 
+      devez avoir créé au moins un fournisseur. Pour plus 
+      d'informations, consulter plus loin la section 
+      Fournisseurs.</remark>
+      
+               <para lang="fr">Vous pouvez créer une commande ou rechercher puis 
+      modifier une commande existante.</para>
+
+      
+
+               <para lang="fr">Les commandes peuvent avoir quatre statuts 
+      différents, accessibles par la liste déroulante :</para>
+
+      
+
+               <itemizedlist>
+
+                    <listitem>
+
+                         <para lang="fr">tous : affiche toutes les commandes</para>
+
+          
+
+                    </listitem>
+
+                    <listitem>
+
+                         <para lang="fr">à valider</para>
+
+          
+
+                    </listitem>
+
+                    <listitem>
+
+                         <para lang="fr">en cours</para>
+
+          
+
+                    </listitem>
+
+                    <listitem>
+
+                         <para lang="fr">soldé</para>
+
+          
+
+                    </listitem>
+
+                    <listitem>
+
+                         <para lang="fr">archivé</para>
+
+          
+
+                    </listitem>
+
+               </itemizedlist>
+
+               <para lang="fr">Pour créer une commande, cliquez sur le bouton 
+      <emphasis role="bold">Création de commande</emphasis>.</para>
+
+      
+
+               <remark lang="fr">Si vous avez créé au moins deux établissements, 
+      choisissez l'établissement concerné par la commande.</remark>
+      
+               <para lang="fr">Pour modifier une commande, recherchez la 
+      commande retenue puis cliquez sur nom pour la modifier.</para>
+
+      
+
+               <para lang="fr">Vous pouvez également imprimer une commande en 
+      cliquant sur l'icône <emphasis>Imprimante</emphasis> depuis 
+      la liste des commandes.</para>
+
+      
+
+               <figure>
+
+                    <title lang="fr">Acquisitions &gt; Commandes, liste des 
+        commandes</title>
+
+        
+
+                    <mediaobject>
+               <imageobject>
+                          <imagedata fileref="images/acquisition-liste-commandes.gif" contentwidth="10cm"/>
+               </imageobject>
+            </mediaobject>
+               </figure>
+
+               <sect3 id="acquis_achats_commandes_infos">
+
+                    <title lang="fr">Informations générales</title>
+
+        
+
+                    <figure>
+
+                         <title lang="fr">Acquisitions &gt; Commandes, choix d'un 
+          fournisseur</title>
+
+          
+
+                         <mediaobject>
+                  <imageobject>
+                               <imagedata fileref="images/acquistions-choix-fournisseur.gif" contentwidth="10cm"/>
+                  </imageobject>
+               </mediaobject>
+                    </figure>
+
+                    <para lang="fr">Pour le <emphasis role="bold">
+        fournisseur</emphasis>, cliquez sur le bouton " 
+        <emphasis role="bold">...</emphasis> " pour sélectionner le 
+        fournisseur dans le popup. Une fois le fournisseur sélectionné, 
+        ses coordonnées sont affichées sous son nom. Pour les 
+        consulter, cliquez sur l'icône <emphasis role="bold">
+        +</emphasis> devant <emphasis role="bold">Adresse 
+        principale</emphasis>.</para>
+
+        
+
+                    <para lang="fr">L'<emphasis role="bold">adresse de 
+        livraison</emphasis> et l'<emphasis role="bold">adresse de 
+        facturation</emphasis> de l'établissement concerné par 
+        votre commande sont rappelés dans cet écran.</para>
+
+        
+
+                    <para lang="fr">Vous pouvez spécifier des <emphasis role="bold">
+        commentaires</emphasis>. Ces commentaires ne seront pas 
+        imprimés lors de l'impression de la commande, mais 
+        uniquement consultable à l'écran. Vous pouvez par exemple 
+        vous en servir pour transmettre des informations à vos 
+        collègues qui consulteront cette commande.</para>
+
+        
+
+                    <para lang="fr">Vous pouvez spécifier des <emphasis role="bold">
+        commentaires imprimés</emphasis>. Ces deuxièmes commentaires 
+        seront imprimés lors de l'impression de la commande, vous 
+        pouvez par exemple vous en servir pour transmettre des 
+        informations complémentaires à votre fournisseur.</para>
+
+        
+
+                    <para lang="fr">Vous pouvez lors de la création ou lors des 
+        modifications ultérieures définir un <emphasis role="bold">
+        numéro de devis fournisseur</emphasis>, une 
+        <emphasis role="bold">date de paiement</emphasis> ainsi 
+        qu'un <emphasis role="bold">numéro de 
+        paiement</emphasis>.</para>
+
+        
+
+                    <para lang="fr">La <emphasis role="bold">devise 
+        utilisée</emphasis> (par exemple €) correspond par défaut au 
+        paramètre <emphasis>gestion_devise</emphasis> parmi les 
+        <emphasis>paramètres généraux</emphasis>. Pour plus 
+        d'informations, consulter le <emphasis>Guide de 
+        l'administrateur PMB, chapitre Outils, section 
+        Paramètres</emphasis>.</para>
+
+        
+
+               </sect3>
+
+               <sect3 id="acquis_achats_commandes_lignes">
+
+                    <title lang="fr">Ajouter ou modifier une ligne de 
+        commande</title>
+
+        
+
+                    <figure>
+
+                         <title lang="fr">Ajout d'une ligne de commande</title>
+
+          
+
+                         <mediaobject>
+                  <imageobject>
+                               <imagedata fileref="images/acquisition-commande-nouvelle-ligne2.gif" contentwidth="10cm"/>
+                  </imageobject>
+               </mediaobject>
+                    </figure>
+
+                    <para lang="fr">Un document commandé est défini par un 
+        <emphasis role="bold">code</emphasis> (ISBN, code-barres 
+        commercial ou autre code). Vous pouvez ici scanner le 
+        code-barres commercial du document à acquérir.</para>
+
+        
+
+                    <para lang="fr">Saisissez ensuite les informations 
+        <emphasis role="bold">Titre/Auteur/ 
+        Editeur/Collection</emphasis>. Pour plus de facilité de 
+        lecture, nous vous recommandons d'appuyer sur la touche 
+        <emphasis>Entreé</emphasis> (saut de ligne) après chaque 
+        information. Si le document est déjà catalogué dans la base, 
+        les informations <emphasis role="bold">Titre/Auteur/ 
+        Editeur/Collection</emphasis> seront automatiquement 
+        remplies.</para>
+
+        
+
+                    <para lang="fr">Vous pouvez également modifier la quantité ( 
+        <emphasis role="bold">Qté</emphasis>), ainsi que définir un 
+        <emphasis role="bold">prix TTC</emphasis>.</para>
+
+        
+
+                    <para lang="fr">Dans la colonne <emphasis role="bold">Date de 
+        livraison</emphasis>, vous devez définir une date de livraison 
+        prévue au format JJ/MM/AAAA. Vous pouvez utiliser pour cela le 
+        bouton de type date sous l'entête Date de livraison. Ce 
+        bouton ouvre un popup affichant un calendrier.</para>
+
+        
+
+                    <para lang="fr">Dans la colonne <emphasis role="bold">
+        Remise/Type de produit</emphasis>, vous pouvez définir une 
+        remise et/ou sélectionner un type de produit. Si ce type de 
+        produit bénéficie d'une remise pour le fournisseur 
+        retenue, la remise correspondante sera affectée à cette ligne 
+        de commande.</para>
+
+        
+
+                    <para lang="fr">Dans la colonne <emphasis role="bold">
+        Budget</emphasis>, vous pouvez rattacher cette ligne de 
+        commande à un budget.</para>
+
+        
+
+                    <para lang="fr">
+               <emphasis role="bold">Attention</emphasis> si 
+        vous avez défini le paramètre acquisitions budget à 1, vous 
+        devez obligatoirement rattacher votre ligne de commande à un 
+        budget. Pour plus d'informations, consulter le 
+        <emphasis>Guide de l'administrateur PMB, chapitre Outils, 
+        section Paramètres</emphasis>.</para>
+
+        
+
+               </sect3>
+
+               <sect3 id="acquis_achats_commandes_etat">
+
+                    <title lang="fr">Enregistrer, supprimer ou changer d'état 
+        une commande</title>
+
+        
+
+                    <para lang="fr">Pour enregistrer votre commande, cliquez sur le 
+        bouton <emphasis role="bold">Enregistrer</emphasis> en bas de 
+        l'écran lors de l'ajout d'une commande ou de sa 
+        modification.</para>
+
+        
+
+                    <para lang="fr">Pour supprimer une commande, cliquez sur le 
+        bouton <emphasis role="bold">Supprimer</emphasis> en bas à 
+        droite de l'écran une fois la commande affichée en 
+        modification.</para>
+
+        
+
+                    <para lang="fr">Pour valider une commande, c'est-à-dire la 
+        fixer pour lancer la commande, cliquez sur le bouton 
+        <emphasis role="bold">Valider</emphasis>.</para>
+
+        
+
+                    <figure>
+
+                         <title lang="fr">Une fois une commande fixée, elle n'est 
+          plus modifiable</title>
+
+          
+
+                         <mediaobject>
+                  <imageobject>
+                               <imagedata fileref="images/acquisition-alerte-validation-commande.gif" contentwidth="10cm"/>
+                  </imageobject>
+               </mediaobject>
+                    </figure>
+
+                    <para lang="fr">Pour signaler la réception d'une commande 
+        et préparer un bon de livraison, cliquez sur le bouton 
+        <emphasis role="bold">Réception</emphasis> depuis une commande 
+        validée.</para>
+
+        
+
+                    <para lang="fr">Pour signaler la facturation d'une 
+        commande, cliquez sur le bouton <emphasis role="bold">
+        Facturation</emphasis> depuis une commande validée.</para>
+
+        
+
+               </sect3>
+
+          </sect2>
+
+          <sect2 id="acquis_achats_livraisons">
+
+               <title lang="fr">Livraisons</title>
+
+      
+
+               <para lang="fr">Pour créer un bon de livraison, affichez une 
+      commande validée en modification et cliquez sur le bouton 
+      Réception.</para>
+
+      
+
+               <para lang="fr">Pour signaler la réception d'une commande, 
+      affichez la commande en modification puis cliquez sur 
+      <emphasis role="bold">Livraison</emphasis>.</para>
+
+      
+
+               <para lang="fr">En cliquant sur Livraison, vous créez un nouveau 
+      bon de livraison. Vous pouvez rechercher un code dans la liste, 
+      ce qui vous permet ensuite de modifier manuellement la quantité 
+      reçue. Vous pouvez également cocher la case " 
+      <emphasis role="bold">auto</emphasis> " qui vous permet 
+      d'augmenter la quantité reçue pour une ligne de commande 
+      automatiquement.</para>
+
+      
+
+               <figure>
+
+                    <title lang="fr">Acquisitions &gt; Livraisons</title>
+
+        
+
+                    <mediaobject>
+               <imageobject>
+                          <imagedata fileref="images/acquisition-livraison2.gif" contentwidth="10cm"/>
+               </imageobject>
+            </mediaobject>
+               </figure>
+
+               <para lang="fr">Par exemple, si vous avez commandé trois 
+      exemplaires de La Terre vue du Ciel de Yann Arthus-Bertrand, en 
+      ayant coché la case, vous scannerez les trois codes-barres 
+      commerciaux au fur et à mesure de leur réception. Cliquez ensuite 
+      sur <emphasis role="bold">Enregistrer</emphasis> pour créer un 
+      bon de livraison.</para>
+
+      
+
+               <figure>
+
+                    <title lang="fr">Acquisitions &gt; Livraisons</title>
+
+        
+
+                    <mediaobject>
+               <imageobject>
+                          <imagedata fileref="images/acquisition-livraison-recue.gif" contentwidth="10cm"/>
+               </imageobject>
+            </mediaobject>
+               </figure>
+
+               <para lang="fr">Vous pouvez également imprimer un bon de 
+      livraison en cliquant sur l'icône 
+      <emphasis>Imprimante</emphasis> depuis la liste des 
+      livraisons.</para>
+
+      
+
+          </sect2>
+
+          <sect2 id="acquis_achats_factures">
+
+               <title lang="fr">Factures</title>
+
+      
+
+               <para lang="fr">Pour enregistrer une facture, affichez une 
+      commande validée en modification et cliquez sur le bouton 
+      <emphasis role="bold">Facturation</emphasis>.</para>
+
+      
+
+               <figure>
+
+                    <title lang="fr">Acquisitions &gt; Commandes, affichage 
+        d'une commande en modification pour la passer en 
+        facturation</title>
+
+        
+
+                    <mediaobject>
+               <imageobject>
+                          <imagedata fileref="images/acquisition-livraison-a-facturer.gif" contentwidth="10cm"/>
+               </imageobject>
+            </mediaobject>
+               </figure>
+
+               <para lang="fr">Vous pouvez rechercher un code dans la liste, ce 
+      qui vous permet ensuite de modifier manuellement la quantité 
+      facturée.</para>
+
+      
+
+               <para lang="fr">Vous pouvez saisir le paiement d'une facture 
+      en affichant une facture en modification et en cliquant sur 
+      <emphasis role="bold">Payer</emphasis>. Attention, une fois une 
+      facture payée, elle ne peut plus être supprimée ou modifée.</para>
+
+      
+
+               <para lang="fr">Vous pouvez également imprimer le suivi 
+      d'une facture en cliquant sur l'icône 
+      <emphasis>Imprimante</emphasis> depuis la liste des 
+      factures.</para>
+
+      
+
+          </sect2>
+
+          <sect2 id="acquis_achats_fournisseurs">
+
+               <title lang="fr">Fournisseurs</title>
+
+      
+
+               <para lang="fr">Vous devez créer au moins un fournisseur avant de 
+      pouvoir créer une commande.</para>
+
+      
+
+               <para lang="fr">Pour créer un fournisseur, cliquez sur 
+      <emphasis role="bold">Ajouter un fournisseur</emphasis>. Vous 
+      pouvez définir un nom ou une raison sociale, un numéro de compte 
+      client ainsi qu'une adresse principale et des adresses 
+      complémentaires (Ajouter une adresse). Vous pouvez définir des 
+      <emphasis role="bold">commentaires</emphasis>, un 
+      <emphasis role="bold">SIRET</emphasis>, un <emphasis role="bold">
+      RCS</emphasis>, un code <emphasis role="bold">NAF</emphasis>, un 
+      numéro de <emphasis role="bold">TVA</emphasis>, un 
+      <emphasis role="bold">site internet</emphasis>.</para>
+
+      
+
+               <para lang="fr">Pour un fournisseur, vous pouvez également 
+      définir des <emphasis role="bold">Conditions de 
+      vente</emphasis>.</para>
+
+      
+
+               <para lang="fr">Les <emphasis role="bold">conditions de 
+      vente</emphasis> se composent de :</para>
+
+      
+
+               <itemizedlist>
+
+                    <listitem>
+
+                         <para lang="fr">de conditions de paiement : vous pouvez 
+          choisir dans la liste déroulante un des <emphasis>modes de 
+          paiements</emphasis> définis via <emphasis>Administration 
+          &gt; Acquisitions</emphasis>.</para>
+
+          
+
+                    </listitem>
+
+                    <listitem>
+
+                         <para lang="fr">des remises par type de produit : vous pouvez 
+          définir une remise pour chacun des types de produits définis 
+          via <emphasis>Administration &gt; 
+          Acquisitions</emphasis>.</para>
+
+          
+
+                    </listitem>
+
+               </itemizedlist>
+
+          </sect2>
+
+          <sect2 id="acquis_achats_devis">
+
+               <title lang="fr">Devis</title>
+
+      
+
+               <para lang="fr">Pour créer préparer un devis, cliquez sur 
+      <emphasis role="bold">Demande de devis</emphasis>.</para>
+
+      
+
+               <para lang="fr">La réalisation d'un devis est destinée à 
+      vous permettre de contrôler auprès de votre fournisseur à la fois 
+      la disponibilité et le prix des documents à acquérir.</para>
+
+      
+
+               <para lang="fr">L'ajout d'une ligne à un devis est 
+      identique à l'ajout d'une ligne dans une commande. Pour 
+      plus d'informations, consulter 
+      <xref linkend="acquis_achats_commandes_lignes"/>.</para>
+
+      
+
+               <para lang="fr">Vous pouvez passer en commande un 
+      <emphasis role="bold">devis enregistré</emphasis>.</para>
+
+      
+
+               <para lang="fr">Vous pouvez également à l'aide de la liste 
+      déroulante changer le statut d'un devis : 
+      <emphasis role="bold">en cours</emphasis>, <emphasis role="bold">
+      reçu</emphasis>, <emphasis role="bold">archivé</emphasis>.</para>
+
+      
+
+          </sect2>
+
+     </sect1>
+
+     <sect1 id="acquis_sugg" lang="fr">
+
+          <title lang="fr">Suggestions</title>
+    
+	
+          <para lang="fr">Les suggestions d'acquisition sont les 
+    demandes des usagers, des bibliothécaires ou des documentalistes. 
+    Ces demandes peuvent être émises depuis différentes parties de PMB 
+    :</para>
+
+          <itemizedlist>
+
+               <listitem>
+
+                    <para>dans la gestion de PMB, depuis l'onglet Circulation 
+        ou l'onglet Catalogue</para>
+
+               </listitem>
+
+               <listitem>
+
+                    <para>dans la gestion de PMB, depuis l'onglet 
+        Acquisition</para>
+
+               </listitem>
+
+               <listitem>
+
+                    <para>dans l'OPAC de PMB, pour un lecteur 
+        authentifié.</para>
+
+               </listitem>
+
+          </itemizedlist>
+
+          <para>Ces demandes sont ensuite traitées par un processus de 
+    validation dans l'onglet Acquisition qui peut aboutir sur la 
+    commande de l'ouvrage ou le rejet de la demande. 
+    L'utilisateur qui a fait la suggestion est tenu au courant de 
+    son évolution depuis l'opac.</para>
+
+          <sect2>
+
+               <title>Ajouter une suggestion d'acquisition</title>
+
+               <sect3>
+
+                    <title>Depuis la partie gestion de PMB, dans l'onglet 
+        Circulation ou Catalogue</title>
+
+                    <para>L'ajout d'une suggestion d'acquisition est 
+        disponible depuis l'onglet Circulation et l'onglet 
+        Catalogue. L'ensemble des utilisateurs de PMB a 
+        généralement accès à ces deux onglets. Ceci est nécessaire pour 
+        les utilisateurs dont l'accès est restreint à l'un de 
+        ces deux onglets (bénévole pour le prêt en bibliothèque, 
+        stagiaire documentaliste sur une mission de 
+        catalogage,...).</para>
+
+                    <para>Cliquez sur Catalogue (ou Circulation) &gt; Suggestion 
+        &gt; Faire une suggestion </para>
+
+                    <para>Pour créer une suggestion, vous pouvez saisir les 
+        informations suivantes :</para>
+
+                    <itemizedlist>
+
+                         <listitem>
+
+                              <para>origine</para>
+
+                              <para>Cliquez sur le bouton « ... » pour ouvrir le 
+            sélecteur. Il vous permet choisir l'origine de la 
+            demande, et est par défaut fixé sur votre compte 
+            utilisateur. Si vous n'êtes pas l'auteur de la 
+            suggestion, choisissez le lecteur, le bibliothécaire ou le 
+            documentaliste qui vous a fait cette suggestion. Il sera 
+            ensuite informé par email ou depuis son compte lecteur du 
+            traitement de sa suggestion.</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>pondération</para>
+
+                              <para>Les demandes des bibliothécaires ou documentalistes 
+            sont considérées comme prioritaires sur celles des 
+            lecteurs. Ceci est fixé par défaut via Administration &gt; 
+            Outils &gt; Paramètres, dans Acquisitions avec le paramètre 
+            poids_sugg.</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>titre</para>
+
+                              <para>Le titre de l'ouvrage à acquérir.</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>éditeur</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>auteur</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>ISBN</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>prix</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>url associée</para>
+
+                              <para>Vous pouvez ici indiquer une page web d'un 
+            libraire présentant un ouvrage, une bibliographie en ligne, 
+            etc.</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>commentaires</para>
+
+                              <para>Vous pouvez saisir ici tout commentaire pour préciser 
+            l'objet de cette suggestion d'acquisition.</para>
+
+                         </listitem>
+
+                    </itemizedlist>
+
+                    <para>
+               <emphasis>Important</emphasis> il faut au moins saisir un 
+        titre et un auteur ou un titre et un éditeur pour pouvoir 
+        enregistrer une suggestion d'acquisition.</para>
+
+               </sect3>
+
+               <sect3>
+
+                    <title>Depuis la partie gestion de PMB, dans l'onglet 
+        Acquistion</title>
+
+                    <para>Dans Acquisitions &gt; Suggestions &gt; A traiter, 
+        cliquez sur le bouton Création de suggestion.</para>
+
+                    <para>Le formulaire est identique à celui qui est accessible 
+        dans les onglets Circulation ou Catalogue.</para>
+
+               </sect3>
+
+               <sect3>
+
+                    <title>Depuis l'OPAC, pour un lecteur authentifié</title>
+
+                    <para>Identifiez vous en tant que lecteur dans la partie droite 
+        de l'écran. Une fois identifié, vous accédez à votre 
+        compte. Vous pouvez y revenir à tout moment via le lien « mon 
+        compte » dans le bandeau latéral.</para>
+
+                    <para>Cliquez sur le bouton Faire une suggestion.</para>
+
+                    <para>Vous pouvez définir les mêmes informations pour votre 
+        suggestion que depuis la partie gestion, à l'exception 
+        notable des changements de son origine (le lecteur authentifié) 
+        et la pondération (fixée à la valeur par défaut) :</para>
+
+                    <itemizedlist>
+
+                         <listitem>
+
+                              <para>titre</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>auteur</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>éditeur</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>EAN/ISBN</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>prix indicatif</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>url associée</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>commentaires</para>
+
+                         </listitem>
+
+                    </itemizedlist>
+
+               </sect3>
+
+          </sect2>
+
+          <sect2>
+
+               <title>Gérer les suggestions d'acquisition</title>
+
+               <para>Les suggestions d'acquisition doivent être traitées 
+      par les bibliothécaires ou documentalistes pour vérifier leur 
+      validité, et assurer leur suivi jusqu'à la commande et le 
+      signalement au lecteur de la réception de l'ouvrage 
+      correspondant.</para>
+
+               <para>Dans Acquisitions &gt; Suggestions &gt; A traiter, vous 
+      obtenez la liste de toutes les suggestions.</para>
+
+               <para>Vous pouvez utiliser la liste déroulante Etat en haut à 
+      droite de l'écran pour afficher les suggestions à une étape 
+      précise de son traitement.</para>
+
+               <para>Les boutons en bas de l'écran : Fusionner, Valider, 
+      Rejeter, Confirmer, Abandonner, Commander, Recevoir, Archiver 
+      permettent de réaliser pour les suggestions sélectionnées les 
+      différents traitements successifs de la suggestion.</para>
+
+               <para>Pour sélectionner une suggestion, cochez la case à la fin 
+      de la ligne, vous pouvez également utiliser le bouton Tout 
+      sélectionner.</para>
+
+               <para>Vous pouvez supprimer des suggestions sélectionnez en 
+      cliquant sur le bouton Supprimer.</para>
+
+               <sect3>
+
+                    <title>Suggestion en cours</title>
+
+                    <para>Une suggestion est en cours lorsqu'elle vient 
+        d'être faite et n'a pas encore été traitée.</para>
+
+                    <para>Vous pouvez :</para>
+
+                    <itemizedlist>
+
+                         <listitem>
+
+                              <para>Fusionner la suggestion avec une autre 
+            suggestion</para>
+
+                              <para>Valider la suggestion</para>
+
+                              <para>Si il s'agit d'une suggestion correspondant 
+            bien à un ouvrage, que celle-ci permet d'identifier 
+            l'ouvrage suggéré, validez la suggestion. Pour 
+            l'instant, il ne s'agit pas de savoir si 
+            l'ouvrage est disponible ou non, s'il est 
+            intéressant dans votre fonds.</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>Rejeter la suggestion</para>
+
+                              <para>Les éléments fournis ne permettent pas 
+            d'identifier un ouvrage ; la suggestion est un message 
+            à l'attention du bibliothécaire/documentaliste ; il 
+            s'agit d'une erreur, d'un test, d'un 
+            usage inaproprié : dans ce cas, la suggestion doit être 
+            rejetée.</para>
+
+                         </listitem>
+
+                    </itemizedlist>
+
+               </sect3>
+
+               <sect3>
+
+                    <title>Suggestion validée</title>
+
+                    <para>Une fois la suggestion validée, elle est accessible par 
+        le choix état validé dans le sélecteur d'état en haut à 
+        droite de l'écran.</para>
+
+                    <para>En plus de pouvoir la fusionner ou la supprimer, vous 
+        pouvez :</para>
+
+                    <itemizedlist>
+
+                         <listitem>
+
+                              <para>Confirmer la suggestion</para>
+
+                              <para>Oui, la suggestion est bien un ouvrage identifié ; 
+            oui, cette suggestion correspond aux orientations de votre 
+            fonds. Confirmer la suggestion vous permet d'annoncer 
+            au lecteur que l'acquisition est bien envisagée.</para>
+
+                         </listitem>
+
+                         <listitem>
+
+                              <para>Abandonner la suggestion</para>
+
+                              <para>Oui, la suggestion est valide ; non, cette suggestion 
+            ne correspond aux orientation de votre fonds. Abandonner la 
+            suggestion signifie que son traitement n'ira pas plus 
+            loin.</para>
+
+                         </listitem>
+
+                    </itemizedlist>
+
+               </sect3>
+
+               <sect3>
+
+                    <title>Suggestion confirmée</title>
+
+                    <para>La seule action possible sur une suggestion confirmée est 
+        de :</para>
+
+                    <itemizedlist>
+
+                         <listitem>
+
+                              <para>Commander l'ouvrage suggéré</para>
+
+                         </listitem>
+
+                    </itemizedlist>
+
+                    <para>
+               <emphasis>Paramètre</emphasis> dans Administration &gt; 
+        Outils &gt; Paramètres &gt; Acquisitions, si sugg_to_cde vaut 
+        1, un clic sur Commander lance la création d'un bon de 
+        commande. Choisissez un fournisseur, les suggestions sont 
+        ensuite automatiquement insérées comme autant de lignes de la 
+        commande.</para>
+
+                    <para>Si vous n'avez pas activé le transfert dans les 
+        commandes du module Acquisition de PMB, vous gérez probablement 
+        vos bons de commande par un autre moyen. Dans ce cas, cliquez 
+        sur Commander pour tenir informé votre lecteur du fait que vous 
+        lancez la commande.</para>
+
+               </sect3>
+
+               <sect3>
+
+                    <title>Suggestion commandée</title>
+
+                    <para>
+               <emphasis>Paramètre</emphasis> dans Administration &gt; 
+        Outils &gt; Paramètres &gt; Acquisitions, si sugg_to_cde vaut 
+        1, la réception de la commande sera traitée automatique dans le 
+        module Acquisition.</para>
+
+                    <para>Si vous n'avez pas activé le transfert dans les 
+        commandes du module Acquisition de PMB, vous devez cliquer sur 
+        le bouton Recevoir pour notifier la réception à l'usager 
+        ou au bibliothécaire/documentaliste.</para>
+
+                    <para>Vous pouvez également Abandonner un ouvrage commandé si 
+        la commande doit être annulée pour toute raison.</para>
+
+               </sect3>
+
+               <sect3>
+
+                    <title>Suggestion reçue</title>
+
+                    <para>Vous pouvez <emphasis>Archiver</emphasis> la suggestion 
+        une fois que l'ouvrage est reçu afin d'en conserver 
+        la trace pour solder tout le processus de traitement de la 
+        suggestion.</para>
+
+               </sect3>
+
+          </sect2>
+
+          <sect2>
+
+               <title>Suivre le déroulement d'une suggestion</title>
+
+               <para>Le lecteur ou l'utilisateur qui a émis une suggestion 
+      va être averti tout au long du processus de validation de sa 
+      suggestion.</para>
+
+               <sect3>
+
+                    <title>Depuis l'OPAC</title>
+
+                    <para>Le lecteur authentifié depuis l'OPAC peut consulter 
+        l'état d'avancement de sa suggestion.</para>
+
+                    <para>Identifiez vous en tant que lecteur dans la partie droite 
+        de l'écran. Une fois identifié, vous accédez à votre 
+        compte. Vous pouvez y revenir à tout moment via le lien « mon 
+        compte » dans le bandeau latéral.</para>
+
+                    <para>Cliquez sur le bouton Afficher les suggestions.</para>
+
+               </sect3>
+
+               <sect3>
+
+                    <title>Par mail</title>
+
+                    <para>Le lecteur ou l'utilisateur de PMB peut également 
+        être informé par mail à chaque étape de l'avancement de sa 
+        suggestion.</para>
+
+                    <para>
+               <emphasis>Paramètre</emphasis> dans Administration &gt; 
+        Outils &gt; Paramètres &gt; Acquisitions, le paramètre 
+        email_sugg doit valoir 1 pour activer le suivi des suggestions 
+        par mai.</para>
+
+               </sect3>
+
+          </sect2>
+
+     </sect1>
+
+  
+</chapter>
