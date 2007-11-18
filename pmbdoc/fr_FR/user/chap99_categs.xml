@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="categ">
-     <title lang="fr">Thésaurus et catégories dans PMB</title>
+  
+   <title lang="fr">Thésaurus et catégories dans PMB</title>
     
 
-     <para lang="fr">PMB dispose de trois thésaurus qui peuvent être chargés lors de
+  
+   <para lang="fr">PMB dispose de trois thésaurus qui peuvent être chargés lors de
   l'installation. Un thésaurus est un répertoire de termes, des
   "catégories".</para>
   
     
 
-     <para lang="fr">Vous pouvez également charger une indexation décimale, comme les
+  
+   <para lang="fr">Vous pouvez également charger une indexation décimale, comme les
   indexations décimales validées de la BM de Chambéry, ou une indexation style
   Dewey. Ces indexations définissent le sujet d'une notice, et peuvent être
   utilisées pour définir une cote. La cote définit l'emplacement physique, le
@@ -19,7 +22,8 @@
 
   
 
-     <para lang="fr">Depuis la version 2.2 de PMB, vous pouvez utiliser simultanément
+  
+   <para lang="fr">Depuis la version 2.2 de PMB, vous pouvez utiliser simultanément
   différents thésaurus dans PMB : c'est la gestion multi-thésaurus. Chacun de
   ces thésaurus peut être traduit dans différentes langues. Un lecteur
   pourrait donc consulter un thésaurus dans sa langue d'utilisation :
@@ -28,15 +32,20 @@
   
   
 
-     <sect1 id="categ_intro">
-          <title lang="fr">Introduction</title>
+  
+   <sect1 id="categ_intro">
+    
+      <title lang="fr">Introduction</title>
     	
 
-          <sect2 id="categ_intro_voca">
-               <title lang="fr">Un peu de vocabulaire</title>
+    
+      <sect2 id="categ_intro_voca">
+      
+         <title lang="fr">Un peu de vocabulaire</title>
       	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Thesaurus </emphasis>: peut s'écrire soit
       selon le terme latin : sing. thesaurus, pl. thesauri ; soit en
       françisant le terme : sing. thésaurus, pl. thésaurus.</para>
@@ -45,7 +54,8 @@
 
 	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Catégorie</emphasis> : terme d'un thésaurus
       dans PMB. La gestion des catégories correspond également à une
       philosophie de l'utilisation d'un thésaurus.</para>
@@ -54,7 +64,8 @@
 
 	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Terme du thesaurus</emphasis> : synonyme de
       catégorie dans PMB.</para>
 	  
@@ -62,27 +73,34 @@
 	  
 	  	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Descripteur</emphasis> = terme du
       thesaurus.</para>
 	  
       
 	  	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2 id="categ_redac">
-               <title lang="fr">Rédaction d'un thesaurus</title>
+    
+      <sect2 id="categ_redac">
+      
+         <title lang="fr">Rédaction d'un thesaurus</title>
       
 	  
 
-               <para lang="fr">Cette introduction est une adaptation d'un article de Wikipédia,
+      
+         <para lang="fr">Cette introduction est une adaptation d'un article de Wikipédia,
       l'encyclopédie libre et gratuite (<ulink url="http://fr.wikipedia.org/wiki/Thesaurus">http://fr.wikipedia.org/wiki/Thesaurus</ulink>).</para>
 	  
       
 	  
 
-               <epigraph>
-                    <para lang="fr">
+      
+         <epigraph>
+        
+            <para lang="fr">
                <emphasis role="bold">référence</emphasis> Contributeurs à
         Wikipédia, "Thesaurus," <emphasis>Wikipédia, l'encyclopédie
         libre</emphasis>, <ulink url="http://fr.wikipedia.org/w/index.php?title=Thesaurus&amp;oldid=5041972">http://fr.wikipedia.org/wiki/Thesaurus</ulink>
@@ -90,9 +108,11 @@
 		
         
 		
-               </epigraph>
+      
+         </epigraph>
 
-               <para lang="fr">Un <emphasis role="bold">thesaurus</emphasis> est une sorte de
+      
+         <para lang="fr">Un <emphasis role="bold">thesaurus</emphasis> est une sorte de
       dictionnaire hiérarchisé ; un vocabulaire normalisé sur la base de
       termes génériques et de termes spécifiques à un domaine. Il ne fournit
       qu'accessoirement des définitions, les relations des termes et leur
@@ -102,12 +122,15 @@
 
 	  
 
-               <sect3 id="categ_redac_indexation">
-                    <title lang="fr">Outil d'indexation et outil de recherche</title>
+      
+         <sect3 id="categ_redac_indexation">
+        
+            <title lang="fr">Outil d'indexation et outil de recherche</title>
         
 		
 
-                    <para lang="fr">Un <emphasis>thesaurus</emphasis> est un ensemble structuré de
+        
+            <para lang="fr">Un <emphasis>thesaurus</emphasis> est un ensemble structuré de
         termes choisis pour leur capacité à faciliter la description d'un
         domaine et à harmoniser la communication et le traitement de
         l'information à son sujet. Chaque terme appelé descripteur
@@ -120,7 +143,8 @@
 		
 
 
-                    <para lang="fr">En pratique, le <emphasis>thesaurus</emphasis> est un outil
+        
+            <para lang="fr">En pratique, le <emphasis>thesaurus</emphasis> est un outil
         documentaire d'indexation. Guidé par un thesaurus pertinent, il est
         possible de représenter tout document par une sélection rigoureuse de
         mots précis. Il sera ensuite aisé d'en assurer une forme quelconque de
@@ -129,7 +153,8 @@
         
 
 
-                    <para lang="fr">Dans le catalogue public [<emphasis>OPAC</emphasis>], le
+        
+            <para lang="fr">Dans le catalogue public [<emphasis>OPAC</emphasis>], le
         thesaurus devient un instrument de recherche : disposant des
         vocabulaire et règles de l'indexation, l'utilisateur peut optimiser
         ses requêtes. L'utilisateur peut également dans certains cas explorer
@@ -139,13 +164,17 @@
 		
         
 		
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="categ_redac_constitution">
-                    <title lang="fr">Constitution du thesaurus</title>
+      
+         <sect3 id="categ_redac_constitution">
+        
+            <title lang="fr">Constitution du thesaurus</title>
         
 
-                    <para lang="fr">Un <emphasis>thesaurus</emphasis> s'élabore comme un
+        
+            <para lang="fr">Un <emphasis>thesaurus</emphasis> s'élabore comme un
         sous-ensemble du vocabulaire usuel et d'au moins un vocabulaire
         spécialisé. Il s'agit d'un vocabulaire contrôlé puisqu'il résulte d'un
         long processus de tri des mots, appellations et expressions utilisés
@@ -158,8 +187,10 @@
         
 
 
-                    <epigraph>
-                         <para lang="fr">En vue de la meilleure adéquation au domaine considéré, les
+        
+            <epigraph>
+          
+               <para lang="fr">En vue de la meilleure adéquation au domaine considéré, les
           termes sont inventoriés, comparés, mis en relation et finalement
           hiérarchisés pour rendre compte des traits essentiels du domaine.
           Cette hiérarchie s'appuie sur une typologie : chaque terme
@@ -172,9 +203,11 @@
           
 		  
 		  
-                    </epigraph>
+        
+            </epigraph>
 
-                    <para lang="fr">Finalement en partant du niveau le plus haut et correspondant au
+        
+            <para lang="fr">Finalement en partant du niveau le plus haut et correspondant au
         domaine du thesaurus, on trouve d'abord les subdivisions majeures
         représentant les composantes du domaine - subdivisions souvent nommés
         <emphasis>microthesaurus</emphasis>, puis pour chaque subdivision, la
@@ -184,8 +217,10 @@
         
 
 
-                    <epigraph>
-                         <para lang="fr">Il demeure toujours une dimension arbitraire dans la
+        
+            <epigraph>
+          
+               <para lang="fr">Il demeure toujours une dimension arbitraire dans la
           hiérarchie d'un thesaurus, soit dans le choix des termes, soit dans
           leur position hiérarchique. Il existe des normes pour l'élaboration
           des thesaurus :</para>
@@ -193,7 +228,8 @@
           
 
 
-                         <para lang="fr">
+          
+               <para lang="fr">
                   <emphasis role="bold">Norme ISO 2788-1986 :</emphasis>
           Principes directeurs pour l'établissement et le développement des
           thesaurus monolingues.</para>
@@ -202,22 +238,28 @@
 
 
 
-                         <para lang="fr">
+          
+               <para lang="fr">
                   <emphasis role="bold">Norme ISO 5964-1985 :</emphasis>
           Principes directeurs pour l'établissement et le développement des
           thesaurus multilingues.</para>
 		  
           
 		  
-                    </epigraph>
-               </sect3>
+        
+            </epigraph>
+      
+         </sect3>
 
-               <sect3 id="categ_redac_relations">
-                    <title lang="fr">Les relations hiérarchiques</title>
+      
+         <sect3 id="categ_redac_relations">
+        
+            <title lang="fr">Les relations hiérarchiques</title>
         
 		
 
-                    <para lang="fr">Les termes d'un thesaurus sont organisés hiérarchiquement (à
+        
+            <para lang="fr">Les termes d'un thesaurus sont organisés hiérarchiquement (à
         l'intérieur de microthesaurus souvent classés alphabétiquement). Cette
         hiérarchie permet de régler la précision de l'indexation ou de
         l'interrogation. L'indexation s'appuiera autant que possible sur
@@ -229,41 +271,54 @@
         
 
 
-                    <para lang="fr">Les relations des termes sont de trois types :</para>
+        
+            <para lang="fr">Les relations des termes sont de trois types :</para>
 
 
         
 
-                    <itemizedlist>
-                         <listitem>
-                              <para lang="fr">relation hiérarchique stricto sensu (entre descripteurs),
+        
+            <itemizedlist>
+          
+               <listitem>
+            
+                  <para lang="fr">relation hiérarchique stricto sensu (entre descripteurs),
             base de la hiérarchie du thesaurus =&gt; parenté ;</para>
 			
             
 			
 			
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">relation d'équivalence (entre descripteurs et
+          
+               <listitem>
+            
+                  <para lang="fr">relation d'équivalence (entre descripteurs et
             non-descripteurs), base de l'univocité =&gt; renvoi
             « voir » ;</para>
 			
             
 			
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">relation d'association (entre descripteurs), enrichissement
+          
+               <listitem>
+            
+                  <para lang="fr">relation d'association (entre descripteurs), enrichissement
             sémantique ; sujets connexes =&gt; renvoi « voir
             aussi ».</para>
 			
             
 			
-                         </listitem>
-                    </itemizedlist>
+          
+               </listitem>
+        
+            </itemizedlist>
 
-                    <para lang="fr">Tout thesaurus comporte au moins trois catégories de
+        
+            <para lang="fr">Tout thesaurus comporte au moins trois catégories de
         termes : les termes génériques et les termes spécifiques qui
         doivent être utilisés comme descripteurs ; les termes équivalents
         qui sont considérés comme non-descripteurs selon les conventions du
@@ -272,29 +327,38 @@
         
 		
 
-                    <itemizedlist>
-                         <listitem>
-                              <para lang="fr">Les <emphasis>termes génériques</emphasis> sont repérés
+        
+            <itemizedlist>
+          
+               <listitem>
+            
+                  <para lang="fr">Les <emphasis>termes génériques</emphasis> sont repérés
             généralement par le sigle <emphasis role="bold">TG</emphasis> ; ils désignent les entités ou
             concepts principaux en référence aux autres termes et au domaine
             considéré ;</para>
 			
             
 			
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">Les <emphasis>termes spécifiques</emphasis> sont repérés
+          
+               <listitem>
+            
+                  <para lang="fr">Les <emphasis>termes spécifiques</emphasis> sont repérés
             généralement par le sigle <emphasis role="bold">TS</emphasis> ; ils précisent et identifient les
             entités ou concepts particuliers à l'intérieur du champ sémantique
             d'un terme générique donné ;</para>
 			
             
 			
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">Les <emphasis>termes équivalents</emphasis> sont repérés
+          
+               <listitem>
+            
+                  <para lang="fr">Les <emphasis>termes équivalents</emphasis> sont repérés
             généralement par le sigle <emphasis role="bold">EP</emphasis>
             comme abréviation de Employé Pour ; ce sont des variantes des
             termes spécifiques (synonymie ou quasi-synonymie). Ils sont donc
@@ -306,10 +370,13 @@
             
 
 			
-                         </listitem>
-                    </itemizedlist>
+          
+               </listitem>
+        
+            </itemizedlist>
 
-                    <para lang="fr">On trouve aussi très généralement les termes associés identifiés
+        
+            <para lang="fr">On trouve aussi très généralement les termes associés identifiés
         par <emphasis role="bold">TA</emphasis> (relation d'association :
         causalité, localisation, relations de nature temporelle, composition,
         etc). Étant eux-mêmes des descripteurs, ces termes connexes permettent
@@ -320,7 +387,8 @@
 
 		
 
-                    <para lang="fr">Divers types de relations et rubriques complémentaires peuvent
+        
+            <para lang="fr">Divers types de relations et rubriques complémentaires peuvent
         être adjoints à cette structure de base pour enrichir le thesaurus ou
         améliorer son usage. On peut notamment prévoir des équivalents
         linguistiques pour des thesaurus multilingues ainsi que des
@@ -329,14 +397,18 @@
 		
         
 		
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="categ_redac_exemple">
-                    <title lang="fr">Exemple de thesaurus élémentaire</title>
+      
+         <sect3 id="categ_redac_exemple">
+        
+            <title lang="fr">Exemple de thesaurus élémentaire</title>
         
 		
 
-                    <para lang="fr">Soient les rubriques principales d'un micro-thesaurus sur un
+        
+            <para lang="fr">Soient les rubriques principales d'un micro-thesaurus sur un
         système informatique collaboratif (par exemple la wikipédia) :
         <emphasis role="bold">Individus ; Logiciel ; Réseau ;
         Ressources</emphasis>.</para>
@@ -344,7 +416,8 @@
         
 		
 
-                    <para lang="fr">La rubrique <emphasis role="bold">Individus</emphasis> se
+        
+            <para lang="fr">La rubrique <emphasis role="bold">Individus</emphasis> se
         composerait par exemple de : <emphasis role="bold">Lecteur</emphasis> (TG) ; <emphasis role="bold">Participant</emphasis> (TG) ; <emphasis role="bold">Auteur</emphasis> (EP) ; <emphasis role="bold">Contributeur</emphasis> (EP) ; <emphasis role="bold">Éditeur non-inscrit</emphasis> (TS)  ;
         <firstterm>
                   <emphasis role="bold">Anonyme</emphasis>
@@ -362,7 +435,8 @@
         
 		
 
-                    <para lang="fr">Le responsable de toute contribution (tout rédacteur) pourrait
+        
+            <para lang="fr">Le responsable de toute contribution (tout rédacteur) pourrait
         ainsi être spécifié par au moins un terme descriptif choisi parmi les
         cinq termes spécifiques ou parmi les trois termes génériques, selon
         les besoins. </para>
@@ -370,23 +444,30 @@
         
 		
 
-                    <para lang="fr">Les termes (EP) seront par principe évités dans
+        
+            <para lang="fr">Les termes (EP) seront par principe évités dans
         l'indexation.</para>
 		
         
 		
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis>Fin de l'introduction Rédaction d'un thesaurus adaptée de Wikipédia.</emphasis>
             </para>		  
-               </sect3>
-          </sect2>
+      
+         </sect3>
+    
+      </sect2>
 
-          <sect2 id="categ_pmb">
-               <title lang="fr">Thesauri et catégories de PMB</title>
+    
+      <sect2 id="categ_pmb">
+      
+         <title lang="fr">Thesauri et catégories de PMB</title>
       
 
 
-               <para lang="fr">L'utilisation du mot « catégories » en lieu et place de
+      
+         <para lang="fr">L'utilisation du mot « catégories » en lieu et place de
       « thesaurus » dans PMB correspond à une volonté des
       développeurs. En effet, un thésaurus, même respectant toute les normes
       de création, peut disposer à tout niveau de sa hiérarchie d'un nombre de
@@ -396,14 +477,16 @@
 
 	 
 
-               <para lang="fr">Avec les catégories, et en s'efforçant de promouvoir des thesauri
+      
+         <para lang="fr">Avec les catégories, et en s'efforçant de promouvoir des thesauri
       très hiérarchisé affirmée, on peut présenter un OPAC « à la
       yahoo ».</para>
 	  
       
 	  
 
-               <para lang="fr">Cet OPAC « à la Yahoo » offre la possibilité à l'usager
+      
+         <para lang="fr">Cet OPAC « à la Yahoo » offre la possibilité à l'usager
       de la bibliothèque ou du centre de documentation d'explorer
       intellectuellement le fond documentaire de la structure, ceci sans même
       lancer de recherche.</para>
@@ -412,7 +495,8 @@
 
 	  
 
-               <para lang="fr">Si tous les thesauri agréables à utiliser possèdent cet aspect
+      
+         <para lang="fr">Si tous les thesauri agréables à utiliser possèdent cet aspect
       hiérarchique avancé, ceux qui présentent trop de termes à un même niveau
       rendent une navigation directe impossible. On devra alors désactiver
       dans l'OPAC de PMB le navigateur de catégories. Les catégories seront
@@ -423,14 +507,17 @@
       
 	  
 
-               <sect3 id="categ_pmb_exemple">
-                    <title lang="fr">Saisie de l'exemple de thésaurus élementaire dans PMB</title>
+      
+         <sect3 id="categ_pmb_exemple">
+        
+            <title lang="fr">Saisie de l'exemple de thésaurus élementaire dans PMB</title>
 		
         
 		
         		
 
-                      <para lang="fr">
+          
+            <para lang="fr">
                <emphasis role="bold">Note</emphasis> : Cette technique très
           avancée ne sera pas décrite ici. Voici le mode de saisie qui
           permettrait l'exploitation dans PMB du thesaurus présenté plus
@@ -438,34 +525,46 @@
 		  
           
 		  
-                    <para lang="fr">Exemple de saisie pour la catégorie Individus dans Autorités
+        
+            <para lang="fr">Exemple de saisie pour la catégorie Individus dans Autorités
         &gt; Catégorie</para>
 		
         
 		
 
-                    <figure>
-                         <title lang="fr">Ecran de catalogage, Catalogue &gt; Nouvelle notice, pavé
+        
+            <figure>
+          
+               <title lang="fr">Ecran de catalogage, Catalogue &gt; Nouvelle notice, pavé
           d'indexation</title>
           
 		  
 
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/categ_example_1.gif" contentwidth="10cm"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/categ_example_1.gif" contentwidth="10cm"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>
 
-                    <epigraph>
-                         <para lang="fr">Pour une lecture plus rapide, la présentation ici sera la
+        
+            <epigraph>
+          
+               <para lang="fr">Pour une lecture plus rapide, la présentation ici sera la
           suivante :</para>
 		  
           
 
 		  
 
-                         <para lang="fr">
+          
+               <para lang="fr">
                   <emphasis role="bold">libellé
           </emphasis>
                   <emphasis>[commentaire]</emphasis> &lt; catégorie
@@ -474,33 +573,39 @@
 		  
           
 		  
-                    </epigraph>
+        
+            </epigraph>
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Individus</emphasis>
             </para>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Logiciel</emphasis>
             </para>
         
 
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Réseau</emphasis>
             </para>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Ressources</emphasis>
             </para>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">@termes orphelins</emphasis> [placer ici
         les termes EP qui ne seront pas visibles lors de l'exploration des
         catégories, mais qui seront utilisés lors des recherches]</para>
@@ -508,117 +613,138 @@
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Lecteur</emphasis> &lt; Individus</para>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Participant</emphasis> &lt;
         Individus</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Auteur</emphasis> &lt; @termes orphelins,
         voir Participant</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Contributeur</emphasis> &lt; @termes
         orphelins, voir Participant</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Editeur non-inscrit</emphasis> &lt;
         Participant</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Anonyme</emphasis> &lt; @termes orphelins,
         voir Editeur non-inscrit</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Adresse IP</emphasis> [forme métaphorique
         à éviter] &lt; @termes orphelins, voir Editeur non-inscrit</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Editeur inscrit</emphasis> &lt;
         Participant</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Participant mandaté</emphasis> &lt;
         Individus</para>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Administrateur</emphasis> &lt; Participant
         mandaté</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Sysop</emphasis> [terme usuel dans la
         communauté] &lt; @termes orphelins, voir Administrateur</para>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Gestionnaire</emphasis> &lt; Participant
         mandaté</para>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Représentant</emphasis> [Chargé des
         relations extérieures] &lt; Participant mandaté</para>
         
 		
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Utilisateur</emphasis> [terme imprécis, à
         proscrire] &lt; @termes orphelins, voir aussi Lecteur, voir aussi
         Participant, voir aussi Participant mandaté</para>
 		
         
 		
-               </sect3>
-          </sect2>
+      
+         </sect3>
+    
+      </sect2>
 
-          <sect2 id="categ_search">
-               <title lang="fr">Utilisation du thesaurus dans les recherches</title>
+    
+      <sect2 id="categ_search">
+      
+         <title lang="fr">Utilisation du thesaurus dans les recherches</title>
       
 	  
 
-               <sect3 id="categ_search_hierar">
+      
+         <sect3 id="categ_search_hierar">
          
 
-                    <title lang="fr">Recherche hiérarchique</title>
+        
+            <title lang="fr">Recherche hiérarchique</title>
         
 		
 
          
 
-                    <para lang="fr">La recherche hiérarchique consiste au parcours d'un thésaurus en
+        
+            <para lang="fr">La recherche hiérarchique consiste au parcours d'un thésaurus en
         suivant son arborescence : partir du tronc pour aller vers les
         branches puis les feuilles, qui correspondent au degré de finesse le
         plus fin du thésaurus. Ecran de catalogage, Catalogue &gt; Nouvelle,
@@ -629,120 +755,178 @@
 
          
 
-                    <figure>
-                         <title lang="fr">Popup de sélection d'une catégorie</title>
+        
+            <figure>
+          
+               <title lang="fr">Popup de sélection d'une catégorie</title>
           
 		  
 
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/categ_example_2.gif" contentwidth="10cm"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/categ_example_2.gif" contentwidth="10cm"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>
 
-                     <para lang="fr">En cliquant sur l'icone , le popup de sélection d'une catégorie s'ouvre par défaut dans la recherche hiérarchique. </para>
+         
+            <para lang="fr">En cliquant sur l'icone , le popup de sélection d'une catégorie s'ouvre par défaut dans la recherche hiérarchique. </para>
          
 
 
-                    <figure>
-                         <title lang="fr">icône dossier</title>
+        
+            <figure>
+          
+               <title lang="fr">icône dossier</title>
           
 
 
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/folder.gif"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/folder.gif"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>
 
-                     <para lang="fr">Pour naviguer dans la recherche hiérarchique, vous pouvez développer une catégorie en cliquant sur l'icone dossier . Vous découvrirez alors les sous-catégories qu'elle possède. Une fois arrivé au niveau de finesse dans l'indexation qui vous intéresse, cliquez alors sur le nom de la catégorie pour le sélectionner. </para>
-		              <para lang="fr">
+         
+            <para lang="fr">Pour naviguer dans la recherche hiérarchique, vous pouvez développer une catégorie en cliquant sur l'icone dossier . Vous découvrirez alors les sous-catégories qu'elle possède. Une fois arrivé au niveau de finesse dans l'indexation qui vous intéresse, cliquez alors sur le nom de la catégorie pour le sélectionner. </para>
+		  
+            <para lang="fr">
                <emphasis role="bold">Rappel</emphasis> pour développer la catégorie catégorie : cliquez sur le dossier sans cliquer sur le nom de la catégorie</para>
-		         </sect3>
 		
-		         <sect3 id="categ_hierar_avantages">
-			            <title lang="fr">Avantages et inconvénients de la recherche hiérarchique dans PMB</title>
-		            <para lang="fr">La navigation hiérarchique est simple et rapide à maîtriser. Lorsque vous naviguez dans les catégories de manière hiérarchique, vous visualisez le nom de la catégorie parente en haut du popup et nom à côté de la sous-catégorie.</para>
+         </sect3>
+		
+		
+         <sect3 id="categ_hierar_avantages">
+			
+            <title lang="fr">Avantages et inconvénients de la recherche hiérarchique dans PMB</title>
+		
+            <para lang="fr">La navigation hiérarchique est simple et rapide à maîtriser. Lorsque vous naviguez dans les catégories de manière hiérarchique, vous visualisez le nom de la catégorie parente en haut du popup et nom à côté de la sous-catégorie.</para>
 		 
 		 
-                    <figure>
-                         <title lang="fr">Popup de sélection d'une catégorie, navigation
+        
+            <figure>
+          
+               <title lang="fr">Popup de sélection d'une catégorie, navigation
           hiérarchique</title>
           
 		  
 
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/categ_example_4.gif" contentwidth="10cm"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/categ_example_4.gif" contentwidth="10cm"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>
 
-                     <para lang="fr">Si vous faites une recherche sur un terme précis, par exemple « architectes », vous ne visualiserez par la catégorie qui contient ce terme. </para>
+         
+            <para lang="fr">Si vous faites une recherche sur un terme précis, par exemple « architectes », vous ne visualiserez par la catégorie qui contient ce terme. </para>
          
 
-                    <figure>
-                         <title lang="fr">Popup de sélection d'une catégorie, navigation hiérarchique,
+        
+            <figure>
+          
+               <title lang="fr">Popup de sélection d'une catégorie, navigation hiérarchique,
           recherche d'une catégorie</title>
           
 		  
 		  
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/categ_example_5.gif" contentwidth="10cm"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/categ_example_5.gif" contentwidth="10cm"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>
 
-                     <para lang="fr">Si un même terme est présent à différents endroits de votre thésaurus, par exemple « Asie » qui se trouverait à la fois dans "Zones géographiques" et dans "Vie pratique &gt; Cuisine &gt; Géographie", vous verriez alors deux fois Asie sans savoir lequel correspond à votre besoin. La recherche par termes pallie à cet inconvénient. </para>
-		         </sect3>	 
-		         <sect3>
-			            <title lang="fr">Recherche par termes</title>
+         
+            <para lang="fr">Si un même terme est présent à différents endroits de votre thésaurus, par exemple « Asie » qui se trouverait à la fois dans "Zones géographiques" et dans "Vie pratique &gt; Cuisine &gt; Géographie", vous verriez alors deux fois Asie sans savoir lequel correspond à votre besoin. La recherche par termes pallie à cet inconvénient. </para>
 		
-		            <para lang="fr">La recherche par termes est le contre-pied de la recherche hiérarchique dans les catégories. Au lieu de partir du tronc de l'arborescence, pour parcourir en direction des feuilles (les descripteurs les plus spécifiques du thesaurus), la recherche par termes permet de partir des termes (tous les descripteurs) pour parcourir les embranchements. </para>
+         </sect3>	 
+		
+         <sect3>
+			
+            <title lang="fr">Recherche par termes</title>
+		
+		
+            <para lang="fr">La recherche par termes est le contre-pied de la recherche hiérarchique dans les catégories. Au lieu de partir du tronc de l'arborescence, pour parcourir en direction des feuilles (les descripteurs les plus spécifiques du thesaurus), la recherche par termes permet de partir des termes (tous les descripteurs) pour parcourir les embranchements. </para>
 		 
          
 		 
 		 
-                    <figure>
-                         <title lang="fr">Popup de sélection d'une catégorie, recherche par
+        
+            <figure>
+          
+               <title lang="fr">Popup de sélection d'une catégorie, recherche par
           termes</title>
 		  
           
 		  
 
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/categ_example_6.gif" contentwidth="10cm"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/categ_example_6.gif" contentwidth="10cm"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>
 
          
 
-                    <para lang="fr">Pour activer la recherche par termes, cliquez sur le bouton
+        
+            <para lang="fr">Pour activer la recherche par termes, cliquez sur le bouton
         précédant « recherche par termes » dans le popup de
         sélection des catégories</para>
 		
         
 		
 
-                    <para lang="fr">L'écran du popup est alors divisé en trois la partie tout en
+        
+            <para lang="fr">L'écran du popup est alors divisé en trois la partie tout en
         haut, réduite, permet de lancer une recherche ou de revenir en
         recherche hiérarchique.</para>
-		              <para lang="fr">La partie supérieure affiche les termes
+		  
+            <para lang="fr">La partie supérieure affiche les termes
         correspondant à l'expression recherchée.Si aucun critère de recherche
         n'a été saisi, tous les termes du thesaurus sont alors affichés. Ces
         termes sont affichés par ordre alphabétique, sans aucune relation
         directement visible.</para>
-		              <para lang="fr">La partie inférieure affiche plus d'informations
+		  
+            <para lang="fr">La partie inférieure affiche plus d'informations
         sur un terme sélectionné dans la partie supérieure.</para>
 		
         
 
-                    <para lang="fr">Si l'on sélectionne dans notre thesaurus exemple le terme
+        
+            <para lang="fr">Si l'on sélectionne dans notre thesaurus exemple le terme
         <emphasis role="bold">Adresse IP</emphasis>, la partie inférieure de
         l'écran affiche sa situation dans l'arborescence : Adresse IP a pour
         catégorie parente <emphasis role="bold">@termes
@@ -751,7 +935,8 @@
         
 		
 
-                    <para lang="fr">Vous pouvez également voir les renvois qui peuvent exister pour
+        
+            <para lang="fr">Vous pouvez également voir les renvois qui peuvent exister pour
         un terme : ici un <emphasis>« renvoi voir »</emphasis> vers
         <emphasis role="bold">Editeur non-inscrit</emphasis>.</para>
 		
@@ -760,7 +945,8 @@
 
          
 
-                    <emphasis role="bold">Remarque</emphasis>
+        
+            <emphasis role="bold">Remarque</emphasis>
 
          : on peut également voir les deux termes 
 
@@ -786,14 +972,18 @@
 		
 
         <epigraph>
-                         <para lang="fr">
-                              <emphasis role="bold">Important</emphasis>
-                         </para>
+          
+               <para lang="fr">
+            
+                  <emphasis role="bold">Important</emphasis>
+          
+               </para>
 		  
 		  
 
 
-                         <para lang="fr">Pour sélectionner Adresse IP et le renvoyer en tant que
+          
+               <para lang="fr">Pour sélectionner Adresse IP et le renvoyer en tant que
           sélection, par exemple dans la notice que nous sommes en train de
           cataloguer, vous devrez cliquer sur le + situé en début de
           ligne.</para>
@@ -801,44 +991,53 @@
           
 		  
 
-                         <para lang="fr">Pour rebondir sur un autre terme du thesaurus, cliquer sur le
+          
+               <para lang="fr">Pour rebondir sur un autre terme du thesaurus, cliquer sur le
           lien portant sur ce terme.</para>
 		  
           
 		  
-                    </epigraph>
+        
+            </epigraph>
 
          
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="categ_search_terms">
-                    <title lang="fr">Avantages et inconvénients de la recherche par termes dans
+      
+         <sect3 id="categ_search_terms">
+        
+            <title lang="fr">Avantages et inconvénients de la recherche par termes dans
         PMB</title>
 		
         
 		
 
-                    <para lang="fr">La recherche par termes est plus rapide et beaucoup plus
+        
+            <para lang="fr">La recherche par termes est plus rapide et beaucoup plus
         puissante que la recherche hiérarchique de PMB. Cependant son
         utilisation nécessite une courte phase d'adaptation.</para>
 		
         
 		
 
-                    <para lang="fr">Le fait de suivre et de rebondir sur les liens peut désorienter
+        
+            <para lang="fr">Le fait de suivre et de rebondir sur les liens peut désorienter
         le catalogueur qui aura l'impression de ne plus maîtriser sa position
         dans le thesaurus.</para>
 		
         
 		
 
-                    <para lang="fr">Cependant, à l'usage, vous gagnerez rapidement du temps de
+        
+            <para lang="fr">Cependant, à l'usage, vous gagnerez rapidement du temps de
         catalogage en utilisant cette méthode de recherche.</para>
 		
         
 		
 
-                    <para lang="fr">La recherche par termes est également accessible dans l'OPAC,
+        
+            <para lang="fr">La recherche par termes est également accessible dans l'OPAC,
         mais peut être désactivée. Pour plus d'informations sur le paramétrage
         de l'OPAC, consulter le Guide de l'Administrateur de PMB, chapitre
         Outils, section Paramètres.</para>
@@ -846,19 +1045,28 @@
         
 		
 
-                    <figure>
-                         <title lang="fr">Catalogue &gt; Recherche : termes du thésaurus</title>
+        
+            <figure>
+          
+               <title lang="fr">Catalogue &gt; Recherche : termes du thésaurus</title>
           
 		  
 
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/multi_catalog_terms_1.gif" contentwidth="10cm"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/multi_catalog_terms_1.gif" contentwidth="10cm"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>
 
-                    <para lang="fr">La recherche par termes ci-dessus porte sur le thésaurus
+        
+            <para lang="fr">La recherche par termes ci-dessus porte sur le thésaurus
         "management" et sur le terme "chimie". La partie supérieure de l'écran
         présente les différentes catégories contenant au moins une fois
         l'expression "chimie". Vous pouvez en effet utiliser des expressions
@@ -868,7 +1076,8 @@
 
 		
 
-                    <para lang="fr">La partie inférieure de l'écran présente la catégorie "chimie
+        
+            <para lang="fr">La partie inférieure de l'écran présente la catégorie "chimie
         secteur" en détail. Vous pouvez la sélectionner en cliquant sur
         l'icône "loupe" en début de ligne. Vous pouvez également rebondir vers
         une sous-catégorie (un terme spécifique) de "chimie" comme "parachimie
@@ -876,46 +1085,58 @@
 		
         
 		
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="categ_search_popup">
-                    <title lang="fr">Particularité du popup de sélection de catégorie</title>
+      
+         <sect3 id="categ_search_popup">
+        
+            <title lang="fr">Particularité du popup de sélection de catégorie</title>
         
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Le popup de sélection de catégorie dans PMB ne se ferme pas
         « tout seul ».</emphasis>
             </para>
-		              <para lang="fr">Contrairement aux autres popup de sélection
+		  
+            <para lang="fr">Contrairement aux autres popup de sélection
         dans PMB liés aux autorités, le popup de sélection des catégories
         reste ouvert, permettant de sélectionner une seconde catégorie à
         affecter à une notice par exemple, sans nécessité de reparcourir
         l'intégralité de l'arborescence.</para>
-			              <para lang="fr">Ce choix de développement, qui peut
+			  
+            <para lang="fr">Ce choix de développement, qui peut
         surprendre dans les débuts de l'utilisation de PMB pour le catalogage,
         se révèle très rapide et efficace en peu de temps pour le
         catalogueur.</para>
 		
         
-		             </sect3>
+		    
+         </sect3>
         </sect2>
         
         <sect2>
-                 <title lang="fr">Création d'un thesaurus dans PMB</title>
+        
+         <title lang="fr">Création d'un thesaurus dans PMB</title>
 		
-                 <sect3>
-                    <title lang="fr">Choix d'une arborescence : quelques conseils</title>
+        
+         <sect3>
+        
+            <title lang="fr">Choix d'une arborescence : quelques conseils</title>
 		
 
-                    <para lang="fr">Préparez la création de votre thésaurus à l'avance, sur papier.
+        
+            <para lang="fr">Préparez la création de votre thésaurus à l'avance, sur papier.
         Pour plus de facilité, choisissez une arborescence simple, avec une
         dizaine à une vingtaine de termes maximum par niveau.</para>
 		
         
 		
 
-                    <para lang="fr">Une fois votre plan créé, prévoyez son enrichissement : imaginez
+        
+            <para lang="fr">Une fois votre plan créé, prévoyez son enrichissement : imaginez
         les liaisons « en pointillés » qui pourraient exister entre
         deux catégories, et représentez les par des « voir aussi »
         réciproques.</para>
@@ -923,7 +1144,8 @@
         
 		
 
-                    <para lang="fr">Au fur et à mesure de l'utilisation, enrichissez votre thésaurus
+        
+            <para lang="fr">Au fur et à mesure de l'utilisation, enrichissez votre thésaurus
         en créant des termes orphelins, qui correspondent au vocabulaire
         employé par vos lecteurs pour les recherches : dans une catégorie de
         premier niveau, dont le libellé commence par un « @ » (ceci
@@ -932,8 +1154,10 @@
         moderne &gt; histoire maritime &gt; corsaire.</para>
 
         
-		         </sect3>
-		      </sect2>
+		
+         </sect3>
+		
+      </sect2>
 		
         <sect2>
           <title lang="fr">Logique multi-thesaurus</title>
@@ -950,7 +1174,8 @@
 
           <epigraph>
             <para lang="fr">
-                             <emphasis role="bold">Localisation</emphasis>
+              
+               <emphasis role="bold">Localisation</emphasis>
             </para>
 			
             
@@ -973,7 +1198,8 @@
 			
 
             <para lang="fr">
-                             <emphasis role="bold">Histoire</emphasis>
+              
+               <emphasis role="bold">Histoire</emphasis>
             </para>
 			
             
@@ -995,14 +1221,16 @@
 			
 
             <para lang="fr">
-                             <emphasis role="bold">Mouvements artistiques</emphasis>
+              
+               <emphasis role="bold">Mouvements artistiques</emphasis>
             </para>
 			
             
 			
 
             <para lang="fr">
-                             <emphasis role="bold">Art</emphasis>
+              
+               <emphasis role="bold">Art</emphasis>
             </para>
 			
             
@@ -1121,8 +1349,10 @@
 			
 
             <itemizedlist>
-                             <listitem>
-                                  <para lang="fr">vous pouvez passer par <emphasis>Autorités &gt;
+              
+               <listitem>
+                
+                  <para lang="fr">vous pouvez passer par <emphasis>Autorités &gt;
                 Catégories</emphasis>, naviguer dans le thesaurus jusqu'à
                 choisir un terme, puis cliquer sur ce terme pour le
                 sélectionner et donc le modifier ; cliquez ensuite sur le
@@ -1131,75 +1361,118 @@
 				
                 
 				
-                             </listitem>
-                             <listitem>
+              
+               </listitem>
+              
+               <listitem>
 
-                                  <figure>
-                                       <title lang="fr">Autorités &gt; Catégories, sélection d'une catégorie
+                
+                  <figure>
+                  
+                     <title lang="fr">Autorités &gt; Catégories, sélection d'une catégorie
                   pour l'afficher en modification</title>
                   
 				  
 
-                                       <mediaobject>
-                                            <imageobject>
-                                                 <imagedata fileref="images/categ_example_8.gif" contentwidth="10cm"/>
-                                            </imageobject>
-                                       </mediaobject>
-                                  </figure>
-                             </listitem>
+                  
+                     <mediaobject>
+                    
+                        <imageobject>
+                      
+                           <imagedata fileref="images/categ_example_8.gif" contentwidth="10cm"/>
+                    
+                        </imageobject>
+                  
+                     </mediaobject>
+                
+                  </figure>
+              
+               </listitem>
 				
-                             <listitem>
-                                  <figure>
-                                       <title lang="fr">Autorités &gt; Catégories, modification d'une
+              
+               <listitem>
+                
+                  <figure>
+                  
+                     <title lang="fr">Autorités &gt; Catégories, modification d'une
                   catégorie, bouton Utilisation</title>
                   
 				  
 
-                                       <mediaobject>
-                                            <imageobject>
-                                                 <imagedata fileref="images/categ_example_9.gif"/>
-                                            </imageobject>
-                                       </mediaobject>
-                                  </figure>
-                             </listitem>
+                  
+                     <mediaobject>
+                    
+                        <imageobject>
+                      
+                           <imagedata fileref="images/categ_example_9.gif"/>
+                    
+                        </imageobject>
+                  
+                     </mediaobject>
+                
+                  </figure>
+              
+               </listitem>
 
-                             <listitem>
-                                  <figure>
-                                       <title lang="fr">Catalogue &gt; Recherche par catégorie/sujet,
+              
+               <listitem>
+                
+                  <figure>
+                  
+                     <title lang="fr">Catalogue &gt; Recherche par catégorie/sujet,
                   résultat de la recherche</title>
                   
 				  
 
-                                       <mediaobject>
-                                            <imageobject>
-                                                 <imagedata fileref="images/categ_example_10.gif" contentwidth="10cm"/>
-                                            </imageobject>
-                                       </mediaobject>
-                                  </figure>
-                             </listitem>
+                  
+                     <mediaobject>
+                    
+                        <imageobject>
+                      
+                           <imagedata fileref="images/categ_example_10.gif" contentwidth="10cm"/>
+                    
+                        </imageobject>
+                  
+                     </mediaobject>
+                
+                  </figure>
+              
+               </listitem>
 
-                             <listitem>
-                                  <para lang="fr">vous pouvez lancer une recherche par catégorie/sujet ou
+              
+               <listitem>
+                
+                  <para lang="fr">vous pouvez lancer une recherche par catégorie/sujet ou
                 en recherche par termes dans Catalogue &gt; Recherche</para>
                 
 				
 
-                                  <figure>
-                                       <title lang="fr">Catalogue &gt; Recherche par termes,
+                
+                  <figure>
+                  
+                     <title lang="fr">Catalogue &gt; Recherche par termes,
                   résultat de la recherche</title>
                   
 				  
 
-                                       <mediaobject>
-                                            <imageobject>
-                                                 <imagedata fileref="images/categ_example_12.gif" contentwidth="10cm"/>
-                                            </imageobject>
-                                       </mediaobject>
-                                  </figure>
+                  
+                     <mediaobject>
+                    
+                        <imageobject>
+                      
+                           <imagedata fileref="images/categ_example_12.gif" contentwidth="10cm"/>
+                    
+                        </imageobject>
+                  
+                     </mediaobject>
+                
+                  </figure>
 
-                             </listitem>
+              
+               </listitem>
 
-                             <listitem>vous pouvez lancer une recherche multicritères dont un
+              
+               <listitem>vous pouvez lancer une recherche multicritères dont un
               critère correspond à la catégorie retenue</listitem>
             </itemizedlist>
 
@@ -1235,15 +1508,21 @@
 			
 
             <figure>
-                             <title lang="fr">Thésaurus exemple</title>
+              
+               <title lang="fr">Thésaurus exemple</title>
               
 			  
 
-                             <mediaobject>
-                                  <imageobject>
-                                       <imagedata fileref="images/categ_example_14.gif" contentwidth="10cm"/>
-                                  </imageobject>
-                             </mediaobject>
+              
+               <mediaobject>
+                
+                  <imageobject>
+                  
+                     <imagedata fileref="images/categ_example_14.gif" contentwidth="10cm"/>
+                
+                  </imageobject>
+              
+               </mediaobject>
             </figure>
 
             <para lang="fr">Si nous voulons ajouter le terme <emphasis>Sources de
@@ -1255,17 +1534,23 @@
 			
 
             <figure>
-                             <title lang="fr">Autorités &gt; Catégories, création d'une nouvelle
+              
+               <title lang="fr">Autorités &gt; Catégories, création d'une nouvelle
               catégorie</title>
 			  
               
 			  
 
-                             <mediaobject>
-                                  <imageobject>
-                                       <imagedata fileref="images/categ_example_15.gif" contentwidth="10cm"/>
-                                  </imageobject>
-                             </mediaobject>
+              
+               <mediaobject>
+                
+                  <imageobject>
+                  
+                     <imagedata fileref="images/categ_example_15.gif" contentwidth="10cm"/>
+                
+                  </imageobject>
+              
+               </mediaobject>
             </figure>
 
           </sect3>
@@ -1308,20 +1593,24 @@
 			
 
             <itemizedlist>
-                             <listitem>1.ajouter la catégorie Participant &gt; Sources de
+              
+               <listitem>1.ajouter la catégorie Participant &gt; Sources de
               données officielles</listitem>
 			  
 
-                             <listitem>2.(recommandé) lancer une recherche sur les documents
+              
+               <listitem>2.(recommandé) lancer une recherche sur les documents
               catalogués dans Participant et recataloguer le cas
               échéant</listitem>
 
-                             <listitem>3.(optionnel) lancer une recherche sur les documents
+              
+               <listitem>3.(optionnel) lancer une recherche sur les documents
               catalogués dans Participant &gt; Editeur inscrit, Participant
               &gt; Editeur non-inscrit et recataloguer le cas
               échéant</listitem>
 
-                             <listitem>4.(facultatif) vérifier l'ensemble des notices
+              
+               <listitem>4.(facultatif) vérifier l'ensemble des notices
               cataloguées.</listitem>
             </itemizedlist>
           </sect3>
@@ -1336,9 +1625,11 @@
 			
 
             <itemizedlist>
-                             <listitem>que ce terme n'ait pas de sous catégories</listitem>
+              
+               <listitem>que ce terme n'ait pas de sous catégories</listitem>
 
-                             <listitem>qu'aucune des notices ne soit indexée avec le terme
+              
+               <listitem>qu'aucune des notices ne soit indexée avec le terme
               retenu pour la suppression</listitem>
             </itemizedlist>
           </sect3>
@@ -1402,16 +1693,22 @@
 			
 
             <figure>
-                             <title lang="fr">Autorités &gt; Catégories, affichage d'une catégorie dans
+              
+               <title lang="fr">Autorités &gt; Catégories, affichage d'une catégorie dans
               la navigation hiérarchique</title>
               
 			  
 
-                             <mediaobject>
-                                  <imageobject>
-                                       <imagedata fileref="images/categ_example_17.gif" contentwidth="10cm"/>
-                                  </imageobject>
-                             </mediaobject>
+              
+               <mediaobject>
+                
+                  <imageobject>
+                  
+                     <imagedata fileref="images/categ_example_17.gif" contentwidth="10cm"/>
+                
+                  </imageobject>
+              
+               </mediaobject>
             </figure>
 
             <para lang="fr">Sources de données officielles contient Gouvernement
@@ -1422,30 +1719,42 @@
 			
 
             <figure>
-                             <title lang="fr">Autorités &gt; Catégories, modification d'une catégorie,
+              
+               <title lang="fr">Autorités &gt; Catégories, modification d'une catégorie,
               bouton Utilisation</title>
               
 			  
 			  
 
-                             <mediaobject>
-                                  <imageobject>
-                                       <imagedata fileref="images/categ_example_9.gif"/>
-                                  </imageobject>
-                             </mediaobject>
+              
+               <mediaobject>
+                
+                  <imageobject>
+                  
+                     <imagedata fileref="images/categ_example_9.gif"/>
+                
+                  </imageobject>
+              
+               </mediaobject>
             </figure>
 
             <figure>
-                             <title lang="fr">Catalogue &gt; Recherche : catégorie/sujet, aucun
+              
+               <title lang="fr">Catalogue &gt; Recherche : catégorie/sujet, aucun
               résultat</title>
 
               
 
-                             <mediaobject>
-                                  <imageobject>
-                                       <imagedata fileref="images/categ_example_19.gif" contentwidth="10cm"/>
-                                  </imageobject>
-                             </mediaobject>
+              
+               <mediaobject>
+                
+                  <imageobject>
+                  
+                     <imagedata fileref="images/categ_example_19.gif" contentwidth="10cm"/>
+                
+                  </imageobject>
+              
+               </mediaobject>
             </figure>
 
             <para lang="fr">Pour gouvernement français, aucune notice n'a été indexée
@@ -1454,17 +1763,23 @@
             
 
             <figure>
-                             <title lang="fr">Catalogue &gt; Recherche : catégorie/sujet, un résultat
+              
+               <title lang="fr">Catalogue &gt; Recherche : catégorie/sujet, un résultat
               affiché</title>
 			  
               
 			  
 
-                             <mediaobject>
-                                  <imageobject>
-                                       <imagedata fileref="images/categ_example_21.gif" contentwidth="10cm"/>
-                                  </imageobject>
-                             </mediaobject>
+              
+               <mediaobject>
+                
+                  <imageobject>
+                  
+                     <imagedata fileref="images/categ_example_21.gif" contentwidth="10cm"/>
+                
+                  </imageobject>
+              
+               </mediaobject>
             </figure>
 
             <para lang="fr">Une notice a été cataloguée avec INSEE. Il faut la modifier.
@@ -1611,26 +1926,33 @@
 
           </sect3>
         </sect2>
-     </sect1>
+  
+   </sect1>
 
-     <sect1 id="categ_incluses">
-          <title lang="fr">Catégories installées avec PMB</title>
+  
+   <sect1 id="categ_incluses">
+    
+      <title lang="fr">Catégories installées avec PMB</title>
     
 	
 
-          <sect2 id="categ_incluses_unesco">
-               <title lang="fr">Thésaurus de l'UNESCO</title>
+    
+      <sect2 id="categ_incluses_unesco">
+      
+         <title lang="fr">Thésaurus de l'UNESCO</title>
       
 	  
 
-               <para lang="fr">Ce thésaurus, très vaste, est un thésaurus à différentes entrées,
+      
+         <para lang="fr">Ce thésaurus, très vaste, est un thésaurus à différentes entrées,
       qui peut convenir à une bibliothèque ayant besoin d'un thésaurus assez
       précis, ou à un laboratoire de recherches en sciences humaines.</para>
 	  
       
 	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Thésaurus de l'UNESCO </emphasis>copyright
       éditions de l'UNESCO. Le groupe de développeurs de PMB a obtenu
       l'autorisation de reproduire gratuitement le thésaurus. Pour plus
@@ -1638,56 +1960,72 @@
 	  
       
 	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2 id="categ_incluses_agneaux">
-               <title lang="fr">Thésaurus Médiathèque d'Agneaux</title>
+    
+      <sect2 id="categ_incluses_agneaux">
+      
+         <title lang="fr">Thésaurus Médiathèque d'Agneaux</title>
       
 	  
 
-               <para lang="fr">Ce thésaurus était présent dès les débuts de PMB. Il s'agit d'une
+      
+         <para lang="fr">Ce thésaurus était présent dès les débuts de PMB. Il s'agit d'une
       contribution de François Lemarchand (http://balno.free.fr).</para>
       
 	  
 
-               <para lang="fr">Ce thésaurus léger ne se veut pas fixé dans sa hiérarchie mais
+      
+         <para lang="fr">Ce thésaurus léger ne se veut pas fixé dans sa hiérarchie mais
       plutôt un point de départ pour réaliser un thésaurus maison simple mais
       adapté à vos besoins.</para>
 	  
       
 	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2 id="categ_incluses_environnement">
-               <title lang="fr">Thésaurus environnement</title>
+    
+      <sect2 id="categ_incluses_environnement">
+      
+         <title lang="fr">Thésaurus environnement</title>
       
 	  
 
-               <para lang="fr">Thésaurus non déposé, adapté à un centre de documentation lié à
+      
+         <para lang="fr">Thésaurus non déposé, adapté à un centre de documentation lié à
       l'environnement.</para>
       
 	  
 
-               <para lang="fr">Il s'agit d'un bon exemple pour constituer un thésaurus "maison"
+      
+         <para lang="fr">Il s'agit d'un bon exemple pour constituer un thésaurus "maison"
       spécialisé.</para>
       
 	  
-          </sect2>
-     </sect1>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="categ_indexint-incluses">
-          <title lang="fr">Classifications décimales installées avec PMB</title>
+  
+   <sect1 id="categ_indexint-incluses">
+    
+      <title lang="fr">Classifications décimales installées avec PMB</title>
     
 	
 
-          <para lang="fr">PMB intègre une autorité correspondant à une indexation décimale.
+    
+      <para lang="fr">PMB intègre une autorité correspondant à une indexation décimale.
     Cette indexation décimale peut être l'endroit où stocker votre indexation
     Dewey par exemple.</para>
 	
     
 	
 
-          <para lang="fr">La classification Dewey est un système d'indexation décimale,
+    
+      <para lang="fr">La classification Dewey est un système d'indexation décimale,
     partant de 10 classes numérotées de 0 à 9, chacune possédant 10
     sous-classes, et ainsi de suite. L'indexation se présente toujours au
     moins sur trois chiffres (exemple : 470). Au delà des trois premiers
@@ -1696,14 +2034,16 @@
 	
 
 
-          <para lang="fr">C'est à l'aide d'une indexation DEWEY à laquelle on rajoute les
+    
+      <para lang="fr">C'est à l'aide d'une indexation DEWEY à laquelle on rajoute les
     trois premières lettres de l'auteur que sont créées le plus souvent les
     cotes des livres dans les bibliothèques municipales.</para>
 	
     
 	
 
-          <para lang="fr">Il existe d'autres possibilités d'indexation interne, à l'aide de
+    
+      <para lang="fr">Il existe d'autres possibilités d'indexation interne, à l'aide de
     chiffres et/ou de lettres. De même certaines listes d'indexation
     ressemblent à la DEWEY, comme la Classification Décimale Universelle
     (CDU).</para>
@@ -1711,19 +2051,23 @@
     
 	
 
-          <para lang="fr">Comme pour le choix de catégories à précharger lors de
+    
+      <para lang="fr">Comme pour le choix de catégories à précharger lors de
     l'installation de PMB, il faut faire attention à choisir un système
     d'indexation interne adapté à son fonctionnement.</para>
 
     
 	
 
-          <sect2 id="categ_indexint-incluses_chambery">
-               <title lang="fr">BM de Chambéry</title>
+    
+      <sect2 id="categ_indexint-incluses_chambery">
+      
+         <title lang="fr">BM de Chambéry</title>
       
 	  
 
-               <para lang="fr">La Bibliothèque Municipale de Chambéry a développé un manuel de
+      
+         <para lang="fr">La Bibliothèque Municipale de Chambéry a développé un manuel de
       cotation, disponible depuis son <ulink url="http://www.bm-chambery.fr/institution/organisation/index.htm">site</ulink>
       sur internet. Il s'agit d'une indexation décimale, sur le principe de la
       Dewey, avec des indices validés, notamment pour la musique.</para>
@@ -1731,29 +2075,38 @@
       
 	  
 
-               <para lang="fr">Très bien conçue, cette liste d'indexation peut être cependant
+      
+         <para lang="fr">Très bien conçue, cette liste d'indexation peut être cependant
       trop fournie pour une petite bibliothèque.</para>
 	  
       
 	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2 id="categ_indexint-incluses_dewey">
-               <title lang="fr">Style Dewey</title>
+    
+      <sect2 id="categ_indexint-incluses_dewey">
+      
+         <title lang="fr">Style Dewey</title>
       
 	  
 
-               <para lang="fr">Une indexation dérivée de la Dewey.</para>
+      
+         <para lang="fr">Une indexation dérivée de la Dewey.</para>
       
 	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2 id="categ_indexint-incluses_100cases">
-               <title lang="fr">100 cases du savoir ou Marguerite des couleurs</title>
+    
+      <sect2 id="categ_indexint-incluses_100cases">
+      
+         <title lang="fr">100 cases du savoir ou Marguerite des couleurs</title>
       
 	  
 
-               <para lang="fr">Le tableau des 100 cases du savoir ainsi que la Marguerite des
+      
+         <para lang="fr">Le tableau des 100 cases du savoir ainsi que la Marguerite des
       couleurs sont des représentations visuelles des indexations, qui peuvent
       être affichées dans l'OPAC, et sont adaptées à l'utilisation de
       catégories par des élèves de l'enseignement primaire et
@@ -1762,160 +2115,213 @@
       
 	  
 
-               <para lang="fr">Il s'agit d'une indexation style Dewey de 000 à 990, dont le
+      
+         <para lang="fr">Il s'agit d'une indexation style Dewey de 000 à 990, dont le
       dernier chiffre reste 0. Il y a bien 100 indexations numérotées 00 à 99
       avec pour troisième chiffre un 0 accolé.</para>
 	  
       
 	  
-          </sect2>
-     </sect1>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="multithesaurus">
-          <title lang="fr">La gestion multi-thésaurus multi-lingue</title>
+  
+   <sect1 id="multithesaurus">
+    
+      <title lang="fr">La gestion multi-thésaurus multi-lingue</title>
     
 	
 
-          <sect2 id="categs_multithes">
-               <title lang="fr">Multi-thésaurus</title>
+    
+      <sect2 id="categs_multithes">
+      
+         <title lang="fr">Multi-thésaurus</title>
       
 	  
 
-               <para lang="fr">Pour activer la gestion multi-thésaurus dans PMB, il vous faut
+      
+         <para lang="fr">Pour activer la gestion multi-thésaurus dans PMB, il vous faut
       activer le paramètre mode_pmb parmi le type Thésaurus dans l'onglet
       Administration.</para>
 	  
       
 	  
 
-               <sect3 id="categs_multithes_activ">
-                    <title lang="fr">Activer la gestion multi-thésaurus</title>
+      
+         <sect3 id="categs_multithes_activ">
+        
+            <title lang="fr">Activer la gestion multi-thésaurus</title>
         
 		
-                    <para lang="fr">Dans Administration &gt; Outils &gt; Paramètres, dans la
+        
+            <para lang="fr">Dans Administration &gt; Outils &gt; Paramètres, dans la
         rubrique Thésaurus passez le paramètre mode_pmb à 1.</para>
 
         
 		
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="categ_multi_create">
-                    <title lang="fr">Créer ou modifier les thésaurus</title>
+      
+         <sect3 id="categ_multi_create">
+        
+            <title lang="fr">Créer ou modifier les thésaurus</title>
         
 		
 
-                    <sect4 id="categ_multi_create_search">
-                         <title lang="fr">Recherche dans le(s) thésaurus</title>
+        
+            <sect4 id="categ_multi_create_search">
+          
+               <title lang="fr">Recherche dans le(s) thésaurus</title>
           
 		  
 
-                         <para lang="fr">Dans Autorités &gt; Catégories, vous pouvez faire une
+          
+               <para lang="fr">Dans Autorités &gt; Catégories, vous pouvez faire une
           recherche dans l'ensemble des thésaurus. Pour cela, sélectionnez
           "tous" dans le menu déroulant.</para>
 		  
           
 		  
 
-                         <para lang="fr">Vous pouvez également lancer une recherche dans toutes les
+          
+               <para lang="fr">Vous pouvez également lancer une recherche dans toutes les
           langues de votre ou vos thésaurus.</para>
 		  
           
 		  
-                    </sect4>
+        
+            </sect4>
 
-                    <sect4 id="categ_multi_search-results">
-                         <title lang="fr">Résultats de recherche dans le(s) thésaurus</title>
+        
+            <sect4 id="categ_multi_search-results">
+          
+               <title lang="fr">Résultats de recherche dans le(s) thésaurus</title>
           
 		  
 
-                         <para lang="fr">Si vous sélectionnez un thésaurus dans la liste déroulante,
+          
+               <para lang="fr">Si vous sélectionnez un thésaurus dans la liste déroulante,
           vous pouvez alors consulter l'ensemble des termes de premier niveau
           de ce thésaurus.</para>
 		  
           
 		  
 
-                         <para lang="fr">Chacune des catégories (descripteurs) contenant des
+          
+               <para lang="fr">Chacune des catégories (descripteurs) contenant des
           sous-catégories (termes spécifiques) est précédé de l'icône d'un
           dossier.</para>
 		  
           
 		  
-                         <para lang="fr">En cliquant sur l'icône "dossier" devant une des catégories,
+          
+               <para lang="fr">En cliquant sur l'icône "dossier" devant une des catégories,
           ci-dessus "Chimie secteur", vous pouvez consulter l'ensemble des
           sous-catégories correspondantes.</para>
 		  
           
 		  
 
-                         <para lang="fr">Si une catégorie ne possède pas de sous-catégorie, elle est
+          
+               <para lang="fr">Si une catégorie ne possède pas de sous-catégorie, elle est
           précédée d'une page blanche.</para>
 		  
           
 		  
-                    </sect4>
+        
+            </sect4>
 
-                    <sect4 id="categ_multi_create_modif">
-                         <title lang="fr">Modification d'une catégorie</title>
+        
+            <sect4 id="categ_multi_create_modif">
+          
+               <title lang="fr">Modification d'une catégorie</title>
           
 		  
-                         <para lang="fr">Pour modifier une catégorie, cliquez sur le nom de la
+          
+               <para lang="fr">Pour modifier une catégorie, cliquez sur le nom de la
           catégorie.</para>
           
 		  
 
-                         <para lang="fr">Cet écran est divisé en trois zones :</para>
+          
+               <para lang="fr">Cet écran est divisé en trois zones :</para>
           
 		  
 
-                         <itemizedlist>
-                              <listitem>
-                                   <para lang="fr">en haut vous pouvez modifier le libellé de la catégorie.
+          
+               <itemizedlist>
+            
+                  <listitem>
+              
+                     <para lang="fr">en haut vous pouvez modifier le libellé de la catégorie.
               En cliquant sur le bouton Traductions, vous affichez les
               traductions du libellé dans les autres langues.</para>
 			  
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">au milieu de l'écran vous pouvez spécifier un commentaire.
+            
+                  <listitem>
+              
+                     <para lang="fr">au milieu de l'écran vous pouvez spécifier un commentaire.
               En cliquant sur le bouton Traductions, vous affichez les
               traductions du commentaire dans les autres langues
               disponibles.</para>
 			  
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">en bas de l'écran, vous pouvez</para>
+            
+                  <listitem>
+              
+                     <para lang="fr">en bas de l'écran, vous pouvez</para>
               
 			  
 
-                                   <itemizedlist>
-                                        <listitem>
-                                             <para lang="fr">définir une catégorie parente</para>
+              
+                     <itemizedlist>
+                
+                        <listitem>
+                  
+                           <para lang="fr">définir une catégorie parente</para>
                   
 				  
-                                        </listitem>
+                
+                        </listitem>
 
-                                        <listitem>
-                                             <para lang="fr">définir un renvoi voir</para>
+                
+                        <listitem>
+                  
+                           <para lang="fr">définir un renvoi voir</para>
                   
 				  
-                                        </listitem>
+                
+                        </listitem>
 
-                                        <listitem>
-                                             <para lang="fr">définir un renvoi ou plusieurs "voir aussi"</para>
+                
+                        <listitem>
+                  
+                           <para lang="fr">définir un renvoi ou plusieurs "voir aussi"</para>
                   
 				  
-                                        </listitem>
-                                   </itemizedlist>
-                              </listitem>
-                         </itemizedlist>
+                
+                        </listitem>
+              
+                     </itemizedlist>
+            
+                  </listitem>
+          
+               </itemizedlist>
 
-                         <para lang="fr">En cliquant sur l'icône "..." vous ouvrez dans un popup le
+          
+               <para lang="fr">En cliquant sur l'icône "..." vous ouvrez dans un popup le
           sélecteur de catégorie. Vous pouvez y sélectionner une catégorie en
           cliquant sur son nom, parcourir l'arborescence en cliquant sur
           l'icône "dossier" figurant devant une catégorie.</para>
@@ -1923,95 +2329,125 @@
           
 		  
 
-                         <para lang="fr">Le choix d'un thésaurus est grisé : les renvois, de même que
+          
+               <para lang="fr">Le choix d'un thésaurus est grisé : les renvois, de même que
           les catégories parentes, doivent être sélectionnés dans le thésaurus
           qui contient votre terme.</para>
 		  
           
 		  
 
-                         <itemizedlist>
-                              <listitem>
-                                   <para lang="fr">Vous pouvez ajouter un terme à la volée en cliquant sur le
+          
+               <itemizedlist>
+            
+                  <listitem>
+              
+                     <para lang="fr">Vous pouvez ajouter un terme à la volée en cliquant sur le
               bouton Ajouter en haut à droite de l'écran.</para>
 			  
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">Vous pouvez également revenir à la racine de votre
+            
+                  <listitem>
+              
+                     <para lang="fr">Vous pouvez également revenir à la racine de votre
               arborescence, en cliquant sur le bouton "Top".</para>
 			  
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">Vous pouvez utiliser soit la recherche hiérarchique
+            
+                  <listitem>
+              
+                     <para lang="fr">Vous pouvez utiliser soit la recherche hiérarchique
               (arborescence) soit la recherche par termes (navigation
               hypertexte) en utilisant le sélecteur en haut de l'écran.</para>
 			  
               
 			  
-                              </listitem>
-                         </itemizedlist>
-                    </sect4>
+            
+                  </listitem>
+          
+               </itemizedlist>
+        
+            </sect4>
 
-                    <sect4 id="categ_multi_create_edit">
-                         <title lang="fr">Editer les thésaurus</title>
+        
+            <sect4 id="categ_multi_create_edit">
+          
+               <title lang="fr">Editer les thésaurus</title>
           
 		  
 
-                         <para lang="fr">Via <emphasis>Autorités &gt; Catégories</emphasis>, vous
+          
+               <para lang="fr">Via <emphasis>Autorités &gt; Catégories</emphasis>, vous
           pouvez également modifier les thésaurus. Pour cela, cliquez sur le
           lien <emphasis role="bold">Modifier les thésaurus</emphasis> sur le
           côté droit de l'écran.</para>
 		  
           
 		  
-                         <para lang="fr">La liste des thésaurus disponible dans PMB est affichée à
+          
+               <para lang="fr">La liste des thésaurus disponible dans PMB est affichée à
           l'écran.</para>
           
 		  
 
-                         <para lang="fr">Pour modifier un des thésaurus, cliquez sur le nom de ce
+          
+               <para lang="fr">Pour modifier un des thésaurus, cliquez sur le nom de ce
           thésaurus.</para>
 		  
           
 		  
 
-                         <para lang="fr">Vous pouvez également ajouter un thésaurus en cliquant sur
+          
+               <para lang="fr">Vous pouvez également ajouter un thésaurus en cliquant sur
           <emphasis role="bold">Ajouter un thésaurus</emphasis>.</para>
 		  
           
 		  
-                         <para lang="fr">Vous pouvez définir pour un nouveau thésaurus :</para>
+          
+               <para lang="fr">Vous pouvez définir pour un nouveau thésaurus :</para>
           
 		  
 
-                         <itemizedlist>
-                              <listitem>
-                                   <para lang="fr">son libellé</para>
+          
+               <itemizedlist>
+            
+                  <listitem>
+              
+                     <para lang="fr">son libellé</para>
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">la langue par défaut d'utilisation du thésaurus</para>
+            
+                  <listitem>
+              
+                     <para lang="fr">la langue par défaut d'utilisation du thésaurus</para>
               
 			  
-                              </listitem>
-                         </itemizedlist>
+            
+                  </listitem>
+          
+               </itemizedlist>
 
-                         <para lang="fr">Attention : la langue par défaut d'utilisation du thésaurus
+          
+               <para lang="fr">Attention : la langue par défaut d'utilisation du thésaurus
           est celle qui sera utilisée pour afficher une catégorie dont le
           libellé n'a pas été traduit.</para>
 		  
           
 		  
 
-                         <para lang="fr">Par exemple, dans un thésaurus, Environment (anglais) est la
+          
+               <para lang="fr">Par exemple, dans un thésaurus, Environment (anglais) est la
           traduction d'Environnement (français). Si Nature (Français) n'est
           pas traduit, c'est Nature qui sera affiché dans les notices même si
           la langue d'affichage sélectionnée est l'anglais.</para>
@@ -2019,26 +2455,32 @@
           
 		  
 
-                         <para lang="fr">Pour changer la langue d'utilisation de l'interface du
+          
+               <para lang="fr">Pour changer la langue d'utilisation de l'interface du
           bibliothécaire/documentaliste, consultez le Guide de l'Utilisateur,
           chapitre Paramètres de l'Utilisateur.</para>
 		  
           
 		  
 
-                         <para lang="fr">Pour changer la langue dans l'OPAC, utilisez le sélecteur de
+          
+               <para lang="fr">Pour changer la langue dans l'OPAC, utilisez le sélecteur de
           langue dans le bandeau latéral.</para>
 		  
           
 		  
-                         <para lang="fr">Les informations disponibles en modification d'un thésaurus
+          
+               <para lang="fr">Les informations disponibles en modification d'un thésaurus
           sont différentes :</para>
           
 		  
 
-                         <itemizedlist>
-                              <listitem>
-                                   <para lang="fr">vous pouvez consulter (mais pas modifier) le numéro
+          
+               <itemizedlist>
+            
+                  <listitem>
+              
+                     <para lang="fr">vous pouvez consulter (mais pas modifier) le numéro
               identifiant du thésaurus. Ce numéro est nécessaire pour définir
               un thésaurus par défaut dans la partie gestion ou dans l'OPAC de
               PMB. Pour plus d'informations, consultez le Guide de
@@ -2046,48 +2488,64 @@
 			  
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">vous pouvez modifier le libellé du thésaurus</para>
+            
+                  <listitem>
+              
+                     <para lang="fr">vous pouvez modifier le libellé du thésaurus</para>
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">vous pouvez consulter (mais pas modifier) la langue par
+            
+                  <listitem>
+              
+                     <para lang="fr">vous pouvez consulter (mais pas modifier) la langue par
               défaut du thésaurus.</para>
 			  
               
 			  
-                              </listitem>
-                         </itemizedlist>
-                    </sect4>
-               </sect3>
+            
+                  </listitem>
+          
+               </itemizedlist>
+        
+            </sect4>
+      
+         </sect3>
 
-               <sect3 id="categ_multi_use">
-                    <title lang="fr">Cataloguer et rechercher avec différents thésaurus</title>
+      
+         <sect3 id="categ_multi_use">
+        
+            <title lang="fr">Cataloguer et rechercher avec différents thésaurus</title>
         
 		
-                    <para lang="fr">En recherche par Catégorie/sujet, vous pouvez sélectionner un
+        
+            <para lang="fr">En recherche par Catégorie/sujet, vous pouvez sélectionner un
         thésaurus pour lancer votre recherche.</para>
 		
         
 		
-                    <para lang="fr">Chaque terme sélectionné est affiché dans la notice précédé du
+        
+            <para lang="fr">Chaque terme sélectionné est affiché dans la notice précédé du
         nom du thésaurus correspondant. L'affichage est groupé par
         thésaurus.</para>
 		
         
 		
 
-                    <para lang="fr">Dans la notice cataloguée, pour chaque catégorie sélectionnée,
+        
+            <para lang="fr">Dans la notice cataloguée, pour chaque catégorie sélectionnée,
         le thésaurus correspondant est affiché en début de ligne.</para>
 		
         
 		
 
-                    <para lang="fr">Vous pouvez ici sélectionner une catégorie à l'aide du bouton
+        
+            <para lang="fr">Vous pouvez ici sélectionner une catégorie à l'aide du bouton
         parcourir : "..." ou retirer une catégorie sélectionner en cliquant
         sur l'icône "X".</para>
 		
@@ -2095,7 +2553,8 @@
 
 		
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Note</emphasis> en cliquant sur l'icône
         "X" vous supprimez la catégorie sélectionnée de la notice. La ligne
         correspondante reste affichée à l'écran, même si elle reste vide. Lors
@@ -2104,7 +2563,8 @@
 		
         
 		
-                    <para lang="fr">Le popup de sélection d'une nouvelle catégorie vous permet de
+        
+            <para lang="fr">Le popup de sélection d'une nouvelle catégorie vous permet de
         choisir un des thésaurus disponible. La recherche hiérarchique et la
         recherche par termes sont disponibles. Pour plus d'informations sur
         les différents avantages de ces modes de recherches, consulter le
@@ -2114,31 +2574,39 @@
 		
         
 		
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="categ_multi_opac">
-                    <title lang="fr">OPAC</title>
+      
+         <sect3 id="categ_multi_opac">
+        
+            <title lang="fr">OPAC</title>
         
 		
 
-                    <para lang="fr">L'OPAC de PMB permet une navigation simple pour le lecteur à
+        
+            <para lang="fr">L'OPAC de PMB permet une navigation simple pour le lecteur à
         travers les différents thésaurus configurés dans PMB pour le
         catalogage.</para>
 		
         
 		
 
-                    <para lang="fr">L'activation de la gestion multi-thésaurus modifie différents
+        
+            <para lang="fr">L'activation de la gestion multi-thésaurus modifie différents
         écrans lors des recherches de l'OPAC.</para>
 		
         
 		
 
-                    <sect4 id="categ_multi_opac_navig">
-                         <title lang="fr">Navigateur par catégories</title>
+        
+            <sect4 id="categ_multi_opac_navig">
+          
+               <title lang="fr">Navigateur par catégories</title>
           
 		  
-                         <para lang="fr">Si vous avez activé le navigateur par catégories de l'OPAC,
+          
+               <para lang="fr">Si vous avez activé le navigateur par catégories de l'OPAC,
           vos différents thésaurus sont affichés en page d'accueil. Pour plus
           d'informations sur l'activation du navigateur par catégories de
           l'OPAC, consultez le Guide de l'administrateur PMB, chapitre Outils,
@@ -2147,7 +2615,8 @@
           
 		  
 
-                         <para lang="fr">Seul le thésaurus affiché par défaut est visible en page
+          
+               <para lang="fr">Seul le thésaurus affiché par défaut est visible en page
           d'accueil. Vous pouvez accéder aux autres thésaurus en cliquant sur
           l'onglet correspondant. Par exemple, dans l'écran ci-dessus, vous
           pourrez afficher le thésaurus Environnement ou le thésaurus
@@ -2156,7 +2625,8 @@
           
 		  
 
-                         <para lang="fr">Selon la langue choisie par l'utilisateur (voir ci-dessus des
+          
+               <para lang="fr">Selon la langue choisie par l'utilisateur (voir ci-dessus des
           exemples pour l'anglais ou le français), les catégories du thésaurus
           sont affichées dans la langue correspondante. Si le thésaurus est
           partiellement ou n'est pas traduit, les catégories non traduites
@@ -2167,61 +2637,80 @@
 		  
           
 		  
-                    </sect4>
+        
+            </sect4>
 
-                    <sect4 id="categ_multi_opac_simple">
-                         <title lang="fr">Recherche simple</title>
+        
+            <sect4 id="categ_multi_opac_simple">
+          
+               <title lang="fr">Recherche simple</title>
           
 		  
-                         <para lang="fr">La recherche simple de l'OPAC permet de chercher dans les
+          
+               <para lang="fr">La recherche simple de l'OPAC permet de chercher dans les
           catégories de manière simple et rapide pour les lecteurs.</para>
 		  
           
 		  
 
-                         <para lang="fr">Les résultats de recherche sont affichés à la fois</para>
+          
+               <para lang="fr">Les résultats de recherche sont affichés à la fois</para>
           
 		  
 
-                         <itemizedlist>
-                              <listitem>
-                                   <para lang="fr">de manière globale : vous pouvez consulter l'ensemble des
+          
+               <itemizedlist>
+            
+                  <listitem>
+              
+                     <para lang="fr">de manière globale : vous pouvez consulter l'ensemble des
               catégories correspondants à la recherche et "contenants" des
               notices</para>
 			  
               
 			  
-                              </listitem>
+            
+                  </listitem>
 
-                              <listitem>
-                                   <para lang="fr">de manière précise : pour chaque thésaurus, vous pouvez
+            
+                  <listitem>
+              
+                     <para lang="fr">de manière précise : pour chaque thésaurus, vous pouvez
               consulter le nombre de résultat correspondants à la recherche et
               "contenants" des notices</para>
 			  
               
 			  
-                              </listitem>
-                         </itemizedlist>
+            
+                  </listitem>
+          
+               </itemizedlist>
 
-                         <para lang="fr">Vous pouvez voir ci-dessus le détail des catégories affichées
+          
+               <para lang="fr">Vous pouvez voir ci-dessus le détail des catégories affichées
           pour un thésaurus. A ce niveau les éventuels renvois sont également
           affichés.</para>
 		  
           
 		  
-                    </sect4>
+        
+            </sect4>
 
-                    <sect4 id="categ_multi_opac_terms">
-                         <title lang="fr">Recherche par termes</title>
+        
+            <sect4 id="categ_multi_opac_terms">
+          
+               <title lang="fr">Recherche par termes</title>
           
 		  
-                         <para lang="fr">La recherche par termes nécessite de sélectionner le thésaurus
+          
+               <para lang="fr">La recherche par termes nécessite de sélectionner le thésaurus
           dans lequel portera la recherche.</para>
 		  
           
 		  
 
-                         <para lang="fr">Le thésaurus par défaut sur lequel est défini dans les
+          
+               <para lang="fr">Le thésaurus par défaut sur lequel est défini dans les
           paramètres de PMB. Pour plus d'informations sur le paramétrage,
           consulter le Guide de l'Administrateur de PMB, chapitre Outils,
           section Paramètres.</para>
@@ -2229,20 +2718,23 @@
           
 		  
 
-                         <para lang="fr">La partie supérieure de l'écran affiche les catégories
+          
+               <para lang="fr">La partie supérieure de l'écran affiche les catégories
           correspondantes à l'expression recherchée, ici "chimie".</para>
 		  
           
 		  
 
-                         <para lang="fr">Il y a 5 termes contenant "chimie" dans l'exemple ci-dessus :
+          
+               <para lang="fr">Il y a 5 termes contenant "chimie" dans l'exemple ci-dessus :
           "chimie", "chimie minérale secteur", "chimie organique secteur" et
           enfin deux catégories portent exactement le même titre "chimie
           secteur".</para>
 		  
           
 		  
-                         <para lang="fr">En cliquant sur "chimie secteur" dans la partie supérieure de
+          
+               <para lang="fr">En cliquant sur "chimie secteur" dans la partie supérieure de
           l'écran vous affichez les catégories correspondantes dans la partie
           inférieure de l'écran. Les deux catégories homonymes "chimie
           secteur" contiennent des sous-catégories qui sont elles aussi
@@ -2250,32 +2742,42 @@
 		  
           
 		  
-                         <para lang="fr">La recherche par termes de l'OPAC permet de rechercher dans
+          
+               <para lang="fr">La recherche par termes de l'OPAC permet de rechercher dans
           tous les thésaurus. Les catégories correspondantes à l'expression
           recherchée sont affichées, chacune précédée du nom du thésaurus
           correspondant.</para>
 		  
           
 		  
-                    </sect4>
+        
+            </sect4>
 
-                    <sect4 id="categ_multi_opac_multicrit">
-                         <title lang="fr">Recherche multi-critères</title>
+        
+            <sect4 id="categ_multi_opac_multicrit">
+          
+               <title lang="fr">Recherche multi-critères</title>
           
 		  
-                         <para lang="fr">L'OPAC de PMB permet de rechercher dans un ou plusieurs des
+          
+               <para lang="fr">L'OPAC de PMB permet de rechercher dans un ou plusieurs des
           différents thésaurus.</para>
 		  
           
 		  
 
-                         <para lang="fr">La recherche multi-critères permet ainsi de sélectionner le
+          
+               <para lang="fr">La recherche multi-critères permet ainsi de sélectionner le
           thésaurus dans lequel portera la recherche.</para>
 		  
           
 		  
-                    </sect4>
-               </sect3>
-          </sect2>
-     </sect1>
+        
+            </sect4>
+      
+         </sect3>
+    
+      </sect2>
+  
+   </sect1>
 </chapter>

@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="aide_contextuelle" lang="fr">
-     <title lang="fr">Aide contextuelle</title>
+  
+   <title lang="fr">Aide contextuelle</title>
   
 
-     <para lang="fr">Parmi les liens situés en haut à gauche des écrans de l'interface de
+  
+   <para lang="fr">Parmi les liens situés en haut à gauche des écrans de l'interface de
   gestion de PMB, le point d'interrogation "?" permet d'afficher l'aide
   contextuelle de PMB.</para>
   
@@ -26,96 +28,142 @@
     PMB.</para>
     
  
-     <sect1>
-          <title lang="fr">Fonctionnement de l'aide contextuelle</title>
+  
+   <sect1>
+    
+      <title lang="fr">Fonctionnement de l'aide contextuelle</title>
     
 
-         <para lang="fr">L'aide contextuelle peut être activée ou désactivée à l'aide du
+   
+      <para lang="fr">L'aide contextuelle peut être activée ou désactivée à l'aide du
   paramètre pmb dont le sous-type est <emphasis>show_help</emphasis>. Pour
   plus d'informations, consultez le <emphasis>Guide de l'Administrateur
   PMB</emphasis>.</para>
   
  
-          <para lang="fr">L'aide contextuelle est affichée dans un popup. L'aide affichée
+    
+      <para lang="fr">L'aide contextuelle est affichée dans un popup. L'aide affichée
     correspond à l'écran où vous étiez dans l'interface de gestion.</para>
     
 
-          <figure>
-               <title lang="fr">Aide contextuelle, popup</title>
+    
+      <figure>
+      
+         <title lang="fr">Aide contextuelle, popup</title>
       
 
-               <mediaobject>
-                    <imageobject>
-                         <imagedata fileref="images/aide-context-popup.gif" contentwidth="12.5cm"/>
-                    </imageobject>
-               </mediaobject>
-          </figure>
+      
+         <mediaobject>
+        
+            <imageobject>
+          
+               <imagedata fileref="images/aide-context-popup.gif" contentwidth="12.5cm"/>
+        
+            </imageobject>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">L'aide contextuelle permet d'intégrer à PMB le Guide de
+    
+      <para lang="fr">L'aide contextuelle permet d'intégrer à PMB le Guide de
     l'utilisateur PMB, le Guide de l'administrateur PMB et le Guide
     d'Installation PMB.</para>
     
 
-          <para lang="fr">En haut de chaque page vous disposez de différents éléments :</para>
+    
+      <para lang="fr">En haut de chaque page vous disposez de différents éléments :</para>
     
 
-          <itemizedlist>
-               <listitem>
-                    <para lang="fr">le titre du chapitre affiché</para>
+    
+      <itemizedlist>
+      
+         <listitem>
         
-               </listitem>
-
-               <listitem>
-                    <para lang="fr">le titre de la section du chapitre affichée</para>
+            <para lang="fr">le titre du chapitre affiché</para>
         
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">des flèches de navigation permettant de vous déplacer d'une page
+      
+         <listitem>
+        
+            <para lang="fr">le titre de la section du chapitre affichée</para>
+        
+      
+         </listitem>
+
+      
+         <listitem>
+        
+            <para lang="fr">des flèches de navigation permettant de vous déplacer d'une page
         à l'autre pour parcourir l'aide.</para>
         
-               </listitem>
-          </itemizedlist>
+      
+         </listitem>
+    
+      </itemizedlist>
 
-          <figure>
-               <title lang="fr">Aide contextuelle, éléments en haut de page</title>
+    
+      <figure>
+      
+         <title lang="fr">Aide contextuelle, éléments en haut de page</title>
       
 
-               <mediaobject>
-                    <imageobject>
-                         <imagedata fileref="images/aide-context-haut.gif"/>
-                    </imageobject>
-               </mediaobject>
-          </figure>
+      
+         <mediaobject>
+        
+            <imageobject>
+          
+               <imagedata fileref="images/aide-context-haut.gif"/>
+        
+            </imageobject>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">En bas de chaque page, vous trouvez différentes icones de
+    
+      <para lang="fr">En bas de chaque page, vous trouvez différentes icones de
     navigation.</para>
     
 
-          <figure>
-               <title lang="fr">Aide contextuelle, icônes de navigation en bas de page</title>
+    
+      <figure>
+      
+         <title lang="fr">Aide contextuelle, icônes de navigation en bas de page</title>
       
 
-               <mediaobject>
-                    <imageobject>
-                         <imagedata fileref="images/aide-context-bas.gif"/>
-                    </imageobject>
-               </mediaobject>
-          </figure>
+      
+         <mediaobject>
+        
+            <imageobject>
+          
+               <imagedata fileref="images/aide-context-bas.gif"/>
+        
+            </imageobject>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">Les flèches gauche et droite vous permettent de vous déplacer d'une
+    
+      <para lang="fr">Les flèches gauche et droite vous permettent de vous déplacer d'une
     page à l'autre pour parcourir l'aide.</para>
     
 
-          <para lang="fr">La flèche vers le haut est un lien vers le sommaire du chapitre
+    
+      <para lang="fr">La flèche vers le haut est un lien vers le sommaire du chapitre
     affiché. Parmi les titres de chapitre du Guide de l'Utilisateur, on peut
     noter par exemple les différents onglets Circulation, Catalogage,
     Autorités et Editions. Vous pouvez rechercher dans l'aide sur la version en ligne de la documentation.
     Ceci nécessite une connexion internet active.</para>
     
 
-          <para lang="fr">L'icône maison est un lien vers le sommaire du Guide affiché : Guide
+    
+      <para lang="fr">L'icône maison est un lien vers le sommaire du Guide affiché : Guide
     de l'utilisateur, Guide de l'administrateur, Guide d'Installation.</para>
     
-     </sect1>
+  
+   </sect1>
 </chapter>

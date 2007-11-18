@@ -1,27 +1,34 @@
-<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dsi">
-     <title lang="fr">Diffusion sélective de l'information (DSI)</title>
+  
+   <title lang="fr">Diffusion sélective de l'information (DSI)</title>
   
   
-     <para lang="fr">La diffusion sélective de l'information (DSI) est un outil de veille
+  
+   <para lang="fr">La diffusion sélective de l'information (DSI) est un outil de veille
   documentaire.</para>
   
   
   
 
-     <sect1 id="dsi_intro">
-          <title lang="fr">Introduction</title>
+  
+   <sect1 id="dsi_intro">
+    
+      <title lang="fr">Introduction</title>
     
 	
 
-          <sect2>
-               <title lang="fr">Définition</title>
+    
+      <sect2>
+      
+         <title lang="fr">Définition</title>
       
 	  
 
-               <para lang="fr">La <emphasis role="bold">diffusion sélective de
-      l&#8217;information</emphasis> est un service qui consiste à diffuser aux
-      usagères et aux usagers, de façon régulière, les résultats d&#8217;un profil
+      
+         <para lang="fr">La <emphasis role="bold">diffusion sélective de
+      l’information</emphasis> est un service qui consiste à diffuser aux
+      usagères et aux usagers, de façon régulière, les résultats d’un profil
       de recherche personnalisé. Il s'agit d'un outil de veille documentaire.
       La DSI permet de communiquer les nouveautés du fond documentaire sur un
       sujet ou dans un domaine précis.</para>
@@ -29,19 +36,24 @@
       
 	  
 
-               <para lang="fr">On peut également parler de "profil documentaire" ou "profil
+      
+         <para lang="fr">On peut également parler de "profil documentaire" ou "profil
       personnalisé" ou "profil de recherche".</para>
 	  
       
 	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2>
-               <title lang="fr">DSI privée et publique</title>
+    
+      <sect2>
+      
+         <title lang="fr">DSI privée et publique</title>
       
 	  
 
-               <para lang="fr">La diffusion sélective de l'information permet d'alerter les
+      
+         <para lang="fr">La diffusion sélective de l'information permet d'alerter les
       utilisateurs de la parution récente de documents, d'informations
       rentrant dans leurs domaines d'intérêts et d'être ainsi au courant de
       l'actualité. La DSI est une mise à jour perpétuelle des connaissances
@@ -52,9 +64,12 @@
       
 	  
 
-               <itemizedlist>
-                    <listitem>
-                         <para lang="fr">l'une correspond à la fourniture de références
+      
+         <itemizedlist>
+        
+            <listitem>
+          
+               <para lang="fr">l'une correspond à la fourniture de références
           bibliographiques répondant au profil d'un seul utilisateur : la
           diffusion est alors strictement " individuelle ", on parle de "
           profil personnalisé ". Ce seront les <emphasis role="bold">bannettes
@@ -62,10 +77,13 @@
 		  
           
 		  
-                    </listitem>
+        
+            </listitem>
 
-                    <listitem>
-                         <para lang="fr">l'autre correspond à la fourniture de listes bibliographiques
+        
+            <listitem>
+          
+               <para lang="fr">l'autre correspond à la fourniture de listes bibliographiques
           plus larges répondant au profil d'intérêt d'un groupe homogène
           d'utilisateurs. C'est un " profil de groupe " qui se traduit
           généralement par une proposition de différents " profils standards "
@@ -74,27 +92,40 @@
 		  
           
 		  
-                    </listitem>
-               </itemizedlist>
-          </sect2>
-     </sect1>
+        
+            </listitem>
+      
+         </itemizedlist>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="dsi_activer">
-          <title lang="fr">Activer la DSI</title>
+  
+   <sect1 id="dsi_activer">
+    
+      <title lang="fr">Activer la DSI</title>
     
 	
 
-          <sect2>
-               <title lang="fr">Afficher l'onglet DSI</title>
+    
+      <sect2>
+      
+         <title lang="fr">Afficher l'onglet DSI</title>
       
 	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <inlinemediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/warning.gif"/>
-                         </imageobject>
-                    </inlinemediaobject> Si la DSI n'est pas activée, vous ne verrez pas
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/warning.gif"/>
+          
+               </imageobject>
+        
+            </inlinemediaobject> Si la DSI n'est pas activée, vous ne verrez pas
       l'onglet DSI de PMB. Pour activer la DSI, allez dans Administration,
       Outils, Paramètres, Diffusion Sélective de l'Information, et activez la
       DSI.</para>
@@ -102,7 +133,8 @@
       
 
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Attention</emphasis> l'utilisateur de PMB
       doit avoir le droit d'accéder à l'onglet DSI. Dans Administration,
       Utilisateurs, cliquez pour un utilisateur sur le bouton Modifier et
@@ -112,7 +144,8 @@
 
 	  
 
-               <para lang="fr">Pour plus d'information sur le paramétrage de PMB, consulter le
+      
+         <para lang="fr">Pour plus d'information sur le paramétrage de PMB, consulter le
       <emphasis role="bold">Guide de l'Administrateur PMB</emphasis>. Afin de
       faciliter le paramétrage de la DSI, voici ici la liste des paramètres
       concernés :</para>
@@ -120,90 +153,125 @@
       
 	  
 
-               <table>
-                    <title lang="fr">Administration &gt; Outils &gt; Paramètres, type Diffusion
+      
+         <table>
+        
+            <title lang="fr">Administration &gt; Outils &gt; Paramètres, type Diffusion
         Sélective de l'information (dsi)</title>
         
 		
 
-                    <tgroup cols="3">
-                         <thead>
-                              <row>
-                                   <entry lang="fr">sous-type</entry>
+        
+            <tgroup cols="3">
+          
+               <thead>
+            
+                  <row>
+              
+                     <entry lang="fr">sous-type</entry>
               
 			  
 
-                                   <entry lang="fr">valeur par défaut</entry>
+              
+                     <entry lang="fr">valeur par défaut</entry>
               
 			  
 
-                                   <entry lang="fr">commentaire</entry>
+              
+                     <entry lang="fr">commentaire</entry>
               
 			  
-                              </row>
-                         </thead>
+            
+                  </row>
+          
+               </thead>
 
-                         <tbody>
-                              <row>
-                                   <entry lang="fr">active</entry>
+          
+               <tbody>
+            
+                  <row>
               
-			  
-
-                                   <entry lang="fr">0</entry>
-              
-			  
-
-                                   <entry lang="fr">D.S.I activée ? 0: Non 1: Oui</entry>
-              
-			  
-                              </row>
-
-                              <row>
-                                   <entry lang="fr">auto</entry>
+                     <entry lang="fr">active</entry>
               
 			  
 
-                                   <entry lang="fr">0</entry>
+              
+                     <entry lang="fr">0</entry>
               
 			  
 
-                                   <entry lang="fr">D.S.I automatique activée ? 0: Non 1: Oui</entry>
+              
+                     <entry lang="fr">D.S.I activée ? 0: Non 1: Oui</entry>
               
 			  
-                              </row>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">insc_categ</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">auto</entry>
               
 			  
 
-                                   <entry lang="fr">0</entry>
+              
+                     <entry lang="fr">0</entry>
+              
+			  
+
+              
+                     <entry lang="fr">D.S.I automatique activée ? 0: Non 1: Oui</entry>
+              
+			  
+            
+                  </row>
+
+            
+                  <row>
+              
+                     <entry lang="fr">insc_categ</entry>
+              
+			  
+
+              
+                     <entry lang="fr">0</entry>
               
 
-                                   <entry lang="fr">Inscription automatique dans les bannettes de la
+              
+                     <entry lang="fr">Inscription automatique dans les bannettes de la
               catégorie du lecteur en création ? 0: Non 1: Ouixs</entry>
               
 			  
-                              </row>
-                         </tbody>
-                    </tgroup>
-               </table>
-          </sect2>
+            
+                  </row>
+          
+               </tbody>
+        
+            </tgroup>
+      
+         </table>
+    
+      </sect2>
 
-          <sect2>
-               <title lang="fr">DSI et OPAC</title>
+    
+      <sect2>
+      
+         <title lang="fr">DSI et OPAC</title>
       
 	  
 
-               <para lang="fr">La DSI sera également visible dans l'OPAC pour le lecteur qui se
+      
+         <para lang="fr">La DSI sera également visible dans l'OPAC pour le lecteur qui se
       sera identifié. Pour activer la DSI dans l'OPAC, modifier les paramètres
       dans Administration &gt; Outils &gt; Paramètres, type OPAC, section
       Options concernant la DSI.</para>
 	  
       
 	  
-          </sect2>
-     </sect1>
+    
+      </sect2>
+  
+   </sect1>
 
     <sect1 id="dsi_diffusion">
       <title lang="fr">Diffusion</title>
@@ -220,46 +288,67 @@
       diffusion publique et celles de diffusion privée.</para>
       
 		
-	        <sect2 id="dsi_diffusion_diffuser">
-		           <title lang="fr">Diffuser</title>
-		           <para>Diffuser permet de diffuser les banettes arrivées à échéances.</para>
-		           <para>Les banettes visibles dans Diffusion &gt; Diffuser sont donc uniquement des banettes
+	  
+      <sect2 id="dsi_diffusion_diffuser">
+		  
+         <title lang="fr">Diffuser</title>
+		  
+         <para>Diffuser permet de diffuser les banettes arrivées à échéances.</para>
+		  
+         <para>Les banettes visibles dans Diffusion &gt; Diffuser sont donc uniquement des banettes
 		  automatiques (avec une périodicité définie), dont le contenu est prêt à être diffusé.
 			  Si une banette est créée avec une périodicité de 30 jours, au bout du 30e jour elle est
 		  donc visible ici.</para>
-		           <para>Les banettes sont automatiquement toutes cochées. Pour en expédier le contenu, cliquez sur le
+		  
+         <para>Les banettes sont automatiquement toutes cochées. Pour en expédier le contenu, cliquez sur le
 		  bouton <emphasis role="bold">Vider, remplir et diffuser</emphasis>. Si vous souhaitez
 		  réaliser le processus étape par étape, vous pouvez les boutons Vider, Remplir, Visualiser et
 		  enfin Diffuser. Le bouton Exporter sert à prévisualiser le contenu du mail qui sera envoyé
 		  aux destinataires de la DSI ou à réaliser une diffusion papier en l'imprimant.</para>
-		           <para>Attention, le bouton Vider vide réellement la banette de <emphasis role="bold">tout</emphasis>
+		  
+         <para>Attention, le bouton Vider vide réellement la banette de <emphasis role="bold">tout</emphasis>
 		  son contenu, y compris d'un éventuel cumul si la banette est cumulative (voir plus loin).</para>
-	        </sect2>
+	  
+      </sect2>
 		
-	        <sect2 id="dsi_diffusion_automatiques">
-		           <title lang="fr">Automatiques</title>
-		           <para>Cette option du menu permet de diffuser des banettes automatiques (avec une périodicité définie, 
+	  
+      <sect2 id="dsi_diffusion_automatiques">
+		  
+         <title lang="fr">Automatiques</title>
+		  
+         <para>Cette option du menu permet de diffuser des banettes automatiques (avec une périodicité définie, 
 		  par exemple 30 jours) à tout moment, qu'elles soient au terme de leur période (j+30) ou avant
 		  terme (j+21 par exemple).</para>
-		           <para>Les banettes visibles dans Diffusion &gt; Diffuser ne sont pas cochées par défaut.</para>
-		           <para>Pour en expédier le contenu, cliquez sur le
+		  
+         <para>Les banettes visibles dans Diffusion &gt; Diffuser ne sont pas cochées par défaut.</para>
+		  
+         <para>Pour en expédier le contenu, cliquez sur le
 		  bouton <emphasis role="bold">Vider, remplir et diffuser</emphasis>. Si vous souhaitez
 		  réaliser le processus étape par étape, vous pouvez les boutons Vider, Remplir, Visualiser et
 		  enfin Diffuser. Le bouton Exporter sert à prévisualiser le contenu du mail qui sera envoyé
 		  aux destinataires de la DSI ou à réaliser une diffusion papier en l'imprimant.</para>
-		           <para>Attention, le bouton Vider vide réellement la banette de <emphasis role="bold">tout</emphasis>
+		  
+         <para>Attention, le bouton Vider vide réellement la banette de <emphasis role="bold">tout</emphasis>
 		  son contenu, y compris d'un éventuel cumul si la banette est cumulative (voir plus loin).</para>
-	        </sect2>
+	  
+      </sect2>
 		
-		      <sect2 id="dsi_diffusion_manuelles">
-			         <title lang="fr">Manuelles</title>
-			         <para>La diffusion des banettes manuelles permet de diffuser des banettes qui n'ont aucune périodicité
+		
+      <sect2 id="dsi_diffusion_manuelles">
+			
+         <title lang="fr">Manuelles</title>
+			
+         <para>La diffusion des banettes manuelles permet de diffuser des banettes qui n'ont aucune périodicité
 			de définie.</para>
-			         <para>Pour diffuser une banette manuelle, cochez la banette et cliquez sur Vider, remplir et diffuser.</para>
-			         <para>Les boutons Vider, Remplir, Visualiser, Diffuser et Exporter ont le même fonctionnement que dans 
+			
+         <para>Pour diffuser une banette manuelle, cochez la banette et cliquez sur Vider, remplir et diffuser.</para>
+			
+         <para>Les boutons Vider, Remplir, Visualiser, Diffuser et Exporter ont le même fonctionnement que dans 
 				DSI &gt; Diffusion &gt; Automatiques. Pour plus d'informations, consulter plus haut le chapitre correspondant.</para>
-		      </sect2>
-	   </sect1>  
+		
+      </sect2>
+	
+   </sect1>  
 
     <sect1 id="dsi_banettes">
       <title lang="fr">Bannettes</title>
@@ -275,79 +364,121 @@
 	  
       
 		
-	      <sect2 id="dsi_banettes_publiques">
-	           <title lang="fr">Banettes publiques</title>
+	
+      <sect2 id="dsi_banettes_publiques">
+	  
+         <title lang="fr">Banettes publiques</title>
 		
-	         <sect3 id="dsi_banettes_publiques_chercher">
-		            <title lang="fr">Afficher les banettes</title>
-		            <para lang="fr">Pour afficher une banette, saisissez son nom ou une partie de son nom suivie d'une * (par exemple "nouveaut*").
+	
+         <sect3 id="dsi_banettes_publiques_chercher">
+		
+            <title lang="fr">Afficher les banettes</title>
+		
+            <para lang="fr">Pour afficher une banette, saisissez son nom ou une partie de son nom suivie d'une * (par exemple "nouveaut*").
 			Pour afficher toutes les banettes, cliquez sur Rechercher.</para>
-		            <para lang="fr">Vous pouvez affiner votre recherche en utilisant le sélecteur de classement à droite de l'écran.</para>
-		            <para lang="fr">Pour créer une banette publique, cliquez sur Ajouter.</para>
-	         </sect3>	
-	         <sect3 id="dsi_banettes_publiques_ajouter">
-		            <title lang="fr">Créer une banette publique</title>
-		            <para lang="fr">La banette publique est un conteneur qui est défini par un nom, une diffusion soit manuelle, 
+		
+            <para lang="fr">Vous pouvez affiner votre recherche en utilisant le sélecteur de classement à droite de l'écran.</para>
+		
+            <para lang="fr">Pour créer une banette publique, cliquez sur Ajouter.</para>
+	
+         </sect3>	
+	
+         <sect3 id="dsi_banettes_publiques_ajouter">
+		
+            <title lang="fr">Créer une banette publique</title>
+		
+            <para lang="fr">La banette publique est un conteneur qui est défini par un nom, une diffusion soit manuelle, 
 			soit automatique tous les X jours. A ce conteneur seront associées une ou plusieurs équations de recherche,
 		un ou des lecteurs et/ou une catégorie complète de lecteurs.</para>
 		
-	            <figure>
-                       <title lang="fr">Créer une banette publique</title>		
+	
+            <figure>
+        
+               <title lang="fr">Créer une banette publique</title>		
 
-                       <mediaobject>
-                            <imageobject> 
-                                 <imagedata fileref="images/dsi_banette_creer1.gif" contentwidth="10cm"/>
-                            </imageobject>
-                       </mediaobject>
-                  </figure>			
-		            <para lang="fr">Dans la case Nom, saisissez un nom qui vous permettra d'identifier cette banette. Dans commentaire
+        
+               <mediaobject>
+          
+                  <imageobject> 
+            
+                     <imagedata fileref="images/dsi_banette_creer1.gif" contentwidth="10cm"/>
+          
+                  </imageobject>
+        
+               </mediaobject>
+      
+            </figure>			
+		
+            <para lang="fr">Dans la case Nom, saisissez un nom qui vous permettra d'identifier cette banette. Dans commentaire
 		en gestion définissez un commentaire à destination des autres bibliothécaires/documentalistes ou, à défaut, recopiez
 		le nom de la banette.</para>
-		            <para lang="fr">Vous pouvez définir un classement pour organiser plus facilement vos banettes.</para>
-		            <para lang="fr">Dans Entête du mail, vous pouvez définir un texte qui précédera la liste des notices dans le mail
+		
+            <para lang="fr">Vous pouvez définir un classement pour organiser plus facilement vos banettes.</para>
+		
+            <para lang="fr">Dans Entête du mail, vous pouvez définir un texte qui précédera la liste des notices dans le mail
 		de diffusion. Dans cet entête, vous pouvez utiliser du code HTML pour mettre en forme votre texte. Voici quelques 
 			exemples de balises HTML employables. Certaines doivent entourer le texte à mettre en forme.</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis role="bold">&lt;br&gt;</emphasis> insère un saut de ligne (passage à la ligne)</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis role="bold">&lt;p&gt;paragraphe&lt;/p&gt;</emphasis> insère une interligne avant le paragraphe et une interligne après le paragraphe</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis role="bold">&lt;i&gt;italique&lt;/i&gt;</emphasis> met en italique le texte "italique"</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis role="bold">&lt;b&gt;gras&lt;/b&gt;</emphasis> met en gras le texte "gras"</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis>Date de dernier remplissage</emphasis> il n'y a pas de date de dernier remplissage puisque la banette n'a pas encore été créée.
 		Si vous modifiez une banette, vous pourrez modifier la date de dernier remplissage à l'aide d'un bouton calendrier.</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis>Date de dernier envoi</emphasis> correspond lors de la création à la date du jour. 
 			La sélection des nouvelles notices correspondant à votre équation se fera depuis cette date. Modifiez cette date pour
 		pouvoir réaliser une DSI dès la création de la banette.</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis>Propriétaire</emphasis> doit indiquer <emphasis>Aucun : banette publique</emphasis>.</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis>Banette automatique</emphasis> est à cocher si vous voulez diffuser cette banette à intervalle régulier, que 
 			vous devez définir dans <emphasis>Périodicité</emphasis> en jours (sous la forme <emphasis>30</emphasis>).</para>
-		            <para lang="fr">
+		
+            <para lang="fr">
                <emphasis>Diffusion par mail</emphasis> et <emphasis>Nombre de notices à diffuser par mail</emphasis> sont à compléter.</para>
-		            <para lang="fr">Pour abonner l'ensemble des lecteurs d'une catégorie, choisissez une catégorie dans <emphasis>Catégorie de lecteurs concernés</emphasis>. 
+		
+            <para lang="fr">Pour abonner l'ensemble des lecteurs d'une catégorie, choisissez une catégorie dans <emphasis>Catégorie de lecteurs concernés</emphasis>. 
 			Vous pourrez également abonner individuellement des lecteurs, cette sélection se fait ultérieurement.</para>
-		            <para lang="fr">En choisissant un panier dans <emphasis>Diffuser dans un panier</emphasis>, votre banette remplira à chaque diffusion le panier choisi.
+		
+            <para lang="fr">En choisissant un panier dans <emphasis>Diffuser dans un panier</emphasis>, votre banette remplira à chaque diffusion le panier choisi.
 		Ceci permet par exemple d'utiliser la DSI pour alimenter un panier qui est repris dans une étagère virtuelle.
 		De cette façon, vous pouvez mettre automatiquement en page d'accueil de votre OPAC une liste de nouveautés thématique.</para>
-		            <para lang="fr">Le fonction du <emphasis>cumul</emphasis> pour les banettes est décrit plus loin dans ce chapitre. Reportez vous 
+		
+            <para lang="fr">Le fonction du <emphasis>cumul</emphasis> pour les banettes est décrit plus loin dans ce chapitre. Reportez vous 
 			à la partie correspondante pour plus d'informations.</para>
-		         </sect3>
 		
-			         <sect3 id="dsi_banettes_cumulatives">
-		            <title lang="fr">Banettes cumulatives</title>
+         </sect3>
 		
-		             <para lang="fr">voici le fonctionnement d'une bannette cumulative en nb (##) de notices:</para>
-		             <para lang="fr">Le bouton "remplir"</para>
-		             <para lang="fr">-sélectionne toutes les nouveautés depuis le dernier envoi et les ajoute
+			
+         <sect3 id="dsi_banettes_cumulatives">
+		
+            <title lang="fr">Banettes cumulatives</title>
+		
+		 
+            <para lang="fr">voici le fonctionnement d'une bannette cumulative en nb (##) de notices:</para>
+		 
+            <para lang="fr">Le bouton "remplir"</para>
+		 
+            <para lang="fr">-sélectionne toutes les nouveautés depuis le dernier envoi et les ajoute
 à la bannette.</para>
-		             <para lang="fr">-purge le contenu afin de limiter au nombre fixé avec une limite: si
+		 
+            <para lang="fr">-purge le contenu afin de limiter au nombre fixé avec une limite: si
 plus de ## notices étaient nouvelles, elles ont été ajoutées. Nous pouvons alors considérer qu'elles sont bien valables et méritent d'être
 diffusées. Elles seront purgées dès que leur présence dans la bannette sera supérieure à 1 jour.</para>
+
 
             <para lang="fr">Il en ressort que : les bannettes cumulatives ne sont pas limitées au nombre
 ## de notices pour ceux qui cataloguent beaucoup de nouveautés en
@@ -355,188 +486,291 @@ permanence, en revanche, pour ceux qui cataloguent un nombre inférieur à ##
 notices entre deux diffusions, ils sont assurés d'avoir toujours les ##
 dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...</para>
 
+
             <para lang="fr">Attention, si vous cataloguez beaucoup, diffusez tous les jours, les notices avant le jour j-1 seront effectivement purgées de la banette même cumulative.</para>
 
-			         </sect3>
-		         <sect3 id="dsi_banettes_affecter_equations">
-			            <title lang="fr">Affecter une ou des équations à une banette</title>
 			
-			            <para lang="fr">Depuis la liste des banettes, cliquez sur la ligne correspondant à votre banette dans la colonne Equations associées.</para>
-			            <para lang="fr">Cochez ensuite la ou les banettes correspondantes puis cliquez sur Enregistrer.
+         </sect3>
+		
+         <sect3 id="dsi_banettes_affecter_equations">
+			
+            <title lang="fr">Affecter une ou des équations à une banette</title>
+			
+			
+            <para lang="fr">Depuis la liste des banettes, cliquez sur la ligne correspondant à votre banette dans la colonne Equations associées.</para>
+			
+            <para lang="fr">Cochez ensuite la ou les banettes correspondantes puis cliquez sur Enregistrer.
 			Attention, il ne suffit pas de sélectionner une équation pour l'affecter. 
 				Lorsque vous sélectionnez une autre catégorie dans la liste en haut de l'écran, votre sélection n'est pas conservée.
 			Lorsque vous faites une recherche à droite de l'écran, votre sélection n'est pas conservée. 
 				Lorsque vous devez sélectionner des équations parmi un grand nombre, l'affectation des équations par simple sélection est risque d'erreur. Pour cette raison,
 				vous devez valider votre sélection en cliquant sur Enregistrer.</para>
-			            <para lang="fr">Pour ne plus affecter une équation précédemment sélectionnée, choisissez "équations affectées" dans la liste 
-				des catégories en haut de l'écran.</para>
-			            <para lang="fr">Vous pouvez ensuite cliquer sur Retour pour afficher la liste des banettes ou cliquer sur le bouton Abonnés 
-				à droite de l'écran pour affecter un ou plusieurs lecteurs à votre banette.</para>
-		         </sect3>
-		         <sect3 id="dsi_banettes_affecter_lecteurs">
-			            <title lang="fr">Affecter des lecteurs individuels à une banette</title>
-			            <para lang="fr">Dans DSI &gt;  Banettes, lancez une recherche pour afficher votre banette.</para>
-
-		            <figure>
-                       <title lang="fr">Liste des banettes</title>		
-
-                       <mediaobject>
-                            <imageobject>
-                                 <imagedata fileref="images/dsi_banette_rechercher.gif" contentwidth="10cm"/>
-                            </imageobject>
-                       </mediaobject>
-		            </figure>			
-
-			            <para lang="fr">Depuis la liste des banettes, cliquez sur la ligne correspondant à votre banette dans la colonne Nbre d'abonnés.</para>
-	  
-		            <figure>
-                       <title lang="fr">Liste des lecteurs affectables à une banette</title>		
-
-                       <mediaobject>
-                            <imageobject>
-                                 <imagedata fileref="images/dsi_banette_lecteurs.gif" contentwidth="10cm"/>
-                            </imageobject>
-                       </mediaobject>
-		            </figure>			
 			
-			            <para lang="fr">Pour affecter un des lecteurs, cochez la case précédant son nom puis cliquez sur <emphasis>Enregistrer</emphasis>.
+            <para lang="fr">Pour ne plus affecter une équation précédemment sélectionnée, choisissez "équations affectées" dans la liste 
+				des catégories en haut de l'écran.</para>
+			
+            <para lang="fr">Vous pouvez ensuite cliquer sur Retour pour afficher la liste des banettes ou cliquer sur le bouton Abonnés 
+				à droite de l'écran pour affecter un ou plusieurs lecteurs à votre banette.</para>
+		
+         </sect3>
+		
+         <sect3 id="dsi_banettes_affecter_lecteurs">
+			
+            <title lang="fr">Affecter des lecteurs individuels à une banette</title>
+			
+            <para lang="fr">Dans DSI &gt;  Banettes, lancez une recherche pour afficher votre banette.</para>
+
+		
+            <figure>
+        
+               <title lang="fr">Liste des banettes</title>		
+
+        
+               <mediaobject>
+          
+                  <imageobject>
+            
+                     <imagedata fileref="images/dsi_banette_rechercher.gif" contentwidth="10cm"/>
+          
+                  </imageobject>
+        
+               </mediaobject>
+		
+            </figure>			
+
+			
+            <para lang="fr">Depuis la liste des banettes, cliquez sur la ligne correspondant à votre banette dans la colonne Nbre d'abonnés.</para>
+	  
+		
+            <figure>
+        
+               <title lang="fr">Liste des lecteurs affectables à une banette</title>		
+
+        
+               <mediaobject>
+          
+                  <imageobject>
+            
+                     <imagedata fileref="images/dsi_banette_lecteurs.gif" contentwidth="10cm"/>
+          
+                  </imageobject>
+        
+               </mediaobject>
+		
+            </figure>			
+			
+			
+            <para lang="fr">Pour affecter un des lecteurs, cochez la case précédant son nom puis cliquez sur <emphasis>Enregistrer</emphasis>.
 			Attention, il ne suffit pas de sélectionner un lecteur pour l'affecter. 
 				Lorsque vous sélectionnez une autre catégorie dans la liste en haut de l'écran, votre sélection n'est pas conservée.
 			Lorsque vous faites une autre recherche, votre sélection n'est pas conservée. Lorsque vous devez sélectionner une certaine
 				quantité de lecteurs, l'affectation des lecteurs par simple sélection est risque d'erreur. Pour cette raison,
 				vous devez valider votre sélection en cliquant sur Enregistrer.</para>
-			            <para lang="fr">Pour ne plus affecter un lecteur précédemment sélectionné, choisissez "lecteurs affectés" dans la liste 
+			
+            <para lang="fr">Pour ne plus affecter un lecteur précédemment sélectionné, choisissez "lecteurs affectés" dans la liste 
 				des catégories en haut de l'écran.</para>
-			            <para lang="fr">Vous pouvez ensuite cliquer sur Retour pour afficher la liste des banettes ou cliquer sur le bouton Equations 
+			
+            <para lang="fr">Vous pouvez ensuite cliquer sur Retour pour afficher la liste des banettes ou cliquer sur le bouton Equations 
 				à droite de l'écran pour affecter une ou des équations à votre banette.</para>
 			
-		         </sect3>
-			      </sect2>
+		
+         </sect3>
+			
+      </sect2>
 
-          <sect2 id="dsi_equations">
-               <title lang="fr">Equations</title>
+    
+      <sect2 id="dsi_equations">
+      
+         <title lang="fr">Equations</title>
       
 	  
 
-               <para lang="fr">Les équations sont des recherches multicritères sélectionnées qui
+      
+         <para lang="fr">Les équations sont des recherches multicritères sélectionnées qui
       vont permettre le remplissage des bannettes.</para>
       
 		
-		         <sect3 id="dsi_equations_rechercher">
-			            <title lang="fr">Rechercher une équation</title>
-			            <para lang="fr">Pour chercher une équation, saisissez son nom entier ou en partie dans la case de recherche en haut de l'écran.
+		
+         <sect3 id="dsi_equations_rechercher">
+			
+            <title lang="fr">Rechercher une équation</title>
+			
+            <para lang="fr">Pour chercher une équation, saisissez son nom entier ou en partie dans la case de recherche en haut de l'écran.
 			Vous pouvez utiliser le caractère étoile "*" comme troncature (par exemple philo* pour remplacer philosophe ou philosophie).</para>
 			
-		         </sect3>
+		
+         </sect3>
 	  
-		         <sect3 id="dsi_equations_ajouter">
-			            <title lang="fr">Créer une équation</title>
-			            <para lang="fr">Pour créer une nouvelle équation, cliquez sur le bouton Ajouter.</para>
-			            <para lang="fr">Vous êtes alors directement redirigé dans l'onglet Catalogue, en recherche multi-critères. 
+		
+         <sect3 id="dsi_equations_ajouter">
+			
+            <title lang="fr">Créer une équation</title>
+			
+            <para lang="fr">Pour créer une nouvelle équation, cliquez sur le bouton Ajouter.</para>
+			
+            <para lang="fr">Vous êtes alors directement redirigé dans l'onglet Catalogue, en recherche multi-critères. 
 				Une équation de recherche est une recherche multi-critères, identifiée par un nom et éventuellement par un classement.</para>
 			
-		         </sect3>
+		
+         </sect3>
 	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2 id="dsi_options">
-               <title lang="fr">Options</title>
+    
+      <sect2 id="dsi_options">
+      
+         <title lang="fr">Options</title>
       
 	  
 
-               <para lang="fr">Vous pouvez ici définir des classements pour vous permettre
+      
+         <para lang="fr">Vous pouvez ici définir des classements pour vous permettre
       d'organiser vos bannettes et vos équations.</para>
       
 	  
-		         <sect3 lang="fr" id="dsi_options_classements">
-			            <title lang="fr">Classements</title>
-			            <para lang="fr">Au delà d'une certaine quantité de banettes créées, il faut organiser ses banettes et équations en les classant.
+		
+         <sect3 lang="fr" id="dsi_options_classements">
+			
+            <title lang="fr">Classements</title>
+			
+            <para lang="fr">Au delà d'une certaine quantité de banettes créées, il faut organiser ses banettes et équations en les classant.
 			</para>
-			            <para lang="fr">Les classements se définissent en donnant un nom et en choisissant un type : soit classement de banettes, soit classement d'équations.</para>
-                  <figure>
-                       <title lang="fr">Ajout d'un classement</title>		
+			
+            <para lang="fr">Les classements se définissent en donnant un nom et en choisissant un type : soit classement de banettes, soit classement d'équations.</para>
+      
+            <figure>
+        
+               <title lang="fr">Ajout d'un classement</title>		
 
-                       <mediaobject>
-                            <imageobject>
-                                 <imagedata fileref="images/dsi_classements_ajouter.gif" contentwidth="10cm"/>
-                            </imageobject>
-                       </mediaobject>
-                  </figure>			
-		         </sect3>
-          </sect2>
+        
+               <mediaobject>
+          
+                  <imageobject>
+            
+                     <imagedata fileref="images/dsi_classements_ajouter.gif" contentwidth="10cm"/>
+          
+                  </imageobject>
+        
+               </mediaobject>
+      
+            </figure>			
+		
+         </sect3>
+    
+      </sect2>
 
-          <sect2>
-               <title lang="fr">Exemple d'utilisation pas à pas de la DSI</title>
+    
+      <sect2>
+      
+         <title lang="fr">Exemple d'utilisation pas à pas de la DSI</title>
       
 	  
 
-               <para lang="fr">Onglet DSI : - Equations, gestion, cliquez sur ajouter pour créer
+      
+         <para lang="fr">Onglet DSI : - Equations, gestion, cliquez sur ajouter pour créer
       une équation de recherche.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Rechercher ou ajouter une bannette</title>
+      
+         <figure>
+        
+            <title lang="fr">Rechercher ou ajouter une bannette</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_rechercher_bannette.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_rechercher_bannette.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">et lancer la recherche, par exemple :</para>
+      
+         <para lang="fr">et lancer la recherche, par exemple :</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Recherche multi-critères</title>
+      
+         <figure>
+        
+            <title lang="fr">Recherche multi-critères</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_recherche_multicritere_.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_recherche_multicritere_.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <figure>
-                    <title lang="fr">Résultat de la recherche multi-critères</title>
+      
+         <figure>
+        
+            <title lang="fr">Résultat de la recherche multi-critères</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_recherche_multicritere.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_recherche_multicritere.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">A l'affichage des résultats, il est possible de cliquer sur
+      
+         <para lang="fr">A l'affichage des résultats, il est possible de cliquer sur
       "Transformer en équation DSI"</para>
       
 	  
 
-               <para lang="fr">Donner un nom à l'équation puis Enregistrer</para>
+      
+         <para lang="fr">Donner un nom à l'équation puis Enregistrer</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Création d'une équation</title>
+      
+         <figure>
+        
+            <title lang="fr">Création d'une équation</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_creation_equation_2.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_creation_equation_2.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Note </emphasis>: vous pourrez à tout moment
       modifier une équation de recherche, ce qui permettra de modifier,
       ajouter ou retirer des critères à l'équation de recherche. Affichez les
@@ -546,228 +780,344 @@ dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...
       
 	  
 
-               <figure>
-                    <title lang="fr">Affichage de la liste des équations disponibles</title>
+      
+         <figure>
+        
+            <title lang="fr">Affichage de la liste des équations disponibles</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_rechercher_bannette_res.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_rechercher_bannette_res.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <figure>
-                    <title lang="fr">Modification d'une équation</title>
+      
+         <figure>
+        
+            <title lang="fr">Modification d'une équation</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_modification_equation.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_modification_equation.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Bannettes, publiques, ajouter : donnez un nom à la bannette,
+      
+         <para lang="fr">Bannettes, publiques, ajouter : donnez un nom à la bannette,
       cochez bannette automatique, périodicité (1 par ex.), nombre de notices
       (50 par ex.), choisissez une catégorie de lecteurs et cochez diffusion
       par email. Enregistrez ensuite.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Création d'une bannette</title>
+      
+         <figure>
+        
+            <title lang="fr">Création d'une bannette</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_creation_bannette.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_creation_bannette.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Lorsque vous changez la catégorie de lecteurs concernée, une
+      
+         <para lang="fr">Lorsque vous changez la catégorie de lecteurs concernée, une
       alerte javascript s'ouvre à l'écran. Cette alerte vous permet de mettre
       à jour immédiatement les abonnements de lecteurs.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Alerte javascript</title>
+      
+         <figure>
+        
+            <title lang="fr">Alerte javascript</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_alerte_javascript.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_alerte_javascript.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <figure>
-                    <title lang="fr">Liste des bannettes</title>
+      
+         <figure>
+        
+            <title lang="fr">Liste des bannettes</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_liste_bannette_2.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_liste_bannette_2.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Cliquez sur la bannette, dans la colonne Equations associées pour
+      
+         <para lang="fr">Cliquez sur la bannette, dans la colonne Equations associées pour
       affecter une ou plusieurs Equations à la bannette.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Association des équations à la bannette</title>
+      
+         <figure>
+        
+            <title lang="fr">Association des équations à la bannette</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_associer_equations_bann.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_associer_equations_bann.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Association des équations à la bannette : cochez l'équation et
+      
+         <para lang="fr">Association des équations à la bannette : cochez l'équation et
       enregistrez.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Affection aux abonnés d'une bannette</title>
+      
+         <figure>
+        
+            <title lang="fr">Affection aux abonnés d'une bannette</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_affectation_bannette_ab.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_affectation_bannette_ab.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">En cliquant sur Abonnés vous pouvez choisir les lecteurs,
+      
+         <para lang="fr">En cliquant sur Abonnés vous pouvez choisir les lecteurs,
       sélectionnez les et cliquez sur Enregistrer.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Liste des bannettes après association d'équation et
+      
+         <figure>
+        
+            <title lang="fr">Liste des bannettes après association d'équation et
         d'abonnés</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_liste_bannette.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_liste_bannette.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Allez ensuite modifier une notice correspondant à votre équation
+      
+         <para lang="fr">Allez ensuite modifier une notice correspondant à votre équation
       de recherche : DSI, Diffusion, Automatique, Suivant : cochez votre
       bannette, cliquez sur remplir. Le nombre de notices change.</para>
       
 	  
 
-               <para lang="fr"/>
+      
+         <para lang="fr"/>
       
 	  
 
-               <figure>
-                    <title lang="fr">Liste des bannettes pour réaliser une action</title>
+      
+         <figure>
+        
+            <title lang="fr">Liste des bannettes pour réaliser une action</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_liste_bannette_pour_act.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_liste_bannette_pour_act.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Vous pouvez alors diffuser.</para>
+      
+         <para lang="fr">Vous pouvez alors diffuser.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Résultat d'une action réalisée</title>
+      
+         <figure>
+        
+            <title lang="fr">Résultat d'une action réalisée</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_vidage_remplissage_envo.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_vidage_remplissage_envo.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Il faut bien sûr que vos lecteurs aient une adresse email pour
+      
+         <para lang="fr">Il faut bien sûr que vos lecteurs aient une adresse email pour
       qu'ils reçoivent le contenu de la bannette par mail. Le mail qui sera
       envoyé est ouvert à l'écran dans un popup.</para>
       
 	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Attention</emphasis> l'adresse de votre
       serveur SMTP dans votre configuration php doit être défini.</para>
       
 	  
 
-               <figure>
-                    <title lang="fr">Envoi du contenu d'une bannette aux lecteurs abonnés</title>
+      
+         <figure>
+        
+            <title lang="fr">Envoi du contenu d'une bannette aux lecteurs abonnés</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_bannette_envoyee.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_bannette_envoyee.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Si le lecteur se connecte dans l'OPAC, il peut voir le contenu de
+      
+         <para lang="fr">Si le lecteur se connecte dans l'OPAC, il peut voir le contenu de
       la bannette après s'être connecté.</para>
       
 	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <figure>
-                         <title lang="fr">Affichage du compte lecteur dans l'OPAC</title>
+          
+               <title lang="fr">Affichage du compte lecteur dans l'OPAC</title>
   
 
-                         <mediaobject>
-                              <imageobject>
-                                   <imagedata fileref="images/dsi_perso_opac.gif" contentwidth="10cm"/>
-                              </imageobject>
-                         </mediaobject>
-                    </figure>En cliquant sur Accéder à votre information personnalisée,
+          
+               <mediaobject>
+            
+                  <imageobject>
+              
+                     <imagedata fileref="images/dsi_perso_opac.gif" contentwidth="10cm"/>
+            
+                  </imageobject>
+          
+               </mediaobject>
+        
+            </figure>En cliquant sur Accéder à votre information personnalisée,
       vous pouvez voir les bannettes auxquelles vous êtes abonnés.</para>
 
       
 
 
-               <figure>
-                    <title lang="fr">Ecran des informations du lecteur dans l'OPAC, après avoir
+      
+         <figure>
+        
+            <title lang="fr">Ecran des informations du lecteur dans l'OPAC, après avoir
         cliqué sur Accéder à votre information personnalisée</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_banettes_opac.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_banettes_opac.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Comme pour toute notice dans l'OPAC, vous pouvez soit la déplier
+      
+         <para lang="fr">Comme pour toute notice dans l'OPAC, vous pouvez soit la déplier
       en cliquant sur le bouton + soit l'afficher en cliquant sur son titre.
       Vos possibilités dépendent du paramètre de l'OPAC
       bannette_notices_depliables. Pour plus d'information, consultez le Guide
@@ -776,25 +1126,38 @@ dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...
       
 	  
 
-               <figure>
-                    <title lang="fr">Affichage d'une notice dans l'OPAC</title>
+      
+         <figure>
+        
+            <title lang="fr">Affichage d'une notice dans l'OPAC</title>
         
 		
 
-                    <mediaobject>
-                         <imageobject>
-                              <imagedata fileref="images/dsi_notice_opac.gif" contentwidth="10cm"/>
-                         </imageobject>
-                    </mediaobject>
-               </figure>
-          </sect2>
-     </sect1>
+        
+            <mediaobject>
+          
+               <imageobject>
+            
+                  <imagedata fileref="images/dsi_notice_opac.gif" contentwidth="10cm"/>
+          
+               </imageobject>
+        
+            </mediaobject>
+      
+         </figure>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="dsi_privee">
-          <title lang="fr">DSI privée</title>
+  
+   <sect1 id="dsi_privee">
+    
+      <title lang="fr">DSI privée</title>
     
 	
-          <para lang="fr">Elle permet à chaque lecteur identifié de concevoir un "profil
+    
+      <para lang="fr">Elle permet à chaque lecteur identifié de concevoir un "profil
     documentaire" lui permettant de connaître les nouveautés de la
     bibliothèque ou du centre de documentation correspondant à ses centres
     d'intérêts.</para>
@@ -802,146 +1165,214 @@ dernières notices, qu'elles aient été cataloguées hier ou il y a six mois...
 	
 	
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">attention</emphasis> les DSI personnalisées
     configurées dans l'OPAC ne sont visibles qu'à un endroit dans l'interface
     de gestion de PMB : DSI &gt; bannettes &gt; privées</para>
     
 	
 
-          <para lang="fr">Les bannettes de DSI privées sont <emphasis role="bold">non
+    
+      <para lang="fr">Les bannettes de DSI privées sont <emphasis role="bold">non
     classées</emphasis>.</para>
     
 	
 
-          <para lang="fr">La <emphasis role="bold">diffusion </emphasis>de la DSI privée est
+    
+      <para lang="fr">La <emphasis role="bold">diffusion </emphasis>de la DSI privée est
     <emphasis role="bold">obligatoirement automatique</emphasis>.</para>
     
 	
 
-          <para lang="fr">Les équations privées ne sont pas gérables dans l'onglet DSI de
+    
+      <para lang="fr">Les équations privées ne sont pas gérables dans l'onglet DSI de
     PMB.</para>
     
 	
 
-          <para lang="fr">La DSI privée est organisée de la manière suivante :</para>
+    
+      <para lang="fr">La DSI privée est organisée de la manière suivante :</para>
     
 	
 
-          <itemizedlist>
-               <listitem>
-                    <para lang="fr">un lecteur se constitue une banette privée (pas de
+    
+      <itemizedlist>
+      
+         <listitem>
+        
+            <para lang="fr">un lecteur se constitue une banette privée (pas de
         catégorisation possible)</para>
         
 		
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">il affecte à cette banette une et une seule équation de
+      
+         <listitem>
+        
+            <para lang="fr">il affecte à cette banette une et une seule équation de
         recherche (pas de possibilité d'affecter plusieurs équations de
         recherche à une seule banette privée, il faut réaliser différentes
         banettes)</para>
         
 		
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">la banette sera réservée pour ce seul lecteur et n'est pas
+      
+         <listitem>
+        
+            <para lang="fr">la banette sera réservée pour ce seul lecteur et n'est pas
         diffusable</para>
         
 		
-               </listitem>
-          </itemizedlist>
+      
+         </listitem>
+    
+      </itemizedlist>
 
-          <sect2>
-               <title lang="fr">Diffusion</title>
+    
+      <sect2>
+      
+         <title lang="fr">Diffusion</title>
       
 	  
 
-               <para lang="fr">La diffusion est la dernière étape de la DSI. Dès qu'une bannette
+      
+         <para lang="fr">La diffusion est la dernière étape de la DSI. Dès qu'une bannette
       est créée et qu'une ou plusieurs équations y sont attribuées, vous
       pouvez diffuser l'information.</para>
       
 	  
 
-               <para lang="fr">La diffusion automatique présente à la fois les bannettes de
+      
+         <para lang="fr">La diffusion automatique présente à la fois les bannettes de
       diffusion publique et celles de diffusion privée.</para>
       
 	  
-          </sect2>
-     </sect1>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="dsi_rss">
-          <title lang="fr">Flux RSS</title>
+  
+   <sect1 id="dsi_rss">
+    
+      <title lang="fr">Flux RSS</title>
     	
 
-          <sect2 id="dsi_rss_definition">
-               <title lang="fr">Définition</title>
+    
+      <sect2 id="dsi_rss_definition">
+      
+         <title lang="fr">Définition</title>
       	  
 
-               <para lang="fr">Les flux RSS (Really Simple Syndication) sont des fils de nouveautés 
+      
+         <para lang="fr">Les flux RSS (Really Simple Syndication) sont des fils de nouveautés 
       émis par un site internet. Le Monde diffuse par exemple des fils d'acutalités thématiques 
       (La Une, International, Société, Sciences...). Ces flux peuvent être lus par des logiciels 
       spécifiques, par les navigateurs internet ou directement intégrés à votre catalogue dans PMB.</para>
       	  
-          </sect2>
     
-          <sect2 id="dsi_rss_cat">
-               <title lang="fr">Cataloguer un fil RSS</title>  
+      </sect2>
+    
+    
+      <sect2 id="dsi_rss_cat">
+      
+         <title lang="fr">Cataloguer un fil RSS</title>  
 
-               <para lang="fr">Vous pouvez cataloguer un fil RSS dans PMB.</para>
+      
+         <para lang="fr">Vous pouvez cataloguer un fil RSS dans PMB.</para>
 
-               <para lang="fr">Voici comment enregistrer un fil RSS en quelques étapes :</para>    
+      
+         <para lang="fr">Voici comment enregistrer un fil RSS en quelques étapes :</para>    
 
-               <itemizedlist>
-                    <listitem>      
-      		               <para lang="fr">1: créer un statut de notice dont seules les notices sont visibles (pas les
+      
+         <itemizedlist>
+        
+            <listitem>      
+      		
+               <para lang="fr">1: créer un statut de notice dont seules les notices sont visibles (pas les
 exemplaire), appelez-le au hasard "flux RSS"</para>
-		            </listitem>
-		            <listitem>
-			               <para lang="fr">2: créer une notice ayant</para>
-      		               <itemizedlist>
-        		                  <listitem>      
-    				                     <para lang="fr">pour statut : flux RSS</para>
-        		                  </listitem>      
-        		                  <listitem>      
-    				                     <para lang="fr">pour type : document électronique (pas obligatoire)</para>
-        		                  </listitem>      
-        		                  <listitem>      
-    				                     <para lang="fr">pour lien : l'url du fichier XML du flux RSS</para>
-        		                  </listitem>      
-        		                  <listitem>      
-    				                     <para lang="fr">pour format électronique de la ressource : 
+		
+            </listitem>
+		
+            <listitem>
+			
+               <para lang="fr">2: créer une notice ayant</para>
+      		
+               <itemizedlist>
+        		
+                  <listitem>      
+    				
+                     <para lang="fr">pour statut : flux RSS</para>
+        		
+                  </listitem>      
+        		
+                  <listitem>      
+    				
+                     <para lang="fr">pour type : document électronique (pas obligatoire)</para>
+        		
+                  </listitem>      
+        		
+                  <listitem>      
+    				
+                     <para lang="fr">pour lien : l'url du fichier XML du flux RSS</para>
+        		
+                  </listitem>      
+        		
+                  <listitem>      
+    				
+                     <para lang="fr">pour format électronique de la ressource : 
     				"RSS ### #" </para>
-    				                     <para lang="fr">où ### représente
+    				
+                     <para lang="fr">où ### représente
 					le temps de mise en cache en minutes. Mettre 0 si vous ne voulez pas de mise
 					en cache ; </para>
-					                     <para lang="fr">où si # vaut 1 : affichage en page d'accueil si l'affichage des RSS en page 
+					
+                     <para lang="fr">où si # vaut 1 : affichage en page d'accueil si l'affichage des RSS en page 
 					d'accueil est activé ; si # vaut 0 : ne pas afficher sur la page d'accueil.</para>
-        		                  </listitem>      
-      		               </itemizedlist>
-		            </listitem>
-		            <listitem>
-			               <para lang="fr">3: option : afficher ces flux en page d'accueil : paramètre
-opac show_rss_browser à mettre à 1</para>
-		            </listitem>
-		            <listitem>
-			               <para lang="fr">4: option : créer une étagère virtuelle de ces flux</para>
-		            </listitem>
+        		
+                  </listitem>      
+      		
                </itemizedlist>
+		
+            </listitem>
+		
+            <listitem>
+			
+               <para lang="fr">3: option : afficher ces flux en page d'accueil : paramètre
+opac show_rss_browser à mettre à 1</para>
+		
+            </listitem>
+		
+            <listitem>
+			
+               <para lang="fr">4: option : créer une étagère virtuelle de ces flux</para>
+		
+            </listitem>
       
-               <para lang="fr">Pour plus d'informations sur le catalogage, consultez le chapitre 
+         </itemizedlist>
+      
+      
+         <para lang="fr">Pour plus d'informations sur le catalogage, consultez le chapitre 
       <xref linkend="cat"/>.</para>
 
-               <para lang="fr">Pour des informations plus détaillées sur le catalogage de flux RSS, 
+      
+         <para lang="fr">Pour des informations plus détaillées sur le catalogage de flux RSS, 
       consultez le chapitre <xref linkend="cat_notice_rss"/>.</para>
-          </sect2>
+    
+      </sect2>
 	  
-          <sect2 id="dsi_rss_def">
-               <title lang="fr">Définition</title>
+    
+      <sect2 id="dsi_rss_def">
+      
+         <title lang="fr">Définition</title>
       	  
       
-               <para lang="fr">PMB permet de créer des flux RSS qui sont alors accessibles depuis la page 
+      
+         <para lang="fr">PMB permet de créer des flux RSS qui sont alors accessibles depuis la page 
       d'accueil de l'opac, soit par le lien RSS en bas de page soit dans votre navigateur
       à l'aide d'une icône signalant la présence d'un flux RSS sur l'OPAC.</para>
       <!--
@@ -969,6 +1400,8 @@ opac show_rss_browser à mettre à 1</para>
       <para lang='fr'></para>
 		  
 		  -->
-	      </sect2>
-     </sect1> 
+	
+      </sect2>
+  
+   </sect1> 
 </chapter>

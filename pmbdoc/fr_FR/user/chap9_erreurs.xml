@@ -1,70 +1,100 @@
-<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
-     <title lang="fr">Messages d'erreurs, problèmes et FAQ</title>
+  
+   <title lang="fr">Messages d'erreurs, problèmes et FAQ</title>
   
   
 
-     <sect1>
-          <title lang="fr">Installation non terminée</title>
+  
+   <sect1>
+    
+      <title lang="fr">Installation non terminée</title>
     
 	
-          <para lang="fr">Cet écran apparaît lorsque la base n'a pas été créée. 
+    
+      <para lang="fr">Cet écran apparaît lorsque la base n'a pas été créée. 
     Après avoir installé PMB, il faut configurer la base en ouvrant la page
     <emphasis>pmb/tables/install.php</emphasis>.</para>
 	
-          <para lang="fr">Pour plus d'informations, consulter le <emphasis>Guide 
+    
+      <para lang="fr">Pour plus d'informations, consulter le <emphasis>Guide 
     d'installation</emphasis>.</para>
 	
 
-          <figure>
-               <title lang="fr">Installation inachevée</title>
+    
+      <figure>
+      
+         <title lang="fr">Installation inachevée</title>
 
-               <mediaobject>
-                    <imageobject>
-                         <imagedata fileref="images/erreur_creation_base.gif" contentwidth="10cm"/>
-                    </imageobject>
-               </mediaobject>
-          </figure>
-     </sect1>
+      
+         <mediaobject>
+        
+            <imageobject>
+          
+               <imagedata fileref="images/erreur_creation_base.gif" contentwidth="10cm"/>
+        
+            </imageobject>
+      
+         </mediaobject>
+    
+      </figure>
+  
+   </sect1>
 	
-     <sect1>
-          <title lang="fr">Identification incorrecte</title>
+  
+   <sect1>
+    
+      <title lang="fr">Identification incorrecte</title>
     
 	
 
-          <para lang="fr">Cet écran apparaît lorsque le nom d'utilisateur ou le mot de passe
+    
+      <para lang="fr">Cet écran apparaît lorsque le nom d'utilisateur ou le mot de passe
     est incorrect. Ce message d'erreur peut aussi correspondre à un
     utilisateur invalide.</para>
 	
     
 	
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Solution</emphasis> : vérifiez le nom
     d'utilisateur et le mot de passe saisis.</para>
 	
     
 	
 
-          <figure>
-               <title lang="fr">Identification incorrecte</title>
+    
+      <figure>
+      
+         <title lang="fr">Identification incorrecte</title>
       
 	  
 
-               <mediaobject>
-                    <imageobject>
-                         <imagedata fileref="images/erreur_identification.gif" contentwidth="10cm"/>
-                    </imageobject>
-               </mediaobject>
-          </figure>
-     </sect1>
+      
+         <mediaobject>
+        
+            <imageobject>
+          
+               <imagedata fileref="images/erreur_identification.gif" contentwidth="10cm"/>
+        
+            </imageobject>
+      
+         </mediaobject>
+    
+      </figure>
+  
+   </sect1>
 
-     <sect1>
-          <title lang="fr">Vous n'avez pas accès à cette fonctionnalité</title>
+  
+   <sect1>
+    
+      <title lang="fr">Vous n'avez pas accès à cette fonctionnalité</title>
     
 	
 
-          <para lang="fr">Cet écran apparaît lorsqu'un utilisateur essaie d'accéder à une
+    
+      <para lang="fr">Cet écran apparaît lorsqu'un utilisateur essaie d'accéder à une
     fonction à laquelle il n'a pas accès. Ce message d'erreur peut également
     survenir lorsque la session a été terminée par le programme (délai
     d'inactivité atteint), une reconnexion est alors nécessaire.</para>
@@ -73,7 +103,8 @@
 
 	
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Solution</emphasis> : retourner à l'écran
     d'accueil et se reconnecter. Vérifiez les droits d'accès aux différentes
     fonctions du logiciel de l'utilisateur en passant par
@@ -84,48 +115,70 @@
     
 	
 
-          <figure>
-               <title lang="fr">Vous n'avez pas accès à cette fonctionnalité</title>
+    
+      <figure>
+      
+         <title lang="fr">Vous n'avez pas accès à cette fonctionnalité</title>
       
 	  
 
-               <mediaobject>
-                    <imageobject>
-                         <imagedata fileref="images/erreur-droits.gif" contentwidth="10cm"/>
-                    </imageobject>
-               </mediaobject>
-          </figure>
-     </sect1>
+      
+         <mediaobject>
+        
+            <imageobject>
+          
+               <imagedata fileref="images/erreur-droits.gif" contentwidth="10cm"/>
+        
+            </imageobject>
+      
+         </mediaobject>
+    
+      </figure>
+  
+   </sect1>
 
-     <sect1>
-          <title lang="fr">Pas de session ouverte</title>
+  
+   <sect1>
+    
+      <title lang="fr">Pas de session ouverte</title>
     
 	
 
-          <para lang="fr">Cet écran apparaît lorsqu'un utilisateur essaie d'accéder
+    
+      <para lang="fr">Cet écran apparaît lorsqu'un utilisateur essaie d'accéder
     directement à un des onglets de pmb par son adresse : pmb/circ.php ;
     pmb/catalog.php... alors qu'il n'est pas connecté.</para>
 	
     
 	
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Solution</emphasis> : cliquer sur OK et saisir
     un nom d'utilisateur et un mot de passe valides.</para>
 	
     
 	
 
-          <figure>
-               <title lang="fr">Pas de session ouverte</title>
+    
+      <figure>
+      
+         <title lang="fr">Pas de session ouverte</title>
       
 	  
 
-               <mediaobject>
-                    <imageobject>
-                         <imagedata fileref="images/erreur_session.gif" contentwidth="10cm"/>
-                    </imageobject>
-               </mediaobject>
-          </figure>
-     </sect1>
+      
+         <mediaobject>
+        
+            <imageobject>
+          
+               <imagedata fileref="images/erreur_session.gif" contentwidth="10cm"/>
+        
+            </imageobject>
+      
+         </mediaobject>
+    
+      </figure>
+  
+   </sect1>
 </chapter>

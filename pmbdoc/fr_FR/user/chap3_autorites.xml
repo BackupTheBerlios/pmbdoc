@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="autorites">
-     <title lang="fr">Autorités</title>
+  
+   <title lang="fr">Autorités</title>
     
 
-     <sect1 id="autorites_auteurs">
-          <title lang="fr">Auteurs</title>
+  
+   <sect1 id="autorites_auteurs">
+    
+      <title lang="fr">Auteurs</title>
     
 	
 	
-          <para lang="fr">Les auteurs gérés par PMB correspondent à des mentions de
+    
+      <para lang="fr">Les auteurs gérés par PMB correspondent à des mentions de
     responsabilités : ainsi un film sur cassette vidéo aura un réalisateur
     mais pas d'auteur au sens propre du terme. Lorsque vous saisissez une
     nouvelle notice vous saisissez un auteur et sa fonction par rapport à
@@ -18,11 +22,14 @@
 
 	
 
-          <sect2>
-               <title lang="fr">Rechercher et éditer un auteur</title>
+    
+      <sect2>
+      
+         <title lang="fr">Rechercher et éditer un auteur</title>
       	  
 
-               <para lang="fr">Dans l'écran <emphasis>Autorités/Auteurs</emphasis>, vous pouvez
+      
+         <para lang="fr">Dans l'écran <emphasis>Autorités/Auteurs</emphasis>, vous pouvez
       rechercher un auteur existant, ou créer un nouvel auteur. Vous pouvez
       ainsi ajouter de nouvelles informations à un auteur, comme sa date de
       naissance et sa date de décès.</para>
@@ -31,21 +38,24 @@
 	  
 	  	  
 
-               <para lang="fr">L'écran Autorités/Auteurs présente par défaut les résultats d'une
+      
+         <para lang="fr">L'écran Autorités/Auteurs présente par défaut les résultats d'une
       recherche portant sur tous les auteurs.</para>
 	  
       
 
 	  
 
-               <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir les derniers auteurs créés </emphasis> pour afficher
+      
+         <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir les derniers auteurs créés </emphasis> pour afficher
       les dix derniers auteurs ajoutés dans la base.</para>
 	  
       
 	  
 	  	  
 
-               <para lang="fr">Si un auteur a écrit sous un pseudonyme vous pouvez saisir un
+      
+         <para lang="fr">Si un auteur a écrit sous un pseudonyme vous pouvez saisir un
       renvoi vers un autre auteur, qui sera le vrai nom de cette personne. De
       même pour une femme mariée, vous pouvez souhaiter faire un renvoi de son
       nom de jeune fille vers son nom d'usage.</para>
@@ -53,19 +63,27 @@
       
 	  	  
 
-               <figure>
-                    <title lang="fr">Autorités &gt; Auteurs</title>
+      
+         <figure>
+        
+            <title lang="fr">Autorités &gt; Auteurs</title>
         		
 
-                    <mediaobject>
-                         <imageobject>
+        
+            <mediaobject>
+          
+               <imageobject>
                   <imagedata fileref="images/aut_auteurs.gif" contentwidth="10cm"/>
                </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <sect3 id="autorites_recherche_auteur">
-                    <para lang="fr">Pour afficher les informations d'un auteur, saisissez une partie
+      
+         <sect3 id="autorites_recherche_auteur">
+        
+            <para lang="fr">Pour afficher les informations d'un auteur, saisissez une partie
         de son nom et cliquez sur Rechercher. Sélectionnez le ensuite parmi
         les résultats possibles.</para>
 		
@@ -73,35 +91,49 @@
 		
 				
 
-                    <para lang="fr">Vous pouvez également directement sélectionner un auteur parmi
+        
+            <para lang="fr">Vous pouvez également directement sélectionner un auteur parmi
         la liste des derniers auteurs, ou parmi la liste alphabétique proposée
         par défaut.</para>
 		
         
 				
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="autorites_modification_auteur">
-                    <title id="autorites_modification_auteur.title">Modification d'un
+      
+         <sect3 id="autorites_modification_auteur">
+        
+            <title id="autorites_modification_auteur.title">Modification d'un
         auteur</title>
 
-                    <figure>
-                         <title lang="fr">Autorités &gt; Auteurs, édition d'un auteur</title>
+        
+            <figure>
+          
+               <title lang="fr">Autorités &gt; Auteurs, édition d'un auteur</title>
           		  
 
-                         <mediaobject>
-                              <imageobject>
+          
+               <mediaobject>
+            
+                  <imageobject>
                      <imagedata fileref="images/aut_auteurs_edit.gif" contentwidth="10cm"/>
                   </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               </mediaobject>
+        
+            </figure>
 
-                    <para lang="fr">Différentes données peuvent être saisies pour un auteur :</para>
+        
+            <para lang="fr">Différentes données peuvent être saisies pour un auteur :</para>
         		
 
-                    <itemizedlist>
-                         <listitem>
-                              <para lang="fr">
+        
+            <itemizedlist>
+          
+               <listitem>
+            
+                  <para lang="fr">
                      <emphasis role="bold">type</emphasis> :
             <emphasis>personne</emphasis> 
                      <emphasis>physique</emphasis> ou
@@ -110,34 +142,46 @@
 			
             
 						
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">
+          
+               <listitem>
+            
+                  <para lang="fr">
                      <emphasis role="bold">élément d'entrée</emphasis> : le nom
             pour une personne physique ou pour une collectivité</para>
             			
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">
+          
+               <listitem>
+            
+                  <para lang="fr">
                      <emphasis role="bold">élément rejeté </emphasis> : le prénom
             pour une personne physique</para>
 			
             			
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">
+          
+               <listitem>
+            
+                  <para lang="fr">
                      <emphasis role="bold">dates</emphasis> : date de naissance
             et de mort pour une personne physique, date de création et de fin
             d'existence pour une collectivité</para>
 			
             			
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">
+          
+               <listitem>
+            
+                  <para lang="fr">
                      <emphasis role="bold">forme retenue</emphasis> : système de
             renvoi entre deux auteurs. Cliquez sur le bouton "..." pour ouvrir
             un popup et cliquer sur le nom d'un auteur pour créer le renvoi.
@@ -145,10 +189,13 @@
 			
             
 						
-                         </listitem>
+          
+               </listitem>
 
-                         <listitem>
-                              <para lang="fr">
+          
+               <listitem>
+            
+                  <para lang="fr">
                      <emphasis role="bold">site web </emphasis> : site web
             personnel de la personne physique ou en rapport avec elle
             (biographie par exemple), site web de la collectivité le cas
@@ -156,10 +203,13 @@
 			
             
 						
-                         </listitem>
-                    </itemizedlist>
+          
+               </listitem>
+        
+            </itemizedlist>
 
-                    <para lang="fr">
+        
+            <para lang="fr">
                <emphasis role="bold">Supprimer</emphasis> permet de supprimer
         un auteur. <emphasis role="bold">Attention</emphasis> un auteur ne
         peut être supprimé que s'il n'est utilisé dans aucune notice.</para>
@@ -167,7 +217,8 @@
         
 				
 
-                    <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+        
+            <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
         savoir dans quels ouvrages est mentionné l'auteur. Il lance une
         recherche dans l'onglet catalogue pour l'auteur correspondant. Ceci
         permet notamment de savoir pourquoi la suppression de cet auteur est
@@ -176,276 +227,412 @@
         
 				
 
-                    <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet
+        
+            <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet
         de remplacer un auteur par un autre, pour éliminer des doublons mals
         orthographiés par exemple.</para>
 		
         
 				
-               </sect3>
+      
+         </sect3>
 
-               <sect3 id="autorites_ajout_auteur">
-                    <title lang="fr">Ajouter un auteur</title>
+      
+         <sect3 id="autorites_ajout_auteur">
+        
+            <title lang="fr">Ajouter un auteur</title>
         		
 
-                    <figure>
-                         <title lang="fr">Autorités &gt; Auteurs, ajout d'un auteur</title>
+        
+            <figure>
+          
+               <title lang="fr">Autorités &gt; Auteurs, ajout d'un auteur</title>
           		  
 
-                         <mediaobject>
-                              <imageobject>
+          
+               <mediaobject>
+            
+                  <imageobject>
                      <imagedata fileref="images/aut_auteurs_ajout.gif" contentwidth="10cm"/>
                   </imageobject>
-                         </mediaobject>
-                    </figure>
+          
+               </mediaobject>
+        
+            </figure>
 
-                    <para lang="fr">L'ajout d'un auteur est identique à l'édition. Pour plus
+        
+            <para lang="fr">L'ajout d'un auteur est identique à l'édition. Pour plus
         d'informations, consulter plus haut la section <xref linkend="autorites_modification_auteur"/>
             </para>
 		
         
 				
-               </sect3>
-          </sect2>
+      
+         </sect3>
+    
+      </sect2>
 
-          <sect2>
-               <title lang="fr">Faciliter le catalogage : normaliser la saisie des
+    
+      <sect2>
+      
+         <title lang="fr">Faciliter le catalogage : normaliser la saisie des
       auteurs</title>
 	  
       
 	  	  
 
-               <para lang="fr">Saisir le nom comme le prénom avec une majuscule initiale, le
+      
+         <para lang="fr">Saisir le nom comme le prénom avec une majuscule initiale, le
       reste en minuscules.</para>
 	  
       
 	  
 	  	  
 
-               <para lang="fr">Le nom est l'élément d'entrée, le prénom est l'élément
+      
+         <para lang="fr">Le nom est l'élément d'entrée, le prénom est l'élément
       rejeté.</para>
 	  
       
 	  
 	  	  
 
-               <para lang="fr">Dans les cas particuliers, en cas de doute, ne rien saisir en
+      
+         <para lang="fr">Dans les cas particuliers, en cas de doute, ne rien saisir en
       élément rejeté.</para>
 	  
       
 	  
 	  	  
 
-               <para lang="fr">Pour les particules françaises (noblesse), les "de", "des", "du"
+      
+         <para lang="fr">Pour les particules françaises (noblesse), les "de", "des", "du"
       sont rejetés. Les éléments de noms ne sont pas rejetés (La Fontaine par
       exemple).</para>
 	  
       
 	  	  
 
-               <para lang="fr">Les tirets sont conservés.</para>
+      
+         <para lang="fr">Les tirets sont conservés.</para>
       	  
 
-               <para lang="fr">Pour les noms composés de femmes, saisir trois auteurs : un avec
+      
+         <para lang="fr">Pour les noms composés de femmes, saisir trois auteurs : un avec
       le nom composé, un au nom patronymique, un au nom d'usage ; en prévoyant
       les renvois (zone forme retenue sous PMB) vers la forme retenue par
       l'auteur dans l'ouvrage.</para>
 	  
       	  
 
-               <para lang="fr">Voici quelques exemples :</para>
+      
+         <para lang="fr">Voici quelques exemples :</para>
       	  
 
-               <table>
-                    <title lang="fr">Exemples de saisies d'auteur : éléments d'entrée, éléments
+      
+         <table>
+        
+            <title lang="fr">Exemples de saisies d'auteur : éléments d'entrée, éléments
         rejetés</title>
 		
         		
 
-                    <tgroup cols="4">
-                         <thead>
-                              <row>
-                                   <entry lang="fr">Nom de l'auteur</entry>
+        
+            <tgroup cols="4">
+          
+               <thead>
+            
+                  <row>
+              
+                     <entry lang="fr">Nom de l'auteur</entry>
 
-                                   <entry lang="fr">Element d'entrée</entry>
+              
+                     <entry lang="fr">Element d'entrée</entry>
 
-                                   <entry lang="fr">Elément rejeté</entry>
+              
+                     <entry lang="fr">Elément rejeté</entry>
 
-                                   <entry lang="fr">Affichage obtenu</entry>
-                              </row>
-                         </thead>
+              
+                     <entry lang="fr">Affichage obtenu</entry>
+            
+                  </row>
+          
+               </thead>
 
-                         <tbody>
-                              <row>
-                                   <entry lang="fr">The Beatles</entry>
+          
+               <tbody>
+            
+                  <row>
+              
+                     <entry lang="fr">The Beatles</entry>
 
-                                   <entry lang="fr">Beatles</entry>
+              
+                     <entry lang="fr">Beatles</entry>
 
-                                   <entry lang="fr">The</entry>
+              
+                     <entry lang="fr">The</entry>
 
-                                   <entry lang="fr">Beatles, The</entry>
-                              </row>
+              
+                     <entry lang="fr">Beatles, The</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">Michael Hoeye</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">Michael Hoeye</entry>
 
-                                   <entry lang="fr">Hoeye</entry>
+              
+                     <entry lang="fr">Hoeye</entry>
 
-                                   <entry lang="fr">Michael</entry>
+              
+                     <entry lang="fr">Michael</entry>
 
-                                   <entry lang="fr">Hoeye, Michael</entry>
-                              </row>
+              
+                     <entry lang="fr">Hoeye, Michael</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">Jean-Paul II</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">Jean-Paul II</entry>
 
-                                   <entry lang="fr">Jean-Paul II</entry>
+              
+                     <entry lang="fr">Jean-Paul II</entry>
 
-                                   <entry lang="fr"/>
+              
+                     <entry lang="fr"/>
 
-                                   <entry lang="fr">Jean-Paul II</entry>
-                              </row>
+              
+                     <entry lang="fr">Jean-Paul II</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">Louis XIV</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">Louis XIV</entry>
 
-                                   <entry lang="fr">Louis XIV</entry>
+              
+                     <entry lang="fr">Louis XIV</entry>
 
-                                   <entry lang="fr"/>
+              
+                     <entry lang="fr"/>
 
-                                   <entry lang="fr">Louis XIV</entry>
-                              </row>
+              
+                     <entry lang="fr">Louis XIV</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">Bernard de La Barre de Nanteuil</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">Bernard de La Barre de Nanteuil</entry>
 
-                                   <entry lang="fr">La Barre de Nanteuil</entry>
+              
+                     <entry lang="fr">La Barre de Nanteuil</entry>
 
-                                   <entry lang="fr">Bernard de</entry>
+              
+                     <entry lang="fr">Bernard de</entry>
 
-                                   <entry lang="fr">La Barre de Nanteuil, Bernard de</entry>
-                              </row>
+              
+                     <entry lang="fr">La Barre de Nanteuil, Bernard de</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">Jean de La Fontaine</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">Jean de La Fontaine</entry>
 
-                                   <entry lang="fr">La Fontaine</entry>
+              
+                     <entry lang="fr">La Fontaine</entry>
 
-                                   <entry lang="fr">Jean de</entry>
+              
+                     <entry lang="fr">Jean de</entry>
 
-                                   <entry lang="fr">La Fontaine, Jean de</entry>
-                              </row>
+              
+                     <entry lang="fr">La Fontaine, Jean de</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">Didier Van Cauwelaert</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">Didier Van Cauwelaert</entry>
 
-                                   <entry lang="fr">Van Cauwelaert</entry>
+              
+                     <entry lang="fr">Van Cauwelaert</entry>
 
-                                   <entry lang="fr">Didier</entry>
+              
+                     <entry lang="fr">Didier</entry>
 
-                                   <entry lang="fr">Van Cauwelaert, Didier</entry>
-                              </row>
+              
+                     <entry lang="fr">Van Cauwelaert, Didier</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">Françoise Barret-Ducrocq</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">Françoise Barret-Ducrocq</entry>
 
-                                   <entry lang="fr">Barret-Ducrocq</entry>
+              
+                     <entry lang="fr">Barret-Ducrocq</entry>
 
-                                   <entry lang="fr">Françoise</entry>
+              
+                     <entry lang="fr">Françoise</entry>
 
-                                   <entry lang="fr">Barret-Ducrocq, Françoise</entry>
-                              </row>
+              
+                     <entry lang="fr">Barret-Ducrocq, Françoise</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr"/>
+            
+                  <row>
+              
+                     <entry lang="fr"/>
 
-                                   <entry lang="fr">Ducrocq</entry>
+              
+                     <entry lang="fr">Ducrocq</entry>
 
-                                   <entry lang="fr">Françoise</entry>
+              
+                     <entry lang="fr">Françoise</entry>
 
-                                   <entry lang="fr">Ducrocq, Françoise <emphasis>renvoi vers</emphasis> 
+              
+                     <entry lang="fr">Ducrocq, Françoise <emphasis>renvoi vers</emphasis> 
               Barret-Ducrocq, Françoise</entry>
-                              </row>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr"/>
+            
+                  <row>
+              
+                     <entry lang="fr"/>
 
-                                   <entry lang="fr">Barret</entry>
+              
+                     <entry lang="fr">Barret</entry>
 
-                                   <entry lang="fr">Françoise</entry>
+              
+                     <entry lang="fr">Françoise</entry>
 
-                                   <entry lang="fr">Barret, Françoise <emphasis>renvoi vers</emphasis> 
+              
+                     <entry lang="fr">Barret, Françoise <emphasis>renvoi vers</emphasis> 
               Barret-Ducrocq, Françoise</entry>
-                              </row>
-                         </tbody>
-                    </tgroup>
-               </table>	  	  
+            
+                  </row>
+          
+               </tbody>
+        
+            </tgroup>
+      
+         </table>	  	  
 
-               <table>
-                    <title lang="fr">Exemples de rejets de préfixe ou particule selon les nationalités des
+      
+         <table>
+        
+            <title lang="fr">Exemples de rejets de préfixe ou particule selon les nationalités des
         auteurs</title>
 
         
 		
 		
 
-                    <tgroup cols="3">
-                         <tbody>
-                              <row>
-                                   <entry lang="fr">Préfixe</entry>
+        
+            <tgroup cols="3">
+          
+               <tbody>
+            
+                  <row>
+              
+                     <entry lang="fr">Préfixe</entry>
 
-                                   <entry lang="fr">Rejet</entry>
+              
+                     <entry lang="fr">Rejet</entry>
 
-                                   <entry lang="fr">Maintien</entry>
-                              </row>
+              
+                     <entry lang="fr">Maintien</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">D', DE</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">D', DE</entry>
 
-                                   <entry lang="fr">auteurs français, espagnols, portugais</entry>
+              
+                     <entry lang="fr">auteurs français, espagnols, portugais</entry>
 
-                                   <entry lang="fr">auteurs anglo-américains, belges et italiens</entry>
-                              </row>
+              
+                     <entry lang="fr">auteurs anglo-américains, belges et italiens</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">DA</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">DA</entry>
 
-                                   <entry lang="fr">auteurs portugais et brésiliens</entry>
+              
+                     <entry lang="fr">auteurs portugais et brésiliens</entry>
 
-                                   <entry lang="fr">auteurs italiens</entry>
-                              </row>
+              
+                     <entry lang="fr">auteurs italiens</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">DEL</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">DEL</entry>
 
-                                   <entry lang="fr">auteurs espagnols</entry>
+              
+                     <entry lang="fr">auteurs espagnols</entry>
 
-                                   <entry lang="fr">auteurs italiens</entry>
-                              </row>
+              
+                     <entry lang="fr">auteurs italiens</entry>
+            
+                  </row>
 
-                              <row>
-                                   <entry lang="fr">LE, LA, LAS, LOS</entry>
+            
+                  <row>
+              
+                     <entry lang="fr">LE, LA, LAS, LOS</entry>
 
-                                   <entry lang="fr"/>
+              
+                     <entry lang="fr"/>
 
-                                   <entry lang="fr">maintien général sauf auteurs espagnols et
+              
+                     <entry lang="fr">maintien général sauf auteurs espagnols et
               sud-américains</entry>
-                              </row>
-                         </tbody>
-                    </tgroup>
-               </table>
-          </sect2>
-     </sect1>
+            
+                  </row>
+          
+               </tbody>
+        
+            </tgroup>
+      
+         </table>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="autorites_categ">
-          <title lang="fr">Catégories</title>
+  
+   <sect1 id="autorites_categ">
+    
+      <title lang="fr">Catégories</title>
     	
 
-          <sect2>
-               <title lang="fr">Préambule</title>
+    
+      <sect2>
+      
+         <title lang="fr">Préambule</title>
       	  
 
-               <para lang="fr">Les catégories ne sont pas des vedettes Rameau : leur choix doit
+      
+         <para lang="fr">Les catégories ne sont pas des vedettes Rameau : leur choix doit
       permettre une exploration par une arborescence concentrée et structurée.
       Ce choix des développeurs de PMB est davantage à rapprocher d'une sorte
       de classification thématique à la logique arborescente proches de la CDU
@@ -453,13 +640,17 @@
 
       
 	  	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2>
-               <title lang="fr">Parcours et édition des catégories</title>
+    
+      <sect2>
+      
+         <title lang="fr">Parcours et édition des catégories</title>
       	  
 
-               <para lang="fr">Les catégories sont un moyen de ranger dans la base les ouvrages
+      
+         <para lang="fr">Les catégories sont un moyen de ranger dans la base les ouvrages
       et d'organiser les informations pour faciliter la recherche notamment
       pour les utilisateurs via l'OPAC.</para>
 	  
@@ -467,7 +658,8 @@
 	  
 	  	  
 
-               <para lang="fr">Le but est de regrouper les ouvrages dans une arborescence de
+      
+         <para lang="fr">Le but est de regrouper les ouvrages dans une arborescence de
       catégories et de sous-catégories. PMB vous est fourni avec une liste de
       catégories qui s'avérera efficace dans le cas d'un centre documentaire
       généraliste.</para>
@@ -476,7 +668,8 @@
 	  
 	  	  
 
-               <para lang="fr">Si vous gérez des ressources spécialisées, il vous faudra adapter
+      
+         <para lang="fr">Si vous gérez des ressources spécialisées, il vous faudra adapter
       ces catégories à votre usage, par exemple à votre thésaurus
       utilisé.</para>
 	  
@@ -484,16 +677,22 @@
 	  
 	  	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <figure>
-                         <title lang="fr">Autorités &gt; Catégories</title>
+          
+               <title lang="fr">Autorités &gt; Catégories</title>
 
-                         <mediaobject>
-                              <imageobject>
+          
+               <mediaobject>
+            
+                  <imageobject>
                      <imagedata fileref="images/aut_categ.gif" contentwidth="10cm"/>
                   </imageobject>
-                         </mediaobject>
-                    </figure>Pour parcourir cette arborescence, cliquez sur les icônes des
+          
+               </mediaobject>
+        
+            </figure>Pour parcourir cette arborescence, cliquez sur les icônes des
       dossiers pour les ouvrir. Un clic sur le nom de la catégorie entraîne sa
       sélection et donc l'ouverture d'un écran permettant la modification des
       informations.</para>
@@ -502,32 +701,42 @@
 
 	  
 
-               <para lang="fr">Vous pouvez spécifier différentes informations pour une catégorie
+      
+         <para lang="fr">Vous pouvez spécifier différentes informations pour une catégorie
       :</para>
 	  
       
 
 	  
 
-               <itemizedlist>
-                    <listitem>
-                         <para lang="fr">le <emphasis role="bold">libellé</emphasis> est
+      
+         <itemizedlist>
+        
+            <listitem>
+          
+               <para lang="fr">le <emphasis role="bold">libellé</emphasis> est
           obligatoire</para>
 		  
           
 		  		  
-                    </listitem>
+        
+            </listitem>
 
-                    <listitem>
-                         <para lang="fr">un <emphasis role="bold">commentaire</emphasis> peut être
+        
+            <listitem>
+          
+               <para lang="fr">un <emphasis role="bold">commentaire</emphasis> peut être
           ajouté</para>
 		  
           
 		  		  
-                    </listitem>
+        
+            </listitem>
 
-                    <listitem>
-                         <para lang="fr">si la catégorie est une sous-catégorie, le champ <emphasis role="bold">catégorie parente </emphasis> permet de sélectionner à
+        
+            <listitem>
+          
+               <para lang="fr">si la catégorie est une sous-catégorie, le champ <emphasis role="bold">catégorie parente </emphasis> permet de sélectionner à
           l'aide du bouton "..." la catégorie parente de cette sous-catégorie.
           Pour effacer une catégorie parente sélectionnée, cliquez sur le
           bouton "X"</para>
@@ -535,10 +744,13 @@
           
 		  
 		  		  
-                    </listitem>
+        
+            </listitem>
 
-                    <listitem>
-                         <para lang="fr">le <emphasis role="bold">renvoi voir </emphasis> permet
+        
+            <listitem>
+          
+               <para lang="fr">le <emphasis role="bold">renvoi voir </emphasis> permet
           d'établir une logique de renvoi par exemple entre deux
           sous-catégories portant le même libellé mais situées à différents
           endroits de l'arborescence, par exemple dans
@@ -548,10 +760,13 @@
 		  
           
 		  		  
-                    </listitem>
+        
+            </listitem>
 
-                    <listitem>
-                         <para lang="fr">le <emphasis role="bold">renvoi voir aussi </emphasis> 
+        
+            <listitem>
+          
+               <para lang="fr">le <emphasis role="bold">renvoi voir aussi </emphasis> 
           permet d'enrichir les catégories par une notion
           d'enchaînement d'idées. Par exemple, <emphasis>Rome</emphasis> peut
           renvoyer sur <emphasis>voix</emphasis> 
@@ -561,10 +776,13 @@
 		  
           
 		  		  
-                    </listitem>
-               </itemizedlist>
+        
+            </listitem>
+      
+         </itemizedlist>
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Supprimer</emphasis> permet de supprimer une
       catégorie. <emphasis role="bold">Attention</emphasis> une catégorie ne
       peut être supprimée que si elle n'est utilisée dans aucune
@@ -573,7 +791,8 @@
       
 	  	  
 
-               <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+      
+         <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
       savoir dans quels ouvrages est mentionnée la catégorie. Il lance une
       recherche dans l'onglet catalogue pour la catégorie correspondante. Ceci
       permet notamment de savoir pourquoi la suppression de cette catégorie
@@ -583,91 +802,126 @@
 
 	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Note</emphasis> : les boutons
       <emphasis>Supprimer</emphasis> et <emphasis>Utilisation</emphasis> ne
       sont pas visibles lors de la création d'une catégorie, mais uniquement
       lors de sa modification.</para>
 	  
       	  
-          </sect2>
-     </sect1>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="autorites_editeurs">
-          <title lang="fr">Éditeurs</title>
+  
+   <sect1 id="autorites_editeurs">
+    
+      <title lang="fr">Éditeurs</title>
     	
 
-          <sect2>
-               <title lang="fr">Rechercher et modifier un éditeur</title>
+    
+      <sect2>
+      
+         <title lang="fr">Rechercher et modifier un éditeur</title>
       	  
 
-               <para lang="fr">L'écran Éditeurs fonctionne avec la même logique que celui des
+      
+         <para lang="fr">L'écran Éditeurs fonctionne avec la même logique que celui des
       Auteurs.</para>
 
       
 
-               <para lang="fr">Pour rechercher un éditeur, saisissez une expression à rechercher
+      
+         <para lang="fr">Pour rechercher un éditeur, saisissez une expression à rechercher
       puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
       affiche par défaut l'ensemble des éditeurs de la base.</para>
 	  
       
 	  	  
 
-               <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir les derniers éditeurs créés</emphasis> pour afficher
+      
+         <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir les derniers éditeurs créés</emphasis> pour afficher
       les dix derniers éditeurs ajoutés dans la base.</para>
 	  
       
 	  	  
 
-               <figure>
-                    <title lang="fr">Autorités &gt; Éditeurs</title>
+      
+         <figure>
+        
+            <title lang="fr">Autorités &gt; Éditeurs</title>
         		
 		
 
-                    <mediaobject>
-                         <imageobject>
+        
+            <mediaobject>
+          
+               <imageobject>
                   <imagedata fileref="images/autorites_editeurs.gif" contentwidth="10cm"/>
                </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <figure>
-                    <title lang="fr">Autorités &gt; Éditeurs, édition d'un éditeur</title>
+      
+         <figure>
+        
+            <title lang="fr">Autorités &gt; Éditeurs, édition d'un éditeur</title>
         		
 
-                    <mediaobject>
-                         <imageobject>
+        
+            <mediaobject>
+          
+               <imageobject>
                   <imagedata fileref="images/autorites_editeurs_edit.gif" contentwidth="10cm"/>
                </imageobject>
-                    </mediaobject>
-               </figure>
+        
+            </mediaobject>
+      
+         </figure>
 
-               <para lang="fr">Différentes données peuvent être saisies pour un éditeur :</para>
+      
+         <para lang="fr">Différentes données peuvent être saisies pour un éditeur :</para>
       	  
 
-               <itemizedlist>
-                    <listitem>
-                         <para lang="fr">le nom de l'éditeur</para>
+      
+         <itemizedlist>
+        
+            <listitem>
+          
+               <para lang="fr">le nom de l'éditeur</para>
           		  
-                    </listitem>
+        
+            </listitem>
 
-                    <listitem>
-                         <para lang="fr">son adresse sur deux lignes, son code postal, sa ville et son
+        
+            <listitem>
+          
+               <para lang="fr">son adresse sur deux lignes, son code postal, sa ville et son
           pays. La ville d'édition est un élément souvent présent dans les
           bibliographies des publications. Précisez le pour chaque éditeur, si
           possible.</para>
 		  
           
 		  		  
-                    </listitem>
+        
+            </listitem>
 
-                    <listitem>
-                         <para lang="fr">le site web de l'éditeur</para>
+        
+            <listitem>
+          
+               <para lang="fr">le site web de l'éditeur</para>
           		  
-                    </listitem>
-               </itemizedlist>
+        
+            </listitem>
+      
+         </itemizedlist>
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Supprimer</emphasis> permet de supprimer un
       éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
       être supprimé que s'il n'est utilisé dans aucune notice.</para>
@@ -675,7 +929,8 @@
       
 	  	  
 
-               <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+      
+         <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
       savoir dans quels ouvrages est mentionné l'éditeur. Il lance une
       recherche dans l'onglet catalogue pour l'éditeur correspondant. Ceci
       permet notamment de savoir pourquoi la suppression de cet éditeur est
@@ -684,14 +939,16 @@
 	  
 	  	  
 
-               <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+      
+         <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
       remplacer un éditeur par un autre, pour éliminer des doublons mals
       orthographiés par exemple.</para>
 	  
       
 	  	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Note</emphasis> : les boutons
       <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
       <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
@@ -699,53 +956,66 @@
 	  
       
 	  	  
-          </sect2>
+    
+      </sect2>
 
-          <sect2>
-               <title lang="fr">Faciliter le catalogage : normaliser la saisie des
+    
+      <sect2>
+      
+         <title lang="fr">Faciliter le catalogage : normaliser la saisie des
       éditeurs</title>
 	  
       	  
 
 
-               <para lang="fr">S'il s'agit d'un nom tiré d'un nom de famille, lien de parenté
+      
+         <para lang="fr">S'il s'agit d'un nom tiré d'un nom de famille, lien de parenté
       etc. éliminer les mentions relatives à cette parenté.</para>
 	  
       
 	  	  
 
-               <para lang="fr">Si un sigle est utilisé, il faut le développer.</para>
+      
+         <para lang="fr">Si un sigle est utilisé, il faut le développer.</para>
       	  
 
-               <para lang="fr">
+      
+         <para lang="fr">
             <emphasis role="bold">Exemple</emphasis> PUL sera saisi Presses
       Universitaires Lyonnaises.</para>
 	  
       
 	  
 
-               <para lang="fr">Pour faciliter la recherche vous pouvez accoler le sigle entre
+      
+         <para lang="fr">Pour faciliter la recherche vous pouvez accoler le sigle entre
       parenthèses au sigle développé, cependant ceci ne correspond pas aux
       normes AFNOR. Pour notre exemple, on obtient alors : Presses
       Universitaires Lyonnaises (PUL).</para>
 	  
       
 	  	  
-          </sect2>
-     </sect1>
+    
+      </sect2>
+  
+   </sect1>
 
-     <sect1 id="autorites_coll">
-          <title lang="fr">Collections</title>
+  
+   <sect1 id="autorites_coll">
+    
+      <title lang="fr">Collections</title>
     	
 
-          <para lang="fr">Une collection est un ensemble d'ouvrages édités par un même
+    
+      <para lang="fr">Une collection est un ensemble d'ouvrages édités par un même
     éditeur, dont l'auteur peut être différent ou identique, et rassemblés
     sous un même nom de collection.</para>
 	
     
 		
 
-          <para lang="fr">Vous pouvez cliquer sur le lien <emphasis role="bold">Voir les
+    
+      <para lang="fr">Vous pouvez cliquer sur le lien <emphasis role="bold">Voir les
     dernières collections créées</emphasis> pour afficher les dix dernières
     collections ajoutées dans la base.</para>
 	
@@ -753,67 +1023,93 @@
 	
 		
 
-          <para lang="fr">Dans PMB, vous aurez toujours besoin d'un éditeur saisi en tant
+    
+      <para lang="fr">Dans PMB, vous aurez toujours besoin d'un éditeur saisi en tant
     qu'autorité pour définir une collection.</para>
 	
     
 		
 
-          <figure>
-               <title lang="fr">Autorités &gt; Collections</title>
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Collections</title>
       	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/aut_coll.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <figure>
-               <title lang="fr">Autorités &gt; Collections, édition d'une collection</title>
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Collections, édition d'une collection</title>
       	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/autorites_collections_edit.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">Différentes données peuvent être saisies pour une collection
+    
+      <para lang="fr">Différentes données peuvent être saisies pour une collection
     :</para>
 	
     
 		
 
-          <itemizedlist>
-               <listitem>
-                    <para lang="fr">le <emphasis role="bold">nom</emphasis> de la collection</para>
+    
+      <itemizedlist>
+      
+         <listitem>
+        
+            <para lang="fr">le <emphasis role="bold">nom</emphasis> de la collection</para>
 				
-               </listitem>
+      
+         </listitem>
 	  
 
-               <listitem>
-                    <para lang="fr">un <emphasis role="bold">ISSN</emphasis>, si la collection a un
+      
+         <listitem>
+        
+            <para lang="fr">un <emphasis role="bold">ISSN</emphasis>, si la collection a un
         ISSN attribué</para>
 		
         
 				
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">pour toute collection, un <emphasis role="bold">éditeur</emphasis> doit être spécifié. Pour sélectionner
+      
+         <listitem>
+        
+            <para lang="fr">pour toute collection, un <emphasis role="bold">éditeur</emphasis> doit être spécifié. Pour sélectionner
         un éditeur, cliquez sur le bouton "..." et choisissez un éditeur dans
         le popup. Pour effacer un éditeur déjà attribué, cliquez sur le bouton
         "X".</para>
 		
         
 				
-               </listitem>
-          </itemizedlist>
+      
+         </listitem>
+    
+      </itemizedlist>
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Supprimer</emphasis> permet de supprimer un
     éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
     être supprimé que s'il n'est utilisé dans aucune notice.</para>
@@ -822,7 +1118,8 @@
 	
 		
 
-          <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+    
+      <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
     savoir dans quels ouvrages est mentionné l'éditeur. Il lance une recherche
     dans l'onglet catalogue pour l'éditeur correspondant. Ceci permet
     notamment de savoir pourquoi la suppression de cet éditeur est
@@ -832,7 +1129,8 @@
 	
 		
 
-          <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    
+      <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer un éditeur par un autre, pour éliminer des doublons mals
     orthographiés par exemple.</para>
 	
@@ -840,7 +1138,8 @@
 	
 		
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
     <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
@@ -849,17 +1148,22 @@
     
 	
 		
-     </sect1>
+  
+   </sect1>
 
-     <sect1 id="autorites_subcoll">
-          <title lang="fr">Sous-collections</title>
+  
+   <sect1 id="autorites_subcoll">
+    
+      <title lang="fr">Sous-collections</title>
     	
 
-          <para lang="fr">Une sous-collection est une sous-division d'une collection.</para>
+    
+      <para lang="fr">Une sous-collection est une sous-division d'une collection.</para>
     	
 
 
-          <para lang="fr">Depuis cet écran vous pouvez rechercher une collection en saisissant
+    
+      <para lang="fr">Depuis cet écran vous pouvez rechercher une collection en saisissant
     une expression puis en cliquant sur
     <emphasis>Rechercher</emphasis>.</para>
 	
@@ -867,14 +1171,16 @@
 	
 		
 
-          <para lang="fr">Vous pouvez également parcourir les collections. L'ensemble des
+    
+      <para lang="fr">Vous pouvez également parcourir les collections. L'ensemble des
     collections est affiché par défaut sur cet écran.</para>
 	
     
 	
 		
 
-          <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
+    
+      <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
     les dernières sous-collections créées</emphasis> pour afficher les dix
     dernières sous-collections ajoutées dans la base.</para>
 	
@@ -882,59 +1188,82 @@
 	
 		
 
-          <figure>
-               <title lang="fr">Autorités &gt; Sous-collections</title>
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Sous-collections</title>
       	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/aut_subcoll.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">Le résultat affiché présente d'abord le nom de la sous-collection,
+    
+      <para lang="fr">Le résultat affiché présente d'abord le nom de la sous-collection,
     puis entre parenthèses le nom de la collection "mère" et l'éditeur.</para>
 	
     
 		
 
-          <figure>
-               <title lang="fr">Autorités &gt; Sous-collections, édition d'une
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Sous-collections, édition d'une
       sous-collection</title>
 	  
       
 	  	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/aut_subcoll_edit.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">Différentes données peuvent être saisies pour une sous-collection
+    
+      <para lang="fr">Différentes données peuvent être saisies pour une sous-collection
     :</para>
     	
 
-          <itemizedlist>
-               <listitem>
-                    <para lang="fr">le <emphasis role="bold">nom</emphasis> de la
+    
+      <itemizedlist>
+      
+         <listitem>
+        
+            <para lang="fr">le <emphasis role="bold">nom</emphasis> de la
         sous-collection</para>
 		
         		
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">un <emphasis role="bold">ISSN</emphasis>, si la sous-collection
+      
+         <listitem>
+        
+            <para lang="fr">un <emphasis role="bold">ISSN</emphasis>, si la sous-collection
         a un ISSN attribué</para>
 		
         
 				
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">pour toute sous-collection, une collection "mère" (<emphasis role="bold">sous-collection de...</emphasis>) doit être spécifiée. Pour
+      
+         <listitem>
+        
+            <para lang="fr">pour toute sous-collection, une collection "mère" (<emphasis role="bold">sous-collection de...</emphasis>) doit être spécifiée. Pour
         sélectionner une collection, cliquez sur le bouton "..." et choisissez
         une collection dans le popup. Pour effacer une collection déjà
         attribuée, cliquez sur le bouton "X".</para>
@@ -942,10 +1271,13 @@
         
 
 		
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">vous pouvez consulter <emphasis role="bold">l'éditeur</emphasis> 
+      
+         <listitem>
+        
+            <para lang="fr">vous pouvez consulter <emphasis role="bold">l'éditeur</emphasis> 
         de la collection "mère". Ce champ n'est pas modifiable. Pour changer
         l'éditeur d'une collection, passez par Autorités &gt;
         Collections.</para>
@@ -953,10 +1285,13 @@
         
 
 		
-               </listitem>
-          </itemizedlist>
+      
+         </listitem>
+    
+      </itemizedlist>
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Supprimer</emphasis> permet de supprimer un
     éditeur. <emphasis role="bold">Attention</emphasis> un éditeur ne peut
     être supprimé que s'il n'est utilisé dans aucune notice.</para>
@@ -965,7 +1300,8 @@
 
 	
 
-          <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+    
+      <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
     savoir dans quels ouvrages est mentionné l'éditeur. Il lance une recherche
     dans l'onglet catalogue pour l'éditeur correspondant. Ceci permet
     notamment de savoir pourquoi la suppression de cet éditeur est
@@ -975,7 +1311,8 @@
 		
 
 
-          <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    
+      <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer un éditeur par un autre, pour éliminer des doublons mals
     orthographiés par exemple.</para>
 	
@@ -983,7 +1320,8 @@
 	
 		
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
     <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
@@ -994,13 +1332,17 @@
 
 
 	
-     </sect1>
+  
+   </sect1>
 
-     <sect1 id="autorites_series">
-          <title lang="fr">Titres de série</title>
+  
+   <sect1 id="autorites_series">
+    
+      <title lang="fr">Titres de série</title>
     	
 
-          <para lang="fr">Un <emphasis role="bold">titre de série</emphasis> désigne un
+    
+      <para lang="fr">Un <emphasis role="bold">titre de série</emphasis> désigne un
     ensemble d'ouvrages distincts d'un même auteur, par exemple <emphasis role="bold">Les aventures de Tintin</emphasis> d'Hergé. Pour plus
     d'informations, consulter la Section 6 : Catalogage, rubrique : normaliser
     le catalogage.</para>
@@ -1008,7 +1350,8 @@
     	
 
 
-          <para lang="fr">Pour rechercher un titre de série, saisissez une expression à rechercher
+    
+      <para lang="fr">Pour rechercher un titre de série, saisissez une expression à rechercher
     puis cliquez sur <emphasis role="bold">Rechercher</emphasis>. L'écran
     affiche par défaut l'ensemble des éditeurs de la base.</para>
 	
@@ -1016,7 +1359,8 @@
 	
 		
 
-          <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
+    
+      <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
     les derniers titres de série créés</emphasis> pour afficher les dix
     derniers titres de séries ajoutés dans la base.</para>
 	
@@ -1024,32 +1368,45 @@
 	
 		
 
-          <figure>
-               <title lang="fr">Autorités &gt; Titres de Séries</title>
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Titres de Séries</title>
       	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/aut_series.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <figure>
-               <title lang="fr">Autorités &gt; Titres de Séries, édition d'un titre de
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Titres de Séries, édition d'un titre de
       série</title>
 	  
       
 	  	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/aut_series_edit.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Supprimer</emphasis> permet de supprimer un
     titre de série. <emphasis role="bold">Attention</emphasis> un titre de
     série ne peut être supprimé que s'il n'est utilisé dans aucune
@@ -1057,14 +1414,16 @@
 	
     
 		
-          <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    
+      <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer un titre de série par un autre, pour éliminer des doublons mals
     orthographiés par exemple.</para>
 	
     
 		
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis> et <emphasis>Remplacer par</emphasis> ne
     sont pas visibles lors de la création d'un titre de série, mais uniquement
@@ -1073,13 +1432,17 @@
     
 
 	
-     </sect1>
+  
+   </sect1>
 
-     <sect1 id="autorites_indexint">
-          <title lang="fr">Index. décimale</title>
+  
+   <sect1 id="autorites_indexint">
+    
+      <title lang="fr">Index. décimale</title>
     	
 
-          <para lang="fr">PMB gère des indexations décimales qui vous permettent de
+    
+      <para lang="fr">PMB gère des indexations décimales qui vous permettent de
     personnaliser l'indexation de vos ouvrages. Pour plus d'informations sur
     les indexations décimales fournies avec PMB, consulter le Chapitre
     <emphasis>Catégories et classifications préinstallées avec
@@ -1089,7 +1452,8 @@
 	
 		
 
-          <para lang="fr">Pour rechercher une indexation, saisissez une expression à
+    
+      <para lang="fr">Pour rechercher une indexation, saisissez une expression à
     rechercher puis cliquez sur <emphasis role="bold">Rechercher</emphasis>.
     L'écran affiche par défaut l'ensemble des indexations de la base. Cette
     recherche porte à la fois sur l'indexation (110) et son intitulé
@@ -1099,53 +1463,76 @@
 	
 		
 
-          <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
+    
+      <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis role="bold">Voir
     les dernières indexations créées</emphasis> pour afficher les dix
     dernières indexations ajoutées dans la base.</para>
 	
     
 		
 
-          <figure>
-               <title lang="fr">Autorités &gt; Indexations</title>
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Indexations</title>
       	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/aut_index.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <figure>
-               <title lang="fr">Autorités &gt; Indexations, édition d'une indexation</title>
+    
+      <figure>
+      
+         <title lang="fr">Autorités &gt; Indexations, édition d'une indexation</title>
 	  
       
 	  
 
-               <mediaobject>
-                    <imageobject>
+      
+         <mediaobject>
+        
+            <imageobject>
                <imagedata fileref="images/aut_index_edit.gif" contentwidth="10cm"/>
             </imageobject>
-               </mediaobject>
-          </figure>
+      
+         </mediaobject>
+    
+      </figure>
 
-          <para lang="fr">Pour une indexation vous pouvez définir :</para>
+    
+      <para lang="fr">Pour une indexation vous pouvez définir :</para>
     	
 
-          <itemizedlist>
-               <listitem>
-                    <para lang="fr">un nom (obligatoire)</para>
+    
+      <itemizedlist>
+      
+         <listitem>
+        
+            <para lang="fr">un nom (obligatoire)</para>
         		
-               </listitem>
+      
+         </listitem>
 
-               <listitem>
-                    <para lang="fr">un commentaire</para>
+      
+         <listitem>
+        
+            <para lang="fr">un commentaire</para>
         		
-               </listitem>
-          </itemizedlist>
+      
+         </listitem>
+    
+      </itemizedlist>
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Supprimer</emphasis> permet de supprimer une
     indexation. <emphasis role="bold">Attention</emphasis> une indexation ne
     peut être supprimée que si elle n'est utilisée dans aucune notice.</para>
@@ -1154,7 +1541,8 @@
 	
 		
 
-          <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
+    
+      <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis> permet de
     savoir dans quels ouvrages est mentionné l'indexation. Il lance une
     recherche dans l'onglet catalogue pour l'indexation correspondante. Ceci
     permet notamment de savoir pourquoi sa suppression est impossible.</para>
@@ -1163,14 +1551,16 @@
 	
 		
 
-          <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
+    
+      <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis> permet de
     remplacer une indexation par une autre.</para>
 	
     
 
 	
 
-          <para lang="fr">
+    
+      <para lang="fr">
          <emphasis role="bold">Note</emphasis> : les boutons
     <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
     <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
@@ -1178,5 +1568,6 @@
 	
     
 		
-     </sect1>
+  
+   </sect1>
 </chapter>
