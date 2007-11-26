@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<!-- $Id: pmb_fr_profile-chunck.xsl,v 1.1 2007/11/26 21:58:38 gautier Exp $ -->
+<!-- $Id: pmb_fr_profile-chunck.xsl,v 1.2 2007/11/26 22:33:07 gautier Exp $ -->
 
-<!-- HTML Stylesheet for e-smith DocBook XML documents -->
+<!-- Feuille de style personnalisée pour PMB - Gautier Michelin -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="1.0">
@@ -31,6 +31,9 @@
  section   nop
  set       toc
  </xsl:param>
+
+<!-- niveau de détail de la table des matières -->
+<xsl:param name="toc.section.depth" select="1"></xsl:param>
 
 <!-- boutons de navigation en images -->
 
