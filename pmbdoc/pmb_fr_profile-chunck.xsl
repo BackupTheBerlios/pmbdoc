@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<!-- $Id: pmb_fr_profile-chunck.xsl,v 1.2 2007/11/26 22:33:07 gautier Exp $ -->
+<!-- $Id: pmb_fr_profile-chunck.xsl,v 1.3 2007/11/26 22:39:24 gautier Exp $ -->
 
 <!-- Feuille de style personnalisée pour PMB - Gautier Michelin -->
 
