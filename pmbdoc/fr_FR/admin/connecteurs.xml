@@ -2,17 +2,39 @@
 <chapter>
   <title>Connecteurs</title>
 
-  <para></para>
-
   <sect1>
     <title>Connecteurs entrants</title>
 
-    <para></para>
+    <para>Il existe deux types de connecteurs entrants dans PMB : des
+    connecteurs sur des entrepôts, des connecteurs en recherche
+    directe.</para>
+
+    <para>Les connecteurs sur un entrepôt nécessitent une synchronisation pour
+    un rapatriement en local de la globalité des données disponibles. La
+    synchronisation devra être faite régulièrement pour rapatrier les
+    nouveautés disponibles. C'est le principe d'un moissonnage OAI : tout ce
+    qui est plus récent que la date de dernière synchronisation est rapatrié,
+    on pourraît dire moissonné.</para>
+
+    <para>Les connecteurs en recherche directe permettent la translittération
+    d'une recherche multicritère dans une base distante, les données
+    correspondantes sont ensuite rapatriées et converties dans un réservoir
+    local d'où sont puisées les données pour l'affichage. De cette manière PMB
+    dispose d'un cache des informations, une recherche directe est valable un
+    temps défini par le paramétrage pendant lequel les données seront
+    directement puisées dans le cache. </para>
+
+    <para>Pour les connecteurs sur entrepôt, toutes les notices disponibles
+    correspondant au connecteur sont rapatriées.</para>
+
+    <para>Pour les connecteurs en recherche directe, seules les notices
+    correspondant aux recherches lancées sont rapatriées et conservées pendant
+    une durée de validité définie.</para>
 
     <sect2>
       <title>Interrogation Z39.50</title>
 
-      <para>en cours de développement</para>
+      <para></para>
     </sect2>
 
     <sect2>
@@ -24,71 +46,182 @@
     <sect2>
       <title>Moissonnage d'un entrepôt OAI</title>
 
-      <para>"L'Open Archives Initiative (initiative pour des archives
-      ouvertes), généralement abrégée en OAI est un projet qui vise à
-      faciliter l'échange et la valorisation d'archives numériques. Elle
-      permet à des fournisseurs de services de moissonner des métadonnées sur
-      les sites de fournisseurs de données. Il est ainsi possible d'utiliser
-      un protocole OAI pour créer un outil de recherche simultanée dans
-      plusieurs catalogues de bibliothèques." (Wikipedia)</para>
-
-      <para>"L'OAI-PMH (Open Archives Initiative’s Protocol for Metadata
-      Harvesting) ou protocole OAI facilite l’échange de données entre des
-      fournisseurs de données (par exemple des bibliothèques ou des musées...)
-      et un fournisseur de service (qui peut être aussi une bibliothèque, un
-      centre de documentation, un portail thématique ou local désirant
-      rassembler des données). </para>
-
-      <para>Ce protocole d’échange permet de créer, d’alimenter et de tenir à
-      jour, par des procédures automatisées, des réservoirs d’enregistrements
-      qui signalent, décrivent et rendent accessibles des documents, sans les
-      dupliquer ni modifier leur localisation d’origine. </para>
-
-      <para>Grâce au protocole OAI, une bibliothèque agissant en tant que
-      fournisseur de données a la possibilité d’offrir une visibilité accrue à
-      ses documents, notamment à ses publications électroniques ou à ses fonds
-      spécialisés. </para>
-
-      <para>Réciproquement, en tant que fournisseur de service, une
-      bibliothèque peut réaliser une base de données ou un portail
-      documentaire dans son domaine de spécialité ou sur un thème quelconque,
-      en collectant les données descriptives de ressources et documents de
-      tous types, accessibles sur l’Internet dans des entrepôts OAI. </para>
-
-      <para>Enfin, le protocole OAI permet de faire communiquer entre elles
-      des bases de données diverses et hétérogènes, et donc de réaliser des
-      partenariats entre plusieurs établissements que rapprochent leurs
-      collections (complémentarité des fonds) ou leurs publics (services
-      culturels d’une même collectivité)." (François NAWROCKI, Ministère de la
-      Culture et de la Communication)</para>
-
-      <para>Pour plus d'informations, vous pouvez consulter :</para>
-
-      <itemizedlist>
-        <listitem>
-          <para><ulink
-          url="http://www.culture.gouv.fr/culture/dll/OAI-PMH.htm">Le
-          protocole OAI et ses usages en bibliothèque</ulink>, François
-          Nawrocki, Ministère de la Culture (France), 2005.</para>
-        </listitem>
-
-        <listitem>
-          <para><ulink
-          url="http://fr.wikipedia.org/wiki/Open_Archives_Initiative">Open
-          Archive Initiatives</ulink>, Wikipedia.</para>
-        </listitem>
-      </itemizedlist>
-
       <sect3>
         <title>Définition</title>
 
-        <para></para>
+        <para>"L'Open Archives Initiative (initiative pour des archives
+        ouvertes), généralement abrégée en OAI est un projet qui vise à
+        faciliter l'échange et la valorisation d'archives numériques. Elle
+        permet à des fournisseurs de services de moissonner des métadonnées
+        sur les sites de fournisseurs de données. Il est ainsi possible
+        d'utiliser un protocole OAI pour créer un outil de recherche
+        simultanée dans plusieurs catalogues de bibliothèques."
+        (Wikipedia)</para>
+
+        <para>"L'OAI-PMH (Open Archives Initiative’s Protocol for Metadata
+        Harvesting) ou protocole OAI facilite l’échange de données entre des
+        fournisseurs de données (par exemple des bibliothèques ou des
+        musées...) et un fournisseur de service (qui peut être aussi une
+        bibliothèque, un centre de documentation, un portail thématique ou
+        local désirant rassembler des données).</para>
+
+        <para>Ce protocole d’échange permet de créer, d’alimenter et de tenir
+        à jour, par des procédures automatisées, des réservoirs
+        d’enregistrements qui signalent, décrivent et rendent accessibles des
+        documents, sans les dupliquer ni modifier leur localisation
+        d’origine.</para>
+
+        <para>Grâce au protocole OAI, une bibliothèque agissant en tant que
+        fournisseur de données a la possibilité d’offrir une visibilité accrue
+        à ses documents, notamment à ses publications électroniques ou à ses
+        fonds spécialisés.</para>
+
+        <para>Réciproquement, en tant que fournisseur de service, une
+        bibliothèque peut réaliser une base de données ou un portail
+        documentaire dans son domaine de spécialité ou sur un thème
+        quelconque, en collectant les données descriptives de ressources et
+        documents de tous types, accessibles sur l’Internet dans des entrepôts
+        OAI.</para>
+
+        <para>Enfin, le protocole OAI permet de faire communiquer entre elles
+        des bases de données diverses et hétérogènes, et donc de réaliser des
+        partenariats entre plusieurs établissements que rapprochent leurs
+        collections (complémentarité des fonds) ou leurs publics (services
+        culturels d’une même collectivité)." (François NAWROCKI, Ministère de
+        la Culture et de la Communication)</para>
+
+        <para>Pour plus d'informations, vous pouvez consulter :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para><ulink
+            url="http://www.culture.gouv.fr/culture/dll/OAI-PMH.htm">Le
+            protocole OAI et ses usages en bibliothèque</ulink>, François
+            Nawrocki, Ministère de la Culture (France), 2005.</para>
+          </listitem>
+
+          <listitem>
+            <para><ulink
+            url="http://fr.wikipedia.org/wiki/Open_Archives_Initiative">Open
+            Archive Initiatives</ulink>, Wikipedia.</para>
+          </listitem>
+        </itemizedlist>
       </sect3>
 
       <sect3>
         <title>Ajouter un entrepôt</title>
 
         <para></para>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_aws_prop.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_in.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_in2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_in3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_oai_cairn1.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_oai_cairn2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_oai_cairn_added.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_oai_cairn_filled.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_oai_cairn_formats.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_oai_new_cairn.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <figure>
+          <title></title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_set_selected.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
       </sect3>
 
       <sect3>
@@ -100,20 +233,105 @@
       <sect3>
         <title>Synchroniser</title>
 
-        <para></para>
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_sync.gif" />
+            </imageobject>
+          </inlinemediaobject> Cliquez enfin sur synchroniser à droite du nom
+        de votre source de données OAI pour moissonner votre dépôt et
+        rapatrier des notices en local.</para>
+
+        <para>Vous verrez apparaître un écran de progression de la
+        synchronisation. </para>
+
+        <para>Attention, pour vous afficher une progression, PMB se base sur
+        les informations fournies par le dépôt OAI. Si celui-ci ne fournit pas
+        d'informations sur le nombre de notices qu'il contient, la progression
+        n'aura pas d'étapes et passera de 0 à 100% sans transition.</para>
+
+        <para>Si vous synchroniser une source basée sur 4 sets OAI, la barre
+        sera découpée en 4 parts successives. La quantité de notices
+        retournées par chaque set peut varier fortement, la progression sera
+        plus lente de 51% à 75% si le troisième set renvoie beaucoup plus de
+        notices.</para>
+
+        <figure>
+          <title>Synchroniser d'une source utilisant le connecteur externe
+          OAI, barre de progression</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/admin_conn_sync3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
       </sect3>
     </sect2>
 
     <sect2>
       <title>AWS ECommerce Service</title>
 
-      <para></para>
+      <para>Le connecteur AWS ECommerce Service permet d'ajouter parmi vos
+      sources externes des sources issues du catalogue du site web marchand
+      Amazon.</para>
+
+      <figure>
+        <title>Propriété d'une source du connecteur Amazon</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_conn_aws_conn1.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Pour ajouter une nouvelle source au connecteur entrant AWS,
+      cliquez sur le bouton Ajouter une source depuis la liste des connecteurs
+      entrants.</para>
+
+      <para>Définissez un <emphasis role="bold">nom</emphasis> à votre source,
+      par exemple "DVD Amazon.com".</para>
+
+      <para>Vous pouvez ajouter à votre source une <emphasis
+      role="bold">description</emphasis>. Préférez une description courte,
+      elle sera reprise dans tous les écrans de recherche.</para>
+
+      <para>Vous pouvez définir un <emphasis role="bold">time-out</emphasis> à
+      votre source, 5 est la valeur par défaut. Selon votre vitesse de
+      connexion et vos essais quant à la vitesse de réponse d'Amazon, vous
+      pouvez souhaiter augmenter cette valeur. Effectuez des tests pour
+      l'établir.</para>
+
+      <para>Le <emphasis role="bold">nombre d'essais</emphasis> sera le nombre
+      de tentatives que le connecteur effectuera pour réaliser la recherche
+      sur le serveur Amazon. Si la recherche n'aboutit pas, aucun résultat ne
+      sera renvoyé.</para>
+
+      <para>Les résultats rapatriés resteront valides si la même question est
+      fournie pendant une <emphasis role="bold">durée de validité</emphasis>,
+      ici 1800 secondes, soit 30 minutes.</para>
+
+      <para>Choisissez le <emphasis role="bold">site</emphasis> Amazon
+      concerné par cette source parmi Amazon US, UK, DE, JP, FR, CA.</para>
+
+      <para>Le <emphasis role="bold">format de réponse</emphasis> correspond à
+      la qualité de la notice retournée. Selon la qualité de la notice et la
+      conversion programmée dans le connecteur, seulement une partie des
+      données pourrait être importée, réalisez des tests d'imports pour faire
+      votre choix dans les formats de réponse.</para>
+
+      <para>"<emphasis role="bold">Rechercher dans</emphasis>" vous permet de
+      spécifier dans quelle partie du catalogue Amazon vous voulez réaliser
+      votre recherche.</para>
     </sect2>
   </sect1>
 
   <sect1>
     <title>Connecteurs sortants</title>
 
-    <para>En cours de développement</para>
+    <para>Les connecteurs sortants permettent à votre base de données
+    documentaire d'être interrogé depuis une autre installation de PMB, un
+    autre logiciel de la même manière que vous pouvez vous interroger des
+    sources externes avec des connecteurs entrants.</para>
   </sect1>
 </chapter>
