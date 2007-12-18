@@ -15,6 +15,7 @@
 <!ENTITY __chap7_conversion SYSTEM "chap7_conversion.xml">
 <!ENTITY __chap8_outils SYSTEM "chap8_outils.xml">
 <!ENTITY __chap9_z3950 SYSTEM "chap9_z3950.xml">
+<!ENTITY __connecteurs SYSTEM "../fr_FR/admin/connecteurs.xml">
 <!ENTITY __chap10_sauvegardes SYSTEM "chap10_sauvegardes.xml">
 <!ENTITY __chap11_acquisitions SYSTEM "chap11_acquisitions.xml">
 <!ENTITY __chap99_postface SYSTEM "chap99_postface.xml">
@@ -198,11 +199,13 @@
 
   &__chap7_conversion;
 
-<!--  &__chap8_outils; -->
+  &__chap8_outils; 
 
   &__chap9_z3950;
 
   &__chap10_sauvegardes;
+
+  &__connecteurs;
 
   &__chap11_acquisitions;
 	
