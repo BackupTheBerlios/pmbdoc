@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title lang="fr">Windows</title>
+
+  <sect1 id="installation_manuelle">
+    <title lang="fr">Installation manuelle</title>
+
+    <sect2>
+      <title lang="fr">Avec EasyPHP</title>
+
+      <para lang="fr">Pour utiliser PMB, il est nécessaire d'avoir un serveur
+      utilisant le langage Php et la base de données Mysql. EasyPHP permet
+      d'installer en une seule installation tout ce qu'il faut pour
+      transformer votre PC sous Windows en serveur web.</para>
+
+      <sect3>
+        <title lang="fr">Ce dont nous avons besoin</title>
+
+        <para lang="fr">Vous devez télécharger deux choses.</para>
+
+        <orderedlist>
+          <listitem>
+            <para lang="fr"><emphasis role="bold">EasyPHP</emphasis>. Pour
+            télécharger ce logiciel, rendez vous ici : <ulink
+            url="http://www.easyphp.org/telechargements.php3">www.easyphp.org/telechargements.php3</ulink></para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr"><emphasis role="bold">PMB</emphasis>. Vous
+            trouverez la dernière version de l'application à l'adresse :
+            <ulink
+            url="http://www.sigb.net/index_logiciel.php">www.sigb.net/index_logiciel.php</ulink>.</para>
+          </listitem>
+        </orderedlist>
+
+        <para lang="fr">Après téléchargement, vous devez avoir un fichier
+        <emphasis>easyphp-setup.exe</emphasis> ainsi qu'un fichier
+        <emphasis>pmb-xxxx.zip</emphasis> (<emphasis>xxxx</emphasis>
+        correspond au numéro de version).</para>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Installation d'EasyPHP</title>
+
+        <para lang="fr">Double cliquez sur le fichier téléchargé. Cliquez sur
+        OK. Puis «Suivant». Cochez «Je comprends et j'accepte les termes du
+        contrat de licence», acceptez l'installation dans Program Files.
+        </para>
+
+        <para>Quelques «Suivant» plus tard, le logiciel vous propose
+        «Installer» . Enfin, lorsque l'installation est terminée, on vous
+        proposera peut-être de mettre à jour deux fichiers un .txt et un .exe.
+        Vous dites OK et puis Terminer. </para>
+
+        <para>Démarrez ensuite EasyPHP (Démarrer, Programmes, EasyPhp).
+        Profitez-en pour mettre l'icône sur le bureau. Lorsque EasyPhp est
+        démarré, une petite icône se met dans la barre des tâches (près de
+        l'heure) et le carré rouge clignote.</para>
+
+        <figure>
+          <title lang="fr">icône d'EasyPHP à coté de l'horloge</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/icone_easyphp.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Quelques paramétrages d'EasyPHP</title>
+
+        <para>Cliquez avec le bouton de la souris sur l'icône d'EasyPhp dans
+        la barre des tâches, Menu Configuration, Easyphp , une fenêtre
+        s'ouvre. Vous pouvez cocher la première ligne : «Démarrer EasyPhp en
+        même temps que Windows», Appliquer puis Fermer.</para>
+
+        <para><emphasis role="bold">Les extensions php </emphasis></para>
+
+        <para>Pour pouvoir utiliser la norme Z3950, vous devez installer
+        quelques extensions pour PHP. Clic droit sur l'icône d'EasyPhp dans la
+        barre des tâches. Menu Configuration Extensions PHP Cochez «php_bz2»,
+        «php_curl», «php_gd2», «php_mimemagic»,«php_xslt»,«php_yaz», puis
+        cliquez sur Appliquer, Fermer. </para>
+
+        <para><emphasis role="bold">Pour un fonctionnement optimal de
+        PMB</emphasis>, il y a quelques paramètres à modifier dans le fichier
+        php.ini Pour atteindre ce fichier Clic droit sur Easyphp en bas à
+        droite de votre écran, puis Configuration, PHP Il faut alors
+        rechercher dans le fichier les lignes suivantes et donner les valeurs
+        indiquées ci-dessous : (dans PHP.ini vous pouvez utiliser Edition,
+        rechercher en faisant un copier-coller des débuts de ligne ci-dessous
+        et Suivant) </para>
+
+        <para>max_execution_time = 300 ; Maximum execution time of each
+        script, in seconds </para>
+
+        <para>memory_limit = 45M ; Maximum amount of memory a script may
+        consume (8MB) </para>
+
+        <para>post_max_size = 45M </para>
+
+        <para>upload_max_filesize = 45M.</para>
+
+        <para><emphasis role="bold">Pour mettre le logiciel à disposition sur
+        l'ensemble du réseau local</emphasis> avec la version actuelle de
+        easyphp 1.8 il faut faire une petite opération : clic droit sur
+        Easyphp, configuration, apache. Menu édition, rechercher, tapez le mot
+        listen. Faire suivant jusqu'à la ligne : </para>
+
+        <para>Listen 127.0.0.1:80 </para>
+
+        <para>Ecrire la lettre dièse # (Alt Gr + 3) devant cette ligne pour
+        obtenir : </para>
+
+        <para>#Listen 127.0.0.1:80 </para>
+
+        <para>Il faut ensuite connaître le nom du poste où se trouve PMB et
+        l'indiquer comme adresse web sur les autres ordinateurs du réseau pour
+        qu'ils puissent trouver le logiciel. Pour trouver le nom : Clic droit
+        sur Poste de travail, Propriétés, Nom de l'ordinateur. Avec par
+        exemple «bibliotheque-1», sur les autres postes il faut utiliser
+        l'adresse : http://bibliotheque-1. Vous trouvez PMB. Quand vous avez
+        ouvert l'OPAC sur un de ces postes, vous pouvez choisir ensuite
+        l'adresse de l'OPAC comme page de démarrage...</para>
+
+        <para><important>
+            <para><itemizedlist>
+                <listitem>
+                  <para>Si EasyPHP n’est pas démarré, les utilisateurs de
+                  l’intranet n’auront pas accès à PMB ni à l'opac. Il s’agit
+                  du serveur web. </para>
+                </listitem>
+
+                <listitem>
+                  <para>Il n’est pas nécessaire d'installer EasyPHP et/ou PMB
+                  sur les autres ordinateurs puisque la mise à jour des
+                  données peut se faire de n’importe où.</para>
+                </listitem>
+
+                <listitem>
+                  <para>Si un des ordinateurs peut rester allumer jour et
+                  nuit, vous avez intérêt à l’installer sur ce poste. </para>
+                </listitem>
+              </itemizedlist></para>
+          </important></para>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Installation des fichiers de PMB</title>
+
+        <para lang="fr">Pour télécharger PMB, vous devez vous rendre à
+        l'adresse http://www.sigb.net. Après avoir renseigné le formulaire,
+        vous pouvez démarrer le téléchargement. Une fois le téléchargement
+        terminé, double cliquez sur le fichier (vous devez avoir un logiciel
+        de décompression comme 7zip, Winzip, PowerArchiver...). Décompressez
+        l'archive (extraire) dans le dossier www de Easyphp . Par exemple :
+        C:\program files\EasyPHP1- 8\www.</para>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Installer PMB</title>
+
+        <para lang="fr">En cliquant avec le bouton droit de votre souris sur
+        l'icône d'EasyPhp (barre des tâches), vous avez accès au «Web local».
+        Affichez la page. </para>
+
+        <para>Vous obtenez la liste des «Répertoire(s) à la racine du serveur
+        (www)» Normalement, vous n'avez que le répertoire pmb (sauf dans le
+        cas où vous auriez déjà installé EasyPhp précédemment, comme pour un
+        intranet avec Spip). Cliquez sur le dossier pmb. Vous obtenez un
+        message d'erreur. Cliquez sur le lien : <ulink
+        url="???">./tables/install.php</ulink> </para>
+
+        <para>Choisissez votre langue : Français.</para>
+
+        <para lang="fr">Vous vous retrouvez sur la page de paramétrages de
+        l'installation de PMB. </para>
+
+        <para>Ici, nous choisirons d'installer PMB avec certaines données
+        comme des notices, des utilisateurs... pour pouvoir le tester plus
+        rapidement. Si vous souhaitez commencer directement à saisir vos
+        données, ne cochez pas Insérer les données du jeu de tests.</para>
+
+        <para>La plupart des renseignements sont déjà remplis : </para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Paramètres système</para>
+
+            <para>Utilisateur MySql : root </para>
+
+            <para>Mot de passe : laisser vide </para>
+
+            <para>Serveur : localhost </para>
+
+            <para>Base de données: laisser vide</para>
+          </listitem>
+
+          <listitem>
+            <para>Paramètres PMB </para>
+
+            <para>Utilisateur PMB : bibli </para>
+
+            <para>Mot de passe : bibli </para>
+
+            <para>Base de données PMB : bibli </para>
+          </listitem>
+
+          <listitem>
+            <para>Chargement de données PMB</para>
+
+            <para>Obligatoire Créer la structure de la base de données </para>
+
+            <para>Obligatoire Insérer le minimum </para>
+
+            <para>Obligatoire Insérer les données essentielles pour démarrer
+            rapidement (à cocher) </para>
+
+            <para>Insérer les données du jeu de test opérationnel (à cocher)
+            </para>
+          </listitem>
+
+          <listitem>
+            <para>Choix du thésaurus </para>
+
+            <para>Pour pouvoir utiliser les données prérentrées, vous n'avez
+            pas le choix du thésaurus (le thésaurus d'Agneaux est
+            obligatoire).</para>
+          </listitem>
+
+          <listitem>
+            <para>Choix de l'indexation interne </para>
+
+            <para>Pour pouvoir utiliser les données prérentrées, vous n'avez
+            pas le choix de l'indexation (100 cases du savoir ou Marguerite
+            des catégories est obligatoire) </para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Cliquez sur <emphasis role="bold">Créer la base</emphasis>
+        </para>
+
+        <para>Si tout s'est bien passé, vous obtenez le message : <emphasis
+        role="bold">La création de la base bibli dans Mysql vient d'être
+        créée</emphasis>. Cliquez sur <emphasis role="bold">Aller à la page
+        d'accueil</emphasis>.</para>
+
+        <para>Pour la première connexion, saisissez comme Utilisateur : admin,
+        et pour Mot de passe : admin. </para>
+
+        <para>Avec l'icône "engrenage" «Edition des paramètres pour
+        l'utilisateur» en haut à gauche vous pouvez modifier le mot de passe,
+        choisir la langue, le style. Cocher dans les préférences : J'ai lu et
+        accepté les termes de la licence.</para>
+
+        <para>Cliquez sur «Enregistrer» Vous pouvez maintenant tester
+        l'application. </para>
+
+        <para>Pour ouvrir le logiciel : double clic sur le raccourci d'Easyphp
+        s'il n'est pas déjà ouvert. Message de démarrage des serveurs. Clic
+        droit sur le E avec un point rouge clignotant dans la barre en bas à
+        droite, clic sur Web local et pmb. </para>
+
+        <para>Différents paramétrages sont disponibles dans «Administration»
+        «Outils» «Paramètres»</para>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title lang="fr">Installation avec PHP, MySQL, PhpMyAdmin</title>
+
+      <para lang="fr">Vous trouverez un mode d'emploi pour installer PHP et
+      MySQL sous Windows (indépendants, sans EasyPHP) à l'adresse suivante :
+      <ulink
+      url="http://www.phptools4u.com/articles/view.php?article=3">http://www.phptools4u.com/articles/view.php?article=3</ulink>.</para>
+
+      <para lang="fr">Pour la suite de l'installation, procéder comme pour
+      l'installation sous EasyPHP.</para>
+    </sect2>
+
+    <sect2>
+      <title lang="fr">Avec IIS</title>
+
+      <para lang="fr">Internet Information Server (IIS) est le serveur web
+      http professionnel de Microsoft, il est livré notamment avec les
+      produits Windows 2000 Server ou Windows XP Server.</para>
+
+      <sect3>
+        <title lang="fr">Installer PHP sous IIS</title>
+
+        <para lang="fr">L'installeur Windows de PHP disponible depuis les
+        pages de <ulink
+        url="http://www.php.net/downloads.php">http://www.php.net/downloads.php</ulink>
+        , installe la version CGI de PHP , et configure les serveurs web IIS,
+        PWS, et Xitami.</para>
+
+        <para lang="fr">Notez bien que bien que InstallShield soit une méthode
+        simple pour installer PHP , il est limité dans son fonctionnement,
+        puisque l'installation automatique des extensions n'est pas prise en
+        compte. Le jeu complet des extensions PHP est disponible en
+        téléchargeant et décompressant manuellement l'archive.</para>
+
+        <para lang="fr">Pour plus d'information sur cette installation, vous
+        pouvez consulter <ulink
+        url="http://www.nexen.net/docs/php/annotee/install.windows.installer.php">http://www.nexen.net/docs/php/annotee/install.windows.installer.php</ulink>.</para>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Installer MySQL sous IIS</title>
+
+        <para lang="fr">Vous trouverez un didacticiel à l'adresse <ulink
+        url="http://www.asp-php.net/tutorial/asp-php/iis_et_mysql.php">http://www.asp-php.net/tutorial/asp-php/iis_et_mysql.php</ulink>.</para>
+      </sect3>
+    </sect2>
+  </sect1>
+
+  <sect1 id="install_parametrer_base_donnees">
+    <title lang="fr">Paramétrer la base de données de PMB</title>
+
+    <sect2>
+      <title lang="fr">Installation simplifiée :
+      http://localhost/pmb/tables/install.php</title>
+
+      <para lang="fr">A l'adresse http://localhost/pmb/tables/install.php vous
+      accéderez à l'interface simplifiée de paramétrage des tables de
+      PMB.</para>
+
+      <sect3>
+        <title lang="fr">Installation de la base MySQL 'PMB'</title>
+
+        <para lang="fr">Il s'agit de la page d'accueil de l'application. Pour
+        installer la base utilisée par celle-ci, vous devez accéder à la page
+        http://localhost/pmb/tables/install.php. Veuillez donc compléter
+        l'adresse figurant dans la barre d'adresse de votre navigateur.</para>
+
+        <para lang="fr">Une fois ceci effectué et après validation, vous
+        devriez voir cette page s'afficher :</para>
+
+        <figure>
+          <title lang="fr">écran de création des tables MySQL de PMB</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm" fileref="images/pmb_tables.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang="fr">Plusieurs précisions vous sont ici demandées. Pour
+        l'instant, nous vous conseillons de garder les valeurs
+        pré-renseignées. Le formulaire se termine par une case à cocher
+        Remplir les tables avec le jeu d'exemple ?. Cochez cette option si
+        vous souhaitez que le script d'installation intégre un jeu de données
+        de test pour commencer à utiliser le logiciel. Ceci est facultatif et
+        vous pourrez commencer également en créant vos propres données.</para>
+
+        <para lang="fr">Validez maintenant en cliquant sur le bouton Créer la
+        base.</para>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Fin de l'installation et première utilisation du
+        logiciel</title>
+
+        <para lang="fr">La création de la base PMB est très rapide. A son
+        issue, vous devez voir s'afficher la page suivante :</para>
+
+        <figure>
+          <title lang="fr">second écran de création des tables (confirmation)
+          MySQL de PMB</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm" fileref="images/pmb_tables_2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang="fr">Si la page que vous voyez comportait des messages
+        d'erreurs, une bonne idée est de la sauvegarder en utilisant la
+        fonction Enregistrer sous de votre navigateur afin de pouvoir la
+        communiquer aux personnes qui sont susceptibles de vous apporter de
+        l'aide (voir la section <emphasis>Que faire si vous n'y arrivez pas
+        ?</emphasis> de ce tutoriel).</para>
+
+        <para lang="fr">L'installation de PMB est maintenant terminée.</para>
+
+        <para lang="fr">Pour accéder dorénavant à PMB, il vous suffira
+        d'ouvrir votre navigateur internet et d'accéder à l'adresse :
+        <emphasis role="bold">http://localhost/pmb/</emphasis>. Sur certains
+        systèmes (certaines versions de Windows), lors du premier lancement de
+        l'application, il est possible que la machine tente de se connecter à
+        Internet. Si cela arrivait, essayez de continuer en cliquant sur
+        'rester hors-connexion'. Éventuellement, si ce problème persiste,
+        accédez à PMB en utilisant cette adresse : <emphasis
+        role="bold">http://127.0.0.1/PMB/</emphasis> (elle est synonyme de la
+        précédente).</para>
+
+        <para lang="fr"><emphasis role="bold">Chose très importante</emphasis>
+        : lors de la première connexion à PMB, le nom d'utilisateur à utiliser
+        est <emphasis>admin</emphasis> et le mot de passe est
+        <emphasis>admin</emphasis>. C'est le seul login qui est créé lors de
+        l'installation. C'est à vous de créer de nouveaux utilisateurs en
+        utilisant le menu administration/gestion des utilisateurs. Il est bon
+        aussi de commencer par changer le mot de passe de l'utilisateur admin,
+        celui qui existe au début est un mot de passe par défaut.</para>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title lang="fr">Installation avancée : fichiers SQL</title>
+
+      <para lang="fr">Lorsque vous installez une version de PMB, pour pouvoir
+      tester PMB vous pouvez vous servir des données de test. Ces données sont
+      également chargeable "manuellement". Elles sont réparties dans
+      différents fichiers situés dans VOTRE_REP_PMB/tables .</para>
+
+      <para lang="fr"><emphasis role="bold">Description des
+      fichiers</emphasis></para>
+
+      <para lang="fr"><emphasis>bibli.sql</emphasis> : structure de la base de
+      données uniquement, pas de données</para>
+
+      <para lang="fr"><emphasis>minimum.sql</emphasis> : utilisateur
+      admin/admin, paramètres de l'application</para>
+
+      <para lang="fr"><emphasis>feed_essential.sql</emphasis> : ce dont vous
+      avez besoin pour utiliser l'application en mode quick-start :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang="fr">Données de l'application préremplies,
+          modifiables.</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">Un jeu de sauvegarde prêt à l'emploi</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">Un jeu de paramétrage de Z3950.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para lang="fr"><emphasis>data_test.sql</emphasis> : une petite
+      sélection de données de notices, lecteurs, afin de pouvoir tester de
+      suite PMB.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang="fr">Notices, lecteurs, prêteurs, exemplaires,
+          périodiques</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">Se base sur les données de l'application fournies
+          dans feed_essential.sql</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">Doit charger le thésaurus UNESCO_FR
+          unesco_fr.sql</para>
+        </listitem>
+      </itemizedlist>
+
+      <para lang="fr"><emphasis role="bold">Note</emphasis> : vous pouvez
+      vider les données du jeu de test opérationnel de PMB après avoir évalué
+      PMB. Ces données peuvent parasiter votre base de données par la suite.
+      Pour cela utiliser un des scripts /tables/empty_example_set ; pour plus
+      d'informations consulter le <emphasis>guide de
+      l'administrateur</emphasis> de PMB.</para>
+
+      <para lang="fr"><emphasis role="bold">Thésaurus :</emphasis></para>
+
+      <para lang="fr"><emphasis>3 thésaurus vous sont
+      proposés</emphasis></para>
+
+      <para lang="fr"><emphasis>unesco_fr.sql</emphasis> : thésaurus
+      hiérarchisé de l'UNESCO, assez important et bien fait.</para>
+
+      <para lang="fr"><emphasis>agneaux.sql</emphasis> : plus petit, plus
+      simple mais bien fait aussi.</para>
+
+      <para lang="fr"><emphasis>environnement</emphasis> : un thésaurus
+      possible pour un fonds documentaire axé Environnement.</para>
+    </sect2>
+
+    <sect2>
+      <title lang="fr">Liste des tables remplies par les fichiers SQL</title>
+
+      <para lang="fr">Vous trouverez ici une liste des données chargées par
+      ces différents fichiers SQL. Pour charger en ligne de commande sous
+      MySQL un fichier SQLreportez vous à la documentation de MySQL.</para>
+
+      <para lang="fr"><emphasis role="bold">minimum.sql</emphasis></para>
+
+      <para lang="fr">Contenu de la table `paramètres'</para>
+
+      <para lang="fr">Contenu de la table `users` : utilisateur
+      admin/admin</para>
+
+      <para lang="fr"><emphasis
+      role="bold">feed_essential.sql</emphasis></para>
+
+      <para lang="fr"><emphasis>idem que minimum.sql avec en
+      plus</emphasis></para>
+
+      <para lang="fr">Contenu de la table `docs_codestat'</para>
+
+      <para lang="fr">Contenu de la table `docs_location`</para>
+
+      <para lang="fr">Contenu de la table `docs_section`</para>
+
+      <para lang="fr">Contenu de la table `docs_statut`</para>
+
+      <para lang="fr">Contenu de la table `docs_type`</para>
+
+      <para lang="fr">Contenu de la table `empr_categ`</para>
+
+      <para lang="fr">Contenu de la table `empr_codestat`</para>
+
+      <para lang="fr">Contenu de la table `lenders`</para>
+
+      <para lang="fr">Contenu de la table `sauv_lieux`</para>
+
+      <para lang="fr">Contenu de la table `sauv_sauvegardes`</para>
+
+      <para lang="fr">Contenu de la table `sauv_tables`</para>
+
+      <para lang="fr">Contenu de la table `z_attr`</para>
+
+      <para lang="fr">Contenu de la table `z_bib`</para>
+
+      <para lang="fr"><emphasis role="bold">data_test.sql</emphasis></para>
+
+      <para lang="fr"><emphasis>idem que feed_essential.sql avec en
+      plus</emphasis></para>
+
+      <para lang="fr">Contenu de la table `users` : Utilisateurs
+      supplémentaires</para>
+
+      <para lang="fr">Contenu de la table `empr`</para>
+
+      <para lang="fr">Contenu de la table `empr_groupe`</para>
+
+      <para lang="fr">Contenu de la table `groupe`</para>
+
+      <para lang="fr">Contenu de la table `notices`</para>
+
+      <para lang="fr">Contenu de la table `exemplaires`</para>
+
+      <para lang="fr">Contenu de la table `authors`</para>
+
+      <para lang="fr">Contenu de la table `publishers`</para>
+
+      <para lang="fr">Contenu de la table `collections`</para>
+
+      <para lang="fr">Contenu de la table `sub_collections`</para>
+
+      <para lang="fr">Contenu de la table `responsability`</para>
+
+      <para lang="fr">Contenu de la table `bulletins`</para>
+
+      <para lang="fr">Contenu de la table `analysis`</para>
+
+      <para lang="fr">Contenu de la table `notices_categories`</para>
+
+      <para lang="fr"><emphasis role="bold">agneaux.sql</emphasis> ou
+      <emphasis role="bold">unesco_fr.sql</emphasis> ou <emphasis
+      role="bold">environnement.sql</emphasis></para>
+
+      <para lang="fr">Contenu de la table `categories`</para>
+
+      <para lang="fr">Contenu de la table `categ_assoc`</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title lang="fr">Que faire si vous n'y arrivez pas ?</title>
+
+    <para lang="fr">Vous pouvez tout d'abord consulter le site <ulink
+    url="http://www.sigb.net/communaute">http://www.sigb.net/communaute</ulink>,
+    vous y trouverez un wiki et des listes de discussion où vous pouvez
+    déposer vos questions.</para>
+
+    <para lang="fr">Vous pouvez aussi vous abonner à la liste des utilisateurs
+    de PMB : pour vous abonner envoyez un mail avec pour sujet
+    <emphasis>SUBSCRIBE</emphasis> à l'adresse <ulink
+    url="mailto:pmb.user_request@sigb.net?subject=SUBSCRIBE">pmb.user_request@sigb.net</ulink>.</para>
+
+    <para lang="fr">En outre, nous serions heureux de vous compter parmi nos
+    utilisateurs et quelques chiffres tels que nombre de lecteurs, d'ouvrages,
+    de CD... avec les coordonnées de votre établissement (ou à titre
+    particulier) nous suffiront pour mieux vous connaître.</para>
+
+    <para lang="fr">Plus d'informations dans le répertoire ./doc ou bien sur
+    notre site <ulink
+    url="http://www.sigb.net">http://www.sigb.net</ulink></para>
+
+    <para lang="fr">L'équipe des développeurs.</para>
+  </sect1>
+</chapter>

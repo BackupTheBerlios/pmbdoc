@@ -7,11 +7,14 @@
   de faire des recherches, de gérer les prêts, d'éditer des statistiques,
   ...</para>
 
-  <para lang="fr"><emphasis role="bold">Note</emphasis> A tout moment dans
-  l'onglet Catalogue, lorsque vous voyez l'icône d'un panier affichée, vous
-  pouvez ajouter un élément (notice, exemplaire, bulletin) à un panier en
-  cliquant sur l'icône <graphic fileref="images/basket_small.gif" /> Pour plus
-  d'informations, voir <xref linkend="cat_caddies" />.</para>
+  <para lang="fr">A tout moment dans l'onglet Catalogue, lorsque vous voyez
+  l'icône d'un panier affichée, vous pouvez ajouter un élément (notice,
+  exemplaire, bulletin) à un panier en cliquant sur l'icône <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="images/basket_small.gif" />
+      </imageobject>
+    </inlinemediaobject>.Pour plus d'informations, voir <xref
+  linkend="cat_caddies" />.</para>
 
   <sect1 id="cat_ouvrages">
     <title lang="fr">Recherche</title>
@@ -305,6 +308,106 @@
       </sect3>
 
       <sect3>
+        <title>Interrogation externe</title>
+
+        <para>Il existe deux types d'interrogation externe disponible sous
+        Catalogue &gt; Recherche toutes notices &gt; Externe.</para>
+
+        <para>L'interrogation externe simple permet de combiner des critères
+        de recherche parmi une liste réduite de champs.</para>
+
+        <para>L'interrogation externe avancée se présente comme une recherche
+        multicritère portant sur votre catalogue, mais nécessite de choisir au
+        moins une des sources externes comme premier critère.</para>
+
+        <sect4>
+          <title>Interrogation externe simple</title>
+
+          <para>Sélectionnez une ou plusieurs <emphasis role="bold">sources
+          </emphasis>pour y effectuer votre recherche.</para>
+
+          <para>Les champs listés ici correspondent aux champs disponible dans
+          les types de recherche autre que multi-critères. Choisissez un champ
+          parmi la liste déroulante et cliquez sur Ajouter. Définissez alors
+          la valeur recherchée pour ce champ. Par exemple, pour titre
+          "ville".</para>
+
+          <figure>
+            <title>Interrogation externe simple</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="10cm"
+                           fileref="images/cat_search_externe1.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <figure>
+            <title>Interrogation externe simple, affichage des
+            résultats</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="10cm"
+                           fileref="images/cat_search_externe3.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>Les enregistrements retournés sont intégrables dans votre
+          catalogue en cliquant sur l'icône disquette, dans la notice
+          dépliée.</para>
+        </sect4>
+
+        <sect4>
+          <title>Interrogation externe avancée</title>
+
+          <para>En interrogation externe avancée, vous pouvez ajouter des
+          champs de recherche comme en recherche multi-critères dans votre
+          catalogue. L'ensemble des champs disponibles en multi-critères est
+          accessible ici.</para>
+
+          <important>
+            <para>Les enregistrements moissonnés en OAI ne disposent pas de
+            tous les champs des notices de PMB. Si votre recherche porte sur
+            un champ qui n'est pas géré par le connecteur, le critère est
+            ignoré : ce sont tous les enregistrements qui sont retournés.
+            </para>
+
+            <para>Ceci permet de faire une recherche telle que Localisation =
+            Chateau-du-Loir et Titre expression booléenne (càd contient)
+            urbanisme. Vous disposez d'une localisation appelée
+            Château-du-Loir, mais les enregistrements OAI ne sont pas liés à
+            vos exemplaires. Dans ce cas, la recherche effectuée portera
+            uniquement sur le titre.</para>
+          </important>
+
+          <para>Pour faire une interrogation externe simple et quitter
+          l'interrogation externe avancée, repassez par Catalogue &gt;
+          Recherche toutes notices &gt; Externe (lien Externe en haut de
+          l'écran).</para>
+        </sect4>
+
+        <sect4>
+          <title>Intégrer un enregistrement d'une source OAI dans votre
+          catalogue</title>
+
+          <para>Vous pouvez intégrer un enregistrement à l'aide de l'icône
+          disquette depuis la liste des résultats d'une interrogation
+          externe.</para>
+
+          <para>La notice est alors ouverte pour vous permettre d'en compléter
+          le catalogage. Une fois vos modifications effectuées, cliquez sur le
+          bouton Intégrer la notice.</para>
+
+          <para>Votre notice est alors intégrée, vous pouvez retourner à la
+          liste des résultats ou afficher votre notice dans le
+          catalogue.</para>
+        </sect4>
+      </sect3>
+
+      <sect3>
         <title id="exp_bool">Expressions booléennes</title>
 
         <para lang="fr">Dans l'ensemble des écrans de recherche vous pouvez
@@ -446,9 +549,9 @@
           signifie les éléments contenant poésie et français(e)(s) sans
           romantique(s).</para>
 
-          <para lang="fr"><emphasis role="bold">Attention</emphasis>, deux
-          opérateurs ne peuvent se suivre, une négation ne peut-être combinée
-          à un opérateur (+~ revient au même que l'opérateur -).</para>
+          <para lang="fr"><remark>Attention, deux opérateurs ne peuvent se
+          suivre, une négation ne peut-être combinée à un opérateur (+~
+          revient au même que l'opérateur -).</remark></para>
         </sect4>
 
         <sect4>
@@ -579,11 +682,11 @@
       périodique. Pour plus d'informations, consulter plus la section 2.3.2
       <emphasis>Visualiser un périodique.</emphasis></para>
 
-      <para lang="fr"><emphasis role="bold">Note</emphasis> Les résultats de
-      la recherche de périodiques sont uniquement des notices mères ou notices
-      chapeau de périodiques : par exemple Géo, SVM, Le Monde ; les articles
-      comme les différents numéros du périodiques ne sont pas renvoyés ici.
-      Pour les voir il faut utiliser la recherche "toutes notices". .</para>
+      <para lang="fr"><remark>Les résultats de la recherche de périodiques
+      sont uniquement des notices mères ou notices chapeau de périodiques :
+      par exemple Géo, SVM, Le Monde ; les articles comme les différents
+      numéros du périodiques ne sont pas renvoyés ici. Pour les voir il faut
+      utiliser la recherche "toutes notices".</remark></para>
     </sect2>
 
     <sect2>
@@ -778,7 +881,8 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata contewidth="5cm" fileref="images/popup-serie.gif" />
+                  <imagedata contentwidth="5cm"
+                             fileref="images/popup-serie.gif" />
                 </imageobject>
               </mediaobject>
             </figure>
@@ -1194,13 +1298,15 @@
             <para lang="fr">Enfin, le cas échéant, en bas de la notice, vous
             pouvez définir les valeurs de vos champs personnalisés.</para>
 
-            <para lang="fr">Les champs personnalisables des notices sont des
-            informations supplémentaires, vous pouvez les créer dans
-            <emphasis>Administration</emphasis> &gt;
-            <emphasis>Notices</emphasis> &gt;
-            <emphasis>Personnalisables</emphasis>. Pour plus d'informations,
-            consulter le <emphasis>Guide de l'Administrateur</emphasis>,
-            chapitre <emphasis>Notices</emphasis>.</para>
+            <important>
+              <para>Les champs personnalisables des notices sont des
+              informations supplémentaires, vous pouvez les créer dans
+              <emphasis>Administration</emphasis> &gt;
+              <emphasis>Notices</emphasis> &gt;
+              <emphasis>Personnalisables</emphasis>. Pour plus d'informations,
+              consulter le <emphasis>Guide de l'Administrateur</emphasis>,
+              chapitre <emphasis>Notices</emphasis>.</para>
+            </important>
 
             <para lang="fr">Si aucun champ personnalisé n'est défini, ce pavé
             n'est pas affiché.</para>
@@ -1316,10 +1422,12 @@
             modifications. Les informations sont affichées dans un popup et
             dépendent du type d'audit choisi.</para>
 
-            <para lang="fr">Pour activer l'audit des notices et des
-            exemplaires, consulter le Guide de l'Administrateur PMB, chapitre
-            Outils, section Paramètres : il s'agit du paramètre de type
-            Paramètres généraux intitulé type_audit.</para>
+            <important>
+              <para>Pour activer l'audit des notices et des exemplaires,
+              consulter le Guide de l'Administrateur PMB, chapitre Outils,
+              section Paramètres : il s'agit du paramètre de type Paramètres
+              généraux intitulé type_audit.</para>
+            </important>
 
             <figure>
               <title lang="fr">Historique</title>
@@ -1476,11 +1584,16 @@
 
           <para lang="fr">En <emphasis>dessous du prix</emphasis> figurent les
           <emphasis role="bold">champs personnalisés</emphasis> de
-          l'exemplaire. Il s'agit d'informations supplémentaires que vous
-          pouvez définir librement dans <emphasis>Administration &gt;
-          Exemplaires &gt; Personnalisables.</emphasis> Pour plus
-          d'informations, consulter le <emphasis>Guide de l'Administrateur de
-          PMB</emphasis>, chapitre <emphasis>Exemplaires</emphasis>.</para>
+          l'exemplaire.</para>
+
+          <important>
+            <para>Les champs personnalisés des exemplaires sont des
+            informations supplémentaires que vous pouvez définir librement
+            dans <emphasis>Administration &gt; Exemplaires &gt;
+            Personnalisables.</emphasis> Pour plus d'informations, consulter
+            le <emphasis>Guide de l'Administrateur de PMB</emphasis>, chapitre
+            <emphasis>Exemplaires</emphasis>.</para>
+          </important>
 
           <para lang="fr">Vous pouvez enregistrer vos modifications en
           cliquant sur <emphasis>Enregistrer</emphasis> ou les
@@ -1564,18 +1677,19 @@
           <sect5>
             <title lang="fr">Hist.</title>
 
-            <title lang="fr">Hist.</title>
-
             <para lang="fr">Ce bouton n'est affiché que si l'audit des notices
             et des exemplaires est affiché. Il va permettre de voir qui a
             réalisé le catalogage d'une notice, et qui a fait des
             modifications. Les informations sont affichées dans un popup et
-            dépendent du type d'audit choisi. Pour plus d'informations,
-            consulter le Guide de l'<emphasis>Administrateur PMB</emphasis>,
-            chapitre <emphasis>Outils</emphasis>, section
-            <emphasis>Paramètres</emphasis> : il s'agit du paramètre de type
-            <emphasis>Paramètres généraux</emphasis> intitulé
-            type_audit.</para>
+            dépendent du type d'audit choisi.</para>
+
+            <para><important>
+                <para>L'audit est activable via Administration
+                &gt;<emphasis>Outils</emphasis> &gt;
+                <emphasis>Paramètres</emphasis> : il s'agit du paramètre de
+                type <emphasis>Paramètres généraux</emphasis> intitulé
+                type_audit.</para>
+              </important></para>
           </sect5>
 
           <sect5>
@@ -1588,7 +1702,7 @@
         </sect4>
 
         <sect4 id="cat_explnum_modification">
-          <title lang="fr">Modifier un exemplaire numérique</title>
+          <title lang="fr">Modifier un document numérique</title>
 
           <para lang="fr">L'écran de modification d'un document numérique est
           identique à celui d'ajout d'un document numérique.</para>
@@ -1607,10 +1721,9 @@
 
           <para lang="fr">Pour cataloguer un site web, spécifiez comme type de
           document <emphasis role="bold">ressources électroniques</emphasis>.
-          Saisissez un titre propre pour votre notice. Dans la zone <emphasis
-          role="">liens (ressources électroniques)</emphasis>, spécifiez l'URL
+          Saisissez un titre propre pour votre notice. Dans la zone <emphasis>liens (ressources électroniques)</emphasis>, spécifiez l'URL
           associée (au format <emphasis role="bold">
-          http://www.memonde.fr</emphasis>). Dans format électronique de la
+          http://www.lemonde.fr</emphasis>). Dans format électronique de la
           ressource, vous pouvez spécifier <emphasis role="bold"> site
           web</emphasis>.</para>
         </sect4>
@@ -1618,20 +1731,18 @@
         <sect4 id="cat_notice_rss">
           <title lang="fr">Cataloguer un flux RSS</title>
 
-          <para lang="fr"><remark> <emphasis role="bold">Note</emphasis> PMB
-          peut également générer un flux RSS à partir d'un panier ou d'une
-          étagère. Un panier peut lui-même remplit à l'aide de la Diffusion
-          Sélection de l'Information (DSI). Pour plus d'informations sur la
-          création de flux RSS, consulter <xref
+          <para lang="fr"><remark>PMB peut également générer un flux RSS à
+          partir d'un panier ou d'une étagère. Un panier peut lui-même remplit
+          à l'aide de la Diffusion Sélection de l'Information (DSI). Pour plus
+          d'informations sur la création de flux RSS, consulter <xref
           linkend="dsi_rss_def" />.</remark></para>
 
-          <para lang="fr">"<emphasis>Un flux RSS ou fil RSS ("RSS feed" en
-          anglais), sigle de Really Simple Syndication (syndication vraiment
-          simple), ou de Rich Site Summary (Sommaire d'un site enrichi) est un
-          format de syndication de contenu Web. Ce système permet de diffuser
-          les nouvelles des sites d'information ou des blogs, ce qui permet de
-          rapidement consulter ces dernières sans visiter le site</emphasis> "
-          (source :
+          <para lang="fr">"Un flux RSS ou fil RSS ("RSS feed" en anglais),
+          sigle de Really Simple Syndication (syndication vraiment simple), ou
+          de Rich Site Summary (Sommaire d'un site enrichi) est un format de
+          syndication de contenu Web. Ce système permet de diffuser les
+          nouvelles des sites d'information ou des blogs, ce qui permet de
+          rapidement consulter ces dernières sans visiter le site " (source :
           http://fr.wikipedia.org/wiki/Really_Simple_Syndication).</para>
 
           <para lang="fr">Pour cataloguer un RSS, donnez un titre à votre
@@ -1655,11 +1766,13 @@
             </listitem>
           </itemizedlist>
 
-          <para lang="fr">Pour afficher des flux RSS en page d'accueil de
-          l'opac, définissez le paramètre <emphasis>opac
-          show_rss_browser</emphasis> 1. Pour plus d'information sur le
-          paramétrage de PMB, consultez le <emphasis>Guide de l'Administrateur
-          PMB</emphasis>, chapitre <emphasis>Outils</emphasis>.</para>
+          <important>
+            <para>Pour afficher des flux RSS en page d'accueil de l'opac,
+            définissez le paramètre <emphasis>opac show_rss_browser</emphasis>
+            1. Pour plus d'information sur le paramétrage de PMB, consultez le
+            <emphasis>Guide de l'Administrateur PMB</emphasis>, chapitre
+            <emphasis>Outils</emphasis>.</para>
+          </important>
 
           <!-- figure>
         <title lang='fr'>Flux RSS affiché dans l'OPAC</title>
@@ -1684,21 +1797,25 @@
         catalogage en réorganisant à l'écran chacun des champs et des blocs de
         champs du formulaire.</para>
 
-        <para><emphasis>Paramètre</emphasis> dans Administration &gt; Outils
-        &gt; Paramètres &gt; Paramètres généraux, le paramètre form_editables
-        doit valoir 1.</para>
+        <para><important>
+            <para>Pour pouvoir modifier vos grilles de catalogage, dans
+            <emphasis>Administration</emphasis> &gt;
+            <emphasis>Outils</emphasis> &gt; <emphasis>Paramètres</emphasis>
+            &gt; <emphasis>Paramètres généraux</emphasis>, le paramètre
+            form_editables doit valoir 1.</para>
+          </important></para>
 
         <para>Pour personnaliser votre grille de catalogage, vous devez être
         connecté en tant que super utilisateur de PMB. Il s'agit de
-        l'utilisateur qui par défaut a le login admin. Attention, il faut se
-        connecter sous ce compte, et pas sous un autre compte qui aurait accès
-        à l'onglet administration.</para>
+        l'utilisateur qui avait le login admin par défaut. Attention, il faut
+        se connecter sous ce compte, et pas sous un autre compte qui aurait
+        accès à l'onglet administration.</para>
 
         <para>Pour personnaliser vos grilles de catalogage, dans l'onglet
         Catalogue, cliquez sur Nouvelle notice.</para>
 
-        <para>Cliquez ensuite sur le bouton <emphasis>Éditer
-        format</emphasis></para>
+        <para>Cliquez ensuite sur le bouton <emphasis>Éditer format</emphasis>
+        en haut à droite de l'écran.</para>
 
         <sect4>
           <title>Déplacement vertical des champs</title>
@@ -2018,7 +2135,7 @@
         </itemizedlist>
 
         <para lang="fr"><emphasis role="bold">Récapitulons</emphasis> : Nous
-        sommes abonnés au Monde (une <emphasis role="">notice de
+        sommes abonnés au Monde (une <emphasis>notice de
         périodique</emphasis>), qui possède un n° 32478 (un
         <emphasis>bulletin</emphasis>), dont nous avons deux exemplaires dans
         notre bibliothèque (<emphasis>deux fiches d'exemplaires</emphasis>
@@ -2393,1362 +2510,1370 @@
   <sect1>
     <title>Utiliser le bulletinage assisté</title>
 
-      <para>Depuis PMB 3.1 vous pouvez utiliser un bulletinage assisté dans
-      PMB.</para>
+    <para>Depuis PMB 3.1 vous pouvez utiliser un bulletinage assisté dans
+    PMB.</para>
 
-      <para><emphasis role="bold">Important</emphasis> il faut avoir défini
-      des types de périodicité via Administration &gt; Abonnements &gt;
-      Périodicité pour utiliser le module de bulletinage assisté. Pour plus
-      d'informations, consulter le Guide de l'Administrateur PMB, chapitre
-      Abonnements.</para>
+    <para><important>
+        <para>Il faut avoir défini des types de périodicité via
+        <emphasis>Administration</emphasis> &gt;
+        <emphasis>Abonnements</emphasis> &gt; <emphasis>Périodicité
+        </emphasis>pour utiliser le module de bulletinage assisté. Pour plus
+        d'informations, consulter le Guide de l'Administrateur PMB, chapitre
+        Abonnements.</para>
+      </important>Voici un exemple des périodicités les plus fréquemments
+    utilisées :</para>
 
-      <para>Voici un exemple des périodicités les plus fréquemments utilisées
-      :</para>
+    <figure>
+      <title lang="fr">Administration &gt; Abonnements &gt;
+      Périodicités</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata contentwidth="10cm"
+                     fileref="images/administration_abonnements_periodicite.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <sect2>
+      <title>Périodique : modèle prévisionnel et abonnement</title>
+
+      <para><itemizedlist>
+          <listitem>
+            <para>Une fois la notice mère de périodique créée, il est possible
+            via « Catalogue &gt; Recherche &gt; Périodiques », la rechercher
+            et l'afficher.</para>
+          </listitem>
+
+          <listitem>
+            <para>Dans la partie basse de l'écran se trouve l'état des
+            collections qui liste les bulletins (ou numéros)
+            enregistrés.</para>
+          </listitem>
+        </itemizedlist></para>
 
       <figure>
-        <title lang="fr">Administration &gt; Abonnements &gt;
-        Périodicités</title>
+        <title>Catalogue, notice de périodique</title>
 
         <mediaobject>
           <imageobject>
             <imagedata contentwidth="10cm"
-                       fileref="images/administration_abonnements_periodicite.gif" />
+                       fileref="images/catalogue_notice_periodique.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para></para>
+      <para>Au dessus de l'état des collections se trouvent trois onglets :
+      <emphasis role="bold">Bulletins</emphasis>, <emphasis
+      role="bold">Abonnements</emphasis> et <emphasis role="bold">Modèles
+      prévisionnels</emphasis>.</para>
+    </sect2>
 
-      <sect2>
-        <title>Périodique : modèle prévisionnel et abonnement</title>
+    <sect2>
+      <title>Modèles prévisionnels</title>
 
-        <para><itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>Le modèle prévisionnel permet de définir la périodicité des
+          numéros du périodique sur les années à venir, en dehors de toute
+          considération d'abonnement.</para>
+        </listitem>
+
+        <listitem>
+          <para>Les différents cahiers du périodique doivent être définis ici,
+          sous la forme d'un modèle par cahier.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><remark>Par exemple, un mensuel M sans hors-série régulier aura un
+      modèle prévisionnel basé sur la périodicité « Mensuel » définie au
+      préalable en Administration (voir plus haut, les périodicités sont à
+      définir dans Administration &gt; Abonnements &gt;
+      Périodicité).</remark></para>
+
+      <para>Un hebdomadaire H avec un numéro spécial tous les trimestres et
+      deux hors-série (en janvier et en juillet) aura trois modèles
+      prévisionnels :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>le cahier principal : un modèle basé sur
+          « hebdomadaire »</para>
+        </listitem>
+
+        <listitem>
+          <para>le cahier numéro spécial : un modèle basé sur
+          « trimestriel »</para>
+        </listitem>
+
+        <listitem>
+          <para>le cahier hors série : un modèle basé sur
+          « semestriel »</para>
+        </listitem>
+      </itemizedlist>
+
+      <sect3>
+        <title>Paramètres généraux</title>
+
+        <para><figure>
+            <title>Catalogue : périodiques, ajout d'un modèle</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="10cm" 
+                           fileref="images/catalogue_periodique_nouveau_modele1.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>Un modèle se définit par :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>un nom</para>
+          </listitem>
+
+          <listitem>
+            <para>une base de périodicité, choisie parmi les périodicités
+            définies dans l'onglet administration</para>
+          </listitem>
+
+          <listitem>
+            <para>une durée d'abonnement</para>
+          </listitem>
+
+          <listitem>
+            <para>une date de début et une date de fin du modèle</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Pour la durée du modèle, il ne faut pas hésiter à mettre une
+        durée longue, par exemple 10 ans. Ceci permettra de créer rapidement
+        un nouvel abonnement l'année suivante, en utilisant le modèle
+        existant.</para>
+      </sect3>
+
+      <sect3>
+        <title>Exclusion de dates</title>
+
+        <para></para>
+
+        <figure>
+          <title>Catalogue, périodiques, création d'un modèle : exclusion de
+          dates</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/catalogue_periodique_nouveau_modele2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>L'exclusion de dates permet de définir des moments (certains
+        jours de la semaine, certains mois dans l'année par exemple) où il n'y
+        aura pas de réception.</para>
+
+        <para>Utilisez l'exclusion de dates par exemple pour :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>un mensuel qui n'est pas publié en août</para>
+          </listitem>
+
+          <listitem>
+            <para>un quotidien qui ne paraît pas le dimanche</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+
+      <sect3>
+        <title>Numérotation</title>
+
+        <para><figure>
+            <title>Catalogue, périodiques, création d'un modèle :
+            numérotation</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="10cm"
+                           fileref="images/catalogue_periodique_nouveau_modele3.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure>La numérotation est basée sur trois type de numérotations :
+        numéro, volume et tome.</para>
+
+        <para>Au bout d'un certain nombre de numéros (ou d'une certaine
+        période), le numéro volume sera incrémenté (volume + 1), et sur le
+        même principe pour un nombre de volumes, le numéro de tome sera
+        incrémenté (tome + 1).</para>
+
+        <para><emphasis role="bold">Exemple</emphasis> Le périodique
+        « Cursus » a une numérotation de type «Tome 5, numéro 3 » pour le
+        numéro daté Automne 2002 :<itemizedlist>
             <listitem>
-              <para>Une fois la notice mère de périodique créée, il est
-              possible via « Catalogue &gt; Recherche &gt; Périodiques », la
-              rechercher et l'afficher.</para>
+              <para>La périodicité de base sera trimestrielle, le jour de
+              début du modèle sera le 1er avril 2007, basé sur 10 ans.</para>
             </listitem>
 
             <listitem>
-              <para>Dans la partie basse de l'écran se trouve l'état des
-              collections qui liste les bulletins (ou numéros)
-              enregistrés.</para>
+              <para>Pour le « numéro » , on utilisera la numérotation numéro
+              de PMB, elle est cyclique et varie de 1 à 4. Elle revient à 1
+              tous les ans pour le numéro daté Printemps.</para>
+            </listitem>
+
+            <listitem>
+              <para>Pour le « volume », on utilisera la numérotation volume
+              (un cran juste au dessus de numéro). Elle augmente de 1 tous les
+              ans pour le numéro daté Printemps.</para>
             </listitem>
           </itemizedlist></para>
 
+        <para><emphasis role="bold">Important</emphasis> Le terme employé par
+        le périodique pour sa numérotation (tome, volume, année, etc.) peut
+        différer de la numérotation qu'on emploiera dans PMB. Ainsi, un numéro
+        appelé « tome » sur la couverture du bulletin pourra être calculé à
+        l'aide de la numérotation <emphasis
+        role="bold">volume</emphasis>.</para>
+
         <figure>
-          <title>Catalogue, notice de périodique</title>
+          <title>Catalogue, périodiques, création d'un modèle : incrémentation
+          de la numérotation</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/catalogue_notice_periodique.gif" />
+              <imagedata contentwidth="7cm"
+                         fileref="images/catalogue_periodique_nouveau_modele4.gif" />
             </imageobject>
           </mediaobject>
         </figure>
 
-        <para>Au dessus de l'état des collections se trouvent trois onglets :
-        <emphasis role="bold">Bulletins</emphasis>, <emphasis
-        role="bold">Abonnements</emphasis> et <emphasis role="bold">Modèles
-        prévisionnels</emphasis>.</para>
-      </sect2>
-
-      <sect2>
-        <title>Modèles prévisionnels</title>
-
         <itemizedlist>
           <listitem>
-            <para>Le modèle prévisionnel permet de définir la périodicité des
-            numéros du périodique sur les années à venir, en dehors de toute
-            considération d'abonnement.</para>
+            <para>La numérotation <emphasis>numéro</emphasis> est toujours
+            active,</para>
           </listitem>
 
           <listitem>
-            <para>Les différents cahiers du périodique doivent être définis
-            ici, sous la forme d'un modèle par cahier.</para>
+            <para>Les numérotations <emphasis>volume</emphasis> ou
+            <emphasis>tome</emphasis> sont utilisables dès lors que la case
+            « Actif » est cochée.</para>
           </listitem>
         </itemizedlist>
 
-        <para><emphasis role="bold">Exemple</emphasis> : Un mensuel M sans
-        hors-série régulier aura un modèle prévisionnel basé sur la
-        périodicité « Mensuel » définie au préalable en Administration (voir
-        plus haut, les périodicités sont à définir dans Administration &gt;
-        Abonnements &gt; Périodicité).</para>
-
-        <para>Un hebdomadaire H avec un numéro spécial tous les trimestres et
-        deux hors-série (en janvier et en juillet) aura trois modèles
-        prévisionnels :</para>
+        <para>L'incrémentation du numéro se fait :</para>
 
         <itemizedlist>
           <listitem>
-            <para>le cahier principal : un modèle basé sur
-            « hebdomadaire »</para>
+            <para>soit tous les X <emphasis role="bold">numéros</emphasis>
+            pour les <emphasis role="bold">volumes</emphasis>, tous les X
+            <emphasis role="bold">volumes</emphasis> pour les <emphasis
+            role="bold">tomes</emphasis>,</para>
           </listitem>
 
           <listitem>
-            <para>le cahier numéro spécial : un modèle basé sur
-            « trimestriel »</para>
-          </listitem>
-
-          <listitem>
-            <para>le cahier hors série : un modèle basé sur
-            « semestriel »</para>
+            <para>soit au bout d'une période.</para>
           </listitem>
         </itemizedlist>
 
-        <sect3>
-          <title>Paramètres généraux</title>
+        <para>Dans le cas ou la numérotation revient à un numéro de départ
+        tous les X numéros, on cochera la case « Cyclique » (défini par nombre
+        dans le cycle).</para>
 
-          <para><figure>
-              <title>Catalogue : périodiques, ajout d'un modèle</title>
+        <para><emphasis role="bold">Exemple</emphasis> le périodique L'Ecole
+        des Parents, a une numérotation cyclique et revient à 1 tous les 12
+        numéros ; le numéro de janvier portera toujours le numéro 1. =&gt;
+        Activer alors la case « Cyclique », indiquer 12 dans la case « Nombre
+        dans le cycle » et 1 dans « Numéro de départ du cycle ».</para>
+      </sect3>
 
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/catalogue_periodique_nouveau_modele1.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>Un modèle se définit par :</para>
+      <sect3>
+        <title>Format de numérotation et format de dates</title>
 
-          <itemizedlist>
+        <para>Il est possible de définir dans le format d'affichage un format
+        de numéro et un format de date. Ces deux valeurs rempliront dans PMB
+        les champs numéro et libellé de période du bulletin.</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Dans format de numéro : Pour désigner un périodique dont le
+            numéro est Volume 5 numéro 3, on saisira « Volume $VOL; numéro
+            $NUM; ».</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Les variables « $VOL; » et « $NUM; » seront remplacées
+        respectivement par le numéro de volume et le numéro, lors de
+        l'enregistrement du bulletin.</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Dans le format de date : Pour mettre simplement la date,
+            saisir : $DATE;</para>
+          </listitem>
+        </itemizedlist>
+
+        <para><emphasis role="bold">Personnaliser les
+        variables</emphasis></para>
+
+        <para>Les 4 variables de base :<itemizedlist>
             <listitem>
-              <para>un nom</para>
+              <para>numéro : $NUM;</para>
             </listitem>
 
             <listitem>
-              <para>une base de périodicité, choisie parmi les périodicités
-              définies dans l'onglet administration</para>
+              <para>volume : $VOL;</para>
             </listitem>
 
             <listitem>
-              <para>une durée d'abonnement</para>
+              <para>tome : $TOM;</para>
             </listitem>
 
             <listitem>
-              <para>une date de début et une date de fin du modèle</para>
+              <para>date : $DATE;</para>
+
+              <para><emphasis>(si aucune fonction de mise en forme n'est
+              appliqué à $DATE;, le format est AAAA-MM-JJ par exemple
+              2007-07-16)</emphasis></para>
             </listitem>
-          </itemizedlist>
+          </itemizedlist></para>
 
-          <para>Pour la durée du modèle, il ne faut pas hésiter à mettre une
-          durée longue, par exemple 10 ans. Ceci permettra de créer rapidement
-          un nouvel abonnement l'année suivante, en utilisant le modèle
-          existant.</para>
-        </sect3>
-
-        <sect3>
-          <title>Exclusion de dates</title>
-
-          <para></para>
-
-          <figure>
-            <title>Catalogue, périodiques, création d'un modèle : exclusion de
-            dates</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_nouveau_modele2.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para>L'exclusion de dates permet de définir des moments (certains
-          jours de la semaine, certains mois dans l'année par exemple) où il
-          n'y aura pas de réception.</para>
-
-          <para>Utilisez l'exclusion de dates par exemple pour :</para>
-
-          <itemizedlist>
+        <para>et les 5 variables avancées : <itemizedlist>
             <listitem>
-              <para>un mensuel qui n'est pas publié en août</para>
+              <para>date de début de l'abonnement : $START_DATE;</para>
             </listitem>
 
             <listitem>
-              <para>un quotidien qui ne paraît pas le dimanche</para>
-            </listitem>
-          </itemizedlist>
-        </sect3>
-
-        <sect3>
-          <title>Numérotation</title>
-
-          <para><figure>
-              <title>Catalogue, périodiques, création d'un modèle :
-              numérotation</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="images/catalogue_periodique_nouveau_modele3.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>La numérotation est basée sur trois type de numérotations
-          : numéro, volume et tome.</para>
-
-          <para>Au bout d'un certain nombre de numéros (ou d'une certaine
-          période), le numéro volume sera incrémenté (volume + 1), et sur le
-          même principe pour un nombre de volumes, le numéro de tome sera
-          incrémenté (tome + 1).</para>
-
-          <para><emphasis role="bold">Exemple</emphasis> Le périodique
-          « Cursus » a une numérotation de type «Tome 5, numéro 3 » pour le
-          numéro daté Automne 2002 :<itemizedlist>
-              <listitem>
-                <para>La périodicité de base sera trimestrielle, le jour de
-                début du modèle sera le 1er avril 2007, basé sur 10
-                ans.</para>
-              </listitem>
-
-              <listitem>
-                <para>Pour le « numéro » , on utilisera la numérotation numéro
-                de PMB, elle est cyclique et varie de 1 à 4. Elle revient à 1
-                tous les ans pour le numéro daté Printemps.</para>
-              </listitem>
-
-              <listitem>
-                <para>Pour le « volume », on utilisera la numérotation volume
-                (un cran juste au dessus de numéro). Elle augmente de 1 tous
-                les ans pour le numéro daté Printemps.</para>
-              </listitem>
-            </itemizedlist></para>
-
-          <para><emphasis role="bold">Important</emphasis> Le terme employé
-          par le périodique pour sa numérotation (tome, volume, année, etc.)
-          peut différer de la numérotation qu'on emploiera dans PMB. Ainsi, un
-          numéro appelé « tome » sur la couverture du bulletin pourra être
-          calculé à l'aide de la numérotation <emphasis
-          role="bold">volume</emphasis>.</para>
-
-          <figure>
-            <title>Catalogue, périodiques, création d'un modèle :
-            incrémentation de la numérotation</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_nouveau_modele4.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <itemizedlist>
-            <listitem>
-              <para>La numérotation <emphasis>numéro</emphasis> est toujours
-              active,</para>
+              <para>date de fin de l'abonnement : $END_DATE;</para>
             </listitem>
 
             <listitem>
-              <para>Les numérotations <emphasis>volume</emphasis> ou
-              <emphasis>tome</emphasis> sont utilisables dès lors que la case
-              « Actif » est cochée.</para>
-            </listitem>
-          </itemizedlist>
-
-          <para>L'incrémentation du numéro se fait :</para>
-
-          <itemizedlist>
-            <listitem>
-              <para>soit tous les X <emphasis role="bold">numéros</emphasis>
-              pour les <emphasis role="bold">volumes</emphasis>, tous les X
-              <emphasis role="bold">volumes</emphasis> pour les <emphasis
-              role="bold">tomes</emphasis>,</para>
+              <para>numéro de départ de l'abonnement : $START_NUM;</para>
             </listitem>
 
             <listitem>
-              <para>soit au bout d'une période.</para>
-            </listitem>
-          </itemizedlist>
-
-          <para>Dans le cas ou la numérotation revient à un numéro de départ
-          tous les X numéros, on cochera la case « Cyclique » (défini par
-          nombre dans le cycle).</para>
-
-          <para><emphasis role="bold">Exemple</emphasis> le périodique L'Ecole
-          des Parents, a une numérotation cyclique et revient à 1 tous les 12
-          numéros ; le numéro de janvier portera toujours le numéro 1. =&gt;
-          Activer alors la case « Cyclique », indiquer 12 dans la case
-          « Nombre dans le cycle » et 1 dans « Numéro de départ du
-          cycle ».</para>
-        </sect3>
-
-        <sect3>
-          <title>Format de numérotation et format de dates</title>
-
-          <para>Il est possible de définir dans le format d'affichage un
-          format de numéro et un format de date. Ces deux valeurs rempliront
-          dans PMB les champs numéro et libellé de période du bulletin.</para>
-
-          <itemizedlist>
-            <listitem>
-              <para>Dans format de numéro : Pour désigner un périodique dont
-              le numéro est Volume 5 numéro 3, on saisira « Volume $VOL;
-              numéro $NUM; ».</para>
-            </listitem>
-          </itemizedlist>
-
-          <para>Les variables « $VOL; » et « $NUM; » seront remplacées
-          respectivement par le numéro de volume et le numéro, lors de
-          l'enregistrement du bulletin.</para>
-
-          <itemizedlist>
-            <listitem>
-              <para>Dans le format de date : Pour mettre simplement la date,
-              saisir : $DATE;</para>
-            </listitem>
-          </itemizedlist>
-
-          <para><emphasis role="bold">Personnaliser les
-          variables</emphasis></para>
-
-          <para>Les 4 variables de base :<itemizedlist>
-              <listitem>
-                <para>numéro : $NUM;</para>
-              </listitem>
-
-              <listitem>
-                <para>volume : $VOL;</para>
-              </listitem>
-
-              <listitem>
-                <para>tome : $TOM;</para>
-              </listitem>
-
-              <listitem>
-                <para>date : $DATE;</para>
-
-                <para><emphasis>(si aucune fonction de mise en forme n'est
-                appliqué à $DATE;, le format est AAAA-MM-JJ par exemple
-                2007-07-16)</emphasis></para>
-              </listitem>
-            </itemizedlist></para>
-
-          <para>et les 5 variables avancées : <itemizedlist>
-              <listitem>
-                <para>date de début de l'abonnement : $START_DATE;</para>
-              </listitem>
-
-              <listitem>
-                <para>date de fin de l'abonnement : $END_DATE;</para>
-              </listitem>
-
-              <listitem>
-                <para>numéro de départ de l'abonnement : $START_NUM;</para>
-              </listitem>
-
-              <listitem>
-                <para>volume de départ de l'abonnement : $START_VOL;</para>
-              </listitem>
-
-              <listitem>
-                <para>tome de départ de l'abonnement : $START_TOM;</para>
-              </listitem>
-            </itemizedlist></para>
-
-          <para>peuvent être personnalisées en utilisant les fonctions
-          ci-dessous.</para>
-
-          <para>Les principales fonctions sont présentées dans la liste avec
-          leur nom en gras et entre parenthèses le type de variable demandé,
-          sous la forme <emphasis
-          role="bold">fonction</emphasis>(<emphasis>variable</emphasis>);</para>
-
-          <important>
-            <para>Vous trouverez un peu plus loin un aide-mémoire de toutes
-            les fonctions, certaines vous seront nécessaires pour obtenir le
-            résultat souhaité.</para>
-          </important>
-
-          <para>En voici quelques-unes, les plus courantes :</para>
-
-          <itemizedlist>
-            <listitem>
-              <para><emphasis
-              role="bold">#romain(</emphasis>un_nombre<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche la numérotation indiquée, par exemple $NUM; en
-              chiffres romains.</para>
+              <para>volume de départ de l'abonnement : $START_VOL;</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">#date(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche la date dans le format local (JJ/MM/AAAA en France
-              par exemple 16/07/2007)</para>
+              <para>tome de départ de l'abonnement : $START_TOM;</para>
             </listitem>
+          </itemizedlist></para>
+
+        <para>peuvent être personnalisées en utilisant les fonctions
+        ci-dessous.</para>
+
+        <para>Les principales fonctions sont présentées dans la liste avec
+        leur nom en gras et entre parenthèses le type de variable demandé,
+        sous la forme <emphasis
+        role="bold">fonction</emphasis>(<emphasis>variable</emphasis>);</para>
+
+        <important>
+          <para>Vous trouverez un peu plus loin un aide-mémoire de toutes les
+          fonctions, certaines vous seront nécessaires pour obtenir le
+          résultat souhaité.</para>
+        </important>
 
-            <listitem>
-              <para><emphasis role="bold">#day(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
+        <para>En voici quelques-unes, les plus courantes :</para>
 
-              <para>affiche le jour de la date donnée</para>
-            </listitem>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">#romain(</emphasis>un_nombre<emphasis
+            role="bold">);</emphasis></para>
 
-            <listitem>
-              <para><emphasis
-              role="bold">#dayofweek(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
+            <para>affiche la numérotation indiquée, par exemple $NUM; en
+            chiffres romains.</para>
+          </listitem>
 
-              <para>affiche le numéro du jour de la semaine de la date donnée
-              (de 1 à 7)</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis
-              role="bold">#str_day(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche le nom du jour de la semaine de la date donnée
-              (lundi, mardi, etc.)</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold">#str_short
-              day(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche le nom court du jour de la semaine de la date
-              donnée (lun, mar, etc.)</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold">#month(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche le numéro du mois de la date donnée (01, 02,
-              etc.)</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis
-              role="bold">#str_month(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche le nom du mois de la date donnée (janvier,
-              février, etc.)</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis
-              role="bold">#str_short_month(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche le nom court du mois de la date donnée (janvier,
-              février, etc.)</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold">#week(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche le numéro de la semaine de la date donnée (1 à 52
-              ou plus selon les années)</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold">#year(</emphasis>une_date<emphasis
-              role="bold">);</emphasis></para>
-
-              <para>affiche l'année de la date donnée</para>
-            </listitem>
-          </itemizedlist>
-
-          <para>Pour utiliser ces fonctions, saisir de la manière suivante
-          :</para>
-
-          <para><emphasis role="bold">#nom_de_la_fonction(param1,....);
-          </emphasis></para>
-
-          <para>Certaines peuvent accepter plusieurs paramètres.</para>
-
-          <para>Voici quelques exemples de format de numérotation :</para>
-
-          <itemizedlist>
-            <listitem>
-              <para><emphasis role="bold">Tome #romain($TOM;);
-              </emphasis></para>
-
-              <para>Affiche le texte « Tome » puis la variable $TOM; en
-              chiffres romains</para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis role="bold">#str_short_day($DATE;);
-              #day($DATE;);/#str_short_month($DATE;);/
-              #year($DATE;)</emphasis></para>
-
-              <para>Affiche la date $DATE au format <emphasis>mer 18 juillet
-              2007</emphasis></para>
-            </listitem>
-
-            <listitem>
-              <para><emphasis
-              role="bold">#str_short_day($DATE;,en_UK);</emphasis></para>
-
-              <para>Affiche le nom court du jour, en anglais (nom du fichier
-              XML de langue en paramètre optionnel), Il est possible
-              d'utiliser à ce jour : fr_FR pour le français, en_US pour
-              l'anglais US, en_UK pour l'anglais britannique, ar pour l'arabe,
-              nl_NL pour le néerlandais, la_LA pour le laotien, pt_PT pour le
-              portugais, es_ES pour l'espagnol, ca_ES pour le catalan.</para>
-            </listitem>
-          </itemizedlist>
-
-          <para><emphasis role="bold">Générer la grille de réception pour le
-          modèle</emphasis></para>
-
-          <para>Après avoir saisi les paramètres généraux, défini ou non des
-          exclusions de dates, défini la numérotation et les formats
-          d'affichages, cliquer sur enregistrer.</para>
-
-          <figure>
-            <title>Catalogue, périodiques : nouveau modèle,
-            enregistrer</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_modele_generer_grille.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para>Un calendrier apparaît sous le modèle, il est vide. Cliquer
-          sur Générer la grille pour définir les dates de publication du
-          périodique.</para>
-
-          <figure>
-            <title>Catalogue, périodiques : nouveau modèle, générer la
-            grille</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_modele_generer_grille2.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para>La date verte correspond à la date de publication du mensuel.
-          Elle est définie au 19 puisque le modèle a pour date de début le 19
-          juillet 2007.</para>
-
-          <para>Si on souhaite que le 1er numéro publié soit le 1er, il s'agit
-          de modifier la date de début du modèle.</para>
-
-          <figure>
-            <title>Catalogue, périodiques : nouveau modèle, changer la date de
-            début</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_modele_generer_grille3.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para>Cliquer ensuite sur Générer la grille pour mettre à jour le
-          calendrier.</para>
-
-          <figure>
-            <title>Catalogue, périodiques : nouveau modèle, générer la
-            grille</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_modele_generer_grille4.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para>Cliquer sur Enregistrer pour enregistrer le modèle.</para>
-
-          <para><emphasis role="bold">Modifier manuellement le
-          modèle</emphasis></para>
-
-          <para>Les cases dans le calendrier, représentant chaque jour, sont
-          cliquables à deux endroits :</para>
-
-          <figure>
-            <title>Catalogue, périodiques : nouveau modèle, générer la grille
-            : identifier où cliquer pour modifier le modèle</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_modele_generer_grille4.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para><itemizedlist>
-              <listitem>
-                <para>partie verte :</para>
-
-                <para><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/catalogue_periodique_modele_modifier_grille.gif" />
-                    </imageobject>
-                  </inlinemediaobject> Un clic dans la case d'un numéro permet
-                d'annuler ou de prévoir une réception prévue (partie verte) :
-                ceci permet d'annuler un numéro.</para>
-              </listitem>
-
-              <listitem>
-                <para>lien du numéro du jour :</para>
-
-                <para><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/catalogue_periodique_modele_modifier_grille.gif" />
-                    </imageobject>
-                  </inlinemediaobject> Une boîte de dialogue s'ouvre
-                permettant de définir pour la date choisie (ici le 01/07/2007)
-                la réception d'un ou plusieurs bulletins de la série
-                correspondante au modèle, ici un cahier principal.</para>
-
-                <para><inlinemediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/catalogue_periodique_modele_modifier_grille2.gif" />
-                    </imageobject>
-                  </inlinemediaobject></para>
-
-                <para>Il est également possible de recevoir un bulletin en
-                dehors de la série.</para>
-
-                <para>Si ce bulletin hors de la série, cette publication
-                exceptionnelle est unique, et qu'on peut prévoir sa réception
-                à l'avance, on peut utiliser Hors-série pour cela. Par
-                exemple, si pour fêter le numéro 100 d'une revue, cette revue
-                réédite 100 de ses meilleurs articles dans un supplément
-                exceptionnel, joint au numéro du 01/07/2007. Dans ce cas, on
-                pourra cocher Hors-Série et dans "attribuer un numéro", on
-                saisira par exemple "supplément numéro 100 : les 100 meilleurs
-                articles" dans Attribuer un numéro.</para>
-
-                <para><important>
-                    <para>il s'agit ici d'un élément unique, non régulier
-                    (donc différent d'un hors-série régulier pour lequel on
-                    créera un modèle spécifique).</para>
-                  </important><emphasis role="bold">Exemple</emphasis> : le
-                numéro exceptionnel 100 d'une revue sera accompagné d'un petit
-                livret rassemblant différents articles des 99 numéros
-                précédents. Ce petit livret sera hors de la série, avec pour
-                numéro « Supplément au numéro 100 ».</para>
-              </listitem>
-            </itemizedlist><emphasis role="bold">A propos du bouton
-          Enregistrer</emphasis></para>
-
-          <para>Le bouton Enregistrer enregistre les modifications liées au
-          modèle (paramètres généraux, exclusion de date, format d'affichage).
-          Toute modification dans le calendrier est automatiquement
-          enregistrée, il n'est donc utile de cliquer sur Enregistrer à chaque
-          modification dans le calendrier.</para>
-
-          <para>Pour quitter le modèle, cliquer sur Retour.</para>
-
-          <para><emphasis role="bold">A propos du bouton Générer la
-          grille</emphasis></para>
-
-          <para>Le bouton Générer la grille regénère toute la grille par
-          défaut et écrase toutes les modifications apportées manuellement à
-          la grille du calendrier.</para>
-
-          <para><emphasis role="bold">Plusieurs modèles</emphasis></para>
-
-          <para>Si le périodique a des hors-séries réguliers, par exemple un
-          hors-série semestriel, il faut créer autant de modèles que de
-          suppléments réguliers possibles : un hors-série semestriel, un
-          cédérom annuel, etc.</para>
-
-          <figure>
-            <title>Catalogue, périodiques : liste des modèles</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_liste_modeles.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-        </sect3>
-      </sect2>
-
-      <sect2>
-        <title>Abonnements</title>
+          <listitem>
+            <para><emphasis role="bold">#date(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche la date dans le format local (JJ/MM/AAAA en France
+            par exemple 16/07/2007)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">#day(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche le jour de la date donnée</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis
+            role="bold">#dayofweek(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche le numéro du jour de la semaine de la date donnée
+            (de 1 à 7)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">#str_day(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche le nom du jour de la semaine de la date donnée
+            (lundi, mardi, etc.)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">#str_short
+            day(</emphasis>une_date<emphasis role="bold">);</emphasis></para>
+
+            <para>affiche le nom court du jour de la semaine de la date donnée
+            (lun, mar, etc.)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">#month(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche le numéro du mois de la date donnée (01, 02,
+            etc.)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis
+            role="bold">#str_month(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche le nom du mois de la date donnée (janvier, février,
+            etc.)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis
+            role="bold">#str_short_month(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche le nom court du mois de la date donnée (janvier,
+            février, etc.)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">#week(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche le numéro de la semaine de la date donnée (1 à 52 ou
+            plus selon les années)</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">#year(</emphasis>une_date<emphasis
+            role="bold">);</emphasis></para>
+
+            <para>affiche l'année de la date donnée</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Pour utiliser ces fonctions, saisir de la manière suivante
+        :</para>
+
+        <para><emphasis role="bold">#nom_de_la_fonction(param1,....);
+        </emphasis></para>
+
+        <para>Certaines peuvent accepter plusieurs paramètres.</para>
+
+        <para>Voici quelques exemples de format de numérotation :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Tome #romain($TOM;);
+            </emphasis></para>
+
+            <para>Affiche le texte « Tome » puis la variable $TOM; en chiffres
+            romains</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">#str_short_day($DATE;);
+            #day($DATE;);/#str_short_month($DATE;);/
+            #year($DATE;)</emphasis></para>
+
+            <para>Affiche la date $DATE au format <emphasis>mer 18 juillet
+            2007</emphasis></para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis
+            role="bold">#str_short_day($DATE;,en_UK);</emphasis></para>
+
+            <para>Affiche le nom court du jour, en anglais (nom du fichier XML
+            de langue en paramètre optionnel), Il est possible d'utiliser à ce
+            jour : fr_FR pour le français, en_US pour l'anglais US, en_UK pour
+            l'anglais britannique, ar pour l'arabe, nl_NL pour le néerlandais,
+            la_LA pour le laotien, pt_PT pour le portugais, es_ES pour
+            l'espagnol, ca_ES pour le catalan.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para><emphasis role="bold">Générer la grille de réception pour le
+        modèle</emphasis></para>
+
+        <para>Après avoir saisi les paramètres généraux, défini ou non des
+        exclusions de dates, défini la numérotation et les formats
+        d'affichages, cliquer sur enregistrer.</para>
+
+        <figure>
+          <title>Catalogue, périodiques : nouveau modèle, enregistrer</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm" 
+                         fileref="images/catalogue_periodique_modele_generer_grille.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Un calendrier apparaît sous le modèle, il est vide. Cliquer sur
+        Générer la grille pour définir les dates de publication du
+        périodique.</para>
+
+        <figure>
+          <title>Catalogue, périodiques : nouveau modèle, générer la
+          grille</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/catalogue_periodique_modele_generer_grille2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>La date verte correspond à la date de publication du mensuel.
+        Elle est définie au 19 puisque le modèle a pour date de début le 19
+        juillet 2007.</para>
+
+        <para>Si on souhaite que le 1er numéro publié soit le 1er, il s'agit
+        de modifier la date de début du modèle.</para>
+
+        <figure>
+          <title>Catalogue, périodiques : nouveau modèle, changer la date de
+          début</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="3cm"
+                         fileref="images/catalogue_periodique_modele_generer_grille3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Cliquer ensuite sur Générer la grille pour mettre à jour le
+        calendrier.</para>
+
+        <figure>
+          <title>Catalogue, périodiques : nouveau modèle, générer la
+          grille</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="5cm"
+                         fileref="images/catalogue_periodique_modele_generer_grille4.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Cliquer sur Enregistrer pour enregistrer le modèle.</para>
+
+        <para><emphasis role="bold">Modifier manuellement le
+        modèle</emphasis></para>
+
+        <para>Les cases dans le calendrier, représentant chaque jour, sont
+        cliquables à deux endroits :</para>
+
+        <figure>
+          <title>Catalogue, périodiques : nouveau modèle, générer la grille :
+          identifier où cliquer pour modifier le modèle</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="5cm"
+                         fileref="images/catalogue_periodique_modele_generer_grille4.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
 
         <para><itemizedlist>
             <listitem>
-              <para>Un abonnement dans PMB correspond à l'abonnement souscrit
-              par la médiathèque/le centre de documentation au
-              périodique.</para>
+              <para>partie verte :</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/catalogue_periodique_modele_modifier_grille.gif" />
+                  </imageobject>
+                </inlinemediaobject> Un clic dans la case d'un numéro permet
+              d'annuler ou de prévoir une réception prévue (partie verte) :
+              ceci permet d'annuler un numéro.</para>
             </listitem>
 
             <listitem>
-              <para>Il court pour une période définie en mois, entre deux
-              dates.</para>
+              <para>lien du numéro du jour :</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/catalogue_periodique_modele_modifier_grille.gif" />
+                  </imageobject>
+                </inlinemediaobject> Une boîte de dialogue s'ouvre permettant
+              de définir pour la date choisie (ici le 01/07/2007) la réception
+              d'un ou plusieurs bulletins de la série correspondante au
+              modèle, ici un cahier principal.</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentwidth="7cm"
+                               fileref="images/catalogue_periodique_modele_modifier_grille2.gif" />
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>Il est également possible de recevoir un bulletin en
+              dehors de la série.</para>
+
+              <para>Si ce bulletin hors de la série, cette publication
+              exceptionnelle est unique, et qu'on peut prévoir sa réception à
+              l'avance, on peut utiliser Hors-série pour cela. Par exemple, si
+              pour fêter le numéro 100 d'une revue, cette revue réédite 100 de
+              ses meilleurs articles dans un supplément exceptionnel, joint au
+              numéro du 01/07/2007. Dans ce cas, on pourra cocher Hors-Série
+              et dans "attribuer un numéro", on saisira par exemple
+              "supplément numéro 100 : les 100 meilleurs articles" dans
+              Attribuer un numéro.</para>
+
+              <para><important>
+                  <para>il s'agit ici d'un élément unique, non régulier (donc
+                  différent d'un hors-série régulier pour lequel on créera un
+                  modèle spécifique).</para>
+                </important><emphasis role="bold">Exemple</emphasis> : le
+              numéro exceptionnel 100 d'une revue sera accompagné d'un petit
+              livret rassemblant différents articles des 99 numéros
+              précédents. Ce petit livret sera hors de la série, avec pour
+              numéro « Supplément au numéro 100 ».</para>
+            </listitem>
+          </itemizedlist><emphasis role="bold">A propos du bouton
+        Enregistrer</emphasis></para>
+
+        <para>Le bouton Enregistrer enregistre les modifications liées au
+        modèle (paramètres généraux, exclusion de date, format d'affichage).
+        Toute modification dans le calendrier est automatiquement enregistrée,
+        il n'est donc utile de cliquer sur Enregistrer à chaque modification
+        dans le calendrier.</para>
+
+        <para>Pour quitter le modèle, cliquer sur Retour.</para>
+
+        <para><emphasis role="bold">A propos du bouton Générer la
+        grille</emphasis></para>
+
+        <para>Le bouton Générer la grille regénère toute la grille par défaut
+        et écrase toutes les modifications apportées manuellement à la grille
+        du calendrier.</para>
+
+        <para><emphasis role="bold">Plusieurs modèles</emphasis></para>
+
+        <para>Si le périodique a des hors-séries réguliers, par exemple un
+        hors-série semestriel, il faut créer autant de modèles que de
+        suppléments réguliers possibles : un hors-série semestriel, un cédérom
+        annuel, etc.</para>
+
+        <figure>
+          <title>Catalogue, périodiques : liste des modèles</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="7cm"
+                         fileref="images/catalogue_periodique_liste_modeles.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>Abonnements</title>
+
+      <para><itemizedlist>
+          <listitem>
+            <para>Un abonnement dans PMB correspond à l'abonnement souscrit
+            par la médiathèque/le centre de documentation au
+            périodique.</para>
+          </listitem>
+
+          <listitem>
+            <para>Il court pour une période définie en mois, entre deux
+            dates.</para>
+          </listitem>
+
+          <listitem>
+            <para>Si deux abonnements sont souscrits pour le même périodique
+            (pour deux localisations par exemple), on créera deux abonnements
+            dans PMB.</para>
+          </listitem>
+
+          <listitem>
+            <para>Un abonnement est constitué à partir d'un ou plusieurs
+            modèles prévisionnels.</para>
+          </listitem>
+        </itemizedlist>Pour créer un abonnement, cliquer sur
+      Ajouter un abonnement</para>
+
+      <figure>
+        <title>Catalogue, périodiques, création d'un abonnement</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="7cm"
+                       fileref="images/catalogue_periodique_abo_nouveau1.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Saisir un nom et cocher les modèles retenus.</para>
+
+      <para>Il est possible par exemple cocher uniquement les modèles « Cahier
+      général » et « Hors série semestriel » pour un abonnement A (abonnement
+      CDRom annuel non souscrit) et tout cocher pour un abonnement B.</para>
+
+      <para>Une fois l'abonnement créé, le définir plus précisément.</para>
+
+      <figure>
+        <title>Catalogue, périodiques, création d'un abonnement
+        (suite)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="10cm"
+                       fileref="images/catalogue_periodique_abo_nouveau2.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <itemizedlist>
+        <listitem>
+          <para>L'abonnement s'étend entre les dates de début et date de
+          fin.</para>
+        </listitem>
+
+        <listitem>
+          <para>Il est possible de sélectionner le <emphasis
+          role="bold">fournisseur</emphasis> du périodique. La liste des
+          fournisseurs est paramétrable depuis l'onglet Acquisitions &gt;
+          Fournisseurs.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Commentaire</emphasis> permet de saisir
+          un texte libre sur l'abonnement. Ce texte sera affiché lors de toute
+          réception de bulletin.</para>
+        </listitem>
+
+        <listitem>
+          <para>Les informations « <emphasis role="bold">cote, support,
+          localisation, section, propriétaire, statut, code
+          statistique </emphasis>» seront utiles pour l'exemplarisation des
+          numéros reçus ; ces informations seront ainsi présaisies dans chaque
+          exemplaire reçu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Cocher <emphasis role="bold">exemplarisation automatique
+          </emphasis>permet de générer un numéro d'exemplaire automatiquement
+          à la réception du périodique, en fonction du script de
+          numérotation.</para>
+
+          <para>Si l'exemplarisation automatique n'est pas activée dans
+          l'abonnement, il faudra saisir ou doucheter un numéro d'exemplaire
+          pour affecter un code-barres à chaque numéro reçu.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Les modèles sélectionnés sont ensuite récapitulés :</para>
+
+      <figure>
+        <title>Catalogue, périodiques, création d'un abonnement
+        (suite)</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="10cm"
+                       fileref="images/catalogue_periodique_abo_nouveau3.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Numéro de départ </emphasis>: permet de
+          générer la numérotation du numéro.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Numéro de départ du volume</emphasis> :
+          permet de générer la numérotation du volume. Ce champ du formulaire
+          ne sera visible que si votre modèle a l'élément de numérotation
+          <emphasis>volume </emphasis>activé. Si vous avez activé l'élément de
+          numérotation <emphasis>tome</emphasis>, vous aurez également un
+          champ de formulaire <emphasis role="bold">Numéro de départ du
+          tome</emphasis>.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Délai avant retard </emphasis>: délai à
+          partir duquel les numéros non bulletinés sont considérés en
+          alerte.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Délai critique</emphasis> : délai à
+          partir duquel les numéros non bulletinés sont considérés en alerte
+          critique.</para>
+        </listitem>
+      </itemizedlist>
+
+      <sect3>
+        <title>Grille de réception des numéros de l'abonnement</title>
+
+        <para>Une fois tous les paramètres définis, cliquer sur
+        Générer la grille pour afficher le calendrier des jours de réception
+        des numéros de périodique.</para>
+      </sect3>
+
+      <sect3>
+        <title>Modifier manuellement l'abonnement</title>
+
+        <para>En cliquant sur une date dans le calendrier, il est possible de
+        modifier la réception du numéro de périodique du jour en
+        question.</para>
+
+        <figure>
+          <title>Catalogue, périodiques, création d'un abonnement :
+          modification manuelle d'une date de réception</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/catalogue_periodique_abo_nouveau4.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>L'affichage est similaire à la modification manuelle du
+        calendrier dans les modèles prévisionnels. Pour un jour spécifique,
+        ici le 01/07/2007, il est possible de définir le nombre de numéros
+        reçus pour chacun des modèles prévisionnels de numérotation.</para>
+
+        <important>
+          <para>l'ajout de numéros Hors-série permet d'ajouter un élément
+          prévu dans un des modèles de numérotation, il ne s'agit pas d'un
+          hors-série trimestriel pour lequel on définit un modèle particulier.
+          Il s'agit d'un numéro exceptionnel reçu en plus du numéro
+          traditionnel.</para>
+        </important>
+
+        <para><emphasis role="bold">Exemple </emphasis>: pour une vidéo
+        spéciale expédiée avec un hors série semestriel, il faudra ajouter un
+        numéro Hors-série qui permettra de signaler la réception de cette
+        vidéo.</para>
+
+        <figure>
+          <title>Catalogue, périodiques, ajout d'un hors-série à un
+          abonnement</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/catalogue_periodique_abo_hors_serie.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>L'ajout de ces numéros hors de toute numérotation prédéfinie,
+        est symbolisée par un changement de couleur dans le calendrier.</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/catalogue_periodique_abo_modifier_grille1.gif" />
+            </imageobject>
+          </inlinemediaobject> En vert : un ou plusieurs numéros attendus
+        selon les règles définies dans les modèles sélectionnés.</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/catalogue_periodique_abo_modifier_grille2.gif" />
+            </imageobject>
+          </inlinemediaobject> En orange : un ou plusieurs numéros attendus
+        selon les règles définies dans les modèles sélectionnés et au moins un
+        numéro en dehors des règles prédéfinies.</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/catalogue_periodique_abo_modifier_grille3.gif" />
+            </imageobject>
+          </inlinemediaobject> En rouge : uniquement un ou plusieurs numéros
+        en dehors des règles définies dans les modèles sont attendus.</para>
+
+        <table width="12cm">
+          <title>Liste des variables</title>
+
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry><emphasis role="bold">Fonction</emphasis></entry>
+
+                <entry><emphasis role="bold">Commentaire</emphasis></entry>
+              </row>
+
+              <row>
+                <entry>$DATE;</entry>
+
+                <entry>Date courante</entry>
+              </row>
+
+              <row>
+                <entry>$START_DATE;</entry>
+
+                <entry>Date de début de l'abonnement</entry>
+              </row>
+
+              <row>
+                <entry>$END_DATE;</entry>
+
+                <entry>Date de fin de l'abonnement</entry>
+              </row>
+
+              <row>
+                <entry>$NUM;</entry>
+
+                <entry>Numéro courant</entry>
+              </row>
+
+              <row>
+                <entry>$START_NUM;</entry>
+
+                <entry>Numéro de départ de l'abonnement</entry>
+              </row>
+
+              <row>
+                <entry>$VOL;</entry>
+
+                <entry>Volume courant</entry>
+              </row>
+
+              <row>
+                <entry>$START_VOL;</entry>
+
+                <entry>Volume de départ de l'abonnement</entry>
+              </row>
+
+              <row>
+                <entry>$TOM;</entry>
+
+                <entry>Tome courant</entry>
+              </row>
+
+              <row>
+                <entry>$START_TOM;</entry>
+
+                <entry>Tome de départ de l'abonnement</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <table width="12cm">
+          <title>Liste des fonctions</title>
+
+          <tgroup cols="4">
+            <tbody>
+              <row>
+                <entry><emphasis role="bold">Fonction</emphasis></entry>
+
+                <entry><emphasis role="bold">Syntaxe</emphasis></entry>
+
+                <entry><emphasis role="bold">Commentaire</emphasis></entry>
+
+                <entry><para><emphasis
+                role="bold">Exemple</emphasis></para><para><emphasis
+                role="bold">lundi 16 juillet</emphasis></para></entry>
+              </row>
+
+              <row>
+                <entry>date</entry>
+
+                <entry>#date(date);</entry>
+
+                <entry>Affiche la date dans le format local (JJ/MM/AAAA en
+                France par exemple 16/07/2007)</entry>
+
+                <entry>#date($DATE;); <para><emphasis>16/07/2007
+                </emphasis></para></entry>
+              </row>
+
+              <row>
+                <entry>day</entry>
+
+                <entry>#day(date);</entry>
+
+                <entry>Affiche le jour de la date donnée</entry>
+
+                <entry>#day($DATE;); <para>16</para></entry>
+              </row>
+
+              <row>
+                <entry>dayofweek</entry>
+
+                <entry>#dayofweek(date);</entry>
+
+                <entry>Affiche le numéro du jour de la semaine de la date
+                donnée (de 1 à 7)</entry>
+
+                <entry>#dayofweek($DATE;); <para>1</para></entry>
+              </row>
+
+              <row>
+                <entry>month</entry>
+
+                <entry>#month(date);</entry>
+
+                <entry>Affiche le numéro du mois de la date donnée (01, 02,
+                etc.)</entry>
+
+                <entry>#month($DATE;); <para>07</para></entry>
+              </row>
+
+              <row>
+                <entry>romain</entry>
+
+                <entry>#romain(nombre);</entry>
+
+                <entry>Affiche la numérotation en chiffres romains</entry>
+
+                <entry>Si le numéro du tome est 16 #romain($TOM;); <para>XVI
+                </para></entry>
+              </row>
+
+              <row>
+                <entry>season</entry>
+
+                <entry>#season(date);</entry>
+
+                <entry>Affiche le numéro de la saison dans l'hémisphère
+                nord</entry>
+
+                <entry>#season($DATE;); <para>3 (Eté)</para></entry>
+              </row>
+
+              <row>
+                <entry>seasonS</entry>
+
+                <entry>#seasonS(date);</entry>
+
+                <entry>Affiche le numéro de la saison dans l'hémisphère
+                sud</entry>
+
+                <entry>#season($DATE;); <para>1 (correspond à
+                hiver)</para></entry>
+              </row>
+
+              <row>
+                <entry>SET</entry>
+
+                <entry>#SET(nom_de_variable, valeur);</entry>
+
+                <entry>Définit une variable en lui affectant une
+                valeur</entry>
+
+                <entry>#set($DATEMOIS;, $day($DATE;);-$month($DATE;); );
+                DATEMOIS vaut 16/07</entry>
+              </row>
+
+              <row>
+                <entry>sql</entry>
+
+                <entry>#sql(requete_mysql);</entry>
+
+                <entry>Renvoie le résultat retourné par l'exécution de la
+                requête MySQL</entry>
+
+                <entry>#sql(SELECT 1+4); <para>5 </para></entry>
+              </row>
+
+              <row>
+                <entry>str_day</entry>
+
+                <entry>#str_day(date);</entry>
+
+                <entry>Affiche le nom du jour de la semaine de la date donnée
+                (lundi, mardi, etc.)</entry>
+
+                <entry>#str_day($DATE;); lundi #str_day($DATE;,en_US); monday
+                #str_day($DATE;,it_IT); lunedi</entry>
+              </row>
+
+              <row>
+                <entry>str_month</entry>
+
+                <entry>#str_month(date);</entry>
+
+                <entry>Affiche le nom du mois de la date donnée</entry>
+
+                <entry>#str_month($DATE;); juillet #str_month($DATE;,it_IT);
+                luglio</entry>
+              </row>
+
+              <row>
+                <entry>str_season</entry>
+
+                <entry>#str_season(date);</entry>
+
+                <entry>Affiche le nom de la saison dans l'hémisphère
+                nord</entry>
+
+                <entry>#str_season($DATE;); été #str_season($DATE;,en_US);
+                summer</entry>
+              </row>
+
+              <row>
+                <entry>str_seasonS</entry>
+
+                <entry>#str_seasonS(date);</entry>
+
+                <entry>Affiche le nom de la saison dans l'hémisphère
+                sud</entry>
+
+                <entry>#str_seasonS($DATE;); hiver #str_seasonS($DATE;,en_US);
+                winter</entry>
+              </row>
+
+              <row>
+                <entry>str_short_day</entry>
+
+                <entry>#str_short_day(date);</entry>
+
+                <entry>Affiche le nom court du jour (nom du fichier XML de
+                langue en parametre optionnel),</entry>
+
+                <entry>#str_short_day($DATE;); lun
+                #str_short_day($DATE;,en_US); mon</entry>
+              </row>
+
+              <row>
+                <entry>week</entry>
+
+                <entry>#week(date);</entry>
+
+                <entry>Affiche le numéro de la semaine de la date
+                donnée</entry>
+
+                <entry>#week($DATE;); 29</entry>
+              </row>
+
+              <row>
+                <entry>year</entry>
+
+                <entry>#year(date);</entry>
+
+                <entry>Affiche l'année de la date donnée</entry>
+
+                <entry>#year($DATE;); 2007</entry>
+              </row>
+
+              <row>
+                <entry>+</entry>
+
+                <entry>#+(nombre1,nombre2);</entry>
+
+                <entry>Additionne nombre1 et nombre2</entry>
+
+                <entry>#+(11,11); 22 <para><emphasis>exemple d'utilisation:
+                libellé de période d'un hebdomadaire qui paraît le lundi,
+                semaine du 16 au 22 juillet</emphasis></para></entry>
+              </row>
+
+              <row>
+                <entry>+day </entry>
+
+                <entry>#+day(date,nb de jours);</entry>
+
+                <entry>Ajoute nb de jours à la date</entry>
+
+                <entry>#+day($DATE;,1);); 2007-07-17</entry>
+              </row>
+
+              <row>
+                <entry>+month</entry>
+
+                <entry>#+month(date,nb de mois);</entry>
+
+                <entry>Ajoute nb de mois à la date</entry>
+
+                <entry>#+month($DATE;,1);); 2007-08-16</entry>
+              </row>
+
+              <row>
+                <entry>+year</entry>
+
+                <entry>#+year(date,nb d'années);</entry>
+
+                <entry>Ajoute nb d'années à la date</entry>
+
+                <entry>#+year($DATE;,1);); 2008-07-16</entry>
+              </row>
+
+              <row>
+                <entry>-</entry>
+
+                <entry>#-(nombre1,nombre2);</entry>
+
+                <entry>Soustrait nombre2 à nombre1</entry>
+
+                <entry>#-(20,4); 16 <para><emphasis>exemple : libellé de
+                période d'un hebdomadaire qui paraît le mercredi, semaine du
+                16 au 22 juillet</emphasis></para></entry>
+              </row>
+
+              <row>
+                <entry>-day</entry>
+
+                <entry>#-day(date,nb de jour););</entry>
+
+                <entry>Soustrait nb de jours à la date</entry>
+
+                <entry>#-day($DATE;,1);); <para>2007-07-15</para></entry>
+              </row>
+
+              <row>
+                <entry>-month</entry>
+
+                <entry>#-month(date,nb de mois););</entry>
+
+                <entry>Soustrait nb de mois à la date</entry>
+
+                <entry>#-month($DATE;,1);); <para>2007-06-16</para></entry>
+              </row>
+
+              <row>
+                <entry>-year</entry>
+
+                <entry>#-year(date,nb d'années););</entry>
+
+                <entry>Soustrait nb d'années à la date</entry>
+
+                <entry>#-year($DATE;,1);); <para>2006-07-16 </para></entry>
+              </row>
+
+              <row>
+                <entry>*</entry>
+
+                <entry>#*(nombre1,nombre2);</entry>
+
+                <entry>Multiplie nombre1 par nombre2</entry>
+
+                <entry>#*(2,3); <para>6</para></entry>
+              </row>
+
+              <row>
+                <entry>/</entry>
+
+                <entry>#/(nombre1,nombre2);</entry>
+
+                <entry>Divise nombre1 par nombre2, le résultat de la division
+                renvoyé est tronqué à la virgule. Le résultat est un nombre
+                entier, sans décimale.</entry>
+
+                <entry></entry>
+              </row>
+
+              <row>
+                <entry>%</entry>
+
+                <entry>#%(nombre1, nombre2);</entry>
+
+                <entry>Renvoie le reste de la division (modulo) de nombre1 par
+                nombre2</entry>
+
+                <entry></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para></para>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>Bulletinage</title>
+
+      <para>Le bulletinage permet d'enregistrer dans PMB les numéros de
+      périodiques et de les exemplariser.</para>
+
+      <para>Chemin : Catalogue &gt; Bulletinage</para>
+
+      <para>Le menu déroulant « Localisation » permet de filtrer par la
+      localisation, la liste des bulletins</para>
+
+      <figure>
+        <title>Catalogage, périodiques : bulletinage</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="10cm"
+                       fileref="images/catalogue_periodique_bulletinage1.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>Selon le niveau de retard, les numéros apparaîtront :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>à recevoir</para>
+        </listitem>
+
+        <listitem>
+          <para>en retard</para>
+        </listitem>
+
+        <listitem>
+          <para>en alerte</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Pour enregistrer un bulletin, vous devez :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>Cocher « Reçu » dès la réception d'un numéro :</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>une fenêtre s'ouvre et permet d'exemplariser le bulletin
+              reçu (attribution d'un code-barres et d'une cote
+              notamment).</para>
             </listitem>
 
             <listitem>
-              <para>Si deux abonnements sont souscrits pour le même périodique
-              (pour deux localisations par exemple), on créera deux
-              abonnements dans PMB.</para>
+              <para>si « exemplarisation automatique » avait été activée, le
+              bulletin est exemplarisé automatiquement et ceci de manière
+              transparente.</para>
             </listitem>
 
             <listitem>
-              <para>Un abonnement est constitué à partir d'un ou plusieurs
-              modèles prévisionnels.</para>
+              <para>Pour visualiser le bulletin, cliquer sur Voir le
+              bulletin</para>
             </listitem>
-          </itemizedlist>Pour créer un abonnement, cliquer sur
-        Ajouter un abonnement</para>
-
-        <figure>
-          <title>Catalogue, périodiques, création d'un abonnement</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/catalogue_periodique_abo_nouveau1.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>Saisir un nom et cocher les modèles retenus.</para>
-
-        <para>Il est possible par exemple cocher uniquement les modèles
-        « Cahier général » et « Hors série semestriel » pour un abonnement A
-        (abonnement CDRom annuel non souscrit) et tout cocher pour un
-        abonnement B.</para>
-
-        <para>Une fois l'abonnement créé, le définir plus précisément.</para>
-
-        <figure>
-          <title>Catalogue, périodiques, création d'un abonnement
-          (suite)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/catalogue_periodique_abo_nouveau2.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <itemizedlist>
-          <listitem>
-            <para>L'abonnement s'étend entre les dates de début et date de
-            fin.</para>
-          </listitem>
-
-          <listitem>
-            <para>Il est possible de sélectionner le <emphasis
-            role="bold">fournisseur</emphasis> du périodique. La liste des
-            fournisseurs est paramétrable depuis l'onglet Acquisitions &gt;
-            Fournisseurs.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">Commentaire</emphasis> permet de
-            saisir un texte libre sur l'abonnement. Ce texte sera affiché lors
-            de toute réception de bulletin.</para>
-          </listitem>
-
-          <listitem>
-            <para>Les informations « <emphasis role="bold">cote, support,
-            localisation, section, propriétaire, statut, code
-            statistique </emphasis>» seront utiles pour l'exemplarisation des
-            numéros reçus ; ces informations seront ainsi présaisies dans
-            chaque exemplaire reçu.</para>
-          </listitem>
-
-          <listitem>
-            <para>Cocher <emphasis role="bold">exemplarisation automatique
-            </emphasis>permet de générer un numéro d'exemplaire
-            automatiquement à la réception du périodique, en fonction du
-            script de numérotation.</para>
-
-            <para>Si l'exemplarisation automatique n'est pas activée dans
-            l'abonnement, il faudra saisir ou doucheter un numéro d'exemplaire
-            pour affecter un code-barres à chaque numéro reçu.</para>
-          </listitem>
-        </itemizedlist>
-
-        <para>Les modèles sélectionnés sont ensuite récapitulés :</para>
-
-        <figure>
-          <title>Catalogue, périodiques, création d'un abonnement
-          (suite)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/catalogue_periodique_abo_nouveau3.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">Numéro de départ </emphasis>: permet
-            de générer la numérotation du numéro.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">Numéro de départ du volume</emphasis>
-            : permet de générer la numérotation du volume. Ce champ du
-            formulaire ne sera visible que si votre modèle a l'élément de
-            numérotation <emphasis>volume </emphasis>activé. Si vous avez
-            activé l'élément de numérotation <emphasis>tome</emphasis>, vous
-            aurez également un champ de formulaire <emphasis
-            role="bold">Numéro de départ du tome</emphasis>.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">Délai avant retard </emphasis>: délai
-            à partir duquel les numéros non bulletinés sont considérés en
-            alerte.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">Délai critique</emphasis> : délai à
-            partir duquel les numéros non bulletinés sont considérés en alerte
-            critique.</para>
-          </listitem>
-        </itemizedlist>
-
-        <sect3>
-          <title>Grille de réception des numéros de l'abonnement</title>
-
-          <para>Une fois tous les paramètres définis, cliquer sur
-          Générer la grille pour afficher le calendrier des jours de réception
-          des numéros de périodique.</para>
-        </sect3>
-
-        <sect3>
-          <title>Modifier manuellement l'abonnement</title>
-
-          <para>En cliquant sur une date dans le calendrier, il est possible
-          de modifier la réception du numéro de périodique du jour en
-          question.</para>
-
-          <figure>
-            <title>Catalogue, périodiques, création d'un abonnement :
-            modification manuelle d'une date de réception</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_abo_nouveau4.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para>L'affichage est similaire à la modification manuelle du
-          calendrier dans les modèles prévisionnels. Pour un jour spécifique,
-          ici le 01/07/2007, il est possible de définir le nombre de numéros
-          reçus pour chacun des modèles prévisionnels de numérotation.</para>
-
-          <important>
-            <para>l'ajout de numéros Hors-série permet d'ajouter un élément
-            prévu dans un des modèles de numérotation, il ne s'agit pas d'un
-            hors-série trimestriel pour lequel on définit un modèle
-            particulier. Il s'agit d'un numéro exceptionnel reçu en plus du
-            numéro traditionnel.</para>
-          </important>
-
-          <para><emphasis role="bold">Exemple </emphasis>: pour une vidéo
-          spéciale expédiée avec un hors série semestriel, il faudra ajouter
-          un numéro Hors-série qui permettra de signaler la réception de cette
-          vidéo.</para>
-
-          <figure>
-            <title>Catalogue, périodiques, ajout d'un hors-série à un
-            abonnement</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_abo_hors_serie.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
-
-          <para>L'ajout de ces numéros hors de toute numérotation prédéfinie,
-          est symbolisée par un changement de couleur dans le
-          calendrier.</para>
-
-          <para><inlinemediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_abo_modifier_grille1.gif" />
-              </imageobject>
-            </inlinemediaobject> En vert : un ou plusieurs numéros attendus
-          selon les règles définies dans les modèles sélectionnés.</para>
-
-          <para><inlinemediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_abo_modifier_grille2.gif" />
-              </imageobject>
-            </inlinemediaobject> En orange : un ou plusieurs numéros attendus
-          selon les règles définies dans les modèles sélectionnés et au moins
-          un numéro en dehors des règles prédéfinies.</para>
-
-          <para><inlinemediaobject>
-              <imageobject>
-                <imagedata fileref="images/catalogue_periodique_abo_modifier_grille3.gif" />
-              </imageobject>
-            </inlinemediaobject> En rouge : uniquement un ou plusieurs numéros
-          en dehors des règles définies dans les modèles sont attendus.</para>
-
-          <table>
-            <title>Liste des variables</title>
-
-            <tgroup cols="2">
-              <tbody>
-                <row>
-                  <entry><emphasis role="bold">Fonction</emphasis></entry>
-
-                  <entry><emphasis role="bold">Commentaire</emphasis></entry>
-                </row>
-
-                <row>
-                  <entry>$DATE;</entry>
-
-                  <entry>Date courante</entry>
-                </row>
-
-                <row>
-                  <entry>$START_DATE;</entry>
-
-                  <entry>Date de début de l'abonnement</entry>
-                </row>
-
-                <row>
-                  <entry>$END_DATE;</entry>
-
-                  <entry>Date de fin de l'abonnement</entry>
-                </row>
-
-                <row>
-                  <entry>$NUM;</entry>
-
-                  <entry>Numéro courant</entry>
-                </row>
-
-                <row>
-                  <entry>$START_NUM;</entry>
-
-                  <entry>Numéro de départ de l'abonnement</entry>
-                </row>
-
-                <row>
-                  <entry>$VOL;</entry>
-
-                  <entry>Volume courant</entry>
-                </row>
-
-                <row>
-                  <entry>$START_VOL;</entry>
-
-                  <entry>Volume de départ de l'abonnement</entry>
-                </row>
-
-                <row>
-                  <entry>$TOM;</entry>
-
-                  <entry>Tome courant</entry>
-                </row>
-
-                <row>
-                  <entry>$START_TOM;</entry>
-
-                  <entry>Tome de départ de l'abonnement</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table>
-
-          <table>
-            <title>Liste des fonctions</title>
-
-            <tgroup cols="4">
-              <tbody>
-                <row>
-                  <entry><emphasis role="bold">Fonction</emphasis></entry>
-
-                  <entry><emphasis role="bold">Syntaxe</emphasis></entry>
-
-                  <entry><emphasis role="bold">Commentaire</emphasis></entry>
-
-                  <entry><para><emphasis
-                  role="bold">Exemple</emphasis></para><para><emphasis
-                  role="bold">lundi 16 juillet</emphasis></para></entry>
-                </row>
-
-                <row>
-                  <entry>date</entry>
-
-                  <entry>#date(date);</entry>
-
-                  <entry>Affiche la date dans le format local (JJ/MM/AAAA en
-                  France par exemple 16/07/2007)</entry>
-
-                  <entry>#date($DATE;); <para><emphasis>16/07/2007
-                  </emphasis></para></entry>
-                </row>
-
-                <row>
-                  <entry>day</entry>
-
-                  <entry>#day(date);</entry>
-
-                  <entry>Affiche le jour de la date donnée</entry>
-
-                  <entry>#day($DATE;); <para>16</para></entry>
-                </row>
-
-                <row>
-                  <entry>dayofweek</entry>
-
-                  <entry>#dayofweek(date);</entry>
-
-                  <entry>Affiche le numéro du jour de la semaine de la date
-                  donnée (de 1 à 7)</entry>
-
-                  <entry>#dayofweek($DATE;); <para>1</para></entry>
-                </row>
-
-                <row>
-                  <entry>month</entry>
-
-                  <entry>#month(date);</entry>
-
-                  <entry>Affiche le numéro du mois de la date donnée (01, 02,
-                  etc.)</entry>
-
-                  <entry>#month($DATE;); <para>07</para></entry>
-                </row>
-
-                <row>
-                  <entry>romain</entry>
-
-                  <entry>#romain(nombre);</entry>
-
-                  <entry>Affiche la numérotation en chiffres romains</entry>
-
-                  <entry>Si le numéro du tome est 16 #romain($TOM;); <para>XVI
-                  </para></entry>
-                </row>
-
-                <row>
-                  <entry>season</entry>
-
-                  <entry>#season(date);</entry>
-
-                  <entry>Affiche le numéro de la saison dans l'hémisphère
-                  nord</entry>
-
-                  <entry>#season($DATE;); <para>3 (Eté)</para></entry>
-                </row>
-
-                <row>
-                  <entry>seasonS</entry>
-
-                  <entry>#seasonS(date);</entry>
-
-                  <entry>Affiche le numéro de la saison dans l'hémisphère
-                  sud</entry>
-
-                  <entry>#season($DATE;); <para>1 (correspond à
-                  hiver)</para></entry>
-                </row>
-
-                <row>
-                  <entry>SET</entry>
-
-                  <entry>#SET(nom_de_variable, valeur);</entry>
-
-                  <entry>Définit une variable en lui affectant une
-                  valeur</entry>
-
-                  <entry>#set($DATEMOIS;, $day($DATE;);-$month($DATE;); );
-                  DATEMOIS vaut 16/07</entry>
-                </row>
-
-                <row>
-                  <entry>sql</entry>
-
-                  <entry>#sql(requete_mysql);</entry>
-
-                  <entry>Renvoie le résultat retourné par l'exécution de la
-                  requête MySQL</entry>
-
-                  <entry>#sql(SELECT 1+4); <para>5 </para></entry>
-                </row>
-
-                <row>
-                  <entry>str_day</entry>
-
-                  <entry>#str_day(date);</entry>
-
-                  <entry>Affiche le nom du jour de la semaine de la date
-                  donnée (lundi, mardi, etc.)</entry>
-
-                  <entry>#str_day($DATE;); lundi #str_day($DATE;,en_US);
-                  monday #str_day($DATE;,it_IT); lunedi</entry>
-                </row>
-
-                <row>
-                  <entry>str_month</entry>
-
-                  <entry>#str_month(date);</entry>
-
-                  <entry>Affiche le nom du mois de la date donnée</entry>
-
-                  <entry>#str_month($DATE;); juillet #str_month($DATE;,it_IT);
-                  luglio</entry>
-                </row>
-
-                <row>
-                  <entry>str_season</entry>
-
-                  <entry>#str_season(date);</entry>
-
-                  <entry>Affiche le nom de la saison dans l'hémisphère
-                  nord</entry>
-
-                  <entry>#str_season($DATE;); été #str_season($DATE;,en_US);
-                  summer</entry>
-                </row>
-
-                <row>
-                  <entry>str_seasonS</entry>
-
-                  <entry>#str_seasonS(date);</entry>
-
-                  <entry>Affiche le nom de la saison dans l'hémisphère
-                  sud</entry>
-
-                  <entry>#str_seasonS($DATE;); hiver
-                  #str_seasonS($DATE;,en_US); winter</entry>
-                </row>
-
-                <row>
-                  <entry>str_short_day</entry>
-
-                  <entry>#str_short_day(date);</entry>
-
-                  <entry>Affiche le nom court du jour (nom du fichier XML de
-                  langue en parametre optionnel),</entry>
-
-                  <entry>#str_short_day($DATE;); lun
-                  #str_short_day($DATE;,en_US); mon</entry>
-                </row>
-
-                <row>
-                  <entry>week</entry>
-
-                  <entry>#week(date);</entry>
-
-                  <entry>Affiche le numéro de la semaine de la date
-                  donnée</entry>
-
-                  <entry>#week($DATE;); 29</entry>
-                </row>
-
-                <row>
-                  <entry>year</entry>
-
-                  <entry>#year(date);</entry>
-
-                  <entry>Affiche l'année de la date donnée</entry>
-
-                  <entry>#year($DATE;); 2007</entry>
-                </row>
-
-                <row>
-                  <entry>+</entry>
-
-                  <entry>#+(nombre1,nombre2);</entry>
-
-                  <entry>Additionne nombre1 et nombre2</entry>
-
-                  <entry>#+(11,11); 22 <para><emphasis>exemple d'utilisation:
-                  libellé de période d'un hebdomadaire qui paraît le lundi,
-                  semaine du 16 au 22 juillet</emphasis></para></entry>
-                </row>
-
-                <row>
-                  <entry>+day </entry>
-
-                  <entry>#+day(date,nb de jours);</entry>
-
-                  <entry>Ajoute nb de jours à la date</entry>
-
-                  <entry>#+day($DATE;,1);); 2007-07-17</entry>
-                </row>
-
-                <row>
-                  <entry>+month</entry>
-
-                  <entry>#+month(date,nb de mois);</entry>
-
-                  <entry>Ajoute nb de mois à la date</entry>
-
-                  <entry>#+month($DATE;,1);); 2007-08-16</entry>
-                </row>
-
-                <row>
-                  <entry>+year</entry>
-
-                  <entry>#+year(date,nb d'années);</entry>
-
-                  <entry>Ajoute nb d'années à la date</entry>
-
-                  <entry>#+year($DATE;,1);); 2008-07-16</entry>
-                </row>
-
-                <row>
-                  <entry>-</entry>
-
-                  <entry>#-(nombre1,nombre2);</entry>
-
-                  <entry>Soustrait nombre2 à nombre1</entry>
-
-                  <entry>#-(20,4); 16 <para><emphasis>exemple : libellé de
-                  période d'un hebdomadaire qui paraît le mercredi, semaine du
-                  16 au 22 juillet</emphasis></para></entry>
-                </row>
-
-                <row>
-                  <entry>-day</entry>
-
-                  <entry>#-day(date,nb de jour););</entry>
-
-                  <entry>Soustrait nb de jours à la date</entry>
-
-                  <entry>#-day($DATE;,1);); <para>2007-07-15</para></entry>
-                </row>
-
-                <row>
-                  <entry>-month</entry>
-
-                  <entry>#-month(date,nb de mois););</entry>
-
-                  <entry>Soustrait nb de mois à la date</entry>
-
-                  <entry>#-month($DATE;,1);); <para>2007-06-16</para></entry>
-                </row>
-
-                <row>
-                  <entry>-year</entry>
-
-                  <entry>#-year(date,nb d'années););</entry>
-
-                  <entry>Soustrait nb d'années à la date</entry>
-
-                  <entry>#-year($DATE;,1);); <para>2006-07-16 </para></entry>
-                </row>
-
-                <row>
-                  <entry>*</entry>
-
-                  <entry>#*(nombre1,nombre2);</entry>
-
-                  <entry>Multiplie nombre1 par nombre2</entry>
-
-                  <entry>#*(2,3); <para>6</para></entry>
-                </row>
-
-                <row>
-                  <entry>/</entry>
-
-                  <entry>#/(nombre1,nombre2);</entry>
-
-                  <entry>Divise nombre1 par nombre2, le résultat de la
-                  division renvoyé est tronqué à la virgule. Le résultat est
-                  un nombre entier, sans décimale.</entry>
-
-                  <entry></entry>
-                </row>
-
-                <row>
-                  <entry>%</entry>
-
-                  <entry>#%(nombre1, nombre2);</entry>
-
-                  <entry>Renvoie le reste de la division (modulo) de nombre1
-                  par nombre2</entry>
-
-                  <entry></entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table>
-
-          <para></para>
-        </sect3>
-      </sect2>
-
-      <sect2>
-        <title>Bulletinage</title>
-
-        <para>Le bulletinage permet d'enregistrer dans PMB les numéros de
-        périodiques et de les exemplariser.</para>
-
-        <para>Chemin : Catalogue &gt; Bulletinage</para>
-
-        <para>Le menu déroulant « Localisation » permet de filtrer par la
-        localisation, la liste des bulletins</para>
-
-        <figure>
-          <title>Catalogage, périodiques : bulletinage</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/catalogue_periodique_bulletinage1.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>Selon le niveau de retard, les numéros apparaîtront :</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>à recevoir</para>
-          </listitem>
-
-          <listitem>
-            <para>en retard</para>
-          </listitem>
-
-          <listitem>
-            <para>en alerte</para>
-          </listitem>
-        </itemizedlist>
-
-        <para>Pour enregistrer un bulletin, vous devez :</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Cocher « Reçu » dès la réception d'un numéro :</para>
-
-            <itemizedlist>
-              <listitem>
-                <para>une fenêtre s'ouvre et permet d'exemplariser le bulletin
-                reçu (attribution d'un code-barres et d'une cote
-                notamment).</para>
-              </listitem>
-
-              <listitem>
-                <para>si « exemplarisation automatique » avait été activée, le
-                bulletin est exemplarisé automatiquement et ceci de manière
-                transparente.</para>
-              </listitem>
-
-              <listitem>
-                <para>Pour visualiser le bulletin, cliquer sur Voir le
-                bulletin</para>
-              </listitem>
-            </itemizedlist>
-          </listitem>
-
-          <listitem>
-            <para>Si vous renoncez à recevoir un numéro, il faut alors cocher
-            « Non recevable »</para>
-          </listitem>
-        </itemizedlist>
-
-        <para>Il sera toujours possible ultérieurement d'ajouter manuellement
-        un numéro depuis la notice mère du périodique en cliquant sur
-        Ajouter un numéro ou un bulletin.</para>
-      </sect2>
-    </sect1>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para>Si vous renoncez à recevoir un numéro, il faut alors cocher
+          « Non recevable »</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>Il sera toujours possible ultérieurement d'ajouter manuellement un
+      numéro depuis la notice mère du périodique en cliquant sur
+      Ajouter un numéro ou un bulletin.</para>
+    </sect2>
+  </sect1>
 
   <sect1 id="cat_caddies">
     <title lang="fr">Paniers</title>
@@ -4767,9 +4892,10 @@ order by section_libelle</programlisting>
         <para lang="fr">Vous pouvez ensuite exemplariser l'ouvrage
         recherché.</para>
 
-        <para lang="fr"><emphasis role="bold">Note</emphasis> : la BnF a un
-        certain délai de catalogage. Les dernières nouveautés (publiées depuis
-        moins d'un an) peuvent ne pas être encore cataloguées.</para>
+        <para lang="fr"><remark>La BnF a un certain délai de catalogage.
+        Certaines nouveautés peuvent ne pas être encore cataloguées. Dans ce
+        cas, vous pouvez créer une notice a minima, et la remplacer au bout
+        d'un certain temps par Z39.50.</remark></para>
       </sect3>
     </sect2>
   </sect1>
