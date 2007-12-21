@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Abonnements</title>
+
+  <sect1>
+    <title>Périodicités</title>
+
+    <para>Dans <emphasis>Administration &gt; Abonnements &gt;
+    Périodicités</emphasis>, vous pouvez définir les périodicités de
+    référence. Ces périodicités sont nécessaires pour la création de modèle de
+    périodicité pour vos périodiques et le bulletinage.</para>
+
+    <para>Pour plus d'informations sur la réalisation du bulletinage au
+    quotidien, consultez le <emphasis>Guide de l'utilisateur</emphasis>,
+    chapitre <emphasis>Catalogue</emphasis>, section <emphasis>Utiliser le
+    bulletinage assisté</emphasis>.</para>
+
+    <para>Voici un exemple des périodicités les plus fréquemments utilisées
+    :</para>
+
+    <figure>
+      <title lang="fr">Administration &gt; Abonnements &gt;
+      Périodicités</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata contentwidth="10cm"
+                     fileref="images/administration_abonnements_periodicite.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <sect2>
+      <title>Bimensuel, bimestriel, toutes les deux semaines ?</title>
+
+      <sect3>
+        <title>Définitions</title>
+
+        <para>Un petit rappel de vocabulaire s'impose pour être clair pour ces
+        périodicités souvent mélangées.</para>
+
+        <para>Un bimestre est un regroupement de deux mois, par exemple
+        janvier-février, mars-avril, etc. Un bimestriel paraît donc tous les
+        deux mois. Le suffixe -mestre en français signifie ce regroupement de
+        mois : trimestre, quadrimestre, semestre.</para>
+
+        <para>Un bimensuel est un périodique qui paraît deux fois dans le
+        mois, par exemple le 1er et le 15. Le périodique aura 24 numéros si sa
+        parution est régulière, sans numéro double ou autres
+        subtilités.</para>
+
+        <para>Une publication bi-hebdomadaire, qui paraît toutes les deux
+        semaines, paraît un jeudi sur deux par exemple. Le périodique aura 26
+        numéros si sa parution est régulière puisqu'il y a 52 semaines dans
+        l'année. C'est un cas fréquent pour les périodiques
+        anglo-saxons.</para>
+      </sect3>
+
+      <sect3>
+        <title>Comment les gérer</title>
+
+        <para>Pour le bimestriel, créez une périodicité de 2 mois.</para>
+
+        <para>Pour le bi-hebdomadaire, il suffit de créer une périodicité de
+        14 jours.</para>
+
+        <para>Le bimensuel pose problème à ce niveau. Pour résoudre cela, il
+        faudra utiliser une périodicité journalière. Pour un périodique qui
+        paraît le 1er et le 15, vous devez ensuite exclure du modèle de
+        périodicité les jours du mois du 2 au 14 et du 16 au 31. Seuls
+        resteront valides le 1er et le 15 comme date de réception.</para>
+      </sect3>
+    </sect2>
+  </sect1>
+</chapter>

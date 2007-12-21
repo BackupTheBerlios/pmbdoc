@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_users">
+  <title lang="fr">Utilisateurs</title>
+
+  <para lang="fr">Dans PMB, cette appellation
+  <emphasis>d'utilisateurs</emphasis> correspond aux utilisateurs de
+  l'application et non aux usagers de la bibliothèque, qui sont les
+  emprunteurs. Un utilisateur est par exemple un agent de prêt, un
+  bibliothécaire, un administrateur informatique, etc.</para>
+
+  <sect1>
+    <title lang="fr">Gestion des utilisateurs</title>
+
+    <para lang="fr">La rubrique gestion des utilisateurs de PMB va permettre
+    de créer des profils d'utilisateurs. A chaque compte d'utilisateur est
+    attribué un login et un mot de passe. PMB nécessite au moins un compte
+    administrateur (Super User). Ce compte ne peut pas être effacé depuis
+    PMB.</para>
+
+    <para lang="fr">Si vous avez chargé le jeu de test opérationnel de PMB,
+    vous disposez également de trois comptes supplémentaires : bibliothécaire
+    (nom d'utilisateur : <emphasis>bib</emphasis> ; mot de passe :
+    <emphasis>bib</emphasis>), catalogueur (<emphasis>cat</emphasis> ;
+    <emphasis>cat</emphasis>), chargé de prêt (<emphasis>circ</emphasis> ;
+    <emphasis>circ</emphasis>).</para>
+
+    <para lang="fr">Les droits d'accès aux différentes parties du logiciel
+    sont gérés en fonction des onglets. Selon le droit d'accès (cadenas
+    ouvert) ou l'interdiction (cadenas verrouillé), l'onglet concerné
+    s'affichera ou non. Une seule exception à cette règle est la fonction de
+    sauvegarde qui n'est pas présentée dans PMB comme un onglet.</para>
+
+    <para lang="fr">Vous pouvez ici modifier un utilisateur et modifier son
+    mot de passe. Cette dernière fonction est utile lors d'un changement de
+    personne à un poste, ou lors de la perte d'un mot de passe. L'utilisateur
+    peut librement changer son mot de passe sans demander à l'administrateur
+    de le faire, en passant par les préférences utilisateurs (lien préf. en
+    haut à droite de l'écran).</para>
+
+    <figure>
+      <title lang="fr">Gestion des utilisateurs</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata contentwidth="8cm"
+                     fileref="images/admin_util_gestion.gif" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Les préférences d'un utilisateur, accessibles en cliquant
+    sur le bouton modifier, correspondent aux préférences utilisateurs,
+    accessibles depuis le lien préf. à côté du lien quitter.</para>
+  </sect1>
+
+  <sect1>
+    <title>Droits dans PMB</title>
+
+    <itemizedlist>
+      <listitem>
+        <para>circulation</para>
+
+        <para>Correspond à l'onglet Circulation de PMB et permet de réaliser
+        des prêts, des retours de documents, des réservations, d'enregistrer
+        des lecteurs...</para>
+      </listitem>
+
+      <listitem>
+        <para>circulation restreinte</para>
+
+        <para>N'est pas un droit mais plutôt une limitation des droits de
+        l'utilisateur dans l'onglet circulation. "circulation restreinte"
+        limite les options disponibles</para>
+      </listitem>
+
+      <listitem>
+        <para>catalogage</para>
+
+        <para>Correspond à l'onglet Catalogage. Permet de cataloguer des
+        documents, des périodiques, d'ajouter ou de supprimer des exemplaires,
+        des notices, d'utiliser les paniers, etc. Le droit d'ajouter des
+        catégories pendant le catalogage est géré par un droit
+        spécifique.</para>
+      </listitem>
+
+      <listitem>
+        <para>autorités</para>
+
+        <para>Correspond à l'onglet Autorités, à l'exception de la gestion des
+        catégories, qui correspond à un droit spécifique. Permet de créer,
+        modifier et supprimer des auteurs, des éditeurs, des collections, des
+        indexations décimales, etc. depuis l'onglet Autorités. Cependant, le
+        droit "autorités" n'est pas nécessaire pour ajouter une autorité lors
+        du catalogage.</para>
+      </listitem>
+
+      <listitem>
+        <para>catégories</para>
+
+        <para>Correspond à l'ajout (depuis l'onglet Catalogage)/à l'ajout et à
+        la modification (depuis l'onglet Autorités) des catégories et des
+        thésaurus.</para>
+      </listitem>
+
+      <listitem>
+        <para>éditions</para>
+
+        <para>Correspond à l'onglet Editions. Permet d'accéder ou états
+        personnalisables, à la liste des prêts, des retards, au générateur de
+        codes-barres, etc.</para>
+      </listitem>
+
+      <listitem>
+        <para>DSI</para>
+
+        <para>Correspond à l'onglet DSI. Permet de réaliser une Diffusion
+        Sélective de l'Information, c'est à dire à la diffusion de listes de
+        nouveautés thématiques. <emphasis>Ce droit nécessite que l'onglet DSI
+        soit activé</emphasis> pour être visible.</para>
+      </listitem>
+
+      <listitem>
+        <para>acquisitions</para>
+
+        <para>Correspond à l'onglet Acquisitions. Permet de gérer des
+        commandes, des fournisseurs, un budget, etc. <emphasis>Ce droit
+        nécessite que l'onglet Acquisitions soit activé</emphasis> pour être
+        visible.</para>
+      </listitem>
+
+      <listitem>
+        <para>administration</para>
+
+        <para>Correspond à l'onglet Administration qui permet de gérer les
+        réglages et paramétrages de PMB, de lancer une action personnalisable,
+        etc.</para>
+      </listitem>
+
+      <listitem>
+        <para>sauvegarde</para>
+
+        <para>Correspond à l'icône Sauvegarde (disquette) en haut à droite de
+        l'écran qui permet de lancer une sauvegarde.</para>
+      </listitem>
+
+      <listitem>
+        <para>préférences</para>
+
+        <para>Correspond à l'icône Préférences de l'utilisateur (engrenage) en
+        haut à droite de l'écran.</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+</chapter>

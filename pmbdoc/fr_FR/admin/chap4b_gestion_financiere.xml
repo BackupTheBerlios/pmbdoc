@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_gestion_financiere" lang="fr">
+  <chapterinfo>
+	 <!-- <releaseinfo>$Id: chap4b_gestion_financiere.xml,v 1.5 2007/12/21 13:10:49 gautier Exp $</releaseinfo>  --> 
+  </chapterinfo>	
+
+  <title lang='fr'>Gestion financière des lecteurs</title>
+
+  <para lang='fr'>La gestion financière des lecteurs permet de suivre les mouvements
+  financiers de la bibliothèque liés aux lecteurs. Ceux-ci peuvent être de
+  différents types :</para>
+
+  <itemizedlist>
+    <listitem>
+      <para lang='fr'>cotisation</para>
+    </listitem>
+
+    <listitem>
+      <para lang='fr'>amendes suites à des retards de restitution</para>
+    </listitem>
+
+    <listitem>
+      <para lang='fr'>prêt payant pour une ou plusieurs catégories de documents (DVD par
+      exemple), soit forfaitairement, soit en fonction de la durée de
+      prêt...</para>
+    </listitem>
+  </itemizedlist>
+
+  <figure>
+    <title lang='fr'>Administration, Gestion Financière</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/admin_fin_home.gif"  contentwidth="8cm"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para lang='fr'>Vous pouvez depuis cet écran administrer les amendes et le blocage des
+  prêts.</para>
+
+  <sect1>
+    <title lang='fr'>Notions fondamentales</title>
+
+    <para lang='fr'>Le fonctionnement de la gestion financière repose sur différentes
+    notions. Il est nécessaire de les maîtriser pour utiliser la gestion
+    financière dans PMB.</para>
+
+    <sect2>
+      <title lang='fr'>Types de comptes du lecteur</title>
+
+      <para lang='fr'>Il existe trois types de comptes pour chaque lecteur :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang='fr'>un compte abonnement : dans celui-ci seront comptabilisés les
+          mouvements financiers liés à l'abonnement</para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>un compte de prêts : dans celui-ci seront comptabilisés les
+          frais de communication de certains documents (DVD par
+          exemple)</para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>un compte amendes : dans celui-ci seront comptabilisés les
+          amendes liées aux retards de retour de document, ainsi que le
+          règlement de ces amendes</para>
+        </listitem>
+      </itemizedlist>
+    </sect2>
+
+    <sect2>
+      <title lang='fr'>Compte de la bibliothèque</title>
+
+      <para lang='fr'>La bibliothèque possède également un compte, qui permettra de
+      gérer dans certains cas les remises accordées sur les comptes
+      lecteurs.</para>
+
+      <para lang='fr'>Ce compte ne peut jamais être positif. Il s'agit uniquement d'un
+      compte de débit listant des remises. En aucun il ne pourra être
+      bénéficiaire.</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Gestion des abonnements</title>
+
+    <para lang='fr'><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/warning.gif"/>
+        </imageobject>
+      </inlinemediaobject> Il s'agit de la gestion avancée des abonnements. Si
+    cette entrée n'est pas visible, la gestion des abonnements est visible
+    dans Administration &gt; Lecteurs &gt; Catégories de lecteurs.</para>
+
+    <para lang='fr'>Dans le cas contraire, la gestion des abonnements n'a pas été
+    activée. Pour plus d'informations, consultez le chapitre de ce guide
+    intitulé <emphasis>Outils</emphasis>, section
+    <emphasis>Paramètres</emphasis>, rubrique <emphasis>Paramètres
+    généraux</emphasis>.</para>
+
+    <figure>
+      <title lang='fr'>Gestion des abonnements</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_abo.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <sect2>
+      <title lang='fr'>Ajouter un type d'abonnement</title>
+
+      <para lang='fr'>Pour ajouter un type d'abonnement, cliquez sur <emphasis
+      role="bold">Ajouter un type d'abonnement</emphasis>.</para>
+
+      <figure>
+        <title lang='fr'>Gestion des abonnements, ajout d'un abonnement</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_fin_abo_ajout.gif"  contentwidth="8cm"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang='fr'>Vous pouvez définir :</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang='fr'>un <emphasis role="bold">libellé</emphasis>, qui correspond au
+          nom de l'abonnement et qui sera utilisé dans tous les écrans</para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>un <emphasis role="bold">commentaire</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>un <emphasis role="bold">tarif d'abonnement</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>une <emphasis role="bold">caution</emphasis></para>
+        </listitem>
+
+        <listitem>
+          <para lang='fr'>enfin, vous pouvez spécifier les <emphasis
+          role="bold">localisations</emphasis> où s'applique cet
+          abonnement.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para lang='fr'>Après avoir validé l'ajout, votre nouvel abonnement apparaît dans
+      la liste.</para>
+
+      <figure>
+        <title lang='fr'>Gestion des abonnements</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/admin_fin_abo_apres_ajout.gif"  contentwidth="8cm"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Gestion des tarifs de prêts</title>
+
+    <para lang='fr'><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/warning.gif" />
+        </imageobject>
+      </inlinemediaobject> Il s'agit de la gestion avancée des tarifs de
+    prêts. Si cette entrée n'est pas visible, la gestion des tarifs de prêts
+    est visible dans Administration &gt; Exemplaires &gt; Types
+    d'exemplaires.</para>
+
+    <para lang='fr'>Dans le cas contraire, la gestion des tarifs de prêts n'a pas été
+    activée. Pour plus d'informations, consultez le chapitre de ce guide
+    intitulé <emphasis>Outils</emphasis>, section
+    <emphasis>Paramètres</emphasis>, rubrique <emphasis>Paramètres
+    généraux</emphasis>.</para>
+
+    <figure>
+      <title lang='fr'>Gestion des tarifs de prêts</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_tarifs.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>La partie supérieure de l'écran liste les différents types de tarifs
+    de prêts possibles. Cliquez sur un de ces types pour définir vos tarifs
+    correspondants.</para>
+
+    <para lang='fr'>Les paramètres généraux occupent la partie inférieure de l'écran. On
+    peut définir une valeur par défaut ainsi que définir une politique pour la
+    résolution des conflits (si deux tarifs de prêts correspondants ont été
+    spécifiés et sont contradictoires).</para>
+
+    <para lang='fr'>L'ergonomie de la gestion des tarifs de prêts est la même que celle
+    utilisée dans la gestion des quotas.</para>
+
+    <para lang='fr'>Pour plus d'informations sur l'ergonomie des tarifs de prêts,
+    consultez dans ce Guide le chapitre Quotas avancés.</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Gestion des amendes</title>
+
+    <figure>
+      <title lang='fr'>Administration &gt; Gestion financière &gt; Gestion des
+      amendes</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_amendes.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Dans <emphasis>Gestion des amendes</emphasis>, vous pouvez modifier
+    les paramètres des amendes qui seront utilisés. Pour ce faire, cliquez sur
+    le bouton <emphasis role="bold">Modifier les paramètres</emphasis>.</para>
+
+    <figure>
+      <title lang='fr'>Administration &gt; Gestion financière &gt; Gestion des amendes,
+      modification des paramètres</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_amendes_parametres.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Vous pouvez spécifier des valeurs pour les paramètres suivants
+    :</para>
+
+    <para lang='fr'><emphasis role="bold">Montant de l'amende par jour et par exemplaire
+    </emphasis>: idem. <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/warning.gif" />
+        </imageobject>
+      </inlinemediaobject> La valeur donnée peut être décimale, mais vous
+    devrez utiliser un point "." à la place de la virgule.</para>
+
+    <para lang='fr'><emphasis role="bold">Délai avant comptabilisation de
+    l'amende</emphasis> : même si l'amende court depuis le premier jour de
+    retard, on peut considérer que le lecteur est exonéré de paiement s'il
+    rend l'ouvrage rapidement, à la fin de ce délai sera généré la première
+    lettre de relance.</para>
+
+    <para lang='fr'><emphasis role="bold">Délai entre la 1ère et la 2ème relance :
+    </emphasis>après une première relance, généralement très courtoise, le ton
+    retenu par la 2ème relance peut être plus vif.</para>
+
+    <para lang='fr'><emphasis role="bold">Délai entre la 2ème et la 3ème
+    relance</emphasis> : après cette deuxième relance, une troisième relance
+    plus expéditive peut être envoyée.</para>
+
+    <para lang='fr'><emphasis role="bold">Délai entre la 3ème relance et le passage en
+    recouvrement</emphasis> : après une 3ème relance infructueuse, les
+    informations sont transmises pour recouvrement à une autre structure
+    responsable du recouvrement (il s'agira de la mairie pour une bibliothèque
+    municipale, du service comptabilité pour un centre de documentation,
+    etc.)</para>
+
+    <para lang='fr'><emphasis role="bold">Montant maximum d'une amende par
+    exemplaire</emphasis> : montant auquel s'arrêtera de courir
+    l'amende.</para>
+
+    <para lang='fr'>Avec les paramètres en exemple, le jour de la transmission en
+    recouvrement, l'amende vaudra : (15 + 15 + 15 + 7) x 0,15 soit 52 €
+    auxquels viendront se rajouter des frais pour les relances
+    réalisées.</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Gestion des amendes : relances</title>
+
+    <para lang='fr'>Dans cet écran vous pourrez spécifier les frais de relances suite à
+    des retards dans le retour de prêt.</para>
+
+    <figure>
+      <title lang='fr'>Gestion des amendes : relances</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_relances.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Pour modifier les paramètres des frais liés aux relances, cliquez
+    sur <emphasis role="bold">Modifier les paramètres</emphasis>.</para>
+
+    <figure>
+      <title lang='fr'>Gestion des amendes : relances, modification des
+      paramètres</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_relances_parametr.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Vous pouvez modifier les paramètres suivants :</para>
+
+    <para lang='fr'><emphasis role="bold">Frais de la première relance </emphasis>:
+    correspond aux frais facturés pour l'envoi de la première relance, dans
+    cet exemple ils sont basés sur les frais postaux d'envoi d'un
+    courrier.</para>
+
+    <para lang='fr'><emphasis role="bold">Frais de la deuxième relance</emphasis></para>
+
+    <para lang='fr'><emphasis role="bold">Frais de la troisième relance</emphasis> :
+    celle-ci sera généralement envoyée en recommandé avec accusé de réception,
+    ce qui explique un montant plus élevé.</para>
+
+    <para lang='fr'><emphasis role="bold">Statut perdu des ouvrages non rendus
+    </emphasis>: lorsque l'amende est transmise pour recouvrement au service
+    concerné, on considère généralement que l'ouvrage est, sauf exception,
+    définitivement perdu pour la bibliothèque. Dans ce cas, on peut affecter
+    un statut à l'exemplaire concerné, tel que "perdu" ou "manquant
+    inventaire".</para>
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Blocage des prêts</title>
+
+    <figure>
+      <title lang='fr'>Blocage des prêts</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_blocage_prets.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Pour modifier les paramètres de blocage des prêts, cliquez sur le
+    bouton <emphasis role="bold">Modifier les paramètres</emphasis>.</para>
+
+    <figure>
+      <title lang='fr'>Blocage des prêts, modification des paramètres</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_fin_blocage_prets_parametres.gif"  contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Vous pouvez alors :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='fr'>bloquer les prêts si le compte abonnement est débiteur</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>bloquer les prêts si le compte prêt est débiteur</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>bloquer les prêts si le compte amende est débiteur</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+</chapter>

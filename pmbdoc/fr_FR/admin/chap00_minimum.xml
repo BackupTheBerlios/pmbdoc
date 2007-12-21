@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="donnees_minimum">
+  <chapterinfo>
+	 <!-- <releaseinfo>$Id: chap00_minimum.xml,v 1.5 2007/12/21 13:10:49 gautier Exp $</releaseinfo>  --> 
+  </chapterinfo>	
+
+  <title lang='fr'>Données minimums</title>
+
+  <title lang='en'>Minimum data set</title>
+
+  <para lang="fr">PMB repose sur un ensemble de fichier (scripts PHP, XML,...)
+  et une base de données. Pour pouvoir fonctionner, PMB nécessite qu'un jeu de
+  données minimum soit chargé dans la base.</para>
+
+  <para lang="en">PMB relies on a set of files (scripts PHP, XML,...) and a
+  database. In order to function properly, PMB requires that a minimum set of
+  data be present in the database.</para>
+
+  <para lang="fr">PMB est distribué avec différents fichiers SQL dans le
+  répertoire /tables</para>
+
+  <para lang="en">PMB is distributed with various SQL files in the /tables
+  directory</para>
+
+  <para lang="fr">L'utilisation du script d'installation <emphasis
+  role="bold">tables/install.php </emphasis>simplifie le chargement des
+  fichiers SQL, en proposant une interface pour démarrer rapidement.
+  Cependant, pour paramétrer PMB à vos besoins, l'utilisation directe des
+  fichiers SQL est recommandée.</para>
+
+  <para lang="en">Using the installation script <emphasis
+  role="bold">tables/install.php </emphasis>simplifies loading of the SQL
+  files by offering an interface for a quick start. However, in order to
+  customize PMB for your personal needs, it is recommended to use the SQL
+  files directly.</para>
+
+  <para lang="fr">Pour plus d'informations sur l'interface d'installation
+  <emphasis role="bold">tables/install.php</emphasis> consulter le Guide
+  d'Installation PMB.</para>
+
+  <para lang="en">For more information about the installation interface
+  <emphasis role="bold">tables/install.php</emphasis> refer to the PMB
+  Installation Guide.</para>
+
+  <sect1>
+    <title lang="fr">Structure de la base</title>
+
+    <title lang="en">Database structure</title>
+
+    <para lang="fr">Le fichier <emphasis role="bold">bibli.sql</emphasis>
+    contient les informations sur la structure de la base de PMB et doit être
+    systématiquement chargé en premier.</para>
+
+    <para lang="en">The file <emphasis role="bold">bibli.sql</emphasis>
+    contains information on the PMB database structure, it must be loaded
+    first.</para>
+  </sect1>
+
+  <sect1>
+    <title lang="fr">Données minimums pour lancer PMB</title>
+
+    <title lang="en">Minimum data to launch PMB</title>
+
+    <para lang="fr">Pour lancer PMB vous devez avoir chargé en base au moins
+    le fichier <emphasis role="bold">minimum.sql</emphasis>, ce fichier
+    définit :</para>
+
+    <para lang="en">In order to launch PMB, the file <emphasis
+    role="bold">minimum.sql</emphasis> must have been loaded in the database
+    at the least; this file defines:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang="fr">un utilisateur : le super-utilisateur, il s'agit de
+        l'administrateur de PMB. Ce compte n'est pas supprimable dans
+        l'interface. Il a toujours les droits d'accès sur l'ensemble des
+        fonctions de PMB.</para>
+
+        <para lang="en">a user: the super-user, this is the PMB administrator.
+        This account cannot be deleted in the interface. It always has access
+        privileges on all PMB functions.</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">un jeu de paramètres : il s'agit des paramètres de
+        fonctionnement de l'application.</para>
+
+        <para>a set of parameters : these are settings needed for the proper
+        functioning of the application</para>
+      </listitem>
+    </itemizedlist>
+
+    <para lang="fr"><emphasis role="bold">Attention</emphasis> ces données
+    minimales permettent de lancer PMB, pas de cataloguer une notice. Pour
+    pouvoir cataloguer (saisir des ouvrages dans la base), PMB a besoin
+    d'avoir des statuts de documents, des sections, des propriétaires...
+    définis.</para>
+
+    <para lang="en"><emphasis role="bold">Warning</emphasis>, the minimum data
+    sets only allow the launching of PMB, they do not allow cataloguing of a
+    bibliographical record. In order to make a catalogue record (enter works
+    in the database), PMB needs to have document status, sections, owners ...
+    already defined.</para>
+  </sect1>
+
+  <sect1>
+    <title lang="fr">Données pour lancer PMB en mode quick-start</title>
+
+    <title lang="en">Data for launching PMB in quick-start mode</title>
+
+    <para lang="fr">Pour lancer PMB en mode quick-start (pouvoir cataloguer
+    immédiatement), il faut charger en plus des fichiers bibli.sql et
+    minimum.sql le fichier <emphasis role="bold">feed_essential.sql</emphasis>
+    ; ce fichier définit :</para>
+
+    <para lang="en">In order to launch PMB in quick-start mode (allowing
+    immediate cataloguing), in addition to the files bibli.sql and
+    minimum.sql, you need to load the file <emphasis
+    role="bold">feed_essential.sql</emphasis>; this file defines:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang="fr">Des données de l'application préremplies,
+        modifiables.</para>
+
+        <para lang="en">Pre-loaded, modifiable bibliographical data.</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">Un jeu de sauvegarde prêt à l'emploi</para>
+
+        <para lang="en">A set of backups ready to use</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">Un jeu de paramétrage de Z3950.</para>
+
+        <para lang="en">A set of Z3950 parameters.</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+  <sect1>
+    <title lang="fr">Une sélection de données de notices, lecteurs, afin de
+    pouvoir tester de suite PMB</title>
+
+    <title lang="en">A selection of bibliographical records, readers, .... to
+    test PMB rightaway</title>
+
+    <para lang="fr">Pour pouvoir tester PMB, chargez en plus de bibli.sql,
+    minimum.sql, feed_essential.sql, le fichier <emphasis
+    role="bold">data_test.sql</emphasis>. Celui-ci définit des exemples de
+    :</para>
+
+    <para lang="en">In order to test PMB, load the file <emphasis
+    role="bold">data_test.sql</emphasis> in addition to the files bibli.sql,
+    minimum.sql, feed_essential.sql. This file defines examples of:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang="fr">notices</para>
+
+        <para lang="en">bibliographical records</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">lecteurs</para>
+
+        <para lang="en">readers</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">prêteurs</para>
+
+        <para lang="en">lenders</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">exemplaires</para>
+
+        <para lang="en">copies</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">périodiques</para>
+
+        <para lang="en">serials</para>
+      </listitem>
+
+      <listitem>
+        <para>...</para>
+      </listitem>
+    </itemizedlist>
+
+    <para lang="fr"><emphasis role="bold">Note</emphasis> Ce fichier se base
+    sur les données de l'application fournies dans feed_essential.sql</para>
+
+    <para lang="en"><emphasis role="bold">Note</emphasis> This file is based
+    on bibliographical data provided in feed_essential.sql</para>
+
+    <para lang="fr"><emphasis role="bold">Important</emphasis> Ces données de
+    test sont basées sur le thésaurus UNESCO_FR que vous devrez charger alors
+    par le fichier <emphasis role="bold">unesco_fr.sql</emphasis></para>
+
+    <para lang="en"><emphasis role="bold">Important</emphasis> These test data
+    are based on the thesaurus UNESCO_FR that must be loaded using the file
+    <emphasis role="bold">unesco_fr.sql</emphasis></para>
+  </sect1>
+
+  <sect1>
+    <title lang="fr">Thésaurus et indexations internes</title>
+
+    <title lang="en">Thesaurus and internal indexes</title>
+
+    <para lang="fr">PMB vous offre aussi la possibilité de charger un
+    thésaurus (remplissage des catégories de PMB) et une indexation
+    interne.</para>
+
+    <para lang="en">PMB also offers the possibility to load a thesaurus
+    (filling up PMB subject categories) together with an internal
+    index.</para>
+
+    <para lang="fr">Vous pouvez charger parmi les thésaurus :</para>
+
+    <para lang="en">You can load the following thesauri:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang="fr">unesco_fr.sql : thésaurus hiérarchisé de l'UNESCO,
+        assez important et bien fait.</para>
+
+        <para lang="en">unesco_fr.sql: UNESCO thesaurus, hierarchical
+        structure, fairly large and well designed.</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">grumeau.sql : plus petit, plus simple mais bien fait
+        aussi.</para>
+
+        <para lang="en">grumeau.sql: smaller, simpler and also well
+        designed.</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">environnement.sql : un thésaurus possible pour un
+        fonds documentaire axé Environnement.</para>
+
+        <para lang="en">environnement.sql: A possible thesaurus for an
+        environmentally-oriented library.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para lang="fr">Vous pouvez charger parmi les indexations internes
+    :</para>
+
+    <para lang="en">You can load the following internal indexes:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang="fr">indexint_100.sql : 100 cases du savoir ou marguerite
+        des couleurs, indexation décimale , style Dewey simplifiée pour
+        l'éducation</para>
+
+        <para lang="en">indexint_100.sql: 100 knowledge boxes or color wheel,
+        decimal index, Dewey style simplified for schools</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">indexint_chambery.sql : indexation style Dewey de la
+        BM de Chambéry, très bien conçue mais peu adaptée à des petites
+        bibliothèques</para>
+
+        <para lang="en">indexint_chambery.sql: Dewey style index of the
+        Chambéry municipal library, very well designed but not very useful for
+        small libraries</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">indexint_dewey.sql : indexation style Dewey</para>
+
+        <para lang="en">indexint_dewey.sql : Dewey style index</para>
+      </listitem>
+
+      <listitem>
+        <para lang="fr">indexint_small_en.sql : indexation style Dewey réduite
+        et en anglais</para>
+
+        <para lang="en">indexint_small_en.sql : small Dewey style index in
+        English</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+  <sect1>
+    <title lang="fr">Effacer le jeu de données de test</title>
+
+    <title lang="en">Deleting test data sets</title>
+
+    <para lang="fr">Le jeu de données de test que vous pouvez avoir chargé
+    pour tester PMB n'est pas utile pour l'utilisation quotidienne de PMB et
+    peut parasiter votre base de données.</para>
+
+    <para lang="en">The test data sets that you might have loaded to test PMB
+    are not useful for a daily PMB usage and could pollute your
+    database.</para>
+
+    <sect2><title lang="fr">Sous Windows</title><title lang="en">With
+    Windows</title><para lang="fr">Pour effacer le jeu de test de la base,
+    vous disposez sous Windows du fichier empty_example_set.ba t</para><para
+    lang="en">To delete the test set from the database, the file
+    empty_example_set.bat is available on Windows.</para><para lang="fr">Ce
+    programme se lance depuis la ligne de commande de Windows, accessible
+    depuis Menu Démarrer &gt; Exécuter puis saisissez "cmd" sous Windows 2000
+    ou XP. Saisissez le chemin du programme, par exemple</para><para
+    lang="en">This program is run from the Windows command line, accessible
+    from the Start menu &gt; Run then enter "cmd" in Windows 2000 or XP. Enter
+    the application's path, for example</para><para>
+        <programlisting>c:/pmb/tables/empty_example_set.bat %1 %2 %3 %4 </programlisting>
+      </para><para lang="fr">Avec pour valeurs :</para><para lang="en">With
+    the values:</para><para lang="en">
+        <emphasis role="bold">Operation screen for
+        empty_example_set.bat</emphasis>
+      </para><itemizedlist>
+        <listitem>
+          <para lang="fr">%1 : le nom de la base de données</para>
+
+          <para lang="en">%1 : name of the database</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">%2 : le nom de la machine hôte du serveur
+          mysql</para>
+
+          <para lang="en">%2 : name of the host computer for mysql
+          server</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">%3 : le nom de l'utilisateur ("user") de la base de
+          données de PMB</para>
+
+          <para lang="en">%3 : user name of the PMB database</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">%4 : le mot de passe du "user" (qui peut être
+          vide)</para>
+
+          <para lang="en">%4 : user password (can be blank)</para>
+        </listitem>
+      </itemizedlist><para lang="fr"><emphasis
+    role="bold">Attention</emphasis> le program <emphasis>mysql.exe</emphasis>
+    doit figurer dans le "path" pour pouvoir être lancé par
+    empty_example_set.bat, si ce fichier batch ne fonctionne pas, éditer et
+    spécifier en ligne 74 le chemin de MySQL</para><emphasis
+    role="bold">Warning</emphasis> The application
+    <emphasis>mysql.exe</emphasis> must be present in the "path" so it can be
+    launched by empty_example_set.bat; if this batch file does not work, edit
+    it and specify the path for MySQL on line 74<para lang="fr">
+        <emphasis role="bold">Ecran de fonctionnement de
+        empty_example_set.bat</emphasis>
+      </para><para>
+        <programlisting>Si vous avez charge les donnees de test de PMB (data_test.sql),
+vous disposez d'un jeu de notices et d'exemplaires pour tester PMB.
+Ce script vous propose de vider ces tables d'exemple de votre 
+application afin de repartir d'une base PMB vierge :
+------------------------------------------
+    table des emprunteurs              
+    table des groupes d'emprunteurs
+    table des prets          
+    table des notices        
+    table des exemplaires     
+    table des bulletins de periodiques
+    table de  depouillement des periodiques
+    table des series          
+    table des collections       
+    table des sous-collections  
+    table des auteurs           
+    table des editeurs
+------------------------------------------
+e) VIDER LES TABLES D'EXEMPLES
+q) Quitter
+</programlisting>
+      </para><para lang="fr">Appuyez ensuite sur la lettre <emphasis
+    role="bold">e</emphasis> pour vider les exemples ou <emphasis
+    role="bold">q</emphasis> pour quitter</para><para lang="en">Then press
+    letter <emphasis role="bold">e</emphasis> to empty the examples or
+    <emphasis role="bold">q</emphasis> to quit</para></sect2>
+
+    <sect2>
+      <title lang="fr">Sous Linux</title>
+
+      <title lang="en">With Linux</title>
+
+      <para lang="fr">Pour effacer le jeu de test de la base, vous disposez
+      sous Linux du fichier empty_example_set.cmd ; son fonctionnement est
+      identique à empty_example_set.bat sous Windows</para>
+
+      <para lang="en">To delete the test set from the database, the file
+      empty_example_set.cmd is available on Linux. It functions exactly like
+      empty_example_set.bat on Windows</para>
+
+      <para lang="fr"><emphasis role="bold">Attention</emphasis> l'exécutable
+      <emphasis>mysql</emphasis> doit figurer dans le "path" pour pouvoir être
+      lancé par empty_example_set.cmd</para>
+
+      <para lang="en"><emphasis role="bold">Warning</emphasis> The executable
+      file <emphasis>mysql</emphasis> must be present in the "path" so it can
+      be launched by empty_example_set.cmd</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title lang="fr">Plus d'informations</title>
+
+    <title lang="en">Further Information</title>
+
+    <para lang="fr">Si vous désirez plus d'informations sur les thésaurus et
+    les indexations internes fournies avec PMB consultez le <emphasis>Guide de
+    l'utilisateur de PMB</emphasis>.</para>
+
+    <para lang="en">For more information on the thesauri and internal indexes
+    supplied with PMB refer to the <emphasis>PMB User's
+    Guide</emphasis>.</para>
+
+    <para lang="fr">Pour plus d'informations sur les tables chargées par les
+    différents fichiers SQL, consulter le fichier tables/readme.txt</para>
+
+    <para lang="en">For more information on the tables loaded by the various
+    SQL files, refer to the file tables/readme.txt</para>
+
+    <para lang="fr">Pour afficher la structure de la base de données de PMB,
+    consultez le fichier /doc/noyau/index.php dans votre navigateur.</para>
+
+    <para lang="en">To display the PMB database structure, open the file
+    /doc/noyau/index.php with your browser.</para>
+  </sect1>
+</chapter>

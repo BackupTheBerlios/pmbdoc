@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_notices">
+  <chapterinfo>
+	 <!-- <releaseinfo>$Id: chap2_notices.xml,v 1.5 2007/12/21 13:10:49 gautier Exp $</releaseinfo>  --> 
+  </chapterinfo>	
+
+  <title lang='fr'>Notices</title>
+  <title lang='en'>Notices</title>
+
+  <para lang='fr'>La plupart des données qui définissent une notice sont normées. PMB
+  permet cependant d'éditer une table d'origine des notices. Vous pouvez
+  également ajouter des champs personnalisables.</para>
+
+  <para lang="en">Most of the data defining a record are standardized. However
+  PMB allows the editing of a table originating from a bibliographical record.
+  You can also add customizable fields.</para>
+
+  <sect1 id="admin_notices_orinot">
+    <title lang='fr'>Origines</title>
+    <title lang="en">Sources</title>
+
+    <para lang='fr'>Il s'agit de l'origine des notices. PMB importe les notices via
+    z39.50 ou par l'import UNIMARC notamment. Mais sur ces notices
+    s'appliquent des droits d'auteur. Si la BnF met à disposition de tous ses
+    notices, il n'en est pas forcément de même pour certains professionnels du
+    secteur. Ainsi la société Electre diffuse un cédérom de notices
+    bibliographiques, à jour des dernières nouveautés sorties sur le marché.
+    Ce cédérom est payant, et chacune des notices qu'il contient sont
+    protégées par des droits d'auteur.</para>
+
+    <para lang="en">This represents the source of a bibliographical record.
+    PMB imports records mainly via z39.50 or through UNIMARC import. However
+    these records are copyrighted. Records from the Bibliothèque Nationale de
+    France [National Library, France] can be used freely, however this might
+    not necessarily be the case for some professionals in this domain. Indeed,
+    the company Electre publishes a CD-Rom of bibliographical records, updated
+    with the latest publications. This CD-Rom is not free, and each one of its
+    bibliographical records are copyrighted.</para>
+
+    <para lang='fr'>La fonction d'administration des origines des notices permet de
+    prédéfinir des origines de notices. Elle permet aussi d'éditer les
+    origines de notices importées.</para>
+
+    <para lang="en">The administrative function for sources of records allows
+    to pre-define these sources. It also allows the editing of sources of
+    imported records.</para>
+
+    <figure>
+      <title lang='fr'>Notices &gt; Origines des notices</title>
+      <title lang="en">Records &gt; sources</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_cat_notices.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+  </sect1>
+
+  <sect1>
+    <title lang='fr'>Statuts</title>
+    <title lang="en">Status</title>
+
+
+    <para lang='fr'>Le statut des notices permet de faire des distinctions de traitement
+    et de catalogage pour les notices, ainsi que dans l'affichage dans
+    l'OPAC.</para>
+        <para lang="en">The status of records allows to set distinct properties to
+    records at processing and cataloguing levels, and whether they are to be
+    displayed in OPAC as well.</para>
+
+    <figure>
+      <title lang='fr'>Notices &gt; Statuts</title>
+      <title lang="en">Records &gt; Status</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_notices_statut.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Le tableau des différents statuts de notices affiche différents
+    renseignements :</para>
+
+    <para lang="en">The records status table shows various information:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para lang='fr'>une classe d'affichage (de 1 à 9), correspond au rectangle de
+        couleur à gauche du tableau. Ce marqueur est un élément
+        d'identification rapide du statut de la notice, par exemple lors d'une
+        recherche dans l'onglet Catalogage.</para>
+        <para lang="en">a display class (1 to 9), corresponds to a color
+        rectangle on the left of the table. This marker quickly identifies the
+        status of the record, for example, when using the cataloguing tab for
+        a search.</para>
+      </listitem>
+
+      <listitem>
+        <para lang='fr'>le fait d'être visible ou non en partie gestion. Ceci va
+        permettre de gérer un "réservoir de notices" en stockant par exemple
+        des notices pilonnées avec un statut "pilonné".</para>
+        <para lang="en">whether visible or not from the PMB management tab.
+        This will allow the management of a "reservoir of records", for
+        example, by saving destroyed records with a "destroy" status.</para>
+      </listitem>
+
+      <listitem>
+        <para lang="en">for the OPAC,</para>
+        <para lang='fr'>pour l'OPAC, </para>
+
+        <itemizedlist>
+          <listitem>
+            <para lang="en">potential label (e.g. on order)</para>
+            <para lang='fr'>libellé éventuel (par exemple En commande)</para>
+          </listitem>
+
+          <listitem>
+            <para lang="en">visibility of records</para>
+            <para lang='fr'>notices visibles ou non</para>
+          </listitem>
+
+          <listitem>
+            <para lang="en">displaying copies</para>
+            <para lang='fr'>affichage des exemplaires</para>
+          </listitem>
+
+          <listitem>
+            <para lang="en">displaying e-copies (electronic copies)</para>
+            <para lang='fr'>affichage des exemplaires numériques</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <para lang='fr'>Pour ajouter un nouveau statut de notices, cliquez sur le bouton à
+    cet effet en bas de l'écran.</para>
+
+    <para lang="en">To add a new status to a record, click on the appropriate
+    button at the bottom of the screen.</para>
+
+    <para lang='fr'>Pour modifier un statut de notices, cliquez sur la ligne
+    correspondante dans le tableau.</para>
+
+    <para lang="en">To edit the status of a record, click on the corresponding
+    line in the table,</para>
+
+    <figure>
+      <title lang='fr'>Notices &gt; Statut, modifier le statut</title>
+      <title lang="en">Records &gt; Status, modify status</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_notices_statut2.gif" contentwidth="8cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang='fr'>Vous pouvez également depuis l'écran de modification affiner
+    l'affichage des notices, des exemplaires ou des exemplaires numériques aux
+    seuls abonnés (lecteur ou emprunteur bénéficiant d'un login et d'un mot de
+    passe). Si des restrictions sont appliquées le lecteur devra être
+    identifié pour lever ces restrictions.</para>
+
+    <para lang="en">From the edit screen, you can also restrict the display of
+    records, copies, e-copies to subscribers only (readers and borrowers with
+    a login and password). If restrictions apply, the reader will have to be
+    identified in order to remove these restrictions.</para>
+
+  </sect1>
+
+  <sect1 id="admin_notices_perso">
+    <title lang='fr'>Personnalisables</title>
+    <title lang="en">Customizable data</title>
+    
+    <para lang='fr'>Il s'agit ici des champs personnalisables des notices. Ces champs
+    personnalisables permettent de spécifier des informations propres à votre
+    bibliothèque ou à votre centre de documentation sur les notices : origine
+    de l'idée d'acquisition, commentaire d'un comité de lecture, public cible
+    de l'ouvrage...</para>
+
+     <para lang="en">Here we are talking of customizable fields of records.
+    These customizable fields allow you to specify any information about your
+    own library or documentation center within the records: origin of idea to
+    acquire the work, commentary of a reading committee, intended
+    audience...</para>
+
+    <figure>
+      <title lang='fr'>Notices &gt; Personnalisables</title>
+      <title lang="en">Records &gt; Customizable data</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_cat_perso_notice.gif" contentwidth="10cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+
+    <para lang='fr'>Le fonctionnement des champs personnalisables pour les notices est
+    identique à celui des exemplaires. Pour plus d'information, voir <xref
+    linkend="admin_expl_perso" />.</para>
+  
+
+    <para lang="en">Customizable fields for records work the same way as those
+    for copies. For more information, refer to <xref
+    linkend="admin_expl_perso" />.</para>
+  
+   </sect1>
+    
+</chapter>

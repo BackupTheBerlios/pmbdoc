@@ -5,42 +5,122 @@
   <sect1>
     <title>Connecteurs entrants</title>
 
-    <para>Il existe deux types de connecteurs entrants dans PMB : des
-    connecteurs sur des entrepôts, des connecteurs en recherche
-    directe.</para>
+    <sect2>
+      <title>Introduction</title>
 
-    <para>Les connecteurs sur un entrepôt nécessitent une synchronisation pour
-    un rapatriement en local de la globalité des données disponibles. La
-    synchronisation devra être faite régulièrement pour rapatrier les
-    nouveautés disponibles. C'est le principe d'un moissonnage OAI : tout ce
-    qui est plus récent que la date de dernière synchronisation est rapatrié,
-    on pourraît dire moissonné.</para>
+      <sect3>
+        <title>Entrepôts et recherche directe</title>
 
-    <para>Les connecteurs en recherche directe permettent la translittération
-    d'une recherche multicritère dans une base distante, les données
-    correspondantes sont ensuite rapatriées et converties dans un réservoir
-    local d'où sont puisées les données pour l'affichage. De cette manière PMB
-    dispose d'un cache des informations, une recherche directe est valable un
-    temps défini par le paramétrage pendant lequel les données seront
-    directement puisées dans le cache. </para>
+        <para>Il existe deux types de connecteurs entrants dans PMB : des
+        connecteurs sur des entrepôts, des connecteurs en recherche
+        directe.</para>
 
-    <para>Pour les connecteurs sur entrepôt, toutes les notices disponibles
-    correspondant au connecteur sont rapatriées.</para>
+        <para>Un connecteur sur un entrepôt nécessite une synchronisation pour
+        un rapatriement en local de la globalité des enregistrements
+        disponibles. La synchronisation devra être faite régulièrement pour
+        rapatrier les nouveautés. C'est le principe d'un moissonnage OAI :
+        tout ce qui est plus récent que la date de dernière synchronisation
+        est rapatrié, on pourrait dire moissonné.</para>
 
-    <para>Pour les connecteurs en recherche directe, seules les notices
-    correspondant aux recherches lancées sont rapatriées et conservées pendant
-    une durée de validité définie.</para>
+        <para>Les connecteurs en recherche directe permettent la
+        translittération d'une recherche multicritère dans une base distante :
+        vous faites votre recherche dans PMB, c'est le connecteur qui
+        transforme votre recherche pour qu'elle soit comprise par le serveur
+        distant. Les enregistrements retournés sont ensuite rapatriés. Ils
+        sont convertis dans un réservoir local d'où sont puisées les données
+        pour l'affichage. De cette manière, PMB dispose d'un cache des
+        informations, une recherche directe est valable un temps défini par le
+        paramétrage pendant lequel les données seront directement puisées dans
+        le cache.</para>
+
+        <para>En résumé, pour les connecteurs sur entrepôt, tous les
+        enregistrements disponibles correspondant au connecteur sont
+        rapatriés. Pour les connecteurs en recherche directe, seuls les
+        enregistrements correspondants aux recherches sont rapatriés et
+        conservés pendant une durée de validité définie.</para>
+      </sect3>
+
+      <sect3>
+        <title>Les différents connecteurs de PMB</title>
+
+        <figure>
+          <title>Liste des connecteurs entrants</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_in.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>PMB dispose à ce jour de quatre connecteurs :</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Interrogation Z39.50</para>
+          </listitem>
+
+          <listitem>
+            <para>Interrogation SRU/SRW</para>
+          </listitem>
+
+          <listitem>
+            <para>Moissonnage d'un entrepôt OAI</para>
+          </listitem>
+
+          <listitem>
+            <para>AWS ECommerce Service</para>
+          </listitem>
+        </itemizedlist>
+
+        <para>Ces connecteurs permettent de définir des sources qui sont
+        ensuite interrogeables en recherche externe, soit depuis
+        <emphasis>Catalogue &gt; Recherche toutes notices &gt;
+        Externe</emphasis>, soit depuis l'OPAC via l'onglet Interrogation
+        externe.</para>
+      </sect3>
+
+      <sect3>
+        <title>Afficher les notices issues des connecteurs : la recherche
+        externe</title>
+
+        <para>Les notices accessibles via les connecteurs sont interrogeables
+        par la recherche externe. Celle-ci peut être activée dans l'interface
+        de gestion et dans l'OPAC.</para>
+
+        <important>
+          <para>Pour activer la recherche externe dans l'interface de gestion,
+          dans Administration &gt; Outils &gt; Paramètres, dépliez Paramètres
+          généraux et définissez allow_external_search à 1.</para>
+
+          <para>Pour activer la recherche externe dans l'OPAC, Administration
+          &gt; Outils &gt; Paramètres, dépliez Opac et définissez
+          allow_external_search à 1.</para>
+        </important>
+
+        <para>Toutes les sources définies sont accessibles dans l'OPAC, sans
+        restriction.</para>
+
+        <para>Les notices issues de la recherche externe peuvent être
+        intégrées ensuite dans le catalogue depuis la recherche externe dans
+        l'interface de gestion.</para>
+      </sect3>
+    </sect2>
 
     <sect2>
       <title>Interrogation Z39.50</title>
 
-      <para></para>
+      <para>Le protocole Z39.50 permet l'interrogation d'un catalogue
+      documentaire distant de bibliothèque. Vous pouvez également intégrer des
+      notices via <emphasis>Catalogue &gt; Z39.50</emphasis>.</para>
     </sect2>
 
     <sect2>
       <title>Interrogation SRU/SRW</title>
 
-      <para></para>
+      <para>Le protocole SRU/SRW est un autre protocole d'interrogation
+      documentaire.</para>
     </sect2>
 
     <sect2>
@@ -106,65 +186,126 @@
             Archive Initiatives</ulink>, Wikipedia.</para>
           </listitem>
         </itemizedlist>
+
+        <figure>
+          <title>Quelques exemples de sources OAI</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_in2.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
       </sect3>
 
       <sect3>
         <title>Ajouter un entrepôt</title>
 
-        <para></para>
+        <para>Pour ajouter un entrepôt OAI à la liste des dépôts disponibles,
+        cliquez sur le bouton <emphasis role="bold">Ajouter une
+        source</emphasis> à droite du service <emphasis
+        role="bold">Moissonnage d'un entrepôt OAI</emphasis>.</para>
 
         <figure>
-          <title></title>
+          <title>Ajout d'une source avec le connecteur OAI, étape 1</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/admin_conn_aws_prop.gif" />
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_oai_new_cairn.gif" />
             </imageobject>
           </mediaobject>
         </figure>
 
+        <para>Vous devez définir un <emphasis role="bold">nom </emphasis>pour
+        votre source, vous pouvez compléter ce nom par une courte <emphasis
+        role="bold">description</emphasis>. Celle-ci sera reprise dans l'écran
+        de sélection des sources.</para>
+
+        <para>Une source dispose d'un <emphasis
+        role="bold">time-out</emphasis>, délai sans réponse au-delà duquel la
+        tentative de synchronisation est interrompue. Celle-ci sera répétée un
+        nombre de fois limité par le nombre d'essais.</para>
+
+        <para>Enfin, saisissez l'<emphasis role="bold">URL</emphasis> d'accès
+        au serveur OAI.</para>
+
+        <para>Une fois la source enregistrée, les propriétés d'accès à
+        l'entrepôt sont téléchargées. Cliquez sur la source créée pour
+        continuer son paramétrage.</para>
+
         <figure>
-          <title></title>
+          <title>Ajout d'un entrepôt OAI, étape 2</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/admin_conn_in.gif" />
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_oai_cairn1.gif" />
             </imageobject>
           </mediaobject>
         </figure>
 
+        <para>Sous l'URL sont maintenant affiché le <emphasis
+        role="bold">nom</emphasis> du serveur, ainsi que sa <emphasis
+        role="bold">description</emphasis>.</para>
+
+        <para>Chaque enregistrement (métadatas d'un document) sur le serveur
+        OAI dispose d'une date. La <emphasis role="bold">date la plus
+        ancienne</emphasis> de la base est retournée. PMB utilisera cette date
+        comme limite pour rapatrier les données les plus anciennes du serveur
+        distant.</para>
+      </sect3>
+
+      <sect3>
+        <title>Choisir un ou plusieurs sets</title>
+
+        <para>Un <emphasis role="bold">set</emphasis> de données est un
+        regroupement prédéfini d'enregistrements sur le serveur OAI. Un
+        serveur peut avoir des sets définis par titre de revue (revues.org),
+        par type de document, par sujet ou indexation, etc. Pour plus
+        d'information sur chacun des sets, consultez le site internet du
+        serveur OAI sélectionné.</para>
+
+        <para>Choisissez au moins un set d'enregistrements. Vous pouvez en
+        sélectionner plusieurs en maintenant la touche CTRL de votre clavier
+        appuyée.</para>
+
+        <para><figure>
+            <title>Sélection d'un set de données</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata contentwidth="10cm"
+                           fileref="images/admin_conn_set_selected.gif" />
+              </imageobject>
+            </mediaobject>
+          </figure></para>
+      </sect3>
+
+      <sect3>
+        <title>Format des données, suppression des éléments marqués</title>
+
         <figure>
-          <title></title>
+          <title>Format des données</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/admin_conn_in2.gif" />
+              <imagedata contentwidth="7cm"
+                         fileref="images/admin_conn_oai_cairn_formats.gif" />
             </imageobject>
           </mediaobject>
         </figure>
 
-        <figure>
-          <title></title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/admin_conn_in3.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
+        <para>Le serveur OAI peut proposer différents <emphasis
+        role="bold">formats</emphasis> de données. Un format défini par la
+        norme OAI est toujours disponible, il s'agit du format Dublin Core
+        (oai_dc), PMB dispose d'un filtre d'import pour ce format. Pour les
+        autres formats, vous pouvez définir un fichier XSLT qui sera utilisé
+        pour convertir les enregistrements en Unimarc.</para>
 
         <figure>
-          <title></title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/admin_conn_oai_cairn1.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <figure>
-          <title></title>
+          <title>Suppression des éléments marqués</title>
 
           <mediaobject>
             <imageobject>
@@ -173,61 +314,25 @@
           </mediaobject>
         </figure>
 
+        <para>Une fois votre source correctement définie, cliquez sur
+        <emphasis role="bold">Enregistrer </emphasis>pour la
+        sauvegarder.</para>
+
         <figure>
-          <title></title>
+          <title>Votre source est créée mais ne dispose pas encore
+          d'enregistrements</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/admin_conn_oai_cairn_added.gif" />
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_oai_cairn_added.gif" />
             </imageobject>
           </mediaobject>
         </figure>
 
-        <figure>
-          <title></title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/admin_conn_oai_cairn_filled.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <figure>
-          <title></title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/admin_conn_oai_cairn_formats.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <figure>
-          <title></title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/admin_conn_oai_new_cairn.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <figure>
-          <title></title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/admin_conn_set_selected.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </sect3>
-
-      <sect3>
-        <title>Choisir un ou plusieurs sets</title>
-
-        <para></para>
+        <para>Votre source est maintenant disponible mais aucun enregistrement
+        n'a encore été moissonné, afin de remplir votre cache local vous devez
+        maintenant la synchroniser.</para>
       </sect3>
 
       <sect3>
@@ -237,12 +342,12 @@
             <imageobject>
               <imagedata fileref="images/admin_conn_sync.gif" />
             </imageobject>
-          </inlinemediaobject> Cliquez enfin sur synchroniser à droite du nom
-        de votre source de données OAI pour moissonner votre dépôt et
-        rapatrier des notices en local.</para>
+          </inlinemediaobject> Cliquez sur synchroniser à droite du nom de
+        votre source de données OAI pour moissonner votre dépôt et rapatrier
+        des notices en local.</para>
 
         <para>Vous verrez apparaître un écran de progression de la
-        synchronisation. </para>
+        synchronisation.</para>
 
         <para>Attention, pour vous afficher une progression, PMB se base sur
         les informations fournies par le dépôt OAI. Si celui-ci ne fournit pas
@@ -261,7 +366,22 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/admin_conn_sync3.gif" />
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_sync3.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Une fois la synchronisation faite, PMB dispose d'enregistrements
+        rapatriés dans lesquels pourront être lancés vos recherches.</para>
+
+        <figure>
+          <title>Résultat d'une synchronisation d'un dépôt OAI</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_oai_cairn_filled.gif" />
             </imageobject>
           </mediaobject>
         </figure>
@@ -272,57 +392,117 @@
       <title>AWS ECommerce Service</title>
 
       <para>Le connecteur AWS ECommerce Service permet d'ajouter parmi vos
-      sources externes des sources issues du catalogue du site web marchand
+      sources externes des sources issues du catalogue du site Web marchand
       Amazon.</para>
 
       <figure>
-        <title>Propriété d'une source du connecteur Amazon</title>
+        <title>Le connecteur AWS ECommerce Service et un exemple de
+        source</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="images/admin_conn_aws_conn1.gif" />
+            <imagedata contentwidth="10cm" fileref="images/admin_conn_in3.gif" />
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para>Pour ajouter une nouvelle source au connecteur entrant AWS,
-      cliquez sur le bouton Ajouter une source depuis la liste des connecteurs
-      entrants.</para>
+      <sect3>
+        <title>Propriétés du connecteur</title>
 
-      <para>Définissez un <emphasis role="bold">nom</emphasis> à votre source,
-      par exemple "DVD Amazon.com".</para>
+        <para>Pour paramétrer ou afficher les propriétés du connecteur AWS,
+        cliquez sur "AWS ECommerce Service" dans la liste des
+        connecteurs.</para>
 
-      <para>Vous pouvez ajouter à votre source une <emphasis
-      role="bold">description</emphasis>. Préférez une description courte,
-      elle sera reprise dans tous les écrans de recherche.</para>
+        <figure>
+          <title>Propriétés du connecteur AWS</title>
 
-      <para>Vous pouvez définir un <emphasis role="bold">time-out</emphasis> à
-      votre source, 5 est la valeur par défaut. Selon votre vitesse de
-      connexion et vos essais quant à la vitesse de réponse d'Amazon, vous
-      pouvez souhaiter augmenter cette valeur. Effectuez des tests pour
-      l'établir.</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_aws_prop.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-      <para>Le <emphasis role="bold">nombre d'essais</emphasis> sera le nombre
-      de tentatives que le connecteur effectuera pour réaliser la recherche
-      sur le serveur Amazon. Si la recherche n'aboutit pas, aucun résultat ne
-      sera renvoyé.</para>
+        <para>Le connecteur AWS dispose d'un <emphasis
+        role="bold">time-out</emphasis>. Au delà de ce délai sans réponse du
+        serveur distant AWS, la recherche sera interrompue. Si votre recherche
+        multicritères ne porte que partiellement sur le connecteur AWS, les
+        autres recherches se poursuivent.</para>
 
-      <para>Les résultats rapatriés resteront valides si la même question est
-      fournie pendant une <emphasis role="bold">durée de validité</emphasis>,
-      ici 1800 secondes, soit 30 minutes.</para>
+        <para>Dans la limite du <emphasis role="bold">nombre
+        d'essais</emphasis>, le connecteur relancera une recherche après une
+        première recherche sans réponse.</para>
 
-      <para>Choisissez le <emphasis role="bold">site</emphasis> Amazon
-      concerné par cette source parmi Amazon US, UK, DE, JP, FR, CA.</para>
+        <para>La <emphasis role="bold">durée de validité des résultats
+        </emphasis>défini une période de validité de la réponse du serveur à
+        votre recherche. Si vous lancez plusieurs fois la même recherche
+        pendant la durée de validité, PMB affichera les notices qui avaient
+        déjà été rapatriées.</para>
 
-      <para>Le <emphasis role="bold">format de réponse</emphasis> correspond à
-      la qualité de la notice retournée. Selon la qualité de la notice et la
-      conversion programmée dans le connecteur, seulement une partie des
-      données pourrait être importée, réalisez des tests d'imports pour faire
-      votre choix dans les formats de réponse.</para>
+        <para>Le connecteur AWS nécessite une <emphasis role="bold">clé
+        </emphasis>AWS. Cette clé est un identifiant obtenu après
+        enregistrement auprès d'Amazon.</para>
 
-      <para>"<emphasis role="bold">Rechercher dans</emphasis>" vous permet de
-      spécifier dans quelle partie du catalogue Amazon vous voulez réaliser
-      votre recherche.</para>
+        <para>Pour plus d'informations sur le programme AWS, consultez :
+        <ulink
+        url="http://www.amazon.com/gp/aws/landing.html">www.amazon.com/gp/aws/landing.html</ulink>
+        </para>
+      </sect3>
+
+      <sect3>
+        <title>Ajouter une source</title>
+
+        <figure>
+          <title>Propriété d'une source du connecteur Amazon</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/admin_conn_aws_conn1.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Pour ajouter une nouvelle source au connecteur entrant AWS,
+        cliquez sur le bouton Ajouter une source depuis la liste des
+        connecteurs entrants.</para>
+
+        <para>Définissez un <emphasis role="bold">nom</emphasis> à votre
+        source, par exemple "DVD Amazon.com".</para>
+
+        <para>Vous pouvez ajouter à votre source une <emphasis
+        role="bold">description</emphasis>. Préférez une description courte,
+        elle sera reprise dans tous les écrans de recherche.</para>
+
+        <para>Vous pouvez définir un <emphasis role="bold">time-out</emphasis>
+        à votre source, 5 est la valeur par défaut. Selon votre vitesse de
+        connexion et vos essais quant à la vitesse de réponse d'Amazon, vous
+        pouvez souhaiter augmenter cette valeur. Effectuez des tests pour
+        l'établir.</para>
+
+        <para>Le <emphasis role="bold">nombre d'essais</emphasis> sera le
+        nombre de tentatives que le connecteur effectuera pour réaliser la
+        recherche sur le serveur Amazon. Si la recherche n'aboutit pas, aucun
+        résultat ne sera renvoyé.</para>
+
+        <para>Les résultats rapatriés resteront valides si la même question
+        est fournie pendant une <emphasis role="bold">durée de
+        validité</emphasis>, ici 1800 secondes, soit 30 minutes.</para>
+
+        <para>Choisissez le <emphasis role="bold">site</emphasis> Amazon
+        concerné par cette source parmi Amazon US, UK, DE, JP, FR, CA.</para>
+
+        <para>Le <emphasis role="bold">format de réponse</emphasis> correspond
+        à la qualité de la notice retournée. Selon la qualité de la notice et
+        la conversion programmée dans le connecteur, seulement une partie des
+        données pourrait être importée, réalisez des tests d'imports pour
+        faire votre choix dans les formats de réponse.</para>
+
+        <para>"<emphasis role="bold">Rechercher dans</emphasis>" vous permet
+        de définir dans quelle partie du catalogue Amazon vous voulez réaliser
+        votre recherche.</para>
+      </sect3>
     </sect2>
   </sect1>
 

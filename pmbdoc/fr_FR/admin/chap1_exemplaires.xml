@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_expl">
+  <chapterinfo>
+	 <!-- <releaseinfo>$Id: chap1_exemplaires.xml,v 1.7 2007/12/21 13:10:49 gautier Exp $</releaseinfo>  --> 
+  </chapterinfo>	
+
+  <title lang='fr'>Exemplaires</title>
+
+  <title lang='en'>Copies</title>
+
+  <para lang="fr"><emphasis>Administration</emphasis> &gt;
+  <emphasis>Exemplaires</emphasis> vous permet de personnaliser le catalogage
+  des exemplaires de votre bibliothèque. Vous pouvez personnaliser les types
+  de documents, codes statistiques, sections, statuts, localisations,
+  propriétaires et enfin ajouter des champs personnalisables à vos
+  exemplaires.</para>
+
+  <para lang="en"><emphasis>Administration</emphasis> &gt; <emphasis>Copies</emphasis>
+  allows you to customize the cataloguing of copies of works in your library.
+  You can customize media type, statistical code, section, status, location,
+  owner, and finally add customizable fields to your copies.</para>
+
+  <sect1 id="admin_expl_typdoc">
+    <title lang="fr">Types de document</title>
+
+    <title lang="en">Media types</title>
+
+    <para lang="fr"><emphasis role="bold">Types de documents</emphasis> permet
+    de paramétrer les différents supports des exemplaires et pour chacun d'eux
+    la durée du prêt en jours.</para>
+
+    <para lang="en"><emphasis role="bold">Media types</emphasis> allows
+    configuration of the various types of documents and for each one of them
+    the loan period in days.</para>
+
+    <para lang="fr">Attention, il s'agit ici des types de documents qui seront
+    affichés pour les exemplaires et non pour les ouvrages. Ceux-ci sont
+    définis ici pour compléter ou afficher des précisions par rapport au type
+    de document défini pour l'ouvrage. Les types de support des ouvrages sont
+    normés en UNIMARC dans PMB.</para>
+
+    <para lang="en"><emphasis role="bold">Warning</emphasis>, we are talking
+    here of types of documents that will be displayed for the copy and not for
+    the bibliographical record. They are defined here to supplement or provide
+    details about the type of document defined for the work. In PMB the medium
+    type for works is normalized in UNIMARC.</para>
+
+    <para lang="fr">Le type de document sert également à définir la <emphasis
+    role="">Durée du prêt</emphasis> ou la <emphasis role="">Durée de la
+    réservation</emphasis> affectée à un exemplaire.</para>
+
+    <para lang="en">Type of document is also used to define <emphasis
+    role="">Loan period</emphasis> or <emphasis role="">Duration of
+    hold</emphasis> for an item.</para>
+
+    <para lang="fr"><emphasis role="bold">Attention</emphasis> si les quotas
+    de prêts avancés sont activés (paramètre type <emphasis>pmb</emphasis>,
+    sous-type <emphasis>quotas_avances</emphasis> défini à 1), les colonnes
+    Durée de prêt et Durée de la réservation renvoient<emphasis role=""> Voir
+    quotas</emphasis>. Pour plus d'information voir <xref
+    linkend="admin_quotas" /> et <xref
+    linkend="admin_outils_parametres" />.</para>
+
+    <para lang="en"><emphasis role="bold">Warning</emphasis> If advanced loans
+    quotas are enabled (parameter type <emphasis>pmb</emphasis>, sub-type
+    <emphasis>advanced-quotas</emphasis> set to 1), the columns Loan period
+    and Duration of hold display <emphasis role=""> See quotas</emphasis>. For
+    more information, refer to <xref linkend="admin_quotas" /> and <xref
+    linkend="admin_outils_parametres" />.</para>
+
+    <para lang="fr">Les deux colonnes <emphasis role="">propriétaire de
+    codage</emphasis> et <emphasis role="">codage d'import
+    </emphasis>correspondent à la gestion des informations recueillies lors de
+    l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un type de
+    document déjà défini. Voir le chapitre <emphasis>Définitions</emphasis>
+    pour plus d'informations.</para>
+
+    <para lang="en">Both columns <emphasis role="">Coding owners</emphasis>
+    and <emphasis role="">Import coding</emphasis> correspond to the
+    management of data gathered while importing UNIMARC copies, they are used
+    to establish the link with the type of document already defined. For more
+    information, refer to the chapter <emphasis>Definitions</emphasis>.</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; types de document 2</title>
+
+      <title lang="en">Copies &gt; type of document</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_cat_doctypes.gif"  contentwidth="10cm"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_expl_codstat">
+    <title lang="fr">Codes statistiques</title>
+
+    <title lang="en">Statistical codes</title>
+
+    <para lang="fr">Le code statistique est utilisé pour la constitution des
+    statistiques de prêt et sur les fonds de la médiathèque.</para>
+
+    <para lang="en">The statistical code is used for compiling statistics on
+    loans and the library holdings.</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; codes statistiques</title>
+
+      <title lang="en">Copies &gt; Statistical codes</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/admin_cat_codstat.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Les deux colonnes <emphasis role="">propriétaire de
+    codage</emphasis> et <emphasis role="">codage d'import
+    </emphasis>correspondent à la gestion des informations recueillies lors de
+    l'import d'exemplaires UNIMARC. Ceci permet de faire le lien avec un type
+    de document déjà défini. Voir le chapitre <emphasis>Définitions</emphasis>
+    pour plus d'informations.</para>
+
+    <para lang="en">Both columns <emphasis role="">Coding owners</emphasis>
+    and <emphasis role="">Import coding</emphasis> correspond to the
+    management of data gathered while importing UNIMARC copies, they are used
+    to establish the link with the type of document already defined. For more
+    information, refer to the chapter <emphasis>Definitions</emphasis>.</para>
+  </sect1>
+
+  <sect1 id="admin_expl_section">
+    <title lang="fr">Sections</title>
+
+    <title lang="en">Sections</title>
+
+    <para lang="fr">La section est le secteur de la médiathèque dont dépend le
+    document (secteur adulte, jeunesse, discothèque...). Ce code est par
+    exemple pris en compte dans la constitution des statistiques des
+    BDP.</para>
+
+    <para lang="en">Section is the division of the library to which the
+    document belongs (adult, youth, music ...). This code is taken into
+    account for the calculation of statistics, for example.</para>
+
+    <para lang="fr">Ce secteur peut correspondre à une partie physique de la
+    médiathèque aussi grande qu'une salle ou aussi petite qu'un
+    rayonnage.</para>
+
+    <para lang="en">Section may also correspond to a geographical area of the
+    library, it can be as large as a room or as small as a shelf.</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; sections</title>
+
+      <title lang="en">Copies &gt; Sections</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/admin_cat_sections.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Les deux colonnes <emphasis role="">propriétaire de
+    codage</emphasis> et <emphasis role="">codage d'import
+    </emphasis>correspondent à la gestion des informations recueillies lors de
+    l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec une section
+    déjà définie. Voir le chapitre <xref linkend="definitions" /> pour plus
+    d'informations.</para>
+
+    <para lang="en">Both columns <emphasis role="">Coding owners</emphasis>
+    and <emphasis role="">Import coding</emphasis> correspond to the
+    management of data gathered while importing UNIMARC copies, they are used
+    to establish a link with a section already defined. See the chapter <xref
+    linkend="definitions" /> for more information.</para>
+  </sect1>
+
+  <sect1 id="admin_expl_statut">
+    <title lang="fr">Statuts</title>
+
+    <title lang="en">Status</title>
+
+    <para lang="fr">La notion de statut est utilisée pour spécifier si le
+    document est empruntable ou non.</para>
+
+    <para lang="en">Status is used to specify whether the document can be
+    loaned or not.</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; statuts</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/admin_cat_status.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Ce statut concerne généralement un état physique
+    (détérioré, bon état, perdu) ou une position sur le chemin du livre entre
+    la démarche d'acquisition de la bibliothèque et la situation de prêt au
+    lecteur (commandé, en cours d'acquisition, en cours de catalogage, en
+    réparation,...).</para>
+
+    <para lang="en">Status generally deals with a physical state (damaged,
+    good, lost) or the whereabouts of the book between ordering and loan to
+    readers (on order, in acquisition, in cataloguing, in repairs ...).</para>
+
+    <para lang="fr">Les deux colonnes <emphasis role="">propriétaire de
+    codage</emphasis> et <emphasis role="">codage d'import
+    </emphasis>correspondent à la gestion des informations recueillies lors de
+    l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un statut
+    déjà défini. Voir le chapitre <emphasis>Définitions</emphasis> pour plus
+    d'informations.</para>
+
+    <para lang="en">Both columns <emphasis role="">Coding owners</emphasis>
+    and <emphasis role="">Import coding</emphasis> correspond to the
+    management of data gathered while importing UNIMARC copies, they are used
+    to establish a link with a status already defined. For more information,
+    refer to the chapter <emphasis>Definitions</emphasis>.</para>
+  </sect1>
+
+  <sect1 id="admin_expl_location">
+    <title lang="fr">Localisations</title>
+
+    <title lang="en">Locations</title>
+
+    <para lang="fr">La localisation peut être utilisée pour attacher le
+    document à un emplacement particulier (exemple : en réserve).</para>
+
+    <para lang="en">Location can be used to link the document with a specific
+    geographical location (example: in reserve).</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; localisations</title>
+
+      <title lang="en">Copies &gt; Location</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/admin_cat_loc.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Cette notion de localisation est très importante pour les
+    bibliothèques multi-sites. Elle peut également être intéressante pour les
+    centres de documentations spécialisés : laboratoire de recherche ou
+    entreprise, dans lesquels les livres peuvent être prêtés pour une durée
+    plus ou moins longue. Ceux-ci sont sortis des rayonnages pour rejoindre le
+    bureau d'études ou le bureau d'un chercheur. Dans ce cas, on peut se
+    servir de PMB pour définir une localisation <emphasis>Bureau
+    d'études</emphasis> et un statut correspondant <emphasis>Ouvrage de
+    référence</emphasis>, dont le prêt sera bien entendu impossible puisque
+    hors des rayons. Cette solution permet de suivre la trace des livres dont
+    la présence aurait été requise hors des rayons de la bibliothèque, sans
+    obliger une logique de prêt à durée indéterminée.</para>
+
+    <para lang="en">This location notion is very important for multi-site
+    libraries. It can also be very useful for specialized documentation
+    centres: research laboratory or company where books can be loaned for a
+    rather long period. These have been taken off the shelves and have been
+    transferred to the design department or the study of a scientist. In this
+    case, PMB can be used to define a location <emphasis>Design
+    department</emphasis> and a corresponding status <emphasis>Reference
+    work</emphasis>, for which the loan would obviously be impossible because
+    the copy is absent from the shelves. This solution allows for the tracing
+    of books required outside the library without necessitating a loan for a
+    period left undetermined.</para>
+
+    <para lang="fr">Les deux colonnes <emphasis role="">propriétaire de
+    codage</emphasis> et <emphasis role="">codage d'import
+    </emphasis>correspondent à la gestion des informations recueillies lors de
+    l'import d'exemplaires UNIMARC pour pouvoir faire le lien avec un type de
+    document déjà défini. Voir le chapitre <emphasis>Définitions</emphasis>
+    pour plus d'informations.</para>
+
+    <para lang="en">Both columns <emphasis role="">Coding owners</emphasis>
+    and <emphasis role="">Import coding</emphasis> correspond to the
+    management of data gathered while importing UNIMARC copies, they are used
+    to establish a link with the type of document already defined. For more
+    information, refer to the chapter <emphasis>Definitions</emphasis>.</para>
+
+    <para lang="fr">Vous pouvez définir pour chaque localisation différents
+    paramètres. Ces paramètres définissent les lettres de relances, l'adresse
+    de la bibliothèque par exemple. A chaque fois que l'adresse de la
+    bibliothèque est nécessaire, PMB vient chercher la valeur qui correspond à
+    sa localisation.</para>
+
+    <para lang="en">You can define different parameters for each location. For
+    example, these parameters can be used for overdue letters or the library
+    address. Each time the library address is required, PMB looks for the
+    corresponding value in location.</para>
+  </sect1>
+
+  <sect1 id="admin_expl_lenders">
+    <title lang="fr">Propriétaires</title>
+
+    <title lang="en">Owners</title>
+
+    <para lang="fr">Vous trouverez ici la liste des propriétaires des
+    exemplaires gérés dans le catalogue. Vous pouvez ici mentionner le dépôt
+    de votre BDP, une collection issue d'un legs, d'un don ou d'une dation que
+    vous souhaitez identifier...</para>
+
+    <para lang="en">You will find here the list of owners of copies managed in
+    the catalogue. You can mention here the collection made available to you
+    by your Departmental Lending Library, a collection bequeathed to the
+    library, a donation that you wish to identify ...</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; propriétaires</title>
+
+      <title lang="en">Copies &gt; owners</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/admin_expl_propr.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect1>
+
+  <sect1 id="admin_expl_perso">
+    <title lang="fr">Personnalisables</title>
+
+    <title lang="en">Customizable data</title>
+
+    <para lang="fr">Il s'agit ici des informations propres à votre
+    bibliothèque sur les exemplaires. Ceci vous permet de spécifier des
+    données propres à votre gestion : origine du don ou du financement de
+    l'acquisition, ...</para>
+
+    <para lang="en">These correspond to your own library information regarding
+    copies. It allows you to specify your management data: source of donation
+    or financing for the acquisition, ...</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; Personnalisables</title>
+
+      <title lang="en">Copies &gt; Customizable data</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/admin_expl_perso.gif" contentwidth="10cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Prenons un exemple. Ajoutons un champ intitulé
+    <emphasis>Type de couverture </emphasis>qui nous permettra de spécifier le
+    type de reliure d'un ouvrage. Les reliures peuvent être de trois types :
+    souple, cartonné, broché. Enfin tous les exemplaires ne correspondent pas
+    forcément à des livres, on ajoutera donc un autre choix : non
+    concerné.</para>
+
+    <para lang="en">Example. Let's add a field entitled <emphasis>Type of book
+    cover</emphasis> that will enable us to specify the type of binding of a
+    book. Bindings can be of 3 types: soft, hardcover, paperback. Since not
+    all copies correspond to books, we will add another choice: Not
+    Applicable.</para>
+
+    <para lang="fr">Cliquez sur <emphasis>nouveau champ</emphasis> <graphic 
+	fileref="images/nouveau_champ.gif"  width="3cm"/></para>
+
+    <para lang="en">Click on <emphasis>New field</emphasis> <graphic
+    fileref="images/nouveau_champ.gif" width="3cm"/></para>
+
+    <para lang="fr">L'écran suivant est affiché :</para>
+
+    <para lang="en">The following screen is displayed:</para>
+
+    <figure>
+      <title lang="fr">Exemplaires &gt; Personnalisables, nouveau
+      champ</title>
+
+      <title lang="en">Copies &gt; Customizable data, New field</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/admin_expl_nouveau_champ.gif" contentwidth="7cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Dans nom du champ, saisissez
+    <emphasis>couverture</emphasis> (n'utilisez pas d'accent, d'espace ou de
+    ponctuation dans un nom de champ), dans titre à l'affichage saisissez
+    <emphasis>couverture</emphasis> (Vous pourriez également utiliser un nom
+    avec des espaces mais uniquement à l'affichage, par exemple <emphasis>Type
+    de couverture</emphasis>).</para>
+
+    <para lang="en">For name of field, enter <emphasis>cover</emphasis> (do
+    not use accents, spaces or punctuation marks in the name for a field), for
+    title to display, enter <emphasis>cover</emphasis> (you can also use a
+    name with spaces but only for display purposes, for example <emphasis>Type
+    of cover</emphasis>).</para>
+
+    <para lang="fr">Choisissez pour type de saisie une <emphasis>liste de
+    choix</emphasis>. Puis cliquer sur <emphasis>Options</emphasis>.</para>
+
+    <para lang="en">For type of entry choose <emphasis>List box</emphasis>.
+    Then click on <emphasis>Options</emphasis>.</para>
+
+    <figure>
+      <title lang="fr">Options du type liste de choix</title>
+
+      <title lang="en">Options for the List box type</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/chp_perso_options_liste.gif" contentwidth="7cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para lang="fr">Cliquez sur <emphasis>Ajouter</emphasis> 4 fois pour
+    pouvoir définir quatre choix possibles : broché, relié, cartonné et non
+    concerné. Les valeurs stockées en base de données sont
+    <emphasis>brochage</emphasis>, <emphasis>reliure</emphasis>,
+    <emphasis>cartonnage</emphasis>, et <emphasis>pasdecouv</emphasis>. Vous
+    obtenez alors le résultat ci-dessus. Cliquez alors sur
+    <emphasis>Enregistrer</emphasis> pour fermer le popup, puis sur
+    <emphasis>Enregistrer</emphasis> pour ajouter votre paramètre.</para>
+
+    <para lang="en">Click on <emphasis>Add</emphasis> 4 times to define 4
+    different choices: paperback, soft, hardcover, Not Applicable. The stored
+    values in the database are paperback, soft, hardcover and nocover. You
+    will then obtain the result displayed above. Now click on
+    <emphasis>Save</emphasis> to close the popup window, and finally on
+    <emphasis>Save</emphasis> to add your parameter.</para>
+
+    <para lang="fr">Vous pouvez désormais utiliser votre nouveau champ
+    personnalisé dans toute saisie ou modification d'un exemplaire. Pour plus
+    d'informations sur la création d'un exemplaire, consultez le
+    <emphasis>Guide de l'utilisateur de PMB</emphasis>.</para>
+
+    <para lang="en">You can now use your new customized field for any input or
+    modification of a copy. For more information on the creation of a copy,
+    refer to the <emphasis>PMB User's Guide</emphasis>.</para>
+
+    <para lang="fr">Dans Catalogage &gt; Ouvrage &gt; Nouvelle notice, après
+    avoir défini une nouvelle notice, vous pouvez ajouter un exemplaire. Vous
+    verrez alors votre nouveau champ personnalisé.</para>
+
+    <para lang="en">In Cataloguing &gt; record &gt; new record, after creating
+    a new record, you can add a copy. You will then see your new customized
+    field.</para>
+
+    <figure>
+      <title lang="fr">Édition d'un exemplaire, le champ personnalisé Type de
+      Couverture a été ajouté</title>
+
+      <title lang="en">Editing a copy, the customized field Type of cover has
+      been added</title>
+
+      <mediaobject>
+        <imageobject>
+		<imagedata fileref="images/chp_perso_expl.gif" contentwidth="7cm" />
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <sect2>
+      <title lang="fr">Types de saisie des champs personnalisés</title>
+
+      <title lang="en">Types of input for customizable fields</title>
+
+      <para lang="fr">Il existe d'autres types de saisie pour un champ
+      personnalisé que liste de choix.</para>
+
+      <para lang="en">Inputs other than the list box type exist for a
+      customizable field.</para>
+
+      <para lang="fr">Les champs personnalisés peuvent être de cinq types
+      :</para>
+
+      <para lang="en">There are five types of customizable fields:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para lang="fr">texte</para>
+
+          <para lang="en">text</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">liste de choix</para>
+
+          <para lang="en">list box</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">liste de choix à partir d'une requête</para>
+
+          <para lang="en">list box from a query</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">sélection d'une date</para>
+
+          <para lang="en">date selection</para>
+        </listitem>
+
+        <listitem>
+          <para lang="fr">zone de commentaire</para>
+
+          <para lang="en">note zone</para>
+        </listitem>
+      </itemizedlist>
+
+      <para lang="fr">Chacun de ces types possède différentes options. Cliquez
+      sur <emphasis>options </emphasis>pour spécifier les paramètres de ces
+      champs.</para>
+
+      <para lang="en">Each one of these types has 5 different options. Click
+      on <emphasis>Options </emphasis>to specify the parameters for these
+      fields.</para>
+
+      <sect3>
+        <title lang="fr">Type texte</title>
+
+        <title lang="en">Text type</title>
+
+        <figure>
+          <title lang="fr">Options du type texte</title>
+
+          <title lang="en">Options for the text type</title>
+
+          <mediaobject>
+            <imageobject>
+		    <imagedata fileref="images/chp_perso_options_texte.gif" contentwidth="7cm" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang="fr">Vous pouvez spécifier pour un champ de type texte sa
+        taille à l'écran. Vous pouvez aussi spécifier le nombre maximum de
+        caractères à saisir (si ce dernier est plus grand que la taille
+        affichée à l'écran, vous pourrez continuer à saisir même arrivé au
+        bout de la case de saisie).</para>
+
+        <para lang="en">For a text type you can specify its screen size. You
+        can also specify the maximum number of letters to enter (if larger
+        that the specified size on screen, you will still be able to enter
+        even when you reach the end of the input box).</para>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Type liste de choix</title>
+
+        <title lang="en">List box type</title>
+
+        <para lang="fr"><emphasis role="bold">Attention</emphasis> on ne peut
+        pas créer des options de choix tant que le champ n'a pas été
+        enregistré. Depuis l'écran d'ajout d'un paramètre, enregistrez le
+        champ personnalisé. Cliquez ensuite sur son nom pour le modifier et
+        spécifier des options.</para>
+
+        <para lang="en"><emphasis role="bold">Warning</emphasis> you cannot
+        create options for the choices until the field has been recorded. From
+        the screen add a parameter, record the customizable field. Then click
+        on its name to modify it and specify options.</para>
+
+        <figure>
+          <title lang="fr">Options du type liste de choix</title>
+
+          <title lang="en">Options for the List box type</title>
+
+          <mediaobject>
+            <imageobject>
+		    <imagedata fileref="images/chp_perso_options_liste.gif" contentwidth="5cm" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang="fr">Vous pouvez spécifier pour une liste de choix :</para>
+
+        <para lang="en">For a list box you can specify:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para lang="fr">si la liste est à choix multiples possibles (pour
+            sélectionner plusieurs choix dans une liste sur votre navigateur
+            internet, il faut cliquer sur les choix en maintenant la touche
+            CTRL appuyée)</para>
+
+            <para lang="en">whether it is a multiple choice list (to select
+            multiple choices in a list with your internet browser, you need to
+            click on the choices while holding down the control key.)</para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr">la valeur par défaut. Si aucun choix n'est
+            sélectionné, cette valeur sera celle qui sera renvoyée.</para>
+
+            <para lang="en">the default value. When no choice is made, this is
+            the value that will be displayed.</para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr">une liste des options. Cette liste se compose d'un
+            <emphasis role="bold">libellé</emphasis> : le texte qui sera
+            affiché à l'écran ; d'une <emphasis role="bold">valeur</emphasis>
+            : c'est la valeur qui sera stockée dans PMB (accents, espaces,
+            ponctuation... sont interdits). Un ordre des différentes options
+            est spécifiable.</para>
+
+            <para lang="en">a list of options, This list includes a <emphasis
+            role="bold">label</emphasis>: the text that will be displayed on
+            screen; a <emphasis role="bold">value</emphasis>: the value that
+            will be stored in PMB (accents, spaces, punctuation marks ... are
+            not allowed). A sort order for the various options can be
+            specified.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para lang="fr">A l'aide des boutons d'action vous pouvez:</para>
+
+        <para lang="en">With the action buttons you can:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para lang="fr">ajouter un choix supplémentaire à la liste</para>
+
+            <para lang="en">add an extra choice to the list</para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr">supprimer les choix que vous avez coché en
+            cliquant sur la case à cocher en début de chacune des lignes
+            correspondantes</para>
+
+            <para lang="en">delete the choices you have made on the checkbox
+            at the beginning of each corresponding line</para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr">enregistrer vos changements</para>
+
+            <para lang="en">record your changes</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Type liste de choix à partir d'une requête</title>
+
+        <title lang="en">List box from a query type</title>
+
+        <figure>
+          <title lang="fr">Options du type liste de choix à partir d'une
+          requête</title>
+
+          <title lang="en">Options for a List box from a query type</title>
+
+          <mediaobject>
+            <imageobject>
+		    <imagedata fileref="images/chp_perso_options_liste_req.gif" contentwidth="5cm" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang="fr">Vous pouvez spécifier pour une liste de choix par
+        requête :</para>
+
+        <para lang="en">For a List box from a query you can specify:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para lang="fr">si la liste est à choix multiple possible (pour
+            sélectionner plusieurs choix dans une liste sur votre navigateur
+            internet, il faut cliquer sur les choix en maintenant la touche
+            CTRL appuyée)</para>
+
+            <para lang="en">whether it is a multiple choice list (to select
+            multiple choices in a list with you internet browser, you need to
+            click on the choices while holding down the control key.)</para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr">la valeur par défaut. Si aucun choix n'est
+            sélectionné, cette valeur sera celle qui sera renvoyée</para>
+
+            <para lang="en">the default value. When no choice is made, this is
+            the value that will be displayed</para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr">une requête qui renverra la liste des
+            options.</para>
+
+            <para lang="en">a query that will display the options list.</para>
+          </listitem>
+        </itemizedlist>
+
+        <para lang="fr">A l'aide des boutons d'action vous pouvez:</para>
+
+        <para lang="en">With the action buttons you can:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para lang="fr">tester votre requête. Si vous cliquez sur ce
+            bouton, les choix retournés par la requête sont alors affichés
+            sous le bouton. Ceci vous permet de vérifier la validité de votre
+            requête.</para>
+
+            <para lang="en">test your query. When you click on the button, the
+            choices returned by the query are displayed below the button. This
+            will enable you to check the validity of your query.</para>
+          </listitem>
+
+          <listitem>
+            <para lang="fr">enregistrer vos changements</para>
+
+            <para lang="en">record your changes</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Type date</title>
+
+        <title lang="en">Date type</title>
+
+        <figure>
+          <title lang="fr">Options du type sélection d'une date</title>
+
+          <title lang="en">Options for the Date type</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/chp_perso_options_date.gif" contentwidth="7cm" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang="fr">Il n'y a pas d'options particulières pour les champs
+        personnalisés de type date. Un clic sur le bouton Options affiche
+        uniquement le message ci-dessus.</para>
+
+        <para lang="en">There are no particular options for customizable
+        fields of date type. Clicking on the Options button will only display
+        the message above.</para>
+      </sect3>
+
+      <sect3>
+        <title lang="fr">Type zone de commentaire</title>
+
+        <title lang="en">Comment zone type</title>
+
+        <figure>
+          <title lang="fr">Options du type zone de commentaire</title>
+
+          <title lang="en">Options for the Comment zone type</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/chp_perso_options_comm.gif" contentwidth="7cm" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para lang="fr">Les champs de type zone de commentaire fonctionnent de
+        la même manière que les champs texte. On peut préciser de plus un
+        nombre de lignes du champ commentaire.</para>
+
+        <para lang="en">Fields of the type Comment zone work the same way as
+        text fields. In addition, you can specify a number of lines for the
+        comment field.</para>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title lang="fr">Types de données, visible dans l'OPAC,
+      obligatoire</title>
+
+      <title lang="en">Data types, visible in OPAC, mandatory</title>
+
+      <para lang="fr">Cinq types de données peuvent être stockées en base dans
+      PMB : texte, texte large, entier, date, nombre à virgule.</para>
+
+      <para lang="en">Five types of data can be stored in the PMB database:
+      text, large text, integer, date, decimal number.</para>
+
+      <para lang="fr"><emphasis>Visible dans l'OPAC</emphasis> permet de
+      choisir si ce champ sera visible par les lecteurs. Vous pouvez ainsi
+      ajouter des champs réservés au personnel de la bibliothèque : par
+      exemple, le nom de la personne qui a créé la notice, ...</para>
+
+      <para lang="en"><emphasis>Visible in OPAC</emphasis> allows to choose if
+      this field will be visible to readers. In this way you can add fields
+      reserved for the library personnel: for example, the name of the person
+      who created the record, ...</para>
+
+      <para lang="fr"><emphasis>Obligatoire</emphasis> spécifie que le champ
+      devra être rempli. Si ce champ n'est pas rempli lors de la saisie ou de
+      la modification d'un exemplaire, un message d'erreur est affiché.</para>
+
+      <para lang="en"><emphasis>Mandatory</emphasis> specifies that the field
+      must be filled in. If the field is not filled in during input or editing
+      of an item, an error message is displayed.</para>
+
+      <figure>
+        <title lang="fr">Alerte pour un champ obligatoire non rempli</title>
+
+        <title lang="en">Warning for a blank mandatory field</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="images/alerte_champs.gif" contentwidth="7cm" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </sect2>
+  </sect1>
+</chapter>
