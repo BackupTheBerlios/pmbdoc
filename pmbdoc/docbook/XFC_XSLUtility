@@ -1,5 +1,5 @@
 #XMLmind FO Converter - XSL Utility
-#Thu Dec 20 19:56:15 CET 2007
+#Fri Dec 21 14:47:35 CET 2007
 configuration16.name=XHTML to OpenDocument
 configuration17.parameter2.name=l10.gentext.default.language
 configuration12.parameterCount=1
@@ -39,7 +39,7 @@ configuration16.outputEncoding=UTF-8
 configuration3.singleSidedLayout=false
 configuration12.parameter0.name=paper.type
 configuration18.parameter0.value=A5
-inputFileName=/home/gmichelin/workspace/pmbdoc/fr_FR/user/user_guide.xml
+inputFileName=/home/gmichelin/workspace/pmbdoc/fr_FR/install/install_guide.xml
 configuration9.foProcessor=XFC
 configuration18.parameter1.value=fr
 configuration4.name=DocBook to HTML
@@ -176,7 +176,7 @@ configuration9.singleSidedLayout=false
 configuration2.singleSidedLayout=false
 configuration9.outputFileExtension=docx
 configuration9.parameter0.name=paper.type
-configurationIndex=17
+configurationIndex=18
 configuration11.outputFileExtension=html
 configuration16.singleSidedLayout=false
 configuration3.outputEncoding=UTF-8
@@ -188,7 +188,7 @@ configuration2.parameter0.value=A4
 configuration8.outputFileExtension=wml
 configuration13.styleSheet=/home/gmichelin/programs/xfc-42/xslu/config/xhtml/xsl/fo.xsl
 configuration17.imageResolution=96
-configuration18.styleSheet=/home/gmichelin/workspace/pmbdoc/docbook/newpmb_fr_profile-docbook.xsl
+configuration18.styleSheet=/home/gmichelin/programs/xfc-42/xslu/config/docbook/xsl/fo/newpmb_fr_profile-docbook.xsl
 configuration16.outputType=odt
 configuration4.parameterCount=1
 configuration10.outputFileExtension=odt
@@ -205,7 +205,7 @@ configuration3.parameter0.value=A4
 configuration7.singleSidedLayout=false
 configuration0.singleSidedLayout=false
 configuration15.foProcessor=XFC
-outputFileName=/home/gmichelin/public_html/doc/user_guide_html
+outputFileName=/home/gmichelin/workspace/pmbdoc/fr_FR/install
 configuration8.imageResolution=96
 configuration2.parameter0.name=paper.type
 configuration3.name=DocBook to OpenDocument
