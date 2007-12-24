@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="admin_misc" lang="fr">
+  <title id="param" lang="fr">Fonctions accessibles par paramétrage</title>
+
+  <sect1 id="param_dedoub_notices">
+    <title lang="fr">Dédoublonnage de notices</title>
+
+    <para lang="fr">Le dédoublonnage en saisie de notice permet d'éviter la
+    création de doublons lors de la saisie.</para>
+
+    <para>Largement configurable, ce dédoublonnage est basé sur le paramètre
+    <emphasis role="bold">notice_controle_doublons</emphasis> (Administration
+    &gt; Outils &gt; Paramètres, paramètres généraux).</para>
+
+    <para>Voici une liste des principaux critères sur lesquels vous pouvez
+    faire un contrôle pour dédoublonnage :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>typdoc (type de document de la notice : texte imprimé, document
+        sonore non-musical...)</para>
+      </listitem>
+
+      <listitem>
+        <para>tit1 (titre propre)</para>
+      </listitem>
+
+      <listitem>
+        <para>tit2 (titre parallèle)</para>
+      </listitem>
+
+      <listitem>
+        <para>tit3 (titre propre d'un auteur différent)</para>
+      </listitem>
+
+      <listitem>
+        <para>tit4 (complément du titre)</para>
+      </listitem>
+
+      <listitem>
+        <para>f_tparent_id (titre de série)</para>
+      </listitem>
+
+      <listitem>
+        <para>tnvol (numéro dans la série)</para>
+      </listitem>
+
+      <listitem>
+        <para>aut0_id (auteur principal)</para>
+      </listitem>
+
+      <listitem>
+        <para>ed1_id (éditeur)</para>
+      </listitem>
+
+      <listitem>
+        <para>coll_id (collection)</para>
+      </listitem>
+
+      <listitem>
+        <para>year (année de publication)</para>
+      </listitem>
+
+      <listitem>
+        <para>lien (lien hypertexte de la notice)</para>
+      </listitem>
+    </itemizedlist>
+
+    <important>
+      <para>Pour consulter tous les critères de dédoublonnage des notices,
+      ouvrez dans un éditeur de texte le fichier
+      pmb/includes/notice/notice.xml.</para>
+    </important>
+
+    <para>Voici un exemple de dédoublonnage de notices sur titre propre,
+    auteur et année d'édition : dans <emphasis>Administration</emphasis> &gt;
+    <emphasis>Outils</emphasis> &gt; <emphasis>Paramètres</emphasis>,
+    développez <emphasis>paramètres généraux</emphasis>, dans <emphasis
+    role="bold">notice_controle_doublons</emphasis>, saisissez
+    "1,tit1,aut0_id,year".</para>
+
+    <important>
+      <para>Attention, ce contrôle est basé sur les signatures des notices,
+      ces signatures contiennent les informations de contrôle de doublon.
+      Après toute modification de ce paramètre, il faut passer par
+      <emphasis>Administration</emphasis> &gt; <emphasis>Outils</emphasis>
+      &gt; <emphasis>Nettoyage de base</emphasis>, cocher <emphasis>Générer
+      toutes les signatures de notices</emphasis> et cliquer sur
+      Suivant.</para>
+    </important>
+  </sect1>
+</chapter>
