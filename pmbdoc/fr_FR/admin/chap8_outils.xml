@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="admin_misc">
-  <chapterinfo>
-    <!-- <releaseinfo>$Id: chap8_outils.xml,v 1.7 2007/12/21 13:10:49 gautier Exp $</releaseinfo>  -->
-  </chapterinfo>
-
   <title lang="fr">Outils</title>
 
   <para lang="fr">La partie <emphasis>Outils</emphasis> de l'onglet
@@ -23,16 +19,6 @@
   <sect1 id="admin_netbase">
     <title lang="fr">Nettoyage de base</title>
 
-    <para lang="fr">Le nettoyage de base vous permet de nettoyer votre base en
-    supprimant des données redondantes ou inutilisées, en purgeant votre base
-    des autorités inutilisées.</para>
-
-    <para lang="fr">Vous pouvez également ici optimiser votre base en la
-    réindexant. Lors de la suppression de données dans la base, de l'espace
-    libre est laissé au sein du fichier de données sur le serveur. Cette
-    opération est la seule manière de maintenir à un haut niveau la
-    performance de votre serveur de données.</para>
-
     <figure>
       <title lang="fr">Outils &gt; Nettoyage de base</title>
 
@@ -44,10 +30,31 @@
       </mediaobject>
     </figure>
 
+    <para lang="fr">Le nettoyage de base vous permet de nettoyer votre base en
+    supprimant des données redondantes ou inutilisées, en purgeant votre base
+    des autorités inutilisées.</para>
+
+    <para lang="fr">Dans Nettoyage de base, vous pouvez également réindexer
+    votre base (réindexer l'<emphasis>index global</emphasis> ou
+    <emphasis>tous les champs de recherche</emphasis>) : cette opération va
+    recréer les index de recherche propres à PMB. Ces index contiennent par
+    exemple les titres concaténés sans majuscules, ni accents ou ponctuations
+    (index_sew). C'est dans ces index que sont lancés les recherches. Ils sont
+    enregistrés après chaque modification dans les notices.</para>
+
+    <para>Une réindexation de la base n'est donc utile qu'après une
+    modification faite directement dans la base, par exemple via
+    phpMyAdmin.</para>
+
     <para lang="fr">Attention après un nettoyage de la base, réalisez toujours
     une optimisation de la base de données en passant Administration &gt;
     Outils &gt; Maintenance MySQL &gt; Optimiser les tables (ceci permet de
     reconstruire les index de MySQL).</para>
+
+    <para>Vous pouvez également <emphasis>générer les signatures de
+    notices</emphasis>. Ces signatures permettent le contrôle de doublons dans
+    la base lors de la création de notices, voir <xref
+    linkend="param_dedoub_notices" />.</para>
   </sect1>
 
   <sect1 id="admin_misc_proc">

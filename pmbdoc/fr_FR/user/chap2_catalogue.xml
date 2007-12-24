@@ -16,10 +16,10 @@
     </inlinemediaobject>.Pour plus d'informations, voir <xref
   linkend="cat_caddies" />.</para>
 
-  <sect1 id="cat_ouvrages">
+  <sect1 id="cat_search">
     <title lang="fr">Recherche</title>
 
-    <sect2 id="cat_search">
+    <sect2 id="cat_search_all">
       <title lang="fr">toutes notices</title>
 
       <para lang="fr">La recherche "toutes notices" porte sur l'ensemble des
@@ -689,7 +689,7 @@
       utiliser la recherche "toutes notices".</remark></para>
     </sect2>
 
-    <sect2>
+    <sect2 id="cat_search_last">
       <title lang="fr">dernières notices</title>
 
       <para lang="fr">Cet élément du menu permet d'accéder aux dernières
@@ -712,7 +712,7 @@
     </sect2>
   </sect1>
 
-  <sect1>
+  <sect1 id="cat_documents">
     <title lang="fr">Documents</title>
 
     <sect2 id="cat_doc_nouvnotice">
@@ -738,7 +738,8 @@
           <para lang="fr">Si le numéro saisi correspond à un ouvrage déjà
           présent en base, la notice est alors affichée, vous pouvez
           immédiatement y ajouter un exemplaire. Ceci permet un dédoublonnage
-          de la base dès le catalogage.</para>
+          de la base dès le catalogage. Il existe d'autres possibilité de 
+		  dédoublonnage dans PMB, sur le titre, l'auteur, etc., voir plus loin <xref linkend="cat_dedoub" /></para>
 
           <figure>
             <title lang="fr">Ouvrages &gt; Nouvelle notice</title>
@@ -1946,7 +1947,7 @@
       </sect3>
     </sect2>
 
-    <sect2>
+    <sect2 id="cat_avis">
       <title lang="fr">Avis des lecteurs</title>
 
       <para lang="fr">Les lecteurs peuvent proposer des avis depuis l'OPAC.
@@ -2023,7 +2024,7 @@
       </sect3>
     </sect2>
 
-    <sect2>
+    <sect2 id="cat_tags">
       <title lang="fr">Tags</title>
 
       <para lang="fr">L'ajout de tag offre la possibilité au lecteur de
@@ -2067,6 +2068,13 @@
         modifier.</para>
       </sect3>
     </sect2>
+	<sect2 id="cat_dedoub">
+		<title>Dédoublonnage</title>
+		<para>PMB dispose d'une fonction de dédoublonnage permettant un contrôle plus avancé que la seule
+			vérification sur l'ISBN.</para>
+			<important><para>Pour activer le dédoublonnage sur les notices, dans Administration > 
+				Outils > Paramètres, développez paramètres généraux et modifiez le paramètre notice_controle_doublons.</para></important>
+	</sect2>
   </sect1>
 
   <sect1 id="cat_serial">
@@ -2507,13 +2515,13 @@
     </sect2>
   </sect1>
 
-  <sect1>
+  <sect1 id="cat_bull">
     <title>Utiliser le bulletinage assisté</title>
 
     <para>Depuis PMB 3.1 vous pouvez utiliser un bulletinage assisté dans
     PMB.</para>
 
-    <para><important>
+    <para><important> 
         <para>Il faut avoir défini des types de périodicité via
         <emphasis>Administration</emphasis> &gt;
         <emphasis>Abonnements</emphasis> &gt; <emphasis>Périodicité
@@ -4659,7 +4667,7 @@ order by section_libelle</programlisting>
     </sect2>
   </sect1>
 
-  <sect1>
+  <sect1 id="cat_z39">
     <title lang="fr">Z39.50</title>
 
     <sect2 id="cat_z3950">
@@ -4900,7 +4908,7 @@ order by section_libelle</programlisting>
     </sect2>
   </sect1>
 
-  <sect1>
+  <sect1 id="cat_sugg">
     <title lang="fr">Suggestion</title>
 
     <para lang="fr">Cette partie du menu vous permet de créer une suggestion
