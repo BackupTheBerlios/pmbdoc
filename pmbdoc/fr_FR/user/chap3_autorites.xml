@@ -792,74 +792,145 @@
     <sect2 id="autorites_indexint">
       <title lang="fr">Index. décimale</title>
 
-      <para lang="fr">PMB gère des indexations décimales qui vous permettent
-      de personnaliser l'indexation de vos ouvrages. Pour plus d'informations
-      sur les indexations décimales fournies avec PMB, consulter le Chapitre
-      <emphasis>Catégories et classifications préinstallées avec
-      PMB</emphasis>.</para>
+      <sect3>
+        <title>Gérer les indexations décimales</title>
 
-      <para lang="fr">Pour rechercher une indexation, saisissez une expression
-      à rechercher puis cliquez sur <emphasis
-      role="bold">Rechercher</emphasis>. L'écran affiche par défaut l'ensemble
-      des indexations de la base. Cette recherche porte à la fois sur
-      l'indexation (110) et son intitulé (Métaphysique)</para>
+        <para lang="fr">PMB gère des indexations décimales qui vous permettent
+        de personnaliser l'indexation de vos ouvrages. Pour plus
+        d'informations sur les indexations décimales fournies avec PMB,
+        consulter le Chapitre <emphasis>Catégories et classifications
+        préinstallées avec PMB</emphasis>.</para>
 
-      <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis
-      role="bold">Voir les dernières indexations créées</emphasis> pour
-      afficher les dix dernières indexations ajoutées dans la base.</para>
+        <para lang="fr">Pour rechercher une indexation, saisissez une
+        expression à rechercher puis cliquez sur <emphasis
+        role="bold">Rechercher</emphasis>. L'écran affiche par défaut
+        l'ensemble des indexations de la base. Cette recherche porte à la fois
+        sur l'indexation (110) et son intitulé (Métaphysique)</para>
 
-      <figure>
-        <title lang="fr">Autorités &gt; Indexations</title>
+        <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis
+        role="bold">Voir les dernières indexations créées</emphasis> pour
+        afficher les dix dernières indexations ajoutées dans la base.</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata contentwidth="10cm" fileref="images/aut_index.gif" />
-          </imageobject>
-        </mediaobject>
-      </figure>
+        <figure>
+          <title lang="fr">Autorités &gt; Indexations</title>
 
-      <figure>
-        <title lang="fr">Autorités &gt; Indexations, édition d'une
-        indexation</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm" fileref="images/aut_index.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata contentwidth="10cm" fileref="images/aut_index_edit.gif" />
-          </imageobject>
-        </mediaobject>
-      </figure>
+        <figure>
+          <title lang="fr">Autorités &gt; Indexations, édition d'une
+          indexation</title>
 
-      <para lang="fr">Pour une indexation vous pouvez définir :</para>
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/aut_index_edit.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
 
-      <itemizedlist>
-        <listitem>
-          <para lang="fr">un nom (obligatoire)</para>
-        </listitem>
+        <para lang="fr">Pour une indexation vous pouvez définir :</para>
 
-        <listitem>
-          <para lang="fr">un commentaire</para>
-        </listitem>
-      </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para lang="fr">un nom (obligatoire)</para>
+          </listitem>
 
-      <para lang="fr"><emphasis role="bold">Supprimer</emphasis> permet de
-      supprimer une indexation. <emphasis role="bold">Attention</emphasis> une
-      indexation ne peut être supprimée que si elle n'est utilisée dans aucune
-      notice.</para>
+          <listitem>
+            <para lang="fr">un commentaire</para>
+          </listitem>
+        </itemizedlist>
 
-      <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis>
-      permet de savoir dans quels ouvrages est mentionné l'indexation. Il
-      lance une recherche dans l'onglet catalogue pour l'indexation
-      correspondante. Ceci permet notamment de savoir pourquoi sa suppression
-      est impossible.</para>
+        <para lang="fr"><emphasis role="bold">Supprimer</emphasis> permet de
+        supprimer une indexation. <emphasis role="bold">Attention</emphasis>
+        une indexation ne peut être supprimée que si elle n'est utilisée dans
+        aucune notice.</para>
 
-      <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis>
-      permet de remplacer une indexation par une autre.</para>
+        <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis>
+        permet de savoir dans quels ouvrages est mentionné l'indexation. Il
+        lance une recherche dans l'onglet catalogue pour l'indexation
+        correspondante. Ceci permet notamment de savoir pourquoi sa
+        suppression est impossible.</para>
 
-      <para lang="fr"><emphasis role="bold">Note</emphasis> : les boutons
-      <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
-      <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
-      création d'une indexation, mais uniquement lors de sa
-      modification.</para>
+        <para lang="fr">Le bouton <emphasis role="bold">Remplacer
+        par</emphasis> permet de remplacer une indexation par une
+        autre.</para>
+
+        <para lang="fr"><emphasis role="bold">Note</emphasis> : les boutons
+        <emphasis>Supprimer</emphasis>, <emphasis>Utilisation</emphasis> et
+        <emphasis>Remplacer par</emphasis> ne sont pas visibles lors de la
+        création d'une indexation, mais uniquement lors de sa
+        modification.</para>
+      </sect3>
+
+      <sect3>
+        <title>Plans de classement multiples</title>
+
+        <para>Vous pouvez gérer dans PMB plusieurs plans de classement.</para>
+
+        <important>
+          <para>Pour activer les plans de classement multiples, dans
+          <emphasis>Administration</emphasis> &gt; <emphasis>Outils</emphasis>
+          &gt; <emphasis>Paramètres</emphasis>, développez
+          <emphasis>Catégories, thésaurus et plans de classements</emphasis>,
+          et définissez <emphasis>classement_mode_pmb</emphasis> à 1.</para>
+        </important>
+
+        <para>Cliquez sur le lien Modifier les plans de classement pour
+        définir d'autres plans de classement que celui chargé par défaut. Lors
+        de l'installation vous avez pu sélectionner la classification décimale
+        Dewey. Le cas échéant, il ne s'agit généralement pas du plan de
+        classement utilisé pour l'audio dans les bibliothèques, les Principes
+        de Classements des Documents Musicaux (PCDM).</para>
+
+        <para>Vous pouvez créer un ou des plans de classements supplémentaire
+        en cliquant sur <emphasis>Modifier les plans de
+        classement</emphasis>.</para>
+
+        <figure>
+          <title>Gestion des plans de classement</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="7cm"
+                         fileref="images/aut_index_plans.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Cliquez sur <emphasis>Ajouter un plan de classement</emphasis>
+        pour créer un nouveau plan. A chaque plan, vous pouvez affecter un ou
+        plusieurs types de documents affectés.</para>
+
+        <figure>
+          <title>Ajout ou modification d'une indexation décimale</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="7cm"
+                         fileref="images/aut_index_plan_edit.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Les plans de classements sont disponibles par un sélecteur lors
+        des recherches ou de l'indexation.</para>
+
+        <figure>
+          <title>Choix d'un plan de classement lors de la recherche</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/aut_index_multi.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </sect3>
     </sect2>
   </sect1>
 

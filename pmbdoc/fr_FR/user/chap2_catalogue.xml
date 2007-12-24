@@ -372,8 +372,8 @@
             <para>Les enregistrements moissonnés en OAI ne disposent pas de
             tous les champs des notices de PMB. Si votre recherche porte sur
             un champ qui n'est pas géré par le connecteur, le critère est
-            ignoré : ce sont tous les enregistrements qui sont retournés.
-            </para>
+            ignoré : ce sont tous les enregistrements qui sont
+            retournés.</para>
 
             <para>Ceci permet de faire une recherche telle que Localisation =
             Chateau-du-Loir et Titre expression booléenne (càd contient)
@@ -557,7 +557,10 @@
         <sect4>
           <title lang="fr">Commence par</title>
 
-          <para lang="fr"></para>
+          <para lang="fr">L'underscore "_" (tiret sous le chiffre 8 sur le
+          clavier français) correspond à l'opérateur "Commence par".
+          Attention, cet opérateur ne tient pas compte des mots vides.
+          "_Rouge" renverra bien "Le rouge et le noir".</para>
         </sect4>
 
         <sect4>
@@ -738,8 +741,9 @@
           <para lang="fr">Si le numéro saisi correspond à un ouvrage déjà
           présent en base, la notice est alors affichée, vous pouvez
           immédiatement y ajouter un exemplaire. Ceci permet un dédoublonnage
-          de la base dès le catalogage. Il existe d'autres possibilité de 
-		  dédoublonnage dans PMB, sur le titre, l'auteur, etc., voir plus loin <xref linkend="cat_dedoub" /></para>
+          de la base dès le catalogage. Il existe d'autres possibilité de
+          dédoublonnage dans PMB, sur le titre, l'auteur, etc., voir plus loin
+          <xref linkend="cat_dedoub" /></para>
 
           <figure>
             <title lang="fr">Ouvrages &gt; Nouvelle notice</title>
@@ -1002,7 +1006,7 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata contentwidth="10cm"
+                  <imagedata contentwidth="7cm"
                              fileref="images/popup-fonction.gif" />
                 </imageobject>
               </mediaobject>
@@ -1211,9 +1215,10 @@
               </listitem>
 
               <listitem>
-                <para lang="fr"><emphasis role="bold"> Indexation</emphasis> :
-                ajout d'une indexation décimale. Pour plus d'informations,
-                consultez le chapitre <emphasis>Autorités</emphasis>, section
+                <para lang="fr"><emphasis role="bold"> Indexation
+                décimale</emphasis> : ajout d'une indexation décimale. Pour
+                plus d'informations, consultez le chapitre
+                <emphasis>Autorités</emphasis>, section
                 <emphasis>Indexation</emphasis>.</para>
               </listitem>
 
@@ -1260,7 +1265,7 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata contentwidth="10cm"
+                  <imagedata contentwidth="7cm"
                              fileref="images/cat_new_langue.gif" />
                 </imageobject>
               </mediaobject>
@@ -1318,7 +1323,7 @@
 
               <mediaobject>
                 <imageobject>
-                  <imagedata contentwidth="10cm"
+                  <imagedata contentwidth="3cm"
                              fileref="images/cat_new_perso.gif" />
                 </imageobject>
               </mediaobject>
@@ -1360,14 +1365,41 @@
         numérique</emphasis>.</para>
 
         <para lang="fr">Si la notice possède déjà des exemplaires, vous pouvez
-        modifier un des exemplaires de l'ouvrage le cas échéant, en cliquant
-        sur son n° d'exemplaire.</para>
+        <emphasis role="bold">modifier un des exemplaires</emphasis> de
+        l'ouvrage le cas échéant, en cliquant sur son <emphasis role="bold">n°
+        d'exemplaire</emphasis>.</para>
 
         <para lang="fr">Si la notice possède déjà des exemplaires numériques,
         vous pouvez afficher ou modifier un des exemplaires numériques de
         l'ouvrage le cas échéant. Pour afficher le document numérique associé,
-        cliquez sur son icône. Pour modifier le document numérique associé,
-        cliquez sur son titre.</para>
+        cliquez sur son icône. Pour <emphasis role="bold">modifier le document
+        numérique associé</emphasis>, cliquez sur son <emphasis
+        role="bold">titre</emphasis>.</para>
+
+        <para>Pour obtenir un aperçu de la notice dans l'OPAC (le catalogue
+        public), cliquez sur l'icône loupe <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/search.gif" />
+            </imageobject>
+          </inlinemediaobject> à côté de son titre.</para>
+
+        <figure>
+          <title>Aperçu de la notice dans l'OPAC</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="10cm"
+                         fileref="images/catalogue_notice_apercu.gif" />
+            </imageobject>
+          </mediaobject>
+        </figure>
+
+        <para>Pour placer la notice dans un panier, cliquez sur l'icône panier
+        <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/basket_small_20x20.gif" />
+            </imageobject>
+          </inlinemediaobject> à côté de son titre.</para>
 
         <sect4 id="cat_notice_modification">
           <title lang="fr">Modification d'une notice</title>
@@ -1722,8 +1754,9 @@
 
           <para lang="fr">Pour cataloguer un site web, spécifiez comme type de
           document <emphasis role="bold">ressources électroniques</emphasis>.
-          Saisissez un titre propre pour votre notice. Dans la zone <emphasis>liens (ressources électroniques)</emphasis>, spécifiez l'URL
-          associée (au format <emphasis role="bold">
+          Saisissez un titre propre pour votre notice. Dans la zone
+          <emphasis>liens (ressources électroniques)</emphasis>, spécifiez
+          l'URL associée (au format <emphasis role="bold">
           http://www.lemonde.fr</emphasis>). Dans format électronique de la
           ressource, vous pouvez spécifier <emphasis role="bold"> site
           web</emphasis>.</para>
@@ -2068,13 +2101,19 @@
         modifier.</para>
       </sect3>
     </sect2>
-	<sect2 id="cat_dedoub">
-		<title>Dédoublonnage</title>
-		<para>PMB dispose d'une fonction de dédoublonnage permettant un contrôle plus avancé que la seule
-			vérification sur l'ISBN.</para>
-			<important><para>Pour activer le dédoublonnage sur les notices, dans Administration > 
-				Outils > Paramètres, développez paramètres généraux et modifiez le paramètre notice_controle_doublons.</para></important>
-	</sect2>
+
+    <sect2 id="cat_dedoub">
+      <title>Dédoublonnage</title>
+
+      <para>PMB dispose d'une fonction de dédoublonnage permettant un contrôle
+      plus avancé que la seule vérification sur l'ISBN.</para>
+
+      <important>
+        <para>Pour activer le dédoublonnage sur les notices, dans
+        Administration &gt; Outils &gt; Paramètres, développez paramètres
+        généraux et modifiez le paramètre notice_controle_doublons.</para>
+      </important>
+    </sect2>
   </sect1>
 
   <sect1 id="cat_serial">
@@ -2521,7 +2560,7 @@
     <para>Depuis PMB 3.1 vous pouvez utiliser un bulletinage assisté dans
     PMB.</para>
 
-    <para><important> 
+    <para><important>
         <para>Il faut avoir défini des types de périodicité via
         <emphasis>Administration</emphasis> &gt;
         <emphasis>Abonnements</emphasis> &gt; <emphasis>Périodicité
@@ -2628,7 +2667,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata contentwidth="10cm" 
+                <imagedata contentwidth="10cm"
                            fileref="images/catalogue_periodique_nouveau_modele1.gif" />
               </imageobject>
             </mediaobject>
@@ -3026,7 +3065,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata contentwidth="10cm" 
+              <imagedata contentwidth="10cm"
                          fileref="images/catalogue_periodique_modele_generer_grille.gif" />
             </imageobject>
           </mediaobject>
