@@ -35,14 +35,14 @@ while ($parametres = mysql_fetch_assoc($result)) {
 	echo '<entry lang="fr">commentaire</entry>'."\n";
 	echo '</row></thead>'."\n<tbody>\n";
 
-	$query2 = "SELECT section_param, sstype_param, valeur_param, comment_param FROM parametres WHERE gestion=0 AND type_param=\"".$parametres['type_param']."\" ORDER BY 1, 2"; 
+	$query2 = "SELECT section_param, sstype_param, valeur_param, comment_param FROM parametres WHERE gestion=0 AND type_param=\"".$parametres['type_param']."\" AND section_param=\"".$parametres['section_param']."\" ORDER BY 1, 2"; 
 	$result2 = mysql_query($query2) or die('Erreur SQL ! <br>'.$query2.'<br>'.mysql_error()); ;
 	// tant qu'il y a des paramètres pour le type
 	while ($detail_parametres = mysql_fetch_assoc($result2)) {
 		echo "<row>\n";
-		echo "<entry lang=\"fr\">".htmlentities($detail_parametres['sstype_param'])."</entry>\n"; 
-		echo "<entry lang=\"fr\">".htmlentities($detail_parametres['valeur_param'])."</entry>\n"; 
-		echo "<entry lang=\"fr\">".htmlentities($detail_parametres['comment_param'])."</entry>\n";
+		echo "<entry lang=\"fr\"><![CDATA[".$detail_parametres['sstype_param']."]]></entry>\n"; 
+		echo "<entry lang=\"fr\"><![CDATA[".$detail_parametres['valeur_param']."]]></entry>\n"; 
+		echo "<entry lang=\"fr\"><![CDATA[".$detail_parametres['comment_param']."]]></entry>\n";
 		echo "</row>\n";
 	}
 	echo "</tbody>\n</tgroup>\n</table>\n</sect2>\n\n";
