@@ -606,7 +606,7 @@
 
         
             <para lang="fr">
-               <emphasis role="bold">@termes orphelins</emphasis> [placer ici
+               <emphasis role="bold">~termes orphelins</emphasis> [placer ici
         les termes EP qui ne seront pas visibles lors de l'exploration des
         catégories, mais qui seront utilisés lors des recherches]</para>
 		
@@ -629,7 +629,7 @@
 
         
             <para lang="fr">
-               <emphasis role="bold">Auteur</emphasis> &lt; @termes orphelins,
+               <emphasis role="bold">Auteur</emphasis> &lt; ~termes orphelins,
         voir Participant</para>
         
 		
@@ -637,7 +637,7 @@
 
         
             <para lang="fr">
-               <emphasis role="bold">Contributeur</emphasis> &lt; @termes
+               <emphasis role="bold">Contributeur</emphasis> &lt; ~termes
         orphelins, voir Participant</para>
         
 		
@@ -653,7 +653,7 @@
 
         
             <para lang="fr">
-               <emphasis role="bold">Anonyme</emphasis> &lt; @termes orphelins,
+               <emphasis role="bold">Anonyme</emphasis> &lt; ~termes orphelins,
         voir Editeur non-inscrit</para>
         
 		
@@ -662,7 +662,7 @@
         
             <para lang="fr">
                <emphasis role="bold">Adresse IP</emphasis> [forme métaphorique
-        à éviter] &lt; @termes orphelins, voir Editeur non-inscrit</para>
+        à éviter] &lt; ~termes orphelins, voir Editeur non-inscrit</para>
         
 		
 		
@@ -693,7 +693,7 @@
         
             <para lang="fr">
                <emphasis role="bold">Sysop</emphasis> [terme usuel dans la
-        communauté] &lt; @termes orphelins, voir Administrateur</para>
+        communauté] &lt; ~termes orphelins, voir Administrateur</para>
         
 		
 
@@ -715,7 +715,7 @@
         
             <para lang="fr">
                <emphasis role="bold">Utilisateur</emphasis> [terme imprécis, à
-        proscrire] &lt; @termes orphelins, voir aussi Lecteur, voir aussi
+        proscrire] &lt; ~termes orphelins, voir aussi Lecteur, voir aussi
         Participant, voir aussi Participant mandaté</para>
 		
         
@@ -929,7 +929,7 @@
             <para lang="fr">Si l'on sélectionne dans notre thesaurus exemple le terme
         <emphasis role="bold">Adresse IP</emphasis>, la partie inférieure de
         l'écran affiche sa situation dans l'arborescence : Adresse IP a pour
-        catégorie parente <emphasis role="bold">@termes
+        catégorie parente <emphasis role="bold">~termes
         orphelins</emphasis>.</para>
 		
         
@@ -1148,9 +1148,9 @@
             <para lang="fr">Au fur et à mesure de l'utilisation, enrichissez votre thésaurus
         en créant des termes orphelins, qui correspondent au vocabulaire
         employé par vos lecteurs pour les recherches : dans une catégorie de
-        premier niveau, dont le libellé commence par un « @ » (ceci
+        premier niveau, dont le libellé commence par un « ~ » (ceci
         permet le masquage dans l'OPAC), placez tous les renvois. Par exemple
-        @termes orphelins &gt; pirates renverra vers histoire &gt; période
+        ~termes orphelins &gt; pirates renverra vers histoire &gt; période
         moderne &gt; histoire maritime &gt; corsaire.</para>
 
         
@@ -1874,7 +1874,7 @@
 			
 
             <para lang="fr">Il suffit d'avoir une catégorie dont le libellé commencera
-            par un @, généralement @termes orphelins.</para>
+            par un ~, généralement ~termes orphelins.</para>
 			
             
 			
