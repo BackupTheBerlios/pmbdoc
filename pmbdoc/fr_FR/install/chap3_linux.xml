@@ -330,7 +330,11 @@
   <sect1>
     <title>Installation générique : Xampp</title>
 
-    <para></para>
+    <para>Il vaut toujours mieux utiliser les versions de PHP et MySQL fournies avec sa distribution de Linux.</para>
+	<para>Généralement plus simples à installer, toujours plus sécurisées, ces installations sont préférables à 
+		une installation basée sur XAMPP.</para>
+	<para>Dans certains cas (besoin de PHP4 pour faire fonctionner les conversions de notices dans PMB), vous pouvez
+		souhaiter installer XAMPP, package Apache+MySQL+PHP+PhpMyAdmin+... global comprenant PHP4 et PHP5.</para>
 
     <sect2>
       <title>Installer Xampp</title>
@@ -364,6 +368,27 @@
       <para>Redémarrez xampp</para>
 
       <para>Consultez les informations génériques sur l'installation plus haut dans ce guide pour configurer les extensions php nécessaires (GD, BZ2, XSLT, YAZ, CURL...) ainsi que d'autres réglages dans le fichier php.ini pour optimiser le fonctionnement de votre serveur.</para>
+	  </sect2>
+	  <sect2>
+		<title>Installer php_yaz sous Xampp pour Linux</title>
+		<para><important>Vous devez déja avoir installé le paquet yaz sur votre système. PHP-YAZ est l'extension pour PHP permettant d'appeler les fonctions de YAZ depuis PHP.</important></para>
+		<para>Vérifiez que vous avez déjà YAZ installé sur votre poste :</para>
+		<para>/usr/bin/yaz-client -V</para>
+		<para>Si vous avez une réponse commençant par "YAZ version:", tout va bien. Dans le cas contraire, installez YAZ et LIBYAZ sur votre linux avec votre gestionnaire de paquets habituels</para>
+			<para>Téléchargez yaz-XXX.tar.gz depuis http://pecl.php.net/package/yaz/ et décompressez le.</para>
+			<para>Placez vous dans le répertoire contenant le fichier config.m4, c'est à dire yaz-XXX/yaz-XXX/.</para>
+			<para>/opt/lampp/bin/phpize</para>
+			<para>./configure</para>
+			<para>make</para>
+			<para>make install</para>
+			<para>Copiez le fichier yaz.so qui a été créé dans yaz-XXX/yaz-XXX/modules dans les deux sous-répertoires de /opt/lampp/lib/php/extensions. Dans ma version, il s'agit de /opt/lampp/lib/php/extensions/no-debug-non-zts-20020429 et /opt/lampp/lib/php/extensions/no-debug-non-zts-20060613/</para>
+			<para>Modifiez le fichier php.ini dans /opt/lampp/etc/ pour activer l'extension.</para>
+			<para>Cherchez la ligne contenant extension="zip.so" ou quelque chose de similaire extension="YYYYYY.so"</para>
+			<para>Insérez en dessous la ligne suivante :</para>
+			<para>extension="yaz.so"</para>
+			<para>Enregistrez et redémarrez xampp : /opt/lampp/lampp restart</para>
+			<para>Pour vérifier que l'extension est bien prise en compte, connectez vous dans PMB et allez dans Administration > Outils > Maintenance MySQL, cliquez sur Informations PHP.</para>
+			<para>Si, tout en bas des informations de configuration, vous trouvez les informations sur YAZ, Yaz est correctement installé.</para>
     </sect2>
   </sect1>
 </chapter>
