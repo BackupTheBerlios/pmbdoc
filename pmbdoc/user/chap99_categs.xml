@@ -648,11 +648,11 @@
         <para lang="es"><emphasis role="bold">Recursos</emphasis></para>
 		
 
-        <para lang='fr'><emphasis role="bold">@termes orphelins</emphasis> [placer ici
+        <para lang='fr'><emphasis role="bold">~termes orphelins</emphasis> [placer ici
         les termes EP qui ne seront pas visibles lors de l'exploration des
         catégories, mais qui seront utilisés lors des recherches]</para>
 		
-        <para lang="es"><emphasis role="bold">@términos huérfanos</emphasis> [colocad
+        <para lang="es"><emphasis role="bold">~términos huérfanos</emphasis> [colocad
         aquí los términos UP que no serán visibles en la exploración de las
         categorías, pero que serán útiles a la hora de realizar las
         búsquedas]</para>
@@ -669,16 +669,16 @@
 		
 		
 
-        <para lang='fr'><emphasis role="bold">Auteur</emphasis> &lt; @termes orphelins,
+        <para lang='fr'><emphasis role="bold">Auteur</emphasis> &lt; ~termes orphelins,
         voir Participant</para>
-        <para lang="es"><emphasis role="bold">Autor</emphasis> &lt; @términos huérfanos,
+        <para lang="es"><emphasis role="bold">Autor</emphasis> &lt; ~términos huérfanos,
         ver Participante</para>
 		
 		
 
-        <para lang='fr'><emphasis role="bold">Contributeur</emphasis> &lt; @termes
+        <para lang='fr'><emphasis role="bold">Contributeur</emphasis> &lt; ~termes
         orphelins, voir Participant</para>
-        <para lang="es"><emphasis role="bold">Colaborador</emphasis> &lt; @términos
+        <para lang="es"><emphasis role="bold">Colaborador</emphasis> &lt; ~términos
         huérfanos, ver Participante</para>
 		
 		
@@ -690,17 +690,17 @@
 		
 		
 
-        <para lang='fr'><emphasis role="bold">Anonyme</emphasis> &lt; @termes orphelins,
+        <para lang='fr'><emphasis role="bold">Anonyme</emphasis> &lt; ~termes orphelins,
         voir Editeur non-inscrit</para>
-        <para lang="es"><emphasis role="bold">Anónimo</emphasis> &lt; @términos
+        <para lang="es"><emphasis role="bold">Anónimo</emphasis> &lt; ~términos
         huérfanos, ver Editor no registrado</para>
 		
 		
 
         <para lang='fr'><emphasis role="bold">Adresse IP</emphasis> [forme métaphorique
-        à éviter] &lt; @termes orphelins, voir Editeur non-inscrit</para>
+        à éviter] &lt; ~termes orphelins, voir Editeur non-inscrit</para>
         <para lang="es"><emphasis role="bold">Dirección IP</emphasis> [forma metafórica
-        a evitar] &lt; @términos huérfanos, ver Editor no registrador</para>
+        a evitar] &lt; ~términos huérfanos, ver Editor no registrador</para>
 		
 		
 
@@ -725,9 +725,9 @@
 		
 
         <para lang='fr'><emphasis role="bold">Sysop</emphasis> [terme usuel dans la
-        communauté] &lt; @termes orphelins, voir Administrateur</para>
+        communauté] &lt; ~termes orphelins, voir Administrateur</para>
         <para lang="es"><emphasis role="bold">Sysop</emphasis> [término usual en la
-        comunidad] &lt; @términos huérfanos, ver Administrador</para>
+        comunidad] &lt; ~términos huérfanos, ver Administrador</para>
 		
 
         <para lang='fr'><emphasis role="bold">Gestionnaire</emphasis> &lt; Participant
@@ -744,11 +744,11 @@
 		
 
         <para lang='fr'><emphasis role="bold">Utilisateur</emphasis> [terme imprécis, à
-        proscrire] &lt; @termes orphelins, voir aussi Lecteur, voir aussi
+        proscrire] &lt; ~termes orphelins, voir aussi Lecteur, voir aussi
         Participant, voir aussi Participant mandaté</para>
 		
         <para lang="es"><emphasis role="bold">Usuario</emphasis> [Término impreciso, a
-        eliminar] &lt; @términos huérfanos, ver también Usuario, ver también
+        eliminar] &lt; ~términos huérfanos, ver también Usuario, ver también
         Participante, ver también Participante escogido</para>
 		
       </sect3>
@@ -910,13 +910,13 @@
         <para lang='fr'>Si l'on sélectionne dans notre thesaurus exemple le terme
         <emphasis role="bold">Adresse IP</emphasis>, la partie inférieure de
         l'écran affiche sa situation dans l'arborescence : Adresse IP a pour
-        catégorie parente <emphasis role="bold">@termes
+        catégorie parente <emphasis role="bold">~termes
         orphelins</emphasis>.</para>
 		
         <para lang="es">Si se seleccion de nuestro tesauro de ejemplo el término
         <emphasis role="bold">Dirección IP</emphasis>, la parte inferior de la
         pantalla muestra su situación dentro del árbol : Dirección IP tiene
-        por categoría general <emphasis role="bold">@términos
+        por categoría general <emphasis role="bold">~términos
         huérfanos</emphasis>.</para>
 		
 
@@ -1130,16 +1130,16 @@
         <para lang='fr'>Au fur et à mesure de l'utilisation, enrichissez votre thésaurus
         en créant des termes orphelins, qui correspondent au vocabulaire
         employé par vos lecteurs pour les recherches : dans une catégorie de
-        premier niveau, dont le libellé commence par un « @ » (ceci
+        premier niveau, dont le libellé commence par un « ~ » (ceci
         permet le masquage dans l'OPAC), placez tous les renvois. Par exemple
-        @termes orphelins &gt; pirates renverra vers histoire &gt; période
+        ~termes orphelins &gt; pirates renverra vers histoire &gt; période
         moderne &gt; histoire maritime &gt; corsaire.</para>
 
         <para lang="es">A medida que se vaya usando, enriqueced vuestro tesauros creando
         términos huérfanos, que corresponderan al vocabulario usado por
         vuestros usuarios en sus búsquedas : en una categoría de primer nivel,
-        que empieza por un « @ » (esto permite ocultarlo en el
-        OPAC), coloca todos los ver. Por ejemplo @términos huérfanos &gt;
+        que empieza por un « ~ » (esto permite ocultarlo en el
+        OPAC), coloca todos los ver. Por ejemplo ~términos huérfanos &gt;
         piratas reenviará hacia histori &gt; época moderan &gt; historia
         marítima &gt; corsarios.</para>
 		</sect3>
@@ -1900,10 +1900,10 @@
 			
 
             <para lang='fr'>Il suffit d'avoir une catégorie dont le libellé commencera
-            par un @, généralement @termes orphelins.</para>
+            par un ~, généralement ~termes orphelins.</para>
 			
             <para lang="es">Es suficiente con crear una categoría cuya etiqueta empiece
-            por una @, por ejemplo, @descriptores huérfanos.</para>
+            por una ~, por ejemplo, ~descriptores huérfanos.</para>
 			
 
             <para lang='fr'>Placez dans cette catégorie tous les termes
