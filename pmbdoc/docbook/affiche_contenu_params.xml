@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd" [<!ENTITY nbsp "&amp;nbsp;">]>
+
+<XMLlist>
+<entry code="description_acquisition"><![CDATA[<para lang="fr">Le type <emphasis>Acquisitions</emphasis> (acquisition)
+      désigne les informations liées au module acquisition.</para>]]></entry>
+<entry code="description_categories"><![CDATA[<para lang="fr">Le type <emphasis>Categories</emphasis> (categories)
+      correspond aux paramètres des catégories (thésaurus intégré) de
+      PMB.</para>]]></entry>
+<entry code="description_dsi"><![CDATA[<para lang="fr">Le type <emphasis>DSI</emphasis> (categories)
+      correspond aux paramètres de la Diffusion Sélective de l'Information. La DSI correspond à l'inscription de lecteurs dans des profils. Ces profils
+permettront de préparer automatiquement l'envoi d'une liste de nouveautés documentaires.</para>]]></entry>
+<entry code="description_empr"><![CDATA[<para lang="fr">Le type <emphasis>Emprunteurs</emphasis> (dsi) désigne les informations liées aux
+      emprunteurs : affichage déplié ou non, année de naissance obligatoire, etc.</para>]]></entry>
+<entry code="description_ldap"><![CDATA[<para lang="fr">Le type <emphasis>LDAP</emphasis> (ldap) désigne le
+      paramétrage de la connectivité LDAP pour permettre l'authentification
+      automatique. Avec un annuaire LDAP, vous pouvez configurer PMB pour que
+      l'utilisateur soit automatiquement identifié dans PMB.</para>]]></entry>
+<entry code="description_mailrelanceadhesion"><![CDATA[<para lang="fr">Le type <emphasis>Mail de relance d'adhésion</emphasis>
+      (mailrelanceadhesion) correspond au paramétrage des mails de relance
+      pour proposer de renouveler une adhésion bientôt expirée.</para>]]></entry>
+<entry code="description_mailretard"><![CDATA[<para lang="fr">Le type <emphasis>Mail de retard</emphasis> (mailretard)
+      indique les paramètres des emails de contact pour un ouvrage dont le
+      retour est en retard.</para>]]></entry>
+<entry code="description_opac"><![CDATA[<para lang="fr">Le type <emphasis>opac</emphasis> correspond au
+      paramétrage de l'OPAC. L'OPAC est hautement configurable et possède à ce
+      titre de nombreux paramètres.</para>
+
+      <para lang="fr">Pour plus de facilité de lecture, ces paramètres ont été
+      regroupés par fonctionnalité au sein de l'OPAC.</para>]]></entry>
+<entry code="description_pdfcartelecteur"><![CDATA[<para lang="fr">Les paramètres <emphasis>Carte lecteur</emphasis>
+      (pdfcartelecteur) correspondent au paramétrage de l'impression d'une
+      carte de lecteur.</para>
+<para>L'impression d'une carte de lecteur (code-barres, validité, nom et prénom) est disponible via le bouton Carte sur la fiche du lecteur.</para>
+<para>Pour afficher une fiche lecteur, dans Circulation > Prêt de documents et saisissez le début du nom de famille d'un lecteur.</para>]]></entry>
+<entry code="description_pdflettreadhesion"><![CDATA[      <para lang="fr">Les paramètres <emphasis>Lettre de relance
+      d'adhésion</emphasis> (pdflettreadhesion) correspondent au paramétrage
+      des lettres de relance pour une adhésion bientôt expirée.</para>
+
+      <para lang="fr"><emphasis role="bold">Important</emphasis> l'expression
+      !!date_fin_adhesion!! prendra la valeur correspondante lors de la
+      génération de la lettre de relance d'adhésion.</para>]]></entry>
+<entry code="description_pdflettreresa"><![CDATA[      <para lang="fr">Les paramètres <emphasis>Lettre de confirmation de
+      réservation</emphasis> (pdflettreresa) correspondent au paramétrage des
+      lettres de confirmation des réservations.</para>
+
+      <para lang="fr"><emphasis role="bold">Note</emphasis> Ce paramètre a été
+      repris dans la version 2.1 pour permettre de relancer par email ou par
+      courrier, avec une logique de priorité.</para>]]></entry>
+<entry code="description_pdflettreretard"><![CDATA[<para lang="fr">Le type <emphasis>Lettre de retard</emphasis>
+      (pdflettreretard) désigne les paramètres de la lettre de rappel pour un
+      prêt en retard.</para>]]></entry>
+<entry code="description_pmb"><![CDATA[<para lang="fr">Les paramètres de type <emphasis>Paramètres
+      généraux</emphasis> (pmb) sont les paramètres généraux de
+      l'application</para>]]></entry>
+<entry code="description_sauvegarde"><![CDATA[<para lang="fr">Les paramètres de type <emphasis>sauvegarde</emphasis>
+      concernent le fonctionnement des sauvegardes de PMB.</para>]]></entry>
+<entry code="description_thesaurus"><![CDATA[<para>Les paramètres Catégories, thésaurus et plans de classements vous permettent d'activer ou non le mode multi-thésaurus dans PMB. Vous pouvez également autoriser la cohabitation de plusieurs plans de classements, par exemple la Classification Décimale de Dewey pour les textes imprimés et la PCDM pour les documents sonores musicaux.</para>]]></entry>
+<entry code="description_transferts"><![CDATA[<para>Transferts entre bibliothèques (description)</para>]]></entry>
+<entry code="description_z3950"><![CDATA[<para>Les options Z3950 vous permettent notamment de choisir quelle fonction utiliser pour le traitement des autorités matières lors de l'import de notice (par exemple, reprendre ces descripteurs en mots-clés libres, en catégories, etc.)</para>]]></entry>
+</XMLlist>
