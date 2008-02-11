@@ -18,7 +18,7 @@
 	
 
           <para lang="fr">PMB est basé sur des technologies issues du Web. C'est ce que l'on
-    appelle parfois une `web-app`. Il se fonde sur un serveur HTTP
+    appelle parfois une "web-app". Il se fonde sur un serveur HTTP
     (basiquement Apache mais ce n'est pas une obligation), la base de donnée
     MySQL et le langage PHP.</para>
 	
@@ -47,16 +47,15 @@
 	
 	
 
-          <para lang="fr">La communauté des utilisateurs dispose de trois types d'outils : un
-    wiki <ulink url="http://www.sigb.net/wiki">www.sigb.net/wiki</ulink> ; une
-    liste des utilisateurs et des forums. Consultez <ulink url="http://www.sigb.net/communaute">www.sigb.net/communaute</ulink>
+          <para lang="fr">La communauté des utilisateurs dispose de différents outils : un
+    wiki <ulink url="http://www.sigb.net/wiki">www.sigb.net/wiki</ulink> et des listes de diffusion. 
+	Consultez <ulink url="http://www.sigb.net/communaute">www.sigb.net/communaute</ulink>
       </para>
 	
 	
 
-          <para lang="fr">La mailing liste des utilisateurs est ouverte à tous :
-    pmb.user@sigb.net (inscription libre en envoyant un mail avec pour sujet
-    SUBSCRIBE à pmb.user_request@sigb.net)</para>
+          <para lang="fr">Les informations d'inscription aux listes de discussions sont disponibles
+			sur <ulink url="http://www.sigb.net/listes.php">www.sigb.net/listes.php</ulink>.</para>
 	
 	
 
@@ -82,36 +81,26 @@
 	
     		
 
-          <para lang="fr">Contributions de : Didier BELLAMY, Michaël HALM, 
-    François LEMARCHAND (ancien administrateur du
-    projet), Betty FAIS, Stéphanie FORT, Anne-Marie CUBAT-VANDEPUTTE, 
-    Annie JEZEQUEL, Michel GEFFROY...</para>
-
-    	
+          <para lang="fr">Contributions de : Michaël HALM, Didier BELLAMY,  
+    Nicolas GANTIER, François LEMARCHAND (ancien administrateur du
+    projet), Stéphanie FORT, Anne-Marie CUBAT-VANDEPUTTE, 
+    Annie JEZEQUEL, Michel GEFFROY, Betty FAIS...</para>
 	
-
+	<para lang="fr">Feuille de style de la version HTML : d'après le travail
+		de Clément DESILES.</para>
+ 
           <para lang="fr">Merci à l'Equipe des Développeurs PMB, aux anciens développeurs, aux
     utilisateurs.</para>
 
-    	
-
           <para lang="fr">Coordination de la documentation : Gautier MICHELIN</para>
 	
-    
-	
-     </sect1>
+         </sect1>
 
      <sect1 id="introduction_cvs">
           <title lang="fr">CVS</title>
-	
-		
-	
 
           <para lang="fr">CVS signifie Concurrent Version System. Il s'agit d'un système de
     gestion de mise à jour de code source pour programmeurs.</para>
-
-    
-	
 	
           <para lang="fr">PMB dispose d'un CVS. Le CVS est accessible aux développeurs.
     N'hésitez pas à nous contacter si vous souhaitez aider au développement de
