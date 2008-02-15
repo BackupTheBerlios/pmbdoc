@@ -432,22 +432,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
       affiché.</para>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_acquis">
       <title lang="fr">Acquisitions</title>
 
       <para lang="fr">Le type <emphasis>Acquisitions</emphasis> (acquisition)
       désigne les informations liées au module acquisition.</para>
 
       <table>
-        <title lang="fr">Acquisitions</title>
+        <title lang="fr">Paramètres généraux pour les acquisitions</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
             <row>
               <entry lang="fr">sous-type</entry>
@@ -475,15 +469,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Utilisation d'un budget pour les commandes.
               0:optionnel 1:obligatoire</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">custom_calc_numero</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Fonction personnalisée de numérotation des
-              actes d'achats.</entry>
             </row>
 
             <row>
@@ -523,49 +508,26 @@ by idcode, codestat_libelle order by idcode</programlisting>
               pourcentage. U=Utilisateurs, E=Emprunteurs, V=Visiteurs. ex :
               U=1.00,E=0.70,V=0.00</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
 
+      <table>
+        <title lang="fr">Options de mise en page des emails de
+        suggestions</title>
+
+        <tgroup cols="3">
+          <thead>
             <row>
-              <entry lang="fr">sugg_categ</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">0</entry>
+              <entry lang="fr">valeur par défaut</entry>
 
-              <entry lang="fr">Affectation des suggestions à une catégorie de
-              suggestions. 0 : Non 1 : Oui</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry lang="fr">sugg_categ_default</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Identifiant de la catégorie de suggestions par
-              défaut.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">sugg_display</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Nom de la fonction personnalisée d'affichage
-              des suggestions</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">sugg_to_cde</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Transfert des suggestions en commande. 0 : Non.
-              1 : Oui.</entry>
-            </row>
-
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options de mise en page des
-              emails de suggestions</emphasis></entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">mel_aba_cor</entry>
 
@@ -654,13 +616,26 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Objet du mail de rejet de suggestion</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
 
+      <table>
+        <title lang="fr">Options de mise en page des lettres de
+        commande</title>
+
+        <tgroup cols="3">
+          <thead>
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options de mise en page des
-              lettres de commande</emphasis></entry>
-            </row>
+              <entry lang="fr">sous-type</entry>
 
+              <entry lang="fr">valeur par défaut</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">pdfcde_format_page</entry>
 
@@ -787,15 +762,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">pdfcde_print</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Quel script utiliser pour personnaliser
-              l'impression des commandes ?</entry>
-            </row>
-
-            <row>
               <entry lang="fr">pdfcde_tab_cde</entry>
 
               <entry lang="fr">5,10</entry>
@@ -835,13 +801,26 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Taille de la police texte</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
 
+      <table>
+        <title lang="fr">Options de mise en page des lettres de demande de
+        devis</title>
+
+        <tgroup cols="3">
+          <thead>
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options de mise en page des
-              lettres de demande de devis</emphasis></entry>
-            </row>
+              <entry lang="fr">sous-type</entry>
 
+              <entry lang="fr">valeur par défaut</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">pdfdev_comment</entry>
 
@@ -967,15 +946,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">pdfdev_print</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Quel script utiliser pour personnaliser
-              l'impression des devis ?</entry>
-            </row>
-
-            <row>
               <entry lang="fr">pdfdev_tab_dev</entry>
 
               <entry lang="fr">5,10</entry>
@@ -1015,13 +985,25 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Taille de la police texte</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
 
+      <table>
+        <title lang="fr">Options de mise en page des factures</title>
+
+        <tgroup cols="3">
+          <thead>
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options de mise en page des
-              factures</emphasis></entry>
-            </row>
+              <entry lang="fr">sous-type</entry>
 
+              <entry lang="fr">valeur par défaut</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">pdffac_format_page</entry>
 
@@ -1118,15 +1100,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">pdffac_print</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Quel script utiliser pour personnaliser
-              l'impression des factures ?</entry>
-            </row>
-
-            <row>
               <entry lang="fr">pdffac_tab_fac</entry>
 
               <entry lang="fr">5,10</entry>
@@ -1144,11 +1117,53 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options de mise en page des
-              bons de livraison</emphasis></entry>
+              <entry lang="fr">pdffac_pos_tot</entry>
+
+              <entry lang="fr">10,40,5,10</entry>
+
+              <entry lang="fr">Position total de commande: Distance par
+              rapport au bord gauche de la page, Largeur, Hauteur ligne,Taille
+              police</entry>
             </row>
 
+            <row>
+              <entry lang="fr">pdffac_pos_tot</entry>
+
+              <entry lang="fr">10,40,5,10</entry>
+
+              <entry lang="fr">Position total de commande: Distance par
+              rapport au bord gauche de la page, Largeur, Hauteur ligne,Taille
+              police</entry>
+            </row>
+
+            <row>
+              <entry lang="fr">pdffac_pos_tot</entry>
+
+              <entry lang="fr">10,40,5,10</entry>
+
+              <entry lang="fr">Position total de commande: Distance par
+              rapport au bord gauche de la page, Largeur, Hauteur ligne,Taille
+              police</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Options de mise en page des bons de livraison</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="fr">sous-type</entry>
+
+              <entry lang="fr">valeur par défaut</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">pdfliv_format_page</entry>
 
@@ -1235,15 +1250,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">pdfliv_print</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Quel script utiliser pour personnaliser
-              l'impression des bons de livraison ?</entry>
-            </row>
-
-            <row>
               <entry lang="fr">pdfliv_tab_liv</entry>
 
               <entry lang="fr">5,10</entry>
@@ -1259,13 +1265,26 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Taille de la police texte</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
 
+      <table>
+        <title lang="fr">Options de mise en page des listes de
+        suggestions</title>
+
+        <tgroup cols="3">
+          <thead>
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options de mise en page des
-              listes de suggestions</emphasis></entry>
-            </row>
+              <entry lang="fr">sous-type</entry>
 
+              <entry lang="fr">valeur par défaut</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">pdfsug_format_page</entry>
 
@@ -1322,15 +1341,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">pdfsug_print</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Quel script utiliser pour personnaliser
-              l'impression des listes de suggestions ?</entry>
-            </row>
-
-            <row>
               <entry lang="fr">pdfsug_tab_sug</entry>
 
               <entry lang="fr">5,10</entry>
@@ -1351,25 +1361,28 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
-      <title lang="fr">Diffusion sélective de l'information</title>
+    <sect2 id="admin_outils_parametres_biblio">
+      <title lang="fr">biblio</title>
 
-      <para lang="fr">Le type <emphasis>DSI</emphasis> (categories) correspond
-      aux paramètres de la Diffusion Sélective de l'Information. La DSI
-      correspond à l'inscription de lecteurs dans des profils. Ces profils
-      permettront de préparer automatiquement l'envoi d'une liste de
-      nouveautés documentaires.</para>
+      <para lang="fr"><emphasis>Obsolète</emphasis>.</para>
+
+      <para lang="fr">Le type <emphasis>biblio</emphasis> a été remplacé dans
+      la version 2.0 par des informations liées à la localisation des
+      ouvrages. Pour plus d'informations, consulter la section Exemplaires,
+      Localisations.</para>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_categories">
+      <title lang="fr">Categories</title>
+
+      <para lang="fr">Le type <emphasis>Categories</emphasis> (categories)
+      correspond aux paramètres des catégories (thésaurus intégré) de
+      PMB.</para>
 
       <table>
-        <title lang="fr">DSI</title>
+        <title lang="fr">Type categories</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
             <row>
               <entry lang="fr">sous-type</entry>
@@ -1382,14 +1395,63 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold"></emphasis></entry>
+              <entry lang="fr">show_empty_categ</entry>
+
+              <entry lang="fr">1</entry>
+
+              <entry lang="fr">Affichage des catégories ne contenant aucune
+              notice : 0=non, 1=oui</entry>
             </row>
 
             <row>
+              <entry lang="fr">show_only_last</entry>
+
+              <entry lang="fr">0</entry>
+
+              <entry lang="fr">Dans la fiche d'une notice : 0 tout afficher 1
+              : afficher uniquement la dernière feuille de l'arbre de la
+              catégorie</entry>
+            </row>
+
+            <row>
+              <entry lang="fr">term_search_n_per_page</entry>
+
+              <entry lang="fr">500</entry>
+
+              <entry lang="fr">Nombre de termes affichés par page lors d'une
+              recherche par terme dans les catégories</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="admin_outils_parametres_dsi">
+      <title lang="fr">Diffusion sélective de l'information</title>
+
+      <para lang="fr">Le type <emphasis>Diffusion sélective de
+      l'information</emphasis> (dsi) désigne les informations liées aux
+      emprunteurs.</para>
+
+      <table>
+        <title lang="fr">Type dsi</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry lang="fr">sous-type</entry>
+
+              <entry lang="fr">valeur par défaut</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
               <entry lang="fr">active</entry>
 
-              <entry lang="fr">1</entry>
+              <entry lang="fr">0</entry>
 
               <entry lang="fr">D.S.I activée ? 0: Non 1: Oui</entry>
             </row>
@@ -1404,86 +1466,39 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">bannette_notices_order</entry>
-
-              <entry lang="fr">index_serie, tnvol, index_sew</entry>
-
-              <entry lang="fr">Ordre des notices au sein de la bannette:
-              index_serie, tnvol, index_sew : par titre create_date desc : par
-              date de saisie décroissante rand() : aléatoire</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">func_after_diff</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Script à exécuter après diffusion d'une
-              bannette</entry>
-            </row>
-
-            <row>
               <entry lang="fr">insc_categ</entry>
 
               <entry lang="fr">0</entry>
 
               <entry lang="fr">Inscription automatique dans les bannettes de
-              la catégorie du lecteur en création ? 0: Non 1: Oui</entry>
+              la catégorie du lecteur en création ? 0: Non 1: Ouixs</entry>
             </row>
           </tbody>
         </tgroup>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_empr">
       <title lang="fr">Emprunteurs</title>
 
-      <para lang="fr">Le type <emphasis>Emprunteurs</emphasis> (dsi) désigne
-      les informations liées aux emprunteurs : affichage déplié ou non, année
-      de naissance obligatoire, etc.</para>
+      <para lang="fr">Le type <emphasis>Emprunteurs</emphasis> (empr) désigne
+      les informations liées aux emprunteurs.</para>
 
       <table>
-        <title lang="fr">Emprunteurs</title>
+        <title lang="fr">Type empr</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
-            <row>
-              <entry lang="fr">archivage_prets</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Archiver les prêts des emprunteurs ? 0: Non 1:
-              Oui ATTENTION pour la France: nous attirons votre attention sur
-              l'obligation de déclarer votre traitement à la CNIL
-              (www.cnil.fr) si vous activez cette fonctionnalité.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">archivage_prets_purge</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Nombre de jours maximum où doivent être
-              conservées les archives nominatives de prêts : 0: illimité N: N
-              jours</entry>
-            </row>
-
             <row>
               <entry lang="fr">birthdate_optional</entry>
 
@@ -1494,162 +1509,19 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">electronic_loan_ticket</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Envoyer un ticket de prêt électronique ? 0:
-              Non, 1: Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">electronic_loan_ticket_msg</entry>
-
-              <entry lang="fr">Bonjour, &lt;br&gt;Voici la liste de vos
-              emprunts et/ou réservations en date du !!date!!
-              :&lt;br&gt;&lt;br&gt;!!all_loans!!
-              !!all_reservations!!&lt;br&gt;Retrouvez toutes ces informations
-              sur votre compte à l'adresse &lt;a
-              href=!!biblio_website!!&gt;!!biblio_website!!&lt;/a&gt;.</entry>
-
-              <entry lang="fr">Corps du mail de ticket électronique de
-              prêt</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">electronic_loan_ticket_obj</entry>
-
-              <entry lang="fr">!!biblio_name!! : emprunt(s) du
-              !!date!!</entry>
-
-              <entry lang="fr">Objet du mail de ticket électronique de
-              prêt</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">fiche_depliee</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">La fiche emprunteur sera automatiquement : 0 :
-              pliée 1 : dépliée</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">filter_rows</entry>
-
-              <entry lang="fr">cp,v,y,s</entry>
-
-              <entry lang="fr">Colonnes qui seront disponibles en filtres de
-              la liste des emprunteurs. Les colonnes possibles sont : cp: code
-              postal c: catégories g: groupes l: localisation s: statut v:
-              ville y: année de naissance #n : id des champs
-              personnalisés</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">header_format</entry>
+              <entry lang="fr">corresp_import</entry>
 
               <entry lang="fr"></entry>
 
-              <entry lang="fr">Champs personnalisés qui seront affichés dans
-              l'entête de la fiche emprunteur. Saisir les ids séparés par des
-              virgules</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">lecteur_controle_doublons</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Contrôle sur les doublons de lecteurs: 0 : pas
-              de controle sur les doublons, en saisie de fiche de lecteur.
-              1,empr_nom,empr_prenom,... : recherche doublons sur les champs
-              'empr', 2,empr_nom,empr_prenom,... : recherche doublons sur les
-              champs 'empr', et champ personnalisables. 3,empr_nom,
-              empr_prenom ,... : idem, en rajoutant le test sur le
-              groupe.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">pics_max_size</entry>
-
-              <entry lang="fr">100</entry>
-
-              <entry lang="fr">Taille maximale des photos des emprunteurs, en
-              largeur ou en hauteur</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">pics_url</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">URL des photos des emprunteurs, dans le chemin
-              fourni, !!num_carte!! sera remplacé par le numéro de carte du
-              lecteur. exemple :
-              http://www.monsite/photos/lecteurs/!!num_carte!!.jpg</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">relance_adhesion</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Les relances d'adhésion sont envoyées : 0 :
-              exclusivement par lettre 1 : mail, à défaut par lettre</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">show_caddie</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Afficher le module de paniers de lecteurs: 0:
-              Non 1: Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">show_rows</entry>
-
-              <entry lang="fr">b,n,a,v,y,s,1</entry>
-
-              <entry lang="fr">Colonnes affichées en liste de lecteurs, saisir
-              les colonnes séparées par des virgules. Les colonnes disponibles
-              pour l'affichage de la liste des emprunteurs sont : n:
-              nom+prénom a: adresse b: code-barre c: catégories g: groupes l:
-              localisation s: statut cp: code postal v: ville y: année de
-              naissance #n : id des champs personnalisés 1: icône
-              panier</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">sort_rows</entry>
-
-              <entry lang="fr">n,c,l,s</entry>
-
-              <entry lang="fr">Colonnes qui seront disponibles pour le tri des
-              emprunteurs. Les colonnes possibles sont : n: nom+prénom c:
-              catégories g: groupes l: localisation s: statut cp: code postal
-              v: ville y: année de naissance #n : id des champs
-              personnalisés</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">statut_adhes_depassee</entry>
-
-              <entry lang="fr">2</entry>
-
-              <entry lang="fr">id du statut pour lequel les emprunteurs dont
-              la date d'adhesion est dépassée n'apparaissent pas en zone
-              d'alerte</entry>
+              <entry lang="fr">Table de correspondances colonnes/champs en
+              import de lecteurs à partir d'un fichier ASCII</entry>
             </row>
           </tbody>
         </tgroup>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_ldap">
       <title lang="fr">LDAP</title>
 
       <para lang="fr">Le type <emphasis>LDAP</emphasis> (ldap) désigne le
@@ -1657,115 +1529,109 @@ by idcode, codestat_libelle order by idcode</programlisting>
       automatique. Avec un annuaire LDAP, vous pouvez configurer PMB pour que
       l'utilisateur soit automatiquement identifié dans PMB.</para>
 
-      <table>
-        <title lang="fr">LDAP</title>
+      <para lang="fr"><table>
+          <title lang="fr">Type ldap</title>
 
-        <tgroup cols="3">
-          <colspec colname="c1" />
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry lang="fr">sous-type</entry>
 
-          <colspec colname="c2" />
+                <entry lang="fr">valeur</entry>
 
-          <colspec colname="c3" />
+                <entry lang="fr">commentaire</entry>
+              </row>
+            </thead>
 
-          <thead>
-            <row>
-              <entry lang="fr">sous-type</entry>
+            <tbody>
+              <row>
+                <entry lang="fr">accessible</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+                <entry lang="fr">0</entry>
 
-              <entry lang="fr">commentaire</entry>
-            </row>
-          </thead>
+                <entry lang="fr">LDAP accessible ?</entry>
+              </row>
 
-          <tbody>
-            <row>
-              <entry lang="fr">accessible</entry>
+              <row>
+                <entry lang="fr">base_dn</entry>
 
-              <entry lang="fr">0</entry>
+                <entry lang="fr"></entry>
 
-              <entry lang="fr">LDAP accessible ?</entry>
-            </row>
+                <entry lang="fr">Racine du nom de domaine LDAP</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">basedn</entry>
+              <row>
+                <entry lang="fr">binddn</entry>
 
-              <entry lang="fr"></entry>
+                <entry lang="fr">uid=UID,ou=People</entry>
 
-              <entry lang="fr">Racine du nom de domaine LDAP</entry>
-            </row>
+                <entry lang="fr">Description de la liaison : construction de
+                la chaine binddn pour lier l'authentification au serveur LDAP
+                dans l'OPAC</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">binddn</entry>
+              <row>
+                <entry lang="fr">fields</entry>
 
-              <entry lang="fr">uid=UID,ou=People</entry>
+                <entry lang="fr">uid,gecos,departmentnumber</entry>
 
-              <entry lang="fr">Description de la liaison : construction de la
-              chaine binddn pour lier l'authentification au serveur LDAP dans
-              l'OPAC</entry>
-            </row>
+                <entry lang="fr">Champs du serveur LDAP</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">fields</entry>
+              <row>
+                <entry lang="fr">filter</entry>
 
-              <entry lang="fr">uid,gecos,departmentnumber</entry>
+                <entry
+                lang="fr">(&amp;(objectclass=person)(gidnumber=GID))</entry>
 
-              <entry lang="fr">Champs du serveur LDAP</entry>
-            </row>
+                <entry lang="fr">Serveur LDAP, IP ou host</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">filter</entry>
+              <row>
+                <entry lang="fr">groups</entry>
 
-              <entry
-              lang="fr">(&amp;(objectclass=person)(gidnumber=GID))</entry>
+                <entry lang="fr"></entry>
 
-              <entry lang="fr">Serveur LDAP, IP ou host</entry>
-            </row>
+                <entry lang="fr">Groupes du serveur LDAP</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">groups</entry>
+              <row>
+                <entry lang="fr">lang</entry>
 
-              <entry lang="fr"></entry>
+                <entry lang="fr">fr_FR</entry>
 
-              <entry lang="fr">Groupes du serveur LDAP</entry>
-            </row>
+                <entry lang="fr">Langue du serveur LDAP</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">lang</entry>
+              <row>
+                <entry lang="fr">port</entry>
 
-              <entry lang="fr">fr_FR</entry>
+                <entry lang="fr">389</entry>
 
-              <entry lang="fr">Langue du serveur LDAP</entry>
-            </row>
+                <entry lang="fr">Port du serveur LDAP</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">port</entry>
+              <row>
+                <entry lang="fr">proto</entry>
 
-              <entry lang="fr">389</entry>
+                <entry lang="fr">3</entry>
 
-              <entry lang="fr">Port du serveur LDAP</entry>
-            </row>
+                <entry lang="fr">Version du protocole LDAP : 2 ou 3</entry>
+              </row>
 
-            <row>
-              <entry lang="fr">proto</entry>
+              <row>
+                <entry lang="fr">server</entry>
 
-              <entry lang="fr">3</entry>
+                <entry lang="fr"></entry>
 
-              <entry lang="fr">Version du protocole LDAP : 3 ou 2</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">server</entry>
-
-              <entry lang="fr">chinon</entry>
-
-              <entry lang="fr">Serveur LDAP, IP ou host</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
+                <entry lang="fr">Serveur LDAP : IP ou host</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_mailrelanceadhesion">
       <title lang="fr">Mail de relance d'adhésion</title>
 
       <para lang="fr">Le type <emphasis>Mail de relance d'adhésion</emphasis>
@@ -1773,20 +1639,14 @@ by idcode, codestat_libelle order by idcode</programlisting>
       pour proposer de renouveler une adhésion bientôt expirée.</para>
 
       <table>
-        <title lang="fr">Mail de relance d'adhésion</title>
+        <title lang="fr">Type mailrelanceadhesion</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -1796,7 +1656,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque
+              Intercommunale de SimTown.</entry>
 
               <entry lang="fr">Formule de politesse en bas de page</entry>
             </row>
@@ -1813,19 +1674,18 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">objet</entry>
 
-              <entry lang="fr">$biblio_name : votre abonnement</entry>
+              <entry lang="fr">Bibliothèque : votre abonnement</entry>
 
-              <entry lang="fr">Objet du courrier de relance d'adhésion.
-              Utilisez biblio_name pour reprendre le nom précisé dans la
-              localisation des exemplaires.</entry>
+              <entry lang="fr">Objet du courrier de relance d'adhésion</entry>
             </row>
 
             <row>
               <entry lang="fr">texte</entry>
 
-              <entry lang="fr">Votre abonnement arrive à échéance le
-              !!date_fin_adhesion!!. Nous vous remercions de penser à le
-              renouveler lors de votre prochaine visite. Cordialement,</entry>
+              <entry lang="fr">Votre abonnement à la bibliothèque municipale
+              arrive à échéance le !!date_fin_adhesion!!. Nous vous remercions
+              de penser à le renouveler lors de votre prochaine visite.
+              Cordialement,</entry>
 
               <entry lang="fr">Texte de la relance, !!date_fin_adhesion!! sera
               remplacé à l'édition par la date de fin d'adhésion du
@@ -1836,7 +1696,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_mailretard">
       <title lang="fr">Mail de retard</title>
 
       <para lang="fr">Le type <emphasis>Mail de retard</emphasis> (mailretard)
@@ -1844,20 +1704,14 @@ by idcode, codestat_libelle order by idcode</programlisting>
       retour est en retard.</para>
 
       <table>
-        <title lang="fr">Mail de retard</title>
+        <title lang="fr">Type mailretard</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -1868,22 +1722,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">1after_list</entry>
 
               <entry lang="fr">Nous vous remercions de prendre rapidement
-              contact par téléphone au $biblio_phone ou par mail à
-              $biblio_email pour étudier la possibilité de prolonger ces prêts
-              ou de rapporter les ouvrages concernés.</entry>
-
-              <entry lang="fr">Texte apparaissant après la liste des ouvrages
-              en retard dans le mail</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">1after_list_group</entry>
-
-              <entry lang="fr">Nous vous remercions de prendre rapidement
-              contact par téléphone au $biblio_phone ou par mail à
-              $biblio_email pour étudier la possibilité de prolonger les
-              emprunts de votre groupe ou de rapporter les ouvrages
-              concernés.</entry>
+              contact par téléphone au 00 00 00 00 00 ou de nous répondre par
+              mail à mail@mail.mail pour étudier la possibilité de prolonger
+              ces prêts ou de ramener les ouvrages concernés.</entry>
 
               <entry lang="fr">Texte apparaissant après la liste des ouvrages
               en retard dans le mail</entry>
@@ -1901,29 +1742,10 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">1before_list_group</entry>
-
-              <entry lang="fr">Sauf erreur de notre part, les emprunteurs de
-              votre groupe ont toujours en leur possession le ou les
-              ouvrage(s) suivant(s) dont la durée de prêt est aujourd'hui
-              dépassée :</entry>
-
-              <entry lang="fr">Texte apparaissant avant la liste des ouvrages
-              en retard dans le mail de relance de retard</entry>
-            </row>
-
-            <row>
               <entry lang="fr">1fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
-
-              <entry lang="fr">Signataire du mail de relance de retard</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">1fdp_group</entry>
-
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque
+              $biblio_name.</entry>
 
               <entry lang="fr">Signataire du mail de relance de retard</entry>
             </row>
@@ -1937,25 +1759,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">1madame_monsieur_group</entry>
-
-              <entry lang="fr">Madame, Monsieur</entry>
-
-              <entry lang="fr">Entête du mail</entry>
-            </row>
-
-            <row>
               <entry lang="fr">1objet</entry>
 
-              <entry lang="fr">$biblio_name : documents en retard</entry>
-
-              <entry lang="fr">Objet du mail de relance de retard</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">1objet_group</entry>
-
-              <entry lang="fr">$biblio_name : documents en retard</entry>
+              <entry lang="fr">Documents en retard</entry>
 
               <entry lang="fr">Objet du mail de relance de retard</entry>
             </row>
@@ -1964,9 +1770,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">2after_list</entry>
 
               <entry lang="fr">Nous vous remercions de prendre rapidement
-              contact par téléphone au $biblio_phone ou par mail à
-              $biblio_email pour étudier la possibilité de prolonger ces prêts
-              ou de rapporter les ouvrages concernés.</entry>
+              contact par téléphone au 00 00 00 00 00 ou de nous répondre par
+              mail à mail@mail.mail pour étudier la possibilité de prolonger
+              ces prêts ou de ramener les ouvrages concernés.</entry>
 
               <entry lang="fr">Texte apparaissant après la liste des ouvrages
               en retard dans le mail</entry>
@@ -1986,7 +1792,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">2fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque
+              $biblio_name.</entry>
 
               <entry lang="fr">Signataire du mail de relance de retard</entry>
             </row>
@@ -2002,7 +1809,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">2objet</entry>
 
-              <entry lang="fr">$biblio_name : documents en retard</entry>
+              <entry lang="fr">Documents en retard</entry>
 
               <entry lang="fr">Objet du mail de relance de retard</entry>
             </row>
@@ -2011,9 +1818,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">3after_list</entry>
 
               <entry lang="fr">Nous vous remercions de prendre rapidement
-              contact par téléphone au $biblio_phone ou par mail à
-              $biblio_email pour étudier la possibilité de prolonger ces prêts
-              ou de rapporter les ouvrages concernés.</entry>
+              contact par téléphone au 00 00 00 00 00 ou de nous répondre par
+              mail à mail@mail.mail pour étudier la possibilité de prolonger
+              ces prêts ou de ramener les ouvrages concernés.</entry>
 
               <entry lang="fr">Texte apparaissant après la liste des ouvrages
               en retard dans le mail</entry>
@@ -2031,20 +1838,10 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">3before_recouvrement</entry>
-
-              <entry lang="fr">Sans nouvelles de votre part dans les sept
-              jours, nous nous verrons contraints de déléguer au trésor public
-              le recouvrement des ouvrages suivants :</entry>
-
-              <entry lang="fr">Texte avant la liste des ouvrages en
-              recouvrement</entry>
-            </row>
-
-            <row>
               <entry lang="fr">3fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque
+              $biblio_name.</entry>
 
               <entry lang="fr">Signataire du mail de relance de retard</entry>
             </row>
@@ -2060,7 +1857,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">3objet</entry>
 
-              <entry lang="fr">$biblio_name : documents en retard</entry>
+              <entry lang="fr">Documents en retard</entry>
 
               <entry lang="fr">Objet du mail de relance de retard</entry>
             </row>
@@ -2070,9 +1867,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Priorité des lettres de retard lors des
-              relances : 0 : Lettre seule 1 : Mail, à défaut lettre 2 : Mail
-              ET lettre</entry>
+              <entry lang="fr">Priorités lettres de retard lors des relances :
+              0 : Lettre seule 1 : Mail, lettre 2 : Mail ET lettre</entry>
             </row>
 
             <row>
@@ -2088,7 +1884,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_opac">
       <title lang="fr">OPAC</title>
 
       <para lang="fr">Le type <emphasis>opac</emphasis> correspond au
@@ -2099,91 +1895,22 @@ by idcode, codestat_libelle order by idcode</programlisting>
       regroupés par fonctionnalité au sein de l'OPAC.</para>
 
       <table>
-        <title lang="fr">OPAC</title>
+        <title lang="fr">Options générales de fonctionnement de l'OPAC</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
           </thead>
 
           <tbody>
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options générales de
-              fonctionnement de l'OPAC</emphasis></entry>
-            </row>
-
-            <row>
-              <entry lang="fr">allow_add_tag</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Permettre aux utilisateurs d'ajouter un tag à
-              une notice. 0 : non 1 : oui 2 : identification obligatoire pour
-              ajouter</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">authorized_information_pages</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Pages "includable" dans la page de l'opac
-              ./index.php?lvl=information&amp;askedpage= : Mettre les noms des
-              fichiers séparés par une virgule</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">authorized_styles</entry>
-
-              <entry lang="fr">bueil</entry>
-
-              <entry lang="fr">Styles de l'OPAC autorisés, séparés par une
-              virgule</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">avis_allow</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Permet de consulter/ajouter un avis pour les
-              notices 0 : non 1 : sans être identifié : consultation possible,
-              ajout impossible 2 : identification obligatoire pour consulter
-              et ajouter 3 : consultation et ajout anonymes possibles</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">avis_nb_max</entry>
-
-              <entry lang="fr">30</entry>
-
-              <entry lang="fr">Nombre maximal de commentaires conservé par
-              notice. Les plus vieux sont effacés au profit des plus récent
-              quand ce nombre est atteint.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">avis_show_writer</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Afficher le rédacteur de l'avis 0 : non 1 :
-              Prénom NOM 2 : login OPAC uniquement</entry>
-            </row>
-
             <row>
               <entry lang="fr">default_lang</entry>
 
@@ -2196,7 +1923,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">default_style</entry>
 
-              <entry lang="fr">bueil</entry>
+              <entry lang="fr">1</entry>
 
               <entry lang="fr">Style graphique de l'OPAC, 1 style par défaut,
               nomargin : sans affichage du bandeau de gauche</entry>
@@ -2212,59 +1939,13 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">empr_hist_nb_jour_max</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Délai en jours au delà duquel les prêts
-              précédents ne sont pas affichés, 0 pour illimité</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">empr_hist_nb_max</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Nombre maximum de prêts précédents à afficher,
-              0 pour illimité</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">export_allow</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Export de notices à partir de l'opac : 0 :
-              interdit 1 : pour tous 2 : pour les abonnés uniquement</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">export_allow_expl</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Exporter les exemplaires avec les notices : 0 :
-              Non 1 : Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">mail_html_format</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Format d'envoi des mails à partie de l'opac: 0:
-              Texte brut 1: HTML Attention, ne fonctionne qu'en mode d'envoi
-              smtp !</entry>
-            </row>
-
-            <row>
               <entry lang="fr">mail_methode</entry>
 
               <entry lang="fr">php</entry>
 
-              <entry lang="fr">Méthode d'envoi des mails dans l'opac : php :
-              fonction mail() de php smtp,hote:port,auth,user,pass : en smtp,
-              mettre O ou 1 pour l'authentification...</entry>
+              <entry lang="fr">Méthode d'envoi des mails : php : fonction
+              mail() de php smtp,hote:port,auth,user,pass : en smtp, mettre O
+              ou 1 pour l'authentification...</entry>
             </row>
 
             <row>
@@ -2274,24 +1955,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Nombre maximum de réservation sur un document 5
               par défaut 0 pour illimité</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">pret_duree_prolongation</entry>
-
-              <entry lang="fr">15</entry>
-
-              <entry lang="fr">Nombre de jours de prolongation
-              autorisé</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">pret_prolongation</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">0 : pas de prolongation 1 : prolongation
-              autorisée</entry>
             </row>
 
             <row>
@@ -2319,7 +1982,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Réservations possibles de documents disponibles
-              par l'OPAC 1: oui 0: non</entry>
+              par l'OPAC 1: oui ou 0: non</entry>
             </row>
 
             <row>
@@ -2336,48 +1999,19 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Demande de connexion sous forme de popup ? : 0
-              : Non 1 : Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">show_empr</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Afficher l'emprunteur actuel dans la liste des
-              exemplaires ? 0 : non 1 : pour les abonnés 2 : pour tout le
-              monde</entry>
+              <entry lang="fr">Demande de connexion sous forme de pop-up
+              ?</entry>
             </row>
 
             <row>
               <entry lang="fr">show_languages</entry>
 
-              <entry lang="fr">1
-              fr_FR,it_IT,es_ES,ca_ES,en_UK,nl_NL,oc_FR</entry>
+              <entry lang="fr">1 fr_FR,it_IT,en_UK,nl_NL,oc_FR</entry>
 
               <entry lang="fr">Afficher la liste déroulante de sélection de la
               langue ? 0 : Non 1 : Oui Faire suivre d'un espace et des codes
               des langues possibles séparées par des virgules :
               fr_FR,it_IT,en_UK,nl_NL,oc_FR</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">sugg_categ</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Affectation des suggestions à une catégorie de
-              suggestions. 0 : Non. 1 : Oui.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">sugg_categ_default</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Identifiant de la catégorie de suggestions par
-              défaut.</entry>
             </row>
 
             <row>
@@ -2392,26 +2026,41 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">url_base</entry>
 
-              <entry lang="fr">./</entry>
+              <entry lang="fr">./opac_css/</entry>
 
               <entry lang="fr">URL de base de l'opac : typiquement mettre
               l'url publique web http://monsite/opac/ ne pas oublier le /
               final</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Informations de la bibliothèque ou du centre de
+        ressources</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Informations de la
-              bibliothèque ou du centre de ressources</emphasis></entry>
-            </row>
+              <entry lang="fr">sous-type</entry>
 
+              <entry lang="fr">valeur</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">biblio_adr1</entry>
 
-              <entry lang="fr">24 &amp; 26, place des Halles</entry>
+              <entry lang="fr">Le Gué Luneau</entry>
 
-              <entry lang="fr">Adresse 1 de la bibliothèque ou du centre de
-              ressources dans l'opac</entry>
+              <entry lang="fr">Adresse 1 de la bibliothèque dans
+              l'OPAC</entry>
             </row>
 
             <row>
@@ -2419,15 +2068,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">France</entry>
 
-              <entry lang="fr">Pays dans l'opac</entry>
+              <entry lang="fr">Pays de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
               <entry lang="fr">biblio_cp</entry>
 
-              <entry lang="fr">72500</entry>
+              <entry lang="fr">37370</entry>
 
-              <entry lang="fr">Code postal dans l'opac</entry>
+              <entry lang="fr">Code postal de la bibliothèque dans
+              l'OPAC</entry>
             </row>
 
             <row>
@@ -2435,7 +2085,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">37</entry>
 
-              <entry lang="fr">Département dans l'opac pour la météo</entry>
+              <entry lang="fr">Département de la bibliothèque dans l'OPAC pour
+              la météo</entry>
             </row>
 
             <row>
@@ -2443,7 +2094,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">pmb@sigb.net</entry>
 
-              <entry lang="fr">Email de contact dans l'opac</entry>
+              <entry lang="fr">Email de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
@@ -2451,8 +2102,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr"></entry>
 
-              <entry lang="fr">Infos importantes 1, dans la feuille de style,
-              voir id important.p1</entry>
+              <entry lang="fr">Infos importantes 1 sur la bibliothèque, est
+              masqué par défaut dans la feuille de style, voir id
+              important.p1</entry>
             </row>
 
             <row>
@@ -2460,8 +2112,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr"></entry>
 
-              <entry lang="fr">Infos importantes, dans la feuille de style,
-              voir id important.p2</entry>
+              <entry lang="fr">Infos importantes sur la bibliothèque, est
+              masqué par défaut dans la feuille de style, voir id
+              important.p2</entry>
             </row>
 
             <row>
@@ -2469,25 +2122,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Bibliothèque PMB Services</entry>
 
-              <entry lang="fr">Nom de la bibliothèque ou du centre de
-              ressources dans l'opac</entry>
+              <entry lang="fr">Nom de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
               <entry lang="fr">biblio_phone</entry>
 
-              <entry lang="fr">02 43 440 660</entry>
+              <entry lang="fr">02 47 24 89 29</entry>
 
-              <entry lang="fr">Téléphone dans l'opac</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">biblio_post_adress</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Bloc d'information après le bloc adresse, dans
-              la feuille de style, voir id post_adress</entry>
+              <entry lang="fr">Téléphone de la bibliothèque dans
+              l'OPAC</entry>
             </row>
 
             <row>
@@ -2498,8 +2142,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
               présente de nombreuses possibilités de recherche et de
               navigation, celles-ci sont grandement paramétrables.</entry>
 
-              <entry lang="fr">Paragraphe 1 d'informations (par exemple,
-              description du fonds)</entry>
+              <entry lang="fr">Paragraphe 1 d'informations sur la bibliothèque
+              (par exemple, description du fonds)</entry>
             </row>
 
             <row>
@@ -2508,16 +2152,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">PMB Services est à votre disposition pour vous
               aider à paramétrer ou adapter votre PMB.</entry>
 
-              <entry lang="fr">Paragraphe 2 d'informations : accueil du
-              public.</entry>
+              <entry lang="fr">Paragraphe 2 d'informations sur la bibliothèque
+              : accueil du public.</entry>
             </row>
 
             <row>
               <entry lang="fr">biblio_town</entry>
 
-              <entry lang="fr">CHATEAU DU LOIR</entry>
+              <entry lang="fr">BUEIL EN TOURAINE</entry>
 
-              <entry lang="fr">Ville dans l'opac</entry>
+              <entry lang="fr">Ville de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
@@ -2525,16 +2169,14 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">www.sigb.net</entry>
 
-              <entry lang="fr">Site web de la bibliothèque ou du centre de
-              ressources dans l'opac</entry>
+              <entry lang="fr">Site web de la bibliothèque dans l'OPAC</entry>
             </row>
 
             <row>
               <entry lang="fr">lien_bas_supplementaire</entry>
 
-              <entry lang="fr">&lt;a
-              href='http://www.sigb.net.com/poomble.php' target=_blank&gt;Lien
-              vers autre site&lt;/a&gt;</entry>
+              <entry lang="fr">&lt;a href='http://www.sigb.net/'
+              target=_blank&gt;Lien vers autre site&lt;/a&gt;</entry>
 
               <entry lang="fr">Lien supplémentaire en bas de page d'accueil, à
               renseigner complètement : a href= lien /a</entry>
@@ -2554,51 +2196,38 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">logosmall</entry>
 
-              <entry lang="fr">images/site/livre.png</entry>
+              <entry lang="fr">logo_default_small.jpg</entry>
 
               <entry lang="fr">Nom du fichier de l'image petit logo</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Options pour les recherches dans l'OPAC</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options pour les recherches
-              dans l'OPAC</emphasis></entry>
-            </row>
+              <entry lang="fr">sous-type</entry>
 
+              <entry lang="fr">valeur</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">allow_extended_search</entry>
 
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Autorisation ou non de la recherche avancée
-              dans l'OPAC 0 : Non 1 : Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">allow_external_search</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Autorisation ou non de la recherche par
-              connecteurs externes dans l'OPAC 0 : Non 1 : Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">allow_tags_search</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Recherche par tag (mots clés utilisateurs) 1 =
-              oui 0 = non</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">allow_tags_search_min_occ</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Nombre mini d'occurence d'un tag pour être
-              affiché, 1 pour tous</entry>
+              dans l'OPAC 0: Non 1: Oui</entry>
             </row>
 
             <row>
@@ -2607,16 +2236,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Autorisation ou non de la recherche par termes
-              dans l'OPAC 0 : Non 1 : Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">allow_term_troncat_search</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Troncature automatique à droite 1 = oui 0 =
-              non</entry>
+              dans l'OPAC 0: Non 1: Oui</entry>
             </row>
 
             <row>
@@ -2652,7 +2272,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">2</entry>
 
-              <entry lang="fr">Recherche simple dans les auteurs: 0 :
+              <entry lang="fr">Recherche simple dans les auteurs : 0 :
               interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
@@ -2662,7 +2282,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Recherche simple dans les catégories: 0 :
+              <entry lang="fr">Recherche simple dans les catégories : 0 :
               interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
@@ -2672,7 +2292,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Recherche simple dans les collections: 0 :
+              <entry lang="fr">Recherche simple dans les collections : 0 :
               interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
@@ -2682,9 +2302,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">0</entry>
 
-              <entry lang="fr">Recherche simple dans les notes de contenu: 0 :
-              interdite 1 : autorisée 2 : autorisée et validée par défaut
-              INUTILISE POUR L'INSTANT</entry>
+              <entry lang="fr">Recherche simple dans le champ résumé : 0 :
+              interdite 1 : autorisée 2 : autorisée et validée par
+              défaut</entry>
             </row>
 
             <row>
@@ -2692,8 +2312,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Recherche simple dans les indexations internes:
-              0 : interdite 1 : autorisée 2 : autorisée et validée par
+              <entry lang="fr">Recherche simple dans les indexations internes
+              : 0 : interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
 
@@ -2702,9 +2322,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Recherche simple dans les indexations libres
-              (mots clé): 0 : interdite 1 : autorisée 2 : autorisée et validée
-              par défaut</entry>
+              <entry lang="fr">Recherche simple dans les indexations libres :
+              0 : interdite 1 : autorisée 2 : autorisée et validée par
+              défaut</entry>
             </row>
 
             <row>
@@ -2712,7 +2332,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Recherche simple dans les éditeurs: 0 :
+              <entry lang="fr">Recherche simple dans les éditeurs : 0 :
               interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
@@ -2722,8 +2342,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Recherche simple dans les sous-collections: 0 :
-              interdite 1 : autorisée 2 : autorisée et validée par
+              <entry lang="fr">Recherche simple dans les sous-collections : 0
+              : interdite 1 : autorisée 2 : autorisée et validée par
               défaut</entry>
             </row>
 
@@ -2732,26 +2352,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">2</entry>
 
-              <entry lang="fr">Recherche simple dans les titres: 0 : interdite
-              1 : autorisée 2 : autorisée et validée par défaut</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">nb_max_criteres_tri</entry>
-
-              <entry lang="fr">3</entry>
-
-              <entry lang="fr">Nombre maximum de critères de tri à
-              afficher.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">nb_max_tri</entry>
-
-              <entry lang="fr">50</entry>
-
-              <entry lang="fr">Nombre maximum de notices pour lesquelles le
-              tri est autorisé.</entry>
+              <entry lang="fr">Recherche simple dans les titres : 0 :
+              interdite 1 : autorisée 2 : autorisée et validée par
+              défaut</entry>
             </row>
 
             <row>
@@ -2787,25 +2390,30 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">50</entry>
 
               <entry lang="fr">Nombre de termes affichés par page en recherche
-              par terme</entry>
+              par termes</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Options d'affichage des résultats de
+        recherche</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry lang="fr">title_ponderation</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">0.5</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry lang="fr">Majoration de la pondération des mots du titre
-              mettre 0 (zero) pour interdire la majoration ATTENTION utiliser
-              le point décimal</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options d'affichage des
-              résultats de recherche</emphasis></entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">authors_aut_rec_per_page</entry>
 
@@ -2827,29 +2435,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">15</entry>
 
-              <entry lang="fr">Nombre de notices affichées pour une autorité
-              donnée</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">nb_results_first_page</entry>
-
-              <entry lang="fr">10</entry>
-
-              <entry lang="fr">Nombres de notices à afficher lors d'une
-              recherche pour le critère Tous les champs.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">notice_groupe_fonction</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Quel fichier/fonction inclure pour la
-              présentation des resultats si toutes les notices d'une recherche
-              sont parmi les types mentionnés exemple : a,b text;c,d music;k
-              photo fera include(text.inc.php) et appel à la fonction
-              text()</entry>
+              <entry lang="fr">Nombre de notices affichées pour une
+              autorité</entry>
             </row>
 
             <row>
@@ -2860,32 +2447,27 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Nombre de résultats affichés sur les pages
               suivantes</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Affichage des notices</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry lang="fr">show_results_first_page</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">0</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry lang="fr">Affichage de résultats sur la première page
-              lors d'une recherche pour tous les champs 0=non 1=oui.</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry lang="fr">surlignage</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Surligner les mots recherchés : 0 : pas de
-              surlignage 1 : surlignage obligatoire 2 : surlignage activable 3
-              : surlignage désactivable</entry>
-            </row>
-
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Affichage des
-              notices</emphasis></entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">book_pics_url</entry>
 
@@ -2898,30 +2480,12 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">bull_results_per_page</entry>
-
-              <entry lang="fr">12</entry>
-
-              <entry lang="fr">Nombre de bulletins affichés par page dans
-              l'affichage d'un périodique</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">fonction_affichage_liste_bull</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Fonction d'affichage des listes de
-              bulletins</entry>
-            </row>
-
-            <row>
               <entry lang="fr">notices_depliable</entry>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Affichage dépliable des notices en résultat de
-              recherche 0 : Non 1 : Oui</entry>
+              <entry lang="fr">Affichage dépliable eds notices en résultat de
+              recherche 0: Non 1: Oui</entry>
             </row>
 
             <row>
@@ -2929,9 +2493,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">4</entry>
 
-              <entry lang="fr">Format d'affichage des notices dans les
-              étagères de l'écran d'accueil 1 : ISBD seul 2 : Public seul 4 :
-              ISBD et Public 5 : ISBD et Public avec ISBD en premier 8 :
+              <entry lang="fr">Format d'affichage des notices en résultat de
+              recherche 1 : ISBD seul 2 : Public seul 4 : ISBD et Public 8 :
               Réduit (titre+auteurs) seul</entry>
             </row>
 
@@ -2952,7 +2515,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Format d'affichage des réduits des notices : 0
               normal = titre+auteurs principaux P 1,2,3: Perso. :
               tit+aut+champs persos id 1 2 3 E 1,2,3: Perso. :
-              tit+aut+édit+champs persos id 1 2 3 T : tit1+tit4</entry>
+              tit+aut+édit+champs persos id 1 2 3</entry>
             </row>
 
             <row>
@@ -2972,65 +2535,33 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Afficher les exemplaires dans l'OPAC 1 Oui, 0 :
               Non</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Modules affichés dans l'OPAC</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Modules affichés dans
-              l'OPAC</emphasis></entry>
+              <entry lang="fr">sous-type</entry>
+
+              <entry lang="fr">valeur par défaut</entry>
+
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry lang="fr">autres_lectures</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Afficher les emprunts des autres lecteurs du
-              document courant ? 0: Non 1: Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">autres_lectures_nb_jours_maxi</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Délai en jours au delà duquel les emprunts ne
-              sont pas comptabilisés, 0 pour illimité</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">autres_lectures_nb_maxi</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Nombre maximum de lectures associées
-              proposées</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">autres_lectures_nb_mini_emprunts</entry>
-
-              <entry lang="fr">100</entry>
-
-              <entry lang="fr">Nombre minimum d'emprunts pour être
-              comptabilisés 1: un seul emprunt suffit pour proposer la notice
-              comme lecture associée N: N emprunts minimum nécessaires</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">autres_lectures_tri</entry>
-
-              <entry lang="fr">rand()</entry>
-
-              <entry lang="fr">Tri des autres lectures proposées : rand():
-              aléatoire tit: par Titre</entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">cart_allow</entry>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Paniers possibles dans l'OPAC de PMB 1 Oui 0
+              <entry lang="fr">Paniers possibles dans l'OPAC de PMB 1: Oui 0 :
               Non</entry>
             </row>
 
@@ -3065,7 +2596,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">0</entry>
 
-              <entry lang="fr">Affichage des dernières notices créées en bas
+              <entry lang="fr">Affichage des dernières notices créées en base
               de page ? 0 : Non 1 : Oui</entry>
             </row>
 
@@ -3074,17 +2605,17 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">10</entry>
 
-              <entry lang="fr">Nombre de dernières notices affichées en OPAC
-              lors de l'activation du paramètre show_dernieresnotices</entry>
+              <entry lang="fr">Nombre de dernières notices affichées en
+              Catalogue - Dernières notices</entry>
             </row>
 
             <row>
-              <entry lang="fr">show_etageresaccueil</entry>
+              <entry lang="fr">show_etageres_accueil</entry>
 
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Affichage des étagères dans la page d'accueil
-              en bas de page ? 0 : Non 1 : Oui</entry>
+              en bas de page ? 0: Non 1: Oui</entry>
             </row>
 
             <row>
@@ -3093,7 +2624,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Affichage de l'aide en ligne dans l'OPAC de PMB
-              1 Oui 0 Non</entry>
+              1: Oui 0: Non</entry>
             </row>
 
             <row>
@@ -3102,8 +2633,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">0</entry>
 
               <entry lang="fr">Affichage du lien HOME (retour accueil) sous le
-              nom de la bibliothèque ou du centre de ressources (nécessaire si
-              masquage bandeau gauche) ? 0 : Non 1 : Oui</entry>
+              nom de la bibliothèque (nécessaire si masquage bandeau gauche) ?
+              0 : Non 1 : Oui</entry>
             </row>
 
             <row>
@@ -3111,7 +2642,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Affichage des liens(pmb, google, bibli) en bas
+              <entry lang="fr">Affichage des liens (pmb, google, bibli) en bas
               de page ? 0 : Non 1 : Oui</entry>
             </row>
 
@@ -3122,16 +2653,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Affichage du login lecteur dans l'OPAC 0 &gt;
               non 1 Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">show_login_form_next</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Après connexion de l'emprunteur se diriger vers
-              quel module ? Vide = Compte emprunteur index.php = Retour en
-              accueil</entry>
             </row>
 
             <row>
@@ -3155,19 +2676,10 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">show_meteo_url</entry>
 
               <entry lang="fr">&lt;img
-              src="http://perso0.free.fr/cgi-bin/meteo.pl?dep=72" alt=""
+              src="http://perso0.free.fr/cgi-bin/meteo.pl?dep=37" alt=""
               border="0" hspace=0&gt;</entry>
 
               <entry lang="fr">URL de la météo affichée</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">show_onglet_empr</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Afficher l'onglet de compte emprunteur avec les
-              onglets de recherche ? 0: Non 1: Oui</entry>
             </row>
 
             <row>
@@ -3185,7 +2697,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Afficher le butineur de localisation et de
-              sections ? 0 : Non 1 : Oui</entry>
+              sections ? 0: Non 1: Oui</entry>
             </row>
 
             <row>
@@ -3197,75 +2709,35 @@ by idcode, codestat_libelle order by idcode</programlisting>
               0 : Non. 1 : Oui, avec authentification. 2 : Oui, sans
               authentification.</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Options concernant le panier</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry lang="fr">websubscribe_empr_categ</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">0</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry lang="fr">Id de la catégorie des inscrits par le web non
-              adhérents complets</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry lang="fr">websubscribe_empr_location</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Id de la localisation des inscrits par le web
-              non adhérents complets</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">websubscribe_empr_stat</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Id du code statistique des inscrits par le web
-              non adhérents complets</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">websubscribe_empr_status</entry>
-
-              <entry lang="fr">2,1</entry>
-
-              <entry lang="fr">Id des statuts des inscrits séparés par une
-              virgule: en attente de validation, validés</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">websubscribe_show</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Afficher la possibilité de s'inscrire en ligne
-              ? 0: Non 1: Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">websubscribe_valid_limit</entry>
-
-              <entry lang="fr">24</entry>
-
-              <entry lang="fr">Durée maximum des inscriptions en attente de
-              validation</entry>
-            </row>
-
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options concernant le
-              panier</emphasis></entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">cart_only_for_subscriber</entry>
 
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Paniers de notices réservés aux adhérents de la
-              bibliothèque ou du centre de ressources ? 1: Oui 0: Non,
-              autorisé pour tout internaute</entry>
+              bibliothèque 1: Oui 0 : Non, autorisé pour tout
+              internaute</entry>
             </row>
 
             <row>
@@ -3274,24 +2746,30 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">200</entry>
 
               <entry lang="fr">Nombre maximum de notices dans un panier
-              utilisateur.</entry>
+              utilisateur</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Options pour l'affichage et la navigation dans les
+        catégories</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options pour l'affichage et la
-              navigation dans les catégories</emphasis></entry>
+              <entry lang="fr">sous-type</entry>
+
+              <entry lang="fr">valeur</entry>
+
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry lang="fr">categories_categ_in_line</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Affichage des catégories en ligne. 0 : Non. 1 :
-              Oui.</entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">categories_categ_path_sep</entry>
 
@@ -3316,7 +2794,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Explorateur de catégories : mode de tri des
               notices : index_serie, tnvol, index_sew &gt; par titre de série,
-              numéro dans la série et index des titres rand() :
+              numéro dans la série et index des titres ; rand() :
               aléatoire</entry>
             </row>
 
@@ -3344,7 +2822,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">3</entry>
 
               <entry lang="fr">Nombre de colonnes de sous-catégories en
-              navigation dans les catégories 3 par défaut</entry>
+              navigation dans les catégories</entry>
             </row>
 
             <row>
@@ -3369,10 +2847,10 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">categories_sub_mode</entry>
 
-              <entry lang="fr">libelle_categorie</entry>
+              <entry lang="fr">categ_libelle</entry>
 
               <entry lang="fr">Mode affichage des sous-categories : rand()
-              &gt; aléatoire libelle_categorie &gt; ordre alpha</entry>
+              &gt; aléatoire categ_libelle &gt; ordre alpha</entry>
             </row>
 
             <row>
@@ -3383,22 +2861,27 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">En recherche par terme, affichage des
               catégories ne contenant aucun ouvrage : 0 : Non 1 : Oui</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Options concernant les étagères</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry lang="fr">show_infobulles_categ</entry>
+              <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">0</entry>
+              <entry lang="fr">valeur</entry>
 
-              <entry lang="fr">Affichage des infobulles sur les libellés des
-              catégories. 0=non 1=oui</entry>
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options concernant les
-              étagères</emphasis></entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">etagere_nbnotices_accueil</entry>
 
@@ -3410,12 +2893,12 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">etagere_notices_depliables</entry>
+              <entry lang="fr">etagere_notices_depliable</entry>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Affichage dépliable des notices dans les
-              étagères de l'écran d'accueil 0 : Non 1 : Oui</entry>
+              <entry lang="fr">Affichage dépliable des notices en résultat de
+              recherche 0 : Non 1 : Oui</entry>
             </row>
 
             <row>
@@ -3425,11 +2908,12 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Format d'affichage des notices dans les
               étagères de l'écran d'accueil 1 : ISBD seul 2 : Public seul 4 :
-              ISBD et Public 8 : Réduit (titre+auteurs) seul</entry>
+              ISBD et Public 5 : ISBD et Public avec ISBD en premier 8 :
+              Réduit (titre+auteurs) seul</entry>
             </row>
 
             <row>
-              <entry lang="fr">etagere_notices_order</entry>
+              <entry lang="fr">etagere_etagere_notices_order</entry>
 
               <entry lang="fr">index_serie, tnvol, index_sew</entry>
 
@@ -3446,13 +2930,27 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Tri des étagères dans l'écran d'accueil, name =
               par nom name DESC = par nom décroissant</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Options concernant la navigation par sections</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options concernant la
-              navigation par section</emphasis></entry>
-            </row>
+              <entry lang="fr">sous-type</entry>
 
+              <entry lang="fr">valeur</entry>
+
+              <entry lang="fr">commentaire</entry>
+            </row>
+          </thead>
+
+          <tbody>
             <row>
               <entry lang="fr">nb_localisations_per_line</entry>
 
@@ -3471,23 +2969,20 @@ by idcode, codestat_libelle order by idcode</programlisting>
               visualisation de localisation (si
               show_section_browser=1)</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
 
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options concernant la
-              D.S.I.</emphasis></entry>
-            </row>
+      <para lang="fr">Les paramètres ci-dessous, figurant dans la partie
+      Inutilisé des paramètres de l'OPAC, sont des paramètres obsolètes qui
+      ont pu être utilisés dans d'anciennes versions de PMB. A l'heure
+      actuelle, ils sont inutilisés mais leur avenir n'est pas fixé.</para>
 
-            <row>
-              <entry lang="fr">allow_bannette_export</entry>
+      <table>
+        <title lang="fr">Options concernant la D.S.I.</title>
 
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Possibilité pour les lecteurs de recevoir les
-              notices de leurs bannettes privées en pièce jointe au mail ? 0:
-              Non 1: Oui</entry>
-            </row>
-
+        <tgroup cols="3">
+          <tbody>
             <row>
               <entry lang="fr">allow_bannette_priv</entry>
 
@@ -3561,79 +3056,35 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Affichage des bannettes de la catégorie du
               lecteur et possibilité de s'y abonner 0: Non 1: Oui</entry>
             </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title lang="fr">Inutilisé</title>
+
+        <tgroup cols="3">
+          <thead>
+            <colspec />
 
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options concernant les
-              photos</emphasis></entry>
+              <entry lang="fr">sous-type</entry>
+
+              <entry lang="fr">valeur</entry>
+
+              <entry lang="fr">commentaire</entry>
             </row>
+          </thead>
 
-            <row>
-              <entry lang="fr">photo_email_form</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Emails des destinataires des commandes de photo
-              à séparer par des espaces si multiples.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">photo_mean_size_x</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Taille X de la photo format 'moyen', si vide,
-              pas de redimensionnement</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">photo_mean_size_y</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Taille Y de la photo format 'moyen', si vide,
-              pas de redimensionnement</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">photo_show_form</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Afficher le formulaire de commande de photo ?
-              0: Non 1:Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">photo_watermark</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Watermark à ajouter sur les photos, si vide,
-              pas de watermark</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">photo_watermark_transparency</entry>
-
-              <entry lang="fr">50</entry>
-
-              <entry lang="fr">Transparence du watermark de 0 à 100 en
-              %</entry>
-            </row>
-
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Inutilisé</emphasis></entry>
-            </row>
-
+          <tbody>
             <row>
               <entry lang="fr">biblio_quicksummary_p1</entry>
 
               <entry lang="fr"></entry>
 
-              <entry lang="fr">Paragraphe 1 de résumé, est masqué par défaut
-              dans la feuille de style, voir id quickSummary.p1</entry>
+              <entry lang="fr">Paragraphe 1 de résumé sur la bibliothèque, est
+              masqué par défaut dans la feuille de style, voir id
+              quickSummary.p1</entry>
             </row>
 
             <row>
@@ -3641,8 +3092,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr"></entry>
 
-              <entry lang="fr">Paragraphe 2 de résumé, est masqué par défaut
-              dans la feuille de style, voir id quickSummary.p2</entry>
+              <entry lang="fr">Paragraphe 2 de résumé sur la bibliothèque, est
+              masqué par défaut dans la feuille de style, voir id
+              quickSummary.p1</entry>
             </row>
 
             <row>
@@ -3666,35 +3118,24 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_pdfcartelecteur">
       <title lang="fr">Carte lecteur</title>
 
       <para lang="fr">Les paramètres <emphasis>Carte lecteur</emphasis>
       (pdfcartelecteur) correspondent au paramétrage de l'impression d'une
       carte de lecteur.</para>
 
-      <para>L'impression d'une carte de lecteur (code-barres, validité, nom et
-      prénom) est disponible via le bouton Carte sur la fiche du
-      lecteur.</para>
-
-      <para>Pour afficher une fiche lecteur, dans Circulation &gt; Prêt de
-      documents et saisissez le début du nom de famille d'un lecteur.</para>
-
       <table>
-        <title lang="fr">Carte de lecteur</title>
+        <title lang="fr">Type pdfcartelecteur</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -3702,19 +3143,13 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold"></emphasis></entry>
-            </row>
-
-            <row>
               <entry lang="fr">biblio_name</entry>
 
               <entry lang="fr">$biblio_name</entry>
 
-              <entry lang="fr">Nom de la bibliothèque ou du centre de
-              ressources imprimé sur la carte de lecteur. Mettre $biblio_name
-              pour reprendre le nom spécifié en localisation d'exemplaire ou
-              bien mettre autre chose.</entry>
+              <entry lang="fr">Nom de la bibliothèque imprimé sur la carte de
+              lecteur. Mettre $biblio_name pour reprendre le paramètre "biblio
+              name" ou bien mettre autre chose.</entry>
             </row>
 
             <row>
@@ -3774,7 +3209,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_pdflettreadhesion">
       <title lang="fr">Lettre de relance d'adhésion</title>
 
       <para lang="fr">Les paramètres <emphasis>Lettre de relance
@@ -3786,20 +3221,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
       génération de la lettre de relance d'adhésion.</para>
 
       <table>
-        <title lang="fr">Lettre de relance d'adhésion</title>
+        <title lang="fr">Type pdflettreadhesion</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -3809,7 +3240,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la Bibliothèque.</entry>
 
               <entry lang="fr">Formule de politesse en bas de page</entry>
             </row>
@@ -3866,11 +3297,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">texte</entry>
 
-              <entry lang="fr">Votre abonnement arrive à échéance le
-              !!date_fin_adhesion!!. Nous vous remercions de penser à le
-              renouveler lors de votre prochaine visite. Nous vous prions de
-              recevoir, Madame, Monsieur, l'expression de nos meilleures
-              salutations.</entry>
+              <entry lang="fr">Votre abonnement à la bibliothèque municipale
+              arrive à échéance le !!date_fin_adhesion!!. Nous vous remercions
+              de penser à le renouveler lors de votre prochaine visite. Nous
+              vous prions de recevoir, Madame, Monsieur, l'expression de nos
+              meilleures salutations.</entry>
 
               <entry lang="fr">Phrase d'introduction de l'échéance de
               l'abonnement</entry>
@@ -3880,7 +3311,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_pdflettreresa">
       <title lang="fr">Lettre de confirmation de réservation</title>
 
       <para lang="fr">Les paramètres <emphasis>Lettre de confirmation de
@@ -3892,20 +3323,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
       courrier, avec une logique de priorité.</para>
 
       <table>
-        <title lang="fr">Lettre de confirmation de réservation</title>
+        <title lang="fr">Type pdflettreresa</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -3916,8 +3343,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">after_list</entry>
 
               <entry lang="fr">Passé le délai de réservation, ces ouvrages
-              seront remis en circulation, vous priant de les retirer dans les
-              meilleurs délais.</entry>
+              seront remis en circulation, nous vous prions de les retirer
+              dans les meilleurs délais.</entry>
 
               <entry lang="fr">Texte apparaissant après la liste des
               ouvrages</entry>
@@ -3957,7 +3384,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
               <entry lang="fr">Signataire de la lettre, utiliser $biblio_name
               pour reprendre le paramètre "biblio name" ou bien mettre autre
@@ -4004,7 +3431,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Madame, Monsieur,</entry>
 
-              <entry lang="fr">Entête de la lettre</entry>
+              <entry lang="fr">Civilité du destinataire</entry>
             </row>
 
             <row>
@@ -4012,7 +3439,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">10</entry>
 
-              <entry lang="fr">Marge de droite en mm</entry>
+              <entry lang="fr">Marge droite de la page en mm</entry>
             </row>
 
             <row>
@@ -4020,13 +3447,13 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">10</entry>
 
-              <entry lang="fr">Marge de gauche en mm</entry>
+              <entry lang="fr">Marge gauche de la page en mm</entry>
             </row>
 
             <row>
               <entry lang="fr">nb_1ere_page</entry>
 
-              <entry lang="fr">4</entry>
+              <entry lang="fr">5</entry>
 
               <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la
               première page</entry>
@@ -4047,9 +3474,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Priorité des lettres de confirmation de
-              réservation par mail lors de la validation d'une réservation: 0
-              : Lettre seule 1 : Mail, à défaut lettre 2 : Mail ET lettre 3 :
-              Aucune alerte</entry>
+              réservation par mail : 0 : Lettre seule 1 : Mail, à défaut
+              lettre 2 : Mail ET lettre 3 : Aucune alerte</entry>
             </row>
 
             <row>
@@ -4066,10 +3492,10 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">taille_bloc_expl</entry>
 
-              <entry lang="fr">16</entry>
+              <entry lang="fr">20</entry>
 
-              <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrage en
-              réservation. Le début de chaque ouvrage en résa sera espacé de
+              <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrages en
+              réservation. Le début de chaque ouvrage en retard sera espacé de
               cette valeur sur la page</entry>
             </row>
           </tbody>
@@ -4077,7 +3503,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_pdflettreretard">
       <title lang="fr">Lettre de retard</title>
 
       <para lang="fr">Le type <emphasis>Lettre de retard</emphasis>
@@ -4085,20 +3511,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
       prêt en retard.</para>
 
       <table>
-        <title lang="fr">Lettre de retard</title>
+        <title lang="fr">Type pdflettreretard</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -4111,7 +3533,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Nous vous remercions de prendre rapidement
               contact par téléphone au $biblio_phone ou par mail à
               $biblio_email pour étudier la possibilité de prolonger ces prêts
-              ou de rapporter les ouvrages concernés.</entry>
+              ou de ramener les ouvrages concernés.</entry>
 
               <entry lang="fr">Texte apparaissant après la liste des ouvrages
               en retard dans le courrier</entry>
@@ -4135,7 +3557,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Début de la liste des exemplaires sur la
               première page, en mm depuis le bord supérieur de la page. Doit
-              être règlé en fonction du texte qui précède la liste des
+              être réglé en fonction du texte qui précède la liste des
               ouvrages, lequel peut être plus ou moins long.</entry>
             </row>
 
@@ -4151,9 +3573,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">1fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
-              <entry lang="fr">Signataire de la lettre.</entry>
+              <entry lang="fr">Signataire de la lettre, utiliser $biblio_name
+              pour reprendre le paramètre "biblio name" ou bien mettre autre
+              chose.</entry>
             </row>
 
             <row>
@@ -4184,11 +3608,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">1limite_after_list</entry>
 
-              <entry lang="fr">270</entry>
+              <entry lang="fr">70</entry>
 
-              <entry lang="fr">Position limite en bas de page. Si un élément
-              imprimé tente de dépasser cette limite, il sera imprimé sur la
-              page suivante.</entry>
+              <entry lang="fr">Espace mini à laisser en bas de page. Si un
+              élément imprimé tente de dépasser cette limite, il sera imprimé
+              sur la page suivante.</entry>
             </row>
 
             <row>
@@ -4218,7 +3642,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">1nb_1ere_page</entry>
 
-              <entry lang="fr">4</entry>
+              <entry lang="fr">5</entry>
 
               <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la
               première page</entry>
@@ -4236,7 +3660,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">1taille_bloc_expl</entry>
 
-              <entry lang="fr">16</entry>
+              <entry lang="fr">20</entry>
 
               <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrage en
               retard. Le début de chaque ouvrage en retard sera espacé de
@@ -4249,7 +3673,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Nous vous remercions de prendre rapidement
               contact par téléphone au $biblio_phone ou par mail à
               $biblio_email pour étudier la possibilité de prolonger ces prêts
-              ou de rapporter les ouvrages concernés.</entry>
+              ou de ramener les ouvrages concernés.</entry>
 
               <entry lang="fr">Texte apparaissant après la liste des ouvrages
               en retard dans le courrier</entry>
@@ -4273,7 +3697,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Début de la liste des exemplaires sur la
               première page, en mm depuis le bord supérieur de la page. Doit
-              être règlé en fonction du texte qui précède la liste des
+              être réglé en fonction du texte qui précède la liste des
               ouvrages, lequel peut être plus ou moins long.</entry>
             </row>
 
@@ -4289,9 +3713,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">2fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
-              <entry lang="fr">Signataire de la lettre.</entry>
+              <entry lang="fr">Signataire de la lettre, utiliser $biblio_name
+              pour reprendre le paramètre "biblio name" ou bien mettre autre
+              chose.</entry>
             </row>
 
             <row>
@@ -4322,11 +3748,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">2limite_after_list</entry>
 
-              <entry lang="fr">270</entry>
+              <entry lang="fr">70</entry>
 
-              <entry lang="fr">Position limite en bas de page. Si un élément
-              imprimé tente de dépasser cette limite, il sera imprimé sur la
-              page suivante.</entry>
+              <entry lang="fr">Espace mini à laisser en bas de page. Si un
+              élément imprimé tente de dépasser cette limite, il sera imprimé
+              sur la page suivante.</entry>
             </row>
 
             <row>
@@ -4356,7 +3782,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">2nb_1ere_page</entry>
 
-              <entry lang="fr">4</entry>
+              <entry lang="fr">5</entry>
 
               <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la
               première page</entry>
@@ -4374,7 +3800,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">2taille_bloc_expl</entry>
 
-              <entry lang="fr">16</entry>
+              <entry lang="fr">20</entry>
 
               <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrage en
               retard. Le début de chaque ouvrage en retard sera espacé de
@@ -4387,7 +3813,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">Nous vous remercions de prendre rapidement
               contact par téléphone au $biblio_phone ou par mail à
               $biblio_email pour étudier la possibilité de prolonger ces prêts
-              ou de rapporter les ouvrages concernés.</entry>
+              ou de ramener les ouvrages concernés.</entry>
 
               <entry lang="fr">Texte apparaissant après la liste des ouvrages
               en retard dans le courrier</entry>
@@ -4405,24 +3831,13 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">3before_recouvrement</entry>
-
-              <entry lang="fr">Sans nouvelles de votre part dans les sept
-              jours, nous nous verrons contraints de déléguer au trésor public
-              le recouvrement des ouvrages suivants :</entry>
-
-              <entry lang="fr">Texte avant la liste des ouvrages en
-              recouvrement</entry>
-            </row>
-
-            <row>
               <entry lang="fr">3debut_expl_1er_page</entry>
 
               <entry lang="fr">160</entry>
 
               <entry lang="fr">Début de la liste des exemplaires sur la
               première page, en mm depuis le bord supérieur de la page. Doit
-              être règlé en fonction du texte qui précède la liste des
+              être réglé en fonction du texte qui précède la liste des
               ouvrages, lequel peut être plus ou moins long.</entry>
             </row>
 
@@ -4438,9 +3853,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">3fdp</entry>
 
-              <entry lang="fr">Le responsable.</entry>
+              <entry lang="fr">Le responsable de la $biblio_name.</entry>
 
-              <entry lang="fr">Signataire de la lettre.</entry>
+              <entry lang="fr">Signataire de la lettre, utiliser $biblio_name
+              pour reprendre le paramètre "biblio name" ou bien mettre autre
+              chose.</entry>
             </row>
 
             <row>
@@ -4471,11 +3888,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">3limite_after_list</entry>
 
-              <entry lang="fr">270</entry>
+              <entry lang="fr">70</entry>
 
-              <entry lang="fr">Position limite en bas de page. Si un élément
-              imprimé tente de dépasser cette limite, il sera imprimé sur la
-              page suivante.</entry>
+              <entry lang="fr">Espace mini à laisser en bas de page. Si un
+              élément imprimé tente de dépasser cette limite, il sera imprimé
+              sur la page suivante.</entry>
             </row>
 
             <row>
@@ -4505,7 +3922,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">3nb_1ere_page</entry>
 
-              <entry lang="fr">4</entry>
+              <entry lang="fr">5</entry>
 
               <entry lang="fr">Nombre d'ouvrages en retard imprimé sur la
               première page</entry>
@@ -4523,7 +3940,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">3taille_bloc_expl</entry>
 
-              <entry lang="fr">16</entry>
+              <entry lang="fr">20</entry>
 
               <entry lang="fr">Taille d'un bloc (2 lignes) d'ouvrage en
               retard. Le début de chaque ouvrage en retard sera espacé de
@@ -4534,7 +3951,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_pmb">
       <title lang="fr">Paramètres généraux</title>
 
       <para lang="fr">Les paramètres de type <emphasis>Paramètres
@@ -4542,20 +3959,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
       l'application</para>
 
       <table>
-        <title lang="fr">Paramètres généraux</title>
+        <title lang="fr">Type pmb</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -4563,31 +3976,12 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry lang="fr">allow_external_search</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Autorisation ou non de la recherche par
-              connecteurs externes (masque également le menu
-              Administration-Connecteurs) 0 : Non 1 : Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">antivol</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Système magnétique antivol à télécommander ? 1
-              Oui 0 Non</entry>
-            </row>
-
-            <row>
               <entry lang="fr">bdd_version</entry>
 
-              <entry lang="fr">v4.50</entry>
+              <entry lang="fr">v4.22</entry>
 
               <entry lang="fr">Version de noyau de la base de données, à ne
-              changer qu'en version inférieure si un paramètre était mal passé
+              changer qu'en version inférieur si un paramètre était mal passé
               et relancer la mise à jour. En général, contactez plutôt la
               mailing liste pmb.user@sigb.net</entry>
             </row>
@@ -4658,15 +4052,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">clean_nb_elements</entry>
-
-              <entry lang="fr">100</entry>
-
-              <entry lang="fr">Nombre d'éléments traités par passe en
-              nettoyage de base</entry>
-            </row>
-
-            <row>
               <entry lang="fr">confirm_retour</entry>
 
               <entry lang="fr">0</entry>
@@ -4686,42 +4071,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">droits_explr_localises</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Les droits de gestion des exemplaires sont-ils
-              localisés ? 0: Non 1: Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">etat_collections_localise</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">L'état des collections est-il localisé ? 0 :
-              non 1 : oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">first_week_day_format</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Format de la semaine: 0, la semaine commence le
-              lundi 1 la semaine commence le dimanche</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">form_editables</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Grilles de notices éditables 0 non 1
-              oui</entry>
-            </row>
-
-            <row>
               <entry lang="fr">gestion_abonnement</entry>
 
               <entry lang="fr">0</entry>
@@ -4734,16 +4083,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">gestion_amende</entry>
 
-              <entry lang="fr">1</entry>
+              <entry lang="fr">0</entry>
 
-              <entry lang="fr">Utiliser la gestion des amendes: 0 = Non 1 =
-              Gestion simple 2 = Gestion avancée</entry>
+              <entry lang="fr">Utiliser la gestion des amendes ? 0 : Non 1 :
+              Oui</entry>
             </row>
 
             <row>
               <entry lang="fr">gestion_devise</entry>
 
-              <entry lang="fr">&amp;euro;</entry>
+              <entry lang="fr">€</entry>
 
               <entry lang="fr">Devise de la gestion financière, ce qui va être
               affiché en code HTML</entry>
@@ -4752,14 +4101,14 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">gestion_financiere</entry>
 
-              <entry lang="fr">1</entry>
+              <entry lang="fr">0</entry>
 
-              <entry lang="fr">Utiliser le module gestion financière ? 0 : Non
-              1 : Oui</entry>
+              <entry lang="fr">Utiliser le module de gestion financière ? 0 :
+              Non 1 : Oui</entry>
             </row>
 
             <row>
-              <entry lang="fr">gestion_tarif_prets</entry>
+              <entry lang="fr">gestion_tarifs_prets</entry>
 
               <entry lang="fr">0</entry>
 
@@ -4814,33 +4163,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">javascript_office_editor</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Code HTML à insérer pour remplacer les textarea
-              par un éditeur Office javascript</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">keyword_sep</entry>
-
-              <entry lang="fr">;</entry>
-
-              <entry lang="fr">Séparateur des mots clés dans la partie
-              indexation libre, espace ou ; ou , ou ...</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">label_construct_script</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">Script de construction d'étiquette de
-              cote</entry>
-            </row>
-
-            <row>
               <entry lang="fr">lecteurs_localises</entry>
 
               <entry lang="fr">0</entry>
@@ -4855,16 +4177,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">Nombre maximum de caractères dans la Dewey
               (676) en import : 0 aucune limitation 3 : limitation de 000 à
-              999 5 (exemple) limitation 000.0 -1 : aucune importation</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">mail_html_format</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Format d'envoi des mails : 0: Texte brut 1:
-              HTML Attention, ne fonctionne qu'en mode d'envoi smtp !</entry>
+              999 5 (exemple) limitation 000.0</entry>
             </row>
 
             <row>
@@ -4882,66 +4195,8 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">10</entry>
 
-              <entry lang="fr">Nombre de dernières autoritées affichées en
+              <entry lang="fr">Nombre de dernières autorités affichées en
               gestion d'autorités</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">nb_lastnotices</entry>
-
-              <entry lang="fr">10</entry>
-
-              <entry lang="fr">Nombre de dernières notices affichées en
-              Catalogue - Dernières notices</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">nb_max_tri</entry>
-
-              <entry lang="fr">50</entry>
-
-              <entry lang="fr">Nombre maximum de notices pour lesquelles le
-              tri est autorisé.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">notice_controle_doublons</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Contrôle sur les doublons en saisie de la
-              notice 0: Pas de contrôle sur les doublons, 1,tit1,tit2, ... :
-              Recherche par méthode _exacte_ de doublons sur des champs,
-              défini dans le fichier notice.xml 2,tit1,tit2, ... : Recherche
-              par _similitude_</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">notice_reduit_format</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Format d'affichage des réduits des notices : 0
-              = titre+auteur principal 1 = titre+auteur principal+date
-              édition</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">numero_exemplaire_auto</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Autorise la numérotation automatique
-              d'exemplaire ? 1 Oui 0 Non</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">numero_exemplaire_auto_script</entry>
-
-              <entry lang="fr">gen_code/gen_code_exemplaire.php</entry>
-
-              <entry lang="fr">Nom du fichier de Script php pour la génération
-              des codes d'exemplaires en automatique</entry>
             </row>
 
             <row>
@@ -4972,11 +4227,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">pdf_fontfixed</entry>
+              <entry lang="fr">pdf_font_fixed</entry>
 
               <entry lang="fr">Courier</entry>
 
-              <entry lang="fr">Police de caractères à chasse fixe pour les
+              <entry lang="fr">Police de caractères à chasse variable pour les
               éditions en pdf - Police Courier</entry>
             </row>
 
@@ -5004,25 +4259,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">2</entry>
 
               <entry lang="fr">Statut de notice à utiliser en création
-              d'exemplaires en prêts express</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">pret_nombre_prolongation</entry>
-
-              <entry lang="fr">3</entry>
-
-              <entry lang="fr">Nombre de prolongations autorisées</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">pret_restriction_prolongation</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">0 : pas de restriction 1 : prolongation limitée
-              au paramètre pret_nombre_prolongation 2 : prolongation gérée par
-              les quotas</entry>
+              d'exemplaires en prêt express</entry>
             </row>
 
             <row>
@@ -5030,7 +4267,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
               <entry lang="fr">0</entry>
 
-              <entry lang="fr">Quotas de prêts avancés ? 0 : Non 1 :
+              <entry lang="fr">Quotas de prêts avancées ? 0 : Non 1 :
               Oui</entry>
             </row>
 
@@ -5064,15 +4301,6 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">resa_planning</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Utiliser un planning de réservation ? 0: Non 1:
-              Oui</entry>
-            </row>
-
-            <row>
               <entry lang="fr">resa_quota_pret_depasse</entry>
 
               <entry lang="fr">1</entry>
@@ -5082,26 +4310,9 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">rfid_activate</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Enregistrements des prêts par platine RFID ? 0:
-              Non 1: Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">rfid_serveur_url</entry>
-
-              <entry lang="fr"></entry>
-
-              <entry lang="fr">URL du serveur de webservices RFID</entry>
-            </row>
-
-            <row>
               <entry lang="fr">serial_link_article</entry>
 
-              <entry lang="fr">0</entry>
+              <entry lang="fr"> 0</entry>
 
               <entry lang="fr">Préremplissage du lien des dépouillements avec
               le lien de la notice mère en catalogage des périodiques ? 0 :
@@ -5114,26 +4325,7 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">1</entry>
 
               <entry lang="fr">Affichage de l'aide contextuelle dans PMB en
-              partie gestion 1 Oui 0 Non</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">show_rtl</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Affichage possible de droite a gauche 0 non 1
-              oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">title_ponderation</entry>
-
-              <entry lang="fr">0.5</entry>
-
-              <entry lang="fr">Majoration de la pondération des mots du titre
-              mettre 0 (zero) pour interdire la majoration ATTENTION utiliser
-              le point décimal</entry>
+              partie gestion 1: Oui 0 : Non</entry>
             </row>
 
             <row>
@@ -5148,21 +4340,12 @@ by idcode, codestat_libelle order by idcode</programlisting>
             </row>
 
             <row>
-              <entry lang="fr">url_base</entry>
-
-              <entry lang="fr">http://SERVER/DIRECTORY/</entry>
-
-              <entry lang="fr">URL de base de la gestion : typiquement mettre
-              l'url http://monserveur/pmb/ ne pas oublier le / final</entry>
-            </row>
-
-            <row>
               <entry lang="fr">utiliser_calendrier</entry>
 
               <entry lang="fr">0</entry>
 
               <entry lang="fr">Utiliser le calendrier des jours d'ouverture ?
-              0 : Non 1 : Oui</entry>
+              1: Oui 0 : Non</entry>
             </row>
 
             <row>
@@ -5207,27 +4390,23 @@ by idcode, codestat_libelle order by idcode</programlisting>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
+    <sect2 id="admin_outils_parametres_sauvegarde">
       <title lang="fr">Sauvegarde</title>
 
       <para lang="fr">Les paramètres de type <emphasis>sauvegarde</emphasis>
       concernent le fonctionnement des sauvegardes de PMB.</para>
 
       <table>
-        <title lang="fr">Sauvegarde</title>
+        <title lang="fr">Type sauvegarde</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -5237,47 +4416,40 @@ by idcode, codestat_libelle order by idcode</programlisting>
             <row>
               <entry lang="fr">cle_crypt1</entry>
 
-              <entry lang="fr">9b4a840d790eadc71b9064c9a843719b</entry>
-
               <entry lang="fr"></entry>
+
+              <entry lang="fr"> </entry>
             </row>
 
             <row>
               <entry lang="fr">cle_crypt2</entry>
 
-              <entry lang="fr">51580d4fd5f1ad2d981c91ddb04095ec</entry>
-
               <entry lang="fr"></entry>
+
+              <entry lang="fr"> </entry>
             </row>
           </tbody>
         </tgroup>
       </table>
     </sect2>
 
-    <sect2 id="admin_outils_parametres_z3950">
-      <title lang="fr">Catégories, thésaurus et plans de classements</title>
+    <sect2 id="admin_outils_parametres_thesaurus">
+      <title lang="fr">Thésaurus</title>
 
-      <para>Les paramètres Catégories, thésaurus et plans de classements vous
-      permettent d'activer ou non le mode multi-thésaurus dans PMB. Vous
-      pouvez également autoriser la cohabitation de plusieurs plans de
-      classements, par exemple la Classification Décimale de Dewey pour les
-      textes imprimés et la PCDM pour les documents sonores musicaux.</para>
+      <para lang="fr">Les paramètres de type <emphasis>thesaurus</emphasis>
+      concernent la gestion multi-thésaurus de PMB.</para>
 
       <table>
-        <title lang="fr">Catégories, thésaurus et plans de classements</title>
+        <title lang="fr">Type thesaurus</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>
@@ -5285,85 +4457,11 @@ by idcode, codestat_libelle order by idcode</programlisting>
 
           <tbody>
             <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options pour les
-              categories</emphasis></entry>
-            </row>
-
-            <row>
-              <entry lang="fr">categories_categ_in_line</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Affichage des catégories en ligne. 0 : Non. 1 :
-              Oui.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">categories_show_empty_categ</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Affichage des catégories ne contenant aucune
-              notice : 0=non, 1=oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">categories_show_only_last</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Dans la fiche d'une notice : 0 tout afficher 1
-              : afficher uniquement la dernière feuille de l'arbre de la
-              catégorie</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">categories_term_search_n_per_page</entry>
-
-              <entry lang="fr">50</entry>
-
-              <entry lang="fr">Nombre de termes affichés par page lors d'une
-              recherche par terme dans les catégories</entry>
-            </row>
-
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options pour les plans de
-              classement</emphasis></entry>
-            </row>
-
-            <row>
-              <entry lang="fr">classement_defaut</entry>
-
-              <entry lang="fr">1</entry>
-
-              <entry lang="fr">Identifiant du plan de classement par
-              défaut.</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">classement_mode_pmb</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Niveau d'utilisation des plans de classement
-              des indexations. 0 : Un seul plan de classement. 1 : Choix du
-              plan de classement possible.</entry>
-            </row>
-
-            <row>
-              <entry align="center" lang="fr" nameend="c3"
-              namest="c1"><emphasis role="bold">Options pour les
-              thésaurus</emphasis></entry>
-            </row>
-
-            <row>
               <entry lang="fr">defaut</entry>
 
               <entry lang="fr">1</entry>
 
-              <entry lang="fr">Identifiant du thésaurus par défaut.</entry>
+              <entry lang="fr">Identifiant du thésaurus par défaut. </entry>
             </row>
 
             <row>
@@ -5372,65 +4470,16 @@ by idcode, codestat_libelle order by idcode</programlisting>
               <entry lang="fr">fr_FR</entry>
 
               <entry lang="fr">Liste des langues affichées dans les thésaurus.
-              (ex : fr_FR,en_UK,...,ar)</entry>
+              (ex : fr_FR,en_UK,...,ar) </entry>
             </row>
 
             <row>
               <entry lang="fr">mode_pmb</entry>
 
-              <entry lang="fr">0</entry>
+              <entry lang="fr">O</entry>
 
               <entry lang="fr">Niveau d'utilisation des thésaurus. 0 : Un seul
-              thésaurus par défaut. 1 : Choix du thésaurus possible.</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
-    </sect2>
-
-    <sect2 id="admin_outils_parametres_z3950">
-      <title lang="fr">Transferts entre bibliothèques</title>
-
-      <para>Il s'agit d'une fonction en cours de développement dans
-      PMB.</para>
-
-      <table>
-        <title lang="fr">Transferts entre bibliothèques</title>
-
-        <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
-          <thead>
-            <row>
-              <entry lang="fr">sous-type</entry>
-
-              <entry lang="fr">valeur par défaut</entry>
-
-              <entry lang="fr">commentaire</entry>
-            </row>
-          </thead>
-
-          <tbody>
-            <row>
-              <entry lang="fr">gestion_transferts</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Activation de la gestion des transferts 0: Non
-              1: Oui</entry>
-            </row>
-
-            <row>
-              <entry lang="fr">transfert_statut</entry>
-
-              <entry lang="fr">0</entry>
-
-              <entry lang="fr">Id du statut dans lequel sont placés les
-              documents en cours de transfert</entry>
+              thésaurus par défaut. 1 : Choix du thésaurus possible. </entry>
             </row>
           </tbody>
         </tgroup>
@@ -5440,26 +4489,20 @@ by idcode, codestat_libelle order by idcode</programlisting>
     <sect2 id="admin_outils_parametres_z3950">
       <title lang="fr">Options Z3950</title>
 
-      <para>Les options Z3950 vous permettent notamment de choisir quelle
-      fonction utiliser pour le traitement des autorités matières lors de
-      l'import de notice (par exemple, reprendre ces descripteurs en mots-clés
-      libres, en catégories, etc.)</para>
+      <para lang="fr">Les paramètres <emphasis>Options Z3950</emphasis>
+      (z3950) sont ceux de la recherche z3950 dans l'onglet catalogage.</para>
 
       <table>
-        <title lang="fr">Options Z39.50</title>
+        <title lang="fr">Type z3950</title>
 
         <tgroup cols="3">
-          <colspec colname="c1" />
-
-          <colspec colname="c2" />
-
-          <colspec colname="c3" />
-
           <thead>
+            <colspec />
+
             <row>
               <entry lang="fr">sous-type</entry>
 
-              <entry lang="fr">valeur par défaut</entry>
+              <entry lang="fr">valeur</entry>
 
               <entry lang="fr">commentaire</entry>
             </row>

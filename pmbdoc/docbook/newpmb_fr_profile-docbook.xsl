@@ -14,12 +14,13 @@
 <xsl:param name="generate.toc" select="'book toc'"/>
 
 <!-- Changement de la typo du texte -->
-<xsl:param name="body.font.family" select="'Helvetica'"/>
+<xsl:param name="body.font.family">Palatino</xsl:param>
 <xsl:param name="body.font.master">11</xsl:param>
-<xsl:param name="title.font.family" select="'Times'"/>
 <xsl:param name="releaseinfo.font.size">4</xsl:param>
+<!-- <xsl:param name="body.start.indent">24pt</xsl:param> -->
 
 <!-- Numérotation des chapitres -->
+<xsl:param name="title.font.family">Helvetica</xsl:param>
 <xsl:param name="section.autolabel">1</xsl:param>
 <xsl:param name="section.autolabel.max.depth">3</xsl:param>
 
@@ -35,38 +36,43 @@ reste du texte, résoud un bug si fop.extensions=1 -->
 <xsl:param name="title.margin.left" select="'0cm'"/>
 <xsl:param name="title.margin.right" select="'0cm'"/>
 
-<!-- Marges des titres de chapitre -->
-<xsl:attribute-set name="section.title.level1.properties">
-   <!-- xsl:attribute name="break-before">page</xsl:attribute -->
-  <xsl:attribute name="font-size">13pt</xsl:attribute>
+<!-- Titres de section 1 -->
+<xsl:attribute-set name="chapter.title.properties">
+<!--  <xsl:attribute name="break-before">page</xsl:attribute> -->
+  <xsl:attribute name="font-size">80pt</xsl:attribute>
   <xsl:attribute name="padding-top">6pt</xsl:attribute>
   <xsl:attribute name="padding-bottom">3pt</xsl:attribute>
-</xsl:attribute-set> 
-
-
-<!-- Bordure et arrière-plan des titres de niveau 1 -->
-<xsl:attribute-set name="section.title.level1.properties">
    <!-- xsl:attribute name="break-before">page</xsl:attribute -->
-  <xsl:attribute name="background-color">#D5D5F0</xsl:attribute>
-  <xsl:attribute name="padding-top">4pt</xsl:attribute>
-  <xsl:attribute name="padding-bottom">2pt</xsl:attribute>
-  <xsl:attribute name="border">0.2pt solid #C5C5C5</xsl:attribute>     
+  <!-- <xsl:attribute name="background-color">#D5D5F0</xsl:attribute> -->
+  <xsl:attribute name="border-bottom">0.2pt solid #C5C5C5</xsl:attribute>     
 </xsl:attribute-set> 
 
-<!-- Bordure et arrière-plan des titres de niveau 2 -->
+<!-- Titres de section 1 -->
+<xsl:attribute-set name="section.title.level1.properties">
+<!--  <xsl:attribute name="break-before">page</xsl:attribute> -->
+  <xsl:attribute name="font-size">20pt</xsl:attribute>
+  <xsl:attribute name="padding-top">6pt</xsl:attribute>
+  <xsl:attribute name="padding-bottom">3pt</xsl:attribute>
+   <!-- xsl:attribute name="break-before">page</xsl:attribute -->
+  <!-- <xsl:attribute name="background-color">#D5D5F0</xsl:attribute> -->
+  <xsl:attribute name="border-bottom">0.2pt solid #C5C5C5</xsl:attribute>     
+</xsl:attribute-set> 
+
+<!-- Titres de section 2 -->
 <xsl:attribute-set name="section.title.level2.properties">
    <!-- xsl:attribute name="break-before">page</xsl:attribute -->
-  <xsl:attribute name="background-color">#F0F0F0</xsl:attribute>
-  <xsl:attribute name="font-style">italic</xsl:attribute>
+  <xsl:attribute name="font-size">17pt</xsl:attribute>
+  <xsl:attribute name="border-bottom">0.2pt solid #C5C5C5</xsl:attribute>     
 </xsl:attribute-set> 
 
-<!-- Bordure bas des titres de niveau 3 -->
+<!-- Titres de section 3 -->
 <xsl:attribute-set name="section.title.level3.properties">
+  <xsl:attribute name="font-size">14pt</xsl:attribute>
    <!-- xsl:attribute name="break-before">page</xsl:attribute -->
   <xsl:attribute name="border-bottom">0.2pt solid #C5C5C5</xsl:attribute>     
 </xsl:attribute-set> 
 
-<!-- Italique des titres de niveau 4 -->
+<!-- Titres de section 4 -->
 <xsl:attribute-set name="section.title.level4.properties">
    <!-- xsl:attribute name="break-before">page</xsl:attribute -->
   <xsl:attribute name="text-decoration">underline</xsl:attribute>
@@ -75,6 +81,7 @@ reste du texte, résoud un bug si fop.extensions=1 -->
 
 <!-- Titres des figures et tableaux -->
 <xsl:attribute-set name="formal.title.properties">
+  <xsl:attribute name="margin-top">2pt</xsl:attribute>
   <xsl:attribute name="font-size">8pt</xsl:attribute> 
   <xsl:attribute name="font-family">Helvetica</xsl:attribute>
 </xsl:attribute-set>
@@ -293,7 +300,7 @@ retrieve-class-name="section.head.marker" />
 
 <!-- Footer fonts and font size. -->
 <xsl:attribute-set name="footer.content.properties">
-<xsl:attribute name="font-family">Your-Font</xsl:attribute>
+<xsl:attribute name="font-family">Palatino</xsl:attribute>
 <xsl:attribute name="font-size">10pt</xsl:attribute>
 </xsl:attribute-set>
 
@@ -302,12 +309,103 @@ retrieve-class-name="section.head.marker" />
 <xsl:param name="sequence" select="''"/>
 <xsl:if test="$footer.rule != 0 and $sequence != 'first' and $sequence !=
 'blank'">
+<!-- 15/02/2008 suppression du filet en bas de page pour alléger
 <xsl:attribute name="border-top-width">0.3pt</xsl:attribute>
 <xsl:attribute name="border-top-style">solid</xsl:attribute>
 <xsl:attribute name="border-top-color">#E0E0E0</xsl:attribute>
+-->
 </xsl:if>
 </xsl:template>
 
 <xsl:param name="header.column.widths" select="'1 0 1'"></xsl:param>
+
+<xsl:template match="title" mode="chapter.titlepage.recto.auto.mode">
+<fo:block xsl:use-attribute-sets="chapter.titlepage.recto.style"
+margin-top="0in" margin-bottom="0.25in" font-size="25pt">
+<xsl:call-template name="component.title">
+<xsl:with-param name="node" select="ancestor-or-self::chapter[1]"/>
+</xsl:call-template>
+</fo:block>
+</xsl:template>
+
+<!--
+<xsl:template match="important">
+<xsl:variable name="id">
+<xsl:call-template name="object.id"/>
+</xsl:variable>
+<fo:block keep-together="always" space-before.minimum="0em" space-before.optimum="0.2em"
+space-before.maximum="1.2em" border="4pt solid #d0d0d0" background-color="#d0d0d0" padding="4pt" id="{$id}">
+<fo:block text-align="left">
+<fo:external-graphic src="url(images/engrenages.jpg)" content-height="2em" vertical-align="bottom"/> Paramètres
+<xsl:apply-templates/>
+</fo:block>
+</fo:block>
+</xsl:template>
+-->
+
+<xsl:template match="important">
+<xsl:variable name="id">
+<xsl:call-template name="object.id"/>
+</xsl:variable>
+<fo:table border-collapse="collapse" border="4pt solid #d0d0d0" background-color="#d0d0d0" padding="4pt" margin-top="10pt">
+    <fo:table-column column-width="16%"/>
+    <fo:table-column column-width="84%"/>
+    <fo:table-body>
+        <fo:table-row>
+            <fo:table-cell text-align="start" overflow="hidden">
+                <fo:block><fo:external-graphic src="url(images/engrenages.jpg)" content-height="4em"/></fo:block>
+            </fo:table-cell>
+            <fo:table-cell text-align="start">
+                <fo:block><xsl:apply-templates/></fo:block>
+            </fo:table-cell>
+        </fo:table-row>
+    </fo:table-body>
+</fo:table>
+</xsl:template>
+
+<xsl:template name="book.titlepage.recto">
+  <fo:block>
+    <fo:table inline-progression-dimension="100%" table-layout="fixed">
+      <fo:table-column column-width="50%"/>
+      <fo:table-column column-width="50%"/>
+      <fo:table-body>
+        <fo:table-row >
+          <fo:table-cell number-columns-spanned="2">
+            <fo:block text-align="center">
+              <xsl:choose>
+                <xsl:when test="bookinfo/title">
+                  <xsl:apply-templates 
+                         mode="book.titlepage.recto.auto.mode" 
+                         select="bookinfo/title"/>
+                </xsl:when>
+                <xsl:when test="title">
+                  <xsl:apply-templates 
+                         mode="book.titlepage.recto.auto.mode" 
+                         select="title"/>
+                </xsl:when>
+              </xsl:choose>
+            </fo:block>
+          </fo:table-cell>
+        </fo:table-row>
+        <fo:table-row>
+          <fo:table-cell>
+            <fo:block>
+              <xsl:apply-templates 
+                     mode="book.titlepage.recto.mode" 
+                     select="bookinfo/corpauthor"/>
+            </fo:block>
+          </fo:table-cell>
+          <fo:table-cell>
+            <fo:block>
+              <xsl:apply-templates 
+                     mode="book.titlepage.recto.mode" 
+                     select="bookinfo/edition"/>
+            </fo:block>
+          </fo:table-cell> 
+        </fo:table-row >  
+      </fo:table-body> 
+    </fo:table>
+  </fo:block>
+</xsl:template>
 
 </xsl:stylesheet>
