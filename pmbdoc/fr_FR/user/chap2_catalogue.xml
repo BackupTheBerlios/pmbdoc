@@ -62,7 +62,7 @@
           <para lang="fr">Tentons une recherche sur le titre "cat*".</para>
 
           <para lang="fr"><emphasis role="bold">note</emphasis> l'étoile "*"
-          est une troncature. "cat*" renverra les mots "cat", "catastrophe",
+          est une troncature. "cat*" renverra les mots "catilinaires", "catastrophe",
           "cataclysme"...</para>
 
           <para lang="fr">Si vous avez installé la base de test, c'est
@@ -87,23 +87,10 @@
 
           <para lang="fr">Un clic sur le titre affiche les informations sur
           l'ouvrage, et permet éventuellement d'apporter les modifications
-          désirées ou d'ajouter un exemplaire ou un document numérique.
-          L'écran affiché ensuite est la liste des exemplaires de
-          l'ouvrage.</para>
-
-          <figure>
-            <title lang="fr">Liste des exemplaires d'un ouvrage</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata contentwidth="10cm" fileref="images/liste-expl.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
+          désirées ou d'ajouter un exemplaire ou un document numérique.</para>
 
           <para lang="fr">Pour modifier la notice de l'ouvrage, cliquez sur
-          <emphasis>Modifier</emphasis>. Pour modifier un des exemplaires de
-          l'ouvrage, cliquez sur son code barre. Pour ajouter un exemplaire,
+          <emphasis>Modifier</emphasis>. Pour ajouter un exemplaire,
           saisissez le <emphasis>N° de l'exemplaire</emphasis> puis cliquez
           sur <emphasis>Ajouter un exemplaire</emphasis>. Pour ajouter un
           document numérique, cliquez sur <emphasis>Ajouter un document
@@ -177,8 +164,7 @@
             </mediaobject>
           </figure> Dans cette recherche, commencez par saisir un ou plusieurs
         termes à chercher, par exemple <emphasis
-        role="bold">politique</emphasis>. Les résultats de la recherche sont
-        affichés sous le forme de deux parties. La partie supérieure vous
+        role="bold">politique</emphasis>. La partie supérieure vous
         renvoie les catégories correspondantes à votre recherche. Un clic sur
         une des catégories de la partie supérieure (par exemple <emphasis
         role="bold">histoire politique</emphasis>) vous affiche dans la partie
@@ -188,9 +174,9 @@
         catégorie en catégorie.</para>
 
         <para lang="fr">Pour sélectionner une catégorie et afficher les
-        ouvrages correspondants, cliquez sur l'étoile située en début de ligne
-        <graphic fileref="images/search_terms_select.gif" /> si aucun ouvrage
-        ne correspond à cette catégorie, l'étoile n'est pas affichée.</para>
+        ouvrages correspondants, cliquez sur la loupe située en début de ligne
+        <graphic fileref="images/search.gif" /> si aucun ouvrage
+        ne correspond à cette catégorie, la loupe n'est pas affichée.</para>
       </sect3>
 
       <sect3 id="cat_search_publisher">
@@ -232,6 +218,9 @@
             </imageobject>
           </mediaobject>
         </figure>
+		<para lang="fr">Vous pouvez basculer vers Catalogue > Paniers : gestion > Gestion 
+			des paniers en recliquant sur le titre du panier. Cet autre affichage vous
+			permet notamment de retirer des éléments du panier.</para>
       </sect3>
 
       <sect3 id="cat_search_multi">
@@ -239,7 +228,8 @@
 
         <para lang="fr">La recherche multi-critères est une recherche
         combinatoire. Vous pouvez sélectionner des champs de recherches :
-        titre, auteur, champs personnalisés...</para>
+        titre, auteur, champs personnalisés ; y appliquer un critère et combiner
+		ces différents critères.</para>
 
         <figure>
           <title lang="fr">Ouvrages &gt; Recherche &gt; Multi-critères</title>
@@ -260,7 +250,7 @@
 
             <para lang="fr">La recherche multicritères s'applique aux champs
             des notices, des exemplaires, des périodiques et aux champs
-            personnalisés.</para>
+            personnalisables des notices.</para>
 
             <para lang="fr"><figure>
                 <title lang="fr">Champs de recherche possibles</title>
@@ -276,8 +266,8 @@
 
           <listitem>
             <para lang="fr">choisissez ensuite un type de recherche pour le
-            champ retenu, pour un champ titre vous pouvez choisir entre
-            "contient au moins des mots", "contient tous les mots", "commence
+            champ retenu, pour un champ titre vous pouvez choisir notamment entre
+            "expression booléenne", "commence
             par", "finit par" ou "exactement comme". Ce type de recherche
             varie selon le champs concerné <figure>
                 <title lang="fr">Types de recherche pour le champs
@@ -310,7 +300,10 @@
       <sect3>
         <title>Interrogation externe</title>
 
-        <para>Il existe deux types d'interrogation externe disponible sous
+        <important><para>Pour activer les interrogations externes, consulter le Guide de
+			l'administrateur, chapitre Connecteurs.</para></important>
+			
+		<para>Il existe deux types d'interrogation externe disponible sous
         Catalogue &gt; Recherche toutes notices &gt; Externe.</para>
 
         <para>L'interrogation externe simple permet de combiner des critères
@@ -368,7 +361,6 @@
           catalogue. L'ensemble des champs disponibles en multi-critères est
           accessible ici.</para>
 
-          <important>
             <para>Les enregistrements moissonnés en OAI ne disposent pas de
             tous les champs des notices de PMB. Si votre recherche porte sur
             un champ qui n'est pas géré par le connecteur, le critère est
@@ -381,7 +373,6 @@
             Château-du-Loir, mais les enregistrements OAI ne sont pas liés à
             vos exemplaires. Dans ce cas, la recherche effectuée portera
             uniquement sur le titre.</para>
-          </important>
 
           <para>Pour faire une interrogation externe simple et quitter
           l'interrogation externe avancée, repassez par Catalogue &gt;
@@ -447,11 +438,12 @@
         <sect4>
           <title lang="fr">Cas du tiret</title>
 
-          <para lang="fr">Le tiret est considéré comme un opérateur entre deux
+          <para lang="fr">S'il est précédé d'un espace, le tiret est 
+			considéré comme l'opérateur SAUF entre deux
           mots (voir plus bas le chapitre : Opérateurs logiques entre deux
-          mots). Ainsi, tout mot composé avec un tiret doit être entouré de
-          guillemets pour faire une recherche en terme exact (voir plus bas
-          ).</para>
+          mots). Si le tiret est collé à deux mots, la recherche renverra les 
+		  deux mots côte-à-côté, qu'il y ait ou non un tiret entre deux :
+		  Moyen-Age renverra Moyen-Age et Moyen Age.</para>
         </sect4>
 
         <sect4>
@@ -480,7 +472,7 @@
 
           <para lang="fr">Un terme exact est défini par un texte entouré de
           guillemets. Si le moteur de recherche rencontre un terme exact, il
-          cherche les éléments contenant exactement ce texte.</para>
+          cherche les éléments contenant exactement cette suite de caractères.</para>
 
           <para lang="fr">La troncature peut-être utilisée dans les termes
           exacts.</para>
@@ -500,7 +492,7 @@
           les éléments qui contiennent les mots A ou N ou P ou E .</para>
 
           <para lang="fr">Les accents et les majuscules/minuscules ne sont pas
-          pris en compte dans un terme exact.</para>
+          pris en compte dans un terme exact, mais la ponctuation doit être respectée.</para>
 
           <para lang="fr">Enfin, les termes exacts peuvent être utilisés dans
           toutes les expressions complexes décrites ci-dessous.</para>
@@ -541,7 +533,7 @@
             </listitem>
           </itemizedlist>
 
-          <para lang="fr">Plusieurs opérateurs peuvent-être enchainés dans une
+          <para lang="fr">Plusieurs opérateurs peuvent-être enchaînés dans une
           même expression. Ils sont appliqués dans l'ordre, de gauche à
           droite.</para>
 
@@ -550,8 +542,7 @@
           romantique(s).</para>
 
           <para lang="fr"><remark>Attention, deux opérateurs ne peuvent se
-          suivre, une négation ne peut-être combinée à un opérateur (+~
-          revient au même que l'opérateur -).</remark></para>
+          suivre, une négation ne peut-être combinée à un opérateur.</remark></para>
         </sect4>
 
         <sect4>
@@ -582,7 +573,7 @@
             <listitem>
               <para lang="fr"><programlisting>(poésie + française) romantique</programlisting>
               signifie tous les éléments qui contiennent poésie et française
-              ou tous les éléments qui contiennent romantique</para>
+              ou tous les éléments qui contiennent romantique. Ici le résultat serait le même sans les parenthèses.</para>
             </listitem>
 
             <listitem>
@@ -621,11 +612,11 @@
 
             <listitem>
               <para lang="fr">~(poésie + française) (littérature améri*)
-              trouvera tous les éléments qui ne contiennent pas poésie et
-              française, dans ces éléments, ceux qui contiennent littérature
-              ou améri* apparaitront en premier dans la liste de résultats
-              (d'abord littérature et améri*, puis améri*, puis
-              littérature)</para>
+              renverra parmi tous les éléments qui ne contiennent pas poésie et
+              française : ceux qui contiennent littérature
+              ou améri* en premier dans la liste de résultats
+              (d'abord littérature et améri*), puis améri*, puis
+              littérature.</para>
             </listitem>
           </itemizedlist>
         </sect4>
@@ -682,8 +673,7 @@
 
       <para lang="fr">Pour visualiser un périodique, cliquez sur son titre
       parmi les résultats.Vous obtenez alors l'écran de visualisation d'un
-      périodique. Pour plus d'informations, consulter plus la section 2.3.2
-      <emphasis>Visualiser un périodique.</emphasis></para>
+      périodique.</para>
 
       <para lang="fr"><remark>Les résultats de la recherche de périodiques
       sont uniquement des notices mères ou notices chapeau de périodiques :
@@ -837,7 +827,7 @@
             documents définis par la norme UNIMARC.</para>
 
             <para lang="fr"><emphasis role="bold">Attention</emphasis> : ne
-            pas confondre avec type de document, qui correspond à
+            pas confondre avec le support, qui correspond une information de
             l'exemplaire.</para>
           </sect5>
 
@@ -847,11 +837,12 @@
             <para lang="fr">Le titre propre est le titre principal d'un
             ouvrage.</para>
 
-            <para lang="fr">Même si le titre est généralement présent sur la
-            couverture ou la tranche de l'ouvrage, il faut le lire sur la page
-            de titre car il est parfois différent du titre de couverture. Dans
-            ce cas, le titre de couverture sera spécifié ailleurs (zone de
-            note).</para>
+			<para lang="fr">Si la couverture n'a pas le même titre indiqué que
+				la page de titre (un des premières pages d'un livre reprend
+				cette information avec l'auteur, l'éditeur), les normes
+				de catalogage retiennent que c'est cette page de titre qui
+				fait foi. Préférez en règle générale la page de titre à la
+				couverture pour cataloguer.</para>
 
             <para lang="fr">Vous pouvez également définir le titre propre d'un
             auteur différent, un titre parallèle, ainsi qu'un complément du
@@ -863,7 +854,8 @@
             <para lang="fr">Enfin, vous pouvez définir un titre de série. Un
             titre de série est un titre commun à différents ouvrages d'un même
             auteur. Par exemple <emphasis>Les aventures de Tintin</emphasis>
-            de <emphasis>Hergé</emphasis>. Le champs "Partie de" est différent
+            de <emphasis>Hergé</emphasis>. "Vol 714 pour Sydney" sera le titre propre
+			de l'album en question. Le champs "Partie de" est différent
             des champs de titre. Pour spécifier un titre de série, cliquez sur
             le bouton "..."</para>
 
@@ -1189,7 +1181,7 @@
             <itemizedlist>
               <listitem>
                 <para lang="fr"><emphasis role="bold"> Catégories</emphasis> :
-                ajout d'une catégorie du thésaurus interne de PMB. Pour plus
+                ajout d'une catégorie de votre (ou d'un de vos) thésaurus. Pour plus
                 d'informations sur les catégories, voir <xref
                 linkend="autorites_categ" /> .</para>
 
@@ -1225,12 +1217,16 @@
               <listitem>
                 <para lang="fr"><emphasis role="bold">Indexation
                 libre</emphasis> : vous pouvez ici ajouter des mots clés
-                librement, séparés par des espaces. Vous pouvez par exemple
+                librement, séparés par le séparateur paramétré dans votre base. Vous pouvez par exemple
                 spécifier des mots clés, ou une indexation libre d'un
                 thésaurus non intégré à PMB (vedettes Blanc-Montmayeur par
                 exemple).</para>
               </listitem>
             </itemizedlist>
+
+			<important><para lang="fr">Le séparateur de mots-clés libres est fixé par défaut sur
+				" " (espace). Pour modifier cette valeur, définissez keyword_sep via Administration
+				> Outils > Paramètres, dans Paramètres généraux.</para></important>
 
             <figure>
               <title lang="fr">Catalogue &gt; Nouvelle notice, pavé
@@ -1248,7 +1244,7 @@
           <sect5>
             <title lang="fr">Langue de la publication</title>
 
-            <para lang="fr">Vous pouvez ici spécifier une langue d'origine de
+            <para lang="fr">Vous pouvez ici spécifier une ou plusieurs langue(s) d'origine de
             la publication, celle-ci est définie par défaut dans les
             préférences de l'utilisateur. Pour plus d'informations, consultez
             le chapitre <emphasis>Préférences utilisateurs</emphasis>.</para>
@@ -1256,8 +1252,8 @@
             <para lang="fr">Les codes langues sont définis par la norme
             UNIMARC.</para>
 
-            <para lang="fr">Vous pouvez également définir une langue
-            originale, si l'ouvrage décrit est une traduction.</para>
+            <para lang="fr">Vous pouvez également définir une ou plusieurs langue(s)
+            originale(s), si l'ouvrage décrit est une traduction.</para>
 
             <figure>
               <title lang="fr">Catalogue &gt; Nouvelle notice, pavé
@@ -1275,14 +1271,12 @@
           <sect5>
             <title lang="fr">Liens (ressources électroniques)</title>
 
-            <para lang="fr">L'URL associée doit être saisie dans son
-            intégralité de préférence (y compris le http://) pour être sûr du
-            fonctionnement des liens, quel que soit le navigateur internet de
-            l'utilisateur.</para>
+            <para lang="fr">L'URL associée est une adresse valide sur internet. Elle doit être saisie dans son
+            intégralité de préférence (y compris le http://).</para>
 
-            <para lang="fr">Le format électronique de la ressource est laissé
-            à la discrétion du catalogueur. Préférez un début de champ tel que
-            "fichier", par exemple "fichier PDF" ou "fichier Acrobat", et des
+            <para lang="fr">La saisie du format électronique de la ressource est libre. 
+				Préférez un début de champ tel que
+            "fichier", par exemple "fichier PDF" ou "fichier Acrobat" ou sinon utilisez des
             mentions génériques : "site internet".</para>
 
             <figure>
@@ -1331,9 +1325,10 @@
           </sect5>
 
           <para lang="fr">Une fois les différents champs de la notice
-          complétés, cliquez sur <emphasis>Enregistrer</emphasis>.La notice
+          complétés, cliquez sur <emphasis>Enregistrer</emphasis>. La notice
           est enregistrée, vous arrivez sur la liste des exemplaires de
           l'ouvrage.</para>
+
         </sect4>
       </sect3>
 
@@ -1369,9 +1364,8 @@
         l'ouvrage le cas échéant, en cliquant sur son <emphasis role="bold">n°
         d'exemplaire</emphasis>.</para>
 
-        <para lang="fr">Si la notice possède déjà des exemplaires numériques,
-        vous pouvez afficher ou modifier un des exemplaires numériques de
-        l'ouvrage le cas échéant. Pour afficher le document numérique associé,
+        <para lang="fr">Si la notice possède déjà des exemplaires numériques, 
+			pour afficher le document numérique associé,
         cliquez sur son icône. Pour <emphasis role="bold">modifier le document
         numérique associé</emphasis>, cliquez sur son <emphasis
         role="bold">titre</emphasis>.</para>
@@ -1405,7 +1399,7 @@
           <title lang="fr">Modification d'une notice</title>
 
           <para lang="fr">Pour modifier une notice, cliquez sur le bouton
-          Modifier qui se trouve sous la notice, au dessus de la liste des
+          <emphasis>Modifier</emphasis> qui se trouve sous la notice, au dessus de la liste des
           exemplaires correspondant.</para>
 
           <para lang="fr">En modification de la notice, vous obtenez un
@@ -1530,8 +1524,7 @@
             </mediaobject>
           </figure>
 
-          <para lang="fr">L'écran d'ajout d'exemplaire vous permet de saisir
-          différentes informations :</para>
+          <para lang="fr">L'écran d'ajout d'exemplaire vous permet de définir :</para>
 
           <itemizedlist>
             <listitem>
@@ -1544,7 +1537,7 @@
             </listitem>
 
             <listitem>
-              <para lang="fr">saisissez une <emphasis role="bold">
+              <para lang="fr">une <emphasis role="bold">
               cote</emphasis>. Cette information est <emphasis
               role="bold">obligatoire</emphasis>. La cote est souvent composée
               de l'indexation décimale suivie des trois premières lettres de
@@ -1552,39 +1545,41 @@
             </listitem>
 
             <listitem>
-              <para lang="fr">sélectionnez le <emphasis role="bold"> type de
-              document</emphasis> parmi les choix du menu déroulant. La liste
+              <para lang="fr">un <emphasis role="bold"> support</emphasis> 
+				parmi les choix du menu déroulant. La liste
               des types de documents est configurable dans
               <emphasis>Administration &gt; Exemplaires &gt; Types de
               document</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para lang="fr">sélectionnez la <emphasis role="bold">
+              <para lang="fr">une <emphasis role="bold">
               localisation</emphasis> parmi le menu déroulant. La liste des
               localisations est configurable dans <emphasis>Administration
               &gt; Exemplaires &gt; Localisations</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para lang="fr">sélectionnez la <emphasis role="bold">
+              <para lang="fr">une <emphasis role="bold">
               section</emphasis> parmi les choix du menu déroulant. La liste
               des sections est configurable dans <emphasis>Administration &gt;
               Exemplaires &gt; Sections</emphasis>.</para>
             </listitem>
 
             <listitem>
-              <para lang="fr">sélectionnez le <emphasis role="bold">
+              <para lang="fr">un <emphasis role="bold">
               propriétaire</emphasis> de l'exemplaire parmi les choix du menu
               déroulant. La liste des propriétaires est configurable dans
               <emphasis>Administration &gt; Exemplaires &gt;
               Propriétaires</emphasis>. Généralement il s'agit du Fonds
               propre. Cependant, vous pouvez avoir un dépôt de votre BDP, ou
-              d'une autre bibliothèque.</para>
+              d'une autre bibliothèque. Dans un centre de documentation, vous
+			  pouvez par exemple gérés des documents obtenus par le PEB (prêt
+			  entre bibliothèques).</para>
             </listitem>
 
             <listitem>
-              <para lang="fr">sélectionnez le <emphasis role="bold">
+              <para lang="fr">un <emphasis role="bold">
               statut</emphasis> de l'exemplaire parmi les choix du menu
               déroulant. La liste des statuts est configurable dans
               <emphasis>Administration &gt; Exemplaires &gt;
@@ -1592,7 +1587,7 @@
             </listitem>
 
             <listitem>
-              <para lang="fr">sélectionnez le <emphasis role="bold"> code
+              <para lang="fr">un <emphasis role="bold"> code
               statistique</emphasis> de l'exemplaire parmi les choix du menu
               déroulant.</para>
             </listitem>
@@ -1606,7 +1601,8 @@
             </listitem>
 
             <listitem>
-              <para lang="fr">vous pouvez enfin définir un prix.</para>
+              <para lang="fr">vous pouvez enfin définir un <emphasis
+              role="bold">prix</emphasis>.</para>
             </listitem>
           </itemizedlist>
 
@@ -1635,14 +1631,48 @@
           cet exemplaire.</para>
         </sect4>
 
+        <sect4 id="cat_edit_expl">
+          <title lang="fr">Modifier un exemplaire</title>
+
+          <para lang="fr">L'écran de modification est identique à celui
+          d'ajout d'un exemplaire auquel viennent s'ajouter deux boutons :
+          <emphasis>Hist.</emphasis> et <emphasis>Supprimer</emphasis>.</para>
+
+          <sect5>
+            <title lang="fr">Hist.</title>
+
+            <para lang="fr">Ce bouton n'est affiché que si l'audit des notices
+            et des exemplaires est affiché. Il va permettre de voir qui a
+            réalisé le catalogage d'une notice, et qui a fait des
+            modifications. Les informations sont affichées dans un popup et
+            dépendent du type d'audit choisi.</para>
+
+            <para><important>
+                <para>L'audit est activable via Administration
+                &gt;<emphasis>Outils</emphasis> &gt;
+                <emphasis>Paramètres</emphasis> : il s'agit du paramètre de
+                type <emphasis>Paramètres généraux</emphasis> intitulé
+                type_audit.</para>
+              </important></para>
+          </sect5>
+
+          <sect5>
+            <title lang="fr">Supprimer</title>
+
+            <para lang="fr">Permet de supprimer l'exemplaire affiché.
+            Attention, un exemplaire ne peut être supprimé s'il est en cours
+            de prêt.</para>
+          </sect5>
+        </sect4>
+
         <sect4 id="cat_explnum_create">
           <title lang="fr">Ajout d'un document numérique</title>
 
-          <para lang="fr">Les exemplaires numériques ne sont pas des liens,
-          mais des documents numériques directement intégrés dans votre
+          <para lang="fr">Les exemplaires numériques peuvent être des liens,
+          mais aussi des documents numériques directement intégrés dans votre
           catalogue sous PMB. Vous pouvez ainsi ajouter à votre catalogue des
-          ouvrages numérisés par exemple au format PDF, des fichiers sons par
-          exemple au format MP3, des documents de votre traitement de texte ou
+          ouvrages numérisés par exemple au format PDF, des fichiers sons au 
+		  format MP3, des documents de votre traitement de texte ou
           de votre tableur, des images...</para>
 
           <figure>
@@ -1700,39 +1730,6 @@
           <emphasis>Supprimer</emphasis> cet exemplaire numérique.</para>
         </sect4>
 
-        <sect4 id="cat_edit_expl">
-          <title lang="fr">Modifier un exemplaire</title>
-
-          <para lang="fr">L'écran de modification est identique à celui
-          d'ajout d'un exemplaire auquel viennent s'ajouter deux boutons :
-          <emphasis>Hist.</emphasis> et <emphasis>Supprimer</emphasis>.</para>
-
-          <sect5>
-            <title lang="fr">Hist.</title>
-
-            <para lang="fr">Ce bouton n'est affiché que si l'audit des notices
-            et des exemplaires est affiché. Il va permettre de voir qui a
-            réalisé le catalogage d'une notice, et qui a fait des
-            modifications. Les informations sont affichées dans un popup et
-            dépendent du type d'audit choisi.</para>
-
-            <para><important>
-                <para>L'audit est activable via Administration
-                &gt;<emphasis>Outils</emphasis> &gt;
-                <emphasis>Paramètres</emphasis> : il s'agit du paramètre de
-                type <emphasis>Paramètres généraux</emphasis> intitulé
-                type_audit.</para>
-              </important></para>
-          </sect5>
-
-          <sect5>
-            <title lang="fr">Supprimer</title>
-
-            <para lang="fr">Permet de supprimer l'exemplaire affiché.
-            Attention, un exemplaire ne peut être supprimé s'il est en cours
-            de prêt.</para>
-          </sect5>
-        </sect4>
 
         <sect4 id="cat_explnum_modification">
           <title lang="fr">Modifier un document numérique</title>
@@ -1766,7 +1763,7 @@
           <title lang="fr">Cataloguer un flux RSS</title>
 
           <para lang="fr"><remark>PMB peut également générer un flux RSS à
-          partir d'un panier ou d'une étagère. Un panier peut lui-même remplit
+          partir d'un panier ou d'une étagère. Un panier peut lui-même être rempli
           à l'aide de la Diffusion Sélection de l'Information (DSI). Pour plus
           d'informations sur la création de flux RSS, consulter <xref
           linkend="dsi_rss_def" />.</remark></para>
@@ -1790,12 +1787,12 @@
             </listitem>
 
             <listitem>
-              <para lang="fr">### : pour le temps de mise en cache 30 pour 30
-              minutes par exemple</para>
+              <para lang="fr">### : pour le temps de mise en cache,par exemple "30" pour 30
+              minutes</para>
             </listitem>
 
             <listitem>
-              <para lang="fr"># : 0 ou 1 pour mettre le flux en page d'accueil
+              <para lang="fr"># : 1 ou 0 pour mettre le flux en page d'accueil 
               ou pas</para>
             </listitem>
           </itemizedlist>
@@ -1846,7 +1843,7 @@
         accès à l'onglet administration.</para>
 
         <para>Pour personnaliser vos grilles de catalogage, dans l'onglet
-        Catalogue, cliquez sur Nouvelle notice.</para>
+        Catalogue, cliquez sur Nouvelle notice puis Suivant.</para>
 
         <para>Cliquez ensuite sur le bouton <emphasis>Éditer format</emphasis>
         en haut à droite de l'écran.</para>
@@ -1990,11 +1987,11 @@
       <sect3>
         <title>Ajouter un avis dans l'OPAC</title>
 
-        <para><emphasis>Paramètre</emphasis> dans Administration &gt; Outils
+        <important><para>Dans Administration &gt; Outils
         &gt; Paramètres &gt; OPAC, si avis_allow vaut 1, les lecteurs peuvent
         voir les avis, les lecteurs authentifiés peuvent en ajouter. Si
         avis_allow vaut 2, seuls les lecteurs authentifiés peuvent voir et
-        ajouter des avis.</para>
+        ajouter des avis.</para></important>
 
         <para>Pour afficher les avis des lecteurs depuis l'OPAC, cliquez sur
         l'icône <emphasis>avis</emphasis>.</para>
@@ -2074,7 +2071,7 @@
         les lecteurs authentifiés peuvent ajouter des tags.</para>
 
         <para>L'ajout de tag se fait dans l'OPAC à l'aide de l'icône icône
-        tag</para>
+        tag (baguette magique rouge).</para>
 
         <para>Choisissez un tag existant : dans la liste déroulante, vous
         pouvez choisir un des tags déjà affectés, ou en saisir un nouveau dans
@@ -2222,13 +2219,10 @@
       <sect3>
         <title>La gestion du bulletinage dans PMB</title>
 
-        <para>Un bulletin de périodique est un numéro de périodique (par
-        exemple, le numéro 122 de Géo).</para>
-
         <para>Bulletiner un périodique est l'action d'enregistrer le numéro de
-        périodique dans PMB.</para>
+        périodique dans PMB (par exemple le numéro 122 de Géo).</para>
 
-        <para>Le bulletinage peut être fait de manière unitaire :</para>
+        <para>Le bulletinage peut être fait de manières différentes :</para>
 
         <itemizedlist>
           <listitem>
@@ -2337,8 +2331,7 @@
           génériques : <emphasis>document projeté ou vidéo</emphasis>
           correspondent ainsi à un film super-8, une VHS, un CD vidéo, un DVD
           ou tout support vidéo à venir. Ces types de document ne
-          correspondent pas à un support particulier mais à une forme
-          d'information.</para>
+          correspondent pas à un support particulier mais au type de média porteur de l'information.</para>
         </sect4>
 
         <sect4>
@@ -2433,7 +2426,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata contentwidth="12.5cm" fileref="images/numero.gif" />
+                <imagedata contentwidth="10cm" fileref="images/numero.gif" />
               </imageobject>
             </mediaobject>
           </figure>
@@ -2447,7 +2440,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata contentwidth="11.5cm"
+                <imagedata contentwidth="10cm"
                            fileref="images/bulletinage.gif" />
               </imageobject>
             </mediaobject>
@@ -2462,14 +2455,14 @@
             </listitem>
 
             <listitem>
-              <para lang="fr">Ajouter un exemplaire en saisissant son n°
+              <para lang="fr">Ajouter un exemplaire en saisissant son numéro
               d'exemplaire puis en cliquant sur <emphasis role="bold">Ajouter
               un exemplaire</emphasis></para>
             </listitem>
 
             <listitem>
               <para lang="fr"><emphasis role="bold">Ajouter un document
-              numérique</emphasis></para>
+              numérique</emphasis> à ce bulletin (couverture, sommaire scanné...)</para>
             </listitem>
 
             <listitem>
@@ -2513,16 +2506,18 @@
             <title lang="fr">Ajouter un document numérique à un
             élément</title>
 
-            <para lang="fr">L'ajout de documents numériques à un bulletin a le
-            même fonctionnement que l'ajout de documents numériques à un
-            document.</para>
+            <para lang="fr">L'ajout d'un document numérique à un bulletin a le
+            même fonctionnement que l'ajout d"un document numérique à un
+            document (non-périodique).</para>
           </sect5>
 
           <sect5 id="cat_serial_analysis">
             <title lang="fr">Ajouter un dépouillement (article)</title>
 
             <para lang="fr">La notice d'un article a pour seule particularité
-            la possibilité de spécifier une pagination.</para>
+            la possibilité de spécifier une pagination. Pour le reste, vous 
+			trouverez dans la notice les mêmes champs que pour la notice d'un
+			document.</para>
 
             <para lang="fr">Nous conseillons aux catalogueurs de respecter les
             conventions suivantes :</para>
@@ -2535,7 +2530,7 @@
 
               <listitem>
                 <para lang="fr"><emphasis role="bold">pp. X-Y</emphasis>
-                article en pages X à Y</para>
+                article en pages X à Y. On voit également fréquemment p. X-Y.</para>
               </listitem>
 
               <listitem>
@@ -2576,7 +2571,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata contentwidth="10cm"
+          <imagedata contentwidth="7cm"
                      fileref="images/administration_abonnements_periodicite.gif" />
         </imageobject>
       </mediaobject>
@@ -2632,15 +2627,15 @@
         </listitem>
       </itemizedlist>
 
-      <para><remark>Par exemple, un mensuel M sans hors-série régulier aura un
+      <para><remark>Un mensuel M sans hors-série régulier aura un
       modèle prévisionnel basé sur la périodicité « Mensuel » définie au
       préalable en Administration (voir plus haut, les périodicités sont à
       définir dans Administration &gt; Abonnements &gt;
       Périodicité).</remark></para>
 
-      <para>Un hebdomadaire H avec un numéro spécial tous les trimestres et
+      <para><remark>Un hebdomadaire H avec un numéro spécial tous les trimestres et
       deux hors-série (en janvier et en juillet) aura trois modèles
-      prévisionnels :</para>
+      prévisionnels :
 
       <itemizedlist>
         <listitem>
@@ -2658,6 +2653,8 @@
           « semestriel »</para>
         </listitem>
       </itemizedlist>
+
+	</remark></para>
 
       <sect3>
         <title>Paramètres généraux</title>
@@ -2694,7 +2691,7 @@
 
         <para>Pour la durée du modèle, il ne faut pas hésiter à mettre une
         durée longue, par exemple 10 ans. Ceci permettra de créer rapidement
-        un nouvel abonnement l'année suivante, en utilisant le modèle
+        un nouvel abonnement l'année suivante, toujours dans le modèle
         existant.</para>
       </sect3>
 
@@ -2806,7 +2803,7 @@
           </listitem>
         </itemizedlist>
 
-        <para>L'incrémentation du numéro se fait :</para>
+        <para>L'incrémentation se fait :</para>
 
         <itemizedlist>
           <listitem>
@@ -3396,7 +3393,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata contentwidth="10cm"
+              <imagedata contentwidth="7cm"
                          fileref="images/catalogue_periodique_abo_nouveau4.gif" />
             </imageobject>
           </mediaobject>
@@ -3853,7 +3850,7 @@
       <para>Chemin : Catalogue &gt; Bulletinage</para>
 
       <para>Le menu déroulant « Localisation » permet de filtrer par la
-      localisation, la liste des bulletins</para>
+      localisation, la liste des bulletins.</para>
 
       <figure>
         <title>Catalogage, périodiques : bulletinage</title>
@@ -3902,8 +3899,8 @@
             </listitem>
 
             <listitem>
-              <para>Pour visualiser le bulletin, cliquer sur Voir le
-              bulletin</para>
+              <para>Pour visualiser le bulletin, cliquer sur <emphasis>Voir le
+              bulletin</emphasis>.</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -3916,14 +3913,14 @@
 
       <para>Il sera toujours possible ultérieurement d'ajouter manuellement un
       numéro depuis la notice mère du périodique en cliquant sur
-      Ajouter un numéro ou un bulletin.</para>
+      <emphasis>Ajouter un numéro ou un bulletin</emphasis>.</para>
     </sect2>
   </sect1>
 
   <sect1 id="cat_caddies">
     <title lang="fr">Paniers</title>
 
-    <para lang="fr">Les paniers sont des listes : au sein de PMB, on va
+    <para lang="fr">Les paniers sont des sélection d'objets : au sein de PMB, on va
     pouvoir y placer des notices, des bulletins (numéros d'un périodique), des
     exemplaires.</para>
 
@@ -3946,7 +3943,7 @@
     <sect2 id="cat_caddie_gestion">
       <title lang="fr">Gestion des paniers et des procédures</title>
 
-      <para lang="fr">Par défaut, en partie Paniers/Gestion, c'est la gestion
+      <para lang="fr">Par défaut, via Paniers > Gestion, c'est la gestion
       des paniers qui est affichée. Vous pouvez afficher la gestion des
       procédures à l'aide du lien Gestion des procédures.</para>
 
@@ -3966,9 +3963,9 @@
         </figure>
 
         <para lang="fr">En cliquant sur le nom d'un panier, vous pouvez
-        consulter le contenu d'un panier. En cliquant sur Editer, vous pouvez
-        éditer ce panier : nom, type, commentaire, droits d'accès. Enfin, en
-        cliquant sur Ajouter un panier vous pouvez définir un nouveau
+        consulter le contenu d'un panier. En cliquant sur <emphasis>Modifier</emphasis>, vous pouvez
+        modifier votre panier : nom, type, commentaire, droits d'accès. Enfin, en
+        cliquant sur <emphasis>Ajouter un panier</emphasis> vous pouvez définir un nouveau
         panier.</para>
 
         <sect4>
@@ -3997,7 +3994,7 @@
           (notices, exemplaires ou bulletins catalogués dans PMB) :</para>
 
           <figure>
-            <title lang="fr">Elément du fond</title>
+            <title lang="fr">Elément du fonds</title>
 
             <mediaobject>
               <imageobject>
@@ -4009,7 +4006,7 @@
 
           <para lang="fr">Si vous développez la notice en cliquant sur le +
           situé en face de son titre, vous pourrez consulter sa notice au
-          format ISBD ainsi la liste des exemplaires et des documents
+          format ISBD ainsi la liste de ses exemplaires et documents
           numériques. L'affichage de la notice est identique à celui que vous
           pouvez avoir en résultat d'une recherche (Catalogage &gt;
           Recherche).</para>
@@ -4050,23 +4047,11 @@
         </sect4>
 
         <sect4 id="catalogue_panier_editer_un_panier">
-          <title id="catalogue_panier_editer_un_panier.title">Editer un
+          <title id="catalogue_panier_editer_un_panier.title">Modifier un
           panier</title>
 
-          <para lang="fr">Vous pouvez également éditer un panier en cliquant
+          <para lang="fr">Vous pouvez également modifier un panier en cliquant
           sur le lien Éditer à droite de l'écran.</para>
-
-          <figure>
-            <title lang="fr">Catalogage &gt; Paniers &gt; Gestion &gt; Gestion
-            des paniers</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata contentwidth="10cm"
-                           fileref="images/cat_paniers_editer_un_panier.gif" />
-              </imageobject>
-            </mediaobject>
-          </figure>
 
           <para lang="fr"><emphasis>Éditer un panier</emphasis> vous permet de
           modifier le nom, le commentaire d'un panier, et les droits des
@@ -4092,7 +4077,7 @@
           <title lang="fr">Ajouter un panier</title>
 
           <para lang="fr">L'écran d'ajout d'un panier est identique à celui
-          d'<emphasis>Editer un panier</emphasis>. Seul le bouton Supprimer
+          de <emphasis>Modifier un panier</emphasis>. Seul le bouton Supprimer
           n'y figure pas. Pour plus d'informations, consulter plus haut la
           section <xref linkend="catalogue_panier_editer_un_panier" />
           .</para>
@@ -4108,9 +4093,6 @@
         ou à appliquer des changements aux notices, bulletins ou exemplaires
         stockés dans le panier.</para>
 
-        <para lang="fr">Pour plus d'informations sur les procédures et étudier
-        quelques exemples, consulter plus loin la section <emphasis>3.5
-        exemples d'utilisation des paniers</emphasis>.</para>
       </sect3>
     </sect2>
 
@@ -4916,14 +4898,7 @@ order by section_libelle</programlisting>
               </mediaobject>
             </figure>
 
-            <figure>
-              <mediaobject>
-                <imageobject>
-                  <imagedata contentwidth="10cm"
-                             fileref="images/cat_z39_results_isbn.gif" />
-                </imageobject>
-              </mediaobject>
-            </figure>
+
           </listitem>
 
           <listitem>
