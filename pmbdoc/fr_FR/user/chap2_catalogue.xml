@@ -200,16 +200,15 @@
       </sect3>
 
       <sect3 id="cat_search_caddie">
-        <title lang="fr">Paniers de notices</title>
+        <title lang="fr">Paniers</title>
 
         <para lang="fr"><emphasis>Recherche</emphasis> &gt; <emphasis>Paniers
-        de notices</emphasis> permet d'afficher le contenu d'un panier de
+        </emphasis> permet d'afficher le contenu d'un panier de
         notices. Les paniers correspondent à des sélections de notices, de
         bulletins ou d'exemplaires.</para>
 
         <figure>
-          <title lang="fr">Catalogage &gt; Ouvrages &gt; Recherche par paniers
-          de notices</title>
+          <title lang="fr">Catalogage &gt; Ouvrages &gt; Recherche par paniers</title>
 
           <mediaobject>
             <imageobject>
@@ -624,7 +623,7 @@
     </sect2>
 
     <sect2 id="cat_serial_search">
-      <title lang="fr">périodiques</title>
+      <title lang="fr">Périodiques</title>
 
       <para lang="fr">Pour plus d'informations sur la gestion des périodiques,
       consulter également plus bas la section Périodiques &gt; Nouveau
@@ -2421,6 +2420,12 @@
           <emphasis>hors-série : bouleversements
           climatiques</emphasis>.</para>
 
+		<para>Si vous voulez spécifier davantage d'informations au niveau du 
+			bulletin, vous pouvez compléter les informations dans les autres 
+			parties du formulaire. Si un élément est saisi hors de la zone
+			"Informations du bulletin", une notice sera créé et associée à votre
+			bulletin.</para>
+								
           <figure>
             <title lang="fr">Création d'un bulletin</title>
 
@@ -4124,28 +4129,27 @@
       <graphic fileref="images/basket_small.gif" /></para>
 
       <sect3>
-        <title lang="fr">subtilités des ajouts dans un panier</title>
+        <title lang="fr">Subtilités des ajouts dans un panier</title>
 
         <para lang="fr">La gestion de l'ajout d'un élément dans un panier
         correspond aux divers fonctionnements possibles :</para>
 
         <itemizedlist>
           <listitem>
-            <para lang="fr">ajout d'une <emphasis role="bold">
-            notice</emphasis> à un <emphasis>panier d'exemplaires</emphasis> =
+            <para lang="fr">ajout d'une <emphasis role="bold">notice</emphasis> 
+				à un <emphasis>panier d'exemplaires</emphasis> =
             ajout de <emphasis>tous les exemplaires de la notice</emphasis> au
             panier</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">ajout d'un <emphasis role="bold">
-            exemplaire</emphasis> à un <emphasis>panier de notices</emphasis>
+            <para lang="fr">ajout d'un <emphasis role="bold">exemplaire</emphasis> à un <emphasis>panier de notices</emphasis>
             = ajout de la <emphasis>notice de l'exemplaire</emphasis> au
             panier</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">ajout d'une <emphasis role="bold"> notice de
+            <para lang="fr">ajout d'une <emphasis role="bold">notice de
             dépouillement</emphasis> à un <emphasis>panier de
             bulletins</emphasis> = ajout du <emphasis>bulletin
             correspondant</emphasis> à ce dépouillement au panier</para>
@@ -4154,9 +4158,9 @@
 
         <para lang="fr">Attention : l'ajout d'un <emphasis
         role="bold">bulletin</emphasis> à un <emphasis>panier de
-        notices</emphasis> n'aura <emphasis>aucun effet</emphasis>. En effet,
-        au bulletin correspondent deux types de notices : la notice mère du
-        périodique et les notices de dépouillement du bulletin.</para>
+        notices</emphasis> transfère uniquement les notices de bulletins. Si des bulletins
+		n'ont pas de notice (uniquement les champs Date de parution, Libellé de période et/ou
+		Titre du bulletin remplis), aucun élément ne sera ajouté au panier.</para>
       </sect3>
     </sect2>
 
@@ -4238,7 +4242,7 @@
         </figure>
 
         <para lang="fr">Les éléments du panier qui ont été pointés sont
-        déclarés comme étant<emphasis>Pointé(s)</emphasis>. Le nombre total
+        déclarés comme étant <emphasis>Pointé(s)</emphasis>. Le nombre total
         d'éléments du paniers est rappelé. Les éléments appartenant au fond
         enregistré dans PMB figurent sur la deuxième ligne du tableau
         récapitulatif en bas de page.</para>
@@ -4286,7 +4290,7 @@
         </listitem>
 
         <listitem>
-          <para lang="fr">appliquer une requête SQL au contenu d'un
+          <para lang="fr">appliquer une procédure d'action au contenu d'un
           panier</para>
         </listitem>
       </itemizedlist>
@@ -4320,7 +4324,7 @@
       </sect3>
 
       <sect3>
-        <title lang="fr">Vider du panier</title>
+        <title lang="fr">Vider le panier</title>
 
         <figure>
           <title lang="fr">Catalogage &gt; Paniers &gt; Actions &gt; Vider du
@@ -4334,7 +4338,7 @@
           </mediaobject>
         </figure>
 
-        <para lang="fr"><emphasis>Vider du panier</emphasis> permet de vider
+        <para lang="fr"><emphasis>Vider le panier</emphasis> permet de vider
         le contenu d'un panier.</para>
 
         <para lang="fr">Choisissez ensuite les éléments du panier concernés :
@@ -4361,7 +4365,7 @@
         de la base de données de la bibliothèque.</para>
 
         <para lang="fr">Cette fonction est à utiliser avec grande prudence,
-        donc, par exemple pour effacer un panier d'exemplaires perdus ou
+        par exemple pour effacer un panier d'exemplaires perdus ou
         périmés.</para>
 
         <para lang="fr">Choisissez ensuite les éléments du paniers concerné :
@@ -4452,23 +4456,22 @@
 
         <itemizedlist>
           <listitem>
-            <para lang="fr">de monographies dans un panier de notices : ajout
+            <para lang="fr">exemplaires de monographies dans un panier de notices : ajout
             des notices des exemplaires</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">de monographies dans un panier de bulletin : rien,
+            <para lang="fr">exemplaires de monographies dans un panier de bulletins : rien,
             incohérent</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">de bulletin dans un panier de bulletin, ajout des
-            bulletins des exemplaires</para>
+            <para lang="fr">exemplaires de bulletins dans un panier de bulletins, ajout des
+            bulletins</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">de bulletins dans un panier de notices : rien,
-            incohérent</para>
+            <para lang="fr">exemplaires de bulletins dans un panier de notices : notice mère du périodique</para>
           </listitem>
         </itemizedlist>
 
@@ -4476,22 +4479,22 @@
 
         <itemizedlist>
           <listitem>
-            <para lang="fr">de monographies dans un panier de bulletins :
+            <para lang="fr">notices de monographies dans un panier de bulletins :
             rien, incohérent</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">de monographies dans un panier d'exemplaires :
+            <para lang="fr">notices de monographies dans un panier d'exemplaires :
             sélection des exemplaires attachés aux notices</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">de dépouillement dans un panier de bulletin :
+            <para lang="fr">notices de dépouillement dans un panier de bulletin :
             sélection des bulletins qui contiennent les dépouillements</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">de dépouillement dans un panier d'exemplaires :
+            <para lang="fr">notices de dépouillement dans un panier d'exemplaires :
             sélection des exemplaires attachés aux bulletins qui contiennent
             les dépouillements</para>
           </listitem>
@@ -4501,14 +4504,15 @@
 
         <itemizedlist>
           <listitem>
-            <para lang="fr">à un panier d'exemplaires : sélection des
+            <para lang="fr">bulletins dans un panier d'exemplaires : sélection des
             exemplaires attachés à ces bulletins</para>
           </listitem>
 
           <listitem>
-            <para lang="fr">à un panier de notices : pour éviter les
-            confusions entre notice chapeau du bulletin et les dépouillements
-            du bulletin, rien n'est ajouté.</para>
+            <para lang="fr">bulletins dans un panier de notices : si le bulletin a une 
+				notice, la notice de bulletin est ajoutée au panier. Pour ajouter une notice
+				à un bulletin lors du catalogage, il suffit de compléter une information
+				hors de la zone "Informations du bulletins" dans le formulaire.</para>
           </listitem>
         </itemizedlist>
       </sect3>
@@ -4528,14 +4532,12 @@
           </mediaobject>
         </figure>
 
-        <para lang="fr">Vous pouvez également appliquer une procédure d'action
+        <para lang="fr">Vous pouvez appliquer une procédure d'action
         au contenu d'un panier, par exemple pour changer les cotes d'un
-        ensemble d'ouvrages déplacés ailleurs dans votre bibliothèque. Pour
-        plus d'informations sur les requêtes, consultez le <emphasis>Guide de
-        l'Administrateur PMB.</emphasis></para>
+        ensemble d'ouvrages déplacés ailleurs dans votre bibliothèque.</para>
 
         <para lang="fr">Vous trouverez sur le wiki différentes procédures
-        prêts à être chargées dans votre PMB.</para>
+        prêts à être chargées dans votre PMB (www.sigb.net/wiki).</para>
       </sect3>
     </sect2>
 
@@ -4574,19 +4576,22 @@ is null and niveau_biblio='m' and niveau_hierar='0'</programlisting>
 
       <sect3>
         <title lang="fr">Gérer les inventaires</title>
+		
+		<para>Voici un exemple de procédure de collecte d'exemplaires en SQL. Pour plus de détails ou 
+		d'autres exemples, consultez le wiki des utilisateurs (www.sigb.net/wiki).</para>
 
         <para lang="fr">"Je voudrais me simplifier la vie lors de mes
-        inventaires, j'ai donc pensé à créer un paniers avec tous les
+        inventaires, j'ai donc pensé à créer un panier avec tous les
         exemplaires d'une section. Je pourrais ainsi pointer les exemplaires
         physiquement en rayon et avec l'action supprimer du panier les
         éléments pointés retrouver les livres qui sont dans la base mais
         physiquement perdus, volés..."</para>
 
-        <para lang="fr">"Dans les PS j'ai un inventaire de tout mes
-        documentaires par exemple mais je ne sais pas comment la transformer
-        pour qu'elle fonctionne dans les paniers ? "</para>
+        <para lang="fr">"Dans Edition > Etat personnalisé, j'ai un inventaire de tous mes
+        documentaires par exemple mais je ne sais pas comment le transformer
+        pour qu'il fonctionne dans les paniers ? "</para>
 
-        <para lang="fr">Voici donc la PS corrigée !</para>
+        <para lang="fr">Voici donc la procédure de collecte corrigée !</para>
 
         <programlisting>select expl_id as object_id, 'EXPL' as object_type from 
 exemplaires, notices, docs_section where idsection in 
@@ -4642,8 +4647,7 @@ order by section_libelle</programlisting>
       <para lang="fr">Une étagère est définie par un nom, une période de
       validité, sa visibilité ou non en page d'accueil de l'OPAC. Un
       commentaire peut également être ajouté. Enfin chaque étagère possède des
-      droits : ces autorisations permettent aux utilisateurs correspondants
-      d'éditer l'étagère sélectionnée et son contenu.</para>
+      droits.</para>
     </sect2>
 
     <sect2 id="cat_etg_constit">
@@ -4690,7 +4694,7 @@ order by section_libelle</programlisting>
     <title lang="fr">Z39.50</title>
 
     <sect2 id="cat_z3950">
-      <title lang="fr">recherche Z39.50</title>
+      <title lang="fr">Recherche Z39.50</title>
 
       <para lang="fr">La recherche Z39.50 permet de rechercher un ouvrage dans
       le catalogue d'une autre bibliothèque, ce qui permettra de l'insérer
@@ -4791,10 +4795,8 @@ order by section_libelle</programlisting>
       </figure>
 
       <para lang="fr">Un écran affiche alors les résultats de la recherche. La
-      liste des résultats présente des notices résumées au format ISBD. Ne
-      figurent pas dans cette liste les notes éventuellement saisies, ainsi
-      que d'autres renseignements mineurs. Pour choisir une notice, cliquer
-      sur son titre.</para>
+      liste des résultats présente des notices résumées au format ISBD. Pour choisir une notice, cliquer
+      sur son titre. A ce niveau, la notice n'a pas encore été importée. Pour voir toutes les informations de la notice, cliquez sur son titre.</para>
 
       <figure>
         <title lang="fr">Catalogue &gt; Z39.50 &gt; Recherche, écran de
@@ -4811,13 +4813,13 @@ order by section_libelle</programlisting>
       <para lang="fr">La notice obtenue est alors affichée en modification
       pour pouvoir la consulter en détail, la modifier le cas échéant et enfin
       l'intégrer au catalogue. Il existe quelques différences par rapport à
-      l'écran d'édition habituel : les auteurs et éditeurs ont deux champs de
+      l'écran d'édition habituel : les auteurs ont des champs de
       saisies correspondant à élément principal (nom) et élément rejeté
-      (prénom). Une fois les éventuelles corrections faites, valider par le
+      (prénom), et aux dates. Une fois les éventuelles corrections faites, valider par le
       bouton "intégrer la notice".</para>
 
       <para lang="fr">Dans l'écran suivant, figure la mention notice intégrée,
-      avec un lien<emphasis>La voir en catalogage.</emphasis> Ce lien permet
+      avec un lien <emphasis>La voir en catalogage.</emphasis> Ce lien permet
       d'afficher la notice et d'ajouter ensuite des exemplaires.</para>
 
       <figure>
@@ -4836,10 +4838,10 @@ order by section_libelle</programlisting>
         <title lang="fr">Utilisation de la recherche Z39.50 au
         quotidien</title>
 
-        <para lang="fr">Pour les bibliothèques française, le principal intérêt
-        de la recherche Z39.50 est la recherche par ISBN depuis la BnF. La BnF
+        <para lang="fr">Pour les bibliothèques française, il est facile de
+			démarrer son catalogage par une recherche par ISBN depuis la BnF. La BnF
         est la Bibliothèque Nationale Française, qui contient le catalogue du
-        dépôt légal français. Pour les ouvrages de votre fond propre, vous
+        dépôt légal français. Pour les ouvrages de votre fonds propre, vous
         pouvez facilement cataloguer les livres à l'aide de votre douchette et
         du code barre commercial (EAN) de l'ouvrage.</para>
 
@@ -4861,7 +4863,7 @@ order by section_libelle</programlisting>
 
             <figure>
               <title lang="fr">Catalogage &gt; Z39.50 &gt; Recherche,
-              recherche portant sur l'ISBD</title>
+              recherche portant sur l'ISBN</title>
 
               <mediaobject>
                 <imageobject>

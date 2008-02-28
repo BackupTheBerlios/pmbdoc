@@ -13,9 +13,11 @@
       réalisateur mais pas d'auteur au sens propre du terme. Lorsque vous
       saisissez une nouvelle notice vous saisissez un auteur et sa fonction
       par rapport à l'ouvrage.</para>
+	  
+	  <para lang="fr">Les auteurs peuvent être des personnes physiques ou des collectivités.</para>
 
       <sect3>
-        <title lang="fr">Rechercher et éditer un auteur</title>
+        <title lang="fr">Ajouter ou modifier un auteur</title>
 
         <para lang="fr">Dans l'écran <emphasis>Autorités/Auteurs</emphasis>,
         vous pouvez rechercher un auteur existant, ou créer un nouvel auteur.
@@ -59,7 +61,7 @@
           auteur</title>
 
           <figure>
-            <title lang="fr">Autorités &gt; Auteurs, édition d'un
+            <title lang="fr">Autorités &gt; Auteurs, modification d'un
             auteur</title>
 
             <mediaobject>
@@ -125,6 +127,10 @@
           l'onglet catalogue pour l'auteur correspondant. Ceci permet
           notamment de savoir pourquoi la suppression de cet auteur est
           impossible.</para>
+		  
+		  <important><para lang="fr">Vous pouvez supprimer les auteurs inutilisés
+			dans la base via Administration > Outils > Nettoyage de la base, cocher
+			Supprimer les auteurs inutilisés.</para></important>
 
           <para lang="fr">Le bouton <emphasis role="bold">Remplacer
           par</emphasis> permet de remplacer un auteur par un autre, pour
@@ -145,9 +151,7 @@
             </mediaobject>
           </figure>
 
-          <para lang="fr">L'ajout d'un auteur est identique à l'édition. Pour
-          plus d'informations, consulter plus haut la section <xref
-          linkend="autorites_modification_auteur" /></para>
+          <para lang="fr">L'ajout d'un auteur est identique à sa modification.</para>
         </sect4>
       </sect3>
 
@@ -233,16 +237,6 @@
                 <entry lang="fr"></entry>
 
                 <entry lang="fr">Louis XIV</entry>
-              </row>
-
-              <row>
-                <entry lang="fr">Bernard de La Barre de Nanteuil</entry>
-
-                <entry lang="fr">La Barre de Nanteuil</entry>
-
-                <entry lang="fr">Bernard de</entry>
-
-                <entry lang="fr">La Barre de Nanteuil, Bernard de</entry>
               </row>
 
               <row>
@@ -362,26 +356,18 @@
 
         <para lang="fr">Les catégories ne sont pas des vedettes Rameau : leur
         choix doit permettre une exploration par une arborescence concentrée
-        et structurée. Ce choix des développeurs de PMB est davantage à
-        rapprocher d'une sorte de classification thématique à la logique
-        arborescente proches de la CDU ou DEWEY.</para>
+        et structurée.</para>
       </sect3>
 
       <sect3>
-        <title lang="fr">Parcours et édition des catégories</title>
+        <title lang="fr">Parcours et modification des catégories</title>
 
         <para lang="fr">Les catégories sont un moyen de ranger dans la base
         les ouvrages et d'organiser les informations pour faciliter la
         recherche notamment pour les utilisateurs via l'OPAC.</para>
 
         <para lang="fr">Le but est de regrouper les ouvrages dans une
-        arborescence de catégories et de sous-catégories. PMB vous est fourni
-        avec une liste de catégories qui s'avérera efficace dans le cas d'un
-        centre documentaire généraliste.</para>
-
-        <para lang="fr">Si vous gérez des ressources spécialisées, il vous
-        faudra adapter ces catégories à votre usage, par exemple à votre
-        thésaurus utilisé.</para>
+        arborescence de catégories et de sous-catégories.</para>
 
         <para lang="fr"><figure>
             <title lang="fr">Autorités &gt; Catégories</title>
@@ -454,18 +440,27 @@
         sont pas visibles lors de la création d'une catégorie, mais uniquement
         lors de sa modification.</para>
       </sect3>
+	  
+	  <sect3>
+		<title lang="fr">Multithésaurus</title>
+		
+		<important><para lang="fr">Pour activer dans PMB la gestion multi-thésaurus,
+			via <emphasis>Administration > Outils > Paramètres</emphasis>, dans 
+				<emphasis>Catégories et plans de 
+			classement</emphasis>, passer <emphasis>thesaurus</emphasis> à 1.</para></important>
+		<para lang="fr">Pour modifier et/ou ajouter un thésaurus, dans Autorités > Catégories, cliquez
+			sur le lien <emphasis>Gérer les thésaurus</emphasis>.</para>
+	  </sect3>
     </sect2>
 
     <sect2 id="autorites_editeurs">
       <title lang="fr">Éditeurs</title>
 
       <sect3>
-        <title lang="fr">Rechercher et modifier un éditeur</title>
+        <title lang="fr">Ajouter ou modifier un éditeur</title>
 
         <para lang="fr">L'écran Éditeurs fonctionne avec la même logique que
-        celui des Auteurs.</para>
-
-        <para lang="fr">Pour rechercher un éditeur, saisissez une expression à
+        celui des Auteurs. Pour rechercher un éditeur, saisissez une expression à
         rechercher puis cliquez sur <emphasis
         role="bold">Rechercher</emphasis>. L'écran affiche par défaut
         l'ensemble des éditeurs de la base.</para>
@@ -507,9 +502,10 @@
 
           <listitem>
             <para lang="fr">son adresse sur deux lignes, son code postal, sa
-            ville et son pays. La ville d'édition est un élément souvent
-            présent dans les bibliographies des publications. Précisez le pour
-            chaque éditeur, si possible.</para>
+            ville et son pays. La ville d'édition est un élément nécessaire 
+			dans les bibliographies des publications. Précisez le pour
+            chaque éditeur, si possible. Si un éditeur a plusieurs lieux
+			d'édition, créez un éditeur dans la base pour chaque ville.</para>
           </listitem>
 
           <listitem>
@@ -572,16 +568,6 @@
       en tant qu'autorité pour définir une collection.</para>
 
       <figure>
-        <title lang="fr">Autorités &gt; Collections</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata contentwidth="10cm" fileref="images/aut_coll.gif" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <figure>
         <title lang="fr">Autorités &gt; Collections, édition d'une
         collection</title>
 
@@ -617,18 +603,18 @@
       </itemizedlist>
 
       <para lang="fr"><emphasis role="bold">Supprimer</emphasis> permet de
-      supprimer un éditeur. <emphasis role="bold">Attention</emphasis> un
-      éditeur ne peut être supprimé que s'il n'est utilisé dans aucune
+      supprimer une collection. <emphasis role="bold">Attention</emphasis> une
+      collection ne peut être supprimée que si elle n'est utilisée dans aucune
       notice.</para>
 
       <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis>
-      permet de savoir dans quels ouvrages est mentionné l'éditeur. Il lance
+      permet de savoir dans quels ouvrages est mentionné la collection. Il lance
       une recherche dans l'onglet catalogue pour l'éditeur correspondant. Ceci
       permet notamment de savoir pourquoi la suppression de cet éditeur est
       impossible.</para>
 
       <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis>
-      permet de remplacer un éditeur par un autre, pour éliminer des doublons
+      permet de remplacer une collection par une autre, pour éliminer des doublons
       mals orthographiés par exemple.</para>
 
       <para lang="fr"><emphasis role="bold">Note</emphasis> : les boutons
@@ -644,12 +630,9 @@
       <para lang="fr">Une sous-collection est une sous-division d'une
       collection.</para>
 
-      <para lang="fr">Depuis cet écran vous pouvez rechercher une collection
+      <para lang="fr">Depuis cet écran vous pouvez rechercher une sous-collection
       en saisissant une expression puis en cliquant sur
       <emphasis>Rechercher</emphasis>.</para>
-
-      <para lang="fr">Vous pouvez également parcourir les collections.
-      L'ensemble des collections est affiché par défaut sur cet écran.</para>
 
       <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis
       role="bold">Voir les dernières sous-collections créées</emphasis> pour
@@ -713,18 +696,18 @@
       </itemizedlist>
 
       <para lang="fr"><emphasis role="bold">Supprimer</emphasis> permet de
-      supprimer un éditeur. <emphasis role="bold">Attention</emphasis> un
-      éditeur ne peut être supprimé que s'il n'est utilisé dans aucune
+      supprimer une sous-collection. <emphasis role="bold">Attention</emphasis> une
+      sous-collection ne peut être supprimée que si elle n'est utilisée dans aucune
       notice.</para>
 
       <para lang="fr">Le bouton <emphasis role="bold">Utilisation</emphasis>
-      permet de savoir dans quels ouvrages est mentionné l'éditeur. Il lance
-      une recherche dans l'onglet catalogue pour l'éditeur correspondant. Ceci
-      permet notamment de savoir pourquoi la suppression de cet éditeur est
+      permet de savoir dans quels ouvrages est mentionnée la sous-collection. Il lance
+      une recherche dans l'onglet catalogue pour la sous-collection correspondante. Ceci
+      permet notamment de savoir pourquoi la suppression de cette sous-collection est
       impossible.</para>
 
       <para lang="fr">Le bouton <emphasis role="bold">Remplacer par</emphasis>
-      permet de remplacer un éditeur par un autre, pour éliminer des doublons
+      permet de remplacer une sous-collection par une autre, pour éliminer des doublons
       mals orthographiés par exemple.</para>
 
       <para lang="fr"><emphasis role="bold">Note</emphasis> : les boutons
@@ -763,7 +746,7 @@
       </figure>
 
       <figure>
-        <title lang="fr">Autorités &gt; Titres de Séries, édition d'un titre
+        <title lang="fr">Autorités &gt; Titres de Séries, modification d'un titre
         de série</title>
 
         <mediaobject>
@@ -795,8 +778,13 @@
       <sect3>
         <title>Gérer les indexations décimales</title>
 
-        <para lang="fr">PMB gère des indexations décimales qui vous permettent
-        de personnaliser l'indexation de vos ouvrages. Pour plus
+        <para lang="fr">PMB vous permet de gérer un ou des plans de classement qui vous permettent
+        de personnaliser l'indexation de vos ouvrages. 
+		Un plan de classement est constitué de différents indices (indexations décimales).
+		Cette indexation décimale peut ensuite servir de base à la cotation de vos
+		documents (par exemple, la Classification Décimale de Dewey, la CDU, un plan de classement
+		alphabétique d'un centre de documentation).
+		Pour plus
         d'informations sur les indexations décimales fournies avec PMB,
         consulter le Chapitre <emphasis>Catégories et classifications
         préinstallées avec PMB</emphasis>.</para>
@@ -810,16 +798,6 @@
         <para lang="fr">Vous pouvez également cliquer sur le lien <emphasis
         role="bold">Voir les dernières indexations créées</emphasis> pour
         afficher les dix dernières indexations ajoutées dans la base.</para>
-
-        <figure>
-          <title lang="fr">Autorités &gt; Indexations</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata contentwidth="10cm" fileref="images/aut_index.gif" />
-            </imageobject>
-          </mediaobject>
-        </figure>
 
         <figure>
           <title lang="fr">Autorités &gt; Indexations, édition d'une
@@ -841,7 +819,7 @@
           </listitem>
 
           <listitem>
-            <para lang="fr">un commentaire</para>
+            <para lang="fr">un commentaire ou libellé</para>
           </listitem>
         </itemizedlist>
 
@@ -868,7 +846,7 @@
       </sect3>
 
       <sect3>
-        <title>Plans de classement multiples</title>
+        <title>Indexations décimales et plans de classement multiples</title>
 
         <para>Vous pouvez gérer dans PMB plusieurs plans de classement.</para>
 
@@ -1046,6 +1024,11 @@
           le calcul de mots vides, vous pouvez demander à PMB de chercher pour
           vous les mots vides dans votre base. 50% est la valeur par
           défaut.</para>
+		  
+		  <para>Si leur taux d'utilisation est supérieur à cette valeur, vous
+			pouvez considérer que ces mots ne sont pas pertinents dans la recherche :
+			trop utilisés, ils ne permettent pas une recherche précise (par exemple,
+			<emphasis>physique</emphasis> dans un laboratoire de physique théorique).</para>
 
           <para>Modifiez éventuellement ce pourcentage et cliquez sur
           actualiser pour définir une liste de mots-clés calculés.</para>
@@ -1067,8 +1050,7 @@
           saisissant AUX ne</para>
 
           <para>Note : l'<ulink url="http://www.aux.asso.fr">AUX</ulink>
-          existe vraiment [il y a vrai travail de recherche pour les exemples
-          dans cette documentation :-)].</para>
+          existe vraiment.</para>
         </listitem>
       </itemizedlist>
     </sect2>
