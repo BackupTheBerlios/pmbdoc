@@ -50,7 +50,7 @@ reste du texte, résoud un bug si fop.extensions=1 -->
 <!-- Titres de section 1 -->
 <xsl:attribute-set name="section.title.level1.properties">
 <!--  <xsl:attribute name="break-before">page</xsl:attribute> -->
-  <xsl:attribute name="font-size">20pt</xsl:attribute>
+  <xsl:attribute name="font-size">15pt</xsl:attribute>
   <xsl:attribute name="padding-top">6pt</xsl:attribute>
   <xsl:attribute name="padding-bottom">3pt</xsl:attribute>
    <!-- xsl:attribute name="break-before">page</xsl:attribute -->
@@ -61,13 +61,13 @@ reste du texte, résoud un bug si fop.extensions=1 -->
 <!-- Titres de section 2 -->
 <xsl:attribute-set name="section.title.level2.properties">
    <!-- xsl:attribute name="break-before">page</xsl:attribute -->
-  <xsl:attribute name="font-size">17pt</xsl:attribute>
+  <xsl:attribute name="font-size">13pt</xsl:attribute>
   <xsl:attribute name="border-bottom">0.2pt solid #C5C5C5</xsl:attribute>     
 </xsl:attribute-set> 
 
 <!-- Titres de section 3 -->
 <xsl:attribute-set name="section.title.level3.properties">
-  <xsl:attribute name="font-size">14pt</xsl:attribute>
+  <xsl:attribute name="font-size">11pt</xsl:attribute>
    <!-- xsl:attribute name="break-before">page</xsl:attribute -->
   <xsl:attribute name="border-bottom">0.2pt solid #C5C5C5</xsl:attribute>     
 </xsl:attribute-set> 
@@ -110,13 +110,17 @@ procedure before
 </l:i18n>
 
 <!-- Espacement des listes à puces -->
-<xsl:attribute-set name="block.spacing">
-  <xsl:attribute name="space-before.optimum">0em</xsl:attribute>
-  <xsl:attribute name="space-before.minimum">0em</xsl:attribute>
-  <xsl:attribute name="space-before.maximum">0em</xsl:attribute>
-  <xsl:attribute name="space-after.optimum">0em</xsl:attribute>
-  <xsl:attribute name="space-after.minimum">0em</xsl:attribute>
-  <xsl:attribute name="space-after.maximum">0em</xsl:attribute>
+<xsl:attribute-set name="list.item.spacing">
+  <xsl:attribute name="space-before.optimum">0.3em</xsl:attribute>
+  <xsl:attribute name="space-before.minimum">0.1em</xsl:attribute>
+  <xsl:attribute name="space-before.maximum">0.5em</xsl:attribute>
+</xsl:attribute-set>
+
+<!-- Espacement des paragraphes -->
+<xsl:attribute-set name="normal.para.spacing">
+  <xsl:attribute name="space-before.optimum">0.7em</xsl:attribute>
+  <xsl:attribute name="space-before.minimum">0.6em</xsl:attribute>
+  <xsl:attribute name="space-before.maximum">0.9em</xsl:attribute>
 </xsl:attribute-set>
 
 <!-- ajout d'un timestamp dans les infos du livre-->
