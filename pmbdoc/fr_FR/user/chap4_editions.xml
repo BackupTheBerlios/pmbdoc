@@ -17,6 +17,76 @@
   </figure>
 
   <sect1>
+    <title lang="fr">États</title>
+
+    <sect2 id="edit_procs">
+      <title lang="fr">États personnalisables</title>
+
+      <para lang="fr">Cette fonction de l'onglet <emphasis>Editions</emphasis>
+      permet d'afficher à l'écran l'édition de résultats de procédures
+      stockées, personnalisables dans l'onglet administration. Ces procédures
+      sont rédigées en langage SQL et seront interprétées par le SGBD
+      fonctionnant avec PHP sur lequel tourne votre serveur.</para>
+
+      <para lang="fr">Si vous avez chargé le jeu de test opérationnel
+      (data_test.sql, pour plus d'informations consultez le <emphasis>Guide de
+      l'Administrateur PMB</emphasis>, chapitre <emphasis>Données
+      minimum</emphasis>), vous disposez de différents états
+      personnalisables.</para>
+
+      <para lang="fr">Un certain nombre de procédures sont d'emblée
+      accessibles. Leurs noms sont normalement suffisamment évocateurs. En cas
+      de doute, lancez la procédure et examinez son résultat pour en
+      comprendre le fonctionnement.</para>
+
+      <figure>
+        <title lang="fr">Éditions &gt; États &gt; Personnalisables</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="7cm"
+                       fileref="images/editions_etats_perso.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang="fr">Pour lancer un état personnalisable, cliquez sur le
+      libellé de l'état. Si des paramètres sont à spécifier, un écran
+      intermédiaire est affiché.</para>
+
+      <figure>
+        <title lang="fr">Éditions &gt; États &gt; Personnalisables, choix des
+        paramètres</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="7cm"
+                       fileref="images/etatperso-params.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <figure>
+        <title lang="fr">Éditions &gt; États &gt; Personnalisables, affichage
+        des résultats d'un état personnalisable</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="7cm"
+                       fileref="images/etats-perso-result.gif" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para lang="fr">En bas de la page, vous pouvez modifier le nombre de
+      résultats affichés par page. Après avoir modifié ce nombre, cliquez sur
+      <emphasis>Recharger</emphasis> pour appliquer les changements. Vous
+      pouvez également exporter vers Excel (icône de gauche) ou vers un
+      tableur au format HTML pour OpenOffice (icône de droite).</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
     <title lang="fr">Prêts</title>
 
     <para lang="fr">Cette partie du menu vous permet d'accéder à des
@@ -47,19 +117,35 @@
 
       <para lang="fr">En dessous des résultats, vous pouvez modifier le nombre
       des résultats de la recherche qui seront affichés sur une seule page.
-      Pour modifier ce chiffre, effacer le et remplacez le par la valeur
+      Pour modifier ce chiffre, effacez le et remplacez le par la valeur
       désirée puis cliquez sur <emphasis
       role="bold">Actualiser</emphasis>.</para>
 
-      <para lang="fr">Les emails ou lettres de relance sont paramétrables en
-      partie Administration (voir le <emphasis>Guide de l'Administration
-      PMB</emphasis>).</para>
-
       <para lang="fr">Pour expédier un mail de relance à un lecteur pour un
-      exemplaire en retard, cliquez sur l'icône (l'icône n'est pas visible si
+      exemplaire en retard, cliquez sur l'icône
+		<inlinemediaobject>
+          <imageobject>
+            <imagedata
+                       fileref="images/mail.png" />
+          </imageobject>
+        </inlinemediaobject>
+	  (l'icône n'est pas visible si
       l'adresse mail du lecteur n'est pas renseignée). Pour afficher une
-      lettre de relance prête à imprimer cliquez sur l'icône<graphic
-      fileref="images/new.gif" /></para>
+      lettre de relance prête à imprimer cliquez sur l'icône
+		
+		<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="images/new.gif"/>
+	            </imageobject>
+        </inlinemediaobject>
+	  </para>
+
+      <important><para lang="fr">Le contenu des emails ou lettres de relance sont paramétrables dans l'onglet Administration,
+		via <emphasis>Administration > Outils > Paramètres</emphasis>, développez Lettres de retard et Mails de retard 
+		(voir le <emphasis>Guide de l'Administration
+      PMB</emphasis>).</para></important>
+
+
     </sect2>
 
     <sect2 id="edit_expl_retard">
@@ -87,7 +173,7 @@
       <para>Pour relancer en une seule fois par mail tous vos lecteurs en
       retard, vous devez activer la gestion des relances multiples.</para>
 
-      <para>Pour cela, dans <emphasis>Administration</emphasis> &gt;
+      <important><para>Pour cela, dans <emphasis>Administration</emphasis> &gt;
       <emphasis>Outils</emphasis> &gt; <emphasis>Paramètres</emphasis>,
       <emphasis>paramètres généraux</emphasis>, passez
       <emphasis>gestion_financiere</emphasis> à 1 et
@@ -95,7 +181,13 @@
       gérées dans PMB avec les amendes. Pour utiliser la relance multiple sans
       placer d'amendes, définissez le montant des amendes à 0 dans
       <emphasis>Administration </emphasis>&gt; <emphasis>Gestion
-      financière</emphasis>.</para>
+      financière</emphasis>.</para></important>
+		
+			<para>Une fois les relances multiples activées, elles se gèrent via
+				<emphasis>Circulation > Relances à faire</emphasis>. Attention,
+				les relances faites depuis l'onglet <emphasis>Edition</emphasis> 
+				ou depuis la fiche lecteur ne sont pas prises en compte
+				dans le suivi des relances multiples.</para>
 
       <figure>
         <title lang="fr">Lettre de relance (PDF) pour un lecteur</title>
@@ -117,7 +209,7 @@
       le bibliothécaire dépend. Pour consulter cette localisation, ouvrez vos
       préférences (icône engrenage en haut à droite de l'écran), et consultez
       la valeur de <emphasis>site de gestion par défaut des
-      lecteurs</emphasis>. LOes coordonnées de cette localisation sont ensuite
+      lecteurs</emphasis>. Les coordonnées de cette localisation sont ensuite
       modifiables via <emphasis>Administration</emphasis> &gt;
       <emphasis>Exemplaires</emphasis> puis
       <emphasis>Localisation</emphasis>.</para>
@@ -191,7 +283,7 @@
       <para lang="fr">Affiche la liste des réservations en cours.</para>
 
       <figure>
-        <title lang="fr">Editions &gt; Réservations &gt; Réservations</title>
+        <title lang="fr">Editions &gt; Réservations &gt; En cours</title>
 
         <mediaobject>
           <imageobject>
@@ -329,12 +421,13 @@
       <para lang="fr">Vous pouvez également afficher les lecteurs avec une fin
       d'abonnement proche, où dont l'abonnement est déjà expiré.</para>
 
-      <para lang="fr">PMB considère les lecteurs comme ayant un abonnement
-      bientôt expiré par rapport à la lettre de relance pour l'abonnement. Ce
+      <para lang="fr">PMB définit les lecteurs comme ayant un abonnement
+      bientôt expiré en fonction d'un délai, défini par défaut à 31 jours.</para>
+		<important><para>Ce
       délai est configuré dans les paramètres de PMB. Pour plus
       d'informations, consultez le <emphasis>Guide de l'Administrateur de
       PMB</emphasis>, chapitre <emphasis>Outils</emphasis>, section
-      <emphasis>Paramètres</emphasis>.</para>
+      <emphasis>Paramètres</emphasis>.</para></important>
 
       <figure>
         <title lang="fr">Éditions &gt; Lecteurs, fin d'abonnement
@@ -429,75 +522,6 @@
     </sect2>
   </sect1>
 
-  <sect1>
-    <title lang="fr">États</title>
-
-    <sect2 id="edit_procs">
-      <title lang="fr">États personnalisables</title>
-
-      <para lang="fr">Cette fonction de l'onglet <emphasis>Editions</emphasis>
-      permet d'afficher à l'écran l'édition de résultats de procédures
-      stockées, personnalisables dans l'onglet administration. Ces procédures
-      sont rédigées en langage SQL et seront interprétées par le SGBD
-      fonctionnant avec PHP sur lequel tourne votre serveur.</para>
-
-      <para lang="fr">Si vous avez chargé le jeu de test opérationnel
-      (data_test.sql, pour plus d'informations consultez le <emphasis>Guide de
-      l'Administrateur PMB</emphasis>, chapitre <emphasis>Données
-      minimum</emphasis>), vous disposez de différents états
-      personnalisables.</para>
-
-      <para lang="fr">Un certain nombre de procédures sont d'emblée
-      accessibles. Leurs noms sont normalement suffisamment évocateurs. En cas
-      de doute, lancez la procédure et examinez son résultat pour en
-      comprendre le fonctionnement.</para>
-
-      <figure>
-        <title lang="fr">Éditions &gt; États &gt; Personnalisables</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata contentwidth="10cm"
-                       fileref="images/editions_etats_perso.gif" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para lang="fr">Pour lancer un état personnalisable, cliquez sur le
-      libellé de l'état. Si des paramètres sont à spécifier, un écran
-      intermédiaire est affiché.</para>
-
-      <figure>
-        <title lang="fr">Éditions &gt; États &gt; Personnalisables, choix des
-        paramètres</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata contentwidth="10cm"
-                       fileref="images/etatperso-params.gif" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <figure>
-        <title lang="fr">Éditions &gt; États &gt; Personnalisables, affichage
-        des résultats d'un état personnalisable</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata contentwidth="10cm"
-                       fileref="images/etats-perso-result.gif" />
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para lang="fr">En bas de la page, vous pouvez modifier le nombre de
-      résultats affichés par page. Après avoir modifié ce nombre, cliquez sur
-      <emphasis>Recharger</emphasis> pour appliquer les changements. Vous
-      pouvez également exporter vers Excel (icône de gauche) ou vers un
-      tableur au format HTML pour OpenOffice (icône de droite).</para>
-    </sect2>
-  </sect1>
 
   <sect1>
     <title lang="fr">Codes barres</title>
@@ -539,7 +563,7 @@
       retrouvez la mise en page qui avait été configurée avant.</para>
 
       <para lang="fr">Vous pouvez contrôler visuellement le résultat,
-      éventuellement le sauvegarder et imprimer.</para>
+      éventuellement sauvegarder le PDF généré et imprimer.</para>
 
       <para>La mise en page des étiquettes est conservée d'une fois sur
       l'autre.</para>

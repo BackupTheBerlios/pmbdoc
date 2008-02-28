@@ -462,7 +462,7 @@
     
       <sect2 id="categ_pmb">
       
-         <title lang="fr">Thesauri et catégories de PMB</title>
+         <title lang="fr">Thésaurus et catégories de PMB</title>
       
 
 
@@ -478,8 +478,8 @@
 	 
 
       
-         <para lang="fr">Avec les catégories, et en s'efforçant de promouvoir des thesauri
-      très hiérarchisé affirmée, on peut présenter un OPAC « à la
+         <para lang="fr">Avec les catégories, et en s'efforçant de promouvoir des thésaurus
+      très hiérarchisé, on peut présenter un OPAC « à la
       yahoo ».</para>
 	  
       
@@ -496,13 +496,13 @@
 	  
 
       
-         <para lang="fr">Si tous les thesauri agréables à utiliser possèdent cet aspect
+         <para lang="fr">Si tous les thésaurus agréables à utiliser possèdent cet aspect
       hiérarchique avancé, ceux qui présentent trop de termes à un même niveau
       rendent une navigation directe impossible. On devra alors désactiver
       dans l'OPAC de PMB le navigateur de catégories. Les catégories seront
       alors accessibles seulement en recherche. Pour plus d'informations,
-      consulter le Guide de l'Administrateur PMB, chapitre Outils, section
-      Paramètres.</para>
+      consulter le Guide de l'Administrateur PMB, chapitre <emphasis>Outils</emphasis>, section
+      <emphasis>Paramètres</emphasis>.</para>
 
       
 	  
@@ -567,9 +567,9 @@
                <para lang="fr">
                   <emphasis role="bold">libellé
           </emphasis>
-                  <emphasis>[commentaire]</emphasis> &lt; catégorie
-          parente, voir renvoi voir, voir aussi renvoi voir
-          aussi.Individus</para>
+                  [<emphasis>commentaire</emphasis>] &lt; <emphasis>catégorie
+          parente</emphasis>, voir <emphasis>renvoi voir</emphasis>, voir aussi <emphasis>renvoi voir
+          aussi</emphasis></para>
 		  
           
 		  
@@ -1039,8 +1039,8 @@
         
             <para lang="fr">La recherche par termes est également accessible dans l'OPAC,
         mais peut être désactivée. Pour plus d'informations sur le paramétrage
-        de l'OPAC, consulter le Guide de l'Administrateur de PMB, chapitre
-        Outils, section Paramètres.</para>
+        de l'OPAC, consulter le <emphasis>Guide de l'Administrateur de PMB</emphasis>, chapitre
+        <emphasis>Outils</emphasis>, section <emphasis>Paramètres</emphasis>.</para>
 		
         
 		
@@ -1592,27 +1592,27 @@
             
 			
 
-            <itemizedlist>
+            <orderedlist>
               
-               <listitem>1.ajouter la catégorie Participant &gt; Sources de
+               <listitem>ajouter la catégorie Participant &gt; Sources de
               données officielles</listitem>
 			  
 
               
-               <listitem>2.(recommandé) lancer une recherche sur les documents
+               <listitem>(recommandé) lancer une recherche sur les documents
               catalogués dans Participant et recataloguer le cas
               échéant</listitem>
 
               
-               <listitem>3.(optionnel) lancer une recherche sur les documents
+               <listitem>(optionnel) lancer une recherche sur les documents
               catalogués dans Participant &gt; Editeur inscrit, Participant
               &gt; Editeur non-inscrit et recataloguer le cas
               échéant</listitem>
 
               
-               <listitem>4.(facultatif) vérifier l'ensemble des notices
+               <listitem>(facultatif) vérifier l'ensemble des notices
               cataloguées.</listitem>
-            </itemizedlist>
+            </orderedlist>
           </sect3>
 
           <sect3>
@@ -1672,7 +1672,8 @@
             <para lang="fr">Recataloguer ensuite chacune des notices dans la catégorie
             parente du terme à supprimer.</para>
 			
-            
+            <para>Vous pouvez également utiliser une procédure d'action sur un panier
+				pour affecter une catégorie à toutes les notices d'un panier.</para>
 			
           </sect3>
 
@@ -1900,29 +1901,26 @@
 
             <para lang="fr">Par exemple,</para>
             
-			
-
+            <itemizedlist>
+               <listitem>
             <para lang="fr">Géographie : Europe : Belgique <emphasis>voir aussi
             </emphasis>Unions économiques et/ou politiques : Bénélux.</para>
-            
+</listitem></itemizedlist>            
 			
 
             <para lang="fr">On pourra également avoir</para>
             
-			
-
+			<itemizedlist>
+				<listitem>
             <para lang="fr">Unions économiques et/ou politiques : Union Européenne :
             zone Euro <emphasis>voir aussi </emphasis>France ; Bénélux ;
             Allemagne ; ...</para>
-
-            
-
+				</listitem>				
+			</itemizedlist>
 
             <para lang="fr">En suivant notre thésaurus exemple, on peut par exemple
             faire un renvoi voir aussi entre Editeur non-inscrit et
             Lecteurs.</para>
-
-            
 
           </sect3>
         </sect2>
